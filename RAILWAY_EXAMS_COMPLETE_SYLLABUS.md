@@ -8,12 +8,12 @@
 | Exam Name | Notification No. | Total Vacancies | Key Changes / Remarks |
 | :--- | :--- | :---: | :--- |
 | **RRB ALP (Assistant Loco Pilot 2026)** | **CEN 01/2026** *(Official PDF)* | **11,127** | **New 2026 Cycle:** UR 4860, OBC 2598, SC 1746, EWS 1004, ST 919, ExSM 1115. Merit Ratio changed to **50:50** (CBT-2 Part A + CBAT). Mandatory Self-Screening Medical Declaration (Annexure VIII-A & B). |
+| **RRB Group D (Level-1 Posts 2025)** | **CEN 09/2025** *(Official PDF)* | **22,195** | **New Official Notice:** 10th pass fully eligible without ITI! 100 Qs Single CBT + PET (35kg/20kg) + 1/3rd NCVT marks weightage for CCAA. Online Apply: 31.01.2026 to 02.03.2026. |
 | **RRB NTPC (Graduate Level)** | CEN 05/2024 | **8,113** | Station Master, Goods Guard, Senior Clerk, Accounts Assistant. |
 | **RRB NTPC (Undergraduate 10+2)** | CEN 06/2024 | **3,445** | Commercial cum Ticket Clerk, Accounts Clerk, Junior Clerk Typist. |
 | **RRB Technician (Grade 1 & 3)** | CEN 02/2024 | **9,144+** | **Pattern Changed:** Single-Stage CBT! Gr 1 Signal (1,092) & Gr 3 (8,052). |
 | **RPF Sub-Inspector (SI)** | CEN 01/2024 | **452** | Graduation Level CBT + PMT/PET. |
 | **RPF Constable** | CEN 02/2024 | **4,208** | 10th Pass Level CBT + PMT/PET. |
-| **RRB Group D (RRC Level-1)** | Upcoming 2025-26 | **Mega Drive** | 100 Qs CBT + 35kg Weight PET + Medical B1/C1. |
 
 ---
 
@@ -146,19 +146,72 @@
 
 ---
 
-### 4. 🦺 RRB Group D (RRC Level-1 Posts)
+### 4. 🦺 RRB Group D (Level-1 Posts) — Official CEN 09/2025 (22,195 Posts)
 ```
-[Stage 1: Single CBT] ──► [Stage 2: PET (Physical)] ──► [Stage 3: DV] ──► [Stage 4: Medical Exam (A2/B1/C1)] ──► [Final Result]
+[Stage 1: Single CBT] ──► [Stage 2: PET (Physical)] ──► [Stage 3: DV (1:1 Ratio)] ──► [Stage 4: Medical Exam (A2/A3/B1/C1)] ──► [Final Empanelment]
 ```
-1. **Stage 1: Single CBT (100 Qs / 90 Mins):**
-   * Science: 25 Qs | Reasoning: 30 Qs | Maths: 25 Qs | GA: 20 Qs.
-   * Shortlisted for PET: **3 times vacancy**.
-2. **Stage 2: Physical Efficiency Test (PET - Qualifying):**
-   * **Male:** 35 kg weight carry for 100 meters in 2 minutes (without putting down) + 1000m running in 4 min 15 sec (1 chance).
-   * **Female:** 20 kg weight carry for 100 meters in 2 minutes + 1000m running in 5 min 40 sec.
-3. **Stage 3: Document Verification (DV):** 1:1 ratio.
-4. **Stage 4: Medical Examination (Standard A-2, B-1, C-1 as per post).**
-5. **Stage 5: Final Appointment & Division Posting.**
+
+#### 📅 Important Dates (CEN 09/2025):
+* **Date of Indicative Notice in Employment News:** 27.12.2025
+* **Opening Date of Online Application:** 31.01.2026 (00:00 Hrs)
+* **Closing Date of Online Application:** 02.03.2026 (23:59 Hrs)
+* **Last Date for Application Fee Payment:** 04.03.2026 (23:59 Hrs)
+* **Modification Window for Corrections:** 05.03.2026 to 14.03.2026 (23:59 Hrs)
+* **Scribe Details Submission Window:** 15.03.2026 to 19.03.2026
+
+#### 💰 Pay Scale & Age Limit:
+* **Pay Level:** Level-1 in 7th CPC Pay Matrix (Initial Pay ₹18,000/- per month + DA, HRA, Transport Allowance).
+* **Age Limit (as on 01.01.2026):** **18 – 33 Years**
+  * UR & EWS: Born between 02.01.1993 and 01.01.2008
+  * OBC (Non-Creamy Layer): Born between 02.01.1990 and 01.01.2008 (+3 Years relaxation)
+  * SC / ST: Born between 02.01.1988 and 01.01.2008 (+5 Years relaxation)
+  * PwBD: +10 Years (UR), +13 Years (OBC), +15 Years (SC/ST)
+  * Ex-Servicemen: Length of service + 3 years (UR), +6 years (OBC), +8 years (SC/ST)
+
+#### 🎓 Prescribed Minimum Educational Qualification (CRITICAL RULE):
+* **"10th pass OR ITI OR equivalent OR National Apprenticeship Certificate (NAC) granted by NCVT"**
+* 💡 **Key Candidate Relief:** *Simple 10th pass candidates are completely eligible to apply without any ITI certificate for all notified posts!*
+* Engineering Diploma / Degree is NOT accepted in lieu of ITI / CCAA for Level-1.
+
+#### 📝 Selection Stages & Exam Pattern:
+1. **Stage 1: Single-Stage CBT (Computer Based Test):**
+   * **Pattern:** 100 Questions | 90 Minutes (120 Mins for eligible scribe candidates) | 100 Marks.
+   * **Negative Marking:** 1/3rd mark deducted for each wrong answer (-0.33).
+   * **Subject Breakdown:**
+     * **General Intelligence & Reasoning:** 30 Questions (30 Marks)
+     * **Mathematics:** 25 Questions (25 Marks)
+     * **General Science:** 25 Questions (25 Marks - 10th CBSE NCERT Physics, Chemistry, Biology)
+     * **General Awareness & Current Affairs:** 20 Questions (20 Marks - Science & Tech, Sports, Economics, Polity)
+   * **Qualifying Pass %:** UR: 40%, EWS: 40%, OBC (NCL): 30%, SC: 30%, ST: 30% (Relaxable by 2% for PwBD in case of shortage).
+   * **Shortlisting for PET:** **3 times (3x)** the community-wise vacancies based on normalized CBT marks.
+
+2. **Stage 2: Physical Efficiency Test (PET - Mandatory & Qualifying):**
+   * Test conducted in two sequential stages (Weight carry first, then running after recovery gap):
+   * **Male Candidates:**
+     1. Lift & carry **35 kg weight for 100 meters in 2 minutes** in one chance without putting the weight down.
+     2. Run for **1,000 meters (1 km) in 4 minutes and 15 seconds** in one chance.
+   * **Female & Transgender Candidates:**
+     1. Lift & carry **20 kg weight for 100 meters in 2 minutes** in one chance without putting the weight down.
+     2. Run for **1,000 meters (1 km) in 5 minutes and 40 seconds** in one chance.
+   * **🚨 PET Exemptions:**
+     * **PwBD candidates** are 100% exempted from PET (must pass PwBD medical standard after CBT).
+     * **Course Completed Act Apprentices (CCAA)** are 100% exempted from PET.
+     * **Ex-Servicemen (ExSM)** are 100% exempted from PET.
+   * **⭐ Railway Act Apprentices (CCAA) 1/3rd Weightage (Para 12.0):**
+     * CCAA candidates receive **one-third (1/3rd) weightage** of their NCVT marks directly added to their CBT score in preparation of the final merit list!
+
+3. **Stage 3: Document Verification (DV):**
+   * Called in exact **1:1 ratio** based on merit in CBT (subject to qualifying PET).
+   * Tie-breaker: Older candidate ranked higher; then alphabetical order of given name.
+
+4. **Stage 4: Medical Examination (ME):**
+   * **A-2:** Pointsman B (Distant 6/9 without glasses, near Sn 0.6 without glasses, color vision).
+   * **A-3:** Assistant Track Machine (Distant 6/9 with/without glasses up to 2D, color vision).
+   * **B-1:** Track Maintainer Gr IV, Assistant Bridge, Assistant Carriage & Wagon, Assistant Loco Shed, Assistant P.Way, Assistant S&T (Signal), Assistant TRD, Assistant TL & AC (Distant 6/9, 6/12 with/without glasses up to 4D, color vision).
+   * **C-1:** Assistant Operations Electrical (Workshop), Assistant S&T (Workshop) (Distant 6/12, 6/18 with/without glasses, reading glasses allowed).
+
+5. **Stage 5: Final Empanelment & Division Allotment:**
+   * Empanelled by respective RRCs across 16 Railway Zones (Western, North Western, Northern, Central, Eastern, East Central, Southern, South Central, South Eastern, etc.).
 
 ---
 

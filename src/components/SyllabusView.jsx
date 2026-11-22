@@ -23,7 +23,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
             <span>Official Railway Board CEN Notifications 2024-2026</span>
           </div>
           <span className="text-xs bg-amber-500/10 text-amber-300 border border-amber-500/30 px-2.5 py-1 rounded-full font-bold">
-            CEN 01/2026 (ALP 11,127 Posts) Updated
+            CEN 01/2026 (ALP 11,127 Posts) & CEN 09/2025 (Group D 22,195 Posts) Updated
           </span>
         </div>
 
@@ -31,7 +31,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
           Railway Recruitment: Vacancies, Selection Pipeline & Official Syllabus
         </h2>
         <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-3xl">
-          Complete verified roadmap for RRB ALP (11,127 posts CEN 01/2026), NTPC (11,558 posts), Technician (9,144 posts), Group D, and RPF with every single stage: CBT-1, CBT-2, CBAT/Psycho, Typing, PET, DV, and Medical standards.
+          Complete verified roadmap for RRB ALP (11,127 posts CEN 01/2026), Group D (22,195 posts CEN 09/2025), NTPC (11,558 posts), Technician (9,144 posts), and RPF with every single stage: CBT, PET, CBAT/Psycho, Typing, DV, and Medical standards.
         </p>
       </div>
 
@@ -266,16 +266,108 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
               <div className="flex items-center gap-2 pb-3 border-b border-slate-800">
                 <Stethoscope className="w-4 h-4 text-sky-400" />
                 <h4 className="text-sm font-bold text-white uppercase tracking-wider">
-                  A-1 Medical Examination Parameters & CBAT Self-Screening
+                  Official Medical Fitness Standards & Vision Parameters
                 </h4>
               </div>
               <div className="space-y-3 mt-3 text-xs">
                 {activeExam.medicalBreakdown.map((mb, idx) => (
                   <div key={idx} className="p-3 rounded-2xl bg-slate-950/60 border border-slate-800/80 flex flex-col sm:flex-row sm:items-start gap-2">
-                    <span className="font-bold text-sky-300 sm:w-44 shrink-0">{mb.param}:</span>
+                    <span className="font-bold text-sky-300 sm:w-48 shrink-0">{mb.param}:</span>
                     <span className="text-slate-300">{mb.detail}</span>
                   </div>
                 ))}
+              </div>
+            </div>
+          )}
+
+          {/* PET (Physical Efficiency Test) Criteria if available */}
+          {activeExam.petDetails && (
+            <div className="p-5 sm:p-6 rounded-3xl bg-slate-900/70 border border-purple-500/30 shadow-xl">
+              <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+                <div className="flex items-center gap-2">
+                  <Activity className="w-4 h-4 text-purple-400" />
+                  <h4 className="text-sm font-bold text-white uppercase tracking-wider">
+                    Physical Efficiency Test (PET) — Stage 2 Qualifying
+                  </h4>
+                </div>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-300 font-bold border border-purple-500/30">
+                  3x Shortlisted Candidates
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 text-xs">
+                {/* Male */}
+                <div className="p-4 rounded-2xl bg-slate-950/70 border border-slate-800">
+                  <div className="font-bold text-teal-300 mb-1.5 flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-teal-400"></span>
+                    <span>Male Candidates</span>
+                  </div>
+                  <p className="text-slate-300 leading-relaxed">{activeExam.petDetails.male}</p>
+                </div>
+
+                {/* Female */}
+                <div className="p-4 rounded-2xl bg-slate-950/70 border border-slate-800">
+                  <div className="font-bold text-pink-300 mb-1.5 flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-pink-400"></span>
+                    <span>Female & Transgender Candidates</span>
+                  </div>
+                  <p className="text-slate-300 leading-relaxed">{activeExam.petDetails.female}</p>
+                </div>
+              </div>
+
+              {/* PET Exemptions & CCAA 1/3 Weightage */}
+              <div className="mt-4 p-3.5 rounded-2xl bg-purple-950/30 border border-purple-500/30 space-y-2 text-xs">
+                <div className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-purple-400 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="font-bold text-purple-300">PET Exemptions: </span>
+                    <span className="text-slate-300">{activeExam.petDetails.exemptions}</span>
+                  </div>
+                </div>
+                {activeExam.petDetails.ccaaBenefit && (
+                  <div className="flex items-start gap-2">
+                    <Sparkles className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-bold text-amber-300">Railway Act Apprentices (CCAA) 1/3rd Weightage: </span>
+                      <span className="text-slate-300">{activeExam.petDetails.ccaaBenefit}</span>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Posts List & Parameters Table if available */}
+          {activeExam.postsList && (
+            <div className="p-5 sm:p-6 rounded-3xl bg-slate-900/70 border border-slate-800 shadow-xl">
+              <div className="flex items-center gap-2 pb-3 border-b border-slate-800">
+                <BookOpen className="w-4 h-4 text-emerald-400" />
+                <h4 className="text-sm font-bold text-white uppercase tracking-wider">
+                  Level-1 Post Parameters: Dept & Medical Standard (Annexure-A)
+                </h4>
+              </div>
+              <p className="text-xs text-slate-400 mt-2 mb-3">
+                All posts require 10th pass OR ITI OR NAC granted by NCVT. Simple 10th pass candidates are eligible for all posts.
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-xs">
+                  <thead>
+                    <tr className="border-b border-slate-800 text-slate-400">
+                      <th className="pb-2 font-bold uppercase">Post / Designation</th>
+                      <th className="pb-2 font-bold uppercase">Department</th>
+                      <th className="pb-2 font-bold uppercase text-right">Medical Std.</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-800/60">
+                    {activeExam.postsList.map((p, idx) => (
+                      <tr key={idx} className="hover:bg-slate-800/30">
+                        <td className="py-2.5 font-bold text-slate-200">{p.post}</td>
+                        <td className="py-2.5 text-slate-400">{p.dept}</td>
+                        <td className="py-2.5 text-right font-black text-teal-400">{p.medStd}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
             </div>
           )}

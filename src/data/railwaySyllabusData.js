@@ -327,41 +327,106 @@ export const RAILWAY_SYLLABUS = [
   },
   {
     id: 'rrb-group-d',
-    name: 'RRB Group D (RRC Level-1 Posts)',
-    shortName: 'Group D (Trackman/Pointsman)',
-    tag: 'Mega Drive • 100 Qs + PET',
+    name: 'RRB Group D (Level-1 Posts - CEN 09/2025)',
+    shortName: 'Group D (Level-1 2025)',
+    tag: '22,195 Official Vacancies',
     badgeColor: 'purple',
-    notificationNo: 'RRC Level-1 Centralised Employment Notice',
-    totalVacancies: 'Upcoming Central Mega Drive (Track Maintainer, Pointsman, Assistant Workshop)',
-    medicalStandard: 'A-2, B-1, C-1 as per specific Level-1 post profile',
+    notificationNo: 'CEN No. 09/2025 (Official Railway Board Notice)',
+    totalVacancies: '22,195 Posts (Across 16 Railway Zones / RRCs)',
+    payScale: 'Level-1 (7th CPC Pay Matrix) • Initial Pay ₹18,000/- + DA, HRA, Allowances',
+    ageLimit: '18 – 33 Years (as on 01.01.2026) [+3 yrs OBC, +5 yrs SC/ST, +10 yrs PwBD]',
+    qualification: '10th Pass OR ITI (NCVT/SCVT) OR National Apprenticeship Certificate (NAC) granted by NCVT. (Simple 10th Pass candidates are fully ELIGIBLE without ITI!)',
+    meritFormula: '100% CBT Marks (Normalized) + 1/3rd (one-third) NCVT Examination Marks Weightage for Railway Act Apprentices (CCAA)',
+    dates: {
+      indicativeNotice: '27.12.2025',
+      applyStart: '31.01.2026 (00:00 Hrs)',
+      applyEnd: '02.03.2026 (23:59 Hrs)',
+      feeLastDate: '04.03.2026 (23:59 Hrs)',
+      editWindow: '05.03.2026 to 14.03.2026 (23:59 Hrs)',
+      scribeWindow: '15.03.2026 to 19.03.2026'
+    },
+    medicalStandard: 'A-2 (Pointsman B), A-3 (Track Machine), B-1 (Track Maintainer, Bridge, C&W, Loco Shed, P.Way, S&T, TRD), C-1 (Workshop Operations)',
+    medicalBreakdown: [
+      { param: 'A-2 Standard (Pointsman B)', detail: 'Distant Vision: 6/9, 6/9 without glasses (no fogging test). Near Vision: Sn: 0.6, 0.6 without glasses. Full color vision, binocular, night & mesopic vision.' },
+      { param: 'A-3 Standard (Asst Track Machine)', detail: 'Distant Vision: 6/9, 6/9 with or without glasses (power not exceeding 2D). Near Vision: Sn: 0.6, 0.6 with/without glasses.' },
+      { param: 'B-1 Standard (Track Maintainer, Loco Shed, Bridge)', detail: 'Distant Vision: 6/9, 6/12 with or without glasses (power not exceeding 4D). Near Vision: Sn: 0.6, 0.6 when reading or close work.' },
+      { param: 'C-1 Standard (Workshop Operations, Workshop S&T)', detail: 'Distant Vision: 6/12, 6/18 with or without glasses. Near Vision: Sn: 0.6 with/without glasses for reading.' }
+    ],
+    petDetails: {
+      male: '1. Lift & carry 35 kg weight for 100 meters in 2 minutes in 1 chance without dropping sandbag. 2. Run 1,000 meters in 4 minutes 15 seconds in 1 chance.',
+      female: '1. Lift & carry 20 kg weight for 100 meters in 2 minutes in 1 chance without dropping sandbag. 2. Run 1,000 meters in 5 minutes 40 seconds in 1 chance (same for Transgender).',
+      exemptions: 'PwBD, Course Completed Act Apprentices (CCAA), and Ex-Servicemen (ExSM) are 100% EXEMPTED from PET.',
+      ccaaBenefit: 'Course Completed Act Apprentices (CCAA) receive 1/3rd (one-third) weightage of NCVT marks directly in the final merit score after CBT.'
+    },
+    postsList: [
+      { post: 'Track Maintainer Grade-IV', dept: 'Engineering (P.Way)', medStd: 'B-1' },
+      { post: 'Pointsman B', dept: 'Traffic', medStd: 'A-2' },
+      { post: 'Assistant Track Machine', dept: 'Engineering', medStd: 'A-3' },
+      { post: 'Assistant Bridge', dept: 'Engineering', medStd: 'B-1' },
+      { post: 'Assistant Carriage & Wagon', dept: 'Mechanical', medStd: 'B-1' },
+      { post: 'Assistant Loco Shed (Electrical & Diesel)', dept: 'Electrical / Mech', medStd: 'B-1' },
+      { post: 'Assistant P.Way', dept: 'Engineering', medStd: 'B-1' },
+      { post: 'Assistant (S and T) - Signal', dept: 'Signal & Telecom', medStd: 'B-1' },
+      { post: 'Assistant TRD (Traction Distribution)', dept: 'Electrical', medStd: 'B-1' },
+      { post: 'Assistant TL & AC', dept: 'Electrical', medStd: 'B-1' },
+      { post: 'Assistant Operations (Electrical) Workshop', dept: 'Electrical', medStd: 'C-1' },
+      { post: 'Assistant (S and T) Workshop', dept: 'Signal & Telecom', medStd: 'C-1' }
+    ],
     pipeline: [
-      { step: '1', title: 'Single Stage CBT', type: 'Merit', desc: '100 Qs / 90 Mins. 3x candidates shortlisted for PET.' },
-      { step: '2', title: 'Physical Efficiency Test (PET)', type: 'Endurance', desc: 'Male: 35 kg weight carry 100m in 2 min + 1000m running in 4m 15s | Female: 20 kg carry + 1000m in 5m 40s.' },
-      { step: '3', title: 'Document Verification (DV)', type: 'DV', desc: '1:1 ratio document validation.' },
-      { step: '4', title: 'Medical Examination', type: 'Medical', desc: 'Detailed medical checkup (A-2 for Pointsman, B-1 for Workshop/Trackman).' },
-      { step: '5', title: 'Final Appointment & Division Posting', type: 'Final', desc: 'Division allocation in respective Railway Zones.' }
+      { step: '1', title: 'Single Stage CBT', type: 'Merit Decider', desc: '100 Qs / 90 Mins. Negative: -1/3. 3x candidates shortlisted for PET based on normalized marks.' },
+      { step: '2', title: 'Physical Efficiency Test (PET)', type: 'Qualifying', desc: 'Male: 35 kg carry 100m (2 min) + 1000m run (4m 15s) | Female: 20 kg carry + 1000m run (5m 40s). PwBD/CCAA/ExSM Exempted.' },
+      { step: '3', title: 'Document Verification (DV)', type: 'DV (1:1 Ratio)', desc: '1:1 ratio matching exact vacancies. Verification of 10th/ITI marksheet, NCVT certificate & Caste/EWS status.' },
+      { step: '4', title: 'Medical Examination (ME)', type: 'Medical (A-2 to C-1)', desc: 'Railway Medical Board fitness test: A-2 (Pointsman), A-3 (Track Machine), B-1 (Trackman), C-1 (Workshop).' },
+      { step: '5', title: 'Final Merit & Empanelment', type: 'Final Allotment', desc: '100% CBT score (+ 1/3rd NCVT weightage for CCAA) determines division and unit posting across 16 Railway Zones.' }
     ],
     stages: [
       {
-        stageName: 'Single Stage CBT (100 Questions / 90 Minutes)',
-        duration: '90 Minutes',
+        stageName: 'Computer Based Test - CBT (100 Questions / 90 Minutes)',
+        duration: '90 Minutes (120 Mins for Scribes)',
         totalQuestions: 100,
         totalMarks: 100,
-        marking: '+1.00 Correct, -0.33 Negative',
+        marking: '+1.00 Correct, -0.33 Negative (3x Shortlisted for PET)',
+        passPercentage: 'UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 30% (PwBD relaxed by 2% if shortage)',
         table: [
           { subject: 'General Intelligence & Reasoning', questions: 30, marks: 30 },
-          { subject: 'Mathematics', questions: 25, marks: 25 },
-          { subject: 'General Science (Strictly NCERT 10th Physics, Chemistry, Biology)', questions: 25, marks: 25 },
-          { subject: 'General Awareness & Current Affairs', questions: 20, marks: 20 },
+          { subject: 'Mathematics (Arithmetic & Pure Maths)', questions: 25, marks: 25 },
+          { subject: 'General Science (10th CBSE Physics, Chemistry, Biology)', questions: 25, marks: 25 },
+          { subject: 'General Awareness on Current Affairs (Tech, Sports, Economics)', questions: 20, marks: 20 },
         ]
       }
     ],
     subjectBreakdown: [
       {
-        subject: 'Science (25 Marks) & Reasoning (30 Marks) Strategy',
+        subject: 'General Science (25 Marks - 10th CBSE NCERT Level)',
         topics: [
-          'General Science strictly follows NCERT Class 9th & 10th textbooks line by line.',
-          'Reasoning: Linear and circular sitting arrangements, Syllogisms, and Statement-Conclusion dominate.'
+          'Physics: Newton’s Laws of Motion, Work, Energy & Power, Gravitation, Sound waves, Light (Reflection & Refraction, Lenses/Mirrors), Ohm’s Law, Resistance in Series/Parallel, Magnetic Effects of Electric Current',
+          'Chemistry: Chemical Reactions & Equations, Acids, Bases & Salts, Metals and Non-Metals, Carbon & its Compounds, Modern Periodic Table, Chemical Bonding',
+          'Life Sciences (Biology): Life Processes (Nutrition, Respiration, Circulation, Excretion), Control & Coordination (Nervous system & Hormones), Reproduction, Heredity & Evolution, Environment'
+        ]
+      },
+      {
+        subject: 'Mathematics (25 Marks)',
+        topics: [
+          'Number System, BODMAS, Decimals, Fractions, LCM & HCF, Ratio and Proportion, Percentages',
+          'Mensuration (2D & 3D), Time and Work, Time and Distance, Simple & Compound Interest, Profit and Loss',
+          'Algebra, Geometry, Trigonometry, Elementary Statistics (Mean, Median, Mode), Square Root, Age Calculations, Calendar & Clock, Pipes & Cistern'
+        ]
+      },
+      {
+        subject: 'General Intelligence & Reasoning (30 Marks - Highest Weightage!)',
+        topics: [
+          'Analogies, Alphabetical & Number Series, Coding and Decoding, Mathematical Operations, Relationships (Blood Relations)',
+          'Syllogism, Jumbling, Venn Diagrams, Data Interpretation & Sufficiency',
+          'Conclusions & Decision Making, Similarities & Differences, Analytical Reasoning, Classification, Direction Sense, Statement-Arguments & Assumptions'
+        ]
+      },
+      {
+        subject: 'General Awareness & Current Affairs (20 Marks)',
+        topics: [
+          'Science & Technology Developments, Space Missions (ISRO, Chandrayaan, Aditya L1)',
+          'Sports & Games (Olympics, Cricket World Cup, National Games, Grand Slams)',
+          'Culture, Indian History, National Movement, Indian Polity & Constitution',
+          'Economics, Government Welfare Schemes, Important Personalities & Appointments'
         ]
       }
     ]
