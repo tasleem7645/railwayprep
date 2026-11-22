@@ -23,7 +23,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
             <span>Official Railway Board CEN Notifications 2024-2026</span>
           </div>
           <span className="text-xs bg-amber-500/10 text-amber-300 border border-amber-500/30 px-2.5 py-1 rounded-full font-bold">
-            CEN 01/2026 (ALP 11,127 Posts) & CEN 09/2025 (Group D 22,195 Posts) Updated
+            CEN 01/2026 (ALP) • CEN 07/2026 (NTPC UG) • CEN 09/2025 (Group D) Official Updates
           </span>
         </div>
 
@@ -31,7 +31,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
           Railway Recruitment: Vacancies, Selection Pipeline & Official Syllabus
         </h2>
         <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-3xl">
-          Complete verified roadmap for RRB ALP (11,127 posts CEN 01/2026), Group D (22,195 posts CEN 09/2025), NTPC (11,558 posts), Technician (9,144 posts), and RPF with every single stage: CBT, PET, CBAT/Psycho, Typing, DV, and Medical standards.
+          Complete verified roadmap for RRB ALP (11,127 posts CEN 01/2026), NTPC UG (1,688 posts CEN 07/2026), Group D (22,195 posts CEN 09/2025), NTPC Graduate (8,113 posts), Technician (9,144 posts), and RPF with every single stage: CBT, PET, CBAT/Psycho, DV, and Medical standards.
         </p>
       </div>
 
@@ -343,11 +343,11 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
               <div className="flex items-center gap-2 pb-3 border-b border-slate-800">
                 <BookOpen className="w-4 h-4 text-emerald-400" />
                 <h4 className="text-sm font-bold text-white uppercase tracking-wider">
-                  Level-1 Post Parameters: Dept & Medical Standard (Annexure-A)
+                  {activeExam.shortName} Post Parameters & Classification (Annexure-A)
                 </h4>
               </div>
               <p className="text-xs text-slate-400 mt-2 mb-3">
-                All posts require 10th pass OR ITI OR NAC granted by NCVT. Simple 10th pass candidates are eligible for all posts.
+                {activeExam.qualification}
               </p>
               <div className="overflow-x-auto">
                 <table className="w-full text-left text-xs">
@@ -355,6 +355,8 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
                     <tr className="border-b border-slate-800 text-slate-400">
                       <th className="pb-2 font-bold uppercase">Post / Designation</th>
                       <th className="pb-2 font-bold uppercase">Department</th>
+                      {activeExam.postsList[0]?.level && <th className="pb-2 font-bold uppercase">Pay Level</th>}
+                      {activeExam.postsList[0]?.vacancies && <th className="pb-2 font-bold uppercase text-center">Vacancies</th>}
                       <th className="pb-2 font-bold uppercase text-right">Medical Std.</th>
                     </tr>
                   </thead>
@@ -363,7 +365,9 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
                       <tr key={idx} className="hover:bg-slate-800/30">
                         <td className="py-2.5 font-bold text-slate-200">{p.post}</td>
                         <td className="py-2.5 text-slate-400">{p.dept}</td>
-                        <td className="py-2.5 text-right font-black text-teal-400">{p.medStd}</td>
+                        {p.level && <td className="py-2.5 text-slate-300 font-semibold">{p.level}</td>}
+                        {p.vacancies && <td className="py-2.5 text-center font-bold text-teal-300">{p.vacancies}</td>}
+                        <td className="py-2.5 text-right font-black text-emerald-400">{p.medStd}</td>
                       </tr>
                     ))}
                   </tbody>
