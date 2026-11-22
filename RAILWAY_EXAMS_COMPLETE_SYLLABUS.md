@@ -10,7 +10,7 @@
 | **RRB ALP (Assistant Loco Pilot 2026)** | **CEN 01/2026** *(Official PDF)* | **11,127** | **New 2026 Cycle:** UR 4860, OBC 2598, SC 1746, EWS 1004, ST 919, ExSM 1115. Merit Ratio changed to **50:50** (CBT-2 Part A + CBAT). Mandatory Self-Screening Medical Declaration (Annexure VIII-A & B). |
 | **RRB Group D (Level-1 Posts 2025)** | **CEN 09/2025** *(Official PDF)* | **22,195** | **New Official Notice:** 10th pass fully eligible without ITI! 100 Qs Single CBT + PET (35kg/20kg) + 1/3rd NCVT marks weightage for CCAA. Online Apply: 31.01.2026 to 02.03.2026. |
 | **RRB NTPC (Undergraduate 10+2)** | **CEN 07/2026** *(Official PDF)* | **1,688** | **New 2026-27 Official Notice:** 12th pass (50% min, relaxed for SC/ST/Graduates). **Typing Test DISPENSED WITH (Removed)!** Commercial Ticket Clerk (700), Jr Clerk (600), Accounts Clerk (200), Trains Clerk (188). Apply: 15.10.2026 to 13.11.2026. |
-| **RRB NTPC (Graduate Level)** | CEN 05/2024 | **8,113** | Station Master, Goods Train Manager, Senior Clerk, Accounts Assistant. |
+| **RRB NTPC (Graduate Level 2026)** | **CEN 06/2026** *(Official PDF)* | **3,548** | **New Official 2026 Notice:** Goods Train Manager (2,750), Senior Clerk (371), Jr Accounts Asst (300), Chief Commercial (127). **Typing Test DISPENSED WITH (Removed)!** Apply: 08.10.2026 to 06.11.2026. |
 | **RRB Technician (Grade 1 & 3)** | CEN 02/2024 | **9,144+** | **Pattern Changed:** Single-Stage CBT! Gr 1 Signal (1,092) & Gr 3 (8,052). |
 | **RPF Sub-Inspector (SI)** | CEN 01/2024 | **452** | Graduation Level CBT + PMT/PET. |
 | **RPF Constable** | CEN 02/2024 | **4,208** | 10th Pass Level CBT + PMT/PET. |
@@ -149,16 +149,46 @@
 
 ---
 
-### 2.1 🎓 RRB NTPC Graduate Level (Level 5 & 6) — CEN 05/2024 (8,113 Posts)
+### 2.1 🎓 RRB NTPC Graduate Level (Level 5 & 6) — Official CEN 06/2026 (3,548 Posts)
 ```
-[Stage 1: CBT-1 Screening] ──► [Stage 2: CBT-2 Merit] ──► [Stage 3: CBAT / Typing (TST)] ──► [Stage 4: DV] ──► [Stage 5: Medical (A2/C2)] ──► [Final Merit]
+[Stage 1: 1st Stage CBT Screening] ──► [Stage 2: 2nd Stage CBT Merit] ──► [Stage 3: DV (1:1 Ratio)] ──► [Stage 4: Medical Exam (A2/B2/C2)] ──► [Final Panel]
 ```
-1. **Posts:** Station Master (Level 6), Goods Train Manager (Level 5), Senior Commercial cum Ticket Clerk, Senior Clerk Typist, Junior Accounts Assistant.
-2. **Qualification:** Graduate Degree from a recognized University.
-3. **Skill Test:**
-   * **CBAT (Psycho):** For Station Master (Level 6) -> 70% CBT-2 + 30% CBAT weightage. Medical: **A-2**.
-   * **Typing Skill Test:** For Senior Clerk Typist & Junior Accounts Assistant -> 30 wpm English / 25 wpm Hindi.
-   * **Direct DV (No Skill Test):** For Goods Train Manager & Senior Commercial Clerk. Medical: **A-2** for Goods Train Manager.
+*(🚨 REVOLUTIONARY PATTERN CHANGE: The Computer Based Typing Skill Test [CBTST] for Senior Clerk & Junior Accounts Assistant has been COMPLETELY DISPENSED WITH [REMOVED] for CEN 06/2026! Selection is 100% based on 2nd Stage CBT marks!).*
+
+#### 📅 Important Dates (CEN 06/2026):
+* **Date of Indicative Notice in Employment News:** 26.09.2026
+* **Opening Date of Online Application:** 08.10.2026
+* **Closing Date of Online Application:** 06.11.2026 (23:59 Hrs)
+* **Last Date for Application Fee Payment:** 08.11.2026
+* **Modification Window for Corrections:** 09.11.2026 to 18.11.2026 (Fee: ₹250)
+
+#### 📋 Post Breakdown & Vacancies (3,548 Posts):
+1. **Goods Train Manager:** Level-5 (Initial Pay ₹29,200) | Medical: **A-2** | **2,750 Posts** *(Huge share!)*
+2. **Senior Clerk Cum Typist:** Level-5 (Initial Pay ₹29,200) | Medical: **C-2** | **371 Posts**
+3. **Junior Accounts Assistant Cum Typist:** Level-5 (Initial Pay ₹29,200) | Medical: **C-2** | **300 Posts**
+4. **Chief Commercial Cum Ticket Supervisor:** Level-6 (Initial Pay ₹35,400) | Medical: **B-2** | **127 Posts**
+
+#### 🎓 Prescribed Minimum Educational Qualification:
+* **Degree from recognized University or its equivalent.** (Any Graduate in Arts, Science, Commerce, Engineering, etc.).
+
+#### 📝 Selection Stages & Exam Pattern:
+1. **Stage 1: 1st Stage CBT (Common Screening Test - 100 Qs / 90 Mins):**
+   * **Subject Breakdown:** General Awareness (40 Qs), Mathematics (30 Qs), General Intelligence & Reasoning (30 Qs).
+   * **Negative Marking:** 1/3rd (-0.33) deducted for each wrong answer.
+   * **Qualifying Pass %:** UR/EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%.
+   * **Shortlisting for 2nd Stage:** **15 times (15x)** the community-wise vacancies per level based on normalized marks.
+
+2. **Stage 2: 2nd Stage CBT (Separate for Level 5 and Level 6 - 120 Qs / 90 Mins):**
+   * **Subject Breakdown:** General Awareness (50 Qs), Mathematics (35 Qs), General Intelligence & Reasoning (35 Qs).
+   * **Negative Marking:** 1/3rd (-0.33).
+   * **Merit Decider:** Normalized score in 2nd Stage CBT decides **100% final merit position**!
+
+3. **Stage 3: Typing Skill Test (CBTST) Status:**
+   * 🚨 **DISPENSED WITH (REMOVED)!** Candidates do NOT need to give any typing test during selection. Typing proficiency will only be tested on-the-job after joining.
+
+4. **Stage 4: Document Verification (DV) & Medical Examination (ME):**
+   * Called in exact **1:1 ratio** based on 2nd Stage CBT merit.
+   * Medical Standards: **A-2** for Goods Train Manager (Strict 6/9 without glasses, no fogging, near Sn 0.6), **B-2** for Chief Commercial Supervisor, **C-2** for Senior Clerk & Junior Accounts Assistant.
 
 ---
 

@@ -242,64 +242,96 @@ export const RAILWAY_SYLLABUS = [
   },
   {
     id: 'rrb-ntpc-grad',
-    name: 'RRB NTPC Graduate Level (Level 5 & 6 - CEN 05/2024)',
-    shortName: 'NTPC Graduate (Level 5 & 6)',
-    tag: '8,113 Posts • Station Master',
+    name: 'RRB NTPC Graduate Level (Level 5 & 6 - CEN 06/2026)',
+    shortName: 'NTPC Graduate 2026',
+    tag: '3,548 Posts • Goods Manager',
     badgeColor: 'sky',
-    notificationNo: 'CEN 05/2024 (Official Railway Board Notice)',
-    totalVacancies: '8,113 Posts (Station Master: 994, Goods Train Manager: 3,144, Senior Clerk: 2,022, etc.)',
-    payScale: 'Level-5 (₹29,200) & Level-6 (₹35,400) in 7th CPC',
-    ageLimit: '18 – 33 Years [+3 yrs OBC, +5 yrs SC/ST]',
-    qualification: 'Bachelor\'s Degree in any discipline from a recognized University.',
-    meritFormula: 'Station Master: 70% CBT-2 + 30% CBAT (Psycho) | Goods Guard: 100% CBT-2',
-    medicalStandard: 'A-2 for Station Master & Goods Train Manager (Strict 6/9 unaided vision)',
+    notificationNo: 'CEN No. 06/2026 (Official Railway Board Notice)',
+    totalVacancies: '3,548 Posts (Goods Train Manager: 2,750 | Senior Clerk: 371 | Jr Accounts Asst: 300 | Chief Commercial: 127)',
+    payScale: 'Level-5 (₹29,200/-) & Level-6 (₹35,400/-) in 7th CPC',
+    ageLimit: '18 – 33 Years (as on 01.01.2027) [+3 yrs OBC, +5 yrs SC/ST, +10 yrs PwBD]',
+    qualification: 'Degree from recognized University or its equivalent.',
+    meritFormula: '100% 2nd Stage CBT Normalized Score (Typing Skill Test has been COMPLETELY DISPENSED WITH for CEN 06/2026!)',
+    dates: {
+      indicativeNotice: '26.09.2026',
+      applyStart: '08.10.2026',
+      applyEnd: '06.11.2026 (23:59 Hrs)',
+      feeLastDate: '08.11.2026',
+      editWindow: '09.11.2026 to 18.11.2026 (₹250 Fee)'
+    },
+    medicalStandard: 'A-2 (Goods Train Manager), B-2 (Chief Commercial Supervisor), C-2 (Senior Clerk & Jr Accounts Assistant)',
+    medicalBreakdown: [
+      { param: 'A-2 Standard (Goods Train Manager - Level 5)', detail: 'Distant Vision: 6/9, 6/9 without glasses (no fogging test). Near Vision: Sn: 0.6, 0.6 without glasses. Must pass tests for Colour Vision, Binocular Vision, Night Vision, Mesopic vision etc.' },
+      { param: 'B-2 Standard (Chief Commercial Supervisor - Level 6)', detail: 'Distant Vision: 6/9, 6/12 with or without glasses (power not to exceed 4D). Near Vision: Sn: 0.6, 0.6 with/without glasses when reading. Colour vision & Binocular pass.' },
+      { param: 'C-2 Standard (Senior Clerk & Jr Accounts Asst - Level 5)', detail: 'Distant Vision: 6/12 with or without glasses. Near Vision: Sn: 0.6 with or without glasses for reading/close work.' }
+    ],
+    postsList: [
+      { post: 'Goods Train Manager', dept: 'Operating / Traffic', level: 'Level-5 (₹29,200)', medStd: 'A-2', vacancies: '2,750 Posts' },
+      { post: 'Senior Clerk Cum Typist', dept: 'Various Departments', level: 'Level-5 (₹29,200)', medStd: 'C-2', vacancies: '371 Posts' },
+      { post: 'Junior Accounts Assistant Cum Typist', dept: 'Accounts', level: 'Level-5 (₹29,200)', medStd: 'C-2', vacancies: '300 Posts' },
+      { post: 'Chief Commercial Cum Ticket Supervisor', dept: 'Commercial', level: 'Level-6 (₹35,400)', medStd: 'B-2', vacancies: '127 Posts' }
+    ],
     pipeline: [
-      { step: '1', title: 'CBT-1 Screening', type: 'Screening', desc: '100 Qs / 90 Mins common screening. 15x shortlisted per level.' },
-      { step: '2', title: 'CBT-2 Merit Stage', type: 'Merit', desc: '120 Qs / 90 Mins separate for Level 5 and Level 6.' },
-      { step: '3', title: 'Skill Test (CBAT/Typing)', type: 'Post-Wise', desc: 'CBAT (Psycho) for Station Master (30% weightage) | Typing Test (30 wpm Eng / 25 wpm Hindi) for Typists.' },
-      { step: '4', title: 'Document Verification', type: 'DV (1:1)', desc: '1:1 ratio merit verification with original degree and caste certificates.' },
-      { step: '5', title: 'Medical Exam', type: 'Medical', desc: 'Station Master & Goods Guard: A-2 (6/9 vision without glasses) | Clerks: C-2.' },
-      { step: '6', title: 'Final Appointment', type: 'Final', desc: 'Merit list publication & Zonal Railway appointment letters.' }
+      { step: '1', title: '1st Stage CBT (Screening)', type: 'Screening', desc: '100 Qs / 90 Mins. Common screening test for Level 5 & 6. 15 times candidates shortlisted per post level.' },
+      { step: '2', title: '2nd Stage CBT (Merit Decider)', type: 'Merit', desc: '120 Qs / 90 Mins. Level-wise separate CBT for Level 5 and Level 6. Decides 100% final merit score.' },
+      { step: '3', title: 'Typing Test Dispensed!', type: 'Relief', desc: 'Typing Test (CBTST) has been completely removed for CEN 06/2026! Basic typing tested only on-the-job after joining.' },
+      { step: '4', title: 'Document Verification (DV)', type: 'DV (1:1)', desc: '1:1 ratio merit verification directly from 2nd Stage CBT normalized marks.' },
+      { step: '5', title: 'Medical Examination', type: 'Medical', desc: 'A-2 for Goods Train Manager (no glasses) | B-2 for Supervisor | C-2 for Clerks.' },
+      { step: '6', title: 'Final Empanelment & Appointment', type: 'Final', desc: 'Zonal allotment and appointment letters issued by respective RRBs.' }
     ],
     stages: [
       {
-        stageName: 'CBT-1 (Common Screening - 100 Qs / 90 Mins)',
-        duration: '90 Minutes',
+        stageName: '1st Stage CBT (Screening Test - Common for Level 5 & 6)',
+        duration: '90 Minutes (120 Mins for Scribes)',
         totalQuestions: 100,
         totalMarks: 100,
-        marking: '+1.00 Correct, -0.33 Negative',
+        marking: '+1.00 Correct, -0.33 Negative (15x Shortlisted for 2nd Stage)',
+        passPercentage: 'UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
         table: [
-          { subject: 'General Awareness (Science + GK + Current Affairs)', questions: 40, marks: 40 },
+          { subject: 'General Awareness (GK, Science & Current Affairs)', questions: 40, marks: 40 },
           { subject: 'Mathematics (Arithmetic & Advanced)', questions: 30, marks: 30 },
           { subject: 'General Intelligence & Reasoning', questions: 30, marks: 30 },
         ]
       },
       {
-        stageName: 'CBT-2 (Merit Selection - 120 Qs / 90 Mins)',
-        duration: '90 Minutes',
+        stageName: '2nd Stage CBT (Final Merit Decider - Level-wise Separate)',
+        duration: '90 Minutes (120 Mins for Scribes)',
         totalQuestions: 120,
         totalMarks: 120,
-        marking: '+1.00 Correct, -0.33 Negative',
+        marking: '+1.00 Correct, -0.33 Negative (100% Final Selection Basis)',
+        passPercentage: 'UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
         table: [
-          { subject: 'General Awareness', questions: 50, marks: 50 },
-          { subject: 'Mathematics', questions: 35, marks: 35 },
-          { subject: 'General Intelligence & Reasoning', questions: 35, marks: 35 },
+          { subject: 'General Awareness (Science, History, Polity, Geography, Current Affairs)', questions: 50, marks: 50 },
+          { subject: 'Mathematics (Arithmetic, Algebra, Mensuration, Statistics, Geometry)', questions: 35, marks: 35 },
+          { subject: 'General Intelligence & Reasoning (Puzzles, Syllogisms, Analogies, Series)', questions: 35, marks: 35 },
         ]
       }
     ],
     subjectBreakdown: [
       {
-        subject: 'General Awareness & Science',
+        subject: 'General Awareness (CBT-1: 40 Qs | CBT-2: 50 Qs)',
         topics: [
-          'History, Geography, Polity, Economics, Physics, Chemistry, Biology up to 10th CBSE',
-          'Current Affairs (Last 12 Months), Space Missions, International Organizations'
+          'Current Events of National and International Importance, Games and Sports, Art and Culture of India',
+          'Indian Literature, Monuments and Places of India, General Science and Life Science (up to 10th CBSE)',
+          'History of India and Freedom Struggle, Physical, Social and Economic Geography of India and World',
+          'Indian Polity and Governance - Constitution and Political System, General Scientific and Technological Developments (ISRO, DRDO)',
+          'Environmental Issues concerning India and World at Large, Basics of Computers and Computer Applications'
         ]
       },
       {
-        subject: 'Mathematics & Reasoning',
+        subject: 'Mathematics (CBT-1: 30 Qs | CBT-2: 35 Qs)',
         topics: [
-          'Number System, Percentages, Time & Work, Speed, CI/SI, Mensuration, Algebra, Trig',
-          'Syllogism, Blood Relations, Puzzles, Series, Coding-Decoding, Venn Diagrams'
+          'Number System, Decimals, Fractions, LCM, HCF, Ratio and Proportions, Percentage, Mensuration',
+          'Time and Work, Time and Distance, Simple and Compound Interest, Profit and Loss',
+          'Elementary Algebra, Geometry and Trigonometry, Elementary Statistics'
+        ]
+      },
+      {
+        subject: 'General Intelligence & Reasoning (CBT-1: 30 Qs | CBT-2: 35 Qs)',
+        topics: [
+          'Analogies, Completion of Number and Alphabetical Series, Coding and Decoding, Mathematical Operations',
+          'Similarities and Differences, Relationships, Analytical Reasoning, Syllogism, Jumbling, Venn Diagrams',
+          'Puzzle, Data Sufficiency, Statement-Conclusion, Statement-Courses of Action, Decision Making, Maps, Interpretation of Graphs'
         ]
       }
     ]
