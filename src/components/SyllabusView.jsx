@@ -3,7 +3,8 @@ import { RAILWAY_SYLLABUS } from '../data/railwaySyllabusData';
 import { 
   FileText, Clock, Award, CheckCircle2, AlertTriangle, 
   Sparkles, Play, ChevronRight, BookOpen, Layers, ShieldCheck,
-  Eye, Activity, Users, ArrowRight, BellRing
+  Eye, Activity, Users, ArrowRight, BellRing, Calendar, Wrench,
+  GraduationCap, Scale, Stethoscope
 } from 'lucide-react';
 
 export default function SyllabusView({ onStartMock, onOpenPassPro }) {
@@ -19,18 +20,18 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
         <div className="flex flex-wrap items-center gap-2 mb-2">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/30 text-xs font-bold uppercase">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>SarkariResult & Official RRB CEN Notification 2024-2026</span>
+            <span>Official Railway Board CEN Notifications 2024-2026</span>
           </div>
           <span className="text-xs bg-amber-500/10 text-amber-300 border border-amber-500/30 px-2.5 py-1 rounded-full font-bold">
-            Updated Vacancies & Pattern Changes Included
+            CEN 01/2026 (ALP 11,127 Posts) Updated
           </span>
         </div>
 
         <h2 className="text-2xl sm:text-4xl font-black text-white">
-          Railway Recruitment: Vacancies, Selection Pipeline & Syllabus
+          Railway Recruitment: Vacancies, Selection Pipeline & Official Syllabus
         </h2>
         <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-3xl">
-          Complete roadmap for RRB ALP (18,799 posts), NTPC (11,558 posts), Technician (9,144 posts), Group D, and RPF with every single stage: CBT-1, CBT-2, CBAT/Psycho, Typing, PET, DV, and Medical standards.
+          Complete verified roadmap for RRB ALP (11,127 posts CEN 01/2026), NTPC (11,558 posts), Technician (9,144 posts), Group D, and RPF with every single stage: CBT-1, CBT-2, CBAT/Psycho, Typing, PET, DV, and Medical standards.
         </p>
       </div>
 
@@ -61,12 +62,17 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
         })}
       </div>
 
-      {/* Active Exam Summary Card (Vacancies & Medical Specs) */}
-      <div className="mb-8 p-6 rounded-3xl bg-gradient-to-r from-slate-900 via-slate-900 to-slate-950 border border-teal-500/30 shadow-xl">
+      {/* Active Exam Summary Card (Vacancies & Official Specs) */}
+      <div className="mb-8 p-6 rounded-3xl bg-gradient-to-r from-slate-900 via-slate-900 to-slate-950 border border-teal-500/30 shadow-xl space-y-4">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-800">
           <div>
             <div className="text-xs text-teal-400 font-bold uppercase tracking-wider">{activeExam.notificationNo}</div>
             <h3 className="text-xl sm:text-2xl font-black text-white mt-1">{activeExam.name}</h3>
+            {activeExam.payScale && (
+              <div className="text-xs text-slate-400 mt-1 font-medium">
+                Pay Scale: <span className="text-slate-200 font-bold">{activeExam.payScale}</span> • Age Limit: <span className="text-slate-200 font-bold">{activeExam.ageLimit}</span>
+              </div>
+            )}
           </div>
 
           <div className="flex flex-wrap items-center gap-3">
@@ -75,14 +81,55 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
               <div className="text-sm sm:text-base font-black text-teal-300">{activeExam.totalVacancies}</div>
             </div>
             <div className="px-4 py-2 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-300">
-              <div className="text-[10px] uppercase font-bold text-slate-400">Marking Rule</div>
+              <div className="text-[10px] uppercase font-bold text-slate-400">Marking Scheme</div>
               <div className="text-sm sm:text-base font-black text-amber-400">-1/3rd Negative</div>
             </div>
           </div>
         </div>
 
-        {/* Medical standard alert box */}
-        <div className="mt-4 p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 flex items-start gap-3 text-xs">
+        {/* 2026 Key Highlights Grid (Dates, Merit Formula, Eligibility) */}
+        {activeExam.dates && (
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+            <div className="p-3 rounded-2xl bg-slate-950/70 border border-slate-800/80">
+              <div className="text-[10px] text-slate-400 uppercase font-semibold flex items-center gap-1">
+                <Calendar className="w-3 h-3 text-teal-400" /> Apply Opening
+              </div>
+              <div className="font-bold text-white mt-0.5">{activeExam.dates.applyStart}</div>
+            </div>
+            <div className="p-3 rounded-2xl bg-slate-950/70 border border-slate-800/80">
+              <div className="text-[10px] text-slate-400 uppercase font-semibold flex items-center gap-1">
+                <Calendar className="w-3 h-3 text-rose-400" /> Apply Closing
+              </div>
+              <div className="font-bold text-rose-300 mt-0.5">{activeExam.dates.applyEnd}</div>
+            </div>
+            <div className="p-3 rounded-2xl bg-slate-950/70 border border-slate-800/80">
+              <div className="text-[10px] text-slate-400 uppercase font-semibold flex items-center gap-1">
+                <Calendar className="w-3 h-3 text-amber-400" /> Modify Form
+              </div>
+              <div className="font-bold text-amber-300 mt-0.5">{activeExam.dates.editWindow}</div>
+            </div>
+            <div className="p-3 rounded-2xl bg-slate-950/70 border border-slate-800/80">
+              <div className="text-[10px] text-slate-400 uppercase font-semibold flex items-center gap-1">
+                <Scale className="w-3 h-3 text-emerald-400" /> Merit Ratio
+              </div>
+              <div className="font-bold text-emerald-300 mt-0.5">50% CBT-2 + 50% CBAT</div>
+            </div>
+          </div>
+        )}
+
+        {/* Eligibility & Merit Formula */}
+        {activeExam.qualification && (
+          <div className="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 flex items-start gap-3 text-xs">
+            <GraduationCap className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+            <div>
+              <span className="font-bold text-emerald-300">Prescribed Qualification: </span>
+              <span className="text-slate-300">{activeExam.qualification}</span>
+            </div>
+          </div>
+        )}
+
+        {/* Medical standard summary banner */}
+        <div className="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 flex items-start gap-3 text-xs">
           <Eye className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
           <div>
             <span className="font-bold text-sky-300">Medical Fitness Standard: </span>
@@ -137,10 +184,17 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
           {activeExam.stages.map((stage, sIdx) => (
             <div key={sIdx} className="p-5 sm:p-6 rounded-3xl bg-slate-900/70 border border-slate-800 shadow-xl">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-slate-800/80">
-                <h4 className="text-base font-bold text-teal-300">
-                  {stage.stageName}
-                </h4>
-                <div className="flex items-center gap-3 text-xs text-slate-400">
+                <div>
+                  <h4 className="text-base font-bold text-teal-300">
+                    {stage.stageName}
+                  </h4>
+                  {stage.passPercentage && (
+                    <div className="text-[11px] text-amber-400 font-semibold mt-0.5">
+                      Min Pass: {stage.passPercentage}
+                    </div>
+                  )}
+                </div>
+                <div className="flex items-center gap-3 text-xs text-slate-400 shrink-0">
                   <span className="flex items-center gap-1 font-semibold text-slate-300">
                     <Clock className="w-3.5 h-3.5 text-teal-400" /> {stage.duration}
                   </span>
@@ -156,7 +210,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
                     <tr className="border-b border-slate-800 text-slate-400">
                       <th className="pb-2.5 font-bold uppercase tracking-wider">Subject / Section</th>
                       <th className="pb-2.5 font-bold uppercase tracking-wider text-center">Questions</th>
-                      <th className="pb-2.5 font-bold uppercase tracking-wider text-right">Marks</th>
+                      <th className="pb-2.5 font-bold uppercase tracking-wider text-right">Marks / Criteria</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-800/60">
@@ -172,6 +226,59 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
               </div>
             </div>
           ))}
+
+          {/* Trade Mapping for CBT-2 Part-B if available */}
+          {activeExam.tradeMapping && (
+            <div className="p-5 sm:p-6 rounded-3xl bg-slate-900/70 border border-slate-800 shadow-xl">
+              <div className="flex items-center gap-2 pb-3 border-b border-slate-800">
+                <Wrench className="w-4 h-4 text-amber-400" />
+                <h4 className="text-sm font-bold text-white uppercase tracking-wider">
+                  CBT-2 Part-B: Trade / Subject Mapping by Engineering Discipline
+                </h4>
+              </div>
+              <p className="text-xs text-slate-400 mt-2 mb-3">
+                Diploma & Degree candidates must choose one trade from the relevant grouping below. ITI candidates appear in their own trade. Mandatory 35% pass required.
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-xs">
+                  <thead>
+                    <tr className="border-b border-slate-800 text-slate-400">
+                      <th className="pb-2 font-bold uppercase">Discipline</th>
+                      <th className="pb-2 font-bold uppercase">Eligible Trades for Part-B Test</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-800/60">
+                    {activeExam.tradeMapping.map((tm, idx) => (
+                      <tr key={idx} className="hover:bg-slate-800/30">
+                        <td className="py-2.5 font-bold text-teal-300 align-top">{tm.discipline}</td>
+                        <td className="py-2.5 text-slate-300">{tm.trades}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {/* Detailed Medical Fitness Breakdown if available */}
+          {activeExam.medicalBreakdown && (
+            <div className="p-5 sm:p-6 rounded-3xl bg-slate-900/70 border border-slate-800 shadow-xl">
+              <div className="flex items-center gap-2 pb-3 border-b border-slate-800">
+                <Stethoscope className="w-4 h-4 text-sky-400" />
+                <h4 className="text-sm font-bold text-white uppercase tracking-wider">
+                  A-1 Medical Examination Parameters & CBAT Self-Screening
+                </h4>
+              </div>
+              <div className="space-y-3 mt-3 text-xs">
+                {activeExam.medicalBreakdown.map((mb, idx) => (
+                  <div key={idx} className="p-3 rounded-2xl bg-slate-950/60 border border-slate-800/80 flex flex-col sm:flex-row sm:items-start gap-2">
+                    <span className="font-bold text-sky-300 sm:w-44 shrink-0">{mb.param}:</span>
+                    <span className="text-slate-300">{mb.detail}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Quick Action to start mock test */}
           <div className="p-5 rounded-2xl bg-gradient-to-r from-teal-950/60 via-slate-900 to-slate-950 border border-teal-500/40 flex flex-col sm:flex-row items-center justify-between gap-4">

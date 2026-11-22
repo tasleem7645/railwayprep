@@ -1,20 +1,56 @@
 export const RAILWAY_SYLLABUS = [
   {
     id: 'rrb-alp',
-    name: 'RRB ALP (Assistant Loco Pilot - CEN 01/2024)',
-    shortName: 'ALP (Loco Pilot)',
-    tag: '18,799 Revised Vacancies',
+    name: 'RRB ALP (Assistant Loco Pilot - CEN 01/2026)',
+    shortName: 'ALP (Loco Pilot 2026)',
+    tag: '11,127 Official Vacancies',
     badgeColor: 'amber',
-    notificationNo: 'CEN 01/2024 (SarkariResult Verified)',
-    totalVacancies: '18,799 Posts (Massively Increased from 5,696!)',
-    medicalStandard: 'A-1 Standard (Strict 6/6 Vision without glasses, No LASIK, Color Blindness Disqualified)',
+    notificationNo: 'CEN No. 01/2026 (Official Railway Board Notice)',
+    totalVacancies: '11,127 Posts (UR: 4,860 | OBC: 2,598 | SC: 1,746 | EWS: 1,004 | ST: 919 | ExSM: 1,115)',
+    payScale: 'Level-2 (7th CPC) • Initial Pay ₹19,900/-',
+    ageLimit: '18 – 30 Years (as on 01-07-2026) [+3 yrs OBC, +5 yrs SC/ST]',
+    qualification: 'Matric / SSLC + ITI (NCVT/SCVT) in eligible trades OR Course Completed Act Apprenticeship OR 3-Yr Diploma / Degree in Mechanical, Electrical, Electronics, Automobile Engg. (PwBD Not Suitable)',
+    meritFormula: '50% CBT-2 Part-A + 50% CBAT (Psycho) Score (CEN 01/2026 Official Formula!)',
+    dates: {
+      indicativeNotice: '21.03.2026',
+      applyStart: '15.05.2026 (00:00 Hrs)',
+      applyEnd: '14.06.2026 (23:59 Hrs)',
+      feeLastDate: '16.06.2026 (23:59 Hrs)',
+      editWindow: '17.06.2026 to 26.06.2026 (₹250 Fee)'
+    },
+    medicalStandard: 'A-1 Standard (Strict 6/6 Unaided Vision, No Glasses, No LASIK/Surgery). Mandatory Self-Screening Medical Declaration (Annexure VIII-A & VIII-B) required on CBAT day.',
+    medicalBreakdown: [
+      { param: 'Distance Vision', detail: '6/6, 6/6 without glasses with fogging test (must not accept +2D)' },
+      { param: 'Near Vision', detail: 'Sn: 0.6, 0.6 without glasses' },
+      { param: 'Color & Night Vision', detail: 'Must pass tests for Colour Vision (Ishihara), Binocular, Field of Vision, Night Vision, Mesopic Vision' },
+      { param: 'Refractive Surgery / LASIK', detail: 'STRICTLY DISQUALIFIED. Proforma declaration Annexure-VI mandatory.' },
+      { param: 'Self Screening Declaration (New 2026)', detail: 'Annexure VIII-A (Eye Specialist) & VIII-B (General Physician) signed by Central/State Govt Hospital or Medical College doctor to be submitted on CBAT exam day.' }
+    ],
+    tradeMapping: [
+      {
+        discipline: 'Electrical Engg & Combinations',
+        trades: 'Electrician, Instrument Mechanic, Wireman, Armature & Coil Winder, RAC Mechanic'
+      },
+      {
+        discipline: 'Electronics Engg & Combinations',
+        trades: 'Electronics Mechanic, Mechanic (Radio & TV)'
+      },
+      {
+        discipline: 'Mechanical Engg & Combinations',
+        trades: 'Fitter, Mechanic (Motor Vehicle), Tractor Mechanic, Mechanic (Diesel), Turner, Machinist, RAC Mechanic, Heat Engine, Millwright/Maintenance Mechanic'
+      },
+      {
+        discipline: 'Automobile Engg & Combinations',
+        trades: 'Mechanic (Motor Vehicle), Tractor Mechanic, Mechanic (Diesel), Heat Engine, RAC Mechanic'
+      }
+    ],
     pipeline: [
-      { step: '1', title: 'CBT-1 Screening', type: 'Screening', desc: '75 Qs / 60 Mins. 15x candidates shortlisted for CBT-2.' },
-      { step: '2', title: 'CBT-2 (Part A + B)', type: 'Merit + Trade', desc: 'Part A (100 Qs) decides merit. Part B (75 Qs Trade) requires 35% pass mark mandatory!' },
-      { step: '3', title: 'CBAT (Psycho)', type: 'Aptitude', desc: '5 Test Batteries. Min 42 T-score in each. 70% CBT-2 Part A + 30% CBAT weightage.' },
-      { step: '4', title: 'Document Verification', type: 'DV', desc: '1:1 ratio matching vacancies with original ITI/Diploma/Degree & Caste certificates.' },
-      { step: '5', title: 'Medical Exam (A-1)', type: 'Medical', desc: 'Rigorous A-1 Medical: 6/6 distant vision without glasses, Ishihara color perception.' },
-      { step: '6', title: 'Final Panel & Joining', type: 'Final', desc: 'Division allocation & training at Railway Zonal Training Centers (ZRTI).' }
+      { step: '1', title: 'CBT-1 Screening Exam', type: 'Screening', desc: '75 Qs / 60 Mins. 15 times RRB-wise vacancies shortlisted for CBT-2. Marks not added to final merit.' },
+      { step: '2', title: 'CBT-2 (Part A + Part B)', type: 'Merit + Trade', desc: 'Part A (100 Qs / 90 Mins) decides merit. Part B (75 Qs / 60 Mins Trade) requires mandatory 35% pass mark for all categories!' },
+      { step: '3', title: 'CBAT (Psycho Aptitude)', type: 'Aptitude (50% Weightage)', desc: '8 times candidates shortlisted. 5 Test Batteries (Min 42 T-score in each). Produce Annexure VIII-A & VIII-B Medical Reports.' },
+      { step: '4', title: 'Document Verification (DV)', type: 'DV', desc: '1:1 ratio based on combined 50% CBT-2 Part A + 50% CBAT merit score. Age & alphabetical tie-breaking.' },
+      { step: '5', title: 'Medical Examination (ME)', type: 'Medical (A-1)', desc: 'Railway Medical Board conducts strict A-1 fitness verification. Complete eye tests without glasses.' },
+      { step: '6', title: 'Final Panel & ZRTI Training', type: 'Final', desc: 'Final appointment and zonal training at Railway Zonal Training Centers (ZRTI).' }
     ],
     stages: [
       {
@@ -22,11 +58,12 @@ export const RAILWAY_SYLLABUS = [
         duration: '60 Minutes (1 Hour)',
         totalQuestions: 75,
         totalMarks: 75,
-        marking: '+1.00 Correct, -0.33 Negative',
+        marking: '+1.00 Correct, -0.33 Negative (15x Shortlisted for CBT-2)',
+        passPercentage: 'UR & EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
         table: [
-          { subject: 'General Intelligence & Reasoning', questions: 25, marks: 25 },
-          { subject: 'Mathematics (Arithmetic & Pure)', questions: 20, marks: 20 },
-          { subject: 'General Science (Class 10 CBSE)', questions: 20, marks: 20 },
+          { subject: 'Mental Ability (Reasoning & Analytical)', questions: 25, marks: 25 },
+          { subject: 'Mathematics (Arithmetic & Advanced)', questions: 20, marks: 20 },
+          { subject: 'General Science (10th CBSE Physics, Chemistry, Life Sciences)', questions: 20, marks: 20 },
           { subject: 'General Awareness & Current Affairs', questions: 10, marks: 10 },
         ]
       },
@@ -35,12 +72,13 @@ export const RAILWAY_SYLLABUS = [
         duration: '90 Minutes',
         totalQuestions: 100,
         totalMarks: 100,
-        marking: '+1.00 Correct, -0.33 Negative (70% Final Weightage)',
+        marking: '+1.00 Correct, -0.33 Negative (50% Final Selection Weightage)',
+        passPercentage: 'UR & EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
         table: [
-          { subject: 'Basic Science & Engineering (BSED)', questions: 40, marks: 40 },
-          { subject: 'Mathematics', questions: 25, marks: 25 },
-          { subject: 'General Intelligence & Reasoning', questions: 25, marks: 25 },
-          { subject: 'General Awareness', questions: 10, marks: 10 },
+          { subject: 'Basic Science & Engineering (BSED - Drawing, Units, Levers, IT)', questions: 40, marks: 40 },
+          { subject: 'Mathematics (BODMAS, Algebra, Mensuration, Statistics, CI/SI)', questions: 25, marks: 25 },
+          { subject: 'General Intelligence & Reasoning (Syllogism, Analogy, Puzzles)', questions: 25, marks: 25 },
+          { subject: 'General Awareness & Current Affairs', questions: 10, marks: 10 },
         ]
       },
       {
@@ -48,28 +86,60 @@ export const RAILWAY_SYLLABUS = [
         duration: '60 Minutes',
         totalQuestions: 75,
         totalMarks: 75,
-        marking: 'Mandatory 35% Qualifying Pass Mark (26.25 Marks out of 75)',
+        marking: 'Mandatory 35% Qualifying Pass Mark (26.25 Marks out of 75 for ALL Communities)',
+        passPercentage: '35% Mandatory for UR, OBC, SC, ST, EWS (No category relaxation!)',
         table: [
-          { subject: 'Relevant Technical Trade (Electrician / Fitter / Mech / Electronics)', questions: 75, marks: 75 }
+          { subject: 'Relevant Technical Trade (DGT Syllabus - Fitter/Electrician/Diesel/RAC/etc.)', questions: 75, marks: 75 }
+        ]
+      },
+      {
+        stageName: 'CBAT (Computer Based Aptitude Test / Psycho)',
+        duration: 'Appx. 70-80 Minutes',
+        totalQuestions: '5 Batteries',
+        totalMarks: 'T-Score 42 min each',
+        marking: 'No Negative Marking • Hindi & English Only (50% Final Selection Weightage)',
+        passPercentage: 'Min T-Score 42 in each of 5 Batteries separately (Mandatory for all categories)',
+        table: [
+          { subject: 'Memory Test Battery', questions: 'Set Qs', marks: 'T ≥ 42' },
+          { subject: 'Direction Ability Test Battery', questions: 'Set Qs', marks: 'T ≥ 42' },
+          { subject: 'Depth Perception / Brick Test Battery', questions: 'Set Qs', marks: 'T ≥ 42' },
+          { subject: 'Concentration / Observation Test Battery', questions: 'Set Qs', marks: 'T ≥ 42' },
+          { subject: 'Perceptual Speed Test Battery', questions: 'Set Qs', marks: 'T ≥ 42' },
         ]
       }
     ],
     subjectBreakdown: [
       {
-        subject: 'Basic Science & Engineering (BSED - 40 Marks Merit Decider!)',
+        subject: 'Basic Science & Engineering (BSED - 40 Marks Merit Decider in CBT-2 Part A)',
         topics: [
-          'Engineering Drawing: Projections, Views, Drawing Instruments, Lines, Geometric Figures',
-          'Units & Measurements, Mass, Weight & Density, Work Power & Energy',
-          'Speed & Velocity, Heat & Temperature, Basic Electricity & Magnetism',
-          'Levers & Simple Machines, Occupational Safety & Health, IT Literacy'
+          'Engineering Drawing: Projections, Views, Drawing Instruments, Lines, Geometric figures, Symbolic Representation',
+          'Units & Measurements, Mass, Weight & Density, Work Power and Energy',
+          'Speed & Velocity, Heat & Temperature, Basic Electricity',
+          'Levers & Simple Machines, Occupational Safety and Health, Environment Education, IT Literacy'
         ]
       },
       {
-        subject: 'Mathematics & Reasoning',
+        subject: 'Mathematics (CBT-1: 20 Qs | CBT-2 Part A: 25 Qs)',
         topics: [
-          'Arithmetic: Percentage, Profit Loss, Ratio, Time & Work, Speed, CI/SI',
-          'Pure Maths: Square Root, Age, Pipes, Algebra, Trigonometry',
-          'Reasoning: Syllogism, Series, Coding, Direction, Analogies, Puzzles'
+          'Number System, BODMAS, Decimals, Fractions, LCM & HCF, Ratio and Proportion, Percentages',
+          'Mensuration, Time and Work, Time and Distance, Simple and Compound Interest, Profit and Loss',
+          'Algebra, Geometry and Trigonometry, Elementary Statistics, Square Root, Age Calculations, Calendar & Clock, Pipes & Cistern'
+        ]
+      },
+      {
+        subject: 'General Intelligence & Reasoning (CBT-1: 25 Qs | CBT-2 Part A: 25 Qs)',
+        topics: [
+          'Analogies, Alphabetical and Number Series, Coding and Decoding, Mathematical Operations',
+          'Relationships (Blood Relations), Syllogism, Jumbling, Venn Diagram, Data Interpretation & Sufficiency',
+          'Conclusions & Decision Making, Similarities & Differences, Analytical Reasoning, Classification, Directions, Statement-Arguments & Assumptions'
+        ]
+      },
+      {
+        subject: 'General Science (CBT-1: 20 Qs - 10th Standard Level)',
+        topics: [
+          'Physics: Motion, Work-Energy, Sound, Light (Reflection & Refraction), Electricity, Magnetism',
+          'Chemistry: Chemical Reactions, Periodic Table, Metals & Non-metals, Carbon Compounds, Acids & Bases',
+          'Life Sciences: Cell Biology, Nutrition, Respiration, Circulation, Nervous System, Genetics, Ecology'
         ]
       }
     ]
