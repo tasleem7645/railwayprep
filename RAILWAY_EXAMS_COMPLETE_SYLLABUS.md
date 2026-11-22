@@ -11,6 +11,7 @@
 | **RRB Group D (Level-1 Posts 2025)** | **CEN 09/2025** *(Official PDF)* | **22,195** | **New Official Notice:** 10th pass fully eligible without ITI! 100 Qs Single CBT + PET (35kg/20kg) + 1/3rd NCVT marks weightage for CCAA. Online Apply: 31.01.2026 to 02.03.2026. |
 | **RRB NTPC (Undergraduate 10+2)** | **CEN 07/2026** *(Official PDF)* | **1,688** | **New 2026-27 Official Notice:** 12th pass (50% min, relaxed for SC/ST/Graduates). **Typing Test DISPENSED WITH (Removed)!** Commercial Ticket Clerk (700), Jr Clerk (600), Accounts Clerk (200), Trains Clerk (188). Apply: 15.10.2026 to 13.11.2026. |
 | **RRB NTPC (Graduate Level 2026)** | **CEN 06/2026** *(Official PDF)* | **3,548** | **New Official 2026 Notice:** Goods Train Manager (2,750), Senior Clerk (371), Jr Accounts Asst (300), Chief Commercial (127). **Typing Test DISPENSED WITH (Removed)!** Apply: 08.10.2026 to 06.11.2026. |
+| **RRB JE & DMS (Junior Engineer 2026)** | **CEN 04/2026** *(Official PDF)* | **3,993** | **New Official 2026 Notice:** UR 1699, OBC 913, SC 624, EWS 394, ST 363. Pay Level-6 (₹35,400). CBT-1 (100 Qs) + CBT-2 (150 Qs with 100 Technical Qs + Virtual Calculator). Apply: 14.08.2026 to 13.09.2026. |
 | **RRB Technician (Grade 1 & 3)** | CEN 02/2024 | **9,144+** | **Pattern Changed:** Single-Stage CBT! Gr 1 Signal (1,092) & Gr 3 (8,052). |
 | **RPF Sub-Inspector (SI)** | CEN 01/2024 | **452** | Graduation Level CBT + PMT/PET. |
 | **RPF Constable** | CEN 02/2024 | **4,208** | 10th Pass Level CBT + PMT/PET. |
@@ -189,6 +190,54 @@
 4. **Stage 4: Document Verification (DV) & Medical Examination (ME):**
    * Called in exact **1:1 ratio** based on 2nd Stage CBT merit.
    * Medical Standards: **A-2** for Goods Train Manager (Strict 6/9 without glasses, no fogging, near Sn 0.6), **B-2** for Chief Commercial Supervisor, **C-2** for Senior Clerk & Junior Accounts Assistant.
+
+---
+
+### 2.2 ⚙️ RRB Junior Engineer (JE) & DMS — Official CEN 04/2026 (3,993 Posts)
+```
+[Stage 1: 1st Stage CBT Screening] ──► [Stage 2: 2nd Stage CBT (Technical + Non-Tech)] ──► [Stage 3: DV (1:1 Ratio)] ──► [Stage 4: Medical Exam (A3/B1/B2/C1)] ──► [Final Panel]
+```
+
+#### 📅 Important Dates (CEN 04/2026):
+* **Date of Indicative Notice in Employment News:** 25.07.2026
+* **Opening Date of Online Application:** 14.08.2026
+* **Closing Date of Online Application:** 13.09.2026 (23:59 Hrs)
+* **Last Date for Application Fee Payment:** 15.09.2026
+* **Modification Window for Corrections:** 16.09.2026 to 25.09.2026 (Fee: ₹250)
+* **Scribe Details Window:** 26.09.2026 to 30.09.2026
+
+#### 💰 Pay Scale & Age Limit:
+* **Pay Level:** Level-6 in 7th CPC Pay Matrix (Initial Pay: **₹35,400/-** per month + DA, HRA, Allowances).
+* **Age Limit (as on 01.01.2027):** **18 – 33 Years** (+3 yrs OBC, +5 yrs SC/ST, +10 yrs PwBD).
+
+#### 🎓 Prescribed Minimum Educational Qualification:
+* **Junior Engineer (JE):** Three years Diploma in Engineering OR Bachelor's Degree in Engineering (B.E./B.Tech) in Civil, Mechanical, Electrical, Electronics, CS, IT, or combination streams from a recognized University/Institute.
+* **Depot Material Superintendent (DMS):** Three years Diploma in Engineering in **ANY discipline** from a recognized University/Institute.
+
+#### 📝 Selection Stages & Exam Pattern:
+1. **Stage 1: 1st Stage CBT (Screening Test - 100 Qs / 90 Mins / 100 Marks):**
+   * **Subject Breakdown:**
+     * Mathematics: **30 Questions** (30 Marks)
+     * General Science (10th CBSE Physics, Chemistry, Biology): **30 Questions** (30 Marks)
+     * General Intelligence & Reasoning: **25 Questions** (25 Marks)
+     * General Awareness & Current Affairs: **15 Questions** (15 Marks)
+   * **Negative Marking:** 1/3rd (-0.33) deducted for each wrong answer.
+   * **Shortlisting for 2nd Stage:** **15 times (15x)** the community-wise vacancies based on normalized CBT-1 marks. (Marks not counted in final merit).
+
+2. **Stage 2: 2nd Stage CBT (Final Selection Merit Decider - 150 Qs / 120 Mins / 150 Marks):**
+   * **Subject Breakdown:**
+     * **Technical Abilities (Core Engineering Syllabus):** **100 Questions** (100 Marks - Civil / Mech / Elect / Electronics / Allied)
+     * **General Awareness:** **15 Questions** (15 Marks)
+     * **Physics & Chemistry (10th CBSE):** **15 Questions** (15 Marks)
+     * **Basics of Computers & Applications:** **10 Questions** (10 Marks)
+     * **Basics of Environment & Pollution Control:** **10 Questions** (10 Marks)
+   * **Negative Marking:** 1/3rd (-0.33).
+   * 🌟 **Special Facility:** **On-screen Virtual Calculator** is provided during 2nd Stage CBT!
+   * **Final Merit Decider:** 2nd Stage CBT marks decide **100% Final Merit Position**!
+
+3. **Stage 3: Document Verification (DV) & Medical Examination (ME):**
+   * Called in exact **1:1 ratio** based on 2nd Stage CBT normalized score.
+   * Medical Standards: **A-3** (Bridge, P.Way, TRD, TRS, EMU), **B-1** (General Services, Sheds), **B-2** (Design, Works, DMS), **C-1** (Workshop & Drawing).
 
 ---
 

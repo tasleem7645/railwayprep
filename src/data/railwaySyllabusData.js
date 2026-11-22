@@ -337,6 +337,124 @@ export const RAILWAY_SYLLABUS = [
     ]
   },
   {
+    id: 'rrb-je',
+    name: 'RRB Junior Engineer & DMS (CEN 04/2026)',
+    shortName: 'RRB JE (Engineering 2026)',
+    tag: '3,993 Official Vacancies',
+    badgeColor: 'indigo',
+    notificationNo: 'CEN No. 04/2026 (Official Railway Board Notice)',
+    totalVacancies: '3,993 Posts (UR: 1,699 | OBC: 913 | SC: 624 | EWS: 394 | ST: 363 | ExSM: 387)',
+    payScale: 'Level-6 in 7th CPC (Initial Pay: ₹35,400/- + DA, HRA, Allowances)',
+    ageLimit: '18 – 33 Years (as on 01.01.2027) [+3 yrs OBC, +5 yrs SC/ST, +10 yrs PwBD]',
+    qualification: 'Three years Diploma in Engineering OR Bachelor\'s Degree in Engineering (B.E./B.Tech) in Civil, Mechanical, Electrical, Electronics, CS, IT, or allied disciplines. (DMS accepts Diploma in ANY Engineering discipline).',
+    meritFormula: '100% 2nd Stage CBT Normalized Score (150 Qs / 120 Mins including 100 Technical Qs)',
+    dates: {
+      indicativeNotice: '25.07.2026',
+      applyStart: '14.08.2026',
+      applyEnd: '13.09.2026 (23:59 Hrs)',
+      feeLastDate: '15.09.2026',
+      editWindow: '16.09.2026 to 25.09.2026 (₹250 Fee)',
+      scribeWindow: '26.09.2026 to 30.09.2026'
+    },
+    medicalStandard: 'A-3 (Bridge, P.Way, TRD, TRS, EMU), B-1 (General Services, Loco Shed), B-2 (Design, Works, DMS), C-1 (Workshop & Drawing)',
+    medicalBreakdown: [
+      { param: 'A-3 Standard (JE Bridge, P.Way, TRD, TRS, EMU)', detail: 'Distant Vision: 6/9, 6/9 with or without glasses (power not exceeding 2D). Near Vision: Sn: 0.6, 0.6 with/without glasses. Color Vision, Binocular, Night & Mesopic Vision mandatory.' },
+      { param: 'B-1 Standard (JE General Services, Loco Shed, Civil R&D)', detail: 'Distant Vision: 6/9, 6/12 with or without glasses (power not exceeding 4D). Near Vision: Sn: 0.6, 0.6 when reading. Color vision pass.' },
+      { param: 'B-2 Standard (JE Design / Electrical, JE Works, DMS)', detail: 'Distant Vision: 6/9, 6/12 with or without glasses (power not exceeding 4D). Near Vision: Sn: 0.6 with/without glasses.' },
+      { param: 'C-1 Standard (JE Workshop, Design Drawing & Estimation)', detail: 'Distant Vision: 6/12, 6/18 with or without glasses. Near Vision: Sn: 0.6 with/without glasses for reading/close work.' }
+    ],
+    tradeMapping: [
+      {
+        discipline: 'Mechanical & Allied Engineering Exam Group',
+        trades: 'Mechanical, Production, Automobile, Manufacturing, Mechatronics, Industrial, Machining, Welding, Tool & Die'
+      },
+      {
+        discipline: 'Electrical & Allied Engineering Exam Group',
+        trades: 'Electrical Engineering, Electrical & Electronics, Power Systems, Electrical Machines & Drives'
+      },
+      {
+        discipline: 'Electronics & Allied Engineering Exam Group',
+        trades: 'Electronics, Electronics & Comm, Telecommunication, Applied Electronics, Instrumentation & Control, Microprocessor'
+      },
+      {
+        discipline: 'Civil & Allied Engineering Exam Group',
+        trades: 'Civil Engineering, Construction Technology, Civil Engineering & Planning, Structural Engineering'
+      }
+    ],
+    postsList: [
+      { post: 'Junior Engineer (Civil - Bridge, P.Way, Track Machine)', dept: 'Civil Engineering', level: 'Level-6 (₹35,400)', medStd: 'A-3', vacancies: 'Core Engineering' },
+      { post: 'Junior Engineer (Electrical - TRD, TRS, EMU, Gen Services)', dept: 'Electrical Engineering', level: 'Level-6 (₹35,400)', medStd: 'A-3 / B-1', vacancies: 'Core Engineering' },
+      { post: 'Junior Engineer (Mechanical - Workshop, Carriage & Wagon, Diesel)', dept: 'Mechanical Engineering', level: 'Level-6 (₹35,400)', medStd: 'B-1 / C-1', vacancies: 'Core Engineering' },
+      { post: 'Junior Engineer (S&T - Signal & Telecommunication)', dept: 'Signal & Telecom', level: 'Level-6 (₹35,400)', medStd: 'A-3', vacancies: 'Core Engineering' },
+      { post: 'Depot Material Superintendent (DMS)', dept: 'Stores Department', level: 'Level-6 (₹35,400)', medStd: 'B-2', vacancies: 'Any Engg Diploma' },
+      { post: 'Junior Engineer (Design, Drawing & Estimation)', dept: 'Engineering / Electrical / Mech', level: 'Level-6 (₹35,400)', medStd: 'C-1', vacancies: 'Drawing & Design' }
+    ],
+    pipeline: [
+      { step: '1', title: '1st Stage CBT (Screening Test)', type: 'Screening', desc: '100 Qs / 90 Mins (Maths 30, Science 30, Reasoning 25, GA 15). 15 times candidates shortlisted for 2nd Stage CBT.' },
+      { step: '2', title: '2nd Stage CBT (Merit Decider)', type: '100% Final Merit', desc: '150 Qs / 120 Mins. 100 Technical Qs + 50 Non-Tech Qs. On-screen Virtual Calculator enabled. 100% merit weightage!' },
+      { step: '3', title: 'Document Verification (DV)', type: 'DV (1:1 Ratio)', desc: '1:1 ratio matching vacancies directly from normalized score of 2nd Stage CBT. Original Diploma/B.Tech certificates.' },
+      { step: '4', title: 'Medical Examination (ME)', type: 'Medical (A-3 to C-1)', desc: 'Railway Medical Board conducts fitness check: A-3 for Running/P.Way/TRD, B-1 for Sheds, C-1 for Workshops.' },
+      { step: '5', title: 'Final Panel & Allotment', type: 'Final', desc: 'Division and zonal posting across Indian Railways as Junior Engineer.' }
+    ],
+    stages: [
+      {
+        stageName: '1st Stage CBT (Screening Test - 100 Qs / 90 Mins)',
+        duration: '90 Minutes (120 Mins for Scribes)',
+        totalQuestions: 100,
+        totalMarks: 100,
+        marking: '+1.00 Correct, -0.33 Negative (15x Shortlisted for CBT-2)',
+        passPercentage: 'UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
+        table: [
+          { subject: 'Mathematics (Arithmetic & Advanced)', questions: 30, marks: 30 },
+          { subject: 'General Science (10th CBSE Physics, Chemistry, Life Sciences)', questions: 30, marks: 30 },
+          { subject: 'General Intelligence & Reasoning', questions: 25, marks: 25 },
+          { subject: 'General Awareness & Current Affairs', questions: 15, marks: 15 },
+        ]
+      },
+      {
+        stageName: '2nd Stage CBT (Final Selection Merit Decider - 150 Qs / 120 Mins)',
+        duration: '120 Minutes (160 Mins for Scribes)',
+        totalQuestions: 150,
+        totalMarks: 150,
+        marking: '+1.00 Correct, -0.33 Negative (Virtual Calculator Available)',
+        passPercentage: 'UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
+        table: [
+          { subject: 'Technical Abilities (Core Engineering Syllabus: Civil / Mech / Elect / Electronics)', questions: 100, marks: 100 },
+          { subject: 'General Awareness (Current Affairs, History, Polity, Geography, Economy)', questions: 15, marks: 15 },
+          { subject: 'Physics & Chemistry (10th Standard CBSE Level)', questions: 15, marks: 15 },
+          { subject: 'Basics of Computers and Applications (OS, Networks, MS Office, Viruses)', questions: 10, marks: 10 },
+          { subject: 'Basics of Environment and Pollution Control (Pollution, Waste, Ozone, Acid Rain)', questions: 10, marks: 10 },
+        ]
+      }
+    ],
+    subjectBreakdown: [
+      {
+        subject: 'Technical Abilities (100 Marks in CBT-2 - Core Merit Decider!)',
+        topics: [
+          'Mechanical: Engineering Mechanics, Material Science, Thermodynamics, RAC, Fluid Mechanics, Industrial Engg, Machining & Machine Tool Operations.',
+          'Electrical: Basic concepts, Circuit law, Magnetic Circuit, AC Fundamentals, Measurement & measuring instruments, Electrical Machines, Synchronous Machines, Transmission & Distribution.',
+          'Civil: Engineering Mechanics, Building Construction & Materials, Surveying, Concrete Technology, RCC Structures, Steel Structures, Hydraulics, Soil Mechanics, Highway Engineering.',
+          'Electronics: Electronic Devices & Circuits, Digital Electronics, Linear Integrated Circuits, Microprocessor & Microcontroller, Electronic Measurements, Communication Engineering.'
+        ]
+      },
+      {
+        subject: 'Basics of Computers & Environment (20 Marks in CBT-2)',
+        topics: [
+          'Computers: Architecture of Computers, Input/Output Devices, Storage, Networking, OS (Windows/Unix/Linux), MS Office, Data representation, Web Browsers, Security & Viruses.',
+          'Environment: Ecosystems, Air, Water & Noise Pollution and control strategies, Waste Management, Global Warming, Acid Rain, Ozone Layer Depletion.'
+        ]
+      },
+      {
+        subject: '1st Stage CBT Subjects (Maths: 30 | Science: 30 | Reasoning: 25 | GA: 15)',
+        topics: [
+          'Mathematics: Number System, BODMAS, Decimals, Fractions, LCM-HCF, Ratio, Percentages, Mensuration, Time & Work, Speed, CI/SI, Algebra, Geometry, Trigonometry, Statistics.',
+          'General Science: Physics, Chemistry and Life Sciences up to 10th Standard CBSE syllabus line by line.',
+          'Reasoning: Syllogisms, Analogies, Series, Coding-Decoding, Venn Diagrams, Puzzles, Blood Relations, Direction Sense.'
+        ]
+      }
+    ]
+  },
+  {
     id: 'rrb-technician',
     name: 'RRB Technician Grade 1 & 3 (CEN 02/2024)',
     shortName: 'Technician Grade 1 & 3',
