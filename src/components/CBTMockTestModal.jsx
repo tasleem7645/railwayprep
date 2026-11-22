@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { 
   X, Clock, ChevronLeft, ChevronRight, CheckCircle, AlertCircle, 
   RotateCcw, Bookmark, Send, Globe, HelpCircle, Shield, Award,
-  FileText, Info, Layers, Check, AlertTriangle, Menu, Pause, Play, AlertOctagon
+  FileText, Info, Layers, Check, AlertTriangle, Menu, Pause, Play, AlertOctagon,
+  Maximize, Minimize
 } from 'lucide-react';
 
 export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultLang = 'hi' }) {
@@ -19,12 +20,19 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
   const [visitedStatus, setVisitedStatus] = useState({ 1: true });
   const [timeLeft, setTimeLeft] = useState(test.durationMinutes * 60);
   const [isPaused, setIsPaused] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   
   // Time spent per question: { [qId]: seconds }
   const [questionTimes, setQuestionTimes] = useState({});
 
-  // Mobile Palette Drawer Toggle (Exact Testbook Mobile UX)
-  const [isMobilePaletteOpen, setIsMobilePaletteOpen] = useState(false);
+  // Flexible Collapsible Right Palette State (Testbook Standard - Screenshot 2 & 3)
+  // Default: Open on very wide desktop screens (>= 1280px), collapsed on phones/tablets/landscape
+  const [isPaletteOpen, setIsPaletteOpen] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth >= 1280;
+    }
+    return false;
+  });
 
   // Modals inside CBT
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
@@ -50,6 +58,23 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
     }, 1000);
     return () => clearInterval(timer);
   }, [timeLeft, isPaused, currentQ.id]);
+
+  // Track fullscreen changes
+  useEffect(() => {
+    const handleFsChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+    document.addEventListener('fullscreenchange', handleFsChange);
+    return () => document.removeEventListener('fullscreenchange', handleFsChange);
+  }, []);
+
+  const toggleFullScreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      document.exitFullscreen().catch(() => {});
+    }
+  };
 
   // Resolve active language for current question (per-question override takes precedence)
   const currentQLang = questionLangOverrides[currentQ.id] || globalLang;
@@ -123,7 +148,10 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
   const handleJumpToQuestion = (targetIdx) => {
     setCurrentIndex(targetIdx);
     setVisitedStatus(prev => ({ ...prev, [test.questions[targetIdx].id]: true }));
-    setIsMobilePaletteOpen(false); // Close drawer on mobile upon selection
+    // If screen is smaller than desktop (1024px), close palette after picking a question
+    if (typeof window !== 'undefined' && window.innerWidth < 1024) {
+      setIsPaletteOpen(false);
+    }
   };
 
   const handleSectionTabClick = (sectionName) => {
@@ -137,7 +165,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
   };
 
   const handleFinalSubmit = () => {
-    setIsMobilePaletteOpen(false);
+    setIsPaletteOpen(false);
     onSubmitTest({
       test,
       answers,
@@ -154,29 +182,24 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
   const notVisitedCount = Math.max(0, test.questions.length - visitedCount);
   const notAnsweredCount = Math.max(0, visitedCount - answeredCount);
 
-  // Styling for question palette buttons (matching Testbook Screenshots 3 & 4)
+  // Styling for question palette buttons (matching Testbook Screenshots 2 & 3)
   const getPaletteClass = (q, idx) => {
     const isCurrent = idx === currentIndex;
     const isAnswered = answers[q.id] !== undefined;
     const isMarked = reviewStatus[q.id];
     const isVisited = visitedStatus[q.id];
 
-    let base = "h-9 rounded-md text-xs font-bold flex items-center justify-center transition-all cursor-pointer relative shadow-sm ";
+    let base = "h-8.5 sm:h-9 rounded-md text-xs font-bold flex items-center justify-center transition-all cursor-pointer relative shadow-sm ";
 
     if (isAnswered && isMarked) {
-      // Purple with small green indicator: Answered & Marked for Review
       base += "bg-purple-700 text-white border-2 border-purple-400";
     } else if (isMarked) {
-      // Purple: Marked for Review
       base += "bg-purple-800 text-purple-200 border border-purple-500 rounded-full";
     } else if (isAnswered) {
-      // Green: Answered (Testbook bright green)
       base += "bg-emerald-500 text-white font-extrabold";
     } else if (isVisited) {
-      // Red: Visited but Not Answered
       base += "bg-rose-600 text-white font-semibold";
     } else {
-      // Dark/Gray: Not Visited (Testbook dark slate)
       base += "bg-[#182338] text-slate-300 border border-slate-700 hover:bg-slate-700";
     }
 
@@ -189,57 +212,57 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
 
   const availableSections = test.sections || ['All Sections'];
 
-  // Palette Content Component (Used in both Desktop Right Panel & Mobile Drawer)
+  // Palette Inner Content Component
   const renderPaletteContent = () => (
-    <div className="flex flex-col h-full justify-between">
+    <div className="flex flex-col h-full justify-between select-none">
       <div>
         {/* User Profile Header (Indian Flag + Aspirant Name - Testbook Style) */}
-        <div className="flex items-center gap-3 p-3 rounded-xl bg-[#131F37] border border-slate-800 mb-3.5">
+        <div className="flex items-center gap-3 p-2.5 sm:p-3 rounded-xl bg-[#131F37] border border-slate-800 mb-3">
           <div className="text-xl shrink-0">🇮🇳</div>
-          <div className="text-xs">
-            <div className="font-bold text-white tracking-wide">Railway Aspirant</div>
-            <div className="text-slate-400 text-[11px] truncate">{test.exam || 'RRB ALP 2026'}</div>
+          <div className="text-xs min-w-0">
+            <div className="font-bold text-white tracking-wide truncate">Railway Aspirant</div>
+            <div className="text-slate-400 text-[11px] truncate">Roll: {test.exam || 'RRB ALP 2026'}</div>
           </div>
         </div>
 
         {/* 5 Testbook Status Badges (Pills) */}
-        <div className="grid grid-cols-2 gap-2 text-[11px] mb-4">
-          <div className="flex items-center gap-2 px-2.5 py-1 rounded-full bg-emerald-950/60 border border-emerald-800/80 text-emerald-300">
+        <div className="grid grid-cols-2 gap-1.5 text-[11px] mb-3">
+          <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-950/60 border border-emerald-800/80 text-emerald-300">
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 shrink-0"></span>
             <span className="truncate">{answeredCount} Answered</span>
           </div>
-          <div className="flex items-center gap-2 px-2.5 py-1 rounded-full bg-purple-950/60 border border-purple-800/80 text-purple-300">
+          <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-purple-950/60 border border-purple-800/80 text-purple-300">
             <span className="w-2.5 h-2.5 rounded-full bg-purple-500 shrink-0"></span>
             <span className="truncate">{markedOnlyCount} Marked</span>
           </div>
-          <div className="flex items-center gap-2 px-2.5 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300">
+          <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-slate-900 border border-slate-800 text-slate-300">
             <span className="w-2.5 h-2.5 rounded-full bg-slate-600 shrink-0"></span>
             <span className="truncate">{notVisitedCount} Not Visited</span>
           </div>
-          <div className="flex items-center gap-2 px-2.5 py-1 rounded-full bg-purple-950/60 border border-purple-800/80 text-purple-300">
+          <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-purple-950/60 border border-purple-800/80 text-purple-300">
             <div className="w-2.5 h-2.5 rounded-full bg-purple-500 relative shrink-0">
               <span className="absolute inset-0.5 rounded-full bg-emerald-400"></span>
             </div>
             <span className="truncate">{answeredAndMarkedCount} Marked & Ans</span>
           </div>
-          <div className="flex items-center gap-2 px-2.5 py-1 rounded-full bg-rose-950/60 border border-rose-800/80 text-rose-300 col-span-2">
+          <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-rose-950/60 border border-rose-800/80 text-rose-300 col-span-2">
             <span className="w-2.5 h-2.5 rounded-full bg-rose-600 shrink-0"></span>
             <span className="truncate">{notAnsweredCount} Not Answered</span>
           </div>
         </div>
 
-        {/* Section Selector in Drawer */}
-        <div className="mb-3">
-          <div className="text-[11px] font-bold text-teal-400 uppercase tracking-wider mb-1.5 flex items-center justify-between">
-            <span>SECTION : {activeSectionFilter}</span>
-            <span className="text-slate-400 font-normal">({test.questions.length} Qs)</span>
+        {/* Section Selector in Palette */}
+        <div className="mb-2.5">
+          <div className="text-[11px] font-bold text-teal-400 uppercase tracking-wider mb-1 flex items-center justify-between">
+            <span className="truncate">SECTION : {activeSectionFilter}</span>
+            <span className="text-slate-400 font-normal shrink-0">({test.questions.length} Qs)</span>
           </div>
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+          <div className="flex items-center gap-1 overflow-x-auto pb-1 no-scrollbar">
             {availableSections.map((sec) => (
               <button
                 key={sec}
                 onClick={() => handleSectionTabClick(sec)}
-                className={`px-2.5 py-1 rounded text-[11px] font-semibold whitespace-nowrap transition-colors ${
+                className={`px-2 py-0.5 rounded text-[10px] font-semibold whitespace-nowrap transition-colors ${
                   activeSectionFilter === sec
                     ? 'bg-teal-500 text-slate-950 font-bold'
                     : 'bg-[#182338] text-slate-400 hover:text-white'
@@ -252,7 +275,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
         </div>
 
         {/* 5-Column Question Numbers Grid */}
-        <div className="grid grid-cols-5 gap-2 max-h-[42vh] lg:max-h-[380px] overflow-y-auto pr-1">
+        <div className="grid grid-cols-5 gap-1.5 max-h-[46vh] lg:max-h-[380px] overflow-y-auto pr-1">
           {test.questions.map((q, idx) => {
             const matchesSection = activeSectionFilter === 'All Sections' || q.section === activeSectionFilter;
             return (
@@ -272,28 +295,28 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
         </div>
       </div>
 
-      {/* Drawer Bottom Actions: Question Paper + Instructions + Submit Test (Screenshot 3) */}
-      <div className="pt-3 border-t border-slate-800/80 space-y-2 shrink-0">
+      {/* Palette Bottom Actions: Question Paper + Instructions + Submit Test (Screenshot 2) */}
+      <div className="pt-2.5 border-t border-slate-800/80 space-y-2 shrink-0">
         <div className="grid grid-cols-2 gap-2">
           <button
-            onClick={() => { setShowQuestionPaper(true); setIsMobilePaletteOpen(false); }}
-            className="py-2 px-2 rounded-lg bg-[#18263E] hover:bg-[#203252] border border-cyan-800/60 text-cyan-300 font-semibold text-xs flex items-center justify-center gap-1 transition-colors"
+            onClick={() => setShowQuestionPaper(true)}
+            className="py-1.5 px-2 rounded-lg bg-[#18263E] hover:bg-[#203252] border border-cyan-800/60 text-cyan-300 font-semibold text-xs flex items-center justify-center gap-1 transition-colors"
           >
             <FileText className="w-3.5 h-3.5" />
-            <span>Question Paper</span>
+            <span className="truncate">Question Paper</span>
           </button>
           <button
-            onClick={() => { setShowInstructions(true); setIsMobilePaletteOpen(false); }}
-            className="py-2 px-2 rounded-lg bg-[#18263E] hover:bg-[#203252] border border-cyan-800/60 text-cyan-300 font-semibold text-xs flex items-center justify-center gap-1 transition-colors"
+            onClick={() => setShowInstructions(true)}
+            className="py-1.5 px-2 rounded-lg bg-[#18263E] hover:bg-[#203252] border border-cyan-800/60 text-cyan-300 font-semibold text-xs flex items-center justify-center gap-1 transition-colors"
           >
             <Info className="w-3.5 h-3.5" />
-            <span>Instructions</span>
+            <span className="truncate">Instructions</span>
           </button>
         </div>
 
         <button
-          onClick={() => { setShowConfirmSubmit(true); setIsMobilePaletteOpen(false); }}
-          className="w-full py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs tracking-wide shadow-lg shadow-teal-950/80 transition-all flex items-center justify-center gap-1.5"
+          onClick={() => setShowConfirmSubmit(true)}
+          className="w-full py-2 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs tracking-wide shadow-lg shadow-teal-950/80 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
         >
           <Check className="w-4 h-4" />
           <span>Submit Test</span>
@@ -305,8 +328,8 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
   return (
     <div className="fixed inset-0 z-50 bg-[#080D1A] flex flex-col overflow-hidden text-slate-100 select-none">
       
-      {/* 1. TESTBOOK TOP BAR (Testbook Logo + Digital Timer + Pause Button) */}
-      <header className="bg-[#0D1627] border-b border-slate-800 px-3 sm:px-5 py-2.5 flex items-center justify-between shrink-0 shadow-sm">
+      {/* 1. TESTBOOK TOP BAR (Branding + Digital Timer + FullScreen + Pause Button) */}
+      <header className="bg-[#0D1627] border-b border-slate-800 px-3 sm:px-5 py-2 flex items-center justify-between shrink-0 shadow-sm z-30">
         {/* Left: Testbook Style Branding */}
         <div className="flex items-center gap-2 sm:gap-3">
           <div className="flex items-center gap-1.5 font-black text-sm sm:text-base tracking-tight">
@@ -325,30 +348,41 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
           </span>
         </div>
 
-        {/* Right: Digital Timer Box + Pause Button (Exact Screenshot 4) */}
-        <div className="flex items-center gap-2 sm:gap-3">
+        {/* Right: Digital Timer Box + FullScreen + Pause Button (Exact Screenshot 2) */}
+        <div className="flex items-center gap-2 sm:gap-2.5">
           {/* Digital Timer Box */}
-          <div className={`px-3 py-1.5 rounded-lg border font-mono font-bold text-xs sm:text-sm flex items-center gap-2 shadow-inner ${
+          <div className={`px-2.5 sm:px-3 py-1 rounded-lg border font-mono font-bold text-xs sm:text-sm flex items-center gap-1.5 shadow-inner ${
             timeLeft < 300 
               ? 'bg-rose-950/80 border-rose-500 text-rose-300 animate-pulse'
               : 'bg-[#0A111F] border-slate-700 text-slate-200'
           }`}>
+            <span className="text-[10px] text-slate-400 hidden sm:inline">Time Left:</span>
             <span>{formatOverallTime(timeLeft)}</span>
           </div>
 
-          {/* Pause Button (Testbook Style) */}
+          {/* Full Screen Toggle (Testbook Screenshot 2) */}
+          <button
+            onClick={toggleFullScreen}
+            title={isFullscreen ? 'Exit Full Screen' : 'Enter Full Screen'}
+            className="hidden sm:flex px-2.5 py-1 rounded-lg bg-[#131F37] hover:bg-[#1A2A4A] border border-slate-700 text-slate-300 hover:text-white text-xs font-semibold items-center gap-1 transition-colors"
+          >
+            {isFullscreen ? <Minimize className="w-3.5 h-3.5" /> : <Maximize className="w-3.5 h-3.5" />}
+            <span className="hidden md:inline">{isFullscreen ? 'Exit Screen' : 'Enter Full Screen'}</span>
+          </button>
+
+          {/* Pause Button (Testbook Screenshot 2) */}
           <button
             onClick={() => setIsPaused(!isPaused)}
-            className="px-2.5 py-1.5 rounded-lg bg-[#131F37] hover:bg-[#1A2A4A] border border-slate-700 text-teal-300 text-xs font-semibold flex items-center gap-1 transition-colors"
+            className="px-2 sm:px-2.5 py-1 rounded-lg bg-[#131F37] hover:bg-[#1A2A4A] border border-slate-700 text-teal-300 text-xs font-semibold flex items-center gap-1 transition-colors"
           >
             {isPaused ? <Play className="w-3 h-3 fill-teal-400" /> : <Pause className="w-3 h-3" />}
             <span className="hidden sm:inline">{isPaused ? 'Resume' : 'Pause'}</span>
           </button>
 
-          {/* Quick Submit Button (Desktop Only) */}
+          {/* Quick Submit Button */}
           <button
             onClick={() => setShowConfirmSubmit(true)}
-            className="hidden sm:flex px-3 py-1.5 rounded-lg bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950 transition-all items-center gap-1"
+            className="px-2.5 sm:px-3 py-1 rounded-lg bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950 transition-all flex items-center gap-1"
           >
             <Send className="w-3 h-3" />
             <span>Submit</span>
@@ -356,58 +390,58 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
         </div>
       </header>
 
-      {/* 2. EXAM TITLE & SECTION TABS (Screenshot 4) */}
-      <div className="bg-[#091120] border-b border-slate-800/80 px-3 sm:px-5 py-2 flex items-center justify-between gap-3 shrink-0">
+      {/* 2. EXAM SUB-HEADER: Test Title, Active Section Badge, Paper/Instructions links */}
+      <div className="bg-[#091120] border-b border-slate-800/80 px-3 sm:px-5 py-1.5 flex items-center justify-between gap-2 shrink-0">
         <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5">
-          <span className="text-xs font-semibold text-slate-200 truncate max-w-[200px] sm:max-w-md">
+          <span className="text-[11px] sm:text-xs font-semibold text-slate-200 truncate max-w-[220px] sm:max-w-md">
             {test.title}
           </span>
-          <span className="px-2 py-0.5 rounded bg-teal-500 text-slate-950 font-bold text-[11px] shrink-0">
-            {currentQ.section ? currentQ.section.substring(0, 12) : 'CBT'}
+          <span className="px-2 py-0.5 rounded bg-teal-500 text-slate-950 font-bold text-[10px] shrink-0">
+            {currentQ.section ? currentQ.section.substring(0, 15) : 'CBT'}
           </span>
         </div>
 
-        {/* Desktop Question Paper & Instructions */}
-        <div className="hidden lg:flex items-center gap-2">
+        {/* Header Links */}
+        <div className="flex items-center gap-2 sm:gap-3 text-xs">
           <button
             onClick={() => setShowQuestionPaper(true)}
-            className="text-xs text-slate-400 hover:text-teal-300 flex items-center gap-1"
+            className="text-slate-400 hover:text-teal-300 flex items-center gap-1"
           >
             <FileText className="w-3.5 h-3.5" />
-            <span>Paper</span>
+            <span className="hidden sm:inline">Paper</span>
           </button>
-          <span className="text-slate-700">•</span>
+          <span className="text-slate-700 hidden sm:inline">•</span>
           <button
             onClick={() => setShowInstructions(true)}
-            className="text-xs text-slate-400 hover:text-teal-300 flex items-center gap-1"
+            className="text-slate-400 hover:text-teal-300 flex items-center gap-1"
           >
             <Info className="w-3.5 h-3.5" />
-            <span>Instructions</span>
+            <span className="hidden sm:inline">Instructions</span>
           </button>
         </div>
       </div>
 
-      {/* 3. MAIN BODY WORKSPACE (Full Width Question on Mobile; Split on Desktop) */}
+      {/* 3. MAIN WORKSPACE: Dynamic Full-Width Question View + Collapsible Right Palette */}
       <div className="flex-1 flex overflow-hidden relative">
         
-        {/* LEFT / FULL-WIDTH QUESTION AREA (Full width on mobile - Screenshot 4) */}
-        <main className="flex-1 flex flex-col justify-between overflow-y-auto p-4 sm:p-6 lg:p-7 bg-[#070B18]">
+        {/* LEFT: QUESTION WORKSPACE (Auto-expands to 100% when palette is collapsed!) */}
+        <main className="flex-1 flex flex-col justify-between overflow-y-auto p-3.5 sm:p-6 lg:p-7 bg-[#070B18] transition-all duration-300">
           <div>
-            {/* SUBHEADER (Question No. + Marks + Time + Language Dropdown - Exact Screenshot 4) */}
-            <div className="flex items-center justify-between gap-2 pb-3.5 border-b border-slate-800/80 mb-5 text-xs">
+            {/* QUESTION SUBHEADER (Question No. + Marks + Time + Language Dropdown - Screenshot 2 & 4) */}
+            <div className="flex items-center justify-between gap-2 pb-3 border-b border-slate-800/80 mb-4 sm:mb-5 text-xs">
               
-              {/* Question Number (Large bold like Testbook "3.") */}
+              {/* Question Number */}
               <div className="flex items-center gap-2">
-                <span className="text-base sm:text-lg font-black text-white">
-                  {currentIndex + 1}.
+                <span className="text-sm sm:text-base font-black text-white">
+                  Question No. {currentIndex + 1}
                 </span>
-                <span className="px-2 py-0.5 rounded bg-slate-800/90 text-slate-300 font-medium text-[11px] hidden sm:inline">
+                <span className="px-2 py-0.5 rounded bg-slate-800/90 text-slate-300 font-medium text-[11px] hidden md:inline">
                   {currentQ.section}
                 </span>
               </div>
 
-              {/* Center/Right: Marks + Question Timer + Language Switcher (Screenshot 4) */}
-              <div className="flex items-center gap-2.5 sm:gap-3.5">
+              {/* Marks + Elapsed Question Timer + Language Switcher */}
+              <div className="flex items-center gap-2 sm:gap-3">
                 
                 {/* Marks Badges (+1 in Green, -0.33 in Red) */}
                 <div className="flex items-center gap-1 font-mono font-bold text-[11px]">
@@ -420,18 +454,19 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
                   </span>
                 </div>
 
-                {/* Per-Question Elapsed Timer ("Time: 00:06" in Screenshot 4) */}
+                {/* Per-Question Elapsed Timer ("Time: 00:13" in Testbook Screenshot 2) */}
                 <div className="flex items-center gap-1 text-slate-400 font-mono text-[11px] bg-slate-900/80 px-2 py-0.5 rounded border border-slate-800">
+                  <span className="hidden sm:inline text-slate-500 text-[10px]">Time</span>
                   <Clock className="w-3 h-3 text-teal-400" />
                   <span>{formatQuestionTime(questionTimes[currentQ.id])}</span>
                 </div>
 
-                {/* Per-Question Bilingual Language Dropdown (Screenshot 4) */}
+                {/* Bilingual Language Dropdown (Testbook Screenshot 2: "View in Hindi ▼") */}
                 <div className="relative">
                   <select
                     value={currentQLang}
                     onChange={(e) => toggleQuestionLang(e.target.value)}
-                    className="bg-[#101A2E] border border-slate-700 hover:border-teal-400 text-teal-300 text-xs font-bold rounded-lg px-2.5 py-1 pr-6 cursor-pointer outline-none transition-colors"
+                    className="bg-[#101A2E] border border-slate-700 hover:border-teal-400 text-teal-300 text-xs font-bold rounded-lg px-2 py-0.5 pr-5 cursor-pointer outline-none transition-colors"
                   >
                     <option value="hi">Hindi</option>
                     <option value="en">English</option>
@@ -454,8 +489,8 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
               {currentQ.question[currentQLang] || currentQ.question['en']}
             </div>
 
-            {/* 4 OPTIONS (Radio Button List - Exact Screenshot 4) */}
-            <div className="space-y-3 max-w-3xl mb-8">
+            {/* 4 OPTIONS (Radio Buttons - Testbook Screenshot 2 & 4) */}
+            <div className="space-y-3 max-w-4xl mb-8">
               {(currentQ.options[currentQLang] || currentQ.options['en']).map((optText, optIdx) => {
                 const isSelected = answers[currentQ.id] === optIdx;
                 return (
@@ -468,7 +503,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
                         : 'bg-[#0B1325]/70 border-slate-800 text-slate-300 hover:bg-[#101B33] hover:border-slate-700'
                     }`}
                   >
-                    {/* Radio Circle Icon (Matching Screenshot 4) */}
+                    {/* Circular Radio Icon (○) */}
                     <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-colors ${
                       isSelected ? 'border-teal-400 bg-teal-500' : 'border-slate-500 bg-transparent'
                     }`}>
@@ -485,12 +520,12 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
             </div>
           </div>
 
-          {/* FIXED BOTTOM ACTION BAR (Screenshot 4: 3 buttons side-by-side) */}
-          <footer className="pt-4 border-t border-slate-800 mt-4 flex items-center justify-between gap-2 shrink-0">
+          {/* FIXED BOTTOM ACTION BAR (Screenshot 2: 3 buttons side-by-side) */}
+          <footer className="pt-3.5 border-t border-slate-800 mt-4 flex items-center justify-between gap-2 shrink-0">
             {/* Mark for Review & Next */}
             <button
               onClick={handleMarkForReviewAndNext}
-              className="flex-1 sm:flex-initial px-3 sm:px-4 py-2.5 rounded-lg border border-cyan-700/60 hover:bg-cyan-950/40 text-cyan-300 font-semibold text-xs transition-colors flex items-center justify-center gap-1.5"
+              className="flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-lg border border-cyan-700/60 hover:bg-cyan-950/40 text-cyan-300 font-semibold text-xs transition-colors flex items-center justify-center gap-1.5"
             >
               <Bookmark className="w-3.5 h-3.5 text-cyan-400" />
               <span className="truncate">Mark for Review & Next</span>
@@ -500,7 +535,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
             <button
               onClick={handleClearResponse}
               disabled={answers[currentQ.id] === undefined}
-              className="flex-1 sm:flex-initial px-3 sm:px-4 py-2.5 rounded-lg border border-slate-700 hover:bg-slate-800 text-slate-400 hover:text-slate-200 font-semibold text-xs disabled:opacity-30 disabled:cursor-not-allowed transition-colors flex items-center justify-center"
+              className="flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-lg border border-slate-700 hover:bg-slate-800 text-slate-400 hover:text-slate-200 font-semibold text-xs disabled:opacity-30 disabled:cursor-not-allowed transition-colors flex items-center justify-center"
             >
               <span className="truncate">Clear Response</span>
             </button>
@@ -509,7 +544,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
             <button
               onClick={handlePrev}
               disabled={currentIndex === 0}
-              className="hidden sm:flex px-4 py-2.5 rounded-lg border border-slate-700 hover:bg-slate-800 text-slate-300 font-semibold text-xs disabled:opacity-30 disabled:cursor-not-allowed transition-colors items-center gap-1"
+              className="hidden sm:flex px-4 py-2 rounded-lg border border-slate-700 hover:bg-slate-800 text-slate-300 font-semibold text-xs disabled:opacity-30 disabled:cursor-not-allowed transition-colors items-center gap-1"
             >
               <ChevronLeft className="w-3.5 h-3.5" />
               <span>Previous</span>
@@ -518,7 +553,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
             {/* Save & Next (Solid Teal Button - Testbook Standard) */}
             <button
               onClick={handleSaveAndNext}
-              className="flex-1 sm:flex-initial px-5 py-2.5 rounded-lg bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs shadow-md shadow-teal-950 transition-all flex items-center justify-center gap-1"
+              className="flex-1 sm:flex-initial px-5 py-2 rounded-lg bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs shadow-md shadow-teal-950 transition-all flex items-center justify-center gap-1"
             >
               <span className="truncate">{currentIndex === test.questions.length - 1 ? 'Save & Review' : 'Save & Next'}</span>
               <ChevronRight className="w-3.5 h-3.5 font-bold" />
@@ -526,45 +561,48 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
           </footer>
         </main>
 
-        {/* DESKTOP PERMANENT RIGHT PALETTE (Hidden on mobile < 1024px; visible on lg:) */}
-        <aside className="hidden lg:flex w-80 shrink-0 bg-[#0B1329] p-4 flex-col justify-between overflow-y-auto border-l border-slate-800">
-          {renderPaletteContent()}
+        {/* RIGHT: COLLAPSIBLE QUESTION PALETTE (Testbook Screenshots 2 & 3) */}
+        {/* On Desktop/Landscape: Collapsible Sidebar with Left Toggle Handle */}
+        {/* On Mobile Portrait: Slides over as Drawer */}
+        <aside 
+          className={`fixed lg:relative inset-y-0 right-0 z-40 bg-[#0B1329] border-l border-slate-800 flex flex-col justify-between transition-all duration-300 ease-in-out shadow-2xl lg:shadow-none ${
+            isPaletteOpen 
+              ? 'w-[85%] max-w-[320px] sm:w-80 p-3.5 sm:p-4 translate-x-0 opacity-100' 
+              : 'w-0 p-0 translate-x-full lg:translate-x-0 lg:w-0 overflow-hidden border-none opacity-0 pointer-events-none'
+          }`}
+        >
+          {/* COLLAPSE TOGGLE HANDLE (When Open: Attached to Left Border of Palette - Screenshot 2) */}
+          {isPaletteOpen && (
+            <button
+              onClick={() => setIsPaletteOpen(false)}
+              title="Collapse Palette (Hide Question Numbers)"
+              className="absolute -left-6 top-1/2 -translate-y-1/2 w-6 h-14 rounded-l-md bg-[#132238] hover:bg-teal-500 hover:text-slate-950 border-l border-y border-slate-700 text-slate-300 flex items-center justify-center transition-all z-50 cursor-pointer shadow-xl group"
+            >
+              <ChevronRight className="w-4 h-4 group-hover:scale-125 transition-transform stroke-[2.5]" />
+            </button>
+          )}
+
+          {/* Palette Content */}
+          {isPaletteOpen && renderPaletteContent()}
         </aside>
 
-        {/* MOBILE FLOATING ACTION BUTTON (FAB) [ ☰ ] (Screenshot 4) */}
-        <button
-          onClick={() => setIsMobilePaletteOpen(true)}
-          title="Open Question Palette"
-          className="lg:hidden fixed bottom-20 right-4 z-40 w-12 h-12 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-xl shadow-teal-950/80 flex items-center justify-center transition-transform active:scale-95"
-        >
-          <Menu className="w-6 h-6 stroke-[2.5]" />
-        </button>
+        {/* EXPAND TOGGLE HANDLE (When Collapsed: Attached to Far Right Edge of Screen - Exact Screenshot 3) */}
+        {!isPaletteOpen && (
+          <button
+            onClick={() => setIsPaletteOpen(true)}
+            title="Expand Palette (Show Question Numbers)"
+            className="fixed right-0 top-1/2 -translate-y-1/2 w-6 h-16 rounded-l-lg bg-[#18263E] hover:bg-teal-500 hover:text-slate-950 border-l border-y border-slate-700 text-teal-300 flex items-center justify-center transition-all z-30 shadow-2xl cursor-pointer active:scale-95 group"
+          >
+            <ChevronLeft className="w-5 h-5 group-hover:scale-125 transition-transform stroke-[2.5]" />
+          </button>
+        )}
 
-        {/* MOBILE SLIDE-OVER PALETTE DRAWER (Screenshot 3) */}
-        {isMobilePaletteOpen && (
-          <div className="lg:hidden fixed inset-0 z-50 flex">
-            {/* Dark Backdrop (Tap to close) */}
-            <div 
-              onClick={() => setIsMobilePaletteOpen(false)}
-              className="fixed inset-0 bg-black/70 backdrop-blur-sm transition-opacity"
-            />
-
-            {/* Sliding Drawer Container from the Right */}
-            <div className="fixed inset-y-0 right-0 w-[86%] max-w-sm bg-[#0B1426] border-l border-slate-800 z-50 flex flex-col justify-between p-4 shadow-2xl animate-in slide-in-from-right duration-200">
-              
-              {/* Floating Close Button Attached to Left Edge (Exact Screenshot 3) */}
-              <button
-                onClick={() => setIsMobilePaletteOpen(false)}
-                className="absolute -left-11 bottom-20 w-11 h-11 bg-teal-500 hover:bg-teal-400 text-slate-950 rounded-l-xl flex items-center justify-center shadow-lg active:scale-95"
-                title="Close Palette"
-              >
-                <X className="w-5 h-5 stroke-[2.5]" />
-              </button>
-
-              {/* Drawer Content */}
-              {renderPaletteContent()}
-            </div>
-          </div>
+        {/* Mobile Backdrop when Palette Drawer is open on narrow mobile */}
+        {isPaletteOpen && (
+          <div 
+            onClick={() => setIsPaletteOpen(false)}
+            className="lg:hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-30 transition-opacity"
+          />
         )}
 
       </div>
@@ -624,7 +662,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
               </button>
               <button
                 onClick={handleFinalSubmit}
-                className="px-5 py-2 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 text-xs font-black shadow-md shadow-teal-950 transition-colors"
+                className="px-5 py-2 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 text-xs font-black shadow-md shadow-teal-950 transition-colors cursor-pointer"
               >
                 Yes, Submit Now
               </button>
@@ -703,9 +741,9 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
                 </ul>
               </div>
               <div className="p-3 rounded-xl bg-slate-900 border border-slate-800">
-                <h4 className="font-bold text-teal-400 mb-1">2. Bilingual Flexibility</h4>
+                <h4 className="font-bold text-teal-400 mb-1">2. Flexible Collapsible Question Palette</h4>
                 <p className="text-slate-400">
-                  You can set your default language using the top dropdown. In addition, you can toggle language for <strong>any individual question</strong> right from the subheader dropdown without affecting other questions.
+                  You can click the <strong>&gt;</strong> handle on the divider to collapse the question palette anytime and view the question in 100% full-width, and click the <strong>&lt;</strong> handle on the right edge to expand it back!
                 </p>
               </div>
               <div className="p-3 rounded-xl bg-slate-900 border border-slate-800">
