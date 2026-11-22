@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Train, Sparkles, Crown, Search, Globe, ChevronDown, 
-  Menu, X, BookOpen, CheckSquare, Zap, Flame, User
+  Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText
 } from 'lucide-react';
 
 export default function Navbar({ 
@@ -63,7 +63,7 @@ export default function Navbar({
               </div>
             </div>
 
-            {/* Goal Selector (Testbook style) */}
+            {/* Goal Selector */}
             <div className="relative hidden md:block">
               <button 
                 onClick={() => setGoalDropdownOpen(!goalDropdownOpen)}
@@ -119,6 +119,13 @@ export default function Navbar({
               SuperCoaching Notes
             </button>
             <button 
+              onClick={() => setActiveTab('syllabus')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'syllabus' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+            >
+              <FileText className="w-4 h-4 text-sky-400" />
+              Syllabus & Pattern
+            </button>
+            <button 
               onClick={() => setActiveTab('daily-quiz')}
               className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'daily-quiz' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
             >
@@ -129,7 +136,7 @@ export default function Navbar({
 
           {/* Right Action buttons */}
           <div className="flex items-center gap-3">
-            {/* Language toggle (English / Hindi) */}
+            {/* Language toggle */}
             <button
               onClick={() => setSelectedLang(selectedLang === 'hi' ? 'en' : 'hi')}
               className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700/80 text-xs font-semibold text-slate-300 hover:text-white transition-colors"
@@ -139,7 +146,7 @@ export default function Navbar({
               <span>{selectedLang === 'hi' ? 'हिंदी' : 'English'}</span>
             </button>
 
-            {/* Testbook Style Pass Pro Gold Button */}
+            {/* Pass Pro Button */}
             <button
               onClick={onOpenPassPro}
               className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 text-xs font-extrabold shadow-md shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all cursor-pointer"
@@ -181,6 +188,12 @@ export default function Navbar({
             className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-teal-300 hover:bg-slate-800"
           >
             📚 SuperCoaching (Neeraj Sir & Maths Notes)
+          </button>
+          <button 
+            onClick={() => { setActiveTab('syllabus'); setMobileMenuOpen(false); }}
+            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-sky-300 hover:bg-slate-800"
+          >
+            📋 Official Syllabus & Pattern
           </button>
           <button 
             onClick={() => { setActiveTab('daily-quiz'); setMobileMenuOpen(false); }}

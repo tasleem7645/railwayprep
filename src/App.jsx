@@ -6,15 +6,16 @@ import TestResultModal from './components/TestResultModal';
 import PassProModal from './components/PassProModal';
 import SuperCoachingView from './components/SuperCoachingView';
 import DailyQuizCard from './components/DailyQuizCard';
+import SyllabusView from './components/SyllabusView';
 import Footer from './components/Footer';
 import { RAILWAY_TESTS } from './data/mockTestData';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
-  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles
+  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText
 } from 'lucide-react';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'daily-quiz'
+  const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz'
   const [selectedLang, setSelectedLang] = useState('hi');
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [activeTest, setActiveTest] = useState(null);
@@ -73,13 +74,22 @@ export default function App() {
                   </p>
                 </div>
 
-                <button
-                  onClick={() => setActiveTab('mock-tests')}
-                  className="text-xs font-bold text-teal-400 hover:text-teal-300 flex items-center gap-1.5"
-                >
-                  <span>View All 50+ Tests</span>
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => setActiveTab('syllabus')}
+                    className="text-xs font-bold text-sky-400 hover:text-sky-300 flex items-center gap-1 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800"
+                  >
+                    <FileText className="w-3.5 h-3.5" />
+                    <span>View Exam Syllabus</span>
+                  </button>
+                  <button
+                    onClick={() => setActiveTab('mock-tests')}
+                    className="text-xs font-bold text-teal-400 hover:text-teal-300 flex items-center gap-1.5"
+                  >
+                    <span>View All Tests</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
 
               {/* Test Cards Grid */}
@@ -140,7 +150,7 @@ export default function App() {
                   </div>
                 ))}
 
-                {/* Card 2: Pass Pro Upgrade Card (Testbook style) */}
+                {/* Card 2: Pass Pro Upgrade Card */}
                 <div className="p-6 rounded-3xl bg-gradient-to-b from-amber-500/10 via-slate-900 to-slate-950 border border-amber-500/40 shadow-xl flex flex-col justify-between text-center">
                   <div>
                     <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-300 mx-auto mb-3">
@@ -210,6 +220,13 @@ export default function App() {
 
         {activeTab === 'super-coaching' && (
           <SuperCoachingView onOpenPassPro={() => setIsPassProOpen(true)} />
+        )}
+
+        {activeTab === 'syllabus' && (
+          <SyllabusView
+            onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
+            onOpenPassPro={() => setIsPassProOpen(true)}
+          />
         )}
 
         {activeTab === 'daily-quiz' && (
