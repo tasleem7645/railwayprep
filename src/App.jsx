@@ -17,11 +17,13 @@ import {
 export default function App() {
   const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz'
   const [selectedLang, setSelectedLang] = useState('hi');
+  const [testFilter, setTestFilter] = useState('all'); // 'all' | 'full-shift' | 'sectional'
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [activeTest, setActiveTest] = useState(null);
   const [testResult, setTestResult] = useState(null);
 
-  const handleStartMock = (test = RAILWAY_TESTS[0]) => {
+  const handleStartMock = (test = RAILWAY_TESTS[0], lang = selectedLang) => {
+    setSelectedLang(lang);
     setActiveTest(test);
   };
 
@@ -186,32 +188,119 @@ export default function App() {
 
         {activeTab === 'mock-tests' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-            <div className="text-center max-w-2xl mx-auto mb-10">
-              <h2 className="text-3xl font-black text-white">Railway Exam All-India Test Series</h2>
+            <div className="text-center max-w-3xl mx-auto mb-8">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-300 font-extrabold text-xs mb-3">
+                <Sparkles className="w-3.5 h-3.5 text-teal-400" />
+                <span>Testbook & TCS iON CBT Engine • Bilingual Bilingual Tests</span>
+              </div>
+              <h2 className="text-2xl sm:text-4xl font-black text-white">Railway Exam All-India CBT Test Series</h2>
               <p className="text-xs sm:text-sm text-slate-400 mt-2">
-                Simulated on authentic TCS iON CBT software pattern with negative marking and instant detailed solutions.
+                Simulated on authentic TCS iON software layout with bilingual per-question toggle, 1/3rd negative marking, and detailed solutions.
               </p>
+
+              {/* Category Filter Tabs */}
+              <div className="flex items-center justify-center gap-2 mt-6 overflow-x-auto no-scrollbar">
+                {[
+                  { key: 'all', label: `All Tests (${RAILWAY_TESTS.length})` },
+                  { key: 'full-shift', label: `Full Shift Official Papers (${RAILWAY_TESTS.filter(t => t.category === 'full-shift').length})` },
+                  { key: 'sectional', label: `Sectional Tests (${RAILWAY_TESTS.filter(t => t.category === 'sectional').length})` }
+                ].map(f => (
+                  <button
+                    key={f.key}
+                    onClick={() => setTestFilter(f.key)}
+                    className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+                      testFilter === f.key
+                        ? 'bg-teal-500 text-slate-950 shadow-lg shadow-teal-500/20'
+                        : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                    }`}
+                  >
+                    {f.label}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {RAILWAY_TESTS.map(test => (
-                <div key={test.id} className="p-6 rounded-3xl bg-slate-900/80 border border-slate-800">
-                  <div className="flex justify-between items-center mb-3">
-                    <span className="text-xs px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 font-bold">
-                      {test.badge}
-                    </span>
-                    <span className="text-xs text-slate-400">10 Questions</span>
+              {RAILWAY_TESTS.filter(test => testFilter === 'all' || test.category === testFilter).map(test => (
+                <div 
+                  key={test.id} 
+                  className="p-6 rounded-3xl bg-slate-900/80 border border-slate-800 hover:border-teal-500/50 hover:bg-slate-900 transition-all shadow-xl flex flex-col justify-between group"
+                >
+                  <div>
+                    <div className="flex justify-between items-center mb-3">
+                      <span className={`text-[11px] font-extrabold uppercase px-2.5 py-0.5 rounded-full border ${
+                        test.badgeColor === 'teal' 
+                          ? 'bg-teal-500/20 text-teal-300 border-teal-500/40'
+                          : test.badgeColor === 'indigo'
+                          ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
+                          : test.badgeColor === 'purple'
+                          ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
+                          : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+                      }`}>
+                        {test.badge}
+                      </span>
+                      <span className="text-xs font-semibold text-slate-400">
+                        {test.shiftTime || 'TCS iON CBT'}
+                      </span>
+                    </div>
+
+                    <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-teal-300 transition-colors mb-1.5">
+                      {test.title}
+                    </h3>
+                    <p className="text-xs text-slate-400 mb-4 line-clamp-2">
+                      {test.subTitle}
+                    </p>
+
+                    {/* Stats Grid */}
+                    <div className="grid grid-cols-3 gap-2 py-3 px-2 rounded-xl bg-slate-950/60 border border-slate-800/80 text-center text-xs mb-4">
+                      <div>
+                        <div className="text-slate-400 text-[10px]">Questions</div>
+                        <div className="font-extrabold text-white mt-0.5">{test.totalQuestions} Qs</div>
+                      </div>
+                      <div>
+                        <div className="text-slate-400 text-[10px]">Max Marks</div>
+                        <div className="font-extrabold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
+                      </div>
+                      <div>
+                        <div className="text-slate-400 text-[10px]">Duration</div>
+                        <div className="font-extrabold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
+                      </div>
+                    </div>
+
+                    {/* Features list */}
+                    <div className="text-[11px] text-slate-400 space-y-1.5 mb-5">
+                      <div className="flex items-center gap-2">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+                        <span>Bilingual (English & हिन्दी with per-question toggle)</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+                        <span>Negative: -{test.negativeMarks} mark • Positive: +{test.positiveMarks}</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+                        <span>Detailed Review & Step-by-Step Explanations</span>
+                      </div>
+                    </div>
                   </div>
-                  <h3 className="text-base font-bold text-white mb-2">{test.title}</h3>
-                  <p className="text-xs text-slate-400 mb-4">
-                    Physics, Chemistry, Maths, Reasoning & Railway Heritage GK.
-                  </p>
-                  <button
-                    onClick={() => handleStartMock(test)}
-                    className="w-full py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs"
-                  >
-                    Start Test Now →
-                  </button>
+
+                  {/* Dual Start Buttons: Hindi vs English default */}
+                  <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
+                    <button
+                      onClick={() => handleStartMock(test, 'hi')}
+                      className="py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950/50 transition-all flex items-center justify-center gap-1.5"
+                    >
+                      <Play className="w-3.5 h-3.5 fill-slate-950" />
+                      <span>हिंदी में दें</span>
+                    </button>
+                    <button
+                      onClick={() => handleStartMock(test, 'en')}
+                      className="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 hover:text-white font-bold text-xs border border-slate-700 transition-all flex items-center justify-center gap-1.5"
+                    >
+                      <Globe className="w-3.5 h-3.5" />
+                      <span>In English</span>
+                    </button>
+                  </div>
                 </div>
               ))}
             </div>

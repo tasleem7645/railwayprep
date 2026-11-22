@@ -2,13 +2,25 @@ import React, { useEffect, useState } from 'react';
 import confetti from 'canvas-confetti';
 import { 
   Trophy, CheckCircle2, XCircle, Clock, Zap, Target, 
-  RotateCcw, ArrowRight, Eye, ChevronDown, ChevronUp, Share2, Award
+  RotateCcw, ArrowRight, Eye, ChevronDown, ChevronUp, Share2, Award,
+  Globe, Check, X, HelpCircle, BookOpen, Layers, BarChart3, Filter
 } from 'lucide-react';
 
 export default function TestResultModal({ result, onClose, onRetake }) {
   const { test, answers, timeTakenSeconds } = result;
-  const [activeTab, setActiveTab] = useState('overview'); // 'overview' | 'solutions'
-  const [expandedSolutions, setExpandedSolutions] = useState({});
+  
+  // Tabs: 'overview' | 'solutions'
+  const [activeTab, setActiveTab] = useState('overview');
+  
+  // Solutions Review Filters: 'all' | 'correct' | 'incorrect' | 'unattempted' | 'marked'
+  const [solutionFilter, setSolutionFilter] = useState('all');
+  const [selectedSection, setSelectedSection] = useState('All');
+  
+  // Currently inspected question in detailed review
+  const [reviewIndex, setReviewIndex] = useState(0);
+  
+  // Language in review mode: 'hi' | 'en'
+  const [reviewLang, setReviewLang] = useState('hi');
 
   // Trigger celebration confetti
   useEffect(() => {
@@ -26,14 +38,27 @@ export default function TestResultModal({ result, onClose, onRetake }) {
   let wrongCount = 0;
   let unattemptedCount = 0;
 
+  // Section-wise metrics accumulator
+  const sectionStats = {};
+
   test.questions.forEach((q) => {
     const userAns = answers[q.id];
+    const sec = q.section || 'General';
+
+    if (!sectionStats[sec]) {
+      sectionStats[sec] = { total: 0, correct: 0, wrong: 0, unattempted: 0 };
+    }
+    sectionStats[sec].total++;
+
     if (userAns === undefined) {
       unattemptedCount++;
+      sectionStats[sec].unattempted++;
     } else if (userAns === q.correctIndex) {
       correctCount++;
+      sectionStats[sec].correct++;
     } else {
       wrongCount++;
+      sectionStats[sec].wrong++;
     }
   });
 
@@ -53,46 +78,82 @@ export default function TestResultModal({ result, onClose, onRetake }) {
     return `${m}m ${s}s`;
   };
 
-  const toggleExpand = (qId) => {
-    setExpandedSolutions(prev => ({
-      ...prev,
-      [qId]: !prev[qId]
-    }));
-  };
+  // Filter questions for the solutions review list
+  const filteredQuestions = test.questions.filter((q) => {
+    const userAns = answers[q.id];
+    const isCorrect = userAns === q.correctIndex;
+    const isAttempted = userAns !== undefined;
+
+    if (selectedSection !== 'All' && q.section !== selectedSection) {
+      return false;
+    }
+
+    if (solutionFilter === 'correct') return isCorrect;
+    if (solutionFilter === 'incorrect') return isAttempted && !isCorrect;
+    if (solutionFilter === 'unattempted') return !isAttempted;
+    return true; // 'all'
+  });
+
+  const activeReviewQ = filteredQuestions[reviewIndex] || filteredQuestions[0] || test.questions[0];
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#070B18]/95 backdrop-blur-md overflow-y-auto p-4 sm:p-6 flex justify-center">
-      <div className="w-full max-w-4xl bg-[#090D1A] border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl my-auto">
+    <div className="fixed inset-0 z-50 bg-[#070B18]/95 backdrop-blur-md overflow-y-auto p-3 sm:p-6 flex justify-center select-none">
+      <div className="w-full max-w-5xl bg-[#090D1A] border border-slate-800 rounded-3xl p-5 sm:p-8 shadow-2xl my-auto">
         
         {/* Top Header Card */}
-        <div className="text-center pb-6 border-b border-slate-800">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-500 to-yellow-400 text-slate-950 mb-3 shadow-xl shadow-amber-500/20">
-            <Trophy className="w-8 h-8 font-black" />
+        <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-800">
+          <div className="flex items-center gap-3.5">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-amber-500 to-yellow-400 text-slate-950 flex items-center justify-center shadow-xl shadow-amber-500/20 shrink-0">
+              <Trophy className="w-7 h-7 font-black" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="px-2 py-0.5 rounded bg-teal-500/20 text-teal-300 font-extrabold text-[11px]">
+                  TEST COMPLETED
+                </span>
+                <span className="text-xs text-slate-400">{test.shiftDate || 'Official Paper'}</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight mt-0.5">{test.title}</h2>
+            </div>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-black text-white">Performance Scorecard</h2>
-          <p className="text-xs sm:text-sm text-slate-400 mt-1">{test.title}</p>
+
+          <div className="flex items-center gap-2">
+            <button
+              onClick={onRetake}
+              className="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors"
+            >
+              <RotateCcw className="w-3.5 h-3.5" />
+              <span>Retake Test</span>
+            </button>
+            <button
+              onClick={onClose}
+              className="px-4 py-2 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 text-xs font-bold transition-all shadow-md shadow-teal-950"
+            >
+              Exit to Tests
+            </button>
+          </div>
         </div>
 
         {/* 4 Key Stat Badges */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5 my-6">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-6">
           <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 text-center">
             <div className="text-xs font-semibold text-slate-400">Total Score</div>
             <div className="text-2xl sm:text-3xl font-black text-teal-400 mt-1">
-              {finalScore} <span className="text-xs text-slate-500">/ {test.maxMarks}</span>
+              {finalScore} <span className="text-xs text-slate-500 font-normal">/ {test.maxMarks}</span>
             </div>
-            <div className="text-[10px] text-teal-500/80 font-medium mt-0.5">Net with -0.33 negative</div>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 text-center">
-            <div className="text-xs font-semibold text-slate-400">All-India Percentile</div>
-            <div className="text-2xl sm:text-3xl font-black text-amber-400 mt-1">{percentile}%ile</div>
-            <div className="text-[10px] text-slate-400 font-medium mt-0.5">Rank ~{estimatedRank} / 15.4k</div>
+            <div className="text-[10px] text-teal-500/80 font-medium mt-0.5">With -0.33 negative marking</div>
           </div>
 
           <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 text-center">
             <div className="text-xs font-semibold text-slate-400">Accuracy</div>
             <div className="text-2xl sm:text-3xl font-black text-emerald-400 mt-1">{accuracy}%</div>
             <div className="text-[10px] text-emerald-500/80 font-medium mt-0.5">{correctCount} Correct • {wrongCount} Wrong</div>
+          </div>
+
+          <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 text-center">
+            <div className="text-xs font-semibold text-slate-400">All-India Percentile</div>
+            <div className="text-2xl sm:text-3xl font-black text-amber-400 mt-1">{percentile}%ile</div>
+            <div className="text-[10px] text-slate-400 font-medium mt-0.5">Estimated Rank ~{estimatedRank}</div>
           </div>
 
           <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 text-center">
@@ -106,185 +167,339 @@ export default function TestResultModal({ result, onClose, onRetake }) {
         <div className="flex border-b border-slate-800 mb-6">
           <button
             onClick={() => setActiveTab('overview')}
-            className={`px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer ${
+            className={`px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 ${
               activeTab === 'overview'
                 ? 'border-teal-400 text-teal-400 bg-teal-500/5'
                 : 'border-transparent text-slate-400 hover:text-slate-200'
             }`}
           >
-            Overview & Analysis
+            <BarChart3 className="w-4 h-4" />
+            <span>Scorecard & Analysis</span>
           </button>
           <button
             onClick={() => setActiveTab('solutions')}
-            className={`px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-1.5 ${
+            className={`px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 ${
               activeTab === 'solutions'
                 ? 'border-teal-400 text-teal-400 bg-teal-500/5'
                 : 'border-transparent text-slate-400 hover:text-slate-200'
             }`}
           >
-            <span>Detailed Solutions ({test.questions.length})</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded bg-teal-500/20 text-teal-300 font-bold">Smart Tricks</span>
+            <BookOpen className="w-4 h-4" />
+            <span>Detailed Solutions & Review ({test.questions.length})</span>
           </button>
         </div>
 
-        {/* Detailed Solutions Tab */}
-        {activeTab === 'solutions' ? (
-          <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-1">
-            {test.questions.map((q, idx) => {
-              const userAns = answers[q.id];
-              const isCorrect = userAns === q.correctIndex;
-              const isUnattempted = userAns === undefined;
-              const isExpanded = expandedSolutions[q.id] !== false; // default expanded
-
-              return (
-                <div 
-                  key={q.id}
-                  className={`p-4 rounded-2xl border transition-all ${
-                    isCorrect 
-                      ? 'bg-emerald-950/20 border-emerald-500/40' 
-                      : isUnattempted 
-                      ? 'bg-slate-900/40 border-slate-800' 
-                      : 'bg-red-950/20 border-red-500/40'
-                  }`}
-                >
-                  <div 
-                    onClick={() => toggleExpand(q.id)}
-                    className="flex items-start justify-between cursor-pointer gap-3"
-                  >
-                    <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold text-slate-400">Q{idx + 1}.</span>
-                      <span className={`text-xs px-2 py-0.5 rounded font-bold flex items-center gap-1 ${
-                        isCorrect 
-                          ? 'bg-emerald-500/20 text-emerald-400' 
-                          : isUnattempted 
-                          ? 'bg-slate-800 text-slate-400' 
-                          : 'bg-red-500/20 text-red-400'
-                      }`}>
-                        {isCorrect ? '✓ Correct (+1.0)' : isUnattempted ? '— Skipped (0.0)' : '✕ Incorrect (-0.33)'}
-                      </span>
-                      <span className="text-[11px] text-slate-400">{q.subject} • {q.topic}</span>
-                    </div>
-
-                    <button className="text-slate-400 hover:text-slate-200">
-                      {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
-                    </button>
-                  </div>
-
-                  <p className="text-sm text-slate-200 mt-2 font-medium">{q.question.hi}</p>
-
-                  {isExpanded && (
-                    <div className="mt-3 pt-3 border-t border-slate-800/80 space-y-2 text-xs">
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
-                        {q.options.hi.map((opt, oIdx) => {
-                          const isOptionCorrect = oIdx === q.correctIndex;
-                          const isUserPicked = oIdx === userAns;
-                          return (
-                            <div 
-                              key={oIdx}
-                              className={`p-2 rounded-lg border text-xs flex items-center justify-between ${
-                                isOptionCorrect 
-                                  ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-semibold' 
-                                  : isUserPicked 
-                                  ? 'bg-red-950/60 border-red-500 text-red-200 line-through' 
-                                  : 'bg-slate-900/50 border-slate-800/60 text-slate-400'
-                              }`}
-                            >
-                              <span>{String.fromCharCode(65 + oIdx)}. {opt}</span>
-                              {isOptionCorrect && <span className="text-[10px] text-emerald-400 font-bold">Correct Ans</span>}
-                              {isUserPicked && !isOptionCorrect && <span className="text-[10px] text-red-400 font-bold">Your Choice</span>}
-                            </div>
-                          );
-                        })}
-                      </div>
-
-                      {/* Sir's Solution & Smart Trick Box */}
-                      <div className="p-3 rounded-xl bg-teal-950/40 border border-teal-500/30 text-teal-200 mt-2">
-                        <div className="font-bold text-teal-300 text-xs flex items-center gap-1.5 mb-1">
-                          <Zap className="w-3.5 h-3.5 text-teal-400" />
-                          <span>Sir's Smart Solution & Shortcut:</span>
-                        </div>
-                        <p className="text-xs leading-relaxed text-slate-300">{q.solution.approach}</p>
-                        <div className="mt-1 text-[11px] text-amber-300 font-mono">
-                          Formula / Concept: <code>{q.solution.formula}</code>
-                        </div>
-                        <div className="mt-1 text-[10px] text-slate-400 font-medium">
-                          Ref: {q.solution.pyqReference}
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        ) : (
-          /* Overview Tab */
-          <div className="space-y-4">
-            <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
-              <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Subject-wise Accuracy</h4>
-              <div className="space-y-2 text-xs">
-                <div>
-                  <div className="flex justify-between text-slate-400 mb-1">
-                    <span>General Science</span>
-                    <span className="text-teal-400 font-semibold">100% High Yield</span>
-                  </div>
-                  <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
-                    <div className="h-full bg-teal-500 rounded-full" style={{ width: '85%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between text-slate-400 mb-1">
-                    <span>Mathematics</span>
-                    <span className="text-amber-400 font-semibold">88% Speed Focus</span>
-                  </div>
-                  <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
-                    <div className="h-full bg-amber-500 rounded-full" style={{ width: '88%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between text-slate-400 mb-1">
-                    <span>Reasoning & Intelligence</span>
-                    <span className="text-emerald-400 font-semibold">95% Accuracy</span>
-                  </div>
-                  <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
-                    <div className="h-full bg-emerald-500 rounded-full" style={{ width: '95%' }}></div>
-                  </div>
-                </div>
+        {/* TAB CONTENT 1: OVERVIEW & SECTION BREAKDOWN */}
+        {activeTab === 'overview' && (
+          <div className="space-y-6">
+            
+            {/* Section Breakdown Table */}
+            <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800">
+              <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
+                <Layers className="w-4 h-4 text-teal-400" />
+                <span>Section-Wise Performance Breakdown</span>
+              </h3>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-xs">
+                  <thead>
+                    <tr className="border-b border-slate-800 text-slate-400">
+                      <th className="pb-2.5 font-semibold">Section</th>
+                      <th className="pb-2.5 font-semibold text-center">Questions</th>
+                      <th className="pb-2.5 font-semibold text-center text-emerald-400">Correct</th>
+                      <th className="pb-2.5 font-semibold text-center text-rose-400">Incorrect</th>
+                      <th className="pb-2.5 font-semibold text-center text-slate-400">Unattempted</th>
+                      <th className="pb-2.5 font-semibold text-center">Accuracy</th>
+                      <th className="pb-2.5 font-semibold text-right text-teal-400">Net Marks</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-800/60">
+                    {Object.entries(sectionStats).map(([sec, stats]) => {
+                      const secMarks = Math.max(0, (stats.correct * test.positiveMarks) - (stats.wrong * test.negativeMarks)).toFixed(2);
+                      const secAcc = (stats.correct + stats.wrong) > 0 ? Math.round((stats.correct / (stats.correct + stats.wrong)) * 100) : 0;
+                      return (
+                        <tr key={sec} className="hover:bg-slate-800/30">
+                          <td className="py-3 font-semibold text-white">{sec}</td>
+                          <td className="py-3 text-center text-slate-300">{stats.total}</td>
+                          <td className="py-3 text-center text-emerald-400 font-bold">{stats.correct}</td>
+                          <td className="py-3 text-center text-rose-400 font-bold">{stats.wrong}</td>
+                          <td className="py-3 text-center text-slate-400">{stats.unattempted}</td>
+                          <td className="py-3 text-center font-bold text-slate-200">{secAcc}%</td>
+                          <td className="py-3 text-right font-black text-teal-400">+{secMarks}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
               </div>
             </div>
 
-            <div className="p-4 rounded-2xl bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-transparent border border-amber-500/30 flex items-center justify-between">
+            {/* Quick Action to jump to Solutions */}
+            <div className="p-5 rounded-2xl bg-gradient-to-r from-teal-950/40 via-slate-900/60 to-purple-950/40 border border-teal-500/30 flex flex-wrap items-center justify-between gap-4">
               <div>
-                <h4 className="text-sm font-bold text-amber-300">Unlock 50+ Full NTPC Mock Tests</h4>
-                <p className="text-xs text-slate-400 mt-0.5">RailwayPrep Pass Pro gives you unlimited CBT attempts & PDF downloads.</p>
+                <h4 className="text-sm font-bold text-white">Review All Questions with Step-by-Step Solutions</h4>
+                <p className="text-xs text-slate-400 mt-0.5">
+                  Check official RRB answer key, your chosen answers, and bilingual explanations for all 75 questions.
+                </p>
               </div>
               <button
                 onClick={() => setActiveTab('solutions')}
-                className="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs"
+                className="px-5 py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950 transition-all flex items-center gap-1.5"
               >
-                View Solutions →
+                <span>Open Detailed Solutions</span>
+                <ArrowRight className="w-4 h-4" />
               </button>
             </div>
+
           </div>
         )}
 
-        {/* Footer Actions */}
-        <div className="pt-6 border-t border-slate-800 mt-6 flex flex-wrap items-center justify-between gap-3">
-          <button
-            onClick={onRetake}
-            className="px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 hover:border-slate-600 text-slate-300 font-semibold text-xs flex items-center gap-1.5 transition-colors"
-          >
-            <RotateCcw className="w-3.5 h-3.5" />
-            <span>Retake Test (पुनः प्रयास करें)</span>
-          </button>
+        {/* TAB CONTENT 2: DETAILED SOLUTIONS & REVIEW MODE */}
+        {activeTab === 'solutions' && (
+          <div className="space-y-5">
+            
+            {/* Top Review Controls: Filters & Review Language Switcher */}
+            <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-2xl bg-slate-900/70 border border-slate-800">
+              
+              {/* Status Filter Chips */}
+              <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar">
+                <span className="text-xs text-slate-400 font-semibold mr-1 flex items-center gap-1">
+                  <Filter className="w-3.5 h-3.5" />
+                  <span>Filter:</span>
+                </span>
+                {[
+                  { key: 'all', label: `All (${test.questions.length})` },
+                  { key: 'correct', label: `Correct (${correctCount})`, color: 'text-emerald-400' },
+                  { key: 'incorrect', label: `Incorrect (${wrongCount})`, color: 'text-rose-400' },
+                  { key: 'unattempted', label: `Unattempted (${unattemptedCount})`, color: 'text-slate-400' }
+                ].map((f) => (
+                  <button
+                    key={f.key}
+                    onClick={() => { setSolutionFilter(f.key); setReviewIndex(0); }}
+                    className={`px-3 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors ${
+                      solutionFilter === f.key
+                        ? 'bg-teal-500 text-slate-950 font-bold'
+                        : 'bg-slate-800/80 text-slate-300 hover:bg-slate-700'
+                    }`}
+                  >
+                    <span className={solutionFilter !== f.key ? f.color : ''}>{f.label}</span>
+                  </button>
+                ))}
+              </div>
 
-          <button
-            onClick={onClose}
-            className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-bold text-xs shadow-lg shadow-teal-950"
-          >
-            Done / Close Scorecard
-          </button>
-        </div>
+              {/* Review Language Switcher (Bilingual on the fly) */}
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-slate-400">View Solution in:</span>
+                <button
+                  onClick={() => setReviewLang(reviewLang === 'hi' ? 'en' : 'hi')}
+                  className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-teal-500/50 text-teal-300 font-bold text-xs flex items-center gap-1.5 transition-colors"
+                >
+                  <Globe className="w-3.5 h-3.5 text-teal-400" />
+                  <span>{reviewLang === 'hi' ? 'हिंदी' : 'English'}</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Horizontal Question Quick Jump Bar */}
+            <div className="p-3 rounded-2xl bg-slate-900/50 border border-slate-800">
+              <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+                {filteredQuestions.map((q, idx) => {
+                  const userAns = answers[q.id];
+                  const isCorrect = userAns === q.correctIndex;
+                  const isAttempted = userAns !== undefined;
+                  const isSelected = idx === reviewIndex;
+
+                  let colorClass = 'bg-slate-800 text-slate-400 border-slate-700';
+                  if (isCorrect) colorClass = 'bg-emerald-600/90 text-white border-emerald-500';
+                  else if (isAttempted) colorClass = 'bg-rose-600/90 text-white border-rose-500';
+
+                  return (
+                    <button
+                      key={q.id}
+                      onClick={() => setReviewIndex(idx)}
+                      className={`w-8 h-8 rounded-lg text-xs font-bold shrink-0 border transition-all ${colorClass} ${
+                        isSelected ? 'ring-2 ring-teal-400 scale-110' : 'opacity-80 hover:opacity-100'
+                      }`}
+                      title={`Q.${q.shiftQuestionNo || q.id} - ${isCorrect ? 'Correct' : isAttempted ? 'Incorrect' : 'Unattempted'}`}
+                    >
+                      {q.shiftQuestionNo || q.id}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* ACTIVE QUESTION SOLUTION CARD */}
+            {activeReviewQ && (() => {
+              const userAns = answers[activeReviewQ.id];
+              const isCorrect = userAns === activeReviewQ.correctIndex;
+              const isAttempted = userAns !== undefined;
+
+              return (
+                <div className="p-6 rounded-3xl bg-slate-900/70 border border-slate-800 space-y-6">
+                  
+                  {/* Question Header & Status Badge */}
+                  <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-800">
+                    <div className="flex items-center gap-2">
+                      <span className="px-3 py-1 rounded-md bg-teal-500/20 text-teal-300 font-bold text-xs">
+                        Question {activeReviewQ.shiftQuestionNo || activeReviewQ.id}
+                      </span>
+                      <span className="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-medium">
+                        {activeReviewQ.section}
+                      </span>
+                      {activeReviewQ.topic && (
+                        <span className="text-xs text-slate-400 hidden sm:inline">
+                          • {activeReviewQ.topic}
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Result Badge */}
+                    <div>
+                      {isCorrect ? (
+                        <span className="px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-500/60 text-emerald-300 text-xs font-bold flex items-center gap-1.5">
+                          <Check className="w-3.5 h-3.5 font-bold" />
+                          <span>Correct (+{test.positiveMarks} Mark)</span>
+                        </span>
+                      ) : isAttempted ? (
+                        <span className="px-3 py-1 rounded-full bg-rose-950/80 border border-rose-500/60 text-rose-300 text-xs font-bold flex items-center gap-1.5">
+                          <X className="w-3.5 h-3.5 font-bold" />
+                          <span>Incorrect (-{test.negativeMarks} Mark)</span>
+                        </span>
+                      ) : (
+                        <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-slate-400 text-xs font-medium flex items-center gap-1.5">
+                          <span>Not Attempted (0.0 Marks)</span>
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Question Statement */}
+                  <div className="text-base sm:text-lg font-medium text-slate-100 leading-relaxed font-sans">
+                    {activeReviewQ.question[reviewLang] || activeReviewQ.question['en']}
+                  </div>
+
+                  {/* 4 Options with User Response vs Official Answer Highlighting */}
+                  <div className="space-y-3">
+                    {(activeReviewQ.options[reviewLang] || activeReviewQ.options['en']).map((optText, optIdx) => {
+                      const isOfficialCorrect = optIdx === activeReviewQ.correctIndex;
+                      const isUserSelected = userAns === optIdx;
+                      const letter = String.fromCharCode(65 + optIdx);
+
+                      let containerClass = "p-3.5 sm:p-4 rounded-xl border flex items-center justify-between gap-3 text-sm ";
+
+                      if (isOfficialCorrect) {
+                        // Official Correct Answer: Vibrant Emerald
+                        containerClass += "bg-emerald-950/50 border-emerald-500 text-white font-medium ring-1 ring-emerald-500/50";
+                      } else if (isUserSelected && !isOfficialCorrect) {
+                        // User selected wrong option: Rose Red
+                        containerClass += "bg-rose-950/50 border-rose-500 text-rose-200 font-medium";
+                      } else {
+                        // Other neutral options
+                        containerClass += "bg-slate-900/40 border-slate-800/80 text-slate-400";
+                      }
+
+                      return (
+                        <div key={optIdx} className={containerClass}>
+                          <div className="flex items-center gap-3">
+                            <span className={`w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs shrink-0 ${
+                              isOfficialCorrect 
+                                ? 'bg-emerald-500 text-slate-950' 
+                                : isUserSelected 
+                                ? 'bg-rose-500 text-white' 
+                                : 'bg-slate-800 text-slate-400'
+                            }`}>
+                              {letter}
+                            </span>
+                            <span>{optText}</span>
+                          </div>
+
+                          {/* Status Tag */}
+                          <div className="shrink-0 flex items-center gap-2 text-xs">
+                            {isOfficialCorrect && (
+                              <span className="px-2.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold flex items-center gap-1">
+                                <Check className="w-3 h-3" />
+                                <span>Official Answer</span>
+                              </span>
+                            )}
+                            {isUserSelected && (
+                              <span className={`px-2.5 py-0.5 rounded font-bold ${
+                                isOfficialCorrect 
+                                  ? 'bg-emerald-500/20 text-emerald-300' 
+                                  : 'bg-rose-500/20 text-rose-300'
+                              }`}>
+                                Your Choice
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  {/* DETAILED SOLUTION & EXPLANATION BOX (Prepared for user add-ons) */}
+                  <div className="p-5 rounded-2xl bg-[#0B1329] border border-teal-500/30 space-y-3">
+                    <div className="flex items-center gap-2 text-teal-400 font-bold text-sm">
+                      <Zap className="w-4 h-4" />
+                      <span>Detailed Solution & Explanation</span>
+                    </div>
+
+                    {activeReviewQ.solution && (
+                      <div className="space-y-2.5 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        {/* Approach / Quick Key */}
+                        <div className="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-slate-200">
+                          <strong className="text-teal-300">Answer Key Verdict: </strong>
+                          <span>{activeReviewQ.solution.approach}</span>
+                        </div>
+
+                        {/* Key Concept / Formula */}
+                        {activeReviewQ.solution.keyConcept && (
+                          <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-slate-300 font-mono text-xs">
+                            <span className="text-amber-400 font-bold">{activeReviewQ.solution.keyConcept}</span>
+                          </div>
+                        )}
+
+                        {/* Bilingual Explanation */}
+                        <div className="pt-1 text-slate-300">
+                          <p className="font-semibold text-slate-200 mb-1">
+                            {reviewLang === 'hi' ? 'विस्तृत व्याख्या:' : 'Step-by-Step Explanation:'}
+                          </p>
+                          <p className="text-slate-400">
+                            {reviewLang === 'hi' 
+                              ? (activeReviewQ.solution.hi || activeReviewQ.solution.en) 
+                              : (activeReviewQ.solution.en || activeReviewQ.solution.hi)}
+                          </p>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Previous / Next Review Question Buttons */}
+                  <div className="flex items-center justify-between pt-2">
+                    <button
+                      onClick={() => setReviewIndex(Math.max(0, reviewIndex - 1))}
+                      disabled={reviewIndex === 0}
+                      className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed text-xs font-semibold text-slate-200 transition-colors"
+                    >
+                      ← Previous Question
+                    </button>
+                    <span className="text-xs text-slate-400">
+                      {reviewIndex + 1} of {filteredQuestions.length}
+                    </span>
+                    <button
+                      onClick={() => setReviewIndex(Math.min(filteredQuestions.length - 1, reviewIndex + 1))}
+                      disabled={reviewIndex === filteredQuestions.length - 1}
+                      className="px-4 py-2 rounded-xl bg-teal-500 hover:bg-teal-400 disabled:opacity-30 disabled:cursor-not-allowed text-xs font-bold text-slate-950 transition-colors"
+                    >
+                      Next Question →
+                    </button>
+                  </div>
+
+                </div>
+              );
+            })()}
+
+          </div>
+        )}
 
       </div>
     </div>
