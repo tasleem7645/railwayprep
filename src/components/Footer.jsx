@@ -13,7 +13,7 @@ export default function Footer({ onOpenPassPro }) {
               <div className="w-8 h-8 rounded-lg bg-teal-500 flex items-center justify-center text-slate-950 font-black">
                 <Train className="w-4 h-4" />
               </div>
-              <span className="text-base font-black text-white">RailwayPrep PRO</span>
+              <span className="text-base font-black text-white">RailwayRanker PRO</span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
               India's dedicated computer-based exam simulator and smart revision notes platform for RRB NTPC, ALP, Group D, and RPF aspirants.
@@ -44,7 +44,7 @@ export default function Footer({ onOpenPassPro }) {
               <li className="hover:text-teal-300 cursor-pointer">Aditya Ranjan Sir 2s Tricks</li>
               <li className="hover:text-teal-300 cursor-pointer">NCERT 9th & 10th Science Crux</li>
               <li onClick={onOpenPassPro} className="text-amber-400 font-bold hover:underline cursor-pointer">
-                RailwayPrep Pass Pro (₹49/Yr)
+                RailwayRanker Pass Pro (₹49/Yr)
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ export default function Footer({ onOpenPassPro }) {
         {/* Legal & AdSense Compliant Footer */}
         <div className="pt-8 mt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
           <div>
-            © 2026-2027 RailwayPrep PRO. All Rights Reserved. Built for Indian Railway Aspirants.
+            © 2026-2027 RailwayRanker PRO. All Rights Reserved. Built for Indian Railway Aspirants.
           </div>
           <div className="flex items-center gap-4">
             <span className="hover:text-slate-300 cursor-pointer">Privacy Policy</span>

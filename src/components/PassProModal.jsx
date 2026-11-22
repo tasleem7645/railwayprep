@@ -39,7 +39,7 @@ export default function PassProModal({ onClose }) {
           </div>
 
           <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
-            RailwayPrep <span className="text-amber-400">PASS PRO</span>
+            RailwayRanker <span className="text-amber-400">PASS PRO</span>
           </h2>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
             Crack RRB NTPC, ALP & Group D with Unlimited Test Series

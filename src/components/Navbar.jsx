@@ -56,7 +56,7 @@ export default function Navbar({
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-lg font-black tracking-tight text-white">RailwayPrep</span>
+                  <span className="text-lg font-black tracking-tight text-white">RailwayRanker</span>
                   <span className="text-[10px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40">PRO</span>
                 </div>
                 <span className="text-[10px] text-teal-400/90 font-medium">India's Dedicated CBT Hub</span>
