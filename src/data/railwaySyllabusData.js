@@ -604,62 +604,112 @@ export const RAILWAY_SYLLABUS = [
   {
     id: 'rrb-technician',
     meritRatio: '100% Single CBT Score',
-    name: 'RRB Technician Grade 1 & 3 (CEN 02/2024)',
-    shortName: 'Technician Grade 1 & 3',
-    tag: '9,144 Posts • Single CBT (New Pattern)',
-    badgeColor: 'emerald',
-    notificationNo: 'CEN 02/2024 (SarkariResult Verified)',
-    totalVacancies: '9,144 Posts (Grade 1 Signal: 1,092 + Grade 3: 8,052)',
-    medicalStandard: 'A-3 for Signal / B-1 for Mechanical & Electrical Workshop',
+    name: 'RRB Technician Grade I & Grade III (CEN 02/2026)',
+    shortName: 'Technician 2026 (Gr I & III)',
+    tag: '6,557 Official Vacancies',
+    badgeColor: 'teal',
+    notificationNo: 'CEN No. 02/2026 (Official Railway Board Notice)',
+    totalVacancies: '6,557 Posts (Grade-I Signal: 323 Posts | Grade-III: 6,234 Posts across 24 Trades | ExSM: 661)',
+    payScale: 'Grade-I: Level-5 (₹29,200/-) | Grade-III: Level-2 (₹19,900/-) in 7th CPC',
+    ageLimit: 'Grade-I: 18 – 33 Yrs | Grade-III: 18 – 30 Yrs (as on 01.07.2026) [+3 yrs OBC, +5 yrs SC/ST, +10 yrs PwBD]',
+    qualification: 'Grade-I Signal: B.Sc / 3-Yr Diploma / B.E./B.Tech in Physics, Electronics, CS, IT, Instrumentation. Grade-III: Matric + ITI/CCAA in relevant trade OR 10+2 with Physics & Maths for Cat 14 (S&T).',
+    meritFormula: '100% Single-Stage CBT Normalized Score (Separate CBT for Level-5 and Level-2; No CBT-2 / No Typing Test)',
+    dates: {
+      indicativeNotice: '23.05.2026',
+      applyStart: '30.06.2026',
+      applyEnd: '29.07.2026 (23:59 Hrs)',
+      feeLastDate: '31.07.2026 (23:59 Hrs)',
+      editWindow: '01.08.2026 to 10.08.2026 (₹250 Fee)',
+      scribeWindow: '11.08.2026 to 15.08.2026'
+    },
+    medicalStandard: 'Grade-I Signal: B-1 | Grade-III: A-3 (Track Machine), B-1 (C&W, Shed, Electrical, S&T, Fitter OL), B-2 (Crane), C-1 (Workshops & PU)',
+    medicalBreakdown: [
+      { param: 'B-1 Standard (Gr I Signal, C&W, Diesel Shed, TRS, TRD, EMU, S&T)', detail: 'Distant Vision: 6/9, 6/12 with or without glasses (power not exceeding 4D). Near Vision: Sn: 0.6, 0.6 with/without glasses. Colour Vision, Binocular, Night & Mesopic Vision mandatory.' },
+      { param: 'A-3 Standard (Track Machine - Cat 2)', detail: 'Distant Vision: 6/9, 6/9 with or without glasses (power not exceeding 2D). Near Vision: Sn: 0.6, 0.6 with/without glasses. Must pass Colour, Binocular & Night Vision tests.' },
+      { param: 'B-2 Standard (Crane Driver - Cat 16)', detail: 'Distant Vision: 6/9, 6/12 with or without glasses (power not exceeding 4D). Near Vision: Sn: 0.6 with/without glasses when reading.' },
+      { param: 'C-1 Standard (Workshops & Production Units - Fitter, Welder, Machinist, Carpenter)', detail: 'Distant Vision: 6/12, 6/18 with or without glasses. Near Vision: Sn: 0.6 with/without glasses for reading/close technical work.' }
+    ],
+    postsList: [
+      { post: 'Technician Grade-I Signal', dept: 'S & T Department', level: 'Level-5 (₹29,200)', medStd: 'B-1', vacancies: '323 Posts' },
+      { post: 'Technician Grade-III Fitter (PU & Workshop)', dept: 'Mechanical / Workshops', level: 'Level-2 (₹19,900)', medStd: 'C-1', vacancies: '1,109 Posts' },
+      { post: 'Technician Grade-III Welder (PU & Workshop)', dept: 'Mechanical / Workshops', level: 'Level-2 (₹19,900)', medStd: 'C-1', vacancies: '584 Posts' },
+      { post: 'Technician Grade-III Carriage & Wagon', dept: 'Mechanical (C&W)', level: 'Level-2 (₹19,900)', medStd: 'B-1', vacancies: '501 Posts' },
+      { post: 'Technician Grade-III Fitter (Open Line)', dept: 'Mechanical / Electrical', level: 'Level-2 (₹19,900)', medStd: 'B-1', vacancies: '469 Posts' },
+      { post: 'Technician Grade-III Diesel Mechanical', dept: 'Mechanical (Diesel Shed)', level: 'Level-2 (₹19,900)', medStd: 'B-1', vacancies: '346 Posts' },
+      { post: 'Technician Grade-III Electrical (General Services)', dept: 'Electrical Department', level: 'Level-2 (₹19,900)', medStd: 'B-1', vacancies: '329 Posts' },
+      { post: 'Technician Grade-III (S & T) [10+2 PCM Eligible!]', dept: 'S & T (Signal & Telecom)', level: 'Level-2 (₹19,900)', medStd: 'B-1', vacancies: '320 Posts' },
+      { post: 'Technician Grade-III Blacksmith', dept: 'Engineering Department', level: 'Level-2 (₹19,900)', medStd: 'B-1', vacancies: '306 Posts' },
+      { post: 'Technician Grade-III Electrical / TRS', dept: 'Electrical Department', level: 'Level-2 (₹19,900)', medStd: 'B-1', vacancies: '268 Posts' },
+      { post: 'Technician Grade-III Carpenter (Workshop)', dept: 'Workshops', level: 'Level-2 (₹19,900)', medStd: 'C-1', vacancies: '229 Posts' },
+      { post: 'Technician Grade-III Diesel Electrical', dept: 'Mechanical (Diesel Shed)', level: 'Level-2 (₹19,900)', medStd: 'B-1', vacancies: '206 Posts' },
+      { post: 'Technician Grade-III Track Machine', dept: 'Engineering (Track)', level: 'Level-2 (₹19,900)', medStd: 'A-3', vacancies: '172 Posts' }
+    ],
     pipeline: [
-      { step: '1', title: 'Single-Stage CBT (Pattern Changed!)', type: 'Merit Decider', desc: 'No CBT-2! Direct single CBT of 100 Qs / 90 Mins determines 100% merit.' },
-      { step: '2', title: 'Document Verification (DV)', type: 'DV', desc: 'Shortlisted candidates in 1:1 ratio based on single CBT score.' },
-      { step: '3', title: 'Medical Examination', type: 'Medical', desc: 'Grade 1: A-3 | Grade 3: B-1/B-2 standard as per specific trade requirement.' },
-      { step: '4', title: 'Final Merit Panel', type: 'Final', desc: 'Final appointment directly from single CBT score.' }
+      { step: '1', title: 'Single Computer Based Test (CBT)', type: '100% Final Merit', desc: 'No CBT-2! Separate single CBT for Level-5 (Gr I Signal) & Level-2 (Gr III). 100 Qs / 90 Mins. 100% marks decide final merit.' },
+      { step: '2', title: 'Document Verification (DV)', type: 'DV (1:1 Ratio)', desc: 'Shortlisting directly in 1:1 ratio based on normalized marks in CBT. Original ITI/Diploma/Degree certificates.' },
+      { step: '3', title: 'Medical Examination (ME)', type: 'Medical Standards', desc: 'B-1 for Signal/C&W/Electrical; A-3 for Track Machine; C-1 for Workshops & Production Units.' },
+      { step: '4', title: 'Final Panel & Allotment', type: 'Final', desc: 'Division/Workshop allotment and offer letters issued by respective Zonal Railways.' }
     ],
     stages: [
       {
-        stageName: 'Technician Grade 3 (10th + ITI) - 100 Qs / 90 Mins',
-        duration: '90 Minutes',
+        stageName: 'Technician Grade-III (Level-2) - Single CBT (100 Qs / 90 Mins)',
+        duration: '90 Minutes (120 Mins for Scribes)',
         totalQuestions: 100,
         totalMarks: 100,
-        marking: '+1.00 Correct, -0.33 Negative',
+        marking: '+1.00 Correct, -0.33 Negative (100% Final Selection Basis)',
+        passPercentage: 'UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
         table: [
-          { subject: 'General Science (10th CBSE Physics, Chemistry, Biology)', questions: 40, marks: 40 },
-          { subject: 'Mathematics', questions: 25, marks: 25 },
-          { subject: 'General Intelligence & Reasoning', questions: 25, marks: 25 },
-          { subject: 'General Awareness', questions: 10, marks: 10 },
+          { subject: 'General Science (10th CBSE Physics, Chemistry, Biology - 40% Weightage!)', questions: 40, marks: 40 },
+          { subject: 'Mathematics (Arithmetic, Algebra, Geometry, Trigonometry, Statistics)', questions: 25, marks: 25 },
+          { subject: 'General Intelligence & Reasoning (Puzzles, Series, Syllogism, Direction)', questions: 25, marks: 25 },
+          { subject: 'General Awareness (Current Affairs, Science & Tech, Sports, Polity)', questions: 10, marks: 10 },
         ]
       },
       {
-        stageName: 'Technician Grade 1 Signal (Diploma/Degree) - 100 Qs / 90 Mins',
-        duration: '90 Minutes',
+        stageName: 'Technician Grade-I Signal (Level-5) - Single CBT (100 Qs / 90 Mins)',
+        duration: '90 Minutes (120 Mins for Scribes)',
         totalQuestions: 100,
         totalMarks: 100,
-        marking: '+1.00 Correct, -0.33 Negative',
+        marking: '+1.00 Correct, -0.33 Negative (100% Final Selection Basis)',
+        passPercentage: 'UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
         table: [
-          { subject: 'Basic Science & Engineering (Physics + Digital Electronics)', questions: 35, marks: 35 },
-          { subject: 'Basics of Computers & IT Applications', questions: 20, marks: 20 },
-          { subject: 'Mathematics', questions: 20, marks: 20 },
-          { subject: 'General Intelligence & Reasoning', questions: 15, marks: 15 },
-          { subject: 'General Awareness', questions: 10, marks: 10 },
+          { subject: 'Basic Science & Engineering (Physics, Electricity & Magnetism, Electronics & Measurements)', questions: 35, marks: 35 },
+          { subject: 'Basics of Computers and Applications (Architecture, OS, Networking, MS Office, Viruses)', questions: 20, marks: 20 },
+          { subject: 'Mathematics (Sets, Coordinate Geometry, Trigonometry, Quadratic Eq, Statistics)', questions: 20, marks: 20 },
+          { subject: 'General Intelligence and Reasoning (Analogies, Venn, Decision Making, Syllogisms)', questions: 15, marks: 15 },
+          { subject: 'General Awareness (Current Events, Geography, Culture, Freedom Struggle, Economy)', questions: 10, marks: 10 },
         ]
       }
     ],
     subjectBreakdown: [
       {
-        subject: 'Technician Grade 3: General Science Dominance (40 Marks!)',
+        subject: 'Technician Grade-III: General Science Dominance (40 Questions / 40 Marks!)',
         topics: [
-          '40% of the entire question paper is 10th CBSE Science.',
-          'Physics numericals (Ohm\'s Law, Optics, Electric Power, Kinematics) are decisive.',
-          'Chemical reactions, Periodic table trends, and Human physiology.'
+          'Physics (10th CBSE): Units & Measurements, Motion, Force & Laws of Motion, Gravitation, Work & Energy, Sound, Light (Reflection & Refraction, Lens, Mirrors), Human Eye, Electricity (Ohm\'s Law, Series/Parallel Resistors, Power, Heating Effect), Magnetic Effects of Electric Current',
+          'Chemistry (10th CBSE): Chemical Reactions & Equations, Acids Bases & Salts, Metals & Non-metals, Carbon & its Compounds, Periodic Classification of Elements, Chemical Bonding, Everyday Chemistry',
+          'Life Sciences (Biology): Life Processes (Nutrition, Respiration, Transportation, Excretion), Control & Coordination, Reproduction in Organisms, Heredity & Evolution, Our Environment, Natural Resources'
         ]
       },
       {
-        subject: 'Technician Grade 1: Computers (20 Marks) & Digital Electronics (35 Marks)',
+        subject: 'Technician Grade-III: Mathematics & Reasoning (25 + 25 = 50 Marks)',
         topics: [
-          'Computer Architecture, OS (Windows/Linux), Networking, MS Office, Data representation.',
-          'Logic Gates (AND, OR, NOT, NAND, NOR, XOR), Boolean Algebra, Measuring Instruments.'
+          'Mathematics: Number system, BODMAS, Decimals, Fractions, LCM, HCF, Ratio & Proportion, Percentages, Mensuration, Time & Work, Time & Distance, Simple & Compound Interest, Profit & Loss, Algebra, Geometry, Trigonometry, Elementary Statistics, Square Root, Age Calculations, Calendar & Clock, Pipes & Cistern',
+          'Reasoning: Analogies, Alphabetical and Number Series, Coding and Decoding, Mathematical Operations, Relationships, Syllogism, Jumbling, Venn Diagram, Data Interpretation & Sufficiency, Conclusions and Decision Making, Similarities and Differences, Analytical Reasoning, Classification, Directions, Statement-Arguments & Assumptions'
+        ]
+      },
+      {
+        subject: 'Technician Grade-I Signal: Basic Science & Engineering (35 Marks)',
+        topics: [
+          'Physics Fundamentals: Units, Measurements, Mass, Weight, Density, Work, Power, Energy, Speed & Velocity, Heat & Temperature',
+          'Electricity & Magnetism: Electric Charge, Field & Intensity, Potential & Potential Difference, Simple Circuits, Conductors & Insulators, Ohm\'s Law, Series & Parallel Resistances, Specific Resistance, Wattage, Ampere\'s Law, Magnetic Force, Electromagnetic Induction, Faraday\'s Law, Magnetic Flux & Field',
+          'Electronics & Measurements: Basic Electronics, Digital Electronics (Logic gates, Boolean algebra), Electronic Devices & Circuits, Microcontroller, Microprocessor (8085/8086 basics), Electronic Measurements, CRO (Cathode Ray Oscilloscope), LCD, LED Panels, Transducers (Strain gauge, LVDT, Thermocouple)'
+        ]
+      },
+      {
+        subject: 'Technician Grade-I Signal: Computers & Higher Mathematics (20 + 20 = 40 Marks)',
+        topics: [
+          'Basics of Computers: Computer Architecture, Input/Output Devices, Storage Devices, Networking (LAN/WAN/Protocols), OS (Windows, Unix, Linux), MS Office (Word, Excel, PowerPoint), Data Representation (Binary, Hex, Octal), Internet, Email, Web Browsers, Computer Viruses & Cybersecurity',
+          'Mathematics: Rational & Irrational Numbers, Quadratic Equations, Arithmetic Progression (AP), Similar Triangles, Pythagoras Theorem, Coordinate Geometry, Trigonometrical Ratios, Heights & Distances, Surface Area & Volume, Sets & Set Operations (Union, Intersection, Venn Diagrams), Measures of Dispersion (Range, Mean Deviation, Variance, Std Deviation), Probability'
         ]
       }
     ]

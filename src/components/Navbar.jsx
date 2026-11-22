@@ -18,6 +18,7 @@ export default function Navbar({
 
   const GOALS = [
     'RRB Station Master (CEN 08/2026)',
+    'RRB Technician (CEN 02/2026)',
     'RRB NTPC Graduate & UG (2026)',
     'RRB ALP (Loco Pilot 2026)',
     'RRB JE & DMS (CEN 04/2026)',

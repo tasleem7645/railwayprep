@@ -13,7 +13,7 @@
 | **RRB NTPC (Graduate Level 2026)** | **CEN 06/2026** *(Official PDF)* | **3,548** | **New Official 2026 Notice:** Goods Train Manager (2,750), Senior Clerk (371), Jr Accounts Asst (300), Chief Commercial (127). **Typing Test DISPENSED WITH (Removed)!** Apply: 08.10.2026 to 06.11.2026. |
 | **RRB JE & DMS (Junior Engineer 2026)** | **CEN 04/2026** *(Official PDF)* | **3,993** | **New Official 2026 Notice:** UR 1699, OBC 913, SC 624, EWS 394, ST 363. Pay Level-6 (₹35,400). CBT-1 (100 Qs) + CBT-2 (150 Qs with 100 Technical Qs + Virtual Calculator). Apply: 14.08.2026 to 13.09.2026. |
 | **RRB Station Master (2026)** | **CEN 08/2026** *(Official PDF)* | **1,215 / 1,265** | **New Official 2026 Notice:** Pay Level-6 (₹35,400). Age 20-33 yrs. Single CBT (120 Mins / 100 Qs: Basic Science & Maths 60, Logical Capability 20, Mental Reasoning 20) + CBAT (8x ratio, 42 T-score). Merit Ratio: **70% CBT + 30% CBAT**. Apply: 27.10.2026 to 25.11.2026. |
-| **RRB Technician (Grade 1 & 3)** | CEN 02/2024 | **9,144+** | **Pattern Changed:** Single-Stage CBT! Gr 1 Signal (1,092) & Gr 3 (8,052). |
+| **RRB Technician Grade 1 & 3 (2026)** | **CEN 02/2026** *(Official PDF)* | **6,557** | **New Official 2026 Notice:** Gr-I Signal Level-5 (323 Posts, B.Sc/Diploma/B.Tech) + Gr-III Level-2 (6,234 Posts across 24 Trades, ITI / 10+2 PCM). UR 2728, OBC 1565, SC 1009, EWS 658, ST 597, ExSM 661. Single-Stage CBT (100 Qs / 90 Mins). Online Apply: 30.06.2026 to 29.07.2026. |
 | **RPF Sub-Inspector (SI)** | CEN 01/2024 | **452** | Graduation Level CBT + PMT/PET. |
 | **RPF Constable** | CEN 02/2024 | **4,208** | 10th Pass Level CBT + PMT/PET. |
 
@@ -350,21 +350,98 @@
 
 ---
 
-### 3. 🔧 RRB Technician (CEN 02/2024 - 9,144 Posts) — *Major Pattern Change!*
-```
-[Stage 1: Single-Stage CBT] ──► [Stage 2: DV] ──► [Stage 3: Medical Exam (A3/B1)] ──► [Final Merit Result]
-```
-*(NOTE: In 2024, CBT-2 was completely removed! Only 1 CBT exam decides final merit!)*
+### 3. 🔧 RRB Technician Grade-I & Grade-III — Official CEN 02/2026 (6,557 Posts)
 
-1. **Stage 1: Single Stage CBT (100 Qs / 90 Mins):**
-   * **Technician Grade 3 (ITI Holders):**
-     * General Science (10th CBSE): **40 Qs** *(Huge Weightage!)*
-     * Maths: 25 Qs | Reasoning: 25 Qs | GA: 10 Qs.
-   * **Technician Grade 1 Signal (Diploma/Degree):**
-     * Basic Science & Engg: 35 Qs | Computer Basics & IT: 20 Qs | Maths: 20 Qs | Reasoning: 15 Qs | GA: 10 Qs.
-2. **Stage 2: Document Verification (DV):** 1:1 ratio.
-3. **Stage 3: Medical Examination (B-1 / B-2 / A-3 as per trade).**
-4. **Stage 4: Final Merit List (100% based on Single CBT Marks).**
+*(NOTE: In Railway Technician, CBT-2, Typing Test, and Aptitude Test are completely DISPENSED WITH! Only 1 Single-Stage CBT exam decides 100% final merit!)*
+
+#### 📅 Important Dates (CEN 02/2026):
+* **Date of Indicative Notice in Employment News:** 23.05.2026
+* **Opening Date of Online Applications:** 30.06.2026
+* **Closing Date for Submission of Online Applications:** 29.07.2026 (23:59 Hrs)
+* **Last Date for Fee Payment:** 31.07.2026 (23:59 Hrs)
+* **Modification Window for Corrections:** 01.08.2026 to 10.08.2026 (Fee: ₹250)
+* **Scribe Details Submission Window:** 11.08.2026 to 15.08.2026
+
+#### 💰 Pay Scale, Posts & Vacancy Breakdown (Total: 6,557 Posts):
+* **Technician Grade-I Signal:**
+  * **Pay Level:** Level-5 in 7th CPC (Initial Pay: **₹29,200/-** per month + DA, HRA, Allowances).
+  * **Total Vacancies:** **323 Posts** (UR: 120, OBC: 84, SC: 50, ST: 37, EWS: 32, ExSM: 32).
+  * **Medical Standard:** **B-1 Standard**.
+  * **Age Limit (as on 01.07.2026):** **18 to 33 Years** *(UR/EWS: 02.07.1993 to 01.07.2008; OBC-NCL: 02.07.1990; SC/ST: 02.07.1988)*.
+* **Technician Grade-III (Various 24 Trades):**
+  * **Pay Level:** Level-2 in 7th CPC (Initial Pay: **₹19,900/-** per month + DA, HRA, Allowances).
+  * **Total Vacancies:** **6,234 Posts** (UR: 2,608, OBC: 1,481, SC: 959, EWS: 626, ST: 560, ExSM: 629).
+  * **Medical Standards:** **A-3, B-1, B-2, C-1** as per trade.
+  * **Age Limit (as on 01.07.2026):** **18 to 30 Years** *(UR/EWS: 02.07.1996 to 01.07.2008; OBC-NCL: 02.07.1993; SC/ST: 02.07.1991)*.
+* **Grand Total (All RRBs):** **6,557 Posts** (UR: 2,728 \| OBC: 1,565 \| SC: 1,009 \| EWS: 658 \| ST: 597 \| ExSM: 661).
+
+#### 🎓 Prescribed Minimum Educational Qualification:
+1. **Technician Grade-I Signal (Level-5):**
+   * Bachelor of Science (B.Sc) in Physics / Electronics / Computer Science / Information Technology / Instrumentation from a recognized University/Institute; **OR**
+   * B.Sc in a combination of any sub-stream of basic streams of Physics / Electronics / CS / IT / Instrumentation; **OR**
+   * Three-year Diploma in Engineering in the above basic streams or in combination; **OR**
+   * Degree in Engineering (B.E. / B.Tech) in the above streams or in combination.
+2. **Technician Grade-III (Level-2 Trades):**
+   * Matriculation / SSLC plus **ITI (NCVT/SCVT)** in relevant trade (Fitter, Welder, Electrician, Wireman, Diesel Mechanic, Machinist, Carpenter, Painter, etc.); **OR**
+   * Matriculation / SSLC plus **Course Completed Act Apprenticeship (CCAA)** in the relevant trade.
+3. 🌟 **Special 10+2 PCM Eligibility for Cat. 14 Technician Grade-III (S&T):**
+   * Candidates with **10+2 with Physics and Mathematics (PCM)** are directly eligible for Technician Grade-III (S&T) without ITI! (320 Posts).
+
+#### 📝 Selection Stages & Exam Pattern (Separate CBT per Pay Level):
+
+1. **Stage 1: Single-Stage CBT (100 Questions / 90 Minutes / 100 Marks)**
+   * **Marking:** +1.00 for Correct Answer, -1/3rd (-0.33) for Incorrect Answer. Normalization applies.
+   * **Qualifying Cut-off:** UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25% (relaxed by 2% for PwBD).
+   * **Pattern for Technician Grade-III (Pay Level-2):**
+     * **General Science (10th CBSE Physics, Chemistry, Biology):** **40 Questions (40 Marks)** *(Massive 40% weightage decisive for merit!)*
+     * **Mathematics:** 25 Questions (25 Marks)
+     * **General Intelligence & Reasoning:** 25 Questions (25 Marks)
+     * **General Awareness:** 10 Questions (10 Marks)
+     * **Total:** **100 Questions / 100 Marks (90 Minutes)**
+   * **Pattern for Technician Grade-I Signal (Pay Level-5):**
+     * **Basic Science and Engineering:** **35 Questions (35 Marks)** *(Physics fundamentals, Electricity & Magnetism, Digital Electronics, Transducers)*
+     * **Basics of Computers and Applications:** **20 Questions (20 Marks)** *(Architecture, OS, Networking, MS Office, Viruses)*
+     * **Mathematics:** **20 Questions (20 Marks)** *(Sets, Trigonometry, Coordinate Geometry, Statistics, Dispersion)*
+     * **General Intelligence and Reasoning:** **15 Questions (15 Marks)**
+     * **General Awareness:** **10 Questions (10 Marks)**
+     * **Total:** **100 Questions / 100 Marks (90 Minutes)**
+
+2. **Stage 2: Document Verification (DV) & Medical Examination (ME):**
+   * Candidates called in exact **1:1 ratio** based on single CBT normalized score.
+   * Medical Standards: **B-1** for Gr I Signal & major running sheds/C&W; **A-3** for Track Machine; **C-1** for Workshops & Production Units.
+
+3. **Stage 3: Final Panel & Allotment:**
+   * 100% merit position based on Single CBT marks determines zonal railway and division allotment!
+
+#### 📋 Top Vacancies by Post / Specialty (All RRBs):
+| Cat No. | Post Name | 7th CPC Level | Medical Standard | Vacancies |
+|:---:|:---|:---:|:---:|:---:|
+| 1 | **Technician Grade-I Signal** | Level-5 | B-1 | **323** |
+| 19 | Technician Grade-III Fitter (PU & WS) | Level-2 | C-1 | **1,109** |
+| 25 | Technician Grade-III Welder (PU & WS) | Level-2 | C-1 | **584** |
+| 5 | Technician Grade-III Carriage & Wagon | Level-2 | B-1 | **501** |
+| 12 | Technician Grade-III Fitter (OL) | Level-2 | B-1 | **469** |
+| 7 | Technician Grade-III Diesel Mechanical | Level-2 | B-1 | **346** |
+| 9 | Technician Grade-III Electrical (GS) | Level-2 | B-1 | **329** |
+| 14 | **Technician Grade-III (S & T) [10+2 PCM Eligible]** | Level-2 | B-1 | **320** |
+| 3 | Technician Grade-III Blacksmith | Level-2 | B-1 | **306** |
+| 8 | Technician Grade-III Electrical / TRS | Level-2 | B-1 | **268** |
+| 17 | Technician Grade-III Carpenter (Workshop) | Level-2 | C-1 | **229** |
+| 6 | Technician Grade-III Diesel Electrical | Level-2 | B-1 | **206** |
+| 21 | Technician Grade-III Mechanical (Workshop) | Level-2 | C-1 | **193** |
+| 2 | Technician Grade-III Track Machine | Level-2 | A-3 | **172** |
+| 22 | Technician Grade-III Millwright | Level-2 | C-1 | **170** |
+| 13 | Technician Grade-III Refrigeration & AC | Level-2 | B-1 | **162** |
+| 10 | Technician Grade-III Electrical (TRD) | Level-2 | B-1 | **152** |
+| 15 | Technician Grade-III Welder (OL) | Level-2 | B-1 | **150** |
+| 11 | Technician Grade-III EMU | Level-2 | B-1 | **147** |
+| 18 | Technician Grade-III Electrical (PU & WS) | Level-2 | C-1 | **128** |
+| 20 | Technician Grade-III Machinist (Workshop) | Level-2 | C-1 | **123** |
+| 23 | Technician Grade-III Painter (Workshop) | Level-2 | C-1 | **77** |
+| 24 | Technician Grade-III Trimmer (Workshop) | Level-2 | C-1 | **46** |
+| 4 | Technician Grade-III Bridge | Level-2 | B-1 | **34** |
+| 16 | Technician Grade-III Crane Driver | Level-2 | B-2 | **13** |
+| | **TOTAL ALL TECHNICIAN CATEGORIES** | | | **6,557** |
 
 ---
 

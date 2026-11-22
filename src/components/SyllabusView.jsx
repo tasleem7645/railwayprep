@@ -23,7 +23,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
             <span>Official Railway Board CEN Notifications 2024-2026</span>
           </div>
           <span className="text-xs bg-amber-500/10 text-amber-300 border border-amber-500/30 px-2.5 py-1 rounded-full font-bold">
-            CEN 01/2026 (ALP) • CEN 04/2026 (JE) • CEN 06/2026 (NTPC Grad) • CEN 07/2026 (NTPC UG) • CEN 08/2026 (Station Master) • CEN 09/2025 (Group D)
+            CEN 01/2026 (ALP) • CEN 02/2026 (Tech) • CEN 04/2026 (JE) • CEN 06/2026 (NTPC Grad) • CEN 07/2026 (NTPC UG) • CEN 08/2026 (Station Master) • CEN 09/2025 (Group D)
           </span>
         </div>
 
@@ -31,7 +31,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
           Railway Recruitment: Vacancies, Selection Pipeline & Official Syllabus
         </h2>
         <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-3xl">
-          Complete verified roadmap for RRB Station Master (1,215/1,265 posts CEN 08/2026), RRB ALP (11,127 posts CEN 01/2026), RRB JE (3,993 posts CEN 04/2026), NTPC Graduate (3,548 posts CEN 06/2026), NTPC UG (1,688 posts CEN 07/2026), Group D (22,195 posts CEN 09/2025), Technician, and RPF.
+          Complete verified roadmap for RRB Technician (6,557 posts CEN 02/2026), RRB Station Master (1,215/1,265 posts CEN 08/2026), RRB ALP (11,127 posts CEN 01/2026), RRB JE (3,993 posts CEN 04/2026), NTPC Graduate (3,548 posts CEN 06/2026), NTPC UG (1,688 posts CEN 07/2026), Group D (22,195 posts CEN 09/2025), and RPF.
         </p>
       </div>
 
