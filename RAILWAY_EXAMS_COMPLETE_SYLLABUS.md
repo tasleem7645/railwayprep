@@ -12,6 +12,7 @@
 | **RRB NTPC (Undergraduate 10+2)** | **CEN 07/2026** *(Official PDF)* | **1,688** | **New 2026-27 Official Notice:** 12th pass (50% min, relaxed for SC/ST/Graduates). **Typing Test DISPENSED WITH (Removed)!** Commercial Ticket Clerk (700), Jr Clerk (600), Accounts Clerk (200), Trains Clerk (188). Apply: 15.10.2026 to 13.11.2026. |
 | **RRB NTPC (Graduate Level 2026)** | **CEN 06/2026** *(Official PDF)* | **3,548** | **New Official 2026 Notice:** Goods Train Manager (2,750), Senior Clerk (371), Jr Accounts Asst (300), Chief Commercial (127). **Typing Test DISPENSED WITH (Removed)!** Apply: 08.10.2026 to 06.11.2026. |
 | **RRB JE & DMS (Junior Engineer 2026)** | **CEN 04/2026** *(Official PDF)* | **3,993** | **New Official 2026 Notice:** UR 1699, OBC 913, SC 624, EWS 394, ST 363. Pay Level-6 (₹35,400). CBT-1 (100 Qs) + CBT-2 (150 Qs with 100 Technical Qs + Virtual Calculator). Apply: 14.08.2026 to 13.09.2026. |
+| **RRB Station Master (2026)** | **CEN 08/2026** *(Official PDF)* | **1,215 / 1,265** | **New Official 2026 Notice:** Pay Level-6 (₹35,400). Age 20-33 yrs. Single CBT (120 Mins / 100 Qs: Basic Science & Maths 60, Logical Capability 20, Mental Reasoning 20) + CBAT (8x ratio, 42 T-score). Merit Ratio: **70% CBT + 30% CBAT**. Apply: 27.10.2026 to 25.11.2026. |
 | **RRB Technician (Grade 1 & 3)** | CEN 02/2024 | **9,144+** | **Pattern Changed:** Single-Stage CBT! Gr 1 Signal (1,092) & Gr 3 (8,052). |
 | **RPF Sub-Inspector (SI)** | CEN 01/2024 | **452** | Graduation Level CBT + PMT/PET. |
 | **RPF Constable** | CEN 02/2024 | **4,208** | 10th Pass Level CBT + PMT/PET. |
@@ -238,6 +239,114 @@
 3. **Stage 3: Document Verification (DV) & Medical Examination (ME):**
    * Called in exact **1:1 ratio** based on 2nd Stage CBT normalized score.
    * Medical Standards: **A-3** (Bridge, P.Way, TRD, TRS, EMU), **B-1** (General Services, Sheds), **B-2** (Design, Works, DMS), **C-1** (Workshop & Drawing).
+
+---
+
+
+### 2.3 🚉 RRB Station Master — Official CEN 08/2026 (1,215 / 1,265 Posts)
+
+
+#### 📅 Important Dates (CEN 08/2026):
+* **Date of Indicative Notice in Employment News:** 24.10.2026
+* **Opening Date of Online Applications:** 27.10.2026
+* **Closing Date of Online Applications:** 25.11.2026 (23:59 Hrs)
+* **Last Date for Application Fee Payment:** 27.11.2026
+* **Modification Window for Application Corrections:** 28.11.2026 to 07.12.2026 (Fee: ₹250)
+
+#### 💰 Pay Scale & Age Limit:
+* **Pay Level:** Pay Level-6 in 7th CPC (Initial Basic Pay: **₹35,400/-** + DA, HRA, Running/Night Duty Allowance).
+* **Age Limit (as on 01.01.2027):** **20 to 33 Years** *(Note: Minimum age is 20 years, not 18!)*.
+* **Date of Birth Limits (both dates inclusive):**
+  * **UR & EWS:** 02.01.1994 to 01.01.2007
+  * **OBC-Non Creamy Layer:** 02.01.1991 to 01.01.2007 (3 Years relaxation)
+  * **SC / ST:** 02.01.1989 to 01.01.2007 (5 Years relaxation)
+  * **Ex-Servicemen:** Service period + 3 yrs (UR/EWS), +6 yrs (OBC), +8 yrs (SC/ST).
+
+#### 🎓 Prescribed Minimum Educational Qualification:
+* **Graduate Degree** from a recognized University or its equivalent.
+* *(Note: Station Master post is NOT suitable for PwBD candidates — VI/HI/LD/OD/MD = No suitability).*
+
+#### 👁️ Strict A-2 Medical Standards (Para 6.0 & Annexure-VI):
+* **Physical Fitness:** Physically fit in all respects.
+* **Distant Vision:** **6/9, 6/9 without glasses** (No fogging test permissible, eye sight must be unaided!).
+* **Near Vision:** **Sn: 0.6, 0.6 without glasses** for close instrument/signal monitoring.
+* **Special Eye Tests:** Must pass tests for Colour Vision (Ishihara / lantern), Binocular Vision, Field of Vision, Night Vision, and Mesopic Vision.
+* **Strict LASIK Prohibition:** Any candidate with a history of **LASIK / Refractive Surgery / Lens Implants** is **STRICTLY DISQUALIFIED** (Annexure VI-B & VI-C).
+* **Mandatory Vision Certificate:** Shortlisted candidates must present the original Medical Certificate from Eye Specialist in prescribed format (**Annexure-VI / Annexure-VIA**) during CBAT, failing which entry will be denied.
+
+#### 📝 Selection Stages & Exam Pattern:
+
+1. **Stage 1: Single Computer Based Test (CBT) — [120 Minutes / 100 Questions / 100 Marks]**
+   * **Total Duration:** 120 Minutes (2 Hours) [160 Mins for eligible PwBD scribes].
+   * **Total Questions:** 100 Objective MCQs (1 mark each).
+   * **Negative Marking:** 1/3rd mark deducted per incorrect answer.
+   * **Normalization:** Multi-shift normalization applies.
+   * **Screening Nature:** Normalized CBT marks shortlist candidates for CBAT at **8 times (8x)** the vacancies.
+   * **Section-wise Question Breakdown:**
+     * **Section 1: Basic Science, Mathematical and Analytical Capability — 60 Questions (60 Marks)**
+       * *Part A: Basic Science & Mathematics (30 Marks):* Number System, Ratio & Proportions, Averages, Percentages, Profit, Loss & Discounts, Time, Speed & Distance, Power & Work, Algebra, Linear Equations, Arithmetic Progression (AP), LCM, HCF, Geometry and Trigonometry, Area & Volumes, Elementary Probability & Statistics. Basic Science: Units, Measurements, Mass Weight and Density, Work Power Energy, Kinetic Energy, Friction, Speed & Velocity, Relative Velocity, Heat & Temperature, Basic Electricity, Levers & Simple Machines.
+       * *Part B: Data Analysis & Interpretation (30 Marks):* Multi-source Data Analysis — examination, analysis and inference drawing from text, tabular data and graphical data (bar charts, line graphs, scatter plots, pie charts, statistical curve distributions, Venn diagrams, Data Sufficiency, Data Arrangement).
+     * **Section 2: Logical Capability — 20 Questions (20 Marks)**
+       * *Logical Reasoning:* Binary Logic (truth-tellers and liars), Syllogism, Clocks & Calendars, Assumptions, Blood Relations, Family Tree, Logic-based puzzles.
+       * *Reading Comprehension:* Passages in English from History, Society, Literature, Science, Environment, Abstract, Mythology, Technology & Culture (Main idea, Supporting idea, Application, Logical Structure & Style).
+     * **Section 3: Mental Reasoning — 20 Questions (20 Marks)**
+       * Analogy (relationship matching), Series Completion (pattern recognition), Coding-Decoding, Ranking & Order, Seating & Direction Arrangements.
+   * **Qualifying Cut-off:** UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%.
+
+2. **Stage 2: Computer Based Aptitude Test (CBAT / Psycho Test):**
+   * **Shortlisting Ratio:** **8 times (8x)** the number of vacancies (RRB-wise and category-wise).
+   * **Test Batteries:** 5 standard RDSO Test Batteries:
+     1. Intelligence / Classification Test
+     2. Selective Attention Test (Odd Number Sum / Vigilance)
+     3. Spatial Scanning Test (Shortest Route on track grid)
+     4. Information Ordering Test (Signal/machine operation sequence)
+     5. Personality / Attitude Test (Safety mindset & decision making)
+   * **Qualifying Criteria:** Must secure a **minimum T-Score of 42 marks in EACH test battery separately**. No category relaxation is permissible!
+   * **No Negative Marking** in CBAT.
+   * **Language:** Test displayed in English and Hindi only.
+
+3. **Stage 3: Combined Merit & Document Verification (DV):**
+   * **Merit Formula:** **70% CBT Marks + 30% CBAT Marks**!
+   * **Call Ratio:** Called in exact **1:1 ratio** of vacancies based on combined merit.
+   * **Tie-Breaker:** Older candidate gets higher merit; if age is same, alphabetical order of given first name (A to Z).
+
+4. **Stage 4: Medical Examination & Final Panel:**
+   * Passing Railway Medical Board's strict **A-2 standard** is mandatory for final appointment.
+
+#### 📊 RRB & Zone-wise Vacancy Distribution (Annexure-B):
+| Sl | RRB | Railway Zone | UR | SC | ST | OBC | EWS | Total | ExSM |
+|:---|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | Ahmedabad | WR | 13 | 5 | 2 | 7 | 4 | **31** | 4 |
+| 2 | Ajmer | NWR | 23 | 3 | 1 | 7 | 15 | **49** | 5 |
+| 3 | Ajmer | WCR | 6 | 1 | 0 | 4 | 1 | **12** | 1 |
+| 4 | Prayagraj | NCR | 44 | 15 | 7 | 28 | 10 | **104** | 10 |
+| 5 | Prayagraj | NR | 3 | 1 | 1 | 2 | 1 | **8** | 1 |
+| 6 | Bengaluru | SWR | 52 | 12 | 10 | 22 | 6 | **102** | 11 |
+| 7 | Bhopal | WCR | 21 | 8 | 2 | 13 | 5 | **49** | 5 |
+| 8 | Bhopal | WR | 5 | 2 | 1 | 4 | 1 | **13** | 1 |
+| 9 | Bhubaneswar | ECoR | 9 | 2 | 1 | 4 | 7 | **23** | 3 |
+| 10 | Bilaspur | CR | 6 | 0 | 2 | 1 | 3 | **12** | 1 |
+| 11 | Bilaspur | SECR | 23 | 7 | 4 | 13 | 5 | **52** | 6 |
+| 12 | Chandigarh | NR | 19 | 3 | 1 | 4 | 1 | **28** | 3 |
+| 13 | Chennai | SR | 47 | 19 | 8 | 32 | 13 | **119** | 12 |
+| 14 | Gorakhpur | NER | 1 | 4 | 9 | 0 | 4 | **18** | 3 |
+| 15 | Guwahati | NFR | 16 | 5 | 2 | 10 | 4 | **37** | 4 |
+| 16 | Jammu-Srinagar | NR | 50 | 18 | 9 | 33 | 12 | **122** | 12 |
+| 17 | Kolkata | ER | 11 | 5 | 3 | 9 | 4 | **32** | 3 |
+| 18 | Kolkata | SER | 3 | 0 | 0 | 1 | 1 | **5** | 1 |
+| 19 | Malda | ER | 0 | 0 | 4 | 0 | 0 | **4** | 0 |
+| 20 | Mumbai | CR | 54 | 18 | 11 | 32 | 10 | **125** | 12 |
+| 21 | Mumbai | SCR | 19 | 4 | 2 | 0 | 3 | **28** | 3 |
+| 22 | Mumbai | WR | 10 | 3 | 2 | 7 | 2 | **24** | 2 |
+| 23 | Muzaffarpur | ECR | 5 | 2 | 1 | 4 | 2 | **14** | 2 |
+| 24 | Patna | ECR | 5 | 2 | 5 | 3 | 2 | **17** | 2 |
+| 25 | Ranchi | ECR | 6 | 2 | 1 | 4 | 2 | **15** | 2 |
+| 26 | Ranchi | SER | 4 | 7 | 0 | 1 | 0 | **12** | 1 |
+| 27 | Secunderabad | SCR | 3 | 1 | 1 | 0 | 0 | **5** | 1 |
+| 28 | Secunderabad | SCoR | 32 | 6 | 3 | 12 | 12 | **65** | 7 |
+| 29 | Siliguri | NFR | 10 | 4 | 2 | 7 | 3 | **26** | 3 |
+| 30 | Thiruvananthapuram | SR | 42 | 17 | 9 | 32 | 14 | **114** | 12 |
+| | **TOTAL ALL RRBs** | | **542** | **176** | **104** | **296** | **147** | **1,265** | **133** |
 
 ---
 

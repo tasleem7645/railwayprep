@@ -17,9 +17,11 @@ export default function Navbar({
   const [goalDropdownOpen, setGoalDropdownOpen] = useState(false);
 
   const GOALS = [
-    'RRB NTPC 2026-27 (CBT 1 & 2)',
-    'RRB ALP (Technician & CBT-2)',
-    'RRB Group D (CBT)',
+    'RRB Station Master (CEN 08/2026)',
+    'RRB NTPC Graduate & UG (2026)',
+    'RRB ALP (Loco Pilot 2026)',
+    'RRB JE & DMS (CEN 04/2026)',
+    'RRB Group D (Level-1)',
     'RPF SI & Constable'
   ];
 

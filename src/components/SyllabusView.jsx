@@ -4,7 +4,7 @@ import {
   FileText, Clock, Award, CheckCircle2, AlertTriangle, 
   Sparkles, Play, ChevronRight, BookOpen, Layers, ShieldCheck,
   Eye, Activity, Users, ArrowRight, BellRing, Calendar, Wrench,
-  GraduationCap, Scale, Stethoscope
+  GraduationCap, Scale, Stethoscope, BrainCircuit
 } from 'lucide-react';
 
 export default function SyllabusView({ onStartMock, onOpenPassPro }) {
@@ -23,7 +23,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
             <span>Official Railway Board CEN Notifications 2024-2026</span>
           </div>
           <span className="text-xs bg-amber-500/10 text-amber-300 border border-amber-500/30 px-2.5 py-1 rounded-full font-bold">
-            CEN 01/2026 (ALP) • CEN 04/2026 (JE) • CEN 06/2026 (NTPC Grad) • CEN 07/2026 (NTPC UG) • CEN 09/2025 (Group D)
+            CEN 01/2026 (ALP) • CEN 04/2026 (JE) • CEN 06/2026 (NTPC Grad) • CEN 07/2026 (NTPC UG) • CEN 08/2026 (Station Master) • CEN 09/2025 (Group D)
           </span>
         </div>
 
@@ -31,7 +31,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
           Railway Recruitment: Vacancies, Selection Pipeline & Official Syllabus
         </h2>
         <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-3xl">
-          Complete verified roadmap for RRB ALP (11,127 posts CEN 01/2026), RRB JE (3,993 posts CEN 04/2026), NTPC Graduate (3,548 posts CEN 06/2026), NTPC UG (1,688 posts CEN 07/2026), Group D (22,195 posts CEN 09/2025), Technician, and RPF.
+          Complete verified roadmap for RRB Station Master (1,215/1,265 posts CEN 08/2026), RRB ALP (11,127 posts CEN 01/2026), RRB JE (3,993 posts CEN 04/2026), NTPC Graduate (3,548 posts CEN 06/2026), NTPC UG (1,688 posts CEN 07/2026), Group D (22,195 posts CEN 09/2025), Technician, and RPF.
         </p>
       </div>
 
@@ -112,7 +112,7 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
               <div className="text-[10px] text-slate-400 uppercase font-semibold flex items-center gap-1">
                 <Scale className="w-3 h-3 text-emerald-400" /> Merit Ratio
               </div>
-              <div className="font-bold text-emerald-300 mt-0.5">50% CBT-2 + 50% CBAT</div>
+              <div className="font-bold text-emerald-300 mt-0.5">{activeExam.meritRatio || activeExam.meritFormula || 'As per CEN Rules'}</div>
             </div>
           </div>
         )}
@@ -276,6 +276,58 @@ export default function SyllabusView({ onStartMock, onOpenPassPro }) {
                     <span className="text-slate-300">{mb.detail}</span>
                   </div>
                 ))}
+              </div>
+            </div>
+          )}
+
+          {/* CBAT (Computer Based Aptitude Test / Psycho) Criteria if available */}
+          {activeExam.cbatDetails && (
+            <div className="p-5 sm:p-6 rounded-3xl bg-slate-900/70 border border-emerald-500/30 shadow-xl">
+              <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+                <div className="flex items-center gap-2">
+                  <BrainCircuit className="w-4 h-4 text-emerald-400" />
+                  <h4 className="text-sm font-bold text-white uppercase tracking-wider">
+                    Computer Based Aptitude Test (CBAT / Psycho) — 5 Battery Tests
+                  </h4>
+                </div>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-300 font-bold border border-emerald-500/30">
+                  {activeExam.cbatDetails.ratio}
+                </span>
+              </div>
+
+              <div className="space-y-3 mt-4 text-xs">
+                <div className="p-3.5 rounded-2xl bg-slate-950/70 border border-slate-800/80 space-y-2">
+                  <div className="flex items-start gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-bold text-emerald-300">Qualifying Cut-off: </span>
+                      <span className="text-slate-300">{activeExam.cbatDetails.qualifyingCriteria}</span>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <Scale className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-bold text-teal-300">Merit Contribution: </span>
+                      <span className="text-slate-300">{activeExam.cbatDetails.meritContribution}</span>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <Eye className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-bold text-sky-300">Mandatory Vision Document: </span>
+                      <span className="text-slate-300">{activeExam.cbatDetails.visionDocRequired}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
+                  {activeExam.cbatDetails.batteries.map((b, idx) => (
+                    <div key={idx} className="p-3.5 rounded-2xl bg-slate-950/60 border border-slate-800 flex flex-col justify-between">
+                      <div className="font-bold text-teal-300 text-xs mb-1">{b.name}</div>
+                      <p className="text-slate-400 text-[11px] leading-relaxed">{b.desc}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           )}

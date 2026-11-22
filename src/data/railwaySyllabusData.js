@@ -11,6 +11,7 @@ export const RAILWAY_SYLLABUS = [
     ageLimit: '18 – 30 Years (as on 01-07-2026) [+3 yrs OBC, +5 yrs SC/ST]',
     qualification: 'Matric / SSLC + ITI (NCVT/SCVT) in eligible trades OR Course Completed Act Apprenticeship OR 3-Yr Diploma / Degree in Mechanical, Electrical, Electronics, Automobile Engg. (PwBD Not Suitable)',
     meritFormula: '50% CBT-2 Part-A + 50% CBAT (Psycho) Score (CEN 01/2026 Official Formula!)',
+    meritRatio: '50% CBT-2 + 50% CBAT',
     dates: {
       indicativeNotice: '21.03.2026',
       applyStart: '15.05.2026 (00:00 Hrs)',
@@ -26,6 +27,21 @@ export const RAILWAY_SYLLABUS = [
       { param: 'Refractive Surgery / LASIK', detail: 'STRICTLY DISQUALIFIED. Proforma declaration Annexure-VI mandatory.' },
       { param: 'Self Screening Declaration (New 2026)', detail: 'Annexure VIII-A (Eye Specialist) & VIII-B (General Physician) signed by Central/State Govt Hospital or Medical College doctor to be submitted on CBAT exam day.' }
     ],
+    cbatDetails: {
+      ratio: '8 Times the number of vacancies (RRB-wise & community-wise)',
+      qualifyingCriteria: 'Minimum T-Score of 42 marks in each of the 5 test batteries separately (No relaxation for any category)',
+      languages: 'English and Hindi only',
+      negativeMarking: 'NO negative marking in CBAT',
+      meritContribution: '50% weightage towards final merit list (50% CBT-2 Part-A + 50% CBAT)',
+      visionDocRequired: 'Annexure VIII-A (Eye Specialist) & VIII-B (General Physician) Self-Screening Certificates',
+      batteries: [
+        { name: '1. Memory Test', desc: 'Track memory, building memory, picture-number association under rapid recall timing.' },
+        { name: '2. Direction Test', desc: 'Table test, compass direction determination, and clock-face navigation.' },
+        { name: '3. Depth Perception Test', desc: 'Brick test, hidden block counting, and 3D spatial alignment.' },
+        { name: '4. Concentration Test', desc: 'Yes/No comparison, digit matching, finding pairs with identical configurations.' },
+        { name: '5. Perceptual Speed Test', desc: 'Similarity test, hex-dot test, identifying identical shapes at high speed.' }
+      ]
+    },
     tradeMapping: [
       {
         discipline: 'Electrical Engg & Combinations',
@@ -156,6 +172,7 @@ export const RAILWAY_SYLLABUS = [
     ageLimit: '18 – 30 Years (as on 01.01.2027) [+3 yrs OBC, +5 yrs SC/ST, +10 yrs PwBD]',
     qualification: '12th (+2 Stage) or equivalent with minimum 50% marks in aggregate. (50% marks is NOT required for SC/ST/PwBD/ExSM or candidates possessing higher qualification like Graduation/Degree!).',
     meritFormula: '100% 2nd Stage CBT Normalized Score (Typing Skill Test has been COMPLETELY DISPENSED WITH for CEN 07/2026!)',
+    meritRatio: '100% 2nd Stage CBT',
     dates: {
       indicativeNotice: '26.09.2026',
       applyStart: '15.10.2026',
@@ -252,6 +269,7 @@ export const RAILWAY_SYLLABUS = [
     ageLimit: '18 – 33 Years (as on 01.01.2027) [+3 yrs OBC, +5 yrs SC/ST, +10 yrs PwBD]',
     qualification: 'Degree from recognized University or its equivalent.',
     meritFormula: '100% 2nd Stage CBT Normalized Score (Typing Skill Test has been COMPLETELY DISPENSED WITH for CEN 06/2026!)',
+    meritRatio: '100% 2nd Stage CBT',
     dates: {
       indicativeNotice: '26.09.2026',
       applyStart: '08.10.2026',
@@ -337,6 +355,134 @@ export const RAILWAY_SYLLABUS = [
     ]
   },
   {
+    id: 'rrb-station-master',
+    name: 'RRB Station Master (CEN 08/2026)',
+    shortName: 'Station Master 2026',
+    tag: '1,215 / 1,265 Posts • Level-6',
+    badgeColor: 'emerald',
+    notificationNo: 'CEN No. 08/2026 (Official Railway Board Notice)',
+    totalVacancies: '1,215 Posts (Indicative Notice) / 1,265 Posts (Annexure-B: UR: 542 | OBC: 296 | SC: 176 | EWS: 147 | ST: 104 | ExSM: 133)',
+    payScale: 'Level-6 in 7th CPC (Initial Pay: ₹35,400/- + DA, Running/Night Duty Allowances)',
+    ageLimit: '20 – 33 Years (as on 01.01.2027) [+3 yrs OBC, +5 yrs SC/ST, +ExSM]',
+    qualification: 'Graduate Degree from a recognized University or its equivalent. (PwBD: Not Suitable for Station Master)',
+    meritFormula: '70% CBT + 30% CBAT (Psycho) Score (CEN 08/2026 Official Combined Merit)',
+    meritRatio: '70% CBT + 30% CBAT',
+    dates: {
+      indicativeNotice: '24.10.2026',
+      applyStart: '27.10.2026',
+      applyEnd: '25.11.2026 (23:59 Hrs)',
+      feeLastDate: '27.11.2026',
+      editWindow: '28.11.2026 to 07.12.2026 (₹250 Fee)'
+    },
+    medicalStandard: 'A-2 Standard (Strict 6/9, 6/9 without glasses, near vision Sn 0.6, complete color vision pass, no LASIK/refractive surgery)',
+    medicalBreakdown: [
+      { param: 'Distance Vision', detail: '6/9, 6/9 without glasses (no fogging test). Eye sight must be sharp and unaided.' },
+      { param: 'Near Vision', detail: 'Sn: 0.6, 0.6 without glasses when reading or close signal monitoring.' },
+      { param: 'Color & Field Vision', detail: 'Must pass tests for Colour Vision (Ishihara / lantern), Binocular Vision, Field of Vision, Night Vision, and Mesopic Vision.' },
+      { param: 'Refractive Surgery / LASIK', detail: 'STRICTLY DISQUALIFIED. Candidates with history of LASIK / corrective eye surgery are not eligible for A-2 (Annexure VI-B & VI-C).' },
+      { param: 'Vision Certificate (Annexure-VI)', detail: 'Shortlisted candidates must produce original Vision Certificate issued by Eye Specialist (Annexure VI / VIA) on the day of CBAT, failing which entry is denied.' }
+    ],
+    postsList: [
+      { post: 'Station Master', dept: 'Operating / Traffic Department', level: 'Level-6 (₹35,400)', medStd: 'A-2', vacancies: '1,215 / 1,265 Posts' }
+    ],
+    pipeline: [
+      { step: '1', title: 'Single Computer Based Test (CBT)', type: 'Screening to CBAT', desc: '100 Qs / 120 Mins. Basic Science & Maths (30) + Data Analysis (30) + Logical Capability (20) + Mental Reasoning (20). -1/3rd negative marking.' },
+      { step: '2', title: 'Computer Based Aptitude Test (CBAT)', type: '8x Shortlist', desc: 'Psycho Aptitude test with 5 batteries. Minimum 42 T-score required in EVERY battery without any relaxation. Carries 30% final merit weightage!' },
+      { step: '3', title: 'Document Verification (DV)', type: 'DV (1:1 Ratio)', desc: '1:1 ratio matching vacancies based on combined merit (70% CBT + 30% CBAT). Age and alphabetical tie-breakers.' },
+      { step: '4', title: 'Medical Examination (ME)', type: 'Medical (A-2)', desc: 'Rigorous A-2 medical fitness examination conducted by Railway Medical Board. No glasses, no LASIK.' },
+      { step: '5', title: 'Final Panel & Station Posting', type: 'Final', desc: 'Empanelment and training as Station Master across railway divisions and operating zones.' }
+    ],
+    cbatDetails: {
+      ratio: '8 Times the number of vacancies (RRB-wise & community-wise)',
+      qualifyingCriteria: 'Minimum T-Score of 42 marks in each of the 5 test batteries separately (No relaxation for SC/ST/OBC/EWS/ExSM)',
+      languages: 'English and Hindi only',
+      negativeMarking: 'NO negative marking in CBAT',
+      meritContribution: '30% weightage towards final merit list (70% CBT + 30% CBAT)',
+      visionDocRequired: 'Original Medical Vision Certificate from Eye Specialist (Annexure-VI / Annexure-VIA)',
+      batteries: [
+        { name: '1. Intelligence / Classification Test', desc: 'Tests analytical ability, quick pattern recognition, and odd-one-out shape matching under time pressure.' },
+        { name: '2. Selective Attention Test', desc: 'Addition of odd digits while ignoring evens, rapid visual focus, and sustained vigilance.' },
+        { name: '3. Spatial Scanning Test', desc: 'Shortest route finding on station track grid layouts avoiding blocked intersections without lifting pencil/cursor.' },
+        { name: '4. Information Ordering Test', desc: 'Simulated station switch/signal operations following coded sequence rules and machine status logic.' },
+        { name: '5. Personality / Attitude Test', desc: 'Evaluates safety orientation, emotional stability, high-stress decision making, and team coordination.' }
+      ]
+    },
+    stages: [
+      {
+        stageName: 'Single Computer Based Test (CBT - 100 Qs / 120 Mins)',
+        duration: '120 Minutes (160 Mins for eligible PwBD scribes)',
+        totalQuestions: 100,
+        totalMarks: 100,
+        marking: '+1.00 Correct, -0.33 Negative (8x Shortlisted for CBAT)',
+        passPercentage: 'UR: 40%, EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%',
+        table: [
+          { subject: 'Basic Science, Mathematical and Analytical Capability (Science & Maths: 30 | Data Analysis: 30)', questions: 60, marks: 60 },
+          { subject: 'Logical Capability (Logical Reasoning & English Reading Comprehension)', questions: 20, marks: 20 },
+          { subject: 'Mental Reasoning (Analogy, Series, Coding-Decoding, Ranking & Arrangements)', questions: 20, marks: 20 },
+        ]
+      },
+      {
+        stageName: 'Computer Based Aptitude Test (CBAT / Psycho - 5 Batteries)',
+        duration: 'Approx. 84 Minutes (5 Battery Tests)',
+        totalQuestions: 'Variable per Battery (~165-200 Qs)',
+        totalMarks: 'T-Score Scale (Min 42 in each battery)',
+        marking: 'No Negative Marking (30% Merit Weightage)',
+        passPercentage: '42 T-Score in ALL 5 Batteries (Mandatory for ALL categories)',
+        table: [
+          { subject: 'Battery 1: Intelligence / Classification Test', questions: 35, marks: 'T-Score >= 42' },
+          { subject: 'Battery 2: Selective Attention Test (Odd Number Sum)', questions: 30, marks: 'T-Score >= 42' },
+          { subject: 'Battery 3: Spatial Scanning Test (Shortest Route)', questions: 40, marks: 'T-Score >= 42' },
+          { subject: 'Battery 4: Information Ordering Test', questions: 25, marks: 'T-Score >= 42' },
+          { subject: 'Battery 5: Personality / Attitude Test', questions: 35, marks: 'T-Score >= 42' },
+        ]
+      }
+    ],
+    subjectBreakdown: [
+      {
+        subject: 'Basic Science & Mathematics (30 Marks in Section 1)',
+        topics: [
+          'Mathematics: Number System, Ratio & Proportions, Averages, Percentages, Profit, Loss & Discounts',
+          'Time, Speed & Distance, Power & Work, Algebra, Linear Equations, Arithmetic Progression (AP)',
+          'LCM & HCF, Geometry and Trigonometry, Area & Volumes, Elementary Probability & Statistics (Basic Level)',
+          'Basic Science & Engineering Physics: Units and Measurements, Mass, Weight and Density',
+          'Work, Power and Energy, Kinetic Energy, Friction, Speed and Velocity, Relative Velocity',
+          'Heat and Temperature, Basic Electricity, Levers and Simple Machines'
+        ]
+      },
+      {
+        subject: 'Data Analysis & Interpretation (30 Marks in Section 1)',
+        topics: [
+          'Multi-source Data Analysis: Examination, analysis and inference drawing from text and tabular data',
+          'Data represented graphically: Charts, Bar Graphs, Line Graphs, Scatter Plots',
+          'Pie Charts, Statistical Curve Distributions, Frequency Histograms',
+          'Venn Diagrams (2-set and 3-set logical overlapping sets)',
+          'Data Sufficiency (determining if given statements are sufficient to answer)',
+          'Data Arrangement (matrix arrangement, linear seating, circular tables, scheduling)'
+        ]
+      },
+      {
+        subject: 'Logical Capability (20 Marks in Section 2)',
+        topics: [
+          'Logical Reasoning: Binary Logic (truth-tellers and liars), Syllogism (deductive conclusions), Clocks & Calendars',
+          'Assumptions, Course of Action, Statement & Arguments, Blood Relations, Family Tree',
+          'Solving complex logic-based puzzles and conditional matrix puzzles',
+          'Reading Comprehension (Passages in English language): History, Society, Literature, Science, Environment, Abstract, Mythology, Technology & Culture',
+          'Reading Comprehension Skills: Main Idea extraction, Supporting Details, Contextual Application, Logical Structure & Author Style'
+        ]
+      },
+      {
+        subject: 'Mental Reasoning (20 Marks in Section 3)',
+        topics: [
+          'Analogy: Identifying relationships between two items and applying the same rule to another pair',
+          'Series Completion: Identifying subtle numerical, alphabetic and mixed patterns, predicting next term',
+          'Coding-Decoding: Letter coding, number coding, symbol substitution, matrix deciphering',
+          'Ranking & Order: Linear ranking, vertical comparisons, position swapping',
+          'Direction Sense & Spatial Arrangements'
+        ]
+      }
+    ]
+  },
+  {
     id: 'rrb-je',
     name: 'RRB Junior Engineer & DMS (CEN 04/2026)',
     shortName: 'RRB JE (Engineering 2026)',
@@ -348,6 +494,7 @@ export const RAILWAY_SYLLABUS = [
     ageLimit: '18 – 33 Years (as on 01.01.2027) [+3 yrs OBC, +5 yrs SC/ST, +10 yrs PwBD]',
     qualification: 'Three years Diploma in Engineering OR Bachelor\'s Degree in Engineering (B.E./B.Tech) in Civil, Mechanical, Electrical, Electronics, CS, IT, or allied disciplines. (DMS accepts Diploma in ANY Engineering discipline).',
     meritFormula: '100% 2nd Stage CBT Normalized Score (150 Qs / 120 Mins including 100 Technical Qs)',
+    meritRatio: '100% 2nd Stage CBT',
     dates: {
       indicativeNotice: '25.07.2026',
       applyStart: '14.08.2026',
@@ -456,6 +603,7 @@ export const RAILWAY_SYLLABUS = [
   },
   {
     id: 'rrb-technician',
+    meritRatio: '100% Single CBT Score',
     name: 'RRB Technician Grade 1 & 3 (CEN 02/2024)',
     shortName: 'Technician Grade 1 & 3',
     tag: '9,144 Posts • Single CBT (New Pattern)',
@@ -518,6 +666,7 @@ export const RAILWAY_SYLLABUS = [
   },
   {
     id: 'rpf-si-constable',
+    meritRatio: '100% CBT Score (PET/PMT Qualifying)',
     name: 'RPF SI & Constable (CEN 01/2024 & CEN 02/2024)',
     shortName: 'RPF SI & Constable',
     tag: '4,660 Posts • CBT + PET',
@@ -567,6 +716,7 @@ export const RAILWAY_SYLLABUS = [
   },
   {
     id: 'rrb-group-d',
+    meritRatio: '100% CBT Score (PET Qualifying)',
     name: 'RRB Group D (Level-1 Posts - CEN 09/2025)',
     shortName: 'Group D (Level-1 2025)',
     tag: '22,195 Official Vacancies',
