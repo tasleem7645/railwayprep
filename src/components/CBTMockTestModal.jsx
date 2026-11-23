@@ -98,6 +98,14 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
     return `${String(hours).padStart(2, '0')} : ${String(mins).padStart(2, '0')} : ${String(secs).padStart(2, '0')}`;
   };
 
+  const getOptionsList = (q, lang) => {
+    if (!q || !q.options) return [];
+    if (Array.isArray(q.options)) {
+      return q.options.map(o => (typeof o === 'object' && o !== null ? (o[lang] || o['en'] || '') : String(o)));
+    }
+    return q.options[lang] || q.options['en'] || q.options['hi'] || [];
+  };
+
   const formatQuestionTime = (seconds = 0) => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
@@ -526,7 +534,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
 
             {/* 4 OPTIONS (Radio Buttons - Testbook Screenshot 2 & 4) */}
             <div className="space-y-3 max-w-4xl mb-8">
-              {(currentQ.options[currentQLang] || currentQ.options['en']).map((optText, optIdx) => {
+              {getOptionsList(currentQ, currentQLang).map((optText, optIdx) => {
                 const isSelected = answers[currentQ.id] === optIdx;
                 return (
                   <label
@@ -730,7 +738,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
                     {q.question[globalLang] || q.question['en']}
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
-                    {(q.options[globalLang] || q.options['en']).map((opt, oIdx) => (
+                    {getOptionsList(q, globalLang).map((opt, oIdx) => (
                       <div key={oIdx} className="p-2 rounded bg-slate-900 border border-slate-800 flex items-center gap-2">
                         <span className="font-bold text-slate-400">{String.fromCharCode(65 + oIdx)}.</span>
                         <span>{opt}</span>

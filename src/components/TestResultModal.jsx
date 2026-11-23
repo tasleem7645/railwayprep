@@ -72,6 +72,14 @@ export default function TestResultModal({ result, onClose, onRetake }) {
   const percentile = Math.min(99.6, Math.max(45, (finalScore / test.maxMarks) * 98 + Math.random() * 1.5)).toFixed(1);
   const estimatedRank = Math.max(12, Math.round((1 - (percentile / 100)) * 15400));
 
+  const getOptionsList = (q, lang) => {
+    if (!q || !q.options) return [];
+    if (Array.isArray(q.options)) {
+      return q.options.map(o => (typeof o === 'object' && o !== null ? (o[lang] || o['en'] || '') : String(o)));
+    }
+    return q.options[lang] || q.options['en'] || q.options['hi'] || [];
+  };
+
   const formatTime = (secs) => {
     const m = Math.floor(secs / 60);
     const s = secs % 60;
@@ -380,7 +388,7 @@ export default function TestResultModal({ result, onClose, onRetake }) {
 
                   {/* 4 Options with User Response vs Official Answer Highlighting */}
                   <div className="space-y-3">
-                    {(activeReviewQ.options[reviewLang] || activeReviewQ.options['en']).map((optText, optIdx) => {
+                    {getOptionsList(activeReviewQ, reviewLang).map((optText, optIdx) => {
                       const isOfficialCorrect = optIdx === activeReviewQ.correctIndex;
                       const isUserSelected = userAns === optIdx;
                       const letter = String.fromCharCode(65 + optIdx);

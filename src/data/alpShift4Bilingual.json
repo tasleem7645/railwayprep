@@ -9,24 +9,20 @@
       "en": "The weekly wages (in ₹ ) of 7 workers are ₹ 1200, ₹ 1300, ₹ 1100, ₹ 1400, ₹ 1250, ₹ 1350, ₹ 1150. What is the median wage?",
       "hi": "7 ( ₹ ) ₹ 1200, ₹ 1300, ₹ 1100, ₹ 1400, ₹ 1250, ₹ 1350, ₹ 1150 मजदूरी िकतनी होगी ? िन म् निलिखत शृंखला में के स् थान पर क् या आएगा"
     },
-    "options": [
-      {
-        "en": "₹ 1300",
-        "hi": "₹ 1300"
-      },
-      {
-        "en": "₹ 1350",
-        "hi": "₹ 1350"
-      },
-      {
-        "en": "₹ 1200",
-        "hi": "₹ 1200"
-      },
-      {
-        "en": "₹ 1250",
-        "hi": "₹ 1250"
-      }
-    ],
+    "options": {
+      "en": [
+        "₹ 1300",
+        "₹ 1350",
+        "₹ 1200",
+        "₹ 1250"
+      ],
+      "hi": [
+        "₹ 1300",
+        "₹ 1350",
+        "₹ 1200",
+        "₹ 1250"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -45,24 +41,20 @@
       "en": "Which compound is treated with water to obtain washing soda in its preparation process?",
       "hi": "(Washing Soda) उपचािरत (treated) िकया जाता है ? िन म् निलिखत में से कौन सा पादप ऊतक िछिदत िभि त्त यों ारा िसरे से िसरे तक व् यवि स् थत लंबी जीिवत कोिशकाओं से बना"
     },
-    "options": [
-      {
-        "en": "Sodium bicarbonate is treated with water to obtain washing soda",
-        "hi": "वािशंग सोडा पाप्त करने के िलए सोिडयम क्लोराइड को जल के साथ उपचािरत िकया जाता है।"
-      },
-      {
-        "en": "Sodium hydroxide is treated with water to obtain washing soda",
-        "hi": "वािशंग सोडा पाप्त करने के िलए सोिडयम काब नेट को जल के साथ उपचािरत िकया जाता है।"
-      },
-      {
-        "en": "Sodium carbonate is treated with water to obtain washing soda",
-        "hi": "वािशंग सोडा पाप्त करने के िलए सोिडयम हाइडॉक्साइड को जल के साथ उपचािरत िकया जाता है।"
-      },
-      {
-        "en": "Sodium chloride is treated with water to obtain washing soda",
-        "hi": "वािशंग सोडा पाप्त करने के िलए सोिडयम बाइकाब नेट को जल के साथ उपचािरत िकया जाता है।"
-      }
-    ],
+    "options": {
+      "en": [
+        "Sodium bicarbonate is treated with water to obtain washing soda",
+        "Sodium hydroxide is treated with water to obtain washing soda",
+        "Sodium carbonate is treated with water to obtain washing soda",
+        "Sodium chloride is treated with water to obtain washing soda"
+      ],
+      "hi": [
+        "वािशंग सोडा पाप्त करने के िलए सोिडयम क्लोराइड को जल के साथ उपचािरत िकया जाता है।",
+        "वािशंग सोडा पाप्त करने के िलए सोिडयम काब नेट को जल के साथ उपचािरत िकया जाता है।",
+        "वािशंग सोडा पाप्त करने के िलए सोिडयम हाइडॉक्साइड को जल के साथ उपचािरत िकया जाता है।",
+        "वािशंग सोडा पाप्त करने के िलए सोिडयम बाइकाब नेट को जल के साथ उपचािरत िकया जाता है।"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -81,24 +73,20 @@
       "en": "The displacement of an object between two instants can be determined from a velocity– time graph by calculating the:",
       "hi": ", – _________ यिद िकसी घंटी को जल के नीचे और खुली वायु में बजाया जाता है तो िन म् निलिखत में से कौन सा इन दोनों ि स् थितयों के"
     },
-    "options": [
-      {
-        "en": "area enclosed between the graph and the time axis.",
-        "hi": "गाफ की पवणता"
-      },
-      {
-        "en": "slope of the graph.",
-        "hi": "गाफ की लंबाई"
-      },
-      {
-        "en": "intercept on the velocity axis.",
-        "hi": "गाफ और समय अक्ष के बीच पिरबद्ध क्षेत्रफल"
-      },
-      {
-        "en": "length of the graph.",
-        "hi": "वेग अक्ष पर अंतःखंड"
-      }
-    ],
+    "options": {
+      "en": [
+        "area enclosed between the graph and the time axis.",
+        "slope of the graph.",
+        "intercept on the velocity axis.",
+        "length of the graph."
+      ],
+      "hi": [
+        "गाफ की पवणता",
+        "गाफ की लंबाई",
+        "गाफ और समय अक्ष के बीच पिरबद्ध क्षेत्रफल",
+        "वेग अक्ष पर अंतःखंड"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -117,24 +105,20 @@
       "en": "A, H, M, P, S, and V are sitting around a circular table facing the center. H is seated to the immediate right of M. Only two people are seated between P and A when counted from the right of P. S is not an immediate neighbor of P. V is seated to the immediate left of S. How many people are seated between H and V when counted from the left of H?",
       "hi": "A 7 B 63 C सहायता से , वे केवल 6 िदन में काय पूरा कर लेते हैं। तो , C अकेले उसी काय को िकतने समय में पूरा कर सकता है ? एक व् यापारी पित लागत वाले चावल को पित लागत वाले चावल के साथ िमि श्र त करता"
     },
-    "options": [
-      {
-        "en": "2",
-        "hi": "127 िदन"
-      },
-      {
-        "en": "1",
-        "hi": "128 िदन"
-      },
-      {
-        "en": "4",
-        "hi": "129 िदन"
-      },
-      {
-        "en": "3",
-        "hi": "126 िदन"
-      }
-    ],
+    "options": {
+      "en": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "hi": [
+        "127 िदन",
+        "128 िदन",
+        "129 िदन",
+        "126 िदन"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -153,24 +137,20 @@
       "en": "This question is based on the five, three-digit numbers given below. (Left) 956 587 124 963 248 (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7) NOTE - All operations to be done from left to right. What will be the resultant if the second digit of the highest number is added to the third digit of the lowest number?",
       "hi": ", - ( बाएं ) 956 587 124 963 248 ( दाएं ) ( उदाहरण के िलए 697 लीिजए – इसमें पहला अंक = 6 है , दूसरा अंक = 9 है , और तीसरा अंक = 7 है ) नोट - सभी संि क्र याएं बाएं से दाएं की जानी चािहए। यिद सबसे बड़ी सं ख् या के दूसरे अंक को सबसे छोटी सं ख् या के तीसरे अंक में जोड़ा जाए तो पिरणाम क् या होगा ? िन म् निलिखत अ क्ष र और पतीक शृंखला का संदभ लीिजए तथा नीचे िदए गए प श् न का उ त्त र दीिजए। िगनती केवल बाएं से दाएं"
     },
-    "options": [
-      {
-        "en": "9",
-        "hi": "9"
-      },
-      {
-        "en": "10",
-        "hi": "10"
-      },
-      {
-        "en": "7",
-        "hi": "7"
-      },
-      {
-        "en": "12",
-        "hi": "12"
-      }
-    ],
+    "options": {
+      "en": [
+        "9",
+        "10",
+        "7",
+        "12"
+      ],
+      "hi": [
+        "9",
+        "10",
+        "7",
+        "12"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -189,24 +169,20 @@
       "en": "A shopkeeper buys a pen for ₹ 100 and sells it for ₹ 150. What is the profit percentage?",
       "hi": "₹ 100 ₹ 150 ? इस प श् न में एक प श् न के बाद और से क्र मांिकत दो कथन आते हैं। आपको यह तय करना होगा िक कथनों में िदया"
     },
-    "options": [
-      {
-        "en": "48%",
-        "hi": "48%"
-      },
-      {
-        "en": "45%",
-        "hi": "45%"
-      },
-      {
-        "en": "50%",
-        "hi": "50%"
-      },
-      {
-        "en": "40%",
-        "hi": "40%"
-      }
-    ],
+    "options": {
+      "en": [
+        "48%",
+        "45%",
+        "50%",
+        "40%"
+      ],
+      "hi": [
+        "48%",
+        "45%",
+        "50%",
+        "40%"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -225,24 +201,20 @@
       "en": "A can lay a railway track between two given stations in 7 days and B can do the same job in 63 days. With the help of C, they do the job in 6 days only. Then, C alone can do the job in:",
       "hi": "2 8% ₹ 56,500 2 होने वाली रािश ( ₹ में ) ात कीिजए। पर वािषक ब् याज दर से एक वष का च क्र वृि द्ध ब् याज ात कीिजए जबिक ब् याज अ द्ध वािषक रू प से देय है।"
     },
-    "options": [
-      {
-        "en": "128 days",
-        "hi": "65,540"
-      },
-      {
-        "en": "126 days",
-        "hi": "64,540"
-      },
-      {
-        "en": "127 days",
-        "hi": "64,450"
-      },
-      {
-        "en": "129 days",
-        "hi": "65,450"
-      }
-    ],
+    "options": {
+      "en": [
+        "128 days",
+        "126 days",
+        "127 days",
+        "129 days"
+      ],
+      "hi": [
+        "65,540",
+        "64,540",
+        "64,450",
+        "65,450"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -261,24 +233,20 @@
       "en": "This question is based on the five, three-digit numbers given below. (Left) 639 658 652 641 647 (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7) What will be the resultant if the second digit of the second highest number is added to the third digit of the lowest number? 1695",
       "hi": "12% 2 2 ( वािषक रू प से संयोिजत ), और साधारण ब् याज के बीच का अंतर ₹ 101.76 है। मूलधन ( दशमलव के बाद दो स् थानों तक पूण ंिकत ) िकतना था ?"
     },
-    "options": [
-      {
-        "en": "18",
-        "hi": "₹ 6,842.48"
-      },
-      {
-        "en": "16",
-        "hi": "₹ 7,066.67"
-      },
-      {
-        "en": "14",
-        "hi": "₹ 6,050.23"
-      },
-      {
-        "en": "15",
-        "hi": "₹ 7,680.82"
-      }
-    ],
+    "options": {
+      "en": [
+        "18",
+        "16",
+        "14",
+        "15"
+      ],
+      "hi": [
+        "₹ 6,842.48",
+        "₹ 7,066.67",
+        "₹ 6,050.23",
+        "₹ 7,680.82"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -297,24 +265,20 @@
       "en": "P, Q and R start a business with investments in the ratio 2 : 3 : 5. If P’s share of the annual profit is ₹ 4,000, what is the total profit?",
       "hi": "P, Q R, 2 : 3 : 5 P ₹ 4,000 है , तो कुल लाभ ात कीिजए। िबनायक िबंदु से डाइव करना शु रू करता है और पूव की ओर डाइव करता है। िफर वह बाएं मुड़कर डाइव"
     },
-    "options": [
-      {
-        "en": "₹ 18,000",
-        "hi": "₹ 18,000"
-      },
-      {
-        "en": "₹ 25,000",
-        "hi": "₹ 25,000"
-      },
-      {
-        "en": "₹ 20,000",
-        "hi": "₹ 20,000"
-      },
-      {
-        "en": "₹ 15,000",
-        "hi": "₹ 15,000"
-      }
-    ],
+    "options": {
+      "en": [
+        "₹ 18,000",
+        "₹ 25,000",
+        "₹ 20,000",
+        "₹ 15,000"
+      ],
+      "hi": [
+        "₹ 18,000",
+        "₹ 25,000",
+        "₹ 20,000",
+        "₹ 15,000"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -333,24 +297,20 @@
       "en": "Based on the alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd one is not based on the number of consonants/vowels or their position in the letter cluster.)",
       "hi": ", - बनाते हैं। कौन - सा अ क्ष र - समूह उस गुप से संबंिधत नहीं है ? ( नोट : असंगत अ क्ष र - समूह , व् यंजनों / स् वरों की सं ख् या या अ क्ष र - समूह में उनकी ि स् थित पर आधािरत नहीं है। ) यिद श ब् द के प त् येक स् वर को अंगेजी वणमाला क्र म में उसके ठीक बाद वाले अ क्ष र से पित स् थािपत कर िदया जाए"
     },
-    "options": [
-      {
-        "en": "MQ - RU",
-        "hi": "MQ - RU"
-      },
-      {
-        "en": "GS - KW",
-        "hi": "ZK - DO"
-      },
-      {
-        "en": "ZK - DO",
-        "hi": "GS - KW"
-      },
-      {
-        "en": "IJ - MN",
-        "hi": "IJ - MN"
-      }
-    ],
+    "options": {
+      "en": [
+        "MQ - RU",
+        "GS - KW",
+        "ZK - DO",
+        "IJ - MN"
+      ],
+      "hi": [
+        "MQ - RU",
+        "ZK - DO",
+        "GS - KW",
+        "IJ - MN"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -369,24 +329,20 @@
       "en": "The value of tan 4 θ + (2 - Sec 2 θ ) tan 2 θ +2 - Sec 2 θ is: 3255",
       "hi": "( बाएं ) I X U Q T O D I R R Z I P T T D E O L I U Z ( दाएं ) ऐसे िकतने व् यंजन हैं , िजनमें से प त् येक के ठीक पहले एक व् यंजन और ठीक बाद एक स् वर है ? िन म् निलिखत अ क्ष र सं ख् या समूहों में से कौन सा दी गई श्र ृंखला को तािकक रू प से पूण बनाने के िलए प श् न िच को"
     },
-    "options": [
-      {
-        "en": "2",
-        "hi": "2"
-      },
-      {
-        "en": "−1",
-        "hi": "5"
-      },
-      {
-        "en": "0",
-        "hi": "3"
-      },
-      {
-        "en": "1",
-        "hi": "4"
-      }
-    ],
+    "options": {
+      "en": [
+        "2",
+        "−1",
+        "0",
+        "1"
+      ],
+      "hi": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -405,24 +361,20 @@
       "en": "Three friends, A, B, and C, invest in the ratio 2:3:5 in a business. If the total profit is ₹ 1,00,000, how much more does C get than A?",
       "hi": "19.8 cm × 13.2 cm × 8.8 cm 2.2 cm घनाकार ब् लॉकों से पूरी तरह भरा जाता है। िड ब् बे को पूणत : भरने के िलए िकतने घनों की आव श् यकता है ? िन म् निलिखत अ क्ष र शृंखला का संदभ लीिजए तथा िदए गए प श् न का उ त्त र दीिजए।"
     },
-    "options": [
-      {
-        "en": "₹ 30,000",
-        "hi": "216"
-      },
-      {
-        "en": "₹ 20,000",
-        "hi": "200"
-      },
-      {
-        "en": "₹ 10,000",
-        "hi": "232"
-      },
-      {
-        "en": "₹ 40,000",
-        "hi": "256"
-      }
-    ],
+    "options": {
+      "en": [
+        "₹ 30,000",
+        "₹ 20,000",
+        "₹ 10,000",
+        "₹ 40,000"
+      ],
+      "hi": [
+        "216",
+        "200",
+        "232",
+        "256"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -441,24 +393,20 @@
       "en": "The diameter PQ of a circle with centre O is perpendicular to a chord RS at point M. Point Q is in the minor segment and P is in the major segment. If RS = 32 cm and QM = 6 cm, what is the length of PM (in cm)?",
       "hi": "केंद्र O वाले वृत्त का व्यास PQ, बिंदु M पर एक जीवा RS पर लंब है। बिंदु Q लघु वृत्तखंड में है और P दीर्घ वृत्तखंड में है। यदि RS = 32 cm है और QM = 6 cm है, तो PM की लंबाई (cm में) कितनी होगी?"
     },
-    "options": [
-      {
-        "en": "24 2/3",
-        "hi": "24 2/3"
-      },
-      {
-        "en": "48 2/3",
-        "hi": "48 2/3"
-      },
-      {
-        "en": "32 2/3",
-        "hi": "32 2/3"
-      },
-      {
-        "en": "42 2/3",
-        "hi": "42 2/3"
-      }
-    ],
+    "options": {
+      "en": [
+        "24 2/3",
+        "48 2/3",
+        "32 2/3",
+        "42 2/3"
+      ],
+      "hi": [
+        "24 2/3",
+        "48 2/3",
+        "32 2/3",
+        "42 2/3"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -477,24 +425,20 @@
       "en": "Which of the following plant tissues are made up of long, living cells arranged end-to- end by perforated walls?",
       "hi": ", - ( बाएं ) 639 658 652 641 647 ( दाएं ) ( उदाहरण के िलए , 697 लीिजए – पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7) यिद दूसरी सबसे बड़ी सं ख् या के दूसरे अंक को सबसे छोटी सं ख् या के तीसरे अंक में जोड़ा जाए , तो पिरणाम िकतना होगा ? यह प श् न िन म् निलिखत श ब् दों पर आधािरत है।"
     },
-    "options": [
-      {
-        "en": "Sieve tubes",
-        "hi": "14"
-      },
-      {
-        "en": "Phloem fibres",
-        "hi": "15"
-      },
-      {
-        "en": "Tracheids",
-        "hi": "18"
-      },
-      {
-        "en": "Vessels",
-        "hi": "16"
-      }
-    ],
+    "options": {
+      "en": [
+        "Sieve tubes",
+        "Phloem fibres",
+        "Tracheids",
+        "Vessels"
+      ],
+      "hi": [
+        "14",
+        "15",
+        "18",
+        "16"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -513,24 +457,20 @@
       "en": "Refer to the following letter and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) O H # M N @ $ R & I Ω T £ D H R Y (Right) How many such vowels, are there each of which is immediately preceded by a symbol and also immediately followed by a symbol? 8208",
       "hi": "की जानी है। ( बाएं ) O H # M N @ $ R & I Ω T £ D H R Y ( दाएं ) ऐसे िकतने स् वर हैं , िजनमें से प त् येक के ठीक पहले एक पतीक है और ठीक बाद में भी एक पतीक है ? सात व् यि क् त और एक गोल मेज के पिरत उसके केंद की ओर अिभमुख होकर बैठे हैं। के बाईं"
     },
-    "options": [
-      {
-        "en": "Three",
-        "hi": "एक भी नही ं"
-      },
-      {
-        "en": "None",
-        "hi": "दो"
-      },
-      {
-        "en": "Two",
-        "hi": "एक"
-      },
-      {
-        "en": "One",
-        "hi": "तीन"
-      }
-    ],
+    "options": {
+      "en": [
+        "Three",
+        "None",
+        "Two",
+        "One"
+      ],
+      "hi": [
+        "एक भी नही ं",
+        "दो",
+        "एक",
+        "तीन"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -549,24 +489,20 @@
       "en": "Six boxes A, B, F, G, H and I are kept one over the other but not necessarily in the same order. Only A is kept above I. Only two boxes are kept between A and F. Only G is kept below H. How many boxes are kept between B and G?",
       "hi": "A, B, F, G, H I , केवल A को I के ऊपर रखा गया है। A और F के बीच केवल दो बॉ क् स रखे गए हैं। केवल G को H के नीचे रखा गया है। B और G के बीच िकतने बॉ क् स रखे गए हैं ? िन म् निलिखत का मान ात कीिजए।"
     },
-    "options": [
-      {
-        "en": "Three",
-        "hi": "एक"
-      },
-      {
-        "en": "Two",
-        "hi": "चार"
-      },
-      {
-        "en": "Four",
-        "hi": "तीन"
-      },
-      {
-        "en": "One",
-        "hi": "दो"
-      }
-    ],
+    "options": {
+      "en": [
+        "Three",
+        "Two",
+        "Four",
+        "One"
+      ],
+      "hi": [
+        "एक",
+        "चार",
+        "तीन",
+        "दो"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -585,24 +521,20 @@
       "en": "Find the compound interest on ₹ 8,680 for one year at 10% per annum, interest payable half yearly (rounded off to the nearest rupees).",
       "hi": "‘?’ ? 35,44,62,89,125, ? एक दुकानदार में एक पेन खरीदता है और उसे में बेचता है। लाभ पितशत क् या है"
     },
-    "options": [
-      {
-        "en": "₹ 890",
-        "hi": "172"
-      },
-      {
-        "en": "₹ 880",
-        "hi": "170"
-      },
-      {
-        "en": "₹ 840",
-        "hi": "173"
-      },
-      {
-        "en": "₹ 850",
-        "hi": "171"
-      }
-    ],
+    "options": {
+      "en": [
+        "₹ 890",
+        "₹ 880",
+        "₹ 840",
+        "₹ 850"
+      ],
+      "hi": [
+        "172",
+        "170",
+        "173",
+        "171"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -621,24 +553,20 @@
       "en": "Each letter in the word GUILDER is arranged in the English alphabetical order. How many letters are there in the English alphabetical order between the letter which is fourth from the left and the one which is first from the right in the new letter cluster thus formed?",
       "hi": "A, B C, 2:3:5 ₹ 1,00,000 , C A से िकतना अिधक लाभ पा प् त होगा ? और में से प त् येक के पा प् तांक िभ न्न िभ न्न हैं। सबसे कम अंक पा प् त करने वालों में तीसरे स् थान पर है।"
     },
-    "options": [
-      {
-        "en": "14",
-        "hi": "₹ 30,000"
-      },
-      {
-        "en": "12",
-        "hi": "₹ 10,000"
-      },
-      {
-        "en": "10",
-        "hi": "₹ 40,000"
-      },
-      {
-        "en": "11",
-        "hi": "₹ 20,000"
-      }
-    ],
+    "options": {
+      "en": [
+        "14",
+        "12",
+        "10",
+        "11"
+      ],
+      "hi": [
+        "₹ 30,000",
+        "₹ 10,000",
+        "₹ 40,000",
+        "₹ 20,000"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -657,24 +585,20 @@
       "en": "In a certain code language, ‘HATE’ is coded as ‘7856’ and ‘TEAM’ is coded as ‘7659’. What is the code for ‘M’ in that language?",
       "hi": ", 'HATE' '7856' 'TEAM' '7659' कूटब द्ध िकया जाता है। उस भाषा में 'M' के िलए कूट क् या है ? मान लीिजए िक और दो समांतर रेखाएं हैं िजनमें से ऊपर है। मान लीिजए िक और दो समांतर"
     },
-    "options": [
-      {
-        "en": "5",
-        "hi": "5"
-      },
-      {
-        "en": "8",
-        "hi": "8"
-      },
-      {
-        "en": "9",
-        "hi": "9"
-      },
-      {
-        "en": "6",
-        "hi": "6"
-      }
-    ],
+    "options": {
+      "en": [
+        "5",
+        "8",
+        "9",
+        "6"
+      ],
+      "hi": [
+        "5",
+        "8",
+        "9",
+        "6"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -693,24 +617,20 @@
       "en": "A wooden box in the shape of a cuboid has internal dimensions 19.8 cm × 13.2 cm × 8.8 cm. It is completely filled with small cubic blocks, each of side 2.2 cm. Find the number of cubes that can completely fill the box.",
       "hi": "A, B, C, D E - D B के पा प् तांक , C से कम हैं। E के पा प् तांक , A से अिधक लेिकन B से कम हैं। िकतने व् यि क् तयों के पा प् तांक E से अिधक हैं ?"
     },
-    "options": [
-      {
-        "en": "216",
-        "hi": "तीन"
-      },
-      {
-        "en": "232",
-        "hi": "चार"
-      },
-      {
-        "en": "200",
-        "hi": "दो"
-      },
-      {
-        "en": "256",
-        "hi": "एक"
-      }
-    ],
+    "options": {
+      "en": [
+        "216",
+        "232",
+        "200",
+        "256"
+      ],
+      "hi": [
+        "तीन",
+        "चार",
+        "दो",
+        "एक"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -729,24 +649,20 @@
       "en": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged? 10 ÷ 2 + 70 × 5 − 80 = ?",
       "hi": "'+' '−' '×' '÷' , प श् न - िच ह्न (?) के स् थान पर क् या आएगा ? 10 ÷ 2 + 70 × 5 − 80 = ?"
     },
-    "options": [
-      {
-        "en": "86",
-        "hi": "86"
-      },
-      {
-        "en": "83",
-        "hi": "83"
-      },
-      {
-        "en": "76",
-        "hi": "76"
-      },
-      {
-        "en": "66",
-        "hi": "66"
-      }
-    ],
+    "options": {
+      "en": [
+        "86",
+        "83",
+        "76",
+        "66"
+      ],
+      "hi": [
+        "86",
+        "83",
+        "76",
+        "66"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -765,24 +681,20 @@
       "en": "Simplify: 3 - √5 + 1/(√5 - √3) + 1/(√5 - √3)",
       "hi": "निम्नलिखित का मान ज्ञात कीजिए: 3 - √5 + 1/(√5 - √3) + 1/(√5 - √3)"
     },
-    "options": [
-      {
-        "en": "3",
-        "hi": "3"
-      },
-      {
-        "en": "3 + √3",
-        "hi": "3 + √3"
-      },
-      {
-        "en": "2 + √5",
-        "hi": "2 + √5"
-      },
-      {
-        "en": "√3 - √5",
-        "hi": "√3 - √5"
-      }
-    ],
+    "options": {
+      "en": [
+        "3",
+        "3 + √3",
+        "2 + √5",
+        "√3 - √5"
+      ],
+      "hi": [
+        "3",
+        "3 + √3",
+        "2 + √5",
+        "√3 - √5"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -801,24 +713,20 @@
       "en": "A sum was invested at 12% per annum for 2 years. The difference between compound interest, compounded annually, and simple interest earned on the sum after 2 years is ₹ 101.76. What was the principal amount (rounded off to two decimal places)?",
       "hi": "tan θ + (2 - Sec θ ) tan θ +2 - Sec θ का मान ात कीिजए। और के अनुपात में िनवेश के साथ एक व् यवसाय आरंभ करते हैं। यिद वािषक लाभ में का िह स् सा"
     },
-    "options": [
-      {
-        "en": "₹ 7,066.67",
-        "hi": "1"
-      },
-      {
-        "en": "₹ 6,842.48",
-        "hi": "0"
-      },
-      {
-        "en": "₹ 6,050.23",
-        "hi": "−1"
-      },
-      {
-        "en": "₹ 7,680.82",
-        "hi": "2"
-      }
-    ],
+    "options": {
+      "en": [
+        "₹ 7,066.67",
+        "₹ 6,842.48",
+        "₹ 6,050.23",
+        "₹ 7,680.82"
+      ],
+      "hi": [
+        "1",
+        "0",
+        "−1",
+        "2"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -837,24 +745,20 @@
       "en": "Seven people Mohan, Nehal, Ojasvi, Pooja, Suresh, Tushar and Umang are sitting around a circular table facing the centre. Nehal sits second to the left of Ojasvi. Umang sits second to the left of Nehal. Tushar sits to the immediate left of Suresh. Mohan is not an immediate neighbour of Umang. How many people sit between Mohan and Umang when counted from the left of Mohan?",
       "hi": ", , , , , बैठे हैं। नेहल , ओज स् वी के बाईं ओर दूसरे स् थान पर बैठी है। उमंग , नेहल के बाईं ओर दूसरे स् थान पर बैठा है। तुषार , सुरेश के ठीक बाईं ओर पड़ोस में बैठा है। मोहन , उमंग का िनकटतम पड़ोसी नहीं है। मोहन के बाईं ओर से िगनती करने पर मोहन और उमंग के बीच िकतने व् यि क् त बैठे हैं ? जूतों की एक जोड़ी का अंिकत मू ल् य है। त् योहारी िब क्र ी के दौरान दुकानदार की छूट पदान करता है। दी गई"
     },
-    "options": [
-      {
-        "en": "Two",
-        "hi": "एक"
-      },
-      {
-        "en": "None",
-        "hi": "तीन"
-      },
-      {
-        "en": "One",
-        "hi": "दो"
-      },
-      {
-        "en": "Three",
-        "hi": "एक भी नही ं"
-      }
-    ],
+    "options": {
+      "en": [
+        "Two",
+        "None",
+        "One",
+        "Three"
+      ],
+      "hi": [
+        "एक",
+        "तीन",
+        "दो",
+        "एक भी नही ं"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -873,24 +777,20 @@
       "en": "Where in the cell does the breakdown of glucose occur during anaerobic respiration?",
       "hi": "? अंकीय सं ख् या से िवभा ज् य है। का न् यूनतम मान िकतना होगा"
     },
-    "options": [
-      {
-        "en": "In the chloroplasts responsible for making food through photosynthesis",
-        "hi": "सूत्रकिणका में , िजसे कोिशका का शिक्तगृह (powerhouse) कहा जाता है"
-      },
-      {
-        "en": "Inside the nucleus that controls all cell activities",
-        "hi": "कोिशका दव्य में , जहां कोिशकीय पितिक्रयाएं (cellular reactions) होती हैं"
-      },
-      {
-        "en": "Within the cytoplasm, where cellular reactions occur",
-        "hi": "केंदक में , जो सभी कोिशका गितिविधयों (cell activities) को िनयंित्रत करता है"
-      },
-      {
-        "en": "In the mitochondria, known as the powerhouse of the cell",
-        "hi": "हिरतलवक (chloroplast) में , जो पकाश संश्लेषण के माध्यम से खाद्य बनाने के िलए उत्तरदायी है"
-      }
-    ],
+    "options": {
+      "en": [
+        "In the chloroplasts responsible for making food through photosynthesis",
+        "Inside the nucleus that controls all cell activities",
+        "Within the cytoplasm, where cellular reactions occur",
+        "In the mitochondria, known as the powerhouse of the cell"
+      ],
+      "hi": [
+        "सूत्रकिणका में , िजसे कोिशका का शिक्तगृह (powerhouse) कहा जाता है",
+        "कोिशका दव्य में , जहां कोिशकीय पितिक्रयाएं (cellular reactions) होती हैं",
+        "केंदक में , जो सभी कोिशका गितिविधयों (cell activities) को िनयंित्रत करता है",
+        "हिरतलवक (chloroplast) में , जो पकाश संश्लेषण के माध्यम से खाद्य बनाने के िलए उत्तरदायी है"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -909,24 +809,20 @@
       "en": "Which of the following regions of the electromagnetic spectrum is/are primarily responsible for photosynthesis on Earth?",
       "hi": "- , - ? यिद और को पर स् पर पित स् थािपत कर िदया जाए तथा और को पर स् पर पित स् थािपत कर िदया जाए तो"
     },
-    "options": [
-      {
-        "en": "Visible light",
-        "hi": "दृश्य पकाश"
-      },
-      {
-        "en": "Microwaves",
-        "hi": "रेिडयो तरंगें"
-      },
-      {
-        "en": "Ultraviolet radiation",
-        "hi": "सूक्ष्म तरंगें"
-      },
-      {
-        "en": "Radio waves",
-        "hi": "पराबैंगनी िविकरण"
-      }
-    ],
+    "options": {
+      "en": [
+        "Visible light",
+        "Microwaves",
+        "Ultraviolet radiation",
+        "Radio waves"
+      ],
+      "hi": [
+        "दृश्य पकाश",
+        "रेिडयो तरंगें",
+        "सूक्ष्म तरंगें",
+        "पराबैंगनी िविकरण"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -945,24 +841,20 @@
       "en": "Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. QRU−TUX STW−VWZ",
       "hi": "₹ 2000 , 30% छूट की रािश िकतनी है ? व् यास और ऊंचाई वाले बेलन का आयतन ात कीिजए।"
     },
-    "options": [
-      {
-        "en": "GHK−JKN",
-        "hi": "₹ 700"
-      },
-      {
-        "en": "GGI−JKN",
-        "hi": "₹ 500"
-      },
-      {
-        "en": "GHK−IKM",
-        "hi": "₹ 800"
-      },
-      {
-        "en": "GGI−IJM",
-        "hi": "₹ 600"
-      }
-    ],
+    "options": {
+      "en": [
+        "GHK−JKN",
+        "GGI−JKN",
+        "GHK−IKM",
+        "GGI−IJM"
+      ],
+      "hi": [
+        "₹ 700",
+        "₹ 500",
+        "₹ 800",
+        "₹ 600"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -981,24 +873,20 @@
       "en": "A pair of shoes is marked at ₹ 2000. During a festival sale, a shopkeeper offers a 30% discount. What is the amount of discount given?",
       "hi": "'?' ? 4 12 23 31 42 50 ? वािशंग सोडा को इसकी िवरचन पि क्र या में पा प् त करने के िलए िकस यौिगक को जल के साथ"
     },
-    "options": [
-      {
-        "en": "₹ 800",
-        "hi": "63"
-      },
-      {
-        "en": "₹ 700",
-        "hi": "58"
-      },
-      {
-        "en": "₹ 500",
-        "hi": "54"
-      },
-      {
-        "en": "₹ 600",
-        "hi": "61"
-      }
-    ],
+    "options": {
+      "en": [
+        "₹ 800",
+        "₹ 700",
+        "₹ 500",
+        "₹ 600"
+      ],
+      "hi": [
+        "63",
+        "58",
+        "54",
+        "61"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -1017,24 +905,20 @@
       "en": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged? 43 – 16 ÷ 9 + 154 × 14 = ?",
       "hi": "F, A, C, I, N, G S , अलग - अलग िदन है। A से पहले िकसी का अवकाश नहीं है। A और I के बीच केवल तीन व् यि क् तयों का अवकाश है। I और C के बीच केवल एक व् यि क् त का अवकाश है। F का अवकाश बुधवार को है। N का अवकाश S के बाद िकसी एक िदन लेिकन G से पहले िकसी एक िदन है। स प् ताह के िकस िदन N का अवकाश है ? तीन िम त्र और िकसी व् यवसाय में के अनुपात में िनवेश करते हैं। यिद कुल लाभ है तो को"
     },
-    "options": [
-      {
-        "en": "170",
-        "hi": "सोमवार"
-      },
-      {
-        "en": "177",
-        "hi": "रिववार"
-      },
-      {
-        "en": "174",
-        "hi": "गुरुवार"
-      },
-      {
-        "en": "176",
-        "hi": "शिनवार"
-      }
-    ],
+    "options": {
+      "en": [
+        "170",
+        "177",
+        "174",
+        "176"
+      ],
+      "hi": [
+        "सोमवार",
+        "रिववार",
+        "गुरुवार",
+        "शिनवार"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -1053,24 +937,20 @@
       "en": "A, B, C, D and E each scored different marks. D was the third lowest scorer. B scored less than C. E scored more than A but less than B. How many people scored more than E?",
       "hi": ", (I) (II) गया डेटा प श् न का उ त्त र देने के िलए पय प् त है या नहीं। दोनों कथनों को पिढ़ए और उिचत उ त्त र तय कीिजए। प श् न : पाँच व् यि क् त – िकरत , रेयांश , सिमका , तुषार और उिवका – एक पाँच - मंिज़ला इमारत के िविभ न्न तलों पर रहते हैं , िजनका क्र मांक 1 से 5 तक है (1 सबसे िनचला तल है और 5 सबसे ऊपरी तल ) । तल क्र मांक 5 पर कौन रहता है ? (I) सिमका , तुषार के ऊपर रहती है , जो रेयांश के ऊपर रहता है। (II) उिवका , सिमका के ऊपर रहती है , और िकरत , रेयांश के नीचे रहती है।"
     },
-    "options": [
-      {
-        "en": "Two",
-        "hi": "कथन I और II दोनों में िदया गया डेटा ( न तो अकेले कथन I और न ही अकेले कथन II) िमलकर पश्न का उत्तर देने के िलए"
-      },
-      {
-        "en": "Three",
-        "hi": "कथन I और II दोनों िमलकर पश्न का उत्तर देने के िलए पय प्त नही ं हैं।"
-      },
-      {
-        "en": "Four",
-        "hi": "कथन I में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है जबिक कथन II का डेटा पय प्त नही ं है।"
-      },
-      {
-        "en": "One",
-        "hi": "कथन II में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है जबिक कथन I का डेटा पय प्त नही ं है।"
-      }
-    ],
+    "options": {
+      "en": [
+        "Two",
+        "Three",
+        "Four",
+        "One"
+      ],
+      "hi": [
+        "कथन I और II दोनों में िदया गया डेटा ( न तो अकेले कथन I और न ही अकेले कथन II) िमलकर पश्न का उत्तर देने के िलए",
+        "कथन I और II दोनों िमलकर पश्न का उत्तर देने के िलए पय प्त नही ं हैं।",
+        "कथन I में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है जबिक कथन II का डेटा पय प्त नही ं है।",
+        "कथन II में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है जबिक कथन I का डेटा पय प्त नही ं है।"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1089,24 +969,20 @@
       "en": "Select the pair which follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. XZC−EGJ MOR−TVY",
       "hi": "CHAPTER , अपिरवितत रहेगा ? वणमाला क्र म पर आधािरत िन म् निलिखत चार अ क्ष र समूहों में से तीन िनि श् चत तरीके से एकसमान हैं और इस पकार एक गुप"
     },
-    "options": [
-      {
-        "en": "LNQ−SUX",
-        "hi": "एक का भी नही ं"
-      },
-      {
-        "en": "LNQ−RUW",
-        "hi": "दो"
-      },
-      {
-        "en": "LMO−RTW",
-        "hi": "एक"
-      },
-      {
-        "en": "LMO−SUX",
-        "hi": "तीन"
-      }
-    ],
+    "options": {
+      "en": [
+        "LNQ−SUX",
+        "LNQ−RUW",
+        "LMO−RTW",
+        "LMO−SUX"
+      ],
+      "hi": [
+        "एक का भी नही ं",
+        "दो",
+        "एक",
+        "तीन"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -1125,24 +1001,20 @@
       "en": "If cosec 43° = x, then find the value of [ 1/(cosec² 47°) + sin² 43° + tan² 47° - 1/(sin² 47° · sec² 43°) ]",
       "hi": "यदि cosec 43° = x है, तो [ 1/(cosec² 47°) + sin² 43° + tan² 47° - 1/(sin² 47° · sec² 43°) ] का मान ज्ञात कीजिए।"
     },
-    "options": [
-      {
-        "en": "x² - 1",
-        "hi": "x² - 1"
-      },
-      {
-        "en": "2x + 3",
-        "hi": "2x + 3"
-      },
-      {
-        "en": "2x² - 3",
-        "hi": "2x² - 3"
-      },
-      {
-        "en": "x² + 1",
-        "hi": "x² + 1"
-      }
-    ],
+    "options": {
+      "en": [
+        "x² - 1",
+        "2x + 3",
+        "2x² - 3",
+        "x² + 1"
+      ],
+      "hi": [
+        "x² - 1",
+        "2x + 3",
+        "2x² - 3",
+        "x² + 1"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -1161,24 +1033,20 @@
       "en": "If a bell is rung under water and in open air, which of the following best describes what happens to the speed of sound between the two situations?",
       "hi": ", - , बीच ध् विन की चाल में होने वाले पिरवतन का सबसे अ च् छा वणन करता है ? मजदूरों की सा प् तािहक मजदूरी में है। मा ध् यक"
     },
-    "options": [
-      {
-        "en": "Sound travels slower in water than in air.",
-        "hi": "ध्विन वाय ु की त ुलना में जल में अिधक तीव चाल से गमन करती है।"
-      },
-      {
-        "en": "Sound travels faster in water than in air.",
-        "hi": "ध्विन दोनों माध्यमों में समान चाल से गमन करती है।"
-      },
-      {
-        "en": "Sound does not travel through water.",
-        "hi": "ध्विन जल के माध्यम से गमन नही ं करती है।"
-      },
-      {
-        "en": "Sound travels at the same speed in both media.",
-        "hi": "ध्विन वाय ु की त ुलना में जल में धीमी चाल से गमन करती है।"
-      }
-    ],
+    "options": {
+      "en": [
+        "Sound travels slower in water than in air.",
+        "Sound travels faster in water than in air.",
+        "Sound does not travel through water.",
+        "Sound travels at the same speed in both media."
+      ],
+      "hi": [
+        "ध्विन वाय ु की त ुलना में जल में अिधक तीव चाल से गमन करती है।",
+        "ध्विन दोनों माध्यमों में समान चाल से गमन करती है।",
+        "ध्विन जल के माध्यम से गमन नही ं करती है।",
+        "ध्विन वाय ु की त ुलना में जल में धीमी चाल से गमन करती है।"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1197,24 +1065,20 @@
       "en": "A merchant mixes 30 kg of rice costing ₹ 40 per kg with 20 kg of rice costing ₹ 60 per kg. What is the average price per kg of the resulting mixture?",
       "hi": ", - इस पकार वे एक गुप बनाते हैं। कौन - सा अ क्ष र - समूह यु ग् म उस गुप से संबंिधत नहीं है ? ( नोट : असंगत अ क्ष र - समूह यु ग् म , उसमें व् यंजनों / स् वरों की सं ख् या या उनकी ि स् थित पर आधािरत नहीं है। )"
     },
-    "options": [
-      {
-        "en": "₹ 52",
-        "hi": "VT−RP"
-      },
-      {
-        "en": "₹ 50",
-        "hi": "NL−JH"
-      },
-      {
-        "en": "₹ 48",
-        "hi": "US−QO"
-      },
-      {
-        "en": "₹ 45",
-        "hi": "WU−RS"
-      }
-    ],
+    "options": {
+      "en": [
+        "₹ 52",
+        "₹ 50",
+        "₹ 48",
+        "₹ 45"
+      ],
+      "hi": [
+        "VT−RP",
+        "NL−JH",
+        "US−QO",
+        "WU−RS"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -1233,24 +1097,20 @@
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only (Left) S Q A Y V Y V E R L O A J F V V A Z A A F Y (Right) How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by a consonant? 14823",
       "hi": "( बाएं ) S Q A Y V Y V E R L O A J F V V A Z A A F Y ( दाएं ) ऐसे िकतने स् वर हैं , िजनमें से प त् येक ठीक पहले एक व् यंजन और ठीक बाद में भी एक व् यंजन है ? दो टेनें िजनकी लंबाई क्र मशः और है एक दूसरे की ओर गितमान हैं। उनकी चाल क्र मशः और"
     },
-    "options": [
-      {
-        "en": "3",
-        "hi": "3"
-      },
-      {
-        "en": "5",
-        "hi": "5"
-      },
-      {
-        "en": "4",
-        "hi": "4"
-      },
-      {
-        "en": "2",
-        "hi": "2"
-      }
-    ],
+    "options": {
+      "en": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ],
+      "hi": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -1269,24 +1129,20 @@
       "en": "Aman is three times as old as his son, and his daughter is 3 years younger than the son. If the sum of the ages of these three people 3 years ago was 108 years, then Aman's present age (in years) is:",
       "hi": "18 59 , 15 50 उसी तक का अनुसरण करते हुए 12 का संबंध िन म् निलिखत में से िकससे है ? ( नोट : सं ख् याओं को उनके घटक अंकों में तोड़े िबना संि क्र याएं केवल पूण सं ख् याओं पर की जानी चािहए। उदाहरण के िलए , 13 लीिजए - 13 पर संि क्र याएं , जैसे 13 में जोड़ना / घटाना / गुणा करना आिद , की जा सकती हैं। 13 को 1 और 3 में तोड़ना तथा िफर 1 और 3 पर गिणतीय संि क्र याएं करने की अनुमित नहीं है। ) इस प श् न में सं ख् या पतीक के एक समूह को नीचे िदए गए कूट और उसके बाद आने वाली शत ं के अनुसार अ क्ष र कूटों का"
     },
-    "options": [
-      {
-        "en": "72",
-        "hi": "41"
-      },
-      {
-        "en": "48",
-        "hi": "32"
-      },
-      {
-        "en": "59",
-        "hi": "36"
-      },
-      {
-        "en": "70",
-        "hi": "45"
-      }
-    ],
+    "options": {
+      "en": [
+        "72",
+        "48",
+        "59",
+        "70"
+      ],
+      "hi": [
+        "41",
+        "32",
+        "36",
+        "45"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -1305,24 +1161,20 @@
       "en": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged? 5 ÷ 2 + 8 × 4 − 5 = ?",
       "hi": "‘+’ ‘−’ ‘×’ ‘÷’ , िन म् निलिखत समीकरण में प श् न - िच ह्न (?) के स् थान पर क् या आएगा ? 5 ÷ 2 + 8 × 4 − 5 = ? यिद श ब् द के प त् येक अ क्ष र को अंगेजी वणमाला क्र म में व् यवि स् थत िकया जाए तो िकतने अ क्ष रों का स् थान"
     },
-    "options": [
-      {
-        "en": "20",
-        "hi": "20"
-      },
-      {
-        "en": "18",
-        "hi": "18"
-      },
-      {
-        "en": "13",
-        "hi": "13"
-      },
-      {
-        "en": "22",
-        "hi": "22"
-      }
-    ],
+    "options": {
+      "en": [
+        "20",
+        "18",
+        "13",
+        "22"
+      ],
+      "hi": [
+        "20",
+        "18",
+        "13",
+        "22"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -1341,24 +1193,20 @@
       "en": "What should come in place of the ‘?’ in the given series? 35,44,62,89,125, ?",
       "hi": "₹ 8,680 10% , ( अपने उ त्त र को िनकटतम ₹ तक पूण ंिकत कीिजए। )"
     },
-    "options": [
-      {
-        "en": "173",
-        "hi": "₹ 880"
-      },
-      {
-        "en": "172",
-        "hi": "₹ 850"
-      },
-      {
-        "en": "171",
-        "hi": "₹ 840"
-      },
-      {
-        "en": "170",
-        "hi": "₹ 890"
-      }
-    ],
+    "options": {
+      "en": [
+        "173",
+        "172",
+        "171",
+        "170"
+      ],
+      "hi": [
+        "₹ 880",
+        "₹ 850",
+        "₹ 840",
+        "₹ 890"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -1377,24 +1225,20 @@
       "en": "If 8b - 1/(5b) = 8, then what is the value of the expression 25b² + 1/(64b²)?",
       "hi": "यदि 8b - 1/(5b) = 8 है, तो व्यंजक 25b² + 1/(64b²) का मान ज्ञात कीजिए।"
     },
-    "options": [
-      {
-        "en": "80/49",
-        "hi": "80/49"
-      },
-      {
-        "en": "7/4",
-        "hi": "7/4"
-      },
-      {
-        "en": "105/4",
-        "hi": "105/4"
-      },
-      {
-        "en": "120/7",
-        "hi": "120/7"
-      }
-    ],
+    "options": {
+      "en": [
+        "80/49",
+        "7/4",
+        "105/4",
+        "120/7"
+      ],
+      "hi": [
+        "80/49",
+        "7/4",
+        "105/4",
+        "120/7"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -1413,24 +1257,20 @@
       "en": "The position(s) of how many letters will remain unchanged if each letter in the word CHAPTER is arranged in the English alphabetical order?",
       "hi": "यदि शब्द CHAPTER के प्रत्येक अक्षर को अंग्रेजी वर्णमाला क्रम में व्यवस्थित किया जाए, तो कितने अक्षरों का स्थान अपरिवर्तित रहेगा?"
     },
-    "options": [
-      {
-        "en": "None",
-        "hi": "एक का भी नहीं"
-      },
-      {
-        "en": "Three",
-        "hi": "तीन"
-      },
-      {
-        "en": "One",
-        "hi": "एक"
-      },
-      {
-        "en": "Two",
-        "hi": "दो"
-      }
-    ],
+    "options": {
+      "en": [
+        "None",
+        "Three",
+        "One",
+        "Two"
+      ],
+      "hi": [
+        "एक का भी नहीं",
+        "तीन",
+        "एक",
+        "दो"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -1449,24 +1289,20 @@
       "en": "A car's radiator should contain a solution of 84% antifreeze. A motorist has 10 litres of 70% antifreeze. How many litres (rounded off to 2 decimal places) of 95% antifreeze liquid should he add to his solution to produce a 84% antifreeze?",
       "hi": "‘+’ ‘−’ ‘×’ ‘÷’ , िन म् निलिखत समीकरण में प श् न - िच ह्न (?) के स् थान पर क् या आएगा ? 43 – 16 ÷ 9 + 154 × 14 = ? एक िनि श् चत तक का अनुसरण करते हुए का संबंध से है। उसी तक का अनुसरण करते हुए का संबंध"
     },
-    "options": [
-      {
-        "en": "15.38",
-        "hi": "170"
-      },
-      {
-        "en": "12.73",
-        "hi": "177"
-      },
-      {
-        "en": "18.61",
-        "hi": "176"
-      },
-      {
-        "en": "10.34",
-        "hi": "174"
-      }
-    ],
+    "options": {
+      "en": [
+        "15.38",
+        "12.73",
+        "18.61",
+        "10.34"
+      ],
+      "hi": [
+        "170",
+        "177",
+        "176",
+        "174"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1485,24 +1321,20 @@
       "en": "Two trains with lengths 148 m and 156 m, respectively, are moving towards each other. Their speeds are 17.5 m/s and 20.5 m/s, respectively. What will be the time required by the trains to cross each other?",
       "hi": "दो ट्रेनें जिनकी लंबाई क्रमशः 148 m और 156 m है, एक-दूसरे की ओर गतिमान हैं। उनकी चाल क्रमशः 17.5 m/s और 20.5 m/s है। ट्रेनों को एक-दूसरे को पार करने में कितना समय लगेगा?"
     },
-    "options": [
-      {
-        "en": "9 seconds",
-        "hi": "9 सेकंड"
-      },
-      {
-        "en": "8 seconds",
-        "hi": "8 seconds"
-      },
-      {
-        "en": "10 seconds",
-        "hi": "10 सेकंड"
-      },
-      {
-        "en": "7 seconds",
-        "hi": "7 सेकंड"
-      }
-    ],
+    "options": {
+      "en": [
+        "9 seconds",
+        "8 seconds",
+        "10 seconds",
+        "7 seconds"
+      ],
+      "hi": [
+        "9 सेकंड",
+        "8 seconds",
+        "10 सेकंड",
+        "7 सेकंड"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1521,24 +1353,20 @@
       "en": "In this question, a question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate answer. Q. Five people – Qirat, Reyansh, Samika, Tushar and Urvika – live on different floors of a five-storey building numbered 1 to 5 (1 being the lowest and 5 being the highest floor). Who lives on Floor 5? (I) Samika lives above Tushar, who lives above Reyansh. (II) Urvika lives above Samika, and Qirat lives below Reyansh.",
       "hi": ", (I) (II) गया डेटा प श् न का उ त्त र देने के िलए पय प् त है या नहीं। दोनों कथन का अ ध् ययन करें और उपयु क् त उ त्त र का चयन करें। प श् न : पांच छिड़यों , T, N, R, K और I, में से प त् येक की लंबाई अलग - अलग है , तो कौन - सी छड़ी सबसे छोटी है ? कथन : (I) K, I से छोटी है लेिकन N से लंबी है। T, N से लंबी है। (II) R केवल एक छड़ी से लंबी है। दी गई श्र ृंखला में के स् थान पर क् या आना चािहए"
     },
-    "options": [
-      {
-        "en": "Both statements I and II together are NOT sufficient to answer the question",
-        "hi": "कथन II में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है , जबिक कथन I में िदया गया डेटा पय प्त नही ं है"
-      },
-      {
-        "en": "Data in Statement II alone is sufficient to answer the question while data in Statement I is not",
-        "hi": "कथन I और II दोनों में िदया गया डेटा एक साथ पश्न का उत्तर देने के िलए पय प्त नही ं हैं"
-      },
-      {
-        "en": "Data in Statement I alone is sufficient to answer the question while data in Statement II is not",
-        "hi": "कथन I और II दोनों में िदया गया डेटा एक साथ ( न तो अकेले कथन I या न अकेले कथन II) पश्न का उत्तर देने के िलए पय प्त"
-      },
-      {
-        "en": "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question",
-        "hi": "कथन I में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है , जबिक कथन II में िदया गया डेटा पय प्त नही ं है"
-      }
-    ],
+    "options": {
+      "en": [
+        "Both statements I and II together are NOT sufficient to answer the question",
+        "Data in Statement II alone is sufficient to answer the question while data in Statement I is not",
+        "Data in Statement I alone is sufficient to answer the question while data in Statement II is not",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question"
+      ],
+      "hi": [
+        "कथन II में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है , जबिक कथन I में िदया गया डेटा पय प्त नही ं है",
+        "कथन I और II दोनों में िदया गया डेटा एक साथ पश्न का उत्तर देने के िलए पय प्त नही ं हैं",
+        "कथन I और II दोनों में िदया गया डेटा एक साथ ( न तो अकेले कथन I या न अकेले कथन II) पश्न का उत्तर देने के िलए पय प्त",
+        "कथन I में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है , जबिक कथन II में िदया गया डेटा पय प्त नही ं है"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -1557,24 +1385,20 @@
       "en": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, certain mathematical operations on the second number results in the third number and so on. Which of the given options follows the same set of operations as in question? (NOTE – A two/three digit number cannot be broken into individual digits for operations e.g. if 37 is followed by 10, the operation cannot be 3+7 as a two digit number cannot be broken into individual digits) 14 – 25 – 75 – 90 ; 12 – 23 – 69 – 84",
       "hi": "2,20,000 55% , िकतनी थी ? यिद है तो"
     },
-    "options": [
-      {
-        "en": "8 – 19 – 57 – 72",
-        "hi": "1,10,000"
-      },
-      {
-        "en": "10 – 21 – 63 – 76",
-        "hi": "1,30,000"
-      },
-      {
-        "en": "4 – 15 – 45 – 70",
-        "hi": "1,21,000"
-      },
-      {
-        "en": "6 – 17 – 68 – 83",
-        "hi": "1,15,000"
-      }
-    ],
+    "options": {
+      "en": [
+        "8 – 19 – 57 – 72",
+        "10 – 21 – 63 – 76",
+        "4 – 15 – 45 – 70",
+        "6 – 17 – 68 – 83"
+      ],
+      "hi": [
+        "1,10,000",
+        "1,30,000",
+        "1,21,000",
+        "1,15,000"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -1593,24 +1417,20 @@
       "en": "This question is based on the following words. DIN GOD LAY DUB In each of the words, each vowel is changed to the second letter preceding it in the English alphabetical order and each consonant is changed to the letter immediately following it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
       "hi": "DIN GOD LAY DUB प त् येक श ब् द के प त् येक स् वर को अंगेजी वणमाला क्र म में उसके पहले वाले दूसरे अ क्ष र से बदल िदया जाता है और प त् येक व् यंजन को अंगेजी वणमाला क्र म में उसके ठीक बाद वाले अ क्ष र से बदल िदया जाता है। इस पकार बने िकतने अ क्ष र - समूहों में कोई स् वर नहीं आएगा ? एक कार के रेिडएटर में एंटीफीज वाला िवलयन होना चािहए। एक मोटरचालक के पास एंटीफीज वाला"
     },
-    "options": [
-      {
-        "en": "Three",
-        "hi": "एक"
-      },
-      {
-        "en": "One",
-        "hi": "दो"
-      },
-      {
-        "en": "Four",
-        "hi": "चार"
-      },
-      {
-        "en": "Two",
-        "hi": "तीन"
-      }
-    ],
+    "options": {
+      "en": [
+        "Three",
+        "One",
+        "Four",
+        "Two"
+      ],
+      "hi": [
+        "एक",
+        "दो",
+        "चार",
+        "तीन"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1629,24 +1449,20 @@
       "en": "Each of C, F, J, R, N, U and H has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. N has the exam on Thursday. Only five people have exams before C. F has the exam immediately after R but not on Wednesday. H has the exam after U but before J. How many people have exams between U and J?",
       "hi": "C, F, J, R, N, U H अलग - अलग िदन है। N की परी क्ष ा गु रु वार को है। C से पहले केवल पांच व् यि क् तयों की परी क्ष ा है। F की परी क्ष ा R के ठीक बाद वाले िदन है परंतु बुधवार को नहीं है। H की परी क्ष ा U के बाद िकसी िदन परंतु J से पहले िकसी िदन है। U और J के बीच िकतने व् यि क् तयों की परी क्ष ा है ? एक दुकानदार ने में छह एक जैसे मोबाइल फोन खरीदे। उसने उनमें से दो को में बेच िदया। बेचे गए दो"
     },
-    "options": [
-      {
-        "en": "Two",
-        "hi": "तीन"
-      },
-      {
-        "en": "One",
-        "hi": "चार"
-      },
-      {
-        "en": "Four",
-        "hi": "दो"
-      },
-      {
-        "en": "Three",
-        "hi": "एक"
-      }
-    ],
+    "options": {
+      "en": [
+        "Two",
+        "One",
+        "Four",
+        "Three"
+      ],
+      "hi": [
+        "तीन",
+        "चार",
+        "दो",
+        "एक"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -1665,24 +1481,20 @@
       "en": "The volume of a cylinder having diameter 30 cm and height 49 cm is: (Take π = 22/7)",
       "hi": "30 cm व्यास और 49 cm ऊंचाई वाले एक बेलन का आयतन कितना होगा? (π = 22/7 का उपयोग कीजिए)"
     },
-    "options": [
-      {
-        "en": "34606 cm³",
-        "hi": "34606 cm³"
-      },
-      {
-        "en": "34725 cm³",
-        "hi": "34725 cm³"
-      },
-      {
-        "en": "34650 cm³",
-        "hi": "34650 cm³"
-      },
-      {
-        "en": "34569 cm³",
-        "hi": "34569 cm³"
-      }
-    ],
+    "options": {
+      "en": [
+        "34606 cm³",
+        "34725 cm³",
+        "34650 cm³",
+        "34569 cm³"
+      ],
+      "hi": [
+        "34606 cm³",
+        "34725 cm³",
+        "34650 cm³",
+        "34569 cm³"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -1701,24 +1513,20 @@
       "en": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? VSM 15 SPO 2 PMQ -11 MJS -24 ?",
       "hi": "₹ 75,000 - ₹ 34,000 मोबाइल फोन पर उसका लाभ पितशत िकतना था ? िकसी रािश को वािषक दर पर वष ं के िलए िनवेश िकया गया था। वष ं बाद उस रािश पर अिजत च क्र वृि द्ध ब् याज"
     },
-    "options": [
-      {
-        "en": "JKI -34",
-        "hi": "36%"
-      },
-      {
-        "en": "JGU -37",
-        "hi": "37%"
-      },
-      {
-        "en": "HYT -35",
-        "hi": "35%"
-      },
-      {
-        "en": "HKP -44",
-        "hi": "39%"
-      }
-    ],
+    "options": {
+      "en": [
+        "JKI -34",
+        "JGU -37",
+        "HYT -35",
+        "HKP -44"
+      ],
+      "hi": [
+        "36%",
+        "37%",
+        "35%",
+        "39%"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1737,24 +1545,20 @@
       "en": "Seven people, E, F, G, H, W, X and Y, are sitting around a circular table, facing the center of the table. E sits fourth to the left of X. Only two people sit between H and G, when counted from the left of H. F sits third to the left of Y. W is an immediate neighbor of Y and G. Who sits fourth to the right of W? 9009",
       "hi": ", E, F, G, H, W, X Y, : E, X ओर चौथे स् थान पर बैठा है। H के बाईं ओर से िगनने पर , H और G के बीच केवल दो व् यि क् त बैठे हैं। F, Y के बाईं ओर तीसरे स् थान पर बैठा है। Y और G का िनकटतम पड़ोसी W है। W के दाईं ओर चौथे स् थान पर कौन बैठा है ? अंगेजी वणमाला क्र म के आधार पर िन म् निलिखत चार अ क्ष र समूह यु ग् मों में से तीन एक िनि श् चत तरीके से एकसमान हैं और"
     },
-    "options": [
-      {
-        "en": "G",
-        "hi": "H"
-      },
-      {
-        "en": "H",
-        "hi": "F"
-      },
-      {
-        "en": "E",
-        "hi": "E"
-      },
-      {
-        "en": "F",
-        "hi": "G"
-      }
-    ],
+    "options": {
+      "en": [
+        "G",
+        "H",
+        "E",
+        "F"
+      ],
+      "hi": [
+        "H",
+        "F",
+        "E",
+        "G"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1773,24 +1577,20 @@
       "en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster pair.)",
       "hi": "- , - - , , होता है ? उस यु ग् म का चयन कीिजए जो नीचे िदए गए दो यु ग् मों के समान पैटन का अनुसरण करता है। दोनों यु ग् म समान पैटन का"
     },
-    "options": [
-      {
-        "en": "VT−RP",
-        "hi": "वािहका (Vessels)"
-      },
-      {
-        "en": "US−QO",
-        "hi": "चालनी निलका (Sieve tubes)"
-      },
-      {
-        "en": "NL−JH",
-        "hi": "दारू वािहिनका (Tracheids)"
-      },
-      {
-        "en": "WU−RS",
-        "hi": "फ्लोएम तंत ु (Phloem fibres)"
-      }
-    ],
+    "options": {
+      "en": [
+        "VT−RP",
+        "US−QO",
+        "NL−JH",
+        "WU−RS"
+      ],
+      "hi": [
+        "वािहका (Vessels)",
+        "चालनी निलका (Sieve tubes)",
+        "दारू वािहिनका (Tracheids)",
+        "फ्लोएम तंत ु (Phloem fibres)"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -1809,24 +1609,20 @@
       "en": "311 is related to 330 following a certain logic. Following the same logic, 426 is related to 445. To which of the given options is 115 related, following the same logic? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
       "hi": "311 330 , 426 445 से है। उसी तक का अनुसरण करते हुए 115 का संबंध िन म् निलिखत में से िकससे है ? ( नोट : सं ख् याओं को उनके घटक अंकों में तोड़े िबना संि क्र याएं केवल पूण सं ख् याओं पर की जानी चािहए। उदाहरण के िलए , 13 लीिजए - 13 पर संि क्र याएं , जैसे 13 में जोड़ना / घटाना / गुणा करना आिद , की जा सकती हैं। 13 को 1 और 3 में तोड़ना तथा िफर 1 और 3 पर गिणतीय संि क्र याएं करने की अनुमित नहीं है। )"
     },
-    "options": [
-      {
-        "en": "145",
-        "hi": "145"
-      },
-      {
-        "en": "167",
-        "hi": "167"
-      },
-      {
-        "en": "134",
-        "hi": "134"
-      },
-      {
-        "en": "156",
-        "hi": "156"
-      }
-    ],
+    "options": {
+      "en": [
+        "145",
+        "167",
+        "134",
+        "156"
+      ],
+      "hi": [
+        "145",
+        "167",
+        "134",
+        "156"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -1845,24 +1641,20 @@
       "en": "Sahil starts from Point A and drives 14 km towards West. He then takes a right turn, drives 10 km, turns right and drives 17 km. He then takes a right turn and drives 15 km. He takes a final right turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
       "hi": "A 14 km 10 km डाइव करता है , िफर से दाएँ मुड़कर 17 km डाइव करता है। िफर वह दाएँ मुड़कर 15 km डाइव करता है। अंत में वह दाएँ मुड़कर 3 km डाइव करता है और िबंदु P पर रु क जाता है। िबंदु A पर वापस पहुँचने के िलए उसे िकतनी दूर ( न् यूनतम दूरी ) और िकस िदशा में डाइव करना चािहए ? ( जब तक िनिद ष् ट न िकया गया हो , सभी मोड़ 90- िडगी के मोड़ हैं। ) िन म् निलिखत में से कौन सा कथन समांगी िम श्र ण का सव त्त म वणन करता है"
     },
-    "options": [
-      {
-        "en": "6 km to the North",
-        "hi": "6 km उत्तर की ओर"
-      },
-      {
-        "en": "7 km to the South",
-        "hi": "7 km दिक्षण की ओर"
-      },
-      {
-        "en": "5 km to the North",
-        "hi": "5 km उत्तर की ओर"
-      },
-      {
-        "en": "6 km to the South",
-        "hi": "6 km दिक्षण की ओर"
-      }
-    ],
+    "options": {
+      "en": [
+        "6 km to the North",
+        "7 km to the South",
+        "5 km to the North",
+        "6 km to the South"
+      ],
+      "hi": [
+        "6 km उत्तर की ओर",
+        "7 km दिक्षण की ओर",
+        "5 km उत्तर की ओर",
+        "6 km दिक्षण की ओर"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -1881,24 +1673,20 @@
       "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 4 @ 7 # 2 % 9 & 1 $ 8 + 5 6 Code J M P T D R W F H K A U L Q Conditions – (i) If the first element is a symbol, code the second element as ©. (ii) If the third element is a symbol, code the fourth element as ©. (iii) If the fifth element is a symbol, code the first element as ©. What is the code for the following group of number-symbols? 94#51",
       "hi": ", / उपयोग करके कूटब द्ध िकया गया है। शत ं का अनुसरण करने वाला कूटों का सही संयोजन ही आपका उ त्त र है। यिद कोई भी शत लागू नहीं होती है , तो संबंिधत सं ख् या / पतीक के कूटों का अनुसरण सीधे तािलका में िदए गए अनुसार िकया जाना चािहए। संख्या / पतीक 4 @ 7 # 2 % 9 & 1 $ 8 + 5 6 कूट J M P T D R W F H K A U L Q शत ं – (i) यिद पहला अवयव एक पतीक है , तो दूसरे अवयव को © के रू प में कूटब द्ध करें। (ii) यिद तीसरा अवयव एक पतीक है , तो चौथे अवयव को © के रू प में कूटब द्ध करें। (iii) यिद पाँचवाँ अवयव एक पतीक है , तो पहले अवयव को © के रू प में कूटब द्ध करें। सं ख् या - पतीकों के िन म् निलिखत समूह के िलए कूट क् या है ? 94#51 एक िनि श् चत कूट भाषा में को के रू प में कूटब द्ध िकया जाता है और"
     },
-    "options": [
-      {
-        "en": "©JTLH",
-        "hi": "©JTLH"
-      },
-      {
-        "en": "WJTLH",
-        "hi": "WJTLH"
-      },
-      {
-        "en": "WJTL©",
-        "hi": "WJT©H"
-      },
-      {
-        "en": "WJT©H",
-        "hi": "WJTL©"
-      }
-    ],
+    "options": {
+      "en": [
+        "©JTLH",
+        "WJTLH",
+        "WJTL©",
+        "WJT©H"
+      ],
+      "hi": [
+        "©JTLH",
+        "WJTLH",
+        "WJT©H",
+        "WJTL©"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -1917,24 +1705,20 @@
       "en": "MING is related to TPUN in a certain way based on the English alphabetical order. In the same way, OKPI is related to VRWP. To which of the given options is JFKD related, following the same logic?",
       "hi": ", , 3 3 व् यि क् तयों की आयु का योगफल 108 वष था , तो अमन की वतमान आयु ( वष में ) ात कीिजए। \""
     },
-    "options": [
-      {
-        "en": "QMJU",
-        "hi": "70"
-      },
-      {
-        "en": "QMRK",
-        "hi": "48"
-      },
-      {
-        "en": "QRHY",
-        "hi": "59"
-      },
-      {
-        "en": "QMKI",
-        "hi": "72"
-      }
-    ],
+    "options": {
+      "en": [
+        "QMJU",
+        "QMRK",
+        "QRHY",
+        "QMKI"
+      ],
+      "hi": [
+        "70",
+        "48",
+        "59",
+        "72"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1953,24 +1737,20 @@
       "en": "A shopkeeper bought six identical mobile phones for ₹ 75,000. He sold two of them for ₹ 34,000. What was his gain percentage on the two mobile phones sold?",
       "hi": ", - - - ह्न (?) पर आएगा ? VSM 15 SPO 2 PMQ -11 MJS -24 ? और में से प त् येक की परी क्ष ा सोमवार से शु रू होकर रिववार को समा प् त होने वाले एक ही स प् ताह के"
     },
-    "options": [
-      {
-        "en": "37%",
-        "hi": "JGU -37"
-      },
-      {
-        "en": "36%",
-        "hi": "JKI -34"
-      },
-      {
-        "en": "39%",
-        "hi": "HYT -35"
-      },
-      {
-        "en": "35%",
-        "hi": "HKP -44"
-      }
-    ],
+    "options": {
+      "en": [
+        "37%",
+        "36%",
+        "39%",
+        "35%"
+      ],
+      "hi": [
+        "JGU -37",
+        "JKI -34",
+        "HYT -35",
+        "HKP -44"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -1989,24 +1769,20 @@
       "en": "What should come in place of ‘?’ in the given series? 4 12 23 31 42 50 ?",
       "hi": "AB CD , AB, CD EF GH ितयक् छेदी रेखाएं हैं जो AB को क्र मशः P और R पर पित च् छेद करती हैं , तथा CD को क्र मशः Q और S पर पित च् छेद करती हैं। मान लीिजए िक E और G, AB से ऊपर ि स् थत हैं , जबिक F और H, CD से नीचे ि स् थत हैं। यिद ∠ EPB = 2a°, DSG = b° और ∠ FQD = 80° हैं , तो क्र मशः a और b का मान ात कीिजए। ∠ यिद श ब् द के प त् येक अ क्ष र को अंगेजी वणमाला क्र म में व् यवि स् थत िकया जाए तो इस पकार िनिमत नए अ क्ष र"
     },
-    "options": [
-      {
-        "en": "58",
-        "hi": "50 और 100"
-      },
-      {
-        "en": "63",
-        "hi": "40 और 120"
-      },
-      {
-        "en": "54",
-        "hi": "20 और 80"
-      },
-      {
-        "en": "61",
-        "hi": "40 और 100"
-      }
-    ],
+    "options": {
+      "en": [
+        "58",
+        "63",
+        "54",
+        "61"
+      ],
+      "hi": [
+        "50 और 100",
+        "40 और 120",
+        "20 और 80",
+        "40 और 100"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -2025,24 +1801,20 @@
       "en": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation? 30 – 4 ÷ 4 + 40 × 10 = ?",
       "hi": "‘+’ ‘−’ , ‘−’ ‘×’ , ‘×’ ‘÷’ ‘÷’ ‘+’ , - िच ह्न (?) के स् थान पर क् या आएगा ? 30 – 4 ÷ 4 + 40 × 10 = ? नीचे सं ख् याओं के दो समु च् चय िदए गए हैं। प त् येक सं ख् याओं के समु च् चय में पहली सं ख् या पर िनि श् चत गिणतीय संि क्र याएं करने"
     },
-    "options": [
-      {
-        "en": "122",
-        "hi": "122"
-      },
-      {
-        "en": "124",
-        "hi": "124"
-      },
-      {
-        "en": "118",
-        "hi": "118"
-      },
-      {
-        "en": "120",
-        "hi": "120"
-      }
-    ],
+    "options": {
+      "en": [
+        "122",
+        "124",
+        "118",
+        "120"
+      ],
+      "hi": [
+        "122",
+        "124",
+        "118",
+        "120"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -2061,24 +1833,20 @@
       "en": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? YVX 9, URT 14, QNP 19, MJL 24, ? 2470",
       "hi": "- - , - ह्न (?) पित स् थािपत करेगा ? YVX 9, URT 14, QNP 19, MJL 24, ? दी गई श्र ृंखला को तािकक रू प से पूण बनाने के िलए िन म् निलिखत में से कौन सा अ क्ष र सं ख् या समूह प श् न िच के स् थान"
     },
-    "options": [
-      {
-        "en": "IFH 29",
-        "hi": "IFH 29"
-      },
-      {
-        "en": "IHF 28",
-        "hi": "IFG 28"
-      },
-      {
-        "en": "GFH 29",
-        "hi": "GFH 29"
-      },
-      {
-        "en": "IFG 28",
-        "hi": "IHF 28"
-      }
-    ],
+    "options": {
+      "en": [
+        "IFH 29",
+        "IHF 28",
+        "GFH 29",
+        "IFG 28"
+      ],
+      "hi": [
+        "IFH 29",
+        "IFG 28",
+        "GFH 29",
+        "IHF 28"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -2097,24 +1865,20 @@
       "en": "Let AB and CD be two parallel lines, with AB above CD. Let EF and GH be two parallel transversals intersecting AB at P and R, respectively, and CD at Q and S, respectively. Assume that E and G lie above AB, while F and H lie below CD. If ∠ EPB = 2a°, ∠ DSG = b° and ∠ FQD = 80°, then find the values for a and b, respectively.",
       "hi": "GUILDER , - समूह में बाएं से चौथे अ क्ष र और दाएं से पहले अ क्ष र के बीच , अंगेजी वणमाला क्र म में िकतने अ क्ष र होंगे ?"
     },
-    "options": [
-      {
-        "en": "40 and 100",
-        "hi": "14"
-      },
-      {
-        "en": "20 and 80",
-        "hi": "11"
-      },
-      {
-        "en": "50 and 100",
-        "hi": "10"
-      },
-      {
-        "en": "40 and 120",
-        "hi": "12"
-      }
-    ],
+    "options": {
+      "en": [
+        "40 and 100",
+        "20 and 80",
+        "50 and 100",
+        "40 and 120"
+      ],
+      "hi": [
+        "14",
+        "11",
+        "10",
+        "12"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -2133,24 +1897,20 @@
       "en": "A person invested ₹ 56,500 at a rate of 8% per annum simple interest for 2 years. Find the amount (in ₹ ) he will receive after 2 years. 6677",
       "hi": ", MING TPUN , OKPI संबंध VRWP से है। समान तक का अनुसरण करते हुए , JFKD का संबंध िदए गए िवक ल् पों में से िकससे है ? अमन की आयु उसके पु त्र की आयु की तीन गुनी है और उसकी पु त्र ी उसके पु त्र से वष छोटी है। यिद वष पूव इन तीनों"
     },
-    "options": [
-      {
-        "en": "65,450",
-        "hi": "QRHY"
-      },
-      {
-        "en": "64,450",
-        "hi": "QMKI"
-      },
-      {
-        "en": "65,540",
-        "hi": "QMRK"
-      },
-      {
-        "en": "64,540",
-        "hi": "QMJU"
-      }
-    ],
+    "options": {
+      "en": [
+        "65,450",
+        "64,450",
+        "65,540",
+        "64,540"
+      ],
+      "hi": [
+        "QRHY",
+        "QMKI",
+        "QMRK",
+        "QMJU"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -2169,24 +1929,20 @@
       "en": "Simplify: (52² - 12³) / (4³ - 16 × 3)",
       "hi": "(52² - 12³) / (4³ - 16 × 3) को सरल कीजिए।"
     },
-    "options": [
-      {
-        "en": "72",
-        "hi": "72"
-      },
-      {
-        "en": "61",
-        "hi": "61"
-      },
-      {
-        "en": "57",
-        "hi": "57"
-      },
-      {
-        "en": "66",
-        "hi": "66"
-      }
-    ],
+    "options": {
+      "en": [
+        "72",
+        "61",
+        "57",
+        "66"
+      ],
+      "hi": [
+        "72",
+        "61",
+        "57",
+        "66"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -2205,24 +1961,20 @@
       "en": "18 is related to 59 following a certain logic. Following the same logic, 15 is related to 50. To which of the following is 12 related, following the same logic? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
       "hi": "7- 49A952B, 12 (A + B) ? एक िनि श् चत कूट भाषा में को के रू प में कूटब द्ध िकया जाता है और को के रू प में"
     },
-    "options": [
-      {
-        "en": "41",
-        "hi": "4"
-      },
-      {
-        "en": "45",
-        "hi": "3"
-      },
-      {
-        "en": "36",
-        "hi": "2"
-      },
-      {
-        "en": "32",
-        "hi": "1"
-      }
-    ],
+    "options": {
+      "en": [
+        "41",
+        "45",
+        "36",
+        "32"
+      ],
+      "hi": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -2241,24 +1993,20 @@
       "en": "Which statement best describes a homogeneous mixture?",
       "hi": "निम्नलिखित में से कौन-सा कथन, समांगी मिश्रण का सर्वोत्तम वर्णन करता है?"
     },
-    "options": [
-      {
-        "en": "It forms layers that can be seen easily",
-        "hi": "यह सरलता से देखी जा सकने वाली परतें बनाता है"
-      },
-      {
-        "en": "It shows different properties and appearance in different areas",
-        "hi": "यह अलग-अलग क्षेत्रों में अलग-अलग गुण और स्वरूप दर्शाता है"
-      },
-      {
-        "en": "It has the same appearance and composition throughout",
-        "hi": "इसका समग्र स्वरूप और संघटन समान होता है"
-      },
-      {
-        "en": "It contains substances visible to the naked eye",
-        "hi": "इसमें नग्न आंखों से दिखाई देने वाले पदार्थ होते हैं"
-      }
-    ],
+    "options": {
+      "en": [
+        "It forms layers that can be seen easily",
+        "It shows different properties and appearance in different areas",
+        "It has the same appearance and composition throughout",
+        "It contains substances visible to the naked eye"
+      ],
+      "hi": [
+        "यह सरलता से देखी जा सकने वाली परतें बनाता है",
+        "यह अलग-अलग क्षेत्रों में अलग-अलग गुण और स्वरूप दर्शाता है",
+        "इसका समग्र स्वरूप और संघटन समान होता है",
+        "इसमें नग्न आंखों से दिखाई देने वाले पदार्थ होते हैं"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -2277,24 +2025,20 @@
       "en": "Each vowel in the word DARKISH is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. How many letters will appear exactly twice in the group of letters thus formed? 2413",
       "hi": "DARKISH और प त् येक व् यंजन को अंगेजी वणमाला क्र म में उसके ठीक पहले वाले अ क्ष र से पित स् थािपत कर िदया जाए , तो इस पकार िनिमत अ क्ष रों के समूह में िकतने अ क्ष र ठीक दो बार आएंगे ? यिद और को पर स् पर पित स् थािपत कर िदया जाए तथा और को पर स् पर पित स् थािपत कर िदया जाए तो"
     },
-    "options": [
-      {
-        "en": "1",
-        "hi": "1"
-      },
-      {
-        "en": "2",
-        "hi": "2"
-      },
-      {
-        "en": "3",
-        "hi": "3"
-      },
-      {
-        "en": "0",
-        "hi": "0"
-      }
-    ],
+    "options": {
+      "en": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "hi": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -2313,24 +2057,20 @@
       "en": "If a candidate received 55% of the 2,20,000 votes in an election, what was the total number of votes the candidate received?",
       "hi": "₹ 40 kg 30 kg ₹ 60 kg 20 kg है। पिरणामी िम श्र ण का पित kg औसत मू ल् य िकतना होगा ? दी गई श्र ृंखला में के स् थान पर क् या आना चािहए"
     },
-    "options": [
-      {
-        "en": "1,30,000",
-        "hi": "₹ 50"
-      },
-      {
-        "en": "1,21,000",
-        "hi": "₹ 52"
-      },
-      {
-        "en": "1,15,000",
-        "hi": "₹ 45"
-      },
-      {
-        "en": "1,10,000",
-        "hi": "₹ 48"
-      }
-    ],
+    "options": {
+      "en": [
+        "1,30,000",
+        "1,21,000",
+        "1,15,000",
+        "1,10,000"
+      ],
+      "hi": [
+        "₹ 50",
+        "₹ 52",
+        "₹ 45",
+        "₹ 48"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -2349,24 +2089,20 @@
       "en": "Binayak starts from Point A and drives 11 km towards East. He then takes a left turn, drives 8 km, turns left and drives 12 km. He then takes a left turn and drives 10 km. He takes a final left turn, drives 1 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only unless specified) 426",
       "hi": "A 11 km 8 km करता है , बाएं मुड़ता है और 12 km डाइव करता है। िफर वह बाएं मुड़कर 10 km डाइव करता है। वह अंितम बार बाएं मुड़कर 1 km डाइव करके िबंदु P पर रु कता है। िबंदु A पर वापस पहुंचने के िलए उसे िकतनी दूर ( न् यूनतम दूरी ) और िकस िदशा में डाइव करना चािहए ? ( जब तक िक िनिद ष् ट न हों , सभी मोड़ केवल 90 िडगी के मोड़ हैं )"
     },
-    "options": [
-      {
-        "en": "2 km to the North",
-        "hi": "2 km उत्तर की ओर"
-      },
-      {
-        "en": "1 km to the North",
-        "hi": "1 km उत्तर की ओर"
-      },
-      {
-        "en": "3 km to the North",
-        "hi": "3 km उत्तर की ओर"
-      },
-      {
-        "en": "4 km to the North",
-        "hi": "4 km उत्तर की ओर"
-      }
-    ],
+    "options": {
+      "en": [
+        "2 km to the North",
+        "1 km to the North",
+        "3 km to the North",
+        "4 km to the North"
+      ],
+      "hi": [
+        "2 km उत्तर की ओर",
+        "1 km उत्तर की ओर",
+        "3 km उत्तर की ओर",
+        "4 km उत्तर की ओर"
+      ]
+    },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
@@ -2385,24 +2121,20 @@
       "en": "In a certain code language, ‘WHAT’ is coded as ‘2789’ and ‘HATS’ is coded as ‘1789’. What is the code for ‘S’ in the given code language?",
       "hi": ", ‘WHAT’ ‘2789’ ‘HATS’ ‘1789’ दी गई कूट भाषा में ‘S’ का कूट क् या है ? 4 2 2 2"
     },
-    "options": [
-      {
-        "en": "7",
-        "hi": "7"
-      },
-      {
-        "en": "2",
-        "hi": "2"
-      },
-      {
-        "en": "8",
-        "hi": "8"
-      },
-      {
-        "en": "1",
-        "hi": "1"
-      }
-    ],
+    "options": {
+      "en": [
+        "7",
+        "2",
+        "8",
+        "1"
+      ],
+      "hi": [
+        "7",
+        "2",
+        "8",
+        "1"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -2421,24 +2153,20 @@
       "en": "The 7-digit number 49A952B is divisible by 12. What is the minimum value of (A + B)? 1147",
       "hi": "अनुसरण करते हैं। QRU−TUX STW−VWZ छह बॉ क् स और एक के ऊपर एक रखे गए हैं लेिकन आव श् यक नहीं है िक वे इसी क्र म में रखे गए हों।"
     },
-    "options": [
-      {
-        "en": "3",
-        "hi": "GGI−IJM"
-      },
-      {
-        "en": "1",
-        "hi": "GHK−JKN"
-      },
-      {
-        "en": "4",
-        "hi": "GHK−IKM"
-      },
-      {
-        "en": "2",
-        "hi": "GGI−JKN"
-      }
-    ],
+    "options": {
+      "en": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "hi": [
+        "GGI−IJM",
+        "GHK−JKN",
+        "GHK−IKM",
+        "GGI−JKN"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -2457,24 +2185,20 @@
       "en": "A student in a laboratory finds that sound travels faster in steel than in air. Which characteristic of the medium best explains this observation?",
       "hi": "प्रयोगशाला में एक विद्यार्थी यह प्रेक्षित करता है कि वायु की तुलना में इस्पात में ध्वनि तेजी से गमन करती है। माध्यम का कौन-सा अभिलक्षण इस प्रेक्षण की सर्वोत्तम व्याख्या करता है?"
     },
-    "options": [
-      {
-        "en": "Shape and size of the medium",
-        "hi": "माध्यम की आकृति और आकार"
-      },
-      {
-        "en": "Density and elasticity of the medium",
-        "hi": "माध्यम का घनत्व और प्रत्यास्थता"
-      },
-      {
-        "en": "Thickness and color of the medium",
-        "hi": "माध्यम की मोटाई और रंग"
-      },
-      {
-        "en": "Temperature and humidity of the medium",
-        "hi": "माध्यम का तापमान और आर्द्रता"
-      }
-    ],
+    "options": {
+      "en": [
+        "Shape and size of the medium",
+        "Density and elasticity of the medium",
+        "Thickness and color of the medium",
+        "Temperature and humidity of the medium"
+      ],
+      "hi": [
+        "माध्यम की आकृति और आकार",
+        "माध्यम का घनत्व और प्रत्यास्थता",
+        "माध्यम की मोटाई और रंग",
+        "माध्यम का तापमान और आर्द्रता"
+      ]
+    },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
@@ -2493,24 +2217,20 @@
       "en": "In a certain code language, ‘piano juice bonus’ is coded as 'ui gc fh' and ‘bonus lemon judge’ is coded as ‘hp ui gt’. How is ‘bonus’ coded in the given language?",
       "hi": ", ‘piano juice bonus’ ‘ui gc fh’ ‘bonus lemon judge’ को ‘hp ui gt’ के रू प में कूटब द्ध िकया जाता है। दी गई कूट भाषा में ‘bonus’ को िकस रू प में कूटब द्ध िकया जाता है ? एक घनाभाकार लकड़ी के िड ब् बे की आंतिरक िवमाएं हैं। इसे भुजा वाले छोटे"
     },
-    "options": [
-      {
-        "en": "fh",
-        "hi": "fh"
-      },
-      {
-        "en": "gc",
-        "hi": "ui"
-      },
-      {
-        "en": "ui",
-        "hi": "hp"
-      },
-      {
-        "en": "hp",
-        "hi": "gc"
-      }
-    ],
+    "options": {
+      "en": [
+        "fh",
+        "gc",
+        "ui",
+        "hp"
+      ],
+      "hi": [
+        "fh",
+        "ui",
+        "hp",
+        "gc"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -2529,24 +2249,20 @@
       "en": "A question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate answer. Question: Among 5 sticks, T, N, R, K and I, each having a different height, which stick is the shortest? Statements: (I) K is shorter than I but taller than N. T is taller than N. (II) R is taller than only one stick. question.",
       "hi": "84% 70% 10 लीटर िवलयन है। 84% एंटीफीज वाला िवलयन पा प् त करने के िलए उसे अपने िवलयन में 95% एंटीफीज दव का िकतना लीटर ( दशमलव के 2 स् थानों तक पूण ंिकत ) िमलाना चािहए ? इस प श् न में एक प श् न के बाद और से क्र मांिकत दो कथन िदए गए हैं। आपको यह तय करना है िक कथन में िदया"
     },
-    "options": [
-      {
-        "en": "Data in statement II alone is sufficient to answer the question while data in statement I is not.",
-        "hi": "18.61"
-      },
-      {
-        "en": "Data in statement I alone is sufficient to answer the question while data in statement II is not.",
-        "hi": "15.38"
-      },
-      {
-        "en": "Data in both statements I and II together are NOT sufficient to answer the question.",
-        "hi": "10.34"
-      },
-      {
-        "en": "Data in both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the",
-        "hi": "12.73"
-      }
-    ],
+    "options": {
+      "en": [
+        "Data in statement II alone is sufficient to answer the question while data in statement I is not.",
+        "Data in statement I alone is sufficient to answer the question while data in statement II is not.",
+        "Data in both statements I and II together are NOT sufficient to answer the question.",
+        "Data in both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the"
+      ],
+      "hi": [
+        "18.61",
+        "15.38",
+        "10.34",
+        "12.73"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -2565,24 +2281,20 @@
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right. (Left) I X U Q T O D I R R Z I P T T D E O L I U Z (Right) How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a vowel?",
       "hi": "A, H, M, P, S V H, M में बैठा है। P के दाईं ओर से िगनती करने पर P और A के बीच केवल दो व् यि क् त बैठे हैं। S, P का िनकटतम पड़ोसी नहीं है। V, S के ठीक बाईं ओर पड़ोस में बैठा है। H के बाईं ओर से िगनती करने पर H और V के बीच िकतने व् यि क् त बैठे हैं ?"
     },
-    "options": [
-      {
-        "en": "2",
-        "hi": "2"
-      },
-      {
-        "en": "5",
-        "hi": "3"
-      },
-      {
-        "en": "3",
-        "hi": "4"
-      },
-      {
-        "en": "4",
-        "hi": "1"
-      }
-    ],
+    "options": {
+      "en": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "hi": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
@@ -2601,24 +2313,20 @@
       "en": "Each of F, A, C, I, N, G and S has holidays on a different day of a week, starting from Monday and ending on Sunday of the same week. No one has holiday before A. Only three people have holiday between A and I. Only one person has holiday between I and the days before G. On which day of the week does N have holiday? 4066",
       "hi": ", पर दूसरी सं ख् या पा प् त होती है। इसी पकार , दूसरी सं ख् या पर िनि श् चत गिणतीय संि क्र याएं करने पर तीसरी सं ख् या पा प् त होती है , इसी पकार आगे भी सं ख् याएँ पा प् त होती हैं। िदए गए िवक ल् पों में से कौन - सा िवक ल् प , प श् न के समान संि क्र याओं का अनुसरण करता है ? ( नोट : दो / तीन अंकों की सं ख् या को संि क्र याओं के िलए अलग - अलग अंकों में नहीं तोड़ा जा सकता। उदाहरण के िलए , यिद 37 के बाद 10 आता है , तो संि क्र या 3+7 नहीं की जा सकती , क् योंिक दो अंकों की सं ख् या को अलग - अलग अंकों में नहीं तोड़ा जा सकता है। ) 14 – 25 – 75 – 90 ; 12 – 23 – 69 – 84 और में से प त् येक का अवकाश सोमवार से शु रू होकर रिववार को समा प् त होने वाले एक ही स प् ताह के"
     },
-    "options": [
-      {
-        "en": "Sunday",
-        "hi": "4 – 15 – 45 – 70"
-      },
-      {
-        "en": "Monday",
-        "hi": "10 – 21 – 63 – 76"
-      },
-      {
-        "en": "Saturday",
-        "hi": "8 – 19 – 57 – 72"
-      },
-      {
-        "en": "Thursday",
-        "hi": "6 – 17 – 68 – 83"
-      }
-    ],
+    "options": {
+      "en": [
+        "Sunday",
+        "Monday",
+        "Saturday",
+        "Thursday"
+      ],
+      "hi": [
+        "4 – 15 – 45 – 70",
+        "10 – 21 – 63 – 76",
+        "8 – 19 – 57 – 72",
+        "6 – 17 – 68 – 83"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -2637,24 +2345,20 @@
       "en": "What should come in place of ‘?’ in the given series? 514 393 293 212 148 ?",
       "hi": "'?' ? 514 393 293 212 148 ? एक व् यि क् त ने वष ं के िलए वािषक साधारण ब् याज की दर से का िनवेश िकया। वष ं के बाद उसे पा प् त"
     },
-    "options": [
-      {
-        "en": "106",
-        "hi": "106"
-      },
-      {
-        "en": "92",
-        "hi": "92"
-      },
-      {
-        "en": "116",
-        "hi": "116"
-      },
-      {
-        "en": "99",
-        "hi": "99"
-      }
-    ],
+    "options": {
+      "en": [
+        "106",
+        "92",
+        "116",
+        "99"
+      ],
+      "hi": [
+        "106",
+        "92",
+        "116",
+        "99"
+      ]
+    },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
@@ -2673,24 +2377,20 @@
       "en": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. V has an exam on Friday. Only two people have exams between V and S. S has an exam on the day immediately after T. R has an exam on the day immediately after U but not on Thursday. Q has an exam on the day immediately after P but before U. Who among the following has an exam on Thursday? \"",
       "hi": "P, Q, R, S, T, U V अलग - अलग िदन है। V की परी क्ष ा शु क्र वार को है। V और S के बीच केवल दो व् यि क् तयों की परी क्ष ा है। S की परी क्ष ा , T की परी क्ष ा के ठीक बाद वाले िदन है। R की परी क्ष ा , U की परी क्ष ा के ठीक बाद वाले िदन है , लेिकन गु रु वार को नहीं है। Q की परी क्ष ा , P की परी क्ष ा के ठीक बाद वाले िदन है , लेिकन U से पहले िकसी िदन है। िन म् निलिखत में से िकसकी परी क्ष ा गु रु वार को है ? िन म् निलिखत अ क्ष र शृंखला का संदभ लीिजए तथा िदए गए प श् न का उ त्त र दीिजए। िगनती केवल बाएं से दाएं की जानी है।"
     },
-    "options": [
-      {
-        "en": "P",
-        "hi": "R"
-      },
-      {
-        "en": "S",
-        "hi": "S"
-      },
-      {
-        "en": "Q",
-        "hi": "P"
-      },
-      {
-        "en": "R",
-        "hi": "Q"
-      }
-    ],
+    "options": {
+      "en": [
+        "P",
+        "S",
+        "Q",
+        "R"
+      ],
+      "hi": [
+        "R",
+        "S",
+        "P",
+        "Q"
+      ]
+    },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
