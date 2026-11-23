@@ -53,6 +53,7 @@ export default function App() {
     { key: '04 Nov Shift 6', label: `04 Nov Shift 6 (${RAILWAY_TESTS.filter(t => t.shiftName === '04 Nov Shift 6').length})` },
     { key: '05 Nov Shift 7', label: `05 Nov Shift 7 (${RAILWAY_TESTS.filter(t => t.shiftName === '05 Nov Shift 7').length})` },
     { key: '05 Nov Shift 8', label: `05 Nov Shift 8 (${RAILWAY_TESTS.filter(t => t.shiftName === '05 Nov Shift 8').length})` },
+    { key: '05 Nov Shift 9', label: `05 Nov Shift 9 (${RAILWAY_TESTS.filter(t => t.shiftName === '05 Nov Shift 9').length})` },
   ];
 
   const filteredTests = RAILWAY_TESTS.filter(test => {
