@@ -1,5 +1,6 @@
 import alpShift1Questions from './alpShift1Bilingual.json';
 import alpShift2Questions from './alpShift2Bilingual.json';
+import alpShift3Questions from './alpShift3Bilingual.json';
 
 // --- SHIFT 1 SECTIONAL SUBSETS ---
 // Strict pure separation as per user commands:
@@ -17,6 +18,14 @@ const reasoningQuestionsS1 = alpShift1Questions.filter(q => q.section === 'Gener
 const scienceQuestionsS2 = alpShift2Questions.filter(q => q.section === 'General Science');
 const mathsQuestionsS2 = alpShift2Questions.filter(q => q.section === 'Mathematics');
 const reasoningQuestionsS2 = alpShift2Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+
+// --- SHIFT 3 SECTIONAL SUBSETS ---
+// 1. Mathematics: Pure Maths only (22 Questions)
+// 2. Reasoning: Pure Intelligence & Reasoning only (40 Questions)
+// 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (13 Questions)
+const scienceQuestionsS3 = alpShift3Questions.filter(q => q.section === 'General Science');
+const mathsQuestionsS3 = alpShift3Questions.filter(q => q.section === 'Mathematics');
+const reasoningQuestionsS3 = alpShift3Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 export const RAILWAY_TESTS = [
   // ==========================================
@@ -227,5 +236,110 @@ export const RAILWAY_TESTS = [
     sections: ['General Intelligence & Reasoning'],
     sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS2.length} Questions)`,
     questions: reasoningQuestionsS2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // ==========================================
+  // SHIFT 3: 03 Nov 2026 (4:00 PM - 5:00 PM)
+  // ==========================================
+  // 9. Full Length Shift 3 Test (75 Questions)
+  {
+    id: 'rrb-alp-2026-cbt1-shift3',
+    title: 'RRB ALP 2026 CBT-1: 03 Nov Shift 3 Official Full Paper',
+    subTitle: 'Original Bilingual Paper as per RRB TCS iON Official Answer Key',
+    exam: 'RRB ALP 2026',
+    stage: 'CBT-1',
+    category: 'full-shift',
+    badge: 'Official Answer Key',
+    badgeColor: 'emerald',
+    shiftDate: '03/11/2026',
+    shiftTime: '4:00 PM - 5:00 PM',
+    shiftName: '03 Nov Shift 3',
+    durationMinutes: 60,
+    totalQuestions: alpShift3Questions.length,
+    maxMarks: alpShift3Questions.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: [
+      'All Sections',
+      'General Science',
+      'Mathematics',
+      'General Intelligence & Reasoning'
+    ],
+    sectionDistribution: {
+      'General Science': scienceQuestionsS3.length,
+      'Mathematics': mathsQuestionsS3.length,
+      'General Intelligence & Reasoning': reasoningQuestionsS3.length
+    },
+    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS3.length}), Maths (${mathsQuestionsS3.length}), Reasoning (${reasoningQuestionsS3.length})`,
+    questions: alpShift3Questions
+  },
+
+  // 10. Sectional Test - General Science & Current Affairs (Shift 3)
+  {
+    id: 'rrb-alp-2026-sec-science-s3',
+    title: 'RRB ALP 2026: General Science & GK Sectional (Shift 3)',
+    subTitle: 'Pure Science (Physics, Chemistry, Biology) & Indian Polity / GK from 03 Nov Shift 3',
+    exam: 'RRB ALP 2026',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Science & GK',
+    badgeColor: 'teal',
+    shiftDate: '03/11/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '03 Nov Shift 3',
+    durationMinutes: 15,
+    totalQuestions: scienceQuestionsS3.length,
+    maxMarks: scienceQuestionsS3.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Science'],
+    sectionSummary: `Covers: Pure General Science & GK / CA (${scienceQuestionsS3.length} Questions)`,
+    questions: scienceQuestionsS3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 11. Sectional Test - Mathematics (Shift 3)
+  {
+    id: 'rrb-alp-2026-sec-maths-s3',
+    title: 'RRB ALP 2026: Mathematics Sectional (Shift 3)',
+    subTitle: 'Pure Mathematics: Arithmetic, Algebra, Geometry, Mensuration & Trigonometry',
+    exam: 'RRB ALP 2026',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Maths',
+    badgeColor: 'indigo',
+    shiftDate: '03/11/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '03 Nov Shift 3',
+    durationMinutes: 25,
+    totalQuestions: mathsQuestionsS3.length,
+    maxMarks: mathsQuestionsS3.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS3.length} Questions)`,
+    questions: mathsQuestionsS3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 12. Sectional Test - General Intelligence & Reasoning (Shift 3)
+  {
+    id: 'rrb-alp-2026-sec-reasoning-s3',
+    title: 'RRB ALP 2026: Reasoning & Intelligence Sectional (Shift 3)',
+    subTitle: 'Pure Reasoning: Puzzles, Seating Arrangements, Coding-Decoding, Series & Direction',
+    exam: 'RRB ALP 2026',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Reasoning',
+    badgeColor: 'purple',
+    shiftDate: '03/11/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '03 Nov Shift 3',
+    durationMinutes: 35,
+    totalQuestions: reasoningQuestionsS3.length,
+    maxMarks: reasoningQuestionsS3.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS3.length} Questions)`,
+    questions: reasoningQuestionsS3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
   }
 ];

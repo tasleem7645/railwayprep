@@ -18,10 +18,17 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz'
   const [selectedLang, setSelectedLang] = useState('hi');
   const [testFilter, setTestFilter] = useState('all'); // 'all' | 'full-shift' | 'sectional'
-  const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | '03 Nov Shift 1' | '03 Nov Shift 2'
+  const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | '03 Nov Shift 1' | '03 Nov Shift 2' | '03 Nov Shift 3'
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [activeTest, setActiveTest] = useState(null);
   const [testResult, setTestResult] = useState(null);
+
+  const availableShifts = [
+    { key: 'all', label: `All Shifts (${RAILWAY_TESTS.length})` },
+    { key: '03 Nov Shift 1', label: `03 Nov Shift 1 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 1').length})` },
+    { key: '03 Nov Shift 2', label: `03 Nov Shift 2 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 2').length})` },
+    { key: '03 Nov Shift 3', label: `03 Nov Shift 3 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 3').length})` },
+  ];
 
   const filteredTests = RAILWAY_TESTS.filter(test => {
     const matchesCategory = testFilter === 'all' || test.category === testFilter;
@@ -107,11 +114,7 @@ export default function App() {
                   <Filter className="w-3.5 h-3.5 text-teal-400" />
                   <span>Filter by Shift:</span>
                 </span>
-                {[
-                  { key: 'all', label: `All Shifts (${RAILWAY_TESTS.length})` },
-                  { key: '03 Nov Shift 1', label: `03 Nov Shift 1 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 1').length})` },
-                  { key: '03 Nov Shift 2', label: `03 Nov Shift 2 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 2').length})` }
-                ].map(s => (
+                {availableShifts.map(s => (
                   <button
                     key={s.key}
                     onClick={() => setShiftFilter(s.key)}
@@ -240,11 +243,7 @@ export default function App() {
 
               {/* Shift Filter Tabs */}
               <div className="flex items-center justify-center gap-2 mt-6 overflow-x-auto no-scrollbar">
-                {[
-                  { key: 'all', label: `All Shifts (${RAILWAY_TESTS.length})` },
-                  { key: '03 Nov Shift 1', label: `03 Nov Shift 1 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 1').length})` },
-                  { key: '03 Nov Shift 2', label: `03 Nov Shift 2 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 2').length})` }
-                ].map(s => (
+                {availableShifts.map(s => (
                   <button
                     key={s.key}
                     onClick={() => setShiftFilter(s.key)}
