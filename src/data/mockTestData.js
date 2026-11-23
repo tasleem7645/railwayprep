@@ -13,6 +13,10 @@ import alp2025Shift3Questions from './alp2025Shift3Bilingual.json';
 import alp2025Shift4Questions from './alp2025Shift4Bilingual.json';
 import alp2025Shift5Questions from './alp2025Shift5Bilingual.json';
 import alp2025Shift6Questions from './alp2025Shift6Bilingual.json';
+import alp2025Shift7Questions from './alp2025Shift7Bilingual.json';
+import alp2025Shift8Questions from './alp2025Shift8Bilingual.json';
+import alp2025Shift9Questions from './alp2025Shift9Bilingual.json';
+import alp2025Shift10Questions from './alp2025Shift10Bilingual.json';
 
 // --- SHIFT 1 SECTIONAL SUBSETS ---
 // Strict pure separation as per user commands:
@@ -128,6 +132,34 @@ const reasoningQuestions2025S5 = alp2025Shift5Questions.filter(q => q.section ==
 const scienceQuestions2025S6 = alp2025Shift6Questions.filter(q => q.section === 'General Science');
 const mathsQuestions2025S6 = alp2025Shift6Questions.filter(q => q.section === 'Mathematics');
 const reasoningQuestions2025S6 = alp2025Shift6Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+
+// ==========================================
+// 2025 CYCLE: SHIFT 7 (17 Feb 2026 - 04:00 PM)
+// ==========================================
+const scienceQuestions2025S7 = alp2025Shift7Questions.filter(q => q.section === 'General Science');
+const mathsQuestions2025S7 = alp2025Shift7Questions.filter(q => q.section === 'Mathematics');
+const reasoningQuestions2025S7 = alp2025Shift7Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+
+// ==========================================
+// 2025 CYCLE: SHIFT 8 (18 Feb 2026 - 09:00 AM)
+// ==========================================
+const scienceQuestions2025S8 = alp2025Shift8Questions.filter(q => q.section === 'General Science');
+const mathsQuestions2025S8 = alp2025Shift8Questions.filter(q => q.section === 'Mathematics');
+const reasoningQuestions2025S8 = alp2025Shift8Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+
+// ==========================================
+// 2025 CYCLE: SHIFT 9 (18 Feb 2026 - 12:30 PM)
+// ==========================================
+const scienceQuestions2025S9 = alp2025Shift9Questions.filter(q => q.section === 'General Science');
+const mathsQuestions2025S9 = alp2025Shift9Questions.filter(q => q.section === 'Mathematics');
+const reasoningQuestions2025S9 = alp2025Shift9Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+
+// ==========================================
+// 2025 CYCLE: SHIFT 10 (18 Feb 2026 - 04:00 PM)
+// ==========================================
+const scienceQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'General Science');
+const mathsQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'Mathematics');
+const reasoningQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 export const RAILWAY_TESTS = [
   // ==========================================
@@ -1737,5 +1769,437 @@ export const RAILWAY_TESTS = [
     sections: ['General Intelligence & Reasoning'],
     sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S6.length} Questions)`,
     questions: reasoningQuestions2025S6.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // ==========================================
+  // SHIFT 7: 17 Feb 2026 (04:00 PM - 05:00 PM) • 2025 Cycle
+  // ==========================================
+  // 61. Full Mock Test (Shift 7)
+  {
+    id: 'rrb-alp-2025-cbt1-shift-7',
+    examYear: '2025',
+    title: 'RRB ALP 2025 Official Mock 07 (17 Feb Shift 3)',
+    subTitle: 'Official RRB ALP CBT-1 Question Paper (17/02/2026 • 04:00 PM - 05:00 PM)',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'full',
+    badge: 'Shift 7 • Official Paper',
+    badgeColor: 'blue',
+    shiftDate: '17/02/2026',
+    shiftTime: '04:00 PM - 05:00 PM',
+    shiftName: '17 Feb Shift 3',
+    durationMinutes: 60,
+    totalQuestions: 75,
+    maxMarks: 75,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: [
+      'General Science',
+      'Mathematics',
+      'General Intelligence & Reasoning'
+    ],
+    sectionCounts: {
+      'General Science': scienceQuestions2025S7.length,
+      'Mathematics': mathsQuestions2025S7.length,
+      'General Intelligence & Reasoning': reasoningQuestions2025S7.length
+    },
+    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S7.length}), Maths (${mathsQuestions2025S7.length}), Reasoning (${reasoningQuestions2025S7.length})`,
+    questions: alp2025Shift7Questions
+  },
+
+  // 62. Sectional Test - General Science & Current Affairs (2025 Shift 7)
+  {
+    id: 'rrb-alp-2025-sec-science-s7',
+    examYear: '2025',
+    title: 'RRB ALP 2025: General Science & GK Sectional (Shift 7)',
+    subTitle: 'Pure Science (Physics, Chemistry, Biology) & GK from 17 Feb Shift 3',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Science & GK',
+    badgeColor: 'teal',
+    shiftDate: '17/02/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '17 Feb Shift 3',
+    durationMinutes: 15,
+    totalQuestions: scienceQuestions2025S7.length,
+    maxMarks: scienceQuestions2025S7.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Science'],
+    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S7.length} Questions)`,
+    questions: scienceQuestions2025S7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 63. Sectional Test - Mathematics (2025 Shift 7)
+  {
+    id: 'rrb-alp-2025-sec-maths-s7',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Mathematics Sectional (Shift 7)',
+    subTitle: 'Pure Mathematics: Arithmetic, Algebra, Geometry, Mensuration & Trigonometry',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Maths',
+    badgeColor: 'indigo',
+    shiftDate: '17/02/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '17 Feb Shift 3',
+    durationMinutes: 25,
+    totalQuestions: mathsQuestions2025S7.length,
+    maxMarks: mathsQuestions2025S7.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S7.length} Questions)`,
+    questions: mathsQuestions2025S7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 64. Sectional Test - General Intelligence & Reasoning (2025 Shift 7)
+  {
+    id: 'rrb-alp-2025-sec-reasoning-s7',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Reasoning & Intelligence Sectional (Shift 7)',
+    subTitle: 'Pure Reasoning: Puzzles, Seating Arrangements, Coding-Decoding, Series & Direction',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Reasoning',
+    badgeColor: 'purple',
+    shiftDate: '17/02/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '17 Feb Shift 3',
+    durationMinutes: 35,
+    totalQuestions: reasoningQuestions2025S7.length,
+    maxMarks: reasoningQuestions2025S7.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S7.length} Questions)`,
+    questions: reasoningQuestions2025S7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // ==========================================
+  // SHIFT 8: 18 Feb 2026 (09:00 AM - 10:00 AM) • 2025 Cycle
+  // ==========================================
+  // 65. Full Mock Test (Shift 8)
+  {
+    id: 'rrb-alp-2025-cbt1-shift-8',
+    examYear: '2025',
+    title: 'RRB ALP 2025 Official Mock 08 (18 Feb Shift 1)',
+    subTitle: 'Official RRB ALP CBT-1 Question Paper (18/02/2026 • 09:00 AM - 10:00 AM)',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'full',
+    badge: 'Shift 8 • Official Paper',
+    badgeColor: 'blue',
+    shiftDate: '18/02/2026',
+    shiftTime: '09:00 AM - 10:00 AM',
+    shiftName: '18 Feb Shift 1',
+    durationMinutes: 60,
+    totalQuestions: 75,
+    maxMarks: 75,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: [
+      'General Science',
+      'Mathematics',
+      'General Intelligence & Reasoning'
+    ],
+    sectionCounts: {
+      'General Science': scienceQuestions2025S8.length,
+      'Mathematics': mathsQuestions2025S8.length,
+      'General Intelligence & Reasoning': reasoningQuestions2025S8.length
+    },
+    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S8.length}), Maths (${mathsQuestions2025S8.length}), Reasoning (${reasoningQuestions2025S8.length})`,
+    questions: alp2025Shift8Questions
+  },
+
+  // 66. Sectional Test - General Science & Current Affairs (2025 Shift 8)
+  {
+    id: 'rrb-alp-2025-sec-science-s8',
+    examYear: '2025',
+    title: 'RRB ALP 2025: General Science & GK Sectional (Shift 8)',
+    subTitle: 'Pure Science (Physics, Chemistry, Biology) & GK from 18 Feb Shift 1',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Science & GK',
+    badgeColor: 'teal',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '18 Feb Shift 1',
+    durationMinutes: 15,
+    totalQuestions: scienceQuestions2025S8.length,
+    maxMarks: scienceQuestions2025S8.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Science'],
+    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S8.length} Questions)`,
+    questions: scienceQuestions2025S8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 67. Sectional Test - Mathematics (2025 Shift 8)
+  {
+    id: 'rrb-alp-2025-sec-maths-s8',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Mathematics Sectional (Shift 8)',
+    subTitle: 'Pure Mathematics: Arithmetic, Algebra, Geometry, Mensuration & Trigonometry',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Maths',
+    badgeColor: 'indigo',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '18 Feb Shift 1',
+    durationMinutes: 25,
+    totalQuestions: mathsQuestions2025S8.length,
+    maxMarks: mathsQuestions2025S8.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S8.length} Questions)`,
+    questions: mathsQuestions2025S8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 68. Sectional Test - General Intelligence & Reasoning (2025 Shift 8)
+  {
+    id: 'rrb-alp-2025-sec-reasoning-s8',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Reasoning & Intelligence Sectional (Shift 8)',
+    subTitle: 'Pure Reasoning: Puzzles, Seating Arrangements, Coding-Decoding, Series & Direction',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Reasoning',
+    badgeColor: 'purple',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '18 Feb Shift 1',
+    durationMinutes: 35,
+    totalQuestions: reasoningQuestions2025S8.length,
+    maxMarks: reasoningQuestions2025S8.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S8.length} Questions)`,
+    questions: reasoningQuestions2025S8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // ==========================================
+  // SHIFT 9: 18 Feb 2026 (12:30 PM - 01:30 PM) • 2025 Cycle
+  // ==========================================
+  // 69. Full Mock Test (Shift 9)
+  {
+    id: 'rrb-alp-2025-cbt1-shift-9',
+    examYear: '2025',
+    title: 'RRB ALP 2025 Official Mock 09 (18 Feb Shift 2)',
+    subTitle: 'Official RRB ALP CBT-1 Question Paper (18/02/2026 • 12:30 PM - 01:30 PM)',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'full',
+    badge: 'Shift 9 • Official Paper',
+    badgeColor: 'blue',
+    shiftDate: '18/02/2026',
+    shiftTime: '12:30 PM - 01:30 PM',
+    shiftName: '18 Feb Shift 2',
+    durationMinutes: 60,
+    totalQuestions: 75,
+    maxMarks: 75,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: [
+      'General Science',
+      'Mathematics',
+      'General Intelligence & Reasoning'
+    ],
+    sectionCounts: {
+      'General Science': scienceQuestions2025S9.length,
+      'Mathematics': mathsQuestions2025S9.length,
+      'General Intelligence & Reasoning': reasoningQuestions2025S9.length
+    },
+    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S9.length}), Maths (${mathsQuestions2025S9.length}), Reasoning (${reasoningQuestions2025S9.length})`,
+    questions: alp2025Shift9Questions
+  },
+
+  // 70. Sectional Test - General Science & Current Affairs (2025 Shift 9)
+  {
+    id: 'rrb-alp-2025-sec-science-s9',
+    examYear: '2025',
+    title: 'RRB ALP 2025: General Science & GK Sectional (Shift 9)',
+    subTitle: 'Pure Science (Physics, Chemistry, Biology) & GK from 18 Feb Shift 2',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Science & GK',
+    badgeColor: 'teal',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 2',
+    shiftName: '18 Feb Shift 2',
+    durationMinutes: 15,
+    totalQuestions: scienceQuestions2025S9.length,
+    maxMarks: scienceQuestions2025S9.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Science'],
+    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S9.length} Questions)`,
+    questions: scienceQuestions2025S9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 71. Sectional Test - Mathematics (2025 Shift 9)
+  {
+    id: 'rrb-alp-2025-sec-maths-s9',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Mathematics Sectional (Shift 9)',
+    subTitle: 'Pure Mathematics: Arithmetic, Algebra, Geometry, Mensuration & Trigonometry',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Maths',
+    badgeColor: 'indigo',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 2',
+    shiftName: '18 Feb Shift 2',
+    durationMinutes: 25,
+    totalQuestions: mathsQuestions2025S9.length,
+    maxMarks: mathsQuestions2025S9.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S9.length} Questions)`,
+    questions: mathsQuestions2025S9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 72. Sectional Test - General Intelligence & Reasoning (2025 Shift 9)
+  {
+    id: 'rrb-alp-2025-sec-reasoning-s9',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Reasoning & Intelligence Sectional (Shift 9)',
+    subTitle: 'Pure Reasoning: Puzzles, Seating Arrangements, Coding-Decoding, Series & Direction',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Reasoning',
+    badgeColor: 'purple',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 2',
+    shiftName: '18 Feb Shift 2',
+    durationMinutes: 35,
+    totalQuestions: reasoningQuestions2025S9.length,
+    maxMarks: reasoningQuestions2025S9.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S9.length} Questions)`,
+    questions: reasoningQuestions2025S9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // ==========================================
+  // SHIFT 10: 18 Feb 2026 (04:00 PM - 05:00 PM) • 2025 Cycle
+  // ==========================================
+  // 73. Full Mock Test (Shift 10)
+  {
+    id: 'rrb-alp-2025-cbt1-shift-10',
+    examYear: '2025',
+    title: 'RRB ALP 2025 Official Mock 10 (18 Feb Shift 3)',
+    subTitle: 'Official RRB ALP CBT-1 Question Paper (18/02/2026 • 04:00 PM - 05:00 PM)',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'full',
+    badge: 'Shift 10 • Official Paper',
+    badgeColor: 'blue',
+    shiftDate: '18/02/2026',
+    shiftTime: '04:00 PM - 05:00 PM',
+    shiftName: '18 Feb Shift 3',
+    durationMinutes: 60,
+    totalQuestions: 75,
+    maxMarks: 75,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: [
+      'General Science',
+      'Mathematics',
+      'General Intelligence & Reasoning'
+    ],
+    sectionCounts: {
+      'General Science': scienceQuestions2025S10.length,
+      'Mathematics': mathsQuestions2025S10.length,
+      'General Intelligence & Reasoning': reasoningQuestions2025S10.length
+    },
+    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S10.length}), Maths (${mathsQuestions2025S10.length}), Reasoning (${reasoningQuestions2025S10.length})`,
+    questions: alp2025Shift10Questions
+  },
+
+  // 74. Sectional Test - General Science & Current Affairs (2025 Shift 10)
+  {
+    id: 'rrb-alp-2025-sec-science-s10',
+    examYear: '2025',
+    title: 'RRB ALP 2025: General Science & GK Sectional (Shift 10)',
+    subTitle: 'Pure Science (Physics, Chemistry, Biology) & GK from 18 Feb Shift 3',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Science & GK',
+    badgeColor: 'teal',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '18 Feb Shift 3',
+    durationMinutes: 15,
+    totalQuestions: scienceQuestions2025S10.length,
+    maxMarks: scienceQuestions2025S10.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Science'],
+    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S10.length} Questions)`,
+    questions: scienceQuestions2025S10.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 75. Sectional Test - Mathematics (2025 Shift 10)
+  {
+    id: 'rrb-alp-2025-sec-maths-s10',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Mathematics Sectional (Shift 10)',
+    subTitle: 'Pure Mathematics: Arithmetic, Algebra, Geometry, Mensuration & Trigonometry',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Maths',
+    badgeColor: 'indigo',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '18 Feb Shift 3',
+    durationMinutes: 25,
+    totalQuestions: mathsQuestions2025S10.length,
+    maxMarks: mathsQuestions2025S10.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S10.length} Questions)`,
+    questions: mathsQuestions2025S10.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 76. Sectional Test - General Intelligence & Reasoning (2025 Shift 10)
+  {
+    id: 'rrb-alp-2025-sec-reasoning-s10',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Reasoning & Intelligence Sectional (Shift 10)',
+    subTitle: 'Pure Reasoning: Puzzles, Seating Arrangements, Coding-Decoding, Series & Direction',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Reasoning',
+    badgeColor: 'purple',
+    shiftDate: '18/02/2026',
+    shiftTime: 'Shift 3',
+    shiftName: '18 Feb Shift 3',
+    durationMinutes: 35,
+    totalQuestions: reasoningQuestions2025S10.length,
+    maxMarks: reasoningQuestions2025S10.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S10.length} Questions)`,
+    questions: reasoningQuestions2025S10.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
   }
 ];
