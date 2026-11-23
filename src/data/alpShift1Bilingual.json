@@ -241,7 +241,7 @@
         "VR – MI"
       ],
       "hi": [
-        "PL – GC और F में से प्रत्येक के प्राप्तांक भिन्न-भिन्न हैं। E सबसे कम अंक प्राप्त करने वालों में दूसरे स्थान पर है। B",
+        "PL – GC",
         "EA – VR",
         "LH – CZ",
         "VR – MI"
@@ -1286,29 +1286,29 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "Seating Arrangement & Puzzles",
     "question": {
-      "en": "Seven people, E, F, G, H, W, X and Y, are sitting around a circular table, facing the centre of the table. Y is an immediate neighbour of both E and G. sits third to the left of F. X sits to the immediate left of F. W is not an immediate neighbour of G. Who sits second to the right of H?",
-      "hi": "सात व्यक्ति, E, F, G, H, W, X और Y, एक गोल मेज के परित: उसके कें द्र की ओर अभिमुख होकर बैठे हैं। E और दोनों का निकटतम पड़ोसी Y है। G, F के बाईं ओर तीसरे स्थान पर बैठा है। X, F के ठीक बाईं ओर पड़ाे स में बैठा है। W, का निकटतम पड़ोसी नहीं है। H के दाईं ओर दूसरे स्थान पर कौन बैठा है?"
+      "en": "Seven people, E, F, G, H, W, X and Y, are sitting around a circular table, facing the centre of the table. Y is an immediate neighbour of both E and G. G sits third to the left of F. X sits to the immediate left of F. W is not an immediate neighbour of G. Who sits second to the right of H?",
+      "hi": "सात व्यक्ति, E, F, G, H, W, X और Y, एक गोल मेज के परित: उसके केंद्र की ओर अभिमुख होकर बैठे हैं। E और G दोनों का निकटतम पड़ोसी Y है। G, F के बाईं ओर तीसरे स्थान पर बैठा है। X, F के ठीक बाईं ओर पड़ोस में बैठा है। W, G का निकटतम पड़ोसी नहीं है। H के दाईं ओर दूसरे स्थान पर कौन बैठा है?"
     },
     "options": {
       "en": [
         "E",
         "F",
         "W",
-        ""
+        "G"
       ],
       "hi": [
-        "B. F",
-        "",
+        "E",
+        "F",
         "W",
-        "E"
+        "G"
       ]
     },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Seating Arrangement & Puzzles (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (F). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प B ()। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (F). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प B (F)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1351,7 +1351,7 @@
     "topic": "Trigonometry",
     "question": {
       "en": "In a circle of radius 17 cm, a chord is at a distance of 8 cm from its centre. What is the length (in cm) of the chord?",
-      "hi": "Ans 17 cm त्रिज्या वाले किसी वृत्त में, एक जीवा इसके कें द्र से 8 cm की दूरी पर है। जीवा की लंबाई (cm में) कितनी होगी? A. 30 B. 35 C. 40 D. 25"
+      "hi": "17 cm त्रिज्या वाले किसी वृत्त में, एक जीवा इसके केंद्र से 8 cm की दूरी पर है। जीवा की लंबाई (cm में) कितनी होगी?"
     },
     "options": {
       "en": [
@@ -1361,18 +1361,18 @@
         "30"
       ],
       "hi": [
-        "",
-        "",
+        "40",
+        "35",
         "25",
-        ""
+        "30"
       ]
     },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
-      "en": "Correct Answer: Option D (30). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प D ()। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (30). Half-chord = √(17² - 8²) = 15 cm. Full chord length = 2 × 15 = 30 cm.",
+      "hi": "सही उत्तर: विकल्प D (30)। 17 cm त्रिज्या और 8 cm केंद्र से दूरी पर जीवा की आधी लंबाई = √(17² - 8²) = 15 cm। अतः जीवा की कुल लंबाई = 2 × 15 = 30 cm।"
     }
   },
   {
@@ -1651,7 +1651,7 @@
       "hi": [
         "6",
         "5",
-        "7 एक निश्चित तर्क का अनुसरण करते हुए 14 का संबंध 70 से है। उसी तर्क का अनुसरण करते हुए, 22 का संबंध 110 से",
+        "7",
         "8"
       ]
     },
@@ -2246,29 +2246,29 @@
     "subject": "Mathematics",
     "topic": "Logical & Analytical Reasoning",
     "question": {
-      "en": "Evaluate the following.",
-      "hi": "निम्नलिखित का मान ज्ञात कीजिए।"
+      "en": "Evaluate the following: 2 + (sin A + cosec A)² + (cos A + sec A)²",
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: 2 + (sin A + cosec A)² + (cos A + sec A)²"
     },
     "options": {
       "en": [
-        "7 + tan2A + cot2A",
-        "9 + tan2A + cot2A",
-        "5 + tan2A + cot2A",
-        "tan2A + cot2A"
+        "7 + tan²A + cot²A",
+        "9 + tan²A + cot²A",
+        "5 + tan²A + cot²A",
+        "tan²A + cot²A"
       ],
       "hi": [
-        "7 + tan2A + cot2A",
-        "9 + tan2A + cot2A",
-        "5 + tan2A + cot2A",
-        "tan2A + cot2A"
+        "7 + tan²A + cot²A",
+        "9 + tan²A + cot²A",
+        "5 + tan²A + cot²A",
+        "tan²A + cot²A"
       ]
     },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (9 + tan2A + cot2A). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प B (9 + tan2A + cot2A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (9 + tan²A + cot²A). Expansion gives 2 + sin²A + cosec²A + 2 + cos²A + sec²A + 2 = 6 + (sin²A + cos²A) + (1 + cot²A) + (1 + tan²A) = 9 + tan²A + cot²A.",
+      "hi": "सही उत्तर: विकल्प B (9 + tan²A + cot²A)। 2 + (sin²A + cosec²A + 2) + (cos²A + sec²A + 2) = 6 + 1 + (1 + cot²A) + (1 + tan²A) = 9 + tan²A + cot²A।"
     }
   },
   {

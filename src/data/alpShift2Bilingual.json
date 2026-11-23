@@ -551,28 +551,28 @@
     "topic": "Mathematics - Shift 2",
     "question": {
       "en": "You want to design a cube-based art sculpture with a total visible surface area of 150 square centimeters. If only three faces of the cube will be visible, what should be the edge length of the cube (in centimeters)?",
-      "hi": "150 वर्ग सेंटीमीटर के कु ल दृश्य पृष्ठीय क्षेत्रफल वाली एक घनाकार कलाकृ ति का निर्माण किया जाना है। यदि घन के के वल तीन फलक ही दृश्य हों, तो घन के कोर की लंबाई (सेंटीमीटर में) क्या होनी चाहिए?"
+      "hi": "150 वर्ग सेंटीमीटर के कुल दृश्य पृष्ठीय क्षेत्रफल वाली एक घनाकार कलाकृति का निर्माण किया जाना है। यदि घन के केवल तीन फलक ही दृश्य हों, तो घन के कोर की लंबाई (सेंटीमीटर में) क्या होनी चाहिए?"
     },
     "options": {
       "en": [
-        "B.",
-        "",
-        "D.",
-        ""
+        "5",
+        "2√5",
+        "5√2",
+        "7√2"
       ],
       "hi": [
-        "B.",
-        "",
-        "D.",
-        ""
+        "5",
+        "2√5",
+        "5√2",
+        "7√2"
       ]
     },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Mathematics (03 Nov 2026 Shift 2)",
-      "en": "Correct Answer: Option C (D.). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (D.)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (5√2). Total visible area of 3 faces = 3a² = 150 => a² = 50 => a = √50 = 5√2 cm.",
+      "hi": "सही उत्तर: विकल्प C (5√2)। 3 फलकों का क्षेत्रफल = 3a² = 150 => a² = 50 => a = 5√2 cm।"
     }
   },
   {
@@ -710,29 +710,29 @@
     "subject": "General Science & Current Affairs",
     "topic": "General Science - Shift 2",
     "question": {
-      "en": "Ans Why might a classroom with bare walls and a tiled floor have more reverberation compared to one with carpets and curtains? A. Thicker walls trap more sound, causing echoes B. Hard surfaces reflect more sound, increasing reverberation C. Larger rooms always cause more reverberation D. Student noise is amplified by the room",
-      "hi": "कालीन और पर्दों वाले कक्षाकक्ष की तुलना में, सादी दीवारों (bare walls) और टाइल लगे फर्श वाले कक्षाकक्ष में अधिक अनुरणन क्यों हो सकता है?"
+      "en": "Why might a classroom with bare walls and a tiled floor have more reverberation compared to one with carpets and curtains?",
+      "hi": "कालीनों और पर्दों वाले कक्षा-कक्ष की तुलना में नंगी दीवारों और टाइल वाले फर्श वाले कक्षा-कक्ष में अधिक अनुरणन (reverberation) क्यों हो सकता है?"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "Thicker walls trap more sound, causing echoes",
+        "Hard surfaces reflect more sound, increasing reverberation",
+        "Larger rooms always cause more reverberation",
+        "Student noise is amplified by the room"
       ],
       "hi": [
-        "बड़े कक्षों में सदैव अधिक अनुरणन होता है",
-        "कठोर सतहें ध्वनि को अधिक परावर्तित (reflect) करती हैं, जिससे अनुरणन बढ़ता है",
-        "मोटी दीवारें अधिक ध्वनि ट्रैप (trap) करती हैं, जिससे प्रतिध्वनि उत्पन्न होते हैं",
-        "विद्यार्थियों के रव, कक्ष द्वारा प्रवर्धित (amplified) हो जाते हैं"
+        "मोटी दीवारें अधिक ध्वनि को रोकती हैं जिससे प्रतिध्वनि उत्पन्न होती है",
+        "कठोर सतहें अधिक ध्वनि परावर्तित करती हैं, जिससे अनुरणन बढ़ जाता है",
+        "बड़े कमरे हमेशा अधिक अनुरणन उत्पन्न करते हैं",
+        "कमरे द्वारा विद्यार्थियों का शोर बढ़ जाता है"
       ]
     },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Science (03 Nov 2026 Shift 2)",
-      "en": "Correct Answer: Option B (). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (कठोर सतहें ध्वनि को अधिक परावर्तित (reflect) करती हैं, जिससे अनुरणन बढ़ता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Hard surfaces reflect more sound, increasing reverberation).",
+      "hi": "सही उत्तर: विकल्प B (कठोर सतहें अधिक ध्वनि परावर्तित करती हैं, जिससे अनुरणन बढ़ जाता है)।"
     }
   },
   {
@@ -787,7 +787,7 @@
       "hi": [
         "IF−BY",
         "TQ−LL",
-        "LI−EB उस युग्म का चयन कीजिए जो नीचे दिए गए युग्मों के समान पैटर्न का अनुसरण करता है। दोनों युग्म समान पैटर्न का",
+        "LI−EB",
         "NK−GD"
       ]
     },
@@ -1542,29 +1542,29 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning - Shift 2",
     "question": {
-      "en": "Each vowel in the word TRASHED is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. Which of the following letters will be third from the left in the new group of letters thus formed?3111",
-      "hi": "शब्द TRASHED के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से प्रतिस्‍थापित कर दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर से प्रतिस्‍थापित कर दिया जाता है। इस प्रकार बने अक्षरों के नए समूह में निम्नलिखित में से कौन-सा अक्षर, बाएं से तीसरा होगा?"
+      "en": "Each vowel in the word TRASHED is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. Which of the following letters will be third from the left in the new group of letters thus formed?",
+      "hi": "शब्द TRASHED के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से प्रतिस्थापित कर दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर से प्रतिस्थापित कर दिया जाता है। इस प्रकार बने अक्षरों के नए समूह में निम्नलिखित में से कौन-सा अक्षर, बाएं से तीसरा होगा?"
     },
     "options": {
       "en": [
         "Q",
         "R",
-        "D. B",
-        ""
+        "G",
+        "B"
       ],
       "hi": [
         "Q",
         "R",
-        "B",
-        ""
+        "G",
+        "B"
       ]
     },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 2)",
-      "en": "Correct Answer: Option D (). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D ()। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (B). T->S, R->Q, A->B, S->R, H->G, E->F, D->C. The 3rd letter is B.",
+      "hi": "सही उत्तर: विकल्प D (B)। T->S, R->Q, A->B. अतः बाएं से तीसरा अक्षर B होगा।"
     }
   },
   {
@@ -2023,7 +2023,7 @@
     "topic": "General Intelligence & Reasoning - Shift 2",
     "question": {
       "en": "What should come in place of ‘?’ in the given series? 235 172 141 126 119 ?",
-      "hi": "Ans दी गई श्रृंखला में '?' के स्थान पर क्या आना चाहिए? 235 172 141 126 119 ? A. 116 B. 121 C. 115 D. 120"
+      "hi": "दी गई श्रृंखला में '?' के स्थान पर क्या आना चाहिए? 235 172 141 126 119 ?"
     },
     "options": {
       "en": [
@@ -2033,18 +2033,18 @@
         "115"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "121",
+        "120",
+        "116",
+        "115"
       ]
     },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 2)",
-      "en": "Correct Answer: Option C (116). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C ()। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (116). Series of differences: 63, 31, 15, 7, 3 (pattern 2^k - 1). 119 - 3 = 116.",
+      "hi": "सही उत्तर: विकल्प C (116)। अंतर की श्रृंखला: 63, 31, 15, 7, 3। अतः 119 - 3 = 116।"
     }
   },
   {
@@ -2258,7 +2258,7 @@
       ],
       "hi": [
         "तीन",
-        "चार ₹5,000 की धनराशि एक सावधि जमा खाते में 6% वार्षिक चक्रवृद्धि ब्याज की दर पर 3 वर्षों के लिए जमा की जाती है जबकि",
+        "चार",
         "एक",
         "दो"
       ]
