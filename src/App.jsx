@@ -8,19 +8,76 @@ import SuperCoachingView from './components/SuperCoachingView';
 import DailyQuizCard from './components/DailyQuizCard';
 import SyllabusView from './components/SyllabusView';
 import Footer from './components/Footer';
+import AdBanner from './components/AdBanner';
+import LegalModal from './components/LegalModal';
+import AffiliateBooksSection from './components/AffiliateBooksSection';
+import PaidPdfBundleModal from './components/PaidPdfBundleModal';
+import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
-  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText
+  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock
 } from 'lucide-react';
 
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+  componentDidCatch(error, errorInfo) {
+    console.error("Application Crash Caught:", error, errorInfo);
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="min-h-screen bg-slate-950 text-white flex flex-col items-center justify-center p-6 text-center">
+          <div className="w-16 h-16 rounded-2xl bg-rose-500/20 text-rose-400 flex items-center justify-center mb-4 text-2xl font-black">
+            !
+          </div>
+          <h1 className="text-xl font-bold">कुछ समस्या आई (Something went wrong)</h1>
+          <p className="text-xs text-slate-400 mt-2 max-w-md">
+            कृपया पेज को रीलोड करें या सुरक्षित रूप से टेस्ट पुनः प्रारंभ करें।
+          </p>
+          <div className="flex gap-3 mt-6">
+            <button 
+              onClick={() => { localStorage.removeItem('cbt_active_session'); window.location.reload(); }}
+              className="px-6 py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs cursor-pointer shadow-lg shadow-teal-950"
+            >
+              Reload Application
+            </button>
+            <button 
+              onClick={() => { localStorage.clear(); window.location.reload(); }}
+              className="px-6 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs border border-slate-700 cursor-pointer"
+            >
+              Clear Cache & Reset
+            </button>
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 export default function App() {
-  const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz'
+  const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz' | 'books'
   const [selectedLang, setSelectedLang] = useState('hi');
   const [yearFilter, setYearFilter] = useState('all'); // 'all' | '2026' | '2025'
   const [testFilter, setTestFilter] = useState('all'); // 'all' | 'official' | 'sectional'
   const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | specific shift
   const [isPassProOpen, setIsPassProOpen] = useState(false);
+  const [isPdfModalOpen, setIsPdfModalOpen] = useState(false);
+  const [legalModalTab, setLegalModalTab] = useState(null);
+  const [hasPassPro, setHasPassPro] = useState(() => {
+    try {
+      return localStorage.getItem('railwayprep_pass_pro_active') === 'true';
+    } catch (e) {
+      return false;
+    }
+  });
   const [activeTest, setActiveTest] = useState(null);
   const [testResult, setTestResult] = useState(null);
   const [savedSession, setSavedSession] = useState(null);
@@ -64,7 +121,20 @@ export default function App() {
     return matchesCategory && matchesShift;
   });
 
+  const isTestFree = (test) => {
+    if (!MONETIZATION_CONFIG.payments.enablePaywall || hasPassPro) return true;
+    const isShift1 = test.shiftName === '03 Nov Shift 1' || 
+                     test.shiftName === '13 Feb Shift 1' || 
+                     test.id?.includes('shift-1') || 
+                     test.id?.includes('shift1');
+    return isShift1;
+  };
+
   const handleStartMock = (test = RAILWAY_TESTS[0], lang = selectedLang) => {
+    if (!isTestFree(test)) {
+      setIsPassProOpen(true);
+      return;
+    }
     try {
       localStorage.removeItem('railwayprep_active_test_session');
     } catch (e) {}
@@ -101,7 +171,8 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#070B18] text-slate-100 flex flex-col font-['Plus_Jakarta_Sans',sans-serif]">
+    <ErrorBoundary>
+      <div className="min-h-screen bg-[#070B18] text-slate-100 flex flex-col font-['Plus_Jakarta_Sans',sans-serif]">
       {/* Top Navigation */}
       <Navbar
         activeTab={activeTab}
@@ -122,8 +193,17 @@ export default function App() {
               onOpenPassPro={() => setIsPassProOpen(true)}
             />
 
+            {/* High-Converting Ad & Study Material Banner */}
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <AdBanner 
+                slot="header" 
+                onOpenPassPro={() => setIsPassProOpen(true)} 
+                onOpenPdfModal={() => setIsPdfModalOpen(true)} 
+              />
+            </div>
+
             {/* Test Series Section on Home */}
-            <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
               <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
                 <div>
                   <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-xs font-bold uppercase mb-2">
@@ -141,14 +221,14 @@ export default function App() {
                 <div className="flex items-center gap-3">
                   <button
                     onClick={() => setActiveTab('syllabus')}
-                    className="text-xs font-bold text-sky-400 hover:text-sky-300 flex items-center gap-1 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800"
+                    className="text-xs font-bold text-sky-400 hover:text-sky-300 flex items-center gap-1 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800 cursor-pointer"
                   >
                     <FileText className="w-3.5 h-3.5" />
                     <span>View Exam Syllabus</span>
                   </button>
                   <button
                     onClick={() => setActiveTab('mock-tests')}
-                    className="text-xs font-bold text-teal-400 hover:text-teal-300 flex items-center gap-1.5"
+                    className="text-xs font-bold text-teal-400 hover:text-teal-300 flex items-center gap-1.5 cursor-pointer"
                   >
                     <span>View All Tests</span>
                     <ArrowRight className="w-4 h-4" />
@@ -217,69 +297,101 @@ export default function App() {
 
               {/* Test Cards Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredTests.map((test) => (
-                  <div
-                    key={test.id}
-                    className="p-6 rounded-3xl bg-slate-900/70 border border-slate-800 hover:border-teal-500/50 hover:bg-slate-900 transition-all shadow-xl group flex flex-col justify-between"
-                  >
-                    <div>
-                      <div className="flex items-center justify-between mb-3">
-                        <span className={`text-[11px] font-extrabold uppercase px-2.5 py-1 rounded-full border ${
-                          test.badgeColor === 'teal' 
-                            ? 'bg-teal-500/20 text-teal-300 border-teal-500/40'
-                            : test.badgeColor === 'indigo'
-                            ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
-                            : test.badgeColor === 'purple'
-                            ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
-                            : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
-                        }`}>
-                          {test.badge}
-                        </span>
-                        <span className="text-xs text-slate-400 font-semibold">
-                          {test.shiftTime || 'Free CBT'}
-                        </span>
-                      </div>
-
-                      <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-teal-300 transition-colors line-clamp-2">
-                        {test.title}
-                      </h3>
-
-                      <div className="grid grid-cols-3 gap-2 py-4 my-4 border-y border-slate-800/80 text-center text-xs">
-                        <div>
-                          <div className="text-slate-400 text-[10px]">Questions</div>
-                          <div className="font-bold text-white mt-0.5">{test.totalQuestions} Qs</div>
-                        </div>
-                        <div>
-                          <div className="text-slate-400 text-[10px]">Max Marks</div>
-                          <div className="font-bold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
-                        </div>
-                        <div>
-                          <div className="text-slate-400 text-[10px]">Time</div>
-                          <div className="font-bold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
-                        </div>
-                      </div>
-
-                      <div className="text-[11px] text-slate-400 space-y-1">
-                        <div className="flex items-center gap-1.5">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-teal-400" />
-                          <span className="text-teal-300 font-medium">{test.sectionSummary || 'Official Railway CBT Pattern'}</span>
-                        </div>
-                        <div className="flex items-center gap-1.5">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-teal-400" />
-                          <span>Marking: +1.00 / Negative: -0.33</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <button
-                      onClick={() => handleStartMock(test)}
-                      className="mt-6 w-full py-3 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-teal-950 transition-all cursor-pointer"
+                {filteredTests.map((test) => {
+                  const free = isTestFree(test);
+                  return (
+                    <div
+                      key={test.id}
+                      className={`p-6 rounded-3xl bg-slate-900/70 border transition-all shadow-xl group flex flex-col justify-between ${
+                        !free && !hasPassPro ? 'border-amber-500/20 hover:border-amber-500/50' : 'border-slate-800 hover:border-teal-500/50 hover:bg-slate-900'
+                      }`}
                     >
-                      <Play className="w-4 h-4 fill-slate-950" />
-                      <span>Attempt Free CBT Mock Test Now</span>
-                    </button>
-                  </div>
-                ))}
+                      <div>
+                        <div className="flex items-center justify-between mb-3">
+                          <div className="flex items-center gap-1.5 flex-wrap">
+                            <span className={`text-[11px] font-extrabold uppercase px-2.5 py-1 rounded-full border ${
+                              test.badgeColor === 'teal' 
+                                ? 'bg-teal-500/20 text-teal-300 border-teal-500/40'
+                                : test.badgeColor === 'indigo'
+                                ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
+                                : test.badgeColor === 'purple'
+                                ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
+                                : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+                            }`}>
+                              {test.badge}
+                            </span>
+                            {hasPassPro ? (
+                              <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
+                                <Crown className="w-3 h-3 fill-amber-300" />
+                                <span>UNLOCKED</span>
+                              </span>
+                            ) : free ? (
+                              <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
+                                FREE DEMO
+                              </span>
+                            ) : (
+                              <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
+                                <Lock className="w-3 h-3" />
+                                <span>PASS PRO</span>
+                              </span>
+                            )}
+                          </div>
+                          <span className="text-xs text-slate-400 font-semibold">
+                            {test.shiftTime || 'CBT MOCK'}
+                          </span>
+                        </div>
+
+                        <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-teal-300 transition-colors line-clamp-2">
+                          {test.title}
+                        </h3>
+
+                        <div className="grid grid-cols-3 gap-2 py-4 my-4 border-y border-slate-800/80 text-center text-xs">
+                          <div>
+                            <div className="text-slate-400 text-[10px]">Questions</div>
+                            <div className="font-bold text-white mt-0.5">{test.totalQuestions} Qs</div>
+                          </div>
+                          <div>
+                            <div className="text-slate-400 text-[10px]">Max Marks</div>
+                            <div className="font-bold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
+                          </div>
+                          <div>
+                            <div className="text-slate-400 text-[10px]">Time</div>
+                            <div className="font-bold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
+                          </div>
+                        </div>
+
+                        <div className="text-[11px] text-slate-400 space-y-1">
+                          <div className="flex items-center gap-1.5">
+                            <CheckCircle2 className="w-3.5 h-3.5 text-teal-400" />
+                            <span className="text-teal-300 font-medium">{test.sectionSummary || 'Official Railway CBT Pattern'}</span>
+                          </div>
+                          <div className="flex items-center gap-1.5">
+                            <CheckCircle2 className="w-3.5 h-3.5 text-teal-400" />
+                            <span>Marking: +1.00 / Negative: -0.33</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      {!free && !hasPassPro ? (
+                        <button
+                          onClick={() => setIsPassProOpen(true)}
+                          className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-950/40 transition-all cursor-pointer"
+                        >
+                          <Lock className="w-4 h-4" />
+                          <span>Unlock with Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice})</span>
+                        </button>
+                      ) : (
+                        <button
+                          onClick={() => handleStartMock(test)}
+                          className="mt-6 w-full py-3 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-teal-950 transition-all cursor-pointer"
+                        >
+                          <Play className="w-4 h-4 fill-slate-950" />
+                          <span>Attempt CBT Mock Test Now</span>
+                        </button>
+                      )}
+                    </div>
+                  );
+                })}
 
                 {/* Card 2: Pass Pro Upgrade Card */}
                 <div className="p-6 rounded-3xl bg-gradient-to-b from-amber-500/10 via-slate-900 to-slate-950 border border-amber-500/40 shadow-xl flex flex-col justify-between text-center">
@@ -400,89 +512,130 @@ export default function App() {
               </div>
             </div>
 
+            {/* High-Impact Monetization Banner */}
+            <AdBanner 
+              slot="header" 
+              onOpenPassPro={() => setIsPassProOpen(true)} 
+              onOpenPdfModal={() => setIsPdfModalOpen(true)} 
+            />
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredTests.map(test => (
-                <div 
-                  key={test.id} 
-                  className="p-6 rounded-3xl bg-slate-900/80 border border-slate-800 hover:border-teal-500/50 hover:bg-slate-900 transition-all shadow-xl flex flex-col justify-between group"
-                >
-                  <div>
-                    <div className="flex justify-between items-center mb-3">
-                      <span className={`text-[11px] font-extrabold uppercase px-2.5 py-0.5 rounded-full border ${
-                        test.badgeColor === 'teal' 
-                          ? 'bg-teal-500/20 text-teal-300 border-teal-500/40'
-                          : test.badgeColor === 'indigo'
-                          ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
-                          : test.badgeColor === 'purple'
-                          ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
-                          : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
-                      }`}>
-                        {test.badge}
-                      </span>
-                      <span className="text-xs font-semibold text-slate-400">
-                        {test.shiftTime || 'TCS iON CBT'}
-                      </span>
+              {filteredTests.map(test => {
+                const free = isTestFree(test);
+                return (
+                  <div 
+                    key={test.id} 
+                    className={`p-6 rounded-3xl bg-slate-900/80 border transition-all shadow-xl flex flex-col justify-between group ${
+                      !free && !hasPassPro ? 'border-amber-500/20 hover:border-amber-500/50' : 'border-slate-800 hover:border-teal-500/50 hover:bg-slate-900'
+                    }`}
+                  >
+                    <div>
+                      <div className="flex justify-between items-center mb-3">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span className={`text-[11px] font-extrabold uppercase px-2.5 py-0.5 rounded-full border ${
+                            test.badgeColor === 'teal' 
+                              ? 'bg-teal-500/20 text-teal-300 border-teal-500/40'
+                              : test.badgeColor === 'indigo'
+                              ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
+                              : test.badgeColor === 'purple'
+                              ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
+                              : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+                          }`}>
+                            {test.badge}
+                          </span>
+                          {hasPassPro ? (
+                            <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
+                              <Crown className="w-3 h-3 fill-amber-300" />
+                              <span>PRO UNLOCKED</span>
+                            </span>
+                          ) : free ? (
+                            <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
+                              FREE DEMO
+                            </span>
+                          ) : (
+                            <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
+                              <Lock className="w-3 h-3" />
+                              <span>PASS PRO</span>
+                            </span>
+                          )}
+                        </div>
+                        <span className="text-xs font-semibold text-slate-400">
+                          {test.shiftTime || 'TCS iON CBT'}
+                        </span>
+                      </div>
+
+                      <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-teal-300 transition-colors mb-1.5">
+                        {test.title}
+                      </h3>
+                      <p className="text-xs text-slate-400 mb-4 line-clamp-2">
+                        {test.subTitle}
+                      </p>
+
+                      {/* Stats Grid */}
+                      <div className="grid grid-cols-3 gap-2 py-3 px-2 rounded-xl bg-slate-950/60 border border-slate-800/80 text-center text-xs mb-4">
+                        <div>
+                          <div className="text-slate-400 text-[10px]">Questions</div>
+                          <div className="font-extrabold text-white mt-0.5">{test.totalQuestions} Qs</div>
+                        </div>
+                        <div>
+                          <div className="text-slate-400 text-[10px]">Max Marks</div>
+                          <div className="font-extrabold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
+                        </div>
+                        <div>
+                          <div className="text-slate-400 text-[10px]">Duration</div>
+                          <div className="font-extrabold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
+                        </div>
+                      </div>
+
+                      {/* Features list */}
+                      <div className="text-[11px] text-slate-400 space-y-1.5 mb-5">
+                        <div className="flex items-center gap-2">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+                          <span className="text-teal-300 font-semibold">{test.sectionSummary}</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+                          <span>Bilingual (English & हिन्दी with per-question toggle)</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+                          <span>Negative: -{test.negativeMarks} mark • Positive: +{test.positiveMarks}</span>
+                        </div>
+                      </div>
                     </div>
 
-                    <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-teal-300 transition-colors mb-1.5">
-                      {test.title}
-                    </h3>
-                    <p className="text-xs text-slate-400 mb-4 line-clamp-2">
-                      {test.subTitle}
-                    </p>
-
-                    {/* Stats Grid */}
-                    <div className="grid grid-cols-3 gap-2 py-3 px-2 rounded-xl bg-slate-950/60 border border-slate-800/80 text-center text-xs mb-4">
-                      <div>
-                        <div className="text-slate-400 text-[10px]">Questions</div>
-                        <div className="font-extrabold text-white mt-0.5">{test.totalQuestions} Qs</div>
+                    {/* Action Buttons: Free vs Locked with Pass Pro */}
+                    {!free && !hasPassPro ? (
+                      <div className="pt-2 border-t border-slate-800">
+                        <button
+                          onClick={() => setIsPassProOpen(true)}
+                          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-xs shadow-md shadow-amber-500/20 hover:scale-[1.01] active:scale-98 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                        >
+                          <Lock className="w-3.5 h-3.5" />
+                          <span>Unlock with Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice})</span>
+                        </button>
                       </div>
-                      <div>
-                        <div className="text-slate-400 text-[10px]">Max Marks</div>
-                        <div className="font-extrabold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
+                    ) : (
+                      <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
+                        <button
+                          onClick={() => handleStartMock(test, 'hi')}
+                          className="py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950/50 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                        >
+                          <Play className="w-3.5 h-3.5 fill-slate-950" />
+                          <span>हिंदी में दें</span>
+                        </button>
+                        <button
+                          onClick={() => handleStartMock(test, 'en')}
+                          className="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 hover:text-white font-bold text-xs border border-slate-700 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                        >
+                          <Globe className="w-3.5 h-3.5" />
+                          <span>In English</span>
+                        </button>
                       </div>
-                      <div>
-                        <div className="text-slate-400 text-[10px]">Duration</div>
-                        <div className="font-extrabold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
-                      </div>
-                    </div>
-
-                    {/* Features list */}
-                    <div className="text-[11px] text-slate-400 space-y-1.5 mb-5">
-                      <div className="flex items-center gap-2">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                        <span className="text-teal-300 font-semibold">{test.sectionSummary}</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                        <span>Bilingual (English & हिन्दी with per-question toggle)</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                        <span>Negative: -{test.negativeMarks} mark • Positive: +{test.positiveMarks}</span>
-                      </div>
-                    </div>
+                    )}
                   </div>
-
-                  {/* Dual Start Buttons: Hindi vs English default */}
-                  <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
-                    <button
-                      onClick={() => handleStartMock(test, 'hi')}
-                      className="py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950/50 transition-all flex items-center justify-center gap-1.5"
-                    >
-                      <Play className="w-3.5 h-3.5 fill-slate-950" />
-                      <span>हिंदी में दें</span>
-                    </button>
-                    <button
-                      onClick={() => handleStartMock(test, 'en')}
-                      className="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 hover:text-white font-bold text-xs border border-slate-700 transition-all flex items-center justify-center gap-1.5"
-                    >
-                      <Globe className="w-3.5 h-3.5" />
-                      <span>In English</span>
-                    </button>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         )}
@@ -503,10 +656,17 @@ export default function App() {
             <DailyQuizCard onStartMock={() => handleStartMock(RAILWAY_TESTS[0])} />
           </div>
         )}
+
+        {activeTab === 'books' && (
+          <AffiliateBooksSection />
+        )}
       </main>
 
-      {/* Footer */}
-      <Footer onOpenPassPro={() => setIsPassProOpen(true)} />
+      {/* Footer with Legal & Compliance */}
+      <Footer 
+        onOpenPassPro={() => setIsPassProOpen(true)} 
+        onOpenLegalModal={(tab) => setLegalModalTab(tab)}
+      />
 
       {/* CBT Mock Test Simulator Modal (with session persistence & refresh protection) */}
       {activeTest && (
@@ -519,19 +679,37 @@ export default function App() {
         />
       )}
 
-      {/* Test Result Scorecard Modal */}
+      {/* Test Result Scorecard Modal with AdSlot */}
       {testResult && (
         <TestResultModal
           result={testResult}
           onClose={() => setTestResult(null)}
           onRetake={handleRetakeTest}
+          onOpenPassPro={() => setIsPassProOpen(true)}
         />
       )}
 
       {/* Pass Pro Subscription Modal */}
       {isPassProOpen && (
-        <PassProModal onClose={() => setIsPassProOpen(false)} />
+        <PassProModal 
+          onClose={() => setIsPassProOpen(false)} 
+          onUnlockSuccess={() => setHasPassPro(true)}
+        />
+      )}
+
+      {/* Paid PDF Bundle Modal */}
+      {isPdfModalOpen && (
+        <PaidPdfBundleModal onClose={() => setIsPdfModalOpen(false)} />
+      )}
+
+      {/* Legal & Compliance Modal (AdSense Required) */}
+      {legalModalTab && (
+        <LegalModal 
+          initialTab={legalModalTab} 
+          onClose={() => setLegalModalTab(null)} 
+        />
       )}
     </div>
+    </ErrorBoundary>
   );
 }

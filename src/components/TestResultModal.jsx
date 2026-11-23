@@ -5,8 +5,9 @@ import {
   RotateCcw, ArrowRight, Eye, ChevronDown, ChevronUp, Share2, Award,
   Globe, Check, X, HelpCircle, BookOpen, Layers, BarChart3, Filter
 } from 'lucide-react';
+import AdBanner from './AdBanner';
 
-export default function TestResultModal({ result, onClose, onRetake }) {
+export default function TestResultModal({ result, onClose, onRetake, onOpenPassPro }) {
   const { test, answers, timeTakenSeconds } = result;
   
   // Tabs: 'overview' | 'solutions'
@@ -170,6 +171,9 @@ export default function TestResultModal({ result, onClose, onRetake }) {
             <div className="text-[10px] text-slate-400 font-medium mt-0.5">Avg ~{Math.round(timeTakenSeconds / test.questions.length)}s / question</div>
           </div>
         </div>
+
+        {/* High-Converting Monetization / AdSlot */}
+        <AdBanner slot="result" onOpenPassPro={onOpenPassPro} />
 
         {/* Tab Switcher: Overview vs Detailed Solutions */}
         <div className="flex border-b border-slate-800 mb-6">

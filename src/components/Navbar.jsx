@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { 
   Train, Sparkles, Crown, Search, Globe, ChevronDown, 
-  Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText
+  Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText, ShoppingBag
 } from 'lucide-react';
+import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 
 export default function Navbar({ 
   activeTab, 
@@ -135,6 +136,13 @@ export default function Navbar({
               <Zap className="w-4 h-4 text-amber-400" />
               Daily Quiz
             </button>
+            <button 
+              onClick={() => setActiveTab('books')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'books' ? 'text-amber-400 bg-amber-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+            >
+              <ShoppingBag className="w-4 h-4 text-amber-400" />
+              Best Books
+            </button>
           </nav>
 
           {/* Right Action buttons */}
@@ -142,7 +150,7 @@ export default function Navbar({
             {/* Language toggle */}
             <button
               onClick={() => setSelectedLang(selectedLang === 'hi' ? 'en' : 'hi')}
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700/80 text-xs font-semibold text-slate-300 hover:text-white transition-colors"
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700/80 text-xs font-semibold text-slate-300 hover:text-white transition-colors cursor-pointer"
               title="Toggle Language / भाषा बदलें"
             >
               <Globe className="w-3.5 h-3.5 text-teal-400" />
@@ -156,7 +164,7 @@ export default function Navbar({
             >
               <Crown className="w-3.5 h-3.5 fill-slate-950" />
               <span>PASS PRO</span>
-              <span className="bg-slate-950/20 px-1 py-0.2 rounded text-[10px]">₹49</span>
+              <span className="bg-slate-950/20 px-1 py-0.2 rounded text-[10px]">₹{MONETIZATION_CONFIG.payments.passProPrice}</span>
             </button>
 
             {/* Mobile menu toggle */}
@@ -204,13 +212,19 @@ export default function Navbar({
           >
             ⚡ Daily Speed Quizzes
           </button>
+          <button 
+            onClick={() => { setActiveTab('books'); setMobileMenuOpen(false); }}
+            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-amber-300 hover:bg-slate-800"
+          >
+            📚 Best Recommended Books
+          </button>
           <div className="pt-2">
             <button
               onClick={() => { onOpenPassPro(); setMobileMenuOpen(false); }}
-              className="w-full py-2.5 rounded-lg bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-bold text-center flex items-center justify-center gap-2 shadow-lg"
+              className="w-full py-2.5 rounded-lg bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-bold text-center flex items-center justify-center gap-2 shadow-lg cursor-pointer"
             >
               <Crown className="w-4 h-4 fill-slate-950" />
-              Upgrade to Pass Pro (80% Off - ₹49)
+              Upgrade to Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice})
             </button>
           </div>
         </div>
