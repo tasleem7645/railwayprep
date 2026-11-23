@@ -7,7 +7,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "The weekly wages (in ₹ ) of 7 workers are ₹ 1200, ₹ 1300, ₹ 1100, ₹ 1400, ₹ 1250, ₹ 1350, ₹ 1150. What is the median wage?",
-      "hi": "7 ( ₹ ) ₹ 1200, ₹ 1300, ₹ 1100, ₹ 1400, ₹ 1250, ₹ 1350, ₹ 1150 मजदूरी िकतनी होगी ? िन म् निलिखत शृंखला में के स् थान पर क् या आएगा"
+      "hi": "7 मजदूरों की साप्ताहिक मजदूरी (₹ में) ₹1200, ₹1300, ₹1100, ₹1400, ₹1250, ₹1350, ₹1150 है। माध्यक मजदूरी कितनी होगी?"
     },
     "options": {
       "en": [
@@ -17,10 +17,10 @@
         "₹ 1250"
       ],
       "hi": [
-        "₹ 1300",
-        "₹ 1350",
-        "₹ 1200",
-        "₹ 1250"
+        "₹1300",
+        "₹1350",
+        "₹1200",
+        "₹1250"
       ]
     },
     "correctIndex": 3,
@@ -28,7 +28,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (₹ 1250). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (₹ 1250)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (₹1250)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -39,7 +39,7 @@
     "topic": "General Science (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Which compound is treated with water to obtain washing soda in its preparation process?",
-      "hi": "(Washing Soda) उपचािरत (treated) िकया जाता है ? िन म् निलिखत में से कौन सा पादप ऊतक िछिदत िभि त्त यों ारा िसरे से िसरे तक व् यवि स् थत लंबी जीिवत कोिशकाओं से बना"
+      "hi": "वाशिंग सोडा (Washing Soda) को इसकी विरचन प्रक्रिया में प्राप्‍त करने के लिए किस यौगिक को जल के साथ उपचारित (treated) किया जाता है?"
     },
     "options": {
       "en": [
@@ -49,10 +49,10 @@
         "Sodium chloride is treated with water to obtain washing soda"
       ],
       "hi": [
-        "वािशंग सोडा पाप्त करने के िलए सोिडयम क्लोराइड को जल के साथ उपचािरत िकया जाता है।",
-        "वािशंग सोडा पाप्त करने के िलए सोिडयम काब नेट को जल के साथ उपचािरत िकया जाता है।",
-        "वािशंग सोडा पाप्त करने के िलए सोिडयम हाइडॉक्साइड को जल के साथ उपचािरत िकया जाता है।",
-        "वािशंग सोडा पाप्त करने के िलए सोिडयम बाइकाब नेट को जल के साथ उपचािरत िकया जाता है।"
+        "वाशिंग सोडा प्राप्त करने के लिए सोडियम बाइकार्बोनेट को जल के साथ उपचारित किया जाता है।",
+        "वाशिंग सोडा प्राप्त करने के लिए सोडियम हाइड्रॉक्साइड को जल के साथ उपचारित किया जाता है।",
+        "वाशिंग सोडा प्राप्त करने के लिए सोडियम कार्बोनेट को जल के साथ उपचारित किया जाता है।",
+        "वाशिंग सोडा प्राप्त करने के लिए सोडियम क्लोराइड को जल के साथ उपचारित किया जाता है।"
       ]
     },
     "correctIndex": 2,
@@ -60,7 +60,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Science (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (Sodium carbonate is treated with water to obtain washing soda). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (वािशंग सोडा पाप्त करने के िलए सोिडयम हाइडॉक्साइड को जल के साथ उपचािरत िकया जाता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (वाशिंग सोडा प्राप्त करने के लिए सोडियम कार्बोनेट को जल के साथ उपचारित किया जाता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -71,7 +71,7 @@
     "topic": "General Science (04 Nov 2026 Shift 4)",
     "question": {
       "en": "The displacement of an object between two instants can be determined from a velocity– time graph by calculating the:",
-      "hi": ", – _________ यिद िकसी घंटी को जल के नीचे और खुली वायु में बजाया जाता है तो िन म् निलिखत में से कौन सा इन दोनों ि स् थितयों के"
+      "hi": "दो क्षणों के बीच किसी वस्तु का विस्थापन, वेग–समय ग्राफ से _________ की गणना करके निर्धारित किया जा सकता है।"
     },
     "options": {
       "en": [
@@ -81,10 +81,10 @@
         "length of the graph."
       ],
       "hi": [
-        "गाफ की पवणता",
-        "गाफ की लंबाई",
-        "गाफ और समय अक्ष के बीच पिरबद्ध क्षेत्रफल",
-        "वेग अक्ष पर अंतःखंड"
+        "ग्राफ और समय अक्ष के बीच परिबद्ध क्षेत्रफल",
+        "ग्राफ की प्रवणता",
+        "वेग अक्ष पर अंतःखंड",
+        "ग्राफ की लंबाई"
       ]
     },
     "correctIndex": 0,
@@ -92,7 +92,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Science (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (area enclosed between the graph and the time axis.). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (गाफ की पवणता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (ग्राफ और समय अक्ष के बीच परिबद्ध क्षेत्रफल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -103,7 +103,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A, H, M, P, S, and V are sitting around a circular table facing the center. H is seated to the immediate right of M. Only two people are seated between P and A when counted from the right of P. S is not an immediate neighbor of P. V is seated to the immediate left of S. How many people are seated between H and V when counted from the left of H?",
-      "hi": "A 7 B 63 C सहायता से , वे केवल 6 िदन में काय पूरा कर लेते हैं। तो , C अकेले उसी काय को िकतने समय में पूरा कर सकता है ? एक व् यापारी पित लागत वाले चावल को पित लागत वाले चावल के साथ िमि श्र त करता"
+      "hi": "A, H, M, P, S    और V एक गोल मेज के परितः उसके कें द्र की ओर अभिमुख होकर बैठे हैं। H, M के ठीक दाईं ओर पड़ोस में बैठा है। के दाईं ओर से गिनती करने पर P और A के बीच के वल दो व्यक्ति बैठे हैं। S, P का निकटतम पड़ोसी नहीं P है। के ठीक बाईं ओर पड़ोस में बैठा है। H के बाईं ओर से गिनती करने पर H और V के बीच कितने व्यक्ति बैठे हैं? V, S"
     },
     "options": {
       "en": [
@@ -113,10 +113,10 @@
         "3"
       ],
       "hi": [
-        "127 िदन",
-        "128 िदन",
-        "129 िदन",
-        "126 िदन"
+        "2",
+        "1",
+        "4",
+        "3"
       ]
     },
     "correctIndex": 3,
@@ -124,7 +124,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (3). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (126 िदन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -135,7 +135,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "This question is based on the five, three-digit numbers given below. (Left) 956 587 124 963 248 (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7) NOTE - All operations to be done from left to right. What will be the resultant if the second digit of the highest number is added to the third digit of the lowest number?",
-      "hi": ", - ( बाएं ) 956 587 124 963 248 ( दाएं ) ( उदाहरण के िलए 697 लीिजए – इसमें पहला अंक = 6 है , दूसरा अंक = 9 है , और तीसरा अंक = 7 है ) नोट - सभी संि क्र याएं बाएं से दाएं की जानी चािहए। यिद सबसे बड़ी सं ख् या के दूसरे अंक को सबसे छोटी सं ख् या के तीसरे अंक में जोड़ा जाए तो पिरणाम क् या होगा ? िन म् निलिखत अ क्ष र और पतीक शृंखला का संदभ लीिजए तथा नीचे िदए गए प श् न का उ त्त र दीिजए। िगनती केवल बाएं से दाएं"
+      "hi": "यह प्रश्न नीचे दी गई पाँच, तीन-अंकीय संख्याओं पर आधारित है। (बाएं) 956 587 124 963 248 (दाएं) (उदाहरण के लिए 697 लीजिए – इसमें पहला अंक = 6 है, दूसरा अंक = 9 है, और तीसरा अंक = 7 है) नोट - सभी संक्रियाएं बाएं से दाएं की जानी चाहिए। यदि सबसे बड़ी संख्या के दूसरे अंक को सबसे छोटी संख्या के तीसरे अंक में जोड़ा जाए तो परिणाम क्या होगा?"
     },
     "options": {
       "en": [
@@ -167,7 +167,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A shopkeeper buys a pen for ₹ 100 and sells it for ₹ 150. What is the profit percentage?",
-      "hi": "₹ 100 ₹ 150 ? इस प श् न में एक प श् न के बाद और से क्र मांिकत दो कथन आते हैं। आपको यह तय करना होगा िक कथनों में िदया"
+      "hi": "एक दुकानदार ₹100 में एक पेन खरीदता है और उसे ₹150 में बेचता है। लाभ प्रतिशत क्या है?"
     },
     "options": {
       "en": [
@@ -199,7 +199,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A can lay a railway track between two given stations in 7 days and B can do the same job in 63 days. With the help of C, they do the job in 6 days only. Then, C alone can do the job in:",
-      "hi": "2 8% ₹ 56,500 2 होने वाली रािश ( ₹ में ) ात कीिजए। पर वािषक ब् याज दर से एक वष का च क्र वृि द्ध ब् याज ात कीिजए जबिक ब् याज अ द्ध वािषक रू प से देय है।"
+      "hi": "A दो दिए गए स्टेशनों के बीच 7 दिन में रेल पटरी बिछा सकता है और B उसी कार्य को 63 दिन में कर सकता है। C की सहायता से, वे के वल 6 दिन में कार्य पूरा कर लेते हैं। तो, C अके ले उसी कार्य को कितने समय में पूरा कर सकता है?"
     },
     "options": {
       "en": [
@@ -209,10 +209,10 @@
         "129 days"
       ],
       "hi": [
-        "65,540",
-        "64,540",
-        "64,450",
-        "65,450"
+        "128 दिन",
+        "126 दिन",
+        "127 दिन",
+        "129 दिन"
       ]
     },
     "correctIndex": 1,
@@ -220,7 +220,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (126 days). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (64,540)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (126 दिन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -231,7 +231,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "This question is based on the five, three-digit numbers given below. (Left) 639 658 652 641 647 (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7) What will be the resultant if the second digit of the second highest number is added to the third digit of the lowest number? 1695",
-      "hi": "12% 2 2 ( वािषक रू प से संयोिजत ), और साधारण ब् याज के बीच का अंतर ₹ 101.76 है। मूलधन ( दशमलव के बाद दो स् थानों तक पूण ंिकत ) िकतना था ?"
+      "hi": "यह प्रश्न नीचे दी गई पांच, तीन-अंकीय संख्याओं पर आधारित है। (बाएं) 639 658 652 641 647 (दाएं) (उदाहरण के लिए, 697 लीजिए – पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7) यदि दूसरी सबसे बड़ी संख्या के दूसरे अंक को सबसे छोटी संख्या के तीसरे अंक में जोड़ा जाए, तो परिणाम कितना होगा?"
     },
     "options": {
       "en": [
@@ -241,10 +241,10 @@
         "15"
       ],
       "hi": [
-        "₹ 6,842.48",
-        "₹ 7,066.67",
-        "₹ 6,050.23",
-        "₹ 7,680.82"
+        "18",
+        "16",
+        "14",
+        "15"
       ]
     },
     "correctIndex": 2,
@@ -252,7 +252,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (14). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹ 6,050.23)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (14)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -263,7 +263,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "P, Q and R start a business with investments in the ratio 2 : 3 : 5. If P’s share of the annual profit is ₹ 4,000, what is the total profit?",
-      "hi": "P, Q R, 2 : 3 : 5 P ₹ 4,000 है , तो कुल लाभ ात कीिजए। िबनायक िबंदु से डाइव करना शु रू करता है और पूव की ओर डाइव करता है। िफर वह बाएं मुड़कर डाइव"
+      "hi": "P, Q और R, 2 : 3 : 5 के अनुपात में निवेश के साथ एक व्यवसाय आरंभ करते हैं। यदि वार्षिक लाभ में P का हिस्सा है तो कु ल लाभ ज्ञात कीजिए। 4,000 ,"
     },
     "options": {
       "en": [
@@ -273,10 +273,10 @@
         "₹ 15,000"
       ],
       "hi": [
-        "₹ 18,000",
-        "₹ 25,000",
-        "₹ 20,000",
-        "₹ 15,000"
+        "₹18,000",
+        "₹25,000",
+        "₹20,000",
+        "₹15,000"
       ]
     },
     "correctIndex": 2,
@@ -284,7 +284,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (₹ 20,000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹ 20,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (₹20,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -295,7 +295,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Based on the alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd one is not based on the number of consonants/vowels or their position in the letter cluster.)",
-      "hi": ", - बनाते हैं। कौन - सा अ क्ष र - समूह उस गुप से संबंिधत नहीं है ? ( नोट : असंगत अ क्ष र - समूह , व् यंजनों / स् वरों की सं ख् या या अ क्ष र - समूह में उनकी ि स् थित पर आधािरत नहीं है। ) यिद श ब् द के प त् येक स् वर को अंगेजी वणमाला क्र म में उसके ठीक बाद वाले अ क्ष र से पित स् थािपत कर िदया जाए"
+      "hi": "वर्णमाला क्रम पर आधारित, निम्नलिखित चार अक्षर-समूहों में से तीन निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह उस ग्रुप से संबंधित नहीं है? (नोट: असंगत अक्षर-समूह, व्यंजनों/स्वरों की संख्या या अक्षर-समूह में उनकी स्थिति पर आधारित नहीं है।)"
     },
     "options": {
       "en": [
@@ -306,8 +306,8 @@
       ],
       "hi": [
         "MQ - RU",
-        "ZK - DO",
         "GS - KW",
+        "ZK - DO",
         "IJ - MN"
       ]
     },
@@ -327,7 +327,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "The value of tan 4 θ + (2 - Sec 2 θ ) tan 2 θ +2 - Sec 2 θ is: 3255",
-      "hi": "( बाएं ) I X U Q T O D I R R Z I P T T D E O L I U Z ( दाएं ) ऐसे िकतने व् यंजन हैं , िजनमें से प त् येक के ठीक पहले एक व् यंजन और ठीक बाद एक स् वर है ? िन म् निलिखत अ क्ष र सं ख् या समूहों में से कौन सा दी गई श्र ृंखला को तािकक रू प से पूण बनाने के िलए प श् न िच को"
+      "hi": "tan4 θ + (2 - Sec2 θ ) tan2 θ +2 - Sec2θ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -338,9 +338,9 @@
       ],
       "hi": [
         "2",
-        "5",
-        "3",
-        "4"
+        "1",
+        "0",
+        "−1"
       ]
     },
     "correctIndex": 3,
@@ -348,7 +348,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (1). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (−1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -359,7 +359,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Three friends, A, B, and C, invest in the ratio 2:3:5 in a business. If the total profit is ₹ 1,00,000, how much more does C get than A?",
-      "hi": "19.8 cm × 13.2 cm × 8.8 cm 2.2 cm घनाकार ब् लॉकों से पूरी तरह भरा जाता है। िड ब् बे को पूणत : भरने के िलए िकतने घनों की आव श् यकता है ? िन म् निलिखत अ क्ष र शृंखला का संदभ लीिजए तथा िदए गए प श् न का उ त्त र दीिजए।"
+      "hi": "तीन मित्र A, B और C, किसी व्यवसाय में 2:3:5 के अनुपात में निवेश करते हैं। यदि कु ल लाभ ₹1,00,000 है, तो C को A से कितना अधिक लाभ प्राप्त होगा?"
     },
     "options": {
       "en": [
@@ -369,10 +369,10 @@
         "₹ 40,000"
       ],
       "hi": [
-        "216",
-        "200",
-        "232",
-        "256"
+        "₹30,000",
+        "₹20,000",
+        "₹10,000",
+        "₹40,000"
       ]
     },
     "correctIndex": 0,
@@ -380,7 +380,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (₹ 30,000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (216)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (₹30,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -423,7 +423,7 @@
     "topic": "General Science (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Which of the following plant tissues are made up of long, living cells arranged end-to- end by perforated walls?",
-      "hi": ", - ( बाएं ) 639 658 652 641 647 ( दाएं ) ( उदाहरण के िलए , 697 लीिजए – पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7) यिद दूसरी सबसे बड़ी सं ख् या के दूसरे अंक को सबसे छोटी सं ख् या के तीसरे अंक में जोड़ा जाए , तो पिरणाम िकतना होगा ? यह प श् न िन म् निलिखत श ब् दों पर आधािरत है।"
+      "hi": "निम्नलिखित में से कौन-सा पादप ऊतक, छिद्रित भित्तियों द्वारा सिरे-से-सिरे तक व्यवस्थित, लंबी, जीवित कोशिकाओं से बना होता है?"
     },
     "options": {
       "en": [
@@ -433,10 +433,10 @@
         "Vessels"
       ],
       "hi": [
-        "14",
-        "15",
-        "18",
-        "16"
+        "चालनी नलिका (Sieve tubes)",
+        "फ्लोएम तंतु (Phloem fibres)",
+        "दारू वाहिनिका (Tracheids)",
+        "वाहिका (Vessels)"
       ]
     },
     "correctIndex": 0,
@@ -444,7 +444,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Science (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (Sieve tubes). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (14)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (चालनी नलिका (Sieve tubes))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -455,7 +455,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Refer to the following letter and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) O H # M N @ $ R & I Ω T £ D H R Y (Right) How many such vowels, are there each of which is immediately preceded by a symbol and also immediately followed by a symbol? 8208",
-      "hi": "की जानी है। ( बाएं ) O H # M N @ $ R & I Ω T £ D H R Y ( दाएं ) ऐसे िकतने स् वर हैं , िजनमें से प त् येक के ठीक पहले एक पतीक है और ठीक बाद में भी एक पतीक है ? सात व् यि क् त और एक गोल मेज के पिरत उसके केंद की ओर अिभमुख होकर बैठे हैं। के बाईं"
+      "hi": "निम्नलिखित अक्षर और प्रतीक शृंखला का संदर्भ लीजिए तथा नीचे दिए गए प्रश्न का उत्तर दीजिए। गिनती के वल बाएं से दाएं की जानी है। (बाएं) O H # M N @ $ R & I Ω T £ D H R Y (दाएं) ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक प्रतीक है और ठीक बाद में भी एक प्रतीक है?"
     },
     "options": {
       "en": [
@@ -465,10 +465,10 @@
         "One"
       ],
       "hi": [
-        "एक भी नही ं",
+        "तीन",
+        "एक भी नहीं",
         "दो",
-        "एक",
-        "तीन"
+        "एक"
       ]
     },
     "correctIndex": 3,
@@ -476,7 +476,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (One). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -487,7 +487,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Six boxes A, B, F, G, H and I are kept one over the other but not necessarily in the same order. Only A is kept above I. Only two boxes are kept between A and F. Only G is kept below H. How many boxes are kept between B and G?",
-      "hi": "A, B, F, G, H I , केवल A को I के ऊपर रखा गया है। A और F के बीच केवल दो बॉ क् स रखे गए हैं। केवल G को H के नीचे रखा गया है। B और G के बीच िकतने बॉ क् स रखे गए हैं ? िन म् निलिखत का मान ात कीिजए।"
+      "hi": "छह बॉक्स A, B, F, G, H और I एक के ऊपर एक रखे गए हैं, लेकिन आवश्यक नहीं है कि वे इसी क्रम में रखे गए हों। के वल A को I के ऊपर रखा गया है। A और F के बीच के वल दो बॉक्स रखे गए हैं। के वल G को H के नीचे रखा गया है। B और G के बीच कितने बॉक्स रखे गए हैं?"
     },
     "options": {
       "en": [
@@ -497,10 +497,10 @@
         "One"
       ],
       "hi": [
-        "एक",
-        "चार",
         "तीन",
-        "दो"
+        "दो",
+        "चार",
+        "एक"
       ]
     },
     "correctIndex": 1,
@@ -508,7 +508,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (Two). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (चार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -519,7 +519,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Find the compound interest on ₹ 8,680 for one year at 10% per annum, interest payable half yearly (rounded off to the nearest rupees).",
-      "hi": "‘?’ ? 35,44,62,89,125, ? एक दुकानदार में एक पेन खरीदता है और उसे में बेचता है। लाभ पितशत क् या है"
+      "hi": "₹8,680 पर 10% वार्षिक ब्याज दर से एक वर्ष का चक्रवृद्धि ब्याज ज्ञात कीजिए, जबकि ब्याज अर्द्धवार्षिक रूप से देय है। (अपने उत्तर को निकटतम ₹ तक पूर्णांकित कीजिए।)"
     },
     "options": {
       "en": [
@@ -529,10 +529,10 @@
         "₹ 850"
       ],
       "hi": [
-        "172",
-        "170",
-        "173",
-        "171"
+        "₹890",
+        "₹880",
+        "₹840",
+        "₹850"
       ]
     },
     "correctIndex": 0,
@@ -540,7 +540,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (₹ 890). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (172)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (₹890)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -551,7 +551,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Each letter in the word GUILDER is arranged in the English alphabetical order. How many letters are there in the English alphabetical order between the letter which is fourth from the left and the one which is first from the right in the new letter cluster thus formed?",
-      "hi": "A, B C, 2:3:5 ₹ 1,00,000 , C A से िकतना अिधक लाभ पा प् त होगा ? और में से प त् येक के पा प् तांक िभ न्न िभ न्न हैं। सबसे कम अंक पा प् त करने वालों में तीसरे स् थान पर है।"
+      "hi": "यदि शब्द GUILDER के प्रत्येक अक्षर को अंग्रेजी वर्णमाला क्रम में व्यवस्थित किया जाए, तो इस प्रकार निर्मित नए अक्षर- समूह में बाएं से चौथे अक्षर और दाएं से पहले अक्षर के बीच, अंग्रेजी वर्णमाला क्रम में कितने अक्षर होंगे?"
     },
     "options": {
       "en": [
@@ -561,10 +561,10 @@
         "11"
       ],
       "hi": [
-        "₹ 30,000",
-        "₹ 10,000",
-        "₹ 40,000",
-        "₹ 20,000"
+        "14",
+        "12",
+        "10",
+        "11"
       ]
     },
     "correctIndex": 3,
@@ -572,7 +572,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (11). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (₹ 20,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (11)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -583,7 +583,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "In a certain code language, ‘HATE’ is coded as ‘7856’ and ‘TEAM’ is coded as ‘7659’. What is the code for ‘M’ in that language?",
-      "hi": ", 'HATE' '7856' 'TEAM' '7659' कूटब द्ध िकया जाता है। उस भाषा में 'M' के िलए कूट क् या है ? मान लीिजए िक और दो समांतर रेखाएं हैं िजनमें से ऊपर है। मान लीिजए िक और दो समांतर"
+      "hi": "एक निश्चित कू ट भाषा में, 'HATE' को '7856' के रूप में कू टबद्ध किया जाता है और 'TEAM' को '7659' के रूप में कू टबद्ध किया जाता है। उस भाषा में 'M' के लिए कू ट क्या है?"
     },
     "options": {
       "en": [
@@ -615,7 +615,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A wooden box in the shape of a cuboid has internal dimensions 19.8 cm × 13.2 cm × 8.8 cm. It is completely filled with small cubic blocks, each of side 2.2 cm. Find the number of cubes that can completely fill the box.",
-      "hi": "A, B, C, D E - D B के पा प् तांक , C से कम हैं। E के पा प् तांक , A से अिधक लेिकन B से कम हैं। िकतने व् यि क् तयों के पा प् तांक E से अिधक हैं ?"
+      "hi": "एक घनाभाकार लकड़ी के डिब्बे की आंतरिक विमाएं 19.8 cm × 13.2 cm × 8.8 cm हैं। इसे 2.2 cm भुजा वाले छोटे घनाकार ब्लॉकों से पूरी तरह भरा जाता है। डिब्बे को पूर्णत: भरने के लिए कितने घनों की आवश्यकता है?"
     },
     "options": {
       "en": [
@@ -625,10 +625,10 @@
         "256"
       ],
       "hi": [
-        "तीन",
-        "चार",
-        "दो",
-        "एक"
+        "216",
+        "232",
+        "200",
+        "256"
       ]
     },
     "correctIndex": 0,
@@ -636,7 +636,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (216). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (216)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -647,7 +647,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged? 10 ÷ 2 + 70 × 5 − 80 = ?",
-      "hi": "'+' '−' '×' '÷' , प श् न - िच ह्न (?) के स् थान पर क् या आएगा ? 10 ÷ 2 + 70 × 5 − 80 = ?"
+      "hi": "यदि '+' और '−' को परस्पर बदल दिया जाए तथा '×' और '÷' को परस्पर बदल दिया जाए, तो निम्नलिखित समीकरण में प्रश्न-चिह्न (?) के स्थान पर क्या आएगा? 10 ÷ 2 + 70 × 5 − 80 = ?"
     },
     "options": {
       "en": [
@@ -711,7 +711,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A sum was invested at 12% per annum for 2 years. The difference between compound interest, compounded annually, and simple interest earned on the sum after 2 years is ₹ 101.76. What was the principal amount (rounded off to two decimal places)?",
-      "hi": "tan θ + (2 - Sec θ ) tan θ +2 - Sec θ का मान ात कीिजए। और के अनुपात में िनवेश के साथ एक व् यवसाय आरंभ करते हैं। यिद वािषक लाभ में का िह स् सा"
+      "hi": "किसी राशि को 12% वार्षिक दर पर 2 वर्षों के लिए निवेश किया गया था। 2 वर्षों बाद उस राशि पर अर्जित चक्रवृद्धि ब्याज (वार्षिक रूप से संयोजित), और साधारण ब्याज के बीच का अंतर ₹101.76 है। मूलधन (दशमलव के बाद दो स्थानों तक पूर्णांकित) कितना था?"
     },
     "options": {
       "en": [
@@ -721,10 +721,10 @@
         "₹ 7,680.82"
       ],
       "hi": [
-        "1",
-        "0",
-        "−1",
-        "2"
+        "₹7,066.67",
+        "₹6,842.48",
+        "₹6,050.23",
+        "₹7,680.82"
       ]
     },
     "correctIndex": 0,
@@ -732,7 +732,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (₹ 7,066.67). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (₹7,066.67)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -743,7 +743,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Seven people Mohan, Nehal, Ojasvi, Pooja, Suresh, Tushar and Umang are sitting around a circular table facing the centre. Nehal sits second to the left of Ojasvi. Umang sits second to the left of Nehal. Tushar sits to the immediate left of Suresh. Mohan is not an immediate neighbour of Umang. How many people sit between Mohan and Umang when counted from the left of Mohan?",
-      "hi": ", , , , , बैठे हैं। नेहल , ओज स् वी के बाईं ओर दूसरे स् थान पर बैठी है। उमंग , नेहल के बाईं ओर दूसरे स् थान पर बैठा है। तुषार , सुरेश के ठीक बाईं ओर पड़ोस में बैठा है। मोहन , उमंग का िनकटतम पड़ोसी नहीं है। मोहन के बाईं ओर से िगनती करने पर मोहन और उमंग के बीच िकतने व् यि क् त बैठे हैं ? जूतों की एक जोड़ी का अंिकत मू ल् य है। त् योहारी िब क्र ी के दौरान दुकानदार की छूट पदान करता है। दी गई"
+      "hi": "सात व्यक्ति मोहन, नेहल, ओजस्वी, पूजा, सुरेश, तुषार और उमंग एक गोल मेज के परितः उसके कें द्र की ओर अभिमुख होकर बैठे हैं। नेहल, ओजस्वी के बाईं ओर दूसरे स्थान पर बैठी है। उमंग, नेहल के बाईं ओर दूसरे स्थान पर बैठा है। तुषार, सुरेश के ठीक बाईं ओर पड़ोस में बैठा है। मोहन, उमंग का निकटतम पड़ोसी नहीं है। मोहन के बाईं ओर से गिनती करने पर मोहन और उमंग के बीच कितने व्यक्ति बैठे हैं?"
     },
     "options": {
       "en": [
@@ -753,10 +753,10 @@
         "Three"
       ],
       "hi": [
-        "एक",
-        "तीन",
         "दो",
-        "एक भी नही ं"
+        "एक भी नहीं",
+        "एक",
+        "तीन"
       ]
     },
     "correctIndex": 0,
@@ -764,7 +764,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (Two). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -775,7 +775,7 @@
     "topic": "General Science (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Where in the cell does the breakdown of glucose occur during anaerobic respiration?",
-      "hi": "? अंकीय सं ख् या से िवभा ज् य है। का न् यूनतम मान िकतना होगा"
+      "hi": "अवायवीय श्वसन के दौरान कोशिका में ग्लूकोज का विघटन कहां होता है?"
     },
     "options": {
       "en": [
@@ -785,10 +785,10 @@
         "In the mitochondria, known as the powerhouse of the cell"
       ],
       "hi": [
-        "सूत्रकिणका में , िजसे कोिशका का शिक्तगृह (powerhouse) कहा जाता है",
-        "कोिशका दव्य में , जहां कोिशकीय पितिक्रयाएं (cellular reactions) होती हैं",
-        "केंदक में , जो सभी कोिशका गितिविधयों (cell activities) को िनयंित्रत करता है",
-        "हिरतलवक (chloroplast) में , जो पकाश संश्लेषण के माध्यम से खाद्य बनाने के िलए उत्तरदायी है"
+        "हरितलवक (chloroplast) में, जो प्रकाश संश्लेषण के माध्यम से खाद्य बनाने के लिए उत्तरदायी है",
+        "कें द्रक में, जो सभी कोशिका गतिविधियों (cell activities) को नियंत्रित करता है",
+        "कोशिका द्रव्य में, जहां कोशिकीय प्रतिक्रियाएं (cellular reactions) होती हैं",
+        "सूत्रकणिका में, जिसे कोशिका का शक्तिगृह (powerhouse) कहा जाता है"
       ]
     },
     "correctIndex": 2,
@@ -796,7 +796,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Science (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (Within the cytoplasm, where cellular reactions occur). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (केंदक में , जो सभी कोिशका गितिविधयों (cell activities) को िनयंित्रत करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (कोशिका द्रव्य में, जहां कोशिकीय प्रतिक्रियाएं (cellular reactions) होती हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -807,7 +807,7 @@
     "topic": "General Science (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Which of the following regions of the electromagnetic spectrum is/are primarily responsible for photosynthesis on Earth?",
-      "hi": "- , - ? यिद और को पर स् पर पित स् थािपत कर िदया जाए तथा और को पर स् पर पित स् थािपत कर िदया जाए तो"
+      "hi": "पृथ्वी पर प्रकाश-संश्लेषण के लिए, विद्‍युतचुंबकीय स्पेक्ट्रम का निम्नलिखित में से कौन-सा क्षेत्र मुख्य रूप से उत्तरदायी है?"
     },
     "options": {
       "en": [
@@ -817,10 +817,10 @@
         "Radio waves"
       ],
       "hi": [
-        "दृश्य पकाश",
-        "रेिडयो तरंगें",
+        "दृश्य प्रकाश",
         "सूक्ष्म तरंगें",
-        "पराबैंगनी िविकरण"
+        "पराबैंगनी विकिरण",
+        "रेडियो तरंगें"
       ]
     },
     "correctIndex": 0,
@@ -828,7 +828,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Science (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (Visible light). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (दृश्य पकाश)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (दृश्य प्रकाश)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -839,7 +839,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. QRU−TUX STW−VWZ",
-      "hi": "₹ 2000 , 30% छूट की रािश िकतनी है ? व् यास और ऊंचाई वाले बेलन का आयतन ात कीिजए।"
+      "hi": "उस युग्म का चयन कीजिए जो नीचे दिए गए युग्मों के समान पैटर्न का अनुसरण करता है। दोनों युग्म समान पैटर्न का अनुसरण करते हैं। QRU−TUX STW−VWZ"
     },
     "options": {
       "en": [
@@ -849,10 +849,10 @@
         "GGI−IJM"
       ],
       "hi": [
-        "₹ 700",
-        "₹ 500",
-        "₹ 800",
-        "₹ 600"
+        "GHK−JKN",
+        "GGI−JKN",
+        "GHK−IKM",
+        "GGI−IJM"
       ]
     },
     "correctIndex": 0,
@@ -860,7 +860,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (GHK−JKN). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (₹ 700)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (GHK−JKN)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -871,7 +871,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A pair of shoes is marked at ₹ 2000. During a festival sale, a shopkeeper offers a 30% discount. What is the amount of discount given?",
-      "hi": "'?' ? 4 12 23 31 42 50 ? वािशंग सोडा को इसकी िवरचन पि क्र या में पा प् त करने के िलए िकस यौिगक को जल के साथ"
+      "hi": "जूतों की एक जोड़ी का अंकित मूल्य ₹2000 है। त्योहारी बिक्री के दौरान, दुकानदार 30% की छू ट प्रदान करता है। दी गई छू ट की राशि कितनी है?"
     },
     "options": {
       "en": [
@@ -881,10 +881,10 @@
         "₹ 600"
       ],
       "hi": [
-        "63",
-        "58",
-        "54",
-        "61"
+        "₹800",
+        "₹700",
+        "₹500",
+        "₹600"
       ]
     },
     "correctIndex": 3,
@@ -892,7 +892,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (₹ 600). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (61)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (₹600)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -903,7 +903,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged? 43 – 16 ÷ 9 + 154 × 14 = ?",
-      "hi": "F, A, C, I, N, G S , अलग - अलग िदन है। A से पहले िकसी का अवकाश नहीं है। A और I के बीच केवल तीन व् यि क् तयों का अवकाश है। I और C के बीच केवल एक व् यि क् त का अवकाश है। F का अवकाश बुधवार को है। N का अवकाश S के बाद िकसी एक िदन लेिकन G से पहले िकसी एक िदन है। स प् ताह के िकस िदन N का अवकाश है ? तीन िम त्र और िकसी व् यवसाय में के अनुपात में िनवेश करते हैं। यिद कुल लाभ है तो को"
+      "hi": "यदि ‘+’ और ‘−’ को परस्पर प्रतिस्थापित कर दिया जाए तथा ‘×’ और ‘÷’ को परस्पर प्रतिस्थापित कर दिया जाए, तो निम्नलिखित समीकरण में प्रश्न-चिह्न (?) के स्थान पर क्या आएगा? 43 – 16 ÷ 9 + 154 × 14 = ?"
     },
     "options": {
       "en": [
@@ -913,10 +913,10 @@
         "176"
       ],
       "hi": [
-        "सोमवार",
-        "रिववार",
-        "गुरुवार",
-        "शिनवार"
+        "170",
+        "177",
+        "174",
+        "176"
       ]
     },
     "correctIndex": 3,
@@ -924,7 +924,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (176). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (शिनवार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (176)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -935,7 +935,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A, B, C, D and E each scored different marks. D was the third lowest scorer. B scored less than C. E scored more than A but less than B. How many people scored more than E?",
-      "hi": ", (I) (II) गया डेटा प श् न का उ त्त र देने के िलए पय प् त है या नहीं। दोनों कथनों को पिढ़ए और उिचत उ त्त र तय कीिजए। प श् न : पाँच व् यि क् त – िकरत , रेयांश , सिमका , तुषार और उिवका – एक पाँच - मंिज़ला इमारत के िविभ न्न तलों पर रहते हैं , िजनका क्र मांक 1 से 5 तक है (1 सबसे िनचला तल है और 5 सबसे ऊपरी तल ) । तल क्र मांक 5 पर कौन रहता है ? (I) सिमका , तुषार के ऊपर रहती है , जो रेयांश के ऊपर रहता है। (II) उिवका , सिमका के ऊपर रहती है , और िकरत , रेयांश के नीचे रहती है।"
+      "hi": "A, B, C, D    और E में से प्रत्येक के प्राप्तांक भिन्न-भिन्न हैं। D सबसे कम अंक प्राप्त करने वालों में तीसरे स्थान पर है। B के प्राप्तांक से कम हैं। E के प्राप्तांक, A से अधिक लेकिन B से कम हैं। कितने व्यक्तियों के प्राप्तांक E से अधिक हैं? ,C"
     },
     "options": {
       "en": [
@@ -945,10 +945,10 @@
         "One"
       ],
       "hi": [
-        "कथन I और II दोनों में िदया गया डेटा ( न तो अकेले कथन I और न ही अकेले कथन II) िमलकर पश्न का उत्तर देने के िलए",
-        "कथन I और II दोनों िमलकर पश्न का उत्तर देने के िलए पय प्त नही ं हैं।",
-        "कथन I में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है जबिक कथन II का डेटा पय प्त नही ं है।",
-        "कथन II में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है जबिक कथन I का डेटा पय प्त नही ं है।"
+        "दो",
+        "तीन",
+        "चार",
+        "एक"
       ]
     },
     "correctIndex": 1,
@@ -956,7 +956,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (Three). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (कथन I और II दोनों िमलकर पश्न का उत्तर देने के िलए पय प्त नही ं हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -967,7 +967,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Select the pair which follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. XZC−EGJ MOR−TVY",
-      "hi": "CHAPTER , अपिरवितत रहेगा ? वणमाला क्र म पर आधािरत िन म् निलिखत चार अ क्ष र समूहों में से तीन िनि श् चत तरीके से एकसमान हैं और इस पकार एक गुप"
+      "hi": "उस युग्म का चयन कीजिए जो नीचे दिए गए दो युग्मों के समान पैटर्न का अनुसरण करता है। दोनों युग्म समान पैटर्न का अनुसरण करते हैं। XZC−EGJ MOR−TVY"
     },
     "options": {
       "en": [
@@ -977,10 +977,10 @@
         "LMO−SUX"
       ],
       "hi": [
-        "एक का भी नही ं",
-        "दो",
-        "एक",
-        "तीन"
+        "LNQ−SUX",
+        "LNQ−RUW",
+        "LMO−RTW",
+        "LMO−SUX"
       ]
     },
     "correctIndex": 0,
@@ -988,7 +988,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (LNQ−SUX). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (एक का भी नही ं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (LNQ−SUX)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1009,10 +1009,10 @@
         "x² + 1"
       ],
       "hi": [
-        "x² - 1",
+        "x2 − 1",
+        "2x2 − 3",
         "2x + 3",
-        "2x² - 3",
-        "x² + 1"
+        "x2 + 1"
       ]
     },
     "correctIndex": 0,
@@ -1020,7 +1020,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (x² - 1). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (x² - 1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (x2 − 1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1031,7 +1031,7 @@
     "topic": "General Science (04 Nov 2026 Shift 4)",
     "question": {
       "en": "If a bell is rung under water and in open air, which of the following best describes what happens to the speed of sound between the two situations?",
-      "hi": ", - , बीच ध् विन की चाल में होने वाले पिरवतन का सबसे अ च् छा वणन करता है ? मजदूरों की सा प् तािहक मजदूरी में है। मा ध् यक"
+      "hi": "यदि किसी घंटी को जल के नीचे और खुली वायु में बजाया जाता है, तो निम्नलिखित में से कौन-सा, इन दोनों स्थितियों के बीच ध्वनि की चाल में होने वाले परिवर्तन का सबसे अच्छा वर्णन करता है?"
     },
     "options": {
       "en": [
@@ -1041,10 +1041,10 @@
         "Sound travels at the same speed in both media."
       ],
       "hi": [
-        "ध्विन वाय ु की त ुलना में जल में अिधक तीव चाल से गमन करती है।",
-        "ध्विन दोनों माध्यमों में समान चाल से गमन करती है।",
-        "ध्विन जल के माध्यम से गमन नही ं करती है।",
-        "ध्विन वाय ु की त ुलना में जल में धीमी चाल से गमन करती है।"
+        "ध्वनि वायु की तुलना में जल में धीमी चाल से गमन करती है।",
+        "ध्वनि वायु की तुलना में जल में अधिक तीव्र चाल से गमन करती है।",
+        "ध्वनि जल के माध्यम से गमन नहीं करती है।",
+        "ध्वनि दोनों माध्यमों में समान चाल से गमन करती है।"
       ]
     },
     "correctIndex": 1,
@@ -1052,7 +1052,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Science (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (Sound travels faster in water than in air.). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (ध्विन दोनों माध्यमों में समान चाल से गमन करती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (ध्वनि वायु की तुलना में जल में अधिक तीव्र चाल से गमन करती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1063,7 +1063,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A merchant mixes 30 kg of rice costing ₹ 40 per kg with 20 kg of rice costing ₹ 60 per kg. What is the average price per kg of the resulting mixture?",
-      "hi": ", - इस पकार वे एक गुप बनाते हैं। कौन - सा अ क्ष र - समूह यु ग् म उस गुप से संबंिधत नहीं है ? ( नोट : असंगत अ क्ष र - समूह यु ग् म , उसमें व् यंजनों / स् वरों की सं ख् या या उनकी ि स् थित पर आधािरत नहीं है। )"
+      "hi": "एक व्यापारी ₹40 प्रति kg लागत वाले 30 kg चावल को ₹60 प्रति kg लागत वाले 20 kg चावल के साथ मिश्रित करता है। परिणामी मिश्रण का प्रति kg औसत मूल्य कितना होगा?"
     },
     "options": {
       "en": [
@@ -1073,10 +1073,10 @@
         "₹ 45"
       ],
       "hi": [
-        "VT−RP",
-        "NL−JH",
-        "US−QO",
-        "WU−RS"
+        "₹52",
+        "₹50",
+        "₹48",
+        "₹45"
       ]
     },
     "correctIndex": 2,
@@ -1084,7 +1084,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (₹ 48). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (US−QO)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (₹48)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1095,7 +1095,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only (Left) S Q A Y V Y V E R L O A J F V V A Z A A F Y (Right) How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by a consonant? 14823",
-      "hi": "( बाएं ) S Q A Y V Y V E R L O A J F V V A Z A A F Y ( दाएं ) ऐसे िकतने स् वर हैं , िजनमें से प त् येक ठीक पहले एक व् यंजन और ठीक बाद में भी एक व् यंजन है ? दो टेनें िजनकी लंबाई क्र मशः और है एक दूसरे की ओर गितमान हैं। उनकी चाल क्र मशः और"
+      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए तथा दिए गए प्रश्न का उत्तर दीजिए। (बाएं) S Q A Y V Y V E R L O A J F V V A Z A A F Y (दाएं) ऐसे कितने स्वर हैं, जिनमें से प्रत्येक ठीक पहले एक व्यंजन और ठीक बाद में भी एक व्यंजन है?"
     },
     "options": {
       "en": [
@@ -1127,7 +1127,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Aman is three times as old as his son, and his daughter is 3 years younger than the son. If the sum of the ages of these three people 3 years ago was 108 years, then Aman's present age (in years) is:",
-      "hi": "18 59 , 15 50 उसी तक का अनुसरण करते हुए 12 का संबंध िन म् निलिखत में से िकससे है ? ( नोट : सं ख् याओं को उनके घटक अंकों में तोड़े िबना संि क्र याएं केवल पूण सं ख् याओं पर की जानी चािहए। उदाहरण के िलए , 13 लीिजए - 13 पर संि क्र याएं , जैसे 13 में जोड़ना / घटाना / गुणा करना आिद , की जा सकती हैं। 13 को 1 और 3 में तोड़ना तथा िफर 1 और 3 पर गिणतीय संि क्र याएं करने की अनुमित नहीं है। ) इस प श् न में सं ख् या पतीक के एक समूह को नीचे िदए गए कूट और उसके बाद आने वाली शत ं के अनुसार अ क्ष र कूटों का"
+      "hi": "अमन की आयु उसके पुत्र की आयु की तीन गुनी है, और उसकी पुत्री, उसके पुत्र से 3 वर्ष छोटी है। यदि 3 वर्ष पूर्व इन तीनों व्यक्तियों की आयु का योगफल 108 वर्ष था, तो अमन की वर्तमान आयु (वर्ष में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1137,10 +1137,10 @@
         "70"
       ],
       "hi": [
-        "41",
-        "32",
-        "36",
-        "45"
+        "72",
+        "48",
+        "59",
+        "70"
       ]
     },
     "correctIndex": 0,
@@ -1148,7 +1148,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (72). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (41)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (72)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1159,7 +1159,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged? 5 ÷ 2 + 8 × 4 − 5 = ?",
-      "hi": "‘+’ ‘−’ ‘×’ ‘÷’ , िन म् निलिखत समीकरण में प श् न - िच ह्न (?) के स् थान पर क् या आएगा ? 5 ÷ 2 + 8 × 4 − 5 = ? यिद श ब् द के प त् येक अ क्ष र को अंगेजी वणमाला क्र म में व् यवि स् थत िकया जाए तो िकतने अ क्ष रों का स् थान"
+      "hi": "यदि ‘+’ और ‘−’ को परस्पर प्रतिस्थापित कर दिया जाए तथा ‘×’ और ‘÷’ को परस्पर प्रतिस्थापित कर दिया जाए, तो निम्नलिखित समीकरण में प्रश्न-चिह्न (?) के स्थान पर क्या आएगा? 5÷2+8×4−5=?"
     },
     "options": {
       "en": [
@@ -1191,7 +1191,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "What should come in place of the ‘?’ in the given series? 35,44,62,89,125, ?",
-      "hi": "₹ 8,680 10% , ( अपने उ त्त र को िनकटतम ₹ तक पूण ंिकत कीिजए। )"
+      "hi": "निम्नलिखित शृंखला में ‘?’ के स्थान पर क्या आएगा? 35,44,62,89,125, ?"
     },
     "options": {
       "en": [
@@ -1201,10 +1201,10 @@
         "170"
       ],
       "hi": [
-        "₹ 880",
-        "₹ 850",
-        "₹ 840",
-        "₹ 890"
+        "173",
+        "172",
+        "171",
+        "170"
       ]
     },
     "correctIndex": 3,
@@ -1212,7 +1212,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (170). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (₹ 890)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (170)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1275,8 +1275,8 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option A (None). In CHAPTER (C-H-A-P-T-E-R), alphabetized is A-C-E-H-P-R-T. No letter retains its original position.",
-      "hi": "सही उत्तर: विकल्प A (एक का भी नहीं)। CHAPTER (C-H-A-P-T-E-R) को वर्णमाला क्रम में A-C-E-H-P-R-T लिखा जाता है। किसी भी अक्षर का स्थान अपरिवर्तित नहीं रहता है।"
+      "en": "Correct Answer: Option A (None). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प A (एक का भी नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1287,7 +1287,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A car's radiator should contain a solution of 84% antifreeze. A motorist has 10 litres of 70% antifreeze. How many litres (rounded off to 2 decimal places) of 95% antifreeze liquid should he add to his solution to produce a 84% antifreeze?",
-      "hi": "‘+’ ‘−’ ‘×’ ‘÷’ , िन म् निलिखत समीकरण में प श् न - िच ह्न (?) के स् थान पर क् या आएगा ? 43 – 16 ÷ 9 + 154 × 14 = ? एक िनि श् चत तक का अनुसरण करते हुए का संबंध से है। उसी तक का अनुसरण करते हुए का संबंध"
+      "hi": "एक कार के रेडिएटर में 84% एंटीफ्रीज वाला विलयन होना चाहिए। एक मोटरचालक के पास 70% एंटीफ्रीज वाला 10 लीटर विलयन है। 84% एंटीफ्रीज वाला विलयन प्राप्त करने के लिए उसे अपने विलयन में 95% एंटीफ्रीज द्रव का कितना लीटर (दशमलव के 2 स्थानों तक पूर्णांकित) मिलाना चाहिए?"
     },
     "options": {
       "en": [
@@ -1297,10 +1297,10 @@
         "10.34"
       ],
       "hi": [
-        "170",
-        "177",
-        "176",
-        "174"
+        "15.38",
+        "12.73",
+        "18.61",
+        "10.34"
       ]
     },
     "correctIndex": 1,
@@ -1308,7 +1308,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (12.73). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (177)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (12.73)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1319,7 +1319,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Two trains with lengths 148 m and 156 m, respectively, are moving towards each other. Their speeds are 17.5 m/s and 20.5 m/s, respectively. What will be the time required by the trains to cross each other?",
-      "hi": "दो ट्रेनें जिनकी लंबाई क्रमशः 148 m और 156 m है, एक-दूसरे की ओर गतिमान हैं। उनकी चाल क्रमशः 17.5 m/s और 20.5 m/s है। ट्रेनों को एक-दूसरे को पार करने में कितना समय लगेगा?"
+      "hi": "दो ट्रेनें जिनकी लंबाई क्रमशः 148 m और 156 m है, एक दूसरे की ओर गतिमान हैं। उनकी चाल क्रमशः 17.5 m/s और 20.5 m/s है। ट्रेनों को एक दूसरे को पार करने में कितना समय लगेगा?"
     },
     "options": {
       "en": [
@@ -1329,10 +1329,10 @@
         "7 seconds"
       ],
       "hi": [
-        "9 सेकंड",
-        "8 seconds",
-        "10 सेकंड",
-        "7 सेकंड"
+        "9 सेकं ड",
+        "8 सेकं ड",
+        "10 सेकं ड",
+        "7 सेकं ड"
       ]
     },
     "correctIndex": 1,
@@ -1340,7 +1340,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (8 seconds). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (8 seconds)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (8 सेकं ड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1351,7 +1351,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "In this question, a question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate answer. Q. Five people – Qirat, Reyansh, Samika, Tushar and Urvika – live on different floors of a five-storey building numbered 1 to 5 (1 being the lowest and 5 being the highest floor). Who lives on Floor 5? (I) Samika lives above Tushar, who lives above Reyansh. (II) Urvika lives above Samika, and Qirat lives below Reyansh.",
-      "hi": ", (I) (II) गया डेटा प श् न का उ त्त र देने के िलए पय प् त है या नहीं। दोनों कथन का अ ध् ययन करें और उपयु क् त उ त्त र का चयन करें। प श् न : पांच छिड़यों , T, N, R, K और I, में से प त् येक की लंबाई अलग - अलग है , तो कौन - सी छड़ी सबसे छोटी है ? कथन : (I) K, I से छोटी है लेिकन N से लंबी है। T, N से लंबी है। (II) R केवल एक छड़ी से लंबी है। दी गई श्र ृंखला में के स् थान पर क् या आना चािहए"
+      "hi": "इस प्रश्न में, एक प्रश्न के बाद (I) और (II) से क्रमांकित दो कथन आते हैं। आपको यह तय करना होगा कि कथनों में दिया गया डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है या नहीं। दोनों कथनों को पढ़िए और उचित उत्तर तय कीजिए। प्रश्न: पाँच व्यक्ति – किरत, रेयांश, समिका, तुषार और उर्विका – एक पाँच-मंज़ि ला इमारत के विभिन्न तलों पर रहते हैं, जिनका क्रमांक 1 से 5 तक है (1 सबसे निचला तल है और 5 सबसे ऊपरी तल)। तल क्रमांक 5 पर कौन रहता है? (I) समिका, तुषार के ऊपर रहती है, जो रेयांश के ऊपर रहता है। (II) उर्विका, समिका के ऊपर रहती है, और किरत, रेयांश के नीचे रहती है।"
     },
     "options": {
       "en": [
@@ -1361,10 +1361,10 @@
         "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question"
       ],
       "hi": [
-        "कथन II में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है , जबिक कथन I में िदया गया डेटा पय प्त नही ं है",
-        "कथन I और II दोनों में िदया गया डेटा एक साथ पश्न का उत्तर देने के िलए पय प्त नही ं हैं",
-        "कथन I और II दोनों में िदया गया डेटा एक साथ ( न तो अकेले कथन I या न अकेले कथन II) पश्न का उत्तर देने के िलए पय प्त",
-        "कथन I में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है , जबिक कथन II में िदया गया डेटा पय प्त नही ं है"
+        "कथन I और II दोनों में दिया गया डेटा (न तो अके ले कथन I और न ही अके ले कथन II) मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
+        "कथन I और II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन II का डेटा पर्याप्त नहीं है।",
+        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन I का डेटा पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 3,
@@ -1372,7 +1372,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (कथन I में िदया गया डेटा अकेले पश्न का उत्तर देने के िलए पय प्त है , जबिक कथन II में िदया गया डेटा पय प्त नही ं है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन I का डेटा पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1383,7 +1383,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, certain mathematical operations on the second number results in the third number and so on. Which of the given options follows the same set of operations as in question? (NOTE – A two/three digit number cannot be broken into individual digits for operations e.g. if 37 is followed by 10, the operation cannot be 3+7 as a two digit number cannot be broken into individual digits) 14 – 25 – 75 – 90 ; 12 – 23 – 69 – 84",
-      "hi": "2,20,000 55% , िकतनी थी ? यिद है तो"
+      "hi": "नीचे संख्याओं के दो समुच्चय दिए गए हैं। प्रत्येक संख्याओं के समुच्चय में, पहली संख्या पर निश्चित गणितीय संक्रियाएं करने पर दूसरी संख्या प्राप्त होती है। इसी प्रकार, दूसरी संख्या पर निश्चित गणितीय संक्रियाएं करने पर तीसरी संख्या प्राप्त होती है, इसी प्रकार आगे भी संख्याएँ प्राप्त होती हैं। दिए गए विकल्पों में से कौन-सा विकल्प, प्रश्न के समान संक्रियाओं का अनुसरण करता है? (नोट: दो/तीन अंकों की संख्या को संक्रियाओं के लिए अलग-अलग अंकों में नहीं तोड़ा जा सकता। उदाहरण के लिए, यदि 37 के बाद 10 आता है, तो संक्रिया 3+7 नहीं की जा सकती, क्योंकि दो अंकों की संख्या को अलग-अलग अंकों में नहीं तोड़ा जा सकता है।) 14 – 25 – 75 – 90 ; 12 – 23 – 69 – 84"
     },
     "options": {
       "en": [
@@ -1393,10 +1393,10 @@
         "6 – 17 – 68 – 83"
       ],
       "hi": [
-        "1,10,000",
-        "1,30,000",
-        "1,21,000",
-        "1,15,000"
+        "8 – 19 – 57 – 72",
+        "10 – 21 – 63 – 76",
+        "4 – 15 – 45 – 70",
+        "6 – 17 – 68 – 83"
       ]
     },
     "correctIndex": 0,
@@ -1404,7 +1404,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (8 – 19 – 57 – 72). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (1,10,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (8 – 19 – 57 – 72)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1415,7 +1415,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "This question is based on the following words. DIN GOD LAY DUB In each of the words, each vowel is changed to the second letter preceding it in the English alphabetical order and each consonant is changed to the letter immediately following it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
-      "hi": "DIN GOD LAY DUB प त् येक श ब् द के प त् येक स् वर को अंगेजी वणमाला क्र म में उसके पहले वाले दूसरे अ क्ष र से बदल िदया जाता है और प त् येक व् यंजन को अंगेजी वणमाला क्र म में उसके ठीक बाद वाले अ क्ष र से बदल िदया जाता है। इस पकार बने िकतने अ क्ष र - समूहों में कोई स् वर नहीं आएगा ? एक कार के रेिडएटर में एंटीफीज वाला िवलयन होना चािहए। एक मोटरचालक के पास एंटीफीज वाला"
+      "hi": "यह प्रश्न निम्नलिखित शब्दों पर आधारित है। DIN GOD LAY DUB प्रत्येक शब्द के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके पहले वाले दूसरे अक्षर से बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से बदल दिया जाता है। इस प्रकार बने कितने अक्षर-समूहों में कोई स्वर नहीं आएगा?"
     },
     "options": {
       "en": [
@@ -1425,10 +1425,10 @@
         "Two"
       ],
       "hi": [
+        "तीन",
         "एक",
-        "दो",
         "चार",
-        "तीन"
+        "दो"
       ]
     },
     "correctIndex": 1,
@@ -1436,7 +1436,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (One). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1447,7 +1447,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Each of C, F, J, R, N, U and H has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. N has the exam on Thursday. Only five people have exams before C. F has the exam immediately after R but not on Wednesday. H has the exam after U but before J. How many people have exams between U and J?",
-      "hi": "C, F, J, R, N, U H अलग - अलग िदन है। N की परी क्ष ा गु रु वार को है। C से पहले केवल पांच व् यि क् तयों की परी क्ष ा है। F की परी क्ष ा R के ठीक बाद वाले िदन है परंतु बुधवार को नहीं है। H की परी क्ष ा U के बाद िकसी िदन परंतु J से पहले िकसी िदन है। U और J के बीच िकतने व् यि क् तयों की परी क्ष ा है ? एक दुकानदार ने में छह एक जैसे मोबाइल फोन खरीदे। उसने उनमें से दो को में बेच िदया। बेचे गए दो"
+      "hi": "C, F, J, R, N, U   H और में से प्रत्येक की परीक्षा सोमवार से शुरू होकर रविवार को समाप्त होने वाले एक ही सप्ताह के अलग अलग दिन है। की परीक्षा गुरुवार को है। C से पहले के वल पांच व्यक्तियों की परीक्षा है। F की परीक्षा R के ठीक -            N बाद वाले दिन है परंतु बुधवार को नहीं है। H की परीक्षा U के बाद किसी दिन परंतु J से पहले किसी दिन है। U और J के बीच कितने व्यक्तियों की परीक्षा है?"
     },
     "options": {
       "en": [
@@ -1457,10 +1457,10 @@
         "Three"
       ],
       "hi": [
-        "तीन",
-        "चार",
         "दो",
-        "एक"
+        "एक",
+        "चार",
+        "तीन"
       ]
     },
     "correctIndex": 3,
@@ -1468,7 +1468,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (Three). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1489,10 +1489,10 @@
         "34569 cm³"
       ],
       "hi": [
-        "34606 cm³",
-        "34725 cm³",
-        "34650 cm³",
-        "34569 cm³"
+        "34606 cm3",
+        "34725 cm3",
+        "34650 cm3",
+        "34569 cm3"
       ]
     },
     "correctIndex": 2,
@@ -1500,7 +1500,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (34650 cm³). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (34650 cm³)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (34650 cm3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1511,7 +1511,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? VSM 15 SPO 2 PMQ -11 MJS -24 ?",
-      "hi": "₹ 75,000 - ₹ 34,000 मोबाइल फोन पर उसका लाभ पितशत िकतना था ? िकसी रािश को वािषक दर पर वष ं के िलए िनवेश िकया गया था। वष ं बाद उस रािश पर अिजत च क्र वृि द्ध ब् याज"
+      "hi": "दी गई श्रृंखला को तार्कि क रूप से पूर्ण बनाने के लिए, निम्नलिखित में से कौन-सा अक्षर-संख्या समूह प्रश्न-चिह्न (?) के स्थान पर आएगा? VSM 15 SPO 2 PMQ -11 MJS -24 ?"
     },
     "options": {
       "en": [
@@ -1521,10 +1521,10 @@
         "HKP -44"
       ],
       "hi": [
-        "36%",
-        "37%",
-        "35%",
-        "39%"
+        "JKI -34",
+        "JGU -37",
+        "HYT -35",
+        "HKP -44"
       ]
     },
     "correctIndex": 1,
@@ -1532,7 +1532,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (JGU -37). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (37%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (JGU -37)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1543,7 +1543,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Seven people, E, F, G, H, W, X and Y, are sitting around a circular table, facing the center of the table. E sits fourth to the left of X. Only two people sit between H and G, when counted from the left of H. F sits third to the left of Y. W is an immediate neighbor of Y and G. Who sits fourth to the right of W? 9009",
-      "hi": ", E, F, G, H, W, X Y, : E, X ओर चौथे स् थान पर बैठा है। H के बाईं ओर से िगनने पर , H और G के बीच केवल दो व् यि क् त बैठे हैं। F, Y के बाईं ओर तीसरे स् थान पर बैठा है। Y और G का िनकटतम पड़ोसी W है। W के दाईं ओर चौथे स् थान पर कौन बैठा है ? अंगेजी वणमाला क्र म के आधार पर िन म् निलिखत चार अ क्ष र समूह यु ग् मों में से तीन एक िनि श् चत तरीके से एकसमान हैं और"
+      "hi": "सात व्यक्ति, E, F, G, H, W, X और Y, एक गोल मेज के परित: उसके कें द्र की ओर अभिमुख होकर बैठे हैं। E, X के बाईं ओर चौथे स्थान पर बैठा है। H के बाईं ओर से गिनने पर, H और G के बीच के वल दो व्यक्ति बैठे हैं। F, Y के बाईं ओर तीसरे स्थान पर बैठा है। Y और G का निकटतम पड़ोसी W है। W के दाईं ओर चौथे स्थान पर कौन बैठा है?"
     },
     "options": {
       "en": [
@@ -1553,10 +1553,10 @@
         "F"
       ],
       "hi": [
+        "G",
         "H",
-        "F",
         "E",
-        "G"
+        "F"
       ]
     },
     "correctIndex": 1,
@@ -1564,7 +1564,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (H). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (F)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (H)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1575,7 +1575,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster pair.)",
-      "hi": "- , - - , , होता है ? उस यु ग् म का चयन कीिजए जो नीचे िदए गए दो यु ग् मों के समान पैटन का अनुसरण करता है। दोनों यु ग् म समान पैटन का"
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार वे एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह युग्म उस ग्रुप से संबंधित नहीं है? (नोट: असंगत अक्षर-समूह युग्म, उसमें व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
     },
     "options": {
       "en": [
@@ -1585,10 +1585,10 @@
         "WU−RS"
       ],
       "hi": [
-        "वािहका (Vessels)",
-        "चालनी निलका (Sieve tubes)",
-        "दारू वािहिनका (Tracheids)",
-        "फ्लोएम तंत ु (Phloem fibres)"
+        "VT−RP",
+        "US−QO",
+        "NL−JH",
+        "WU−RS"
       ]
     },
     "correctIndex": 3,
@@ -1596,7 +1596,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (WU−RS). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (फ्लोएम तंत ु (Phloem fibres))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (WU−RS)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1607,7 +1607,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "311 is related to 330 following a certain logic. Following the same logic, 426 is related to 445. To which of the given options is 115 related, following the same logic? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "hi": "311 330 , 426 445 से है। उसी तक का अनुसरण करते हुए 115 का संबंध िन म् निलिखत में से िकससे है ? ( नोट : सं ख् याओं को उनके घटक अंकों में तोड़े िबना संि क्र याएं केवल पूण सं ख् याओं पर की जानी चािहए। उदाहरण के िलए , 13 लीिजए - 13 पर संि क्र याएं , जैसे 13 में जोड़ना / घटाना / गुणा करना आिद , की जा सकती हैं। 13 को 1 और 3 में तोड़ना तथा िफर 1 और 3 पर गिणतीय संि क्र याएं करने की अनुमित नहीं है। )"
+      "hi": "एक निश्चित तर्क का अनुसरण करते हुए 311 का संबंध 330 से है। उसी तर्क का अनुसरण करते हुए, 426 का संबंध 445 से है। उसी तर्क का अनुसरण करते हुए 115 का संबंध निम्नलिखित में से किससे है? (नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना संक्रियाएं के वल पूर्ण संख्याओं पर की जानी चाहिए। उदाहरण के लिए, 13 लीजिए - 13 पर संक्रियाएं, जैसे 13 में जोड़ ना/घटाना/गुणा करना आदि, की जा सकती हैं। 13 को 1 और 3 में तोड़ ना तथा फिर 1 और 3 पर गणितीय संक्रियाएं करने की अनुमति नहीं है।)"
     },
     "options": {
       "en": [
@@ -1639,7 +1639,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Sahil starts from Point A and drives 14 km towards West. He then takes a right turn, drives 10 km, turns right and drives 17 km. He then takes a right turn and drives 15 km. He takes a final right turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
-      "hi": "A 14 km 10 km डाइव करता है , िफर से दाएँ मुड़कर 17 km डाइव करता है। िफर वह दाएँ मुड़कर 15 km डाइव करता है। अंत में वह दाएँ मुड़कर 3 km डाइव करता है और िबंदु P पर रु क जाता है। िबंदु A पर वापस पहुँचने के िलए उसे िकतनी दूर ( न् यूनतम दूरी ) और िकस िदशा में डाइव करना चािहए ? ( जब तक िनिद ष् ट न िकया गया हो , सभी मोड़ 90- िडगी के मोड़ हैं। ) िन म् निलिखत में से कौन सा कथन समांगी िम श्र ण का सव त्त म वणन करता है"
+      "hi": "साहिल बिंदु A से ड्राइव करना शुरू करता है और पश्चिम की ओर 14 km ड्राइव करता है। फिर वह दाएँ मुड़ कर 10 km ड्राइव करता है, फिर से दाएँ मुड़ कर 17 km ड्राइव करता है। फिर वह दाएँ मुड़ कर 15 km ड्राइव करता है। अंत में वह दाएँ मुड़ कर 3 km ड्राइव करता है और बिंदु P पर रुक जाता है। बिंदु A पर वापस पहुँचने के लिए उसे कितनी दूर (न्यूनतम दूरी) और किस दिशा में ड्राइव करना चाहिए? (जब तक निर्दिष्ट न किया गया हो, सभी मोड़ 90-डिग्री के मोड़ हैं।)"
     },
     "options": {
       "en": [
@@ -1650,9 +1650,9 @@
       ],
       "hi": [
         "6 km उत्तर की ओर",
-        "7 km दिक्षण की ओर",
+        "7 km दक्षिण की ओर",
         "5 km उत्तर की ओर",
-        "6 km दिक्षण की ओर"
+        "6 km दक्षिण की ओर"
       ]
     },
     "correctIndex": 2,
@@ -1671,7 +1671,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 4 @ 7 # 2 % 9 & 1 $ 8 + 5 6 Code J M P T D R W F H K A U L Q Conditions – (i) If the first element is a symbol, code the second element as ©. (ii) If the third element is a symbol, code the fourth element as ©. (iii) If the fifth element is a symbol, code the first element as ©. What is the code for the following group of number-symbols? 94#51",
-      "hi": ", / उपयोग करके कूटब द्ध िकया गया है। शत ं का अनुसरण करने वाला कूटों का सही संयोजन ही आपका उ त्त र है। यिद कोई भी शत लागू नहीं होती है , तो संबंिधत सं ख् या / पतीक के कूटों का अनुसरण सीधे तािलका में िदए गए अनुसार िकया जाना चािहए। संख्या / पतीक 4 @ 7 # 2 % 9 & 1 $ 8 + 5 6 कूट J M P T D R W F H K A U L Q शत ं – (i) यिद पहला अवयव एक पतीक है , तो दूसरे अवयव को © के रू प में कूटब द्ध करें। (ii) यिद तीसरा अवयव एक पतीक है , तो चौथे अवयव को © के रू प में कूटब द्ध करें। (iii) यिद पाँचवाँ अवयव एक पतीक है , तो पहले अवयव को © के रू प में कूटब द्ध करें। सं ख् या - पतीकों के िन म् निलिखत समूह के िलए कूट क् या है ? 94#51 एक िनि श् चत कूट भाषा में को के रू प में कूटब द्ध िकया जाता है और"
+      "hi": "इस प्रश्न में, संख्या/प्रतीक के एक समूह को नीचे दिए गए कू ट और उसके बाद आने वाली शर्तों के अनुसार अक्षर कू टों का उपयोग करके कू टबद्ध किया गया है। शर्तों का अनुसरण करने वाला कू टों का सही संयोजन ही आपका उत्तर है। यदि कोई भी शर्त लागू नहीं होती है, तो संबंधित संख्या/प्रतीक के कू टों का अनुसरण सीधे तालिका में दिए गए अनुसार किया जाना चाहिए। संख्या/प्रतीक 4 @ 7 # 2 % 9 & 1 $ 8 + 5 6 कू ट           J M PTDR WF HKAULQ शर्तें – (i) यदि पहला अवयव एक प्रतीक है, तो दूसरे अवयव को © के रूप में कू टबद्ध करें। (ii) यदि तीसरा अवयव एक प्रतीक है, तो चौथे अवयव को © के रूप में कू टबद्ध करें। (iii) यदि पाँचवाँ अवयव एक प्रतीक है, तो पहले अवयव को © के रूप में कू टबद्ध करें। संख्या-प्रतीकों के निम्नलिखित समूह के लिए कू ट क्या है? 94#51"
     },
     "options": {
       "en": [
@@ -1683,8 +1683,8 @@
       "hi": [
         "©JTLH",
         "WJTLH",
-        "WJT©H",
-        "WJTL©"
+        "WJTL©",
+        "WJT©H"
       ]
     },
     "correctIndex": 3,
@@ -1692,7 +1692,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (WJT©H). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (WJTL©)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (WJT©H)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1703,7 +1703,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "MING is related to TPUN in a certain way based on the English alphabetical order. In the same way, OKPI is related to VRWP. To which of the given options is JFKD related, following the same logic?",
-      "hi": ", , 3 3 व् यि क् तयों की आयु का योगफल 108 वष था , तो अमन की वतमान आयु ( वष में ) ात कीिजए। \""
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, किसी निश्चित तरीके से MING का संबंध TPUN से है। उसी तरीके से, OKPI का संबंध VRWP से है। समान तर्क का अनुसरण करते हुए, JFKD का संबंध दिए गए विकल्पों में से किससे है?"
     },
     "options": {
       "en": [
@@ -1713,10 +1713,10 @@
         "QMKI"
       ],
       "hi": [
-        "70",
-        "48",
-        "59",
-        "72"
+        "QMJU",
+        "QMRK",
+        "QRHY",
+        "QMKI"
       ]
     },
     "correctIndex": 1,
@@ -1724,7 +1724,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (QMRK). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (48)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (QMRK)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1735,7 +1735,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A shopkeeper bought six identical mobile phones for ₹ 75,000. He sold two of them for ₹ 34,000. What was his gain percentage on the two mobile phones sold?",
-      "hi": ", - - - ह्न (?) पर आएगा ? VSM 15 SPO 2 PMQ -11 MJS -24 ? और में से प त् येक की परी क्ष ा सोमवार से शु रू होकर रिववार को समा प् त होने वाले एक ही स प् ताह के"
+      "hi": "एक दुकानदार ने ₹75,000 में छह एक-जैसे मोबाइल फोन खरीदे। उसने उनमें से दो को ₹34,000 में बेच दिया। बेचे गए दो मोबाइल फोन पर उसका लाभ प्रतिशत कितना था?"
     },
     "options": {
       "en": [
@@ -1745,10 +1745,10 @@
         "35%"
       ],
       "hi": [
-        "JGU -37",
-        "JKI -34",
-        "HYT -35",
-        "HKP -44"
+        "37%",
+        "36%",
+        "39%",
+        "35%"
       ]
     },
     "correctIndex": 1,
@@ -1756,7 +1756,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (36%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (JKI -34)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (36%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1767,7 +1767,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "What should come in place of ‘?’ in the given series? 4 12 23 31 42 50 ?",
-      "hi": "AB CD , AB, CD EF GH ितयक् छेदी रेखाएं हैं जो AB को क्र मशः P और R पर पित च् छेद करती हैं , तथा CD को क्र मशः Q और S पर पित च् छेद करती हैं। मान लीिजए िक E और G, AB से ऊपर ि स् थत हैं , जबिक F और H, CD से नीचे ि स् थत हैं। यिद ∠ EPB = 2a°, DSG = b° और ∠ FQD = 80° हैं , तो क्र मशः a और b का मान ात कीिजए। ∠ यिद श ब् द के प त् येक अ क्ष र को अंगेजी वणमाला क्र म में व् यवि स् थत िकया जाए तो इस पकार िनिमत नए अ क्ष र"
+      "hi": "दी गई श्रृंखला में '?' के स्थान पर क्या आना चाहिए? 4 12 23 31 42 50 ?"
     },
     "options": {
       "en": [
@@ -1777,10 +1777,10 @@
         "61"
       ],
       "hi": [
-        "50 और 100",
-        "40 और 120",
-        "20 और 80",
-        "40 और 100"
+        "58",
+        "63",
+        "54",
+        "61"
       ]
     },
     "correctIndex": 3,
@@ -1788,7 +1788,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (61). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (40 और 100)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (61)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1799,7 +1799,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation? 30 – 4 ÷ 4 + 40 × 10 = ?",
-      "hi": "‘+’ ‘−’ , ‘−’ ‘×’ , ‘×’ ‘÷’ ‘÷’ ‘+’ , - िच ह्न (?) के स् थान पर क् या आएगा ? 30 – 4 ÷ 4 + 40 × 10 = ? नीचे सं ख् याओं के दो समु च् चय िदए गए हैं। प त् येक सं ख् याओं के समु च् चय में पहली सं ख् या पर िनि श् चत गिणतीय संि क्र याएं करने"
+      "hi": "यदि ‘+’ का अर्थ ‘−’ है, ‘−’ का अर्थ ‘×’ है, ‘×’ का अर्थ ‘÷’ है और ‘÷’ का अर्थ ‘+’ है, तो निम्नलिखित समीकरण में प्रश्न- चिह्न (?) के स्थान पर क्या आएगा? 30 – 4 ÷ 4 + 40 × 10 = ?"
     },
     "options": {
       "en": [
@@ -1831,7 +1831,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? YVX 9, URT 14, QNP 19, MJL 24, ? 2470",
-      "hi": "- - , - ह्न (?) पित स् थािपत करेगा ? YVX 9, URT 14, QNP 19, MJL 24, ? दी गई श्र ृंखला को तािकक रू प से पूण बनाने के िलए िन म् निलिखत में से कौन सा अ क्ष र सं ख् या समूह प श् न िच के स् थान"
+      "hi": "निम्नलिखित अक्षर-संख्या समूहों में से कौन-सा, दी गई श्रृंखला को तार्कि क रूप से पूर्ण बनाने के लिए प्रश्न-चिह्न (?) को प्रतिस्थापित करेगा? YVX 9, URT 14, QNP 19, MJL 24, ?"
     },
     "options": {
       "en": [
@@ -1842,9 +1842,9 @@
       ],
       "hi": [
         "IFH 29",
-        "IFG 28",
+        "IHF 28",
         "GFH 29",
-        "IHF 28"
+        "IFG 28"
       ]
     },
     "correctIndex": 0,
@@ -1863,7 +1863,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Let AB and CD be two parallel lines, with AB above CD. Let EF and GH be two parallel transversals intersecting AB at P and R, respectively, and CD at Q and S, respectively. Assume that E and G lie above AB, while F and H lie below CD. If ∠ EPB = 2a°, ∠ DSG = b° and ∠ FQD = 80°, then find the values for a and b, respectively.",
-      "hi": "GUILDER , - समूह में बाएं से चौथे अ क्ष र और दाएं से पहले अ क्ष र के बीच , अंगेजी वणमाला क्र म में िकतने अ क्ष र होंगे ?"
+      "hi": "मान लीजिए कि AB और CD दो समांतर रेखाएं हैं, जिनमें AB, CD से ऊपर है। मान लीजिए कि EF और GH दो समांतर तिर्यक् छेदी रेखाएं हैं जो AB को क्रमशः P और R पर प्रतिच्छेद करती हैं, तथा CD को क्रमशः Q और S पर प्रतिच्छेद करती हैं। मान लीजिए कि E और G, AB से ऊपर स्थित हैं, जबकि F और H, CD से नीचे स्थित हैं। यदि ∠EPB = 2a°, ∠DSG = b° और ∠FQD = 80° हैं, तो क्रमशः a और b का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1873,10 +1873,10 @@
         "40 and 120"
       ],
       "hi": [
-        "14",
-        "11",
-        "10",
-        "12"
+        "40 और 100",
+        "20 और 80",
+        "50 और 100",
+        "40 और 120"
       ]
     },
     "correctIndex": 2,
@@ -1884,7 +1884,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (50 and 100). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (10)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (50 और 100)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1895,7 +1895,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A person invested ₹ 56,500 at a rate of 8% per annum simple interest for 2 years. Find the amount (in ₹ ) he will receive after 2 years. 6677",
-      "hi": ", MING TPUN , OKPI संबंध VRWP से है। समान तक का अनुसरण करते हुए , JFKD का संबंध िदए गए िवक ल् पों में से िकससे है ? अमन की आयु उसके पु त्र की आयु की तीन गुनी है और उसकी पु त्र ी उसके पु त्र से वष छोटी है। यिद वष पूव इन तीनों"
+      "hi": "एक व्यक्ति ने 2 वर्षों के लिए 8% वार्षिक साधारण ब्याज की दर से ₹56,500 का निवेश किया। 2 वर्षों के बाद उसे प्राप्त होने वाली राशि (₹ में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1905,10 +1905,10 @@
         "64,540"
       ],
       "hi": [
-        "QRHY",
-        "QMKI",
-        "QMRK",
-        "QMJU"
+        "65,450",
+        "64,450",
+        "65,540",
+        "64,540"
       ]
     },
     "correctIndex": 2,
@@ -1916,7 +1916,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (65,540). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (QMRK)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (65,540)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1959,7 +1959,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "18 is related to 59 following a certain logic. Following the same logic, 15 is related to 50. To which of the following is 12 related, following the same logic? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "hi": "7- 49A952B, 12 (A + B) ? एक िनि श् चत कूट भाषा में को के रू प में कूटब द्ध िकया जाता है और को के रू प में"
+      "hi": "एक निश्चित तर्क का अनुसरण करते हुए 18 का संबंध 59 से है। उसी तर्क का अनुसरण करते हुए, 15 का संबंध 50 से है। उसी तर्क का अनुसरण करते हुए 12 का संबंध निम्नलिखित में से किससे है? (नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना संक्रियाएं के वल पूर्ण संख्याओं पर की जानी चाहिए। उदाहरण के लिए, 13 लीजिए - 13 पर संक्रियाएं, जैसे 13 में जोड़ ना/घटाना/गुणा करना आदि, की जा सकती हैं। 13 को 1 और 3 में तोड़ ना तथा फिर 1 और 3 पर गणितीय संक्रियाएं करने की अनुमति नहीं है।)"
     },
     "options": {
       "en": [
@@ -1969,10 +1969,10 @@
         "32"
       ],
       "hi": [
-        "4",
-        "3",
-        "2",
-        "1"
+        "41",
+        "45",
+        "36",
+        "32"
       ]
     },
     "correctIndex": 0,
@@ -1980,7 +1980,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option A (41). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प A (41)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2011,8 +2011,8 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Science (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option C (It has the same appearance and composition throughout). A homogeneous mixture has uniform composition and appearance throughout.",
-      "hi": "सही उत्तर: विकल्प C (इसका समग्र स्वरूप और संघटन समान होता है)। समांगी मिश्रण में सभी घटकों का संघटन और स्वरूप संपूर्ण मिश्रण में एकसमान होता है।"
+      "en": "Correct Answer: Option C (It has the same appearance and composition throughout). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प C (इसका समग्र स्वरूप और संघटन समान होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2023,7 +2023,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Each vowel in the word DARKISH is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. How many letters will appear exactly twice in the group of letters thus formed? 2413",
-      "hi": "DARKISH और प त् येक व् यंजन को अंगेजी वणमाला क्र म में उसके ठीक पहले वाले अ क्ष र से पित स् थािपत कर िदया जाए , तो इस पकार िनिमत अ क्ष रों के समूह में िकतने अ क्ष र ठीक दो बार आएंगे ? यिद और को पर स् पर पित स् थािपत कर िदया जाए तथा और को पर स् पर पित स् थािपत कर िदया जाए तो"
+      "hi": "यदि शब्द DARKISH के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से प्रतिस्थापित कर दिया जाए और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर से प्रतिस्थापित कर दिया जाए, तो इस प्रकार निर्मित अक्षरों के समूह में कितने अक्षर ठीक दो बार आएंगे?"
     },
     "options": {
       "en": [
@@ -2055,7 +2055,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "If a candidate received 55% of the 2,20,000 votes in an election, what was the total number of votes the candidate received?",
-      "hi": "₹ 40 kg 30 kg ₹ 60 kg 20 kg है। पिरणामी िम श्र ण का पित kg औसत मू ल् य िकतना होगा ? दी गई श्र ृंखला में के स् थान पर क् या आना चािहए"
+      "hi": "यदि किसी उम्मीदवार को चुनाव में 2,20,000 वोटों में से 55% वोट प्राप्त हुए, तो उम्मीदवार को प्राप्त कु ल वोटों की संख्या कितनी थी?"
     },
     "options": {
       "en": [
@@ -2065,10 +2065,10 @@
         "1,10,000"
       ],
       "hi": [
-        "₹ 50",
-        "₹ 52",
-        "₹ 45",
-        "₹ 48"
+        "1,30,000",
+        "1,21,000",
+        "1,15,000",
+        "1,10,000"
       ]
     },
     "correctIndex": 1,
@@ -2076,7 +2076,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (1,21,000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (₹ 52)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (1,21,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2087,7 +2087,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Binayak starts from Point A and drives 11 km towards East. He then takes a left turn, drives 8 km, turns left and drives 12 km. He then takes a left turn and drives 10 km. He takes a final left turn, drives 1 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only unless specified) 426",
-      "hi": "A 11 km 8 km करता है , बाएं मुड़ता है और 12 km डाइव करता है। िफर वह बाएं मुड़कर 10 km डाइव करता है। वह अंितम बार बाएं मुड़कर 1 km डाइव करके िबंदु P पर रु कता है। िबंदु A पर वापस पहुंचने के िलए उसे िकतनी दूर ( न् यूनतम दूरी ) और िकस िदशा में डाइव करना चािहए ? ( जब तक िक िनिद ष् ट न हों , सभी मोड़ केवल 90 िडगी के मोड़ हैं )"
+      "hi": "बिनायक बिंदु A से ड्राइव करना शुरू करता है और पूर्व की ओर 11 km ड्राइव करता है। फिर वह बाएं मुड़ कर 8 km ड्राइव करता है, बाएं मुड़ ता है और 12 km ड्राइव करता है। फिर वह बाएं मुड़ कर 10 km ड्राइव करता है। वह अंतिम बार बाएं मुड़ कर 1 km ड्राइव करके बिंदु P पर रुकता है। बिंदु A पर वापस पहुंचने के लिए उसे कितनी दूर (न्यूनतम दूरी) और किस दिशा में ड्राइव करना चाहिए? (जब तक कि निर्दिष्ट न हों, सभी मोड़ के वल 90 डिग्री के मोड़ हैं)"
     },
     "options": {
       "en": [
@@ -2119,7 +2119,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "In a certain code language, ‘WHAT’ is coded as ‘2789’ and ‘HATS’ is coded as ‘1789’. What is the code for ‘S’ in the given code language?",
-      "hi": ", ‘WHAT’ ‘2789’ ‘HATS’ ‘1789’ दी गई कूट भाषा में ‘S’ का कूट क् या है ? 4 2 2 2"
+      "hi": "एक निश्चित कू ट भाषा में, ‘WHAT’ को ‘2789’ के रूप में और ‘HATS’ को ‘1789’ के रूप में कू टबद्ध किया जाता है। दी गई कू ट भाषा में ‘S’ का कू ट क्या है?"
     },
     "options": {
       "en": [
@@ -2151,7 +2151,7 @@
     "topic": "Mathematics (04 Nov 2026 Shift 4)",
     "question": {
       "en": "The 7-digit number 49A952B is divisible by 12. What is the minimum value of (A + B)? 1147",
-      "hi": "अनुसरण करते हैं। QRU−TUX STW−VWZ छह बॉ क् स और एक के ऊपर एक रखे गए हैं लेिकन आव श् यक नहीं है िक वे इसी क्र म में रखे गए हों।"
+      "hi": "7-अंकीय संख्या 49A952B, 12 से विभाज्य है। (A + B) का न्यूनतम मान कितना होगा?"
     },
     "options": {
       "en": [
@@ -2161,10 +2161,10 @@
         "2"
       ],
       "hi": [
-        "GGI−IJM",
-        "GHK−JKN",
-        "GHK−IKM",
-        "GGI−JKN"
+        "3",
+        "1",
+        "4",
+        "2"
       ]
     },
     "correctIndex": 1,
@@ -2172,7 +2172,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option B (1). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (GHK−JKN)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प B (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2183,7 +2183,7 @@
     "topic": "General Science (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A student in a laboratory finds that sound travels faster in steel than in air. Which characteristic of the medium best explains this observation?",
-      "hi": "प्रयोगशाला में एक विद्यार्थी यह प्रेक्षित करता है कि वायु की तुलना में इस्पात में ध्वनि तेजी से गमन करती है। माध्यम का कौन-सा अभिलक्षण इस प्रेक्षण की सर्वोत्तम व्याख्या करता है?"
+      "hi": "प्रयोगशाला में एक विद्यार्थी यह प्रेक्षित करता है कि वायु की तुलना में इस्‍पात में ध्वनि तेजी से गमन करती है। माध्यम का कौन-सा अभिलक्षण इस प्रेक्षण की सर्वोत्तम व्याख्या करता है?"
     },
     "options": {
       "en": [
@@ -2193,7 +2193,7 @@
         "Temperature and humidity of the medium"
       ],
       "hi": [
-        "माध्यम की आकृति और आकार",
+        "माध्यम की आकृ ति और आकार",
         "माध्यम का घनत्व और प्रत्यास्थता",
         "माध्यम की मोटाई और रंग",
         "माध्यम का तापमान और आर्द्रता"
@@ -2203,8 +2203,8 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Science (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option B (Density and elasticity of the medium). The speed of sound depends on the elasticity and density of the medium (v = √(E/ρ)).",
-      "hi": "सही उत्तर: विकल्प B (माध्यम का घनत्व और प्रत्यास्थता)। माध्यम में ध्वनि का वेग उसकी प्रत्यास्थता और घनत्व पर निर्भर करता है (v = √(E/ρ)।"
+      "en": "Correct Answer: Option B (Density and elasticity of the medium). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प B (माध्यम का घनत्व और प्रत्यास्थता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2215,7 +2215,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "In a certain code language, ‘piano juice bonus’ is coded as 'ui gc fh' and ‘bonus lemon judge’ is coded as ‘hp ui gt’. How is ‘bonus’ coded in the given language?",
-      "hi": ", ‘piano juice bonus’ ‘ui gc fh’ ‘bonus lemon judge’ को ‘hp ui gt’ के रू प में कूटब द्ध िकया जाता है। दी गई कूट भाषा में ‘bonus’ को िकस रू प में कूटब द्ध िकया जाता है ? एक घनाभाकार लकड़ी के िड ब् बे की आंतिरक िवमाएं हैं। इसे भुजा वाले छोटे"
+      "hi": "एक निश्चित कू ट भाषा में, ‘piano juice bonus’ को ‘ui gc fh’ के रूप में कू टबद्ध किया जाता है और ‘bonus lemon judge’ को ‘hp ui gt’ के रूप में कू टबद्ध किया जाता है। दी गई कू ट भाषा में ‘bonus’ को किस रूप में कू टबद्ध किया जाता है?"
     },
     "options": {
       "en": [
@@ -2226,9 +2226,9 @@
       ],
       "hi": [
         "fh",
+        "gc",
         "ui",
-        "hp",
-        "gc"
+        "hp"
       ]
     },
     "correctIndex": 2,
@@ -2236,7 +2236,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (ui). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (hp)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (ui)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2247,7 +2247,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "A question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate answer. Question: Among 5 sticks, T, N, R, K and I, each having a different height, which stick is the shortest? Statements: (I) K is shorter than I but taller than N. T is taller than N. (II) R is taller than only one stick. question.",
-      "hi": "84% 70% 10 लीटर िवलयन है। 84% एंटीफीज वाला िवलयन पा प् त करने के िलए उसे अपने िवलयन में 95% एंटीफीज दव का िकतना लीटर ( दशमलव के 2 स् थानों तक पूण ंिकत ) िमलाना चािहए ? इस प श् न में एक प श् न के बाद और से क्र मांिकत दो कथन िदए गए हैं। आपको यह तय करना है िक कथन में िदया"
+      "hi": "इस प्रश्न में, एक प्रश्न के बाद (I) और (II) से क्रमांकित दो कथन दिए गए हैं। आपको यह तय करना है कि कथन में दिया गया डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है या नहीं। दोनों कथन का अध्ययन करें और उपयुक्त उत्तर का चयन करें। प्रश्न: पांच छड़ि यों, T, N, R, K और I, में से प्रत्येक की लंबाई अलग-अलग है, तो कौन-सी छड़ी सबसे छोटी है? कथन: (I) K, I से छोटी है लेकिन N से लंबी है। T, N से लंबी है। (II) R के वल एक छड़ी से लंबी है।"
     },
     "options": {
       "en": [
@@ -2257,10 +2257,10 @@
         "Data in both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the"
       ],
       "hi": [
-        "18.61",
-        "15.38",
-        "10.34",
-        "12.73"
+        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है",
+        "कथन I और II दोनों में दिया गया डेटा एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं",
+        "कथन I और II दोनों में दिया गया डेटा एक साथ (न तो अके ले कथन I या न अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं",
+        "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है"
       ]
     },
     "correctIndex": 3,
@@ -2268,7 +2268,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (Data in both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (12.73)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2279,7 +2279,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right. (Left) I X U Q T O D I R R Z I P T T D E O L I U Z (Right) How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a vowel?",
-      "hi": "A, H, M, P, S V H, M में बैठा है। P के दाईं ओर से िगनती करने पर P और A के बीच केवल दो व् यि क् त बैठे हैं। S, P का िनकटतम पड़ोसी नहीं है। V, S के ठीक बाईं ओर पड़ोस में बैठा है। H के बाईं ओर से िगनती करने पर H और V के बीच िकतने व् यि क् त बैठे हैं ?"
+      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए तथा दिए गए प्रश्न का उत्तर दीजिए। गिनती के वल बाएं से दाएं की जानी है। (बाएं) I X U Q T O D I R R Z I P T T D E O L I U Z (दाएं) ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन और ठीक बाद एक स्वर है?"
     },
     "options": {
       "en": [
@@ -2290,9 +2290,9 @@
       ],
       "hi": [
         "2",
+        "5",
         "3",
-        "4",
-        "1"
+        "4"
       ]
     },
     "correctIndex": 2,
@@ -2300,7 +2300,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (3). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2311,7 +2311,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Each of F, A, C, I, N, G and S has holidays on a different day of a week, starting from Monday and ending on Sunday of the same week. No one has holiday before A. Only three people have holiday between A and I. Only one person has holiday between I and the days before G. On which day of the week does N have holiday? 4066",
-      "hi": ", पर दूसरी सं ख् या पा प् त होती है। इसी पकार , दूसरी सं ख् या पर िनि श् चत गिणतीय संि क्र याएं करने पर तीसरी सं ख् या पा प् त होती है , इसी पकार आगे भी सं ख् याएँ पा प् त होती हैं। िदए गए िवक ल् पों में से कौन - सा िवक ल् प , प श् न के समान संि क्र याओं का अनुसरण करता है ? ( नोट : दो / तीन अंकों की सं ख् या को संि क्र याओं के िलए अलग - अलग अंकों में नहीं तोड़ा जा सकता। उदाहरण के िलए , यिद 37 के बाद 10 आता है , तो संि क्र या 3+7 नहीं की जा सकती , क् योंिक दो अंकों की सं ख् या को अलग - अलग अंकों में नहीं तोड़ा जा सकता है। ) 14 – 25 – 75 – 90 ; 12 – 23 – 69 – 84 और में से प त् येक का अवकाश सोमवार से शु रू होकर रिववार को समा प् त होने वाले एक ही स प् ताह के"
+      "hi": "F, A, C, I, N, G और S में से प्रत्येक का अवकाश, सोमवार से शुरू होकर रविवार को समाप्त होने वाले एक ही सप्ताह के अलग अलग दिन है। A से पहले किसी का अवकाश नहीं है। A और I के बीच के वल तीन व्यक्तियों का अवकाश है। I और - Cके बीच के वल एक व्यक्ति का अवकाश है। F का अवकाश बुधवार को है। N का अवकाश S के बाद किसी एक दिन लेकिन Gसे पहले किसी एक दिन है। सप्ताह के किस दिन N का अवकाश है?"
     },
     "options": {
       "en": [
@@ -2321,10 +2321,10 @@
         "Thursday"
       ],
       "hi": [
-        "4 – 15 – 45 – 70",
-        "10 – 21 – 63 – 76",
-        "8 – 19 – 57 – 72",
-        "6 – 17 – 68 – 83"
+        "रविवार",
+        "सोमवार",
+        "शनिवार",
+        "गुरुवार"
       ]
     },
     "correctIndex": 3,
@@ -2332,7 +2332,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option D (Thursday). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (6 – 17 – 68 – 83)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प D (गुरुवार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2343,7 +2343,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "What should come in place of ‘?’ in the given series? 514 393 293 212 148 ?",
-      "hi": "'?' ? 514 393 293 212 148 ? एक व् यि क् त ने वष ं के िलए वािषक साधारण ब् याज की दर से का िनवेश िकया। वष ं के बाद उसे पा प् त"
+      "hi": "दी गई श्रृंखला में '?' के स्थान पर क्या आना चाहिए? 514 393 293 212 148 ?"
     },
     "options": {
       "en": [
@@ -2375,7 +2375,7 @@
     "topic": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
     "question": {
       "en": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. V has an exam on Friday. Only two people have exams between V and S. S has an exam on the day immediately after T. R has an exam on the day immediately after U but not on Thursday. Q has an exam on the day immediately after P but before U. Who among the following has an exam on Thursday? \"",
-      "hi": "P, Q, R, S, T, U V अलग - अलग िदन है। V की परी क्ष ा शु क्र वार को है। V और S के बीच केवल दो व् यि क् तयों की परी क्ष ा है। S की परी क्ष ा , T की परी क्ष ा के ठीक बाद वाले िदन है। R की परी क्ष ा , U की परी क्ष ा के ठीक बाद वाले िदन है , लेिकन गु रु वार को नहीं है। Q की परी क्ष ा , P की परी क्ष ा के ठीक बाद वाले िदन है , लेिकन U से पहले िकसी िदन है। िन म् निलिखत में से िकसकी परी क्ष ा गु रु वार को है ? िन म् निलिखत अ क्ष र शृंखला का संदभ लीिजए तथा िदए गए प श् न का उ त्त र दीिजए। िगनती केवल बाएं से दाएं की जानी है।"
+      "hi": "P, Q, R, S, T, U   Vऔर में से प्रत्येक की परीक्षा सोमवार से शुरू होकर रविवार को समाप्त होने वाले एक ही सप्ताह के अलग अलग दिन है। की परीक्षा शुक्रवार को है। V और S के बीच के वल दो व्यक्तियों की परीक्षा है। S की परीक्षा, T -            V की परीक्षा के ठीक बाद वाले दिन है। R की परीक्षा, U की परीक्षा के ठीक बाद वाले दिन है, लेकिन गुरुवार को नहीं है। Q की परीक्षा, P की परीक्षा के ठीक बाद वाले दिन है, लेकिन U से पहले किसी दिन है। निम्नलिखित में से किसकी परीक्षा गुरुवार को है?"
     },
     "options": {
       "en": [
@@ -2385,10 +2385,10 @@
         "R"
       ],
       "hi": [
-        "R",
-        "S",
         "P",
-        "Q"
+        "S",
+        "Q",
+        "R"
       ]
     },
     "correctIndex": 2,
@@ -2396,7 +2396,7 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (04 Nov 2026 Shift 4)",
       "en": "Correct Answer: Option C (Q). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (P)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "hi": "सही उत्तर: विकल्प C (Q)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   }
 ]
