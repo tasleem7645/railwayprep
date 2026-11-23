@@ -17,8 +17,9 @@ import {
 export default function App() {
   const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz'
   const [selectedLang, setSelectedLang] = useState('hi');
-  const [testFilter, setTestFilter] = useState('all'); // 'all' | 'full-shift' | 'sectional'
-  const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | '03 Nov Shift 1' | '03 Nov Shift 2' | '03 Nov Shift 3'
+  const [yearFilter, setYearFilter] = useState('all'); // 'all' | '2026' | '2025'
+  const [testFilter, setTestFilter] = useState('all'); // 'all' | 'official' | 'sectional'
+  const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | specific shift
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [activeTest, setActiveTest] = useState(null);
   const [testResult, setTestResult] = useState(null);
@@ -43,20 +44,21 @@ export default function App() {
     }
   }, []);
 
+  const yearTests = RAILWAY_TESTS.filter(test => {
+    const is2025 = test.examYear === '2025' || test.exam === 'RRB ALP 2025';
+    return yearFilter === 'all' || (yearFilter === '2025' ? is2025 : !is2025);
+  });
+
+  const uniqueShifts = Array.from(new Set(yearTests.map(t => t.shiftName).filter(Boolean)));
   const availableShifts = [
-    { key: 'all', label: `All Shifts (${RAILWAY_TESTS.length})` },
-    { key: '03 Nov Shift 1', label: `03 Nov Shift 1 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 1').length})` },
-    { key: '03 Nov Shift 2', label: `03 Nov Shift 2 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 2').length})` },
-    { key: '03 Nov Shift 3', label: `03 Nov Shift 3 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 3').length})` },
-    { key: '04 Nov Shift 4', label: `04 Nov Shift 4 (${RAILWAY_TESTS.filter(t => t.shiftName === '04 Nov Shift 4').length})` },
-    { key: '04 Nov Shift 5', label: `04 Nov Shift 5 (${RAILWAY_TESTS.filter(t => t.shiftName === '04 Nov Shift 5').length})` },
-    { key: '04 Nov Shift 6', label: `04 Nov Shift 6 (${RAILWAY_TESTS.filter(t => t.shiftName === '04 Nov Shift 6').length})` },
-    { key: '05 Nov Shift 7', label: `05 Nov Shift 7 (${RAILWAY_TESTS.filter(t => t.shiftName === '05 Nov Shift 7').length})` },
-    { key: '05 Nov Shift 8', label: `05 Nov Shift 8 (${RAILWAY_TESTS.filter(t => t.shiftName === '05 Nov Shift 8').length})` },
-    { key: '05 Nov Shift 9', label: `05 Nov Shift 9 (${RAILWAY_TESTS.filter(t => t.shiftName === '05 Nov Shift 9').length})` },
+    { key: 'all', label: `All Shifts (${yearTests.length})` },
+    ...uniqueShifts.map(s => ({
+      key: s,
+      label: `${s} (${yearTests.filter(t => t.shiftName === s).length})`
+    }))
   ];
 
-  const filteredTests = RAILWAY_TESTS.filter(test => {
+  const filteredTests = yearTests.filter(test => {
     const matchesCategory = testFilter === 'all' || test.category === testFilter;
     const matchesShift = shiftFilter === 'all' || test.shiftName === shiftFilter;
     return matchesCategory && matchesShift;
@@ -152,6 +154,44 @@ export default function App() {
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
+              </div>
+
+              {/* Exam Cycle / Year Filter Tabs */}
+              <div className="flex flex-wrap items-center gap-2 mb-4">
+                <span className="text-xs font-bold text-slate-400 mr-1 flex items-center gap-1">
+                  <Sparkles className="w-3.5 h-3.5 text-teal-400" />
+                  <span>Exam Cycle:</span>
+                </span>
+                <button
+                  onClick={() => { setYearFilter('all'); setShiftFilter('all'); }}
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    yearFilter === 'all'
+                      ? 'bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-black shadow-md shadow-teal-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  All Exams ({RAILWAY_TESTS.length})
+                </button>
+                <button
+                  onClick={() => { setYearFilter('2026'); setShiftFilter('all'); }}
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    yearFilter === '2026'
+                      ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  🎯 RRB ALP 2026 CBT-1 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025').length} Tests • 9 Shifts)
+                </button>
+                <button
+                  onClick={() => { setYearFilter('2025'); setShiftFilter('all'); }}
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    yearFilter === '2025'
+                      ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black shadow-md shadow-indigo-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => t.examYear === '2025' || t.exam === 'RRB ALP 2025').length} Tests • 10 Shifts)
+                </button>
               </div>
 
               {/* Shift Selector Filter Tabs on Home */}
@@ -287,8 +327,42 @@ export default function App() {
                 Simulated on authentic TCS iON software layout with bilingual per-question toggle, 1/3rd negative marking, and detailed solutions.
               </p>
 
+              {/* Exam Cycle Filter Tabs */}
+              <div className="flex flex-wrap items-center justify-center gap-2 mt-6">
+                <button
+                  onClick={() => { setYearFilter('all'); setShiftFilter('all'); }}
+                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                    yearFilter === 'all'
+                      ? 'bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 shadow-md shadow-teal-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  All Exams ({RAILWAY_TESTS.length})
+                </button>
+                <button
+                  onClick={() => { setYearFilter('2026'); setShiftFilter('all'); }}
+                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                    yearFilter === '2026'
+                      ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-400/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  🎯 RRB ALP 2026 CBT-1 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025').length} Tests • 9 Shifts)
+                </button>
+                <button
+                  onClick={() => { setYearFilter('2025'); setShiftFilter('all'); }}
+                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                    yearFilter === '2025'
+                      ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow-md shadow-indigo-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => t.examYear === '2025' || t.exam === 'RRB ALP 2025').length} Tests • 10 Shifts)
+                </button>
+              </div>
+
               {/* Shift Filter Tabs */}
-              <div className="flex items-center justify-center gap-2 mt-6 overflow-x-auto no-scrollbar">
+              <div className="flex items-center justify-center gap-2 mt-4 overflow-x-auto no-scrollbar">
                 {availableShifts.map(s => (
                   <button
                     key={s.key}
