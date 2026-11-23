@@ -18,7 +18,7 @@ export default function DailyQuizCard({ onStartMock }) {
             </div>
 
             <h3 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
-              Today's RRB NTPC Daily Rapid Quiz
+              Today's RRB ALP CBT-1 Daily Rapid Quiz
             </h3>
             <p className="text-xs sm:text-sm text-slate-300 mt-2 leading-relaxed">
               10 handpicked questions covering Science numericals, Arithmetic shortcuts, and Railway GK. Solve in 10 minutes to maintain your daily study streak and see your All-India percentile rank!

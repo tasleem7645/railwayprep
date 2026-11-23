@@ -13,15 +13,15 @@ export default function Navbar({
   setSelectedLang 
 }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [selectedGoal, setSelectedGoal] = useState('RRB NTPC 2026-27');
+  const [selectedGoal, setSelectedGoal] = useState('RRB ALP (Loco Pilot 2026)');
   const [goalDropdownOpen, setGoalDropdownOpen] = useState(false);
 
   const GOALS = [
-    'RRB Station Master (CEN 08/2026)',
-    'RRB Technician (CEN 02/2026)',
-    'RRB NTPC Graduate & UG (2026)',
     'RRB ALP (Loco Pilot 2026)',
+    'RRB Technician (CEN 02/2026)',
     'RRB JE & DMS (CEN 04/2026)',
+    'RRB Station Master (CEN 08/2026)',
+    'RRB NTPC Graduate & UG (2026)',
     'RRB Group D (Level-1)',
     'RPF SI & Constable'
   ];
@@ -34,8 +34,8 @@ export default function Navbar({
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
         </span>
-        <span className="font-semibold text-emerald-400">RRB NTPC 2026 Free All-India Live Mock Test Series:</span>
-        <span className="text-slate-300 hidden sm:inline">Attempt authentic TCS CBT interface & get instant All-India Rank</span>
+        <span className="font-semibold text-emerald-400">RRB ALP 2026 CBT-1 Official Test Series:</span>
+        <span className="text-slate-300 hidden sm:inline">Attempt authentic 03 Nov Shift 1 official bilingual paper with TCS CBT interface</span>
         <button 
           onClick={onStartMock}
           className="ml-2 font-bold text-teal-300 hover:text-white underline cursor-pointer"

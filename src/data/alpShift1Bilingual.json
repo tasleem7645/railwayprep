@@ -3,7 +3,7 @@
     "id": 1,
     "shiftQuestionNo": 1,
     "section": "General Science",
-    "subject": "Biology",
+    "subject": "General Science",
     "topic": "Human Anatomy & Life Processes",
     "question": {
       "en": "Which type of joint is present in the knee, enabling it to bend and straighten?",
@@ -34,8 +34,8 @@
   {
     "id": 2,
     "shiftQuestionNo": 2,
-    "section": "General Awareness",
-    "subject": "General Knowledge",
+    "section": "General Science",
+    "subject": "General Science & Current Affairs",
     "topic": "Indian Polity & Current Affairs",
     "question": {
       "en": "The procedure for amendment of the Indian Constitution is borrowed from which of the following countries constitutions?",
@@ -66,8 +66,8 @@
   {
     "id": 3,
     "shiftQuestionNo": 3,
-    "section": "General Science",
-    "subject": "Chemistry",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "A, B, C, D, E and F each scored different marks. E was the second lowest scorer. B scored less than F but more than C. D did not score more than E. A did not score less than F. How many people scored less than B?",
@@ -99,7 +99,7 @@
     "id": 4,
     "shiftQuestionNo": 4,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "In a certain code language, ‘fight your fear’ is coded as ‘pw vq em’ and ‘fear blocks growth’ is coded as ‘hj bk pw’. How is ‘fear’ coded in the given language?",
@@ -131,7 +131,7 @@
     "id": 5,
     "shiftQuestionNo": 5,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Simple & Compound Interest",
     "question": {
       "en": "₹ A person invested 56,500 at a rate of 8% per annum simple interest for 4 years. Find ₹ the amount (in ) that he will receive after 4 years.6675",
@@ -163,7 +163,7 @@
     "id": 6,
     "shiftQuestionNo": 6,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "A, B, C, D, E and F live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on, till the topmost floor is numbered 6. Only three people live between C and F. A lives immediately above F. A lives on an even-numbered floor. C does not live on the lowermost floor. B lives immediately above D. On which floor does E live?",
@@ -195,7 +195,7 @@
     "id": 7,
     "shiftQuestionNo": 7,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Trigonometry",
     "question": {
       "en": "If 15 sin y + cos y = √15 sin y, find the value of tan y.",
@@ -226,8 +226,8 @@
   {
     "id": 8,
     "shiftQuestionNo": 8,
-    "section": "General Science",
-    "subject": "Chemistry",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
@@ -259,7 +259,7 @@
     "id": 9,
     "shiftQuestionNo": 9,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Profit, Loss & Discount",
     "question": {
       "en": "₹ A wholesale fruit merchant purchased a crate of apples for 8,000 and sold it at a 25% ₹ profit. How much profit (in ) did the merchant earn?",
@@ -291,7 +291,7 @@
     "id": 10,
     "shiftQuestionNo": 10,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Trigonometry",
     "question": {
       "en": "The sum of the present ages of Stan and Benedict is 74 years. Four years ago from now, Benedict's age was half of Stan's then age. How old (in years) is Stan at present?",
@@ -323,7 +323,7 @@
     "id": 11,
     "shiftQuestionNo": 11,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Coding & Decoding",
     "question": {
       "en": "In this question, a group of numbers/symbols is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then the codes for the respective number/symbol are to be followed directly as given in the table. Number/Symbol * ? + # 3 6 5 % @ 9 Code MEFDXZBV P U Conditions – (i) If the first element is a symbol and the last element is a number, interchange the codes for the first and last elements. (ii) If the second and third elements are odd numbers, code the third element as the code of the second element. (iii) If the fourth element is a symbol and the fifth element is a number, code both fourth and fifth elements as ©. How is the following group of number-symbols coded? *?+63",
@@ -355,7 +355,7 @@
     "id": 12,
     "shiftQuestionNo": 12,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Alphabet & Word Sequence",
     "question": {
       "en": "The position(s) of how many letters will remain unchanged if each letter in the word BLASTED is arranged in the English alphabetical order?",
@@ -386,8 +386,8 @@
   {
     "id": 13,
     "shiftQuestionNo": 13,
-    "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Trigonometry",
     "question": {
       "en": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, what will come in place of the question mark (?) in the following equation? 2 D 19 C 48 A 27 B 45 = ?",
@@ -419,7 +419,7 @@
     "id": 14,
     "shiftQuestionNo": 14,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? QLH36 PKG47 OJF58 NIE69 ?",
@@ -451,7 +451,7 @@
     "id": 15,
     "shiftQuestionNo": 15,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "Vanraj is three times as old as his son, and his daughter is 3 years younger than the son. If the sum of the ages of these three people 3 years ago was 123 years, then Vanraj's present age (in years) is:",
@@ -483,7 +483,7 @@
     "id": 16,
     "shiftQuestionNo": 16,
     "section": "General Science",
-    "subject": "Physics",
+    "subject": "General Science",
     "topic": "Acoustics & Sound Waves",
     "question": {
       "en": "Which of the following statements about the speed of sound is correct?",
@@ -514,8 +514,8 @@
   {
     "id": 17,
     "shiftQuestionNo": 17,
-    "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "11 is related to 120 following a certain logic. Following the same logic, 12 is related to 143. which of the following is 8 related, following the same logic? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)",
@@ -546,8 +546,8 @@
   {
     "id": 18,
     "shiftQuestionNo": 18,
-    "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on first number results in the second number. Similarly, certain mathematical operation on second number results in the third number and so on. Which of the given options follows the same set of operations as in question? (NOTE – A two/three digit number cannot be broken into individual digits for operations e.g. if 37 is followed by 10, the operation cannot be 3+7 as a two digit number cannot be broken into individual digits) 18 - 14 - 70 - 73 11 - 7 - 35 - 38",
@@ -578,8 +578,8 @@
   {
     "id": 19,
     "shiftQuestionNo": 19,
-    "section": "General Science",
-    "subject": "Chemistry",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "This question is based on the five, three-digit numbers given below. (Left) 579 513 520 297 273 (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7) What will be the resultant if the second digit of the highest number is added to the second digit of the lowest number?1698",
@@ -611,7 +611,7 @@
     "id": 20,
     "shiftQuestionNo": 20,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Coding & Decoding",
     "question": {
       "en": "In this question, a group of numbers/symbols is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then the codes for the respective number/symbol are to be followed directly as given in the table. Number/Symbol 9 @ % & 8 * 4 2 $ + Code QP I WNSYDAG Conditions – (i) If the first element is a symbol and the last element is a number, interchange their codes. (ii) If the second and third elements are odd numbers, code the third as the code of the second. (iii) If the fourth element is a symbol and the fifth element is a number, code both as ©. What will be the code for the following group? 9@%&8",
@@ -643,7 +643,7 @@
     "id": 21,
     "shiftQuestionNo": 21,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Coding & Decoding",
     "question": {
       "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 6 $ 4 # @ 9 ! + 8 5 Code LKTDX QIPVE Conditions – (i) If the first element is a symbol and the last element is a number, interchange the codes of the first and the last elements. (ii) If the second and third elements are odd numbers, code the third element as the code of the second element. (iii) If the fourth element is a symbol and the fifth element is a number, code both elements as ©. What is the code for the following group of number-symbols? 6$4#@",
@@ -675,7 +675,7 @@
     "id": 22,
     "shiftQuestionNo": 22,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Alphabet & Word Sequence",
     "question": {
       "en": "Each letter in the word JUMBLED is arranged in the English alphabetical order. How many letters are there in the English alphabetical order between the letter which is second from the left and the one which is first from the right in the new letter cluster thus formed?",
@@ -707,7 +707,7 @@
     "id": 23,
     "shiftQuestionNo": 23,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Profit, Loss & Discount",
     "question": {
       "en": "₹ A shopkeeper allows a trade discount of 20% on an article with marked price of 5000. He further offers an extra cash discount of 5% on the reduced price for cash payment. What is the final amount to be paid in cash?",
@@ -739,7 +739,7 @@
     "id": 24,
     "shiftQuestionNo": 24,
     "section": "General Science",
-    "subject": "Physics",
+    "subject": "General Science",
     "topic": "Motion, Force & Work",
     "question": {
       "en": "Which type of lever has the load positioned between the fulcrum and the effort?",
@@ -771,7 +771,7 @@
     "id": 25,
     "shiftQuestionNo": 25,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? FIG 50 CFD 58 ZCA 66 WZX 74 ?",
@@ -803,7 +803,7 @@
     "id": 26,
     "shiftQuestionNo": 26,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Simple & Compound Interest",
     "question": {
       "en": "A sum is invested in two education savings schemes that both provide 10% compound interest per annum. Scheme A compounds annually, whereas Scheme B compounds half-yearly. After one year, the maturity amount under Scheme B exceeds that of ₹ Scheme A by 12.50. Find the principal amount (in ). ₹",
@@ -835,7 +835,7 @@
     "id": 27,
     "shiftQuestionNo": 27,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Alphabet & Word Sequence",
     "question": {
       "en": "The position(s) of how many letters will remain unchanged if each letter in the word CHEMIST is arranged in the English alphabetical order?",
@@ -867,7 +867,7 @@
     "id": 28,
     "shiftQuestionNo": 28,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Geometry & Mensuration",
     "question": {
       "en": "The slant height of a right circular cone is 40 cm and its height is 32 cm. Find the area (in cm2) of its curved surface. (Use π = 3.14)",
@@ -898,8 +898,8 @@
   {
     "id": 29,
     "shiftQuestionNo": 29,
-    "section": "General Science",
-    "subject": "Chemistry",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "FCBY is related to CZYV in a certain way based on the English alphabetical order. In the same way, HEDA is related to EBAX. which of the following is KHGD related, following the same logic?",
@@ -930,8 +930,8 @@
   {
     "id": 30,
     "shiftQuestionNo": 30,
-    "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "section": "Mathematics",
+    "subject": "Mathematics",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "A car's radiator should contain a solution of 83% antifreeze. A motorist has 13 litres of 33% antifreeze. How many litres (rounded off to 2 decimal places) of 95% antifreeze liquid should he add to his solution to produce a 83% antifreeze?",
@@ -963,7 +963,7 @@
     "id": 31,
     "shiftQuestionNo": 31,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "F, G, H, M, N and O live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. lives on floor numbered 4. Only two people live between and M. Only F lives between and O. H lives immediately below G. How many people live between N and O?7026",
@@ -994,8 +994,8 @@
   {
     "id": 32,
     "shiftQuestionNo": 32,
-    "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Trigonometry",
     "question": {
       "en": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation? 13 D 95 C 8 B 270 A 18 = ?",
@@ -1026,8 +1026,8 @@
   {
     "id": 33,
     "shiftQuestionNo": 33,
-    "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "section": "Mathematics",
+    "subject": "Mathematics",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "The 7-digit number 33A292B is divisible by 12. What is the minimum value of (A + B)? 1144",
@@ -1058,8 +1058,8 @@
   {
     "id": 34,
     "shiftQuestionNo": 34,
-    "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "section": "Mathematics",
+    "subject": "Mathematics",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "A tap fills a tank in 7 hours. Another tap empties the full tank in 56 hours. How long (in hours) will it take to fill half of the tank, if the tank is empty initially and both the taps are opened together?1565",
@@ -1090,8 +1090,8 @@
   {
     "id": 35,
     "shiftQuestionNo": 35,
-    "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "section": "Mathematics",
+    "subject": "Mathematics",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "Out of 1500 students in a school, 300 did not participate in the voting. Candidate X got 40% of the valid votes, and Candidate Y got 28% of the valid votes. What is the difference in votes between Candidate X and Candidate Y?",
@@ -1122,8 +1122,8 @@
   {
     "id": 36,
     "shiftQuestionNo": 36,
-    "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "section": "Mathematics",
+    "subject": "Mathematics",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "Which of the following numbers is divisible by both 9 and 22?",
@@ -1155,7 +1155,7 @@
     "id": 37,
     "shiftQuestionNo": 37,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Trigonometry",
     "question": {
       "en": "The price of identical notebooks is constant. If the ratio of notebooks to cost is 8 : 64, ₹ and the same ratio is maintained for a purchase worth 40, how many notebooks can be bought?",
@@ -1186,12 +1186,12 @@
   {
     "id": 38,
     "shiftQuestionNo": 38,
-    "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation? 23 ÷ 75 × 5 − 4 + 28 = ?",
-      "hi": "चिह्न (?) के स्थान पर क्या आएगा? 23 ÷ 75 × 5 − 4 + 28 = ?"
+      "hi": "यदि ‘+’ का अर्थ ‘−’ है, ‘−’ का अर्थ ‘×’ है, ‘×’ का अर्थ ‘÷’ है और ‘÷’ का अर्थ ‘+’ है, तो निम्नलिखित समीकरण में प्रश्नचिह्न (?) के स्थान पर क्या आएगा? 23 ÷ 75 × 5 − 4 + 28 = ?"
     },
     "options": {
       "en": [
@@ -1219,7 +1219,7 @@
     "id": 39,
     "shiftQuestionNo": 39,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. (Left) Z I I H U V U I I J W O L U Q L E P S E J E (Right) How many such consonants are there, each of which is immediately preceded by a vowel and also immediately followed by a vowel?",
@@ -1251,7 +1251,7 @@
     "id": 40,
     "shiftQuestionNo": 40,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "Mohan starts from Point A and drives 81 km towards the North. He then takes a left turn, drives 83 km, then turns left and drives 92 km. He then takes a left turn and drives 94 km. He takes a final left turn, drives 11 km, and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only, unless specified.)",
@@ -1283,7 +1283,7 @@
     "id": 41,
     "shiftQuestionNo": 41,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "Seven people, E, F, G, H, W, X and Y, are sitting around a circular table, facing the centre of the table. Y is an immediate neighbour of both E and G. sits third to the left of F. X sits to the immediate left of F. W is not an immediate neighbour of G. Who sits second to the right of H?",
@@ -1315,7 +1315,7 @@
     "id": 42,
     "shiftQuestionNo": 42,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "Refer to the following letter and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) B L © H D * # $ Y S V * £ Q $ I # X I & # I (Right) How many such symbols are there, each of which is immediately preceded by a letter and also immediately followed by a letter?15437",
@@ -1347,7 +1347,7 @@
     "id": 43,
     "shiftQuestionNo": 43,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Trigonometry",
     "question": {
       "en": "In a circle of radius 17 cm, a chord is at a distance of 8 cm from its centre. What is the length (in cm) of the chord?",
@@ -1379,7 +1379,7 @@
     "id": 44,
     "shiftQuestionNo": 44,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "Two numbers are in the ratio of 3 : 4. If 10 is added to both the numbers, then the ratio between two numbers becomes 11 : 13. Find the greater number.",
@@ -1411,7 +1411,7 @@
     "id": 45,
     "shiftQuestionNo": 45,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Geometry & Mensuration",
     "question": {
       "en": "A polygon is a combination of a parallelogram and a trapezium. The parallelogram has a base of 16 cm and a height of 9 cm, while the trapezium has parallel sides measuring 8 cm and 12 cm with a height of 6 cm. What percentage of the total area of the polygon is occupied by the trapezium?",
@@ -1442,8 +1442,8 @@
   {
     "id": 46,
     "shiftQuestionNo": 46,
-    "section": "General Awareness",
-    "subject": "General Knowledge",
+    "section": "General Science",
+    "subject": "General Science & Current Affairs",
     "topic": "Indian Polity & Current Affairs",
     "question": {
       "en": "The Vizhinjam International Deepwater Multipurpose Seaport, highlighted in 2026 government releases as part of the Maritime Amrit Kaal Vision 2047, is located in which state?",
@@ -1475,7 +1475,7 @@
     "id": 47,
     "shiftQuestionNo": 47,
     "section": "General Science",
-    "subject": "Chemistry",
+    "subject": "General Science",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "Why are the impurities removed from ores, before extraction?",
@@ -1507,7 +1507,7 @@
     "id": 48,
     "shiftQuestionNo": 48,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "A question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate answer. Question: Among 5 sticks, Y, S, D, L and W, each having a different height, which stick is the tallest? Statements: (I) Y is shorter than S but taller than D. D is taller than only one stick. (II) L is taller than W.",
@@ -1539,7 +1539,7 @@
     "id": 49,
     "shiftQuestionNo": 49,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Coding & Decoding",
     "question": {
       "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 1 # 6 @ 3 % 8 & 5 $ 2 + 9 4 Code HMBT KP AF URDWLQ Conditions – (i) If the second element is a symbol, code the fourth element as ©. (ii) If the fourth element is a symbol, code the second element as ©. (iii) If the last element is a symbol, code the first element as ©. What is the code for the following group of number-symbols? 859@2",
@@ -1570,8 +1570,8 @@
   {
     "id": 50,
     "shiftQuestionNo": 50,
-    "section": "General Science",
-    "subject": "Chemistry",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "Based on the English alphabetical order, three of the following four letter cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster)",
@@ -1603,7 +1603,7 @@
     "id": 51,
     "shiftQuestionNo": 51,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Simple & Compound Interest",
     "question": {
       "en": "A bank offers a fixed deposit scheme with 12% compound interest per annum, ₹ compounded half-yearly. If 10,000 is invested for one year, what will be the maturity ₹ amount (in )?",
@@ -1635,7 +1635,7 @@
     "id": 52,
     "shiftQuestionNo": 52,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "If 2 is added to each odd digit and 1 is subtracted from each even digit in the number 7854132, what will be the difference between the highest and lowest digits in the number thus formed?",
@@ -1667,7 +1667,7 @@
     "id": 53,
     "shiftQuestionNo": 53,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "What should come in place of the '?' in the given series? 1 -1 -5 -13 -29 ?",
@@ -1699,7 +1699,7 @@
     "id": 54,
     "shiftQuestionNo": 54,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "₹ A shopkeeper bought six identical mobile phones for 75,000. He sold two of them for ₹54,000. What was his gain percentage on the two mobile phones sold?",
@@ -1731,7 +1731,7 @@
     "id": 55,
     "shiftQuestionNo": 55,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "What should come in place of '?' in the given series? 23 30 41 48 59 ?",
@@ -1762,8 +1762,8 @@
   {
     "id": 56,
     "shiftQuestionNo": 56,
-    "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "14 is related to 70 following a certain logic. Following the same logic, 22 is related to 110. which of the given options is 55 related, following the same logic? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
@@ -1795,7 +1795,7 @@
     "id": 57,
     "shiftQuestionNo": 57,
     "section": "General Science",
-    "subject": "Biology",
+    "subject": "General Science",
     "topic": "Human Anatomy & Life Processes",
     "question": {
       "en": "Where does gametogenesis occur in the human male and female reproductive organs, respectively?",
@@ -1827,7 +1827,7 @@
     "id": 58,
     "shiftQuestionNo": 58,
     "section": "General Science",
-    "subject": "Chemistry",
+    "subject": "General Science",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "Given below are two statements. Read the statements carefully and select the correct option. Statement I: Mixtures that contain physically distinct parts and have non-uniform compositions are called heterogeneous mixtures. Statement II: Mixtures of sodium chloride and iron filings, salt and sulphur, and oil and water are examples of heterogeneous mixtures.",
@@ -1859,7 +1859,7 @@
     "id": 59,
     "shiftQuestionNo": 59,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. IHJ−FEG JIK−GFH",
@@ -1875,7 +1875,7 @@
       "hi": [
         "WVX−SST",
         "WVX−TSU",
-        "WUV−TSU यदि ‘+’ का अर्थ ‘−’ है, ‘−’ का अर्थ ‘×’ है, ‘×’ का अर्थ ‘÷’ है और ‘÷’ का अर्थ ‘+’ है, तो निम्नलिखित समीकरण में प्रश्न-",
+        "WUV−TSU",
         "WUV−SRT"
       ]
     },
@@ -1891,7 +1891,7 @@
     "id": 60,
     "shiftQuestionNo": 60,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "An online learning platform reports that a large batch of students has a mean mathematics score of 68 and a median score of 72. Assuming the empirical relation is valid for this dataset, what is the most likely modal score?",
@@ -1922,8 +1922,8 @@
   {
     "id": 61,
     "shiftQuestionNo": 61,
-    "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "section": "Mathematics",
+    "subject": "Mathematics",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "AB is parallel to CD. A transversal PQ intersects AB and CD at E and F, respectively, and ∠PEB = 25°. is a point between AB and CD such that ∠BEG = 43° and ∠GFE = 10°. What is the measure of ∠EGF?",
@@ -1955,7 +1955,7 @@
     "id": 62,
     "shiftQuestionNo": 62,
     "section": "General Science",
-    "subject": "Biology",
+    "subject": "General Science",
     "topic": "Human Anatomy & Life Processes",
     "question": {
       "en": "Which of the following categories includes organisms that break down dead and waste matter?",
@@ -1987,7 +1987,7 @@
     "id": 63,
     "shiftQuestionNo": 63,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "TU 8 is related to YZ 17 in a certain way. In the same way, PH 14 is related to UM 23. which of the given options is KC 17 related, following the same logic?",
@@ -2019,7 +2019,7 @@
     "id": 64,
     "shiftQuestionNo": 64,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "Simplify:",
@@ -2051,7 +2051,7 @@
     "id": 65,
     "shiftQuestionNo": 65,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "B, E, G, R, U and V live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. E lives on an odd numbered floor but not 5. The sum of floors on which E and R live is 5. Only 3 people live between R and G. B lives immediately above V. How many people live below R?",
@@ -2082,8 +2082,8 @@
   {
     "id": 66,
     "shiftQuestionNo": 66,
-    "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "section": "General Science",
+    "subject": "General Science",
     "topic": "Trigonometry",
     "question": {
       "en": "In uniform circular motion, the acceleration is:",
@@ -2115,7 +2115,7 @@
     "id": 67,
     "shiftQuestionNo": 67,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "Seven people, A, B, C, I, J, and L are sitting in a row, facing north. Only five people sit between L and K. C sits to the immediate left of K. Only one person sits between C and A. J sits at some place to the left of I but at some place to the right of B. Who sits third from the left end of the line?",
@@ -2147,7 +2147,7 @@
     "id": 68,
     "shiftQuestionNo": 68,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "Puja starts from point A and drives 17 km towards the North. She then takes a right turn and drives 15 km. She then takes a left turn and drives 19 km, takes a right turn and drives 18 km. She takes a final right turn and drives 36 km and stops at point B. How far (shortest distance) and towards which direction should she drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
@@ -2179,7 +2179,7 @@
     "id": 69,
     "shiftQuestionNo": 69,
     "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "subject": "Mathematics",
     "topic": "Trigonometry",
     "question": {
       "en": "M and N are going on a road trip from city A to city D, passing through cities B and C. The time taken to travel between the cities is as follows: it takes 5 hours to get from A to B, 7 hours from B to C, and 9 hours from C to D. Their average speed is 20 m/s, and the distance from C to D is 567 km. Additionally, they travel from A to B at a speed of 25 m/s. If the distance between B and C is denoted as 'L' meters, find",
@@ -2211,7 +2211,7 @@
     "id": 70,
     "shiftQuestionNo": 70,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "Refer to the following letter and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) O # E A @ $ R & U Ω T £ D H ! Y (Right) How many such vowels are there, each of which is immediately preceded by a vowel and also immediately followed by a symbol?8207",
@@ -2242,8 +2242,8 @@
   {
     "id": 71,
     "shiftQuestionNo": 71,
-    "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "section": "Mathematics",
+    "subject": "Mathematics",
     "topic": "Logical & Analytical Reasoning",
     "question": {
       "en": "Evaluate the following.",
@@ -2274,8 +2274,8 @@
   {
     "id": 72,
     "shiftQuestionNo": 72,
-    "section": "General Science",
-    "subject": "Chemistry",
+    "section": "Mathematics",
+    "subject": "Mathematics",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "After six weekly quizzes, a student's average score stood at 18 marks. What was the student's cumulative score across these quizzes?",
@@ -2306,8 +2306,8 @@
   {
     "id": 73,
     "shiftQuestionNo": 73,
-    "section": "Mathematics",
-    "subject": "Quantitative Aptitude",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "This question is based on the five, three-digit numbers given below. (Left) 214 785 698 759 472 (Right) (Example: 697 – First digit = 6, second digit = 9 and third digit = 7) (NOTE: All operations to be done from left to right.) If all the numbers are arranged in ascending order, the position of how many numbers will remain unchanged?",
@@ -2338,8 +2338,8 @@
   {
     "id": 74,
     "shiftQuestionNo": 74,
-    "section": "General Science",
-    "subject": "Chemistry",
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "This question is based on the following words BIG FAN JET ROD In each of the words, each vowel is changed to the letter immediately preceding it in the English alphabetical order and each consonant is changed to the letter immediately following it in the English alphabetical order. How many letter-clusters thus formed begin and end with consonants?",
@@ -2371,7 +2371,7 @@
     "id": 75,
     "shiftQuestionNo": 75,
     "section": "General Intelligence & Reasoning",
-    "subject": "Reasoning",
+    "subject": "General Intelligence & Reasoning",
     "topic": "Series & Analogy",
     "question": {
       "en": "What should come in place of ‘?’ in the given series? 77 66 54 41 27 12 ?",

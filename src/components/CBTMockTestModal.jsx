@@ -390,33 +390,68 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
         </div>
       </header>
 
-      {/* 2. EXAM SUB-HEADER: Test Title, Active Section Badge, Paper/Instructions links */}
+      {/* 2. TESTBOOK SECTIONS BAR (Matches Testbook Screenshot 4) */}
       <div className="bg-[#091120] border-b border-slate-800/80 px-3 sm:px-5 py-1.5 flex items-center justify-between gap-2 shrink-0">
         <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5">
-          <span className="text-[11px] sm:text-xs font-semibold text-slate-200 truncate max-w-[220px] sm:max-w-md">
-            {test.title}
+          <span className="text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider shrink-0">
+            SECTIONS:
           </span>
-          <span className="px-2 py-0.5 rounded bg-teal-500 text-slate-950 font-bold text-[10px] shrink-0">
-            {currentQ.section ? currentQ.section.substring(0, 15) : 'CBT'}
-          </span>
+          <div className="flex items-center gap-1.5 shrink-0">
+            {availableSections.map((sec) => {
+              const count = sec === 'All Sections' 
+                ? test.questions.length 
+                : (test.sectionDistribution?.[sec] || test.questions.filter(q => q.section === sec).length);
+              const isSelected = activeSectionFilter === sec;
+              return (
+                <button
+                  key={sec}
+                  onClick={() => handleSectionTabClick(sec)}
+                  className={`px-2.5 py-1 rounded-md text-xs font-bold whitespace-nowrap transition-all flex items-center gap-1.5 cursor-pointer ${
+                    isSelected
+                      ? 'bg-teal-500 text-slate-950 shadow-md shadow-teal-950/60'
+                      : 'bg-[#101C33] hover:bg-[#182848] text-slate-300 hover:text-white border border-slate-700/80'
+                  }`}
+                >
+                  <span>{sec === 'All Sections' ? 'All' : sec.replace('General ', '')}</span>
+                  <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-semibold ${
+                    isSelected ? 'bg-slate-950/25 text-slate-950' : 'bg-slate-800 text-slate-400'
+                  }`}>
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
         </div>
 
-        {/* Header Links */}
-        <div className="flex items-center gap-2 sm:gap-3 text-xs">
+        {/* Header Links & Palette Toggle */}
+        <div className="flex items-center gap-2 sm:gap-3 text-xs shrink-0">
           <button
             onClick={() => setShowQuestionPaper(true)}
-            className="text-slate-400 hover:text-teal-300 flex items-center gap-1"
+            className="text-slate-400 hover:text-teal-300 flex items-center gap-1 cursor-pointer"
           >
             <FileText className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">Paper</span>
+            <span className="hidden md:inline">Paper</span>
           </button>
-          <span className="text-slate-700 hidden sm:inline">•</span>
+          <span className="text-slate-700 hidden md:inline">•</span>
           <button
             onClick={() => setShowInstructions(true)}
-            className="text-slate-400 hover:text-teal-300 flex items-center gap-1"
+            className="text-slate-400 hover:text-teal-300 flex items-center gap-1 cursor-pointer"
           >
             <Info className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">Instructions</span>
+            <span className="hidden md:inline">Instructions</span>
+          </button>
+          {/* Quick Palette Toggle Button for Mobile / Tablets */}
+          <button
+            onClick={() => setIsPaletteOpen(!isPaletteOpen)}
+            className={`lg:hidden px-2.5 py-1 rounded-lg text-xs font-bold flex items-center gap-1 border transition-colors cursor-pointer ${
+              isPaletteOpen 
+                ? 'bg-teal-500/20 text-teal-300 border-teal-500/50' 
+                : 'bg-slate-800 text-slate-300 border-slate-700 hover:border-teal-500/50'
+            }`}
+          >
+            <Menu className="w-3.5 h-3.5" />
+            <span>{isPaletteOpen ? 'Close Grid' : 'Questions'}</span>
           </button>
         </div>
       </div>

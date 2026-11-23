@@ -1,13 +1,16 @@
 import alpShift1Questions from './alpShift1Bilingual.json';
 
 // Build Sectional Tests from Shift 1
+// Strict pure separation as per user commands:
+// 1. Mathematics: Pure Maths only (24 Questions)
+// 2. Reasoning: Pure Intelligence & Reasoning only (41 Questions)
+// 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (10 Questions)
 const scienceQuestions = alpShift1Questions.filter(q => q.section === 'General Science');
 const mathsQuestions = alpShift1Questions.filter(q => q.section === 'Mathematics');
 const reasoningQuestions = alpShift1Questions.filter(q => q.section === 'General Intelligence & Reasoning');
-const gaQuestions = alpShift1Questions.filter(q => q.section === 'General Awareness');
 
 export const RAILWAY_TESTS = [
-  // 1. Full Length Shift 1 Test (75 Questions - Mixed TCS iON Format)
+  // 1. Full Length Shift 1 Test (75 Questions - Mixed Official TCS iON Order)
   {
     id: 'rrb-alp-2026-cbt1-shift1',
     title: 'RRB ALP 2026 CBT-1: 03 Nov Shift 1 Official Full Paper',
@@ -29,36 +32,36 @@ export const RAILWAY_TESTS = [
       'All Sections',
       'General Science',
       'Mathematics',
-      'General Intelligence & Reasoning',
-      'General Awareness'
+      'General Intelligence & Reasoning'
     ],
     sectionDistribution: {
       'General Science': scienceQuestions.length,
       'Mathematics': mathsQuestions.length,
-      'General Intelligence & Reasoning': reasoningQuestions.length,
-      'General Awareness': gaQuestions.length
+      'General Intelligence & Reasoning': reasoningQuestions.length
     },
+    sectionSummary: `Covers: General Science & GK (${scienceQuestions.length}), Maths (${mathsQuestions.length}), Reasoning (${reasoningQuestions.length})`,
     questions: alpShift1Questions
   },
 
-  // 2. Sectional Test - General Science (Shift 1)
+  // 2. Sectional Test - General Science & Current Affairs (Shift 1)
   {
     id: 'rrb-alp-2026-sec-science-s1',
-    title: 'RRB ALP 2026: General Science Sectional (Shift 1)',
-    subTitle: 'Physics, Chemistry & Biology Official Questions from 03 Nov Shift 1',
+    title: 'RRB ALP 2026: General Science & GK Sectional (Shift 1)',
+    subTitle: 'Pure Science (Physics, Chemistry, Biology) & Indian Polity / GK from 03 Nov Shift 1',
     exam: 'RRB ALP 2026',
     stage: 'CBT-1',
     category: 'sectional',
-    badge: 'Sectional • Science',
+    badge: 'Sectional • Science & GK',
     badgeColor: 'teal',
     shiftDate: '03/11/2026',
     shiftTime: 'Shift 1',
-    durationMinutes: 15,
+    durationMinutes: 12,
     totalQuestions: scienceQuestions.length,
     maxMarks: scienceQuestions.length,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
+    sectionSummary: `Covers: Pure General Science & GK / CA (${scienceQuestions.length} Questions)`,
     questions: scienceQuestions.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
   },
 
@@ -66,7 +69,7 @@ export const RAILWAY_TESTS = [
   {
     id: 'rrb-alp-2026-sec-maths-s1',
     title: 'RRB ALP 2026: Mathematics Sectional (Shift 1)',
-    subTitle: 'Arithmetic, Algebra, Geometry, Mensuration & Trigonometry Official Questions',
+    subTitle: 'Pure Mathematics: Arithmetic, Algebra, Geometry, Mensuration & Trigonometry',
     exam: 'RRB ALP 2026',
     stage: 'CBT-1',
     category: 'sectional',
@@ -80,6 +83,7 @@ export const RAILWAY_TESTS = [
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions.length} Questions)`,
     questions: mathsQuestions.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
   },
 
@@ -87,7 +91,7 @@ export const RAILWAY_TESTS = [
   {
     id: 'rrb-alp-2026-sec-reasoning-s1',
     title: 'RRB ALP 2026: Reasoning & Intelligence Sectional (Shift 1)',
-    subTitle: 'Puzzles, Seating Arrangements, Coding-Decoding & Analogy Official Questions',
+    subTitle: 'Pure Reasoning: Puzzles, Seating Arrangements, Coding-Decoding, Series & Analogies',
     exam: 'RRB ALP 2026',
     stage: 'CBT-1',
     category: 'sectional',
@@ -95,52 +99,13 @@ export const RAILWAY_TESTS = [
     badgeColor: 'purple',
     shiftDate: '03/11/2026',
     shiftTime: 'Shift 1',
-    durationMinutes: 30,
+    durationMinutes: 35,
     totalQuestions: reasoningQuestions.length,
     maxMarks: reasoningQuestions.length,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions.length} Questions)`,
     questions: reasoningQuestions.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
-  },
-
-  // 5. Sectional Test - General Awareness (Shift 1)
-  {
-    id: 'rrb-alp-2026-sec-ga-s1',
-    title: 'RRB ALP 2026: General Awareness Sectional (Shift 1)',
-    subTitle: 'Indian Polity, Constitution & Current Affairs Official Questions',
-    exam: 'RRB ALP 2026',
-    stage: 'CBT-1',
-    category: 'sectional',
-    badge: 'Sectional • GA',
-    badgeColor: 'amber',
-    shiftDate: '03/11/2026',
-    shiftTime: 'Shift 1',
-    durationMinutes: 5,
-    totalQuestions: gaQuestions.length,
-    maxMarks: gaQuestions.length,
-    positiveMarks: 1.0,
-    negativeMarks: 0.33,
-    sections: ['General Awareness'],
-    questions: gaQuestions.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
-  },
-
-  // 6. NTPC CBT-1 Interactive Demo Test
-  {
-    id: 'rrb-ntpc-live-cbt-1',
-    title: 'RRB NTPC 2026: Live All-India Free CBT-1 Full Mock Test',
-    subTitle: 'High-Yield Expected Questions for NTPC Undergraduate & Graduate',
-    exam: 'RRB NTPC 2026',
-    stage: 'CBT-1',
-    category: 'full-shift',
-    badge: 'Trending Live',
-    badgeColor: 'emerald',
-    durationMinutes: 20,
-    totalQuestions: 10,
-    maxMarks: 10,
-    positiveMarks: 1.0,
-    negativeMarks: 0.33,
-    sections: ['All Sections', 'General Science', 'Mathematics', 'General Intelligence & Reasoning', 'General Awareness'],
-    questions: alpShift1Questions.slice(0, 10).map((q, idx) => ({ ...q, id: idx + 1 }))
   }
 ];

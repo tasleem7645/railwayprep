@@ -133,7 +133,7 @@ export default function App() {
                       <div className="text-[11px] text-slate-400 space-y-1">
                         <div className="flex items-center gap-1.5">
                           <CheckCircle2 className="w-3.5 h-3.5 text-teal-400" />
-                          <span>Sections: Science, Maths, Reasoning, GA</span>
+                          <span className="text-teal-300 font-medium">{test.sectionSummary || 'Official Railway CBT Pattern'}</span>
                         </div>
                         <div className="flex items-center gap-1.5">
                           <CheckCircle2 className="w-3.5 h-3.5 text-teal-400" />
@@ -271,15 +271,15 @@ export default function App() {
                     <div className="text-[11px] text-slate-400 space-y-1.5 mb-5">
                       <div className="flex items-center gap-2">
                         <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+                        <span className="text-teal-300 font-semibold">{test.sectionSummary}</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
                         <span>Bilingual (English & हिन्दी with per-question toggle)</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
                         <span>Negative: -{test.negativeMarks} mark • Positive: +{test.positiveMarks}</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                        <span>Detailed Review & Step-by-Step Explanations</span>
                       </div>
                     </div>
                   </div>

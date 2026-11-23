@@ -16,7 +16,7 @@ export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro
         <div className="flex justify-center mb-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-950/60 border border-teal-500/40 text-teal-300 text-xs font-semibold shadow-lg shadow-teal-900/30">
             <Sparkles className="w-3.5 h-3.5 text-teal-400 animate-pulse" />
-            <span>Target Exam: RRB NTPC (CBT-1 & 2) • ALP • Group D 2026-27</span>
+            <span>Target Exam: RRB ALP 2026 (CBT-1) • Technician • JE • NTPC</span>
             <span className="bg-teal-500/30 text-teal-200 text-[10px] px-1.5 py-0.5 rounded-full font-bold">New Exam Pattern</span>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro
           </div>
           <div className="p-4 rounded-xl bg-slate-900/70 border border-slate-800 text-center">
             <div className="text-2xl sm:text-3xl font-black text-teal-400">99.2%</div>
-            <div className="text-xs text-slate-400 mt-1 font-medium">NTPC CBT Match Ratio</div>
+            <div className="text-xs text-slate-400 mt-1 font-medium">ALP CBT Match Ratio</div>
           </div>
           <div className="p-4 rounded-xl bg-slate-900/70 border border-slate-800 text-center">
             <div className="text-2xl sm:text-3xl font-black text-amber-400">4.9 / 5.0</div>
