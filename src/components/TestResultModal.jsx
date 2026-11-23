@@ -3,11 +3,12 @@ import confetti from 'canvas-confetti';
 import { 
   Trophy, CheckCircle2, XCircle, Clock, Zap, Target, 
   RotateCcw, ArrowRight, Eye, ChevronDown, ChevronUp, Share2, Award,
-  Globe, Check, X, HelpCircle, BookOpen, Layers, BarChart3, Filter
+  Globe, Check, X, HelpCircle, BookOpen, Layers, BarChart3, Filter,
+  Printer, Bookmark
 } from 'lucide-react';
 import AdBanner from './AdBanner';
 
-export default function TestResultModal({ result, onClose, onRetake, onOpenPassPro }) {
+export default function TestResultModal({ result, onClose, onRetake, onOpenPassPro, onOpenMistakes }) {
   const { test, answers, timeTakenSeconds } = result;
   
   // Tabs: 'overview' | 'solutions'
@@ -33,6 +34,39 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
       });
     } catch (e) {}
   }, []);
+
+  // Auto-save incorrect questions to Mistake Notebook
+  useEffect(() => {
+    try {
+      const wrongQuestions = test.questions
+        .filter((q) => {
+          const userAns = answers[q.id];
+          return userAns !== undefined && userAns !== q.correctIndex;
+        })
+        .map((q) => ({
+          id: `${test.id}_${q.id}`,
+          shiftQuestionNo: q.shiftQuestionNo || q.id,
+          subject: q.subject || q.section || 'General Science',
+          topic: q.topic || 'Official Question',
+          question: q.question,
+          options: q.options,
+          correctIndex: q.correctIndex,
+          userAnswerIndex: answers[q.id],
+          solution: q.solution
+        }));
+
+      if (wrongQuestions.length > 0) {
+        const existing = JSON.parse(localStorage.getItem('railwayprep_mistake_notebook') || '[]');
+        const existingIds = new Set(existing.map((m) => m.id));
+        const toAdd = wrongQuestions.filter((w) => !existingIds.has(w.id));
+        if (toAdd.length > 0) {
+          localStorage.setItem('railwayprep_mistake_notebook', JSON.stringify([...existing, ...toAdd]));
+        }
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }, [test, answers]);
 
   // Compute test metrics
   let correctCount = 0;
@@ -126,13 +160,31 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <button
+              onClick={() => window.print()}
+              className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer border border-slate-700"
+              title="Print or Save PDF Scorecard"
+            >
+              <Printer className="w-3.5 h-3.5" />
+              <span>Print PDF</span>
+            </button>
+            {onOpenMistakes && (
+              <button
+                onClick={onOpenMistakes}
+                className="px-3 py-2 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer border border-rose-500/30"
+                title="Open Saved Mistake Notebook"
+              >
+                <Bookmark className="w-3.5 h-3.5 fill-rose-500/20" />
+                <span>गलती डायरी ({wrongCount})</span>
+              </button>
+            )}
             <button
               onClick={onRetake}
-              className="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors"
+              className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors"
             >
               <RotateCcw className="w-3.5 h-3.5" />
-              <span>Retake Test</span>
+              <span>Retake</span>
             </button>
             <button
               onClick={onClose}

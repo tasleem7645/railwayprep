@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { 
   Train, Sparkles, Crown, Search, Globe, ChevronDown, 
-  Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText, ShoppingBag
+  Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText, ShoppingBag,
+  Calculator, Bookmark
 } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 
@@ -10,6 +11,7 @@ export default function Navbar({
   setActiveTab, 
   onOpenPassPro, 
   onStartMock, 
+  onOpenMistakes,
   selectedLang, 
   setSelectedLang 
 }) {
@@ -137,6 +139,13 @@ export default function Navbar({
               Daily Quiz
             </button>
             <button 
+              onClick={() => setActiveTab('tools')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'tools' ? 'text-teal-400 bg-teal-500/10 font-bold' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+            >
+              <Calculator className="w-4 h-4 text-emerald-400" />
+              Tools Hub
+            </button>
+            <button 
               onClick={() => setActiveTab('books')}
               className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'books' ? 'text-amber-400 bg-amber-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
             >
@@ -146,7 +155,17 @@ export default function Navbar({
           </nav>
 
           {/* Right Action buttons */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5">
+            {/* Mistake Notebook Shortcut */}
+            <button
+              onClick={onOpenMistakes}
+              className="hidden sm:flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-rose-500/30 hover:border-rose-500/60 text-xs font-bold text-rose-300 transition-colors cursor-pointer"
+              title="My Mistake Notebook (गलती डायरी)"
+            >
+              <Bookmark className="w-3.5 h-3.5 fill-rose-500/20 text-rose-400" />
+              <span>गलती डायरी</span>
+            </button>
+
             {/* Language toggle */}
             <button
               onClick={() => setSelectedLang(selectedLang === 'hi' ? 'en' : 'hi')}
@@ -211,6 +230,20 @@ export default function Navbar({
             className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-amber-300 hover:bg-slate-800"
           >
             ⚡ Daily Speed Quizzes
+          </button>
+          <button 
+            onClick={() => { setActiveTab('tools'); setMobileMenuOpen(false); }}
+            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-emerald-400 hover:bg-slate-800 flex items-center justify-between"
+          >
+            <span>🧮 Smart Tools Hub (Calculators & Cheatsheets)</span>
+            <span className="text-[10px] bg-teal-500/20 text-teal-300 px-2 py-0.5 rounded font-bold">HOT</span>
+          </button>
+          <button 
+            onClick={() => { onOpenMistakes(); setMobileMenuOpen(false); }}
+            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-rose-300 hover:bg-slate-800 flex items-center gap-1.5"
+          >
+            <Bookmark className="w-4 h-4 fill-rose-500/20 text-rose-400" />
+            <span>Smart Mistake Notebook (गलती डायरी)</span>
           </button>
           <button 
             onClick={() => { setActiveTab('books'); setMobileMenuOpen(false); }}

@@ -12,6 +12,8 @@ import AdBanner from './components/AdBanner';
 import LegalModal from './components/LegalModal';
 import AffiliateBooksSection from './components/AffiliateBooksSection';
 import PaidPdfBundleModal from './components/PaidPdfBundleModal';
+import AspirantToolsHub from './components/AspirantToolsHub';
+import MistakeNotebookModal from './components/MistakeNotebookModal';
 import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
 import { 
@@ -70,6 +72,7 @@ export default function App() {
   const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | specific shift
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [isPdfModalOpen, setIsPdfModalOpen] = useState(false);
+  const [isMistakeModalOpen, setIsMistakeModalOpen] = useState(false);
   const [legalModalTab, setLegalModalTab] = useState(null);
   const [hasPassPro, setHasPassPro] = useState(() => {
     try {
@@ -179,6 +182,7 @@ export default function App() {
         setActiveTab={setActiveTab}
         onOpenPassPro={() => setIsPassProOpen(true)}
         onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
+        onOpenMistakes={() => setIsMistakeModalOpen(true)}
         selectedLang={selectedLang}
         setSelectedLang={setSelectedLang}
       />
@@ -660,6 +664,13 @@ export default function App() {
         {activeTab === 'books' && (
           <AffiliateBooksSection />
         )}
+
+        {activeTab === 'tools' && (
+          <AspirantToolsHub 
+            onStartMock={() => handleStartMock(RAILWAY_TESTS[0])} 
+            onOpenPassPro={() => setIsPassProOpen(true)} 
+          />
+        )}
       </main>
 
       {/* Footer with Legal & Compliance */}
@@ -686,6 +697,15 @@ export default function App() {
           onClose={() => setTestResult(null)}
           onRetake={handleRetakeTest}
           onOpenPassPro={() => setIsPassProOpen(true)}
+          onOpenMistakes={() => setIsMistakeModalOpen(true)}
+        />
+      )}
+
+      {/* Mistake Notebook Modal */}
+      {isMistakeModalOpen && (
+        <MistakeNotebookModal 
+          onClose={() => setIsMistakeModalOpen(false)} 
+          onStartCustomTest={() => handleStartMock(RAILWAY_TESTS[0])}
         />
       )}
 
