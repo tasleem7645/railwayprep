@@ -11,6 +11,7 @@ import alp2025Shift1Questions from './alp2025Shift1Bilingual.json';
 import alp2025Shift2Questions from './alp2025Shift2Bilingual.json';
 import alp2025Shift3Questions from './alp2025Shift3Bilingual.json';
 import alp2025Shift4Questions from './alp2025Shift4Bilingual.json';
+import alp2025Shift5Questions from './alp2025Shift5Bilingual.json';
 
 // --- SHIFT 1 SECTIONAL SUBSETS ---
 // Strict pure separation as per user commands:
@@ -112,6 +113,13 @@ const reasoningQuestions2025S3 = alp2025Shift3Questions.filter(q => q.section ==
 const scienceQuestions2025S4 = alp2025Shift4Questions.filter(q => q.section === 'General Science');
 const mathsQuestions2025S4 = alp2025Shift4Questions.filter(q => q.section === 'Mathematics');
 const reasoningQuestions2025S4 = alp2025Shift4Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+
+// ==========================================
+// 2025 CYCLE: SHIFT 5 (17 Feb 2026 - 09:00 AM)
+// ==========================================
+const scienceQuestions2025S5 = alp2025Shift5Questions.filter(q => q.section === 'General Science');
+const mathsQuestions2025S5 = alp2025Shift5Questions.filter(q => q.section === 'Mathematics');
+const reasoningQuestions2025S5 = alp2025Shift5Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 export const RAILWAY_TESTS = [
   // ==========================================
@@ -1501,5 +1509,115 @@ export const RAILWAY_TESTS = [
     sections: ['General Intelligence & Reasoning'],
     sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S4.length} Questions)`,
     questions: reasoningQuestions2025S4.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // ===================================================
+  // 2025 CYCLE: SHIFT 5 (17 Feb 2026 - 09:00 to 10:00 AM)
+  // ===================================================
+
+  // 53. Official Full Mock Test (2025 Shift 5)
+  {
+    id: 'rrb-alp-2025-cbt1-shift5',
+    examYear: '2025',
+    title: 'RRB ALP 2025: CBT-1 Official Mock Test (17 Feb 2026 - Shift 1)',
+    subTitle: 'Official Question Paper with 100% Bilingual Questions, Options & Solutions',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'official',
+    badge: 'Shift 5 • 17 Feb (9:00-10:00 AM)',
+    badgeColor: 'emerald',
+    shiftDate: '17/02/2026',
+    shiftTime: '09:00 AM - 10:00 AM',
+    shiftName: '17 Feb Shift 1',
+    durationMinutes: 60,
+    totalQuestions: alp2025Shift5Questions.length,
+    maxMarks: alp2025Shift5Questions.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: [
+      'All Sections',
+      'General Science',
+      'Mathematics',
+      'General Intelligence & Reasoning'
+    ],
+    sectionCounts: {
+      'General Science': scienceQuestions2025S5.length,
+      'Mathematics': mathsQuestions2025S5.length,
+      'General Intelligence & Reasoning': reasoningQuestions2025S5.length
+    },
+    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S5.length}), Maths (${mathsQuestions2025S5.length}), Reasoning (${reasoningQuestions2025S5.length})`,
+    questions: alp2025Shift5Questions
+  },
+
+  // 54. Sectional Test - General Science & Current Affairs (2025 Shift 5)
+  {
+    id: 'rrb-alp-2025-sec-science-s5',
+    examYear: '2025',
+    title: 'RRB ALP 2025: General Science & GK Sectional (Shift 5)',
+    subTitle: 'Pure Science (Physics, Chemistry, Biology) & GK from 17 Feb Shift 1',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Science & GK',
+    badgeColor: 'teal',
+    shiftDate: '17/02/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '17 Feb Shift 1',
+    durationMinutes: 15,
+    totalQuestions: scienceQuestions2025S5.length,
+    maxMarks: scienceQuestions2025S5.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Science'],
+    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S5.length} Questions)`,
+    questions: scienceQuestions2025S5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 55. Sectional Test - Mathematics (2025 Shift 5)
+  {
+    id: 'rrb-alp-2025-sec-maths-s5',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Mathematics Sectional (Shift 5)',
+    subTitle: 'Pure Mathematics: Arithmetic, Algebra, Geometry, Mensuration & Trigonometry',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Maths',
+    badgeColor: 'indigo',
+    shiftDate: '17/02/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '17 Feb Shift 1',
+    durationMinutes: 25,
+    totalQuestions: mathsQuestions2025S5.length,
+    maxMarks: mathsQuestions2025S5.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S5.length} Questions)`,
+    questions: mathsQuestions2025S5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 56. Sectional Test - General Intelligence & Reasoning (2025 Shift 5)
+  {
+    id: 'rrb-alp-2025-sec-reasoning-s5',
+    examYear: '2025',
+    title: 'RRB ALP 2025: Reasoning & Intelligence Sectional (Shift 5)',
+    subTitle: 'Pure Reasoning: Puzzles, Seating Arrangements, Coding-Decoding, Series & Direction',
+    exam: 'RRB ALP 2025',
+    stage: 'CBT-1',
+    category: 'sectional',
+    badge: 'Sectional • Reasoning',
+    badgeColor: 'purple',
+    shiftDate: '17/02/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '17 Feb Shift 1',
+    durationMinutes: 35,
+    totalQuestions: reasoningQuestions2025S5.length,
+    maxMarks: reasoningQuestions2025S5.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S5.length} Questions)`,
+    questions: reasoningQuestions2025S5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
   }
 ];
