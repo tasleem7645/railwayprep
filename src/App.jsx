@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import CBTMockTestModal from './components/CBTMockTestModal';
@@ -22,6 +22,26 @@ export default function App() {
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [activeTest, setActiveTest] = useState(null);
   const [testResult, setTestResult] = useState(null);
+  const [savedSession, setSavedSession] = useState(null);
+
+  // Restore test session if user refreshes or toggles mobile/desktop mode
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('railwayprep_active_test_session');
+      if (saved) {
+        const session = JSON.parse(saved);
+        if (session && session.testId) {
+          const matchingTest = RAILWAY_TESTS.find(t => t.id === session.testId);
+          if (matchingTest) {
+            setSavedSession(session);
+            setActiveTest(matchingTest);
+          }
+        }
+      }
+    } catch (e) {
+      console.warn('Failed to restore active test session:', e);
+    }
+  }, []);
 
   const availableShifts = [
     { key: 'all', label: `All Shifts (${RAILWAY_TESTS.length})` },
@@ -38,17 +58,37 @@ export default function App() {
   });
 
   const handleStartMock = (test = RAILWAY_TESTS[0], lang = selectedLang) => {
+    try {
+      localStorage.removeItem('railwayprep_active_test_session');
+    } catch (e) {}
+    setSavedSession(null);
     setSelectedLang(lang);
     setActiveTest(test);
   };
 
+  const handleCloseActiveTest = () => {
+    try {
+      localStorage.removeItem('railwayprep_active_test_session');
+    } catch (e) {}
+    setSavedSession(null);
+    setActiveTest(null);
+  };
+
   const handleSubmitTest = (resultData) => {
+    try {
+      localStorage.removeItem('railwayprep_active_test_session');
+    } catch (e) {}
+    setSavedSession(null);
     setActiveTest(null);
     setTestResult(resultData);
   };
 
   const handleRetakeTest = () => {
+    try {
+      localStorage.removeItem('railwayprep_active_test_session');
+    } catch (e) {}
     const t = testResult?.test || RAILWAY_TESTS[0];
+    setSavedSession(null);
     setTestResult(null);
     setActiveTest(t);
   };
@@ -389,12 +429,13 @@ export default function App() {
       {/* Footer */}
       <Footer onOpenPassPro={() => setIsPassProOpen(true)} />
 
-      {/* CBT Mock Test Simulator Modal */}
+      {/* CBT Mock Test Simulator Modal (with session persistence & refresh protection) */}
       {activeTest && (
         <CBTMockTestModal
           test={activeTest}
           defaultLang={selectedLang}
-          onClose={() => setActiveTest(null)}
+          savedSession={savedSession}
+          onClose={handleCloseActiveTest}
           onSubmitTest={handleSubmitTest}
         />
       )}
