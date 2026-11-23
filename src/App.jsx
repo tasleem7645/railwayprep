@@ -18,9 +18,16 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz'
   const [selectedLang, setSelectedLang] = useState('hi');
   const [testFilter, setTestFilter] = useState('all'); // 'all' | 'full-shift' | 'sectional'
+  const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | '03 Nov Shift 1' | '03 Nov Shift 2'
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [activeTest, setActiveTest] = useState(null);
   const [testResult, setTestResult] = useState(null);
+
+  const filteredTests = RAILWAY_TESTS.filter(test => {
+    const matchesCategory = testFilter === 'all' || test.category === testFilter;
+    const matchesShift = shiftFilter === 'all' || test.shiftName === shiftFilter;
+    return matchesCategory && matchesShift;
+  });
 
   const handleStartMock = (test = RAILWAY_TESTS[0], lang = selectedLang) => {
     setSelectedLang(lang);
@@ -94,20 +101,53 @@ export default function App() {
                 </div>
               </div>
 
+              {/* Shift Selector Filter Tabs on Home */}
+              <div className="flex flex-wrap items-center gap-2 mb-6">
+                <span className="text-xs font-bold text-slate-400 mr-1 flex items-center gap-1">
+                  <Filter className="w-3.5 h-3.5 text-teal-400" />
+                  <span>Filter by Shift:</span>
+                </span>
+                {[
+                  { key: 'all', label: `All Shifts (${RAILWAY_TESTS.length})` },
+                  { key: '03 Nov Shift 1', label: `03 Nov Shift 1 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 1').length})` },
+                  { key: '03 Nov Shift 2', label: `03 Nov Shift 2 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 2').length})` }
+                ].map(s => (
+                  <button
+                    key={s.key}
+                    onClick={() => setShiftFilter(s.key)}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                      shiftFilter === s.key
+                        ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/20'
+                        : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                    }`}
+                  >
+                    {s.label}
+                  </button>
+                ))}
+              </div>
+
               {/* Test Cards Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {RAILWAY_TESTS.map((test) => (
+                {filteredTests.map((test) => (
                   <div
                     key={test.id}
                     className="p-6 rounded-3xl bg-slate-900/70 border border-slate-800 hover:border-teal-500/50 hover:bg-slate-900 transition-all shadow-xl group flex flex-col justify-between"
                   >
                     <div>
                       <div className="flex items-center justify-between mb-3">
-                        <span className="text-[11px] font-extrabold uppercase px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                        <span className={`text-[11px] font-extrabold uppercase px-2.5 py-1 rounded-full border ${
+                          test.badgeColor === 'teal' 
+                            ? 'bg-teal-500/20 text-teal-300 border-teal-500/40'
+                            : test.badgeColor === 'indigo'
+                            ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
+                            : test.badgeColor === 'purple'
+                            ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
+                            : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+                        }`}>
                           {test.badge}
                         </span>
                         <span className="text-xs text-slate-400 font-semibold">
-                          Free CBT
+                          {test.shiftTime || 'Free CBT'}
                         </span>
                       </div>
 
@@ -198,17 +238,38 @@ export default function App() {
                 Simulated on authentic TCS iON software layout with bilingual per-question toggle, 1/3rd negative marking, and detailed solutions.
               </p>
 
-              {/* Category Filter Tabs */}
+              {/* Shift Filter Tabs */}
               <div className="flex items-center justify-center gap-2 mt-6 overflow-x-auto no-scrollbar">
                 {[
-                  { key: 'all', label: `All Tests (${RAILWAY_TESTS.length})` },
-                  { key: 'full-shift', label: `Full Shift Official Papers (${RAILWAY_TESTS.filter(t => t.category === 'full-shift').length})` },
-                  { key: 'sectional', label: `Sectional Tests (${RAILWAY_TESTS.filter(t => t.category === 'sectional').length})` }
+                  { key: 'all', label: `All Shifts (${RAILWAY_TESTS.length})` },
+                  { key: '03 Nov Shift 1', label: `03 Nov Shift 1 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 1').length})` },
+                  { key: '03 Nov Shift 2', label: `03 Nov Shift 2 (${RAILWAY_TESTS.filter(t => t.shiftName === '03 Nov Shift 2').length})` }
+                ].map(s => (
+                  <button
+                    key={s.key}
+                    onClick={() => setShiftFilter(s.key)}
+                    className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
+                      shiftFilter === s.key
+                        ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/20'
+                        : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                    }`}
+                  >
+                    {s.label}
+                  </button>
+                ))}
+              </div>
+
+              {/* Category Filter Tabs */}
+              <div className="flex items-center justify-center gap-2 mt-3 overflow-x-auto no-scrollbar">
+                {[
+                  { key: 'all', label: `All Test Types (${shiftFilter === 'all' ? RAILWAY_TESTS.length : RAILWAY_TESTS.filter(t => t.shiftName === shiftFilter).length})` },
+                  { key: 'full-shift', label: `Full Shift Official Papers (${shiftFilter === 'all' ? RAILWAY_TESTS.filter(t => t.category === 'full-shift').length : RAILWAY_TESTS.filter(t => t.shiftName === shiftFilter && t.category === 'full-shift').length})` },
+                  { key: 'sectional', label: `Sectional Tests (${shiftFilter === 'all' ? RAILWAY_TESTS.filter(t => t.category === 'sectional').length : RAILWAY_TESTS.filter(t => t.shiftName === shiftFilter && t.category === 'sectional').length})` }
                 ].map(f => (
                   <button
                     key={f.key}
                     onClick={() => setTestFilter(f.key)}
-                    className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+                    className={`px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
                       testFilter === f.key
                         ? 'bg-teal-500 text-slate-950 shadow-lg shadow-teal-500/20'
                         : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
@@ -221,7 +282,7 @@ export default function App() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {RAILWAY_TESTS.filter(test => testFilter === 'all' || test.category === testFilter).map(test => (
+              {filteredTests.map(test => (
                 <div 
                   key={test.id} 
                   className="p-6 rounded-3xl bg-slate-900/80 border border-slate-800 hover:border-teal-500/50 hover:bg-slate-900 transition-all shadow-xl flex flex-col justify-between group"
