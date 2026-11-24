@@ -19,6 +19,7 @@ import alp2025Shift9Questions from './alp2025Shift9Bilingual.json';
 import alp2025Shift10Questions from './alp2025Shift10Bilingual.json';
 import alp2025Cbt2Shift1Questions from './alp2025Cbt2Shift1Bilingual.json';
 import alp2025Cbt2Shift2Questions from './alp2025Cbt2Shift2Bilingual.json';
+import { CBT2_PART_B_TESTS } from './tradeTestsData';
 
 
 // --- SHIFT 1 SECTIONAL SUBSETS ---
@@ -2462,6 +2463,11 @@ export const RAILWAY_TESTS = [
     sections: ['General Awareness'],
     sectionSummary: `Covers: General Awareness & Current Affairs (${gaQuestionsCbt2S2.length} Questions)`,
     questions: gaQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
-  }
+  },
+
+  // ==========================================
+  // RRB ALP 2025 CBT-2 PART B TRADE TESTS
+  // ==========================================
+  ...CBT2_PART_B_TESTS
 
 ];

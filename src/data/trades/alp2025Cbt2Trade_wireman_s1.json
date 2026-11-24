@@ -1,0 +1,2477 @@
+[
+  {
+    "id": 1,
+    "shiftQuestionNo": 1,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "The price of a tool increased from ₹400 to ₹500. Calculate the percentage increase based on the original price.",
+      "hi": "किसी औजार की कीमत ₹400 से बढ़कर ₹500 हो जाती है। मूल कीमत के आधार पर प्रतिशत वृद्धि की गणना कीजिए।"
+    },
+    "options": {
+      "en": [
+        "20%",
+        "30%",
+        "25%",
+        "35%"
+      ],
+      "hi": [
+        "35%",
+        "25%",
+        "20%",
+        "30%"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (25%). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (25%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 2,
+    "shiftQuestionNo": 2,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "In a climate-controlled laboratory where aesthetics and minimal electromagnetic interference are priorities, which wiring system is most appropriate?",
+      "hi": "एक जलवायु - नियंत्रित प्रयोगशाला में जहाँ सौंदर्यबोध और न्यूनतम विद्युत चुंबकीय व्यतिकरण प्राथमिकताएँ हैं , वहाँ कौन - सी तार - स्थापन प्रणाली (wiring system) सर्वाधिक उपयुक्त है ?"
+    },
+    "options": {
+      "en": [
+        "Casing-capping wiring with plastic covers",
+        "Batten wiring with wooden battens",
+        "Cleat wiring with ceramic cleats",
+        "Concealed conduit wiring with non-magnetic pipes"
+      ],
+      "hi": [
+        "काष्ठ बैटन के साथ बैटन तार - स्थापन",
+        "प्लास्टिक आवरण के साथ के सिंग - कै पिंग तार - स्थापन",
+        "अचुंबकीय पाइपों के साथ प्रच्छन्न कं ड्यूट तार - स्थापन",
+        "सिरेमिक क्लीट के साथ क्लीट तार - स्थापन"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Concealed conduit wiring with non-magnetic pipes). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (अचुंबकीय पाइपों के साथ प्रच्छन्न कं ड्यूट तार - स्थापन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 3,
+    "shiftQuestionNo": 3,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Why is Relay Ladder Logic (RLL) represented in a graphical form similar to relay control circuits in programmable logic controllers (PLCs)?",
+      "hi": "प्रोग्रामेबल लॉजिक कं ट्रोलर (PLC) में रिले लैडर लॉजिक (RLL) को रिले कं ट्रोल सर्किट के समान ग्राफिकल रूप में क्यों निरूपित किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "To increase the memory capacity of programmable logic controllers",
+        "To reduce the operating voltage required by PLC hardware",
+        "To make PLC programming easier for technicians familiar with relay logic troubleshooting",
+        "To replace all electrical wiring connections inside industrial machines"
+      ],
+      "hi": [
+        "PLC हार्डवेयर को आवश्यक प्रचालन वोल्टता को कम करने के लिए",
+        "औद्योगिक मशीनों के अंदर सभी विद्युतीय वायरिंग संयोजनों को प्रतिस्थापित करने के लिए",
+        "रिले लॉजिक ट्रबलशूटिंग से परिचित तकनीशियनों हेतु PLC प्रोग्रामिंग को सुगम बनाने के लिए",
+        "प्रोग्रामेबल लॉजिक कं ट्रोलर की मेमोरी क्षमता बढ़ाने के लिए"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (To make PLC programming easier for technicians familiar with relay logic troubleshooting). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (रिले लॉजिक ट्रबलशूटिंग से परिचित तकनीशियनों हेतु PLC प्रोग्रामिंग को सुगम बनाने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 4,
+    "shiftQuestionNo": 4,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A control panel design requires cable markers to be both flame-retardant and resistant to abrasion. Which material is best suited for this requirement? · 9:30 AM - 12:00 PM · English",
+      "hi": "किसी नियंत्रण पैनल डिजाइन के लिए ऐसे के बल मार्क रों की आवश्यकता है जो ज्वाला मंदक और अपघर्षण प्रतिरोधी हों। इस आवश्यकता के लिए कौन - सा पदार्थ सबसे उपयुक्त है ? · 9:30 AM - 12:00 PM · Hindi"
+    },
+    "options": {
+      "en": [
+        "Vinyl electrical tapes",
+        "Polyolefin heat-shrink sleeves",
+        "Self-adhesive paper labels",
+        "Clip-on plastic tags"
+      ],
+      "hi": [
+        "विनाइल इलेक्ट्रिकल टेप",
+        "स्व - आसंजी पेपर लेबल",
+        "पॉलिओलिफिन हीट - श्रिंक स्लीव",
+        "क्लिप - ऑन प्लास्टिक टैग"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Polyolefin heat-shrink sleeves). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (पॉलिओलिफिन हीट - श्रिंक स्लीव)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 5,
+    "shiftQuestionNo": 5,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Find the circumference of a circle having radius 7 cm. Use π=22/7.",
+      "hi": "7 cm त्रिज्या वाले वृत्त की परिधि ज्ञात कीजिए। π=22/7 का उपयोग कीजिए।"
+    },
+    "options": {
+      "en": [
+        "66 cm",
+        "22 cm",
+        "88 cm",
+        "44 cm"
+      ],
+      "hi": [
+        "22 cm",
+        "66 cm",
+        "88 cm",
+        "44 cm"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (44 cm). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (44 cm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 6,
+    "shiftQuestionNo": 6,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Before measuring current with an analog multimeter, how should the meter be connected in a circuit?",
+      "hi": "एनालॉग मल्टीमीटर के साथ धारा का मापन करने से पहले , परिपथ में मीटर को कै से संयोजित किया जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Across the power supply",
+        "To earth ground",
+        "In parallel with the load",
+        "In series with the load"
+      ],
+      "hi": [
+        "भू - संपर्क न तल से",
+        "लोड के समानांतर",
+        "लोड के साथ श्रेणीक्रम में",
+        "विद्युत आपूर्ति के आर - पार"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (In series with the load). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (लोड के साथ श्रेणीक्रम में)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 7,
+    "shiftQuestionNo": 7,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which type of lamp is suitable for street lighting due to its high efficiency and long life?",
+      "hi": "किस प्रकार का लैंप अपनी उच्च दक्षता और दीर्घ जीवन - काल के कारण स्ट्रीट लाइटिंग के लिए उपयुक्त होता है ?"
+    },
+    "options": {
+      "en": [
+        "Fluorescent lamp",
+        "Mercury vapor lamp",
+        "Incandescent lamp",
+        "Sodium vapor lamp"
+      ],
+      "hi": [
+        "प्रतिदीप्त लैंप",
+        "सोडियम वाष्प लैंप",
+        "तापदीप्‍त लैंप",
+        "मर्क री वाष्प लैंप"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Sodium vapor lamp). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सोडियम वाष्प लैंप)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 8,
+    "shiftQuestionNo": 8,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "If three light bulbs are connected in a series circuit and one bulb burns out (opens), what happens to the remaining bulbs?",
+      "hi": "यदि तीन प्रकाश बल्बों को श्रेणीक्रम परिपथ में जोड़ा जाता है और उनमें से एक बल्ब फ्यूज ( खराब ) हो जाता है , तो शेष अन्य बल्बों पर क्या प्रभाव पड़ेगा ?"
+    },
+    "options": {
+      "en": [
+        "The other bulbs stop glowing",
+        "The other bulbs continue glowing normally",
+        "The other bulbs glow brighter",
+        "The other bulbs glow dimmer"
+      ],
+      "hi": [
+        "अन्य बल्ब दीप्तिमान होना ( जलना ) बंद हो जाते हैं",
+        "अन्य बल्ब मंद दीप्तिमान होते हैं",
+        "अन्य बल्ब अधिक उज्जवलता से दीप्तिमान ( जलना ) होते हैं",
+        "अन्य बल्ब सामान्य रूप से दीप्तिमान होना जारी रखते हैं"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (The other bulbs stop glowing). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (अन्य बल्ब दीप्तिमान होना ( जलना ) बंद हो जाते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 9,
+    "shiftQuestionNo": 9,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "According to the laws of electrolysis, what happens to the mass of substance deposited at an electrode if the quantity of electricity passed through the electrolyte is increased?",
+      "hi": "विद्युत अपघटन के नियमों के अनुसार , यदि विद्युत अपघट्य के माध्यम से प्रवाहित होने वाली विद्युत की मात्रा को बढ़ा दिया जाए , तो इलेक्ट्रोड पर निक्षेपित पदार्थ के द्रव्यमान का क्या होता है ?"
+    },
+    "options": {
+      "en": [
+        "The mass deposited remains constant",
+        "The mass deposited increases",
+        "The mass deposited decreases",
+        "The mass deposited changes unpredictably"
+      ],
+      "hi": [
+        "निक्षेपित द्रव्यमान नियत रहता है",
+        "निक्षेपित द्रव्यमान अप्रत्याशित रूप से परिवर्तित होता है",
+        "निक्षेपित द्रव्यमान घटता है",
+        "निक्षेपित द्रव्यमान में वृद्धि होती है"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (The mass deposited increases). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (निक्षेपित द्रव्यमान में वृद्धि होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 10,
+    "shiftQuestionNo": 10,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which step is most crucial for enabling the collection of electric current in a silicon-based solar cell?",
+      "hi": "सिलिकॉन - आधारित सौर सेल में विद्युत धारा के संग्रहण को सक्षम करने के लिए कौन - सा चरण सर्वाधिक महत्वपूर्ण होता है ?"
+    },
+    "options": {
+      "en": [
+        "Doping wafers with impurities",
+        "Sandwiching doped and undoped wafers",
+        "Attaching metallic strips to the extreme layers",
+        "Cutting silicon into thin wafers"
+      ],
+      "hi": [
+        "सिलिकॉन को पतले वेफर्स में काटना",
+        "अपमिश्रित और अनापमिश्रित (undoped) वेफर्स को सैंडविच करना",
+        "बाह्यतम परतों पर धात्विक पट्टियाँ जोड़ना",
+        "अशुद्धियों के साथ वेफर्स का अपमिश्रण (doping) करना"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Attaching metallic strips to the extreme layers). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बाह्यतम परतों पर धात्विक पट्टियाँ जोड़ना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 11,
+    "shiftQuestionNo": 11,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which condition must be met for a DC shunt generator to successfully charge a battery bank?",
+      "hi": "DC शंट जनित्र द्वारा किसी बैटरी बैंक को सफलतापूर्वक आवेशित करने के लिए किस शर्त को पूरा करना आवश्यक होता है ?"
+    },
+    "options": {
+      "en": [
+        "The generator field resistance must be minimum.",
+        "The generator terminal voltage must be equal to the battery voltage.",
+        "The armature resistance must be maximum.",
+        "The generator terminal voltage must be higher than the battery voltage."
+      ],
+      "hi": [
+        "जनित्र की टर्मिनल वोल्टता बैटरी वोल्टता से अधिक होनी चाहिए",
+        "जनित्र की टर्मिनल वोल्टता , बैटरी वोल्टता के बराबर होनी चाहिए",
+        "आर्मेचर प्रतिरोध अधिकतम होना चाहिए",
+        "जनित्र का क्षेत्र प्रतिरोध न्यूनतम होना चाहिए"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (The generator terminal voltage must be higher than the battery voltage.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (जनित्र की टर्मिनल वोल्टता बैटरी वोल्टता से अधिक होनी चाहिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 12,
+    "shiftQuestionNo": 12,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "In which situation is DC transmission preferred over AC transmission in power networks?",
+      "hi": "विद्युत नेटवर्क में किस स्थिति में AC ट्रांसमिशन की तुलना में DC ट्रांसमिशन को प्राथमिकता दी जाती है ?"
+    },
+    "options": {
+      "en": [
+        "For distribution in city networks",
+        "For local substation connections",
+        "For rural short transmission lines",
+        "For very long-distance underwater cables"
+      ],
+      "hi": [
+        "बहुत लंबी दूरी के जलमग्न के बलों के लिए",
+        "ग्रामीण क्षेत्रों में छोटी ट्रांसमिशन लाइनों के लिए",
+        "शहरी नेटवर्क में वितरण के लिए",
+        "स्थानीय सबस्टेशन कनेक्शनों के लिए"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (For very long-distance underwater cables). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (बहुत लंबी दूरी के जलमग्न के बलों के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 13,
+    "shiftQuestionNo": 13,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A factory is being constructed in an area with frequent electrical storms. The engineers must design an earthing system. Which factor is critical to prioritize in their design to ensure safety and equipment protection?",
+      "hi": "एक कारखाने का निर्माण एक ऐसे क्षेत्र में किया जा रहा है जहाँ प्रायः विद्युत तूफान आते हैं। इंजीनियरों को एक अर्थिंग सिस्टम डिज़ाइन करना है। सुरक्षा और उपकरणों की सुरक्षा सुनिश्चित करने के लिए उनके डिज़ाइन में किस कारक को प्राथमिकता देना सबसे महत्वपूर्ण है ?"
+    },
+    "options": {
+      "en": [
+        "Using a single GI pipe for earthing",
+        "Using the thickest possible earthing cable",
+        "Increasing the number of earthing rods",
+        "Placing earthing rods close together"
+      ],
+      "hi": [
+        "अर्थिंग के लिए एकल GI पाइप का उपयोग करना",
+        "संभवतः सबसे मोटी अर्थिंग के बल का उपयोग करना",
+        "अर्थिंग रॉड् स की संख्या में वृद्धि करना",
+        "अर्थिंग रॉड् स को निकट स्थापित करना"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Increasing the number of earthing rods). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (अर्थिंग रॉड् स की संख्या में वृद्धि करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 14,
+    "shiftQuestionNo": 14,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "If a lighting circuit is designed for 230 V supply and one lamp is rated for 110 V, what will happen if the lamp is connected directly in parallel with other 230 V lamps?",
+      "hi": "यदि किसी प्रकाश परिपथ को 230 V की आपूर्ति के लिए डिजाइन किया गया है तथा एक लैंप को 110 V पर रेट किया गया है और यदि लैंप को दूसरे 230 V लैंप के साथ सीधे समांतर क्रम में जोड़ा जाए , तो क्या होगा ?"
+    },
+    "options": {
+      "en": [
+        "The 110 V lamp will operate at normal brightness",
+        "The 110 V lamp will be operate much brighter than others and continue to do so.",
+        "The 110 V lamp will fail quickly due to overvoltage",
+        "The 110 V lamp will be dimmer than others"
+      ],
+      "hi": [
+        "110 V का लैंप अतिवोल्टता के कारण जल्दी खराब हो जाएगा 110 V का लैंप दूसरे लैंप की तुलना में बहुत अधिक रोशनी देगा और",
+        "ऐसा ही करता रहेगा",
+        "110 V का लैंप दूसरे लैंप की तुलना में मंद होगा",
+        "110 V का लैंप सामान्य दीप्ति पर कार्य करेगा"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (The 110 V lamp will fail quickly due to overvoltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (110 V का लैंप अतिवोल्टता के कारण जल्दी खराब हो जाएगा 110 V का लैंप दूसरे लैंप की तुलना में बहुत अधिक रोशनी देगा और)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 15,
+    "shiftQuestionNo": 15,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "What is the purpose of using symbolic representation in engineering drawing?",
+      "hi": "इंजीनियरिंग ड्राइंग में प्रतीकात्मक निरूपण को उपयोग करने का क्या प्रयोजन होता है ?"
+    },
+    "options": {
+      "en": [
+        "To communicate information using standardized symbols",
+        "To introduce unnecessary complexity into drawings",
+        "To decorate drawings using additional geometric shapes",
+        "To improve the decorative appearance of drawings"
+      ],
+      "hi": [
+        "ड्राइंग में अनावश्यक जटिलता उत्पन्न करना",
+        "ड्राइंग को सजावटी रूप से अधिक आकर्षक बनाना",
+        "मानक प्रतीकों का उपयोग करके सूचना संप्रेषित करना",
+        "अतिरिक्त ज्यामितीय आकृतियों का उपयोग करके ड्राइंग को सजाना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (To communicate information using standardized symbols). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (मानक प्रतीकों का उपयोग करके सूचना संप्रेषित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 16,
+    "shiftQuestionNo": 16,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "The property of a material by which it regains its original shape and size after removal of the deforming force is called:",
+      "hi": "किसी पदार्थ का वह गुण जिसके द्वारा विरूपण बल हटने के बाद वह अपनी मूल आकृति और साइज़ को पुनः प्राप्त कर लेता है , ________ कहलाता है।"
+    },
+    "options": {
+      "en": [
+        "Brittleness",
+        "Elasticity",
+        "Plasticity",
+        "Hardness"
+      ],
+      "hi": [
+        "प्रत्या स्थता",
+        "कठोरता",
+        "भंगुरता",
+        "सुघट्यता"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Elasticity). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (प्रत्या स्थता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 17,
+    "shiftQuestionNo": 17,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A universal motor is brought into the workshop with the complaint of excessive sparking at the commutator under load. Which is the most likely cause to check first?",
+      "hi": "एक उभयधारा मोटर (universal motor) को वर्क शॉप में लाया गया है , जिसमें लोड के अंतर्गत कम्यूटेटर (commutator) पर अत्यधिक स्पार्किंग की शिकायत है। सबसे पहले किस कारण की जाँच करनी चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Damaged field winding",
+        "Worn out carbon brushes",
+        "Shorted commutator bar",
+        "Faulty armature windings"
+      ],
+      "hi": [
+        "क्षतिग्रस्त फील्ड वाइंडिंग (Damaged field winding)",
+        "घिसे हुए कार्बन ब्रश (Worn out carbon brushes)",
+        "लघुकृ त कम्यूटेटर बार (Shorted commutator bar)",
+        "दोषपूर्ण आर्मेचर वाइंडिंग (Faulty armature windings)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Worn out carbon brushes). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (घिसे हुए कार्बन ब्रश (Worn out carbon brushes))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 18,
+    "shiftQuestionNo": 18,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A technician needs to select a wire for connecting a 230V control circuit inside a panel. Which specification is most important for this application?",
+      "hi": "एक तकनीशियन को पैनल के अंदर 230V के नियंत्रण परिपथ को जोड़ने के लिए तार का चयन करना है। इस अनुप्रयोग के लिए कौन - सा विनिर्देशन सबसे महत्वपूर्ण होता है ?"
+    },
+    "options": {
+      "en": [
+        "Voltage rating and insulation quality",
+        "Color code for identification",
+        "Current carrying capacity alone",
+        "Flexibility for ease of routing"
+      ],
+      "hi": [
+        "वोल्टता रेटिंग और इन्सुलेशन गुणवत्ता",
+        "अनुमार्गन में सुगमता के लिए लचीलापन",
+        "पहचान के लिए रंग कोड",
+        "केवल धारावाही क्षमता"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Voltage rating and insulation quality). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (वोल्टता रेटिंग और इन्सुलेशन गुणवत्ता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 19,
+    "shiftQuestionNo": 19,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "What does the BIS code 2330 primarily indicate?",
+      "hi": "BIS कोड 2330 प्रामुख्याने काय दर्शवतो ?"
+    },
+    "options": {
+      "en": [
+        "It indicates a nickel steel with high nickel content",
+        "It identifies a free cutting steel grade type",
+        "It represents a plain carbon steel grade material",
+        "It denotes a chromium steel used in engineering"
+      ],
+      "hi": [
+        "हे अभियांत्रिकीमध्ये वापरल्या जाणाऱ् या क्रोमियम स्टीलला सूचित करते",
+        "हे उच्च निके ल प्रमाण असलेले निके ल स्टील दर्शवते",
+        "हे फ्री कटिंग स्टील ग्रेडचा प्रकार ओळखते",
+        "हे साध्या कार्बन स्टील ग्रेड मटेरियलचे प्रतिनिधित्व करते"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (It indicates a nickel steel with high nickel content). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (हे उच्च निके ल प्रमाण असलेले निके ल स्टील दर्शवते)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 20,
+    "shiftQuestionNo": 20,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which type of substation would be strategically installed on a high-voltage transmission line to improve network reliability by isolating faults without changing voltage levels?",
+      "hi": "वोल्टता स्तरों को बदले बिना दोषों को अलग करके नेटवर्क की विश्वसनीयता में वृद्धि करने के लिए उच्च वोल्टता ट्रांसमिशन लाइन पर किस प्रकार के सबस्टेशन को रणनीतिक रूप से संस्थापित किया जाएगा ?"
+    },
+    "options": {
+      "en": [
+        "Step-down transformer substation",
+        "Switching substation",
+        "Step-up transformer substation",
+        "Traction substation"
+      ],
+      "hi": [
+        "उच्चायी ट्रांसफार्मर सबस्टेशन (Step-up transformer substation)",
+        "स्विचन सबस्टेशन (Switching substation) अपचायी ट्रांसफार्मर सबस्टेशन (Step-down transformer",
+        "substation)",
+        "संकर्षण सबस्टेशन (Traction substation)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Switching substation). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (स्विचन सबस्टेशन (Switching substation) अपचायी ट्रांसफार्मर सबस्टेशन (Step-down transformer)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 21,
+    "shiftQuestionNo": 21,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "An industrial electrician uses an insulation resistance tester on a three-core cable. The measured resistance between core and earth is 900 megaohms. What does this value indicate about the cable's insulation condition?",
+      "hi": "एक औद्योगिक इलेक्ट्रिशियन तीन - क्रोड के बल पर विद्युतरोधन प्रतिरोध परीक्षित्र (insulation resistance tester) का उपयोग करता है। क्रोड और भू - संपर्क (earth) के बीच मापा गया प्रतिरोध 900 मेगाओम है। यह मान के बल की विद्युतरोधन स्थिति के बारे में क्या इंगित करता है ?"
+    },
+    "options": {
+      "en": [
+        "The cable is unsuitable for industrial environments due to low strength.",
+        "The insulation is in good condition and safe for operation.",
+        "The cable has severe moisture ingress and needs drying.",
+        "The insulation has broken down and needs immediate replacement."
+      ],
+      "hi": [
+        "विद्युतरोधन उत्तम स्थिति में है और प्रचालन के लिए सुरक्षित है।",
+        "के बल में गंभीर आर्द्र ता प्रवेश कर गई है और इसके शुष्कन की आवश्यकता है।",
+        "निम्न सामर्थ्य के कारण के बल औद्योगिक परिवेश के लिए अनुपयुक्त है।",
+        "विद्युतरोधन खराब हो चुका है और इसे तुरंत प्रतिस्थापित करने की आवश्यकता है।"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (The insulation is in good condition and safe for operation.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (विद्युतरोधन उत्तम स्थिति में है और प्रचालन के लिए सुरक्षित है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 22,
+    "shiftQuestionNo": 22,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A three-phase synchronous motor is connected to an AC supply. If the field excitation is decreased below the value required for unity power factor operation, what is the expected effect on the motor power factor?",
+      "hi": "एक 3- फेज तुल्यकालिक मोटर AC आपूर्ति से संयोजित है। यदि क्षेत्र उत्तेजन को एकक शक्ति गुणांक प्रचालन (unity power factor operation) के लिए आवश्यक मान से कम कर दिया जाए , तो मोटर शक्ति गुणांक पर क्या प्रभाव पड़ने की संभावना है ?"
+    },
+    "options": {
+      "en": [
+        "The power factor becomes leading",
+        "The power factor becomes lagging",
+        "The power factor remains unity",
+        "The motor power factor becomes zero"
+      ],
+      "hi": [
+        "शक्ति गुणांक एकक बना रहता है",
+        "मोटर शक्ति गुणांक शून्य हो जाता है",
+        "शक्ति गुणांक अग्रगामी (leading) हो जाता है",
+        "शक्ति गुणांक पश्चगामी (lagging) हो जाता है"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (The power factor becomes lagging). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (शक्ति गुणांक पश्चगामी (lagging) हो जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 23,
+    "shiftQuestionNo": 23,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which type of centrally monitored fire detection and alarm system is used in large commercial public buildings for fire safety?",
+      "hi": "अग्नि सुरक्षा के लिए बड़े व्यावसायिक सार्वजनिक भवनों में किस प्रकार के केंद्रीय निगरानी वाले अग्नि संसूचन और अलार्म तंत्र का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Conventional heat detector alarm system",
+        "Standalone residential smoke detector units",
+        "Manual fire alarm call point system only",
+        "Addressable fire detection and alarm system"
+      ],
+      "hi": [
+        "केवल हस्तचालित अग्नि अलार्म कॉल पॉइंट तंत्र",
+        "पारंपरिक ताप संसूचक अलार्म तंत्र",
+        "पता - योग्य अग्नि संसूचन और अलार्म तंत्र",
+        "स्वाश्रयी आवासीय धूम संसूचक यूनिट्स"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Addressable fire detection and alarm system). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (पता - योग्य अग्नि संसूचन और अलार्म तंत्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 24,
+    "shiftQuestionNo": 24,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "In a series DC circuit, what happens if one component fails or becomes open-circuit?",
+      "hi": "सिरीज DC सर्किटमध्ये , एखादा घटक निकामी झाल्यास किंवा ओपन - सर्किट झाल्यास काय होते ?"
+    },
+    "options": {
+      "en": [
+        "Current bypasses the failed component",
+        "The entire circuit stops working",
+        "Current flows only through working components",
+        "Current flows in reverse direction"
+      ],
+      "hi": [
+        "विद्युत प्रवाह निकामी झालेल्या घटकाला बायपास करतो",
+        "संपूर्ण सर्किट काम करणे थांबवते",
+        "विद्युतप्रवाह उलट दिशेने वाहतो",
+        "विद्युतप्रवाह के वळ कार्यरत घटकांमधूनच वाहतो"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (The entire circuit stops working). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (संपूर्ण सर्किट काम करणे थांबवते)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 25,
+    "shiftQuestionNo": 25,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "An electrician is planning the wiring for a two-room house. Each room requires one ceiling light and two socket outlets. Which of the following wiring layouts provides the most efficient use of wire while maintaining safety?",
+      "hi": "एक इलेक्ट्रीशियन दो कमरों के मकान के लिए वायरिंग की योजना बना रहा है। प्रत्येक कमरे में एक सीलिंग लाइट और दो सॉके ट आउटलेट की आवश्यकता है। निम्नलिखित में से कौन - सा वायरिंग अभिविन्यास , सुरक्षा को ध्यान में रखते हुए तार का सर्वाधिक कु शल उपयोग प्रदान करता है ?"
+    },
+    "options": {
+      "en": [
+        "Using a single radial circuit for all loads",
+        "Combining sockets and lights on one ring circuit",
+        "Using a ring circuit for sockets and a radial circuit for lights",
+        "Using two separate ring circuits for each room"
+      ],
+      "hi": [
+        "प्रत्येक कमरे के लिए दो पृथक वलय परिपथों का उपयोग करना",
+        "सॉके ट के लिए एक वलय परिपथ और लाइट के लिए एक त्रिज्य परिपथ का उपयोग करना",
+        "सभी लोड के लिए एकल त्रिज्य परिपथ का उपयोग करना",
+        "एक ही वलय परिपथ पर सॉके ट और लाइट को संयोजित करना"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Using a ring circuit for sockets and a radial circuit for lights). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सॉके ट के लिए एक वलय परिपथ और लाइट के लिए एक त्रिज्य परिपथ का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 26,
+    "shiftQuestionNo": 26,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "What is the function of the charging controller in an AC charging system for electric vehicles?",
+      "hi": "विद्युत वाहनों के लिए AC चार्जिंग प्रणाली में चार्जिंग नियंत्रक का कार्य क्या है ?"
+    },
+    "options": {
+      "en": [
+        "To control the speed of the electric vehicle",
+        "To manage charging communication of vehicles",
+        "To provide direct power to the vehicle’s motor",
+        "To select the type of charging cable used"
+      ],
+      "hi": [
+        "विद्युत वाहन की चाल को नियंत्रित करना",
+        "वाहनों के चार्जिंग संचार का प्रबंधन करना",
+        "प्रयुक्त चार्जिंग के बल के प्रकार का चयन करना",
+        "वाहन की मोटर को प्रत्यक्ष शक्ति प्रदान करना"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (To manage charging communication of vehicles). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (वाहनों के चार्जिंग संचार का प्रबंधन करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 27,
+    "shiftQuestionNo": 27,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A thread gauge is best suited for which of the following tasks in an ITI fitting shop?",
+      "hi": "ITI फिटिंग शॉप में निम्नलिखित में से किस कार्य के लिए चूड़ी प्रमापी (thread gauge) सबसे उपयुक्त होता है ?"
+    },
+    "options": {
+      "en": [
+        "Cleaning the debris off a thread",
+        "Checking the pitch of a thread",
+        "Tightening the nut of a bolt",
+        "Measuring the diameter of a rod"
+      ],
+      "hi": [
+        "छड़ का व्यास मापना",
+        "चूड़ी के अंतराल की जाँच करना",
+        "बोल्ट के नट को कसना",
+        "चूड़ी से मलबा साफ करना"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Checking the pitch of a thread). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (चूड़ी के अंतराल की जाँच करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 28,
+    "shiftQuestionNo": 28,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "In a delta-connected three-phase system, what is the relationship between line voltage and phase voltage?",
+      "hi": "किसी डेल्टा - संयोजित 3- फेज प्रणाली में , लाइन वोल्टता और फेज वोल्टता के बीच क्या संबंध होता है ?"
+    },
+    "options": {
+      "en": [
+        "Line voltage is zero",
+        "Line voltage is twice phase voltage",
+        "Line voltage equals phase voltage",
+        "Line voltage is less than phase voltage"
+      ],
+      "hi": [
+        "लाइन वोल्टता शून्य होती है",
+        "लाइन वोल्टता , फेज वोल्टता के बराबर होती है",
+        "लाइन वोल्टता , फेज वोल्टता की दोगुनी होती है",
+        "लाइन वोल्टता , फेज वोल्टता से कम होता है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Line voltage equals phase voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (लाइन वोल्टता , फेज वोल्टता के बराबर होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 29,
+    "shiftQuestionNo": 29,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which device is commonly used as a source of electromotive force in a simple electric circuit?",
+      "hi": "किसी सरल विद्युत परिपथ में विद्युत वाहक बल के स्रोत के रूप में सामान्यतः किस युक्ति का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Electric battery",
+        "Fixed resistor",
+        "Electric motor",
+        "Incandescent lamp"
+      ],
+      "hi": [
+        "अपरिवर्ती प्रतिरोधक",
+        "विद्युत बैटरी",
+        "विद्युत मोटर",
+        "तापदीप्त लैंप"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Electric battery). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (विद्युत बैटरी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 30,
+    "shiftQuestionNo": 30,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which safety feature in domestic appliances helps prevent electric shock by providing a path for leakage current to the ground?",
+      "hi": "घरेलू उपकरणों में कौन - सा सेफ्टी फीचर क्षरण धारा को ग्राउंड तक पहुंचाने का मार्ग प्रदान करके विद्युत - आघात से बचाने में सहायता करता है ?"
+    },
+    "options": {
+      "en": [
+        "Neutral wire",
+        "Fuse",
+        "Insulation",
+        "Earthing connection"
+      ],
+      "hi": [
+        "अर्थिंग कनेक्शन",
+        "फ्यूज",
+        "न्‍यू ट्रल तार",
+        "विद्युत - रोधन"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Earthing connection). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (अर्थिंग कनेक्शन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 31,
+    "shiftQuestionNo": 31,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A DC shunt motor is running at full load. Which action will increase its speed beyond its rated value?",
+      "hi": "एक DC शंट मोटर पूर्ण लोड पर प्रचालित हो रही है। निम्नलिखित में से कौन - सी क्रिया इसके अनुमतांक मान से परे इसकी चाल में वृद्धि करेगी ?"
+    },
+    "options": {
+      "en": [
+        "Increasing armature resistance",
+        "Increasing load on the motor",
+        "Decreasing field winding current",
+        "Decreasing supply voltage"
+      ],
+      "hi": [
+        "आपूर्ति वोल्टता में कमी",
+        "आर्मेचर प्रतिरोध में वृद्धि",
+        "मोटर पर लोड में वृद्धि",
+        "क्षेत्र वाइंडिंग धारा में कमी"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Decreasing field winding current). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (क्षेत्र वाइंडिंग धारा में कमी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 32,
+    "shiftQuestionNo": 32,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Why are external resistances connected to the rotor circuit of a slip ring induction motor during starting?",
+      "hi": "प्रवर्तन (starting) के दौरान बाहरी प्रतिरोधों को सर्पी वलय प्रेरण मोटर के रोटर परिपथ से क्यों संयोजित किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "To significantly increase the starting torque",
+        "To intentionally decrease the supply voltage",
+        "To proportionally reduce the stator frequency",
+        "To completely eliminate the iron core losses"
+      ],
+      "hi": [
+        "प्रवर्तन बल - आघूर्ण में पर्याप्‍त वृद्धि करने के लिए",
+        "आपूर्ति वोल्टता को जानबूझकर कम करने के लिए",
+        "आयरन क्रोड हानि को पूर्णतः समाप्त करने के लिए",
+        "स्टेटर आवृत्ति को आनुपातिक रूप से कम करने के लिए"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (To significantly increase the starting torque). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (प्रवर्तन बल - आघूर्ण में पर्याप्‍त वृद्धि करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 33,
+    "shiftQuestionNo": 33,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which of the following parameters must be tested according to quality standards before commissioning a solar power plant?",
+      "hi": "एक सौर शक्ति संयंत्र को चालू करने से पहले गुणवत्ता मानकों के अनुसार निम्नलिखित में से किस मापदंड का परीक्षण किया जाना अनिवार्य है ?"
+    },
+    "options": {
+      "en": [
+        "Module cleaning schedule",
+        "Insulation resistance measurement",
+        "Cable color coding",
+        "Grid voltage setting"
+      ],
+      "hi": [
+        "के बल रंग कोडिंग",
+        "रोधन प्रतिरोध मापन",
+        "ग्रिड वोल्टता सेटिंग",
+        "मॉड्यूल सफाई अनुसूची"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Insulation resistance measurement). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (रोधन प्रतिरोध मापन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 34,
+    "shiftQuestionNo": 34,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "If the resistance of an earth electrode is measured to be 6 ohms, what should be done according to IEE regulations?",
+      "hi": "यदि अर्थ इलेक्ट्रोड का प्रतिरोध 6 ओम मापा जाता है , तो IEE विनियमों के अनुसार क्या किया जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Improve the earthing by adding more rods or pouring water",
+        "Increase the supply voltage to the circuit",
+        "Use a thinner earth wire",
+        "Leave the installation as it is"
+      ],
+      "hi": [
+        "अधिक रॉड लगाकर या जल डालकर अर्थिंग में सुधार करें",
+        "अधिष्ठापन को यथावत रहने दें",
+        "पतले अर्थ वायर का उपयोग करें",
+        "परिपथ की आपूर्ति वोल्टता में वृद्धि करें"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Improve the earthing by adding more rods or pouring water). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (अधिक रॉड लगाकर या जल डालकर अर्थिंग में सुधार करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 35,
+    "shiftQuestionNo": 35,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Solar cells are also known as the building blocks of which devices?",
+      "hi": "सौर सेल को अन्य किन उपकरणों के निर्माण खंडों के रूप में भी जाना जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Electrical wires",
+        "Transformers",
+        "Photovoltaic modules",
+        "Batteries"
+      ],
+      "hi": [
+        "ट्रांसफॉर्मर",
+        "प्रकाश वोल्टीय मॉड्यूल",
+        "विद्युत तार",
+        "बैटरियां"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Photovoltaic modules). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (प्रकाश वोल्टीय मॉड्यूल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 36,
+    "shiftQuestionNo": 36,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "What is the purpose of the Cable Sheath Continuity Test in underground cables?",
+      "hi": "What is the purpose of the Cable Sheath Continuity Test in underground cables?"
+    },
+    "options": {
+      "en": [
+        "To measure the cable insulation resistance",
+        "To check the cable conductor resistance",
+        "To determine the total cable length",
+        "To check if the metallic sheath or armor is continuous"
+      ],
+      "hi": [
+        "To measure the cable insulation resistance",
+        "To check the cable conductor resistance",
+        "To determine the total cable length To check if the metallic sheath or armor is",
+        "continuous"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (To check if the metallic sheath or armor is continuous). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (continuous)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 37,
+    "shiftQuestionNo": 37,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which symbol is used in engineering drawing to show a spot face?",
+      "hi": "इंजीनियरिंग ड्राइंग में स्थानिक फलक (spot face) को दर्शाने के लिए किस प्रतीक का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "A plain rectangle with no center marks",
+        "A circle with a horizontal line under it",
+        "A plain circle with no internal marks",
+        "A small circle with an internal cross"
+      ],
+      "hi": [
+        "बिना केंद्र चिह्नों वाला एक प्लेन आयत",
+        "आंतरिक क्रॉस युक्त एक छोटा वृत्त",
+        "बिना आंतरिक चिह्नों वाला एक प्लेन वृत्त",
+        "एक वृत्त जिसके नीचे एक क्षैतिज रेखा खींची गई है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (A plain circle with no internal marks). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बिना आंतरिक चिह्नों वाला एक प्लेन वृत्त)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 38,
+    "shiftQuestionNo": 38,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A domestic MCCB is marked 25A, 6 kA, 230V AC. Which fault current will this MCCB safely interrupt?",
+      "hi": "किसी घरेलू MCCB पर 25A, 6 kA, 230V AC अंकित है। यह MCCB किस दोष धारा को सुरक्षित रूप से अवरोधित कर सकता है ?"
+    },
+    "options": {
+      "en": [
+        "Any overload up to 25 A",
+        "Any current at 230 V AC",
+        "Any fault current up to 6,000 A",
+        "Any short-circuit above 25A"
+      ],
+      "hi": [
+        "230 V AC पर कोई धारा",
+        "25 A तक का कोई भी ओवरलोड",
+        "25A से अधिक का कोई भी लघु परिपथ",
+        "6,000 A तक की कोई भी दोष धारा"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Any fault current up to 6,000 A). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (6,000 A तक की कोई भी दोष धारा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 39,
+    "shiftQuestionNo": 39,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A voltmeter is connected across an open switch in a DC circuit. One side of the switch is connected to the supply voltage, while the other side is connected to the opposite terminal of the supply through a load. Assuming an ideal voltmeter and no current flow, what voltage will the meter read?",
+      "hi": "एक वोल्टमापी को DC परिपथ में एक विवृत स्विच से संयोजित किया जाता है। स्विच का एक सिरा आपूर्ति वोल्टता से संयोजित है , जबकि दूसरा सिरा लोड के माध्यम से आपूर्ति के विपरीत टर्मिनल से संयोजित है। एक आदर्श वोल्टमापी और शून्य धारा मानते हुए , मीटर कितना वोल्टेज दर्शाएगा ?"
+    },
+    "options": {
+      "en": [
+        "The voltmeter will show a fluctuating value",
+        "The voltmeter will read zero volts",
+        "The voltmeter will read the full supply voltage",
+        "The voltmeter will read half the supply voltage"
+      ],
+      "hi": [
+        "वोल्टमापी एक उच्चावचनी मान दर्शाएगा",
+        "वोल्टमापी आपूर्ति वोल्टता का आधा मान दर्शाएगा",
+        "वोल्टमापी शून्य वोल्ट दर्शाएगा",
+        "वोल्टमापी पूर्ण आपूर्ति वोल्टता दर्शाएगा"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (The voltmeter will read the full supply voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (वोल्टमापी पूर्ण आपूर्ति वोल्टता दर्शाएगा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 40,
+    "shiftQuestionNo": 40,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Choose the correct sequence of steps needed when calculating the inclination angle for a solar power plant installation.",
+      "hi": "सौर शक्ति संयंत्र संस्थापन के लिए आनति कोण (inclination angle) की गणना करते समय आवश्यक चरणों के सही क्रम का चयन कीजिए।"
+    },
+    "options": {
+      "en": [
+        "Set panel angle, determine latitude, account for seasonal changes, assess shading",
+        "Determine latitude, assess shading, account for seasonal changes, set panel angle",
+        "Account for seasonal changes, set panel angle, assess shading, determine latitude",
+        "Assess shading, set panel angle, determine latitude, account for seasonal changes"
+      ],
+      "hi": [
+        "मौसमी परिवर्तनों को ध्यान में रखना , पैनल कोण निर्धारित करना , छायांकन का आकलन करना , अक्षांश ज्ञात करना",
+        "पैनल कोण निर्धारित करना , अक्षांश ज्ञात करना , मौसमी परिवर्तनों को ध्यान में रखना , छायांकन का आकलन करना अक्षांश ज्ञात करना , छायांकन का आकलन करना , मौसमी",
+        "परिवर्तनों को ध्यान में रखना , पैनल कोण निर्धारित करना",
+        "छायांकन का आकलन करना , पैनल कोण निर्धारित करना , अक्षांश ज्ञात करना , मौसमी परिवर्तनों को ध्यान में रखना"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Determine latitude, assess shading, account for seasonal changes, set panel angle). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (परिवर्तनों को ध्यान में रखना , पैनल कोण निर्धारित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 41,
+    "shiftQuestionNo": 41,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "What role do designated storage areas play in factory safety and cleanliness?",
+      "hi": "कारखाने की सुरक्षा और स्वच्छता में निर्धारित भंडारण क्षेत्रों की क्या भूमिका होती है ?"
+    },
+    "options": {
+      "en": [
+        "They reduce the need for routine cleaning activities",
+        "They improve the speed of machine operations daily",
+        "They help prevent clutter and maintain workplace order",
+        "They monitor employee tasks and work performance"
+      ],
+      "hi": [
+        "वे कर्मचारियों के कृ त् यों और कार्य निष्पादन को मॉनिटर करते हैं",
+        "वे मशीनों की प्रचालन की गति में प्रतिदिन सुधार करते हैं",
+        "वे अव्यवस्था को रोकने और कार्यस्थल में व्यवस्था बनाए रखने में सहायक होते हैं",
+        "वे नियमित सफाई गतिविधियों की आवश्यकता को कम करते हैं।"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (They help prevent clutter and maintain workplace order). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (वे अव्यवस्था को रोकने और कार्यस्थल में व्यवस्था बनाए रखने में सहायक होते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 42,
+    "shiftQuestionNo": 42,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A theater lighting designer must ensure that each part of the stage receives the same amount of illumination from overhead lights. If the distance between the lights and the stage is doubled, which action will maintain equal illumination across all areas, according to the laws of illumination?",
+      "hi": "थिएटर लाइटिंग डिज़ाइनर को यह सुनिश्चित करना है कि मंच के प्रत्येक भाग को ओवरहेड लाइटों से समान मात्रा में प्रदीप्ति मिले। यदि लाइटों और मंच के बीच की दूरी दोगुनी कर दी जाए , तो प्रदीप्ति के नियमों के अनुसार , सभी क्षेत्रों में समान प्रदीप्ति बनाए रखने के लिए कौन - सी कार्रवाई की जानी चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Use half the number of lights but keep the same intensity",
+        "Increase the luminous intensity of each light source by a factor of four",
+        "Increase the angle of incidence of the lights",
+        "Double the luminous intensity of each light source"
+      ],
+      "hi": [
+        "आधी संख्या में लाइटों का उपयोग करें , लेकिन उनकी तीव्रता समान रखें",
+        "लाइट के आपतन कोण को बढ़ाएँ",
+        "प्रत्येक लाइट स्रोत की ज्योति तीव्रता को चार गुना बढ़ाएँ",
+        "प्रत्येक लाइट स्रोत की ज्योति तीव्रता को दोगुना करें"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Increase the luminous intensity of each light source by a factor of four). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (प्रत्येक लाइट स्रोत की ज्योति तीव्रता को चार गुना बढ़ाएँ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 43,
+    "shiftQuestionNo": 43,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "What is a primary advantage of the Bureau of Indian Standards (BIS) codification system for steels?",
+      "hi": "इस्पातों के लिए भारतीय मानक ब्यूरो (BIS) कोडीकरण प्रणाली का प्राथमिक लाभ क्या है ?"
+    },
+    "options": {
+      "en": [
+        "It provides information limited to historical steel records",
+        "It relates steel grades to important material properties",
+        "It relies mainly on visual methods for steel identification",
+        "It is accepted uniformly by every country worldwide"
+      ],
+      "hi": [
+        "यह इस्पात की पहचान के लिए मुख्य रूप से दृश्य विधियों पर निर्भर करती है",
+        "यह वैश्वि‍क स्तर पर प्रत्येक देश द्वारा समान रूप से स्वीकृ त है",
+        "यह केवल ऐतिहासिक इस्पात रिकॉर्ड तक सीमित जानकारी प्रदान करता है",
+        "यह इस्पात ग्रेड को महत्वपूर्ण भौतिक गुणधर्मों से संबंधित करता है"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (It relates steel grades to important material properties). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (यह इस्पात ग्रेड को महत्वपूर्ण भौतिक गुणधर्मों से संबंधित करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 44,
+    "shiftQuestionNo": 44,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "In an industrial wiring project, you must select an enclosure for outdoor use exposed to rain. Which IP code meets this requirement most appropriately?",
+      "hi": "औद्योगिक वायरिंग परियोजना में , आपको बारिश के संपर्क में आने वाले आउटडोर उपयोग हेतु एक आवेष्टन (enclosure) का चयन करना है। कौन - सा IP कोड , इस अपेक्षा को सबसे उपयुक्त रूप से पूर्ण करता है ?"
+    },
+    "options": {
+      "en": [
+        "IP55",
+        "IP20",
+        "IP41",
+        "IP30"
+      ],
+      "hi": [
+        "IP20",
+        "IP41",
+        "IP55",
+        "IP30"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (IP55). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (IP55)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 45,
+    "shiftQuestionNo": 45,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "While selecting an institute for training a licensed wireman, which factor should be prioritized to ensure eligibility for the wireman permit?",
+      "hi": "लाइसेंस प्राप्त वायरमैन के प्रशिक्षण हेतु संस्थान का चयन करते समय , वायरमैन परमिट की पात्रता सुनिश्चित करने के लिए किस कारक को प्राथमिकता दी जानी चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Opting for the lowest tuition fee",
+        "Selecting the institute closest to home",
+        "Choosing the shortest training program available",
+        "Selecting an accredited institute recognized by the government authority"
+      ],
+      "hi": [
+        "घर के सबसे निकटतम संस्थान का चयन करना",
+        "न्यूनतम शिक्षण शुल्क का चयन करना",
+        "सरकारी प्राधिकरण द्वारा मान्यता प्राप्त संस्थान का चयन करना",
+        "उपलब्ध सबसे लघु प्रशिक्षण प्रोग्राम का चयन करना"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Selecting an accredited institute recognized by the government authority). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (सरकारी प्राधिकरण द्वारा मान्यता प्राप्त संस्थान का चयन करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 46,
+    "shiftQuestionNo": 46,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Why is it important to estimate the voltage drop when determining cable size in industrial installations?",
+      "hi": "औद्योगिक संस्थापनों में के बल का साइज निर्धारित करते समय वोल्टता पात का प्राक्कलन करना क्यों महत्वपूर्ण होता है ?"
+    },
+    "options": {
+      "en": [
+        "To select the insulation color",
+        "To reduce installation cost only",
+        "To determine maximum current rating",
+        "To ensure equipment receives sufficient voltage"
+      ],
+      "hi": [
+        "इन्सुलेशन के रंग का चयन करने के लिए",
+        "यह सुनिश्चित करने के लिए कि उपकरण को पर्याप्त वोल्टता प्राप्त हो",
+        "अधिकतम धारा अनुमतांक निर्धारित करने के लिए",
+        "संस्थापन लागत को कम करने के लिए"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (To ensure equipment receives sufficient voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह सुनिश्चित करने के लिए कि उपकरण को पर्याप्त वोल्टता प्राप्त हो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 47,
+    "shiftQuestionNo": 47,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which wiring system is technically unsuitable for permanent commercial electrical installations due to its temporary mechanical support arrangement and low durability?",
+      "hi": "कौन - सी वायरिंग प्रणाली , अपनी अस्थायी यांत्रिक टेक व्यवस्था (support arrangement) और निम्न चिरस्थायित्व के कारण स्थायी वाणिज्यिक विद्युत संस्थापनों के लिए तकनीकी रूप से अनुपयुक्त है ? के सिंग और कै पिंग वायरिंग प्रणाली (Casing and capping"
+    },
+    "options": {
+      "en": [
+        "Conduit wiring system",
+        "Casing and capping wiring system",
+        "Cleat wiring system",
+        "Trunking wiring system"
+      ],
+      "hi": [
+        "wiring system)",
+        "क्लीट वायरिंग प्रणाली (Cleat wiring system)",
+        "ट्रंकिंग वायरिंग प्रणाली (Trunking wiring system)",
+        "कं ड्यूट वायरिंग प्रणाली (Conduit wiring system)"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Cleat wiring system). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (क्लीट वायरिंग प्रणाली (Cleat wiring system))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 48,
+    "shiftQuestionNo": 48,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "In context to a cumulatively compounded DC generator, which one statement stated below defines the purpose of the series field winding?",
+      "hi": "संचयी रूप से संयोजित DC जनित्र के संदर्भ में , नीचे दिए गए कथनों में से कौन - सा कथन श्रेणी क्षेत्र कुं डलन के उद्देश्य को परिभाषित करता है ?"
+    },
+    "options": {
+      "en": [
+        "It reduces the mechanical friction of the rotor shaft during high-speed operation.",
+        "It provides the initial residual magnetism required to start the voltage buildup process. It compensates for internal voltage drops by",
+        "increasing the magnetic flux as the load current increases.",
+        "It converts the alternating current induced in the armature into direct current at the terminals."
+      ],
+      "hi": [
+        "यह उच्च - चाल प्रचालन के दौरान रोटर शाफ्ट के यांत्रिक घर्षण को कम करती है यह वोल्टता वर्धन प्रक्रिया (voltage buildup process) शुरू",
+        "करने के लिए आवश्यक प्रारंभिक अवशिष्ट चुंबकत्व प्रदान करती है",
+        "यह लोड धारा बढ़ने पर चुंबकीय फ्लक्स बढ़ाकर आंतरिक वोल्टता पात की क्षतिपूर्ति करती है",
+        "यह आर्मेचर में प्रेरित प्रत्यावर्ती धारा को टर्मिनलों पर दिष्ट धारा में परिवर्तित करती है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (increasing the magnetic flux as the load current increases.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (यह लोड धारा बढ़ने पर चुंबकीय फ्लक्स बढ़ाकर आंतरिक वोल्टता पात की क्षतिपूर्ति करती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 49,
+    "shiftQuestionNo": 49,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "While repairing overhead transmission lines, which type of wire joint is most suitable for joining two stranded conductors with high current carrying requirements?",
+      "hi": "शिरोपरि ट्रांसमिशन लाइनों की मरम्मत करते समय , उच्च धारा वहन अपेक्षाओं वाले दो गुंफित चालकों (stranded conductors) को जोड़ने के लिए किस प्रकार का वायर जॉइंट (wire joint) सबसे उपयुक्त होता है ?"
+    },
+    "options": {
+      "en": [
+        "Britannia joint",
+        "Knotted tap joint",
+        "Western Union joint",
+        "Married joint"
+      ],
+      "hi": [
+        "नॉटेड टैप जॉइंट (Knotted tap joint)",
+        "ब्रिटानिया जॉइंट (Britannia joint)",
+        "मैरिड जॉइंट (Married joint)",
+        "वेस्टर्न यूनियन जॉइंट (Western Union joint)"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Married joint). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (मैरिड जॉइंट (Married joint))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 50,
+    "shiftQuestionNo": 50,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which of the following scenarios demonstrates a real-life consequence of ignoring longitude effects in solar power plant design?",
+      "hi": "निम्नलिखित में से कौन - सा परिदृश्य , सौर शक्ति संयंत्र डिजाइन में देशांतर प्रभावों (longitude effects) की उपेक्षा करने का वास्तविक परिणाम दर्शाता है ?"
+    },
+    "options": {
+      "en": [
+        "Solar panels neglect weather monitoring input",
+        "Solar panels are installed at incorrect latitude",
+        "Solar panels use unsuitable materials for region",
+        "Solar panels receive suboptimal sunlight due to misaligned tracking schedules"
+      ],
+      "hi": [
+        "सौर पैनल मौसम की निगरानी के इनपुट की उपेक्षा करते हैं।",
+        "सौर पैनल गलत अक्षांश पर स्थापित हैं।",
+        "सौर पैनल , क्षेत्र के लिए अनुपयुक्त सामग्री का उपयोग करते हैं।",
+        "सौर पैनलों को , गलत संरेखित ट्रैकिंग शेड्यूल के कारण उपेष्टतम सूर्य का प्रकाश प्राप्त होता है।"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Solar panels receive suboptimal sunlight due to misaligned tracking schedules). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (सौर पैनलों को , गलत संरेखित ट्रैकिंग शेड्यूल के कारण उपेष्टतम सूर्य का प्रकाश प्राप्त होता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 51,
+    "shiftQuestionNo": 51,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "In a Delta-star connected three-phase transformer, the phase shift between primary and secondary voltages is __________.",
+      "hi": "डेल्टा - स्टार संबद्ध 3- फेज ट्रांसफॉर्मर में , प्राथमिक और द्वितीयक वोल्टताओं के बीच फेज विस्थापन __________ होता है।"
+    },
+    "options": {
+      "en": [
+        "60°",
+        "30°",
+        "0°",
+        "90°"
+      ],
+      "hi": [
+        "60°",
+        "90°",
+        "0°",
+        "30°"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (30°). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (30°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 52,
+    "shiftQuestionNo": 52,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "A technician receives a residential electrical installation plan and must prepare a material and cost estimate for both lighting and heating circuits. Which process should be followed according to standard electrical estimation practice?",
+      "hi": "एक तकनीशियन को एक आवासीय विद्युत संस्थापन योजना प्राप्त होती है और उसे प्रकाश और तापन दोनों परिपथों के लिए सामग्री और लागत आकलन तैयार करना होगा। मानक विद्युत प्राक्‍कलन पद्धति के अनुसार किस प्रक्रिया का अनुसरण किया जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Exclude minor accessories from the estimate to simplify cost calculation.",
+        "Estimate costs using approximate quantities for commonly used materials only.",
+        "Prepare separate material lists and calculate the total cost for each circuit individually.",
+        "Prepare a single combined material list and estimate the total cost together."
+      ],
+      "hi": [
+        "लागत की गणना को सरल बनाने के लिए आकलन में लघु उपसाधनों को शामिल न करें।",
+        "प्रत्येक परिपथ के लिए अलग - अलग सामग्री सूचियाँ तैयार करें और कु ल लागत की गणना करें।",
+        "एक एकल संयुक्त सामग्री सूची तैयार करें और कु ल लागत का एक साथ आकलन करें।",
+        "केवल सामान्य रूप से उपयोग की जाने वाली सामग्रियों के लिए अनुमानित मात्रा का उपयोग करके लागत का आकलन करें।"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Prepare separate material lists and calculate the total cost for each circuit individually.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (प्रत्येक परिपथ के लिए अलग - अलग सामग्री सूचियाँ तैयार करें और कु ल लागत की गणना करें।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 53,
+    "shiftQuestionNo": 53,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "An industrial PLC control panel requires compliance with electromagnetic compatibility (EMC) standards. Which design change best enhances EMC performance?",
+      "hi": "एक औद्योगिक PLC नियंत्रण पैनल को विद्युत - चुंबकीय संगतता (EMC) मानकों का अनुपालन करना आवश्यक है। कौन - सा डिज़ाइन परिवर्तन , EMC परफॉरमेंस को सर्वोत्तम रूप से बढ़ाता है ?"
+    },
+    "options": {
+      "en": [
+        "Installing metallic cable glands and proper grounding for all entry cables",
+        "Increasing the insulation grade of all panel cables",
+        "Minimizing the variation in cable insulation color",
+        "Using plastic cable glands for all wiring entries"
+      ],
+      "hi": [
+        "सभी वायरिंग प्रवेशों (wiring entry) के लिए प्लास्टिक के बल ग्लैंड का उपयोग करना",
+        "के बल इन्सुलेशन रंग में विविधता को कम करना",
+        "सभी पैनल के बलों के इन्सुलेशन ग्रेड को बढ़ाना सभी प्रवेश के बलों के लिए धात्विक के बल ग्लैंड (cable",
+        "glands) को संस्थापित करना और उचित ग्राउंडिंग करना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Installing metallic cable glands and proper grounding for all entry cables). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (glands) को संस्थापित करना और उचित ग्राउंडिंग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 54,
+    "shiftQuestionNo": 54,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which part of a twist drill removes chips from the hole during drilling?",
+      "hi": "ट्विस्ट ड्रिलचा कोणता भाग ड्रिलिंग करताना छिद्रातून चिप्स काढून टाकतो ?"
+    },
+    "options": {
+      "en": [
+        "The shank",
+        "The flutes",
+        "The point",
+        "The web"
+      ],
+      "hi": [
+        "पॉईंट (The point)",
+        "फ्लूट्स (The flutes)",
+        "शँक (The shank)",
+        "वेब (The web)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (The flutes). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (फ्लूट्स (The flutes))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 55,
+    "shiftQuestionNo": 55,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "If an ELCB in a domestic installation trips occasionally without any apparent fault, what could be a probable reason?",
+      "hi": "यदि किसी घरेलू संस्थापन में कोई ELCB बिना किसी स्पष्ट दोष के कभी - कभी ट्रिप करता है , तो इसका संभावित कारण क्या हो सकता है ?"
+    },
+    "options": {
+      "en": [
+        "Increase in total load beyond ELCB rating",
+        "Phase and neutral lines are reversed",
+        "Sudden voltage surges from the supply",
+        "Small leakage currents from cumulative appliance insulation deterioration"
+      ],
+      "hi": [
+        "ELCB रेटिंग से अधिक कु ल लोड में वृद्धि",
+        "आपूर्ति से अचानक वोल्टता प्रोत्क र्ष",
+        "संचयी साधित्र के इन्सुलेशन में अवनति से अल्प क्षरण धाराएँ",
+        "फेज और न्यू ट्रल लाइनें रिवर्स हैं"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Small leakage currents from cumulative appliance insulation deterioration). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (संचयी साधित्र के इन्सुलेशन में अवनति से अल्प क्षरण धाराएँ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 56,
+    "shiftQuestionNo": 56,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which of the following methods is used to detect an oil leak in an underground oil filled cable joint without excavation?",
+      "hi": "निम्नलिखित में से किस विधि का उपयोग बिना उत्खनन किए गए भूमिगत तेल से भरे के बल जोड़ में तेल रिसाव का पता लगाने के लिए किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Monitor pressure drop in the oil system",
+        "Use a thermal imaging camera",
+        "Visually inspect the joint enclosure",
+        "Listen for unusual cable sounds"
+      ],
+      "hi": [
+        "के बल से आने वाली असामान्य आवाज़ों पर ध्यान देना",
+        "तेल तंत्र में दाब पात को मॉनिटर करना",
+        "थर्मल इमेजिंग कै मरे का उपयोग करना",
+        "जोड़ के आवरण का दृश्य निरीक्षण करना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Monitor pressure drop in the oil system). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (तेल तंत्र में दाब पात को मॉनिटर करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 57,
+    "shiftQuestionNo": 57,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Why is hazard communication critical in construction environments?",
+      "hi": "निर्माण परिवेशों में जोखिम संचार (Hazard Communication) अत्यंत महत्वपूर्ण क्यों है ?"
+    },
+    "options": {
+      "en": [
+        "It allows workers to perform tasks without protective equipment",
+        "It helps workers understand hazards and safety precautions",
+        "It focuses mainly on reporting workplace accidents and incidents",
+        "It removes all potential hazards from the construction site"
+      ],
+      "hi": [
+        "यह निर्माण स्थल से सभी संभावित जोखिमों को समाप्त कर देता है",
+        "यह श्रमिकों को जोखिमों और सुरक्षा सावधानियों को समझने में सहायता करता है",
+        "यह मुख्य रूप से कार्यस्थल दुर्घटनाओं और घटनाओं की रिपोर्टिंग पर फोकस करता है",
+        "यह श्रमिकों को सुरक्षात्मक उपकरणों के बिना कार्य करने में सक्षम करता है"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (It helps workers understand hazards and safety precautions). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह श्रमिकों को जोखिमों और सुरक्षा सावधानियों को समझने में सहायता करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 58,
+    "shiftQuestionNo": 58,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which component in a wiring diagram is specifically used to protect against overcurrent?",
+      "hi": "वायरिंग आरेख में कौन - सा घटक , विशेष रूप से अतिधारा से सुरक्षा प्रदान करने के लिए उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Pushbutton symbol",
+        "Fuse symbol",
+        "Lamp symbol",
+        "Relay symbol"
+      ],
+      "hi": [
+        "रिले का प्रतीक",
+        "फ्यूज का प्रतीक",
+        "पुशबटन का प्रतीक",
+        "लैम्प का प्रतीक"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Fuse symbol). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (फ्यूज का प्रतीक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 59,
+    "shiftQuestionNo": 59,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Why is the control circuit typically wired separately from the power circuit in electrical schematic drawings?",
+      "hi": "विद्युत योजनाबद्ध ड्राइंग में नियंत्रण परिपथ को सामान्यतः शक्ति परिपथ से पृथक रूप से क्यों तारकृ त (wired) किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "To combine power and control circuits",
+        "To increase the current carrying capacity",
+        "To facilitate easy maintenance and identification",
+        "To reduce the cost of conductors"
+      ],
+      "hi": [
+        "चालकों की लागत कम करने के लिए",
+        "शक्ति और नियंत्रण परिपथों को संयोजित करने के लिए",
+        "आसान अनुरक्षण और पहचान को सुगम बनाने के लिए",
+        "धारा वहन क्षमता बढ़ाने के लिए"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (To facilitate easy maintenance and identification). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (आसान अनुरक्षण और पहचान को सुगम बनाने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 60,
+    "shiftQuestionNo": 60,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "When an electric vehicle is connected to a charging station, which process ensures that only authorized users can access charging services securely and efficiently?",
+      "hi": "जब कोई इलेक्ट्रिक वाहन चार्जिंग स्टेशन से कनेक्ट किया जाता है , तो कौन - सी प्रक्रिया यह सुनिश्चित करती है कि केवल ऑथराइज्ड यूजर ही सुरक्षित और कु शलतापूर्वक चार्जिंग सेवाओं का उपयोग कर सकें ?"
+    },
+    "options": {
+      "en": [
+        "Collecting charging-related data through EVSE–CMS",
+        "Managing billing information through EVSE–CMS",
+        "Grid monitoring through EVSE–CMS",
+        "User authorization through EVSE–CMS"
+      ],
+      "hi": [
+        "EVSE–CMS के माध्यम से बिलिंग जानकारी का प्रबंधन करना",
+        "EVSE–CMS के माध्यम से यूजर ऑथराइजेशन",
+        "EVSE–CMS के माध्यम से ग्रिड निगरानी",
+        "EVSE–CMS के माध्यम से चार्जिंग - संबंधी डेटा एकत्र करना"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (User authorization through EVSE–CMS). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (EVSE–CMS के माध्यम से यूजर ऑथराइजेशन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 61,
+    "shiftQuestionNo": 61,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "During the open circuit test, transformer core loss depends on ______.",
+      "hi": "विवृत परिपथ परीक्षण के दौरान , ट्रांसफॉर्मर क्रोड हानि ________ पर निर्भर करती है।"
+    },
+    "options": {
+      "en": [
+        "Winding resistance only",
+        "Secondary load current",
+        "Leakage reactance",
+        "Maximum core flux density"
+      ],
+      "hi": [
+        "केवल वाइंडिंग प्रतिरोध",
+        "क्षरण प्रतिघात",
+        "द्वितीयक लोड धारा",
+        "अधिकतम क्रोड फ्लक्स घनत्व"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Maximum core flux density). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (अधिकतम क्रोड फ्लक्स घनत्व)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 62,
+    "shiftQuestionNo": 62,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "While planning lighting for a machine assembly area, an engineer calculates the required number of luminaires. If the area is 60 square meters and the recommended illumination level is 300 lux, what is the total luminous flux required for the area?",
+      "hi": "एक मशीन असेंबली क्षेत्र के लिए प्रकाश व्यवस्था की योजना बनाते समय , एक इंजीनियर आवश्यक विद्युत् दीपों की संख्या की गणना करता है। यदि क्षेत्रफल 60 वर्ग मीटर है और अनुशंसित प्रदीप्ति स्तर 300 lux है , तो क्षेत्र के लिए आवश्यक कु ल ज्योति फ्लक्स कितना है ?"
+    },
+    "options": {
+      "en": [
+        "12000 lumens",
+        "21000 lumens",
+        "9000 lumens",
+        "18000 lumens"
+      ],
+      "hi": [
+        "9000 ल्यूमेन",
+        "12000 ल्यूमेन",
+        "18000 ल्यूमेन",
+        "21000 ल्यूमेन"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (18000 lumens). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (18000 ल्यूमेन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 63,
+    "shiftQuestionNo": 63,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Select the relay type that compares currents at two points to detect faults within a protected zone.",
+      "hi": "उस रिले प्रकार का चयन कीजिए जो एक संरक्षित क्षेत्र में दोषों का पता लगाने के लिए दो बिंदुओं पर विद्युत धाराओं की तुलना करता है।"
+    },
+    "options": {
+      "en": [
+        "Distance relay",
+        "Differential relay",
+        "Instantaneous overcurrent relay",
+        "Inverse time overcurrent relay"
+      ],
+      "hi": [
+        "प्रतिलोप समय अतिप्रवाह रिले (Inverse time overcurrent relay)",
+        "तात्कालिक अतिप्रवाह रिले (Instantaneous overcurrent relay)",
+        "विभेदी रिले (Differential relay)",
+        "दूरी रिले (Distance relay)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Differential relay). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विभेदी रिले (Differential relay))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 64,
+    "shiftQuestionNo": 64,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "If a universal motor runs smoothly at low speed but emits a high-pitched noise at high speed, what is the probable cause?",
+      "hi": "यदि एक उभयधारा मोटर (universal motor) निम्न स्पीड पर सुचारू रूप से प्रचालित होती है लेकिन उच्च स्पीड पर तेज आवाज (high- pitched noise) उत्पन्न करती है , तो इसका संभावित कारण क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Incorrect brush angle",
+        "Loose lamination stack",
+        "Open field winding",
+        "Faulty centrifugal switch"
+      ],
+      "hi": [
+        "दोषपूर्ण अपकेंद्री स्विच (Faulty centrifugal switch)",
+        "खुली क्षेत्र वाइंडिंग (Open field winding)",
+        "त्रुटिपूर्ण ब्रश - कोण (Incorrect brush angle)",
+        "शिथिल लेमिनेशन स्टैक (Loose lamination stack)"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Incorrect brush angle). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (त्रुटिपूर्ण ब्रश - कोण (Incorrect brush angle))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 65,
+    "shiftQuestionNo": 65,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Choose the correct sequence for erecting an overhead transmission line. 1. Foundation work 2. Tower erection 3. Conductor stringing 4. Insulator installation",
+      "hi": "शिरोपरि पारेषण लाइन स्थापित करने के लिए सही अनुक्रम का चयन कीजिए। 1. नींव कार्य (Foundation work) 2. टावर खड़ा करना (Tower erection) 3. चालक स्ट्रिंगिंग (Conductor stringing) 4. इंसुलेटर संस्थापन (Insulator installation)"
+    },
+    "options": {
+      "en": [
+        "Foundation work, Conductor stringing, Tower erection, Insulator installation",
+        "Foundation work, Tower erection, Insulator installation, Conductor stringing",
+        "Tower erection, Foundation work, Conductor stringing, Insulator installation",
+        "Insulator installation, Foundation work, Tower erection, Conductor stringing"
+      ],
+      "hi": [
+        "नींव कार्य , चालक स्ट्रिंगिंग , टावर खड़ा करना , इंसुलेटर संस्थापन",
+        "इंसुलेटर संस्थापन , नींव कार्य , टावर खड़ा करना , चालक स्ट्रिंगिंग",
+        "नींव कार्य , टावर खड़ा करना , इंसुलेटर संस्थापन , चालक स्ट्रिंगिंग",
+        "टावर खड़ा करना , नींव कार्य , चालक स्ट्रिंगिंग , इंसुलेटर संस्थापन"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Foundation work, Tower erection, Insulator installation, Conductor stringing). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (नींव कार्य , टावर खड़ा करना , इंसुलेटर संस्थापन , चालक स्ट्रिंगिंग)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 66,
+    "shiftQuestionNo": 66,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which statement best describes an isolating switch?",
+      "hi": "निम्नलिखित में से कौन - सा कथन , विलगकारी स्विच (isolating switch) का सर्वोत्तम वर्णन करता है ?"
+    },
+    "options": {
+      "en": [
+        "It is an automatic electronic switch",
+        "It is a programmable digital switch",
+        "It is a manually operated mechanical switch",
+        "It is a remote-controlled hydraulic switch"
+      ],
+      "hi": [
+        "यह एक प्रोग्रामन योग्य डिजिटल स्विच है।",
+        "यह एक स्वचालित इलेक्ट्रॉनिक स्विच है।",
+        "यह मैन्युअल रूप से प्रचालित एक यांत्रिक स्विच है।",
+        "यह एक रिमोट - नियंत्रित हाइड्रोलिक स्विच है।"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It is a manually operated mechanical switch). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (यह मैन्युअल रूप से प्रचालित एक यांत्रिक स्विच है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 67,
+    "shiftQuestionNo": 67,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which property of a resistor determines how much it opposes the flow of electric current in a DC circuit?",
+      "hi": "प्रतिरोधक का निम्नलिखित में से कौन - सा गुणधर्म यह निर्धारित करता है कि यह DC परिपथ में विद्युत धारा के प्रवाह का कितना विरोध करता है ?"
+    },
+    "options": {
+      "en": [
+        "Color code",
+        "Resistance value",
+        "Physical size",
+        "Power rating"
+      ],
+      "hi": [
+        "रंग कोड",
+        "भौतिक आकार",
+        "प्रतिरोध मान",
+        "शक्ति अनुमतांक"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Resistance value). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (प्रतिरोध मान)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 68,
+    "shiftQuestionNo": 68,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which of the following equipment provides surge protection in substations?",
+      "hi": "निम्नलिखित में से कौन - सा उपकरण , उपकेंद्रों में प्रोत्क र्ष सुरक्षा (surge protection) प्रदान करता है ?"
+    },
+    "options": {
+      "en": [
+        "Main busbar",
+        "Lightning arrester",
+        "Overcurrent relay",
+        "Line isolator"
+      ],
+      "hi": [
+        "तड़ित निरोधक (Lightning arrester)",
+        "लाइन विलगक (Line isolator)",
+        "मुख्य बसबार (Main busbar)",
+        "अति - धारा रिले (Overcurrent relay)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option B is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Lightning arrester). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (तड़ित निरोधक (Lightning arrester))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 69,
+    "shiftQuestionNo": 69,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which of the following is NOT a characteristic of a block diagram?",
+      "hi": "निम्नलिखित में से कौन - सी , ब्लॉक आरेख की विशेषता नहीं है ?"
+    },
+    "options": {
+      "en": [
+        "It highlights the functional relationships between the main system components",
+        "It displays the overall system functions without showing complex connection paths",
+        "It includes the detailed internal construction details of individual components",
+        "It utilizes simple geometric blocks to represent individual critical subsystems"
+      ],
+      "hi": [
+        "यह मुख्य तंत्र घटकों के बीच कार्यात्मक संबंधों को रेखांकित करता है।",
+        "इसमें अलग - अलग घटकों की आंतरिक संरचना संबंधी विस्तृत सूचना शामिल होती है।",
+        "यह अलग - अलग महत्वपूर्ण उपतंत्रों को दर्शाने के लिए सरल ज्यामितीय ब्लॉकों का उपयोग करता है।",
+        "यह जटिल कनेक्शन पथों को दर्शाए बिना समग्र तंत्र कार्यों को प्रदर्शित करता है।"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option C is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It includes the detailed internal construction details of individual components). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (इसमें अलग - अलग घटकों की आंतरिक संरचना संबंधी विस्तृत सूचना शामिल होती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 70,
+    "shiftQuestionNo": 70,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "If copper wire is replaced with aluminum wire in a joint, which electrical property is most significantly affected?",
+      "hi": "यदि किसी जोड़ में कॉपर तार को ऐलुम़ि नियम तार से बदल दिया जाए , तो कौन - सा विद्युत गुण सबसे अधिक प्रभावित होगा ?"
+    },
+    "options": {
+      "en": [
+        "Electrical resistance of the joint",
+        "Magnetic susceptibility of the joint",
+        "Magnetic permeability of the wire",
+        "Insulation strength of the conductor"
+      ],
+      "hi": [
+        "चालक की इन्सुलेशन सामर्थ्य",
+        "तार की चुंबकीय पारगम्यता",
+        "जोड़ की चुंबकीय सुग्राहिता",
+        "जोड़ का विद्युत प्रतिरोध"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Electrical resistance of the joint). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (जोड़ का विद्युत प्रतिरोध)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 71,
+    "shiftQuestionNo": 71,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "What does it mean when the galvanometer in a Wheatstone bridge shows zero deflection?",
+      "hi": "व्हीटस्टोन सेतु (Wheatstone bridge) में धारामापी द्वारा शून्य विक्षेप दर्शाने का क्या अर्थ है ?"
+    },
+    "options": {
+      "en": [
+        "The power supply is disconnected completely",
+        "The bridge contains a short-circuited path",
+        "Exactly three out of four resistances are identical",
+        "The bridge has reached a balanced condition"
+      ],
+      "hi": [
+        "सेतु में एक लघु - परिपथित पथ है",
+        "चार में से ठीक तीन प्रतिरोध बराबर हैं",
+        "सेतु संतुलित अवस्था में पहुंच गया है",
+        "विद्युत आपूर्ति पूरी तरह से विसंबंधित है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (The bridge has reached a balanced condition). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (सेतु संतुलित अवस्था में पहुंच गया है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 72,
+    "shiftQuestionNo": 72,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which generator type is least suitable for constant voltage applications?",
+      "hi": "निम्नलिखित में से कौन - सा जनरेटर प्ररूप नियत वोल्टता अनुप्रयोगों के लिए न्यूनतम उपयुक्त है ?"
+    },
+    "options": {
+      "en": [
+        "Series DC Generator",
+        "Separately Excited DC Generator",
+        "Compound DC Generator",
+        "Shunt DC Generator"
+      ],
+      "hi": [
+        "श्रेणी DC जेनरेटर",
+        "शंट DC जेनरेटर",
+        "अन्यतः उत्तेजित DC जेनरेटर",
+        "यौगिक DC जेनरेटर"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option A is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Series DC Generator). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (श्रेणी DC जेनरेटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 73,
+    "shiftQuestionNo": 73,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which component in a lead acid cell is specifically made by repeated charging and discharging?",
+      "hi": "लेड अम्ल सेल में कौन - सा घटक , विशेष रूप से बार - बार आवेशित और निरावेशित करके निर्मित किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Container",
+        "Separators",
+        "Electrolyte",
+        "Plante plates"
+      ],
+      "hi": [
+        "प्लांटे प्लेट (Plante plates)",
+        "कं टेनर (Container)",
+        "पृथक्कित्र (Separators)",
+        "विद्युत अपघट्य (Electrolyte)"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Plante plates). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (प्लांटे प्लेट (Plante plates))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 74,
+    "shiftQuestionNo": 74,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "If the current in a coil lags the voltage by 60°, what is the circuit’s",
+      "hi": "पतली शीट धातु पर फिटिंग प्रचालनों (fitting operations) के लिए , कौन - सा कर्तन औजार , सर्वोत्तम नियंत्रण और परिशुद्धता प्रदान करता है ?"
+    },
+    "options": {
+      "en": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hi": [
+        "हस्त स्निप (Hand snips)",
+        "मानक हैक्सॉ (Standard hacksaw)",
+        "अताप छैनी (Cold chisel)",
+        "सपाट हस्त रेती (Flat hand file)"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (हस्त स्निप (Hand snips))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 75,
+    "shiftQuestionNo": 75,
+    "section": "Part B: Wireman",
+    "subject": "Wireman",
+    "topic": "Wireman Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "For fitting operations on thin sheet metal, which cutting tool offers the best control and precision?",
+      "hi": "यदि किसी कुं डली में धारा , वोल्टता से 60° पश्चगामी है , तो परिपथ का शक्ति गुणक क्या होगा ?"
+    },
+    "options": {
+      "en": [
+        "Standard hacksaw",
+        "Hand snips",
+        "Cold chisel",
+        "Flat hand file power factor?"
+      ],
+      "hi": [
+        "पश्चगामी",
+        "पश्चगामी",
+        "अग्रगामी",
+        "अग्रगामी"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Wireman) Answer Key: Option D is verified correct.",
+      "keyConcept": "Wireman Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Flat hand file power factor?). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (पश्चगामी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  }
+]

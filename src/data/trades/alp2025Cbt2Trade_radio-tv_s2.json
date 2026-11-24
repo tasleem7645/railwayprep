@@ -1,0 +1,2477 @@
+[
+  {
+    "id": 1,
+    "shiftQuestionNo": 1,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A technician wants to build an OR gate function using only NAND gates during a lab exercise. Which arrangement should be used to achieve this?",
+      "hi": "एक तकनीशियन प्रयोगशाला अभ्यास के दौरान केवल NAND गेट्स का उपयोग करके OR गेट फ़ं क्शन बनाना चाहता है। इसे प्राप्त करने के लिए किस व्यवस्था का उपयोग किया जाना चाहिए ? प्रतिलोमक का उपयोग किए बिना NAND गेट्स को एक वलय में"
+    },
+    "options": {
+      "en": [
+        "Cascade three NAND gates in series without inverting the inputs",
+        "Feed both inputs directly to a single NAND gate Connect two NAND gates to form inverters on",
+        "each input, then connect their outputs to a third NAND gate",
+        "Arrange the NAND gates in a ring without using inverters"
+      ],
+      "hi": [
+        "व्यवस्थित करें",
+        "इनपुट को प्रतिलोमित किए बिना तीन NAND गेट्स को श्रेणीक्रम में कै सके ड करें",
+        "दोनों इनपुट को सीधे सिंगल NAND गेट में फीड करें प्रत्येक इनपुट पर प्रतिलोमक बनाने के लिए दो NAND गेट्स",
+        "को कनेक्ट करें , फिर उनके आउटपुट को तीसरे NAND गेट से कनेक्ट करें"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (each input, then connect their outputs to a third NAND gate). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (को कनेक्ट करें , फिर उनके आउटपुट को तीसरे NAND गेट से कनेक्ट करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 2,
+    "shiftQuestionNo": 2,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In an AM receiver, which block selects the desired station or desired radio frequency?",
+      "hi": "AM रिसीवर में , कौन - सा ब्लॉक वांछित स्टेशन या वांछित रेडियो आवृत्ति का चयन करता है ?"
+    },
+    "options": {
+      "en": [
+        "Tuner",
+        "Power Supply",
+        "Audio Amplifier",
+        "Speaker"
+      ],
+      "hi": [
+        "स्पीकर",
+        "ट्यूनर",
+        "ऑडियो ऐम्प्लीफायर",
+        "पावर सप्लाई"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Tuner). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (ट्यूनर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 3,
+    "shiftQuestionNo": 3,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a semiconductor material, the valence electrons are ________ compared to in an insulator.",
+      "hi": "In a semiconductor material, the valence electrons are ________ compared to in an insulator."
+    },
+    "options": {
+      "en": [
+        "freely moving",
+        "less tightly bound",
+        "not present",
+        "tightly bound"
+      ],
+      "hi": [
+        "freely moving",
+        "less tightly bound",
+        "not present",
+        "tightly bound"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (less tightly bound). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (less tightly bound)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 4,
+    "shiftQuestionNo": 4,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which of the following is NOT a stage in an op-amp? · 28 Jul 2026 · 2:30 PM - 5:00 PM ·",
+      "hi": "निम्नलिखित में से कौन - सा , ऑप - एम्प (op-amp) में एक अवस्था नहीं है ? · 28 Jul 2026 · 2:30 PM - 5:00 PM ·"
+    },
+    "options": {
+      "en": [
+        "Power transformer",
+        "Level shifter",
+        "Differential amplifier",
+        "Output stage"
+      ],
+      "hi": [
+        "आउटपुट अवस्था (Output stage)",
+        "विभेदी प्रवर्धक (Differential amplifier)",
+        "स्तर विस्थापक (Level shifter)",
+        "पावर ट्रांसफार्मर (Power transformer)"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Power transformer). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (पावर ट्रांसफार्मर (Power transformer))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 5,
+    "shiftQuestionNo": 5,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Before running a circuit simulation, which component must be added to establish the 0 V reference node for nodal analysis?",
+      "hi": "Before running a circuit simulation, which component must be added to establish the 0 V reference node for nodal analysis?"
+    },
+    "options": {
+      "en": [
+        "Operational Amplifier Terminal",
+        "Ideal Ground Symbol (GND)",
+        "AC Voltage Source",
+        "Virtual Multimeter Probe"
+      ],
+      "hi": [
+        "Operational Amplifier Terminal",
+        "Ideal Ground Symbol (GND)",
+        "AC Voltage Source",
+        "Virtual Multimeter Probe"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Ideal Ground Symbol (GND)). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (Ideal Ground Symbol (GND))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 6,
+    "shiftQuestionNo": 6,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A NOT gate is connected between a door sensor and a buzzer. The buzzer sounds when the door is closed instead of when it is open. What is the reason?",
+      "hi": "एक NOT गेट , डोर सेंसर (door sensor) और बजर के बीच जुड़ा हुआ है। बजर दरवाजा खुलने के स्थान पर बंद होने पर बजता है। इसका कारण क्या है ?"
+    },
+    "options": {
+      "en": [
+        "NOT gate inverted sensor output logic",
+        "Supply voltage increased",
+        "Sensor polarity reversed",
+        "Buzzer resistance changed"
+      ],
+      "hi": [
+        "सेंसर ध्रुवणता प्रतिक्रमित है",
+        "NOT गेट ने सेंसर आउटपुट लॉजिक को प्रतिलोमित कर दिया",
+        "आपूर्ति वोल्टता बढ़ गई",
+        "बजर के प्रतिरोध में परिवर्तन हो गया"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (NOT gate inverted sensor output logic). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (NOT गेट ने सेंसर आउटपुट लॉजिक को प्रतिलोमित कर दिया)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 7,
+    "shiftQuestionNo": 7,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "How many minimum 2-input NAND gates are required to implement a 2-input OR gate?",
+      "hi": "2- इनपुट OR गेट को कार्यान्वित (implement) करने के लिए न्यूनतम कितने 2- इनपुट NAND गेट की आवश्यकता होती है ?"
+    },
+    "options": {
+      "en": [
+        "Two NAND gates",
+        "Five NAND gates",
+        "Four NAND gates",
+        "Three NAND gates"
+      ],
+      "hi": [
+        "पांच NAND गेट",
+        "तीन NAND गेट",
+        "चार NAND गेट",
+        "दो NAND गेट"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Three NAND gates). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (तीन NAND गेट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 8,
+    "shiftQuestionNo": 8,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why is a flux required in the process of soldering copper conductors?",
+      "hi": "Why is a flux required in the process of soldering copper conductors?"
+    },
+    "options": {
+      "en": [
+        "To increase the strength of the alloy",
+        "To reduce the melting point of the solder",
+        "To prevent mechanical failure of the joint",
+        "To protect against de-oxidisation during soldering"
+      ],
+      "hi": [
+        "To increase the strength of the alloy",
+        "To reduce the melting point of the solder",
+        "To prevent mechanical failure of the joint To protect against de-oxidisation during",
+        "soldering"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (To protect against de-oxidisation during soldering). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (soldering)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 9,
+    "shiftQuestionNo": 9,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A trainee connects multiple JK flip-flops in cascade, with each flip-flop configured in toggle mode (J = K = 1). Only the first flip-flop gets the clock signal. Other flip-flop clock inputs are driven by previous flip-flop Q outputs. What practical function does this arrangement perform in the circuit?",
+      "hi": "एक प्रशिक्षु कई JK फ्लिप - फ्लॉप को कै स्के ड में जोड़ता है , जिसमें प्रत्येक फ्लिप - फ्लॉप टॉगल मोड (J = K = 1) में कॉन्फ़िगर किया जाता है। केवल पहले फ्लिप - फ्लॉप को क्लॉक सिग्नल प्राप्त होता है। अन्य फ्लिप - फ्लॉप क्लॉक इनपुट , पिछले फ्लिप - फ्लॉप Q आउटपुट द्वारा संचालित होते हैं। परिपथ में यह व्यवस्था कौन - सा व्यावहारिक कार्य करती है ?"
+    },
+    "options": {
+      "en": [
+        "It increases the amplitude of the input clock signal at each stage",
+        "It stabilizes the supply voltage across the circuit components",
+        "It counts the number of clock pulses by acting as a ripple counter",
+        "It removes noise from the input clock signal to produce a clean waveform"
+      ],
+      "hi": [
+        "यह सर्किट घटकों के सिरों पर सप्लाई वोल्टता को स्थिर करती है",
+        "यह एक ऊर्मिका गणित्र के रूप में कार्य करके क्लॉक पल्स की संख्या की गणना करती है",
+        "यह प्रत्येक चरण पर इनपुट क्लॉक सिग्नल के आयाम को बढ़ाती है",
+        "यह इनपुट क्लॉक सिग्नल से रव को हटाकर एक स्पष्ट तरंगरूप उत्पन्न करती है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It counts the number of clock pulses by acting as a ripple counter). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह एक ऊर्मिका गणित्र के रूप में कार्य करके क्लॉक पल्स की संख्या की गणना करती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 10,
+    "shiftQuestionNo": 10,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a packaging line, which situation best illustrates the use of an inductive proximity switch?",
+      "hi": "In a packaging line, which situation best illustrates the use of an inductive proximity switch?"
+    },
+    "options": {
+      "en": [
+        "Measuring package weight during conveyor movement",
+        "Detecting the position of plastic bottle caps on a filling line",
+        "Detecting the presence of metal seals before bottle capping",
+        "Reading printed barcode labels during packaging operations"
+      ],
+      "hi": [
+        "Measuring package weight during conveyor movement",
+        "Detecting the position of plastic bottle caps on a filling line Detecting the presence of metal seals before",
+        "bottle capping",
+        "Reading printed barcode labels during packaging operations"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Detecting the presence of metal seals before bottle capping). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (bottle capping)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 11,
+    "shiftQuestionNo": 11,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which specific microwave frequency band, operating between 2 to 4 GHz, is internationally allocated for airport surveillance radar, weather monitoring, and mobile satellite services due to its balance of moderate bandwidth and low weather attenuation?",
+      "hi": "2 से 4 GHz के बीच संचालित होने वाला कौन - सा विशिष्ट सूक्ष् मतरंग आवृत्ति बैंड , मध्यम बैंडविड् थ और निम्न मौसम क्षीणन के संतुलन के कारण , हवाई अड्डे के निगरानी रडार , मौसम मॉनिटरिंग और मोबाइल उपग्रह सेवाओं के लिए अंतरराष्ट्रीय स्तर पर आवंटित किया गया है ?"
+    },
+    "options": {
+      "en": [
+        "Q-band",
+        "Ka-band",
+        "X-band",
+        "S-band"
+      ],
+      "hi": [
+        "Ka- बैंड",
+        "Q- बैंड",
+        "X- बैंड",
+        "S- बैंड"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (S-band). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (S- बैंड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 12,
+    "shiftQuestionNo": 12,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What function does the grid perform in a triode vacuum tube?",
+      "hi": "What function does the grid perform in a triode vacuum tube?"
+    },
+    "options": {
+      "en": [
+        "It provides electrical insulation",
+        "It collects electrons for output",
+        "It controls the flow of electrons between cathode and anode",
+        "It emits electrons for conduction"
+      ],
+      "hi": [
+        "It provides electrical insulation",
+        "It collects electrons for output It controls the flow of electrons between",
+        "cathode and anode",
+        "It emits electrons for conduction"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It controls the flow of electrons between cathode and anode). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (cathode and anode)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 13,
+    "shiftQuestionNo": 13,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which electronic component is used in digital circuits to store a single bit of data?",
+      "hi": "डिजिटल परिपथों में एकल बिट डेटा स्टोर करने के लिए किस इलेक्ट्रॉनिक घटक का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Multiplexer",
+        "Flip-flop",
+        "De-Multiplexer",
+        "Decoder"
+      ],
+      "hi": [
+        "मल्टीप्लेक्सर",
+        "डिकोडर",
+        "फ्लिप - फ्लॉप",
+        "डी - मल्टीप्लेक्सर"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Flip-flop). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (फ्लिप - फ्लॉप)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 14,
+    "shiftQuestionNo": 14,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "While drawing an irregular machine profile in engineering drawing, which instrument is most suitable for joining multiple non-circular points smoothly?",
+      "hi": "While drawing an irregular machine profile in engineering drawing, which instrument is most suitable for joining multiple non-circular points smoothly?"
+    },
+    "options": {
+      "en": [
+        "French curve",
+        "Compass",
+        "Divider",
+        "Protractor"
+      ],
+      "hi": [
+        "French curve",
+        "Compass",
+        "Divider",
+        "Protractor"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (French curve). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (French curve)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 15,
+    "shiftQuestionNo": 15,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which property of liquid crystals allows them to control light passage in an LCD display?",
+      "hi": "लिक्विड क्रिस्टल का कौन - सा गुणधर्म उन्हें LCD डिस्प्ले में प्रकाश के संचरण को नियंत्रित करने में सक्षम करता है ?"
+    },
+    "options": {
+      "en": [
+        "They absorb all incoming light",
+        "They emit light when current passes through",
+        "They generate static electricity under pressure",
+        "Their molecules can change orientation when an electric field is applied"
+      ],
+      "hi": [
+        "विद्युत धारा प्रवाहित होने पर वे प्रकाश उत्स र्जित करते हैं",
+        "वे दाब के अधीन स्थैतिक विद्‍युत उत्पन्न करते हैं",
+        "विद्युत क्षेत्र प्रयुक्त करने पर उनके अणु अभिविन्यास बदल सकते हैं",
+        "वे आने वाले सभी प्रकाश को अवशोषित कर लेते हैं"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Their molecules can change orientation when an electric field is applied). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विद्युत क्षेत्र प्रयुक्त करने पर उनके अणु अभिविन्यास बदल सकते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 16,
+    "shiftQuestionNo": 16,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why is argon commonly used as the gas in gas-filled tubes intended for triggering and switching?",
+      "hi": "ट्रिगरन और स्विचन के लिए अभिप्रेत गैस - पूरित ट्यूबों में आर्गन का उपयोग सामान्यतः गैस के रूप में क्यों किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "It has a low ionization potential and provides stable operation",
+        "Its atomic weight enhances amplification",
+        "Its high thermal conductivity helps dissipate heat",
+        "It glows brightly under all conditions"
+      ],
+      "hi": [
+        "इसका परमाणु भार प्रवर्धन में वृद्धि करता है।",
+        "इसकी उच्च तापीय चालकता ऊष्मा के क्षय में सहायक होती है।",
+        "इसका आयनन विभव निम्न होता है और यह स्थायी प्रचालन प्रदान करती है।",
+        "यह सभी परिस्थितियों में उज्ज्वलता से दीप्तिमान होता है।"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (It has a low ionization potential and provides stable operation). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (इसका आयनन विभव निम्न होता है और यह स्थायी प्रचालन प्रदान करती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 17,
+    "shiftQuestionNo": 17,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "An AND gate has two inputs, A and B, and one output Y. If A = 1, and B is given the input signal which continuously alternates between 0 and 1. How will Y behave?",
+      "hi": "एक AND गेट में दो इनपुट A और B, और एक आउटपुट Y है। यदि A = 1 हो , और B को इनपुट सिग्नल दिया जाए जो लगातार 0 और 1 के बीच बदलता रहता है , तो Y का व्यवहार कै सा होगा ?"
+    },
+    "options": {
+      "en": [
+        "Y will always remain 1.",
+        "Y will always follow signal connected at",
+        "Y will always remain undefined.",
+        "Y will always remain 0."
+      ],
+      "hi": [
+        "Y सदैव B से संयोजित सिग्नल का अनुसरण करेगा",
+        "Y सदैव अपरिभाषित रहेगा",
+        "Y सदैव 1 रहेगा",
+        "Y सदैव 0 रहेगा"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Y will always follow signal connected at). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (Y सदैव B से संयोजित सिग्नल का अनुसरण करेगा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 18,
+    "shiftQuestionNo": 18,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which statement correctly describes the output DC voltage polarity of an LVDT during core movement? DC voltage becomes positive in one direction",
+      "hi": "Which statement correctly describes the output DC voltage polarity of an LVDT during core movement? DC voltage becomes positive in one direction"
+    },
+    "options": {
+      "en": [
+        "from the center and negative in the opposite direction.",
+        "DC voltage polarity remains unchanged for movement in either direction from the center.",
+        "DC voltage remains negative for movement in both directions from the center.",
+        "DC voltage remains positive for movement in both directions from the center."
+      ],
+      "hi": [
+        "from the center and negative in the opposite direction. DC voltage polarity remains unchanged for",
+        "movement in either direction from the center.",
+        "DC voltage remains negative for movement in both directions from the center. DC voltage remains positive for movement in both",
+        "directions from the center."
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (from the center and negative in the opposite direction.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (from the center and negative in the opposite direction. DC voltage polarity remains unchanged for)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 19,
+    "shiftQuestionNo": 19,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "The dissipation factor (DF) of a ceramic capacitor is a measure of its:",
+      "hi": "The dissipation factor (DF) of a ceramic capacitor is a measure of its:"
+    },
+    "options": {
+      "en": [
+        "Breakdown voltage only",
+        "Maximum voltage rating",
+        "Energy loss in the dielectric",
+        "Physical dimensions"
+      ],
+      "hi": [
+        "Breakdown voltage only",
+        "Maximum voltage rating",
+        "Energy loss in the dielectric",
+        "Physical dimensions"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Energy loss in the dielectric). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Energy loss in the dielectric)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 20,
+    "shiftQuestionNo": 20,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which of the following materials is used to manufacture the core of an optical fiber?",
+      "hi": "Which of the following materials is used to manufacture the core of an optical fiber?"
+    },
+    "options": {
+      "en": [
+        "Bakelite resin",
+        "Silica glass",
+        "Mild steel",
+        "Aluminum alloy"
+      ],
+      "hi": [
+        "Bakelite resin",
+        "Silica glass",
+        "Mild steel",
+        "Aluminum alloy"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Silica glass). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (Silica glass)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 21,
+    "shiftQuestionNo": 21,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A technical drawing specifies a point labeled as the ‘intersection of two perpendicular bisectors’ in a triangle. What is this point called in geometrical nomenclature?",
+      "hi": "एक तकनीकी ड्राइंग किसी त्रिभुज के अंदर ' दो लंब समद्विभाजकों के प्रतिच्छेदन ' के रूप में लेबल किए गए एक बिंदु को निर्दिष्ट करता है। ज्यामितीय नामपद्धति में यह बिंदु क्या कहलाता है ?"
+    },
+    "options": {
+      "en": [
+        "Orthocenter",
+        "Circumcenter",
+        "Centroid",
+        "Incenter"
+      ],
+      "hi": [
+        "अंतःकेंद्र (Incenter)",
+        "लंबकेंद्र (Orthocenter)",
+        "केंद्रक (Centroid)",
+        "परिकेंद्र (Circumcenter)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Circumcenter). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (परिकेंद्र (Circumcenter))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 22,
+    "shiftQuestionNo": 22,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A zero crossing detector using an operational amplifier is basically a/an:",
+      "hi": "A zero crossing detector using an operational amplifier is basically a/an:"
+    },
+    "options": {
+      "en": [
+        "Oscillator",
+        "Differentiator",
+        "Comparator",
+        "Integrator"
+      ],
+      "hi": [
+        "Oscillator",
+        "Differentiator",
+        "Comparator",
+        "Integrator"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Comparator). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Comparator)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 23,
+    "shiftQuestionNo": 23,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the characteristic equation for NOR based SR flip flop in terms of its current state (Q), Set input (S), and Reset input (R)?",
+      "hi": "NOR- आधारित SR फ्लिप - फ्लॉप के लिए , करेंट स्‍टेट (Q), सेट इनपुट (S) और रीसेट इनपुट (R) के संदर्भ में अभिलक्षणिक समीकरण क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Q(next) = S + Q(current)R'",
+        "Q(next) = Q(current) + S + R",
+        "Q(next) = S + RQ(current)",
+        "Q(next) = S + R'"
+      ],
+      "hi": [
+        "Q(next) = Q(current) + S + R",
+        "Q(next) = S + Q(current)R'",
+        "Q(next) = S + RQ(current)",
+        "Q(next) = S + R'"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Q(next) = S + Q(current)R'). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (Q(next) = S + Q(current)R')। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 24,
+    "shiftQuestionNo": 24,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "If 6 meters of wire cost ₹180, what will be the cost of 9 meters of wire at the same rate?",
+      "hi": "यदि 6 मीटर तार का मूल्य ₹180 है , तो उसी दर से 9 मीटर तार का मूल्य कितना होगा ?"
+    },
+    "options": {
+      "en": [
+        "120 rupees",
+        "270 rupees",
+        "150 rupees",
+        "210 rupees"
+      ],
+      "hi": [
+        "210 रुपये",
+        "270 रुपये",
+        "150 रुपये",
+        "120 रुपये"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (270 rupees). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (270 रुपये)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 25,
+    "shiftQuestionNo": 25,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A room heater is rated at 1500 W and operates for 2 hours. How much electrical energy does it consume (in kWh)?",
+      "hi": "एक कक्ष हीटर , 1500 W पर निर्धारित है और यह 2 घंटे तक प्रचालित होता है। यह कितनी विद्युत ऊर्जा की खपत (kWh में ) करता है ?"
+    },
+    "options": {
+      "en": [
+        "0.75 kWh",
+        "3 kWh",
+        "3000 kWh",
+        "1.5 kWh"
+      ],
+      "hi": [
+        "0.75 kWh",
+        "1.5 kWh",
+        "3 kWh",
+        "3000 kWh"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (3 kWh). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (3 kWh)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 26,
+    "shiftQuestionNo": 26,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which feature distinguishes a smart TV from a non-smart LED-backlit LCD TV?",
+      "hi": "Which feature distinguishes a smart TV from a non- smart LED-backlit LCD TV?"
+    },
+    "options": {
+      "en": [
+        "A non-smart TV always has better picture quality",
+        "A smart TV has no built-in apps ever",
+        "A smart TV can connect to the internet for streaming",
+        "A smart TV never uses LED technology"
+      ],
+      "hi": [
+        "A non-smart TV always has better picture quality",
+        "A smart TV has no built-in apps ever",
+        "A smart TV can connect to the internet for streaming",
+        "A smart TV never uses LED technology"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (A smart TV can connect to the internet for streaming). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (A smart TV can connect to the internet for streaming)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 27,
+    "shiftQuestionNo": 27,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why does an installer typically create a downward drip loop in the coaxial cable just before it enters the hole in the building’s outer wall during a DTH system installation?",
+      "hi": "DTH सिस्टम इंस्टॉलेशन के दौरान , इंस्टॉलर सामान्यत : भवन की बाहरी दीवार में छिद्र में प्रवेश कराने से ठीक पहले समाक्षीय के बल में नीचे की ओर एक ड्रिप लूप क्यों बनाता है ?"
+    },
+    "options": {
+      "en": [
+        "To leave spare cable for future TV relocation.",
+        "To reduce RF resistance and signal impedance.",
+        "To filter interference from nearby cellular towers.",
+        "To prevent rainwater from entering through the cable path."
+      ],
+      "hi": [
+        "के बल पथ से वर्षा जल के प्रवेश को रोकने के लिए",
+        "भविष्य में TV पुनः स्थानन हेतु अतिरिक्त के बल छोड़ने के लिए",
+        "RF प्रतिरोध और सिग्नल प्रतिबाधा को कम करने के लिए",
+        "निकटवर्ती सेलुलर टावरों से व्यतिकरण को फिल्टर करने के लिए"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (To prevent rainwater from entering through the cable path.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (के बल पथ से वर्षा जल के प्रवेश को रोकने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 28,
+    "shiftQuestionNo": 28,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What primary role does positive feedback play in an oscillator module's operation?",
+      "hi": "What primary role does positive feedback play in an oscillator module's operation?"
+    },
+    "options": {
+      "en": [
+        "It ensures sustained oscillations by reinforcing the signal",
+        "It increases the gain linearly",
+        "It reduces noise in the circuit",
+        "It stabilizes current flow"
+      ],
+      "hi": [
+        "It ensures sustained oscillations by reinforcing the signal",
+        "It increases the gain linearly",
+        "It reduces noise in the circuit",
+        "It stabilizes current flow"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (It ensures sustained oscillations by reinforcing the signal). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (It ensures sustained oscillations by reinforcing the signal)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 29,
+    "shiftQuestionNo": 29,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which method involves dipping multiple components at once into a bath of molten solder for efficient production?",
+      "hi": "Which method involves dipping multiple components at once into a bath of molten solder for efficient production?"
+    },
+    "options": {
+      "en": [
+        "Trigger-operated soldering gun",
+        "Resistance soldering unit",
+        "Dip soldering machine",
+        "Pencil-type soldering iron"
+      ],
+      "hi": [
+        "Trigger-operated soldering gun",
+        "Resistance soldering unit",
+        "Dip soldering machine",
+        "Pencil-type soldering iron"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Dip soldering machine). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Dip soldering machine)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 30,
+    "shiftQuestionNo": 30,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "An engineer seeking to measure both AC and DC using a moving iron instrument would generally prefer the ________ moving iron meter over the ________ because of its better operating characteristics and wider practical use.",
+      "hi": "एक इंजीनियर जो चल - लौह उपकरण (moving iron instrument) का उपयोग करके AC और DC दोनों को मापना चाहता है , वह सामान्यत : ________ के चल - लौह मीटर को ________ से अधिक वरीयता प्रदान करेगा क्योंकि इसके प्रचालन अभिलक्षण बेहतर होते हैं और इसका व्यावहारिक उपयोग व्यापक होता है।"
+    },
+    "options": {
+      "en": [
+        "repulsion type, attraction type",
+        "attraction type, repulsion type",
+        "attraction type, PMMC type",
+        "repulsion type, hot-wire type"
+      ],
+      "hi": [
+        "प्रतिकर्षण प्रकार , आकर्षण प्रकार",
+        "आकर्षण प्रकार , PMMC प्रकार",
+        "आकर्षण प्रकार , प्रतिकर्षण प्रकार",
+        "प्रतिकर्षण प्रकार , हॉट - वायर प्रकार"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (repulsion type, attraction type). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (प्रतिकर्षण प्रकार , आकर्षण प्रकार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 31,
+    "shiftQuestionNo": 31,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "If a constant DC voltage is given to the input of an integrator using OP-AMP, the output will be a:",
+      "hi": "If a constant DC voltage is given to the input of an integrator using OP-AMP, the output will be a:"
+    },
+    "options": {
+      "en": [
+        "Sine wave",
+        "Ramp wave",
+        "Pulse wave",
+        "Square wave"
+      ],
+      "hi": [
+        "Sine wave",
+        "Ramp wave",
+        "Pulse wave",
+        "Square wave"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Ramp wave). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (Ramp wave)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 32,
+    "shiftQuestionNo": 32,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a full-wave rectifier circuit, what happens to the output waveform if one rectifier diode becomes open-circuited?",
+      "hi": "In a full-wave rectifier circuit, what happens to the output waveform if one rectifier diode becomes open- circuited?"
+    },
+    "options": {
+      "en": [
+        "Output remains constant DC",
+        "Output frequency doubles",
+        "Output becomes similar to half-wave rectification",
+        "Output changes to pure AC"
+      ],
+      "hi": [
+        "Output remains constant DC",
+        "Output frequency doubles",
+        "Output becomes similar to half-wave rectification",
+        "Output changes to pure AC"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Output becomes similar to half-wave rectification). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Output becomes similar to half-wave rectification)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 33,
+    "shiftQuestionNo": 33,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "How is Direct-to-Home (DTH) satellite communication better than traditional cable television systems?",
+      "hi": "पारंपरिक के बल टेलीविजन प्रणालियों की तुलना में डायरेक्ट - टू - होम (DTH) उपग्रह संचार किस प्रकार श्रेष्ठ है ?"
+    },
+    "options": {
+      "en": [
+        "No receiving equipment required",
+        "Operates without antenna transponders",
+        "Lower picture quality than cable",
+        "Access in remote areas without cable infrastructure"
+      ],
+      "hi": [
+        "के बल अवसंरचना के बिना दूरस्थ क्षेत्रों में एक्सेस",
+        "एं टीना ट्रांसपोंडर के बिना प्रचालित होता है",
+        "किसी अभिग्राही उपकरण की आवश्यकता नहीं",
+        "के बल की तुलना में निम्न पिक्चर क्वालिटी"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Access in remote areas without cable infrastructure). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (के बल अवसंरचना के बिना दूरस्थ क्षेत्रों में एक्सेस)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 34,
+    "shiftQuestionNo": 34,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "To safely measure the resistance of a component using a multimeter, a technician must first __________ the circuit's power supply and then connect the meter probes in __________ across the component.",
+      "hi": "मल्टीमीटर का उपयोग करके किसी घटक का प्रतिरोध सुरक्षित रूप से मापने के लिए , एक तकनीशियन को पहले परिपथ के विद्युत प्रदाय को __________ होगा और फिर मीटर प्रोब को घटक पर __________ में जोड़ना होगा।"
+    },
+    "options": {
+      "en": [
+        "turn off; parallel",
+        "turn on; parallel",
+        "turn on; series",
+        "turn off; series"
+      ],
+      "hi": [
+        "चालू करना ; समांतर - क्रम",
+        "बंद करना ; समांतर - क्रम",
+        "चालू करना ; श्रेणी - क्रम",
+        "बंद करना ; श्रेणी - क्रम"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (turn off; parallel). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (बंद करना ; समांतर - क्रम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 35,
+    "shiftQuestionNo": 35,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "During a presentation, the projected image is out of focus and appears blurry. Which front panel control allows the user to resolve this issue most directly?",
+      "hi": "एक प्रस्तुतीकरण के दौरान , प्रक्षिप्त छवि (projected image) फोकस से बाहर है और धुंधली दिखाई देती है। फ्रं ट पैनल का कौन - सा कं ट्रोल , यूजर को इस समस्या का सर्वाधिक प्रत्यक्ष रूप से समाधान करने की सुविधा प्रदान करता है ?"
+    },
+    "options": {
+      "en": [
+        "Keystone correction button",
+        "Focus ring",
+        "Power button",
+        "Zoom lever"
+      ],
+      "hi": [
+        "जूम लीवर (Zoom lever)",
+        "कीस्टोन करेक्शन बटन (Keystone correction button)",
+        "पावर बटन (Power button)",
+        "फोकस रिंग (Focus ring)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Focus ring). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (फोकस रिंग (Focus ring))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 36,
+    "shiftQuestionNo": 36,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A fitter has cut a metal workpiece oversize and needs to remove excess material quickly before final finishing. Which type of file should be selected first?",
+      "hi": "A fitter has cut a metal workpiece oversize and needs to remove excess material quickly before final finishing. Which type of file should be selected first?"
+    },
+    "options": {
+      "en": [
+        "Single cut file",
+        "Rasp cut file",
+        "Bastard cut file",
+        "Smooth cut file"
+      ],
+      "hi": [
+        "Single cut file",
+        "Rasp cut file",
+        "Bastard cut file",
+        "Smooth cut file"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Bastard cut file). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Bastard cut file)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 37,
+    "shiftQuestionNo": 37,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What should be worn to minimize the risk of electric shock while handling electrical wires?",
+      "hi": "What should be worn to minimize the risk of electric shock while handling electrical wires?"
+    },
+    "options": {
+      "en": [
+        "Leather gloves",
+        "Insulated gloves",
+        "Cotton gloves",
+        "Safety goggles"
+      ],
+      "hi": [
+        "Leather gloves",
+        "Insulated gloves",
+        "Cotton gloves",
+        "Safety goggles"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Insulated gloves). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (Insulated gloves)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 38,
+    "shiftQuestionNo": 38,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In circuit simulation software, under which component library category are devices such as bipolar junction transistors and operational amplifiers typically found?",
+      "hi": "In circuit simulation software, under which component library category are devices such as bipolar junction transistors and operational amplifiers typically found?"
+    },
+    "options": {
+      "en": [
+        "Passive Devices / Linear Elements",
+        "Power Distribution Grids / Ground Rails",
+        "Active Components / Semiconductor Group",
+        "Connector Hardware / Enclosures"
+      ],
+      "hi": [
+        "Passive Devices / Linear Elements",
+        "Power Distribution Grids / Ground Rails",
+        "Active Components / Semiconductor Group",
+        "Connector Hardware / Enclosures"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Active Components / Semiconductor Group). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Active Components / Semiconductor Group)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 39,
+    "shiftQuestionNo": 39,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a classroom demonstration, students observe that removing their 3D glasses makes the TV image appear blurry or doubled. Based on your understanding of 3D TV operation, what is the primary reason for this visual effect?",
+      "hi": "कक्षा में किए गए एक प्रदर्शन में , विद्यार्थियों ने देखा कि 3D चश्मे उतारने पर TV इमेज धुंधली या डबल दिखाई देती है। 3D TV के प्रचालन की आपकी समझ के आधार पर , इस दृश्य प्रभाव का प्राथमिक कारण क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Each eye receives overlapping images intended for 3D separation",
+        "The screen’s backlight technology is incompatible with 2D viewing",
+        "The TV refreshes images too quickly for the naked eye",
+        "The TV displays a lower resolution image without glasses"
+      ],
+      "hi": [
+        "TV, इमेज को नग्न आंखों के लिए अति शीघ्र रिफ्रे श करती है",
+        "स्क्रीन की बैकलाइट तकनीक , 2D दृश्यन के साथ असंगत है",
+        "TV चश्मे के बिना निम्न रिज़ॉल्यूशन वाली इमेज प्रदर्शित करती है",
+        "प्रत्येक नेत्र को 3D पृथक्करण के लिए अभिप्रेत अतिव्यापी इमेज प्राप्त होती है"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Each eye receives overlapping images intended for 3D separation). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (प्रत्येक नेत्र को 3D पृथक्करण के लिए अभिप्रेत अतिव्यापी इमेज प्राप्त होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 40,
+    "shiftQuestionNo": 40,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why should optical fiber waste be disposed of in a separate, marked container?",
+      "hi": "Why should optical fiber waste be disposed of in a separate, marked container?"
+    },
+    "options": {
+      "en": [
+        "To improve signal quality",
+        "To prevent injuries from sharp glass pieces",
+        "To speed up fiber installation",
+        "To reduce installation costs"
+      ],
+      "hi": [
+        "To improve signal quality",
+        "To prevent injuries from sharp glass pieces",
+        "To speed up fiber installation",
+        "To reduce installation costs"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (To prevent injuries from sharp glass pieces). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (To prevent injuries from sharp glass pieces)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 41,
+    "shiftQuestionNo": 41,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "While drawing a production sketch, a student needs to set a 60-degree line and also keep the straightedge direction unchanged during sliding. Which of the following drafting machine features provides both conditions simultaneously?",
+      "hi": "उत्पादन रेखाचित्र का ड्राइंग करते समय , किसी विद्यार्थी को 60 डिग्री की रेखा खींचनी होती है और सर्पण के दौरान सीधी - कोर (straightedge) की दिशा को अपरिवर्तित भी रखना होता है। ड्राफ्टिंग मशीन की निम्नलिखित में से कौन - सी विशेषता इन दोनों स्थितियों को एक साथ प्रदान करती है ?"
+    },
+    "options": {
+      "en": [
+        "Fixed blade holder with bevelled working edge",
+        "Removable scale strip with centre mark",
+        "Adjustable protractor head with parallel blades",
+        "Parallel arm bar with board margin line"
+      ],
+      "hi": [
+        "प्रवणित कार्यकारी कोर वाला स्थिर ब्लेड होल्डर",
+        "बोर्ड मार्जिन लाइन वाला समानांतर आर्म बार",
+        "समानांतर ब्लेड वाला समायोज्य प्रोट्रेक्टर हेड",
+        "सेंटर मार्क के साथ अपनेय स्के ल स्ट्रिप"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Adjustable protractor head with parallel blades). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (समानांतर ब्लेड वाला समायोज्य प्रोट्रेक्टर हेड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 42,
+    "shiftQuestionNo": 42,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Identify the number that is not a perfect square.",
+      "hi": "उस संख्या को पहचान कीजिए जो पूर्ण वर्ग नहीं है।"
+    },
+    "options": {
+      "en": [
+        "36",
+        "25",
+        "16",
+        "20"
+      ],
+      "hi": [
+        "20",
+        "25",
+        "16",
+        "36"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (20). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (20)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 43,
+    "shiftQuestionNo": 43,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the correct sequence for operating a portable fire extinguisher in case of a small fire?",
+      "hi": "मामूली अग्नि की स्थिति में सुवाह्य अग्निशामक (portable fire extinguisher) के प्रचालन का सही अनुक्रम क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Pull → Squeeze → Sweep → Aim",
+        "Squeeze → Aim → Pull → Sweep",
+        "Aim → Pull → Sweep → Squeeze",
+        "Pull → Aim → Squeeze → Sweep"
+      ],
+      "hi": [
+        "पिन खींचें (Pull) → दबाएं → घुमाएं → निशाना लगाएं",
+        "दबाएं → निशाना लगाएं (Aim) → पिन खींचें → घुमाएं",
+        "पिन खींचें → निशाना लगाएं → दबाएं (Squeeze) → घुमाएं",
+        "निशाना लगाएं → पिन खींचें → घुमाएं (Sweep) → दबाएं"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Pull → Aim → Squeeze → Sweep). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (पिन खींचें → निशाना लगाएं → दबाएं (Squeeze) → घुमाएं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 44,
+    "shiftQuestionNo": 44,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A thermocouple is used in a process where rapid temperature fluctuations occur. Which approach gives the most accurate readings under these conditions?",
+      "hi": "एक तापवैद्युत युग्म (thermocouple) का उपयोग ऐसी प्रक्रिया में किया जाता है जहां तीव्र तापमान उच्चावचन होता है। इन परिस्थितियों के अंतर्गत कौन - सा उपागम सबसे परिशुद्ध पाठ्यांक प्रदान करता है ?"
+    },
+    "options": {
+      "en": [
+        "Reduce junction thermal mass and use thin thermocouple wires",
+        "Add thermal insulation around the junction for stable output",
+        "Use a high thermal capacity reference junction for smooth readings",
+        "Increase junction mass and use thicker wires for stable operation"
+      ],
+      "hi": [
+        "स्थिर प्रचालन के लिए जंक्शन द्रव्यमान को बढ़ाना और मोटे तारों का उपयोग करना",
+        "जंक्शन के ऊष्मीय द्रव्यमान को कम करना और पतले तापवैद्युत युग्म तारों का उपयोग करना",
+        "सुचारू पाठ्यांक के लिए उच्च ऊष्मा धारिता वाले संदर्भ जंक्शन का उपयोग करना",
+        "स्थिर आउटपुट के लिए जंक्शन के चारों ओर ऊष्मा रोधन लगाना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Reduce junction thermal mass and use thin thermocouple wires). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (जंक्शन के ऊष्मीय द्रव्यमान को कम करना और पतले तापवैद्युत युग्म तारों का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 45,
+    "shiftQuestionNo": 45,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which optical fiber property best maintains signal strength and data integrity for high-speed, extended-reach networks?",
+      "hi": "ऑप्टिकल फाइबर का कौन - सा गुणधर्म , हाई स्पीड और विस्तारित पहुंच वाले नेटवर्क के लिए सिग्नल के सामर्थ्य और डेटा अखंडता का सर्वोत्तम रूप से बनाए रखता है ?"
+    },
+    "options": {
+      "en": [
+        "Low attenuation",
+        "High scattering loss",
+        "Large core diameter",
+        "Lightweight"
+      ],
+      "hi": [
+        "लाइटवेट",
+        "बड़ा क्रोड व्यास",
+        "उच्च प्रकीर्णन ह्रास",
+        "निम्न क्षीणन"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Low attenuation). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (निम्न क्षीणन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 46,
+    "shiftQuestionNo": 46,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "During UPS installation, why is it necessary to isolate critical and non-critical loads on separate output circuits?",
+      "hi": "UPS संस्थापन के दौरान , पृथक निर्गम परिपथों पर क्रांतिक और गैर - क्रांतिक लोड को विलगित (isolate) करना क्यों आवश्यक है ?"
+    },
+    "options": {
+      "en": [
+        "To extend the overall battery life during routine operation",
+        "To prioritize backup power for essential equipment during an outage",
+        "To reduce total installation time for the UPS system",
+        "To increase the speed of battery charging under high load"
+      ],
+      "hi": [
+        "उच्च लोड के अंतर्गत बैटरी आवेशन की स्पीड में वृद्धि करने के लिए",
+        "विद्युत - कटौती (outage) के दौरान आवश्यक उपकरणों के लिए बैकअप विद्युत को प्राथमिकता देने के लिए",
+        "UPS सिस्टम के लिए कु ल संस्थापन काल में कमी करने के लिए",
+        "नियमित प्रचालन के दौरान बैटरी की समग्र लाइफ में वृद्धि करने के लिए"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (To prioritize backup power for essential equipment during an outage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (विद्युत - कटौती (outage) के दौरान आवश्यक उपकरणों के लिए बैकअप विद्युत को प्राथमिकता देने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 47,
+    "shiftQuestionNo": 47,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why are coupling capacitors used in amplifier modules?",
+      "hi": "Why are coupling capacitors used in amplifier modules?"
+    },
+    "options": {
+      "en": [
+        "To increase bandwidth",
+        "To reduce circuit noise",
+        "To amplify the input signal",
+        "To block DC and allow AC signals to pass"
+      ],
+      "hi": [
+        "To increase bandwidth",
+        "To reduce circuit noise",
+        "To amplify the input signal",
+        "To block DC and allow AC signals to pass"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (To block DC and allow AC signals to pass). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (To block DC and allow AC signals to pass)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 48,
+    "shiftQuestionNo": 48,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which phenomenon causes a thermocouple to generate voltage when two different metals are kept at different temperatures?",
+      "hi": "किस परिघटना के कारण दो अलग - अलग धातुओं को अलग - अलग तापमान पर रखने पर तापवैद्युत युग्म (thermocouple) वोल्टता उत्पन्न करता है ?"
+    },
+    "options": {
+      "en": [
+        "Hall effect",
+        "Peltier effect",
+        "Seebeck effect",
+        "Thomson effect"
+      ],
+      "hi": [
+        "सीबेक प्रभाव (Seebeck effect)",
+        "हॉल प्रभाव (Hall effect)",
+        "पेल्टियर प्रभाव (Peltier effect)",
+        "थॉमसन प्रभाव (Thomson effect)"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Seebeck effect). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सीबेक प्रभाव (Seebeck effect))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 49,
+    "shiftQuestionNo": 49,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What does LED stand for in electronic devices?",
+      "hi": "इलेक्ट्रॉनिक उपकरणों में LED का पूर्ण रूप क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Light Emitting Diode",
+        "Light Electronic Display",
+        "Laser Emitting Device",
+        "Low Energy Display"
+      ],
+      "hi": [
+        "लाइट एमिटिंग डायोड (Light Emitting Diode)",
+        "लो एनर्जी डिस्प्ले (Low Energy Display)",
+        "लाइट इलेक्ट्रॉनिक डिस्प्ले (Light Electronic Display)",
+        "लेजर एमिटिंग डिवाइस (Laser Emitting Device)"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Light Emitting Diode). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (लाइट एमिटिंग डायोड (Light Emitting Diode))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 50,
+    "shiftQuestionNo": 50,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "You are modifying a standard TV remote to add keypad backlighting. Which part would most likely need electrical modification?",
+      "hi": "आप कीपैड पृष्ठ प्रकाश (backlighting) जोड़ने के लिए एक मानक TV रिमोट को संशोधित कर रहे हैं। किस भाग में विद्युत संशोधन की सर्वाधिक आवश्यकता होगी ?"
+    },
+    "options": {
+      "en": [
+        "Battery compartment to fit more cells",
+        "IR LED to increase transmission brightness",
+        "Main PCB to add LED drive circuitry",
+        "Rubber keypad to increase thickness"
+      ],
+      "hi": [
+        "मोटाई बढ़ाने के लिए रबर कीपैड में",
+        "प्रसारण द्युति बढ़ाने के लिए IR LED में",
+        "अधिक सेल फिट के लिए बैटरी कोष्ठ में",
+        "LED ड्राइव परिपथ जोड़ने के लिए मुख्य PCB में"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Main PCB to add LED drive circuitry). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (LED ड्राइव परिपथ जोड़ने के लिए मुख्य PCB में)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 51,
+    "shiftQuestionNo": 51,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A workshop employs skilled and unskilled workers in the ratio of 5 : 2. If the total workforce is 49, how many skilled workers are employed?",
+      "hi": "एक कार्यशाला में कु शल और अकु शल कामगारों का अनुपात 5 : 2 है। यदि कु ल कार्यबल 49 है , तो कितने कु शल कामगार नियोजित हैं ?"
+    },
+    "options": {
+      "en": [
+        "14",
+        "21",
+        "28",
+        "35"
+      ],
+      "hi": [
+        "21",
+        "35",
+        "28",
+        "14"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (35). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (35)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 52,
+    "shiftQuestionNo": 52,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A biomedical device uses an inverting amplifier to process ECG signals. Which issue can arise if the op-amp's slew rate is too low?",
+      "hi": "A biomedical device uses an inverting amplifier to process ECG signals. Which issue can arise if the op- amp's slew rate is too low?"
+    },
+    "options": {
+      "en": [
+        "Greater power consumption",
+        "Distorted output during rapid signal changes",
+        "Higher amplifier gain",
+        "Increased input noise"
+      ],
+      "hi": [
+        "Greater power consumption",
+        "Distorted output during rapid signal changes",
+        "Higher amplifier gain",
+        "Increased input noise"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Distorted output during rapid signal changes). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (Distorted output during rapid signal changes)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 53,
+    "shiftQuestionNo": 53,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A designer needs a capacitor for coupling AC signals between the amplifier stages while blocking DC. Why might an electrolytic capacitor be a poor choice if the circuit sometimes reverses polarity?",
+      "hi": "एक डिजाइनर को प्रवर्धक चरणों के बीच AC सिग्नलों को युग्मित करने और DC को अवरुद्ध करने के लिए एक संधारित्र की आवश्यकता है। यदि परिपथ कभी - कभी ध्रुवता को उत् क्र मित कर देता है , तो विद्युत् अपघटनी संधारित्र एक खराब विकल्प क्यों हो सकता है ?"
+    },
+    "options": {
+      "en": [
+        "Electrolytic capacitors are more expensive than alternatives",
+        "Electrolytic capacitors have high leakage current",
+        "Electrolytic capacitors are too large for most circuits",
+        "Electrolytic capacitors are damaged by reversed polarity"
+      ],
+      "hi": [
+        "विद्युत् अपघटनी संधारित्र अधिकांश परिपथों के लिए बहुत बड़े होते हैं",
+        "विद्युत् अपघटनी संधारित्र अन्य विकल्पों की तुलना में अधिक महंगे होते हैं",
+        "विद्युत् अपघटनी संधारित्र ध्रुवता उत् क्र मित होने से क्षतिग्रस्त हो जाते हैं",
+        "विद्युत् अपघटनी संधारित्रों में उच्च क्षरण धारा होती है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Electrolytic capacitors are damaged by reversed polarity). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विद्युत् अपघटनी संधारित्र ध्रुवता उत् क्र मित होने से क्षतिग्रस्त हो जाते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 54,
+    "shiftQuestionNo": 54,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "During testing of a 2-input logic gate built only with 2-input NAND gates, a technician observes that the output is HIGH only when both inputs are LOW. Which gate has been successfully implemented?",
+      "hi": "केवल 2- इनपुट NAND गेट से निर्मित 2- इनपुट लॉजिक गेट के परीक्षण के दौरान , एक तकनीशियन अवलोकन करता है कि आउटपुट केवल तभी HIGH होता है जब दोनों इनपुट LOW होते हैं। कौन - सा गेट सफलतापूर्वक कार्यान्वित किया गया है ?"
+    },
+    "options": {
+      "en": [
+        "2-input OR gate",
+        "2-input AND gate",
+        "2-input NOR gate",
+        "2-input EX-OR gate"
+      ],
+      "hi": [
+        "2- इनपुट AND गेट",
+        "2- इनपुट NOR गेट",
+        "2- इनपुट OR गेट",
+        "2- इनपुट EX-OR गेट"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (2-input NOR gate). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (2- इनपुट NOR गेट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 55,
+    "shiftQuestionNo": 55,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which of the following is used to perform logical negation in digital electronics?",
+      "hi": "Which of the following is used to perform logical negation in digital electronics?"
+    },
+    "options": {
+      "en": [
+        "NOT gate",
+        "EX-OR gate",
+        "OR gate",
+        "AND gate"
+      ],
+      "hi": [
+        "NOT gate",
+        "EX-OR gate",
+        "OR gate",
+        "AND gate"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (NOT gate). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (NOT gate)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 56,
+    "shiftQuestionNo": 56,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Where is the input signal applied in a non-inverting op-amp configuration?",
+      "hi": "Where is the input signal applied in a non-inverting op- amp configuration?"
+    },
+    "options": {
+      "en": [
+        "To the ground terminal",
+        "To the non-inverting (+) terminal",
+        "To the inverting (-) terminal",
+        "To both terminals (non-inverting terminal (+) and inverting terminal (-)) simultaneously"
+      ],
+      "hi": [
+        "To the ground terminal",
+        "To the non-inverting (+) terminal",
+        "To the inverting (-) terminal To both terminals (non-inverting terminal (+) and",
+        "inverting terminal (-)) simultaneously"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (To the non-inverting (+) terminal). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (To the non-inverting (+) terminal)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 57,
+    "shiftQuestionNo": 57,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a 555 astable multivibrator, if R1 = R2 = R and C = C, the time period is: Symbols: T = Time period of output waveform R = Common resistance value R1 = Resistor between V ​ and discharge pin CC R2 = Resistor between discharge pin and capacitor C = Timing capacitor",
+      "hi": "555 अस्थायी बहुकं पित्र (astable multivibrator) में , यदि R1 = R2 = R और C = C है , तो आवर्तकाल ज्ञात कीजिए। प्रतीक : T = निर्गम तंरगरूप का आवर्तकाल R = उभयनिष्ठ प्रतिरोध का मान R1 = V और डिस्चार्ज पिन के बीच प्रतिरोधक CC R2 = डिस्चार्ज पिन और कै पसिटर के बीच प्रतिरोधक C = टाइमिंग कै पसिटर"
+    },
+    "options": {
+      "en": [
+        "0.693 RC",
+        "2.079 RC",
+        "RC",
+        "1.386 RC"
+      ],
+      "hi": [
+        "2.079 RC",
+        "1.386 RC",
+        "0.693 RC",
+        "RC"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (2.079 RC). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (2.079 RC)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 58,
+    "shiftQuestionNo": 58,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "How can you ensure the clearest speech in a large, noisy hall?",
+      "hi": "एक बड़े , कोलाहलपूर्ण हॉल में स्पष्ट भाषण किस प्रकार सुनिश्चित किया जा सकता है ?"
+    },
+    "options": {
+      "en": [
+        "Use of a speaker with maximum bass volume",
+        "Use of speakers placed outside the hall",
+        "Use of many ceiling speakers placed uniformly",
+        "Use of only one giant, loud speaker placed in the corner"
+      ],
+      "hi": [
+        "अधिकतम बास वॉल्यूम (bass volume) वाले स्पीकर का उपयोग करके",
+        "हॉल के बाहर रखे स्पीकर का उपयोग करके एकसमानतः लगे अनेक सीलिंग स्पीकर (ceiling",
+        "speakers) का उपयोग करके",
+        "कोने में केवल एक बहुत बड़े लाउड स्पीकर का उपयोग करके"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Use of many ceiling speakers placed uniformly). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (speakers) का उपयोग करके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 59,
+    "shiftQuestionNo": 59,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "When does an offline UPS supply power to connected equipment?",
+      "hi": "ऑफलाइन UPS, संयोजित उपकरणों को विद्युत की आपूर्ति कब करता है ?"
+    },
+    "options": {
+      "en": [
+        "At all times",
+        "Only during normal voltage supply",
+        "Only during peak hours",
+        "Only during main supply failure"
+      ],
+      "hi": [
+        "केवल व्यस्तम समय के दौरान",
+        "केवल मुख्य आपूर्ति विफलता के दौरान",
+        "हर समय",
+        "केवल सामान्य वोल्टता आपूर्ति के दौरान"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Only during main supply failure). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (केवल मुख्य आपूर्ति विफलता के दौरान)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 60,
+    "shiftQuestionNo": 60,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "An engineer is installing a hybrid DVR and needs to connect a legacy analog camera, a 4K monitor, and a network router. Which combination of rear-panel connectors is required to connect these devices?",
+      "hi": "एक अभियंता हाइब्रिड DVR का संस्थापन कर रहा है और उसे एक पारंपरिक एनालॉग कै मरा , एक 4K मॉनिटर और एक नेटवर्क राउटर को कनेक्ट करना है। इन उपकरणों को संयोजित करने के लिए पश्च - पैनल कनेक्टरों के किस संयोजन की आवश्यकता है ?"
+    },
+    "options": {
+      "en": [
+        "RJ-45 socket, HDMI port, and BNC connectors",
+        "USB port, DisplayPort, and F-type connectors",
+        "SATA interface, DVI port, and S-Video sockets",
+        "RS-485 terminal, VGA port, and RCA sockets"
+      ],
+      "hi": [
+        "SATA इंटरफे स , DVI पोर्ट , और S- वीडियो सॉके ट्स",
+        "RS-485 टर्मिनल , VGA पोर्ट , और RCA सॉके ट्स",
+        "USB पोर्ट , डिस्प्लेपोर्ट , और F- टाइप कनेक्टर्स",
+        "RJ-45 सॉके ट , HDMI पोर्ट , और BNC कनेक्टर्स"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (RJ-45 socket, HDMI port, and BNC connectors). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (RJ-45 सॉके ट , HDMI पोर्ट , और BNC कनेक्टर्स)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 61,
+    "shiftQuestionNo": 61,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a Switched Mode Power Supply (SMPS), what is the main advantage over a manual voltage stabilizer?",
+      "hi": "In a Switched Mode Power Supply (SMPS), what is the main advantage over a manual voltage stabilizer?"
+    },
+    "options": {
+      "en": [
+        "Higher efficiency and compact size",
+        "Lower output current ripple always",
+        "Handles extreme overvoltage better",
+        "Always less expensive"
+      ],
+      "hi": [
+        "Higher efficiency and compact size",
+        "Lower output current ripple always",
+        "Handles extreme overvoltage better",
+        "Always less expensive"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Higher efficiency and compact size). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (Higher efficiency and compact size)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 62,
+    "shiftQuestionNo": 62,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "If a resistor has a green, blue, and orange color code, what is its resistance value?",
+      "hi": "यदि किसी प्रतिरोधक का रंग कोड हरा , नीला और नारंगी है , तो उसका प्रतिरोध मान ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "5,600 ohms",
+        "560 ohms",
+        "56,000 ohms",
+        "560,000 ohms"
+      ],
+      "hi": [
+        "56,000 ओम",
+        "5,600 ओम",
+        "560,000 ओम",
+        "560 ओम"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (56,000 ohms). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (56,000 ओम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 63,
+    "shiftQuestionNo": 63,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What does LED stand for in LED TV?",
+      "hi": "LED TV में LED का पूर्ण रूप क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Liquid Emitting Display",
+        "Light Emitting Diode",
+        "Linear Emission Device",
+        "Light Enhanced Display"
+      ],
+      "hi": [
+        "लिक्विड एमिटिंग डिस्प्ले (Liquid Emitting Display)",
+        "लाइट एमिटिंग डायोड (Light Emitting Diode)",
+        "लीनियर एमिशन डिवाइस (Linear Emission Device)",
+        "लाइट एन्हांस्ड डिस्प्ले (Light Enhanced Display)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Light Emitting Diode). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (लाइट एमिटिंग डायोड (Light Emitting Diode))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 64,
+    "shiftQuestionNo": 64,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which of the following is the most suitable location for installing a CCTV camera to provide the best security coverage in a building?",
+      "hi": "किसी भवन में सर्वोत्तम सुरक्षा कवरेज प्रदान करने हेतु CCTV कै मरा स्थापित करने के लिए निम्नलिखित में से कौन - सा स्थान सर्वाधिक उपयुक्त है ?"
+    },
+    "options": {
+      "en": [
+        "In the garbage storage area for the building",
+        "Only in the parking lots",
+        "Only on the terrace",
+        "At the main entrance of the building"
+      ],
+      "hi": [
+        "भवन के कचरा भंडारण क्षेत्र में",
+        "केवल छत पर",
+        "केवल पार्किंग स्थल में",
+        "भवन के मुख्य प्रवेश द्वार पर"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (At the main entrance of the building). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (भवन के मुख्य प्रवेश द्वार पर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 65,
+    "shiftQuestionNo": 65,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A fitter needs to cut a thin metal strip using a hacksaw. Which blade should be selected to prevent the teeth from snagging or breaking during cutting?",
+      "hi": "एक फिटर को हैक्सॉ (hacksaw) का उपयोग करके धातु की एक पतली पट्टी काटनी है। काटते के दौरान दंतों को स्नैगिंग या टूटने से सुरक्षित करने के लिए किस ब्लेड का चयन किया जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Blade with alternate-set teeth only",
+        "Blade with widely spaced teeth",
+        "Blade with fine teeth",
+        "Blade with coarse teeth"
+      ],
+      "hi": [
+        "सूक्ष् म दंतों वाला ब्लेड",
+        "केवल एकांतर - सेट दंतों वाला ब्लेड",
+        "स्थूल दंतों वाला ब्लेड",
+        "विस्तृत अंतराल वाले दंतों वाला ब्लेड"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Blade with fine teeth). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सूक्ष् म दंतों वाला ब्लेड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 66,
+    "shiftQuestionNo": 66,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the primary purpose of testing a voltage regulator module in electronic circuits?",
+      "hi": "इलेक्ट्रॉनिक परिपथों में वोल्टता नियामक मॉड्यूल के परीक्षण का प्राथमिक उद्देश्य क्या है ?"
+    },
+    "options": {
+      "en": [
+        "To verify that the output voltage remains stable under varying loads",
+        "To measure the input voltage to the module under no load",
+        "To determine the heat generated by the module during operation",
+        "To check the physical size of the module for enclosure fitting"
+      ],
+      "hi": [
+        "परिवर्ती लोड के अंतर्गत आउटपुट वोल्टता के स्थायी रहने की पुष्टि करना",
+        "शून्य लोड (no load) स्थिति में मॉड्यूल की इनपुट वोल्टता को मापना",
+        "प्रचालन के दौरान मॉड्यूल द्वारा उत्पन्न ऊष्मा का निर्धारण करना",
+        "आवरण फिटिंग (enclosure fitting) के लिए मॉड्यूल के भौतिक आकार की जांच करना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (To verify that the output voltage remains stable under varying loads). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (परिवर्ती लोड के अंतर्गत आउटपुट वोल्टता के स्थायी रहने की पुष्टि करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 67,
+    "shiftQuestionNo": 67,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A trainee preparing a workshop drawing writes the sizes of a drilled hole on the view, while the supervisor asks for the line definition used for this purpose. Which option gives the correct definition?",
+      "hi": "कार्यशाला ड्राइंग तैयार करने वाला एक प्रशिक्षु , दृश्य पर ड्रिल किए गए छिद्र के आमाप को लिखता है , जबकि पर्यवेक्षक इस प्रयोजन के लिए उपयोग की जाने वाली रेखा की परिभाषा पूछता है। कौन सा विकल्प , सटीक परिभाषा को व्यक्त करता है ?"
+    },
+    "options": {
+      "en": [
+        "A line that shows axes, centres, and symmetry of the object",
+        "A line that shows hidden edges and internal surfaces of the object",
+        "A line that shows visible edges and surface boundaries of the object",
+        "A line that shows measurements, limits, and size values of the object"
+      ],
+      "hi": [
+        "एक रेखा जो वस्तु के प्रच्छन्न किनारों और आंतरिक पृष्ठों को दर्शाती है",
+        "एक रेखा जो वस्तु के दृश्य कोरों और पृष्ठ की सीमाओं को दर्शाती है",
+        "एक रेखा जो वस्तु की माप , सीमा और साइज के मानों को दर्शाती है",
+        "एक रेखा जो वस्तु के अक्षों , केंद्रों और सममिति को दर्शाती है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (A line that shows measurements, limits, and size values of the object). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (एक रेखा जो वस्तु की माप , सीमा और साइज के मानों को दर्शाती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 68,
+    "shiftQuestionNo": 68,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a Cathode Ray Tube (CRT), the component responsible for generating and accelerating the electron beam is the ________, while the component that deflects the beam to produce patterns on the screen is the ________.",
+      "hi": "In a Cathode Ray Tube (CRT), the component responsible for generating and accelerating the electron beam is the ________, while the component that deflects the beam to produce patterns on the screen is the ________."
+    },
+    "options": {
+      "en": [
+        "deflection plates, phosphor screen",
+        "deflection plates, electron gun",
+        "electron gun, deflection plates",
+        "phosphor screen, deflection plates"
+      ],
+      "hi": [
+        "deflection plates, phosphor screen",
+        "deflection plates, electron gun",
+        "electron gun, deflection plates",
+        "phosphor screen, deflection plates"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (electron gun, deflection plates). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (electron gun, deflection plates)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 69,
+    "shiftQuestionNo": 69,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which of the following is NOT a correct feature of a Hybrid DVR (HVR)?",
+      "hi": "निम्नलिखित में से कौन - सा हाइब्रिड DVR (HVR) का सही अभिलक्षण नहीं है ? यह पुराने CCTV सेटअप को अपग्रेड करते समय एक"
+    },
+    "options": {
+      "en": [
+        "It serves as a transitional system when upgrading an older CCTV setup.",
+        "It allows users to view both analog and IP camera feeds on a single screen.",
+        "It automatically converts legacy analog cameras into wireless IP cameras.",
+        "It can accept video feeds from both coaxial and Ethernet cables."
+      ],
+      "hi": [
+        "संक्रमणकालीन प्रणाली (transitional system) के रूप में कार्य करता है",
+        "यह पारंपरिक एनालॉग कै मरों को स्वचालित रूप से वायरलेस IP कै मरों में परिवर्तित कर देता है",
+        "यह समाक्षी और ईथरनेट के बल दोनों से वीडियो फीड (video feeds) ग्रहण कर सकता है",
+        "यह यूजर्स को एक ही स्क्रीन पर एनालॉग और IP कै मरा फीड दोनों देखने की सुविधा प्रदान करता है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It automatically converts legacy analog cameras into wireless IP cameras.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह पारंपरिक एनालॉग कै मरों को स्वचालित रूप से वायरलेस IP कै मरों में परिवर्तित कर देता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 70,
+    "shiftQuestionNo": 70,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the role of polarized glasses in passive 3D TV viewing?",
+      "hi": "What is the role of polarized glasses in passive 3D TV viewing?"
+    },
+    "options": {
+      "en": [
+        "They increase overall brightness of the display",
+        "They synchronize the TV's frame rate with human eyes",
+        "They filter images so each eye sees only its intended image",
+        "They enhance the color saturation of images"
+      ],
+      "hi": [
+        "They increase overall brightness of the display They synchronize the TV's frame rate with human",
+        "eyes",
+        "They filter images so each eye sees only its intended image",
+        "They enhance the color saturation of images"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (They filter images so each eye sees only its intended image). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (They filter images so each eye sees only its intended image)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 71,
+    "shiftQuestionNo": 71,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A school plans to protect its new SMPS-powered lab from voltage instability using a manual voltage stabilizer. What operational challenge may arise during non-working hours?",
+      "hi": "A school plans to protect its new SMPS-powered lab from voltage instability using a manual voltage stabilizer. What operational challenge may arise during non-working hours?"
+    },
+    "options": {
+      "en": [
+        "Manual stabilizer automatically switches to automatic mode after hours",
+        "Manual stabilizer only draws power during night hours",
+        "No one will be available to adjust voltage if supply fluctuates",
+        "Manual stabilizer efficiency improves during non- working periods"
+      ],
+      "hi": [
+        "Manual stabilizer automatically switches to automatic mode after hours",
+        "Manual stabilizer only draws power during night hours No one will be available to adjust voltage if",
+        "supply fluctuates",
+        "Manual stabilizer efficiency improves during non- working periods"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (No one will be available to adjust voltage if supply fluctuates). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (supply fluctuates)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 72,
+    "shiftQuestionNo": 72,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Two identical machines are used in a workshop. Machine A receives regular inspection and servicing, while Machine B is repaired only after a fault occurs. After one year, Machine A experiences fewer breakdowns and lower repair costs. Which statement best explains this difference?",
+      "hi": "एक कार्यशाला में दो समरूप मशीनों का उपयोग किया जाता है। मशीन A का नियमित निरीक्षण और सर्विसिंग की जाती है , जबकि मशीन B की मरम्मत केवल दोष उत्पन्न होने पर की जाती है। एक वर्ष के पश्चात , मशीन A में कम ब्रेकडाउन होता है और मरम्मत का व्यय भी कम होता है। कौन - सा कथन इस अंतर को सर्वोत्तम रूप से स्पष्ट करता है ?"
+    },
+    "options": {
+      "en": [
+        "Machine B reduced servicing costs through breakdown maintenance",
+        "Machine A followed a preventive maintenance approach",
+        "Machine A required more emergency repairs",
+        "Machine B received more effective maintenance"
+      ],
+      "hi": [
+        "मशीन A के लिए निवारक अनुरक्षण उपागम का पालन किया गया",
+        "मशीन A को अधिक आपातकालीन मरम्मत की आवश्यकता थी",
+        "मशीन B में ब्रेकडाउन अनुरक्षण के माध्यम से सर्विस की लागत कम हुई",
+        "मशीन B को अधिक प्रभावी अनुरक्षण प्राप्त हुआ"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Machine A followed a preventive maintenance approach). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (मशीन A के लिए निवारक अनुरक्षण उपागम का पालन किया गया)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 73,
+    "shiftQuestionNo": 73,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "The Amplitude control on the front panel of a signal generator adjusts the _______________.",
+      "hi": "The Amplitude control on the front panel of a signal generator adjusts the _______________."
+    },
+    "options": {
+      "en": [
+        "Peak-to-peak voltage of the output signal",
+        "Number of cycles per second",
+        "Output impedance",
+        "Type of waveform"
+      ],
+      "hi": [
+        "Peak-to-peak voltage of the output signal",
+        "Number of cycles per second",
+        "Output impedance",
+        "Type of waveform"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Peak-to-peak voltage of the output signal). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (Peak-to-peak voltage of the output signal)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 74,
+    "shiftQuestionNo": 74,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A manufacturer receives complaints about uneven brightness in their LCD screens when viewed from different angles. Which design factor should be addressed to correct this problem?",
+      "hi": "एक निर्माता को अपनी LCD स्क्रीन बारे में ऐसी शिकायतें प्राप्त होती हैं कि विभिन्न कोणों से देखने पर उसकी द्युति असमान है। इस समस्या का समाधान करने के लिए किस अभिकल्पन कारक पर ध्यान दिया जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Select enhanced driver ICs",
+        "Employ thicker glass substrates",
+        "Increase pixel refresh rate",
+        "Use advanced alignment layers for liquid crystals"
+      ],
+      "hi": [
+        "पिक्सेल रिफ्रे श दर बढ़ाना",
+        "अधिक मोटे ग्लास सबस्ट्रेट (glass substrates) का उपयोग करना लिक्विड क्रिस्टलों के लिए उन्नत संरेखण परतों (alignment",
+        "layers) का उपयोग करना",
+        "बेहतर ड्राइवर IC का चयन करना"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Use advanced alignment layers for liquid crystals). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (layers) का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 75,
+    "shiftQuestionNo": 75,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why is it important to keep RF coils away from ferromagnetic materials during assembly?",
+      "hi": "Why is it important to keep RF coils away from ferromagnetic materials during assembly?"
+    },
+    "options": {
+      "en": [
+        "Ferromagnetic materials reduce resistance",
+        "Ferromagnetic materials shield the coil from noise",
+        "Ferromagnetic materials help cool the coil",
+        "Ferromagnetic materials can distort the magnetic field and change coil performance"
+      ],
+      "hi": [
+        "Ferromagnetic materials reduce resistance",
+        "Ferromagnetic materials shield the coil from noise",
+        "Ferromagnetic materials help cool the coil",
+        "Ferromagnetic materials can distort the magnetic field and change coil performance"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Ferromagnetic materials can distort the magnetic field and change coil performance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (Ferromagnetic materials can distort the magnetic field and change coil performance)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  }
+]

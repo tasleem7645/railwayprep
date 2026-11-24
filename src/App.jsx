@@ -17,9 +17,10 @@ import AspirantToolsHub from './components/AspirantToolsHub';
 import MistakeNotebookModal from './components/MistakeNotebookModal';
 import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
+import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
-  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe
+  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench
 } from 'lucide-react';
 
 class ErrorBoundary extends React.Component {
@@ -101,7 +102,12 @@ export default function App() {
 
   const handleSelectGoal = (goal) => {
     setSelectedGoal(goal);
-    if (goal.includes('2025 (CBT-1)')) {
+    if (goal.includes('Part B')) {
+      setYearFilter('cbt2-part-b');
+      setShiftFilter('all');
+      setTradeFilter('all');
+      setActiveTab('mock-tests');
+    } else if (goal.includes('2025 (CBT-1)')) {
       setYearFilter('2025');
       setShiftFilter('all');
       setActiveTab('mock-tests');
@@ -149,7 +155,8 @@ export default function App() {
   };
 
   const [selectedLang, setSelectedLang] = useState('hi');
-  const [yearFilter, setYearFilter] = useState('all'); // 'all' | '2026' | '2025'
+  const [yearFilter, setYearFilter] = useState('all'); // 'all' | '2026' | '2025' | 'cbt2' | 'cbt2-part-b'
+  const [tradeFilter, setTradeFilter] = useState('all'); // 'all' | tradeKey
   const [testFilter, setTestFilter] = useState('all'); // 'all' | 'official' | 'sectional'
   const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | specific shift
   const [isPassProOpen, setIsPassProOpen] = useState(false);
@@ -187,9 +194,10 @@ export default function App() {
   }, []);
 
   const yearTests = RAILWAY_TESTS.filter(test => {
-    if (yearFilter === 'cbt2') return test.examYear === 'cbt2' || test.stage === 'CBT-2';
-    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && test.stage !== 'CBT-2';
-    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && test.stage !== 'CBT-2';
+    if (yearFilter === 'cbt2-part-b') return test.examYear === 'cbt2-part-b' || test.stage === 'CBT-2 Part B';
+    if (yearFilter === 'cbt2') return (test.examYear === 'cbt2' || test.stage === 'CBT-2') && test.stage !== 'CBT-2 Part B';
+    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && !test.stage?.includes('CBT-2');
+    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && !test.stage?.includes('CBT-2');
     return true; // 'all'
   });
 
@@ -205,12 +213,16 @@ export default function App() {
   const filteredTests = yearTests.filter(test => {
     const matchesCategory = testFilter === 'all' || test.category === testFilter;
     const matchesShift = shiftFilter === 'all' || test.shiftName === shiftFilter;
-    return matchesCategory && matchesShift;
+    const matchesTrade = tradeFilter === 'all' || test.tradeKey === tradeFilter;
+    return matchesCategory && matchesShift && matchesTrade;
   });
 
   const isTestFree = (test) => {
     if (!MONETIZATION_CONFIG.payments.enablePaywall || hasPassPro) return true;
     if (test.isFreeDemo) return true;
+    if (test.category === 'cbt2-part-b' || test.stage === 'CBT-2 Part B') {
+      return test.shiftName?.includes('Shift 1') || test.title?.includes('Shift 1');
+    }
     const isShift1 = test.shiftName === '03 Nov Shift 1' || 
                      test.shiftName === '13 Feb Shift 1' || 
                      test.shiftName === '28 Jul Shift 1' ||
@@ -366,16 +378,74 @@ export default function App() {
                   ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && t.stage !== 'CBT-2').length} Tests • 10 Shifts)
                 </button>
                 <button
-                  onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); }}
+                  onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); setTradeFilter('all'); }}
                   className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
                     yearFilter === 'cbt2'
                       ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-slate-950 font-black shadow-md shadow-rose-500/20'
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  🚀 RRB ALP CBT-2 Part A ({RAILWAY_TESTS.filter(t => t.examYear === 'cbt2' || t.stage === 'CBT-2').length} Tests • 2 Shifts • 100 Qs)
+                  🚀 RRB ALP CBT-2 Part A ({RAILWAY_TESTS.filter(t => (t.examYear === 'cbt2' || t.stage === 'CBT-2') && t.stage !== 'CBT-2 Part B').length} Tests • 2 Shifts • 100 Qs)
+                </button>
+                <button
+                  onClick={() => { setYearFilter('cbt2-part-b'); setShiftFilter('all'); setTradeFilter('all'); }}
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    yearFilter === 'cbt2-part-b'
+                      ? 'bg-gradient-to-r from-blue-500 to-cyan-400 text-slate-950 font-black shadow-md shadow-blue-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  ⚙️ ALP CBT-2 Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length} Tests • 15 Trades • 75 Qs)
                 </button>
               </div>
+
+              {/* Trade Selector Filter Tabs when Part B is selected or in All */}
+              {(yearFilter === 'cbt2-part-b' || (yearFilter === 'all' && tradeFilter !== 'all')) && (
+                <div className="mb-5 p-4 rounded-2xl bg-gradient-to-r from-blue-950/40 via-slate-900/90 to-slate-900/80 border border-blue-500/30">
+                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+                    <span className="text-xs font-bold text-blue-300 flex items-center gap-1.5">
+                      <Wrench className="w-4 h-4 text-cyan-400" />
+                      <span>Select Technical Trade (Qualifying Paper • 35% Qualifying Marks):</span>
+                    </span>
+                    <span className="text-[11px] font-semibold text-slate-400">
+                      {tradeFilter === 'all' ? 'All 15 Trades' : CBT2_PART_B_TRADES.find(t => t.key === tradeFilter)?.name}
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <button
+                      onClick={() => setTradeFilter('all')}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        tradeFilter === 'all'
+                          ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      All Trades (30)
+                    </button>
+                    {CBT2_PART_B_TRADES.map(t => {
+                      const count = RAILWAY_TESTS.filter(test => test.tradeKey === t.key).length;
+                      return (
+                        <button
+                          key={t.key}
+                          onClick={() => setTradeFilter(t.key)}
+                          className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                            tradeFilter === t.key
+                              ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
+                              : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                          }`}
+                        >
+                          <span>{t.name}</span>
+                          <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                            tradeFilter === t.key ? 'bg-slate-950/60 text-white font-extrabold' : 'bg-slate-800 text-slate-400'
+                          }`}>
+                            {count}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
 
               {/* Shift Selector Filter Tabs on Home */}
               <div className="flex flex-wrap items-center gap-2 mb-6">
@@ -575,16 +645,74 @@ export default function App() {
                   ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && t.stage !== 'CBT-2').length} Tests • 10 Shifts)
                 </button>
                 <button
-                  onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); }}
+                  onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); setTradeFilter('all'); }}
                   className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
                     yearFilter === 'cbt2'
                       ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-slate-950 shadow-md shadow-rose-500/20'
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  🚀 RRB ALP CBT-2 Part A ({RAILWAY_TESTS.filter(t => t.examYear === 'cbt2' || t.stage === 'CBT-2').length} Tests • 2 Shifts • 100 Qs)
+                  🚀 RRB ALP CBT-2 Part A ({RAILWAY_TESTS.filter(t => (t.examYear === 'cbt2' || t.stage === 'CBT-2') && t.stage !== 'CBT-2 Part B').length} Tests • 2 Shifts • 100 Qs)
+                </button>
+                <button
+                  onClick={() => { setYearFilter('cbt2-part-b'); setShiftFilter('all'); setTradeFilter('all'); }}
+                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                    yearFilter === 'cbt2-part-b'
+                      ? 'bg-gradient-to-r from-blue-500 to-cyan-400 text-slate-950 shadow-md shadow-blue-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  ⚙️ ALP CBT-2 Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length} Tests • 15 Trades • 75 Qs)
                 </button>
               </div>
+
+              {/* Trade Selector Filter on Mock Tests View */}
+              {(yearFilter === 'cbt2-part-b' || (yearFilter === 'all' && tradeFilter !== 'all')) && (
+                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-blue-950/40 via-slate-900/90 to-slate-900/80 border border-blue-500/30">
+                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+                    <span className="text-xs font-bold text-blue-300 flex items-center gap-1.5">
+                      <Wrench className="w-4 h-4 text-cyan-400" />
+                      <span>Select Technical Trade (Qualifying Paper • 35% Qualifying Marks):</span>
+                    </span>
+                    <span className="text-[11px] font-semibold text-slate-400">
+                      {tradeFilter === 'all' ? 'All 15 Trades' : CBT2_PART_B_TRADES.find(t => t.key === tradeFilter)?.name}
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap items-center justify-center gap-2">
+                    <button
+                      onClick={() => setTradeFilter('all')}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        tradeFilter === 'all'
+                          ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      All Trades (30)
+                    </button>
+                    {CBT2_PART_B_TRADES.map(t => {
+                      const count = RAILWAY_TESTS.filter(test => test.tradeKey === t.key).length;
+                      return (
+                        <button
+                          key={t.key}
+                          onClick={() => setTradeFilter(t.key)}
+                          className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                            tradeFilter === t.key
+                              ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
+                              : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                          }`}
+                        >
+                          <span>{t.name}</span>
+                          <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                            tradeFilter === t.key ? 'bg-slate-950/60 text-white font-extrabold' : 'bg-slate-800 text-slate-400'
+                          }`}>
+                            {count}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
 
               {/* Shift Filter Tabs */}
               <div className="flex items-center justify-center gap-2 mt-4 overflow-x-auto no-scrollbar">

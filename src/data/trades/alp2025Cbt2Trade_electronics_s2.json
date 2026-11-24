@@ -1,0 +1,2477 @@
+[
+  {
+    "id": 1,
+    "shiftQuestionNo": 1,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why is an online UPS preferred for critical computer equipment over other types of UPS?",
+      "hi": "क्रिटिकल कं प्यूटर उपकरणों के लिए अन्य प्रकार के UPS की तुलना में ऑनलाइन UPS को क्यों प्राथमिकता दी जाती है ?"
+    },
+    "options": {
+      "en": [
+        "It is less expensive than all other UPS types",
+        "It is physically smaller than offline UPS systems",
+        "It eliminates transfer time, preventing even brief power interruptions",
+        "It uses fewer electronic components"
+      ],
+      "hi": [
+        "यह ट्रांसफर टाइम को समाप्त करता है , जिससे पावर की क्षणिक रुकावटों से भी बचा जा सकता है।",
+        "यह ऑफलाइन UPS प्रणालियों की तुलना में भौतिक रूप से छोटा होता है।",
+        "यह कम इलेक्ट्रॉनिक घटकों का उपयोग करता है।",
+        "यह सभी अन्य UPS प्रकारों की तुलना में कम खर्चीला होता है।"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It eliminates transfer time, preventing even brief power interruptions). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (यह ट्रांसफर टाइम को समाप्त करता है , जिससे पावर की क्षणिक रुकावटों से भी बचा जा सकता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 2,
+    "shiftQuestionNo": 2,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "During the troubleshooting workflow of an LED TV that has a No Video, But Has Audio fault condition, which of the following diagnostic steps should a technician perform immediately after confirming the power supply voltages are normal?",
+      "hi": "एक LED TV के निवारण कार्यप्रवाह (troubleshooting workflow) के दौरान , जिसमें \" वीडियो नहीं है , लेकिन ऑडियो है \" (No Video, But Has Audio) की दोष स्थिति है , विद्युत आपूर्ति वोल्टता के सामान्य होने की पुष्टि करने के ठीक बाद एक तकनीशियन को निम्नलिखित में से कौन - सा नैदानिक कदम उठाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Replace the primary microprocessing main board assembly.",
+        "Replace the liquid crystal display panel assembly immediately.",
+        "Perform a flashlight test on the screen to check for a faint image.",
+        "Increase the main AC input voltage using a variable autotransformer."
+      ],
+      "hi": [
+        "लिक्विड क्रिस्टल डिस्प्ले पैनल असेंबली को तुरंत बदलें।",
+        "प्राथमिक माइक्रोप्रोसेसिंग मेन बोर्ड असेंबली को बदलें।",
+        "अस्पष्ट इमेज (faint image) की जांच करने के लिए स्क्रीन पर फ्लैशलाइट परीक्षण करें। वेरिएबल ऑटोट्रांसफॉर्मर (variable autotransformer) का",
+        "उपयोग करके मेन AC इनपुट वोल्टता को बढ़ाएं ।"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Perform a flashlight test on the screen to check for a faint image.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (अस्पष्ट इमेज (faint image) की जांच करने के लिए स्क्रीन पर फ्लैशलाइट परीक्षण करें। वेरिएबल ऑटोट्रांसफॉर्मर (variable autotransformer) का)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 3,
+    "shiftQuestionNo": 3,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A technician opens a computer cabinet and notices a round coin-shaped battery on the motherboard. What is its purpose?",
+      "hi": "एक तकनीशियन कं प्यूटर कै बिनेट खोलता है और मदरबोर्ड पर सिक्के की आकृति की एक गोल बैटरी देखता है। इसका प्रयोजन क्या है ? 28 Jul 2026 · 2:30 PM - 5:00 PM ·"
+    },
+    "options": {
+      "en": [
+        "Power the monitor",
+        "Control USB ports",
+        "Store BIOS/CMOS settings",
+        "Increase RAM speed"
+      ],
+      "hi": [
+        "USB पोर्ट को नियंत्रित करना",
+        "RAM की स्पीड बढ़ाना",
+        "मॉनिटर को पावर देना",
+        "BIOS/CMOS सेटिंग्स को स्टोर करना"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Store BIOS/CMOS settings). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (BIOS/CMOS सेटिंग्स को स्टोर करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 4,
+    "shiftQuestionNo": 4,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "An ITI workshop implements 5S but notices recurring safety hazards because tools are often left in different locations and workers cannot find them quickly. Which 5S step should be strengthened most effectively? 28 Jul 2026 · 2:30 PM - 5:00 PM ·",
+      "hi": "एक ITI कार्यशाला 5S कार्यान्वित करती है , लेकिन आवर्ती सुरक्षा खतरे अवलोकित करती है क्योंकि टूल प्राय : अलग - अलग स्थानों पर छोड़ दिए जाते हैं और श्रमिक उन्हें शीघ्रता से ढूंढ नहीं पाते हैं। किस 5S चरण को सबसे प्रभावी ढंग से सुदृढ़ किया जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Shine",
+        "Set in Order",
+        "Sort",
+        "Sustain"
+      ],
+      "hi": [
+        "Sustain ( सस्टेन )",
+        "Sort ( शॉर्ट )",
+        "Set in Order ( सेट - इन - ऑर्डर )",
+        "Shine ( शाइन )"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Set in Order). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Set in Order ( सेट - इन - ऑर्डर ))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 5,
+    "shiftQuestionNo": 5,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the function of a half wave rectifier?",
+      "hi": "अर्धतरंग दिष्टकारी का क्या कार्य है ?"
+    },
+    "options": {
+      "en": [
+        "It stores electrical energy",
+        "It converts DC to AC",
+        "It converts AC to DC",
+        "It amplifies signals"
+      ],
+      "hi": [
+        "यह सिग्नलों को प्रवर्धित करता है",
+        "यह AC को DC में परिवर्तित करता है",
+        "यह विद्युत ऊर्जा का भंडारण करता है",
+        "यह DC को AC में परिवर्तित करता है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It converts AC to DC). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह AC को DC में परिवर्तित करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 6,
+    "shiftQuestionNo": 6,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What does the term booting mean in a computer system?",
+      "hi": "कं प्यूटर सिस्टम में बूटिंग (booting) शब्द का क्या अर्थ है ?"
+    },
+    "options": {
+      "en": [
+        "Starting a computer and loading the operating system",
+        "Scanning for virus and deleting the infected files",
+        "Defragmenting a hard disk to fix bad sectors",
+        "Installing open source software tools"
+      ],
+      "hi": [
+        "कं प्यूटर स्टार्ट करना और ऑपरेटिंग सिस्टम लोड करना",
+        "वायरस के लिए स्कै न करना और संक्रमित फाइलों को डिलीट करना",
+        "ओपेन सोर्स सॉफ्टवेयर टूल इंस्टॉल करना",
+        "खराब सेक्टरों को ठीक करने के लिए हार्ड डिस्क को डीफ्रै गमेंट करना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Starting a computer and loading the operating system). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (कं प्यूटर स्टार्ट करना और ऑपरेटिंग सिस्टम लोड करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 7,
+    "shiftQuestionNo": 7,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which of the following inputs is applied to a base terminal in a transistor amplifier during lab testing?",
+      "hi": "प्रयोगशाला परीक्षण के दौरान ट्रांजिस्टर प्रवर्धक में निम्नलिखित में से कौन सा निवेश , आधार टर्मिनल पर अनुप्रयुक्त किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Zero signal input",
+        "Random noise signal",
+        "High DC voltage input",
+        "Small AC signal input"
+      ],
+      "hi": [
+        "अल्प AC संके त निवेश (Small AC signal input)",
+        "शून्य संके त निवेश (Zero signal input)",
+        "यादृच्छिक रव संके त (Random noise signal)",
+        "उच्च DC वोल्टता निवेश (High DC voltage input)"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Small AC signal input). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (अल्प AC संके त निवेश (Small AC signal input))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 8,
+    "shiftQuestionNo": 8,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the primary purpose of using the Pulse Amplitude Modulation (PAM) technique in communication systems?",
+      "hi": "संचार प्रणालियों में पल्स आयाम मॉडुलन (PAM) तकनीक का उपयोग करने का प्राथमिक उद्देश्य क्या है ?"
+    },
+    "options": {
+      "en": [
+        "To represent analog information by varying the amplitude of high frequency discrete pulses",
+        "To reduce the bandwidth requirements of signals",
+        "To increase the frequency of pulses for transmission",
+        "To encode information using phase shifts in pulses"
+      ],
+      "hi": [
+        "सिग्नल की बैंड चौड़ाई आवश्यकताओं को कम करना",
+        "पल्स में फेज़ शिफ्ट का उपयोग करके सूचना को कोडित करना",
+        "उच्च आवृत्ति वाले असतत पल्स के आयाम को बदलकर एनालॉग सूचना को निरूपित करना",
+        "ट्रांसमिशन के लिए पल्स की आवृत्ति में वृद्धि करना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (To represent analog information by varying the amplitude of high frequency discrete pulses). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (उच्च आवृत्ति वाले असतत पल्स के आयाम को बदलकर एनालॉग सूचना को निरूपित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 9,
+    "shiftQuestionNo": 9,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the main purpose of a limiter circuit in a Frequency Modulation receiver?",
+      "hi": "आवृत्ति मॉडुलन रिसीवर में सीमक परिपथ का मुख्य उद्देश्य क्या होता है ?"
+    },
+    "options": {
+      "en": [
+        "To change the carrier frequency",
+        "To demodulate the signal",
+        "To filter out all noise components",
+        "To remove amplitude variations"
+      ],
+      "hi": [
+        "सभी रव घटकों को फिल्टर करना",
+        "आयाम भिन्नताओं को दूर करना",
+        "सिग्नल को डीमॉड्यूलेट करना",
+        "वाहक आवृत्ति को बदलना"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (To remove amplitude variations). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (आयाम भिन्नताओं को दूर करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 10,
+    "shiftQuestionNo": 10,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "The common-emitter (CE) configuration of a transistor is most widely used as a/an:",
+      "hi": "ट्रांजिस्टर के उभयनिष्ठ - उत्स र्जक (CE) विन्यास का उपयोग सबसे व्यापक रूप से __________ के रूप में किया जाता है।"
+    },
+    "options": {
+      "en": [
+        "Passive Filter",
+        "Voltage Amplifier",
+        "Impedance matcher",
+        "Rectifier"
+      ],
+      "hi": [
+        "दिष्टकारी",
+        "वोल्टता प्रवर्धक",
+        "निष्क्रिय फिल्टर",
+        "प्रतिबाधा सुमेलक"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Voltage Amplifier). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (वोल्टता प्रवर्धक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 11,
+    "shiftQuestionNo": 11,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In the procedure of measuring resistance with a shunt type ohmmeter, what will the pointer indicate if the test terminals remain open during testing?",
+      "hi": "शंट प्ररूप ओममीटर (shunt type ohmmeter) से प्रतिरोध मापने की प्रक्रिया में , यदि परीक्षण के दौरान परीक्षण टर्मिनल खुले रहते हैं , तो पॉइंटर (pointer) क्या इंगित करेगा ?"
+    },
+    "options": {
+      "en": [
+        "Negative reading",
+        "Infinite resistance",
+        "Zero resistance",
+        "Mid-scale reading"
+      ],
+      "hi": [
+        "ऋणात्मक पाठ्यांक",
+        "मध्य - पैमाना पाठ्यांक",
+        "शून्य प्रतिरोध",
+        "अनंत प्रतिरोध"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Infinite resistance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (अनंत प्रतिरोध)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 12,
+    "shiftQuestionNo": 12,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which sequence best ensures both picture quality and device safety while setting up a new LED or LCD TV with a set-top box?",
+      "hi": "नए LED या LCD TV को सेट - टॉप बॉक्स के साथ सेट अप करते समय , पिक्चर गुणवत्ता (picture quality) और डिवाइस सुरक्षा दोनों सुनिश्चित करने के लिए कौन - सा अनुक्रम सर्वोत्तम है ? सेट - टॉप बॉक्स को HDMI के माध्यम से TV से कनेक्ट करें ,"
+    },
+    "options": {
+      "en": [
+        "Connect the set-top box to the TV with HDMI after turning on the TV first, then the set-top box.",
+        "Connect the set-top box to the TV with AV cables, plug in while both devices are switched on.",
+        "Connect the set-top box to the TV with AV cables, power on both devices, then switch inputs. Connect the set-top box to the TV with HDMI,",
+        "power off both devices before plugging, then switch on after connections are secure."
+      ],
+      "hi": [
+        "प्लग लगाने से पहले दोनों डिवाइस को बंद कर (power off) दें , फिर कनेक्शन के सुरक्षित होने के बाद चालू (switch on) करें",
+        "सेट - टॉप बॉक्स को AV के बल के माध्यम से TV से कनेक्ट करें , दोनों डिवाइस को चालू (switched on) रखते हुए प्लग इन करें पहले TV को टर्न ऑन (turning on) करने के बाद सेट - टॉप बॉक्स",
+        "को HDMI के माध्यम से TV से कनेक्ट करें , फिर सेट - टॉप बॉक्स चालू करें",
+        "सेट - टॉप बॉक्स को AV के बल के माध्यम से TV से कनेक्ट करें , दोनों डिवाइस को चालू (power on) करें , फिर इनपुट स्विच करें"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (power off both devices before plugging, then switch on after connections are secure.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (प्लग लगाने से पहले दोनों डिवाइस को बंद कर (power off) दें , फिर कनेक्शन के सुरक्षित होने के बाद चालू (switch on) करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 13,
+    "shiftQuestionNo": 13,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Two oscillators use the same inductor (L) and the same capacitor (C) values. One is Colpitts with C = C and the 1 2 other is Hartley with L = L with negligible mutual 1 2 inductance (M). Which of the following is true about their resonant frequencies?",
+      "hi": "दो दोलित्र , समान प्रेरक (L) और समान संधारित्र (C) मानों का उपयोग करते हैं। इनमें से एक कॉलपिट (Colpitts) है जहां C1 = C2 है और दूसरा हार्टले (Hartley) है जहां L1 = L2 है तथा नगण्य अन्योन्य प्रेरकत्व (M) है। उनकी अनुनादी आवृत्तियों के संबंध में निम्नलिखित में से कौन - सा कथन सत्य है ?"
+    },
+    "options": {
+      "en": [
+        "Hartley frequency is higher",
+        "Frequency depends on transistor beta",
+        "Both have the same frequency",
+        "Colpitts frequency is higher"
+      ],
+      "hi": [
+        "आवृत्ति , ट्रांजिस्टर बीटा पर निर्भर करती है",
+        "कॉलपिट आवृत्ति अपेक्षाकृ त उच्च है",
+        "हार्टले आवृत्ति अपेक्षाकृ त उच्च है",
+        "दोनों की आवृत्ति समान है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Colpitts frequency is higher). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (कॉलपिट आवृत्ति अपेक्षाकृ त उच्च है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 14,
+    "shiftQuestionNo": 14,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "When selecting a sensor for an industrial application that requires detecting very small temperature changes, which sensor characteristic should be prioritized to ensure the sensor can detect the smallest variation in temperature?",
+      "hi": "जब किसी औद्योगिक अनुप्रयोग के लिए एक ऐसे सेंसर का चयन किया जाता है जिसमें बहुत अल्प तापमान परिवर्तनों का पता लगाने की आवश्यकता होती है , तो यह सुनिश्चित करने के लिए कि सेंसर , तापमान में अत्यधिक अल्प परिवर्तन का पता लगा सके , किस सेंसर अभिलक्षण को प्राथमिकता दी जानी चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Range",
+        "Resolution",
+        "Accuracy",
+        "Sensitivity"
+      ],
+      "hi": [
+        "परिशुद्धता (Accuracy)",
+        "परास (Range)",
+        "विभेदन (Resolution)",
+        "सुग्राहिता (Sensitivity)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Resolution). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विभेदन (Resolution))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 15,
+    "shiftQuestionNo": 15,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In an N-type semiconductor, what is the role of donor atoms?",
+      "hi": "N- प्रकार के अर्धचालक में , दाता परमाणुओं की क्या भूमिका होती है ?"
+    },
+    "options": {
+      "en": [
+        "They absorb thermal energy",
+        "They create holes for conduction",
+        "They provide extra electrons for conduction",
+        "They increase the energy gap"
+      ],
+      "hi": [
+        "वे ऊर्जा अंतराल में वृद्धि करते हैं",
+        "वे ऊष्मीय ऊर्जा को अवशोषित करते हैं",
+        "वे चालन के लिए अतिरिक्त इलेक्ट्रॉन प्रदान करते हैं",
+        "वे चालन के लिए होल (holes) बनाते हैं"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (They provide extra electrons for conduction). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (वे चालन के लिए अतिरिक्त इलेक्ट्रॉन प्रदान करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 16,
+    "shiftQuestionNo": 16,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "As per BIS SP 46:2003 engineering drawing conventions, which arrowhead type is used for dimension lines?",
+      "hi": "BIS SP 46:2003 इंजीनियरिंग ड्राइंग परिपाटी के अनुसार , विमा रेखाओं के लिए किस प्रकार के वाणाग्र (arrowhead) का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Closed filled arrowhead",
+        "Slashed arrowhead",
+        "Dot arrowhead",
+        "Open arrowhead"
+      ],
+      "hi": [
+        "संवृत भरा हुआ वाणाग्र (Closed filled arrowhead)",
+        "विवृत वाणाग्र (Open arrowhead)",
+        "स्लैश युक्त वाणाग्र (Slashed arrowhead)",
+        "बिंदु वाणाग्र (Dot arrowhead)"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Closed filled arrowhead). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (संवृत भरा हुआ वाणाग्र (Closed filled arrowhead))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 17,
+    "shiftQuestionNo": 17,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the function of RAM in a desktop computer?",
+      "hi": "डेस्कटॉप कं प्यूटर में RAM का क्या कार्य है ?"
+    },
+    "options": {
+      "en": [
+        "Permanent storage of files and folders",
+        "Temporary data storage for running applications",
+        "Processing data and performing calculations",
+        "Storing system backup"
+      ],
+      "hi": [
+        "एप्लिके शन रन करने के लिए अस्थायी डेटा संग्रहित करना",
+        "डेटा प्रोसेस करना और गणना करना",
+        "सिस्टम बैकअप को संग्रहित करना",
+        "फाइलों और फ़ोल्डरों को स्थायी रूप से संग्रहित करना"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Temporary data storage for running applications). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (एप्लिके शन रन करने के लिए अस्थायी डेटा संग्रहित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 18,
+    "shiftQuestionNo": 18,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "An apprentice needs to make a rectangular opening in a metal plate with accurate edges and sharp corners. Which combination of fitting tools is most suitable?",
+      "hi": "एक प्रशिक्षु को धातु की प्लेट में परिशुद्ध किनारों और नुकीले कोनों के साथ एक आयताकार छिद्र बनाना है। इसके लिए फिटिंग टूल का कौन - सा संयोजन सर्वाधिक उपयुक्त है ?"
+    },
+    "options": {
+      "en": [
+        "Round file and center punch for corner shaping work",
+        "Surface plate and scriber for cutting and finishing edges",
+        "Try square and flat file for layout and edge shaping",
+        "Hacksaw and flat file for cutting and edge finishing"
+      ],
+      "hi": [
+        "किनारों को काटने और परिष्कृ त करने के लिए पृष्ठ पट्टिका और स्क्राइबर",
+        "कर्तन और किनारों को परिष्कृ त करने के लिए हैक्सॉ और चपटी रेती",
+        "लेआउट और किनारों को आकार देने के लिए ट्राय स्क्वायर और चपटी रेती",
+        "कोनों को आकार देने के कार्य के लिए गोल रेती और सेंटर पंच"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Hacksaw and flat file for cutting and edge finishing). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (कर्तन और किनारों को परिष्कृ त करने के लिए हैक्सॉ और चपटी रेती)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 19,
+    "shiftQuestionNo": 19,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In quantization process for a Pulse code modulation system, a sampled version of a continuous analog signal are mapped to what type of values?",
+      "hi": "पल्स कोड मॉडुलन तंत्र के क्वांटमीकरण प्रक्रिया में , एक सतत एनालॉग सिग्नल के प्रतिदर्शित संस्करण को किस प्रकार के मानों में मैप (mapped) किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "A finite set of discrete Binary levels",
+        "Random values",
+        "An infinite set of discrete Binary levels",
+        "Analog values only"
+      ],
+      "hi": [
+        "विविक्त बाइनरी स्तरों के एक अपरिमित समुच्चय",
+        "केवल एनालॉग मान",
+        "यादृच्छिक मान",
+        "विविक्त बाइनरी स्तरों के एक परिमित समुच्चय"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (A finite set of discrete Binary levels). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (विविक्त बाइनरी स्तरों के एक परिमित समुच्चय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 20,
+    "shiftQuestionNo": 20,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which type of charge carriers mainly control current in a Field Effect Transistor (FET)?",
+      "hi": "फील्ड इफे क्ट ट्रांजिस्टर (FET) में धारा का नियंत्रण मुख्य रूप से किस प्रकार के आवेश वाहकों द्वारा किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Electrons and holes together",
+        "Minority carriers only",
+        "Both minority and majority carriers",
+        "Majority carriers only"
+      ],
+      "hi": [
+        "केवल अल्पसंख्यक वाहक",
+        "अल्पसंख्यक और बहुसंख्यक दोनों वाहक",
+        "इलेक्ट्रॉन और होल , एक साथ",
+        "केवल बहुसंख्यक वाहक"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Majority carriers only). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (केवल बहुसंख्यक वाहक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 21,
+    "shiftQuestionNo": 21,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A magnetic path carries a flux density of 0.8 Tesla (T) through an area of 15 cm 2 . What is the magnetic flux (in weber)?",
+      "hi": "एक चुंबकीय पथ , 15 cm 2 के क्षेत्रफल से 0.8 Tesla (T) का फ्लक्स घनत्व वहन करता है। चुंबकीय फ्लक्स (weber में ) कितना है ?"
+    },
+    "options": {
+      "en": [
+        "1.2 Wb",
+        "0.0012 Wb",
+        "0.012 Wb",
+        "0.12 Wb"
+      ],
+      "hi": [
+        "0.12 Wb",
+        "0.0012 Wb",
+        "0.012 Wb",
+        "1.2 Wb"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (0.0012 Wb). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (0.0012 Wb)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 22,
+    "shiftQuestionNo": 22,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "For a circuit to function as an oscillator and produce sustained sinusoidal output, the feedback applied must be:",
+      "hi": "किसी परिपथ को दोलित्र (oscillator) के रूप में कार्य करने तथा अविरत ज्यावक्रीय आउटपुट उत्पन्न करने के लिए , अनुप्रयुक्त फीडबैक क्या होना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Zero feedback to avoid distortion",
+        "Random feedback depending on input signal",
+        "Positive feedback with proper phase",
+        "Negative feedback to stabilize gain"
+      ],
+      "hi": [
+        "इनपुट सिग्नल के आधार पर यादृच्छिक फीडबैक",
+        "विरूपण से बचने के लिए शून्य फीडबैक",
+        "लब्धि को स्थिरीकृ त करने के लिए ऋणात्मक फीडबैक",
+        "उचित फेज के साथ धनात्मक फीडबैक"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Positive feedback with proper phase). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (उचित फेज के साथ धनात्मक फीडबैक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 23,
+    "shiftQuestionNo": 23,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which single logic gate can be used to implement the Boolean equation Y = A + B in a digital circuit?",
+      "hi": "किसी डिजिटल परिपथ में बूलियन समीकरण Y = A + B को लागू करने के लिए किस एकल लॉजिक गेट का उपयोग किया जा सकता है ?"
+    },
+    "options": {
+      "en": [
+        "NAND gate",
+        "AND gate",
+        "NOT gate",
+        "OR gate"
+      ],
+      "hi": [
+        "NOT गेट",
+        "OR गेट",
+        "NAND गेट",
+        "AND गेट"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (OR gate). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (OR गेट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 24,
+    "shiftQuestionNo": 24,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A resistor is marked with the bands Yellow, Violet, Orange, and Silver. Which statement is correct regarding the resistance value of the resistor?",
+      "hi": "एक प्रतिरोधक को पीले , बैंगनी , नारंगी और सिल्वर बैंड से चिह्नित किया गया है। प्रतिरोधक के प्रतिरोध मान के संबंध में कौन - सा कथन सही है ?"
+    },
+    "options": {
+      "en": [
+        "Its value is 470 kΩ with ±20% tolerance",
+        "Its value is 47 kΩ with ±10% tolerance",
+        "Its value is 47 Ω with ±10% tolerance",
+        "Its value is 4.7 kΩ with ±5% tolerance"
+      ],
+      "hi": [
+        "इसका मान 4.7 kΩ है जहां ± 5% सह्यता है",
+        "इसका मान 47 Ω है जहां ±10% सह्यता है",
+        "इसका मान 47 kΩ है जहां ±10% सह्यता है",
+        "इसका मान 470 kΩ है जहां ± 20% सह्यता है"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Its value is 47 kΩ with ±10% tolerance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (इसका मान 47 kΩ है जहां ±10% सह्यता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 25,
+    "shiftQuestionNo": 25,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Two wires are made of the same material and have the same length. Wire A has a cross-sectional area of 2 mm 2 , and Wire B has a cross-sectional area of 5 mm 2 . Which wire has the greater resistance?",
+      "hi": "दो तार , समान पदार्थ के बने हैं और उनकी लंबाई भी समान है। तार A का अनुप्रस्थ - काट क्षेत्रफल 2 mm 2 है , और तार B का अनुप्रस्थ - काट क्षेत्रफल 5 mm 2 है। किस तार का प्रतिरोध अधिक है ?"
+    },
+    "options": {
+      "en": [
+        "Resistance cannot be compared without knowing voltage",
+        "Both have equal resistance because length is the same",
+        "Wire A, because smaller area gives higher resistance",
+        "Wire B, because larger area gives higher resistance"
+      ],
+      "hi": [
+        "दोनों में प्रतिरोध बराबर है क्योंकि लंबाई , समान है",
+        "तार A, क्योंकि कम क्षेत्रफल होने पर प्रतिरोध अधिक होता है",
+        "वोल्टता जाने बिना प्रतिरोध की तुलना नहीं की जा सकती है",
+        "तार B, क्योंकि बड़ा क्षेत्रफल होने पर प्रतिरोध अधिक होता है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Wire A, because smaller area gives higher resistance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (तार A, क्योंकि कम क्षेत्रफल होने पर प्रतिरोध अधिक होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 26,
+    "shiftQuestionNo": 26,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a moderately doped p-type semiconductor at T = 300 K, where is the Fermi level E located relative to the intrinsic F Fermi level E ? i",
+      "hi": "T = 300 K पर मध्यम रूप से डोपित p- प्ररूपी अर्धचालक में , नैज फर्मी स्तर E के सापेक्ष फर्मी स्तर E कहाँ स्थित होता है ? i F"
+    },
+    "options": {
+      "en": [
+        "At the center of band gap",
+        "Outside band gap",
+        "Near valence band and below the intrinsic Fermi level",
+        "Near conduction band and above the intrinsic Fermi Level"
+      ],
+      "hi": [
+        "बैंड अंतराल के बाहर",
+        "चालन बैंड के निकट और नैज फर्मी स्तर के ऊपर",
+        "बैंड अंतराल के केंद्र पर",
+        "संयोजकता बैंड के निकट और नैज फर्मी स्तर के नीचे"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Near valence band and below the intrinsic Fermi level). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (संयोजकता बैंड के निकट और नैज फर्मी स्तर के नीचे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 27,
+    "shiftQuestionNo": 27,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "On which principle does a Resistance Temperature Detector (RTD) work?",
+      "hi": "रेजिस्टेंस टेम्परेचर डिटेक्टर (Resistance Temperature Detector - RTD) किस सिद्धांत पर कार्य करता है ?"
+    },
+    "options": {
+      "en": [
+        "Voltage decreases with increase in temperature",
+        "Resistance remains constant with temperature",
+        "Resistance decreases with increase in temperature",
+        "Resistance increases with increase in temperature"
+      ],
+      "hi": [
+        "तापमान में वृद्धि होने पर प्रतिरोध घटता है",
+        "तापमान के साथ प्रतिरोध स्थिर रहता है",
+        "तापमान में वृद्धि होने पर वोल्टता घटती है",
+        "तापमान में वृद्धि होने पर प्रतिरोध में वृद्धि होती है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Resistance increases with increase in temperature). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (तापमान में वृद्धि होने पर प्रतिरोध में वृद्धि होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 28,
+    "shiftQuestionNo": 28,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which scenario best demonstrates the use of IGBT in a real-world application?",
+      "hi": "निम्नलिखित में से कौन - सा परिदृश्य , वास्तविक अनुप्रयोग में IGBT के उपयोग को सर्वोत्तम रूप में दर्शाता है ?"
+    },
+    "options": {
+      "en": [
+        "Protecting a circuit from voltage surges",
+        "Providing voltage regulation in a small device",
+        "Controlling the speed of an industrial motor",
+        "Amplifying small signals in a radio circuit"
+      ],
+      "hi": [
+        "औद्योगिक मोटर की चाल को नियंत्रित करना",
+        "रेडियो परिपथ में छोटे संके तों को प्रवर्धित करना",
+        "परिपथ को वोल्‍टता प्रोत्क र्ष से सुरक्षित करना",
+        "छोटे उपकरण में वोल्टता नियमन प्रदान करना"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Controlling the speed of an industrial motor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (औद्योगिक मोटर की चाल को नियंत्रित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 29,
+    "shiftQuestionNo": 29,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which illustrates the application of a voltage amplifier?",
+      "hi": "निम्नलिखित में से कौन - सा विकल्प वोल्टता प्रवर्धक के अनुप्रयोग को दर्शाता है ?"
+    },
+    "options": {
+      "en": [
+        "Enhancing the voltage of a sensor output before sending it to a microcontroller",
+        "Converting digital signals into analog",
+        "Filtering unwanted frequencies",
+        "Measuring resistance directly"
+      ],
+      "hi": [
+        "अवांछित आवृत्तियों को फ़िल्टर करना",
+        "डिजिटल सिग्नल को एनालॉग में परिवर्तित करना",
+        "प्रतिरोध को प्रत्यक्ष रूप से मापना",
+        "किसी सेंसर के आउटपुट को माइक्रोकं ट्रोलर को भेजने से पहले उसकी वोल्टता को बढ़ाना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Enhancing the voltage of a sensor output before sending it to a microcontroller). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (किसी सेंसर के आउटपुट को माइक्रोकं ट्रोलर को भेजने से पहले उसकी वोल्टता को बढ़ाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 30,
+    "shiftQuestionNo": 30,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "While servicing an inverter-based stabilizer, you notice the relay contacts are heavily pitted. What is the best preventive measure when replacing the relay?",
+      "hi": "एक इन्वर्टर - आधारित स्टेबलाइजर (stabilizer) की सर्विसिंग करते समय , आप देखते हैं कि रिले संपर्क अत्यधिक गर्तित (pitted) हैं। रिले को प्रतिस्थापित करते समय सर्वोत्तम निवारक उपाय क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Select a relay with lower coil resistance",
+        "Use a relay with smaller contacts",
+        "Lower the relay switching voltage",
+        "Choose a relay rated for higher contact current"
+      ],
+      "hi": [
+        "उच्च संपर्क धारा रेटिंग वाले रिले का चयन करना",
+        "कम कुं डली प्रतिरोध वाले रिले का चयन करना",
+        "छोटे संपर्कों वाले रिले का उपयोग करना",
+        "रिले स्विचन वोल्टता को कम करना"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Choose a relay rated for higher contact current). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (उच्च संपर्क धारा रेटिंग वाले रिले का चयन करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 31,
+    "shiftQuestionNo": 31,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "The SI unit of magnetic flux density is:",
+      "hi": "चुंबकीय फ्लक्स घनत्व का SI मात्रक क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Ampere-turn",
+        "Henry",
+        "Weber",
+        "Tesla"
+      ],
+      "hi": [
+        "ऐम्पियर - टर्न (Ampere-turn)",
+        "टेस्ला (Tesla)",
+        "वेबर (Weber)",
+        "हेनरी (Henry)"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Tesla). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (टेस्ला (Tesla))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 32,
+    "shiftQuestionNo": 32,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which type of resistance is best measured using a Series type Ohm meter?",
+      "hi": "किस प्रकार के प्रतिरोध को श्रेणी प्ररूप ओम मीटर (Series type Ohm meter) का उपयोग करके सर्वोत्तम रूप से मापा जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Capacitance value of a circuit",
+        "Low resistance in less than 1 Ohm range",
+        "Very high resistance Grater than 100 Mega-ohm range",
+        "Medium resistance ranging from few ohms to kilo-ohms"
+      ],
+      "hi": [
+        "किसी परिपथ का धारिता मान",
+        "100 मेगा - ओम से अधिक रेंज वाला अति उच्च प्रतिरोध",
+        "1 ओम से कम रेंज वाला निम्न प्रतिरोध",
+        "कु छ ओम से लेकर किलो - ओम तक रेंज वाला मध्यम प्रतिरोध"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Medium resistance ranging from few ohms to kilo-ohms). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (कु छ ओम से लेकर किलो - ओम तक रेंज वाला मध्यम प्रतिरोध)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 33,
+    "shiftQuestionNo": 33,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "During lab practice, if you connect the input of a NOT gate to a logic low (0), what practical output should you observe?",
+      "hi": "प्रयोगशाला अभ्यास के दौरान , यदि आप एक NOT गेट के इनपुट को लॉजिक लो (0) से जोड़ते हैं , तो आपको क्या प्रैक्टिकल आउटपुट प्रेक्षित होगा ?"
+    },
+    "options": {
+      "en": [
+        "Undefined",
+        "Logic high (1)",
+        "Logic low (0)",
+        "No change"
+      ],
+      "hi": [
+        "लॉजिक लो (0)",
+        "लॉजिक हाई (1)",
+        "अपरिभाषित",
+        "कोई परिवर्तन नहीं"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Logic high (1)). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (लॉजिक हाई (1))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 34,
+    "shiftQuestionNo": 34,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which of the following best describes the Internet of Things?",
+      "hi": "निम्नलिखित में से कौन - सा विकल्प , इंटरनेट ऑफ थिंग्स (Internet of Things) का सर्वोत्तम वर्णन करता है ?"
+    },
+    "options": {
+      "en": [
+        "A single device connected to the internet",
+        "Only computers communicating online",
+        "A type of programming language",
+        "A network of connected devices sharing data"
+      ],
+      "hi": [
+        "डेटा शेयर करने वाले परस्पर जुड़े उपकरणों का एक नेटवर्क",
+        "एक प्रकार की प्रोग्रामिंग भाषा",
+        "केवल ऑनलाइन संचार करने वाले कं प्यूटर",
+        "इंटरनेट से जुड़ा एक एकल उपकरण"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (A network of connected devices sharing data). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (डेटा शेयर करने वाले परस्पर जुड़े उपकरणों का एक नेटवर्क)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 35,
+    "shiftQuestionNo": 35,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which of the following materials has the lowest electrical conductivity and should be avoided for connecting sensitive measurement instruments?",
+      "hi": "निम्नलिखित में से किस पदार्थ की विद्युत चालकता न्यूनतम होती है और इससे सुग्राही मापन यंत्रों को जोड़ने से बचना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Iron",
+        "Silver",
+        "Aluminum",
+        "Copper"
+      ],
+      "hi": [
+        "चांदी",
+        "ऐलुमिनियम",
+        "लोहा",
+        "तांबा"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Iron). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (लोहा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 36,
+    "shiftQuestionNo": 36,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the purpose of the base region in an NPN transistor?",
+      "hi": "NPN ट्रांजिस्टर में आधार क्षेत्र का क्या उद्देश्य है ?"
+    },
+    "options": {
+      "en": [
+        "To dissipate heat",
+        "To control the number of electrons passing from emitter to collector",
+        "To act as the main current path",
+        "To generate electrons for the collector"
+      ],
+      "hi": [
+        "ऊष्मा का क्षय करना",
+        "मुख्य धारा पथ के रूप में कार्य करना",
+        "उत्स र्जक से संग्राहक तक गुजरने वाले इलेक्ट्रॉनों की संख्या को नियंत्रित करना",
+        "संग्राहक के लिए इलेक्ट्रॉन उत्पन्न करना"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (To control the number of electrons passing from emitter to collector). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (उत्स र्जक से संग्राहक तक गुजरने वाले इलेक्ट्रॉनों की संख्या को नियंत्रित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 37,
+    "shiftQuestionNo": 37,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "According to engineering drawing, how is a plane surface defined?",
+      "hi": "इंजीनियरिंग ड्राइंग के अनुसार , किसी समतल पृष्ठ (plane surface) को किस प्रकार से परिभाषित किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "A surface formed by rotating a straight line about a fixed axis",
+        "A surface having the shortest path between any two points",
+        "A surface in which the line joining any two points lies entirely within it",
+        "A surface kept parallel to one principal reference plane"
+      ],
+      "hi": [
+        "एक मुख्य निर्देश समतल के समानांतर रखा गया पृष्ठ",
+        "किन्हीं भी दो बिंदुओं के बीच सबसे छोटे मार्ग वाला पृष्ठ",
+        "किसी सरल रेखा को एक निश्चित अक्ष के परितः घूर्णित करने से निर्मित पृष्ठ",
+        "एक पृष्ठ जिसमें किन्हीं भी दो बिंदुओं को जोड़ने वाली रेखा पूरी तरह से उसके भीतर स्थित होती है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (A surface in which the line joining any two points lies entirely within it). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (एक पृष्ठ जिसमें किन्हीं भी दो बिंदुओं को जोड़ने वाली रेखा पूरी तरह से उसके भीतर स्थित होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 38,
+    "shiftQuestionNo": 38,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In premium solid-state architectures requiring high color rendering indices, what unique structural method is used to construct a standard commercial white LED light bulb? Wiring three separate red, green, and blue",
+      "hi": "उच्च वर्ण रेंडरिंग इंडिसेस (High Color Rendering indices) की आवश्यकता वाले प्रीमियम ठोस - अवस्था (Solid-state) आर्किटेक्चर में , एक मानक व्यावसायिक श्वेत LED प्रकाश बल्ब के निर्माण के लिए किस विशिष्ट संरचनात्मक विधि का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "monochromatic diodes in an absolute series loop fed by an unrectified AC power supply Forcing a direct current stream backward through an",
+        "ultra-thin tungsten filament mounted between a pair of direct bandgap substrates Packing an isolated high-pressure low-temperature",
+        "mercury vapor gas cell directly inside a silicon diode block Depositing a yellow cerium-doped yttrium",
+        "aluminum garnet phosphor coating directly over a blue indium gallium nitride semiconductor die"
+      ],
+      "hi": [
+        "अदिष्टकृ त AC विद्युत प्रदाय से संचालित पूर्ण श्रेणी लूप में तीन अलग - अलग लाल , हरे और नीले एकवर्णी डायोड् स की वायरिंग एक विलगित उच्च - दाब निम्न - ताप मर्क री वाष्प गैस सेल को सीधे",
+        "सिलिकॉन डायोड ब्लॉक के अंदर पैक करना",
+        "प्रत्यक्ष बैंडगैप अवस्तरों के एक युग्म के बीच लगे अति - पतले टंग्स्टेन तंतु के माध्यम से दिष्ट धारा प्रवाह को पश्चगामी रूप से प्रवाहित करना नीले इंडियम गैलियम नाइट्राइड अर्धचालक डाई पर सीधे पीले",
+        "सीरियम - डोपित इट्रियम ऐलुमिनियम गार्नेट फॉस्फर विलेपन निक्षेपित करना"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (aluminum garnet phosphor coating directly over a blue indium gallium nitride semiconductor die). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (सीरियम - डोपित इट्रियम ऐलुमिनियम गार्नेट फॉस्फर विलेपन निक्षेपित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 39,
+    "shiftQuestionNo": 39,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a Pulse Position Modulation (PPM) signal, which of the following pulse parameters remain constant?",
+      "hi": "किसी पल्‍स पोजीशन मॉड्युलेशन (PPM) सिग्नल में , निम्नलिखित में से कौन - सा स्पंद प्राचल (pulse parameter) स्थिर रहता है ?"
+    },
+    "options": {
+      "en": [
+        "Pulse amplitude only",
+        "Pulse width and amplitude both",
+        "Pulse position",
+        "Pulse width only"
+      ],
+      "hi": [
+        "स्पंद विस्तार और आयाम दोनों",
+        "केवल स्पंद आयाम",
+        "स्पंद स्थिति",
+        "केवल स्पंद विस्तार"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Pulse width and amplitude both). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (स्पंद विस्तार और आयाम दोनों)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 40,
+    "shiftQuestionNo": 40,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What happens to the gain of a non-inverting amplifier using OP-AMP if the feedback resistor value is increased by 5 % while keeping the input resistor constant? (Assuming the OP-AMP remains in linear range for operation.)",
+      "hi": "यदि इनपुट प्रतिरोधक को अपरिवर्तित रखते हुए फीडबैक प्रतिरोधक के मान में 5% की वृद्धि कर दी जाए , तो OP-AMP का उपयोग करने वाले किसी अप्रतिलोमी प्रवर्धक (non-inverting amplifier) की लब्धि पर क्या प्रभाव पड़ता है ? ( यह मानते हुए कि प्रचालन के लिए OP-AMP, रैखिक रेंज में बना रहता है। )"
+    },
+    "options": {
+      "en": [
+        "The gain remains constant",
+        "The gain decreases",
+        "The gain changes unpredictably",
+        "The gain increases"
+      ],
+      "hi": [
+        "लब्धि में वृद्धि होती है",
+        "लब्धि में अप्रत्याशित रूप से परिवर्तन होता है",
+        "लब्धि में कमी होती है",
+        "लब्धि अपरिवर्तित रहती है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (The gain increases). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (लब्धि में वृद्धि होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 41,
+    "shiftQuestionNo": 41,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which port is typically used to connect a monitor to the motherboard in computer system?",
+      "hi": "कं प्यूटर सिस्टम में मॉनिटर को मदरबोर्ड से कनेक्ट करने के लिए सामान्यतः किस पोर्ट का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "SATA port",
+        "PATA port",
+        "VGA port",
+        "Ethernet port"
+      ],
+      "hi": [
+        "PATA पोर्ट",
+        "VGA पोर्ट",
+        "SATA पोर्ट",
+        "ईथरनेट पोर्ट"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (VGA port). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (VGA पोर्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 42,
+    "shiftQuestionNo": 42,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A silicon sample is doped with boron in a lab. Identify the semiconductor type.",
+      "hi": "प्रयोगशाला में सिलिकॉन के नमूने को बोरॉन के साथ अपमिश्रित किया जाता है। अर्धचालक के प्रकार की पहचान कीजिए।"
+    },
+    "options": {
+      "en": [
+        "Intrinsic semiconductor",
+        "N-type semiconductor",
+        "Insulator",
+        "P-type semiconductor"
+      ],
+      "hi": [
+        "P- प्ररूप अर्धचालक",
+        "रोधक",
+        "N- प्ररूप अर्धचालक",
+        "नैज अर्धचालक"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (P-type semiconductor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (P- प्ररूप अर्धचालक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 43,
+    "shiftQuestionNo": 43,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "While fixing a circuit board, which method is best for removing a surface-mount component without ripping or damaging the metal copper tracks?",
+      "hi": "परिपथ बोर्ड को ठीक करते समय , मेटल कॉपर ट्रैक्स को उखाड़े या क्षति पहुँचाए बिना सरफे स - माउंट कं पोनेंट को हटाने का सबसे अच्छा तरीका कौन - सा है ?"
+    },
+    "options": {
+      "en": [
+        "Applying force with a heated tweezer to pull off the component",
+        "Applying high heat quickly with a basic soldering iron and prying tool",
+        "Using chemical solvent to dissolve solder and remove the component",
+        "Using a temperature-controlled soldering station with proper desoldering tools"
+      ],
+      "hi": [
+        "घटक को खींचकर निकालने के लिए एक तप्त चिमटी (heated tweezer) के साथ बल प्रयोग करना",
+        "सोल्डर को गलाने और घटक को हटाने के लिए रासायनिक विलायक का उपयोग करना मूल सोल्डरन आयरन और प्राइंग टूल (prying tool) के साथ तेजी",
+        "से उच्च ऊष्मा प्रयुक्त करना",
+        "उचित डिसोल्डरिंग टूल्स के साथ एक ताप - नियंत्रित सोल्डरन स्टेशन का उपयोग करना"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Using a temperature-controlled soldering station with proper desoldering tools). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (उचित डिसोल्डरिंग टूल्स के साथ एक ताप - नियंत्रित सोल्डरन स्टेशन का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 44,
+    "shiftQuestionNo": 44,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "The surface-mount soldering defect where unequal surface tension causes a chip component to lift vertically off one pad is known as __________, which can be mitigated during manual rework by using __________.",
+      "hi": "सर्फे स - माउंट सोल्डरिंग का वह दोष जहाँ असमान पृष्ठ तनाव के कारण एक चिप घटक लंबवत रूप से एक पैड से उठ जाता है , उसे __________ कहा जाता है। इसे मैनुअल रिवर्क के दौरान ____________ का उपयोग करके कम किया जा सकता है।"
+    },
+    "options": {
+      "en": [
+        "bridging; an unfluxed copper braid",
+        "cold joint; a lower melting-point solder paste",
+        "de-wetting; a higher-wattage chisel tip",
+        "tombstoning; split-tip soldering iron"
+      ],
+      "hi": [
+        "टूम्बस्टोनिंग (tombstoning); स्प्लिट - टिप सोल्डरिंग आयरन",
+        "कोल्ड जॉइंट (cold joint); निम्न गलनांक वाला सोल्डर पेस्ट सेतुबंधन (bridging); फ्लक्स रहित कॉपर वेणी (copper",
+        "braid)",
+        "डी - वेटिंग (de-wetting); हाई - वाटेज चीज़ेल टिप"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (tombstoning; split-tip soldering iron). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (टूम्बस्टोनिंग (tombstoning); स्प्लिट - टिप सोल्डरिंग आयरन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 45,
+    "shiftQuestionNo": 45,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "When using a PMMC multimeter to measure current, how should the instrument be connected in the circuit?",
+      "hi": "जब किसी PMMC मल्टीमीटर का उपयोग करके धारा को मापा जाता है , तो परिपथ में मापयंत्र को कै से जोड़ा जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "In parallel with the load",
+        "Across the voltage source",
+        "Across the resistor only",
+        "In series with the circuit"
+      ],
+      "hi": [
+        "परिपथ के साथ श्रेणीक्रम में",
+        "लोड के समांतरक्रम में",
+        "वोल्टता स्रोत के सिरों पर",
+        "केवल प्रतिरोधक के सिरों पर"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (In series with the circuit). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (परिपथ के साथ श्रेणीक्रम में)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 46,
+    "shiftQuestionNo": 46,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A lamp circuit carries a charge of 24 coulombs in 8 seconds. What is the current in the circuit?",
+      "hi": "एक लैंप परिपथ 8 सेकं ड में 24 कू लॉम का आवेश वहन करता है। परिपथ में धारा कितनी है ?"
+    },
+    "options": {
+      "en": [
+        "1/3 A",
+        "3 A",
+        "8 A",
+        "2 A"
+      ],
+      "hi": [
+        "1/3 A",
+        "2 A",
+        "8 A",
+        "3 A"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (3 A). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (3 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 47,
+    "shiftQuestionNo": 47,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In the output characteristics of a common-emitter configuration, a family of curves is obtained by varying V CE while keeping which quantity fixed? (Symbols have their usual meaning.)",
+      "hi": "एक उभयनिष्ठ - उत्स र्जक विन्यास के आउटपुट अभिलक्षणों में , किस राशि को स्थिर रखते हुए परिवर्ती V द्वारा वक्र - कु ल (family of curves) CE प्राप्त किया जाता है ? ( प्रतीकों का सामान्य अर्थ है )"
+    },
+    "options": {
+      "en": [
+        "I C​",
+        "V CE​",
+        "I B​",
+        "V CC​"
+      ],
+      "hi": [
+        "I C​",
+        "V CE​",
+        "I B​",
+        "V CC​"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (I B​). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (I B​)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 48,
+    "shiftQuestionNo": 48,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "An industrial environment with significant power line interference is causing issues in analog communication. Why would phase modulation be selected over amplitude modulation for the analog signaling in such an environment?",
+      "hi": "महत्वपूर्ण विद्युत लाइन व्यतिकरण वाला एक औद्योगिक परिवेश , एनालॉग संचार में समस्याओं का कारण बन रहा है। ऐसे परिवेश में एनालॉग सिग्नलिंग के लिए आयाम मॉडुलन की तुलना में फेज मॉडुलन का चयन क्यों किया जाएगा ?"
+    },
+    "options": {
+      "en": [
+        "Phase modulation guarantees maximum error in noisy environments",
+        "Phase modulation uses less power than amplitude modulation in all cases",
+        "Phase modulation requires less complex receivers than amplitude modulation",
+        "Phase modulation is less affected by amplitude variations caused by noise"
+      ],
+      "hi": [
+        "फेज मॉडुलन , रव वाले परिवेश में अधिकतम त्रुटि की गारंटी देता है",
+        "रव के कारण आयाम भिन्नताओं से फेज मॉडुलन कम प्रभावित होता है",
+        "फेज मॉडूलन में आयाम मॉडुलन की तुलना में कम जटिल रिसीवरों की आवश्यकता होती है सभी स्थितियों में फेज मॉडुलन , आयाम मॉडुलन की तुलना में कम",
+        "शक्ति का उपयोग करता है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Phase modulation is less affected by amplitude variations caused by noise). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (रव के कारण आयाम भिन्नताओं से फेज मॉडुलन कम प्रभावित होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 49,
+    "shiftQuestionNo": 49,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "During an 8051 microcontroller experiment, switches are connected to Port 1. Before reading the switch status, the program writes logic ‘1’ to the port pins. What is the purpose of this operation?",
+      "hi": "8051 माइक्रोकं ट्रोलर के एक प्रयोग के दौरान , स्विचों को पोर्ट 1 से जोड़ा जाता हैं। स्विच की स्थिति को रीड करने से पहले , प्रोग्राम , पोर्ट पिन पर लॉजिक ‘1’ राइट (write) करता है। इस प्रचालन का क्या उद्देश्य है ?"
+    },
+    "options": {
+      "en": [
+        "To configure the port pins as output",
+        "To configure the port pins as input",
+        "To clear the data stored in the port register",
+        "To enable serial communication"
+      ],
+      "hi": [
+        "पोर्ट पिन को आउटपुट के रूप में कॉन्फ़िगर करना",
+        "पोर्ट रजिस्टर में संग्रहीत डेटा को क्लियर करना",
+        "सीरियल कम्युनिके शन को इनेबल करना",
+        "पोर्ट पिन को इनपुट के रूप में कॉन्फ़िगर करना"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (To configure the port pins as input). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (पोर्ट पिन को इनपुट के रूप में कॉन्फ़िगर करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 50,
+    "shiftQuestionNo": 50,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a full adder circuit, under which input condition will the sum output be LOW (0)?",
+      "hi": "किसी पूर्ण योजक परिपथ (full adder circuit) में , किस इनपुट स्थिति के अंतर्गत सम आउटपुट (sum output), LOW (0) होगा ?"
+    },
+    "options": {
+      "en": [
+        "When only one input is HIGH",
+        "When all inputs are HIGH",
+        "When an odd number of inputs is HIGH",
+        "When an even number of inputs is HIGH"
+      ],
+      "hi": [
+        "जब केवल एक इनपुट HIGH हो",
+        "जब इनपुट में HIGH की संख्या सम हो",
+        "जब सभी इनपुट HIGH हो",
+        "जब इनपुट में HIGH की संख्या विषम हो"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (When an even number of inputs is HIGH). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (जब इनपुट में HIGH की संख्या सम हो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 51,
+    "shiftQuestionNo": 51,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A black rectangular SMD component near an LED driver circuit's input has a white stripe on one edge, and the board is marked with a D. What is this component and its polarity?",
+      "hi": "LED ड्राइवर परिपथ के इनपुट के निकट एक काले आयताकार SMD घटक के एक कोर पर सफे द पट्टी है और बोर्ड पर D अंकित है। यह घटक क्या है और इसकी ध्रुवता क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Capacitor; stripe is ground",
+        "Inductor; stripe is positive input",
+        "Diode; stripe is the Anode (+)",
+        "Diode; stripe is the Cathode (-)"
+      ],
+      "hi": [
+        "इंडक्टर ; पट्टी , धनात्मक इनपुट है",
+        "संधारित्र ; पट्टी , ग्राउंड है",
+        "डायोड ; पट्टी , कै थोड (-) है",
+        "डायोड ; पट्टी , एनोड (+) है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Diode; stripe is the Cathode (-)). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (डायोड ; पट्टी , कै थोड (-) है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 52,
+    "shiftQuestionNo": 52,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why is a Double-Pole (DP) Miniature Circuit Breaker (MCB) generally preferred over a Single-Pole (SP) MCB in a single-phase distribution system?",
+      "hi": "एकल - फेज वितरण प्रणाली में एकल - ध्रुवीय (SP) MCB की तुलना में द्वि - ध्रुवीय (DP) लघु परिपथ विच्छेदक (MCB) को सामान्यतः प्राथमिकता क्यों दी जाती है ?"
+    },
+    "options": {
+      "en": [
+        "It increases the fault current carrying capacity of the circuit. It simultaneously disconnects both the phase and",
+        "neutral conductors during switching or fault conditions.",
+        "It reduces the power consumption of the connected load.",
+        "It eliminates the requirement for earthing in the installation."
+      ],
+      "hi": [
+        "यह संस्थापन में भूसंपर्क न की आवश्यकता को समाप्त कर देता है",
+        "यह स्विचिंग या दोष स्थितियों के दौरान फेज और न्यू ट्रल दोनों चालकों का एक साथ वियोजित कर देता है",
+        "यह परिपथ की दोष धारा वहन क्षमता को बढ़ाता है",
+        "यह संयोजित लोड की विद्युत खपत को कम करता है"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (neutral conductors during switching or fault conditions.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह स्विचिंग या दोष स्थितियों के दौरान फेज और न्यू ट्रल दोनों चालकों का एक साथ वियोजित कर देता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 53,
+    "shiftQuestionNo": 53,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the working principle of an LVDT?",
+      "hi": "LVDT का कार्य सिद्धांत क्या है ?"
+    },
+    "options": {
+      "en": [
+        "It works by changing resistance with position",
+        "It uses the piezoelectric effect for measurement",
+        "It operates on the principle of mutual induction",
+        "It relies on the Hall effect for sensing"
+      ],
+      "hi": [
+        "यह अन्योन्य प्रेरण के सिद्धांत पर कार्य करता है",
+        "यह संवेदन के लिए हॉल प्रभाव (Hall effect) पर निर्भर करता है",
+        "यह स्थिति (position) के साथ ही प्रतिरोध बदलकर कार्य करता है",
+        "यह मापन के लिए दाब वैद्युत प्रभाव का उपयोग करता है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It operates on the principle of mutual induction). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (यह अन्योन्य प्रेरण के सिद्धांत पर कार्य करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 54,
+    "shiftQuestionNo": 54,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which type of amplifier is used at the final stage to drive a loudspeaker?",
+      "hi": "लाउडस्पीकर के परिचालन (drive) के लिए अंतिम चरण में किस प्रकार के प्रवर्धक का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Buffer amplifier",
+        "Pre-amplifier",
+        "Power amplifier",
+        "Voltage amplifier"
+      ],
+      "hi": [
+        "बफर प्रवर्धक (Buffer amplifier)",
+        "शक्ति प्रवर्धक (Power amplifier)",
+        "वोल्टता प्रवर्धक (Voltage amplifier)",
+        "पूर्व - प्रवर्धक (Pre-amplifier)"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Power amplifier). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (शक्ति प्रवर्धक (Power amplifier))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 55,
+    "shiftQuestionNo": 55,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In a lab test, three resistors of 2 Ω, 3 Ω, and 6 Ω are connected in series across a 22V DC source. What is the current through the 3 Ω resistor in the circuit?",
+      "hi": "किसी प्रयोगशाला परीक्षण में , 2 Ω, 3 Ω और 6 Ω के तीन प्रतिरोधकों को 22V DC स्रोत पर श्रेणीक्रम में संयोजित किया जाता है। परिपथ में 3 Ω प्रतिरोधक से प्रवाहित होने वाली धारा कितनी है ?"
+    },
+    "options": {
+      "en": [
+        "11 A",
+        "1 A",
+        "3 A",
+        "2 A"
+      ],
+      "hi": [
+        "1 A",
+        "3 A",
+        "2 A",
+        "11 A"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (2 A). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (2 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 56,
+    "shiftQuestionNo": 56,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "When analyzing a closed-loop circuit containing an ideal operational amplifier, what assumption must be applied regarding the currents entering the inverting and non- inverting input pins?",
+      "hi": "एक आदर्श संक्रियात्मक प्रवर्धक वाले संवृत - लूप परिपथ का विश्लेषण करते समय , प्रतिलोमी और अप्रतिलोमी इनपुट पिनों में प्रवेश करने वाली धाराओं के संबंध में कौन - सी अभिधारणा अनुप्रयुक्त की जानी चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "No current flows into either input terminal",
+        "A small bias current flows into each terminal",
+        "Current flows only into the non-inverting terminal",
+        "Equal and opposite currents flow into both terminals"
+      ],
+      "hi": [
+        "किसी भी इनपुट टर्मिनल में कोई धारा प्रवाहित नहीं होती है",
+        "दोनों टर्मिनलों में समान और विपरीत धाराएं प्रवाहित होती हैं",
+        "केवल अप्रतिलोमी टर्मिनल में धारा प्रवाहित होती है",
+        "प्रत्येक टर्मिनल में एक लघु बायस धारा प्रवाहित होती है"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (No current flows into either input terminal). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (किसी भी इनपुट टर्मिनल में कोई धारा प्रवाहित नहीं होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 57,
+    "shiftQuestionNo": 57,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "A machinist is required to mark the axis of a drilled hole on an engineering drawing. Which line type according to BIS SP 46-2003 should be used for the axis?",
+      "hi": "एक मशीनिस्ट को इंजीनियरिंग ड्राइंग पर ड्रिल किए गए छिद्र के अक्ष को मार्क करने की आवश्‍यकता होती है। BIS SP 46-2003 के अनुसार अक्ष के लिए किस प्रकार की रेखा का उपयोग किया जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Chain thin line",
+        "Dashed thin line",
+        "Continuous thick line",
+        "Thick zig-zag line"
+      ],
+      "hi": [
+        "चेन पतली रेखा (Chain thin line)",
+        "सतत मोटी रेखा (Continuous thick line)",
+        "डैशित पतली रेखा (Dashed thin line)",
+        "मोटी टेढ़ी - मेढ़ी रेखा (Thick zig-zag line)"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Chain thin line). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (चेन पतली रेखा (Chain thin line))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 58,
+    "shiftQuestionNo": 58,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "When building a basic 6 by 4 LED matrix display, what is the total number of individual LEDs required to complete the grid?",
+      "hi": "एक बेसिक 6x4 LED मैट्रिक्स डिस्प्ले बनाते समय , ग्रिड को पूरा करने के लिए कु ल कितने अलग - अलग LED की आवश्यकता होती है ?"
+    },
+    "options": {
+      "en": [
+        "24 LEDs",
+        "2 LEDs",
+        "64 LEDs",
+        "10 LEDs"
+      ],
+      "hi": [
+        "24 LED",
+        "64 LED",
+        "2 LED",
+        "10 LED"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (24 LEDs). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (24 LED)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 59,
+    "shiftQuestionNo": 59,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the purpose of the I/O shield supplied with a motherboard?",
+      "hi": "मदरबोर्ड (motherboard) के साथ दी जाने वाली I/O शील्ड का प्रयोजन क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Maintain the cooling of the cabinet",
+        "Improve processor speed",
+        "Cover and protect unused RAM slots",
+        "Align and protect rear motherboard ports"
+      ],
+      "hi": [
+        "प्रोसेसर की स्पीड में सुधार करना",
+        "कै बिनेट के शीतलन को बनाए रखना",
+        "अप्रयुक्त RAM स्लॉट्स को कवर करना और सुरक्षित करना",
+        "मदरबोर्ड के पिछले पोर्ट्स को संरेखित और सुरक्षित करना"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Align and protect rear motherboard ports). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (मदरबोर्ड के पिछले पोर्ट्स को संरेखित और सुरक्षित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 60,
+    "shiftQuestionNo": 60,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "To convert an op-amp integrator into a practical integrator (avoiding low-frequency saturation), which component is typically added in parallel with the feedback capacitor?",
+      "hi": "एक ऑप - एम्प इंटीग्रेटर (op-amp integrator) को व्यावहारिक इंटीग्रेटर ( निम्न - आवृत्ति संतृप्ति से बचना ) में रूपांतरित करने के लिए , निम्नलिखित में किस घटक को प्रायः फीडबैक संधारित्र के साथ समांतर - क्रम में जोड़ा जाता है ?"
+    },
+    "options": {
+      "en": [
+        "A second capacitor",
+        "A resistor",
+        "A diode",
+        "An inductor"
+      ],
+      "hi": [
+        "एक प्रेरक",
+        "एक दूसरा संधारित्र",
+        "एक प्रतिरोधक",
+        "एक डायोड"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (A resistor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (एक प्रतिरोधक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 61,
+    "shiftQuestionNo": 61,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which terminal is unique to an IGBT but not found in a BJT?",
+      "hi": "IGBT में कौन - सा अद्वितीय टर्मिनल पाया जाता है जो BJT में नहीं पाया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Base",
+        "Emitter",
+        "Gate",
+        "Collector"
+      ],
+      "hi": [
+        "कलेक्टर",
+        "एमिटर",
+        "बेस",
+        "गेट"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Gate). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (गेट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 62,
+    "shiftQuestionNo": 62,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "An electrician is required to test a live electrical panel. Which PPE should be worn to protect the hands from electrical hazards?",
+      "hi": "एक इलेक्ट्रीशियन को सक्रिय विद्युत पैनल का परीक्षण करना है। विद्युत खतरों से हाथों की सुरक्षा के लिए कौन - सा PPE पहना जाना चाहिए ?"
+    },
+    "options": {
+      "en": [
+        "Safety helmet",
+        "Insulated gloves",
+        "Safety goggles",
+        "Ear plugs"
+      ],
+      "hi": [
+        "सुरक्षा चश्मा (Safety goggles)",
+        "सुरक्षा हेलमेट (Safety helmet)",
+        "विद्युत - रोधित दस्ताने (Insulated gloves)",
+        "ईयर प्लग (Ear plugs)"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Insulated gloves). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विद्युत - रोधित दस्ताने (Insulated gloves))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 63,
+    "shiftQuestionNo": 63,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which pin on the IC-555 Timer is used to discharge the timing capacitor when it is operated as an astable multivibrator?",
+      "hi": "जब IC-555 टाइमर को अस्थायी बहुकं पित्र (Astable Multivibrator) के रूप में प्रचालित किया जाता है , तो टाइमिंग कै पेसिटर को निरावेशित करने के लिए किस पिन (Pin) का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Pin 2",
+        "Pin 6",
+        "Pin 4",
+        "Pin 7"
+      ],
+      "hi": [
+        "पिन 6",
+        "पिन 4",
+        "पिन 2",
+        "पिन 7"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Pin 7). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (पिन 7)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 64,
+    "shiftQuestionNo": 64,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "If an intrinsic semiconductor has equal electrons and holes, and 20 electrons are added, what is the majority carrier?",
+      "hi": "यदि किसी नैज अर्धचालक में इलेक्ट्रॉन और होल बराबर हैं तथा 20 इलेक्ट्रॉन सम्मिलित किए जाते हैं , तो बहुसंख्यक वाहक क्या है ?"
+    },
+    "options": {
+      "en": [
+        "None present",
+        "Electrons only",
+        "Holes only",
+        "Both electrons and holes are majority carriers"
+      ],
+      "hi": [
+        "इलेक्ट्रॉन और होल , दोनों बहुसंख्यक वाहक हैं",
+        "दोनों में से कोई विद्यमान नहीं है",
+        "केवल इलेक्ट्रॉन",
+        "केवल होल"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Electrons only). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (केवल इलेक्ट्रॉन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 65,
+    "shiftQuestionNo": 65,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which memory technology is used in USB pen drives?",
+      "hi": "USB पेन ड्राइव में किस मेमोरी तकनीक का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Flash Memory",
+        "DRAM",
+        "Cache Memory",
+        "SRAM"
+      ],
+      "hi": [
+        "DRAM",
+        "कै श मेमोरी",
+        "फ्लैश मेमोरी",
+        "SRAM"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Flash Memory). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (फ्लैश मेमोरी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 66,
+    "shiftQuestionNo": 66,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "During hardware interfacing using the 8051 microcontroller, why are I/O ports essential?",
+      "hi": "8051 माइक्रोकं ट्रोलर का उपयोग करके हार्डवेयर इंटरफे सिंग के दौरान , I/O पोर्ट्स क्यों आवश्यक होते हैं ?"
+    },
+    "options": {
+      "en": [
+        "To increase the clock frequency of the microcontroller",
+        "To perform calculations",
+        "To interface with external devices",
+        "To store information for processing"
+      ],
+      "hi": [
+        "गणना करने के लिए",
+        "माइक्रोकं ट्रोलर की कालद आवृति बढ़ाने के लिए",
+        "बाह्य डिवाइसों से इंटरफे स करने के लिए",
+        "प्रोसेसिंग हेतु जानकारी स्टोर करने के लिए"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (To interface with external devices). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बाह्य डिवाइसों से इंटरफे स करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 67,
+    "shiftQuestionNo": 67,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why are transistors preferred over mechanical switches for rapid switching operations?",
+      "hi": "तीव्र स्विचन प्रचालनों के लिए यांत्रिक स्विचों की तुलना में ट्रांजिस्टरों को प्राथमिकता क्यों दी जाती है ?"
+    },
+    "options": {
+      "en": [
+        "Transistors require manual operation",
+        "Transistors are larger in size",
+        "Transistors consume more power",
+        "Transistors switch faster and have long life span"
+      ],
+      "hi": [
+        "क्‍ यों कि ट्रांजिस्टर आकार में बड़े होते हैं",
+        "क्‍ यों कि ट्रांजिस्टर अधिक विद्युत खपत करते हैं",
+        "क्‍ यों कि ट्रांजिस्टर को मैन्युअल प्रचालन की आवश्यकता होती है",
+        "क्‍ यों कि ट्रांजिस्टर तीव्रता से स्विच करते हैं और इनकी जीवन - अवधि लंबी होती है"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option D (Transistors switch faster and have long life span). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (क्‍ यों कि ट्रांजिस्टर तीव्रता से स्विच करते हैं और इनकी जीवन - अवधि लंबी होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 68,
+    "shiftQuestionNo": 68,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Which technology is used by a CD-ROM drive to read data in computer systems?",
+      "hi": "कं प्यूटर सिस्टम में डेटा रीड करने के लिए CD-ROM ड्राइव द्वारा किस तकनीक का उपयोग किया जाता है ?"
+    },
+    "options": {
+      "en": [
+        "Laser technology",
+        "Magnetic head",
+        "Ultraviolet light technology",
+        "Electrical contacts"
+      ],
+      "hi": [
+        "लेजर तकनीक",
+        "चुंबकीय शीर्ष",
+        "विद्युत संपर्क",
+        "पराबैंगनी प्रकाश तकनीक"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Laser technology). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (लेजर तकनीक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 69,
+    "shiftQuestionNo": 69,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the function of the heat sink on the motherboard in a computer system?",
+      "hi": "कं प्यूटर सिस्टम में मदरबोर्ड पर लगे हीट सिंक (heat sink) का क्या कार्य होता है ?"
+    },
+    "options": {
+      "en": [
+        "Absorb heat from the processor",
+        "Store BIOS settings in ROM",
+        "Run the BIOS during booting process",
+        "Provide power to RAM"
+      ],
+      "hi": [
+        "बूटिंग प्रक्रिया के दौरान BIOS रन करना",
+        "RAM को पावर देना",
+        "ROM में BIOS सेटिंग स्टोर करना",
+        "प्रोसेसर से हीट अवशोषित करना"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (Absorb heat from the processor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (प्रोसेसर से हीट अवशोषित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 70,
+    "shiftQuestionNo": 70,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Why is rubber suitable for making seals and gaskets?",
+      "hi": "सील (seals) और गैस्के ट (gaskets) के निर्माण के लिए रबर उपयुक्त क्यों है ?"
+    },
+    "options": {
+      "en": [
+        "It readily absorbs water",
+        "It easily conducts electricity",
+        "It can form tight, flexible closures",
+        "It reacts with most chemicals"
+      ],
+      "hi": [
+        "यह कसे हुए , नम्य वेष्टन (closure) बना सकती है",
+        "यह अधिकांश रसायनों के साथ अभिक्रिया करती है",
+        "यह सहजता से जल को अवशोषित करती है",
+        "यह सरलता से विद्युत का चालन (conduct) करती है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (It can form tight, flexible closures). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (यह कसे हुए , नम्य वेष्टन (closure) बना सकती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 71,
+    "shiftQuestionNo": 71,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "An Earth Leakage Circuit Breaker (ELCB) is designed to disconnect the electrical supply under which of the following conditions?",
+      "hi": "अर्थ लीके ज सर्किट ब्रेकर (ELCB) को निम्नलिखित में से किस स्थिति में विद्युत आपूर्ति को वियोजित करने के लिए डिज़ाइन किया गया है ?"
+    },
+    "options": {
+      "en": [
+        "When the earth leakage current exceeds the preset sensitivity (trip) value",
+        "When the supply frequency deviates from its rated value",
+        "When the earth leakage current falls below the rated value",
+        "When the load current exceeds the rated current of the circuit"
+      ],
+      "hi": [
+        "जब आपूर्ति आवृत्ति अपने निर्धारित मान से विचलित हो जाती है",
+        "जब भूमि क्षरण धारा , निर्धारित मान से नीचे गिर जाती है",
+        "जब भूमि क्षरण धारा पूर्व निर्धारित सुग्राहिता ( ट्रिप ) मान से अधिक हो जाती है",
+        "जब लोड धारा परिपथ की निर्धारित धारा से अधिक हो जाती है"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option A (When the earth leakage current exceeds the preset sensitivity (trip) value). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (जब भूमि क्षरण धारा पूर्व निर्धारित सुग्राहिता ( ट्रिप ) मान से अधिक हो जाती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 72,
+    "shiftQuestionNo": 72,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "In an FM system, if the modulating signal frequency is doubled and the peak frequency deviation is kept constant, the modulation index will:",
+      "hi": "एक FM तंत्र में , यदि मॉडुलक सिग्नल आवृत्ति को दोगुना कर दिया जाए और शिखर आवृत्ति विचलन को अपरिवर्ती रखा जाए , तो मॉडुलन सूचकांक पर क्‍या प्रभाव पड़ेगा ?"
+    },
+    "options": {
+      "en": [
+        "Double",
+        "Remain the same",
+        "Halve",
+        "Become zero"
+      ],
+      "hi": [
+        "यह दोगुना हो जाएगा",
+        "यह शून्य हो जाएगा",
+        "यह आधा हो जाएगा",
+        "यह अपरिवर्तित रहेगा"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (Halve). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (यह आधा हो जाएगा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 73,
+    "shiftQuestionNo": 73,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What could happen if the desoldering pump is not used promptly after the solder melts during switch removal from a PCB?",
+      "hi": "यदि PCB से स्विच हटाते समय , सोल्डर पिघलने के तुरंत बाद डिसोल्डरिंग पंप का उपयोग न करने पर क्या परिणाम हो सकता है ?"
+    },
+    "options": {
+      "en": [
+        "The desoldering pump may overheat",
+        "The switch will detach automatically",
+        "The solder may solidify before being removed",
+        "The PCB will break instantly"
+      ],
+      "hi": [
+        "PCB तुरंत टूट जाएगा",
+        "सोल्डर हटाने से पहले जम सकता है",
+        "स्विच स्वचालित रूप से अलग हो जाएगा",
+        "डिसोल्डरिंग पंप अधितप्त हो सकती है"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option C (The solder may solidify before being removed). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सोल्डर हटाने से पहले जम सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 74,
+    "shiftQuestionNo": 74,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "What is the main benefit of increasing (extending) RAM in a desktop computer?",
+      "hi": "डेस्कटॉप कं प्यूटर में RAM बढ़ाने ( विस्तृत करने ) का मुख्य लाभ क्या है ?"
+    },
+    "options": {
+      "en": [
+        "Higher disk permanent storage",
+        "Improved multitasking performance",
+        "Better display resolution",
+        "Faster processor speed"
+      ],
+      "hi": [
+        "मल्टीटास्किंग परफॉरमेंस में सुधार",
+        "तीव्र प्रोसेसर स्पीड",
+        "बेहतर डिस्प्ले रिज़ॉल्यूशन",
+        "उच्चतर डिस्क स्थायी स्टोरेज"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (Improved multitasking performance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (मल्टीटास्किंग परफॉरमेंस में सुधार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 75,
+    "shiftQuestionNo": 75,
+    "section": "Part B: Electronics Mechanic",
+    "subject": "Electronics Mechanic",
+    "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
+    "question": {
+      "en": "Consider the logic circuit shown in the given diagram. Which pair of the inputs A and B will produce output Y = 0?",
+      "hi": "निम्नांकित आकृति में दर्शाए गए लॉजिक परिपथ पर विचार करें। इनपुट A और B का कौन - सा युग्म , आउटपुट Y = 0 देगा ?"
+    },
+    "options": {
+      "en": [
+        "A=0, B=0",
+        "A=1, B=1",
+        "A=1, B=0",
+        "A=0, B=1"
+      ],
+      "hi": [
+        "A=0, B=1",
+        "A=0, B=0",
+        "A=1, B=0",
+        "A=1, B=1"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
+      "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "Correct Answer: Option B (A=1, B=1). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (A=1, B=1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  }
+]

@@ -24,6 +24,7 @@ export default function Navbar({
     'RRB ALP (Loco Pilot 2026)',
     'RRB ALP 2025 (CBT-1)',
     'RRB ALP CBT-2 (Part A)',
+    'RRB ALP CBT-2 (Part B Trades)',
     'RRB Technician (CEN 02/2026)',
     'RRB JE & DMS (CEN 04/2026)',
     'RRB Station Master (CEN 08/2026)',
