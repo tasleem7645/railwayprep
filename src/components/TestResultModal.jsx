@@ -85,10 +85,14 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
     }
     sectionStats[sec].total++;
 
+    const isCorrect = userAns !== undefined && (
+      userAns === q.correctIndex || (q.correctIndexHi !== undefined && userAns === q.correctIndexHi)
+    );
+
     if (userAns === undefined) {
       unattemptedCount++;
       sectionStats[sec].unattempted++;
-    } else if (userAns === q.correctIndex) {
+    } else if (isCorrect) {
       correctCount++;
       sectionStats[sec].correct++;
     } else {
@@ -445,7 +449,9 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
                   {/* 4 Options with User Response vs Official Answer Highlighting */}
                   <div className="space-y-3">
                     {getOptionsList(activeReviewQ, reviewLang).map((optText, optIdx) => {
-                      const isOfficialCorrect = optIdx === activeReviewQ.correctIndex;
+                      const isOfficialCorrect = (reviewLang === 'hi' && activeReviewQ.correctIndexHi !== undefined)
+                        ? optIdx === activeReviewQ.correctIndexHi
+                        : optIdx === activeReviewQ.correctIndex;
                       const isUserSelected = userAns === optIdx;
                       const letter = String.fromCharCode(65 + optIdx);
 

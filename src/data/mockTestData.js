@@ -20,6 +20,7 @@ import alp2025Shift10Questions from './alp2025Shift10Bilingual.json';
 import alp2025Cbt2Shift1Questions from './alp2025Cbt2Shift1Bilingual.json';
 import alp2025Cbt2Shift2Questions from './alp2025Cbt2Shift2Bilingual.json';
 import { CBT2_PART_B_TESTS } from './tradeTestsData';
+import { GROUP_D_TESTS } from './groupDTestsData';
 
 
 // --- SHIFT 1 SECTIONAL SUBSETS ---
@@ -2468,6 +2469,10 @@ export const RAILWAY_TESTS = [
   // ==========================================
   // RRB ALP 2025 CBT-2 PART B TRADE TESTS
   // ==========================================
-  ...CBT2_PART_B_TESTS
+  ...CBT2_PART_B_TESTS,
 
+  // ==========================================
+  // RRB GROUP D 2025 LEVEL-1 TESTS (ALL 48 SHIFTS + SECTIONALS)
+  // ==========================================
+  ...GROUP_D_TESTS
 ];

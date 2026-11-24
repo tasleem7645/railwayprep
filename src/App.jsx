@@ -20,7 +20,7 @@ import { RAILWAY_TESTS } from './data/mockTestData';
 import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
-  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench
+  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench, Train
 } from 'lucide-react';
 
 class ErrorBoundary extends React.Component {
@@ -126,8 +126,11 @@ export default function App() {
       setActiveExamId('ntpc_grad_06_2026');
       setActiveTab('syllabus');
     } else if (goal.includes('Group D')) {
+      setYearFilter('groupd-2025');
+      setShiftFilter('all');
+      setTradeFilter('all');
       setActiveExamId('groupd_09_2025');
-      setActiveTab('syllabus');
+      setActiveTab('mock-tests');
     } else if (goal.includes('RPF')) {
       setActiveExamId('rpf_si_constable');
       setActiveTab('syllabus');
@@ -194,10 +197,11 @@ export default function App() {
   }, []);
 
   const yearTests = RAILWAY_TESTS.filter(test => {
+    if (yearFilter === 'groupd-2025') return test.examYear === 'groupd-2025' || test.exam?.includes('Group D');
     if (yearFilter === 'cbt2-part-b') return test.examYear === 'cbt2-part-b' || test.stage === 'CBT-2 Part B';
     if (yearFilter === 'cbt2') return (test.examYear === 'cbt2' || test.stage === 'CBT-2') && test.stage !== 'CBT-2 Part B';
-    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && !test.stage?.includes('CBT-2');
-    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && !test.stage?.includes('CBT-2');
+    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025';
+    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025';
     return true; // 'all'
   });
 
@@ -220,6 +224,9 @@ export default function App() {
   const isTestFree = (test) => {
     if (!MONETIZATION_CONFIG.payments.enablePaywall || hasPassPro) return true;
     if (test.isFreeDemo) return true;
+    if (test.examYear === 'groupd-2025' || test.exam?.includes('Group D')) {
+      return test.groupDShiftNo === 1 || test.id?.includes('shift1') || test.id?.includes('s1-');
+    }
     if (test.category === 'cbt2-part-b' || test.stage === 'CBT-2 Part B') {
       return test.shiftName?.includes('Shift 1') || test.title?.includes('Shift 1');
     }
@@ -397,6 +404,16 @@ export default function App() {
                 >
                   ⚙️ ALP CBT-2 Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length} Tests • 15 Trades • 75 Qs)
                 </button>
+                <button
+                  onClick={() => { setYearFilter('groupd-2025'); setShiftFilter('all'); setTradeFilter('all'); }}
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    yearFilter === 'groupd-2025'
+                      ? 'bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 font-black shadow-md shadow-emerald-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  🚆 RRB Group D 2025 ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length} Tests • 48 Shifts • 100 Qs)
+                </button>
               </div>
 
               {/* Trade Selector Filter Tabs when Part B is selected or in All */}
@@ -443,6 +460,53 @@ export default function App() {
                         </button>
                       );
                     })}
+                  </div>
+                </div>
+              )}
+
+              {/* Group D Sub-filter Tabs when groupd-2025 is selected */}
+              {yearFilter === 'groupd-2025' && (
+                <div className="mb-5 p-4 rounded-2xl bg-gradient-to-r from-emerald-950/40 via-slate-900/90 to-slate-900/80 border border-emerald-500/30">
+                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+                    <span className="text-xs font-bold text-emerald-300 flex items-center gap-1.5">
+                      <Train className="w-4 h-4 text-emerald-400" />
+                      <span>RRB Group D 2025 Level-1 (CEN 09/2025): 48 Shifts • 100 Qs • Section Switching Flexibility</span>
+                    </span>
+                    <span className="text-[11px] font-semibold text-emerald-400/90 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/30">
+                      ⚡ Shift 1 is 100% Free Demo (Full + 4 Sectionals)
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <button
+                      onClick={() => { setTestFilter('all'); setShiftFilter('all'); }}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'all' && shiftFilter === 'all'
+                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      All Group D Tests ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
+                    </button>
+                    <button
+                      onClick={() => { setTestFilter('full-mock'); setShiftFilter('all'); }}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'full-mock'
+                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      Full Papers (48 Shifts • 100 Qs)
+                    </button>
+                    <button
+                      onClick={() => { setTestFilter('sectional'); setShiftFilter('all'); }}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'sectional'
+                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      Shift 1 Sectionals (Science, Maths, Reasoning, GA)
+                    </button>
                   </div>
                 </div>
               )}
@@ -664,6 +728,16 @@ export default function App() {
                 >
                   ⚙️ ALP CBT-2 Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length} Tests • 15 Trades • 75 Qs)
                 </button>
+                <button
+                  onClick={() => { setYearFilter('groupd-2025'); setShiftFilter('all'); setTradeFilter('all'); }}
+                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                    yearFilter === 'groupd-2025'
+                      ? 'bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 shadow-md shadow-emerald-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  🚆 RRB Group D 2025 ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length} Tests • 48 Shifts • 100 Qs)
+                </button>
               </div>
 
               {/* Trade Selector Filter on Mock Tests View */}
@@ -710,6 +784,53 @@ export default function App() {
                         </button>
                       );
                     })}
+                  </div>
+                </div>
+              )}
+
+              {/* Group D Sub-filter Tabs on Mock Tests View */}
+              {yearFilter === 'groupd-2025' && (
+                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-emerald-950/40 via-slate-900/90 to-slate-900/80 border border-emerald-500/30">
+                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+                    <span className="text-xs font-bold text-emerald-300 flex items-center gap-1.5">
+                      <Train className="w-4 h-4 text-emerald-400" />
+                      <span>RRB Group D 2025 Level-1 (CEN 09/2025): 48 Shifts • 100 Qs • Section Switching Flexibility</span>
+                    </span>
+                    <span className="text-[11px] font-semibold text-emerald-400/90 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/30">
+                      ⚡ Shift 1 is 100% Free Demo (Full + 4 Sectionals)
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap items-center justify-center gap-2">
+                    <button
+                      onClick={() => { setTestFilter('all'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'all' && shiftFilter === 'all'
+                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      All Group D Tests ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
+                    </button>
+                    <button
+                      onClick={() => { setTestFilter('full-mock'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'full-mock'
+                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      Full Papers (48 Shifts • 100 Qs)
+                    </button>
+                    <button
+                      onClick={() => { setTestFilter('sectional'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'sectional'
+                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      Shift 1 Sectionals (Science, Maths, Reasoning, GA)
+                    </button>
                   </div>
                 </div>
               )}

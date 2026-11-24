@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  X, Clock, ChevronLeft, ChevronRight, CheckCircle, AlertCircle, 
+  X, Clock, ChevronLeft, ChevronRight, ChevronDown, CheckCircle, AlertCircle, 
   RotateCcw, Bookmark, Send, Globe, HelpCircle, Shield, Award,
   FileText, Info, Layers, Check, AlertTriangle, Menu, Pause, Play, AlertOctagon,
   Maximize, Minimize
@@ -15,6 +15,7 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
 
   const [currentIndex, setCurrentIndex] = useState(() => savedSession?.currentIndex ?? 0);
   const [activeSectionFilter, setActiveSectionFilter] = useState(() => savedSession?.activeSectionFilter ?? 'All Sections');
+  const [showSectionMenu, setShowSectionMenu] = useState(false);
   const [answers, setAnswers] = useState(() => savedSession?.answers ?? {}); // { [qId]: selectedOptionIndex }
   const [reviewStatus, setReviewStatus] = useState(() => savedSession?.reviewStatus ?? {}); // { [qId]: boolean }
   const [visitedStatus, setVisitedStatus] = useState(() => savedSession?.visitedStatus ?? { [test.questions[0]?.id || 1]: true });
@@ -200,12 +201,27 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
   const handleSectionTabClick = (sectionName) => {
     setActiveSectionFilter(sectionName);
     if (sectionName !== 'All Sections') {
-      const firstQIndex = test.questions.findIndex(q => q.section === sectionName);
-      if (firstQIndex !== -1) {
-        handleJumpToQuestion(firstQIndex);
+      const sectionIndices = test.questions
+        .map((q, idx) => ({ q, idx }))
+        .filter(item => item.q.section === sectionName);
+      
+      if (sectionIndices.length > 0) {
+        // Jump to first unattempted question in target section, or first question of section
+        const firstUnattempted = sectionIndices.find(item => answers[item.q.id] === undefined);
+        const targetIdx = firstUnattempted ? firstUnattempted.idx : sectionIndices[0].idx;
+        handleJumpToQuestion(targetIdx);
       }
     }
   };
+
+  // Auto-sync active section tab with currently viewed question
+  useEffect(() => {
+    if (currentQ?.section) {
+      if (activeSectionFilter !== 'All Sections' && activeSectionFilter !== currentQ.section) {
+        setActiveSectionFilter(currentQ.section);
+      }
+    }
+  }, [currentIndex, currentQ?.section]);
 
   const handleFinalSubmit = () => {
     try {
@@ -318,19 +334,31 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
             <span className="text-slate-400 font-normal shrink-0">({test.questions.length} Qs)</span>
           </div>
           <div className="flex items-center gap-1 overflow-x-auto pb-1 no-scrollbar">
-            {availableSections.map((sec) => (
-              <button
-                key={sec}
-                onClick={() => handleSectionTabClick(sec)}
-                className={`px-2 py-0.5 rounded text-[10px] font-semibold whitespace-nowrap transition-colors cursor-pointer ${
-                  activeSectionFilter === sec
-                    ? 'bg-teal-500 text-slate-950 font-bold'
-                    : 'bg-[#182338] text-slate-400 hover:text-white'
-                }`}
-              >
-                {sec === 'All Sections' ? 'All' : sec.replace('General ', '')}
-              </button>
-            ))}
+            {availableSections.map((sec) => {
+              const secTotal = sec === 'All Sections' 
+                ? test.questions.length 
+                : test.questions.filter(q => q.section === sec).length;
+              const secAns = sec === 'All Sections'
+                ? answeredCount
+                : test.questions.filter(q => q.section === sec && answers[q.id] !== undefined).length;
+              const isSelected = activeSectionFilter === sec;
+              return (
+                <button
+                  key={sec}
+                  onClick={() => handleSectionTabClick(sec)}
+                  className={`px-2 py-0.5 rounded text-[10px] font-semibold whitespace-nowrap transition-colors cursor-pointer flex items-center gap-1 ${
+                    isSelected
+                      ? 'bg-teal-500 text-slate-950 font-bold'
+                      : 'bg-[#182338] text-slate-400 hover:text-white'
+                  }`}
+                >
+                  <span>{sec === 'All Sections' ? 'All' : sec.replace('General ', '')}</span>
+                  <span className={`text-[9px] px-1 rounded ${isSelected ? 'bg-slate-950/20 text-slate-950' : 'bg-slate-800 text-teal-300'}`}>
+                    {secAns}/{secTotal}
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
 
@@ -580,25 +608,32 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
           </span>
           <div className="flex items-center gap-1.5 shrink-0">
             {availableSections.map((sec) => {
-              const count = sec === 'All Sections' 
+              const totalSec = sec === 'All Sections' 
                 ? test.questions.length 
                 : (test.sectionDistribution?.[sec] || test.questions.filter(q => q.section === sec).length);
+              const ansSec = sec === 'All Sections'
+                ? answeredCount
+                : test.questions.filter(q => q.section === sec && answers[q.id] !== undefined).length;
               const isSelected = activeSectionFilter === sec;
+              const isCurrentActive = currentQ?.section === sec;
               return (
                 <button
                   key={sec}
                   onClick={() => handleSectionTabClick(sec)}
                   className={`px-2.5 py-1 rounded-md text-xs font-bold whitespace-nowrap transition-all flex items-center gap-1.5 cursor-pointer ${
                     isSelected
-                      ? 'bg-teal-500 text-slate-950 shadow-md shadow-teal-950/60'
+                      ? 'bg-teal-500 text-slate-950 shadow-md shadow-teal-950/60 ring-2 ring-teal-400/50'
+                      : isCurrentActive
+                      ? 'bg-[#182848] text-teal-300 border border-teal-500/50'
                       : 'bg-[#101C33] hover:bg-[#182848] text-slate-300 hover:text-white border border-slate-700/80'
                   }`}
+                  title={`Click to jump to ${sec}`}
                 >
                   <span>{sec === 'All Sections' ? 'All' : sec.replace('General ', '')}</span>
                   <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-semibold ${
-                    isSelected ? 'bg-slate-950/25 text-slate-950' : 'bg-slate-800 text-slate-400'
+                    isSelected ? 'bg-slate-950/25 text-slate-950' : 'bg-slate-800 text-teal-300'
                   }`}>
-                    {count}
+                    {ansSec}/{totalSec}
                   </span>
                 </button>
               );
@@ -647,14 +682,67 @@ export default function CBTMockTestModal({ test, onClose, onSubmitTest, defaultL
             {/* QUESTION SUBHEADER (Question No. + Marks + Time + Language Dropdown - Screenshot 2 & 4) */}
             <div className="flex items-center justify-between gap-2 pb-3 border-b border-slate-800/80 mb-4 sm:mb-5 text-xs">
               
-              {/* Question Number */}
-              <div className="flex items-center gap-2">
+              {/* Question Number & Interactive Section Switcher Badge */}
+              <div className="flex items-center gap-2 relative">
                 <span className="text-sm sm:text-base font-black text-white">
                   Question No. {currentIndex + 1}
                 </span>
-                <span className="px-2 py-0.5 rounded bg-slate-800/90 text-slate-300 font-medium text-[11px] hidden md:inline">
-                  {currentQ.section}
-                </span>
+
+                {/* Interactive Section Switcher Badge */}
+                <div className="relative">
+                  <button
+                    onClick={() => setShowSectionMenu(!showSectionMenu)}
+                    className="px-2.5 py-1 rounded-md bg-[#131F37] hover:bg-[#1A2A4A] border border-teal-500/40 text-teal-300 font-bold text-[11px] sm:text-xs flex items-center gap-1.5 transition-all cursor-pointer shadow-sm hover:border-teal-400"
+                    title="Click to switch section directly"
+                  >
+                    <Layers className="w-3 h-3 text-teal-400" />
+                    <span>{currentQ.section}</span>
+                    <ChevronDown className={`w-3 h-3 text-teal-400 transition-transform ${showSectionMenu ? 'rotate-180' : ''}`} />
+                  </button>
+
+                  {/* Dropdown Menu for Direct Section Switching */}
+                  {showSectionMenu && (
+                    <div className="absolute left-0 top-full mt-1.5 w-64 sm:w-72 bg-[#0E1729] border border-slate-700 rounded-xl shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-100">
+                      <div className="text-[10px] uppercase font-bold text-slate-400 px-2 py-1 border-b border-slate-800 flex items-center justify-between">
+                        <span>Switch Section</span>
+                        <span className="text-teal-400 font-mono">Total {test.questions.length} Qs</span>
+                      </div>
+                      <div className="mt-1 space-y-1">
+                        {availableSections.filter(s => s !== 'All Sections').map((sec) => {
+                          const secQs = test.questions.filter(q => q.section === sec);
+                          const secAns = secQs.filter(q => answers[q.id] !== undefined).length;
+                          const isCurrent = currentQ.section === sec;
+                          return (
+                            <button
+                              key={sec}
+                              onClick={() => {
+                                handleSectionTabClick(sec);
+                                setShowSectionMenu(false);
+                              }}
+                              className={`w-full text-left p-2 rounded-lg text-xs flex items-center justify-between transition-colors cursor-pointer ${
+                                isCurrent
+                                  ? 'bg-teal-500 text-slate-950 font-black shadow-md shadow-teal-950/40'
+                                  : 'text-slate-200 hover:bg-slate-800/90'
+                              }`}
+                            >
+                              <div>
+                                <div className="font-bold">{sec}</div>
+                                <div className={`text-[10px] ${isCurrent ? 'text-slate-900' : 'text-slate-400'}`}>
+                                  Q.{secQs[0]?.shiftQuestionNo || 1} - Q.{secQs[secQs.length - 1]?.shiftQuestionNo || secQs.length}
+                                </div>
+                              </div>
+                              <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full ${
+                                isCurrent ? 'bg-slate-950/20 text-slate-950' : 'bg-slate-800 text-teal-300'
+                              }`}>
+                                {secAns}/{secQs.length}
+                              </span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </div>
               </div>
 
               {/* Marks + Elapsed Question Timer + Language Switcher */}
