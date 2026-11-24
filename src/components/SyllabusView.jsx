@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RAILWAY_SYLLABUS } from '../data/railwaySyllabusData';
 import { 
   FileText, Clock, Award, CheckCircle2, AlertTriangle, 
@@ -7,8 +7,14 @@ import {
   GraduationCap, Scale, Stethoscope, BrainCircuit
 } from 'lucide-react';
 
-export default function SyllabusView({ onStartMock, onOpenPassPro }) {
-  const [selectedExamId, setSelectedExamId] = useState(RAILWAY_SYLLABUS[0].id);
+export default function SyllabusView({ onStartMock, onOpenPassPro, activeExamId = null }) {
+  const [selectedExamId, setSelectedExamId] = useState(() => activeExamId || RAILWAY_SYLLABUS[0].id);
+
+  useEffect(() => {
+    if (activeExamId) {
+      setSelectedExamId(activeExamId);
+    }
+  }, [activeExamId]);
 
   const activeExam = RAILWAY_SYLLABUS.find(e => e.id === selectedExamId) || RAILWAY_SYLLABUS[0];
 

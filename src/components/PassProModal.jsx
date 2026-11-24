@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   X, Crown, CheckCircle2, Zap, ShieldCheck, Flame, 
-  Clock, ArrowRight, Sparkles, QrCode, Copy, Check 
+  Clock, ArrowRight, Sparkles, QrCode, Copy, Check, Smartphone
 } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 
@@ -12,6 +12,8 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
   const [utrInput, setUtrInput] = useState('');
   const [unlocked, setUnlocked] = useState(false);
 
+  const upiIntentUrl = `upi://pay?pa=${payments.upiId}&pn=${encodeURIComponent(payments.payeeName)}&am=${payments.passProPrice}&cu=INR&tn=RailwayRankerPassPro`;
+
   const handleCopyUPI = () => {
     navigator.clipboard?.writeText(payments.upiId);
     setCopiedUPI(true);
@@ -20,8 +22,10 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
 
   const handleVerifyUTR = (e) => {
     e.preventDefault();
-    if (!utrInput.trim()) return;
-    if (utrInput.trim().length >= 8 || utrInput.trim() === payments.secretAdminCode) {
+    const formInput = e.target.querySelector('input')?.value || '';
+    const val = (utrInput || formInput).trim();
+    if (!val) return;
+    if (val.length >= 8 || val.toUpperCase() === payments.secretAdminCode.toUpperCase()) {
       setUnlocked(true);
       try {
         localStorage.setItem('railwayprep_pass_pro_active', 'true');
@@ -32,7 +36,7 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
 
   return (
     <div className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-3 sm:p-4">
-      <div className="max-w-lg w-full max-h-[92vh] bg-[#090D1A] border border-amber-500/40 rounded-3xl p-6 sm:p-8 shadow-2xl relative overflow-y-auto custom-scrollbar">
+      <div className="max-w-lg w-full max-h-[92vh] bg-[#090D1A] border border-amber-500/40 rounded-3xl p-5 sm:p-8 shadow-2xl relative overflow-y-auto custom-scrollbar">
         
         {/* Glow corner background */}
         <div className="absolute top-0 right-0 w-48 h-48 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
@@ -54,7 +58,7 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
               🎉 Pass Pro Activated!
             </h2>
             <p className="text-xs text-slate-300 max-w-sm mx-auto">
-              Congratulations! All 76+ official CBT mock tests, pure sectionals, and detailed solutions are now unlocked on this device.
+              Congratulations! All 86+ official CBT mock tests, pure sectionals, and detailed solutions are now unlocked on this device.
             </p>
             <button
               onClick={onClose}
@@ -96,7 +100,7 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
             <div className="space-y-2.5 my-4 text-xs sm:text-sm">
               <div className="flex items-center gap-2.5 text-slate-200">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span><strong>76+ Full-Length & Pure Sectional Tests</strong> (ALP 2025 & 2026)</span>
+                <span><strong>86+ Full-Length & Pure Sectional Tests</strong> (ALP 2025, 2026 & CBT-2)</span>
               </div>
               <div className="flex items-center gap-2.5 text-slate-200">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
@@ -114,13 +118,25 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
 
             {/* Payment / UPI Action */}
             <div className="pt-3 border-t border-slate-800 space-y-3">
-              <button
-                onClick={() => setShowQR(!showQR)}
-                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-sm flex items-center justify-center gap-2 shadow-xl shadow-amber-500/25 hover:scale-[1.01] active:scale-98 transition-all cursor-pointer"
+              
+              {/* Direct UPI Intent Button for Mobile */}
+              <a
+                href={upiIntentUrl}
+                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-xs sm:text-sm flex items-center justify-center gap-2 shadow-xl shadow-amber-500/25 hover:scale-[1.01] active:scale-98 transition-all cursor-pointer"
               >
-                <Crown className="w-4 h-4 fill-slate-950" />
-                <span>Buy Pass Pro for ₹{payments.passProPrice} via UPI</span>
+                <Smartphone className="w-4 h-4" />
+                <span>⚡ Pay ₹{payments.passProPrice} via UPI App (GPay/PhonePe/Paytm)</span>
                 <ArrowRight className="w-4 h-4" />
+              </a>
+
+              {/* Show QR Toggle */}
+              <button
+                type="button"
+                onClick={() => setShowQR(!showQR)}
+                className="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-amber-300 font-bold text-xs flex items-center justify-center gap-2 border border-slate-800 cursor-pointer"
+              >
+                <QrCode className="w-4 h-4" />
+                <span>{showQR ? 'Hide UPI QR Code' : 'Scan UPI QR Code Instead'}</span>
               </button>
 
               {/* UPI ID box */}
@@ -130,6 +146,7 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
                   <div className="font-mono text-amber-300 font-bold">{payments.upiId}</div>
                 </div>
                 <button
+                  type="button"
                   onClick={handleCopyUPI}
                   className="px-3 py-1.5 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 text-xs font-bold flex items-center gap-1 cursor-pointer"
                 >
@@ -141,7 +158,7 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
               {showQR && (
                 <div className="p-4 rounded-2xl bg-white text-slate-950 text-center animate-in fade-in max-w-xs mx-auto shadow-xl">
                   <img 
-                    src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=upi://pay?pa=${payments.upiId}&pn=${encodeURIComponent(payments.payeeName)}&am=${payments.passProPrice}&cu=INR`}
+                    src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(upiIntentUrl)}`}
                     alt="UPI QR Code" 
                     className="w-44 h-44 mx-auto"
                   />
@@ -151,7 +168,7 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
               )}
 
               {/* UTR Verification form */}
-              <form onSubmit={handleVerifyUTR} className="pt-2 border-t border-slate-850 flex gap-2">
+              <form onSubmit={handleVerifyUTR} className="pt-2 border-t border-slate-800 flex gap-2">
                 <input
                   type="text"
                   value={utrInput}
@@ -167,7 +184,7 @@ export default function PassProModal({ onClose, onUnlockSuccess }) {
                 </button>
               </form>
               <div className="text-[10px] text-slate-500 text-center">
-                *Demo/Admin unlock code: <code className="text-amber-400 font-mono">PASS2026</code>
+                *Click to auto-fill demo unlock code: <button type="button" onClick={() => setUtrInput('PASS2026')} className="text-amber-400 font-mono font-bold underline cursor-pointer">PASS2026</button>
               </div>
             </div>
           </>

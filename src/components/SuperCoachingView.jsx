@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { SUPER_COACHING_DATA } from '../data/superCoachingData';
 import { 
   BookOpen, Sparkles, Zap, Award, Download, Clock, 
-  ChevronRight, Filter, Search, CheckCircle2
+  ChevronRight, Filter, Search, CheckCircle2, Printer, Copy, Check, Crown, X
 } from 'lucide-react';
 
-export default function SuperCoachingView({ onOpenPassPro }) {
+export default function SuperCoachingView({ onOpenPassPro, hasPassPro = false }) {
   const [selectedSubject, setSelectedSubject] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeNote, setActiveNote] = useState(SUPER_COACHING_DATA[0]);
+  const [showExportModal, setShowExportModal] = useState(false);
+  const [copiedAll, setCopiedAll] = useState(false);
 
   const filteredNotes = SUPER_COACHING_DATA.filter(note => {
     const matchSub = selectedSubject === 'All' || note.subject === selectedSubject;
@@ -17,14 +19,41 @@ export default function SuperCoachingView({ onOpenPassPro }) {
     return matchSub && matchSearch;
   });
 
+  const handleDownloadClick = () => {
+    if (hasPassPro) {
+      setShowExportModal(true);
+    } else {
+      onOpenPassPro();
+    }
+  };
+
+  const handlePrint = () => {
+    window.print();
+  };
+
+  const handleCopyFormulas = () => {
+    const text = activeNote.points.map(p => `${p.title}\nFormula: ${p.formula || 'N/A'}\n${p.content}\n`).join('\n---\n\n');
+    navigator.clipboard?.writeText(text);
+    setCopiedAll(true);
+    setTimeout(() => setCopiedAll(false), 2500);
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Top Banner */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-800">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 border border-teal-500/30 text-xs font-semibold mb-2">
-            <Sparkles className="w-3.5 h-3.5 text-teal-400" />
-            <span>SuperCoaching Study Notes Hub</span>
+          <div className="flex items-center gap-2 mb-2 flex-wrap">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 border border-teal-500/30 text-xs font-semibold">
+              <Sparkles className="w-3.5 h-3.5 text-teal-400" />
+              <span>SuperCoaching Study Notes Hub</span>
+            </div>
+            {hasPassPro && (
+              <span className="text-[10px] font-black uppercase px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
+                <Crown className="w-3 h-3 fill-amber-300" />
+                <span>Pass Pro Active • All Notes Unlocked</span>
+              </span>
+            )}
           </div>
           <h2 className="text-2xl sm:text-3xl font-black text-white">
             High-Yield Exam Notes & Formulas
@@ -35,11 +64,20 @@ export default function SuperCoachingView({ onOpenPassPro }) {
         </div>
 
         <button
-          onClick={onOpenPassPro}
-          className="self-start md:self-auto px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-bold text-xs flex items-center gap-2 shadow-lg shadow-amber-500/20 hover:scale-105 transition-transform cursor-pointer"
+          onClick={handleDownloadClick}
+          className="self-start md:self-auto px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-xs flex items-center gap-2 shadow-lg shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all cursor-pointer"
         >
-          <Download className="w-4 h-4" />
-          <span>Download All Notes in 1 PDF (Pass Pro)</span>
+          {hasPassPro ? (
+            <>
+              <Printer className="w-4 h-4" />
+              <span>Print / Export Chapter Notes PDF</span>
+            </>
+          ) : (
+            <>
+              <Download className="w-4 h-4" />
+              <span>Download All Notes in 1 PDF (Pass Pro)</span>
+            </>
+          )}
         </button>
       </div>
 
@@ -50,9 +88,9 @@ export default function SuperCoachingView({ onOpenPassPro }) {
             <button
               key={sub}
               onClick={() => setSelectedSubject(sub)}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
                 selectedSubject === sub 
-                  ? 'bg-teal-500 text-slate-950 shadow-md shadow-teal-900/50' 
+                  ? 'bg-teal-500 text-slate-950 font-bold shadow-md shadow-teal-900/50' 
                   : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
               }`}
             >
@@ -143,22 +181,65 @@ export default function SuperCoachingView({ onOpenPassPro }) {
             ))}
           </div>
 
-          {/* Quick PDF CTA Box */}
+          {/* Action Footer */}
           <div className="mt-8 p-4 rounded-2xl bg-gradient-to-r from-teal-950/40 to-slate-900 border border-teal-500/40 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <h5 className="text-sm font-bold text-white">Want this chapter as a printable revision PDF?</h5>
-              <p className="text-xs text-slate-400">Get complete formula handbook + 200 previous year numericals.</p>
+              <h5 className="text-sm font-bold text-white">Need printable PDF for quick revision?</h5>
+              <p className="text-xs text-slate-400">Complete formula sheets + short notes ready for print & offline study.</p>
             </div>
             <button
-              onClick={onOpenPassPro}
-              className="px-4 py-2 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 text-xs font-bold shrink-0 cursor-pointer"
+              onClick={handleDownloadClick}
+              className="px-4 py-2 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 text-xs font-bold shrink-0 cursor-pointer shadow-md"
             >
-              Get PDF via Pass Pro (₹49)
+              {hasPassPro ? '🖨️ Print / Save as PDF' : 'Get PDF via Pass Pro (₹49)'}
             </button>
           </div>
         </div>
 
       </div>
+
+      {/* Export / Print Modal */}
+      {showExportModal && (
+        <div className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+          <div className="max-w-md w-full bg-[#090D1A] border border-teal-500/40 rounded-3xl p-6 shadow-2xl relative space-y-4">
+            <button
+              onClick={() => setShowExportModal(false)}
+              className="absolute top-4 right-4 p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 cursor-pointer"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            <div className="text-center pt-2">
+              <div className="w-12 h-12 rounded-2xl bg-teal-500/20 text-teal-400 flex items-center justify-center mx-auto mb-3">
+                <Printer className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-black text-white">Print / Export Notes PDF</h3>
+              <p className="text-xs text-slate-400 mt-1">
+                Pass Pro Active! You have full access to print and copy all formula sheets.
+              </p>
+            </div>
+
+            <div className="space-y-3 pt-2">
+              <button
+                onClick={handlePrint}
+                className="w-full py-3 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-black text-xs flex items-center justify-center gap-2 cursor-pointer shadow-lg"
+              >
+                <Printer className="w-4 h-4" />
+                <span>Print or Save as PDF (Chrome / Android)</span>
+              </button>
+
+              <button
+                onClick={handleCopyFormulas}
+                className="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-teal-300 font-bold text-xs flex items-center justify-center gap-2 border border-slate-700 cursor-pointer"
+              >
+                {copiedAll ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
+                <span>{copiedAll ? 'All Formulas Copied!' : 'Copy All Formulas to Clipboard'}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }

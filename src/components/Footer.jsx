@@ -1,9 +1,21 @@
 import React from 'react';
-import { Train, Heart, Shield, FileText, Send, Mail, AlertCircle } from 'lucide-react';
+import { Train, Heart, Shield, FileText, Send, Mail, AlertCircle, Bookmark, CheckSquare, Crown } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 
-export default function Footer({ onOpenPassPro, onOpenLegalModal }) {
+export default function Footer({ 
+  onOpenPassPro, 
+  onOpenLegalModal, 
+  onOpenMistakes,
+  onNavigateTab
+}) {
   const { community } = MONETIZATION_CONFIG;
+
+  const handleNav = (tab, filter = null) => {
+    if (onNavigateTab) {
+      onNavigateTab(tab, filter);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   return (
     <footer className="bg-[#050811] border-t border-slate-800/80 text-slate-400 text-xs">
@@ -12,11 +24,14 @@ export default function Footer({ onOpenPassPro, onOpenLegalModal }) {
           
           {/* Col 1: Brand Info */}
           <div className="space-y-3">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-teal-500 flex items-center justify-center text-slate-950 font-black">
+            <div 
+              onClick={() => handleNav('home')}
+              className="flex items-center gap-2 cursor-pointer group w-fit"
+            >
+              <div className="w-8 h-8 rounded-lg bg-teal-500 flex items-center justify-center text-slate-950 font-black group-hover:scale-105 transition-transform">
                 <Train className="w-4 h-4" />
               </div>
-              <span className="text-base font-black text-white">RailwayRanker PRO</span>
+              <span className="text-base font-black text-white group-hover:text-teal-400 transition-colors">RailwayRanker PRO</span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
               India's dedicated computer-based exam simulator and smart revision notes platform for RRB ALP, Technician, NTPC, and Group D aspirants.
@@ -26,28 +41,106 @@ export default function Footer({ onOpenPassPro, onOpenLegalModal }) {
             </div>
           </div>
 
-          {/* Col 2: Exams Covered */}
+          {/* Col 2: Exams Covered (Interactive Working Links) */}
           <div>
             <h4 className="font-bold text-white text-xs uppercase tracking-wider mb-3">Exams Covered</h4>
             <ul className="space-y-2">
-              <li className="hover:text-teal-300 transition-colors">RRB Assistant Loco Pilot (ALP 2026/2025)</li>
-              <li className="hover:text-teal-300 transition-colors">RRB Technician Grade I & III</li>
-              <li className="hover:text-teal-300 transition-colors">RRB NTPC (Graduate & 12th Level)</li>
-              <li className="hover:text-teal-300 transition-colors">RRB Group D (Level-1 Trackman)</li>
-              <li className="hover:text-teal-300 transition-colors">RPF Sub-Inspector & Constable</li>
+              <li>
+                <button
+                  onClick={() => handleNav('mock-tests', { year: 'all' })}
+                  className="hover:text-teal-300 text-left transition-colors cursor-pointer flex items-center gap-1.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                  <span>RRB Assistant Loco Pilot (ALP 2026/2025)</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNav('syllabus', { examId: 'tech_02_2026' })}
+                  className="hover:text-teal-300 text-left transition-colors cursor-pointer flex items-center gap-1.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                  <span>RRB Technician Grade I & III (CEN 02/2026)</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNav('syllabus', { examId: 'ntpc_grad_06_2026' })}
+                  className="hover:text-teal-300 text-left transition-colors cursor-pointer flex items-center gap-1.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                  <span>RRB NTPC (Graduate & 12th Level)</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNav('syllabus', { examId: 'groupd_09_2025' })}
+                  className="hover:text-teal-300 text-left transition-colors cursor-pointer flex items-center gap-1.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                  <span>RRB Group D (Level-1 Trackman)</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNav('syllabus', { examId: 'rpf_si_constable' })}
+                  className="hover:text-teal-300 text-left transition-colors cursor-pointer flex items-center gap-1.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                  <span>RPF Sub-Inspector & Constable</span>
+                </button>
+              </li>
             </ul>
           </div>
 
-          {/* Col 3: Quick Links & Earning */}
+          {/* Col 3: Quick Links & Study Features */}
           <div>
             <h4 className="font-bold text-white text-xs uppercase tracking-wider mb-3">Study Features</h4>
             <ul className="space-y-2">
-              <li className="hover:text-teal-300 transition-colors">76+ CBT Mock Tests (Bilingual)</li>
-              <li className="hover:text-teal-300 transition-colors">Pure Mathematics Sectionals</li>
-              <li className="hover:text-teal-300 transition-colors">Pure Reasoning Sectionals</li>
-              <li className="hover:text-teal-300 transition-colors">General Science & GK Sectionals</li>
-              <li onClick={onOpenPassPro} className="text-amber-400 font-bold hover:underline cursor-pointer">
-                RailwayRanker Pass Pro (₹49/Yr)
+              <li>
+                <button
+                  onClick={() => handleNav('mock-tests', { filter: 'all' })}
+                  className="hover:text-teal-300 text-left transition-colors cursor-pointer flex items-center gap-1.5"
+                >
+                  <CheckSquare className="w-3.5 h-3.5 text-teal-400" />
+                  <span>86+ CBT Mock Tests (Bilingual)</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNav('mock-tests', { filter: 'sectional' })}
+                  className="hover:text-teal-300 text-left transition-colors cursor-pointer flex items-center gap-1.5"
+                >
+                  <CheckSquare className="w-3.5 h-3.5 text-emerald-400" />
+                  <span>Pure Mathematics Sectionals</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNav('mock-tests', { filter: 'sectional' })}
+                  className="hover:text-teal-300 text-left transition-colors cursor-pointer flex items-center gap-1.5"
+                >
+                  <CheckSquare className="w-3.5 h-3.5 text-purple-400" />
+                  <span>Pure Reasoning Sectionals</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => onOpenMistakes && onOpenMistakes()}
+                  className="hover:text-rose-300 text-left transition-colors cursor-pointer flex items-center gap-1.5 font-semibold text-rose-400"
+                >
+                  <Bookmark className="w-3.5 h-3.5 fill-rose-500/20" />
+                  <span>गलती डायरी (Mistake Notebook)</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={onOpenPassPro}
+                  className="text-amber-400 font-bold hover:underline cursor-pointer flex items-center gap-1.5"
+                >
+                  <Crown className="w-3.5 h-3.5 fill-amber-400" />
+                  <span>RailwayRanker Pass Pro (₹49/Yr)</span>
+                </button>
               </li>
             </ul>
           </div>

@@ -13,14 +13,17 @@ export default function Navbar({
   onStartMock, 
   onOpenMistakes,
   selectedLang, 
-  setSelectedLang 
+  setSelectedLang,
+  selectedGoal = 'RRB ALP (Loco Pilot 2026)',
+  onSelectGoal
 }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [selectedGoal, setSelectedGoal] = useState('RRB ALP (Loco Pilot 2026)');
   const [goalDropdownOpen, setGoalDropdownOpen] = useState(false);
 
   const GOALS = [
     'RRB ALP (Loco Pilot 2026)',
+    'RRB ALP 2025 (CBT-1)',
+    'RRB ALP CBT-2 (Part A)',
     'RRB Technician (CEN 02/2026)',
     'RRB JE & DMS (CEN 04/2026)',
     'RRB Station Master (CEN 08/2026)',
@@ -29,19 +32,32 @@ export default function Navbar({
     'RPF SI & Constable'
   ];
 
+  const handleNav = (tab) => {
+    setActiveTab(tab);
+    setMobileMenuOpen(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleGoalSelect = (goal) => {
+    if (onSelectGoal) {
+      onSelectGoal(goal);
+    }
+    setGoalDropdownOpen(false);
+  };
+
   return (
     <header className="sticky top-0 z-40 bg-[#070B18]/95 backdrop-blur-md border-b border-slate-800/80">
       {/* Top micro announcement bar */}
-      <div className="bg-gradient-to-r from-teal-900/60 via-emerald-950/60 to-slate-900 border-b border-teal-500/20 px-4 py-1.5 text-xs text-center flex items-center justify-center gap-2">
-        <span className="flex h-2 w-2 relative">
+      <div className="bg-gradient-to-r from-teal-900/60 via-emerald-950/60 to-slate-900 border-b border-teal-500/20 px-3 sm:px-4 py-1.5 text-xs text-center flex items-center justify-center gap-1.5 sm:gap-2">
+        <span className="flex h-2 w-2 relative shrink-0">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
         </span>
-        <span className="font-semibold text-emerald-400">RRB ALP 2026 CBT-1 Official Test Series:</span>
-        <span className="text-slate-300 hidden sm:inline">Attempt authentic 03 Nov Shift 1 official bilingual paper with TCS CBT interface</span>
+        <span className="font-semibold text-emerald-400 truncate">RRB ALP Official CBT Tests Live:</span>
+        <span className="text-slate-300 hidden md:inline truncate">Attempt authentic official bilingual papers with TCS CBT interface</span>
         <button 
           onClick={onStartMock}
-          className="ml-2 font-bold text-teal-300 hover:text-white underline cursor-pointer"
+          className="ml-1 sm:ml-2 font-bold text-teal-300 hover:text-white underline cursor-pointer shrink-0"
         >
           Attempt Now →
         </button>
@@ -52,20 +68,20 @@ export default function Navbar({
         <div className="flex items-center justify-between h-16">
           
           {/* Left: Brand Logo & Goal Selector */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3 sm:gap-4">
             <div 
-              onClick={() => setActiveTab('home')}
+              onClick={() => handleNav('home')}
               className="flex items-center gap-2 cursor-pointer group"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-teal-600 via-teal-500 to-emerald-400 flex items-center justify-center shadow-lg shadow-teal-500/25 group-hover:scale-105 transition-transform">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-teal-600 via-teal-500 to-emerald-400 flex items-center justify-center shadow-lg shadow-teal-500/25 group-hover:scale-105 transition-transform shrink-0">
                 <Train className="w-5 h-5 text-slate-950 font-black" />
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-lg font-black tracking-tight text-white">RailwayRanker</span>
-                  <span className="text-[10px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40">PRO</span>
+                  <span className="text-base sm:text-lg font-black tracking-tight text-white">RailwayRanker</span>
+                  <span className="text-[10px] font-extrabold uppercase px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40">PRO</span>
                 </div>
-                <span className="text-[10px] text-teal-400/90 font-medium">India's Dedicated CBT Hub</span>
+                <span className="text-[10px] text-teal-400/90 font-medium hidden sm:inline">India's Dedicated CBT Hub</span>
               </div>
             </div>
 
@@ -73,11 +89,11 @@ export default function Navbar({
             <div className="relative hidden md:block">
               <button 
                 onClick={() => setGoalDropdownOpen(!goalDropdownOpen)}
-                className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700/80 hover:border-teal-500/50 text-xs text-slate-200 transition-colors"
+                className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700/80 hover:border-teal-500/50 text-xs text-slate-200 transition-colors cursor-pointer"
               >
                 <span className="w-2 h-2 rounded-full bg-teal-400"></span>
                 <span className="font-medium text-slate-400">Target:</span>
-                <span className="font-semibold text-white">{selectedGoal.split(' ')[0]} {selectedGoal.split(' ')[1]}</span>
+                <span className="font-semibold text-white truncate max-w-[140px]">{selectedGoal}</span>
                 <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
               </button>
 
@@ -87,13 +103,10 @@ export default function Navbar({
                   {GOALS.map(goal => (
                     <button
                       key={goal}
-                      onClick={() => {
-                        setSelectedGoal(goal);
-                        setGoalDropdownOpen(false);
-                      }}
-                      className={`w-full text-left px-3 py-2 text-xs flex items-center justify-between hover:bg-slate-800 transition-colors ${selectedGoal === goal ? 'text-teal-400 font-semibold bg-slate-800/50' : 'text-slate-300'}`}
+                      onClick={() => handleGoalSelect(goal)}
+                      className={`w-full text-left px-3 py-2 text-xs flex items-center justify-between hover:bg-slate-800 transition-colors cursor-pointer ${selectedGoal === goal ? 'text-teal-400 font-semibold bg-slate-800/50' : 'text-slate-300'}`}
                     >
-                      {goal}
+                      <span>{goal}</span>
                       {selectedGoal === goal && <span className="text-teal-400 text-xs">✓</span>}
                     </button>
                   ))}
@@ -105,57 +118,57 @@ export default function Navbar({
           {/* Center Navigation Links */}
           <nav className="hidden lg:flex items-center gap-1">
             <button 
-              onClick={() => setActiveTab('home')}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === 'home' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+              onClick={() => handleNav('home')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer ${activeTab === 'home' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
             >
               Home
             </button>
             <button 
-              onClick={() => setActiveTab('mock-tests')}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'mock-tests' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+              onClick={() => handleNav('mock-tests')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 cursor-pointer ${activeTab === 'mock-tests' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
             >
               <CheckSquare className="w-4 h-4 text-emerald-400" />
               Test Series
             </button>
             <button 
-              onClick={() => setActiveTab('super-coaching')}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'super-coaching' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
-            >
-              <BookOpen className="w-4 h-4 text-teal-400" />
-              SuperCoaching Notes
-            </button>
-            <button 
-              onClick={() => setActiveTab('syllabus')}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'syllabus' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
-            >
-              <FileText className="w-4 h-4 text-sky-400" />
-              Syllabus & Pattern
-            </button>
-            <button 
-              onClick={() => setActiveTab('daily-quiz')}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'daily-quiz' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+              onClick={() => handleNav('daily-quiz')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 cursor-pointer ${activeTab === 'daily-quiz' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
             >
               <Zap className="w-4 h-4 text-amber-400" />
               Daily Quiz
             </button>
             <button 
-              onClick={() => setActiveTab('tools')}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'tools' ? 'text-teal-400 bg-teal-500/10 font-bold' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+              onClick={() => handleNav('super-coaching')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 cursor-pointer ${activeTab === 'super-coaching' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+            >
+              <BookOpen className="w-4 h-4 text-teal-400" />
+              SuperCoaching
+            </button>
+            <button 
+              onClick={() => handleNav('syllabus')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 cursor-pointer ${activeTab === 'syllabus' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+            >
+              <FileText className="w-4 h-4 text-sky-400" />
+              Syllabus
+            </button>
+            <button 
+              onClick={() => handleNav('tools')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 cursor-pointer ${activeTab === 'tools' ? 'text-teal-400 bg-teal-500/10 font-bold' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
             >
               <Calculator className="w-4 h-4 text-emerald-400" />
               Tools Hub
             </button>
             <button 
-              onClick={() => setActiveTab('books')}
-              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${activeTab === 'books' ? 'text-amber-400 bg-amber-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+              onClick={() => handleNav('books')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 cursor-pointer ${activeTab === 'books' ? 'text-amber-400 bg-amber-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
             >
               <ShoppingBag className="w-4 h-4 text-amber-400" />
-              Best Books
+              Books
             </button>
           </nav>
 
           {/* Right Action buttons */}
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center gap-2 sm:gap-2.5">
             {/* Mistake Notebook Shortcut */}
             <button
               onClick={onOpenMistakes}
@@ -169,7 +182,7 @@ export default function Navbar({
             {/* Language toggle */}
             <button
               onClick={() => setSelectedLang(selectedLang === 'hi' ? 'en' : 'hi')}
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700/80 text-xs font-semibold text-slate-300 hover:text-white transition-colors cursor-pointer"
+              className="flex items-center gap-1 px-2 sm:px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700/80 text-xs font-semibold text-slate-300 hover:text-white transition-colors cursor-pointer"
               title="Toggle Language / भाषा बदलें"
             >
               <Globe className="w-3.5 h-3.5 text-teal-400" />
@@ -179,17 +192,18 @@ export default function Navbar({
             {/* Pass Pro Button */}
             <button
               onClick={onOpenPassPro}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 text-xs font-extrabold shadow-md shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all cursor-pointer"
+              className="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3.5 py-1.5 rounded-lg bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 text-xs font-extrabold shadow-md shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all cursor-pointer"
             >
               <Crown className="w-3.5 h-3.5 fill-slate-950" />
               <span>PASS PRO</span>
-              <span className="bg-slate-950/20 px-1 py-0.2 rounded text-[10px]">₹{MONETIZATION_CONFIG.payments.passProPrice}</span>
+              <span className="bg-slate-950/20 px-1 py-0.2 rounded text-[10px] hidden sm:inline">₹{MONETIZATION_CONFIG.payments.passProPrice}</span>
             </button>
 
             {/* Mobile menu toggle */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+              className="lg:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
+              aria-label="Toggle Navigation Menu"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -197,67 +211,93 @@ export default function Navbar({
         </div>
       </div>
 
-      {/* Mobile drawer */}
+      {/* Mobile drawer with backdrop */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-t border-slate-800 bg-[#090D1A] px-4 pt-2 pb-4 space-y-1">
+        <div className="lg:hidden fixed inset-x-0 top-[calc(4rem+29px)] bottom-0 z-50 bg-[#070B18]/98 backdrop-blur-xl border-t border-slate-800 overflow-y-auto px-4 pt-3 pb-8 space-y-2 animate-in fade-in slide-in-from-top-4">
+          
+          {/* Target Exam Goal selector on Mobile */}
+          <div className="p-3 rounded-2xl bg-slate-900/90 border border-slate-800 mb-3">
+            <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-2">🎯 Active Target Exam</div>
+            <select
+              value={selectedGoal}
+              onChange={(e) => handleGoalSelect(e.target.value)}
+              className="w-full px-3 py-2 rounded-xl bg-slate-950 border border-teal-500/40 text-xs text-white font-bold focus:outline-none focus:border-teal-400 cursor-pointer"
+            >
+              {GOALS.map(goal => (
+                <option key={goal} value={goal} className="bg-slate-900 text-white">
+                  {goal}
+                </option>
+              ))}
+            </select>
+          </div>
+
           <button 
-            onClick={() => { setActiveTab('home'); setMobileMenuOpen(false); }}
-            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-slate-200 hover:bg-slate-800"
+            onClick={() => handleNav('home')}
+            className={`w-full text-left px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-between cursor-pointer ${activeTab === 'home' ? 'bg-teal-500/15 text-teal-300 font-bold border border-teal-500/30' : 'text-slate-200 hover:bg-slate-800/60'}`}
           >
-            🏠 Home
+            <span>🏠 Home</span>
           </button>
+
           <button 
-            onClick={() => { setActiveTab('mock-tests'); setMobileMenuOpen(false); }}
-            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-emerald-400 hover:bg-slate-800 flex items-center justify-between"
+            onClick={() => handleNav('mock-tests')}
+            className={`w-full text-left px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-between cursor-pointer ${activeTab === 'mock-tests' ? 'bg-teal-500/15 text-teal-300 font-bold border border-teal-500/30' : 'text-emerald-400 hover:bg-slate-800/60'}`}
           >
-            <span>📝 Test Series (Full CBT Mocks)</span>
+            <span>📝 Test Series (86+ Full Mocks)</span>
             <span className="text-[10px] bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded font-bold">FREE LIVE</span>
           </button>
+
           <button 
-            onClick={() => { setActiveTab('super-coaching'); setMobileMenuOpen(false); }}
-            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-teal-300 hover:bg-slate-800"
+            onClick={() => handleNav('daily-quiz')}
+            className={`w-full text-left px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-between cursor-pointer ${activeTab === 'daily-quiz' ? 'bg-teal-500/15 text-teal-300 font-bold border border-teal-500/30' : 'text-amber-300 hover:bg-slate-800/60'}`}
           >
-            📚 SuperCoaching (Neeraj Sir & Maths Notes)
+            <span>⚡ Daily Rapid Speed Quizzes</span>
+            <span className="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded font-bold">10 MINS</span>
           </button>
+
           <button 
-            onClick={() => { setActiveTab('syllabus'); setMobileMenuOpen(false); }}
-            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-sky-300 hover:bg-slate-800"
+            onClick={() => handleNav('super-coaching')}
+            className={`w-full text-left px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-between cursor-pointer ${activeTab === 'super-coaching' ? 'bg-teal-500/15 text-teal-300 font-bold border border-teal-500/30' : 'text-teal-300 hover:bg-slate-800/60'}`}
           >
-            📋 Official Syllabus & Pattern
+            <span>📚 SuperCoaching Study Notes</span>
           </button>
+
           <button 
-            onClick={() => { setActiveTab('daily-quiz'); setMobileMenuOpen(false); }}
-            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-amber-300 hover:bg-slate-800"
+            onClick={() => handleNav('syllabus')}
+            className={`w-full text-left px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-between cursor-pointer ${activeTab === 'syllabus' ? 'bg-teal-500/15 text-teal-300 font-bold border border-teal-500/30' : 'text-sky-300 hover:bg-slate-800/60'}`}
           >
-            ⚡ Daily Speed Quizzes
+            <span>📋 Official Vacancy & Syllabus</span>
           </button>
+
           <button 
-            onClick={() => { setActiveTab('tools'); setMobileMenuOpen(false); }}
-            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-emerald-400 hover:bg-slate-800 flex items-center justify-between"
+            onClick={() => handleNav('tools')}
+            className={`w-full text-left px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-between cursor-pointer ${activeTab === 'tools' ? 'bg-teal-500/15 text-teal-300 font-bold border border-teal-500/30' : 'text-emerald-400 hover:bg-slate-800/60'}`}
           >
-            <span>🧮 Smart Tools Hub (Calculators & Cheatsheets)</span>
+            <span>🧮 Smart Aspirant Tools Hub</span>
             <span className="text-[10px] bg-teal-500/20 text-teal-300 px-2 py-0.5 rounded font-bold">HOT</span>
           </button>
+
           <button 
             onClick={() => { onOpenMistakes(); setMobileMenuOpen(false); }}
-            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-rose-300 hover:bg-slate-800 flex items-center gap-1.5"
+            className="w-full text-left px-4 py-3 rounded-xl text-sm font-semibold text-rose-300 hover:bg-slate-800/60 flex items-center gap-2 cursor-pointer"
           >
             <Bookmark className="w-4 h-4 fill-rose-500/20 text-rose-400" />
-            <span>Smart Mistake Notebook (गलती डायरी)</span>
+            <span>गलती डायरी (Mistake Notebook)</span>
           </button>
+
           <button 
-            onClick={() => { setActiveTab('books'); setMobileMenuOpen(false); }}
-            className="w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium text-amber-300 hover:bg-slate-800"
+            onClick={() => handleNav('books')}
+            className={`w-full text-left px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-between cursor-pointer ${activeTab === 'books' ? 'bg-teal-500/15 text-teal-300 font-bold border border-teal-500/30' : 'text-amber-300 hover:bg-slate-800/60'}`}
           >
-            📚 Best Recommended Books
+            <span>📖 Recommended Topper Books</span>
           </button>
-          <div className="pt-2">
+
+          <div className="pt-4">
             <button
               onClick={() => { onOpenPassPro(); setMobileMenuOpen(false); }}
-              className="w-full py-2.5 rounded-lg bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-bold text-center flex items-center justify-center gap-2 shadow-lg cursor-pointer"
+              className="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-sm text-center flex items-center justify-center gap-2 shadow-xl shadow-amber-500/20 cursor-pointer"
             >
               <Crown className="w-4 h-4 fill-slate-950" />
-              Upgrade to Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice})
+              <span>Upgrade to Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice}/Year)</span>
             </button>
           </div>
         </div>

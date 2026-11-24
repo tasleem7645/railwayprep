@@ -6,6 +6,7 @@ import TestResultModal from './components/TestResultModal';
 import PassProModal from './components/PassProModal';
 import SuperCoachingView from './components/SuperCoachingView';
 import DailyQuizCard from './components/DailyQuizCard';
+import DailyQuizView from './components/DailyQuizView';
 import SyllabusView from './components/SyllabusView';
 import Footer from './components/Footer';
 import AdBanner from './components/AdBanner';
@@ -18,7 +19,7 @@ import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
-  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock
+  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe
 } from 'lucide-react';
 
 class ErrorBoundary extends React.Component {
@@ -65,7 +66,88 @@ class ErrorBoundary extends React.Component {
 }
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz' | 'books'
+  const [_activeTab, _setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz' | 'books' | 'tools'
+  const activeTab = _activeTab;
+
+  const setActiveTab = (tab) => {
+    _setActiveTab(tab);
+    if (window.location.hash !== `#${tab}`) {
+      window.location.hash = tab;
+    }
+  };
+
+  const [selectedGoal, setSelectedGoal] = useState('RRB ALP (Loco Pilot 2026)');
+  const [activeExamId, setActiveExamId] = useState(null);
+
+  // Dynamic Hash Routing
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace('#', '').trim();
+      const validTabs = ['home', 'mock-tests', 'super-coaching', 'syllabus', 'daily-quiz', 'books', 'tools'];
+      if (validTabs.includes(hash)) {
+        _setActiveTab(hash);
+      }
+    };
+
+    const initialHash = window.location.hash.replace('#', '').trim();
+    const validTabs = ['home', 'mock-tests', 'super-coaching', 'syllabus', 'daily-quiz', 'books', 'tools'];
+    if (validTabs.includes(initialHash)) {
+      _setActiveTab(initialHash);
+    }
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  const handleSelectGoal = (goal) => {
+    setSelectedGoal(goal);
+    if (goal.includes('2025 (CBT-1)')) {
+      setYearFilter('2025');
+      setShiftFilter('all');
+      setActiveTab('mock-tests');
+    } else if (goal.includes('CBT-2')) {
+      setYearFilter('cbt2');
+      setShiftFilter('all');
+      setActiveTab('mock-tests');
+    } else if (goal.includes('ALP') && goal.includes('2026')) {
+      setYearFilter('2026');
+      setShiftFilter('all');
+      setActiveTab('mock-tests');
+    } else if (goal.includes('Technician')) {
+      setActiveExamId('tech_02_2026');
+      setActiveTab('syllabus');
+    } else if (goal.includes('NTPC')) {
+      setActiveExamId('ntpc_grad_06_2026');
+      setActiveTab('syllabus');
+    } else if (goal.includes('Group D')) {
+      setActiveExamId('groupd_09_2025');
+      setActiveTab('syllabus');
+    } else if (goal.includes('RPF')) {
+      setActiveExamId('rpf_si_constable');
+      setActiveTab('syllabus');
+    } else if (goal.includes('Station Master')) {
+      setActiveExamId('station_master_08_2026');
+      setActiveTab('syllabus');
+    } else if (goal.includes('JE')) {
+      setActiveExamId('je_dms_04_2026');
+      setActiveTab('syllabus');
+    }
+  };
+
+  const handleNavigateFromFooter = (tab, opts = {}) => {
+    if (opts.year) {
+      setYearFilter(opts.year);
+      setShiftFilter('all');
+    }
+    if (opts.filter) {
+      setTestFilter(opts.filter);
+    }
+    if (opts.examId) {
+      setActiveExamId(opts.examId);
+    }
+    setActiveTab(tab);
+  };
+
   const [selectedLang, setSelectedLang] = useState('hi');
   const [yearFilter, setYearFilter] = useState('all'); // 'all' | '2026' | '2025'
   const [testFilter, setTestFilter] = useState('all'); // 'all' | 'official' | 'sectional'
@@ -190,6 +272,8 @@ export default function App() {
         onOpenMistakes={() => setIsMistakeModalOpen(true)}
         selectedLang={selectedLang}
         setSelectedLang={setSelectedLang}
+        selectedGoal={selectedGoal}
+        onSelectGoal={handleSelectGoal}
       />
 
       {/* Main Content Areas */}
@@ -439,10 +523,10 @@ export default function App() {
             </section>
 
             {/* Daily Quiz Streak Section */}
-            <DailyQuizCard onStartMock={() => handleStartMock(RAILWAY_TESTS[0])} />
+            <DailyQuizCard onStartMock={() => setActiveTab('daily-quiz')} />
 
             {/* SuperCoaching Highlights */}
-            <SuperCoachingView onOpenPassPro={() => setIsPassProOpen(true)} />
+            <SuperCoachingView onOpenPassPro={() => setIsPassProOpen(true)} hasPassPro={hasPassPro} />
           </>
         )}
 
@@ -522,9 +606,9 @@ export default function App() {
               {/* Category Filter Tabs */}
               <div className="flex items-center justify-center gap-2 mt-3 overflow-x-auto no-scrollbar">
                 {[
-                  { key: 'all', label: `All Test Types (${shiftFilter === 'all' ? RAILWAY_TESTS.length : RAILWAY_TESTS.filter(t => t.shiftName === shiftFilter).length})` },
-                  { key: 'full-shift', label: `Full Shift Official Papers (${shiftFilter === 'all' ? RAILWAY_TESTS.filter(t => t.category === 'full-shift').length : RAILWAY_TESTS.filter(t => t.shiftName === shiftFilter && t.category === 'full-shift').length})` },
-                  { key: 'sectional', label: `Sectional Tests (${shiftFilter === 'all' ? RAILWAY_TESTS.filter(t => t.category === 'sectional').length : RAILWAY_TESTS.filter(t => t.shiftName === shiftFilter && t.category === 'sectional').length})` }
+                  { key: 'all', label: `All Test Types (${shiftFilter === 'all' ? yearTests.length : yearTests.filter(t => t.shiftName === shiftFilter).length})` },
+                  { key: 'full-shift', label: `Full Shift Official Papers (${shiftFilter === 'all' ? yearTests.filter(t => t.category === 'full-shift').length : yearTests.filter(t => t.shiftName === shiftFilter && t.category === 'full-shift').length})` },
+                  { key: 'sectional', label: `Sectional Tests (${shiftFilter === 'all' ? yearTests.filter(t => t.category === 'sectional').length : yearTests.filter(t => t.shiftName === shiftFilter && t.category === 'sectional').length})` }
                 ].map(f => (
                   <button
                     key={f.key}
@@ -670,20 +754,25 @@ export default function App() {
         )}
 
         {activeTab === 'super-coaching' && (
-          <SuperCoachingView onOpenPassPro={() => setIsPassProOpen(true)} />
+          <SuperCoachingView 
+            onOpenPassPro={() => setIsPassProOpen(true)} 
+            hasPassPro={hasPassPro} 
+          />
         )}
 
         {activeTab === 'syllabus' && (
           <SyllabusView
             onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
             onOpenPassPro={() => setIsPassProOpen(true)}
+            activeExamId={activeExamId}
           />
         )}
 
         {activeTab === 'daily-quiz' && (
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-            <DailyQuizCard onStartMock={() => handleStartMock(RAILWAY_TESTS[0])} />
-          </div>
+          <DailyQuizView 
+            onOpenPassPro={() => setIsPassProOpen(true)} 
+            onOpenMistakes={() => setIsMistakeModalOpen(true)} 
+          />
         )}
 
         {activeTab === 'books' && (
@@ -702,6 +791,8 @@ export default function App() {
       <Footer 
         onOpenPassPro={() => setIsPassProOpen(true)} 
         onOpenLegalModal={(tab) => setLegalModalTab(tab)}
+        onOpenMistakes={() => setIsMistakeModalOpen(true)}
+        onNavigateTab={handleNavigateFromFooter}
       />
 
       {/* CBT Mock Test Simulator Modal (with session persistence & refresh protection) */}
