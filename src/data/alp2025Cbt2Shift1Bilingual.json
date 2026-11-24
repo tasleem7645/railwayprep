@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "shiftQuestionNo": 1,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "If Rohan's income increases by 20% and his expenditure increases by 10%, then his savings increase by ₹1,200. If his\n original income was ₹12,000, what was his original expenditure? (Assume that savings = income − expenditure.)",
+      "hi": "यदि रोहन की आय 20% बढ़ जाती है और उसका व्यय 10% बढ़ जाता है, तो उसकी बचत में ₹1,200 की वृद्धि होती है। यदि उसकी मूल आय\n ₹12,000 थी, तो उसका मूल व्यय कितना था? (मान लीजिए कि, बचत = आय − व्यय)"
+    },
+    "options": {
+      "en": [
+        "₹10,000",
+        "₹11,000",
+        "₹12,000",
+        "₹9,000"
+      ],
+      "hi": [
+        "₹10,000",
+        "₹11,000",
+        "₹9,000",
+        "₹12,000"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (₹12,000). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (₹9,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 2,
+    "shiftQuestionNo": 2,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which feature is a requirement of the BIS drawing standard in engineering drawings?",
+      "hi": "निम्नलिखित में से कौन-सा अभिलक्षण, इंजीनियरिंग ड्राइंग में BIS ड्राइंग मानक की आवश्यकता है?"
+    },
+    "options": {
+      "en": [
+        "Freehand sketches without scale",
+        "Margin lines of random width",
+        "Title block with specific information",
+        "Use of colored pencils for clarity"
+      ],
+      "hi": [
+        "बिना पैमाने के मुक्तहस्त रेखाचित्र (Freehand sketches)",
+        "स्पष्टता (clarity) के लिए रंगीन पेंसिलों का उपयोग",
+        "विशिष्ट जानकारी वाला शीर्षक ब्लॉक (Title block)",
+        "यादृच्छिक चौड़ाई की सीमा रेखाएं (Margin lines)"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Title block with specific information). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विशिष्ट जानकारी वाला शीर्षक ब्लॉक (Title block))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 3,
+    "shiftQuestionNo": 3,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What should come in place of the question mark (?) in the given series?\n 98, 104, 116, 134, 158, ?",
+      "hi": "दी गई शृंखला में प्रश्न-चिह्न (?) के स्थान पर क्या आना चाहिए?\n 98, 104, 116, 134, 158, ?"
+    },
+    "options": {
+      "en": [
+        "184",
+        "186",
+        "188",
+        "190"
+      ],
+      "hi": [
+        "188",
+        "186",
+        "184",
+        "190"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (188). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (184)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 4,
+    "shiftQuestionNo": 4,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "If the mean of the following data is 40, then what is the value of x?\n\n| Class | 10-20 | 20-30 | 30-40 | 40-50 | 50-60 |\n| Frequency | 30 | 27 | 44 | 29 | X |",
+      "hi": "यदि निम्नलिखित आंकड़ों का माध्य 40 है, तो X का मान ज्ञात कीजिए।\n\n| वर्ग (Class) | 10-20 | 20-30 | 30-40 | 40-50 | 50-60 |\n| बारंबारता (Frequency) | 30 | 27 | 44 | 29 | X |"
+    },
+    "options": {
+      "en": [
+        "82",
+        "98",
+        "99",
+        "93"
+      ],
+      "hi": [
+        "82",
+        "98",
+        "93",
+        "99"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (82). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (82)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 5,
+    "shiftQuestionNo": 5,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which property of a fuse wire ensures it melts quickly when excess current flows?",
+      "hi": "फ्यूज तार का कौन-सा गुणधर्म यह सुनिश्चित करता है कि अतिरिक्त धारा प्रवाहित होने पर यह शीघ्र पिघल जाए?"
+    },
+    "options": {
+      "en": [
+        "High electrical resistance",
+        "High melting point",
+        "Thick wire",
+        "Low melting point"
+      ],
+      "hi": [
+        "उच्च गलनांक",
+        "निम्न गलनांक",
+        "उच्च विद्युत प्रतिरोध",
+        "मोटा तार"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Low melting point). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (मोटा तार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 6,
+    "shiftQuestionNo": 6,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "There are two types of silver–copper alloys. The first alloy contains 93 (1/3)% silver, while the second alloy contains 86 (2/3)% silver. Find the amount of the first alloy that should be mixed with some quantity of the second alloy to obtain a 100 kg mixture containing 90% silver.",
+      "hi": "चाँदी-ताँबे की दो प्रकार की मिश्रधातुएँ हैं। पहली मिश्रधातु में 93 (1/3)% चाँदी है, जबकि दूसरी मिश्रधातु में 86 (2/3)% चाँदी है। पहली मिश्रधातु की वह मात्रा ज्ञात कीजिए जिसे दूसरी मिश्रधातु की कुछ मात्रा के साथ मिलाने पर 90% चाँदी वाला 100 kg मिश्रण प्राप्त हो।"
+    },
+    "options": {
+      "en": [
+        "48 kg",
+        "52 kg",
+        "50 kg",
+        "45 kg"
+      ],
+      "hi": [
+        "48 kg",
+        "52 kg",
+        "50 kg",
+        "45 kg"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (50 kg). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (50 kg)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 7,
+    "shiftQuestionNo": 7,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A trader buys 187 pens at ₹23 each. During transportation, 7 pens get damaged and cannot be sold. He sells the remaining\n pens at ₹27 each. Find his profit percentage. (rounded off to one decimal place)",
+      "hi": "एक व्यापारी ₹23 प्रति पेन की दर से 187 पेन खरीदता है। परिवहन के दौरान, 7 पेन क्षतिग्रस्त हो जाते हैं और उन्हें बेचा नहीं जा सकता। वह शेष\n पेन ₹27 प्रति पेन की दर से बेचता है। उसका लाभ प्रतिशत ज्ञात कीजिए। (अपना उत्‍तर दशमलव के एक स्थान तक पूर्णांकित करें)"
+    },
+    "options": {
+      "en": [
+        "13.7%",
+        "14.1%",
+        "13.0%",
+        "12.6%"
+      ],
+      "hi": [
+        "12.6%",
+        "13.7%",
+        "13.0%",
+        "14.1%"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (13.0%). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (13.0%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 8,
+    "shiftQuestionNo": 8,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A car travels on a highway, and its odometer records a reading of 180 km at 8:00 am and 240 km at 9:30 am. Based on this\n information, which statement best describes the car's average speed during this interval?",
+      "hi": "एक कार राजमार्ग पर चल रही है और उसका ओडोमीटर 8:00 am पर 180 km और 9:30 am पर 240 km रीडिंग रिकॉर्ड करता है। इस\n जानकारी के आधार पर, कौन-सा कथन इस अंतराल के दौरान कार की औसत चाल का सबसे सटीक वर्णन करता है?"
+    },
+    "options": {
+      "en": [
+        "The car's average speed is 240 km per hour since that was the odometer reading at 9:30 am.",
+        "The car's average speed is 60 km per hour based only on the change in odometer readings.",
+        "The car's average speed is 40 km per hour as calculated from the odometer readings and time interval.",
+        "The car's average speed is 180 km per hour since that was the odometer reading at 8:00 am."
+      ],
+      "hi": [
+        "कार की औसत चाल 240 km प्रति घंटा है क्योंकि 9:30 am पर ओडोमीटर पर यही रीडिंग थी।",
+        "कार की औसत चाल 180 km प्रति घंटा है क्योंकि 8:00 am पर ओडोमीटर पर यही रीडिंग थी।",
+        "कार की औसत चाल 60 km प्रति घंटा है, यह केवल ओडोमीटर रीडिंग में हुए परिवर्तन पर आधारित है।",
+        "कार की औसत चाल 40 km प्रति घंटा है, जिसकी गणना ओडोमीटर रीडिंग और समय अंतराल के आधार पर की जाती है।"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (The car's average speed is 40 km per hour as calculated from the odometer readings and time interval.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (कार की औसत चाल 60 km प्रति घंटा है, यह केवल ओडोमीटर रीडिंग में हुए परिवर्तन पर आधारित है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 9,
+    "shiftQuestionNo": 9,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A cyclist covers 120 meters in 16 seconds on a straight road, then immediately covers 180 meters in 24 seconds on a similar\n road segment. What is the average speed of the cyclist during the entire journey?",
+      "hi": "एक साइकिल चालक एक सीधी सड़क पर 16 सेकं ड में 120 मीटर की दूरी तय करता है, फिर तुरंत एक समान सड़क खंड पर 24 सेकं ड में 180\n मीटर की दूरी तय करता है। संपूर्ण यात्रा के दौरान साइकिल चालक की औसत चाल क्या है?"
+    },
+    "options": {
+      "en": [
+        "7.5 meters per second",
+        "7.0 meters per second",
+        "6.5 meters per second",
+        "8.0 meters per second"
+      ],
+      "hi": [
+        "8.0 मीटर प्रति सेकं ड",
+        "7.0 मीटर प्रति सेकं ड",
+        "6.5 मीटर प्रति सेकं ड",
+        "7.5 मीटर प्रति सेकं ड"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (7.5 meters per second). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (8.0 मीटर प्रति सेकं ड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 10,
+    "shiftQuestionNo": 10,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What do touch gestures in Microsoft Windows allow users to do?",
+      "hi": "माइक्रोसॉफ्ट विंडोज (Microsoft Windows) में टच जेस्चर यूजर्स को क्या करने की सुविधा देते है?"
+    },
+    "options": {
+      "en": [
+        "Type faster on the keyboard",
+        "Connect external devices",
+        "Perform actions using finger movements",
+        "Increase screen brightness"
+      ],
+      "hi": [
+        "बाह्य डिवाइस को कनेक्ट करने",
+        "कीबोर्ड पर तेजी से टाइप करने",
+        "स्क्रीन की ब्राइटनेस बढ़ाने",
+        "उंगलियों के गतिविधि का उपयोग करके क्रियाएं करने"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Perform actions using finger movements). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (स्क्रीन की ब्राइटनेस बढ़ाने)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 11,
+    "shiftQuestionNo": 11,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which of the following is both, an input and output device?",
+      "hi": "निम्नलिखित में से कौन-सा, इनपुट और आउटपुट डिवाइस दोनों है?"
+    },
+    "options": {
+      "en": [
+        "Keyboard",
+        "Touchscreen monitor",
+        "Projector",
+        "Printer"
+      ],
+      "hi": [
+        "टचस्क्रीन मॉनिटर",
+        "प्रिंटर",
+        "प्रोजेक्टर",
+        "कीबोर्ड"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (Touchscreen monitor). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (प्रिंटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 12,
+    "shiftQuestionNo": 12,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "In third angle projection, where is the object placed relative to the plane of projection?",
+      "hi": "तृतीय कोणीय प्रक्षेपण (Third Angle Projection) में, वस्तु (object) को प्रक्षेप तल के सापेक्ष कहाँ रखा जाता है?"
+    },
+    "options": {
+      "en": [
+        "The object is placed in the third quadrant",
+        "The object is placed in the second quadrant",
+        "The object is placed in the first quadrant",
+        "The object is placed in the fourth quadrant"
+      ],
+      "hi": [
+        "वस्तु को तृतीय चतुर्थांश में रखा जाता है",
+        "वस्तु को द्वितीय चतुर्थांश में रखा जाता है",
+        "वस्तु को प्रथम चतुर्थांश में रखा जाता है",
+        "वस्तु को चतुर्थ चतुर्थांश में रखा जाता है"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (The object is placed in the third quadrant). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (वस्तु को तृतीय चतुर्थांश में रखा जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 13,
+    "shiftQuestionNo": 13,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "An engineer uses fault tree analysis to assess a machine-related injury in a factory. Which step should be taken first\n according to standard procedure?",
+      "hi": "एक इंजीनियर, कारखाने में मशीन से संबंधित क्षति का आकलन करने के लिए भ्रंश वृक्ष विश्लेषण (fault tree analysis) का उपयोग करता\n है। मानक प्रक्रिया के अनुसार सर्वप्रथम कौन-सा कदम उठाया जाना चाहिए?"
+    },
+    "options": {
+      "en": [
+        "Establish preventive measures to control risks",
+        "List all possible causes of failures",
+        "Validate the analysis using workplace data",
+        "Define the top event representing the injury"
+      ],
+      "hi": [
+        "जोखिमों को नियंत्रित करने के लिए निवारक उपाय स्थापित करना",
+        "कार्यस्थल डेटा का उपयोग करके विश्लेषण को मान्य करना",
+        "क्षति का कारण बनने वाली शीर्ष घटना को परिभाषित करना",
+        "विफलताओं के सभी संभावित कारणों को सूचीबद्ध करना"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Define the top event representing the injury). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (विफलताओं के सभी संभावित कारणों को सूचीबद्ध करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 14,
+    "shiftQuestionNo": 14,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "In a certain code language,\n A + B means ‘A is the mother of B’,\n A − B means ‘A is the brother of B’,\n A × B means ‘A is the wife of B’ and\n A % B means ‘A is the father of B’.\n How is Shreya related to Mahak if ‘Shreya + Dev − Taran × Harshit % Mahak’?",
+      "hi": "एक निश्चित कू ट भाषा में,\n A + B का अर्थ है कि, ‘A, B की माता है’,\n A − B का अर्थ है कि, ‘A, B का भाई है’,\n A × B का अर्थ है कि, ‘A, B की पत्नी है’ और\n A % B का अर्थ है कि, ‘A, B का पिता है’।\n\n\n\n\n \n यदि ‘श्रेया + देव − तरण × हर्षित % महक’ है, तो श्रेया का महक से क्या संबंध है?"
+    },
+    "options": {
+      "en": [
+        "Father's sister",
+        "Mother's sister",
+        "Father's mother",
+        "Mother's mother"
+      ],
+      "hi": [
+        "पिता की माता",
+        "पिता की बहन",
+        "माता की बहन",
+        "माता की माता"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Mother's mother). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (माता की माता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 15,
+    "shiftQuestionNo": 15,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which of the following scenarios best demonstrates the conversion of chemical energy to mechanical energy?",
+      "hi": "निम्नलिखित में से कौन-सा परिदृश्य, रासायनिक ऊर्जा के यांत्रिक ऊर्जा में रूपांतरण को सटीक रूप से प्रदर्शित करता है?"
+    },
+    "options": {
+      "en": [
+        "A flashlight turns on after inserting new batteries",
+        "A stone falls off a table to the ground",
+        "A stretched rubber band snaps back to its original shape",
+        "A runner uses stored energy from food to sprint forward"
+      ],
+      "hi": [
+        "एक तानित रबर बैंड वापस अपनी मूल आकृ ति में आ जाता है।",
+        "नई बैटरी डालने के बाद टॉर्च चालू हो जाती है।",
+        "एक पत्थर मेज से जमीन पर गिर जाता है।",
+        "एक धावक आगे की ओर तेज दौड़ने के लिए भोजन से प्राप्त संचित ऊर्जा का उपयोग करता है।"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (A runner uses stored energy from food to sprint forward). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (एक धावक आगे की ओर तेज दौड़ने के लिए भोजन से प्राप्त संचित ऊर्जा का उपयोग करता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 16,
+    "shiftQuestionNo": 16,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A shopkeeper marks a product 75% above cost price and offers two successive discounts of 30% and 40%. What is the\n profit or loss percentage?",
+      "hi": "एक दुकानदार किसी उत्पाद पर क्रय मूल्य से 75% अधिक मूल्य अंकित करता है तथा 30% और 40% की दो क्रमिक छू ट प्रदान करता है।\n लाभ या हानि प्रतिशत ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "15.7% profit",
+        "20.9% profit",
+        "26.5% loss",
+        "22.6% profit"
+      ],
+      "hi": [
+        "26.5% हानि",
+        "15.7% लाभ",
+        "22.6% लाभ",
+        "20.9% लाभ"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (26.5% loss). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (22.6% लाभ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 17,
+    "shiftQuestionNo": 17,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.\n (Left) A T D E B R C L M Q O N P J M Q E A O Z W F U K S L (Right)\n How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by\n a consonant?",
+      "hi": "निम्नलिखित अक्षर श्रृंखला का संदर्भ लीजिए और नीचे दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है।\n (बाएं ) A T D E B R C L M Q O N P J M Q E A O Z W F U K S L (दाएं )\n ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद में भी एक व्यंजन है?"
+    },
+    "options": {
+      "en": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ],
+      "hi": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (3). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 18,
+    "shiftQuestionNo": 18,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus\n form a group. Which letter-cluster pair DOES NOT belong to that group?\n (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार वे एक ग्रुप\n बनाते हैं। कौन-सा अक्षर-समूह युग्म उस ग्रुप से संबंधित नहीं है?\n (नोट: असंगत अक्षर-समूह युग्म, उसमें व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+    },
+    "options": {
+      "en": [
+        "DJ – GM",
+        "AF – DI",
+        "CH – EK",
+        "BG – EJ"
+      ],
+      "hi": [
+        "AF – DI",
+        "BG – EJ",
+        "DJ – GM",
+        "CH – EK"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (CH – EK). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (DJ – GM)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 19,
+    "shiftQuestionNo": 19,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Refer to the given letter series and answer the question that follows. Counting to be done from left to right.\n (Left) B F O P P S Q A L M K A W X S N U Q J O M Y (Right)\n How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by\n a consonant?",
+      "hi": "निम्नलिखित अक्षर श्रृंखला का संदर्भ लीजिए और उसके नीचे दिए गए प्रश्न का उत्तर दीजिए। गिनती बाएं से दाएं की जानी है।\n (बाएं ) B F O P P S Q A L M K A W X S N U Q J O M Y (दाएं )\n ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद में भी एक व्यंजन है?"
+    },
+    "options": {
+      "en": [
+        "6",
+        "4",
+        "7",
+        "5"
+      ],
+      "hi": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (5). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 20,
+    "shiftQuestionNo": 20,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What is the primary function of a fire hydrant in a workplace safety system?",
+      "hi": "कार्यस्थल सुरक्षा प्रणाली में फायर हाइड्रेंट (fire hydrant) का प्राथमिक कार्य क्या है?"
+    },
+    "options": {
+      "en": [
+        "Removing hazardous fumes from the area",
+        "Detecting smoke and warning employees",
+        "Supplying large quantities of water to fight fires",
+        "Activating fire alarms automatically in emergencies"
+      ],
+      "hi": [
+        "क्षेत्र से संकटजनक धूम को हटाना",
+        "धुएं का संसूचन करना और कर्मचारियों को चेतावनी देना",
+        "आपात स्थिति में स्वचालित रूप से फायर अलार्म सक्रिय करना",
+        "आग बुझाने के लिए बड़ी मात्रा में जल की आपूर्ति करना"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Supplying large quantities of water to fight fires). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (आपात स्थिति में स्वचालित रूप से फायर अलार्म सक्रिय करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 21,
+    "shiftQuestionNo": 21,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which approach most effectively reduces both nitrogen and phosphorus concentrations during wastewater treatment?",
+      "hi": "अपशिष्ट जल उपचार के दौरान नाइट्रोजन और फास्फोरस की सांद्रता को कम करने के लिए कौन-सा उपागम सर्वाधिक प्रभावी है?"
+    },
+    "options": {
+      "en": [
+        "Biological and chemical nutrient removal",
+        "Primary sedimentation with extended aeration",
+        "UV disinfection following secondary treatment",
+        "Surface-flow constructed wetlands"
+      ],
+      "hi": [
+        "सतही-प्रवाह निर्मित आर्द्रभूमि",
+        "जैविक और रासायनिक पोषक तत्व हटाना",
+        "द्वितीयक उपचार के बाद UV विसंक्रमण",
+        "विस्तारित वातन के साथ प्राथमिक अवसादन"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (Biological and chemical nutrient removal). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सतही-प्रवाह निर्मित आर्द्रभूमि)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 22,
+    "shiftQuestionNo": 22,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically\n complete?\n QOI 5, OMG 10, MKE 15, KIC 20, ?",
+      "hi": "निम्नलिखित में से कौन-सा अक्षर-संख्या समूह, दी गई श्रृंखला को तार्किक रूप से पूर्ण बनाने के लिए प्रश्न-चिह्न (?) के स्थान पर आएगा?\n QOI 5, OMG 10, MKE 15, KIC 20, ?"
+    },
+    "options": {
+      "en": [
+        "IGA 25",
+        "IHS 23",
+        "HIZ 30",
+        "JHZ 24"
+      ],
+      "hi": [
+        "IGA 25",
+        "JHZ 24",
+        "IHS 23",
+        "HIZ 30"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (IGA 25). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (IGA 25)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 23,
+    "shiftQuestionNo": 23,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Refer to the following letter and symbol series and answer the question that follows. Counting to be done from left to right.\n (Left) Z @ B R J # D * Q A M S % P L V O U S N T W Z (Right)\n How many such symbols are there, each of which is immediately preceded by a letter and also immediately followed by a\n letter?",
+      "hi": "निम्नलिखित अक्षर तथा प्रतीक श्रृंखला का संदर्भ लीजिए और नीचे दिए गए प्रश्न का उत्तर दीजिए। गिनती बाएं से दाएं की जानी है।\n (बाएं ) Z @ B R J # D * Q A M S % P L V O U S N T W Z (दाएं )\n ऐसे कितने प्रतीक हैं, जिनमें से प्रत्येक के ठीक पहले एक अक्षर है और ठीक बाद में भी एक अक्षर है?"
+    },
+    "options": {
+      "en": [
+        "None",
+        "Four",
+        "Three",
+        "Two"
+      ],
+      "hi": [
+        "दो",
+        "चार",
+        "तीन",
+        "एक भी नहीं"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (Four). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (चार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 24,
+    "shiftQuestionNo": 24,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A sum of ₹420 is divided among A, B, C, and D such that: A : B = 4 : x, B : C = x : 7, C : D = 6 : (x − 3). If B and C together get\n ₹210, find the value of x.",
+      "hi": "₹420 की धनराशि को A, B, C और D के बीच इस प्रकार विभाजित किया जाता है कि A : B = 4 : x, B : C = x : 7, C : D = 6 : (x − 3)\n है। यदि B और C को कु ल ₹210 मिलते हैं, तो x का मान ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "42",
+        "27",
+        "39",
+        "53"
+      ],
+      "hi": [
+        "42",
+        "39",
+        "53",
+        "27"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (39). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (53)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 25,
+    "shiftQuestionNo": 25,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Three pipes A, B and C can fill a tank in 12 hours, 18 hours and 24 hours, respectively. A leak at the bottom can empty the\n full tank in 36 hours. If all the pipes are opened together, in how many hours will the tank be filled? (Round off your answer\n to two decimal places.)",
+      "hi": "तीन पाइप A, B और C एक टंकी को क्रमशः 12 घंटे, 18 घंटे और 24 घंटे में भर सकते हैं। तल में एक रिसाव के कारण भरी हुई टंकी 36 घंटे में\n खाली हो सकती है। यदि सभी पाइप एक साथ खोल दिए जाएं , तो टंकी कितने घंटे में भर जाएगी? (अपने उत्तर को दशमलव के दो स्थानों तक\n पूर्णांकित कीजिए।)"
+    },
+    "options": {
+      "en": [
+        "3.33 hours",
+        "5.56 hours",
+        "6.55 hours",
+        "9.45 hours"
+      ],
+      "hi": [
+        "9.45 घंटे",
+        "6.55 घंटे",
+        "3.33 घंटे",
+        "5.56 घंटे"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (6.55 hours). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (3.33 घंटे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 26,
+    "shiftQuestionNo": 26,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A pendulum takes 60 seconds to complete 24 oscillations. If its length is increased and it now takes 72 seconds for the\n same number of oscillations, what has happened to its time period?",
+      "hi": "एक लोलक 24 दोलन पूरे करने में 60 सेकं ड लेता है। यदि इसकी लंबाई बढ़ा दी जाए और अब यह उतने ही दोलनों के लिए 72 सेकं ड लेता है, तो\n इसके आवर्तकाल में क्या परिवर्तन हुआ है?"
+    },
+    "options": {
+      "en": [
+        "It has increased to 3.0 seconds",
+        "It has decreased to 1.5 seconds",
+        "It remains at 2.5 seconds",
+        "It has decreased to 2.0 seconds"
+      ],
+      "hi": [
+        "यह घटकर 2.0 सेकं ड हो गया है",
+        "यह घटकर 1.5 सेकं ड हो गया है",
+        "यह 2.5 सेकं ड ही बना रहता है",
+        "यह बढ़कर 3.0 सेकं ड हो गया है"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (It has increased to 3.0 seconds). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (यह घटकर 2.0 सेकं ड हो गया है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 27,
+    "shiftQuestionNo": 27,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "An engineer is tasked with creating the front view of a mechanical part. The part has a rectangular base with a vertical\n circular hole passing through it and a triangular prism attached on top. Which of the following best describes what will be\n visible in the front view?",
+      "hi": "किसी इंजीनियर को एक यांत्रिक पुर्जे का फ्रं ट व्यू (front view) बनाने का कार्य सौंपा गया है। पुर्जे का आधार आयताकार है, जिसके बीच से\n एक ऊर्ध्वाधर वृत्तीय छिद्र गुजरता है, और उसके ऊपर एक त्रिकोणीय प्रिज्म संलग्न है। नीचे दिए गए विकल्पों में से कौन-सा विकल्प सर्वोत्‍तम\n रूप से बताता है कि फ्रं ट व्यू में क्या दिखाई देगा?"
+    },
+    "options": {
+      "en": [
+        "Only the rectangular base outline will be visible in the front view drawing",
+        "The outline of rectangular base and triangular prism will be visible but hole is not shown",
+        "The outline of triangular prism and circular hole will be visible in front view only",
+        "Only the triangular prism will be clearly visible in the front view drawing"
+      ],
+      "hi": [
+        "फ्रं ट व्यू ड्राइंग पर केवल त्रिभुजाकार प्रिज्म ही स्पष्ट रूप से दृश्यमान होगा",
+        "आयताकार आधार और त्रिकोणीय प्रिज्म की आउटलाइन दृश्यमान होगी, लेकिन छिद्र दृश्यमान नहीं होगा",
+        "फ्रं ट व्यू ड्राइंग पर केवल आयताकार आधार की आउटलाइन दृश्यमान होगी",
+        "केवल फ्रं ट व्यू पर ही त्रिकोणीय प्रिज्म और वृत्तीय छिद्र की आउटलाइन दृश्यमान होगी"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (The outline of rectangular base and triangular prism will be visible but hole is not shown). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (आयताकार आधार और त्रिकोणीय प्रिज्म की आउटलाइन दृश्यमान होगी, लेकिन छिद्र दृश्यमान नहीं होगा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 28,
+    "shiftQuestionNo": 28,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "An engineering student is tasked with creating a detailed side view of a complex machine part for an assembly drawing.\n Which approach will most accurately represent all features visible from the side while avoiding hidden overlaps or\n misinterpretations?",
+      "hi": "एक इंजीनियरिंग विद्यार्थी को असेंबली ड्राइंग (assembly drawing) के लिए एक जटिल मशीन पुर्जे का विस्तृत पार्श्व दृश्य बनाने का कार्य\n दिया गया है। कौन-सा उपागम पार्श्व से दिखाई देने वाले सभी अभिलक्षणों को सर्वाधिक सटीक रूप से निरूपित करेगा, और साथ ही प्रच्छन्न\n अतिव्यापन या गलत व्याख्याओं (misinterpretations) से बचेगा?"
+    },
+    "options": {
+      "en": [
+        "Project all visible elements from the side and omit hidden features unless needed",
+        "Use only hidden lines for representing features on the far side in the view",
+        "Sketch the side view freely without using projections from the main view",
+        "Include all features even those not visible from the selected side view"
+      ],
+      "hi": [
+        "दृश्य में दूर की ओर के अभिलक्षणों को निरूपित करने के लिए केवल प्रच्छन्न रेखाओं का उपयोग करें",
+        "सभी अभिलक्षणों को शामिल करें, यहां तक कि वे भी जो चयनित पार्श्व दृश्य से दिखाई नहीं दे रही हैं",
+        "पार्श्व से सभी दृश्यमान अवयवों का प्रक्षेप करें और आवश्यकता न होने पर प्रच्छन्न अभिलक्षणों का लोप कर दें",
+        "मुख्य दृश्य से प्रक्षेपों का उपयोग किए बिना पार्श्व दृश्य को स्वतंत्र रूप से आरेखित करें"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (Project all visible elements from the side and omit hidden features unless needed). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (दृश्य में दूर की ओर के अभिलक्षणों को निरूपित करने के लिए केवल प्रच्छन्न रेखाओं का उपयोग करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 29,
+    "shiftQuestionNo": 29,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "If (x + 1/x) = 3, find the value of (x³ + 1/x³).",
+      "hi": "यदि (x + 1/x) = 3 है, तो (x³ + 1/x³) का मान ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "20",
+        "16",
+        "18",
+        "15"
+      ],
+      "hi": [
+        "20",
+        "15",
+        "18",
+        "16"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (18). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (18)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 30,
+    "shiftQuestionNo": 30,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A sample of water is heated from 15 degrees Celsius to 35 degrees Celsius. What is the temperature change in Kelvin?",
+      "hi": "15 डिग्री सेल्सियस वाले एक प्रतिदर्श जल को 35 डिग्री सेल्सियस तक गर्म किया जाता है। तापमान परिवर्तन (के ल्विन में) कितना है?"
+    },
+    "options": {
+      "en": [
+        "The temperature change is 20 K.",
+        "The temperature change is 30 K.",
+        "The temperature change is 50 K.",
+        "The temperature change is 15 K."
+      ],
+      "hi": [
+        "तापमान परिवर्तन 30 K है।",
+        "तापमान परिवर्तन 50 K है।",
+        "तापमान परिवर्तन 15 K है।",
+        "तापमान परिवर्तन 20 K है।"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (The temperature change is 20 K.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (तापमान परिवर्तन 30 K है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 31,
+    "shiftQuestionNo": 31,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "In a certain code language, 'KING' is coded as '9713' and 'ITCH' is coded as '2945'. What is the code for 'I' in the given\n\n\n\n\n \n code language?",
+      "hi": "एक निश्चित कू ट भाषा में, 'KING' को '9713' के रूप में कू टबद्ध किया जाता है और 'ITCH' को '2945' के रूप में कू टबद्ध किया जाता है। दी\n गई कू ट भाषा में 'I' का कू ट क्या होगा?"
+    },
+    "options": {
+      "en": [
+        "2",
+        "9",
+        "7",
+        "4"
+      ],
+      "hi": [
+        "7",
+        "2",
+        "4",
+        "9"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (9). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 32,
+    "shiftQuestionNo": 32,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Simplify: 60 − {(-8) × (-16 − 19 − 2)} ÷ [5 × {2 + (-1) × (-1)}]",
+      "hi": "सरल कीजिए: 60 − {(-8) × (-16 − 19 − 2)} ÷ [5 × {2 + (-1) × (-1)}]"
+    },
+    "options": {
+      "en": [
+        "594 / 15",
+        "614 / 15",
+        "608 / 15",
+        "604 / 15"
+      ],
+      "hi": [
+        "594 / 15",
+        "614 / 15",
+        "608 / 15",
+        "604 / 15"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (604 / 15). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (604 / 15)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 33,
+    "shiftQuestionNo": 33,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A worker's hand is at risk of injury from a mechanical shearing action. Which situation best describes a shearing hazard?",
+      "hi": "एक श्रमिक का हाथ यांत्रिक कर्तन क्रिया से क्षति होने के जोखिम में है। कौन-सी स्थिति कर्तन खतरे (shearing hazard) का सर्वोत्तम अच्छा\n वर्णन करती है?"
+    },
+    "options": {
+      "en": [
+        "A hand touching a hot metallic machine surface during maintenance activity",
+        "A hand caught between a moving blade and a fixed machine surface during operation",
+        "A hand sliding repeatedly across a rough abrasive machine surface during work",
+        "A hand becoming entangled in a rotating machine shaft during operation"
+      ],
+      "hi": [
+        "प्रचालन के दौरान मशीन के घूर्णी शैफ्ट में हाथ उलझ जाना",
+        "प्रचालन के दौरान गतिशील ब्लेड और मशीन की स्थिर सतह के बीच हाथ का फं स जाना",
+        "अनुरक्षण गतिविधि के दौरान हाथ का मशीन की गर्म धात्विक सतह को छू ना",
+        "कार्य के दौरान मशीन के रूक्ष अपघर्षक सतह पर हाथ का पुनरावर्ती रूप से रगड़ना"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (A hand caught between a moving blade and a fixed machine surface during operation). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (प्रचालन के दौरान गतिशील ब्लेड और मशीन की स्थिर सतह के बीच हाथ का फं स जाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 34,
+    "shiftQuestionNo": 34,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?\n UMD ZQG EUJ JYM ?",
+      "hi": "अंग्रेजी वर्णमाला क्रम पर आधारित दी गई शृंखला में प्रश्न-चिह्न (?) के स्थान पर क्या आना चाहिए?\n UMD ZQG EUJ JYM ?"
+    },
+    "options": {
+      "en": [
+        "PDP",
+        "NBQ",
+        "NDO",
+        "OCP"
+      ],
+      "hi": [
+        "OCP",
+        "NBQ",
+        "PDP",
+        "NDO"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (OCP). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (NDO)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 35,
+    "shiftQuestionNo": 35,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "If a scooter travels at a constant speed of 25 km per hour, how far will it travel in 4 hours?",
+      "hi": "यदि एक स्कू टर 25 km प्रति घंटे की नियत चाल से यात्रा करता है, तो वह 4 घंटे में कितनी दूरी तय करेगा?"
+    },
+    "options": {
+      "en": [
+        "120 km",
+        "100 km",
+        "75 km",
+        "80 km"
+      ],
+      "hi": [
+        "80 km",
+        "100 km",
+        "75 km",
+        "120 km"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (100 km). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (100 km)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 36,
+    "shiftQuestionNo": 36,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if\n it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the\n statements.\n Statements: All girls are hens. No hen is a cat.\n Conclusion (I): No girl is a cat.\n Conclusion (II): Some cats are hens.",
+      "hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। आपको दिए गए कथनों को सत्य मानना है, भले ही वे सामान्य रूप से ज्ञात तथ्यों से भिन्न प्रतीत\n हों। दिए गए निष्कर्षों में से कौन-से निष्कर्ष, कथनों का तार्किक रूप से अनुसरण करते हैं।\n\n कथन: सभी लड़कियाँ, मुर्गियाँ हैं। कोई मुर्गी, बिल्ली नहीं है।\n निष्कर्ष (I): कोई लड़की, बिल्ली नहीं है।\n निष्कर्ष (II): कु छ बिल्लियाँ, मुर्गियाँ हैं।"
+    },
+    "options": {
+      "en": [
+        "Neither conclusion (I) nor (II) follows",
+        "Both conclusions (I) and (II) follow",
+        "Only conclusion (I) follows",
+        "Only conclusion (II) follows"
+      ],
+      "hi": [
+        "केवल निष्कर्ष (II) अनुसरण करता है।",
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
+        "केवल निष्कर्ष (I) अनुसरण करता है।",
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Only conclusion (I) follows). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (केवल निष्कर्ष (I) अनुसरण करता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 37,
+    "shiftQuestionNo": 37,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What is the simplified value of the expression: [ cos A / (1 − tan A) ] + [ sin A / (1 − cot A) ] ?",
+      "hi": "व्यंजक [ cos A / (1 − tan A) ] + [ sin A / (1 − cot A) ] का सरलीकृत मान ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "cos A + sin A",
+        "sin A − cos A",
+        "1",
+        "0"
+      ],
+      "hi": [
+        "0",
+        "sin A − cos A",
+        "cos A + sin A",
+        "1"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (cos A + sin A). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (0)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 38,
+    "shiftQuestionNo": 38,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which of the following best describes a key environmental concern associated with improper disposal of e-waste?",
+      "hi": "निम्नलिखित में से कौन सा ई-अपशिष्ट के अनुचित निस्तारण से संबंधित एक प्रमुख पर्यावरणीय चिंता का सर्वोत्तम वर्णन करता है?"
+    },
+    "options": {
+      "en": [
+        "Release of toxic metals into soil and water",
+        "Enhanced biodegradation of plastics",
+        "Increased recycling rates of precious metals",
+        "Release of greenhouse gases from decomposition"
+      ],
+      "hi": [
+        "बहुमूल्य धातुओं की पुनर्चक्रण (recycling) दरों में वृद्धि",
+        "अपघटन से ग्रीनहाउस गैसों का उत्सर्जन",
+        "प्लास्टिक का उन्नत जैव-निम्नीकरण",
+        "मृदा और जल में विषाक्त धातुओं का निर्मुक्त होना"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (Release of toxic metals into soil and water). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (बहुमूल्य धातुओं की पुनर्चक्रण (recycling) दरों में वृद्धि)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 39,
+    "shiftQuestionNo": 39,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Solve the system of equations:\n−3x + 2y − z = −1,\n6x − 6y + 7z = −7,\n3x − 4y + 4z = −6",
+      "hi": "निम्नलिखित समीकरणों के निकाय को हल कीजिए:\n−3x + 2y − z = −1,\n6x − 6y + 7z = −7,\n3x − 4y + 4z = −6"
+    },
+    "options": {
+      "en": [
+        "x = 1, y = 2, z = 2",
+        "x = 2, y = 2, z = −1",
+        "x = 2, y = 1, z = −3",
+        "x = −2, y = 2, z = 11"
+      ],
+      "hi": [
+        "x = 1, y = 2, z = 2",
+        "x = 2, y = 2, z = −1",
+        "x = 2, y = 1, z = −3",
+        "x = −2, y = 2, z = 11"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (x = 2, y = 2, z = −1). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (x = 2, y = 2, z = −1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 40,
+    "shiftQuestionNo": 40,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "In this question, a question is followed by two statements numbered (I) and (II). You have to decide whether the data\n provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate\n answer.\n Among the five poles—I, N, C, H, and L—each having a different height, which pole is the tallest?\n (I) I is shorter than N but taller than C. C is taller than only one pole.\n (II) H is taller than L.",
+      "hi": "इस प्रश्न में, एक प्रश्न के बाद (I) और (II) से क्रमांकित दो कथन दिए गए हैं। आपको यह तय करना है कि क्या कथनों में दी गई जानकारी प्रश्न का\n उत्तर देने के लिए पर्याप्त है या नहीं। दोनों कथनों का अध्ययन करें और उचित उत्तर का चयन करें।\n पाँच खंभों—I, N, C, H, और L—में से प्रत्येक की लंबाई अलग-अलग है, इनमें से कौन-सा खंभा सबसे लंबा है?\n (I) I, N से छोटा है लेकिन C से लंबा है। C केवल एक खंभे से लंबा है।\n (II) H, L से लंबा है।"
+    },
+    "options": {
+      "en": [
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the\n question",
+        "Data in statement I alone is sufficient to answer the question while data in statement II is not",
+        "Both statements I and II together are NOT sufficient to answer the question",
+        "Data in statement II alone is sufficient to answer the question while data in statement I is not"
+      ],
+      "hi": [
+        "कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं",
+        "कथन I और II दोनों एक साथ (और अके ले कथन I या अके ले कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं",
+        "अके ले कथन I में दिया गया डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा प्रश्न का उत्तर देने के लिए पर्याप्त\n नहीं है",
+        "अके ले कथन II में दिया गया डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा प्रश्न का उत्तर देने के लिए पर्याप्त\n नहीं है"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Both statements I and II together are NOT sufficient to answer the question). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (अके ले कथन I में दिया गया डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा प्रश्न का उत्तर देने के लिए पर्याप्त\n नहीं है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 41,
+    "shiftQuestionNo": 41,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "In this question, a group of numbers/symbols is coded using letter codes as per the codes given below and the conditions\n which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow,\n then the codes for the respective number/symbol are to be followed directly as given in the table.\n Number/symbol 6 1 & 3 % 8 + 4 # 7 @ 5 2 $\n Code R V G D S C T L F W H U Y N\n Conditions:\n (i) If the first element is a symbol and the last element is an odd number, the codes for these two (the first and the last\n elements) are to be interchanged.\n (ii) If the first element is an odd number and the last an even number, the first and last elements are to be coded as ©.\n (iii) If both the second and third elements are perfect squares, the third element is to be coded as the code for the second\n element.\n What will be the code for the following group?\n +6$27",
+      "hi": "इस प्रश्न में, नीचे दिए गए कू ट और शर्तों के अनुसार संख्याओं/प्रतीकों के एक समूह को अक्षरों में कू टबद्ध किया गया है। शर्तों का अनुसरण करने\n वाला सही कू ट संयोजन आपका उत्तर है। यदि किसी भी शर्त का अनुसरण नहीं होता है, तो तालिका में दिए अनुसार संबंधित संख्या/प्रतीक के कू ट\n का प्रत्यक्ष रूप से अनुसरण किया जाना चाहिए।\n संख्या/प्रतीक 6 1 & 3 % 8 + 4 # 7 @ 5 2 $\n कू ट R V G D S C T L F W H U Y N\n शर्तें:\n (i) यदि पहला अवयव एक प्रतीक है और अंतिम अवयव एक विषम संख्या है, तो इन दोनों (पहले और अंतिम अवयवों) के कू ट परस्पर बदल दिए\n जाने चाहिए।\n (ii) यदि पहला अवयव एक विषम संख्या है और अंतिम एक सम संख्या है, तो पहले और अंतिम अवयवों को © के रूप में कू टबद्ध किया जाना\n चाहिए।\n (iii) यदि दूसरे और तीसरे दोनों अवयव पूर्ण वर्ग हैं, तो तीसरे अवयव को दूसरे अवयव के कू ट के रूप में कू टबद्ध किया जाना है।\n निम्नलिखित समूह के लिए कू ट क्या होगा?\n +6$27"
+    },
+    "options": {
+      "en": [
+        "STMWV",
+        "WSNYT",
+        "WRNYT",
+        "TSNWW"
+      ],
+      "hi": [
+        "WRNYT",
+        "STMWV",
+        "TSNWW",
+        "WSNYT"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (WRNYT). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (TSNWW)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 42,
+    "shiftQuestionNo": 42,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A boat sails 40 km downstream and then 40 km upstream in a river. The boat's speed in still water is 12 km/hr and the\n speed of the stream is 4 km/hr. How much time does the boat take to cover the entire distance (both upstream and\n downstream)?",
+      "hi": "एक नाव, नदी में 40 km धारा की दिशा में और फिर 40 km धारा की विपरीत दिशा में चलती है। स्थिर जल में नाव की चाल 12 km/hr है और\n धारा की चाल 4 km/hr है। नाव को संपूर्ण दूरी (धारा की विपरीत दिशा और धारा की दिशा दोनों) तय करने में कितना समय लगता है?"
+    },
+    "options": {
+      "en": [
+        "8 hours",
+        "7.5 hours",
+        "10 hours",
+        "6 hours"
+      ],
+      "hi": [
+        "8 घंटे",
+        "7.5 घंटे",
+        "6 घंटे",
+        "10 घंटे"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (7.5 hours). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (7.5 घंटे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 43,
+    "shiftQuestionNo": 43,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which of the following statements correctly reflects the characteristics of a Local Area Network (LAN) and the role of\n Ethernet within it?",
+      "hi": "निम्नलिखित में से कौन-सा कथन, लोकल एरिया नेटवर्क (LAN) की विशेषताओं और उसमें ईथरनेट (Ethernet) की भूमिका को सही से\n दर्शाता है?"
+    },
+    "options": {
+      "en": [
+        "Ethernet in a LAN provides low-speed data transfer and connects users over public Internet infrastructure.",
+        "A LAN always requires Gigabit Ethernet to function and is insecure because it allows open access to all network\n devices.",
+        "LANs are designed for long-distance communication and use Ethernet primarily for wireless data exchange.",
+        "Ethernet is a standard that governs how devices in a LAN communicate via wired connections, supporting\n speeds from 10 Mbps to 1000 Mbps."
+      ],
+      "hi": [
+        "LAN में ईथरनेट लो-स्पीड डेटा ट्रांसफर प्रदान करता है और उपयोगकर्ताओं को पब्लिक इंटरनेट इंफ्रास्ट्रक्चर से कनेक्ट करता है",
+        "LAN को लंबी दूरी के संचार के लिए डिजाइन किया जाता है और ईथरनेट का उपयोग मुख्य रूप से वायरलेस डेटा एक्सचेंज के लिए\n किया जाता है",
+        "ईथरनेट एक ऐसा मानक है जो यह नियंत्रित करता है कि LAN में मौजूद डिवाइस तारयुक्त कनेक्शन के माध्यम से किस प्रकार\n\n\n\n\n \n संचार करते हैं; जो 10 Mbps से लेकर 1000 Mbps तक की स्पीड को सपोर्ट करता है",
+        "LAN को कार्य करने के लिए हमेशा गीगाबिट ईथरनेट की आवश्यकता होती है और यह असुरक्षित होता है क्योंकि यह सभी नेटवर्क\n डिवाइसों को ओपन एक्सेस प्रदान करता है"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Ethernet is a standard that governs how devices in a LAN communicate via wired connections, supporting\n speeds from 10 Mbps to 1000 Mbps.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (LAN को कार्य करने के लिए हमेशा गीगाबिट ईथरनेट की आवश्यकता होती है और यह असुरक्षित होता है क्योंकि यह सभी नेटवर्क\n डिवाइसों को ओपन एक्सेस प्रदान करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 44,
+    "shiftQuestionNo": 44,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if\n it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the\n statements.\n Statements:\n Some glasses are spoons.\n All spoons are forks.\n\n\n\n\n \n Conclusions:\n (I) Some glasses are forks.\n (II) All forks are spoons.",
+      "hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। आपको दिए गए कथनों को सत्य मानना है, भले ही वे सामान्य रूप से ज्ञात तथ्यों से भिन्न प्रतीत\n हों। दिए गए निष्कर्षों में से कौन-से निष्कर्ष, कथनों का तार्किक रूप से अनुसरण करते हैं।\n\n कथन:\n कु छ गिलास, चम्मच हैं।\n सभी चम्मच, फोर्क हैं।\n\n निष्कर्ष:\n (I) कु छ गिलास, फोर्क हैं।\n (II) सभी फोर्क , चम्मच हैं।"
+    },
+    "options": {
+      "en": [
+        "Only conclusion (II) follows",
+        "Neither conclusion (I) nor (II) follows",
+        "Only conclusion (I) follows",
+        "Both conclusions (I) and (II) follow"
+      ],
+      "hi": [
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं",
+        "केवल निष्कर्ष (I) अनुसरण करता है",
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है",
+        "केवल निष्कर्ष (II) अनुसरण करता है"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Only conclusion (I) follows). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 45,
+    "shiftQuestionNo": 45,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Seven boxes, P, Q, S, T, U, V, and W, are kept one over the other, but not necessarily in the same order. Only three boxes are\n kept above S. Exactly one box is kept between T and S. Exactly three boxes are kept between T and U, and U is kept\n somewhere above S. V is kept immediately below U. W is kept at one of the places above P. Q is not kept immediately above\n or below T. Based on the given information, which box is kept at the lowermost position?",
+      "hi": "सात बॉक्स, P, Q, S, T, U, V, और W, एक के ऊपर एक रखे गए हैं, लेकिन जरूरी नहीं कि वे इसी क्रम में रखे गए हों। S के ऊपर केवल तीन\n बॉक्स रखे गए हैं। T और S के बीच ठीक एक बॉक्स रखा गया है। T और U के बीच ठीक तीन बॉक्स रखे गए हैं, और U को S के ऊपर किसी\n स्थान पर रखा गया है। V को U के ठीक नीचे रखा गया है। W को P के ऊपर किसी स्थान पर रखा गया है। Q को T के ठीक ऊपर या नीचे नहीं\n रखा गया है। दी गई जानकारी के आधार पर, किस बॉक्स को सबसे नीचे रखा गया है?"
+    },
+    "options": {
+      "en": [
+        "V",
+        "S",
+        "P",
+        "Q"
+      ],
+      "hi": [
+        "V",
+        "S",
+        "Q",
+        "P"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (P). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Q)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 46,
+    "shiftQuestionNo": 46,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A diamond ring costs ₹85,000. Its price is reduced first by 11% and then by 4% on the reduced price. Find the final price of\n the ring after both discounts.",
+      "hi": "एक हीरे की अंगूठी का मूल्य ₹85,000 है। पहले इसका मूल्‍य में 11% की कमी की जाती है और फिर कम किए गए मूल्‍य पर 4% की कमी की\n जाती है। दोनों छू ट के बाद अंगूठी का अंतिम मूल्य ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "₹72,624",
+        "₹74,624",
+        "₹72,604",
+        "₹73,624"
+      ],
+      "hi": [
+        "₹72,604",
+        "₹74,624",
+        "₹73,624",
+        "₹72,624"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (₹72,624). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (₹72,604)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 47,
+    "shiftQuestionNo": 47,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which is the most important safety check before operating any machine in a workshop?",
+      "hi": "कार्यशाला में किसी भी मशीन को परिचालित करने से पहले सर्वाधिक महत्वपूर्ण सुरक्षा जांच कौन-सी है?"
+    },
+    "options": {
+      "en": [
+        "Ensure the machine area is properly illuminated",
+        "Wipe the machine with a dry cloth before use",
+        "Check if the machine is plugged in properly",
+        "Inspect the machine for loose or damaged parts"
+      ],
+      "hi": [
+        "मशीन के ढीले या क्षतिग्रस्त पुर्जों का निरीक्षण करें",
+        "सुनिश्चित करें कि मशीन क्षेत्र उचित रूप से प्रकाशित हो",
+        "उपयोग करने से पहले मशीन को सूखे कपड़े से पोंछें",
+        "जांच करें कि मशीन ठीक से प्लग-इन है या नहीं"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Inspect the machine for loose or damaged parts). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (जांच करें कि मशीन ठीक से प्लग-इन है या नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 48,
+    "shiftQuestionNo": 48,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What is the best description of the purpose of multi-view drawing in engineering drawing?",
+      "hi": "निम्नलिखित में से कौन-सा, इंजीनियरिंग ड्राइंग में मल्‍टी-व्‍यू ड्राइंग के प्रयोजन का सटीक वर्णन है?"
+    },
+    "options": {
+      "en": [
+        "To show different colors of an object for better visual appearance",
+        "To view an object from only one direction",
+        "To represent different sides of an object clearly on a flat surface",
+        "To present the object in a single three-dimensional visual form only"
+      ],
+      "hi": [
+        "बेहतर दृश्यता के लिए, किसी वस्तु को विभिन्न रंगों में प्रदर्शित करना",
+        "किसी वस्तु के विभिन्न पार्श्वों को समतल पृष्ठ पर स्पष्ट रूप से दर्शाना",
+        "किसी वस्तु को केवल एक ही दिशा से दर्शाना",
+        "वस्तु को केवल एकल त्रि-विमीय दृश्य रूप में प्रस्तुत करना"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (To represent different sides of an object clearly on a flat surface). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (किसी वस्तु को केवल एक ही दिशा से दर्शाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 49,
+    "shiftQuestionNo": 49,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "An engineer is tasked with creating a hollow cone for a machine part, where the wall thickness must be consistent and the\n slant height is critical for assembly. Which factor is most important to ensure the cone will fit correctly in the final design?",
+      "hi": "किसी इंजीनियर को मशीन के एक पुर्जे के लिए एक खोखला शंकु बनाने का कार्य सौंपा गया है, जहाँ भित्ति की मोटाई एकसमान होनी चाहिए\n और असेम्‍बली के लिए तिर्यक ऊँ चाई अत्यंत महत्वपूर्ण है। अंतिम डिज़ाइन में शंकु के सटीक रूप से फिट होने को सुनिश्चित करने हेतु कौन-सा\n कारक सबसे महत्वपूर्ण है?"
+    },
+    "options": {
+      "en": [
+        "Matching only the overall height of the cone",
+        "Prioritizing uniform wall thickness over all other features",
+        "Focusing only on base diameter for precise fit",
+        "Ensuring the slant height matches the assembly requirement"
+      ],
+      "hi": [
+        "यह सुनिश्चित करना कि तिर्यक ऊं चाई असेम्‍बली की आवश्यकता से सुमेलित हो",
+        "अन्य विशेषताओं की तुलना में भित्ति की एकसमान मोटाई को प्राथमिकता देना",
+        "सटीक फिट के लिए केवल आधार के व्यास पर फोकस करना",
+        "केवल शंकु की समग्र ऊं चाई से सुमेलित होना"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Ensuring the slant height matches the assembly requirement). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (केवल शंकु की समग्र ऊं चाई से सुमेलित होना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 50,
+    "shiftQuestionNo": 50,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which of the following statements correctly describes average velocity and its SI unit?",
+      "hi": "निम्नलिखित में से कौन-सा कथन, औसत वेग और उसके SI मात्रक का सटीक वर्णन करता है?"
+    },
+    "options": {
+      "en": [
+        "Average velocity is the total displacement divided by total time, and its unit is meter per second.",
+        "Average velocity is the total distance divided by total time, and its unit is meter per second.",
+        "Average velocity is the total distance divided by total time, and its unit is kilometer per hour.",
+        "Average velocity is the total displacement divided by total time, and its unit is kilometer per hour."
+      ],
+      "hi": [
+        "औसत वेग कु ल दूरी को कु ल समय से भाग देने पर प्राप्त होता है, और इसका मात्रक किलोमीटर प्रति घंटा होता है",
+        "औसत वेग कु ल दूरी को कु ल समय से भाग देने पर प्राप्त होता है, और इसका मात्रक मीटर प्रति सेकं ड होता है",
+        "औसत वेग कु ल विस्थापन को कु ल समय से भाग देने पर प्राप्त होता है, और इसका मात्रक मीटर प्रति सेकं ड होता है",
+        "औसत वेग कु ल विस्थापन को कु ल समय से भाग देने पर प्राप्त होता है, और इसका मात्रक किलोमीटर प्रति घंटा होता है।"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (Average velocity is the total displacement divided by total time, and its unit is meter per second.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (औसत वेग कु ल दूरी को कु ल समय से भाग देने पर प्राप्त होता है, और इसका मात्रक किलोमीटर प्रति घंटा होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 51,
+    "shiftQuestionNo": 51,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Find the LCM of 72, 78, and 90.",
+      "hi": "72, 78 और 90 का LCM ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "4250",
+        "4680",
+        "4280",
+        "4120"
+      ],
+      "hi": [
+        "4250",
+        "4120",
+        "4680",
+        "4280"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (4680). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (4120)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 52,
+    "shiftQuestionNo": 52,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "If ‘A’ stands for ‘+’, ‘B’ stands for ‘−’, ‘C’ stands for ‘×’ and ‘D’ stands for ‘÷’, then what will come in place of the question\n mark (?) in the following equation?\n 28 A 16 C 3 B 12 D 4 = ?",
+      "hi": "यदि ‘A’ का अर्थ ‘+’ है, ‘B’ का अर्थ ‘−’ है, ‘C’ का अर्थ ‘×’ है तथा ‘D’ का अर्थ ‘÷’ है, तो निम्नलिखित समीकरण में प्रश्न-चिह्न (?) के स्थान\n पर क्या आएगा?\n\n 28 A 16 C 3 B 12 D 4 = ?"
+    },
+    "options": {
+      "en": [
+        "72",
+        "73",
+        "70",
+        "71"
+      ],
+      "hi": [
+        "71",
+        "70",
+        "73",
+        "72"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (73). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (70)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 53,
+    "shiftQuestionNo": 53,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A mechanical engineer must design a flange joint where two pipes are to be connected at a 45-degree angle. Which\n method should the engineer use to accurately represent the intersection line on a technical drawing of the two cylindrical\n pipes?",
+      "hi": "एक यांत्रिक अभियंता को एक ऐसी फ्लैंज संधि (flange joint) का अभिकल्पन करना है जहां दो पाइपों को 45-डिग्री के कोण पर संयोजित\n किया जाना है। दोनों बेलनाकार पाइपों के तकनीकी ड्राइंग (technical drawing) पर प्रतिच्छेदन रेखा को सटीक रूप से निरूपित करने के\n लिए अभियंता को किस विधि का उपयोग करना चाहिए?"
+    },
+    "options": {
+      "en": [
+        "Draw the true shape of the intersection using auxiliary projection",
+        "Represent the intersection as a straight line in the side view",
+        "Use only standard orthographic projection without auxiliary views",
+        "Draw a simple circle at the junction in the top view"
+      ],
+      "hi": [
+        "शीर्ष दृश्य (top view) में संधि पर एक साधारण वृत्त का आरेखन करें",
+        "सहायक दृश्यों के बिना केवल मानक लंबकोणीय प्रक्षेप का उपयोग करें",
+        "पार्श्व दृश्य में प्रतिच्छेदन को एक सीधी रेखा के रूप में निरूपित करें",
+        "सहायक प्रक्षेप (auxiliary projection) का उपयोग करके प्रतिच्छेदन की वास्तविक आकृ ति का आरेखन करें"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (Draw the true shape of the intersection using auxiliary projection). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (शीर्ष दृश्य (top view) में संधि पर एक साधारण वृत्त का आरेखन करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 54,
+    "shiftQuestionNo": 54,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which line symbol is commonly used in engineering drawings to represent a hidden edge that is not directly visible?",
+      "hi": "इंजीनियरिंग ड्राइंग में, प्रत्‍यक्ष रूप से दिखाई न देने वाली प्रच्छन्न कोर को निरूपित करने के लिए सामान्यतः किस रेखा प्रतीक का उपयोग किया\n जाता है?"
+    },
+    "options": {
+      "en": [
+        "Solid thick line",
+        "Chain thin line",
+        "Zigzag line",
+        "Dashed line"
+      ],
+      "hi": [
+        "असतत रेखा (Dashed line)",
+        "ठोस मोटी रेखा (Solid thick line)",
+        "टेढ़ी-मेढ़ी रेखा (Zigzag line)",
+        "शृंखलित पतली रेखा (Chain thin line)"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Dashed line). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (शृंखलित पतली रेखा (Chain thin line))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 55,
+    "shiftQuestionNo": 55,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A roller coaster at the top of its track has maximum potential energy. As it descends and speeds up, what principle explains\n why the sum of its kinetic and potential energies remains constant if we ignore friction and air resistance?",
+      "hi": "एक रोलर कोस्टर में उसके ट्रैक के शीर्ष पर अधिकतम स्थितिज ऊर्जा होती है। जैसे-जैसे यह नीचे उतरता है और इसकी गति में वृद्धि होती है,\n घर्षण और वायु प्रतिरोध की उपेक्षा करने पर इसकी गतिज और स्थितिज ऊर्जा का योग नियत होने के कारण की व्याख्या कौन-सा सिद्धांत करता\n है?"
+    },
+    "options": {
+      "en": [
+        "Law of inertia",
+        "Principle of inertia",
+        "Law of conservation of energy",
+        "Principle of superposition"
+      ],
+      "hi": [
+        "जड़त्व का नियम",
+        "जड़त्व का सिद्धांत",
+        "ऊर्जा संरक्षण का नियम",
+        "अध्यारोपण सिद्धांत"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Law of conservation of energy). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (ऊर्जा संरक्षण का नियम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 56,
+    "shiftQuestionNo": 56,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A tangent PQ at a point P of a circle of radius 5 cm meets a line through the center O at a point Q such that OQ = 12 cm. What is the length of PQ?",
+      "hi": "5 cm त्रिज्या वाले वृत्त के बिंदु P पर एक स्पर्श रेखा PQ, केंद्र O से होकर जाने वाली एक रेखा से बिंदु Q पर इस प्रकार मिलती है कि OQ = 12 cm है। PQ की लंबाई कितनी है?"
+    },
+    "options": {
+      "en": [
+        "√117 cm",
+        "√119 cm",
+        "√97 cm",
+        "√107 cm"
+      ],
+      "hi": [
+        "√117 cm",
+        "√119 cm",
+        "√97 cm",
+        "√107 cm"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (√119 cm). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (√119 cm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 57,
+    "shiftQuestionNo": 57,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "G is the mother of Y. Y is the sister of V. S is the father of L. L is the husband of V. How is G related to S?",
+      "hi": "G, Y की माता है। Y, V की बहन है। S, L का पिता है। L, V का पति है। G का S से क्या संबंध है?"
+    },
+    "options": {
+      "en": [
+        "Mother's mother",
+        "Son's wife",
+        "Son's wife's sister",
+        "Son's wife's mother"
+      ],
+      "hi": [
+        "पुत्र की पत्नी की बहन",
+        "पुत्र की पत्नी की माता",
+        "पुत्र की पत्नी",
+        "माता की माता"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Son's wife's mother). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (माता की माता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 58,
+    "shiftQuestionNo": 58,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "In this question, a question is followed by two statements numbered (I) and (II). You have to decide whether the data\n provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate\n answer.\n Q. Among five people – A, B, C, D, and E – who is the tallest?\n (I) A is taller than B. B is taller than C.\n (II) D is taller than E.",
+      "hi": "इस प्रश्न में, एक प्रश्न के बाद दो कथन, (I) और (II) दिए गए हैं। आपको यह तय करना है कि क्या कथनों में दी गई जानकारी प्रश्न का उत्तर देने के\n लिए पर्याप्त है या नहीं। दोनों कथनों को पढ़ें और सही उत्तर का चयन करें।\n\n प्रश्न. पांच व्यक्तियों A, B, C, D, और E में से सबसे लंबा कौन है?\n (I) A, B से लंबा है। B, C से लंबा है।\n (II) D, E से लंबा है।"
+    },
+    "options": {
+      "en": [
+        "Both statements I and II together are NOT sufficient to answer the question.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the\n question",
+        "Data in statement II alone is sufficient to answer the question while data in statement I is not",
+        "Data in statement I alone is sufficient to answer the question while data in statement II is not"
+      ],
+      "hi": [
+        "अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है",
+        "कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं",
+        "कथन I और कथन II दोनों मिलकर (और न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं",
+        "अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (Both statements I and II together are NOT sufficient to answer the question.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 59,
+    "shiftQuestionNo": 59,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, what will come in place of the question mark ‘?’\n in the following equation?\n 14 A 30 B 45 C 15 D 9 = ?",
+      "hi": "यदि ‘A’ का अर्थ ‘÷’ है, ‘B’ का अर्थ ‘×’ है, ‘C’ का अर्थ ‘+’ है और ‘D’ का अर्थ ‘−’ है, तो निम्नलिखित समीकरण में प्रश्नवाचक चिह्न (‘?’) के\n स्थान पर क्या आएगा?\n\n 14 A 30 B 45 C 15 D 9 = ?"
+    },
+    "options": {
+      "en": [
+        "27",
+        "29",
+        "25",
+        "28"
+      ],
+      "hi": [
+        "28",
+        "29",
+        "27",
+        "25"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (27). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (28)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 60,
+    "shiftQuestionNo": 60,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus\n form a group. Which letter-cluster pair DOES NOT belong to that group?\n (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार वे एक ग्रुप\n बनाते हैं। कौन-सा अक्षर-समूह युग्म उस ग्रुप से संबंधित नहीं है?\n\n (नोट: असंगत अक्षर-समूह युग्म, उसमें व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+    },
+    "options": {
+      "en": [
+        "QK-VA",
+        "EY-KO",
+        "TN-ZD",
+        "WQ-CG"
+      ],
+      "hi": [
+        "TN-ZD",
+        "EY-KO",
+        "WQ-CG",
+        "QK-VA"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (QK-VA). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (TN-ZD)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 61,
+    "shiftQuestionNo": 61,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A conical tent has a base radius of 14 m and a height of 48 m. How many cubic meters of air can it hold? (Use π = )",
+      "hi": "एक शंक्वाकार तंबू के आधार की त्रिज्या 14 m और ऊं चाई 48 m है। यह कितनी घन मीटर वायु धारण कर सकता है? (π = का उपयोग\n करें)"
+    },
+    "options": {
+      "en": [
+        "8956",
+        "9856",
+        "9865",
+        "9568"
+      ],
+      "hi": [
+        "9568",
+        "9856",
+        "8956",
+        "9865"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (9856). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (9856)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 62,
+    "shiftQuestionNo": 62,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Namia is facing the west. She turns left and walks 15 m. She turns left and walks 25 m. She again turns left and walks 40 m.\n She finally turns left and walks 40 m to reach home. In which direction is her home with respect to the starting point?",
+      "hi": "नामिया पश्चिम की ओर अभिमुख होकर खड़ी है। वह बाईं ओर मुड़कर 15 m चलती है। फिर बाईं ओर मुड़कर 25 m चलती है। वह दोबारा बाईं\n ओर मुड़ती है और 40 m चलती है। अंत में बाईं ओर मुड़कर 40 m चलकर वह अपने घर पहुंचती है। आरंभिक बिंदु के सापेक्ष उसका घर किस\n दिशा में है?"
+    },
+    "options": {
+      "en": [
+        "South-East",
+        "South-West",
+        "North-East",
+        "North-West"
+      ],
+      "hi": [
+        "उत्तर-पूर्व",
+        "दक्षिण-पूर्व",
+        "उत्तर-पश्चिम",
+        "दक्षिण-पश्चिम"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (North-West). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (दक्षिण-पश्चिम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 63,
+    "shiftQuestionNo": 63,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A trader marks an article 25% above its cost price. He allows a discount of 10% on the marked price. After giving the\n discount, he makes a profit of ₹180 on the article. What is the cost price of the article?",
+      "hi": "एक व्यापारी किसी वस्तु का मूल्य उसके क्रय मूल्य से 25% अधिक अंकित करता है। वह अंकित मूल्य पर 10% की छू ट प्रदान करता है। छू ट देने\n के बाद, उसे उस वस्तु पर ₹180 का लाभ प्राप्‍त होता है। वस्तु का क्रय मूल्य कितना था?"
+    },
+    "options": {
+      "en": [
+        "₹1,260",
+        "₹1,200",
+        "₹1,380",
+        "₹1,440"
+      ],
+      "hi": [
+        "₹1,440",
+        "₹1,200",
+        "₹1,380",
+        "₹1,260"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (₹1,440). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (₹1,260)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 64,
+    "shiftQuestionNo": 64,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Three workers, X, Y, and Z, can complete a certain job in 10 days, 12 days, and 15 days, respectively. Determine the number\n of days required for them to complete the job when they work together.",
+      "hi": "तीन श्रमिक, X, Y और Z, एक निश्चित कार्य को क्रमशः 10 दिन, 12 दिन और 15 दिन में पूरा कर सकते हैं। यदि वे एक साथ मिलकर कार्य करते\n हैं, तो उन्हें कार्य पूरा करने में कितने दिन लगेंगे?"
+    },
+    "options": {
+      "en": [
+        "8 days",
+        "6 days",
+        "5 days",
+        "4 days"
+      ],
+      "hi": [
+        "6 दिन",
+        "8 दिन",
+        "5 दिन",
+        "4 दिन"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (4 days). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (4 दिन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 65,
+    "shiftQuestionNo": 65,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What is an email used for?",
+      "hi": "ईमेल (email) का उपयोग किस लिए किया जाता है?"
+    },
+    "options": {
+      "en": [
+        "File storage",
+        "Creating documents",
+        "Sending messages",
+        "Data processing"
+      ],
+      "hi": [
+        "मैसेज भेजने के लिए",
+        "डेटा प्रोसेसिंग के लिए",
+        "फाइल स्टोरेज के लिए",
+        "डॉक्यूमेंट क्रिएट करने के लिए"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Sending messages). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (फाइल स्टोरेज के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 66,
+    "shiftQuestionNo": 66,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which integrated strategy best addresses soil pollution, falling crop yields, and low microbial activity near an industrial\n zone?",
+      "hi": "औद्योगिक क्षेत्र के निकट मृदा प्रदूषण, घटती फसल उत्पादकता और निम्न सूक्ष्मजैविक गतिविधि के समाधान के लिए कौन-सी एकीकृ त रणनीति\n सर्वोत्तम है?"
+    },
+    "options": {
+      "en": [
+        "Expand urban areas into farmland.",
+        "Control industrial waste for sustainability.",
+        "Reforestation in nearby urban centers.",
+        "Ban all regional chemical fertilizers."
+      ],
+      "hi": [
+        "निकटवर्ती शहरी केंद्रों में पुनर्वनीकरण",
+        "सभी क्षेत्रीय रासायनिक उर्वरकों पर प्रतिबंध लगाना",
+        "संधारणीयता के लिए औद्योगिक अपशिष्ट को नियंत्रित करना",
+        "शहरी क्षेत्रों का कृ षि भूमि में विस्तार करना"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (Control industrial waste for sustainability.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सभी क्षेत्रीय रासायनिक उर्वरकों पर प्रतिबंध लगाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 67,
+    "shiftQuestionNo": 67,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A train X crosses a man who is sitting in another train Y, which is moving in the opposite direction, in 8 seconds. However,\n when both trains are moving in the same direction, train X takes 20 seconds to pass the same man. If the length of train X is\n 360 meters and the length of train Y (in which the man is sitting) is 240 meters, what is the speed of train Y?",
+      "hi": "एक ट्रेन X, विपरीत दिशा में चल रही दूसरी ट्रेन Y में बैठे एक व्यक्ति को 8 सेकं ड में पार करती है। हालांकि, जब दोनों ट्रेनें एक ही दिशा में चल रही\n होती हैं, तो ट्रेन X द्वारा उसी व्यक्ति को पार करने में 20 सेकं ड लगते हैं। यदि ट्रेन X की लंबाई 360 मीटर है और ट्रेन Y (जिसमें व्यक्ति बैठा है)\n की लंबाई 240 मीटर है, तो ट्रेन Y की चाल ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "48.6 km/h",
+        "46.5 km/h",
+        "45.3 km/h",
+        "45.8 km/h"
+      ],
+      "hi": [
+        "48.6 km/h",
+        "46.5 km/h",
+        "45.8 km/h",
+        "45.3 km/h"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (48.6 km/h). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (48.6 km/h)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 68,
+    "shiftQuestionNo": 68,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "The circumference of the base of a solid right circular cylinder is 88 cm and its height is 150 cm. What is the volume (in\n cm3) of the cylinder?",
+      "hi": "एक ठोस लंब वृत्तीय बेलन के आधार की परिधि 88 cm है ​और उसकी ऊँ चाई 150 cm है। बेलन का आयतन (cm3 में) कितना है?\n ( का उपयोग कीजिए)"
+    },
+    "options": {
+      "en": [
+        "92550",
+        "92500",
+        "92450",
+        "92400"
+      ],
+      "hi": [
+        "92550",
+        "92400",
+        "92500",
+        "92450"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (92400). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (92450)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 69,
+    "shiftQuestionNo": 69,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "In how many years will a sum of ₹16,000 at 10% per annum compounded semi-annually become ₹18,522?",
+      "hi": "₹16,000 की धनराशि अर्ध-वार्षिक रूप से संयोजित होने वाले 10% वार्षिक चक्रवृद्धि ब्याज की दर से कितने वर्षों में ₹18,522 हो जाएगी?"
+    },
+    "options": {
+      "en": [
+        "2.5 years",
+        "2 years",
+        "1 year",
+        "1.5 years"
+      ],
+      "hi": [
+        "2.5 वर्ष",
+        "2 वर्ष",
+        "1 वर्ष",
+        "1.5 वर्ष"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (1.5 years). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (1.5 वर्ष)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 70,
+    "shiftQuestionNo": 70,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A, B, C, D, X, Y and Z are sitting around a circular table facing the centre of the table.\n Only two people sit between X and Z when counted from the right of X. Only two people sit between Z and D. Only three\n people sit between X and B. A sits to the immediate left of C.\n Who sits third to the left of Y?",
+      "hi": "A, B, C, D, X, Y और Z एक गोल मेज के परितः उसके केंद्र की ओर अभिमुख होकर बैठे हैं।\n X के दाईं ओर से गिनने पर, X और Z के बीच केवल दो व्यक्ति बैठे हैं। Z और D के बीच केवल दो व्यक्ति बैठे हैं। X और B के बीच केवल तीन\n व्यक्ति बैठे हैं। A, C के ठीक बाईं ओर पड़ोस में बैठा है।\n Y के बाईं ओर तीसरे स्थान पर कौन बैठा है?"
+    },
+    "options": {
+      "en": [
+        "X",
+        "C",
+        "Z",
+        "A"
+      ],
+      "hi": [
+        "C",
+        "A",
+        "X",
+        "Z"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (C). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 71,
+    "shiftQuestionNo": 71,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "E, F, G, H, L and M live on six different floors of the same building. The lowermost floor in the building is numbered 1, the\n floor above it, number 2 and so on, till the topmost floor is numbered 6. Only three people live above G. Only two people live\n between L and E. Only two people live between M and G. E lives below G but above F. How many people live below H?",
+      "hi": "E, F, G, H, L और M एक ही इमारत के छह अलग-अलग तलों पर रहते हैं। इमारत में सबसे निचले तल का क्रमांक 1 है, उसके ऊपर वाले तल\n का क्रमांक 2 है और इसी प्रकार सबसे ऊपरी तल का क्रमांक 6 है। G के ऊपर केवल तीन व्यक्ति रहते हैं। L और E के बीच केवल दो व्यक्ति रहते\n हैं। M और G के बीच केवल दो व्यक्ति रहते हैं। E, G के नीचे लेकिन F के ऊपर रहता है। H के नीचे कितने व्यक्ति रहते हैं?"
+    },
+    "options": {
+      "en": [
+        "One",
+        "Four",
+        "Two",
+        "Three"
+      ],
+      "hi": [
+        "एक",
+        "दो",
+        "तीन",
+        "चार"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Three). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (चार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 72,
+    "shiftQuestionNo": 72,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "16 is related to 260 following a certain logic. Following the same logic, 25 is related to 630. To which of the following is 9\n related, following the same logic?\n (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent\n digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down\n 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "hi": "एक निश्चित तर्क के अनुसार, 16 का संबंध 260 से है। उसी तर्क के अनुसार, 25 का संबंध 630 से है। समान तर्क के अनुसार, 9 का संबंध\n निम्नलिखित में से किससे है?\n\n (नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना संक्रियाएँ केवल पूर्ण संख्याओं पर की जानी चाहिए। उदाहरण के लिए, 13 लीजिए - 13 पर\n संक्रियाएँ , जैसे 13 में जोड़ना/घटाना/गुणा करना, की जा सकती हैं। 13 को 1 और 3 में तोड़ना तथा फिर 1 और 3 पर गणितीय संक्रियाएँ करने की\n अनुमति नहीं है।)"
+    },
+    "options": {
+      "en": [
+        "732",
+        "84",
+        "729",
+        "78"
+      ],
+      "hi": [
+        "78",
+        "729",
+        "732",
+        "84"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (84). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (729)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 73,
+    "shiftQuestionNo": 73,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which statement best describes a 'point' in engineering drawing?",
+      "hi": "इंजीनियरिंग ड्राइंग में 'बिंदु' का सबसे सटीक वर्णन कौन-सा कथन करता है?"
+    },
+    "options": {
+      "en": [
+        "A point is a short line segment used to mark measurements.",
+        "A point is the intersection of two lines and always has measurable length.",
+        "A point represents a small area with both length and width.",
+        "A point indicates a precise location but has no size, length, or width."
+      ],
+      "hi": [
+        "एक बिंदु एक छोटा रेखाखंड होता है जिसका उपयोग मापन को चिह्नित करने के लिए किया जाता है।",
+        "एक बिंदु लंबाई और चौड़ाई दोनों के साथ एक छोटे क्षेत्र को दर्शाता है।",
+        "एक बिंदु दो रेखाओं का प्रतिच्छेदन बिंदु होता है और इसकी लंबाई सदैव मापी जा सकती है।",
+        "एक बिंदु एक सटीक अवस्थिति को इंगित करता है लेकिन इसका कोई आमाप, लंबाई या चौड़ाई नहीं होती है।"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (A point indicates a precise location but has no size, length, or width.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (एक बिंदु एक सटीक अवस्थिति को इंगित करता है लेकिन इसका कोई आमाप, लंबाई या चौड़ाई नहीं होती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 74,
+    "shiftQuestionNo": 74,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "The average of 8 numbers is 45. If one number, 59, is removed, what will the new average be?",
+      "hi": "8 संख्याओं का औसत 45 है। यदि एक संख्या, 59, को हटा दिया जाए, तो नया औसत कितना होगा?"
+    },
+    "options": {
+      "en": [
+        "42.5",
+        "42",
+        "43",
+        "41.5"
+      ],
+      "hi": [
+        "43",
+        "42",
+        "41.5",
+        "42.5"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (43). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (41.5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 75,
+    "shiftQuestionNo": 75,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "If ‘A’ stands for ‘+’, ‘B’ stands for ‘−’, ‘C’ stands for ‘×’ and ‘D’ stands for ‘÷’, then what will come in place of the question\n mark (?) in the following equation?\n 31 B 35 D 7 A 9 C 2 = ?",
+      "hi": "यदि ‘A’ का अर्थ ‘+’ है, ‘B’ का अर्थ ‘−’ है, ‘C’ का अर्थ ‘×’ है और ‘D’ का अर्थ ‘÷’ है, तो निम्नलिखित समीकरण में प्रश्नवाचक चिह्न (?) के\n स्थान पर क्या आएगा?\n\n 31 B 35 D 7 A 9 C 2 = ?"
+    },
+    "options": {
+      "en": [
+        "46",
+        "48",
+        "44",
+        "42"
+      ],
+      "hi": [
+        "46",
+        "44",
+        "42",
+        "48"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (44). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (42)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 76,
+    "shiftQuestionNo": 76,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "An object has a mass of 10 kilograms. How does its weight on the Moon compare to its weight on Earth?",
+      "hi": "एक पिंड का द्रव्यमान 10 किलोग्राम है। चंद्रमा पर इसका भार, पृथ्वी पर इसके भार की तुलना में कै सा है?"
+    },
+    "options": {
+      "en": [
+        "The object weighs more on the Moon than on Earth",
+        "The object weighs the same on both the Moon and Earth",
+        "The object weighs zero on the Moon",
+        "The object weighs less on the Moon than on Earth"
+      ],
+      "hi": [
+        "पिंड का भार चंद्रमा और पृथ्वी दोनों पर बराबर है",
+        "पृथ्वी की तुलना में चंद्रमा पर पिंड का भार कम है",
+        "पृथ्वी की तुलना में चंद्रमा पर पिंड का भार अधिक है",
+        "चंद्रमा पर पिंड का भार शून्य है"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (The object weighs less on the Moon than on Earth). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (चंद्रमा पर पिंड का भार शून्य है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 77,
+    "shiftQuestionNo": 77,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "When using a hand file during fitting operations, which action demonstrates adherence to tool safety protocols?",
+      "hi": "निम्नलिखित में से कौन-सी क्रिया, फिटिंग कार्यों के दौरान हस्त रेती (hand file) का उपयोग करते समय टूल सुरक्षा प्रोटोकॉल के अनुपालन को\n दर्शाती है?"
+    },
+    "options": {
+      "en": [
+        "Applying excessive downward force when filing",
+        "Filing above shoulder height for better leverage",
+        "Fitting a proper handle securely to the tang",
+        "Holding the file near its tang during filing work"
+      ],
+      "hi": [
+        "टैंग (tang) पर उपयुक्त हत्थे को मजबूती से फिट करना",
+        "रेतीयन करते समय अत्यधिक अधोमुखी बल लगाना",
+        "रेतीयन कार्य (filing work) के दौरान रेती को उसके टैंग के पास पकड़ना",
+        "बेहतर उत्तोलन (leverage) के लिए कं धे की ऊं चाई से ऊपर रेतीयन करना"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Fitting a proper handle securely to the tang). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (रेतीयन कार्य (filing work) के दौरान रेती को उसके टैंग के पास पकड़ना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 78,
+    "shiftQuestionNo": 78,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Below are given two sets of numbers. In each set of numbers, certain mathematical operation(s) on the first number\n result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third\n number and so on. Which of the given options follows the same set of operations as in the given sets?\n (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent\n digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down\n 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n 10 - 100 - 50 - 25; 2 - 4 - 2 - 1",
+      "hi": "नीचे संख्याओं के दो समुच्चय दिए गए हैं। संख्याओं के प्रत्येक समुच्चय में, पहली संख्या पर निश्चित गणितीय संक्रियाएं करके दूसरी संख्या प्राप्त\n की गई है। इसी प्रकार, दूसरी संख्या पर निश्चित गणितीय संक्रियाएं करके तीसरी संख्या प्राप्त की गई है, और इसी प्रकार आगे की भी संख्याएं\n प्राप्त की गई है। दिए गए विकल्पों में से कौन-सा विकल्प, उन्हीं संक्रियाओं का अनुसरण करता है, जो दिए गए समुच्चयों में किया गया है?\n\n (नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना संक्रियाएं पूर्ण संख्याओं पर की जानी चाहिए। उदाहरण के लिए 13 लीजिए – 13 पर संक्रियाएं\n जैसे कि 13 में जोड़ना/घटाना/गुणा करना, आदि केवल 13 पर की जा सकती हैं। 13 को 1 और 3 में तोड़ना तथा फिर 1 और 3 पर गणितीय\n संक्रियाएं करने की अनुमति नहीं है।)\n\n 10 - 100 - 50 - 25; 2 - 4 - 2 - 1"
+    },
+    "options": {
+      "en": [
+        "12 - 144 - 62 - 31",
+        "4 - 16 - 8 - 4",
+        "8 - 64 - 32 - 14",
+        "5 - 25 - 15 - 7"
+      ],
+      "hi": [
+        "12 - 144 - 62 - 31",
+        "5 - 25 - 15 - 7",
+        "4 - 16 - 8 - 4",
+        "8 - 64 - 32 - 14"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (4 - 16 - 8 - 4). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (5 - 25 - 15 - 7)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 79,
+    "shiftQuestionNo": 79,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A thermometer shows a reading of 37 degrees Celsius. What is the corresponding temperature in Kelvin?",
+      "hi": "एक तापमापी 37 डिग्री सेल्सियस का पाठ्यांक दर्शाता है। के ल्विन में संगत तापमान कितना होगा?"
+    },
+    "options": {
+      "en": [
+        "310 K",
+        "320 K",
+        "300 K",
+        "270 K"
+      ],
+      "hi": [
+        "310 K",
+        "300 K",
+        "320 K",
+        "270 K"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (310 K). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (310 K)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 80,
+    "shiftQuestionNo": 80,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "The median of the following data is :\n 25, 15, 23, 25, 17, 27, 20, 18, 24, 30, 19, 28, 35, 10, 31, 40",
+      "hi": "निम्न डेटा की माध्यिका ज्ञात कीजिए।\n 25, 15, 23, 25, 17, 27, 20, 18, 24, 30, 19, 28, 35, 10, 31, 40"
+    },
+    "options": {
+      "en": [
+        "20.5",
+        "24.5",
+        "25",
+        "23.5"
+      ],
+      "hi": [
+        "25",
+        "20.5",
+        "24.5",
+        "23.5"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (24.5). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (20.5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 81,
+    "shiftQuestionNo": 81,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A runner completes one lap of a 200 meter circular track in 50 seconds. What is the average speed of the runner?",
+      "hi": "एक धावक 200 मीटर के एक वृत्ताकार पथ का एक चक्कर 50 सेकं ड में पूरा करता है। धावक की औसत चाल क्या है?"
+    },
+    "options": {
+      "en": [
+        "3 meter per second",
+        "4 meter per second",
+        "3.5 meter per second",
+        "4.5 meter per second"
+      ],
+      "hi": [
+        "4.5 मीटर प्रति सेकं ड",
+        "4 मीटर प्रति सेकं ड",
+        "3.5 मीटर प्रति सेकं ड",
+        "3 मीटर प्रति सेकं ड"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (4 meter per second). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (4 मीटर प्रति सेकं ड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 82,
+    "shiftQuestionNo": 82,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "P, Q, R, S and T have different ages. T is elder than only one person. S is elder than P but younger than Q. R is elder than Q.\n Who is the youngest?",
+      "hi": "P, Q, R, S और T की आयु अलग-अलग है। T केवल एक व्यक्ति से बड़ा है। S, P से बड़ा है लेकिन Q से छोटा है। R, Q से बड़ा है। सबसे छोटा\n कौन है?"
+    },
+    "options": {
+      "en": [
+        "P",
+        "R",
+        "Q",
+        "S"
+      ],
+      "hi": [
+        "S",
+        "Q",
+        "R",
+        "P"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (P). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (S)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 83,
+    "shiftQuestionNo": 83,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which of the following best defines 'work' in physics?",
+      "hi": "निम्नलिखित में से कौन-सा, भौतिकी में 'कार्य' को सटीक रूप से परिभाषित करता है?"
+    },
+    "options": {
+      "en": [
+        "Work is done if a force acts at any angle to the motion.",
+        "Work is done when a force moves an object in the direction of the force.",
+        "Work is done when energy is stored in an object.",
+        "Work is done whenever a force is applied, regardless of movement."
+      ],
+      "hi": [
+        "कार्य तब होता है जब कोई बल किसी वस्तु को बल की दिशा में विस्थापित करता है।",
+        "कार्य तब होता है जब किसी वस्तु में ऊर्जा संग्रहीत होती है।",
+        "कार्य तब होता है जब कोई बल गति के सापेक्ष किसी भी कोण पर कार्य करता है।",
+        "संचलन की उपेक्षा करते हुए कार्य तब होता है जब भी कोई बल अनुप्रयुक्त किया जाता है।"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (Work is done when a force moves an object in the direction of the force.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (कार्य तब होता है जब किसी वस्तु में ऊर्जा संग्रहीत होती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 84,
+    "shiftQuestionNo": 84,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "O, P, Q, U and V have different heights. Only three people have heights between V and Q. P is taller than U but shorter than\n O. V is taller than Q.\n How many people are shorter than P?",
+      "hi": "O, P, Q, U और V की लंबाई अलग-अलग है। V और Q की लंबाइयों के बीच केवल तीन व्यक्तियों की लंबाई है। P, U से लंबा है लेकिन O से\n छोटा है। V, Q से लंबा है।\n कितने व्यक्ति P से छोटे हैं?"
+    },
+    "options": {
+      "en": [
+        "Four",
+        "One",
+        "Three",
+        "Two"
+      ],
+      "hi": [
+        "एक",
+        "तीन",
+        "चार",
+        "दो"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Two). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 85,
+    "shiftQuestionNo": 85,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Mathematics (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "The simple interest earned on a certain sum of money for 3 years at 15% per annum is ₹2,700. Find the sum.",
+      "hi": "एक निश्चित राशि पर 15% की वार्षिक दर से 3 वर्ष में ₹2,700 साधारण ब्याज के रूप में अर्जित होता है। वह राशि ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "₹5,000",
+        "₹9,000",
+        "₹6,000",
+        "₹8,000"
+      ],
+      "hi": [
+        "₹6,000",
+        "₹9,000",
+        "₹8,000",
+        "₹5,000"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (₹6,000). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (₹8,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 86,
+    "shiftQuestionNo": 86,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Select the pair which follows the same pattern as that followed by the two pairs given below. Both pairs follow the same\n\n\n\n\n \n pattern.\n BIP : EMU\n GNU : JRZ",
+      "hi": "उस युग्‍म का चयन कीजिए जो नीचे दिए गए दो युग्‍मों के समान पैटर्न का अनुसरण करते है। दोनों युग्‍म समान पैटर्न का अनुसरण करते हैं।\n BIP : EMU\n GNU : JRZ"
+    },
+    "options": {
+      "en": [
+        "XDE : PON",
+        "CGW : NHT",
+        "FMT : IQY",
+        "VCD : GRD"
+      ],
+      "hi": [
+        "CGW : NHT",
+        "VCD : GRD",
+        "FMT : IQY",
+        "XDE : PON"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (FMT : IQY). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (FMT : IQY)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 87,
+    "shiftQuestionNo": 87,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which component makes up the largest proportion of Earth's atmosphere by volume?",
+      "hi": "आयतन के अनुसार पृथ्वी के वायुमंडल का सबसे बड़ा हिस्सा किस घटक से बना है?"
+    },
+    "options": {
+      "en": [
+        "Oxygen",
+        "Argon",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "hi": [
+        "नाइट्रोजन",
+        "आर्गन",
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Nitrogen). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (कार्बन डाइऑक्साइड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 88,
+    "shiftQuestionNo": 88,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Which situation best describes an entanglement hazard in a mechanical workshop?",
+      "hi": "निम्नलिखित में से कौन-सी स्थिति किसी यांत्रिक कार्यशाला में उलझने के खतरे (entanglement hazard) का सर्वोत्तम वर्णन करती है?"
+    },
+    "options": {
+      "en": [
+        "Loose clothing caught in a rotating shaft",
+        "Gloves worn near hot surfaces",
+        "Hand pinched between gears",
+        "Finger cut by a sharp edge"
+      ],
+      "hi": [
+        "तप्त पृष्ठों के पास दस्ताने पहनना",
+        "घूर्णी शैफ्ट में ढीले कपड़े का फं सना",
+        "तेज धार से उंगली कटना",
+        "गियर्स के बीच हाथ का दबना"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (Loose clothing caught in a rotating shaft). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (तप्त पृष्ठों के पास दस्ताने पहनना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 89,
+    "shiftQuestionNo": 89,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A car travels 60 km north in 2 hours, then 40 km south in the next 1 hour. What is the car’s average velocity over the entire\n trip?",
+      "hi": "एक कार 2 घंटे में 60 km उत्तर की ओर और फिर अगले 1 घंटे में 40 km दक्षिण की ओर यात्रा करती है। पूरी यात्रा के दौरान कार का औसत\n वेग कितना है?"
+    },
+    "options": {
+      "en": [
+        "20 km/h south",
+        "6.7 km/h north",
+        "33.3 km/h north",
+        "0 km/h"
+      ],
+      "hi": [
+        "6.7 km/h उत्तर",
+        "20 km/h दक्षिण",
+        "33.3 km/h उत्तर",
+        "0 km/h"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (6.7 km/h north). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (20 km/h दक्षिण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 90,
+    "shiftQuestionNo": 90,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "PJAE is related to JOWH in a certain way based on the English alphabetical order. In the same way, OIVC is related to INRF.\n To which of the following is NEZF related to following the same logic?",
+      "hi": "अंग्रेजी वर्णमाला के क्रम के आधार पर PJAE का संबंध एक निश्चित तरीके से JOWH से है। उसी प्रकार, OIVC का संबंध INRF से है। समान\n तर्क का अनुसरण करते हुए, NEZF का संबंध निम्नलिखित में से किससे है?"
+    },
+    "options": {
+      "en": [
+        "IKUH",
+        "IJVJ",
+        "HJVI",
+        "HKVJ"
+      ],
+      "hi": [
+        "HJVI",
+        "HKVJ",
+        "IKUH",
+        "IJVJ"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (HJVI). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (IKUH)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 91,
+    "shiftQuestionNo": 91,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What should come in place of the question mark (?) in the given series?\n 74, 83, 101, 128, ?, 209",
+      "hi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?\n 74, 83, 101, 128, ?, 209"
+    },
+    "options": {
+      "en": [
+        "176",
+        "164",
+        "155",
+        "146"
+      ],
+      "hi": [
+        "164",
+        "176",
+        "146",
+        "155"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (164). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (176)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 92,
+    "shiftQuestionNo": 92,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "In a spreadsheet application, a user selects a range of cells and presses Ctrl + C, followed by Ctrl + V in a different\n worksheet. What happens to the data?",
+      "hi": "स्प्रेडशीट एप्लिके शन में, उपयोगकर्ता, सेल की एक रेंज सेलेक्ट करता है और Ctrl + C दबाता है, उसके बाद किसी दूसरी वर्क शीट में Ctrl + V\n दबाता है। डेटा का क्या होता है?"
+    },
+    "options": {
+      "en": [
+        "The selected cells are deleted from the original worksheet.",
+        "The selected cells are saved to a new file.",
+        "The selected cells are copied to the new worksheet.",
+        "The selected cells are moved to the new worksheet."
+      ],
+      "hi": [
+        "सेलेक्ट किए गए सेल मूल वर्क शीट से डिलीट हो जाते हैं।",
+        "सेलेक्ट किए गए सेल नई वर्क शीट में मूव हो जाते हैं।",
+        "सेलेक्ट किए गए सेल एक नई फ़ाइल में सेव हो जाते हैं।",
+        "सेलेक्ट किए गए सेल नई वर्क शीट में कॉपी हो जाते हैं।"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (The selected cells are copied to the new worksheet.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (सेलेक्ट किए गए सेल एक नई फ़ाइल में सेव हो जाते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 93,
+    "shiftQuestionNo": 93,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What is the typical temperature range covered by a laboratory thermometer used in school experiments?",
+      "hi": "विद्यालय के प्रयोगों में उपयोग किए जाने वाले किसी प्रयोगशाला थर्मामीटर द्वारा कवर की जाने वाली विशिष्ट तापमान सीमा कितनी होती है?"
+    },
+    "options": {
+      "en": [
+        "Minus fifty to fifty degrees Celsius",
+        "Thirty five to forty two degrees Celsius",
+        "Minus ten to one hundred and ten degrees Celsius",
+        "Zero to two hundred degrees Celsius"
+      ],
+      "hi": [
+        "-50 से 50 डिग्री सेल्सियस",
+        "0 से 200 डिग्री सेल्सियस",
+        "-10 से 110 डिग्री सेल्सियस",
+        "35 से 42 डिग्री सेल्सियस"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (Minus ten to one hundred and ten degrees Celsius). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (-10 से 110 डिग्री सेल्सियस)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 94,
+    "shiftQuestionNo": 94,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A father distributed two different amounts among his sons P, Q, R and S. First amount was distributed in the ratio 5 : 4 : 3 : 2\n and the second amount was distributed in the ratio 6 : 7 : 8 : 9. If the second amount is thrice the first amount, then which\n son will get the maximum amount?",
+      "hi": "एक पिता ने अपने पुत्रों P, Q, R और S में दो विभिन्न राशियां बांटी। पहली राशि को 5 : 4 : 3 : 2 के अनुपात में बांटी गई और दूसरी राशि को 6\n : 7 : 8 : 9 के अनुपात में बांटी गई। यदि दूसरी राशि, राशि पहली राशि की तिगुनी है, तो किस पुत्र को अधिकतम राशि प्राप्त होगी?"
+    },
+    "options": {
+      "en": [
+        "S",
+        "R",
+        "Q",
+        "P"
+      ],
+      "hi": [
+        "S",
+        "P",
+        "R",
+        "Q"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option A (S). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (S)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 95,
+    "shiftQuestionNo": 95,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A car travels 90 km east and then 30 km west along the same straight road. If the entire journey takes 3 hours, what is the\n average velocity of the car?",
+      "hi": "कोई कार एक सीधी सड़क पर 90 km पूर्व और फिर उसी सड़क पर 30 km पश्चिम की ओर चलती है। यदि संपूर्ण यात्रा में 3 घंटे लगते हैं, तो\n कार का औसत वेग ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "40 km/h east",
+        "50 km/h north",
+        "30 km/h east",
+        "20 km/h east"
+      ],
+      "hi": [
+        "20 km/h पूर्व",
+        "40 km/h पूर्व",
+        "50 km/h उत्तर",
+        "30 km/h पूर्व"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (20 km/h east). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (30 km/h पूर्व)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 96,
+    "shiftQuestionNo": 96,
+    "section": "General Awareness",
+    "subject": "General Awareness & Current Affairs",
+    "topic": "General Awareness & Current Affairs (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A laboratory record shows a distance of 0.004 kilometers between two points. How should this be written in SI units of\n length for a scientific report?",
+      "hi": "प्रयोगशाला के रिकॉर्ड में दो बिंदुओं के बीच की दूरी 0.004 किलोमीटर दर्शाई गई है। वैज्ञानिक रिपोर्ट के लिए इसे लंबाई के SI मात्रकों में किस\n प्रकार लिखा जाना चाहिए?"
+    },
+    "options": {
+      "en": [
+        "400 cm",
+        "4 m",
+        "4000 mm",
+        "0.4 m"
+      ],
+      "hi": [
+        "400 cm",
+        "0.4 m",
+        "4000 mm",
+        "4 m"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (4 m). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (0.4 m)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 97,
+    "shiftQuestionNo": 97,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "When a moving car suddenly applies brakes, its kinetic energy is transformed mainly into which form of energy?",
+      "hi": "जब एक गतिमान कार में अचानक ब्रेक लगाया जाता है, तो उसकी गतिज ऊर्जा मुख्यत: किस प्रकार की ऊर्जा में रूपांतरित हो जाती है?"
+    },
+    "options": {
+      "en": [
+        "Light energy",
+        "Sound energy",
+        "Potential energy",
+        "Heat energy"
+      ],
+      "hi": [
+        "स्थितिज ऊर्जा",
+        "ध्वनि ऊर्जा",
+        "ऊष्मा ऊर्जा",
+        "प्रकाश ऊर्जा"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (Heat energy). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (प्रकाश ऊर्जा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 98,
+    "shiftQuestionNo": 98,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "A car of mass 1200 kg accelerates from rest to a speed of 20 m/s on a straight road. If the kinetic energy gained by the car\n is completely due to the work done by the engine, which of the following best represents the total kinetic energy acquired\n by the car at this speed?",
+      "hi": "1200 kg द्रव्यमान वाली एक कार सीधी सड़क पर विरामावस्था से 20 m/s की चाल तक त्वरित होती है। यदि कार द्वारा प्राप्त गतिज ऊर्जा\n पूर्णतया इंजन द्वारा किए गए कार्य के कारण है तो निम्नलिखित में से कौन-सा, इस गति पर कार द्वारा प्राप्त कु ल गतिज ऊर्जा को यथार्थ रूप से\n दर्शाता है?"
+    },
+    "options": {
+      "en": [
+        "480,000 joules",
+        "12,000 joules",
+        "24,000 joules",
+        "240,000 joules"
+      ],
+      "hi": [
+        "24,000 जूल",
+        "240,000 जूल",
+        "12,000 जूल",
+        "480,000 जूल"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option D (240,000 joules). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (480,000 जूल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 99,
+    "shiftQuestionNo": 99,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "What is the main purpose of ambient air quality standards?",
+      "hi": "परिवेशी वायु गुणवत्ता मानकों का मुख्य प्रयोजन क्या है?"
+    },
+    "options": {
+      "en": [
+        "To require all industries to reduce emissions by the exact same percentage.",
+        "To set legally permissible limits for specific pollutants to protect public health.",
+        "To focus exclusively on industrial operations while ignoring other sectors.",
+        "To ensure air is routinely sampled to map historical pollution trends."
+      ],
+      "hi": [
+        "ऐतिहासिक प्रदूषण प्रवृत्तियों का मानचित्रण करने के लिए नियमित रूप से वायु के नमूने लेना सुनिश्चित करना",
+        "सभी उद्योगों के लिए उत्सर्जन में बिल्कु ल समान प्रतिशत की कमी करना अनिवार्य बनाना",
+        "अन्य क्षेत्रों की उपेक्षा करते हुए केवल औद्योगिक परिचालनों पर ध्यान केंद्रित करना",
+        "जनस्वास्थ्य की रक्षा के लिए विशिष्ट प्रदूषकों की कानूनी रूप से अनुमेय सीमाएं निर्धारित करना"
+      ]
+    },
+    "correctIndex": 1,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option B (To set legally permissible limits for specific pollutants to protect public health.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सभी उद्योगों के लिए उत्सर्जन में बिल्कु ल समान प्रतिशत की कमी करना अनिवार्य बनाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  },
+  {
+    "id": 100,
+    "shiftQuestionNo": 100,
+    "section": "Basic Science & Engineering",
+    "subject": "Basic Science & Engineering",
+    "topic": "Basic Science & Engineering (28 Jul 2026 Shift 1 • CBT-2 Part A)",
+    "question": {
+      "en": "Two students move identical boxes through a distance of 10 m. Student A applies a force of 50 N, while Student B applies a\n force of 100 N. What is the difference in the work done by the two students?",
+      "hi": "दो विद्यार्थी एक जैसे बक्सों को 10 m की दूरी तक ले जाते हैं। विद्यार्थी A, 50 N का बल अनुप्रयुक्त करता है, जबकि विद्यार्थी B, 100 N का बल\n अनुप्रयुक्त करता है। दोनों विद्यार्थियों द्वारा किए गए कार्य में कितना अंतर है?"
+    },
+    "options": {
+      "en": [
+        "50 J",
+        "1000 J",
+        "500 J",
+        "0 J"
+      ],
+      "hi": [
+        "1000 J",
+        "500 J",
+        "50 J",
+        "0 J"
+      ]
+    },
+    "correctIndex": 2,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
+      "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
+      "en": "Correct Answer: Option C (500 J). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (50 J)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+    }
+  }
+]

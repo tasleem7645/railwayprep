@@ -17,6 +17,9 @@ import alp2025Shift7Questions from './alp2025Shift7Bilingual.json';
 import alp2025Shift8Questions from './alp2025Shift8Bilingual.json';
 import alp2025Shift9Questions from './alp2025Shift9Bilingual.json';
 import alp2025Shift10Questions from './alp2025Shift10Bilingual.json';
+import alp2025Cbt2Shift1Questions from './alp2025Cbt2Shift1Bilingual.json';
+import alp2025Cbt2Shift2Questions from './alp2025Cbt2Shift2Bilingual.json';
+
 
 // --- SHIFT 1 SECTIONAL SUBSETS ---
 // Strict pure separation as per user commands:
@@ -160,6 +163,18 @@ const reasoningQuestions2025S9 = alp2025Shift9Questions.filter(q => q.section ==
 const scienceQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'General Science');
 const mathsQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'Mathematics');
 const reasoningQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+
+
+// --- CBT-2 PART A SHIFT 1 & 2 SUBSETS ---
+const bseQuestionsCbt2S1 = alp2025Cbt2Shift1Questions.filter(q => q.section === 'Basic Science & Engineering');
+const mathsQuestionsCbt2S1 = alp2025Cbt2Shift1Questions.filter(q => q.section === 'Mathematics');
+const reasoningQuestionsCbt2S1 = alp2025Cbt2Shift1Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+const gaQuestionsCbt2S1 = alp2025Cbt2Shift1Questions.filter(q => q.section === 'General Awareness');
+
+const bseQuestionsCbt2S2 = alp2025Cbt2Shift2Questions.filter(q => q.section === 'Basic Science & Engineering');
+const mathsQuestionsCbt2S2 = alp2025Cbt2Shift2Questions.filter(q => q.section === 'Mathematics');
+const reasoningQuestionsCbt2S2 = alp2025Cbt2Shift2Questions.filter(q => q.section === 'General Intelligence & Reasoning');
+const gaQuestionsCbt2S2 = alp2025Cbt2Shift2Questions.filter(q => q.section === 'General Awareness');
 
 export const RAILWAY_TESTS = [
   // ==========================================
@@ -2201,5 +2216,252 @@ export const RAILWAY_TESTS = [
     sections: ['General Intelligence & Reasoning'],
     sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S10.length} Questions)`,
     questions: reasoningQuestions2025S10.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // ==========================================
+  // RRB ALP 2025 CBT-2 PART A OFFICIAL TESTS
+  // ==========================================
+
+  // 77. Full Mock Test 1 - CBT-2 Part A (28 Jul Shift 1) - FREE DEMO
+  {
+    id: 'rrb-alp-2025-cbt2-mock-01',
+    examYear: 'cbt2',
+    title: 'RRB ALP 2025 CBT-2 Part A: Official Full Mock Test (28 Jul Shift 1)',
+    subTitle: '100 Qs • 90 Mins • Basic Science & Engineering, Maths, Reasoning & General Awareness',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'official',
+    badge: 'CBT-2 Official Mock',
+    badgeColor: 'teal',
+    isFreeDemo: true,
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 1 (09:30 AM - 12:00 PM)',
+    shiftName: '28 Jul Shift 1',
+    durationMinutes: 90,
+    totalQuestions: 100,
+    maxMarks: 100,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Basic Science & Engineering', 'Mathematics', 'General Intelligence & Reasoning', 'General Awareness'],
+    sectionSummary: 'Part A Pattern: 42 BS&E • 19 Maths • 19 Reasoning • 20 General Awareness',
+    questions: alp2025Cbt2Shift1Questions
+  },
+
+  // 78. Sectional - BS&E (CBT-2 Shift 1)
+  {
+    id: 'rrb-alp-2025-cbt2-sec-bse-s1',
+    examYear: 'cbt2',
+    title: 'RRB ALP CBT-2: Basic Science & Engineering Sectional (Shift 1)',
+    subTitle: 'Engineering Drawing, Levers & Simple Machines, Electricity, Heat & Work-Power',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'sectional',
+    badge: 'Sectional • BS&E',
+    badgeColor: 'amber',
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '28 Jul Shift 1',
+    durationMinutes: 35,
+    totalQuestions: bseQuestionsCbt2S1.length,
+    maxMarks: bseQuestionsCbt2S1.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Basic Science & Engineering'],
+    sectionSummary: `Covers: Pure Basic Science & Engineering (${bseQuestionsCbt2S1.length} Questions)`,
+    questions: bseQuestionsCbt2S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 79. Sectional - Mathematics (CBT-2 Shift 1)
+  {
+    id: 'rrb-alp-2025-cbt2-sec-maths-s1',
+    examYear: 'cbt2',
+    title: 'RRB ALP CBT-2: Mathematics Sectional (Shift 1)',
+    subTitle: 'Algebra, Trigonometry, Statistics, Mensuration, Speed-Time & Train Problems',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'sectional',
+    badge: 'Sectional • Maths',
+    badgeColor: 'indigo',
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '28 Jul Shift 1',
+    durationMinutes: 25,
+    totalQuestions: mathsQuestionsCbt2S1.length,
+    maxMarks: mathsQuestionsCbt2S1.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsCbt2S1.length} Questions)`,
+    questions: mathsQuestionsCbt2S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 80. Sectional - Reasoning (CBT-2 Shift 1)
+  {
+    id: 'rrb-alp-2025-cbt2-sec-reasoning-s1',
+    examYear: 'cbt2',
+    title: 'RRB ALP CBT-2: Reasoning & Intelligence Sectional (Shift 1)',
+    subTitle: 'Puzzles, Seating Arrangement, Coding-Decoding, Syllogism & Letter-Number Series',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'sectional',
+    badge: 'Sectional • Reasoning',
+    badgeColor: 'purple',
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '28 Jul Shift 1',
+    durationMinutes: 25,
+    totalQuestions: reasoningQuestionsCbt2S1.length,
+    maxMarks: reasoningQuestionsCbt2S1.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsCbt2S1.length} Questions)`,
+    questions: reasoningQuestionsCbt2S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 81. Sectional - General Awareness (CBT-2 Shift 1)
+  {
+    id: 'rrb-alp-2025-cbt2-sec-ga-s1',
+    examYear: 'cbt2',
+    title: 'RRB ALP CBT-2: General Awareness Sectional (Shift 1)',
+    subTitle: 'Current Affairs, Science & Technology, Sports, Awards & Indian Polity',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'sectional',
+    badge: 'Sectional • GA',
+    badgeColor: 'emerald',
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 1',
+    shiftName: '28 Jul Shift 1',
+    durationMinutes: 10,
+    totalQuestions: gaQuestionsCbt2S1.length,
+    maxMarks: gaQuestionsCbt2S1.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Awareness'],
+    sectionSummary: `Covers: General Awareness & Current Affairs (${gaQuestionsCbt2S1.length} Questions)`,
+    questions: gaQuestionsCbt2S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 82. Full Mock Test 2 - CBT-2 Part A (28 Jul Shift 2) - PASS PRO
+  {
+    id: 'rrb-alp-2025-cbt2-mock-02',
+    examYear: 'cbt2',
+    title: 'RRB ALP 2025 CBT-2 Part A: Official Full Mock Test (28 Jul Shift 2)',
+    subTitle: '100 Qs • 90 Mins • Basic Science & Engineering, Maths, Reasoning & General Awareness',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'official',
+    badge: 'CBT-2 Official Mock',
+    badgeColor: 'teal',
+    isFreeDemo: false,
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 2 (02:30 PM - 05:00 PM)',
+    shiftName: '28 Jul Shift 2',
+    durationMinutes: 90,
+    totalQuestions: 100,
+    maxMarks: 100,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Basic Science & Engineering', 'Mathematics', 'General Intelligence & Reasoning', 'General Awareness'],
+    sectionSummary: 'Part A Pattern: 45 BS&E • 17 Maths • 21 Reasoning • 17 General Awareness',
+    questions: alp2025Cbt2Shift2Questions
+  },
+
+  // 83. Sectional - BS&E (CBT-2 Shift 2)
+  {
+    id: 'rrb-alp-2025-cbt2-sec-bse-s2',
+    examYear: 'cbt2',
+    title: 'RRB ALP CBT-2: Basic Science & Engineering Sectional (Shift 2)',
+    subTitle: 'Engineering Drawing, Levers & Simple Machines, Electricity, Heat & Work-Power',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'sectional',
+    badge: 'Sectional • BS&E',
+    badgeColor: 'amber',
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 2',
+    shiftName: '28 Jul Shift 2',
+    durationMinutes: 35,
+    totalQuestions: bseQuestionsCbt2S2.length,
+    maxMarks: bseQuestionsCbt2S2.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Basic Science & Engineering'],
+    sectionSummary: `Covers: Pure Basic Science & Engineering (${bseQuestionsCbt2S2.length} Questions)`,
+    questions: bseQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 84. Sectional - Mathematics (CBT-2 Shift 2)
+  {
+    id: 'rrb-alp-2025-cbt2-sec-maths-s2',
+    examYear: 'cbt2',
+    title: 'RRB ALP CBT-2: Mathematics Sectional (Shift 2)',
+    subTitle: 'Algebra, Trigonometry, Statistics, Mensuration, Speed-Time & Train Problems',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'sectional',
+    badge: 'Sectional • Maths',
+    badgeColor: 'indigo',
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 2',
+    shiftName: '28 Jul Shift 2',
+    durationMinutes: 25,
+    totalQuestions: mathsQuestionsCbt2S2.length,
+    maxMarks: mathsQuestionsCbt2S2.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['Mathematics'],
+    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsCbt2S2.length} Questions)`,
+    questions: mathsQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 85. Sectional - Reasoning (CBT-2 Shift 2)
+  {
+    id: 'rrb-alp-2025-cbt2-sec-reasoning-s2',
+    examYear: 'cbt2',
+    title: 'RRB ALP CBT-2: Reasoning & Intelligence Sectional (Shift 2)',
+    subTitle: 'Puzzles, Seating Arrangement, Coding-Decoding, Syllogism & Letter-Number Series',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'sectional',
+    badge: 'Sectional • Reasoning',
+    badgeColor: 'purple',
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 2',
+    shiftName: '28 Jul Shift 2',
+    durationMinutes: 25,
+    totalQuestions: reasoningQuestionsCbt2S2.length,
+    maxMarks: reasoningQuestionsCbt2S2.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Intelligence & Reasoning'],
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsCbt2S2.length} Questions)`,
+    questions: reasoningQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+  },
+
+  // 86. Sectional - General Awareness (CBT-2 Shift 2)
+  {
+    id: 'rrb-alp-2025-cbt2-sec-ga-s2',
+    examYear: 'cbt2',
+    title: 'RRB ALP CBT-2: General Awareness Sectional (Shift 2)',
+    subTitle: 'Current Affairs, Science & Technology, Sports, Awards & Indian Polity',
+    exam: 'RRB ALP CBT-2 Part A',
+    stage: 'CBT-2',
+    category: 'sectional',
+    badge: 'Sectional • GA',
+    badgeColor: 'emerald',
+    shiftDate: '28/07/2026',
+    shiftTime: 'Shift 2',
+    shiftName: '28 Jul Shift 2',
+    durationMinutes: 10,
+    totalQuestions: gaQuestionsCbt2S2.length,
+    maxMarks: gaQuestionsCbt2S2.length,
+    positiveMarks: 1.0,
+    negativeMarks: 0.33,
+    sections: ['General Awareness'],
+    sectionSummary: `Covers: General Awareness & Current Affairs (${gaQuestionsCbt2S2.length} Questions)`,
+    questions: gaQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
   }
+
 ];

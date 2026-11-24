@@ -105,8 +105,10 @@ export default function App() {
   }, []);
 
   const yearTests = RAILWAY_TESTS.filter(test => {
-    const is2025 = test.examYear === '2025' || test.exam === 'RRB ALP 2025';
-    return yearFilter === 'all' || (yearFilter === '2025' ? is2025 : !is2025);
+    if (yearFilter === 'cbt2') return test.examYear === 'cbt2' || test.stage === 'CBT-2';
+    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && test.stage !== 'CBT-2';
+    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && test.stage !== 'CBT-2';
+    return true; // 'all'
   });
 
   const uniqueShifts = Array.from(new Set(yearTests.map(t => t.shiftName).filter(Boolean)));
@@ -126,8 +128,11 @@ export default function App() {
 
   const isTestFree = (test) => {
     if (!MONETIZATION_CONFIG.payments.enablePaywall || hasPassPro) return true;
+    if (test.isFreeDemo) return true;
     const isShift1 = test.shiftName === '03 Nov Shift 1' || 
                      test.shiftName === '13 Feb Shift 1' || 
+                     test.shiftName === '28 Jul Shift 1' ||
+                     test.id === 'rrb-alp-2025-cbt2-mock-01' ||
                      test.id?.includes('shift-1') || 
                      test.id?.includes('shift1');
     return isShift1;
@@ -274,7 +279,17 @@ export default function App() {
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => t.examYear === '2025' || t.exam === 'RRB ALP 2025').length} Tests • 10 Shifts)
+                  ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && t.stage !== 'CBT-2').length} Tests • 10 Shifts)
+                </button>
+                <button
+                  onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); }}
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    yearFilter === 'cbt2'
+                      ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-slate-950 font-black shadow-md shadow-rose-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  🚀 RRB ALP CBT-2 Part A ({RAILWAY_TESTS.filter(t => t.examYear === 'cbt2' || t.stage === 'CBT-2').length} Tests • 2 Shifts • 100 Qs)
                 </button>
               </div>
 
@@ -473,7 +488,17 @@ export default function App() {
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => t.examYear === '2025' || t.exam === 'RRB ALP 2025').length} Tests • 10 Shifts)
+                  ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && t.stage !== 'CBT-2').length} Tests • 10 Shifts)
+                </button>
+                <button
+                  onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); }}
+                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                    yearFilter === 'cbt2'
+                      ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-slate-950 shadow-md shadow-rose-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  🚀 RRB ALP CBT-2 Part A ({RAILWAY_TESTS.filter(t => t.examYear === 'cbt2' || t.stage === 'CBT-2').length} Tests • 2 Shifts • 100 Qs)
                 </button>
               </div>
 
