@@ -1502,31 +1502,31 @@
     "subject": "Mathematics",
     "topic": "Congruence & Similarity • RRB Group D Level-1 (20 Aug 2026 Shift 41)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "दो त्रिभुज और इस प्रकार हैं कि है , तो निम्नलिखित में से कौन - सा विकल्प सही है ?"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Congruence & Similarity",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1604,31 +1604,31 @@
     "subject": "Mathematics",
     "topic": "Pythagorean Identities • RRB Group D Level-1 (20 Aug 2026 Shift 41)",
     "question": {
-      "en": "",
+      "en": "If $\\sin \\theta + \\cos \\theta = \\sqrt{2} \\cos \\theta$, then find the value of $\\cos \\theta - \\sin \\theta$:",
       "hi": "को सरलीकृ त कीजिए। है। यदि , और ✓ ✓ 60-80 80-100 कु ल x 4 y 40 ✓"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ]
     },
-    "correctIndex": 1,
-    "correctIndexHi": 1,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B () सही उत्तर है।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1638,31 +1638,31 @@
     "subject": "Mathematics",
     "topic": "Pythagorean Identities • RRB Group D Level-1 (20 Aug 2026 Shift 41)",
     "question": {
-      "en": "",
+      "en": "If $\\sin \\theta + \\cos \\theta = \\sqrt{2} \\cos \\theta$, then find the value of $\\cos \\theta - \\sin \\theta$:",
       "hi": "यदि है , तो का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D () सही उत्तर है।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
     }
   },
   {

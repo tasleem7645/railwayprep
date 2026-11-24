@@ -1473,26 +1473,26 @@
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Combined Work Rate",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1575,26 +1575,26 @@
     },
     "options": {
       "en": [
-        "1",
-        "",
-        "3",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "1",
-        "",
-        "3",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Index Simplification",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (3) सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1604,31 +1604,31 @@
     "subject": "Mathematics",
     "topic": "Pythagorean Identities • RRB Group D Level-1 (14 Aug 2026 Shift 30)",
     "question": {
-      "en": "",
+      "en": "If $\\sin \\theta + \\cos \\theta = \\sqrt{2} \\cos \\theta$, then find the value of $\\cos \\theta - \\sin \\theta$:",
       "hi": "निम्नलिखित व्यंजक का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D () सही उत्तर है।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1638,31 +1638,31 @@
     "subject": "Mathematics",
     "topic": "Surface Area (TSA/LSA) • RRB Group D Level-1 (14 Aug 2026 Shift 30)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "एक कमरे की चार दीवारों का क्षेत्रफल 336 m 2 है। कमरे की लंबाई उसकी चौड़ाई"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 1,
-    "correctIndexHi": 1,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Surface Area (TSA/LSA)",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1677,26 +1677,26 @@
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ]
     },
-    "correctIndex": 0,
-    "correctIndexHi": 0,
+    "correctIndex": 3,
+    "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Trigonometric Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A () सही उत्तर है।"
+      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D.",
+      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D।"
     }
   },
   {

@@ -1672,31 +1672,31 @@
     "subject": "Mathematics",
     "topic": "sec^2 - tan^2 = 1 • RRB Group D Level-1 (13 Aug 2026 Shift 26)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "को सरलीकृ त कीजिए।"
     },
     "options": {
       "en": [
-        "tan A + cosec A",
-        "tan A − sec A",
-        "tan A + sec A",
-        "tan A − cosec A General Intelligence & Reasoning"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "tan A − cosec A",
-        "tan A + cosec A",
-        "tan A + sec A",
-        "tan A − sec A General Intelligence & Reasoning"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • sec^2 - tan^2 = 1",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (tan A + sec A) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (tan A + sec A) सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {

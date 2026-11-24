@@ -7,6 +7,7 @@ import {
   Printer, Bookmark
 } from 'lucide-react';
 import AdBanner from './AdBanner';
+import QuestionContentRenderer from './QuestionContentRenderer';
 
 export default function TestResultModal({ result, onClose, onRetake, onOpenPassPro, onOpenMistakes }) {
   const { test, answers, timeTakenSeconds } = result;
@@ -441,9 +442,13 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
                     </div>
                   </div>
 
-                  {/* Question Statement */}
-                  <div className="text-base sm:text-lg font-medium text-slate-100 leading-relaxed font-sans">
-                    {activeReviewQ.question[reviewLang] || activeReviewQ.question['en']}
+                  {/* Question Statement (Tables, Math & Figures Support) */}
+                  <div className="mb-4">
+                    <QuestionContentRenderer
+                      text={activeReviewQ.question[reviewLang] || activeReviewQ.question['en']}
+                      image={activeReviewQ.image || activeReviewQ[`image_${reviewLang}`]}
+                      className="text-base sm:text-lg font-medium text-slate-100 leading-relaxed font-sans"
+                    />
                   </div>
 
                   {/* 4 Options with User Response vs Official Answer Highlighting */}

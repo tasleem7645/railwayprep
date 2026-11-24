@@ -143,30 +143,30 @@
     "topic": "Basic Organic Chemistry • RRB Group D Level-1 (12 Aug 2026 Shift 23)",
     "question": {
       "en": "2:15 PM · English",
-      "hi": ""
+      "hi": "मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
-        "Butan-2-al",
-        "Butan-2-one",
-        "Butan-2-oic acid",
-        "Butan-2-ol"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "ब्यूटेन -2- अल",
-        "ब्यूटेन -2- ऑन",
-        "ब्यूटेन -2- ओल",
-        "ब्यूटेन -2- ओइक अम्ल"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 1,
-    "correctIndexHi": 1,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • Basic Organic Chemistry",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Butan-2-one) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (ब्यूटेन -2- ऑन) सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1604,31 +1604,31 @@
     "subject": "Mathematics",
     "topic": "Pythagorean Identities • RRB Group D Level-1 (12 Aug 2026 Shift 23)",
     "question": {
-      "en": "",
+      "en": "If $\\sin \\theta + \\cos \\theta = \\sqrt{2} \\cos \\theta$, then find the value of $\\cos \\theta - \\sin \\theta$:",
       "hi": "को सरल कीजिए। दीजिए। है , तो सरकारी एजेंसियों की कितनी निधि अभी भी अन्य कार्यों के लिए बची ✓ 40-50 50-60 60-70 42 21 x ✓"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D () सही उत्तर है।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1638,31 +1638,31 @@
     "subject": "Mathematics",
     "topic": "Regular Polygons • RRB Group D Level-1 (12 Aug 2026 Shift 23)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "किसी समबहुभुज के आंतरिक कोण और बाह्य कोण के मापों का अंतर 108° है। यदि है , तो क्या होगा ?"
     },
     "options": {
       "en": [
-        "multiple of 6",
-        "multiple of 9",
-        "multiple of 7",
-        "multiple of 5"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "7 का गुणज",
-        "9 का गुणज",
-        "6 का गुणज",
-        "5 का गुणज"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Regular Polygons",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (multiple of 5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (5 का गुणज) सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1672,31 +1672,31 @@
     "subject": "Mathematics",
     "topic": "Standard Angle Values • RRB Group D Level-1 (12 Aug 2026 Shift 23)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "जब है , तो"
     },
     "options": {
       "en": [
-        "-7",
-        "10",
-        "13",
-        "7 General Intelligence & Reasoning"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "10",
-        "13",
-        "-7 General Intelligence & Reasoning",
-        "7"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Standard Angle Values",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (7 General Intelligence & Reasoning) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (7) सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {

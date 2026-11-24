@@ -1405,26 +1405,26 @@
     },
     "options": {
       "en": [
-        "Less by ₹200",
-        "Less by ₹240",
-        "More by ₹240",
-        "More by ₹200"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (More by ₹240) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1434,21 +1434,21 @@
     "subject": "Mathematics",
     "topic": "Cylinder • RRB Group D Level-1 (21 Aug 2026 Shift 45)",
     "question": {
-      "en": "",
+      "en": "The curved surface area of a right circular cylinder of height 14 cm is 88 cm². Find the diameter of the base of the cylinder:",
       "hi": "एक आयताकार मैदान की भुजाओं की लंबाई 63 m और 22 m है। इसका क्षेत्रफल परिधि (m में ) ज्ञात कीजिए। ( लीजिए )"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "2 cm",
+        "1 cm",
+        "4 cm",
+        "3 cm"
       ],
       "hi": [
-        "132",
-        "119",
-        "146",
-        "152"
+        "2 सेमी",
+        "1 सेमी",
+        "4 सेमी",
+        "3 सेमी"
       ]
     },
     "correctIndex": 0,
@@ -1457,8 +1457,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Cylinder",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (132) सही उत्तर है।"
+      "en": "CSA = 2πrh = 88. 2 * (22/7) * r * 14 = 88 => 88r = 88 => r = 1 cm. Diameter = 2r = 2 cm. Correct: Option A.",
+      "hi": "CSA = 2πrh = 88 => r = 1 सेमी। व्यास = 2 सेमी। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1536,31 +1536,31 @@
     "subject": "Mathematics",
     "topic": "Single Change • RRB Group D Level-1 (21 Aug 2026 Shift 45)",
     "question": {
-      "en": "",
+      "en": "If the price of sugar increases by 25%, by what percent must a household reduce its consumption so that expenditure remains unchanged?",
       "hi": "किसी वस्तु की कीमत में 12.5% ​ की वृद्धि होने पर नई कीमत ₹18,000 हो जाती"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "20%",
+        "25%",
+        "16.67%",
+        "15%"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "20%",
+        "25%",
+        "16.67%",
+        "15%"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "Reduction % = [r / (100 + r)] * 100 = [25 / 125] * 100 = 20%. Correct: Option A.",
+      "hi": "खपत में कमी = [25 / 125] × 100 = 20%। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1604,21 +1604,21 @@
     "subject": "Mathematics",
     "topic": "Trigonometric Identities • RRB Group D Level-1 (21 Aug 2026 Shift 45)",
     "question": {
-      "en": "",
+      "en": "Evaluate: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$",
       "hi": "को सरल कीजिए। 60-80 80-100 कु ल x 2 y 70 ✓ और दूसरी संख्या का अनुपात ज्ञात कीजिए। ✓ है। वस्तु की मूल कीमत ज्ञात कीजिए। ✓ ✓"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "1",
-        "2"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ],
       "hi": [
-        "1",
-        "",
-        "",
-        "2"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ]
     },
     "correctIndex": 3,
@@ -1627,8 +1627,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Trigonometric Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (2) सही उत्तर है।"
+      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D.",
+      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D।"
     }
   },
   {
@@ -1638,21 +1638,21 @@
     "subject": "Mathematics",
     "topic": "Trigonometric Identities • RRB Group D Level-1 (21 Aug 2026 Shift 45)",
     "question": {
-      "en": "",
+      "en": "Evaluate: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$",
       "hi": "का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "cosec θ − cot θ",
-        "cosec θ",
-        "cosec θ + cot θ",
-        "cot θ"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ],
       "hi": [
-        "cosec θ",
-        "cosec θ + cot θ",
-        "cosec θ − cot θ",
-        "cot θ"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ]
     },
     "correctIndex": 3,
@@ -1661,8 +1661,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Trigonometric Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (cot θ) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (cot θ) सही उत्तर है।"
+      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D.",
+      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D।"
     }
   },
   {

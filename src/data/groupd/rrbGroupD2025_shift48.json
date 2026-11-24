@@ -1128,24 +1128,24 @@
     "subject": "Mathematics",
     "topic": "Grouped Data Mode • RRB Group D Level-1 (25 Aug 2026 Shift 48)",
     "question": {
-      "en": "Given the following frequency distribution table of class intervals and frequencies: Class Intervals Frequency 10-20 5 20-30 9 30-40 15 40-50 6 What is the mode of the distribution?",
-      "hi": "निम्नांकित बारंबारता बंटन सारणी में वर्ग - अंतराल और बारंबारता दर्शाई गई है। वर्ग अंतराल बारंबारता 10-20 5 20-30 9 30-40 15 40-50 6 बंटन का बहुलक ज्ञात कीजिए।"
+      "en": "Given the following frequency distribution table of class intervals and frequencies, what is the mode of the distribution?\n\n| Class Intervals | Frequency |\n|:---:|:---:|\n| 10 - 20 | 5 |\n| 20 - 30 | 9 |\n| 30 - 40 | 15 |\n| 40 - 50 | 6 |",
+      "hi": "निम्नांकित बारंबारता बंटन सारणी में वर्ग-अंतराल और बारंबारता दर्शाई गई है। बंटन का बहुलक ज्ञात कीजिए:\n\n| वर्ग अंतराल | बारंबारता |\n|:---:|:---:|\n| 10 - 20 | 5 |\n| 20 - 30 | 9 |\n| 30 - 40 | 15 |\n| 40 - 50 | 6 |"
     },
     "options": {
       "en": [
-        "40",
-        "34",
-        "20",
-        "24"
+        "34.0",
+        "35.5",
+        "33.3",
+        "36.2"
       ],
       "hi": [
-        "24",
-        "34",
-        "40",
-        "20"
+        "34.0",
+        "35.5",
+        "33.3",
+        "36.2"
       ]
     },
-    "correctIndex": 1,
+    "correctIndex": 0,
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
@@ -1473,26 +1473,26 @@
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "107/450",
+        "214/900",
+        "119/500",
+        "237/990"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "107/450",
+        "214/900",
+        "119/500",
+        "237/990"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Fractions and Decimals",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D () सही उत्तर है।"
+      "en": "(237 - 23) / 900 = 214 / 900 = 107 / 450. Correct: Option A.",
+      "hi": "(237 - 23) / 900 = 214 / 900 = 107 / 450। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1536,31 +1536,31 @@
     "subject": "Mathematics",
     "topic": "Proportion • RRB Group D Level-1 (25 Aug 2026 Shift 48)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "और का चतुर्थानुपाती ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Proportion",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1570,21 +1570,21 @@
     "subject": "Mathematics",
     "topic": "Quadrilateral Area & Perimeter • RRB Group D Level-1 (25 Aug 2026 Shift 48)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "8 cm भुजा और 6 cm शीर्षलंब वाले समचतुर्भुज का क्षेत्रफल ज्ञात कीजिए। ✓ ✓"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
     "correctIndex": 0,
@@ -1593,8 +1593,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Quadrilateral Area & Perimeter",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1638,31 +1638,31 @@
     "subject": "Mathematics",
     "topic": "Trigonometric Identities • RRB Group D Level-1 (25 Aug 2026 Shift 48)",
     "question": {
-      "en": "",
+      "en": "Evaluate: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$",
       "hi": "का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "sinx − cosx",
-        "sinx + cosx",
-        "1",
-        "cosx − sinx"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ],
       "hi": [
-        "cosx − sinx",
-        "sinx + cosx",
-        "sinx − cosx",
-        "1"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ]
     },
-    "correctIndex": 1,
-    "correctIndexHi": 1,
+    "correctIndex": 3,
+    "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Trigonometric Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (sinx + cosx) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (sinx + cosx) सही उत्तर है।"
+      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D.",
+      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D।"
     }
   },
   {
@@ -1672,31 +1672,31 @@
     "subject": "Mathematics",
     "topic": "Trigonometric Identities • RRB Group D Level-1 (25 Aug 2026 Shift 48)",
     "question": {
-      "en": "",
+      "en": "Evaluate: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$",
       "hi": "यदि है , तो"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        "General Intelligence & Reasoning"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        "General Intelligence & Reasoning"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ]
     },
-    "correctIndex": 1,
-    "correctIndexHi": 1,
+    "correctIndex": 3,
+    "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Trigonometric Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B () सही उत्तर है।"
+      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D.",
+      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D।"
     }
   },
   {
@@ -2692,31 +2692,31 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "Missing Number • RRB Group D Level-1 (25 Aug 2026 Shift 48)",
     "question": {
-      "en": "",
+      "en": "Find the missing number in the sequence: 4, 9, 25, 49, 121, ?",
       "hi": "दी गई शृंखला में प्रश्न - चिह्न (?) के स्थान पर कौन - सा विकल्प आना चाहिए ? 90 70 52 36 22 ?"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        "General Awareness"
+        "144",
+        "169",
+        "196",
+        "225"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "144",
+        "169",
+        "196",
+        "225"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 1,
+    "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Intelligence & Reasoning • Missing Number",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (General Awareness) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D () सही उत्तर है।"
+      "en": "The numbers are squares of prime numbers: 2², 3², 5², 7², 11², 13² = 169. Correct: Option B (169).",
+      "hi": "अभाज्य संख्याओं के वर्ग: 2², 3², 5², 7², 11², 13² = 169। सही उत्तर: विकल्प B (169)।"
     }
   },
   {

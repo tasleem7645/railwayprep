@@ -1126,24 +1126,24 @@
     "subject": "Mathematics",
     "topic": "Mathematics - Shift 2",
     "question": {
-      "en": "Find the median for the following grouped data. Class Interval Frequency 15-23 3 23-31 7 31-39 10 39-47 6 47-55 4",
-      "hi": "निम्नलिखित वर्गीकृ त आंकड़ों की माध्यिका ज्ञात कीजिए। वर्ग अंतराल बारंबारता 15-23 3 23-31 7 31-39 10 39-47 6 47-55 4"
+      "en": "Find the median for the following grouped frequency distribution data:\n\n| Class Interval | Frequency |\n|:---:|:---:|\n| 15 - 23 | 3 |\n| 23 - 31 | 7 |\n| 31 - 39 | 10 |\n| 39 - 47 | 6 |\n| 47 - 55 | 4 |",
+      "hi": "निम्नलिखित वर्गीकृत आंकड़ों की माध्यिका ज्ञात कीजिए:\n\n| वर्ग अंतराल | बारंबारता |\n|:---:|:---:|\n| 15 - 23 | 3 |\n| 23 - 31 | 7 |\n| 31 - 39 | 10 |\n| 39 - 47 | 6 |\n| 47 - 55 | 4 |"
     },
     "options": {
       "en": [
-        "24",
-        "28",
-        "36",
-        "35"
+        "35",
+        "34",
+        "33",
+        "36"
       ],
       "hi": [
-        "24",
-        "28",
-        "36",
-        "35"
+        "35",
+        "34",
+        "33",
+        "36"
       ]
     },
-    "correctIndex": 3,
+    "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Mathematics (03 Nov 2026 Shift 2)",

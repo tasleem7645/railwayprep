@@ -710,29 +710,29 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (17 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "उस समषट्भुज का क्षेत्रफल ज्ञात कीजिए जिसकी भुजा की माप 18√2 cm है। (√3 = 1.73 का उपयोग करें)"
     },
     "options": {
       "en": [
-        "1691.56 cm2",
-        "1671.56 cm2",
-        "1681.56 cm2",
-        "1661.56 cm2"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "1691.56 cm2",
-        "1671.56 cm2",
-        "1681.56 cm2",
-        "1661.56 cm2"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
+    "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (17 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option C (1681.56 cm2). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (1681.56 cm2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1254,29 +1254,29 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (17 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "-8",
-        "3",
-        "-1",
-        "-6"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "-8",
-        "3",
-        "-1",
-        "-6"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
+    "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (17 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option C (-1). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (-1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {

@@ -177,24 +177,44 @@ export default function App() {
   const [testResult, setTestResult] = useState(null);
   const [savedSession, setSavedSession] = useState(null);
 
-  // Restore test session if user refreshes or toggles mobile/desktop mode
+  // Restore test session if user refreshes or returns
   useEffect(() => {
     try {
       const saved = localStorage.getItem('railwayprep_active_test_session');
       if (saved) {
         const session = JSON.parse(saved);
         if (session && session.testId) {
-          const matchingTest = RAILWAY_TESTS.find(t => t.id === session.testId);
-          if (matchingTest) {
-            setSavedSession(session);
-            setActiveTest(matchingTest);
-          }
+          setSavedSession(session);
         }
       }
     } catch (e) {
       console.warn('Failed to restore active test session:', e);
     }
   }, []);
+
+  const handlePauseAndExit = (session) => {
+    setSavedSession(session);
+    setActiveTest(null);
+  };
+
+  const handleResumeTest = (testId) => {
+    const tId = testId || savedSession?.testId;
+    const matchingTest = RAILWAY_TESTS.find(t => t.id === tId);
+    if (matchingTest) {
+      if (!isTestFree(matchingTest)) {
+        setIsPassProOpen(true);
+        return;
+      }
+      setActiveTest(matchingTest);
+    }
+  };
+
+  const handleDiscardSavedSession = () => {
+    try {
+      localStorage.removeItem('railwayprep_active_test_session');
+    } catch (e) {}
+    setSavedSession(null);
+  };
 
   const yearTests = RAILWAY_TESTS.filter(test => {
     if (yearFilter === 'groupd-2025') return test.examYear === 'groupd-2025' || test.exam?.includes('Group D');
@@ -304,6 +324,48 @@ export default function App() {
               onExploreNotes={() => setActiveTab('super-coaching')}
               onOpenPassPro={() => setIsPassProOpen(true)}
             />
+
+            {/* Ongoing / Incomplete Test Resume Banner (Testbook Style UX) */}
+            {savedSession && (
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+                <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-amber-950/70 via-slate-900 to-amber-950/50 border border-amber-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+                  <div className="flex items-center gap-3.5 text-center sm:text-left">
+                    <div className="w-11 h-11 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0 text-xl font-black animate-pulse">
+                      ⏸
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2 justify-center sm:justify-start">
+                        <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 uppercase tracking-wider">
+                          Incomplete Test / प्रगति सुरक्षित
+                        </span>
+                        <span className="text-xs text-slate-400 hidden sm:inline">
+                          Q.{savedSession.currentIndex + 1} • हल किए: {Object.keys(savedSession.answers || {}).length} प्रश्न
+                        </span>
+                      </div>
+                      <h4 className="text-sm sm:text-base font-bold text-white mt-0.5">
+                        {RAILWAY_TESTS.find(t => t.id === savedSession.testId)?.title || 'Railway Mock Test'}
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2.5 w-full sm:w-auto justify-end">
+                    <button
+                      onClick={handleDiscardSavedSession}
+                      className="px-3.5 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 text-xs font-semibold border border-slate-700 transition-all cursor-pointer"
+                    >
+                      रद्द करें (Discard)
+                    </button>
+                    <button
+                      onClick={() => handleResumeTest(savedSession.testId)}
+                      className="px-5 py-2 rounded-xl bg-gradient-to-r from-teal-400 to-emerald-400 hover:from-teal-300 hover:to-emerald-300 text-slate-950 text-xs font-black shadow-lg shadow-teal-950 transition-all flex items-center gap-2 cursor-pointer"
+                    >
+                      <Play className="w-4 h-4 fill-slate-950" />
+                      <span>Resume Test (रीज़्यूम करें)</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
 
             {/* High-Converting Ad & Study Material Banner */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -616,6 +678,14 @@ export default function App() {
                         >
                           <Lock className="w-4 h-4" />
                           <span>Unlock with Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice})</span>
+                        </button>
+                      ) : savedSession?.testId === test.id ? (
+                        <button
+                          onClick={() => handleResumeTest(test.id)}
+                          className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-950/40 transition-all cursor-pointer animate-pulse"
+                        >
+                          <Play className="w-4 h-4 fill-slate-950" />
+                          <span>Resume Test (Q.{savedSession.currentIndex + 1} से जारी रखें)</span>
                         </button>
                       ) : (
                         <button
@@ -977,6 +1047,20 @@ export default function App() {
                           <span>Unlock with Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice})</span>
                         </button>
                       </div>
+                    ) : savedSession?.testId === test.id ? (
+                      <div className="space-y-2 pt-2 border-t border-slate-800">
+                        <button
+                          onClick={() => handleResumeTest(test.id)}
+                          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs shadow-md shadow-amber-950/40 transition-all flex items-center justify-center gap-1.5 cursor-pointer animate-pulse"
+                        >
+                          <Play className="w-3.5 h-3.5 fill-slate-950" />
+                          <span>Resume Test (Q.{savedSession.currentIndex + 1} से जारी रखें)</span>
+                        </button>
+                        <div className="flex items-center justify-between text-[10px] px-1 text-slate-400">
+                          <span>प्रगति सुरक्षित • {Object.keys(savedSession.answers || {}).length} हल</span>
+                          <button onClick={handleDiscardSavedSession} className="text-rose-400 hover:underline">Restart (शुरू से)</button>
+                        </div>
+                      </div>
                     ) : (
                       <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
                         <button
@@ -1052,6 +1136,7 @@ export default function App() {
           savedSession={savedSession}
           onClose={handleCloseActiveTest}
           onSubmitTest={handleSubmitTest}
+          onPauseAndExit={handlePauseAndExit}
         />
       )}
 

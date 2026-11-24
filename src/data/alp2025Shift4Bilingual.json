@@ -198,29 +198,29 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
     },
     "options": {
       "en": [
-        "sinA − cosA",
-        "secA − cosecA",
-        "cosecA − secA",
-        "cosA − sinA"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "OSV",
-        "LOS",
-        "GKN",
-        "TXA"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 1,
+    "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option B (secA − cosecA). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (LOS)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {

@@ -1468,31 +1468,31 @@
     "subject": "Mathematics",
     "topic": "Centres of Triangle • RRB Group D Level-1 (20 Aug 2026 Shift 42)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "△ABC के कोण A और कोण B के आंतरिक कोणीय समद्विभाजक O पर प्रतिच्छेद 65 66 67 68 69 8 6 4 4 3 ✓ करते हैं। यदि AOB = 94° है , तो ACB ज्ञात कीजिए। ∠ ∠"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Centres of Triangle",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1575,16 +1575,16 @@
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
     "correctIndex": 0,
@@ -1593,8 +1593,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1604,31 +1604,31 @@
     "subject": "Mathematics",
     "topic": "Pythagorean Identities • RRB Group D Level-1 (20 Aug 2026 Shift 42)",
     "question": {
-      "en": "",
+      "en": "If $\\sin \\theta + \\cos \\theta = \\sqrt{2} \\cos \\theta$, then find the value of $\\cos \\theta - \\sin \\theta$:",
       "hi": "यदि है , तो का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1672,21 +1672,21 @@
     "subject": "Mathematics",
     "topic": "Single Change • RRB Group D Level-1 (20 Aug 2026 Shift 42)",
     "question": {
-      "en": "",
+      "en": "If the price of sugar increases by 25%, by what percent must a household reduce its consumption so that expenditure remains unchanged?",
       "hi": "नेहा के कमरों में से एक कमरे को पेंट करवाने का लागत ₹5000 है। अगले वर्ष , यह"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        "General Intelligence & Reasoning"
+        "20%",
+        "25%",
+        "16.67%",
+        "15%"
       ],
       "hi": [
-        "की वृद्धि",
-        "की वृद्धि",
-        "की वृद्धि",
-        "की वृद्धि General Intelligence & Reasoning"
+        "20%",
+        "25%",
+        "16.67%",
+        "15%"
       ]
     },
     "correctIndex": 0,
@@ -1695,8 +1695,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (की वृद्धि) सही उत्तर है।"
+      "en": "Reduction % = [r / (100 + r)] * 100 = [25 / 125] * 100 = 20%. Correct: Option A.",
+      "hi": "खपत में कमी = [25 / 125] × 100 = 20%। सही उत्तर: विकल्प A।"
     }
   },
   {

@@ -2387,25 +2387,25 @@
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "V_L = √3 V_ph",
+        "V_L = V_ph",
+        "V_L = V_ph / √3",
+        "V_L = 3 V_ph"
       ],
       "hi": [
-        "दोगुनी हो जाएगी",
-        "गुनी हो जाएगी",
-        "गुनी हो जाएगी",
-        "आधी हो जाएगी"
+        "V_L = √3 V_ph",
+        "V_L = V_ph",
+        "V_L = V_ph / √3",
+        "V_L = 3 V_ph"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (गुनी हो जाएगी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "In a star (Y) connection, Line Voltage = √3 * Phase Voltage, while Line Current = Phase Current. Correct: Option A.",
+      "hi": "स्टार संयोजन में: Line Voltage = √3 × Phase Voltage। सही उत्तर: विकल्प A।"
     }
   },
   {

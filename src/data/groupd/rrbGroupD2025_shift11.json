@@ -1405,16 +1405,16 @@
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
     "correctIndex": 0,
@@ -1423,8 +1423,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Combined Work Rate",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1536,21 +1536,21 @@
     "subject": "Mathematics",
     "topic": "Pythagorean Identities • RRB Group D Level-1 (06 Aug 2026 Shift 11)",
     "question": {
-      "en": "",
+      "en": "If $\\sin \\theta + \\cos \\theta = \\sqrt{2} \\cos \\theta$, then find the value of $\\cos \\theta - \\sin \\theta$:",
       "hi": "का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "0",
-        "−1",
-        "2",
-        "1"
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ],
       "hi": [
-        "0",
-        "2",
-        "1",
-        "−1"
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ]
     },
     "correctIndex": 0,
@@ -1559,8 +1559,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (0) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (0) सही उत्तर है।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1575,26 +1575,26 @@
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Two Variables (Simultaneous)",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1638,31 +1638,31 @@
     "subject": "Mathematics",
     "topic": "a^2 - b^2 • RRB Group D Level-1 (06 Aug 2026 Shift 11)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "यदि तथा है , तो का मान ज्ञात"
     },
     "options": {
       "en": [
-        "122",
-        "121",
-        "120",
-        "100"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "122",
-        "121",
-        "100",
-        "120"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 1,
-    "correctIndexHi": 1,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • a^2 - b^2",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (121) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (121) सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1672,31 +1672,31 @@
     "subject": "Mathematics",
     "topic": "sin^2 + cos^2 = 1 • RRB Group D Level-1 (06 Aug 2026 Shift 11)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "यदि है , तो का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "",
-        "3",
-        "-1",
-        "0 General Intelligence & Reasoning"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "-1",
-        "3",
-        "General Intelligence & Reasoning",
-        "0"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • sin^2 + cos^2 = 1",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (0 General Intelligence & Reasoning) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (0) सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {

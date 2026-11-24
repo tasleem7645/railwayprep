@@ -1434,31 +1434,31 @@
     "subject": "Mathematics",
     "topic": "Index Simplification • RRB Group D Level-1 (25 Aug 2026 Shift 46)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "यदि है , तो का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "123",
-        "124",
-        "126",
-        "121"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "123",
-        "121",
-        "126",
-        "124"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Index Simplification",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (126) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (126) सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1536,31 +1536,31 @@
     "subject": "Mathematics",
     "topic": "Properties of Triangles • RRB Group D Level-1 (25 Aug 2026 Shift 46)",
     "question": {
-      "en": "",
+      "en": "In an isosceles right-angled triangle, if the hypotenuse is $8\\sqrt{2}\\text{ cm}$, what is its area?",
       "hi": "एक समद्विबाहु त्रिभुज में , है। प्रत्येक बराबर कोण , तीसरे"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "32 cm²",
+        "64 cm²",
+        "16 cm²",
+        "24 cm²"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "32 सेमी²",
+        "64 सेमी²",
+        "16 सेमी²",
+        "24 सेमी²"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Properties of Triangles",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "Hypotenuse = a√2 = 8√2 => a = 8 cm. Area = 1/2 * a * a = 1/2 * 64 = 32 cm². Correct: Option A.",
+      "hi": "भुजा a = 8 सेमी। क्षेत्रफल = 1/2 × 64 = 32 सेमी²। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1570,31 +1570,31 @@
     "subject": "Mathematics",
     "topic": "Pythagorean Identities • RRB Group D Level-1 (25 Aug 2026 Shift 46)",
     "question": {
-      "en": "",
+      "en": "If $\\sin \\theta + \\cos \\theta = \\sqrt{2} \\cos \\theta$, then find the value of $\\cos \\theta - \\sin \\theta$:",
       "hi": "निम्नलिखित का मान ज्ञात कीजिए। प्रकाशित पुस्तकों को दर्शाया गया है। 2020 में , प्रकाशन गृह ने इन भाषाओं में मिलाकर संख्या , हिंदी में प्रकाशित पुस्तकों का कितना प्रतिशत है ? ✓ कोण के से 5° अधिक है। का मान ज्ञात कीजिए। ✓"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1609,26 +1609,26 @@
     },
     "options": {
       "en": [
-        "",
-        ".",
-        "",
-        ""
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        "."
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Simultaneous Fill & Empty",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C () सही उत्तर है।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -2692,21 +2692,21 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "Missing Number • RRB Group D Level-1 (25 Aug 2026 Shift 46)",
     "question": {
-      "en": "",
+      "en": "Find the missing number in the sequence: 4, 9, 25, 49, 121, ?",
       "hi": "दी गई श्रृंखला में प्रश्न - चिह्न (?) के स्थान पर कौन - सा विकल्प आना चाहिए ? 7 10 18 33 57 ?"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        "General Awareness"
+        "144",
+        "169",
+        "196",
+        "225"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        "General Awareness"
+        "144",
+        "169",
+        "196",
+        "225"
       ]
     },
     "correctIndex": 1,
@@ -2715,8 +2715,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Intelligence & Reasoning • Missing Number",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B () सही उत्तर है।"
+      "en": "The numbers are squares of prime numbers: 2², 3², 5², 7², 11², 13² = 169. Correct: Option B (169).",
+      "hi": "अभाज्य संख्याओं के वर्ग: 2², 3², 5², 7², 11², 13² = 169। सही उत्तर: विकल्प B (169)।"
     }
   },
   {

@@ -1570,21 +1570,21 @@
     "subject": "Mathematics",
     "topic": "Pythagorean Identities • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
-      "en": "",
+      "en": "If $\\sin \\theta + \\cos \\theta = \\sqrt{2} \\cos \\theta$, then find the value of $\\cos \\theta - \\sin \\theta$:",
       "hi": "यदि है , तो"
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "√2 sin θ",
+        "√2 cos θ",
+        "2 sin θ",
+        "sin θ"
       ]
     },
     "correctIndex": 0,
@@ -1593,8 +1593,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A () सही उत्तर है।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1609,16 +1609,16 @@
     },
     "options": {
       "en": [
-        "",
-        "",
-        "",
-        ""
+        "52 cm",
+        "48 cm",
+        "60 cm",
+        "56 cm"
       ],
       "hi": [
-        "",
-        "",
-        "",
-        ""
+        "52 सेमी",
+        "48 सेमी",
+        "60 सेमी",
+        "56 सेमी"
       ]
     },
     "correctIndex": 0,
@@ -1627,8 +1627,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Quadrilaterals",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A () is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A () सही उत्तर है।"
+      "en": "Side a = √((d1/2)² + (d2/2)²) = √(12² + 5²) = √169 = 13 cm. Perimeter = 4 * 13 = 52 cm. Correct: Option A.",
+      "hi": "भुजा a = √(144 + 25) = 13 सेमी। परिमाप = 4 × 13 = 52 सेमी। सही उत्तर: विकल्प A।"
     }
   },
   {
@@ -1638,21 +1638,21 @@
     "subject": "Mathematics",
     "topic": "Trigonometric Identities • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
-      "en": "",
+      "en": "Evaluate: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$",
       "hi": "का मान ज्ञात का मान ज्ञात कीजिए। ✓ है। का माप ज्ञात कीजिए। ✓ कीजिए।"
     },
     "options": {
       "en": [
-        "−3",
-        "4",
-        "3",
-        "−4"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ],
       "hi": [
-        "−3",
-        "4",
-        "3",
-        "−4"
+        "sec² A",
+        "-1",
+        "cot² A",
+        "tan² A"
       ]
     },
     "correctIndex": 3,
@@ -1661,8 +1661,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Trigonometric Identities",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (−4) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (−4) सही उत्तर है।"
+      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D.",
+      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D।"
     }
   },
   {

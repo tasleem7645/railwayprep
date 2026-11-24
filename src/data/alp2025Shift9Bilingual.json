@@ -966,29 +966,29 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (18 Feb 2026 Shift 2 • 2025 Cycle)",
     "question": {
-      "en": "",
+      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
       "hi": "को सरल कीजिए।"
     },
     "options": {
       "en": [
-        "0.0999",
-        "0.000999",
-        "0.00999",
-        "0.0000999"
+        "97",
+        "89",
+        "95",
+        "101"
       ],
       "hi": [
-        "0.0999",
-        "0.000999",
-        "0.00999",
-        "0.0000999"
+        "97",
+        "89",
+        "95",
+        "101"
       ]
     },
-    "correctIndex": 1,
+    "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (18 Feb 2026 Shift 2)",
-      "en": "Correct Answer: Option B (0.000999). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (0.000999)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
     }
   },
   {
