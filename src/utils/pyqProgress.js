@@ -2,7 +2,9 @@
  * Persistent PYQ Explorer Progress & Starred Bookmarks Storage
  */
 
-const PROGRESS_KEY = 'railwayprep_pyq_progress_v1';
+import { notifyStudyStateChanged } from './studySyncEvents.js';
+
+export const PROGRESS_KEY = 'railwayprep_pyq_progress_v1';
 
 export function loadPyqProgress() {
   try {
@@ -10,8 +12,8 @@ export function loadPyqProgress() {
     if (raw) {
       const parsed = JSON.parse(raw);
       return {
-        attempts: parsed.attempts || {},
-        bookmarks: parsed.bookmarks || {},
+        attempts: parsed?.attempts && typeof parsed.attempts === 'object' ? parsed.attempts : {},
+        bookmarks: parsed?.bookmarks && typeof parsed.bookmarks === 'object' ? parsed.bookmarks : {},
       };
     }
   } catch {}
@@ -22,15 +24,24 @@ function persistProgress(state) {
   try {
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(state));
   } catch {}
+  notifyStudyStateChanged();
 }
 
-export function savePyqAttempt(uid, pickedOpt, isCorrect) {
+export function savePyqAttempt(uid, pickedOpt, isCorrect, meta = null) {
   const cur = loadPyqProgress();
+  const prevEntry = cur.attempts?.[uid] || {};
   const next = {
     ...cur,
     attempts: {
       ...cur.attempts,
-      [uid]: { pickedOpt, isCorrect: Boolean(isCorrect), updatedAt: Date.now() },
+      [uid]: {
+        pickedOpt,
+        isCorrect: Boolean(isCorrect),
+        updatedAt: Date.now(),
+        ...(meta?.subject ? { subject: meta.subject } : prevEntry.subject ? { subject: prevEntry.subject } : {}),
+        ...(meta?.chapter ? { chapter: meta.chapter } : prevEntry.chapter ? { chapter: prevEntry.chapter } : {}),
+        ...(meta?.topic ? { topic: meta.topic } : prevEntry.topic ? { topic: prevEntry.topic } : {}),
+      },
     },
   };
   persistProgress(next);

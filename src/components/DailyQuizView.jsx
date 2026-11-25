@@ -6,6 +6,8 @@ import {
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { DAILY_QUIZZES } from '../data/dailyQuizzesData';
+import { notifyStudyStateChanged } from '../utils/studySyncEvents';
+import { recordMockTopicStats } from '../utils/topicPerformance';
 
 export default function DailyQuizView({ onOpenPassPro, onOpenMistakes, onRecordStudy, studyStreak = null }) {
   const [activeTab, setActiveTab] = useState('today'); // 'today' | 'archive' | 'leaderboard'
@@ -395,18 +397,23 @@ function RapidQuizRunnerModal({ quiz, onClose, onFinishQuiz, onOpenMistakes }) {
     questions.forEach(q => {
       const userAns = answers[q.id];
       if (userAns !== undefined) {
-        if (userAns === q.correctIndex) {
+        const isCorrect =
+          userAns === q.correctIndex ||
+          (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+        if (isCorrect) {
           correct++;
         } else {
           wrong++;
           wrongList.push({
             id: `quiz_${q.id}_${Date.now()}`,
             shiftQuestionNo: q.shiftQuestionNo || q.id,
-            subject: quiz.subject,
-            topic: 'Daily Rapid Quiz',
+            subject: q.subject || quiz.subject,
+            topic: q.topic || quiz.title || 'Daily Rapid Quiz',
             question: q.question,
             options: q.options,
+            ...(q.image ? { image: q.image } : {}),
             correctIndex: q.correctIndex,
+            ...(q.correctIndexHi !== undefined ? { correctIndexHi: q.correctIndexHi } : {}),
             userAnswerIndex: userAns,
             solution: q.solution
           });
@@ -418,15 +425,29 @@ function RapidQuizRunnerModal({ quiz, onClose, onFinishQuiz, onOpenMistakes }) {
       onFinishQuiz(correct, questions.length);
     }
 
+    // Track per-topic accuracy in local analytics radar
+    recordMockTopicStats(
+      questions.map((q) => ({
+        ...q,
+        subject: q.subject || quiz.subject,
+        topic: q.topic || quiz.title || 'Daily Rapid Quiz',
+      })),
+      answers
+    );
+
     // Auto-save wrong questions to Mistake Notebook
     if (wrongList.length > 0) {
       try {
-        const stored = JSON.parse(localStorage.getItem('railwayprep_mistake_notebook') || '[]');
+        const parsed = JSON.parse(localStorage.getItem('railwayprep_mistake_notebook') || '[]');
+        const stored = Array.isArray(parsed) ? parsed : [];
         const existingIds = new Set(stored.map(m => m.shiftQuestionNo));
         const toAdd = wrongList.filter(w => !existingIds.has(w.shiftQuestionNo));
-        localStorage.setItem('railwayprep_mistake_notebook', JSON.stringify([...stored, ...toAdd]));
+        if (toAdd.length > 0) {
+          localStorage.setItem('railwayprep_mistake_notebook', JSON.stringify([...stored, ...toAdd]));
+        }
       } catch (e) {}
     }
+    notifyStudyStateChanged();
 
     try {
       confetti({

@@ -9,13 +9,20 @@ import {
   normalizeMistakeCategory,
   buildMistakeReTest,
 } from '../utils/mistakeTestBuilder';
+import { notifyStudyStateChanged } from '../utils/studySyncEvents';
 
-export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
+export default function MistakeNotebookModal({ onClose, onStartCustomTest, initialSubject = 'all' }) {
   const [mistakes, setMistakes] = useState([]);
-  const [selectedSubject, setSelectedSubject] = useState('all');
+  const [selectedSubject, setSelectedSubject] = useState(initialSubject || 'all');
   const [activeQuestion, setActiveQuestion] = useState(null);
   const [reattemptChoice, setReattemptChoice] = useState({});
   const [lang, setLang] = useState('hi');
+
+  useEffect(() => {
+    if (initialSubject) {
+      setSelectedSubject(initialSubject);
+    }
+  }, [initialSubject]);
 
   useEffect(() => {
     try {
@@ -90,6 +97,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
     setMistakes(updated);
     try {
       localStorage.setItem('railwayprep_mistake_notebook', JSON.stringify(updated));
+      notifyStudyStateChanged();
     } catch (e) {}
   };
 
@@ -98,6 +106,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
       setMistakes([]);
       try {
         localStorage.removeItem('railwayprep_mistake_notebook');
+        notifyStudyStateChanged();
       } catch (e) {}
     }
   };

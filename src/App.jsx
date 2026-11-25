@@ -13,7 +13,10 @@ import { RAILWAY_TESTS } from './data/mockTestData';
 import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
 import { hydrateTest } from './data/testQuestionLoader';
 import { getStudyStreak, recordStudyActivity } from './utils/studyStreak';
-import { isEphemeralQuizId } from './utils/mistakeTestBuilder';
+import { isEphemeralQuizId, normalizeMistakeCategory } from './utils/mistakeTestBuilder';
+import { STUDY_SYNC_EVENT } from './utils/studySyncEvents';
+import { recordMockTopicStats } from './utils/topicPerformance';
+import { syncStudyStateOnLogin, pushStudyStateToCloud } from './utils/cloudStudySync';
 import { lazyWithRetry, forceFreshReload, isChunkLoadError, triggerOneTimeChunkReload } from './utils/chunkRecovery';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
@@ -202,6 +205,9 @@ export default function App() {
   const [savedSession, setSavedSession] = useState(null);
   const [pendingRefCode, setPendingRefCode] = useState('');
   const [studyStreak, setStudyStreak] = useState(() => getStudyStreak());
+  const [cloudSyncState, setCloudSyncState] = useState({ status: 'idle', syncedAt: null });
+  const [reopeningAttemptId, setReopeningAttemptId] = useState(null);
+  const [mistakeInitialSubject, setMistakeInitialSubject] = useState('all');
 
   const isPaidPro = Boolean(hasPassPro && profile?.pass_pro_plan === 'paid');
 
@@ -288,6 +294,16 @@ export default function App() {
         localStorage.setItem('railwayprep_active_test_session', JSON.stringify(cloudSess.session_data));
         setSavedSession(cloudSess.session_data);
       }
+
+      // Bidirectional Cloud Sync for Mistakes, PYQ Progress, Streaks & Topic Stats
+      setCloudSyncState((prev) => ({ ...prev, status: 'syncing' }));
+      const synced = await syncStudyStateOnLogin(userId);
+      if (synced) {
+        setStudyStreak(getStudyStreak());
+        setCloudSyncState({ status: 'synced', syncedAt: synced.syncedAt });
+      } else {
+        setCloudSyncState((prev) => ({ ...prev, status: 'ready' }));
+      }
     } catch (e) {
       console.warn('Profile sync notice:', e);
     }
@@ -309,11 +325,35 @@ export default function App() {
       } else {
         setProfile(null);
         setHasPassPro(false);
+        setCloudSyncState({ status: 'idle', syncedAt: null });
       }
     });
 
     return () => subscription.unsubscribe();
   }, []);
+
+  // Auto-push Mistake Notebook, PYQ Progress, Streaks & Topic Stats to Cloud on change
+  useEffect(() => {
+    const userId = session?.user?.id;
+    if (!userId) return undefined;
+    let timer = null;
+    const handleStudyChange = () => {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(async () => {
+        setCloudSyncState((prev) => ({ ...prev, status: 'syncing' }));
+        const ok = await pushStudyStateToCloud(userId);
+        setCloudSyncState((prev) => ({
+          status: ok ? 'synced' : 'error',
+          syncedAt: ok ? Date.now() : prev.syncedAt,
+        }));
+      }, 900);
+    };
+    window.addEventListener(STUDY_SYNC_EVENT, handleStudyChange);
+    return () => {
+      if (timer) clearTimeout(timer);
+      window.removeEventListener(STUDY_SYNC_EVENT, handleStudyChange);
+    };
+  }, [session?.user?.id]);
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
@@ -555,6 +595,9 @@ export default function App() {
     // Record daily consecutive study streak locally for both guests and logged-in students
     setStudyStreak(recordStudyActivity({ questionsCount: test.questions.length, accuracy }));
 
+    // Record per-topic accuracy for Smart Weak-Topic Radar & Cloud Sync
+    recordMockTopicStats(test.questions, answers);
+
     // Sync test attempt to Supabase Cloud if logged in
     if (session?.user?.id) {
       try {
@@ -601,6 +644,54 @@ export default function App() {
       alert('Test reload karne mein problem aayi.');
     } finally {
       setLoadingTestId(null);
+    }
+  };
+
+  const handleReopenAttempt = async (attempt) => {
+    if (!attempt?.test_id || reopeningAttemptId) return;
+    const baseTest = RAILWAY_TESTS.find((t) => t.id === attempt.test_id);
+    if (!baseTest) {
+      alert('Is attempt ka question paper catalog mein available nahi hai.');
+      return;
+    }
+    setReopeningAttemptId(attempt.id);
+    try {
+      const hydrated = await hydrateTest(baseTest);
+      setIsDashboardOpen(false);
+      setTestResult({
+        test: hydrated,
+        answers: attempt.answers_json || {},
+        timeTakenSeconds: attempt.time_taken_seconds || 0,
+        attemptSyncedAt: attempt.created_at ? new Date(attempt.created_at).getTime() : Date.now(),
+        isHistoricalReview: true,
+      });
+    } catch (err) {
+      console.error('Failed to reopen historical attempt:', err);
+      alert('Purane test ka solution load karne mein samasya aayi. Dobara try karein.');
+    } finally {
+      setReopeningAttemptId(null);
+    }
+  };
+
+  const handleLaunchWeakTopicDrill = (weakItem) => {
+    setIsDashboardOpen(false);
+    const category = normalizeMistakeCategory(weakItem?.subject || '');
+    let matchingMistakes = [];
+    try {
+      const parsed = JSON.parse(localStorage.getItem('railwayprep_mistake_notebook') || '[]');
+      const realMistakes = Array.isArray(parsed)
+        ? parsed.filter((m) => m && !String(m.id || '').startsWith('sample_'))
+        : [];
+      matchingMistakes = realMistakes.filter(
+        (m) => normalizeMistakeCategory(m.subject) === category
+      );
+    } catch (e) {}
+
+    if (matchingMistakes.length > 0) {
+      setMistakeInitialSubject(category);
+      setIsMistakeModalOpen(true);
+    } else {
+      setActiveTab('pyq-explorer');
     }
   };
 
@@ -1178,9 +1269,14 @@ export default function App() {
         {/* Mistake Notebook Modal */}
         {isMistakeModalOpen && (
           <MistakeNotebookModal 
-            onClose={() => setIsMistakeModalOpen(false)} 
+            initialSubject={mistakeInitialSubject}
+            onClose={() => {
+              setIsMistakeModalOpen(false);
+              setMistakeInitialSubject('all');
+            }} 
             onStartCustomTest={(customQuiz) => {
               setIsMistakeModalOpen(false);
+              setMistakeInitialSubject('all');
               setSavedSession(null);
               setActiveTest(customQuiz);
             }}
@@ -1219,6 +1315,14 @@ export default function App() {
             profile={profile}
             hasPassPro={hasPassPro}
             studyStreak={studyStreak}
+            cloudSyncState={cloudSyncState}
+            onCloudSyncUpdated={(nextState) => {
+              setCloudSyncState(nextState);
+              setStudyStreak(getStudyStreak());
+            }}
+            onReopenAttempt={handleReopenAttempt}
+            reopeningAttemptId={reopeningAttemptId}
+            onLaunchWeakTopicDrill={handleLaunchWeakTopicDrill}
             onClose={() => setIsDashboardOpen(false)}
             onLogout={handleLogout}
             onOpenPassPro={() => setIsPassProOpen(true)}

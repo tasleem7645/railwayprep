@@ -1,11 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   X, User, Crown, LogOut, Trophy, Clock, CheckCircle2, XCircle,
   ShieldCheck, RefreshCw, Sparkles, Calendar, AlertCircle,
-  Copy, Check, Share2, Send, Gift, Users, Flame, Flag, Trash2
+  Copy, Check, Share2, Send, Gift, Users, Flame, Flag, Trash2,
+  BarChart3, Target, Cloud, TrendingUp, Eye, Zap
 } from 'lucide-react';
 import { supabase, isUserAdmin } from '../lib/supabaseClient';
 import { STREAK_BADGES, getStudyStreak } from '../utils/studyStreak';
+import { RAILWAY_TESTS } from '../data/mockTestData';
+import { analyzeWeakTopics, readTopicStats } from '../utils/topicPerformance';
+import { loadPyqProgress } from '../utils/pyqProgress';
+import { pushStudyStateToCloud, getLocalCloudPayload } from '../utils/cloudStudySync';
+
+const OFFICIAL_TEST_IDS = new Set(RAILWAY_TESTS.map((t) => t.id));
 
 const maskEmail = (email) => {
   if (!email || !email.includes('@')) return 'aspirant@***';
@@ -19,6 +26,11 @@ export default function UserDashboardModal({
   profile,
   hasPassPro,
   studyStreak = null,
+  cloudSyncState = null,
+  onCloudSyncUpdated,
+  onReopenAttempt,
+  reopeningAttemptId = null,
+  onLaunchWeakTopicDrill,
   onClose,
   onLogout,
   onOpenPassPro,
@@ -26,9 +38,24 @@ export default function UserDashboardModal({
 }) {
   const streakInfo = studyStreak || getStudyStreak();
   const isAdmin = isUserAdmin(user);
-  const [activeTab, setActiveTab] = useState('profile'); // 'profile' | 'history' | 'admin'
+  const [activeTab, setActiveTab] = useState('profile'); // 'profile' | 'analytics' | 'history' | 'admin'
   const [attempts, setAttempts] = useState([]);
   const [loadingHistory, setLoadingHistory] = useState(false);
+  const [syncingCloudNow, setSyncingCloudNow] = useState(false);
+
+  const analyticsReport = useMemo(() => {
+    let mistakes = [];
+    try {
+      const parsed = JSON.parse(localStorage.getItem('railwayprep_mistake_notebook') || '[]');
+      mistakes = Array.isArray(parsed) ? parsed : [];
+    } catch (e) {}
+    return analyzeWeakTopics({
+      topicStats: readTopicStats(),
+      mistakes,
+      pyqProgress: loadPyqProgress(),
+      testAttempts: attempts,
+    });
+  }, [attempts, activeTab, cloudSyncState?.syncedAt]);
 
   // Referral link & friends list state
   const [copiedLink, setCopiedLink] = useState(false);
@@ -49,7 +76,7 @@ export default function UserDashboardModal({
     if (activeTab === 'profile' && user?.id) {
       fetchMyReferrals();
     }
-    if (activeTab === 'history' && user?.id) {
+    if ((activeTab === 'history' || activeTab === 'analytics') && user?.id) {
       fetchTestHistory();
     }
     if (activeTab === 'admin' && isAdmin) {
@@ -57,6 +84,19 @@ export default function UserDashboardModal({
       fetchAdminReports();
     }
   }, [activeTab, user?.id, isAdmin]);
+
+  const handleManualCloudSync = async () => {
+    if (!user?.id || syncingCloudNow) return;
+    setSyncingCloudNow(true);
+    try {
+      const ok = await pushStudyStateToCloud(user.id);
+      if (onCloudSyncUpdated) {
+        onCloudSyncUpdated({ status: ok ? 'synced' : 'error', syncedAt: ok ? Date.now() : cloudSyncState?.syncedAt || null });
+      }
+    } finally {
+      setSyncingCloudNow(false);
+    }
+  };
 
   const fetchMyReferrals = async () => {
     setLoadingReferrals(true);
@@ -240,6 +280,17 @@ export default function UserDashboardModal({
           >
             <User className="w-3.5 h-3.5" />
             <span>My Account</span>
+          </button>
+          <button
+            onClick={() => setActiveTab('analytics')}
+            className={`px-3.5 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 cursor-pointer whitespace-nowrap ${
+              activeTab === 'analytics'
+                ? 'bg-gradient-to-r from-indigo-500 to-teal-400 text-slate-950 shadow-sm'
+                : 'bg-slate-900 text-slate-300 border border-slate-800 hover:text-white'
+            }`}
+          >
+            <BarChart3 className="w-3.5 h-3.5" />
+            <span>Weak Topic Radar</span>
           </button>
           <button
             onClick={() => setActiveTab('history')}
@@ -476,6 +527,63 @@ export default function UserDashboardModal({
                 )}
               </div>
 
+              {/* Multi-Device Cloud Study Sync Card */}
+              {(() => {
+                const payload = getLocalCloudPayload();
+                const realMistakesCount = (payload.mistakes_json || []).filter(
+                  (m) => m && !String(m.id || '').startsWith('sample_')
+                ).length;
+                const pyqSolvedCount = Object.keys(payload.pyq_progress_json?.attempts || {}).length;
+                const pyqSavedCount = Object.keys(payload.pyq_progress_json?.bookmarks || {}).length;
+                const topicsCount = Object.keys(payload.streak_json?.topicStats || {}).length;
+                const syncStatus = cloudSyncState?.status || 'ready';
+                const syncedTimeText = cloudSyncState?.syncedAt
+                  ? new Date(cloudSyncState.syncedAt).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' })
+                  : null;
+
+                return (
+                  <div className="p-4 rounded-2xl bg-slate-900/70 border border-sky-500/30 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div className="space-y-1">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <Cloud className="w-4 h-4 text-sky-400" />
+                        <span className="text-xs font-black text-white uppercase tracking-wide">
+                          Multi-Device Cloud Study Sync
+                        </span>
+                        <span
+                          className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
+                            syncStatus === 'syncing'
+                              ? 'bg-amber-500/20 text-amber-300'
+                              : syncStatus === 'error'
+                              ? 'bg-rose-500/20 text-rose-300'
+                              : 'bg-emerald-500/20 text-emerald-300'
+                          }`}
+                        >
+                          {syncStatus === 'syncing'
+                            ? 'Syncing...'
+                            : syncStatus === 'error'
+                            ? 'Offline / Pending'
+                            : syncedTimeText
+                            ? `Synced ✓ ${syncedTimeText}`
+                            : 'Cloud Ready'}
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-slate-400">
+                        Mistakes ({realMistakesCount}) • PYQs ({pyqSolvedCount} solved, {pyqSavedCount} ★) • Topics ({topicsCount}) • Streak ({streakInfo.activeStreak}d) kisi bhi phone/laptop par login karte hi auto-sync honge.
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={handleManualCloudSync}
+                      disabled={syncingCloudNow}
+                      className="px-3.5 py-2 rounded-xl bg-sky-500/15 hover:bg-sky-500/25 text-sky-300 border border-sky-500/35 text-xs font-bold flex items-center justify-center gap-1.5 cursor-pointer shrink-0 disabled:opacity-60"
+                    >
+                      <RefreshCw className={`w-3.5 h-3.5 ${syncingCloudNow ? 'animate-spin' : ''}`} />
+                      <span>{syncingCloudNow ? 'Syncing...' : 'Sync Now'}</span>
+                    </button>
+                  </div>
+                );
+              })()}
+
               <div className="pt-3 border-t border-slate-800 flex justify-end">
                 <button
                   onClick={onLogout}
@@ -485,6 +593,207 @@ export default function UserDashboardModal({
                   <span>Logout</span>
                 </button>
               </div>
+            </div>
+          )}
+
+          {/* ANALYTICS & WEAK TOPIC RADAR TAB */}
+          {activeTab === 'analytics' && (
+            <div className="space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div>
+                  <h3 className="text-sm font-black text-white flex items-center gap-2">
+                    <Target className="w-4 h-4 text-teal-400" />
+                    <span>Smart Weak-Topic Radar & Performance Analytics</span>
+                  </h3>
+                  <p className="text-[11px] text-slate-400 mt-0.5">
+                    Mock Tests + PYQ Explorer + गलती डायरी se automatic kamzor topics ki pehchan
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={fetchTestHistory}
+                  className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-[11px] font-bold text-slate-300 hover:text-white flex items-center gap-1.5 cursor-pointer"
+                >
+                  <RefreshCw className={`w-3 h-3 ${loadingHistory ? 'animate-spin' : ''}`} />
+                  <span>Refresh Radar</span>
+                </button>
+              </div>
+
+              {/* Top KPI Summary Cards */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                <div className="p-3.5 rounded-2xl bg-slate-900/70 border border-slate-800">
+                  <div className="text-[11px] text-slate-400 font-semibold">Mocks Attempted</div>
+                  <div className="text-lg font-black text-white mt-0.5">{analyticsReport.summary.totalMocks}</div>
+                </div>
+                <div className="p-3.5 rounded-2xl bg-slate-900/70 border border-slate-800">
+                  <div className="text-[11px] text-slate-400 font-semibold">Avg Accuracy</div>
+                  <div className="text-lg font-black text-teal-300 mt-0.5">{analyticsReport.summary.avgAccuracy}%</div>
+                </div>
+                <div className="p-3.5 rounded-2xl bg-slate-900/70 border border-slate-800">
+                  <div className="text-[11px] text-slate-400 font-semibold">Best Mock Score</div>
+                  <div className="text-lg font-black text-amber-300 mt-0.5">{analyticsReport.summary.bestScoreText}</div>
+                </div>
+                <div className="p-3.5 rounded-2xl bg-slate-900/70 border border-slate-800">
+                  <div className="text-[11px] text-slate-400 font-semibold">PYQs / Mistakes</div>
+                  <div className="text-lg font-black text-sky-300 mt-0.5">
+                    {analyticsReport.summary.pyqsPracticed}{' '}
+                    <span className="text-xs font-bold text-rose-300">/ {analyticsReport.summary.activeMistakesCount} ✗</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Last 6 Mock Tests Accuracy Trend */}
+              {analyticsReport.recentTrend.length > 0 && (
+                <div className="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <div className="text-xs font-black text-white flex items-center gap-1.5">
+                      <TrendingUp className="w-4 h-4 text-emerald-400" />
+                      <span>Recent Mock Tests Accuracy Trend</span>
+                    </div>
+                    <span className="text-[10px] text-slate-400">Last {analyticsReport.recentTrend.length} attempts</span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2.5 items-end pt-1">
+                    {analyticsReport.recentTrend.map((t) => {
+                      const barColor =
+                        t.accuracy >= 75 ? 'bg-emerald-500' : t.accuracy >= 50 ? 'bg-amber-500' : 'bg-rose-500';
+                      return (
+                        <div key={t.id} className="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800/80 space-y-1.5">
+                          <div className="flex items-center justify-between text-[11px] font-black">
+                            <span className="text-white">{t.accuracy}%</span>
+                            <span className="text-[10px] text-slate-400 font-semibold">{t.score}/{t.totalMarks}</span>
+                          </div>
+                          <div className="h-2 w-full rounded-full bg-slate-800 overflow-hidden">
+                            <div
+                              className={`h-full rounded-full ${barColor}`}
+                              style={{ width: `${Math.max(8, Math.min(100, t.accuracy))}%` }}
+                            />
+                          </div>
+                          <div className="text-[10px] text-slate-400 truncate" title={t.label}>{t.label}</div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Subject-Wise Mastery Breakdown */}
+              {analyticsReport.subjectStats.length > 0 && (
+                <div className="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-3">
+                  <div className="text-xs font-black text-white">Subject-Wise Mastery Breakdown</div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    {analyticsReport.subjectStats.map((s) => {
+                      const badgeCls =
+                        s.status === 'strong'
+                          ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
+                          : s.status === 'average'
+                          ? 'bg-amber-500/20 text-amber-300 border-amber-500/30'
+                          : 'bg-rose-500/20 text-rose-300 border-rose-500/30';
+                      const barCls =
+                        s.status === 'strong'
+                          ? 'bg-emerald-500'
+                          : s.status === 'average'
+                          ? 'bg-amber-500'
+                          : 'bg-rose-500';
+                      return (
+                        <div key={s.subject} className="p-3 rounded-xl bg-slate-950/70 border border-slate-800/80 space-y-2">
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="text-xs font-bold text-white truncate">{s.subject}</span>
+                            <span className={`px-2 py-0.5 rounded-full text-[10px] font-black border uppercase ${badgeCls}`}>
+                              {s.total > 0 ? `${s.accuracy}% (${s.status})` : `${s.mistakeBacklog} Mistakes`}
+                            </span>
+                          </div>
+                          <div className="h-2 w-full rounded-full bg-slate-800 overflow-hidden">
+                            <div
+                              className={`h-full rounded-full ${barCls}`}
+                              style={{ width: `${s.total > 0 ? Math.max(8, s.accuracy) : 15}%` }}
+                            />
+                          </div>
+                          <div className="flex items-center justify-between text-[10px] text-slate-400">
+                            <span>✓ {s.correct} Right • ✗ {s.wrong} Wrong</span>
+                            {s.mistakeBacklog > 0 && (
+                              <span className="text-rose-300 font-semibold">{s.mistakeBacklog} in डायरी</span>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Actionable Weak Topics Radar */}
+              {analyticsReport.weakTopics.length > 0 ? (
+                <div className="p-4 rounded-2xl bg-gradient-to-br from-rose-950/30 via-slate-900 to-slate-900 border border-rose-500/30 space-y-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <AlertCircle className="w-4 h-4 text-rose-400" />
+                      <span className="text-xs font-black text-white uppercase tracking-wide">
+                        Priority Weak Topics ({analyticsReport.weakTopics.length}) — Turant Sudharein
+                      </span>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    {analyticsReport.weakTopics.map((w) => (
+                      <div
+                        key={`${w.subject}-${w.topic}`}
+                        className="p-3 rounded-xl bg-slate-950/75 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3"
+                      >
+                        <div className="min-w-0 space-y-1">
+                          <div className="flex flex-wrap items-center gap-2">
+                            <span className="px-2 py-0.5 rounded bg-rose-500/20 text-rose-300 text-[10px] font-bold">
+                              {w.subject}
+                            </span>
+                            <span className="text-xs font-bold text-white truncate">{w.topic}</span>
+                          </div>
+                          <div className="text-[11px] text-slate-400">
+                            Accuracy: <b className="text-rose-300">{w.accuracy}%</b>
+                            {w.total > 0 && ` (${w.correct}/${w.total} right)`}
+                            {w.mistakeCount > 0 && ` • ${w.mistakeCount} saved mistakes`}
+                          </div>
+                        </div>
+                        {onLaunchWeakTopicDrill && (
+                          <button
+                            type="button"
+                            onClick={() => onLaunchWeakTopicDrill(w)}
+                            className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-400 hover:to-emerald-400 text-slate-950 text-[11px] font-black flex items-center justify-center gap-1.5 cursor-pointer shrink-0 shadow-md"
+                          >
+                            <Zap className="w-3.5 h-3.5" />
+                            <span>Practice Weak Topic</span>
+                          </button>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <div className="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 text-center space-y-2">
+                  <Target className="w-7 h-7 text-teal-400 mx-auto opacity-80" />
+                  <div className="text-xs font-bold text-white">Weak-Topic Radar Taiyar Ho Raha Hai</div>
+                  <p className="text-[11px] text-slate-400 max-w-md mx-auto">
+                    Jaise hi aap 1 Mock Test ya 5-10 PYQs solve karenge, aapke kamzor chapters aur subject accuracy bars yahan automatically dikhne lagenge.
+                  </p>
+                </div>
+              )}
+
+              {/* Strong Topics Badges */}
+              {analyticsReport.strongTopics.length > 0 && (
+                <div className="p-4 rounded-2xl bg-slate-900/70 border border-emerald-500/25 space-y-2.5">
+                  <div className="text-xs font-black text-emerald-300 flex items-center gap-1.5">
+                    <CheckCircle2 className="w-4 h-4" />
+                    <span>Strong Topics Mastery (75%+ Accuracy)</span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {analyticsReport.strongTopics.map((st) => (
+                      <div
+                        key={`${st.subject}-${st.topic}`}
+                        className="px-3 py-1.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-[11px] text-emerald-200 font-bold"
+                      >
+                        {st.topic} <span className="text-emerald-400 ml-1">({st.accuracy}%)</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
@@ -509,24 +818,43 @@ export default function UserDashboardModal({
                 </div>
               ) : (
                 <div className="space-y-2.5">
-                  {attempts.map((a) => (
-                    <div key={a.id} className="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                      <div>
-                        <div className="text-xs font-bold text-white">{a.test_title}</div>
-                        <div className="text-[11px] text-slate-400 mt-0.5">
-                          {new Date(a.created_at).toLocaleString('en-IN')} • Accuracy: <b className="text-teal-300">{a.accuracy}%</b>
+                  {attempts.map((a) => {
+                    const canReopen = Boolean(onReopenAttempt && OFFICIAL_TEST_IDS.has(a.test_id) && a.answers_json);
+                    const isOpeningThis = reopeningAttemptId === a.id;
+                    return (
+                      <div key={a.id} className="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                        <div className="min-w-0">
+                          <div className="text-xs font-bold text-white truncate">{a.test_title}</div>
+                          <div className="text-[11px] text-slate-400 mt-0.5">
+                            {new Date(a.created_at).toLocaleString('en-IN')} • Accuracy: <b className="text-teal-300">{a.accuracy}%</b>
+                          </div>
+                        </div>
+                        <div className="flex flex-wrap items-center gap-2.5 text-xs shrink-0">
+                          <div className="px-3 py-1 rounded-lg bg-emerald-500/15 text-emerald-300 font-bold border border-emerald-500/30">
+                            Score: {a.score} / {a.total_marks}
+                          </div>
+                          <div className="text-[11px] text-slate-400">
+                            ✓{a.correct_count} • ✗{a.wrong_count}
+                          </div>
+                          {canReopen && (
+                            <button
+                              type="button"
+                              onClick={() => onReopenAttempt(a)}
+                              disabled={Boolean(reopeningAttemptId)}
+                              className="px-3 py-1.5 rounded-xl bg-teal-500/15 hover:bg-teal-500/25 text-teal-300 border border-teal-500/35 text-[11px] font-bold flex items-center gap-1.5 cursor-pointer disabled:opacity-60 transition-colors"
+                            >
+                              {isOpeningThis ? (
+                                <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                              ) : (
+                                <Eye className="w-3.5 h-3.5" />
+                              )}
+                              <span>{isOpeningThis ? 'Loading...' : 'View Solutions & Rank'}</span>
+                            </button>
+                          )}
                         </div>
                       </div>
-                      <div className="flex items-center gap-3 text-xs shrink-0">
-                        <div className="px-3 py-1 rounded-lg bg-emerald-500/15 text-emerald-300 font-bold border border-emerald-500/30">
-                          Score: {a.score} / {a.total_marks}
-                        </div>
-                        <div className="text-[11px] text-slate-400">
-                          ✓{a.correct_count} • ✗{a.wrong_count}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               )}
             </div>

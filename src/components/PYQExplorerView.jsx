@@ -328,7 +328,11 @@ export default function PYQExplorerView({
 
   const handlePickOption = (q, optIdx) => {
     const correctIdx = getPyqCorrectIndex(q, lang);
-    const updated = savePyqAttempt(q._uid, optIdx, optIdx === correctIdx);
+    const updated = savePyqAttempt(q._uid, optIdx, optIdx === correctIdx, {
+      subject: q._subject,
+      chapter: q._chapter,
+      topic: q._topic,
+    });
     setProgress(updated);
   };
 

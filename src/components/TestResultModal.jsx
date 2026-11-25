@@ -16,6 +16,7 @@ import ReportQuestionModal from './ReportQuestionModal';
 import { getCutoffBenchmark, evaluateCutoffStatus } from '../utils/cutoffCalculator';
 import { renderPrintableShiftWindow } from '../utils/shiftPdfGenerator';
 import { supabase } from '../lib/supabaseClient';
+import { notifyStudyStateChanged } from '../utils/studySyncEvents';
 
 export default function TestResultModal({
   result,
@@ -29,7 +30,7 @@ export default function TestResultModal({
   onOpenAuth,
   hideAds = false,
 }) {
-  const { test, answers, timeTakenSeconds, attemptSyncedAt } = result;
+  const { test, answers, timeTakenSeconds, attemptSyncedAt, isHistoricalReview = false } = result;
   
   // Tabs: 'overview' | 'leaderboard' | 'solutions'
   const [activeTab, setActiveTab] = useState('overview');
@@ -51,8 +52,9 @@ export default function TestResultModal({
   const [reviewLang, setReviewLang] = useState('hi');
   const [reportTarget, setReportTarget] = useState(null);
 
-  // Trigger celebration confetti
+  // Trigger celebration confetti for fresh submissions only
   useEffect(() => {
+    if (isHistoricalReview) return;
     try {
       confetti({
         particleCount: 80,
@@ -60,10 +62,11 @@ export default function TestResultModal({
         origin: { y: 0.6 }
       });
     } catch (e) {}
-  }, []);
+  }, [isHistoricalReview]);
 
-  // Auto-save incorrect questions to Mistake Notebook
+  // Auto-save incorrect questions to Mistake Notebook (skip when reviewing past history)
   useEffect(() => {
+    if (isHistoricalReview) return;
     try {
       const wrongQuestions = test.questions
         .filter((q) => {
@@ -89,17 +92,19 @@ export default function TestResultModal({
         }));
 
       if (wrongQuestions.length > 0) {
-        const existing = JSON.parse(localStorage.getItem('railwayprep_mistake_notebook') || '[]');
+        const parsed = JSON.parse(localStorage.getItem('railwayprep_mistake_notebook') || '[]');
+        const existing = Array.isArray(parsed) ? parsed : [];
         const existingIds = new Set(existing.map((m) => m.id));
         const toAdd = wrongQuestions.filter((w) => !existingIds.has(w.id));
         if (toAdd.length > 0) {
           localStorage.setItem('railwayprep_mistake_notebook', JSON.stringify([...existing, ...toAdd]));
+          notifyStudyStateChanged();
         }
       }
     } catch (e) {
       console.error(e);
     }
-  }, [test, answers]);
+  }, [test, answers, isHistoricalReview]);
 
   // Compute test metrics
   let correctCount = 0;
@@ -190,7 +195,9 @@ export default function TestResultModal({
   // Filter questions for the solutions review list
   const filteredQuestions = test.questions.filter((q) => {
     const userAns = answers[q.id];
-    const isCorrect = userAns === q.correctIndex;
+    const isCorrect =
+      userAns === q.correctIndex ||
+      (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
     const isAttempted = userAns !== undefined;
 
     if (selectedSection !== 'All' && q.section !== selectedSection) {
@@ -216,9 +223,13 @@ export default function TestResultModal({
               <Trophy className="w-7 h-7 font-black" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded bg-teal-500/20 text-teal-300 font-extrabold text-[11px]">
-                  TEST COMPLETED
+              <div className="flex flex-wrap items-center gap-2">
+                <span className={`px-2 py-0.5 rounded font-extrabold text-[11px] ${
+                  isHistoricalReview
+                    ? 'bg-sky-500/20 text-sky-300 border border-sky-500/30'
+                    : 'bg-teal-500/20 text-teal-300'
+                }`}>
+                  {isHistoricalReview ? 'SAVED ATTEMPT REVIEW' : 'TEST COMPLETED'}
                 </span>
                 <span className="text-xs text-slate-400">{test.shiftDate || 'Official Paper'}</span>
               </div>

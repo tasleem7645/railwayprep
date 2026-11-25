@@ -3,6 +3,8 @@
  * Uses local calendar dates (YYYY-MM-DD) so streaks stay genuine across Mock Tests & Daily Quizzes.
  */
 
+import { notifyStudyStateChanged } from './studySyncEvents.js';
+
 const STREAK_STORAGE_KEY = 'railwayprep_study_streak_v1';
 
 export const STREAK_BADGES = [
@@ -93,6 +95,7 @@ export function recordStudyActivity({ questionsCount = 0, accuracy = 0 } = {}) {
   try {
     localStorage.setItem(STREAK_STORAGE_KEY, JSON.stringify(nextData));
   } catch {}
+  notifyStudyStateChanged();
 
   return getStudyStreak();
 }
