@@ -842,7 +842,10 @@ export default function UserDashboardModal({
               ) : (
                 <div className="space-y-2.5">
                   {attempts.map((a) => {
-                    const canReopen = Boolean(onReopenAttempt && OFFICIAL_TEST_IDS.has(a.test_id) && a.answers_json);
+                    const isOfficialOrMega =
+                      OFFICIAL_TEST_IDS.has(a.test_id) ||
+                      String(a.test_id || '').startsWith('live_mega_');
+                    const canReopen = Boolean(onReopenAttempt && isOfficialOrMega && a.answers_json);
                     const isOpeningThis = reopeningAttemptId === a.id;
                     return (
                       <div key={a.id} className="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">

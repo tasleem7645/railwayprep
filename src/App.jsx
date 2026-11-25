@@ -7,6 +7,7 @@ import AdBanner from './components/AdBanner';
 import TestCard from './components/TestCard';
 import HomeShowcaseSections from './components/HomeShowcaseSections';
 import MobileBottomNav from './components/MobileBottomNav';
+import LiveMegaBanner from './components/LiveMegaBanner';
 import { supabase } from './lib/supabaseClient';
 import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
@@ -20,6 +21,7 @@ import { syncStudyStateOnLogin, pushStudyStateToCloud } from './utils/cloudStudy
 import { saveTestSpeedProfile, getTestSpeedProfile } from './utils/speedAnalytics';
 import { buildWeakTopicMiniTest } from './utils/weakTopicQuizBuilder';
 import { applySrsBatchFromReTest } from './utils/mistakeSpacedRepetition';
+import { saveLiveMegaAttemptLocal } from './utils/liveMegaMock';
 import { lazyWithRetry, forceFreshReload, isChunkLoadError, triggerOneTimeChunkReload } from './utils/chunkRecovery';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
@@ -513,7 +515,7 @@ export default function App() {
 
   // Returns: 'open' | 'login_required' | 'pass_pro_required'
   const getTestAccess = (test) => {
-    if (isGuestDemoTest(test) || hasPassPro) return 'open';
+    if (test?.isLiveMegaMock || isGuestDemoTest(test) || hasPassPro) return 'open';
     if (isLoginFreeTest(test)) {
       return session?.user ? 'open' : 'login_required';
     }
@@ -607,6 +609,16 @@ export default function App() {
       saveTestSpeedProfile(test.id, resultData.questionTimes);
     }
 
+    // Track All-India Live Weekend Mega Mock submission locally for instant rank review
+    if (test.isLiveMegaMock) {
+      saveLiveMegaAttemptLocal(test.id, {
+        score: rawScore,
+        timeTakenSeconds: timeTakenSeconds || 0,
+        answers,
+        questionTimes: resultData.questionTimes || {},
+      });
+    }
+
     // Update SM-2 Spaced Repetition progress if finishing a Mistake Notebook CBT Re-Test
     if (test.isMistakeReTest) {
       try {
@@ -670,15 +682,28 @@ export default function App() {
 
   const handleReopenAttempt = async (attempt) => {
     if (!attempt?.test_id || reopeningAttemptId) return;
-    const baseTest = RAILWAY_TESTS.find((t) => t.id === attempt.test_id);
+    const isMegaAttempt = String(attempt.test_id).startsWith('live_mega_');
+    const baseTest =
+      RAILWAY_TESTS.find((t) => t.id === attempt.test_id) ||
+      (isMegaAttempt
+        ? RAILWAY_TESTS.find((t) => attempt.test_title && attempt.test_title.includes(t.title))
+        : null);
     if (!baseTest) {
       alert('Is attempt ka question paper catalog mein available nahi hai.');
       return;
     }
     setReopeningAttemptId(attempt.id);
     try {
-      const hydrated = await hydrateTest(baseTest);
-      const speedProfile = getTestSpeedProfile(baseTest.id);
+      const rawHydrated = await hydrateTest(baseTest);
+      const hydrated = isMegaAttempt
+        ? {
+            ...rawHydrated,
+            id: attempt.test_id,
+            title: attempt.test_title || rawHydrated.title,
+            isLiveMegaMock: true,
+          }
+        : rawHydrated;
+      const speedProfile = getTestSpeedProfile(attempt.test_id) || getTestSpeedProfile(baseTest.id);
       setIsDashboardOpen(false);
       setTestResult({
         test: hydrated,
@@ -741,6 +766,27 @@ export default function App() {
       alert('15-Q Mini CBT generate karne mein samasya aayi.');
     } finally {
       setLaunchingWeakTopicKey(null);
+    }
+  };
+
+  const handleOpenMegaResult = async (megaPayload, attemptSummary) => {
+    if (!megaPayload || reopeningAttemptId) return;
+    setReopeningAttemptId(megaPayload.id);
+    try {
+      const hydrated = await hydrateTest(megaPayload);
+      setTestResult({
+        test: hydrated,
+        answers: attemptSummary?.answers || {},
+        timeTakenSeconds: attemptSummary?.timeTakenSeconds || 0,
+        questionTimes: attemptSummary?.questionTimes || {},
+        attemptSyncedAt: attemptSummary?.submittedAt || Date.now(),
+        isHistoricalReview: true,
+      });
+    } catch (err) {
+      console.error('Failed to open live mega result:', err);
+      alert('Weekend Mega Test scorecard load karne mein problem aayi.');
+    } finally {
+      setReopeningAttemptId(null);
     }
   };
 
@@ -836,6 +882,14 @@ export default function App() {
                 </div>
               </div>
             )}
+
+            {/* All-India Weekend Live Mega Mock + Countdown & AIR Ranklist */}
+            <LiveMegaBanner
+              railwayTests={RAILWAY_TESTS}
+              onStartLiveMega={(payload) => handleStartMock(payload)}
+              onOpenMegaResult={handleOpenMegaResult}
+              loadingTestId={loadingTestId}
+            />
 
             {/* High-Converting Ad & Study Material Banner */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

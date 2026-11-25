@@ -5,9 +5,17 @@ import {
   Sparkles, RefreshCw, Trophy, Zap, Download, Copy, Check, Clock, Eye
 } from 'lucide-react';
 import { CHEATSHEETS_DATA } from '../data/cheatsheetsData';
+import { RRB_ZONES } from '../utils/cutoffCalculator';
+import CbatPsychoSimulator from './CbatPsychoSimulator';
 
-export default function AspirantToolsHub({ onStartMock, onOpenPassPro }) {
-  const [activeTool, setActiveTool] = useState('calculator'); // 'calculator' | 'normalization' | 'eligibility' | 'cheatsheets' | 'psycho' | 'calendar'
+const ZONES = RRB_ZONES.filter((z) => z.code !== 'ALL');
+
+export default function AspirantToolsHub({ onStartMock, onOpenPassPro, initialTool = 'calculator' }) {
+  const [activeTool, setActiveTool] = useState(initialTool || 'calculator'); // 'calculator' | 'normalization' | 'eligibility' | 'cheatsheets' | 'psycho' | 'calendar'
+
+  useEffect(() => {
+    if (initialTool) setActiveTool(initialTool);
+  }, [initialTool]);
 
   // Tool 1: Score Calculator State
   const [examPreset, setExamPreset] = useState('alp'); // 'alp' | 'tech' | 'ntpc' | 'groupd'
@@ -52,18 +60,6 @@ export default function AspirantToolsHub({ onStartMock, onOpenPassPro }) {
   const [shiftDiff, setShiftDiff] = useState('tough'); // 'tough' | 'moderate' | 'easy'
   const [selectedZone, setSelectedZone] = useState('Patna');
 
-  const ZONES = [
-    { name: 'Patna', expectedCutoff: 52, competition: 'High' },
-    { name: 'Prayagraj (Allahabad)', expectedCutoff: 54, competition: 'Very High' },
-    { name: 'Mumbai', expectedCutoff: 46, competition: 'Moderate' },
-    { name: 'Kolkata', expectedCutoff: 50, competition: 'High' },
-    { name: 'Secunderabad', expectedCutoff: 47, competition: 'Moderate' },
-    { name: 'Bilaspur', expectedCutoff: 45, competition: 'Moderate' },
-    { name: 'Chandigarh', expectedCutoff: 55, competition: 'Very High' },
-    { name: 'Guwahati', expectedCutoff: 42, competition: 'Low' },
-    { name: 'Bangalore', expectedCutoff: 44, competition: 'Moderate' }
-  ];
-
   const calculateNormalizedScore = () => {
     let boost = 0;
     if (shiftDiff === 'tough') boost = 6.8;
@@ -85,69 +81,6 @@ export default function AspirantToolsHub({ onStartMock, onOpenPassPro }) {
     navigator.clipboard?.writeText(text);
     setCopiedId(id);
     setTimeout(() => setCopiedId(null), 2000);
-  };
-
-  // Tool 5: Psycho Test Mini-Game State
-  const [psychoState, setPsychoState] = useState('start'); // 'start' | 'memorize' | 'test' | 'result'
-  const [timer, setTimer] = useState(15);
-  const [userAnswers, setUserAnswers] = useState({});
-  const [score, setScore] = useState(0);
-
-  // 6 Station Signs with locations (Grid 3x3)
-  const MEMORY_ITEMS = [
-    { id: 1, name: '🚂 इंजन (Engine)', pos: 0 },
-    { id: 2, name: '🚩 लाल झंडी (Flag)', pos: 2 },
-    { id: 3, name: '🚦 सिग्नल (Signal)', pos: 4 },
-    { id: 4, name: '⛽ ईंधन टैंक (Fuel)', pos: 5 },
-    { id: 5, name: '🧰 टूलबॉक्स (Tools)', pos: 6 },
-    { id: 6, name: '🔔 घंटी (Alarm Bell)', pos: 8 }
-  ];
-
-  useEffect(() => {
-    let interval = null;
-    if (psychoState === 'memorize') {
-      interval = setInterval(() => {
-        setTimer((prev) => {
-          if (prev <= 1) {
-            setPsychoState('test');
-            return 30; // 30s to recall
-          }
-          return prev - 1;
-        });
-      }, 1000);
-    } else if (psychoState === 'test') {
-      interval = setInterval(() => {
-        setTimer((prev) => {
-          if (prev <= 1) {
-            calculatePsychoResult();
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
-    }
-    return () => clearInterval(interval);
-  }, [psychoState]);
-
-  const startPsychoTest = () => {
-    setUserAnswers({});
-    setTimer(15);
-    setPsychoState('memorize');
-  };
-
-  const handlePsychoDrop = (gridIndex, itemId) => {
-    setUserAnswers(prev => ({ ...prev, [gridIndex]: itemId }));
-  };
-
-  const calculatePsychoResult = () => {
-    let correctCount = 0;
-    MEMORY_ITEMS.forEach(item => {
-      if (userAnswers[item.pos] === item.id) {
-        correctCount += 1;
-      }
-    });
-    setScore(correctCount);
-    setPsychoState('result');
   };
 
   // WhatsApp Share Result
@@ -689,159 +622,9 @@ export default function AspirantToolsHub({ onStartMock, onOpenPassPro }) {
       )}
 
       {/* TOOL 5: PSYCHO TEST (CBAT) MINI-SIMULATOR */}
+      {/* TOOL 5: FULL 5-BATTERY ALP CBAT PSYCHO SIMULATOR */}
       {activeTool === 'psycho' && (
-        <div className="bg-slate-900/70 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl max-w-3xl mx-auto">
-          <div className="text-center mb-6">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300 text-xs font-bold uppercase mb-2">
-              <Brain className="w-3.5 h-3.5 text-purple-400" />
-              <span>RDSO Lucknow Pattern • Memory Test Battery</span>
-            </div>
-            <h3 className="text-xl sm:text-2xl font-black text-white">
-              ALP Psycho (CBAT) मेमोरी टेस्ट सिम्युलेटर
-            </h3>
-            <p className="text-xs text-slate-400 mt-1">
-              रेलवे लोको पायलट भर्ती के साइको टेस्ट में प्रत्येक टेस्ट बैटरी में न्यूनतम T-Score 42 लाना अनिवार्य होता है।
-            </p>
-          </div>
-
-          {/* Test Screen Phases */}
-          {psychoState === 'start' && (
-            <div className="text-center py-8 space-y-4">
-              <div className="w-16 h-16 rounded-2xl bg-purple-500/20 text-purple-300 flex items-center justify-center mx-auto text-2xl font-black">
-                🧠
-              </div>
-              <h4 className="text-base font-bold text-white">नियम (Instructions):</h4>
-              <p className="text-xs text-slate-400 max-w-md mx-auto">
-                1. आपको 3x3 ग्रिड में 6 रेलवे प्रतीकों (इंजन, सिग्नल, झंडी आदि) की स्थिति याद रखने के लिए 15 सेकंड का समय मिलेगा।<br />
-                2. इसके बाद ग्रिड खाली हो जाएगी और आपको प्रत्येक प्रतीक को उसकी सही स्थिति पर क्लिक करके चुनना होगा।
-              </p>
-              <button
-                onClick={startPsychoTest}
-                className="mt-4 px-8 py-3 rounded-2xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-black text-xs uppercase tracking-wider shadow-lg shadow-purple-950 cursor-pointer"
-              >
-                स्मृति टेस्ट प्रारंभ करें (Start 15s Study)
-              </button>
-            </div>
-          )}
-
-          {psychoState === 'memorize' && (
-            <div>
-              <div className="flex items-center justify-between mb-4 bg-slate-950 p-3 rounded-xl border border-slate-800">
-                <span className="text-xs font-bold text-amber-400 flex items-center gap-1.5">
-                  <Eye className="w-4 h-4" />
-                  <span>प्रतीकों की स्थिति ध्यानपूर्वक याद करें (Memorize Positions)</span>
-                </span>
-                <span className="text-xs font-mono font-black text-rose-400">Time Left: {timer}s</span>
-              </div>
-
-              {/* 3x3 Grid Display */}
-              <div className="grid grid-cols-3 gap-3 p-4 bg-slate-950 rounded-2xl border border-slate-800 max-w-sm mx-auto">
-                {[0, 1, 2, 3, 4, 5, 6, 7, 8].map(idx => {
-                  const item = MEMORY_ITEMS.find(m => m.pos === idx);
-                  return (
-                    <div
-                      key={idx}
-                      className="h-24 rounded-xl border border-slate-800 bg-slate-900/90 flex flex-col items-center justify-center p-2 text-center"
-                    >
-                      {item ? (
-                        <>
-                          <span className="text-2xl">{item.name.split(' ')[0]}</span>
-                          <span className="text-[10px] font-bold text-slate-200 mt-1">{item.name.split(' ')[1]}</span>
-                        </>
-                      ) : (
-                        <span className="text-slate-700 text-xs">—</span>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {psychoState === 'test' && (
-            <div>
-              <div className="flex items-center justify-between mb-4 bg-slate-950 p-3 rounded-xl border border-slate-800">
-                <span className="text-xs font-bold text-teal-400 flex items-center gap-1.5">
-                  <Clock className="w-4 h-4" />
-                  <span>प्रत्येक बॉक्स पर क्लिक करके सही प्रतीक चुनें</span>
-                </span>
-                <span className="text-xs font-mono font-black text-rose-400">Recall Time: {timer}s</span>
-              </div>
-
-              {/* Recall Grid */}
-              <div className="grid grid-cols-3 gap-3 p-4 bg-slate-950 rounded-2xl border border-slate-800 max-w-sm mx-auto mb-6">
-                {[0, 1, 2, 3, 4, 5, 6, 7, 8].map(idx => {
-                  const selectedId = userAnswers[idx];
-                  const selectedItem = MEMORY_ITEMS.find(m => m.id === selectedId);
-                  return (
-                    <div
-                      key={idx}
-                      className="h-24 rounded-xl border border-slate-800 bg-slate-900 flex flex-col items-center justify-center p-2 text-center relative"
-                    >
-                      {selectedItem ? (
-                        <div className="flex flex-col items-center">
-                          <span className="text-2xl">{selectedItem.name.split(' ')[0]}</span>
-                          <span className="text-[9px] font-bold text-teal-300 mt-1">{selectedItem.name.split(' ')[1]}</span>
-                        </div>
-                      ) : (
-                        <span className="text-xs text-slate-600">खाली</span>
-                      )}
-
-                      <select
-                        onChange={(e) => handlePsychoDrop(idx, Number(e.target.value))}
-                        value={selectedId || ''}
-                        className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
-                      >
-                        <option value="">Select Item</option>
-                        {MEMORY_ITEMS.map(item => (
-                          <option key={item.id} value={item.id}>{item.name}</option>
-                        ))}
-                      </select>
-                    </div>
-                  );
-                })}
-              </div>
-
-              <div className="text-center">
-                <button
-                  onClick={calculatePsychoResult}
-                  className="px-6 py-2.5 rounded-xl bg-teal-500 text-slate-950 font-black text-xs cursor-pointer shadow-lg shadow-teal-950"
-                >
-                  सबमिट करें और T-Score देखें (Submit Test)
-                </button>
-              </div>
-            </div>
-          )}
-
-          {psychoState === 'result' && (
-            <div className="text-center py-6">
-              <div className="text-4xl font-black text-teal-400 mb-2">
-                {score} / 6 Correct
-              </div>
-              <div className="text-xs text-slate-400 mb-4">
-                Estimated CBAT T-Score: <span className="font-bold text-amber-400 font-mono">{(score >= 5 ? 58 : score >= 4 ? 46 : 38).toFixed(1)}</span> (Min Qualifying: 42.0)
-              </div>
-              <div className={`inline-flex px-3 py-1.5 rounded-full text-xs font-bold mb-6 ${score >= 4 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40' : 'bg-rose-500/20 text-rose-400 border border-rose-500/40'}`}>
-                {score >= 4 ? '🎉 Congratulations! Qualified in Memory Test' : '⚠️ Need More Practice (T-Score below 42)'}
-              </div>
-
-              <div className="flex justify-center gap-3">
-                <button
-                  onClick={startPsychoTest}
-                  className="px-6 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-xs cursor-pointer border border-slate-700"
-                >
-                  Retry Test
-                </button>
-                <button
-                  onClick={() => onStartMock()}
-                  className="px-6 py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs cursor-pointer"
-                >
-                  Attempt Full Mock Test
-                </button>
-              </div>
-            </div>
-          )}
-        </div>
+        <CbatPsychoSimulator onStartMock={onStartMock} />
       )}
 
       {/* TOOL 6: EXAM CALENDAR */}
