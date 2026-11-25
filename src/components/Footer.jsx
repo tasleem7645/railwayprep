@@ -1,5 +1,5 @@
 import React from 'react';
-import { Train, Heart, Shield, FileText, Send, Mail, AlertCircle, Bookmark, CheckSquare, Crown } from 'lucide-react';
+import { Heart, Shield, FileText, Send, Mail, AlertCircle, Bookmark, CheckSquare, Crown } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 
 export default function Footer({ 
@@ -26,12 +26,14 @@ export default function Footer({
           <div className="space-y-3">
             <div 
               onClick={() => handleNav('home')}
-              className="flex items-center gap-2 cursor-pointer group w-fit"
+              className="flex items-center gap-2.5 cursor-pointer group w-fit"
             >
-              <div className="w-8 h-8 rounded-lg bg-teal-500 flex items-center justify-center text-slate-950 font-black group-hover:scale-105 transition-transform">
-                <Train className="w-4 h-4" />
-              </div>
-              <span className="text-base font-black text-white group-hover:text-teal-400 transition-colors">RailwayRanker PRO</span>
+              <img
+                src="/logo.jpg"
+                alt="RailwayPrep PRO"
+                className="w-9 h-9 rounded-lg object-cover border border-teal-500/40 shadow-md group-hover:scale-105 transition-transform"
+              />
+              <span className="text-base font-black text-white group-hover:text-teal-400 transition-colors">RailwayPrep PRO</span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
               India's dedicated computer-based exam simulator and smart revision notes platform for RRB ALP, Technician, NTPC, and Group D aspirants.
@@ -139,7 +141,7 @@ export default function Footer({
                   className="text-amber-400 font-bold hover:underline cursor-pointer flex items-center gap-1.5"
                 >
                   <Crown className="w-3.5 h-3.5 fill-amber-400" />
-                  <span>RailwayRanker Pass Pro (₹49/Yr)</span>
+                  <span>RailwayPrep Pass Pro (₹49/Yr)</span>
                 </button>
               </li>
             </ul>
@@ -168,14 +170,14 @@ export default function Footer({
         <div className="my-8 p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 text-[11px] text-slate-400 flex items-start gap-3">
           <AlertCircle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
           <p className="leading-relaxed">
-            <strong>Disclaimer:</strong> RailwayRanker PRO is an independent private educational portal. We are <strong>not affiliated with, associated with, or endorsed by</strong> the Ministry of Railways, Railway Recruitment Boards (RRBs), or any government organization. Official notices and recruitment forms should always be verified on official government websites (indianrailways.gov.in).
+            <strong>Disclaimer:</strong> RailwayPrep PRO is an independent private educational portal. We are <strong>not affiliated with, associated with, or endorsed by</strong> the Ministry of Railways, Railway Recruitment Boards (RRBs), or any government organization. Official notices and recruitment forms should always be verified on official government websites (indianrailways.gov.in).
           </p>
         </div>
 
         {/* Legal & AdSense Compliant Footer Links */}
         <div className="pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
           <div>
-            © 2026-2027 RailwayRanker PRO. All Rights Reserved. Built for Indian Railway Aspirants.
+            © 2026-2027 RailwayPrep PRO. All Rights Reserved. Built for Indian Railway Aspirants.
           </div>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <button 

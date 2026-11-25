@@ -1,9 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import {
   X, User, Crown, LogOut, Trophy, Clock, CheckCircle2, XCircle,
-  ShieldCheck, RefreshCw, Sparkles, Calendar, AlertCircle
+  ShieldCheck, RefreshCw, Sparkles, Calendar, AlertCircle,
+  Copy, Check, Share2, Send, Gift, Users
 } from 'lucide-react';
 import { supabase, isUserAdmin } from '../lib/supabaseClient';
+
+const maskEmail = (email) => {
+  if (!email || !email.includes('@')) return 'aspirant@***';
+  const [name, domain] = email.split('@');
+  const visible = name.slice(0, 2);
+  return `${visible}${'*'.repeat(Math.max(2, Math.min(4, name.length - 2)))}@${domain}`;
+};
 
 export default function UserDashboardModal({
   user,
@@ -19,6 +27,11 @@ export default function UserDashboardModal({
   const [attempts, setAttempts] = useState([]);
   const [loadingHistory, setLoadingHistory] = useState(false);
 
+  // Referral link & friends list state
+  const [copiedLink, setCopiedLink] = useState(false);
+  const [referralsList, setReferralsList] = useState([]);
+  const [loadingReferrals, setLoadingReferrals] = useState(false);
+
   // Admin state
   const [payments, setPayments] = useState([]);
   const [loadingPayments, setLoadingPayments] = useState(false);
@@ -26,6 +39,9 @@ export default function UserDashboardModal({
   const [adminMsg, setAdminMsg] = useState('');
 
   useEffect(() => {
+    if (activeTab === 'profile' && user?.id) {
+      fetchMyReferrals();
+    }
     if (activeTab === 'history' && user?.id) {
       fetchTestHistory();
     }
@@ -33,6 +49,25 @@ export default function UserDashboardModal({
       fetchAdminPayments();
     }
   }, [activeTab, user?.id, isAdmin]);
+
+  const fetchMyReferrals = async () => {
+    setLoadingReferrals(true);
+    try {
+      const { data, error } = await supabase
+        .from('referrals')
+        .select('id, referred_email, status, created_at, verified_at')
+        .eq('referrer_id', user.id)
+        .order('created_at', { ascending: false })
+        .limit(20);
+      if (!error && data) {
+        setReferralsList(data);
+      }
+    } catch (e) {
+      console.warn('Error fetching referrals:', e);
+    } finally {
+      setLoadingReferrals(false);
+    }
+  };
 
   const fetchTestHistory = async () => {
     setLoadingHistory(true);
@@ -232,6 +267,105 @@ export default function UserDashboardModal({
                     {profile?.pass_pro_plan === 'paid' ? '100% Ad-Free VIP ✓' : 'Ad-Supported (Upgrade ₹49)'}
                   </div>
                 </div>
+              </div>
+
+              {/* Direct Referral Link Generator & Share Section */}
+              <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-teal-950/40 via-slate-900 to-emerald-950/30 border border-teal-500/30 space-y-3">
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <div className="flex items-center gap-1.5 text-xs font-black text-teal-300 uppercase tracking-wide">
+                      <Gift className="w-4 h-4 text-teal-400" />
+                      <span>Direct Referral Invite Link (Refer 4 Friends = 90 Days Free Pro)</span>
+                    </div>
+                    <p className="text-[11px] text-slate-400 mt-1">
+                      Is direct link ko friends ke saath share karein — link se signup + verify hote hi automatically count judega!
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={fetchMyReferrals}
+                    title="Refresh Referrals"
+                    className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-white cursor-pointer shrink-0"
+                  >
+                    <RefreshCw className={`w-3.5 h-3.5 ${loadingReferrals ? 'animate-spin' : ''}`} />
+                  </button>
+                </div>
+
+                {profile?.referral_code ? (
+                  <>
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
+                      <div className="flex-1 px-3 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-mono text-teal-300 truncate select-all">
+                        {`${window.location.origin}/?ref=${profile.referral_code}`}
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          const url = `${window.location.origin}/?ref=${profile.referral_code}`;
+                          navigator.clipboard?.writeText(url);
+                          setCopiedLink(true);
+                          setTimeout(() => setCopiedLink(false), 2500);
+                        }}
+                        className="px-4 py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs flex items-center justify-center gap-1.5 cursor-pointer shrink-0 transition-all"
+                      >
+                        {copiedLink ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                        <span>{copiedLink ? 'Link Copied!' : 'Copy Invite Link'}</span>
+                      </button>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-2">
+                      <a
+                        href={`https://wa.me/?text=${encodeURIComponent(`🚂 Bhai Railway ALP / Group D / CBT-2 ke 86+ Official Shifts bilkul real TCS iON CBT interface mein FREE practice karne ke liye mere invite link se join karo 👇\n${window.location.origin}/?ref=${profile.referral_code}`)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="py-2.5 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/40 font-bold text-xs flex items-center justify-center gap-1.5 transition-all"
+                      >
+                        <Share2 className="w-3.5 h-3.5" />
+                        <span>Share on WhatsApp</span>
+                      </a>
+                      <a
+                        href={`https://t.me/share/url?url=${encodeURIComponent(`${window.location.origin}/?ref=${profile.referral_code}`)}&text=${encodeURIComponent('🚂 Railway ALP / Group D 86+ Official CBT Mock Tests Free Practice 👇')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="py-2.5 rounded-xl bg-sky-600/20 hover:bg-sky-600/30 text-sky-300 border border-sky-500/40 font-bold text-xs flex items-center justify-center gap-1.5 transition-all"
+                      >
+                        <Send className="w-3.5 h-3.5" />
+                        <span>Share on Telegram</span>
+                      </a>
+                    </div>
+
+                    {referralsList.length > 0 && (
+                      <div className="pt-2 border-t border-slate-800/80 space-y-1.5">
+                        <div className="text-[11px] font-bold text-slate-300 flex items-center gap-1.5">
+                          <Users className="w-3.5 h-3.5 text-teal-400" />
+                          <span>Friends Joined via Your Link ({referralsList.length})</span>
+                        </div>
+                        <div className="max-h-28 overflow-y-auto space-y-1.5 pr-1">
+                          {referralsList.map((r) => (
+                            <div
+                              key={r.id}
+                              className="flex items-center justify-between px-3 py-1.5 rounded-lg bg-slate-950/70 border border-slate-800 text-[11px]"
+                            >
+                              <span className="text-slate-300 font-mono">{maskEmail(r.referred_email)}</span>
+                              <span
+                                className={`px-2 py-0.5 rounded font-bold text-[10px] uppercase ${
+                                  r.status === 'verified'
+                                    ? 'bg-emerald-500/20 text-emerald-300'
+                                    : 'bg-amber-500/20 text-amber-300'
+                                }`}
+                              >
+                                {r.status === 'verified' ? 'Verified ✓' : 'Pending Verify'}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <div className="text-xs text-slate-400">
+                    Referral link generate ho raha hai — upar refresh icon dabakar reload karein.
+                  </div>
+                )}
               </div>
 
               <div className="pt-3 border-t border-slate-800 flex justify-end">

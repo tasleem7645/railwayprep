@@ -206,7 +206,7 @@ export default function PassProModal({
                 <span>Unlock All 86+ Official Tests</span>
               </div>
               <h2 className="text-2xl font-black text-white tracking-tight">
-                RailwayRanker <span className="text-amber-400">PASS PRO</span>
+                RailwayPrep <span className="text-amber-400">PASS PRO</span>
               </h2>
               {hasPassPro && profile?.pass_pro_plan === 'referral_trial' && (
                 <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 text-[11px] font-bold">

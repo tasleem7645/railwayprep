@@ -183,6 +183,7 @@ export default function App() {
   const [loadingTestId, setLoadingTestId] = useState(null);
   const [testResult, setTestResult] = useState(null);
   const [savedSession, setSavedSession] = useState(null);
+  const [pendingRefCode, setPendingRefCode] = useState('');
 
   const isPaidPro = Boolean(hasPassPro && profile?.pass_pro_plan === 'paid');
 
@@ -197,7 +198,12 @@ export default function App() {
       const params = new URLSearchParams(window.location.search);
       const ref = params.get('ref');
       if (ref && ref.trim().length >= 4) {
-        localStorage.setItem('railwayprep_pending_ref', ref.trim().toUpperCase());
+        const cleanRef = ref.trim().toUpperCase();
+        localStorage.setItem('railwayprep_pending_ref', cleanRef);
+        setPendingRefCode(cleanRef);
+      } else {
+        const existingRef = localStorage.getItem('railwayprep_pending_ref');
+        if (existingRef) setPendingRefCode(existingRef);
       }
       // Fetch live First-500 referral seat counter
       supabase.rpc('get_referral_campaign_status').then(({ data }) => {
@@ -227,6 +233,7 @@ export default function App() {
           profileData = ensured;
           if (pendingRef && ensured.referred_by) {
             localStorage.removeItem('railwayprep_pending_ref');
+            setPendingRefCode('');
           }
         }
       } catch (e) {}
@@ -237,6 +244,7 @@ export default function App() {
           try {
             await supabase.rpc('claim_referral', { p_ref_code: pendingRef });
             localStorage.removeItem('railwayprep_pending_ref');
+            setPendingRefCode('');
           } catch (e) {}
         }
         const { data } = await supabase
@@ -572,6 +580,24 @@ export default function App() {
 
       {/* Main Content Areas */}
       <main className="flex-1">
+        {!session?.user && pendingRefCode && (
+          <div className="bg-gradient-to-r from-emerald-950/90 via-teal-950/90 to-slate-900 border-b border-emerald-500/30 px-4 py-2.5">
+            <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs">
+              <div className="flex items-center gap-2 text-emerald-200 font-semibold text-center sm:text-left">
+                <span className="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-mono font-black">
+                  REF: {pendingRefCode}
+                </span>
+                <span>🎁 Friend Invite Applied! Free Account Login par Shifts 2 & 3 turant unlock honge.</span>
+              </div>
+              <button
+                onClick={() => openAuthPrompt(`🎁 Invite Code ${pendingRefCode} Applied! 1-Click Google Login se Shifts 2 & 3 Free Unlock karein:`)}
+                className="px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs shrink-0 cursor-pointer transition-all"
+              >
+                Claim Free Account →
+              </button>
+            </div>
+          </div>
+        )}
         {activeTab === 'home' && (
           <>
             <HeroSection

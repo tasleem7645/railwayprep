@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Mail, Lock, User, LogIn, UserPlus, Sparkles, AlertCircle, CheckCircle2, Train, Gift } from 'lucide-react';
+import { X, Mail, Lock, User, LogIn, UserPlus, Sparkles, AlertCircle, CheckCircle2, Gift } from 'lucide-react';
 import { supabase } from '../lib/supabaseClient';
 
 export default function AuthModal({ onClose, onAuthSuccess, initialMessage = '' }) {
@@ -100,15 +100,23 @@ export default function AuthModal({ onClose, onAuthSuccess, initialMessage = '' 
 
         {/* Header */}
         <div className="text-center mb-6">
-          <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-teal-500 to-emerald-400 text-slate-950 flex items-center justify-center mx-auto mb-3 shadow-lg shadow-teal-500/20">
-            <Train className="w-6 h-6" />
-          </div>
+          <img
+            src="/logo.jpg"
+            alt="RailwayPrep PRO"
+            className="w-14 h-14 rounded-2xl object-cover mx-auto mb-3 border border-teal-500/40 shadow-lg shadow-teal-500/20"
+          />
           <h2 className="text-xl font-black text-white">
             {mode === 'login' ? 'Welcome Back, Aspirant!' : 'Create Free Student Account'}
           </h2>
           <p className="text-xs text-slate-400 mt-1">
             {initialMessage || 'Apne Test Scores, Progress aur Pass Pro ko Cloud par sync rakhein'}
           </p>
+          {refCode && (
+            <div className="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 text-[11px] font-bold">
+              <Gift className="w-3.5 h-3.5" />
+              <span>Invite Code {refCode} Applied • Signup ke baad Shifts 2 & 3 Unlock!</span>
+            </div>
+          )}
         </div>
 
         {/* Google Sign-In Button */}

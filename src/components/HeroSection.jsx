@@ -11,59 +11,85 @@ export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 bg-gradient-to-b from-teal-500/15 via-emerald-500/5 to-transparent blur-3xl pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         {/* Top Target Badge */}
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center lg:justify-start mb-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-950/60 border border-teal-500/40 text-teal-300 text-xs font-semibold shadow-lg shadow-teal-900/30">
             <Sparkles className="w-3.5 h-3.5 text-teal-400 animate-pulse" />
-            <span>Target Exam: RRB ALP 2026 (CBT-1) • Technician • JE • NTPC</span>
+            <span>Target Exam: RRB ALP 2026 (CBT-1 & 2) • Group D • NTPC</span>
             <span className="bg-teal-500/30 text-teal-200 text-[10px] px-1.5 py-0.5 rounded-full font-bold">New Exam Pattern</span>
           </div>
         </div>
 
-        {/* Main Headline */}
-        <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15]">
-            India's #1 Dedicated <br className="hidden sm:block" />
-            <span className="bg-gradient-to-r from-teal-400 via-emerald-400 to-teal-300 bg-clip-text text-transparent">
-              Railway CBT Simulator
-            </span> & Revision Hub
-          </h1>
-          <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
-            Real TCS iON exam simulation, negative marking analysis, high-yield NCERT science notes, and 2-second maths shortcuts — all in one platform.
-          </p>
+        {/* Two-column Branded Hero Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+          {/* Left Copy & Primary CTAs */}
+          <div className="lg:col-span-7 text-center lg:text-left">
+            <h1 className="text-3xl sm:text-5xl lg:text-[3.25rem] font-black text-white tracking-tight leading-[1.15]">
+              India's #1 Dedicated <br className="hidden sm:block" />
+              <span className="bg-gradient-to-r from-teal-400 via-emerald-400 to-teal-300 bg-clip-text text-transparent">
+                Railway CBT Simulator
+              </span> & Revision Hub
+            </h1>
+            <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl mx-auto lg:mx-0">
+              Real TCS iON exam simulation, negative marking analysis, high-yield NCERT science notes, and 2-second maths shortcuts — built for RailwayPrep aspirants.
+            </p>
 
-          {/* Primary Action Buttons */}
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button
-              onClick={onStartMock}
-              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-600 text-slate-950 font-black text-base shadow-xl shadow-teal-500/25 hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2.5 cursor-pointer glow-teal"
-            >
-              <Play className="w-5 h-5 fill-slate-950 text-slate-950" />
-              <span>Start Free All-India Live Mock Test</span>
-              <span className="text-[10px] bg-slate-950/20 text-slate-950 font-bold px-2 py-0.5 rounded-full">FREE</span>
-            </button>
+            {/* Primary Action Buttons */}
+            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <button
+                onClick={onStartMock}
+                className="w-full sm:w-auto px-7 py-4 rounded-xl bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-600 text-slate-950 font-black text-base shadow-xl shadow-teal-500/25 hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2.5 cursor-pointer glow-teal"
+              >
+                <Play className="w-5 h-5 fill-slate-950 text-slate-950" />
+                <span>Start Free All-India Live Mock Test</span>
+                <span className="text-[10px] bg-slate-950/20 text-slate-950 font-bold px-2 py-0.5 rounded-full">FREE</span>
+              </button>
 
-            <button
-              onClick={onExploreNotes}
-              className="w-full sm:w-auto px-7 py-4 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-teal-500/60 text-slate-200 font-bold text-base hover:bg-slate-800 transition-all flex items-center justify-center gap-2 cursor-pointer"
-            >
-              <span>Explore SuperCoaching Notes</span>
-              <ArrowRight className="w-4 h-4 text-teal-400" />
-            </button>
+              <button
+                onClick={onExploreNotes}
+                className="w-full sm:w-auto px-6 py-4 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-teal-500/60 text-slate-200 font-bold text-base hover:bg-slate-800 transition-all flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <span>Explore SuperCoaching Notes</span>
+                <ArrowRight className="w-4 h-4 text-teal-400" />
+              </button>
+            </div>
+
+            {/* Micro trust checkmarks */}
+            <div className="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 text-xs text-slate-400">
+              <span className="flex items-center gap-1.5 text-slate-300 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-teal-400" /> Shift 1 Free Without Login
+              </span>
+              <span className="flex items-center gap-1.5 text-slate-300 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-teal-400" /> Authentic Bilingual (Hindi & English)
+              </span>
+              <span className="flex items-center gap-1.5 text-slate-300 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-teal-400" /> Instant Rank & Solutions
+              </span>
+            </div>
           </div>
 
-          {/* Micro trust checkmarks */}
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-slate-400">
-            <span className="flex items-center gap-1.5 text-slate-300 font-medium">
-              <CheckCircle2 className="w-4 h-4 text-teal-400" /> 100% Free Live CBT-1 Test
-            </span>
-            <span className="flex items-center gap-1.5 text-slate-300 font-medium">
-              <CheckCircle2 className="w-4 h-4 text-teal-400" /> Authentic Bilingual (Hindi & English)
-            </span>
-            <span className="flex items-center gap-1.5 text-slate-300 font-medium">
-              <CheckCircle2 className="w-4 h-4 text-teal-400" /> Instant All-India Rank & Solutions
-            </span>
+          {/* Right Branded Showcase Visual */}
+          <div className="lg:col-span-5">
+            <div className="relative rounded-3xl overflow-hidden border border-teal-500/30 bg-[#070B18] shadow-2xl shadow-teal-950/50 group">
+              <img
+                src="/hero-cbt-visual.jpg"
+                alt="RailwayPrep PRO TCS iON CBT Exam Simulator"
+                className="w-full h-auto object-cover aspect-video group-hover:scale-[1.02] transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#070B18] via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-2 bg-slate-950/80 backdrop-blur-md border border-slate-800/90 rounded-2xl px-3.5 py-2.5">
+                <div className="flex items-center gap-2.5">
+                  <img src="/logo.jpg" alt="RailwayPrep" className="w-8 h-8 rounded-lg object-cover border border-teal-500/40" />
+                  <div>
+                    <div className="text-xs font-black text-white">RailwayPrep Engine v2.0</div>
+                    <div className="text-[10px] text-teal-300 font-semibold">168+ Shifts & Sectionals Ready</div>
+                  </div>
+                </div>
+                <span className="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[10px] font-black uppercase">
+                  LIVE 2026
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 

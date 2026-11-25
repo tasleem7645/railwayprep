@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { 
-  Train, Sparkles, Crown, Search, Globe, ChevronDown, 
+  Sparkles, Crown, Search, Globe, ChevronDown, 
   Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText, ShoppingBag,
   Calculator, Bookmark, LogIn
 } from 'lucide-react';
@@ -77,17 +77,19 @@ export default function Navbar({
           <div className="flex items-center gap-3 sm:gap-4">
             <div 
               onClick={() => handleNav('home')}
-              className="flex items-center gap-2 cursor-pointer group"
+              className="flex items-center gap-2.5 cursor-pointer group"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-teal-600 via-teal-500 to-emerald-400 flex items-center justify-center shadow-lg shadow-teal-500/25 group-hover:scale-105 transition-transform shrink-0">
-                <Train className="w-5 h-5 text-slate-950 font-black" />
-              </div>
+              <img
+                src="/logo.jpg"
+                alt="RailwayPrep PRO"
+                className="w-10 h-10 rounded-xl object-cover border border-teal-500/40 shadow-lg shadow-teal-500/25 group-hover:scale-105 transition-transform shrink-0"
+              />
               <div className="flex flex-col">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-base sm:text-lg font-black tracking-tight text-white">RailwayRanker</span>
+                  <span className="text-base sm:text-lg font-black tracking-tight text-white">RailwayPrep</span>
                   <span className="text-[10px] font-extrabold uppercase px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40">PRO</span>
                 </div>
-                <span className="text-[10px] text-teal-400/90 font-medium hidden sm:inline">India's Dedicated CBT Hub</span>
+                <span className="text-[10px] text-teal-400/90 font-medium hidden sm:inline">Official Railway CBT Hub</span>
               </div>
             </div>
 

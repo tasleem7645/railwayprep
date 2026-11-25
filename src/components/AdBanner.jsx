@@ -49,7 +49,7 @@ export default function AdBanner({
                 <span className="text-xs text-slate-400 font-semibold">Special Aspirant Discount</span>
               </div>
               <h4 className="text-sm font-bold text-white mt-0.5">
-                Targeting 80+ in CBT-1? Get RailwayRanker <span className="text-amber-400">PASS PRO</span>
+                Targeting 80+ in CBT-1? Get RailwayPrep <span className="text-amber-400">PASS PRO</span>
               </h4>
               <p className="text-xs text-slate-400">
                 Unlock all 76+ official shift papers, pure subject sectionals & all-India rank for just ₹{payments.passProPrice}/Yr.

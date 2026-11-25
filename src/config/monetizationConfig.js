@@ -8,7 +8,7 @@ export const MONETIZATION_CONFIG = {
   // 1. UPI & PAYMENT DETAILS (For Pass Pro & PDF Sales)
   payments: {
     upiId: 'railwayprep@upi', // Replace with your Google Pay / PhonePe / Paytm UPI ID (e.g., 'yourname@oksbi' or '9876543210@paytm')
-    payeeName: 'RailwayRanker PRO Exam Hub',
+    payeeName: 'RailwayPrep PRO',
     passProPrice: 49, // In INR (₹49 for 1 Year Pass Pro)
     pdfBundlePrice: 29, // In INR (₹29 per PDF bundle)
     superComboPrice: 69, // In INR (Pass Pro + All PDFs)
