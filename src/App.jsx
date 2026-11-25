@@ -29,6 +29,7 @@ const MistakeNotebookModal = lazy(() => import('./components/MistakeNotebookModa
 const AuthModal = lazy(() => import('./components/AuthModal'));
 const UserDashboardModal = lazy(() => import('./components/UserDashboardModal'));
 const LegalModal = lazy(() => import('./components/LegalModal'));
+const PYQExplorerView = lazy(() => import('./components/PYQExplorerView'));
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -89,16 +90,15 @@ export default function App() {
 
   // Dynamic Hash Routing
   useEffect(() => {
+    const validTabs = ['home', 'mock-tests', 'pyq-explorer', 'super-coaching', 'syllabus', 'daily-quiz', 'books', 'tools'];
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '').trim();
-      const validTabs = ['home', 'mock-tests', 'super-coaching', 'syllabus', 'daily-quiz', 'books', 'tools'];
       if (validTabs.includes(hash)) {
         _setActiveTab(hash);
       }
     };
 
     const initialHash = window.location.hash.replace('#', '').trim();
-    const validTabs = ['home', 'mock-tests', 'super-coaching', 'syllabus', 'daily-quiz', 'books', 'tools'];
     if (validTabs.includes(initialHash)) {
       _setActiveTab(initialHash);
     }
@@ -313,7 +313,7 @@ export default function App() {
       const saved = localStorage.getItem('railwayprep_active_test_session');
       if (saved) {
         const parsedSession = JSON.parse(saved);
-        if (parsedSession && parsedSession.testId) {
+        if (parsedSession && parsedSession.testId && !String(parsedSession.testId).startsWith('pyq_topic_')) {
           setSavedSession(parsedSession);
         }
       }
@@ -323,8 +323,14 @@ export default function App() {
   }, []);
 
   const handlePauseAndExit = async (sessionData) => {
-    setSavedSession(sessionData);
     setActiveTest(null);
+    if (!sessionData?.testId || String(sessionData.testId).startsWith('pyq_topic_')) {
+      try {
+        localStorage.removeItem('railwayprep_active_test_session');
+      } catch (e) {}
+      return;
+    }
+    setSavedSession(sessionData);
     if (session?.user?.id && sessionData?.testId) {
       try {
         await supabase.from('saved_sessions').upsert({
@@ -524,7 +530,9 @@ export default function App() {
     // Sync test attempt to Supabase Cloud if logged in
     if (session?.user?.id) {
       try {
-        await supabase.from('saved_sessions').delete().eq('user_id', session.user.id);
+        if (!test.isCustomTopicQuiz) {
+          await supabase.from('saved_sessions').delete().eq('user_id', session.user.id);
+        }
         await supabase.from('test_attempts').insert({
           user_id: session.user.id,
           test_id: test.id,
@@ -1418,6 +1426,25 @@ export default function App() {
             </div>
           }
         >
+          {activeTab === 'pyq-explorer' && (
+            <>
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+                <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+              </div>
+              <PYQExplorerView
+                railwayTests={RAILWAY_TESTS}
+                getTestAccess={getTestAccess}
+                session={session}
+                onOpenAuth={openAuthPrompt}
+                onOpenPassPro={() => setIsPassProOpen(true)}
+                onStartTopicQuiz={(customQuiz) => {
+                  setSavedSession(null);
+                  setActiveTest(customQuiz);
+                }}
+              />
+            </>
+          )}
+
           {activeTab === 'super-coaching' && (
             <SuperCoachingView 
               onOpenPassPro={() => setIsPassProOpen(true)} 

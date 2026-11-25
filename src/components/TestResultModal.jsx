@@ -153,8 +153,10 @@ export default function TestResultModal({
   };
 
   useEffect(() => {
-    fetchLeaderboard();
-  }, [test.id, finalScore, attemptSyncedAt]);
+    if (!test.isCustomTopicQuiz) {
+      fetchLeaderboard();
+    }
+  }, [test.id, finalScore, attemptSyncedAt, test.isCustomTopicQuiz]);
 
   const hasLiveLeaderboard = Boolean(leaderboard && leaderboard.total_participants >= 1);
   const displayPercentile = hasLiveLeaderboard && leaderboard.user_percentile !== null
@@ -313,22 +315,24 @@ export default function TestResultModal({
             <BarChart3 className="w-4 h-4" />
             <span>Scorecard & Cutoff</span>
           </button>
-          <button
-            onClick={() => setActiveTab('leaderboard')}
-            className={`px-4 sm:px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 whitespace-nowrap ${
-              activeTab === 'leaderboard'
-                ? 'border-amber-400 text-amber-400 bg-amber-500/5'
-                : 'border-transparent text-slate-400 hover:text-slate-200'
-            }`}
-          >
-            <Trophy className="w-4 h-4" />
-            <span>Live Leaderboard</span>
-            {hasLiveLeaderboard && (
-              <span className="px-1.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 text-[10px] font-black">
-                {leaderboard.total_participants}
-              </span>
-            )}
-          </button>
+          {!test.isCustomTopicQuiz && (
+            <button
+              onClick={() => setActiveTab('leaderboard')}
+              className={`px-4 sm:px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 whitespace-nowrap ${
+                activeTab === 'leaderboard'
+                  ? 'border-amber-400 text-amber-400 bg-amber-500/5'
+                  : 'border-transparent text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <Trophy className="w-4 h-4" />
+              <span>Live Leaderboard</span>
+              {hasLiveLeaderboard && (
+                <span className="px-1.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 text-[10px] font-black">
+                  {leaderboard.total_participants}
+                </span>
+              )}
+            </button>
+          )}
           <button
             onClick={() => setActiveTab('solutions')}
             className={`px-4 sm:px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 whitespace-nowrap ${

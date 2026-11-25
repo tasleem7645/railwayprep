@@ -147,6 +147,13 @@ export default function Navbar({
               Daily Quiz
             </button>
             <button 
+              onClick={() => handleNav('pyq-explorer')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 cursor-pointer ${activeTab === 'pyq-explorer' ? 'text-teal-400 bg-teal-500/10 font-bold' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
+            >
+              <Search className="w-4 h-4 text-cyan-400" />
+              PYQ Bank
+            </button>
+            <button 
               onClick={() => handleNav('super-coaching')}
               className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 cursor-pointer ${activeTab === 'super-coaching' ? 'text-teal-400 bg-teal-500/10' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'}`}
             >
@@ -297,6 +304,14 @@ export default function Navbar({
           >
             <span>⚡ Daily Rapid Speed Quizzes</span>
             <span className="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded font-bold">10 MINS</span>
+          </button>
+
+          <button 
+            onClick={() => handleNav('pyq-explorer')}
+            className={`w-full text-left px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-between cursor-pointer ${activeTab === 'pyq-explorer' ? 'bg-teal-500/15 text-teal-300 font-bold border border-teal-500/30' : 'text-cyan-300 hover:bg-slate-800/60'}`}
+          >
+            <span>🔍 Topic-Wise PYQ Explorer</span>
+            <span className="text-[10px] bg-cyan-500/20 text-cyan-300 px-2 py-0.5 rounded font-bold">NEW</span>
           </button>
 
           <button 
