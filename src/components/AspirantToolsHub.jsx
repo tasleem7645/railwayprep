@@ -152,7 +152,7 @@ export default function AspirantToolsHub({ onStartMock, onOpenPassPro }) {
 
   // WhatsApp Share Result
   const handleShareOnWhatsApp = () => {
-    const text = `🎯 *RailwayPrep Score Report*\nExam: ${examPreset.toUpperCase()}\nRaw Score: *${rawScore}* / ${totalQuestions}\nAccuracy: *${accuracy}%* (${correct} Correct, ${incorrect} Wrong)\nCheck your score here: https://railwayprep.vercel.app`;
+    const text = `🎯 *RailwayPrep Score Report*\nExam: ${examPreset.toUpperCase()}\nRaw Score: *${rawScore}* / ${totalQuestions}\nAccuracy: *${accuracy}%* (${correct} Correct, ${incorrect} Wrong)\nCheck your score here: https://railwayprep.com`;
     window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
   };
 

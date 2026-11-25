@@ -153,15 +153,25 @@ export default function Footer({
             <p className="text-xs text-slate-400 mb-3">
               Join {community.membersCount} for daily free PDFs, quiz notifications, and official exam keys.
             </p>
-            <a
-              href={community.telegramChannelUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-bold text-xs shadow-md shadow-sky-950 transition-colors"
-            >
-              <Send className="w-3.5 h-3.5" />
-              <span>Join Official Telegram Channel</span>
-            </a>
+            <div className="flex flex-col gap-2">
+              <a
+                href={community.telegramChannelUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-bold text-xs shadow-md shadow-sky-950 transition-colors"
+              >
+                <Send className="w-3.5 h-3.5" />
+                <span>Channel ({community.telegramChannelName})</span>
+              </a>
+              <a
+                href={community.telegramGroupUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-sky-500/30 text-sky-300 font-bold text-xs transition-colors"
+              >
+                <span>💬 Doubt Group ({community.telegramGroupName})</span>
+              </a>
+            </div>
           </div>
 
         </div>

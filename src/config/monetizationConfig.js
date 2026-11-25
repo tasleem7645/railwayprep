@@ -105,9 +105,13 @@ export const MONETIZATION_CONFIG = {
 
   // 4. TELEGRAM COMMUNITY & SOCIALS
   community: {
-    telegramChannelUrl: 'https://t.me/railwayprep_official',
+    telegramChannelUrl: 'https://t.me/RailwayPrep_Official',
     telegramChannelName: '@RailwayPrep_Official',
-    membersCount: '34,500+ Aspirants',
+    telegramGroupUrl: 'https://t.me/RailwayPrepDiscuss',
+    telegramGroupName: '@RailwayPrepDiscuss',
+    telegramBotUrl: 'https://t.me/RailwayPrepOfficialBot',
+    telegramBotName: '@RailwayPrepOfficialBot',
+    membersCount: 'RailwayPrep Community',
     emailContact: 'support@railwayprep.com',
   }
 };

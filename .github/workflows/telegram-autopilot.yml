@@ -1,0 +1,95 @@
+name: RailwayPrep Telegram Autopilot
+
+on:
+  schedule:
+    # 07:30 AM IST (02:00 UTC) - Morning Static GK / Science Capsule
+    - cron: '0 2 * * *'
+    # 10:00 AM & 06:00 PM IST (04:30 & 12:30 UTC) - Bilingual PYQ Quiz Poll
+    - cron: '30 4,12 * * *'
+    # 01:30 PM IST (08:00 UTC) - Branded Formula PNG Card
+    - cron: '0 8 * * *'
+    # Sunday 09:00 AM IST (03:30 UTC) - Weekly Live Shift Challenge
+    - cron: '30 3 * * 0'
+    # Every 2 hours - Official RRB Exam Notices + Group Anti-Spam & Admin Queue Sweep
+    - cron: '15 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      job_mode:
+        description: 'Run specific Telegram job manually'
+        required: true
+        default: 'all_safe'
+        type: choice
+        options:
+          - all_safe
+          - pyq
+          - notices
+          - capsule
+          - card
+          - sunday
+          - group_sweep
+
+permissions:
+  contents: write
+
+jobs:
+  run-telegram-autopilot:
+    runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID || '-1002047409648' }}
+      TELEGRAM_GROUP_ID: ${{ secrets.TELEGRAM_GROUP_ID || '-1002815379745' }}
+      TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      SITE_URL: 'https://railwayprep.com'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install --no-cache-dir requests feedparser pillow
+
+      - name: Run Scheduled / Selected Telegram Jobs
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "TELEGRAM_BOT_TOKEN secret not set yet — skipping live send."
+            exit 0
+          fi
+
+          MODE="${{ github.event.inputs.job_mode }}"
+          CRON="${{ github.event.schedule }}"
+
+          if [ "$MODE" = "pyq" ] || [ "$CRON" = "30 4,12 * * *" ]; then
+            python automation/telegram/daily_pyq_poll.py
+          fi
+          if [ "$MODE" = "capsule" ] || [ "$CRON" = "0 2 * * *" ]; then
+            python automation/telegram/daily_capsule_and_card.py --mode capsule
+          fi
+          if [ "$MODE" = "card" ] || [ "$CRON" = "0 8 * * *" ]; then
+            python automation/telegram/daily_capsule_and_card.py --mode card
+          fi
+          if [ "$MODE" = "sunday" ] || [ "$CRON" = "30 3 * * 0" ]; then
+            python automation/telegram/daily_capsule_and_card.py --mode sunday
+          fi
+          if [ "$MODE" = "notices" ] || [ "$MODE" = "all_safe" ] || [ "$CRON" = "15 */2 * * *" ]; then
+            python automation/telegram/rrb_exam_notices.py --max-posts 2
+          fi
+          if [ "$MODE" = "group_sweep" ] || [ "$MODE" = "all_safe" ] || [ "$CRON" = "15 */2 * * *" ]; then
+            python automation/telegram/group_moderator_and_bot.py
+          fi
+
+      - name: Persist deduplication state.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain automation/telegram/state.json)" ]; then
+            git add automation/telegram/state.json
+            git commit -m "chore(telegram): update autopilot state [skip ci]"
+            git push
+          fi

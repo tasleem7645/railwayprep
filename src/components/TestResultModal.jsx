@@ -4,8 +4,9 @@ import {
   Trophy, CheckCircle2, XCircle, Clock, Zap, Target, 
   RotateCcw, ArrowRight, Eye, ChevronDown, ChevronUp, Share2, Award,
   Globe, Check, X, HelpCircle, BookOpen, Layers, BarChart3, Filter,
-  Printer, Bookmark, Flag
+  Printer, Bookmark, Flag, Send
 } from 'lucide-react';
+import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 import AdBanner from './AdBanner';
 import QuestionContentRenderer from './QuestionContentRenderer';
 import ExpectedCutoffCard from './ExpectedCutoffCard';
@@ -257,6 +258,16 @@ export default function TestResultModal({
                 <span>गलती डायरी ({wrongCount})</span>
               </button>
             )}
+            <a
+              href={MONETIZATION_CONFIG.community.telegramChannelUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-2 rounded-xl bg-sky-500/15 hover:bg-sky-500/25 text-sky-300 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-sky-500/30"
+              title="Join Official Telegram for Daily PYQ Polls & Shift PDFs"
+            >
+              <Send className="w-3.5 h-3.5" />
+              <span>Telegram</span>
+            </a>
             <button
               onClick={onRetake}
               className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors"
@@ -662,9 +673,20 @@ export default function TestResultModal({
 
                   {/* DETAILED SOLUTION & EXPLANATION BOX (Prepared for user add-ons) */}
                   <div className="p-5 rounded-2xl bg-[#0B1329] border border-teal-500/30 space-y-3">
-                    <div className="flex items-center gap-2 text-teal-400 font-bold text-sm">
-                      <Zap className="w-4 h-4" />
-                      <span>Detailed Solution & Explanation</span>
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center gap-2 text-teal-400 font-bold text-sm">
+                        <Zap className="w-4 h-4" />
+                        <span>Detailed Solution & Explanation</span>
+                      </div>
+                      <a
+                        href={MONETIZATION_CONFIG.community.telegramGroupUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-sky-500/10 hover:bg-sky-500/20 border border-sky-500/30 text-sky-300 text-[11px] font-bold transition-colors"
+                      >
+                        <Send className="w-3 h-3" />
+                        <span>Discuss Doubt in Group</span>
+                      </a>
                     </div>
 
                     {activeReviewQ.solution && (

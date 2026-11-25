@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { 
   Sparkles, Crown, Search, Globe, ChevronDown, 
   Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText, ShoppingBag,
-  Calculator, Bookmark, LogIn
+  Calculator, Bookmark, LogIn, Send
 } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 
@@ -195,6 +195,18 @@ export default function Navbar({
               <span>{studyStreak?.activeStreak || 0}d</span>
             </button>
 
+            {/* Telegram Channel Quick CTA */}
+            <a
+              href={MONETIZATION_CONFIG.community.telegramChannelUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-sky-500/15 border border-sky-500/40 hover:bg-sky-500/25 text-xs font-bold text-sky-300 transition-colors"
+              title="Join Official Telegram for Daily PYQ Polls, PDFs & RRB Alerts"
+            >
+              <Send className="w-3.5 h-3.5 text-sky-400" />
+              <span className="hidden xl:inline">Telegram</span>
+            </a>
+
             {/* Mistake Notebook Shortcut */}
             <button
               onClick={onOpenMistakes}
@@ -369,6 +381,16 @@ export default function Navbar({
                 <span>Student Login / Free Sign Up</span>
               </button>
             )}
+            <a
+              href={MONETIZATION_CONFIG.community.telegramChannelUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full py-3 rounded-xl bg-sky-500/15 border border-sky-500/40 text-sky-300 font-bold text-sm flex items-center justify-center gap-2"
+            >
+              <Send className="w-4 h-4 text-sky-400" />
+              <span>Join Telegram ({MONETIZATION_CONFIG.community.telegramChannelName})</span>
+            </a>
             <button
               onClick={() => { onOpenPassPro(); setMobileMenuOpen(false); }}
               className="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-sm text-center flex items-center justify-center gap-2 shadow-xl shadow-amber-500/20 cursor-pointer"
