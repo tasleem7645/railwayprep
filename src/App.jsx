@@ -325,8 +325,9 @@ export default function App() {
     return matchesCategory && matchesShift && matchesTrade;
   });
 
-  const isTestFree = (test) => {
-    if (!MONETIZATION_CONFIG.payments.enablePaywall || hasPassPro) return true;
+  // Shift 1 / Demo test of EVERY exam & EVERY section is open without login
+  const isGuestDemoTest = (test) => {
+    if (!test) return false;
     if (test.isFreeDemo) return true;
     if (test.examYear === 'groupd-2025' || test.exam?.includes('Group D')) {
       return test.groupDShiftNo === 1 || test.id?.includes('shift1') || test.id?.includes('s1-');
@@ -334,17 +335,38 @@ export default function App() {
     if (test.category === 'cbt2-part-b' || test.stage === 'CBT-2 Part B') {
       return test.shiftName?.includes('Shift 1') || test.title?.includes('Shift 1');
     }
-    const isShift1 = test.shiftName === '03 Nov Shift 1' || 
-                     test.shiftName === '13 Feb Shift 1' || 
-                     test.shiftName === '28 Jul Shift 1' ||
-                     test.id === 'rrb-alp-2025-cbt2-mock-01' ||
-                     test.id?.includes('shift-1') || 
-                     test.id?.includes('shift1');
-    return isShift1;
+    return (
+      test.shiftName === '03 Nov Shift 1' ||
+      test.shiftName === '13 Feb Shift 1' ||
+      test.shiftName === '28 Jul Shift 1' ||
+      test.id === 'rrb-alp-2025-cbt2-mock-01' ||
+      test.id?.includes('shift-1') ||
+      test.id?.includes('shift1') ||
+      test.id?.includes('-s1')
+    );
   };
 
+  // Returns: 'open' | 'login_required' | 'pass_pro_required'
+  const getTestAccess = (test) => {
+    if (isGuestDemoTest(test)) return 'open';
+    if (MONETIZATION_CONFIG.payments.requireLoginForRemaining && !session?.user) {
+      return 'login_required';
+    }
+    if (MONETIZATION_CONFIG.payments.enablePaywall && !hasPassPro) {
+      return 'pass_pro_required';
+    }
+    return 'open';
+  };
+
+  const isTestFree = (test) => getTestAccess(test) === 'open';
+
   const handleStartMock = (test = RAILWAY_TESTS[0], lang = selectedLang) => {
-    if (!isTestFree(test)) {
+    const access = getTestAccess(test);
+    if (access === 'login_required') {
+      openAuthPrompt('🎁 Launch Offer: Sabhi 86+ Official Shifts & Solutions FREE unlock karne ke liye 10 sec mein Student Account Login karein!');
+      return;
+    }
+    if (access === 'pass_pro_required') {
       setIsPassProOpen(true);
       return;
     }
@@ -752,14 +774,14 @@ export default function App() {
                             }`}>
                               {test.badge}
                             </span>
-                            {hasPassPro ? (
-                              <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
-                                <Crown className="w-3 h-3 fill-amber-300" />
-                                <span>UNLOCKED</span>
-                              </span>
-                            ) : free ? (
+                            {getTestAccess(test) === 'open' ? (
                               <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
-                                FREE DEMO
+                                {isGuestDemoTest(test) ? 'FREE DEMO' : 'FREE UNLOCKED'}
+                              </span>
+                            ) : getTestAccess(test) === 'login_required' ? (
+                              <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-teal-500/15 text-teal-300 border border-teal-500/40 flex items-center gap-1">
+                                <Lock className="w-3 h-3" />
+                                <span>FREE WITH LOGIN</span>
                               </span>
                             ) : (
                               <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
@@ -804,7 +826,15 @@ export default function App() {
                         </div>
                       </div>
 
-                      {!free && !hasPassPro ? (
+                      {getTestAccess(test) === 'login_required' ? (
+                        <button
+                          onClick={() => handleStartMock(test)}
+                          className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-teal-500/20 to-emerald-500/20 hover:from-teal-500 hover:to-emerald-500 text-teal-300 hover:text-slate-950 border border-teal-500/50 font-black text-xs flex items-center justify-center gap-2 transition-all cursor-pointer"
+                        >
+                          <Lock className="w-4 h-4" />
+                          <span>Free Unlock with Login (Launch Offer)</span>
+                        </button>
+                      ) : getTestAccess(test) === 'pass_pro_required' ? (
                         <button
                           onClick={() => setIsPassProOpen(true)}
                           className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-950/40 transition-all cursor-pointer"
@@ -1108,14 +1138,14 @@ export default function App() {
                           }`}>
                             {test.badge}
                           </span>
-                          {hasPassPro ? (
-                            <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
-                              <Crown className="w-3 h-3 fill-amber-300" />
-                              <span>PRO UNLOCKED</span>
-                            </span>
-                          ) : free ? (
+                          {getTestAccess(test) === 'open' ? (
                             <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
-                              FREE DEMO
+                              {isGuestDemoTest(test) ? 'FREE DEMO' : 'FREE UNLOCKED'}
+                            </span>
+                          ) : getTestAccess(test) === 'login_required' ? (
+                            <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-teal-500/15 text-teal-300 border border-teal-500/40 flex items-center gap-1">
+                              <Lock className="w-3 h-3" />
+                              <span>FREE W/ LOGIN</span>
                             </span>
                           ) : (
                             <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
@@ -1169,8 +1199,18 @@ export default function App() {
                       </div>
                     </div>
 
-                    {/* Action Buttons: Free vs Locked with Pass Pro */}
-                    {!free && !hasPassPro ? (
+                    {/* Action Buttons: Open vs Login Required vs Locked with Pass Pro */}
+                    {getTestAccess(test) === 'login_required' ? (
+                      <div className="pt-2 border-t border-slate-800">
+                        <button
+                          onClick={() => handleStartMock(test)}
+                          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-teal-500/20 to-emerald-500/20 hover:from-teal-500 hover:to-emerald-500 text-teal-300 hover:text-slate-950 font-black text-xs border border-teal-500/50 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                        >
+                          <Lock className="w-3.5 h-3.5" />
+                          <span>Free Unlock with Login (Launch Offer)</span>
+                        </button>
+                      </div>
+                    ) : getTestAccess(test) === 'pass_pro_required' ? (
                       <div className="pt-2 border-t border-slate-800">
                         <button
                           onClick={() => setIsPassProOpen(true)}
@@ -1222,7 +1262,9 @@ export default function App() {
         {activeTab === 'super-coaching' && (
           <SuperCoachingView 
             onOpenPassPro={() => setIsPassProOpen(true)} 
-            hasPassPro={hasPassPro} 
+            hasPassPro={hasPassPro}
+            user={session?.user || null}
+            onOpenAuth={openAuthPrompt}
           />
         )}
 

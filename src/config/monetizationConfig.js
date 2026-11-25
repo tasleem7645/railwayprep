@@ -13,7 +13,8 @@ export const MONETIZATION_CONFIG = {
     pdfBundlePrice: 29, // In INR (₹29 per PDF bundle)
     superComboPrice: 69, // In INR (Pass Pro + All PDFs)
     whatsappSupportNumber: '+919876543210', // Optional WhatsApp support number
-    enablePaywall: true, // Set to true to lock shifts 2-10 behind Pass Pro, or false to keep all free
+    enablePaywall: false, // Launch Growth Mode: false = FREE after login; set true later to enable ₹49 Pass Pro paywall
+    requireLoginForRemaining: true, // Shift 1 / Demo of each exam & section opens without login; all remaining tests open FREE after login!
     razorpayKeyId: '', // Add your Razorpay Live Key ID (e.g., 'rzp_live_XXXX') once KYC is approved
   },
 
