@@ -10,6 +10,7 @@ import { RAILWAY_TESTS } from './data/mockTestData';
 import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
 import { hydrateTest } from './data/testQuestionLoader';
 import { getStudyStreak, recordStudyActivity } from './utils/studyStreak';
+import { isEphemeralQuizId } from './utils/mistakeTestBuilder';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
   ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench, Train
@@ -268,7 +269,7 @@ export default function App() {
         .select('*')
         .eq('user_id', userId)
         .single();
-      if (cloudSess?.session_data && !localStorage.getItem('railwayprep_active_test_session')) {
+      if (cloudSess?.session_data && !isEphemeralQuizId(cloudSess.session_data.testId) && !localStorage.getItem('railwayprep_active_test_session')) {
         localStorage.setItem('railwayprep_active_test_session', JSON.stringify(cloudSess.session_data));
         setSavedSession(cloudSess.session_data);
       }
@@ -313,7 +314,7 @@ export default function App() {
       const saved = localStorage.getItem('railwayprep_active_test_session');
       if (saved) {
         const parsedSession = JSON.parse(saved);
-        if (parsedSession && parsedSession.testId && !String(parsedSession.testId).startsWith('pyq_topic_')) {
+        if (parsedSession && parsedSession.testId && !isEphemeralQuizId(parsedSession.testId)) {
           setSavedSession(parsedSession);
         }
       }
@@ -324,7 +325,7 @@ export default function App() {
 
   const handlePauseAndExit = async (sessionData) => {
     setActiveTest(null);
-    if (!sessionData?.testId || String(sessionData.testId).startsWith('pyq_topic_')) {
+    if (!sessionData?.testId || isEphemeralQuizId(sessionData.testId)) {
       try {
         localStorage.removeItem('railwayprep_active_test_session');
       } catch (e) {}
@@ -558,7 +559,10 @@ export default function App() {
     const baseTest = testResult?.test || RAILWAY_TESTS[0];
     setLoadingTestId(baseTest.id);
     try {
-      const hydrated = await hydrateTest(baseTest);
+      const hydrated =
+        baseTest.isCustomTopicQuiz && Array.isArray(baseTest.questions)
+          ? baseTest
+          : await hydrateTest(baseTest);
       try {
         localStorage.removeItem('railwayprep_active_test_session');
       } catch (e) {}
@@ -1556,7 +1560,11 @@ export default function App() {
         {isMistakeModalOpen && (
           <MistakeNotebookModal 
             onClose={() => setIsMistakeModalOpen(false)} 
-            onStartCustomTest={() => handleStartMock(RAILWAY_TESTS[0])}
+            onStartCustomTest={(customQuiz) => {
+              setIsMistakeModalOpen(false);
+              setSavedSession(null);
+              setActiveTest(customQuiz);
+            }}
           />
         )}
 

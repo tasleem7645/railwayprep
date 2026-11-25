@@ -1,8 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { 
-  X, Bookmark, CheckCircle2, AlertCircle, Trash2, 
-  RefreshCw, BookOpen, ChevronRight, Sparkles, Filter, Check
+import React, { useState, useEffect, useMemo } from 'react';
+import {
+  X, Bookmark, CheckCircle2, AlertCircle, Trash2,
+  RefreshCw, BookOpen, ChevronRight, Sparkles, Filter, Check, Zap
 } from 'lucide-react';
+import QuestionContentRenderer from './QuestionContentRenderer';
+import {
+  MISTAKE_SUBJECT_FILTERS,
+  normalizeMistakeCategory,
+  buildMistakeReTest,
+} from '../utils/mistakeTestBuilder';
 
 export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
   const [mistakes, setMistakes] = useState([]);
@@ -95,10 +101,27 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
     }
   };
 
-  const filteredMistakes = mistakes.filter(m => {
+  const subjectCounts = useMemo(() => {
+    const counts = { all: mistakes.length, science: 0, math: 0, reasoning: 0, ga: 0, other: 0 };
+    mistakes.forEach((m) => {
+      const cat = normalizeMistakeCategory(m.subject);
+      counts[cat] = (counts[cat] || 0) + 1;
+    });
+    return counts;
+  }, [mistakes]);
+
+  const filteredMistakes = mistakes.filter((m) => {
     if (selectedSubject === 'all') return true;
-    return m.subject?.toLowerCase().includes(selectedSubject.toLowerCase());
+    return normalizeMistakeCategory(m.subject) === selectedSubject;
   });
+
+  const handleLaunchReTest = (limit = null) => {
+    if (!onStartCustomTest || filteredMistakes.length === 0) return;
+    const customQuiz = buildMistakeReTest(filteredMistakes, selectedSubject, limit);
+    if (customQuiz) {
+      onStartCustomTest(customQuiz);
+    }
+  };
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-md overflow-y-auto animate-fade-in font-['Plus_Jakarta_Sans',sans-serif]">
@@ -137,15 +160,12 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
           </div>
         </div>
 
-        {/* Filter Bar */}
+        {/* Filter Bar + Direct CBT Launch */}
         <div className="px-6 py-3 border-b border-slate-800/80 bg-slate-900/90 flex flex-wrap items-center justify-between gap-3">
-          <div className="flex gap-2">
-            {[
-              { id: 'all', label: 'सभी सवाल (All)' },
-              { id: 'science', label: 'General Science' },
-              { id: 'math', label: 'Mathematics' },
-              { id: 'reasoning', label: 'Reasoning' }
-            ].map(f => (
+          <div className="flex flex-wrap gap-2">
+            {MISTAKE_SUBJECT_FILTERS.filter(
+              (f) => f.id === 'all' || (subjectCounts[f.id] || 0) > 0
+            ).map((f) => (
               <button
                 key={f.id}
                 onClick={() => setSelectedSubject(f.id)}
@@ -155,7 +175,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
                     : 'bg-slate-950 border border-slate-800 text-slate-400 hover:text-white'
                 }`}
               >
-                {f.label}
+                {f.label} ({subjectCounts[f.id] || 0})
               </button>
             ))}
           </div>
@@ -183,9 +203,23 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
             </div>
           ) : (
             filteredMistakes.map((q, idx) => {
-              const qText = q.question?.[lang] || q.question?.hi || q.question?.en;
-              const opts = q.options?.[lang] || q.options?.hi || q.options?.en || [];
-              const sol = q.solution?.[lang] || q.solution?.hi || q.solution?.en;
+              const qText =
+                typeof q.question === 'object'
+                  ? q.question?.[lang] || q.question?.hi || q.question?.en || ''
+                  : String(q.question || '');
+              const opts = Array.isArray(q.options)
+                ? q.options.map((o) =>
+                    typeof o === 'object' && o !== null ? o[lang] || o.en || o.hi || '' : String(o)
+                  )
+                : q.options?.[lang] || q.options?.hi || q.options?.en || [];
+              const sol =
+                typeof q.solution === 'object'
+                  ? q.solution?.[lang] || q.solution?.hi || q.solution?.en || ''
+                  : String(q.solution || '');
+              const correctIdx =
+                lang === 'hi' && q.correctIndexHi !== undefined
+                  ? q.correctIndexHi
+                  : q.correctIndex ?? 0;
               const userAttempt = reattemptChoice[q.id];
 
               return (
@@ -208,14 +242,16 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
                     </button>
                   </div>
 
-                  <p className="text-sm font-semibold text-white leading-relaxed">
-                    {qText}
-                  </p>
+                  <QuestionContentRenderer
+                    text={qText}
+                    image={q.image || q[`image_${lang}`]}
+                    className="text-sm font-semibold text-white leading-relaxed"
+                  />
 
                   {/* Options with Re-attempt selection */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
                     {opts.map((opt, optIdx) => {
-                      const isCorrect = optIdx === q.correctIndex;
+                      const isCorrect = optIdx === correctIdx;
                       const isUserPrevWrong = optIdx === q.userAnswerIndex;
                       const isUserReattempt = userAttempt === optIdx;
 
@@ -267,17 +303,38 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
           )}
         </div>
 
-        {/* Modal Footer */}
+        {/* Modal Footer with Real CBT Mistake Re-Test Action */}
         <div className="p-4 border-t border-slate-800 bg-slate-950 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
           <span className="text-slate-400">
-            दैनिक अभ्यास टिप: रोज़ाना केवल 10 गलत प्रश्नों को री-अटेम्प्ट करने से परीक्षा में 8–12 अंक बढ़ते हैं।
+            दैनिक अभ्यास टिप: रोज़ाना गलत प्रश्नों का असली टाइमर CBT Re-Test देने से परीक्षा में 8–12 अंक बढ़ते हैं।
           </span>
-          <button
-            onClick={onClose}
-            className="px-6 py-2.5 rounded-xl bg-teal-500 text-slate-950 font-bold text-xs cursor-pointer shadow-lg shadow-teal-950"
-          >
-            Done & Close
-          </button>
+          <div className="flex flex-wrap items-center gap-2 shrink-0">
+            {filteredMistakes.length > 10 && onStartCustomTest && (
+              <button
+                type="button"
+                onClick={() => handleLaunchReTest(10)}
+                className="px-3.5 py-2.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 font-bold text-xs cursor-pointer"
+              >
+                Quick 10 Re-Test
+              </button>
+            )}
+            {filteredMistakes.length > 0 && onStartCustomTest && (
+              <button
+                type="button"
+                onClick={() => handleLaunchReTest(null)}
+                className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black text-xs cursor-pointer shadow-lg shadow-amber-950/50 flex items-center gap-1.5"
+              >
+                <Zap className="w-3.5 h-3.5 fill-slate-950" />
+                <span>Start CBT Re-Test ({filteredMistakes.length} Qs)</span>
+              </button>
+            )}
+            <button
+              onClick={onClose}
+              className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs cursor-pointer"
+            >
+              Close
+            </button>
+          </div>
         </div>
 
       </div>

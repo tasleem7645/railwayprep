@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {
   X, User, Crown, LogOut, Trophy, Clock, CheckCircle2, XCircle,
   ShieldCheck, RefreshCw, Sparkles, Calendar, AlertCircle,
-  Copy, Check, Share2, Send, Gift, Users, Flame
+  Copy, Check, Share2, Send, Gift, Users, Flame, Flag, Trash2
 } from 'lucide-react';
 import { supabase, isUserAdmin } from '../lib/supabaseClient';
 import { STREAK_BADGES, getStudyStreak } from '../utils/studyStreak';
@@ -36,8 +36,12 @@ export default function UserDashboardModal({
   const [loadingReferrals, setLoadingReferrals] = useState(false);
 
   // Admin state
+  const [adminSubTab, setAdminSubTab] = useState('payments'); // 'payments' | 'reports'
   const [payments, setPayments] = useState([]);
   const [loadingPayments, setLoadingPayments] = useState(false);
+  const [questionReports, setQuestionReports] = useState([]);
+  const [loadingReports, setLoadingReports] = useState(false);
+  const [reportFilter, setReportFilter] = useState('open'); // 'open' | 'all'
   const [actionLoadingId, setActionLoadingId] = useState(null);
   const [adminMsg, setAdminMsg] = useState('');
 
@@ -50,6 +54,7 @@ export default function UserDashboardModal({
     }
     if (activeTab === 'admin' && isAdmin) {
       fetchAdminPayments();
+      fetchAdminReports();
     }
   }, [activeTab, user?.id, isAdmin]);
 
@@ -128,6 +133,66 @@ export default function UserDashboardModal({
     }
   };
 
+  const fetchAdminReports = async () => {
+    setLoadingReports(true);
+    try {
+      const { data, error } = await supabase
+        .from('question_reports')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(80);
+      if (!error && data) {
+        setQuestionReports(data);
+      }
+    } catch (e) {
+      console.warn('Error fetching question reports:', e);
+    } finally {
+      setLoadingReports(false);
+    }
+  };
+
+  const handleUpdateReportStatus = async (reportId, nextStatus) => {
+    setActionLoadingId(reportId);
+    setAdminMsg('');
+    try {
+      const { error } = await supabase
+        .from('question_reports')
+        .update({
+          status: nextStatus,
+          resolved_at: nextStatus === 'open' ? null : new Date().toISOString(),
+        })
+        .eq('id', reportId);
+      if (error) throw error;
+      setAdminMsg(
+        nextStatus === 'resolved'
+          ? '✅ Question report marked Resolved.'
+          : nextStatus === 'dismissed'
+          ? 'Report dismissed.'
+          : 'Report reopened.'
+      );
+      await fetchAdminReports();
+    } catch (err) {
+      setAdminMsg(`Report Error: ${err.message}`);
+    } finally {
+      setActionLoadingId(null);
+    }
+  };
+
+  const handleDeleteReport = async (reportId) => {
+    setActionLoadingId(reportId);
+    setAdminMsg('');
+    try {
+      const { error } = await supabase.from('question_reports').delete().eq('id', reportId);
+      if (error) throw error;
+      setQuestionReports((prev) => prev.filter((r) => r.id !== reportId));
+      setAdminMsg('🗑️ Report deleted from queue.');
+    } catch (err) {
+      setAdminMsg(`Delete Error: ${err.message}`);
+    } finally {
+      setActionLoadingId(null);
+    }
+  };
+
   const displayName = profile?.full_name || user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Aspirant';
 
   return (
@@ -193,7 +258,12 @@ export default function UserDashboardModal({
               }`}
             >
               <ShieldCheck className="w-3.5 h-3.5" />
-              <span>Admin Payment Approvals</span>
+              <span>Admin Queue</span>
+              {questionReports.filter((r) => r.status === 'open').length > 0 && (
+                <span className="px-1.5 py-0.5 rounded-full bg-rose-500 text-white text-[10px] font-black leading-none">
+                  {questionReports.filter((r) => r.status === 'open').length}
+                </span>
+              )}
             </button>
           )}
         </div>
@@ -465,16 +535,51 @@ export default function UserDashboardModal({
           {/* ADMIN TAB */}
           {activeTab === 'admin' && isAdmin && (
             <div className="space-y-4">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h3 className="text-sm font-bold text-white">UPI / Payment Requests</h3>
-                  <p className="text-[11px] text-slate-400">Verify 12-digit UTR in your bank/UPI app and click Approve to unlock Pass Pro for that user.</p>
+              {/* Admin Sub-Tabs: Payment Approvals vs Question Error Queue */}
+              <div className="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-slate-800/80">
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setAdminSubTab('payments')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold cursor-pointer transition-colors ${
+                      adminSubTab === 'payments'
+                        ? 'bg-amber-500 text-slate-950'
+                        : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white'
+                    }`}
+                  >
+                    UPI Approvals ({payments.filter((p) => p.status === 'pending').length})
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setAdminSubTab('reports')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 cursor-pointer transition-colors ${
+                      adminSubTab === 'reports'
+                        ? 'bg-rose-500 text-white'
+                        : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white'
+                    }`}
+                  >
+                    <Flag className="w-3.5 h-3.5" />
+                    <span>
+                      Question Error Queue ({questionReports.filter((r) => r.status === 'open').length} Open)
+                    </span>
+                  </button>
                 </div>
                 <button
-                  onClick={fetchAdminPayments}
+                  type="button"
+                  onClick={() => (adminSubTab === 'payments' ? fetchAdminPayments() : fetchAdminReports())}
                   className="p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white cursor-pointer"
                 >
-                  <RefreshCw className={`w-4 h-4 ${loadingPayments ? 'animate-spin' : ''}`} />
+                  <RefreshCw
+                    className={`w-4 h-4 ${
+                      adminSubTab === 'payments'
+                        ? loadingPayments
+                          ? 'animate-spin'
+                          : ''
+                        : loadingReports
+                        ? 'animate-spin'
+                        : ''
+                    }`}
+                  />
                 </button>
               </div>
 
@@ -484,57 +589,207 @@ export default function UserDashboardModal({
                 </div>
               )}
 
-              {loadingPayments ? (
-                <div className="py-10 text-center text-xs text-slate-400">Loading payment requests...</div>
-              ) : payments.length === 0 ? (
-                <div className="py-10 text-center rounded-2xl bg-slate-900/40 border border-slate-800 text-xs text-slate-400">
-                  No payment requests yet.
-                </div>
-              ) : (
-                <div className="space-y-2.5">
-                  {payments.map((p) => (
-                    <div key={p.id} className="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                      <div className="space-y-1">
-                        <div className="flex items-center gap-2">
-                          <span className="text-xs font-bold text-white">{p.user_email}</span>
-                          <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${
-                            p.status === 'approved'
-                              ? 'bg-emerald-500/20 text-emerald-300'
-                              : p.status === 'rejected'
-                              ? 'bg-rose-500/20 text-rose-300'
-                              : 'bg-amber-500/20 text-amber-300'
-                          }`}>
-                            {p.status}
-                          </span>
-                        </div>
-                        <div className="text-xs text-slate-300 font-mono">
-                          UTR/Ref: <b className="text-amber-300">{p.utr_or_payment_id}</b> • ₹{p.amount}
-                        </div>
-                        <div className="text-[10px] text-slate-500">
-                          {new Date(p.created_at).toLocaleString('en-IN')}
-                        </div>
-                      </div>
+              {adminSubTab === 'payments' ? (
+                <>
+                  <div>
+                    <h3 className="text-sm font-bold text-white">UPI / Payment Requests</h3>
+                    <p className="text-[11px] text-slate-400">
+                      Verify 12-digit UTR in your bank/UPI app and click Approve to unlock Pass Pro for that user.
+                    </p>
+                  </div>
 
-                      {p.status === 'pending' && (
-                        <div className="flex items-center gap-2 shrink-0">
-                          <button
-                            disabled={actionLoadingId === p.id}
-                            onClick={() => handleVerifyPayment(p.id, true)}
-                            className="px-3.5 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs cursor-pointer disabled:opacity-50"
-                          >
-                            Approve ✓
-                          </button>
-                          <button
-                            disabled={actionLoadingId === p.id}
-                            onClick={() => handleVerifyPayment(p.id, false)}
-                            className="px-3 py-2 rounded-xl bg-rose-950/60 hover:bg-rose-900/80 text-rose-300 border border-rose-500/30 font-bold text-xs cursor-pointer disabled:opacity-50"
-                          >
-                            Reject
-                          </button>
-                        </div>
-                      )}
+                  {loadingPayments ? (
+                    <div className="py-10 text-center text-xs text-slate-400">Loading payment requests...</div>
+                  ) : payments.length === 0 ? (
+                    <div className="py-10 text-center rounded-2xl bg-slate-900/40 border border-slate-800 text-xs text-slate-400">
+                      No payment requests yet.
                     </div>
-                  ))}
+                  ) : (
+                    <div className="space-y-2.5">
+                      {payments.map((p) => (
+                        <div key={p.id} className="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                          <div className="space-y-1">
+                            <div className="flex items-center gap-2">
+                              <span className="text-xs font-bold text-white">{p.user_email}</span>
+                              <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${
+                                p.status === 'approved'
+                                  ? 'bg-emerald-500/20 text-emerald-300'
+                                  : p.status === 'rejected'
+                                  ? 'bg-rose-500/20 text-rose-300'
+                                  : 'bg-amber-500/20 text-amber-300'
+                              }`}>
+                                {p.status}
+                              </span>
+                            </div>
+                            <div className="text-xs text-slate-300 font-mono">
+                              UTR/Ref: <b className="text-amber-300">{p.utr_or_payment_id}</b> • ₹{p.amount}
+                            </div>
+                            <div className="text-[10px] text-slate-500">
+                              {new Date(p.created_at).toLocaleString('en-IN')}
+                            </div>
+                          </div>
+
+                          {p.status === 'pending' && (
+                            <div className="flex items-center gap-2 shrink-0">
+                              <button
+                                disabled={actionLoadingId === p.id}
+                                onClick={() => handleVerifyPayment(p.id, true)}
+                                className="px-3.5 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs cursor-pointer disabled:opacity-50"
+                              >
+                                Approve ✓
+                              </button>
+                              <button
+                                disabled={actionLoadingId === p.id}
+                                onClick={() => handleVerifyPayment(p.id, false)}
+                                className="px-3 py-2 rounded-xl bg-rose-950/60 hover:bg-rose-900/80 text-rose-300 border border-rose-500/30 font-bold text-xs cursor-pointer disabled:opacity-50"
+                              >
+                                Reject
+                              </button>
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </>
+              ) : (
+                <div className="space-y-3">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <div>
+                      <h3 className="text-sm font-bold text-white">Reported Question Error Queue</h3>
+                      <p className="text-[11px] text-slate-400">
+                        Students dwara report ki gayi answer key, Hindi translation, aur diagram errors verify karein.
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      {[
+                        { id: 'open', label: `Open (${questionReports.filter((r) => r.status === 'open').length})` },
+                        { id: 'all', label: `All (${questionReports.length})` },
+                      ].map((f) => (
+                        <button
+                          key={f.id}
+                          type="button"
+                          onClick={() => setReportFilter(f.id)}
+                          className={`px-2.5 py-1 rounded-lg text-[11px] font-bold cursor-pointer ${
+                            reportFilter === f.id
+                              ? 'bg-teal-500 text-slate-950'
+                              : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
+                          }`}
+                        >
+                          {f.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {loadingReports ? (
+                    <div className="py-10 text-center text-xs text-slate-400">Loading question reports...</div>
+                  ) : questionReports.filter((r) => reportFilter === 'all' || r.status === 'open').length === 0 ? (
+                    <div className="py-10 text-center rounded-2xl bg-slate-900/40 border border-slate-800 text-xs text-slate-400">
+                      Koi {reportFilter === 'open' ? 'open ' : ''}question error report nahi hai. Sab clean hai!
+                    </div>
+                  ) : (
+                    <div className="space-y-2.5">
+                      {questionReports
+                        .filter((r) => reportFilter === 'all' || r.status === 'open')
+                        .map((r) => (
+                          <div
+                            key={r.id}
+                            className="p-4 rounded-2xl bg-slate-900/75 border border-slate-800 space-y-2.5"
+                          >
+                            <div className="flex flex-wrap items-center justify-between gap-2">
+                              <div className="flex flex-wrap items-center gap-2">
+                                <span className="px-2 py-0.5 rounded-md bg-amber-500/15 border border-amber-500/35 text-amber-300 text-[10px] font-bold">
+                                  {r.issue_type}
+                                </span>
+                                <span
+                                  className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${
+                                    r.status === 'resolved'
+                                      ? 'bg-emerald-500/20 text-emerald-300'
+                                      : r.status === 'dismissed'
+                                      ? 'bg-slate-800 text-slate-400'
+                                      : 'bg-rose-500/20 text-rose-300'
+                                  }`}
+                                >
+                                  {r.status}
+                                </span>
+                                {r.question_no != null && (
+                                  <span className="text-[11px] font-mono text-teal-300">Q.{r.question_no}</span>
+                                )}
+                              </div>
+                              <span className="text-[10px] text-slate-500 font-mono">
+                                UID: {r.question_uid}
+                              </span>
+                            </div>
+
+                            {r.shift_title && (
+                              <div className="text-xs font-bold text-white">{r.shift_title}</div>
+                            )}
+
+                            {r.question_preview && (
+                              <p className="text-[11px] text-slate-300 bg-slate-950/70 p-2.5 rounded-xl border border-slate-800/80 line-clamp-2">
+                                {r.question_preview}
+                              </p>
+                            )}
+
+                            {r.issue_note && (
+                              <div className="text-xs text-amber-200/90 bg-amber-950/25 px-3 py-2 rounded-xl border border-amber-500/20">
+                                <strong className="text-amber-300">Note: </strong>
+                                {r.issue_note}
+                              </div>
+                            )}
+
+                            <div className="flex flex-wrap items-center justify-between gap-2 pt-1 text-[10px] text-slate-400">
+                              <span>
+                                By: <b className="text-slate-300">{r.reporter_email || 'Guest'}</b> •{' '}
+                                {new Date(r.created_at).toLocaleString('en-IN')}
+                              </span>
+
+                              <div className="flex items-center gap-1.5">
+                                {r.status === 'open' ? (
+                                  <>
+                                    <button
+                                      type="button"
+                                      disabled={actionLoadingId === r.id}
+                                      onClick={() => handleUpdateReportStatus(r.id, 'resolved')}
+                                      className="px-2.5 py-1 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black cursor-pointer disabled:opacity-50"
+                                    >
+                                      Resolve ✓
+                                    </button>
+                                    <button
+                                      type="button"
+                                      disabled={actionLoadingId === r.id}
+                                      onClick={() => handleUpdateReportStatus(r.id, 'dismissed')}
+                                      className="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold cursor-pointer disabled:opacity-50"
+                                    >
+                                      Dismiss
+                                    </button>
+                                  </>
+                                ) : (
+                                  <button
+                                    type="button"
+                                    disabled={actionLoadingId === r.id}
+                                    onClick={() => handleUpdateReportStatus(r.id, 'open')}
+                                    className="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-amber-300 font-bold cursor-pointer disabled:opacity-50"
+                                  >
+                                    Reopen
+                                  </button>
+                                )}
+                                <button
+                                  type="button"
+                                  disabled={actionLoadingId === r.id}
+                                  onClick={() => handleDeleteReport(r.id)}
+                                  className="p-1 rounded-lg bg-rose-950/60 hover:bg-rose-900/80 text-rose-300 border border-rose-500/30 cursor-pointer disabled:opacity-50"
+                                  title="Delete Report"
+                                >
+                                  <Trash2 className="w-3.5 h-3.5" />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                    </div>
+                  )}
                 </div>
               )}
             </div>

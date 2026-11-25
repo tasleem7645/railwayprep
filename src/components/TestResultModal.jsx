@@ -4,13 +4,14 @@ import {
   Trophy, CheckCircle2, XCircle, Clock, Zap, Target, 
   RotateCcw, ArrowRight, Eye, ChevronDown, ChevronUp, Share2, Award,
   Globe, Check, X, HelpCircle, BookOpen, Layers, BarChart3, Filter,
-  Printer, Bookmark
+  Printer, Bookmark, Flag
 } from 'lucide-react';
 import AdBanner from './AdBanner';
 import QuestionContentRenderer from './QuestionContentRenderer';
 import ExpectedCutoffCard from './ExpectedCutoffCard';
 import ShiftLeaderboardTab from './ShiftLeaderboardTab';
 import ShareScoreCardModal from './ShareScoreCardModal';
+import ReportQuestionModal from './ReportQuestionModal';
 import { getCutoffBenchmark, evaluateCutoffStatus } from '../utils/cutoffCalculator';
 import { renderPrintableShiftWindow } from '../utils/shiftPdfGenerator';
 import { supabase } from '../lib/supabaseClient';
@@ -47,6 +48,7 @@ export default function TestResultModal({
   
   // Language in review mode: 'hi' | 'en'
   const [reviewLang, setReviewLang] = useState('hi');
+  const [reportTarget, setReportTarget] = useState(null);
 
   // Trigger celebration confetti
   useEffect(() => {
@@ -65,16 +67,22 @@ export default function TestResultModal({
       const wrongQuestions = test.questions
         .filter((q) => {
           const userAns = answers[q.id];
-          return userAns !== undefined && userAns !== q.correctIndex;
+          const isCorrectAns =
+            userAns === q.correctIndex ||
+            (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+          return userAns !== undefined && !isCorrectAns;
         })
         .map((q) => ({
-          id: `${test.id}_${q.id}`,
+          id: q.mistakeId || `${test.id}_${q.id}`,
           shiftQuestionNo: q.shiftQuestionNo || q.id,
           subject: q.subject || q.section || 'General Science',
           topic: q.topic || 'Official Question',
           question: q.question,
           options: q.options,
           correctIndex: q.correctIndex,
+          ...(q.correctIndexHi !== undefined ? { correctIndexHi: q.correctIndexHi } : {}),
+          ...(q.image ? { image: q.image } : {}),
+          ...(q.image_hi ? { image_hi: q.image_hi } : {}),
           userAnswerIndex: answers[q.id],
           solution: q.solution
         }));
@@ -483,7 +491,10 @@ export default function TestResultModal({
               <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
                 {filteredQuestions.map((q, idx) => {
                   const userAns = answers[q.id];
-                  const isCorrect = userAns === q.correctIndex;
+                  const isCorrect =
+                    userAns !== undefined &&
+                    (userAns === q.correctIndex ||
+                      (q.correctIndexHi !== undefined && userAns === q.correctIndexHi));
                   const isAttempted = userAns !== undefined;
                   const isSelected = idx === reviewIndex;
 
@@ -510,7 +521,11 @@ export default function TestResultModal({
             {/* ACTIVE QUESTION SOLUTION CARD */}
             {activeReviewQ && (() => {
               const userAns = answers[activeReviewQ.id];
-              const isCorrect = userAns === activeReviewQ.correctIndex;
+              const isCorrect =
+                userAns !== undefined &&
+                (userAns === activeReviewQ.correctIndex ||
+                  (activeReviewQ.correctIndexHi !== undefined &&
+                    userAns === activeReviewQ.correctIndexHi));
               const isAttempted = userAns !== undefined;
 
               return (
@@ -532,8 +547,8 @@ export default function TestResultModal({
                       )}
                     </div>
 
-                    {/* Result Badge */}
-                    <div>
+                    {/* Result Badge + Report Error Button */}
+                    <div className="flex items-center gap-2">
                       {isCorrect ? (
                         <span className="px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-500/60 text-emerald-300 text-xs font-bold flex items-center gap-1.5">
                           <Check className="w-3.5 h-3.5 font-bold" />
@@ -549,6 +564,30 @@ export default function TestResultModal({
                           <span>Not Attempted (0.0 Marks)</span>
                         </span>
                       )}
+
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setReportTarget({
+                            uid: activeReviewQ.mistakeId || `${test.id}_${activeReviewQ.id}`,
+                            testId: test.id,
+                            shiftTitle: test.title,
+                            questionNo: activeReviewQ.shiftQuestionNo || activeReviewQ.id,
+                            previewText:
+                              typeof activeReviewQ.question === 'object'
+                                ? activeReviewQ.question?.[reviewLang] ||
+                                  activeReviewQ.question?.en ||
+                                  activeReviewQ.question?.hi ||
+                                  ''
+                                : String(activeReviewQ.question || ''),
+                          })
+                        }
+                        className="px-2.5 py-1 rounded-full bg-slate-800/90 hover:bg-amber-500/20 border border-slate-700 hover:border-amber-500/40 text-slate-300 hover:text-amber-300 text-[11px] font-bold flex items-center gap-1 cursor-pointer transition-colors"
+                        title="Report answer key / diagram / typo issue"
+                      >
+                        <Flag className="w-3 h-3" />
+                        <span>Report</span>
+                      </button>
                     </div>
                   </div>
 
@@ -739,6 +778,13 @@ export default function TestResultModal({
           />
         );
       })()}
+
+      {reportTarget && (
+        <ReportQuestionModal
+          targetQuestion={reportTarget}
+          onClose={() => setReportTarget(null)}
+        />
+      )}
     </div>
   );
 }

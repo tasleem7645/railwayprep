@@ -5,6 +5,7 @@ import {
   Star, FolderTree, Flag, CheckCircle2, Printer
 } from 'lucide-react';
 import QuestionContentRenderer from './QuestionContentRenderer';
+import ReportQuestionModal from './ReportQuestionModal';
 import { loadTestQuestions } from '../data/testQuestionLoader';
 import { EXAM_HIERARCHY, classifyQuestionTaxonomy } from '../utils/pyqTaxonomy';
 import {
@@ -52,10 +53,11 @@ export default function PYQExplorerView({
   const [lang, setLang] = useState('hi');
   const [page, setPage] = useState(1);
 
-  // Persistent Mastery & Bookmarks + Solution Toggle
+  // Persistent Mastery & Bookmarks + Solution Toggle + Report Modal
   const [progress, setProgress] = useState(() => loadPyqProgress());
   const [revealedSolutions, setRevealedSolutions] = useState({});
   const [quizSize, setQuizSize] = useState(10);
+  const [reportTarget, setReportTarget] = useState(null);
 
   const activeExam = useMemo(
     () => EXAM_HIERARCHY.find((e) => e.key === selectedExamKey) || EXAM_HIERARCHY[0],
@@ -957,13 +959,25 @@ export default function PYQExplorerView({
                         Reset Answer
                       </button>
                     )}
-                    <a
-                      href={`mailto:support@railwayprep.com?subject=${encodeURIComponent(`PYQ Issue Report: ${q._uid}`)}&body=${encodeURIComponent(`Shift: ${q._examName} - ${q._shiftName} (Q.${q.shiftQuestionNo || q.id})\nPlease describe issue:\n`)}`}
-                      className="text-slate-500 hover:text-rose-300 flex items-center gap-1"
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setReportTarget({
+                          uid: q._uid,
+                          testId: q._testId || null,
+                          shiftTitle: `${q._examName || ''} - ${q._shiftName || ''}`,
+                          questionNo: q.shiftQuestionNo || q.id,
+                          previewText:
+                            typeof q.question === 'object'
+                              ? q.question?.[lang] || q.question?.en || q.question?.hi || ''
+                              : String(q.question || ''),
+                        })
+                      }
+                      className="text-slate-400 hover:text-amber-300 flex items-center gap-1 cursor-pointer transition-colors"
                     >
                       <Flag className="w-3 h-3" />
                       <span>Report Issue</span>
-                    </a>
+                    </button>
                   </div>
                 </div>
 
@@ -1024,6 +1038,13 @@ export default function PYQExplorerView({
             </div>
           )}
         </div>
+      )}
+
+      {reportTarget && (
+        <ReportQuestionModal
+          targetQuestion={reportTarget}
+          onClose={() => setReportTarget(null)}
+        />
       )}
     </div>
   );
