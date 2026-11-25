@@ -2,39 +2,6 @@
  * Helper utilities for Topic-Wise PYQ Explorer & Instant Topic Quiz.
  */
 
-export const PYQ_EXAM_PACKS = [
-  {
-    key: 'alp2026',
-    label: '🎯 RRB ALP 2026 CBT-1',
-    shortLabel: 'ALP 2026',
-    filter: (t) => t.category === 'full-shift' && t.exam === 'RRB ALP 2026',
-  },
-  {
-    key: 'alp2025',
-    label: '⚡ RRB ALP 2025 CBT-1',
-    shortLabel: 'ALP 2025',
-    filter: (t) => t.category === 'full-shift' && t.exam === 'RRB ALP 2025',
-  },
-  {
-    key: 'cbt2PartA',
-    label: '🚀 ALP CBT-2 Part A',
-    shortLabel: 'CBT-2 Part A',
-    filter: (t) => t.stage === 'CBT-2' && t.category === 'official',
-  },
-  {
-    key: 'groupd',
-    label: '🚆 RRB Group D 2025',
-    shortLabel: 'Group D (48 Shifts)',
-    filter: (t) => t.examYear === 'groupd-2025' && t.category === 'full-mock',
-  },
-  {
-    key: 'trades',
-    label: '⚙️ CBT-2 Trades (Part B)',
-    shortLabel: 'ITI Trades',
-    filter: (t) => t.stage === 'CBT-2 Part B',
-  },
-];
-
 export const HOT_PYQ_KEYWORDS = [
   "Ohm's Law",
   'Newton',
@@ -49,20 +16,6 @@ export const HOT_PYQ_KEYWORDS = [
   'Light',
   'Series',
 ];
-
-export function normalizeTopicName(rawTopic, fallbackSection = 'General') {
-  if (!rawTopic || typeof rawTopic !== 'string') {
-    return fallbackSection || 'General';
-  }
-  // Strip trailing shift/cycle suffixes like "• RRB Group D Level-1 (03 Aug 2026 Shift 1)"
-  let cleaned = rawTopic.split('•')[0].trim();
-  // Strip trailing parenthetical shift date markers (closed or split by '•')
-  cleaned = cleaned.replace(/\s*\(\d{1,2}\s+\w+\s+\d{4}[^)]*\)?$/i, '').trim();
-  if (!cleaned || cleaned.length < 2) {
-    return fallbackSection || 'General';
-  }
-  return cleaned;
-}
 
 export function getPyqOptions(q, lang = 'hi') {
   if (!q || !q.options) return [];
@@ -82,9 +35,8 @@ export function getPyqCorrectIndex(q, lang = 'hi') {
   return q.correctIndex ?? 0;
 }
 
-export function buildCustomTopicQuiz({ packLabel, topicLabel, questions, maxQuestions = 10 }) {
+export function buildCustomTopicQuiz({ examLabel, subjectLabel, chapterLabel, topicLabel, questions, maxQuestions = 10 }) {
   const pool = [...questions];
-  // Shuffle deterministically-fair using Fisher-Yates so repeated quizzes feel fresh
   for (let i = pool.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [pool[i], pool[j]] = [pool[j], pool[i]];
@@ -99,20 +51,27 @@ export function buildCustomTopicQuiz({ packLabel, topicLabel, questions, maxQues
     originalId: q.id,
   }));
 
-  const titleTopic = topicLabel && topicLabel !== 'All' ? topicLabel : packLabel;
+  const drillTitle =
+    topicLabel && topicLabel !== 'All'
+      ? topicLabel
+      : chapterLabel && chapterLabel !== 'All'
+      ? chapterLabel
+      : subjectLabel && subjectLabel !== 'All'
+      ? subjectLabel
+      : examLabel || 'Railway PYQ Mix';
 
   return {
     id: `pyq_topic_${Date.now()}`,
     isCustomTopicQuiz: true,
     isFreeDemo: true,
-    title: `Topic Quiz: ${titleTopic} (${reindexed.length} PYQs)`,
-    subTitle: `Curated from Official Railway Answer Keys • Instant TCS iON CBT Drill`,
-    exam: packLabel || 'Railway PYQ Bank',
+    title: `${drillTitle} (${reindexed.length} PYQs)`,
+    subTitle: `${examLabel || 'Railway'} • Official Answer Key Questions • TCS iON CBT Drill`,
+    exam: examLabel || 'Railway PYQ Bank',
     stage: 'Topic Drill',
     category: 'topic-quiz',
-    badge: 'Topic PYQ Quiz',
+    badge: 'Chapter PYQ Mock',
     badgeColor: 'teal',
-    shiftDate: 'Official PYQ Mix',
+    shiftDate: 'Official PYQ Drill',
     durationMinutes: Math.max(5, reindexed.length),
     totalQuestions: reindexed.length,
     maxMarks: reindexed.length,
