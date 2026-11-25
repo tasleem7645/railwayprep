@@ -116,7 +116,7 @@ export default function Navbar({
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between gap-2 h-14 sm:h-16">
             {/* Left: Menu Trigger (Mobile/Tablet) + Brand Logo + Desktop Exam Goal Pill */}
-            <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+            <div className="flex items-center gap-2 sm:gap-2.5 shrink-0">
               <button
                 type="button"
                 onClick={() => setDrawerOpen(true)}
@@ -148,15 +148,15 @@ export default function Navbar({
                 </div>
               </button>
 
-              {/* Desktop / Tablet Exam Switcher */}
-              <div className="relative hidden md:block ml-1 shrink-0">
+              {/* Desktop Wide Exam Switcher (shown where ample width exists, also in Drawer & Home) */}
+              <div className="relative hidden 2xl:block ml-1 shrink-0">
                 <button
                   type="button"
                   onClick={() => setGoalDropdownOpen((prev) => !prev)}
                   className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-teal-500/50 text-xs text-slate-200 transition-colors cursor-pointer whitespace-nowrap"
                 >
                   <span className="w-2 h-2 rounded-full bg-teal-400 shrink-0" />
-                  <span className="font-bold text-white truncate max-w-[115px] xl:max-w-[140px]">{selectedGoal}</span>
+                  <span className="font-bold text-white truncate max-w-[125px]">{selectedGoal}</span>
                   <ChevronDown className="w-3.5 h-3.5 text-slate-400 shrink-0" />
                 </button>
 
@@ -242,7 +242,7 @@ export default function Navbar({
                 title="Join @RailwayPrep_Official on Telegram"
               >
                 <Send className="w-3.5 h-3.5 text-sky-400" />
-                <span>Telegram</span>
+                <span className="hidden 2xl:inline">Telegram</span>
               </a>
 
               {/* Pass Pro Pill */}
