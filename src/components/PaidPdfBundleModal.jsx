@@ -28,7 +28,7 @@ export default function PaidPdfBundleModal({ onClose }) {
     },
     {
       id: 'science_crux',
-      title: 'Neeraj Sir NCERT Class 9th & 10th Science Mind Maps',
+      title: 'NCERT Class 9th & 10th Science High-Yield Mind Maps',
       pages: '120+ Pages',
       price: 19,
       badge: 'Score 20/20 in Science',

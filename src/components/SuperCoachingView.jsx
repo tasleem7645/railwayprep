@@ -61,7 +61,7 @@ export default function SuperCoachingView({ onOpenPassPro, hasPassPro = false, h
             High-Yield Exam Notes & Formulas
           </h2>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
-            Neeraj Sir Science, Aditya Ranjan Sir Maths, and Reasoning mind maps designed for 85+ score in RRB NTPC & ALP.
+            High-Yield NCERT Science, 2-Second Maths Shortcuts, and Reasoning mind maps designed for 85+ score in RRB NTPC, Group D & ALP.
           </p>
         </div>
 

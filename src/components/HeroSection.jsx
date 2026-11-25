@@ -30,7 +30,7 @@ export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro
             </span> & Revision Hub
           </h1>
           <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
-            Real TCS iON exam simulation, negative marking analysis, Neeraj Sir high-yield science notes, and Aditya Ranjan Sir 2-second maths shortcuts — all in one platform.
+            Real TCS iON exam simulation, negative marking analysis, high-yield NCERT science notes, and 2-second maths shortcuts — all in one platform.
           </p>
 
           {/* Primary Action Buttons */}

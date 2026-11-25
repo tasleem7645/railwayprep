@@ -1,7 +1,7 @@
 export const SUPER_COACHING_DATA = [
   {
-    id: 'neeraj-sir-physics',
-    teacher: 'Neeraj Sir',
+    id: 'science-physics-optics',
+    teacher: 'RailwayPrep Science Team',
     role: 'Science Guru',
     subject: 'General Science',
     category: 'Physics',
@@ -27,8 +27,8 @@ export const SUPER_COACHING_DATA = [
     ]
   },
   {
-    id: 'neeraj-sir-electricity',
-    teacher: 'Neeraj Sir',
+    id: 'science-electricity-circuits',
+    teacher: 'RailwayPrep Science Team',
     role: 'Science Guru',
     subject: 'General Science',
     category: 'Physics',
@@ -50,8 +50,8 @@ export const SUPER_COACHING_DATA = [
     ]
   },
   {
-    id: 'aditya-ranjan-maths',
-    teacher: 'Aditya Ranjan Sir',
+    id: 'maths-rocket-tricks',
+    teacher: 'RailwayPrep Maths Team',
     role: 'Maths Wizard',
     subject: 'Mathematics',
     category: 'Arithmetic',
