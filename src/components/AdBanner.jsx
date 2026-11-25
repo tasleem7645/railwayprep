@@ -6,11 +6,12 @@ export default function AdBanner({
   slot = 'header', 
   onOpenPassPro, 
   onOpenPdfModal,
+  hideAds = false,
   className = '' 
 }) {
   const { adsense, payments, community } = MONETIZATION_CONFIG;
 
-  if (!adsense.enabled) return null;
+  if (!adsense.enabled || hideAds) return null;
 
   const isRealAdSenseActive = adsense.publisherId && !adsense.publisherId.includes('XXXX');
 

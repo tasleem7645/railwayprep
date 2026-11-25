@@ -173,10 +173,14 @@ export default function UserDashboardModal({
                       {hasPassPro ? (
                         <>
                           <Crown className="w-5 h-5 text-amber-400 fill-amber-400" />
-                          <span>Pass Pro Active (All 86+ Mocks Unlocked)</span>
+                          <span>
+                            {profile?.pass_pro_plan === 'paid'
+                              ? 'Ad-Free VIP Pass Pro Active (1 Year)'
+                              : 'Launch Referral Pro Active (90 Days)'}
+                          </span>
                         </>
                       ) : (
-                        <span>Free Plan (Shift 1 Demos Unlocked)</span>
+                        <span>Free Plan (Shifts 1–3 Unlocked)</span>
                       )}
                     </div>
                     {hasPassPro && profile?.pass_pro_expires_at && (
@@ -198,17 +202,24 @@ export default function UserDashboardModal({
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
                 <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
-                  <div className="text-slate-400">Account Sync</div>
-                  <div className="text-emerald-400 font-bold mt-1 flex items-center gap-1.5">
-                    <CheckCircle2 className="w-4 h-4" />
-                    <span>Cloud Sync Enabled (Phone & Laptop)</span>
+                  <div className="text-slate-400">Your Referral Code</div>
+                  <div className="text-teal-300 font-mono font-black text-sm mt-1">
+                    {profile?.referral_code || 'LOADING'}
                   </div>
                 </div>
                 <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
-                  <div className="text-slate-400">Registered Email</div>
-                  <div className="text-white font-semibold mt-1 truncate">{user?.email}</div>
+                  <div className="text-slate-400">Verified Referrals</div>
+                  <div className="text-amber-300 font-black text-sm mt-1">
+                    {profile?.referral_count || 0} / 4 Friends
+                  </div>
+                </div>
+                <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
+                  <div className="text-slate-400">Ads Status</div>
+                  <div className={`font-bold mt-1 ${profile?.pass_pro_plan === 'paid' ? 'text-emerald-400' : 'text-slate-300'}`}>
+                    {profile?.pass_pro_plan === 'paid' ? '100% Ad-Free VIP ✓' : 'Ad-Supported (Upgrade ₹49)'}
+                  </div>
                 </div>
               </div>
 

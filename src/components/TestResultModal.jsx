@@ -9,7 +9,7 @@ import {
 import AdBanner from './AdBanner';
 import QuestionContentRenderer from './QuestionContentRenderer';
 
-export default function TestResultModal({ result, onClose, onRetake, onOpenPassPro, onOpenMistakes }) {
+export default function TestResultModal({ result, onClose, onRetake, onOpenPassPro, onOpenMistakes, hideAds = false }) {
   const { test, answers, timeTakenSeconds } = result;
   
   // Tabs: 'overview' | 'solutions'
@@ -230,7 +230,7 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
         </div>
 
         {/* High-Converting Monetization / AdSlot */}
-        <AdBanner slot="result" onOpenPassPro={onOpenPassPro} />
+        <AdBanner slot="result" onOpenPassPro={onOpenPassPro} hideAds={hideAds} />
 
         {/* Tab Switcher: Overview vs Detailed Solutions */}
         <div className="flex border-b border-slate-800 mb-6">

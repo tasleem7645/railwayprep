@@ -175,14 +175,34 @@ export default function App() {
   const [authModalMessage, setAuthModalMessage] = useState('');
   const [isDashboardOpen, setIsDashboardOpen] = useState(false);
   const [hasPassPro, setHasPassPro] = useState(false);
+  const [campaignStatus, setCampaignStatus] = useState({ max_seats: 500, seats_claimed: 0, seats_left: 500, is_active: true });
   const [activeTest, setActiveTest] = useState(null);
   const [testResult, setTestResult] = useState(null);
   const [savedSession, setSavedSession] = useState(null);
+
+  const isPaidPro = Boolean(hasPassPro && profile?.pass_pro_plan === 'paid');
 
   const openAuthPrompt = (msg = '') => {
     setAuthModalMessage(msg);
     setIsAuthModalOpen(true);
   };
+
+  // Capture ?ref=CODE referral links on initial visit
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const ref = params.get('ref');
+      if (ref && ref.trim().length >= 4) {
+        localStorage.setItem('railwayprep_pending_ref', ref.trim().toUpperCase());
+      }
+      // Fetch live First-500 referral seat counter
+      supabase.rpc('get_referral_campaign_status').then(({ data }) => {
+        if (data && typeof data.seats_left === 'number') {
+          setCampaignStatus(data);
+        }
+      });
+    } catch (e) {}
+  }, []);
 
   const fetchUserProfile = async (userId) => {
     if (!userId) {
@@ -191,6 +211,15 @@ export default function App() {
       return;
     }
     try {
+      // Claim pending referral code if user signed up via OAuth / didn't link yet
+      const pendingRef = localStorage.getItem('railwayprep_pending_ref');
+      if (pendingRef) {
+        try {
+          await supabase.rpc('claim_referral', { p_ref_code: pendingRef });
+          localStorage.removeItem('railwayprep_pending_ref');
+        } catch (e) {}
+      }
+
       const { data } = await supabase
         .from('profiles')
         .select('*')
@@ -346,14 +375,33 @@ export default function App() {
     );
   };
 
+  // Tier 2: Shifts 2 & 3 of every exam are FREE after login (Lead Capture)
+  const isLoginFreeTest = (test) => {
+    if (!test) return false;
+    if (test.examYear === 'groupd-2025' || test.exam?.includes('Group D')) {
+      return test.groupDShiftNo === 2 || test.groupDShiftNo === 3;
+    }
+    return (
+      test.shiftName?.includes('Shift 2') ||
+      test.shiftName?.includes('Shift 3') ||
+      test.id?.includes('shift2') ||
+      test.id?.includes('shift-2') ||
+      test.id?.includes('shift3') ||
+      test.id?.includes('shift-3')
+    );
+  };
+
   // Returns: 'open' | 'login_required' | 'pass_pro_required'
   const getTestAccess = (test) => {
-    if (isGuestDemoTest(test)) return 'open';
+    if (isGuestDemoTest(test) || hasPassPro) return 'open';
+    if (isLoginFreeTest(test)) {
+      return session?.user ? 'open' : 'login_required';
+    }
+    if (MONETIZATION_CONFIG.payments.enablePaywall) {
+      return 'pass_pro_required';
+    }
     if (MONETIZATION_CONFIG.payments.requireLoginForRemaining && !session?.user) {
       return 'login_required';
-    }
-    if (MONETIZATION_CONFIG.payments.enablePaywall && !hasPassPro) {
-      return 'pass_pro_required';
     }
     return 'open';
   };
@@ -527,7 +575,8 @@ export default function App() {
               <AdBanner 
                 slot="header" 
                 onOpenPassPro={() => setIsPassProOpen(true)} 
-                onOpenPdfModal={() => setIsPdfModalOpen(true)} 
+                onOpenPdfModal={() => setIsPdfModalOpen(true)}
+                hideAds={isPaidPro}
               />
             </div>
 
@@ -1111,7 +1160,8 @@ export default function App() {
             <AdBanner 
               slot="header" 
               onOpenPassPro={() => setIsPassProOpen(true)} 
-              onOpenPdfModal={() => setIsPdfModalOpen(true)} 
+              onOpenPdfModal={() => setIsPdfModalOpen(true)}
+              hideAds={isPaidPro}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -1263,35 +1313,56 @@ export default function App() {
           <SuperCoachingView 
             onOpenPassPro={() => setIsPassProOpen(true)} 
             hasPassPro={hasPassPro}
+            hideAds={isPaidPro}
             user={session?.user || null}
             onOpenAuth={openAuthPrompt}
           />
         )}
 
         {activeTab === 'syllabus' && (
-          <SyllabusView
-            onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
-            onOpenPassPro={() => setIsPassProOpen(true)}
-            activeExamId={activeExamId}
-          />
+          <>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+              <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+            </div>
+            <SyllabusView
+              onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
+              onOpenPassPro={() => setIsPassProOpen(true)}
+              activeExamId={activeExamId}
+            />
+          </>
         )}
 
         {activeTab === 'daily-quiz' && (
-          <DailyQuizView 
-            onOpenPassPro={() => setIsPassProOpen(true)} 
-            onOpenMistakes={() => setIsMistakeModalOpen(true)} 
-          />
+          <>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+              <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+            </div>
+            <DailyQuizView 
+              onOpenPassPro={() => setIsPassProOpen(true)} 
+              onOpenMistakes={() => setIsMistakeModalOpen(true)} 
+            />
+          </>
         )}
 
         {activeTab === 'books' && (
-          <AffiliateBooksSection />
+          <>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+              <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+            </div>
+            <AffiliateBooksSection />
+          </>
         )}
 
         {activeTab === 'tools' && (
-          <AspirantToolsHub 
-            onStartMock={() => handleStartMock(RAILWAY_TESTS[0])} 
-            onOpenPassPro={() => setIsPassProOpen(true)} 
-          />
+          <>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+              <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+            </div>
+            <AspirantToolsHub 
+              onStartMock={() => handleStartMock(RAILWAY_TESTS[0])} 
+              onOpenPassPro={() => setIsPassProOpen(true)} 
+            />
+          </>
         )}
       </main>
 
@@ -1323,6 +1394,7 @@ export default function App() {
           onRetake={handleRetakeTest}
           onOpenPassPro={() => setIsPassProOpen(true)}
           onOpenMistakes={() => setIsMistakeModalOpen(true)}
+          hideAds={isPaidPro}
         />
       )}
 
@@ -1338,7 +1410,9 @@ export default function App() {
       {isPassProOpen && (
         <PassProModal 
           user={session?.user || null}
+          profile={profile}
           hasPassPro={hasPassPro}
+          campaignStatus={campaignStatus}
           onClose={() => setIsPassProOpen(false)} 
           onOpenAuth={(msg) => { setIsPassProOpen(false); openAuthPrompt(msg); }}
           onUnlockSuccess={() => session?.user?.id && fetchUserProfile(session.user.id)}

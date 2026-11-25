@@ -1,43 +1,29 @@
 import React, { useState } from 'react';
 import { SUPER_COACHING_DATA } from '../data/superCoachingData';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
+import AdBanner from './AdBanner';
 import { 
   BookOpen, Sparkles, Zap, Award, Download, Clock, 
   ChevronRight, Filter, Search, CheckCircle2, Printer, Copy, Check, Crown, X, Lock, LogIn
 } from 'lucide-react';
 
-export default function SuperCoachingView({ onOpenPassPro, hasPassPro = false, user = null, onOpenAuth }) {
+export default function SuperCoachingView({ onOpenPassPro, hasPassPro = false, hideAds = false, user = null, onOpenAuth }) {
   const [selectedSubject, setSelectedSubject] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeNote, setActiveNote] = useState(SUPER_COACHING_DATA[0]);
   const [showExportModal, setShowExportModal] = useState(false);
   const [copiedAll, setCopiedAll] = useState(false);
 
-  const isNotesUnlocked =
-    hasPassPro ||
-    (!MONETIZATION_CONFIG.payments.enablePaywall && Boolean(user));
-
-  const isNoteFreeDemo = (note) => note.id === SUPER_COACHING_DATA[0]?.id;
+  // Study Notes reading is 100% open for SEO & AdSense; PDF Download/Print unlocks with Pass Pro
+  const isPdfUnlocked = hasPassPro;
 
   const handleSelectNote = (note) => {
-    if (isNoteFreeDemo(note) || isNotesUnlocked) {
-      setActiveNote(note);
-    } else if (!user && MONETIZATION_CONFIG.payments.requireLoginForRemaining) {
-      if (onOpenAuth) {
-        onOpenAuth('🎁 Launch Offer: Sabhi High-Yield Chapter Notes aur PDFs FREE unlock karne ke liye Student Login karein!');
-      }
-    } else {
-      onOpenPassPro();
-    }
+    setActiveNote(note);
   };
 
   const handleDownloadClick = () => {
-    if (isNotesUnlocked) {
+    if (isPdfUnlocked) {
       setShowExportModal(true);
-    } else if (!user && MONETIZATION_CONFIG.payments.requireLoginForRemaining) {
-      if (onOpenAuth) {
-        onOpenAuth('🎁 Launch Offer: Sabhi Chapter Notes PDF FREE download karne ke liye Student Login karein!');
-      }
     } else {
       onOpenPassPro();
     }
@@ -83,24 +69,21 @@ export default function SuperCoachingView({ onOpenPassPro, hasPassPro = false, u
           onClick={handleDownloadClick}
           className="self-start md:self-auto px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-xs flex items-center gap-2 shadow-lg shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all cursor-pointer"
         >
-          {isNotesUnlocked ? (
+          {isPdfUnlocked ? (
             <>
               <Printer className="w-4 h-4" />
               <span>Print / Export Chapter Notes PDF</span>
             </>
-          ) : !user && MONETIZATION_CONFIG.payments.requireLoginForRemaining ? (
-            <>
-              <LogIn className="w-4 h-4" />
-              <span>Free PDF Export (Login Required)</span>
-            </>
           ) : (
             <>
               <Download className="w-4 h-4" />
-              <span>Download All Notes in 1 PDF (Pass Pro)</span>
+              <span>Download All Notes PDF (Pass Pro / Refer 4)</span>
             </>
           )}
         </button>
       </div>
+
+      <AdBanner slot="inFeedNative" onOpenPassPro={onOpenPassPro} hideAds={hideAds} />
 
       {/* Filter Tabs & Search */}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 my-6">
@@ -144,7 +127,6 @@ export default function SuperCoachingView({ onOpenPassPro, hasPassPro = false, u
             return matchSub && matchSearch;
           }).map(note => {
             const isSelected = activeNote.id === note.id;
-            const isLocked = !isNoteFreeDemo(note) && !isNotesUnlocked;
             return (
               <div
                 key={note.id}
@@ -159,15 +141,9 @@ export default function SuperCoachingView({ onOpenPassPro, hasPassPro = false, u
                   <span className="text-[11px] font-bold px-2 py-0.5 rounded bg-teal-500/20 text-teal-300">
                     {note.teacher} • {note.role}
                   </span>
-                  {isLocked ? (
-                    <span className="text-[10px] font-bold text-amber-300 flex items-center gap-1 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30">
-                      <Lock className="w-3 h-3" /> Free w/ Login
-                    </span>
-                  ) : (
-                    <span className="text-[10px] text-slate-400 flex items-center gap-1">
-                      <Clock className="w-3 h-3" /> {note.readTime}
-                    </span>
-                  )}
+                  <span className="text-[10px] text-slate-400 flex items-center gap-1">
+                    <Clock className="w-3 h-3" /> {note.readTime}
+                  </span>
                 </div>
 
                 <h4 className="text-sm font-bold text-white line-clamp-1">{note.title}</h4>

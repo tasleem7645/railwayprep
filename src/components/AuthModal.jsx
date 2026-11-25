@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { X, Mail, Lock, User, LogIn, UserPlus, Sparkles, AlertCircle, CheckCircle2, Train } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { X, Mail, Lock, User, LogIn, UserPlus, Sparkles, AlertCircle, CheckCircle2, Train, Gift } from 'lucide-react';
 import { supabase } from '../lib/supabaseClient';
 
 export default function AuthModal({ onClose, onAuthSuccess, initialMessage = '' }) {
@@ -7,9 +7,20 @@ export default function AuthModal({ onClose, onAuthSuccess, initialMessage = '' 
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [refCode, setRefCode] = useState('');
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
+
+  useEffect(() => {
+    try {
+      const pendingRef = localStorage.getItem('railwayprep_pending_ref');
+      if (pendingRef) {
+        setRefCode(pendingRef);
+        setMode('signup');
+      }
+    } catch (e) {}
+  }, []);
 
   const handleGoogleLogin = async () => {
     setErrorMsg('');
@@ -43,7 +54,10 @@ export default function AuthModal({ onClose, onAuthSuccess, initialMessage = '' 
           email: email.trim(),
           password,
           options: {
-            data: { full_name: fullName.trim() },
+            data: {
+              full_name: fullName.trim(),
+              referred_by_code: refCode.trim() ? refCode.trim().toUpperCase() : null,
+            },
             emailRedirectTo: window.location.origin,
           },
         });
@@ -154,20 +168,35 @@ export default function AuthModal({ onClose, onAuthSuccess, initialMessage = '' 
         {/* Email Form */}
         <form onSubmit={handleEmailAuth} className="space-y-3.5">
           {mode === 'signup' && (
-            <div>
-              <label className="block text-[11px] font-bold text-slate-400 mb-1">Full Name</label>
-              <div className="relative">
-                <User className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                <input
-                  type="text"
-                  value={fullName}
-                  onChange={(e) => setFullName(e.target.value)}
-                  placeholder="e.g. Rahul Kumar"
-                  required
-                  className="w-full pl-10 pr-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-teal-500"
-                />
+            <>
+              <div>
+                <label className="block text-[11px] font-bold text-slate-400 mb-1">Full Name</label>
+                <div className="relative">
+                  <User className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    value={fullName}
+                    onChange={(e) => setFullName(e.target.value)}
+                    placeholder="e.g. Rahul Kumar"
+                    required
+                    className="w-full pl-10 pr-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-teal-500"
+                  />
+                </div>
               </div>
-            </div>
+              <div>
+                <label className="block text-[11px] font-bold text-slate-400 mb-1">Referral Code (Optional)</label>
+                <div className="relative">
+                  <Gift className="w-4 h-4 text-amber-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    value={refCode}
+                    onChange={(e) => setRefCode(e.target.value.toUpperCase())}
+                    placeholder="Friend's Referral Code (e.g. A1B2C3)"
+                    className="w-full pl-10 pr-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-amber-300 font-mono uppercase focus:outline-none focus:border-amber-500"
+                  />
+                </div>
+              </div>
+            </>
           )}
 
           <div>

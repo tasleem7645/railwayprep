@@ -13,9 +13,19 @@ export const MONETIZATION_CONFIG = {
     pdfBundlePrice: 29, // In INR (₹29 per PDF bundle)
     superComboPrice: 69, // In INR (Pass Pro + All PDFs)
     whatsappSupportNumber: '+919876543210', // Optional WhatsApp support number
-    enablePaywall: false, // Launch Growth Mode: false = FREE after login; set true later to enable ₹49 Pass Pro paywall
-    requireLoginForRemaining: true, // Shift 1 / Demo of each exam & section opens without login; all remaining tests open FREE after login!
+    enablePaywall: true, // Tier 1 (Shift 1 Demos + Notes) Open; Tier 2 (Shifts 2-3) Free w/ Login; Tier 3 (Shifts 4-48) Pass Pro OR 4 Referrals!
+    requireLoginForRemaining: true, // Tier 2 requires Free Student Login
     razorpayKeyId: '', // Add your Razorpay Live Key ID (e.g., 'rzp_live_XXXX') once KYC is approved
+  },
+
+  // 1B. VIRAL REFERRAL ENGINE (First-Come-First-Serve 500 Winners)
+  referral: {
+    enabled: true,
+    requiredCount: 4,
+    maxSeats: 500,
+    rewardMonths: 3,
+    mode: 'first_come_free_pro', // Later switch to 'paid_commission' when 500 seats fill
+    commissionPerPaidInvite: 10,
   },
 
   // 2. GOOGLE ADSENSE & AD NETWORKS
