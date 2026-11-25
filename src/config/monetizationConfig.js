@@ -14,7 +14,7 @@ export const MONETIZATION_CONFIG = {
     superComboPrice: 69, // In INR (Pass Pro + All PDFs)
     whatsappSupportNumber: '+919876543210', // Optional WhatsApp support number
     enablePaywall: true, // Set to true to lock shifts 2-10 behind Pass Pro, or false to keep all free
-    secretAdminCode: 'PASS2026', // Use this or any 12-digit UPI UTR to instantly unlock Pass Pro on any device
+    razorpayKeyId: '', // Add your Razorpay Live Key ID (e.g., 'rzp_live_XXXX') once KYC is approved
   },
 
   // 2. GOOGLE ADSENSE & AD NETWORKS
@@ -29,7 +29,7 @@ export const MONETIZATION_CONFIG = {
     // If AdSense is not yet approved, it displays high-converting sponsorship & PDF promotion banners
     fallbackPromo: {
       showFallback: true,
-      sponsorContactEmail: 'advertise@railwayprep.in',
+      sponsorContactEmail: 'support@railwayprep.com',
     }
   },
 
@@ -97,6 +97,6 @@ export const MONETIZATION_CONFIG = {
     telegramChannelUrl: 'https://t.me/railwayprep_official',
     telegramChannelName: '@RailwayPrep_Official',
     membersCount: '34,500+ Aspirants',
-    emailContact: 'support@railwayprep.in',
+    emailContact: 'support@railwayprep.com',
   }
 };

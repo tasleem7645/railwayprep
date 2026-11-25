@@ -193,6 +193,13 @@ export default function Footer({
             </button>
             <span>•</span>
             <button 
+              onClick={() => onOpenLegalModal('refund')}
+              className="hover:text-slate-300 transition-colors cursor-pointer"
+            >
+              Refund Policy
+            </button>
+            <span>•</span>
+            <button 
               onClick={() => onOpenLegalModal('disclaimer')}
               className="hover:text-slate-300 transition-colors cursor-pointer"
             >

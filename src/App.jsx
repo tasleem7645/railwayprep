@@ -15,6 +15,9 @@ import AffiliateBooksSection from './components/AffiliateBooksSection';
 import PaidPdfBundleModal from './components/PaidPdfBundleModal';
 import AspirantToolsHub from './components/AspirantToolsHub';
 import MistakeNotebookModal from './components/MistakeNotebookModal';
+import AuthModal from './components/AuthModal';
+import UserDashboardModal from './components/UserDashboardModal';
+import { supabase } from './lib/supabaseClient';
 import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
 import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
@@ -166,25 +169,91 @@ export default function App() {
   const [isPdfModalOpen, setIsPdfModalOpen] = useState(false);
   const [isMistakeModalOpen, setIsMistakeModalOpen] = useState(false);
   const [legalModalTab, setLegalModalTab] = useState(null);
-  const [hasPassPro, setHasPassPro] = useState(() => {
-    try {
-      return localStorage.getItem('railwayprep_pass_pro_active') === 'true';
-    } catch (e) {
-      return false;
-    }
-  });
+  const [session, setSession] = useState(null);
+  const [profile, setProfile] = useState(null);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [authModalMessage, setAuthModalMessage] = useState('');
+  const [isDashboardOpen, setIsDashboardOpen] = useState(false);
+  const [hasPassPro, setHasPassPro] = useState(false);
   const [activeTest, setActiveTest] = useState(null);
   const [testResult, setTestResult] = useState(null);
   const [savedSession, setSavedSession] = useState(null);
+
+  const openAuthPrompt = (msg = '') => {
+    setAuthModalMessage(msg);
+    setIsAuthModalOpen(true);
+  };
+
+  const fetchUserProfile = async (userId) => {
+    if (!userId) {
+      setProfile(null);
+      setHasPassPro(false);
+      return;
+    }
+    try {
+      const { data } = await supabase
+        .from('profiles')
+        .select('*')
+        .eq('id', userId)
+        .single();
+      if (data) {
+        setProfile(data);
+        const notExpired = !data.pass_pro_expires_at || new Date(data.pass_pro_expires_at) > new Date();
+        setHasPassPro(Boolean(data.is_pass_pro && notExpired));
+      }
+      // Also restore cloud saved incomplete test session if none locally
+      const { data: cloudSess } = await supabase
+        .from('saved_sessions')
+        .select('*')
+        .eq('user_id', userId)
+        .single();
+      if (cloudSess?.session_data && !localStorage.getItem('railwayprep_active_test_session')) {
+        localStorage.setItem('railwayprep_active_test_session', JSON.stringify(cloudSess.session_data));
+        setSavedSession(cloudSess.session_data);
+      }
+    } catch (e) {
+      console.warn('Profile sync notice:', e);
+    }
+  };
+
+  // Listen to Supabase Auth State
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session: curSession } }) => {
+      setSession(curSession);
+      if (curSession?.user?.id) {
+        fetchUserProfile(curSession.user.id);
+      }
+    });
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, newSession) => {
+      setSession(newSession);
+      if (newSession?.user?.id) {
+        fetchUserProfile(newSession.user.id);
+      } else {
+        setProfile(null);
+        setHasPassPro(false);
+      }
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setSession(null);
+    setProfile(null);
+    setHasPassPro(false);
+    setIsDashboardOpen(false);
+  };
 
   // Restore test session if user refreshes or returns
   useEffect(() => {
     try {
       const saved = localStorage.getItem('railwayprep_active_test_session');
       if (saved) {
-        const session = JSON.parse(saved);
-        if (session && session.testId) {
-          setSavedSession(session);
+        const parsedSession = JSON.parse(saved);
+        if (parsedSession && parsedSession.testId) {
+          setSavedSession(parsedSession);
         }
       }
     } catch (e) {
@@ -192,9 +261,19 @@ export default function App() {
     }
   }, []);
 
-  const handlePauseAndExit = (session) => {
-    setSavedSession(session);
+  const handlePauseAndExit = async (sessionData) => {
+    setSavedSession(sessionData);
     setActiveTest(null);
+    if (session?.user?.id && sessionData?.testId) {
+      try {
+        await supabase.from('saved_sessions').upsert({
+          user_id: session.user.id,
+          test_id: sessionData.testId,
+          session_data: sessionData,
+          updated_at: new Date().toISOString(),
+        });
+      } catch (e) {}
+    }
   };
 
   const handleResumeTest = (testId) => {
@@ -209,11 +288,16 @@ export default function App() {
     }
   };
 
-  const handleDiscardSavedSession = () => {
+  const handleDiscardSavedSession = async () => {
     try {
       localStorage.removeItem('railwayprep_active_test_session');
     } catch (e) {}
     setSavedSession(null);
+    if (session?.user?.id) {
+      try {
+        await supabase.from('saved_sessions').delete().eq('user_id', session.user.id);
+      } catch (e) {}
+    }
   };
 
   const yearTests = RAILWAY_TESTS.filter(test => {
@@ -280,13 +364,57 @@ export default function App() {
     setActiveTest(null);
   };
 
-  const handleSubmitTest = (resultData) => {
+  const handleSubmitTest = async (resultData) => {
     try {
       localStorage.removeItem('railwayprep_active_test_session');
     } catch (e) {}
     setSavedSession(null);
     setActiveTest(null);
     setTestResult(resultData);
+
+    // Sync test attempt to Supabase Cloud if logged in
+    if (session?.user?.id && resultData?.test) {
+      try {
+        const { test, answers, timeTakenSeconds } = resultData;
+        let correctCount = 0;
+        let wrongCount = 0;
+        let unattemptedCount = 0;
+        test.questions.forEach((q) => {
+          const userAns = answers[q.id];
+          if (userAns === undefined) {
+            unattemptedCount++;
+          } else {
+            const isCorrect =
+              userAns === q.correctIndex ||
+              (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+            if (isCorrect) correctCount++;
+            else wrongCount++;
+          }
+        });
+        const pos = test.positiveMarks || 1;
+        const neg = test.negativeMarks || 0.33;
+        const rawScore = Number((correctCount * pos - wrongCount * neg).toFixed(2));
+        const attempted = correctCount + wrongCount;
+        const accuracy = attempted > 0 ? Number(((correctCount / attempted) * 100).toFixed(2)) : 0;
+
+        await supabase.from('saved_sessions').delete().eq('user_id', session.user.id);
+        await supabase.from('test_attempts').insert({
+          user_id: session.user.id,
+          test_id: test.id,
+          test_title: test.title,
+          score: rawScore,
+          total_marks: test.totalMarks || test.questions.length * pos,
+          correct_count: correctCount,
+          wrong_count: wrongCount,
+          unattempted_count: unattemptedCount,
+          accuracy,
+          time_taken_seconds: timeTakenSeconds || 0,
+          answers_json: answers,
+        });
+      } catch (e) {
+        console.warn('Cloud test attempt sync notice:', e);
+      }
+    }
   };
 
   const handleRetakeTest = () => {
@@ -313,6 +441,11 @@ export default function App() {
         setSelectedLang={setSelectedLang}
         selectedGoal={selectedGoal}
         onSelectGoal={handleSelectGoal}
+        user={session?.user || null}
+        profile={profile}
+        hasPassPro={hasPassPro}
+        onOpenAuth={() => openAuthPrompt('')}
+        onOpenDashboard={() => setIsDashboardOpen(true)}
       />
 
       {/* Main Content Areas */}
@@ -1162,8 +1295,36 @@ export default function App() {
       {/* Pass Pro Subscription Modal */}
       {isPassProOpen && (
         <PassProModal 
+          user={session?.user || null}
+          hasPassPro={hasPassPro}
           onClose={() => setIsPassProOpen(false)} 
-          onUnlockSuccess={() => setHasPassPro(true)}
+          onOpenAuth={(msg) => { setIsPassProOpen(false); openAuthPrompt(msg); }}
+          onUnlockSuccess={() => session?.user?.id && fetchUserProfile(session.user.id)}
+        />
+      )}
+
+      {/* Auth Login / Sign Up Modal */}
+      {isAuthModalOpen && (
+        <AuthModal
+          initialMessage={authModalMessage}
+          onClose={() => setIsAuthModalOpen(false)}
+          onAuthSuccess={(newSession) => {
+            setSession(newSession);
+            if (newSession?.user?.id) fetchUserProfile(newSession.user.id);
+          }}
+        />
+      )}
+
+      {/* Student Dashboard & Admin Payment Verification Modal */}
+      {isDashboardOpen && session?.user && (
+        <UserDashboardModal
+          user={session.user}
+          profile={profile}
+          hasPassPro={hasPassPro}
+          onClose={() => setIsDashboardOpen(false)}
+          onLogout={handleLogout}
+          onOpenPassPro={() => setIsPassProOpen(true)}
+          onRefreshProfile={() => fetchUserProfile(session.user.id)}
         />
       )}
 

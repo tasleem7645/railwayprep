@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { 
   Train, Sparkles, Crown, Search, Globe, ChevronDown, 
   Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText, ShoppingBag,
-  Calculator, Bookmark
+  Calculator, Bookmark, LogIn
 } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 
@@ -15,7 +15,12 @@ export default function Navbar({
   selectedLang, 
   setSelectedLang,
   selectedGoal = 'RRB ALP (Loco Pilot 2026)',
-  onSelectGoal
+  onSelectGoal,
+  user = null,
+  profile = null,
+  hasPassPro = false,
+  onOpenAuth,
+  onOpenDashboard
 }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [goalDropdownOpen, setGoalDropdownOpen] = useState(false);
@@ -196,9 +201,35 @@ export default function Navbar({
               className="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3.5 py-1.5 rounded-lg bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 text-xs font-extrabold shadow-md shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all cursor-pointer"
             >
               <Crown className="w-3.5 h-3.5 fill-slate-950" />
-              <span>PASS PRO</span>
-              <span className="bg-slate-950/20 px-1 py-0.2 rounded text-[10px] hidden sm:inline">₹{MONETIZATION_CONFIG.payments.passProPrice}</span>
+              <span>{hasPassPro ? 'PRO ACTIVE' : 'PASS PRO'}</span>
+              {!hasPassPro && (
+                <span className="bg-slate-950/20 px-1 py-0.2 rounded text-[10px] hidden sm:inline">₹{MONETIZATION_CONFIG.payments.passProPrice}</span>
+              )}
             </button>
+
+            {/* User Login / Profile Account Button */}
+            {user ? (
+              <button
+                onClick={onOpenDashboard}
+                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-teal-500/40 hover:border-teal-400 text-xs font-bold text-white transition-all cursor-pointer"
+                title={user.email}
+              >
+                <span className="w-5 h-5 rounded-full bg-gradient-to-tr from-teal-500 to-emerald-400 text-slate-950 font-black flex items-center justify-center text-[10px] uppercase shrink-0">
+                  {(profile?.full_name || user?.email || 'U').charAt(0)}
+                </span>
+                <span className="hidden md:inline max-w-[90px] truncate">
+                  {profile?.full_name?.split(' ')[0] || user?.email?.split('@')[0]}
+                </span>
+              </button>
+            ) : (
+              <button
+                onClick={onOpenAuth}
+                className="flex items-center gap-1 px-2.5 sm:px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700 hover:border-teal-400 text-xs font-bold text-teal-300 hover:text-white transition-all cursor-pointer"
+              >
+                <LogIn className="w-3.5 h-3.5" />
+                <span>Login</span>
+              </button>
+            )}
 
             {/* Mobile menu toggle */}
             <button
@@ -292,13 +323,30 @@ export default function Navbar({
             <span>📖 Recommended Topper Books</span>
           </button>
 
-          <div className="pt-4">
+          <div className="pt-4 space-y-2.5">
+            {user ? (
+              <button
+                onClick={() => { onOpenDashboard(); setMobileMenuOpen(false); }}
+                className="w-full py-3 rounded-xl bg-slate-900 border border-teal-500/40 text-white font-bold text-sm flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <User className="w-4 h-4 text-teal-400" />
+                <span>My Dashboard ({profile?.full_name || user?.email?.split('@')[0]})</span>
+              </button>
+            ) : (
+              <button
+                onClick={() => { onOpenAuth(); setMobileMenuOpen(false); }}
+                className="w-full py-3 rounded-xl bg-slate-900 border border-teal-500/40 text-teal-300 font-bold text-sm flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <LogIn className="w-4 h-4" />
+                <span>Student Login / Free Sign Up</span>
+              </button>
+            )}
             <button
               onClick={() => { onOpenPassPro(); setMobileMenuOpen(false); }}
               className="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-sm text-center flex items-center justify-center gap-2 shadow-xl shadow-amber-500/20 cursor-pointer"
             >
               <Crown className="w-4 h-4 fill-slate-950" />
-              <span>Upgrade to Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice}/Year)</span>
+              <span>{hasPassPro ? 'Pass Pro Active ✓' : `Upgrade to Pass Pro (₹${MONETIZATION_CONFIG.payments.passProPrice}/Year)`}</span>
             </button>
           </div>
         </div>

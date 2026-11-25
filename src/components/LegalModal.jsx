@@ -38,6 +38,7 @@ export default function LegalModal({ initialTab = 'privacy', onClose }) {
           {[
             { key: 'privacy', label: 'Privacy Policy', icon: ShieldCheck },
             { key: 'terms', label: 'Terms of Service', icon: FileText },
+            { key: 'refund', label: 'Refund Policy', icon: CheckCircle2 },
             { key: 'disclaimer', label: 'Government Disclaimer', icon: AlertTriangle },
             { key: 'contact', label: 'Contact & Grievance', icon: Mail }
           ].map(t => {
@@ -69,7 +70,7 @@ export default function LegalModal({ initialTab = 'privacy', onClose }) {
               <h3 className="text-sm font-bold text-white">Privacy Policy for RailwayRanker PRO</h3>
               <p>Last updated: November 2026</p>
               <p>
-                At <strong>RailwayRanker PRO</strong> (accessible from railwayprep.vercel.app), your privacy is one of our main priorities. This Privacy Policy document outlines the types of information collected and how it is used.
+                At <strong>RailwayRanker PRO</strong> (accessible from <span className="text-teal-400">https://railwayprep.com</span>), your privacy is one of our main priorities. This Privacy Policy document outlines the types of information collected and how it is used.
               </p>
               
               <h4 className="text-xs font-bold text-teal-400 uppercase tracking-wide">1. Information We Collect</h4>
@@ -115,6 +116,32 @@ export default function LegalModal({ initialTab = 'privacy', onClose }) {
               <h4 className="text-xs font-bold text-teal-400 uppercase tracking-wide">3. Pass Pro & Digital Purchases</h4>
               <p>
                 Pass Pro and PDF study material purchases provide digital access to educational features. If you experience any technical issues in accessing paid content, our grievance support team will resolve it within 24–48 hours via email or Telegram.
+              </p>
+            </div>
+          )}
+
+          {/* TAB: REFUND & CANCELLATION POLICY (Razorpay / Cashfree KYC Compliant) */}
+          {activeLegalTab === 'refund' && (
+            <div className="space-y-4 animate-in fade-in">
+              <h3 className="text-sm font-bold text-white">Refund & Cancellation Policy</h3>
+              <p>Last updated: November 2026</p>
+              <p>
+                Thank you for choosing <strong>RailwayRanker PRO (https://railwayprep.com)</strong> for your competitive exam preparation.
+              </p>
+
+              <h4 className="text-xs font-bold text-teal-400 uppercase tracking-wide">1. Digital Subscription & Mock Tests</h4>
+              <p>
+                Pass Pro memberships and PDF study bundles are instant digital educational services. Since access to all mock tests and study materials is unlocked digitally upon payment, standard cancellations after activation are generally not applicable.
+              </p>
+
+              <h4 className="text-xs font-bold text-teal-400 uppercase tracking-wide">2. Duplicate / Failed Transactions</h4>
+              <p>
+                If money was deducted from your bank/UPI account due to a network error or duplicate transaction and Pass Pro was not activated within 24 hours, you are eligible for a <strong>100% full refund</strong>. Refunds are processed within 5–7 business days to your original payment method.
+              </p>
+
+              <h4 className="text-xs font-bold text-teal-400 uppercase tracking-wide">3. How to Request a Refund or Activation Help</h4>
+              <p>
+                Email your transaction ID / UTR number and registered account email to <strong className="text-teal-300">{community.emailContact}</strong>. Our support team responds within 24 hours.
               </p>
             </div>
           )}
