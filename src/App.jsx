@@ -4,6 +4,9 @@ import HeroSection from './components/HeroSection';
 import DailyQuizCard from './components/DailyQuizCard';
 import Footer from './components/Footer';
 import AdBanner from './components/AdBanner';
+import TestCard from './components/TestCard';
+import HomeShowcaseSections from './components/HomeShowcaseSections';
+import MobileBottomNav from './components/MobileBottomNav';
 import { supabase } from './lib/supabaseClient';
 import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
@@ -14,7 +17,7 @@ import { isEphemeralQuizId } from './utils/mistakeTestBuilder';
 import { lazyWithRetry, forceFreshReload, isChunkLoadError, triggerOneTimeChunkReload } from './utils/chunkRecovery';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
-  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench, Train
+  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench, Train, Search, X
 } from 'lucide-react';
 
 // Lazy-loaded heavy views & modals with automatic stale-chunk retry
@@ -180,6 +183,8 @@ export default function App() {
   const [tradeFilter, setTradeFilter] = useState('all'); // 'all' | tradeKey
   const [testFilter, setTestFilter] = useState('all'); // 'all' | 'official' | 'sectional'
   const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | specific shift
+  const [mockSearchQuery, setMockSearchQuery] = useState('');
+  const [visibleCatalogCount, setVisibleCatalogCount] = useState(12);
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [isPdfModalOpen, setIsPdfModalOpen] = useState(false);
   const [isMistakeModalOpen, setIsMistakeModalOpen] = useState(false);
@@ -407,11 +412,23 @@ export default function App() {
   ];
 
   const filteredTests = yearTests.filter(test => {
-    const matchesCategory = testFilter === 'all' || test.category === testFilter;
+    const matchesCategory =
+      testFilter === 'all' ||
+      (testFilter === 'full-shift' ? test.category !== 'sectional' : test.category === testFilter);
     const matchesShift = shiftFilter === 'all' || test.shiftName === shiftFilter;
     const matchesTrade = tradeFilter === 'all' || test.tradeKey === tradeFilter;
-    return matchesCategory && matchesShift && matchesTrade;
+    const q = mockSearchQuery.trim().toLowerCase();
+    const matchesSearch =
+      !q ||
+      [test.title, test.subTitle, test.shiftName, test.trade, test.exam, test.badge]
+        .filter(Boolean)
+        .some((v) => String(v).toLowerCase().includes(q));
+    return matchesCategory && matchesShift && matchesTrade && matchesSearch;
   });
+
+  useEffect(() => {
+    setVisibleCatalogCount(12);
+  }, [yearFilter, tradeFilter, testFilter, shiftFilter, mockSearchQuery]);
 
   // Shift 1 / Demo test of EVERY exam & EVERY section is open without login
   const isGuestDemoTest = (test) => {
@@ -589,7 +606,7 @@ export default function App() {
 
   return (
     <ErrorBoundary>
-      <div className="min-h-screen bg-[#070B18] text-slate-100 flex flex-col font-['Plus_Jakarta_Sans',sans-serif]">
+      <div className="min-h-screen bg-[#070B18] text-slate-100 flex flex-col font-['Plus_Jakarta_Sans',sans-serif] overflow-x-clip">
       {/* Top Navigation */}
       <Navbar
         activeTab={activeTab}
@@ -597,6 +614,7 @@ export default function App() {
         onOpenPassPro={() => setIsPassProOpen(true)}
         onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
         onOpenMistakes={() => setIsMistakeModalOpen(true)}
+        onOpenPdfModal={() => setIsPdfModalOpen(true)}
         selectedLang={selectedLang}
         setSelectedLang={setSelectedLang}
         selectedGoal={selectedGoal}
@@ -689,397 +707,77 @@ export default function App() {
               />
             </div>
 
-            {/* Test Series Section on Home */}
-            <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-              <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
-                <div>
-                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-xs font-bold uppercase mb-2">
-                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                    <span>Live All-India Test Series</span>
-                  </div>
-                  <h2 className="text-2xl sm:text-3xl font-black text-white">
-                    Trending Railway Mock Tests
-                  </h2>
-                  <p className="text-xs sm:text-sm text-slate-400 mt-1">
-                    Authentic TCS iON CBT software interface with detailed Hindi/English solutions.
-                  </p>
-                </div>
-
-                <div className="flex items-center gap-3">
-                  <button
-                    onClick={() => setActiveTab('syllabus')}
-                    className="text-xs font-bold text-sky-400 hover:text-sky-300 flex items-center gap-1 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800 cursor-pointer"
-                  >
-                    <FileText className="w-3.5 h-3.5" />
-                    <span>View Exam Syllabus</span>
-                  </button>
-                  <button
-                    onClick={() => setActiveTab('mock-tests')}
-                    className="text-xs font-bold text-teal-400 hover:text-teal-300 flex items-center gap-1.5 cursor-pointer"
-                  >
-                    <span>View All Tests</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
-                </div>
-              </div>
-
-              {/* Exam Cycle / Year Filter Tabs */}
-              <div className="flex flex-wrap items-center gap-2 mb-4">
-                <span className="text-xs font-bold text-slate-400 mr-1 flex items-center gap-1">
-                  <Sparkles className="w-3.5 h-3.5 text-teal-400" />
-                  <span>Exam Cycle:</span>
-                </span>
-                <button
-                  onClick={() => { setYearFilter('all'); setShiftFilter('all'); }}
-                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                    yearFilter === 'all'
-                      ? 'bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-black shadow-md shadow-teal-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  All Exams ({RAILWAY_TESTS.length})
-                </button>
-                <button
-                  onClick={() => { setYearFilter('2026'); setShiftFilter('all'); }}
-                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                    yearFilter === '2026'
-                      ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  🎯 RRB ALP 2026 CBT-1 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025').length} Tests • 9 Shifts)
-                </button>
-                <button
-                  onClick={() => { setYearFilter('2025'); setShiftFilter('all'); }}
-                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                    yearFilter === '2025'
-                      ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black shadow-md shadow-indigo-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && t.stage !== 'CBT-2').length} Tests • 10 Shifts)
-                </button>
-                <button
-                  onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                    yearFilter === 'cbt2'
-                      ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-slate-950 font-black shadow-md shadow-rose-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  🚀 RRB ALP CBT-2 Part A ({RAILWAY_TESTS.filter(t => (t.examYear === 'cbt2' || t.stage === 'CBT-2') && t.stage !== 'CBT-2 Part B').length} Tests • 2 Shifts • 100 Qs)
-                </button>
-                <button
-                  onClick={() => { setYearFilter('cbt2-part-b'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                    yearFilter === 'cbt2-part-b'
-                      ? 'bg-gradient-to-r from-blue-500 to-cyan-400 text-slate-950 font-black shadow-md shadow-blue-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  ⚙️ ALP CBT-2 Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length} Tests • 15 Trades • 75 Qs)
-                </button>
-                <button
-                  onClick={() => { setYearFilter('groupd-2025'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                    yearFilter === 'groupd-2025'
-                      ? 'bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 font-black shadow-md shadow-emerald-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  🚆 RRB Group D 2025 ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length} Tests • 48 Shifts • 100 Qs)
-                </button>
-              </div>
-
-              {/* Trade Selector Filter Tabs when Part B is selected or in All */}
-              {(yearFilter === 'cbt2-part-b' || (yearFilter === 'all' && tradeFilter !== 'all')) && (
-                <div className="mb-5 p-4 rounded-2xl bg-gradient-to-r from-blue-950/40 via-slate-900/90 to-slate-900/80 border border-blue-500/30">
-                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
-                    <span className="text-xs font-bold text-blue-300 flex items-center gap-1.5">
-                      <Wrench className="w-4 h-4 text-cyan-400" />
-                      <span>Select Technical Trade (Qualifying Paper • 35% Qualifying Marks):</span>
-                    </span>
-                    <span className="text-[11px] font-semibold text-slate-400">
-                      {tradeFilter === 'all' ? 'All 15 Trades' : CBT2_PART_B_TRADES.find(t => t.key === tradeFilter)?.name}
-                    </span>
-                  </div>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <button
-                      onClick={() => setTradeFilter('all')}
-                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        tradeFilter === 'all'
-                          ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      All Trades (30)
-                    </button>
-                    {CBT2_PART_B_TRADES.map(t => {
-                      const count = RAILWAY_TESTS.filter(test => test.tradeKey === t.key).length;
-                      return (
-                        <button
-                          key={t.key}
-                          onClick={() => setTradeFilter(t.key)}
-                          className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
-                            tradeFilter === t.key
-                              ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
-                              : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                          }`}
-                        >
-                          <span>{t.name}</span>
-                          <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
-                            tradeFilter === t.key ? 'bg-slate-950/60 text-white font-extrabold' : 'bg-slate-800 text-slate-400'
-                          }`}>
-                            {count}
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-
-              {/* Group D Sub-filter Tabs when groupd-2025 is selected */}
-              {yearFilter === 'groupd-2025' && (
-                <div className="mb-5 p-4 rounded-2xl bg-gradient-to-r from-emerald-950/40 via-slate-900/90 to-slate-900/80 border border-emerald-500/30">
-                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
-                    <span className="text-xs font-bold text-emerald-300 flex items-center gap-1.5">
-                      <Train className="w-4 h-4 text-emerald-400" />
-                      <span>RRB Group D 2025 Level-1 (CEN 09/2025): 48 Shifts • 100 Qs • Section Switching Flexibility</span>
-                    </span>
-                    <span className="text-[11px] font-semibold text-emerald-400/90 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/30">
-                      ⚡ Shift 1 is 100% Free Demo (Full + 4 Sectionals)
-                    </span>
-                  </div>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <button
-                      onClick={() => { setTestFilter('all'); setShiftFilter('all'); }}
-                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'all' && shiftFilter === 'all'
-                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      All Group D Tests ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
-                    </button>
-                    <button
-                      onClick={() => { setTestFilter('full-mock'); setShiftFilter('all'); }}
-                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'full-mock'
-                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      Full Papers (48 Shifts • 100 Qs)
-                    </button>
-                    <button
-                      onClick={() => { setTestFilter('sectional'); setShiftFilter('all'); }}
-                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'sectional'
-                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      Shift 1 Sectionals (Science, Maths, Reasoning, GA)
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              {/* Shift Selector Filter Tabs on Home */}
-              <div className="flex flex-wrap items-center gap-2 mb-6">
-                <span className="text-xs font-bold text-slate-400 mr-1 flex items-center gap-1">
-                  <Filter className="w-3.5 h-3.5 text-teal-400" />
-                  <span>Filter by Shift:</span>
-                </span>
-                {availableShifts.map(s => (
-                  <button
-                    key={s.key}
-                    onClick={() => setShiftFilter(s.key)}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                      shiftFilter === s.key
-                        ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/20'
-                        : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                    }`}
-                  >
-                    {s.label}
-                  </button>
-                ))}
-              </div>
-
-              {/* Test Cards Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredTests.map((test) => {
-                  const free = isTestFree(test);
-                  return (
-                    <div
-                      key={test.id}
-                      className={`p-6 rounded-3xl bg-slate-900/70 border transition-all shadow-xl group flex flex-col justify-between ${
-                        !free && !hasPassPro ? 'border-amber-500/20 hover:border-amber-500/50' : 'border-slate-800 hover:border-teal-500/50 hover:bg-slate-900'
-                      }`}
-                    >
-                      <div>
-                        <div className="flex items-center justify-between mb-3">
-                          <div className="flex items-center gap-1.5 flex-wrap">
-                            <span className={`text-[11px] font-extrabold uppercase px-2.5 py-1 rounded-full border ${
-                              test.badgeColor === 'teal' 
-                                ? 'bg-teal-500/20 text-teal-300 border-teal-500/40'
-                                : test.badgeColor === 'indigo'
-                                ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
-                                : test.badgeColor === 'purple'
-                                ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
-                                : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
-                            }`}>
-                              {test.badge}
-                            </span>
-                            {getTestAccess(test) === 'open' ? (
-                              <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
-                                {isGuestDemoTest(test) ? 'FREE DEMO' : 'FREE UNLOCKED'}
-                              </span>
-                            ) : getTestAccess(test) === 'login_required' ? (
-                              <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-teal-500/15 text-teal-300 border border-teal-500/40 flex items-center gap-1">
-                                <Lock className="w-3 h-3" />
-                                <span>FREE WITH LOGIN</span>
-                              </span>
-                            ) : (
-                              <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
-                                <Lock className="w-3 h-3" />
-                                <span>PASS PRO</span>
-                              </span>
-                            )}
-                          </div>
-                          <span className="text-xs text-slate-400 font-semibold">
-                            {test.shiftTime || 'CBT MOCK'}
-                          </span>
-                        </div>
-
-                        <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-teal-300 transition-colors line-clamp-2">
-                          {test.title}
-                        </h3>
-
-                        <div className="grid grid-cols-3 gap-2 py-4 my-4 border-y border-slate-800/80 text-center text-xs">
-                          <div>
-                            <div className="text-slate-400 text-[10px]">Questions</div>
-                            <div className="font-bold text-white mt-0.5">{test.totalQuestions} Qs</div>
-                          </div>
-                          <div>
-                            <div className="text-slate-400 text-[10px]">Max Marks</div>
-                            <div className="font-bold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
-                          </div>
-                          <div>
-                            <div className="text-slate-400 text-[10px]">Time</div>
-                            <div className="font-bold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
-                          </div>
-                        </div>
-
-                        <div className="text-[11px] text-slate-400 space-y-1">
-                          <div className="flex items-center gap-1.5">
-                            <CheckCircle2 className="w-3.5 h-3.5 text-teal-400" />
-                            <span className="text-teal-300 font-medium">{test.sectionSummary || 'Official Railway CBT Pattern'}</span>
-                          </div>
-                          <div className="flex items-center gap-1.5">
-                            <CheckCircle2 className="w-3.5 h-3.5 text-teal-400" />
-                            <span>Marking: +1.00 / Negative: -0.33</span>
-                          </div>
-                        </div>
-                      </div>
-
-                      {getTestAccess(test) === 'login_required' ? (
-                        <button
-                          onClick={() => handleStartMock(test)}
-                          className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-teal-500/20 to-emerald-500/20 hover:from-teal-500 hover:to-emerald-500 text-teal-300 hover:text-slate-950 border border-teal-500/50 font-black text-xs flex items-center justify-center gap-2 transition-all cursor-pointer"
-                        >
-                          <Lock className="w-4 h-4" />
-                          <span>Free Unlock with Login (Launch Offer)</span>
-                        </button>
-                      ) : getTestAccess(test) === 'pass_pro_required' ? (
-                        <button
-                          onClick={() => setIsPassProOpen(true)}
-                          className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-950/40 transition-all cursor-pointer"
-                        >
-                          <Lock className="w-4 h-4" />
-                          <span>Unlock with Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice})</span>
-                        </button>
-                      ) : savedSession?.testId === test.id ? (
-                        <button
-                          disabled={Boolean(loadingTestId)}
-                          onClick={() => handleResumeTest(test.id)}
-                          className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-950/40 transition-all cursor-pointer animate-pulse disabled:opacity-60"
-                        >
-                          <Play className="w-4 h-4 fill-slate-950" />
-                          <span>
-                            {loadingTestId === test.id
-                              ? 'Loading Questions...'
-                              : `Resume Test (Q.${savedSession.currentIndex + 1} से जारी रखें)`}
-                          </span>
-                        </button>
-                      ) : (
-                        <button
-                          disabled={Boolean(loadingTestId)}
-                          onClick={() => handleStartMock(test)}
-                          className="mt-6 w-full py-3 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-teal-950 transition-all cursor-pointer disabled:opacity-60"
-                        >
-                          <Play className="w-4 h-4 fill-slate-950" />
-                          <span>{loadingTestId === test.id ? 'Loading Shift...' : 'Attempt CBT Mock Test Now'}</span>
-                        </button>
-                      )}
-                    </div>
-                  );
-                })}
-
-                {/* Card 2: Pass Pro Upgrade Card */}
-                <div className="p-6 rounded-3xl bg-gradient-to-b from-amber-500/10 via-slate-900 to-slate-950 border border-amber-500/40 shadow-xl flex flex-col justify-between text-center">
-                  <div>
-                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-300 mx-auto mb-3">
-                      <Crown className="w-6 h-6 fill-amber-300" />
-                    </div>
-                    <h3 className="text-lg font-black text-white">Unlock 50+ Full Mock Tests</h3>
-                    <p className="text-xs text-slate-400 mt-1">
-                      Get full CBT access for RRB NTPC, ALP CBT-2, Group D with All-India Rank.
-                    </p>
-                    <div className="my-4 text-2xl font-black text-amber-400">
-                      ₹49 <span className="text-xs text-slate-400 font-normal">/ Full Year</span>
-                    </div>
-                  </div>
-
-                  <button
-                    onClick={() => setIsPassProOpen(true)}
-                    className="w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-950 cursor-pointer"
-                  >
-                    <span>Upgrade to Pass Pro</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
-                </div>
-              </div>
-            </section>
+            {/* Compact Testbook-style Home Sections (Series Carousel, Quick Dock, 3 Free Demos, Notes Strip) */}
+            <HomeShowcaseSections
+              railwayTests={RAILWAY_TESTS}
+              onSelectExamTrack={(yearKey) => {
+                setYearFilter(yearKey);
+                setShiftFilter('all');
+                setTradeFilter('all');
+                setTestFilter('all');
+                setActiveTab('mock-tests');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              onOpenTab={(tab) => {
+                setActiveTab(tab);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              onStartMock={handleStartMock}
+              onResumeTest={handleResumeTest}
+              onDiscardSavedSession={handleDiscardSavedSession}
+              onOpenPassPro={() => setIsPassProOpen(true)}
+              onOpenPdfModal={() => setIsPdfModalOpen(true)}
+              onOpenMistakes={() => setIsMistakeModalOpen(true)}
+              getTestAccess={getTestAccess}
+              isGuestDemoTest={isGuestDemoTest}
+              savedSession={savedSession}
+              loadingTestId={loadingTestId}
+            />
 
             {/* Daily Quiz Streak Section */}
-            <DailyQuizCard onStartMock={() => setActiveTab('daily-quiz')} />
-
-            {/* SuperCoaching Highlights */}
-            <Suspense fallback={null}>
-              <SuperCoachingView onOpenPassPro={() => setIsPassProOpen(true)} hasPassPro={hasPassPro} />
-            </Suspense>
+            <DailyQuizCard onStartMock={() => setActiveTab('daily-quiz')} studyStreak={studyStreak} />
           </>
         )}
 
         {activeTab === 'mock-tests' && (
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-            <div className="text-center max-w-3xl mx-auto mb-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
+            <div className="text-center max-w-3xl mx-auto mb-6 sm:mb-8">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-300 font-extrabold text-xs mb-3">
                 <Sparkles className="w-3.5 h-3.5 text-teal-400" />
-                <span>Testbook & TCS iON CBT Engine • Bilingual Bilingual Tests</span>
+                <span>TCS iON CBT Engine • {RAILWAY_TESTS.length} Bilingual Mock Tests</span>
               </div>
               <h2 className="text-2xl sm:text-4xl font-black text-white">Railway Exam All-India CBT Test Series</h2>
               <p className="text-xs sm:text-sm text-slate-400 mt-2">
                 Simulated on authentic TCS iON software layout with bilingual per-question toggle, 1/3rd negative marking, and detailed solutions.
               </p>
 
+              {/* Search Box inside Catalog */}
+              <div className="relative max-w-xl mx-auto mt-5">
+                <Search className="w-4 h-4 text-teal-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={mockSearchQuery}
+                  onChange={(e) => setMockSearchQuery(e.target.value)}
+                  placeholder="Search exam, shift date, trade (e.g. 03 Nov, Group D, Electrician)..."
+                  className="w-full pl-10 pr-9 py-2.5 rounded-xl bg-slate-900 border border-slate-700 focus:border-teal-400 text-xs sm:text-sm text-white focus:outline-none"
+                />
+                {mockSearchQuery && (
+                  <button
+                    type="button"
+                    onClick={() => setMockSearchQuery('')}
+                    aria-label="Clear search"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white cursor-pointer"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+
               {/* Exam Cycle Filter Tabs */}
-              <div className="flex flex-wrap items-center justify-center gap-2 mt-6">
+              <div className="flex items-center justify-start sm:justify-center gap-2 mt-5 overflow-x-auto pb-1 no-scrollbar">
                 <button
-                  onClick={() => { setYearFilter('all'); setShiftFilter('all'); }}
-                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                  onClick={() => { setYearFilter('all'); setShiftFilter('all'); setTradeFilter('all'); }}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
                     yearFilter === 'all'
                       ? 'bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 shadow-md shadow-teal-500/20'
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
@@ -1088,54 +786,54 @@ export default function App() {
                   All Exams ({RAILWAY_TESTS.length})
                 </button>
                 <button
-                  onClick={() => { setYearFilter('2026'); setShiftFilter('all'); }}
-                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                  onClick={() => { setYearFilter('2026'); setShiftFilter('all'); setTradeFilter('all'); }}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
                     yearFilter === '2026'
                       ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-400/20'
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  🎯 RRB ALP 2026 CBT-1 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025').length} Tests • 9 Shifts)
+                  🎯 RRB ALP 2026 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025').length})
                 </button>
                 <button
-                  onClick={() => { setYearFilter('2025'); setShiftFilter('all'); }}
-                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                  onClick={() => { setYearFilter('2025'); setShiftFilter('all'); setTradeFilter('all'); }}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
                     yearFilter === '2025'
                       ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow-md shadow-indigo-500/20'
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  ⚡ RRB ALP 2025 CBT-1 ({RAILWAY_TESTS.filter(t => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && t.stage !== 'CBT-2').length} Tests • 10 Shifts)
+                  ⚡ ALP 2025 ({RAILWAY_TESTS.filter(t => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && !t.stage?.includes('CBT-2')).length})
                 </button>
                 <button
                   onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
                     yearFilter === 'cbt2'
                       ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-slate-950 shadow-md shadow-rose-500/20'
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  🚀 RRB ALP CBT-2 Part A ({RAILWAY_TESTS.filter(t => (t.examYear === 'cbt2' || t.stage === 'CBT-2') && t.stage !== 'CBT-2 Part B').length} Tests • 2 Shifts • 100 Qs)
+                  🚀 CBT-2 Part A ({RAILWAY_TESTS.filter(t => (t.examYear === 'cbt2' || t.stage === 'CBT-2') && t.stage !== 'CBT-2 Part B').length})
                 </button>
                 <button
                   onClick={() => { setYearFilter('cbt2-part-b'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
                     yearFilter === 'cbt2-part-b'
                       ? 'bg-gradient-to-r from-blue-500 to-cyan-400 text-slate-950 shadow-md shadow-blue-500/20'
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  ⚙️ ALP CBT-2 Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length} Tests • 15 Trades • 75 Qs)
+                  ⚙️ Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length})
                 </button>
                 <button
                   onClick={() => { setYearFilter('groupd-2025'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
                     yearFilter === 'groupd-2025'
                       ? 'bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 shadow-md shadow-emerald-500/20'
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  🚆 RRB Group D 2025 ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length} Tests • 48 Shifts • 100 Qs)
+                  🚆 Group D ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
                 </button>
               </div>
 
@@ -1151,10 +849,10 @@ export default function App() {
                       {tradeFilter === 'all' ? 'All 15 Trades' : CBT2_PART_B_TRADES.find(t => t.key === tradeFilter)?.name}
                     </span>
                   </div>
-                  <div className="flex flex-wrap items-center justify-center gap-2">
+                  <div className="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto pb-1 no-scrollbar">
                     <button
                       onClick={() => setTradeFilter('all')}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer shrink-0 ${
                         tradeFilter === 'all'
                           ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
                           : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
@@ -1168,7 +866,7 @@ export default function App() {
                         <button
                           key={t.key}
                           onClick={() => setTradeFilter(t.key)}
-                          className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                          className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
                             tradeFilter === t.key
                               ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
                               : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
@@ -1193,10 +891,10 @@ export default function App() {
                   <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
                     <span className="text-xs font-bold text-emerald-300 flex items-center gap-1.5">
                       <Train className="w-4 h-4 text-emerald-400" />
-                      <span>RRB Group D 2025 Level-1 (CEN 09/2025): 48 Shifts • 100 Qs • Section Switching Flexibility</span>
+                      <span>RRB Group D 2025 Level-1: 48 Shifts • 100 Qs</span>
                     </span>
                     <span className="text-[11px] font-semibold text-emerald-400/90 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/30">
-                      ⚡ Shift 1 is 100% Free Demo (Full + 4 Sectionals)
+                      ⚡ Shift 1 is Free Demo
                     </span>
                   </div>
                   <div className="flex flex-wrap items-center justify-center gap-2">
@@ -1208,12 +906,12 @@ export default function App() {
                           : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                       }`}
                     >
-                      All Group D Tests ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
+                      All Group D ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
                     </button>
                     <button
-                      onClick={() => { setTestFilter('full-mock'); setShiftFilter('all'); }}
+                      onClick={() => { setTestFilter('full-shift'); setShiftFilter('all'); }}
                       className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'full-mock'
+                        testFilter === 'full-shift'
                           ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
                           : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                       }`}
@@ -1228,19 +926,19 @@ export default function App() {
                           : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                       }`}
                     >
-                      Shift 1 Sectionals (Science, Maths, Reasoning, GA)
+                      Shift 1 Sectionals
                     </button>
                   </div>
                 </div>
               )}
 
               {/* Shift Filter Tabs */}
-              <div className="flex items-center justify-center gap-2 mt-4 overflow-x-auto no-scrollbar">
+              <div className="flex items-center justify-start sm:justify-center gap-2 mt-4 overflow-x-auto pb-1 no-scrollbar">
                 {availableShifts.map(s => (
                   <button
                     key={s.key}
                     onClick={() => setShiftFilter(s.key)}
-                    className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
+                    className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer shrink-0 ${
                       shiftFilter === s.key
                         ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/20'
                         : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
@@ -1252,16 +950,16 @@ export default function App() {
               </div>
 
               {/* Category Filter Tabs */}
-              <div className="flex items-center justify-center gap-2 mt-3 overflow-x-auto no-scrollbar">
+              <div className="flex items-center justify-start sm:justify-center gap-2 mt-3 overflow-x-auto pb-1 no-scrollbar">
                 {[
                   { key: 'all', label: `All Test Types (${shiftFilter === 'all' ? yearTests.length : yearTests.filter(t => t.shiftName === shiftFilter).length})` },
-                  { key: 'full-shift', label: `Full Shift Official Papers (${shiftFilter === 'all' ? yearTests.filter(t => t.category === 'full-shift').length : yearTests.filter(t => t.shiftName === shiftFilter && t.category === 'full-shift').length})` },
+                  { key: 'full-shift', label: `Full Shift Papers (${shiftFilter === 'all' ? yearTests.filter(t => t.category !== 'sectional').length : yearTests.filter(t => t.shiftName === shiftFilter && t.category !== 'sectional').length})` },
                   { key: 'sectional', label: `Sectional Tests (${shiftFilter === 'all' ? yearTests.filter(t => t.category === 'sectional').length : yearTests.filter(t => t.shiftName === shiftFilter && t.category === 'sectional').length})` }
                 ].map(f => (
                   <button
                     key={f.key}
                     onClick={() => setTestFilter(f.key)}
-                    className={`px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    className={`px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer shrink-0 ${
                       testFilter === f.key
                         ? 'bg-teal-500 text-slate-950 shadow-lg shadow-teal-500/20'
                         : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
@@ -1281,155 +979,55 @@ export default function App() {
               hideAds={isPaidPro}
             />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredTests.map(test => {
-                const free = isTestFree(test);
-                return (
-                  <div 
-                    key={test.id} 
-                    className={`p-6 rounded-3xl bg-slate-900/80 border transition-all shadow-xl flex flex-col justify-between group ${
-                      !free && !hasPassPro ? 'border-amber-500/20 hover:border-amber-500/50' : 'border-slate-800 hover:border-teal-500/50 hover:bg-slate-900'
-                    }`}
-                  >
-                    <div>
-                      <div className="flex justify-between items-center mb-3">
-                        <div className="flex items-center gap-1.5 flex-wrap">
-                          <span className={`text-[11px] font-extrabold uppercase px-2.5 py-0.5 rounded-full border ${
-                            test.badgeColor === 'teal' 
-                              ? 'bg-teal-500/20 text-teal-300 border-teal-500/40'
-                              : test.badgeColor === 'indigo'
-                              ? 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
-                              : test.badgeColor === 'purple'
-                              ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
-                              : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
-                          }`}>
-                            {test.badge}
-                          </span>
-                          {getTestAccess(test) === 'open' ? (
-                            <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
-                              {isGuestDemoTest(test) ? 'FREE DEMO' : 'FREE UNLOCKED'}
-                            </span>
-                          ) : getTestAccess(test) === 'login_required' ? (
-                            <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-teal-500/15 text-teal-300 border border-teal-500/40 flex items-center gap-1">
-                              <Lock className="w-3 h-3" />
-                              <span>FREE W/ LOGIN</span>
-                            </span>
-                          ) : (
-                            <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
-                              <Lock className="w-3 h-3" />
-                              <span>PASS PRO</span>
-                            </span>
-                          )}
-                        </div>
-                        <span className="text-xs font-semibold text-slate-400">
-                          {test.shiftTime || 'TCS iON CBT'}
-                        </span>
-                      </div>
+            {filteredTests.length === 0 ? (
+              <div className="text-center py-12 rounded-3xl bg-slate-900/50 border border-slate-800 space-y-3">
+                <div className="text-base font-bold text-white">No mock tests matched your search / filter.</div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setYearFilter('all');
+                    setShiftFilter('all');
+                    setTradeFilter('all');
+                    setTestFilter('all');
+                    setMockSearchQuery('');
+                  }}
+                  className="px-4 py-2 rounded-xl bg-teal-500 text-slate-950 font-black text-xs cursor-pointer"
+                >
+                  Reset All Filters
+                </button>
+              </div>
+            ) : (
+              <>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+                  {filteredTests.slice(0, visibleCatalogCount).map((test) => (
+                    <TestCard
+                      key={test.id}
+                      test={test}
+                      accessStatus={getTestAccess(test)}
+                      isGuestDemo={isGuestDemoTest(test)}
+                      savedSession={savedSession}
+                      loadingTestId={loadingTestId}
+                      onStartMock={handleStartMock}
+                      onResumeTest={handleResumeTest}
+                      onDiscardSavedSession={handleDiscardSavedSession}
+                      onOpenPassPro={() => setIsPassProOpen(true)}
+                    />
+                  ))}
+                </div>
 
-                      <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-teal-300 transition-colors mb-1.5">
-                        {test.title}
-                      </h3>
-                      <p className="text-xs text-slate-400 mb-4 line-clamp-2">
-                        {test.subTitle}
-                      </p>
-
-                      {/* Stats Grid */}
-                      <div className="grid grid-cols-3 gap-2 py-3 px-2 rounded-xl bg-slate-950/60 border border-slate-800/80 text-center text-xs mb-4">
-                        <div>
-                          <div className="text-slate-400 text-[10px]">Questions</div>
-                          <div className="font-extrabold text-white mt-0.5">{test.totalQuestions} Qs</div>
-                        </div>
-                        <div>
-                          <div className="text-slate-400 text-[10px]">Max Marks</div>
-                          <div className="font-extrabold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
-                        </div>
-                        <div>
-                          <div className="text-slate-400 text-[10px]">Duration</div>
-                          <div className="font-extrabold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
-                        </div>
-                      </div>
-
-                      {/* Features list */}
-                      <div className="text-[11px] text-slate-400 space-y-1.5 mb-5">
-                        <div className="flex items-center gap-2">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                          <span className="text-teal-300 font-semibold">{test.sectionSummary}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                          <span>Bilingual (English & हिन्दी with per-question toggle)</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                          <span>Negative: -{test.negativeMarks} mark • Positive: +{test.positiveMarks}</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Action Buttons: Open vs Login Required vs Locked with Pass Pro */}
-                    {getTestAccess(test) === 'login_required' ? (
-                      <div className="pt-2 border-t border-slate-800">
-                        <button
-                          onClick={() => handleStartMock(test)}
-                          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-teal-500/20 to-emerald-500/20 hover:from-teal-500 hover:to-emerald-500 text-teal-300 hover:text-slate-950 font-black text-xs border border-teal-500/50 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
-                        >
-                          <Lock className="w-3.5 h-3.5" />
-                          <span>Free Unlock with Login (Launch Offer)</span>
-                        </button>
-                      </div>
-                    ) : getTestAccess(test) === 'pass_pro_required' ? (
-                      <div className="pt-2 border-t border-slate-800">
-                        <button
-                          onClick={() => setIsPassProOpen(true)}
-                          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 font-black text-xs shadow-md shadow-amber-500/20 hover:scale-[1.01] active:scale-98 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
-                        >
-                          <Lock className="w-3.5 h-3.5" />
-                          <span>Unlock with Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice})</span>
-                        </button>
-                      </div>
-                    ) : savedSession?.testId === test.id ? (
-                      <div className="space-y-2 pt-2 border-t border-slate-800">
-                        <button
-                          disabled={Boolean(loadingTestId)}
-                          onClick={() => handleResumeTest(test.id)}
-                          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs shadow-md shadow-amber-950/40 transition-all flex items-center justify-center gap-1.5 cursor-pointer animate-pulse disabled:opacity-60"
-                        >
-                          <Play className="w-3.5 h-3.5 fill-slate-950" />
-                          <span>
-                            {loadingTestId === test.id
-                              ? 'Loading Questions...'
-                              : `Resume Test (Q.${savedSession.currentIndex + 1} से जारी रखें)`}
-                          </span>
-                        </button>
-                        <div className="flex items-center justify-between text-[10px] px-1 text-slate-400">
-                          <span>प्रगति सुरक्षित • {Object.keys(savedSession.answers || {}).length} हल</span>
-                          <button onClick={handleDiscardSavedSession} className="text-rose-400 hover:underline">Restart (शुरू से)</button>
-                        </div>
-                      </div>
-                    ) : (
-                      <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
-                        <button
-                          disabled={Boolean(loadingTestId)}
-                          onClick={() => handleStartMock(test, 'hi')}
-                          className="py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950/50 transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-60"
-                        >
-                          <Play className="w-3.5 h-3.5 fill-slate-950" />
-                          <span>{loadingTestId === test.id ? 'Loading...' : 'हिंदी में दें'}</span>
-                        </button>
-                        <button
-                          disabled={Boolean(loadingTestId)}
-                          onClick={() => handleStartMock(test, 'en')}
-                          className="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 hover:text-white font-bold text-xs border border-slate-700 transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-60"
-                        >
-                          <Globe className="w-3.5 h-3.5" />
-                          <span>{loadingTestId === test.id ? 'Loading...' : 'In English'}</span>
-                        </button>
-                      </div>
-                    )}
+                {visibleCatalogCount < filteredTests.length && (
+                  <div className="mt-8 text-center">
+                    <button
+                      type="button"
+                      onClick={() => setVisibleCatalogCount((c) => c + 12)}
+                      className="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-teal-500/40 text-teal-300 font-black text-xs cursor-pointer shadow-lg transition-all"
+                    >
+                      Show More Tests ({filteredTests.length - visibleCatalogCount} Remaining) ↓
+                    </button>
                   </div>
-                );
-              })}
-            </div>
+                )}
+              </>
+            )}
           </div>
         )}
 
@@ -1525,6 +1123,17 @@ export default function App() {
         onOpenLegalModal={(tab) => setLegalModalTab(tab)}
         onOpenMistakes={() => setIsMistakeModalOpen(true)}
         onNavigateTab={handleNavigateFromFooter}
+      />
+
+      {/* Testbook-style Mobile Sticky Bottom Navigation */}
+      <MobileBottomNav
+        activeTab={activeTab}
+        onSelectTab={setActiveTab}
+        onOpenPassPro={() => setIsPassProOpen(true)}
+        onOpenDashboard={() => setIsDashboardOpen(true)}
+        onOpenAuth={() => openAuthPrompt('')}
+        user={session?.user || null}
+        hasPassPro={hasPassPro}
       />
 
       {/* Instant non-blocking CBT shift loader toast */}

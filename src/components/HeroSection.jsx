@@ -6,50 +6,50 @@ import {
 
 export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro }) {
   return (
-    <div className="relative overflow-hidden pt-8 pb-14 border-b border-slate-800/60">
+    <div className="relative overflow-hidden pt-5 pb-9 sm:pt-8 sm:pb-12 border-b border-slate-800/60">
       {/* Background radial glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 bg-gradient-to-b from-teal-500/15 via-emerald-500/5 to-transparent blur-3xl pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Target Badge */}
-        <div className="flex justify-center lg:justify-start mb-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-950/60 border border-teal-500/40 text-teal-300 text-xs font-semibold shadow-lg shadow-teal-900/30">
-            <Sparkles className="w-3.5 h-3.5 text-teal-400 animate-pulse" />
+        <div className="flex justify-center lg:justify-start mb-4 sm:mb-5">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-teal-950/60 border border-teal-500/40 text-teal-300 text-[11px] sm:text-xs font-semibold shadow-lg shadow-teal-900/30">
+            <Sparkles className="w-3.5 h-3.5 text-teal-400 animate-pulse shrink-0" />
             <span>Target Exam: RRB ALP 2026 (CBT-1 & 2) • Group D • NTPC</span>
-            <span className="bg-teal-500/30 text-teal-200 text-[10px] px-1.5 py-0.5 rounded-full font-bold">New Exam Pattern</span>
+            <span className="bg-teal-500/30 text-teal-200 text-[10px] px-1.5 py-0.5 rounded-full font-bold hidden sm:inline">Live 2026</span>
           </div>
         </div>
 
         {/* Two-column Branded Hero Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
           {/* Left Copy & Primary CTAs */}
           <div className="lg:col-span-7 text-center lg:text-left">
-            <h1 className="text-3xl sm:text-5xl lg:text-[3.25rem] font-black text-white tracking-tight leading-[1.15]">
-              India's #1 Dedicated <br className="hidden sm:block" />
+            <h1 className="text-2xl sm:text-4xl lg:text-[3.15rem] font-black text-white tracking-tight leading-[1.15]">
+              India&apos;s #1 Dedicated <br className="hidden sm:block" />
               <span className="bg-gradient-to-r from-teal-400 via-emerald-400 to-teal-300 bg-clip-text text-transparent">
                 Railway CBT Simulator
-              </span> & Revision Hub
+              </span> &amp; Revision Hub
             </h1>
-            <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl mx-auto lg:mx-0">
+            <p className="mt-3 sm:mt-4 text-sm sm:text-base lg:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl mx-auto lg:mx-0">
               Real TCS iON exam simulation, negative marking analysis, high-yield NCERT science notes, and 2-second maths shortcuts — built for RailwayPrep aspirants.
             </p>
 
             {/* Primary Action Buttons */}
-            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <div className="mt-6 sm:mt-7 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3">
               <button
                 onClick={onStartMock}
-                className="w-full sm:w-auto px-7 py-4 rounded-xl bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-600 text-slate-950 font-black text-base shadow-xl shadow-teal-500/25 hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2.5 cursor-pointer glow-teal"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-600 text-slate-950 font-black text-sm sm:text-base shadow-xl shadow-teal-500/25 hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-2 cursor-pointer glow-teal"
               >
-                <Play className="w-5 h-5 fill-slate-950 text-slate-950" />
-                <span>Start Free All-India Live Mock Test</span>
+                <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-slate-950 text-slate-950" />
+                <span>Start Free Live Mock Test</span>
                 <span className="text-[10px] bg-slate-950/20 text-slate-950 font-bold px-2 py-0.5 rounded-full">FREE</span>
               </button>
 
               <button
                 onClick={onExploreNotes}
-                className="w-full sm:w-auto px-6 py-4 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-teal-500/60 text-slate-200 font-bold text-base hover:bg-slate-800 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                className="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-teal-500/60 text-slate-200 font-bold text-sm sm:text-base hover:bg-slate-800 transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
-                <span>Explore SuperCoaching Notes</span>
+                <span>Explore Study Notes</span>
                 <ArrowRight className="w-4 h-4 text-teal-400" />
               </button>
             </div>

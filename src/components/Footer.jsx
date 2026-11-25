@@ -19,7 +19,7 @@ export default function Footer({
 
   return (
     <footer className="bg-[#050811] border-t border-slate-800/80 text-slate-400 text-xs">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-24 lg:py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           
           {/* Col 1: Brand Info */}
@@ -141,7 +141,7 @@ export default function Footer({
                   className="text-amber-400 font-bold hover:underline cursor-pointer flex items-center gap-1.5"
                 >
                   <Crown className="w-3.5 h-3.5 fill-amber-400" />
-                  <span>RailwayPrep Pass Pro (₹49/Yr)</span>
+                  <span>RailwayPrep Pass Pro (₹{MONETIZATION_CONFIG.payments.passProPrice}/Yr)</span>
                 </button>
               </li>
             </ul>
