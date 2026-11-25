@@ -19,6 +19,7 @@ export default function Navbar({
   user = null,
   profile = null,
   hasPassPro = false,
+  studyStreak = null,
   onOpenAuth,
   onOpenDashboard
 }) {
@@ -177,6 +178,16 @@ export default function Navbar({
 
           {/* Right Action buttons */}
           <div className="flex items-center gap-2 sm:gap-2.5">
+            {/* Study Streak Flame Pill */}
+            <button
+              onClick={() => (user ? onOpenDashboard() : handleNav('daily-quiz'))}
+              className="flex items-center gap-1 px-2 sm:px-2.5 py-1.5 rounded-lg bg-amber-500/10 border border-amber-500/30 hover:border-amber-400 text-xs font-extrabold text-amber-300 transition-colors cursor-pointer"
+              title={`Daily Study Streak: ${studyStreak?.activeStreak || 0} Days (Best: ${studyStreak?.bestStreak || 0}d)`}
+            >
+              <Flame className={`w-3.5 h-3.5 ${(studyStreak?.activeStreak || 0) > 0 ? 'fill-amber-400 text-amber-400' : 'text-slate-400'}`} />
+              <span>{studyStreak?.activeStreak || 0}d</span>
+            </button>
+
             {/* Mistake Notebook Shortcut */}
             <button
               onClick={onOpenMistakes}

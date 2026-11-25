@@ -9,6 +9,7 @@ import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
 import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
 import { hydrateTest } from './data/testQuestionLoader';
+import { getStudyStreak, recordStudyActivity } from './utils/studyStreak';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
   ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench, Train
@@ -184,6 +185,7 @@ export default function App() {
   const [testResult, setTestResult] = useState(null);
   const [savedSession, setSavedSession] = useState(null);
   const [pendingRefCode, setPendingRefCode] = useState('');
+  const [studyStreak, setStudyStreak] = useState(() => getStudyStreak());
 
   const isPaidPro = Boolean(hasPassPro && profile?.pass_pro_plan === 'paid');
 
@@ -492,31 +494,36 @@ export default function App() {
     setActiveTest(null);
     setTestResult(resultData);
 
-    // Sync test attempt to Supabase Cloud if logged in
-    if (session?.user?.id && resultData?.test) {
-      try {
-        const { test, answers, timeTakenSeconds } = resultData;
-        let correctCount = 0;
-        let wrongCount = 0;
-        let unattemptedCount = 0;
-        test.questions.forEach((q) => {
-          const userAns = answers[q.id];
-          if (userAns === undefined) {
-            unattemptedCount++;
-          } else {
-            const isCorrect =
-              userAns === q.correctIndex ||
-              (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
-            if (isCorrect) correctCount++;
-            else wrongCount++;
-          }
-        });
-        const pos = test.positiveMarks || 1;
-        const neg = test.negativeMarks || 0.33;
-        const rawScore = Number(Math.max(0, correctCount * pos - wrongCount * neg).toFixed(2));
-        const attempted = correctCount + wrongCount;
-        const accuracy = attempted > 0 ? Number(((correctCount / attempted) * 100).toFixed(2)) : 0;
+    if (!resultData?.test) return;
 
+    const { test, answers, timeTakenSeconds } = resultData;
+    let correctCount = 0;
+    let wrongCount = 0;
+    let unattemptedCount = 0;
+    test.questions.forEach((q) => {
+      const userAns = answers[q.id];
+      if (userAns === undefined) {
+        unattemptedCount++;
+      } else {
+        const isCorrect =
+          userAns === q.correctIndex ||
+          (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+        if (isCorrect) correctCount++;
+        else wrongCount++;
+      }
+    });
+    const pos = test.positiveMarks || 1;
+    const neg = test.negativeMarks || 0.33;
+    const rawScore = Number(Math.max(0, correctCount * pos - wrongCount * neg).toFixed(2));
+    const attempted = correctCount + wrongCount;
+    const accuracy = attempted > 0 ? Number(((correctCount / attempted) * 100).toFixed(2)) : 0;
+
+    // Record daily consecutive study streak locally for both guests and logged-in students
+    setStudyStreak(recordStudyActivity({ questionsCount: test.questions.length, accuracy }));
+
+    // Sync test attempt to Supabase Cloud if logged in
+    if (session?.user?.id) {
+      try {
         await supabase.from('saved_sessions').delete().eq('user_id', session.user.id);
         await supabase.from('test_attempts').insert({
           user_id: session.user.id,
@@ -575,6 +582,7 @@ export default function App() {
         user={session?.user || null}
         profile={profile}
         hasPassPro={hasPassPro}
+        studyStreak={studyStreak}
         onOpenAuth={() => openAuthPrompt('')}
         onOpenDashboard={() => setIsDashboardOpen(true)}
       />
@@ -1440,7 +1448,9 @@ export default function App() {
               </div>
               <DailyQuizView 
                 onOpenPassPro={() => setIsPassProOpen(true)} 
-                onOpenMistakes={() => setIsMistakeModalOpen(true)} 
+                onOpenMistakes={() => setIsMistakeModalOpen(true)}
+                onRecordStudy={(payload) => setStudyStreak(recordStudyActivity(payload))}
+                studyStreak={studyStreak}
               />
             </>
           )}
@@ -1504,6 +1514,8 @@ export default function App() {
           <TestResultModal
             result={testResult}
             user={session?.user || null}
+            profile={profile}
+            studyStreak={studyStreak}
             onClose={() => setTestResult(null)}
             onRetake={handleRetakeTest}
             onOpenPassPro={() => setIsPassProOpen(true)}
@@ -1552,6 +1564,7 @@ export default function App() {
             user={session.user}
             profile={profile}
             hasPassPro={hasPassPro}
+            studyStreak={studyStreak}
             onClose={() => setIsDashboardOpen(false)}
             onLogout={handleLogout}
             onOpenPassPro={() => setIsPassProOpen(true)}

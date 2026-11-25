@@ -10,11 +10,15 @@ import AdBanner from './AdBanner';
 import QuestionContentRenderer from './QuestionContentRenderer';
 import ExpectedCutoffCard from './ExpectedCutoffCard';
 import ShiftLeaderboardTab from './ShiftLeaderboardTab';
+import ShareScoreCardModal from './ShareScoreCardModal';
+import { getCutoffBenchmark, evaluateCutoffStatus } from '../utils/cutoffCalculator';
 import { supabase } from '../lib/supabaseClient';
 
 export default function TestResultModal({
   result,
   user = null,
+  profile = null,
+  studyStreak = null,
   onClose,
   onRetake,
   onOpenPassPro,
@@ -26,6 +30,7 @@ export default function TestResultModal({
   
   // Tabs: 'overview' | 'leaderboard' | 'solutions'
   const [activeTab, setActiveTab] = useState('overview');
+  const [isShareCardOpen, setIsShareCardOpen] = useState(false);
 
   // Real-Time Shift Leaderboard State
   const [leaderboard, setLeaderboard] = useState(null);
@@ -210,6 +215,14 @@ export default function TestResultModal({
           </div>
 
           <div className="flex flex-wrap items-center gap-2">
+            <button
+              onClick={() => setIsShareCardOpen(true)}
+              className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 hover:from-emerald-400 hover:to-teal-300 text-slate-950 text-xs font-black flex items-center gap-1.5 transition-all cursor-pointer shadow-md shadow-emerald-950/50"
+              title="Create Score Card for WhatsApp Status"
+            >
+              <Share2 className="w-3.5 h-3.5" />
+              <span>Share Score Card</span>
+            </button>
             <button
               onClick={() => window.print()}
               className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer border border-slate-700"
@@ -664,6 +677,58 @@ export default function TestResultModal({
         )}
 
       </div>
+
+      {/* Shareable WhatsApp Status Score Card Modal */}
+      {isShareCardOpen && (() => {
+        const savedCat = (() => {
+          try {
+            return localStorage.getItem('railwayprep_user_category') || 'UR';
+          } catch {
+            return 'UR';
+          }
+        })();
+        const bench = getCutoffBenchmark(test);
+        const catTarget = bench.cutoffs[savedCat] ?? bench.cutoffs.UR;
+        const evalRes = evaluateCutoffStatus(finalScore, catTarget, bench.maxMarks);
+        const cutoffBadge =
+          evalRes.status === 'safe'
+            ? bench.mode === 'qualifying'
+              ? 'QUALIFIED (35%+) ✓'
+              : `${savedCat} SAFE ZONE ✓`
+            : evalRes.status === 'borderline'
+            ? `${savedCat} BORDERLINE`
+            : `${savedCat} NEEDS BOOST`;
+        const cutoffShort =
+          evalRes.status === 'safe'
+            ? `+${evalRes.delta} above ${catTarget}`
+            : `${evalRes.delta} vs ${catTarget}`;
+
+        return (
+          <ShareScoreCardModal
+            test={test}
+            score={finalScore}
+            accuracy={accuracy}
+            correctCount={correctCount}
+            wrongCount={wrongCount}
+            timeTakenText={formatTime(timeTakenSeconds)}
+            percentile={displayPercentile}
+            rankLabel={
+              hasLiveLeaderboard && leaderboard.user_rank
+                ? `Live Rank #${leaderboard.user_rank} / ${leaderboard.total_participants}`
+                : `Est. Rank ~${estRank}`
+            }
+            cutoffInfo={{
+              badge: cutoffBadge,
+              shortText: cutoffShort,
+              status: evalRes.status,
+            }}
+            user={user}
+            profile={profile}
+            studyStreak={studyStreak}
+            onClose={() => setIsShareCardOpen(false)}
+          />
+        );
+      })()}
     </div>
   );
 }

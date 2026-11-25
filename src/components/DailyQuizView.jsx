@@ -7,7 +7,7 @@ import {
 import confetti from 'canvas-confetti';
 import { DAILY_QUIZZES } from '../data/dailyQuizzesData';
 
-export default function DailyQuizView({ onOpenPassPro, onOpenMistakes }) {
+export default function DailyQuizView({ onOpenPassPro, onOpenMistakes, onRecordStudy, studyStreak = null }) {
   const [activeTab, setActiveTab] = useState('today'); // 'today' | 'archive' | 'leaderboard'
   const [activeQuiz, setActiveQuiz] = useState(null);
   
@@ -17,25 +17,31 @@ export default function DailyQuizView({ onOpenPassPro, onOpenMistakes }) {
       const stored = localStorage.getItem('railwayprep_quiz_stats');
       if (stored) return JSON.parse(stored);
     } catch (e) {}
-    return { streak: 3, totalSolved: 18, accuracy: 84.5, lastAttemptDate: null };
+    return { streak: 0, totalSolved: 0, accuracy: 0, lastAttemptDate: null };
   });
 
   const saveStats = (newCorrect, total) => {
     try {
       const today = new Date().toDateString();
       const isNewDay = streakData.lastAttemptDate !== today;
-      const updatedStreak = isNewDay ? streakData.streak + 1 : streakData.streak;
+      const updatedStreak = isNewDay ? streakData.streak + 1 : Math.max(1, streakData.streak);
       const updatedTotal = streakData.totalSolved + total;
-      const newAcc = (((streakData.accuracy * streakData.totalSolved) + (newCorrect / total * 100 * total)) / updatedTotal).toFixed(1);
+      const sessionAcc = total > 0 ? (newCorrect / total) * 100 : 0;
+      const newAcc = updatedTotal > 0
+        ? (((streakData.accuracy * streakData.totalSolved) + (sessionAcc * total)) / updatedTotal).toFixed(1)
+        : 0;
       
       const updated = {
         streak: updatedStreak,
         totalSolved: updatedTotal,
-        accuracy: parseFloat(newAcc) || 85.0,
+        accuracy: parseFloat(newAcc) || 0,
         lastAttemptDate: today
       };
       setStreakData(updated);
       localStorage.setItem('railwayprep_quiz_stats', JSON.stringify(updated));
+      if (onRecordStudy) {
+        onRecordStudy({ questionsCount: total, accuracy: Math.round(sessionAcc) });
+      }
     } catch (e) {
       console.warn('Failed to save quiz stats:', e);
     }
@@ -86,7 +92,7 @@ export default function DailyQuizView({ onOpenPassPro, onOpenMistakes }) {
             <div>
               <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Your Daily Streak</div>
               <div className="text-2xl sm:text-3xl font-black text-amber-300">
-                {streakData.streak} Days 🔥
+                {studyStreak ? studyStreak.activeStreak : streakData.streak} Days 🔥
               </div>
               <div className="text-[11px] text-emerald-400 font-semibold mt-0.5">
                 {streakData.totalSolved} Questions Solved • {streakData.accuracy}% Acc.

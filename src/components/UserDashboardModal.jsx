@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import {
   X, User, Crown, LogOut, Trophy, Clock, CheckCircle2, XCircle,
   ShieldCheck, RefreshCw, Sparkles, Calendar, AlertCircle,
-  Copy, Check, Share2, Send, Gift, Users
+  Copy, Check, Share2, Send, Gift, Users, Flame
 } from 'lucide-react';
 import { supabase, isUserAdmin } from '../lib/supabaseClient';
+import { STREAK_BADGES, getStudyStreak } from '../utils/studyStreak';
 
 const maskEmail = (email) => {
   if (!email || !email.includes('@')) return 'aspirant@***';
@@ -17,11 +18,13 @@ export default function UserDashboardModal({
   user,
   profile,
   hasPassPro,
+  studyStreak = null,
   onClose,
   onLogout,
   onOpenPassPro,
   onRefreshProfile
 }) {
+  const streakInfo = studyStreak || getStudyStreak();
   const isAdmin = isUserAdmin(user);
   const [activeTab, setActiveTab] = useState('profile'); // 'profile' | 'history' | 'admin'
   const [attempts, setAttempts] = useState([]);
@@ -266,6 +269,41 @@ export default function UserDashboardModal({
                   <div className={`font-bold mt-1 ${profile?.pass_pro_plan === 'paid' ? 'text-emerald-400' : 'text-slate-300'}`}>
                     {profile?.pass_pro_plan === 'paid' ? '100% Ad-Free VIP ✓' : 'Ad-Supported (Upgrade ₹49)'}
                   </div>
+                </div>
+              </div>
+
+              {/* Study Streak & Aspirant Milestone Badges */}
+              <div className="p-4 sm:p-5 rounded-2xl bg-slate-900/70 border border-amber-500/25 space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <Flame className={`w-4 h-4 ${streakInfo.activeStreak > 0 ? 'text-amber-400 fill-amber-400' : 'text-slate-400'}`} />
+                    <span className="text-xs font-black text-white uppercase tracking-wide">Daily Study Streak & Badges</span>
+                  </div>
+                  <div className="flex items-center gap-3 text-[11px] font-bold">
+                    <span className="text-amber-300">🔥 Current: {streakInfo.activeStreak}d</span>
+                    <span className="text-slate-400">Best: {streakInfo.bestStreak}d</span>
+                    <span className="text-teal-300">Sets: {streakInfo.totalSessions}</span>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+                  {STREAK_BADGES.map((b) => {
+                    const earned = streakInfo.unlockedBadges?.includes(b.id);
+                    return (
+                      <div
+                        key={b.id}
+                        title={b.desc}
+                        className={`p-2.5 rounded-xl border text-center transition-all ${
+                          earned
+                            ? 'bg-amber-500/15 border-amber-500/40 text-white shadow-sm'
+                            : 'bg-slate-950/60 border-slate-800/80 text-slate-500 opacity-65'
+                        }`}
+                      >
+                        <div className="text-lg">{b.icon}</div>
+                        <div className="text-[10px] font-black mt-0.5 truncate">{b.title}</div>
+                        <div className="text-[9px] leading-tight mt-0.5">{earned ? 'Unlocked ✓' : b.desc}</div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
 
