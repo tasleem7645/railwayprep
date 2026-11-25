@@ -11,26 +11,27 @@ import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
 import { hydrateTest } from './data/testQuestionLoader';
 import { getStudyStreak, recordStudyActivity } from './utils/studyStreak';
 import { isEphemeralQuizId } from './utils/mistakeTestBuilder';
+import { lazyWithRetry, forceFreshReload, isChunkLoadError, triggerOneTimeChunkReload } from './utils/chunkRecovery';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
   ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench, Train
 } from 'lucide-react';
 
-// Lazy-loaded heavy views & modals for fast initial bundle (<350 KB vs 16 MB)
-const CBTMockTestModal = lazy(() => import('./components/CBTMockTestModal'));
-const TestResultModal = lazy(() => import('./components/TestResultModal'));
-const PassProModal = lazy(() => import('./components/PassProModal'));
-const SuperCoachingView = lazy(() => import('./components/SuperCoachingView'));
-const DailyQuizView = lazy(() => import('./components/DailyQuizView'));
-const SyllabusView = lazy(() => import('./components/SyllabusView'));
-const AffiliateBooksSection = lazy(() => import('./components/AffiliateBooksSection'));
-const PaidPdfBundleModal = lazy(() => import('./components/PaidPdfBundleModal'));
-const AspirantToolsHub = lazy(() => import('./components/AspirantToolsHub'));
-const MistakeNotebookModal = lazy(() => import('./components/MistakeNotebookModal'));
-const AuthModal = lazy(() => import('./components/AuthModal'));
-const UserDashboardModal = lazy(() => import('./components/UserDashboardModal'));
-const LegalModal = lazy(() => import('./components/LegalModal'));
-const PYQExplorerView = lazy(() => import('./components/PYQExplorerView'));
+// Lazy-loaded heavy views & modals with automatic stale-chunk retry
+const CBTMockTestModal = lazyWithRetry(() => import('./components/CBTMockTestModal'), lazy);
+const TestResultModal = lazyWithRetry(() => import('./components/TestResultModal'), lazy);
+const PassProModal = lazyWithRetry(() => import('./components/PassProModal'), lazy);
+const SuperCoachingView = lazyWithRetry(() => import('./components/SuperCoachingView'), lazy);
+const DailyQuizView = lazyWithRetry(() => import('./components/DailyQuizView'), lazy);
+const SyllabusView = lazyWithRetry(() => import('./components/SyllabusView'), lazy);
+const AffiliateBooksSection = lazyWithRetry(() => import('./components/AffiliateBooksSection'), lazy);
+const PaidPdfBundleModal = lazyWithRetry(() => import('./components/PaidPdfBundleModal'), lazy);
+const AspirantToolsHub = lazyWithRetry(() => import('./components/AspirantToolsHub'), lazy);
+const MistakeNotebookModal = lazyWithRetry(() => import('./components/MistakeNotebookModal'), lazy);
+const AuthModal = lazyWithRetry(() => import('./components/AuthModal'), lazy);
+const UserDashboardModal = lazyWithRetry(() => import('./components/UserDashboardModal'), lazy);
+const LegalModal = lazyWithRetry(() => import('./components/LegalModal'), lazy);
+const PYQExplorerView = lazyWithRetry(() => import('./components/PYQExplorerView'), lazy);
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -42,9 +43,13 @@ class ErrorBoundary extends React.Component {
   }
   componentDidCatch(error, errorInfo) {
     console.error("Application Crash Caught:", error, errorInfo);
+    if (isChunkLoadError(error)) {
+      triggerOneTimeChunkReload();
+    }
   }
   render() {
     if (this.state.hasError) {
+      const errDetail = this.state.error?.message || '';
       return (
         <div className="min-h-screen bg-slate-950 text-white flex flex-col items-center justify-center p-6 text-center">
           <div className="w-16 h-16 rounded-2xl bg-rose-500/20 text-rose-400 flex items-center justify-center mb-4 text-2xl font-black">
@@ -54,15 +59,20 @@ class ErrorBoundary extends React.Component {
           <p className="text-xs text-slate-400 mt-2 max-w-md">
             कृपया पेज को रीलोड करें या सुरक्षित रूप से टेस्ट पुनः प्रारंभ करें।
           </p>
+          {errDetail && (
+            <div className="mt-3 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-[11px] font-mono text-rose-300/90 max-w-md break-words">
+              {errDetail.slice(0, 180)}
+            </div>
+          )}
           <div className="flex gap-3 mt-6">
             <button 
-              onClick={() => { localStorage.removeItem('cbt_active_session'); window.location.reload(); }}
+              onClick={() => forceFreshReload({ clearSessionKey: true })}
               className="px-6 py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs cursor-pointer shadow-lg shadow-teal-950"
             >
               Reload Application
             </button>
             <button 
-              onClick={() => { localStorage.clear(); window.location.reload(); }}
+              onClick={() => forceFreshReload({ clearAllStorage: true })}
               className="px-6 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs border border-slate-700 cursor-pointer"
             >
               Clear Cache & Reset

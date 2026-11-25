@@ -21,7 +21,8 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest }) {
     try {
       const stored = localStorage.getItem('railwayprep_mistake_notebook');
       if (stored) {
-        setMistakes(JSON.parse(stored));
+        const parsed = JSON.parse(stored);
+        setMistakes(Array.isArray(parsed) ? parsed : []);
       } else {
         // Provide sample high-yield common railway pitfalls if completely fresh
         const initialSample = [
