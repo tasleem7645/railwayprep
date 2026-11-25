@@ -50,6 +50,19 @@ export const EXAM_HIERARCHY = [
       },
     ],
   },
+  {
+    key: 'ntpc-ug',
+    label: '🎓 RRB NTPC UG (CEN 06/2024)',
+    shortLabel: 'RRB NTPC UG',
+    years: [
+      {
+        key: 'ntpc-ug-2025',
+        label: 'CBT-1 Official Answer Keys (57 Shifts • 100 Qs)',
+        shortLabel: 'NTPC UG CBT-1',
+        filter: (t) => t.examYear === 'ntpc-ug-2025' && t.category !== 'sectional',
+      },
+    ],
+  },
 ];
 
 export function normalizeSubjectName(section = '') {

@@ -7,6 +7,7 @@
 const questionModules = import.meta.glob([
   './alp*.json',
   './groupd/*.json',
+  './ntpcug/*.json',
   './trades/*.json',
 ]);
 

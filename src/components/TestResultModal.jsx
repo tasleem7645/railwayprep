@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 import AdBanner from './AdBanner';
-import QuestionContentRenderer from './QuestionContentRenderer';
+import QuestionContentRenderer, { OptionContentRenderer } from './QuestionContentRenderer';
 import ExpectedCutoffCard from './ExpectedCutoffCard';
 import ShiftLeaderboardTab from './ShiftLeaderboardTab';
 import ShareScoreCardModal from './ShareScoreCardModal';
@@ -835,7 +835,7 @@ export default function TestResultModal({
                   <div className="mb-4">
                     <QuestionContentRenderer
                       text={activeReviewQ.question[reviewLang] || activeReviewQ.question['en']}
-                      image={activeReviewQ.image || activeReviewQ[`image_${reviewLang}`]}
+                      image={activeReviewQ[`image_${reviewLang}`] || activeReviewQ.image}
                       className="text-base sm:text-lg font-medium text-slate-100 leading-relaxed font-sans"
                     />
                   </div>
@@ -874,7 +874,7 @@ export default function TestResultModal({
                             }`}>
                               {letter}
                             </span>
-                            <span>{optText}</span>
+                            <OptionContentRenderer value={optText} />
                           </div>
 
                           {/* Status Tag */}

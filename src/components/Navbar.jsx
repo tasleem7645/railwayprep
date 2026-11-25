@@ -81,7 +81,7 @@ export default function Navbar({
     {
       heading: 'TESTS & PRACTICE',
       items: [
-        { label: 'Test Series (168+ Mocks)', badge: 'LIVE', badgeColor: 'bg-teal-500/20 text-teal-300', icon: CheckSquare, onClick: () => handleNav('mock-tests'), active: activeTab === 'mock-tests' },
+        { label: 'Test Series (225+ Mocks)', badge: 'LIVE', badgeColor: 'bg-teal-500/20 text-teal-300', icon: CheckSquare, onClick: () => handleNav('mock-tests'), active: activeTab === 'mock-tests' },
         { label: 'Topic-Wise PYQ Bank', badge: 'NEW', badgeColor: 'bg-cyan-500/20 text-cyan-300', icon: Search, onClick: () => handleNav('pyq-explorer'), active: activeTab === 'pyq-explorer' },
         { label: 'Daily Rapid Quiz', badge: 'STREAK', badgeColor: 'bg-amber-500/20 text-amber-300', icon: Zap, onClick: () => handleNav('daily-quiz'), active: activeTab === 'daily-quiz' },
         { label: 'गलती डायरी (Mistake CBT)', icon: Bookmark, onClick: () => { setDrawerOpen(false); onOpenMistakes?.(); } },

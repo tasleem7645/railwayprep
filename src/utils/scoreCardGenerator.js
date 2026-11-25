@@ -289,7 +289,7 @@ export async function generateScoreCardImage({
 
   ctx.fillStyle = '#CBD5E1';
   ctx.font = '600 22px sans-serif';
-  ctx.fillText('Practice 168+ Official ALP, Group D & Trade CBT Mock Tests FREE:', W / 2, 1192);
+  ctx.fillText('Practice 225+ Official ALP, NTPC UG, Group D & Trade CBT Mock Tests FREE:', W / 2, 1192);
 
   ctx.fillStyle = '#5EEAD4';
   ctx.font = '800 28px monospace';

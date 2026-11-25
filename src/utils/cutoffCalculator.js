@@ -43,6 +43,12 @@ const RATIO_SETS = {
     note: 'Zone-calibrated safe marks based on historical RRB Group D PET shortlists.',
     ratios: { UR: 0.67, OBC: 0.63, EWS: 0.60, SC: 0.56, ST: 0.51 },
   },
+  ntpcUgCbt1: {
+    label: 'RRB NTPC UG (CEN 06/2024) CBT-1 Benchmark',
+    mode: 'merit',
+    note: 'Safe CBT-2 shortlisting range (20x vacancies) calibrated across RRB zones.',
+    ratios: { UR: 0.71, OBC: 0.67, EWS: 0.64, SC: 0.59, ST: 0.52 },
+  },
   alpCbt2PartA: {
     label: 'RRB ALP CBT-2 Part A Merit Benchmark',
     mode: 'merit',
@@ -63,6 +69,8 @@ export function getCutoffBenchmark(test, zoneCode = 'ALL') {
 
   if (test?.stage === 'CBT-2 Part B' || test?.category === 'cbt2-part-b') {
     preset = RATIO_SETS.tradeQualifying;
+  } else if (test?.examYear === 'ntpc-ug-2025' || test?.exam?.includes('NTPC')) {
+    preset = RATIO_SETS.ntpcUgCbt1;
   } else if (test?.examYear === 'groupd-2025' || test?.exam?.includes('Group D')) {
     preset = RATIO_SETS.groupD;
   } else if (test?.stage === 'CBT-2' || test?.examYear === 'cbt2') {

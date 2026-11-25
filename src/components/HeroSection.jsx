@@ -82,7 +82,7 @@ export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro
                   <img src="/logo.jpg" alt="RailwayPrep" className="w-8 h-8 rounded-lg object-cover border border-teal-500/40" />
                   <div>
                     <div className="text-xs font-black text-white">RailwayPrep Engine v2.0</div>
-                    <div className="text-[10px] text-teal-300 font-semibold">168+ Shifts & Sectionals Ready</div>
+                    <div className="text-[10px] text-teal-300 font-semibold">225+ Shifts & Sectionals Ready</div>
                   </div>
                 </div>
                 <span className="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[10px] font-black uppercase">

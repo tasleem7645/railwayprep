@@ -4,7 +4,7 @@ import {
   ChevronLeft, ChevronRight, Sparkles, Layers, Eye, EyeOff, RotateCcw,
   Star, FolderTree, Flag, CheckCircle2, Printer
 } from 'lucide-react';
-import QuestionContentRenderer from './QuestionContentRenderer';
+import QuestionContentRenderer, { OptionContentRenderer } from './QuestionContentRenderer';
 import ReportQuestionModal from './ReportQuestionModal';
 import { loadTestQuestions } from '../data/testQuestionLoader';
 import { EXAM_HIERARCHY, classifyQuestionTaxonomy } from '../utils/pyqTaxonomy';
@@ -884,7 +884,7 @@ export default function PYQExplorerView({
                 {/* Question Body */}
                 <QuestionContentRenderer
                   text={q.question?.[lang] || q.question?.en || q.question?.hi}
-                  image={q.image || q[`image_${lang}`]}
+                  image={q[`image_${lang}`] || q.image}
                   className="text-sm sm:text-base font-medium text-slate-100 leading-relaxed"
                 />
 
@@ -927,7 +927,7 @@ export default function PYQExplorerView({
                           >
                             {letter}
                           </span>
-                          <span className="break-words">{optText}</span>
+                          <OptionContentRenderer value={optText} />
                         </div>
                         {hasAnswered && isCorrect && (
                           <Check className="w-4 h-4 text-emerald-400 shrink-0" />

@@ -1,5 +1,6 @@
 import { CBT2_PART_B_TESTS } from './tradeTestsData';
 import { GROUP_D_TESTS } from './groupDTestsData';
+import { NTPC_UG_TESTS } from './ntpcUgTestsData';
 
 
 // --- SHIFT 1 SECTIONAL SUBSETS ---
@@ -2388,5 +2389,10 @@ export const RAILWAY_TESTS = [
   // ==========================================
   // RRB GROUP D 2025 LEVEL-1 TESTS (ALL 48 SHIFTS + SECTIONALS)
   // ==========================================
-  ...GROUP_D_TESTS
+  ...GROUP_D_TESTS,
+
+  // ==========================================
+  // RRB NTPC UG 2024 CBT-1 (CEN 06/2024 - 57 SHIFTS + SECTIONALS)
+  // ==========================================
+  ...NTPC_UG_TESTS
 ];

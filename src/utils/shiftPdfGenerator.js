@@ -15,7 +15,27 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
-function formatTextWithTablesHtml(content) {
+function renderInlineMarkdownImagesHtml(str, origin = '') {
+  const txt = String(str ?? '');
+  if (!txt.includes('![')) return escapeHtml(txt);
+  const re = /!\[([^\]]*)\]\(([^)]+)\)/g;
+  let out = '';
+  let lastIdx = 0;
+  let m;
+  while ((m = re.exec(txt)) !== null) {
+    if (m.index > lastIdx) out += escapeHtml(txt.slice(lastIdx, m.index));
+    const rawUrl = m[2];
+    const absUrl = rawUrl.startsWith('http')
+      ? rawUrl
+      : `${origin}${rawUrl.startsWith('/') ? '' : '/'}${rawUrl}`;
+    out += `<img src="${escapeHtml(absUrl)}" alt="${escapeHtml(m[1] || 'Figure')}" style="max-height:48px;vertical-align:middle;background:#fff;padding:2px 4px;border-radius:4px;border:1px solid #cbd5e1;" />`;
+    lastIdx = re.lastIndex;
+  }
+  if (lastIdx < txt.length) out += escapeHtml(txt.slice(lastIdx));
+  return out;
+}
+
+function formatTextWithTablesHtml(content, origin = '') {
   if (!content) return '';
   const lines = String(content).split('\n');
   const tableIndices = [];
@@ -54,13 +74,13 @@ function formatTextWithTablesHtml(content) {
     `;
 
     return `
-      ${before ? `<p>${escapeHtml(before).replace(/\n/g, '<br/>')}</p>` : ''}
+      ${before ? `<p>${renderInlineMarkdownImagesHtml(before, origin).replace(/\n/g, '<br/>')}</p>` : ''}
       ${tableHtml}
-      ${after ? `<p>${escapeHtml(after).replace(/\n/g, '<br/>')}</p>` : ''}
+      ${after ? `<p>${renderInlineMarkdownImagesHtml(after, origin).replace(/\n/g, '<br/>')}</p>` : ''}
     `;
   }
 
-  return `<p>${escapeHtml(content).replace(/\n/g, '<br/>')}</p>`;
+  return `<p>${renderInlineMarkdownImagesHtml(content, origin).replace(/\n/g, '<br/>')}</p>`;
 }
 
 export function buildPrintableShiftHtml(test, options = {}) {
@@ -78,7 +98,10 @@ export function buildPrintableShiftHtml(test, options = {}) {
       const qNo = q.shiftQuestionNo || q.id || idx + 1;
       const enQ = q.question?.en || '';
       const hiQ = q.question?.hi || '';
-      const rawImg = q.image || q.image_en || q.image_hi || '';
+      const rawImg =
+        langMode === 'hi'
+          ? q.image_hi || q.image || q.image_en || ''
+          : q.image_en || q.image || q.image_hi || '';
       const imgSrc = rawImg
         ? rawImg.startsWith('http')
           ? rawImg
@@ -97,13 +120,13 @@ export function buildPrintableShiftHtml(test, options = {}) {
       let bodyHtml = '';
       if (langMode === 'bilingual') {
         bodyHtml = `
-          ${enQ ? `<div class="q-text-en">${formatTextWithTablesHtml(enQ)}</div>` : ''}
-          ${hiQ ? `<div class="q-text-hi">${formatTextWithTablesHtml(hiQ)}</div>` : ''}
+          ${enQ ? `<div class="q-text-en">${formatTextWithTablesHtml(enQ, origin)}</div>` : ''}
+          ${hiQ ? `<div class="q-text-hi">${formatTextWithTablesHtml(hiQ, origin)}</div>` : ''}
         `;
       } else if (langMode === 'hi') {
-        bodyHtml = `<div class="q-text-hi">${formatTextWithTablesHtml(hiQ || enQ)}</div>`;
+        bodyHtml = `<div class="q-text-hi">${formatTextWithTablesHtml(hiQ || enQ, origin)}</div>`;
       } else {
-        bodyHtml = `<div class="q-text-en">${formatTextWithTablesHtml(enQ || hiQ)}</div>`;
+        bodyHtml = `<div class="q-text-en">${formatTextWithTablesHtml(enQ || hiQ, origin)}</div>`;
       }
 
       const optsList = langMode === 'hi' ? hiOpts : enOpts;
@@ -113,14 +136,14 @@ export function buildPrintableShiftHtml(test, options = {}) {
           const isCorr = oIdx === (langMode === 'hi' ? correctHi : correctEn);
           const extraHi =
             langMode === 'bilingual' && hiOpts[oIdx] && hiOpts[oIdx] !== optText
-              ? ` <span class="opt-hi">/ ${escapeHtml(hiOpts[oIdx])}</span>`
+              ? ` <span class="opt-hi">/ ${renderInlineMarkdownImagesHtml(hiOpts[oIdx], origin)}</span>`
               : '';
           const markClass = layoutMode === 'solved' && isCorr ? 'opt-box opt-correct' : 'opt-box';
           const tick = layoutMode === 'solved' && isCorr ? ' <span class="tick">✓ Official Answer</span>' : '';
           return `
             <div class="${markClass}">
               <span class="opt-letter">${letter}.</span>
-              <span class="opt-val">${escapeHtml(optText)}${extraHi}${tick}</span>
+              <span class="opt-val">${renderInlineMarkdownImagesHtml(optText, origin)}${extraHi}${tick}</span>
             </div>
           `;
         })
@@ -348,7 +371,7 @@ export function buildPrintableShiftHtml(test, options = {}) {
     ${answerKeySection}
 
     <footer class="sheet-footer">
-      Generated on <b>${escapeHtml(origin)}</b> • Practice 168+ Official Railway Mock Tests & Chapter PYQs Online.
+      Generated on <b>${escapeHtml(origin)}</b> • Practice 225+ Official Railway Mock Tests & Chapter PYQs Online.
     </footer>
   </main>
 </body>

@@ -83,7 +83,36 @@ export async function buildWeakTopicMiniTest({
     return getTestAccess ? getTestAccess(t) === 'open' : Boolean(t.isFreeDemo);
   });
 
-  const prioritizedShifts = accessibleTests.slice(0, 12);
+  // Balance shifts across ALP, NTPC UG, Group D & CBT-2 so General Awareness, Maths & Reasoning all find deep matches
+  const bucketMap = new Map();
+  accessibleTests.forEach((t) => {
+    const key = t.examYear || (t.stage?.includes('CBT-2') ? 'cbt2' : 'alp-2026');
+    if (!bucketMap.has(key)) bucketMap.set(key, []);
+    bucketMap.get(key).push(t);
+  });
+
+  const targetBucket = normalizeSubjectBucket(weakItem?.subject || '');
+  const preferredOrder = targetBucket === 'ga'
+    ? ['ntpc-ug-2025', 'groupd-2025', 'cbt2', '2025', '2026']
+    : ['ntpc-ug-2025', '2026', 'groupd-2025', '2025', 'cbt2'];
+  const allBucketKeys = [...new Set([...preferredOrder.filter((k) => bucketMap.has(k)), ...bucketMap.keys()])];
+
+  const prioritizedShifts = [];
+  let roundIdx = 0;
+  while (prioritizedShifts.length < 16) {
+    let addedInRound = false;
+    for (const key of allBucketKeys) {
+      const list = bucketMap.get(key);
+      if (roundIdx < list.length) {
+        prioritizedShifts.push(list[roundIdx]);
+        addedInRound = true;
+        if (prioritizedShifts.length >= 16) break;
+      }
+    }
+    if (!addedInRound) break;
+    roundIdx += 1;
+  }
+
   const loadedChunks = await Promise.all(
     prioritizedShifts.map(async (test) => {
       try {

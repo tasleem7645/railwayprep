@@ -3,7 +3,7 @@ import {
   X, Bookmark, CheckCircle2, AlertCircle, Trash2,
   RefreshCw, BookOpen, ChevronRight, Sparkles, Filter, Check, Zap
 } from 'lucide-react';
-import QuestionContentRenderer from './QuestionContentRenderer';
+import QuestionContentRenderer, { OptionContentRenderer } from './QuestionContentRenderer';
 import {
   MISTAKE_SUBJECT_FILTERS,
   normalizeMistakeCategory,
@@ -348,7 +348,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
 
                   <QuestionContentRenderer
                     text={qText}
-                    image={q.image || q[`image_${lang}`]}
+                    image={q[`image_${lang}`] || q.image}
                     className="text-sm font-semibold text-white leading-relaxed"
                   />
 
@@ -378,7 +378,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
                             <span className="w-5 h-5 rounded-full bg-slate-800 text-[10px] font-bold flex items-center justify-center text-slate-300">
                               {String.fromCharCode(65 + optIdx)}
                             </span>
-                            <span>{opt}</span>
+                            <OptionContentRenderer value={opt} />
                           </div>
 
                           {isCorrect && (

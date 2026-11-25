@@ -66,10 +66,19 @@ export default function HomeShowcaseSections({
 
   const examSeriesPacks = [
     {
+      key: 'ntpc-ug-2025',
+      tag: 'NEW • 57 OFFICIAL SHIFTS',
+      title: 'RRB NTPC UG 2024 CBT-1 (All 57 Shifts)',
+      totalTests: countByYear((t) => t.examYear === 'ntpc-ug-2025' || t.exam?.includes('NTPC')),
+      accent: 'from-sky-500/20 via-slate-900 to-slate-950 border-sky-500/45',
+      pillClass: 'bg-sky-500/20 text-sky-300 border-sky-500/40',
+      bullets: ['57 Official 100-Q Bilingual Shifts', 'GA 40 • Maths 30 • Reasoning 30', 'Shift 1 + 3 Sectionals Free'],
+    },
+    {
       key: '2026',
       tag: 'TRENDING • SHIFT 1 FREE',
       title: 'RRB ALP 2026 CBT-1 Complete Test Series',
-      totalTests: countByYear((t) => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025'),
+      totalTests: countByYear((t) => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025' && t.examYear !== 'ntpc-ug-2025'),
       accent: 'from-teal-500/20 via-slate-900 to-slate-950 border-teal-500/40',
       pillClass: 'bg-teal-500/20 text-teal-300 border-teal-500/40',
       bullets: ['9 Official Full Shifts (75 Qs)', 'Science, Maths & Reasoning Sectionals', 'English & हिंदी Toggle'],
@@ -122,10 +131,11 @@ export default function HomeShowcaseSections({
     },
   ];
 
-  // Pick 3 representative Free Demo Shift-1 cards for quick 1-click launch on Home
+  // Pick 4 representative Free Demo Shift-1 cards for quick 1-click launch on Home
   const featuredDemos = [
     railwayTests.find((t) => t.id === 'rrb-alp-shift-1') || railwayTests[0],
     railwayTests.find((t) => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && t.category !== 'sectional' && isGuestDemoTest(t)),
+    railwayTests.find((t) => t.examYear === 'ntpc-ug-2025' && t.category !== 'sectional' && isGuestDemoTest(t)),
     railwayTests.find((t) => t.examYear === 'groupd-2025' && t.category !== 'sectional' && isGuestDemoTest(t)),
   ].filter(Boolean);
 
@@ -296,7 +306,7 @@ export default function HomeShowcaseSections({
           </button>
         </div>
 
-        <div className="flex md:grid md:grid-cols-3 gap-4 overflow-x-auto md:overflow-visible snap-x snap-mandatory overscroll-x-contain pb-2 no-scrollbar">
+        <div className="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 overflow-x-auto md:overflow-visible snap-x snap-mandatory overscroll-x-contain pb-2 no-scrollbar">
           {featuredDemos.map((test) => (
             <div key={test.id} className="min-w-[85vw] sm:min-w-[330px] md:min-w-0 snap-start">
               <TestCard

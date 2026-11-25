@@ -152,8 +152,11 @@ export default function App() {
       setActiveExamId('tech_02_2026');
       setActiveTab('syllabus');
     } else if (goal.includes('NTPC')) {
-      setActiveExamId('ntpc_grad_06_2026');
-      setActiveTab('syllabus');
+      setYearFilter('ntpc-ug-2025');
+      setShiftFilter('all');
+      setTradeFilter('all');
+      setActiveExamId('ntpc_ug_07_2026');
+      setActiveTab('mock-tests');
     } else if (goal.includes('Group D')) {
       setYearFilter('groupd-2025');
       setShiftFilter('all');
@@ -440,11 +443,12 @@ export default function App() {
   };
 
   const yearTests = RAILWAY_TESTS.filter(test => {
+    if (yearFilter === 'ntpc-ug-2025') return test.examYear === 'ntpc-ug-2025' || test.exam?.includes('NTPC');
     if (yearFilter === 'groupd-2025') return test.examYear === 'groupd-2025' || test.exam?.includes('Group D');
     if (yearFilter === 'cbt2-part-b') return test.examYear === 'cbt2-part-b' || test.stage === 'CBT-2 Part B';
     if (yearFilter === 'cbt2') return (test.examYear === 'cbt2' || test.stage === 'CBT-2') && test.stage !== 'CBT-2 Part B';
-    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025';
-    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025';
+    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025' && test.examYear !== 'ntpc-ug-2025';
+    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025' && test.examYear !== 'ntpc-ug-2025';
     return true; // 'all'
   });
 
@@ -480,6 +484,9 @@ export default function App() {
   const isGuestDemoTest = (test) => {
     if (!test) return false;
     if (test.isFreeDemo) return true;
+    if (test.examYear === 'ntpc-ug-2025' || test.exam?.includes('NTPC')) {
+      return test.ntpcUgShiftNo === 1 || test.id?.includes('shift1') || test.id?.includes('s1-');
+    }
     if (test.examYear === 'groupd-2025' || test.exam?.includes('Group D')) {
       return test.groupDShiftNo === 1 || test.id?.includes('shift1') || test.id?.includes('s1-');
     }
@@ -500,6 +507,9 @@ export default function App() {
   // Tier 2: Shifts 2 & 3 of every exam are FREE after login (Lead Capture)
   const isLoginFreeTest = (test) => {
     if (!test) return false;
+    if (test.examYear === 'ntpc-ug-2025' || test.exam?.includes('NTPC')) {
+      return test.ntpcUgShiftNo === 2 || test.ntpcUgShiftNo === 3;
+    }
     if (test.examYear === 'groupd-2025' || test.exam?.includes('Group D')) {
       return test.groupDShiftNo === 2 || test.groupDShiftNo === 3;
     }
@@ -952,7 +962,7 @@ export default function App() {
                   type="text"
                   value={mockSearchQuery}
                   onChange={(e) => setMockSearchQuery(e.target.value)}
-                  placeholder="Search exam, shift date, trade (e.g. 03 Nov, Group D, Electrician)..."
+                  placeholder="Search exam, shift date, trade (e.g. 03 Nov, NTPC UG, Group D, Electrician)..."
                   className="w-full pl-10 pr-9 py-2.5 rounded-xl bg-slate-900 border border-slate-700 focus:border-teal-400 text-xs sm:text-sm text-white focus:outline-none"
                 />
                 {mockSearchQuery && (
@@ -987,7 +997,7 @@ export default function App() {
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  🎯 RRB ALP 2026 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025').length})
+                  🎯 RRB ALP 2026 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025' && t.examYear !== 'ntpc-ug-2025').length})
                 </button>
                 <button
                   onClick={() => { setYearFilter('2025'); setShiftFilter('all'); setTradeFilter('all'); }}
@@ -1018,6 +1028,16 @@ export default function App() {
                   }`}
                 >
                   ⚙️ Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length})
+                </button>
+                <button
+                  onClick={() => { setYearFilter('ntpc-ug-2025'); setShiftFilter('all'); setTradeFilter('all'); }}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
+                    yearFilter === 'ntpc-ug-2025'
+                      ? 'bg-gradient-to-r from-amber-500 to-orange-400 text-slate-950 shadow-md shadow-amber-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  🎓 NTPC UG ({RAILWAY_TESTS.filter(t => t.examYear === 'ntpc-ug-2025').length})
                 </button>
                 <button
                   onClick={() => { setYearFilter('groupd-2025'); setShiftFilter('all'); setTradeFilter('all'); }}
@@ -1121,6 +1141,53 @@ export default function App() {
                       }`}
                     >
                       Shift 1 Sectionals
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {/* NTPC UG Sub-filter Tabs on Mock Tests View */}
+              {yearFilter === 'ntpc-ug-2025' && (
+                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-amber-950/40 via-slate-900/90 to-slate-900/80 border border-amber-500/30">
+                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+                    <span className="text-xs font-bold text-amber-300 flex items-center gap-1.5">
+                      <BookOpen className="w-4 h-4 text-amber-400" />
+                      <span>RRB NTPC UG CEN 06/2024 CBT-1: 57 Shifts • 100 Qs</span>
+                    </span>
+                    <span className="text-[11px] font-semibold text-amber-300 bg-amber-500/10 px-2.5 py-1 rounded-full border border-amber-500/30">
+                      ⚡ Shift 1 + 3 Sectionals Free Demo
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap items-center justify-center gap-2">
+                    <button
+                      onClick={() => { setTestFilter('all'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'all' && shiftFilter === 'all'
+                          ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      All NTPC UG ({RAILWAY_TESTS.filter(t => t.examYear === 'ntpc-ug-2025').length})
+                    </button>
+                    <button
+                      onClick={() => { setTestFilter('full-shift'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'full-shift'
+                          ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      Full Papers (57 Shifts • 100 Qs)
+                    </button>
+                    <button
+                      onClick={() => { setTestFilter('sectional'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'sectional'
+                          ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      Shift 1 Sectionals (3 Free)
                     </button>
                   </div>
                 </div>

@@ -3,9 +3,9 @@ import {
   X, Clock, ChevronLeft, ChevronRight, ChevronDown, CheckCircle, AlertCircle, 
   RotateCcw, Bookmark, Send, Globe, HelpCircle, Shield, Award,
   FileText, Info, Layers, Check, AlertTriangle, Menu, Pause, Play, AlertOctagon,
-  Maximize, Minimize, Star
+  Maximize, Minimize, Star, Sun, Moon
 } from 'lucide-react';
-import QuestionContentRenderer from './QuestionContentRenderer';
+import QuestionContentRenderer, { OptionContentRenderer } from './QuestionContentRenderer';
 
 export default function CBTMockTestModal({ 
   test, 
@@ -44,10 +44,27 @@ export default function CBTMockTestModal({
     return false;
   });
 
-  // Modals inside CBT
+  // Modals & theme inside CBT
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
   const [showQuestionPaper, setShowQuestionPaper] = useState(false);
   const [showInstructions, setShowInstructions] = useState(false);
+  const [examLightMode, setExamLightMode] = useState(() => {
+    try {
+      return localStorage.getItem('railwayprep_cbt_light_theme') === '1';
+    } catch {
+      return false;
+    }
+  });
+
+  const toggleExamTheme = () => {
+    setExamLightMode((prev) => {
+      const next = !prev;
+      try {
+        localStorage.setItem('railwayprep_cbt_light_theme', next ? '1' : '0');
+      } catch {}
+      return next;
+    });
+  };
 
   const currentQ = test.questions[currentIndex] || test.questions[0];
 
@@ -534,8 +551,22 @@ export default function CBTMockTestModal({
           </div>
         </div>
 
-        {/* Right: Language Switcher [E | अ] + Palette Hamburger Toggle */}
+        {/* Right: Daylight Theme Toggle + Language Switcher [E | अ] + Palette Hamburger Toggle */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <button
+            type="button"
+            onClick={toggleExamTheme}
+            title={examLightMode ? 'Switch to Study Dark Mode' : 'Switch to TCS Exam-Hall White Mode'}
+            className={`px-2 py-1 rounded-lg border text-xs font-bold flex items-center gap-1 transition-colors cursor-pointer ${
+              examLightMode
+                ? 'bg-amber-400 text-slate-950 border-amber-300'
+                : 'bg-[#202531] hover:bg-[#282e3d] border-slate-700 text-slate-200'
+            }`}
+          >
+            {examLightMode ? <Sun className="w-3.5 h-3.5" /> : <Moon className="w-3.5 h-3.5 text-amber-300" />}
+            <span className="hidden md:inline">{examLightMode ? 'Hall Light' : 'Theme'}</span>
+          </button>
+
           {/* Language Toggle Button [E | अ] */}
           <button
             onClick={() => handleGlobalLangToggle(globalLang === 'hi' ? 'en' : 'hi')}
@@ -637,45 +668,45 @@ export default function CBTMockTestModal({
       <div className="flex-1 flex overflow-hidden relative">
         
         {/* LEFT: QUESTION WORKSPACE (Auto-expands to 100% when palette is collapsed) */}
-        <main className="flex-1 flex flex-col justify-between overflow-y-auto p-4 sm:p-6 lg:p-8 bg-[#12141a] transition-all duration-300">
+        <main className={`flex-1 flex flex-col justify-between overflow-y-auto p-4 sm:p-6 lg:p-8 transition-colors duration-200 ${examLightMode ? 'bg-[#f8fafc] text-slate-900' : 'bg-[#12141a]'}`}>
           <div>
             {/* SUBHEADER (Exact Testbook Screenshot 2: [1] | ⏱ 00:06  +1.0  -0.33  ⚠  Bookmark) */}
-            <div className="flex items-center justify-between gap-2 pb-3 border-b border-slate-800 mb-5 text-xs">
+            <div className={`flex items-center justify-between gap-2 pb-3 border-b mb-5 text-xs ${examLightMode ? 'border-slate-200' : 'border-slate-800'}`}>
               
               {/* Question Number Pill + Vertical Separator + Per-Question Timer + Marks Pills */}
               <div className="flex items-center gap-2 sm:gap-3">
                 {/* Question Number Pill [1] */}
-                <div className="w-7 h-7 rounded-md bg-[#222836] border border-slate-700 text-white font-black flex items-center justify-center text-xs">
+                <div className={`w-7 h-7 rounded-md border font-black flex items-center justify-center text-xs ${examLightMode ? 'bg-slate-200 border-slate-300 text-slate-900' : 'bg-[#222836] border-slate-700 text-white'}`}>
                   {currentIndex + 1}
                 </div>
 
-                <span className="text-slate-600">|</span>
+                <span className={examLightMode ? 'text-slate-300' : 'text-slate-600'}>|</span>
 
                 {/* Per-Question Elapsed Timer */}
-                <div className="flex items-center gap-1 text-slate-300 font-mono text-xs">
-                  <Clock className="w-3.5 h-3.5 text-slate-400" />
+                <div className={`flex items-center gap-1 font-mono text-xs ${examLightMode ? 'text-slate-700' : 'text-slate-300'}`}>
+                  <Clock className={`w-3.5 h-3.5 ${examLightMode ? 'text-slate-500' : 'text-slate-400'}`} />
                   <span>{formatQuestionTime(questionTimes[currentQ.id])}</span>
                 </div>
 
                 {/* Marks Pills: +1.0 in Green, -0.33 in Maroon (Exact Testbook Screenshot 2) */}
                 <div className="flex items-center gap-1.5 font-mono font-bold text-xs">
-                  <span className="px-2 py-0.5 rounded-md bg-[#16382b] text-[#34d399] border border-emerald-500/30">
+                  <span className={`px-2 py-0.5 rounded-md border ${examLightMode ? 'bg-emerald-50 text-emerald-700 border-emerald-200' : 'bg-[#16382b] text-[#34d399] border-emerald-500/30'}`}>
                     +{test.positiveMarks}
                   </span>
-                  <span className="px-2 py-0.5 rounded-md bg-[#3b1c24] text-[#f87171] border border-rose-500/30">
+                  <span className={`px-2 py-0.5 rounded-md border ${examLightMode ? 'bg-rose-50 text-rose-700 border-rose-200' : 'bg-[#3b1c24] text-[#f87171] border-rose-500/30'}`}>
                     -{test.negativeMarks}
                   </span>
                 </div>
               </div>
 
               {/* Right Icons: Report Triangle + Bookmark Ribbon + Star (Exact Testbook Screenshot 2) */}
-              <div className="flex items-center gap-2.5 text-slate-400">
+              <div className={`flex items-center gap-2.5 ${examLightMode ? 'text-slate-500' : 'text-slate-400'}`}>
                 {/* Per-question Language Toggle */}
                 <div className="relative">
                   <select
                     value={currentQLang}
                     onChange={(e) => toggleQuestionLang(e.target.value)}
-                    className="bg-[#202531] border border-slate-700 hover:border-blue-400 text-slate-200 text-xs font-bold rounded-lg px-2 py-0.5 pr-5 cursor-pointer outline-none transition-colors"
+                    className={`border text-xs font-bold rounded-lg px-2 py-0.5 pr-5 cursor-pointer outline-none transition-colors ${examLightMode ? 'bg-white border-slate-300 hover:border-blue-500 text-slate-800' : 'bg-[#202531] border-slate-700 hover:border-blue-400 text-slate-200'}`}
                   >
                     <option value="hi">हिन्दी</option>
                     <option value="en">English</option>
@@ -692,7 +723,7 @@ export default function CBTMockTestModal({
                 <button
                   title="Bookmark question"
                   onClick={() => setReviewStatus(prev => ({ ...prev, [currentQ.id]: !prev[currentQ.id] }))}
-                  className={`transition-colors p-1 ${reviewStatus[currentQ.id] ? 'text-purple-400' : 'hover:text-purple-300'}`}
+                  className={`transition-colors p-1 ${reviewStatus[currentQ.id] ? (examLightMode ? 'text-purple-600' : 'text-purple-400') : (examLightMode ? 'hover:text-purple-600' : 'hover:text-purple-300')}`}
                 >
                   <Bookmark className="w-4 h-4 fill-current" />
                 </button>
@@ -703,8 +734,8 @@ export default function CBTMockTestModal({
             <div className="mb-6">
               <QuestionContentRenderer
                 text={currentQ.question[currentQLang] || currentQ.question['en']}
-                image={currentQ.image || currentQ[`image_${currentQLang}`]}
-                className="text-sm sm:text-base lg:text-lg font-normal text-slate-100 leading-relaxed font-sans"
+                image={currentQ[`image_${currentQLang}`] || currentQ.image}
+                className={`text-sm sm:text-base lg:text-lg font-normal leading-relaxed font-sans ${examLightMode ? 'text-slate-900 font-medium' : 'text-slate-100'}`}
               />
             </div>
 
@@ -717,21 +748,27 @@ export default function CBTMockTestModal({
                     key={optIdx}
                     onClick={() => handleSelectOption(optIdx)}
                     className={`p-3.5 sm:p-4 rounded-xl border transition-all cursor-pointer flex items-center gap-3.5 select-none ${
-                      isSelected 
-                        ? 'bg-[#182848]/60 border-blue-500 text-white ring-1 ring-blue-500/50 shadow-md shadow-blue-950/50'
-                        : 'bg-[#1a1d26]/80 border-slate-700/70 text-slate-200 hover:bg-[#202531] hover:border-slate-600'
+                      isSelected
+                        ? (examLightMode
+                            ? 'bg-blue-50 border-blue-600 text-slate-950 ring-1 ring-blue-500/40 shadow-sm'
+                            : 'bg-[#182848]/60 border-blue-500 text-white ring-1 ring-blue-500/50 shadow-md shadow-blue-950/50')
+                        : (examLightMode
+                            ? 'bg-white border-slate-200 text-slate-800 hover:bg-slate-50 hover:border-slate-300 shadow-xs'
+                            : 'bg-[#1a1d26]/80 border-slate-700/70 text-slate-200 hover:bg-[#202531] hover:border-slate-600')
                     }`}
                   >
                     {/* Option Serial Number: 1., 2., 3., 4. (Muted gray or vibrant blue when selected) */}
                     <span className={`text-sm sm:text-base font-bold min-w-[20px] transition-colors shrink-0 ${
-                      isSelected ? 'text-blue-400 font-black' : 'text-slate-400'
+                      isSelected
+                        ? (examLightMode ? 'text-blue-700 font-black' : 'text-blue-400 font-black')
+                        : (examLightMode ? 'text-slate-500' : 'text-slate-400')
                     }`}>
                       {optIdx + 1}.
                     </span>
 
                     {/* Option Text Statement */}
-                    <span className="text-xs sm:text-sm lg:text-base font-normal leading-relaxed text-slate-100">
-                      {optText}
+                    <span className={`text-xs sm:text-sm lg:text-base font-normal leading-relaxed ${examLightMode ? 'text-slate-900' : 'text-slate-100'}`}>
+                      <OptionContentRenderer value={optText} />
                     </span>
                   </div>
                 );
@@ -740,11 +777,11 @@ export default function CBTMockTestModal({
           </div>
 
           {/* FIXED BOTTOM ACTION BAR (Exact Testbook Screenshot 2: Mark & Next | Clear | Save & Next) */}
-          <footer className="pt-3 border-t border-slate-800 mt-4 flex items-center justify-between gap-2 shrink-0 bg-[#12141a]">
+          <footer className={`pt-3 border-t mt-4 flex items-center justify-between gap-2 shrink-0 ${examLightMode ? 'border-slate-200 bg-[#f8fafc]' : 'border-slate-800 bg-[#12141a]'}`}>
             {/* 1. Mark & Next Button (Outlined) */}
             <button
               onClick={handleMarkForReviewAndNext}
-              className="px-3 sm:px-5 py-2.5 rounded-xl border border-slate-700 hover:bg-slate-800 text-slate-200 font-semibold text-xs sm:text-sm transition-all cursor-pointer"
+              className={`px-3 sm:px-5 py-2.5 rounded-xl border font-semibold text-xs sm:text-sm transition-all cursor-pointer ${examLightMode ? 'border-slate-300 bg-white hover:bg-slate-100 text-slate-700' : 'border-slate-700 hover:bg-slate-800 text-slate-200'}`}
             >
               Mark & Next
             </button>
@@ -754,7 +791,7 @@ export default function CBTMockTestModal({
               <button
                 onClick={handlePrev}
                 disabled={currentIndex === 0}
-                className="hidden sm:flex px-3 py-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-white disabled:opacity-40 text-xs font-semibold items-center gap-1 cursor-pointer"
+                className={`hidden sm:flex px-3 py-2 rounded-lg border disabled:opacity-40 text-xs font-semibold items-center gap-1 cursor-pointer ${examLightMode ? 'bg-white border-slate-300 text-slate-700 hover:bg-slate-100' : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'}`}
               >
                 <ChevronLeft className="w-3.5 h-3.5" />
                 <span>Prev</span>
@@ -763,7 +800,7 @@ export default function CBTMockTestModal({
               {/* 2. Clear Response Button (Outlined) */}
               <button
                 onClick={handleClearResponse}
-                className="px-3 sm:px-5 py-2.5 rounded-xl border border-slate-700 hover:bg-slate-800 text-slate-200 font-semibold text-xs sm:text-sm transition-all cursor-pointer"
+                className={`px-3 sm:px-5 py-2.5 rounded-xl border font-semibold text-xs sm:text-sm transition-all cursor-pointer ${examLightMode ? 'border-slate-300 bg-white hover:bg-slate-100 text-slate-700' : 'border-slate-700 hover:bg-slate-800 text-slate-200'}`}
               >
                 Clear
               </button>
@@ -772,7 +809,7 @@ export default function CBTMockTestModal({
             {/* 3. Save & Next Button (Solid Vibrant Blue #2563eb - Exact Testbook Screenshot 2) */}
             <button
               onClick={handleSaveAndNext}
-              className="px-5 sm:px-8 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm shadow-lg shadow-blue-900/50 transition-all cursor-pointer"
+              className={`px-5 sm:px-8 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm transition-all cursor-pointer ${examLightMode ? 'shadow-md shadow-blue-600/20' : 'shadow-lg shadow-blue-900/50'}`}
             >
               Save & Next
             </button>
@@ -943,14 +980,14 @@ export default function CBTMockTestModal({
                   </div>
                   <QuestionContentRenderer
                     text={q.question[globalLang] || q.question['en']}
-                    image={q.image || q[`image_${globalLang}`]}
+                    image={q[`image_${globalLang}`] || q.image}
                     className="text-slate-200 mb-2"
                   />
-                  <div className="grid grid-cols-2 gap-2 text-[11px] text-slate-400 pl-2">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] text-slate-300 pl-2">
                     {getOptionsList(q, globalLang).map((opt, oIdx) => (
-                      <div key={oIdx}>
-                        <span className="font-bold text-slate-500 mr-1">{oIdx + 1}.</span>
-                        <span>{opt}</span>
+                      <div key={oIdx} className="flex items-start gap-1">
+                        <span className="font-bold text-slate-500 shrink-0">{oIdx + 1}.</span>
+                        <OptionContentRenderer value={opt} />
                       </div>
                     ))}
                   </div>
