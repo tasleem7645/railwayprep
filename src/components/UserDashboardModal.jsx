@@ -204,9 +204,20 @@ export default function UserDashboardModal({
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
                 <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
-                  <div className="text-slate-400">Your Referral Code</div>
+                  <div className="flex items-center justify-between text-slate-400">
+                    <span>Your Referral Code</span>
+                    {!profile?.referral_code && onRefreshProfile && (
+                      <button
+                        onClick={onRefreshProfile}
+                        title="Refresh Profile"
+                        className="text-teal-400 hover:text-teal-300 cursor-pointer"
+                      >
+                        <RefreshCw className="w-3 h-3" />
+                      </button>
+                    )}
+                  </div>
                   <div className="text-teal-300 font-mono font-black text-sm mt-1">
-                    {profile?.referral_code || 'LOADING'}
+                    {profile?.referral_code || 'SYNC PENDING'}
                   </div>
                 </div>
                 <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">

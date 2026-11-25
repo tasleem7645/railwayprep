@@ -1,30 +1,33 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-import CBTMockTestModal from './components/CBTMockTestModal';
-import TestResultModal from './components/TestResultModal';
-import PassProModal from './components/PassProModal';
-import SuperCoachingView from './components/SuperCoachingView';
 import DailyQuizCard from './components/DailyQuizCard';
-import DailyQuizView from './components/DailyQuizView';
-import SyllabusView from './components/SyllabusView';
 import Footer from './components/Footer';
 import AdBanner from './components/AdBanner';
-import LegalModal from './components/LegalModal';
-import AffiliateBooksSection from './components/AffiliateBooksSection';
-import PaidPdfBundleModal from './components/PaidPdfBundleModal';
-import AspirantToolsHub from './components/AspirantToolsHub';
-import MistakeNotebookModal from './components/MistakeNotebookModal';
-import AuthModal from './components/AuthModal';
-import UserDashboardModal from './components/UserDashboardModal';
 import { supabase } from './lib/supabaseClient';
 import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
 import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
+import { hydrateTest } from './data/testQuestionLoader';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
   ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench, Train
 } from 'lucide-react';
+
+// Lazy-loaded heavy views & modals for fast initial bundle (<350 KB vs 16 MB)
+const CBTMockTestModal = lazy(() => import('./components/CBTMockTestModal'));
+const TestResultModal = lazy(() => import('./components/TestResultModal'));
+const PassProModal = lazy(() => import('./components/PassProModal'));
+const SuperCoachingView = lazy(() => import('./components/SuperCoachingView'));
+const DailyQuizView = lazy(() => import('./components/DailyQuizView'));
+const SyllabusView = lazy(() => import('./components/SyllabusView'));
+const AffiliateBooksSection = lazy(() => import('./components/AffiliateBooksSection'));
+const PaidPdfBundleModal = lazy(() => import('./components/PaidPdfBundleModal'));
+const AspirantToolsHub = lazy(() => import('./components/AspirantToolsHub'));
+const MistakeNotebookModal = lazy(() => import('./components/MistakeNotebookModal'));
+const AuthModal = lazy(() => import('./components/AuthModal'));
+const UserDashboardModal = lazy(() => import('./components/UserDashboardModal'));
+const LegalModal = lazy(() => import('./components/LegalModal'));
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -177,6 +180,7 @@ export default function App() {
   const [hasPassPro, setHasPassPro] = useState(false);
   const [campaignStatus, setCampaignStatus] = useState({ max_seats: 500, seats_claimed: 0, seats_left: 500, is_active: true });
   const [activeTest, setActiveTest] = useState(null);
+  const [loadingTestId, setLoadingTestId] = useState(null);
   const [testResult, setTestResult] = useState(null);
   const [savedSession, setSavedSession] = useState(null);
 
@@ -211,24 +215,42 @@ export default function App() {
       return;
     }
     try {
-      // Claim pending referral code if user signed up via OAuth / didn't link yet
       const pendingRef = localStorage.getItem('railwayprep_pending_ref');
-      if (pendingRef) {
-        try {
-          await supabase.rpc('claim_referral', { p_ref_code: pendingRef });
-          localStorage.removeItem('railwayprep_pending_ref');
-        } catch (e) {}
+      let profileData = null;
+
+      // Prefer atomic self-healing RPC (creates missing OAuth profile & syncs referral/admin flags)
+      try {
+        const { data: ensured, error: rpcErr } = await supabase.rpc('ensure_my_profile', {
+          p_ref_code: pendingRef || null,
+        });
+        if (!rpcErr && ensured && ensured.id) {
+          profileData = ensured;
+          if (pendingRef && ensured.referred_by) {
+            localStorage.removeItem('railwayprep_pending_ref');
+          }
+        }
+      } catch (e) {}
+
+      // Fallback if ensure_my_profile RPC isn't deployed yet
+      if (!profileData) {
+        if (pendingRef) {
+          try {
+            await supabase.rpc('claim_referral', { p_ref_code: pendingRef });
+            localStorage.removeItem('railwayprep_pending_ref');
+          } catch (e) {}
+        }
+        const { data } = await supabase
+          .from('profiles')
+          .select('*')
+          .eq('id', userId)
+          .single();
+        profileData = data;
       }
 
-      const { data } = await supabase
-        .from('profiles')
-        .select('*')
-        .eq('id', userId)
-        .single();
-      if (data) {
-        setProfile(data);
-        const notExpired = !data.pass_pro_expires_at || new Date(data.pass_pro_expires_at) > new Date();
-        setHasPassPro(Boolean(data.is_pass_pro && notExpired));
+      if (profileData) {
+        setProfile(profileData);
+        const notExpired = !profileData.pass_pro_expires_at || new Date(profileData.pass_pro_expires_at) > new Date();
+        setHasPassPro(Boolean(profileData.is_pass_pro && notExpired));
       }
       // Also restore cloud saved incomplete test session if none locally
       const { data: cloudSess } = await supabase
@@ -305,7 +327,8 @@ export default function App() {
     }
   };
 
-  const handleResumeTest = (testId) => {
+  const handleResumeTest = async (testId) => {
+    if (loadingTestId) return;
     const tId = testId || savedSession?.testId;
     const matchingTest = RAILWAY_TESTS.find(t => t.id === tId);
     if (matchingTest) {
@@ -313,7 +336,16 @@ export default function App() {
         setIsPassProOpen(true);
         return;
       }
-      setActiveTest(matchingTest);
+      setLoadingTestId(matchingTest.id);
+      try {
+        const hydrated = await hydrateTest(matchingTest);
+        setActiveTest(hydrated);
+      } catch (err) {
+        console.error('Failed to load test questions:', err);
+        alert('Test load karne mein problem aayi. Please internet check karke dobara try karein.');
+      } finally {
+        setLoadingTestId(null);
+      }
     }
   };
 
@@ -408,7 +440,8 @@ export default function App() {
 
   const isTestFree = (test) => getTestAccess(test) === 'open';
 
-  const handleStartMock = (test = RAILWAY_TESTS[0], lang = selectedLang) => {
+  const handleStartMock = async (test = RAILWAY_TESTS[0], lang = selectedLang) => {
+    if (loadingTestId) return;
     const access = getTestAccess(test);
     if (access === 'login_required') {
       openAuthPrompt('🎁 Launch Offer: Sabhi 86+ Official Shifts & Solutions FREE unlock karne ke liye 10 sec mein Student Account Login karein!');
@@ -418,12 +451,21 @@ export default function App() {
       setIsPassProOpen(true);
       return;
     }
+    setLoadingTestId(test.id);
     try {
-      localStorage.removeItem('railwayprep_active_test_session');
-    } catch (e) {}
-    setSavedSession(null);
-    setSelectedLang(lang);
-    setActiveTest(test);
+      const hydrated = await hydrateTest(test);
+      try {
+        localStorage.removeItem('railwayprep_active_test_session');
+      } catch (e) {}
+      setSavedSession(null);
+      setSelectedLang(lang);
+      setActiveTest(hydrated);
+    } catch (err) {
+      console.error('Failed to load test questions:', err);
+      alert('Test load karne mein problem aayi. Please internet check karke dobara try karein.');
+    } finally {
+      setLoadingTestId(null);
+    }
   };
 
   const handleCloseActiveTest = () => {
@@ -487,14 +529,24 @@ export default function App() {
     }
   };
 
-  const handleRetakeTest = () => {
+  const handleRetakeTest = async () => {
+    if (loadingTestId) return;
+    const baseTest = testResult?.test || RAILWAY_TESTS[0];
+    setLoadingTestId(baseTest.id);
     try {
-      localStorage.removeItem('railwayprep_active_test_session');
-    } catch (e) {}
-    const t = testResult?.test || RAILWAY_TESTS[0];
-    setSavedSession(null);
-    setTestResult(null);
-    setActiveTest(t);
+      const hydrated = await hydrateTest(baseTest);
+      try {
+        localStorage.removeItem('railwayprep_active_test_session');
+      } catch (e) {}
+      setSavedSession(null);
+      setTestResult(null);
+      setActiveTest(hydrated);
+    } catch (err) {
+      console.error('Failed to reload test:', err);
+      alert('Test reload karne mein problem aayi.');
+    } finally {
+      setLoadingTestId(null);
+    }
   };
 
   return (
@@ -893,19 +945,25 @@ export default function App() {
                         </button>
                       ) : savedSession?.testId === test.id ? (
                         <button
+                          disabled={Boolean(loadingTestId)}
                           onClick={() => handleResumeTest(test.id)}
-                          className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-950/40 transition-all cursor-pointer animate-pulse"
+                          className="mt-6 w-full py-3 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-950/40 transition-all cursor-pointer animate-pulse disabled:opacity-60"
                         >
                           <Play className="w-4 h-4 fill-slate-950" />
-                          <span>Resume Test (Q.{savedSession.currentIndex + 1} से जारी रखें)</span>
+                          <span>
+                            {loadingTestId === test.id
+                              ? 'Loading Questions...'
+                              : `Resume Test (Q.${savedSession.currentIndex + 1} से जारी रखें)`}
+                          </span>
                         </button>
                       ) : (
                         <button
+                          disabled={Boolean(loadingTestId)}
                           onClick={() => handleStartMock(test)}
-                          className="mt-6 w-full py-3 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-teal-950 transition-all cursor-pointer"
+                          className="mt-6 w-full py-3 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-teal-950 transition-all cursor-pointer disabled:opacity-60"
                         >
                           <Play className="w-4 h-4 fill-slate-950" />
-                          <span>Attempt CBT Mock Test Now</span>
+                          <span>{loadingTestId === test.id ? 'Loading Shift...' : 'Attempt CBT Mock Test Now'}</span>
                         </button>
                       )}
                     </div>
@@ -942,7 +1000,9 @@ export default function App() {
             <DailyQuizCard onStartMock={() => setActiveTab('daily-quiz')} />
 
             {/* SuperCoaching Highlights */}
-            <SuperCoachingView onOpenPassPro={() => setIsPassProOpen(true)} hasPassPro={hasPassPro} />
+            <Suspense fallback={null}>
+              <SuperCoachingView onOpenPassPro={() => setIsPassProOpen(true)} hasPassPro={hasPassPro} />
+            </Suspense>
           </>
         )}
 
@@ -1273,11 +1333,16 @@ export default function App() {
                     ) : savedSession?.testId === test.id ? (
                       <div className="space-y-2 pt-2 border-t border-slate-800">
                         <button
+                          disabled={Boolean(loadingTestId)}
                           onClick={() => handleResumeTest(test.id)}
-                          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs shadow-md shadow-amber-950/40 transition-all flex items-center justify-center gap-1.5 cursor-pointer animate-pulse"
+                          className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs shadow-md shadow-amber-950/40 transition-all flex items-center justify-center gap-1.5 cursor-pointer animate-pulse disabled:opacity-60"
                         >
                           <Play className="w-3.5 h-3.5 fill-slate-950" />
-                          <span>Resume Test (Q.{savedSession.currentIndex + 1} से जारी रखें)</span>
+                          <span>
+                            {loadingTestId === test.id
+                              ? 'Loading Questions...'
+                              : `Resume Test (Q.${savedSession.currentIndex + 1} से जारी रखें)`}
+                          </span>
                         </button>
                         <div className="flex items-center justify-between text-[10px] px-1 text-slate-400">
                           <span>प्रगति सुरक्षित • {Object.keys(savedSession.answers || {}).length} हल</span>
@@ -1287,18 +1352,20 @@ export default function App() {
                     ) : (
                       <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
                         <button
+                          disabled={Boolean(loadingTestId)}
                           onClick={() => handleStartMock(test, 'hi')}
-                          className="py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950/50 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                          className="py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs shadow-md shadow-teal-950/50 transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-60"
                         >
                           <Play className="w-3.5 h-3.5 fill-slate-950" />
-                          <span>हिंदी में दें</span>
+                          <span>{loadingTestId === test.id ? 'Loading...' : 'हिंदी में दें'}</span>
                         </button>
                         <button
+                          disabled={Boolean(loadingTestId)}
                           onClick={() => handleStartMock(test, 'en')}
-                          className="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 hover:text-white font-bold text-xs border border-slate-700 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                          className="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 hover:text-white font-bold text-xs border border-slate-700 transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-60"
                         >
                           <Globe className="w-3.5 h-3.5" />
-                          <span>In English</span>
+                          <span>{loadingTestId === test.id ? 'Loading...' : 'In English'}</span>
                         </button>
                       </div>
                     )}
@@ -1309,61 +1376,69 @@ export default function App() {
           </div>
         )}
 
-        {activeTab === 'super-coaching' && (
-          <SuperCoachingView 
-            onOpenPassPro={() => setIsPassProOpen(true)} 
-            hasPassPro={hasPassPro}
-            hideAds={isPaidPro}
-            user={session?.user || null}
-            onOpenAuth={openAuthPrompt}
-          />
-        )}
-
-        {activeTab === 'syllabus' && (
-          <>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
-              <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+        <Suspense
+          fallback={
+            <div className="max-w-7xl mx-auto px-4 py-16 text-center text-xs text-slate-400">
+              Loading module...
             </div>
-            <SyllabusView
-              onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
-              onOpenPassPro={() => setIsPassProOpen(true)}
-              activeExamId={activeExamId}
-            />
-          </>
-        )}
-
-        {activeTab === 'daily-quiz' && (
-          <>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
-              <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
-            </div>
-            <DailyQuizView 
+          }
+        >
+          {activeTab === 'super-coaching' && (
+            <SuperCoachingView 
               onOpenPassPro={() => setIsPassProOpen(true)} 
-              onOpenMistakes={() => setIsMistakeModalOpen(true)} 
+              hasPassPro={hasPassPro}
+              hideAds={isPaidPro}
+              user={session?.user || null}
+              onOpenAuth={openAuthPrompt}
             />
-          </>
-        )}
+          )}
 
-        {activeTab === 'books' && (
-          <>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
-              <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
-            </div>
-            <AffiliateBooksSection />
-          </>
-        )}
+          {activeTab === 'syllabus' && (
+            <>
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+                <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+              </div>
+              <SyllabusView
+                onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
+                onOpenPassPro={() => setIsPassProOpen(true)}
+                activeExamId={activeExamId}
+              />
+            </>
+          )}
 
-        {activeTab === 'tools' && (
-          <>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
-              <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
-            </div>
-            <AspirantToolsHub 
-              onStartMock={() => handleStartMock(RAILWAY_TESTS[0])} 
-              onOpenPassPro={() => setIsPassProOpen(true)} 
-            />
-          </>
-        )}
+          {activeTab === 'daily-quiz' && (
+            <>
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+                <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+              </div>
+              <DailyQuizView 
+                onOpenPassPro={() => setIsPassProOpen(true)} 
+                onOpenMistakes={() => setIsMistakeModalOpen(true)} 
+              />
+            </>
+          )}
+
+          {activeTab === 'books' && (
+            <>
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+                <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+              </div>
+              <AffiliateBooksSection />
+            </>
+          )}
+
+          {activeTab === 'tools' && (
+            <>
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
+                <AdBanner slot="inFeedNative" onOpenPassPro={() => setIsPassProOpen(true)} onOpenPdfModal={() => setIsPdfModalOpen(true)} hideAds={isPaidPro} />
+              </div>
+              <AspirantToolsHub 
+                onStartMock={() => handleStartMock(RAILWAY_TESTS[0])} 
+                onOpenPassPro={() => setIsPassProOpen(true)} 
+              />
+            </>
+          )}
+        </Suspense>
       </main>
 
       {/* Footer with Legal & Compliance */}
@@ -1374,88 +1449,100 @@ export default function App() {
         onNavigateTab={handleNavigateFromFooter}
       />
 
-      {/* CBT Mock Test Simulator Modal (with session persistence & refresh protection) */}
-      {activeTest && (
-        <CBTMockTestModal
-          test={activeTest}
-          defaultLang={selectedLang}
-          savedSession={savedSession}
-          onClose={handleCloseActiveTest}
-          onSubmitTest={handleSubmitTest}
-          onPauseAndExit={handlePauseAndExit}
-        />
+      {/* Instant non-blocking CBT shift loader toast */}
+      {loadingTestId && (
+        <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="px-6 py-4 rounded-2xl bg-slate-900 border border-teal-500/40 shadow-2xl flex items-center gap-3 text-sm font-bold text-white">
+            <span className="w-4 h-4 rounded-full border-2 border-teal-400 border-t-transparent animate-spin" />
+            <span>Loading TCS iON CBT Exam Paper...</span>
+          </div>
+        </div>
       )}
 
-      {/* Test Result Scorecard Modal with AdSlot */}
-      {testResult && (
-        <TestResultModal
-          result={testResult}
-          onClose={() => setTestResult(null)}
-          onRetake={handleRetakeTest}
-          onOpenPassPro={() => setIsPassProOpen(true)}
-          onOpenMistakes={() => setIsMistakeModalOpen(true)}
-          hideAds={isPaidPro}
-        />
-      )}
+      <Suspense fallback={null}>
+        {/* CBT Mock Test Simulator Modal (with session persistence & refresh protection) */}
+        {activeTest && (
+          <CBTMockTestModal
+            test={activeTest}
+            defaultLang={selectedLang}
+            savedSession={savedSession}
+            onClose={handleCloseActiveTest}
+            onSubmitTest={handleSubmitTest}
+            onPauseAndExit={handlePauseAndExit}
+          />
+        )}
 
-      {/* Mistake Notebook Modal */}
-      {isMistakeModalOpen && (
-        <MistakeNotebookModal 
-          onClose={() => setIsMistakeModalOpen(false)} 
-          onStartCustomTest={() => handleStartMock(RAILWAY_TESTS[0])}
-        />
-      )}
+        {/* Test Result Scorecard Modal with AdSlot */}
+        {testResult && (
+          <TestResultModal
+            result={testResult}
+            onClose={() => setTestResult(null)}
+            onRetake={handleRetakeTest}
+            onOpenPassPro={() => setIsPassProOpen(true)}
+            onOpenMistakes={() => setIsMistakeModalOpen(true)}
+            hideAds={isPaidPro}
+          />
+        )}
 
-      {/* Pass Pro Subscription Modal */}
-      {isPassProOpen && (
-        <PassProModal 
-          user={session?.user || null}
-          profile={profile}
-          hasPassPro={hasPassPro}
-          campaignStatus={campaignStatus}
-          onClose={() => setIsPassProOpen(false)} 
-          onOpenAuth={(msg) => { setIsPassProOpen(false); openAuthPrompt(msg); }}
-          onUnlockSuccess={() => session?.user?.id && fetchUserProfile(session.user.id)}
-        />
-      )}
+        {/* Mistake Notebook Modal */}
+        {isMistakeModalOpen && (
+          <MistakeNotebookModal 
+            onClose={() => setIsMistakeModalOpen(false)} 
+            onStartCustomTest={() => handleStartMock(RAILWAY_TESTS[0])}
+          />
+        )}
 
-      {/* Auth Login / Sign Up Modal */}
-      {isAuthModalOpen && (
-        <AuthModal
-          initialMessage={authModalMessage}
-          onClose={() => setIsAuthModalOpen(false)}
-          onAuthSuccess={(newSession) => {
-            setSession(newSession);
-            if (newSession?.user?.id) fetchUserProfile(newSession.user.id);
-          }}
-        />
-      )}
+        {/* Pass Pro Subscription Modal */}
+        {isPassProOpen && (
+          <PassProModal 
+            user={session?.user || null}
+            profile={profile}
+            hasPassPro={hasPassPro}
+            campaignStatus={campaignStatus}
+            onClose={() => setIsPassProOpen(false)} 
+            onOpenAuth={(msg) => { setIsPassProOpen(false); openAuthPrompt(msg); }}
+            onUnlockSuccess={() => session?.user?.id && fetchUserProfile(session.user.id)}
+          />
+        )}
 
-      {/* Student Dashboard & Admin Payment Verification Modal */}
-      {isDashboardOpen && session?.user && (
-        <UserDashboardModal
-          user={session.user}
-          profile={profile}
-          hasPassPro={hasPassPro}
-          onClose={() => setIsDashboardOpen(false)}
-          onLogout={handleLogout}
-          onOpenPassPro={() => setIsPassProOpen(true)}
-          onRefreshProfile={() => fetchUserProfile(session.user.id)}
-        />
-      )}
+        {/* Auth Login / Sign Up Modal */}
+        {isAuthModalOpen && (
+          <AuthModal
+            initialMessage={authModalMessage}
+            onClose={() => setIsAuthModalOpen(false)}
+            onAuthSuccess={(newSession) => {
+              setSession(newSession);
+              if (newSession?.user?.id) fetchUserProfile(newSession.user.id);
+            }}
+          />
+        )}
 
-      {/* Paid PDF Bundle Modal */}
-      {isPdfModalOpen && (
-        <PaidPdfBundleModal onClose={() => setIsPdfModalOpen(false)} />
-      )}
+        {/* Student Dashboard & Admin Payment Verification Modal */}
+        {isDashboardOpen && session?.user && (
+          <UserDashboardModal
+            user={session.user}
+            profile={profile}
+            hasPassPro={hasPassPro}
+            onClose={() => setIsDashboardOpen(false)}
+            onLogout={handleLogout}
+            onOpenPassPro={() => setIsPassProOpen(true)}
+            onRefreshProfile={() => fetchUserProfile(session.user.id)}
+          />
+        )}
 
-      {/* Legal & Compliance Modal (AdSense Required) */}
-      {legalModalTab && (
-        <LegalModal 
-          initialTab={legalModalTab} 
-          onClose={() => setLegalModalTab(null)} 
-        />
-      )}
+        {/* Paid PDF Bundle Modal */}
+        {isPdfModalOpen && (
+          <PaidPdfBundleModal onClose={() => setIsPdfModalOpen(false)} />
+        )}
+
+        {/* Legal & Compliance Modal (AdSense Required) */}
+        {legalModalTab && (
+          <LegalModal 
+            initialTab={legalModalTab} 
+            onClose={() => setLegalModalTab(null)} 
+          />
+        )}
+      </Suspense>
     </div>
     </ErrorBoundary>
   );

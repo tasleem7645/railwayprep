@@ -1,24 +1,3 @@
-import alpShift1Questions from './alpShift1Bilingual.json';
-import alpShift2Questions from './alpShift2Bilingual.json';
-import alpShift3Questions from './alpShift3Bilingual.json';
-import alpShift4Questions from './alpShift4Bilingual.json';
-import alpShift5Questions from './alpShift5Bilingual.json';
-import alpShift6Questions from './alpShift6Bilingual.json';
-import alpShift7Questions from './alpShift7Bilingual.json';
-import alpShift8Questions from './alpShift8Bilingual.json';
-import alpShift9Questions from './alpShift9Bilingual.json';
-import alp2025Shift1Questions from './alp2025Shift1Bilingual.json';
-import alp2025Shift2Questions from './alp2025Shift2Bilingual.json';
-import alp2025Shift3Questions from './alp2025Shift3Bilingual.json';
-import alp2025Shift4Questions from './alp2025Shift4Bilingual.json';
-import alp2025Shift5Questions from './alp2025Shift5Bilingual.json';
-import alp2025Shift6Questions from './alp2025Shift6Bilingual.json';
-import alp2025Shift7Questions from './alp2025Shift7Bilingual.json';
-import alp2025Shift8Questions from './alp2025Shift8Bilingual.json';
-import alp2025Shift9Questions from './alp2025Shift9Bilingual.json';
-import alp2025Shift10Questions from './alp2025Shift10Bilingual.json';
-import alp2025Cbt2Shift1Questions from './alp2025Cbt2Shift1Bilingual.json';
-import alp2025Cbt2Shift2Questions from './alp2025Cbt2Shift2Bilingual.json';
 import { CBT2_PART_B_TESTS } from './tradeTestsData';
 import { GROUP_D_TESTS } from './groupDTestsData';
 
@@ -28,155 +7,90 @@ import { GROUP_D_TESTS } from './groupDTestsData';
 // 1. Mathematics: Pure Maths only (24 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (41 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (10 Questions)
-const scienceQuestionsS1 = alpShift1Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS1 = alpShift1Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS1 = alpShift1Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // --- SHIFT 2 SECTIONAL SUBSETS ---
 // 1. Mathematics: Pure Maths only (25 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (40 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (10 Questions)
-const scienceQuestionsS2 = alpShift2Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS2 = alpShift2Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS2 = alpShift2Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // --- SHIFT 3 SECTIONAL SUBSETS ---
 // 1. Mathematics: Pure Maths only (22 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (40 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (13 Questions)
-const scienceQuestionsS3 = alpShift3Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS3 = alpShift3Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS3 = alpShift3Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // --- SHIFT 4 SECTIONAL SUBSETS ---
 // 1. Mathematics: Pure Maths only (25 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (42 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (8 Questions)
-const scienceQuestionsS4 = alpShift4Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS4 = alpShift4Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS4 = alpShift4Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // --- SHIFT 5 SECTIONAL SUBSETS ---
 // 1. Mathematics: Pure Maths only (25 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (42 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (8 Questions)
-const scienceQuestionsS5 = alpShift5Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS5 = alpShift5Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS5 = alpShift5Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // --- SHIFT 6 SECTIONAL SUBSETS ---
 // 1. Mathematics: Pure Maths only (25 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (42 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (8 Questions)
-const scienceQuestionsS6 = alpShift6Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS6 = alpShift6Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS6 = alpShift6Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // --- SHIFT 7 SECTIONAL SUBSETS ---
 // 1. Mathematics: Pure Maths only (25 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (42 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (8 Questions)
-const scienceQuestionsS7 = alpShift7Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS7 = alpShift7Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS7 = alpShift7Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // --- SHIFT 8 SECTIONAL SUBSETS ---
 // 1. Mathematics: Pure Maths only (25 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (42 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (8 Questions)
-const scienceQuestionsS8 = alpShift8Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS8 = alpShift8Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS8 = alpShift8Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // --- SHIFT 9 SECTIONAL SUBSETS ---
 // 1. Mathematics: Pure Maths only (25 Questions)
 // 2. Reasoning: Pure Intelligence & Reasoning only (42 Questions)
 // 3. General Science: Physics, Chemistry, Biology + Indian Polity/Current Affairs (8 Questions)
-const scienceQuestionsS9 = alpShift9Questions.filter(q => q.section === 'General Science');
-const mathsQuestionsS9 = alpShift9Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsS9 = alpShift9Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 1 (13 Feb 2026 - 9:00 AM)
 // ==========================================
-const scienceQuestions2025S1 = alp2025Shift1Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S1 = alp2025Shift1Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S1 = alp2025Shift1Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 2 (16 Feb 2026 - 9:00 AM)
 // ==========================================
-const scienceQuestions2025S2 = alp2025Shift2Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S2 = alp2025Shift2Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S2 = alp2025Shift2Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 3 (16 Feb 2026 - 12:30 PM)
 // ==========================================
-const scienceQuestions2025S3 = alp2025Shift3Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S3 = alp2025Shift3Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S3 = alp2025Shift3Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 4 (16 Feb 2026 - 04:00 PM)
 // ==========================================
-const scienceQuestions2025S4 = alp2025Shift4Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S4 = alp2025Shift4Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S4 = alp2025Shift4Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 5 (17 Feb 2026 - 09:00 AM)
 // ==========================================
-const scienceQuestions2025S5 = alp2025Shift5Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S5 = alp2025Shift5Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S5 = alp2025Shift5Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 6 (17 Feb 2026 - 12:30 PM)
 // ==========================================
-const scienceQuestions2025S6 = alp2025Shift6Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S6 = alp2025Shift6Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S6 = alp2025Shift6Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 7 (17 Feb 2026 - 04:00 PM)
 // ==========================================
-const scienceQuestions2025S7 = alp2025Shift7Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S7 = alp2025Shift7Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S7 = alp2025Shift7Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 8 (18 Feb 2026 - 09:00 AM)
 // ==========================================
-const scienceQuestions2025S8 = alp2025Shift8Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S8 = alp2025Shift8Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S8 = alp2025Shift8Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 9 (18 Feb 2026 - 12:30 PM)
 // ==========================================
-const scienceQuestions2025S9 = alp2025Shift9Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S9 = alp2025Shift9Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S9 = alp2025Shift9Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 // ==========================================
 // 2025 CYCLE: SHIFT 10 (18 Feb 2026 - 04:00 PM)
 // ==========================================
-const scienceQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'General Science');
-const mathsQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestions2025S10 = alp2025Shift10Questions.filter(q => q.section === 'General Intelligence & Reasoning');
 
 
 // --- CBT-2 PART A SHIFT 1 & 2 SUBSETS ---
-const bseQuestionsCbt2S1 = alp2025Cbt2Shift1Questions.filter(q => q.section === 'Basic Science & Engineering');
-const mathsQuestionsCbt2S1 = alp2025Cbt2Shift1Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsCbt2S1 = alp2025Cbt2Shift1Questions.filter(q => q.section === 'General Intelligence & Reasoning');
-const gaQuestionsCbt2S1 = alp2025Cbt2Shift1Questions.filter(q => q.section === 'General Awareness');
 
-const bseQuestionsCbt2S2 = alp2025Cbt2Shift2Questions.filter(q => q.section === 'Basic Science & Engineering');
-const mathsQuestionsCbt2S2 = alp2025Cbt2Shift2Questions.filter(q => q.section === 'Mathematics');
-const reasoningQuestionsCbt2S2 = alp2025Cbt2Shift2Questions.filter(q => q.section === 'General Intelligence & Reasoning');
-const gaQuestionsCbt2S2 = alp2025Cbt2Shift2Questions.filter(q => q.section === 'General Awareness');
 
 export const RAILWAY_TESTS = [
   // ==========================================
@@ -196,8 +110,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '9:00 AM - 10:00 AM',
     shiftName: '03 Nov Shift 1',
     durationMinutes: 60,
-    totalQuestions: alpShift1Questions.length,
-    maxMarks: alpShift1Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -207,12 +121,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionDistribution: {
-      'General Science': scienceQuestionsS1.length,
-      'Mathematics': mathsQuestionsS1.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS1.length
+      'General Science': 10,
+      'Mathematics': 24,
+      'General Intelligence & Reasoning': 41
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS1.length}), Maths (${mathsQuestionsS1.length}), Reasoning (${reasoningQuestionsS1.length})`,
-    questions: alpShift1Questions
+    sectionSummary: `Covers: General Science & GK (10), Maths (24), Reasoning (41)`,
+    questionSource: { file: './alpShift1Bilingual.json' }
   },
 
   // 2. Sectional Test - General Science & Current Affairs (Shift 1)
@@ -229,13 +143,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '03 Nov Shift 1',
     durationMinutes: 12,
-    totalQuestions: scienceQuestionsS1.length,
-    maxMarks: scienceQuestionsS1.length,
+    totalQuestions: 10,
+    maxMarks: 10,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK / CA (${scienceQuestionsS1.length} Questions)`,
-    questions: scienceQuestionsS1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK / CA (10 Questions)`,
+    questionSource: { file: './alpShift1Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 3. Sectional Test - Mathematics (Shift 1)
@@ -252,13 +166,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '03 Nov Shift 1',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS1.length,
-    maxMarks: mathsQuestionsS1.length,
+    totalQuestions: 24,
+    maxMarks: 24,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS1.length} Questions)`,
-    questions: mathsQuestionsS1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (24 Questions)`,
+    questionSource: { file: './alpShift1Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 4. Sectional Test - General Intelligence & Reasoning (Shift 1)
@@ -275,13 +189,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '03 Nov Shift 1',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS1.length,
-    maxMarks: reasoningQuestionsS1.length,
+    totalQuestions: 41,
+    maxMarks: 41,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS1.length} Questions)`,
-    questions: reasoningQuestionsS1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (41 Questions)`,
+    questionSource: { file: './alpShift1Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -301,8 +215,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '12:30 PM - 1:30 PM',
     shiftName: '03 Nov Shift 2',
     durationMinutes: 60,
-    totalQuestions: alpShift2Questions.length,
-    maxMarks: alpShift2Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -312,12 +226,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionDistribution: {
-      'General Science': scienceQuestionsS2.length,
-      'Mathematics': mathsQuestionsS2.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS2.length
+      'General Science': 10,
+      'Mathematics': 25,
+      'General Intelligence & Reasoning': 40
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS2.length}), Maths (${mathsQuestionsS2.length}), Reasoning (${reasoningQuestionsS2.length})`,
-    questions: alpShift2Questions
+    sectionSummary: `Covers: General Science & GK (10), Maths (25), Reasoning (40)`,
+    questionSource: { file: './alpShift2Bilingual.json' }
   },
 
   // 6. Sectional Test - General Science & Current Affairs (Shift 2)
@@ -334,13 +248,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '03 Nov Shift 2',
     durationMinutes: 12,
-    totalQuestions: scienceQuestionsS2.length,
-    maxMarks: scienceQuestionsS2.length,
+    totalQuestions: 10,
+    maxMarks: 10,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK / CA (${scienceQuestionsS2.length} Questions)`,
-    questions: scienceQuestionsS2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK / CA (10 Questions)`,
+    questionSource: { file: './alpShift2Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 7. Sectional Test - Mathematics (Shift 2)
@@ -357,13 +271,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '03 Nov Shift 2',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS2.length,
-    maxMarks: mathsQuestionsS2.length,
+    totalQuestions: 25,
+    maxMarks: 25,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS2.length} Questions)`,
-    questions: mathsQuestionsS2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (25 Questions)`,
+    questionSource: { file: './alpShift2Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 8. Sectional Test - General Intelligence & Reasoning (Shift 2)
@@ -380,13 +294,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '03 Nov Shift 2',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS2.length,
-    maxMarks: reasoningQuestionsS2.length,
+    totalQuestions: 40,
+    maxMarks: 40,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS2.length} Questions)`,
-    questions: reasoningQuestionsS2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (40 Questions)`,
+    questionSource: { file: './alpShift2Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -406,8 +320,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '4:00 PM - 5:00 PM',
     shiftName: '03 Nov Shift 3',
     durationMinutes: 60,
-    totalQuestions: alpShift3Questions.length,
-    maxMarks: alpShift3Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -417,12 +331,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionDistribution: {
-      'General Science': scienceQuestionsS3.length,
-      'Mathematics': mathsQuestionsS3.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS3.length
+      'General Science': 13,
+      'Mathematics': 22,
+      'General Intelligence & Reasoning': 40
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS3.length}), Maths (${mathsQuestionsS3.length}), Reasoning (${reasoningQuestionsS3.length})`,
-    questions: alpShift3Questions
+    sectionSummary: `Covers: General Science & GK (13), Maths (22), Reasoning (40)`,
+    questionSource: { file: './alpShift3Bilingual.json' }
   },
 
   // 10. Sectional Test - General Science & Current Affairs (Shift 3)
@@ -439,13 +353,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '03 Nov Shift 3',
     durationMinutes: 15,
-    totalQuestions: scienceQuestionsS3.length,
-    maxMarks: scienceQuestionsS3.length,
+    totalQuestions: 13,
+    maxMarks: 13,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK / CA (${scienceQuestionsS3.length} Questions)`,
-    questions: scienceQuestionsS3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK / CA (13 Questions)`,
+    questionSource: { file: './alpShift3Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 11. Sectional Test - Mathematics (Shift 3)
@@ -462,13 +376,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '03 Nov Shift 3',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS3.length,
-    maxMarks: mathsQuestionsS3.length,
+    totalQuestions: 22,
+    maxMarks: 22,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS3.length} Questions)`,
-    questions: mathsQuestionsS3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (22 Questions)`,
+    questionSource: { file: './alpShift3Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 12. Sectional Test - General Intelligence & Reasoning (Shift 3)
@@ -485,13 +399,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '03 Nov Shift 3',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS3.length,
-    maxMarks: reasoningQuestionsS3.length,
+    totalQuestions: 40,
+    maxMarks: 40,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS3.length} Questions)`,
-    questions: reasoningQuestionsS3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (40 Questions)`,
+    questionSource: { file: './alpShift3Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -511,8 +425,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '9:00 AM - 10:00 AM',
     shiftName: '04 Nov Shift 4',
     durationMinutes: 60,
-    totalQuestions: alpShift4Questions.length,
-    maxMarks: alpShift4Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -522,12 +436,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionDistribution: {
-      'General Science': scienceQuestionsS4.length,
-      'Mathematics': mathsQuestionsS4.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS4.length
+      'General Science': 8,
+      'Mathematics': 25,
+      'General Intelligence & Reasoning': 42
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS4.length}), Maths (${mathsQuestionsS4.length}), Reasoning (${reasoningQuestionsS4.length})`,
-    questions: alpShift4Questions
+    sectionSummary: `Covers: General Science & GK (8), Maths (25), Reasoning (42)`,
+    questionSource: { file: './alpShift4Bilingual.json' }
   },
 
   // 14. Sectional Test - General Science & Current Affairs (Shift 4)
@@ -544,13 +458,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 4',
     shiftName: '04 Nov Shift 4',
     durationMinutes: 15,
-    totalQuestions: scienceQuestionsS4.length,
-    maxMarks: scienceQuestionsS4.length,
+    totalQuestions: 8,
+    maxMarks: 8,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestionsS4.length} Questions)`,
-    questions: scienceQuestionsS4.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (8 Questions)`,
+    questionSource: { file: './alpShift4Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 15. Sectional Test - Mathematics (Shift 4)
@@ -567,13 +481,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 4',
     shiftName: '04 Nov Shift 4',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS4.length,
-    maxMarks: mathsQuestionsS4.length,
+    totalQuestions: 25,
+    maxMarks: 25,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS4.length} Questions)`,
-    questions: mathsQuestionsS4.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (25 Questions)`,
+    questionSource: { file: './alpShift4Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 16. Sectional Test - General Intelligence & Reasoning (Shift 4)
@@ -590,13 +504,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 4',
     shiftName: '04 Nov Shift 4',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS4.length,
-    maxMarks: reasoningQuestionsS4.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS4.length} Questions)`,
-    questions: reasoningQuestionsS4.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (42 Questions)`,
+    questionSource: { file: './alpShift4Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -616,8 +530,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '12:30 PM - 1:30 PM',
     shiftName: '04 Nov Shift 5',
     durationMinutes: 60,
-    totalQuestions: alpShift5Questions.length,
-    maxMarks: alpShift5Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -627,12 +541,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionDistribution: {
-      'General Science': scienceQuestionsS5.length,
-      'Mathematics': mathsQuestionsS5.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS5.length
+      'General Science': 8,
+      'Mathematics': 25,
+      'General Intelligence & Reasoning': 42
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS5.length}), Maths (${mathsQuestionsS5.length}), Reasoning (${reasoningQuestionsS5.length})`,
-    questions: alpShift5Questions
+    sectionSummary: `Covers: General Science & GK (8), Maths (25), Reasoning (42)`,
+    questionSource: { file: './alpShift5Bilingual.json' }
   },
 
   // 18. Sectional Test - General Science & Current Affairs (Shift 5)
@@ -649,13 +563,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 5',
     shiftName: '04 Nov Shift 5',
     durationMinutes: 15,
-    totalQuestions: scienceQuestionsS5.length,
-    maxMarks: scienceQuestionsS5.length,
+    totalQuestions: 8,
+    maxMarks: 8,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestionsS5.length} Questions)`,
-    questions: scienceQuestionsS5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (8 Questions)`,
+    questionSource: { file: './alpShift5Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 19. Sectional Test - Mathematics (Shift 5)
@@ -672,13 +586,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 5',
     shiftName: '04 Nov Shift 5',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS5.length,
-    maxMarks: mathsQuestionsS5.length,
+    totalQuestions: 25,
+    maxMarks: 25,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS5.length} Questions)`,
-    questions: mathsQuestionsS5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (25 Questions)`,
+    questionSource: { file: './alpShift5Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 20. Sectional Test - General Intelligence & Reasoning (Shift 5)
@@ -695,13 +609,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 5',
     shiftName: '04 Nov Shift 5',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS5.length,
-    maxMarks: reasoningQuestionsS5.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS5.length} Questions)`,
-    questions: reasoningQuestionsS5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (42 Questions)`,
+    questionSource: { file: './alpShift5Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -722,8 +636,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '4:00 PM - 5:00 PM',
     shiftName: '04 Nov Shift 6',
     durationMinutes: 60,
-    totalQuestions: alpShift6Questions.length,
-    maxMarks: alpShift6Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -733,12 +647,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestionsS6.length,
-      'Mathematics': mathsQuestionsS6.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS6.length
+      'General Science': 8,
+      'Mathematics': 25,
+      'General Intelligence & Reasoning': 42
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS6.length}), Maths (${mathsQuestionsS6.length}), Reasoning (${reasoningQuestionsS6.length})`,
-    questions: alpShift6Questions
+    sectionSummary: `Covers: General Science & GK (8), Maths (25), Reasoning (42)`,
+    questionSource: { file: './alpShift6Bilingual.json' }
   },
 
   // 22. Sectional Test - General Science & Current Affairs (Shift 6)
@@ -755,13 +669,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 6',
     shiftName: '04 Nov Shift 6',
     durationMinutes: 15,
-    totalQuestions: scienceQuestionsS6.length,
-    maxMarks: scienceQuestionsS6.length,
+    totalQuestions: 8,
+    maxMarks: 8,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestionsS6.length} Questions)`,
-    questions: scienceQuestionsS6.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (8 Questions)`,
+    questionSource: { file: './alpShift6Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 23. Sectional Test - Mathematics (Shift 6)
@@ -778,13 +692,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 6',
     shiftName: '04 Nov Shift 6',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS6.length,
-    maxMarks: mathsQuestionsS6.length,
+    totalQuestions: 25,
+    maxMarks: 25,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS6.length} Questions)`,
-    questions: mathsQuestionsS6.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (25 Questions)`,
+    questionSource: { file: './alpShift6Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 24. Sectional Test - General Intelligence & Reasoning (Shift 6)
@@ -801,13 +715,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 6',
     shiftName: '04 Nov Shift 6',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS6.length,
-    maxMarks: reasoningQuestionsS6.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS6.length} Questions)`,
-    questions: reasoningQuestionsS6.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (42 Questions)`,
+    questionSource: { file: './alpShift6Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -828,8 +742,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '9:00 AM - 10:00 AM',
     shiftName: '05 Nov Shift 7',
     durationMinutes: 60,
-    totalQuestions: alpShift7Questions.length,
-    maxMarks: alpShift7Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -839,12 +753,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestionsS7.length,
-      'Mathematics': mathsQuestionsS7.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS7.length
+      'General Science': 8,
+      'Mathematics': 25,
+      'General Intelligence & Reasoning': 42
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS7.length}), Maths (${mathsQuestionsS7.length}), Reasoning (${reasoningQuestionsS7.length})`,
-    questions: alpShift7Questions
+    sectionSummary: `Covers: General Science & GK (8), Maths (25), Reasoning (42)`,
+    questionSource: { file: './alpShift7Bilingual.json' }
   },
 
   // 26. Sectional Test - General Science & Current Affairs (Shift 7)
@@ -861,13 +775,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 7',
     shiftName: '05 Nov Shift 7',
     durationMinutes: 15,
-    totalQuestions: scienceQuestionsS7.length,
-    maxMarks: scienceQuestionsS7.length,
+    totalQuestions: 8,
+    maxMarks: 8,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestionsS7.length} Questions)`,
-    questions: scienceQuestionsS7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (8 Questions)`,
+    questionSource: { file: './alpShift7Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 27. Sectional Test - Mathematics (Shift 7)
@@ -884,13 +798,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 7',
     shiftName: '05 Nov Shift 7',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS7.length,
-    maxMarks: mathsQuestionsS7.length,
+    totalQuestions: 25,
+    maxMarks: 25,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS7.length} Questions)`,
-    questions: mathsQuestionsS7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (25 Questions)`,
+    questionSource: { file: './alpShift7Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 28. Sectional Test - General Intelligence & Reasoning (Shift 7)
@@ -907,13 +821,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 7',
     shiftName: '05 Nov Shift 7',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS7.length,
-    maxMarks: reasoningQuestionsS7.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS7.length} Questions)`,
-    questions: reasoningQuestionsS7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (42 Questions)`,
+    questionSource: { file: './alpShift7Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -934,8 +848,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '12:30 PM - 1:30 PM',
     shiftName: '05 Nov Shift 8',
     durationMinutes: 60,
-    totalQuestions: alpShift8Questions.length,
-    maxMarks: alpShift8Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -945,12 +859,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestionsS8.length,
-      'Mathematics': mathsQuestionsS8.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS8.length
+      'General Science': 8,
+      'Mathematics': 25,
+      'General Intelligence & Reasoning': 42
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS8.length}), Maths (${mathsQuestionsS8.length}), Reasoning (${reasoningQuestionsS8.length})`,
-    questions: alpShift8Questions
+    sectionSummary: `Covers: General Science & GK (8), Maths (25), Reasoning (42)`,
+    questionSource: { file: './alpShift8Bilingual.json' }
   },
 
   // 30. Sectional Test - General Science & Current Affairs (Shift 8)
@@ -967,13 +881,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 8',
     shiftName: '05 Nov Shift 8',
     durationMinutes: 15,
-    totalQuestions: scienceQuestionsS8.length,
-    maxMarks: scienceQuestionsS8.length,
+    totalQuestions: 8,
+    maxMarks: 8,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestionsS8.length} Questions)`,
-    questions: scienceQuestionsS8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (8 Questions)`,
+    questionSource: { file: './alpShift8Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 31. Sectional Test - Mathematics (Shift 8)
@@ -990,13 +904,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 8',
     shiftName: '05 Nov Shift 8',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS8.length,
-    maxMarks: mathsQuestionsS8.length,
+    totalQuestions: 25,
+    maxMarks: 25,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS8.length} Questions)`,
-    questions: mathsQuestionsS8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (25 Questions)`,
+    questionSource: { file: './alpShift8Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 32. Sectional Test - General Intelligence & Reasoning (Shift 8)
@@ -1013,13 +927,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 8',
     shiftName: '05 Nov Shift 8',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS8.length,
-    maxMarks: reasoningQuestionsS8.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS8.length} Questions)`,
-    questions: reasoningQuestionsS8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (42 Questions)`,
+    questionSource: { file: './alpShift8Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -1040,8 +954,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '4:00 PM - 5:00 PM',
     shiftName: '05 Nov Shift 9',
     durationMinutes: 60,
-    totalQuestions: alpShift9Questions.length,
-    maxMarks: alpShift9Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -1051,12 +965,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestionsS9.length,
-      'Mathematics': mathsQuestionsS9.length,
-      'General Intelligence & Reasoning': reasoningQuestionsS9.length
+      'General Science': 8,
+      'Mathematics': 25,
+      'General Intelligence & Reasoning': 42
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestionsS9.length}), Maths (${mathsQuestionsS9.length}), Reasoning (${reasoningQuestionsS9.length})`,
-    questions: alpShift9Questions
+    sectionSummary: `Covers: General Science & GK (8), Maths (25), Reasoning (42)`,
+    questionSource: { file: './alpShift9Bilingual.json' }
   },
 
   // 34. Sectional Test - General Science & Current Affairs (Shift 9)
@@ -1073,13 +987,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 9',
     shiftName: '05 Nov Shift 9',
     durationMinutes: 15,
-    totalQuestions: scienceQuestionsS9.length,
-    maxMarks: scienceQuestionsS9.length,
+    totalQuestions: 8,
+    maxMarks: 8,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestionsS9.length} Questions)`,
-    questions: scienceQuestionsS9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (8 Questions)`,
+    questionSource: { file: './alpShift9Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 35. Sectional Test - Mathematics (Shift 9)
@@ -1096,13 +1010,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 9',
     shiftName: '05 Nov Shift 9',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsS9.length,
-    maxMarks: mathsQuestionsS9.length,
+    totalQuestions: 25,
+    maxMarks: 25,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsS9.length} Questions)`,
-    questions: mathsQuestionsS9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (25 Questions)`,
+    questionSource: { file: './alpShift9Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 36. Sectional Test - General Intelligence & Reasoning (Shift 9)
@@ -1119,13 +1033,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 9',
     shiftName: '05 Nov Shift 9',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestionsS9.length,
-    maxMarks: reasoningQuestionsS9.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsS9.length} Questions)`,
-    questions: reasoningQuestionsS9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (42 Questions)`,
+    questionSource: { file: './alpShift9Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ===================================================
@@ -1147,8 +1061,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '9:00 AM - 10:00 AM',
     shiftName: '13 Feb Shift 1',
     durationMinutes: 60,
-    totalQuestions: alp2025Shift1Questions.length,
-    maxMarks: alp2025Shift1Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -1158,12 +1072,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S1.length,
-      'Mathematics': mathsQuestions2025S1.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S1.length
+      'General Science': 10,
+      'Mathematics': 25,
+      'General Intelligence & Reasoning': 40
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S1.length}), Maths (${mathsQuestions2025S1.length}), Reasoning (${reasoningQuestions2025S1.length})`,
-    questions: alp2025Shift1Questions
+    sectionSummary: `Covers: General Science & GK (10), Maths (25), Reasoning (40)`,
+    questionSource: { file: './alp2025Shift1Bilingual.json' }
   },
 
   // 38. Sectional Test - General Science & Current Affairs (2025 Shift 1)
@@ -1181,13 +1095,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '13 Feb Shift 1',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S1.length,
-    maxMarks: scienceQuestions2025S1.length,
+    totalQuestions: 10,
+    maxMarks: 10,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S1.length} Questions)`,
-    questions: scienceQuestions2025S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (10 Questions)`,
+    questionSource: { file: './alp2025Shift1Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 39. Sectional Test - Mathematics (2025 Shift 1)
@@ -1205,13 +1119,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '13 Feb Shift 1',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S1.length,
-    maxMarks: mathsQuestions2025S1.length,
+    totalQuestions: 25,
+    maxMarks: 25,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S1.length} Questions)`,
-    questions: mathsQuestions2025S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (25 Questions)`,
+    questionSource: { file: './alp2025Shift1Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 40. Sectional Test - General Intelligence & Reasoning (2025 Shift 1)
@@ -1229,13 +1143,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '13 Feb Shift 1',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S1.length,
-    maxMarks: reasoningQuestions2025S1.length,
+    totalQuestions: 40,
+    maxMarks: 40,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S1.length} Questions)`,
-    questions: reasoningQuestions2025S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (40 Questions)`,
+    questionSource: { file: './alp2025Shift1Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ===================================================
@@ -1257,8 +1171,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '9:00 AM - 10:00 AM',
     shiftName: '16 Feb Shift 1',
     durationMinutes: 60,
-    totalQuestions: alp2025Shift2Questions.length,
-    maxMarks: alp2025Shift2Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -1268,12 +1182,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S2.length,
-      'Mathematics': mathsQuestions2025S2.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S2.length
+      'General Science': 16,
+      'Mathematics': 20,
+      'General Intelligence & Reasoning': 39
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S2.length}), Maths (${mathsQuestions2025S2.length}), Reasoning (${reasoningQuestions2025S2.length})`,
-    questions: alp2025Shift2Questions
+    sectionSummary: `Covers: General Science & GK (16), Maths (20), Reasoning (39)`,
+    questionSource: { file: './alp2025Shift2Bilingual.json' }
   },
 
   // 42. Sectional Test - General Science & Current Affairs (2025 Shift 2)
@@ -1291,13 +1205,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '16 Feb Shift 1',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S2.length,
-    maxMarks: scienceQuestions2025S2.length,
+    totalQuestions: 16,
+    maxMarks: 16,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S2.length} Questions)`,
-    questions: scienceQuestions2025S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (16 Questions)`,
+    questionSource: { file: './alp2025Shift2Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 43. Sectional Test - Mathematics (2025 Shift 2)
@@ -1315,13 +1229,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '16 Feb Shift 1',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S2.length,
-    maxMarks: mathsQuestions2025S2.length,
+    totalQuestions: 20,
+    maxMarks: 20,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S2.length} Questions)`,
-    questions: mathsQuestions2025S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (20 Questions)`,
+    questionSource: { file: './alp2025Shift2Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 44. Sectional Test - General Intelligence & Reasoning (2025 Shift 2)
@@ -1339,13 +1253,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '16 Feb Shift 1',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S2.length,
-    maxMarks: reasoningQuestions2025S2.length,
+    totalQuestions: 39,
+    maxMarks: 39,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S2.length} Questions)`,
-    questions: reasoningQuestions2025S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (39 Questions)`,
+    questionSource: { file: './alp2025Shift2Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ===================================================
@@ -1367,8 +1281,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '12:30 PM - 01:30 PM',
     shiftName: '16 Feb Shift 2',
     durationMinutes: 60,
-    totalQuestions: alp2025Shift3Questions.length,
-    maxMarks: alp2025Shift3Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -1378,12 +1292,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S3.length,
-      'Mathematics': mathsQuestions2025S3.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S3.length
+      'General Science': 10,
+      'Mathematics': 20,
+      'General Intelligence & Reasoning': 45
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S3.length}), Maths (${mathsQuestions2025S3.length}), Reasoning (${reasoningQuestions2025S3.length})`,
-    questions: alp2025Shift3Questions
+    sectionSummary: `Covers: General Science & GK (10), Maths (20), Reasoning (45)`,
+    questionSource: { file: './alp2025Shift3Bilingual.json' }
   },
 
   // 46. Sectional Test - General Science & Current Affairs (2025 Shift 3)
@@ -1401,13 +1315,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '16 Feb Shift 2',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S3.length,
-    maxMarks: scienceQuestions2025S3.length,
+    totalQuestions: 10,
+    maxMarks: 10,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S3.length} Questions)`,
-    questions: scienceQuestions2025S3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (10 Questions)`,
+    questionSource: { file: './alp2025Shift3Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 47. Sectional Test - Mathematics (2025 Shift 3)
@@ -1425,13 +1339,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '16 Feb Shift 2',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S3.length,
-    maxMarks: mathsQuestions2025S3.length,
+    totalQuestions: 20,
+    maxMarks: 20,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S3.length} Questions)`,
-    questions: mathsQuestions2025S3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (20 Questions)`,
+    questionSource: { file: './alp2025Shift3Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 48. Sectional Test - General Intelligence & Reasoning (2025 Shift 3)
@@ -1449,13 +1363,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '16 Feb Shift 2',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S3.length,
-    maxMarks: reasoningQuestions2025S3.length,
+    totalQuestions: 45,
+    maxMarks: 45,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S3.length} Questions)`,
-    questions: reasoningQuestions2025S3.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (45 Questions)`,
+    questionSource: { file: './alp2025Shift3Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ===================================================
@@ -1477,8 +1391,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '04:00 PM - 05:00 PM',
     shiftName: '16 Feb Shift 3',
     durationMinutes: 60,
-    totalQuestions: alp2025Shift4Questions.length,
-    maxMarks: alp2025Shift4Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -1488,12 +1402,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S4.length,
-      'Mathematics': mathsQuestions2025S4.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S4.length
+      'General Science': 12,
+      'Mathematics': 17,
+      'General Intelligence & Reasoning': 46
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S4.length}), Maths (${mathsQuestions2025S4.length}), Reasoning (${reasoningQuestions2025S4.length})`,
-    questions: alp2025Shift4Questions
+    sectionSummary: `Covers: General Science & GK (12), Maths (17), Reasoning (46)`,
+    questionSource: { file: './alp2025Shift4Bilingual.json' }
   },
 
   // 50. Sectional Test - General Science & Current Affairs (2025 Shift 4)
@@ -1511,13 +1425,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '16 Feb Shift 3',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S4.length,
-    maxMarks: scienceQuestions2025S4.length,
+    totalQuestions: 12,
+    maxMarks: 12,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S4.length} Questions)`,
-    questions: scienceQuestions2025S4.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (12 Questions)`,
+    questionSource: { file: './alp2025Shift4Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 51. Sectional Test - Mathematics (2025 Shift 4)
@@ -1535,13 +1449,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '16 Feb Shift 3',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S4.length,
-    maxMarks: mathsQuestions2025S4.length,
+    totalQuestions: 17,
+    maxMarks: 17,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S4.length} Questions)`,
-    questions: mathsQuestions2025S4.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (17 Questions)`,
+    questionSource: { file: './alp2025Shift4Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 52. Sectional Test - General Intelligence & Reasoning (2025 Shift 4)
@@ -1559,13 +1473,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '16 Feb Shift 3',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S4.length,
-    maxMarks: reasoningQuestions2025S4.length,
+    totalQuestions: 46,
+    maxMarks: 46,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S4.length} Questions)`,
-    questions: reasoningQuestions2025S4.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (46 Questions)`,
+    questionSource: { file: './alp2025Shift4Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ===================================================
@@ -1587,8 +1501,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '09:00 AM - 10:00 AM',
     shiftName: '17 Feb Shift 1',
     durationMinutes: 60,
-    totalQuestions: alp2025Shift5Questions.length,
-    maxMarks: alp2025Shift5Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -1598,12 +1512,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S5.length,
-      'Mathematics': mathsQuestions2025S5.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S5.length
+      'General Science': 15,
+      'Mathematics': 10,
+      'General Intelligence & Reasoning': 50
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S5.length}), Maths (${mathsQuestions2025S5.length}), Reasoning (${reasoningQuestions2025S5.length})`,
-    questions: alp2025Shift5Questions
+    sectionSummary: `Covers: General Science & GK (15), Maths (10), Reasoning (50)`,
+    questionSource: { file: './alp2025Shift5Bilingual.json' }
   },
 
   // 54. Sectional Test - General Science & Current Affairs (2025 Shift 5)
@@ -1621,13 +1535,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '17 Feb Shift 1',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S5.length,
-    maxMarks: scienceQuestions2025S5.length,
+    totalQuestions: 15,
+    maxMarks: 15,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S5.length} Questions)`,
-    questions: scienceQuestions2025S5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (15 Questions)`,
+    questionSource: { file: './alp2025Shift5Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 55. Sectional Test - Mathematics (2025 Shift 5)
@@ -1645,13 +1559,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '17 Feb Shift 1',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S5.length,
-    maxMarks: mathsQuestions2025S5.length,
+    totalQuestions: 10,
+    maxMarks: 10,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S5.length} Questions)`,
-    questions: mathsQuestions2025S5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (10 Questions)`,
+    questionSource: { file: './alp2025Shift5Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 56. Sectional Test - General Intelligence & Reasoning (2025 Shift 5)
@@ -1669,13 +1583,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '17 Feb Shift 1',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S5.length,
-    maxMarks: reasoningQuestions2025S5.length,
+    totalQuestions: 50,
+    maxMarks: 50,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S5.length} Questions)`,
-    questions: reasoningQuestions2025S5.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (50 Questions)`,
+    questionSource: { file: './alp2025Shift5Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ===================================================
@@ -1697,8 +1611,8 @@ export const RAILWAY_TESTS = [
     shiftTime: '12:30 PM - 01:30 PM',
     shiftName: '17 Feb Shift 2',
     durationMinutes: 60,
-    totalQuestions: alp2025Shift6Questions.length,
-    maxMarks: alp2025Shift6Questions.length,
+    totalQuestions: 75,
+    maxMarks: 75,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: [
@@ -1708,12 +1622,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S6.length,
-      'Mathematics': mathsQuestions2025S6.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S6.length
+      'General Science': 14,
+      'Mathematics': 17,
+      'General Intelligence & Reasoning': 44
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S6.length}), Maths (${mathsQuestions2025S6.length}), Reasoning (${reasoningQuestions2025S6.length})`,
-    questions: alp2025Shift6Questions
+    sectionSummary: `Covers: General Science & GK (14), Maths (17), Reasoning (44)`,
+    questionSource: { file: './alp2025Shift6Bilingual.json' }
   },
 
   // 58. Sectional Test - General Science & Current Affairs (2025 Shift 6)
@@ -1731,13 +1645,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '17 Feb Shift 2',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S6.length,
-    maxMarks: scienceQuestions2025S6.length,
+    totalQuestions: 14,
+    maxMarks: 14,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S6.length} Questions)`,
-    questions: scienceQuestions2025S6.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (14 Questions)`,
+    questionSource: { file: './alp2025Shift6Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 59. Sectional Test - Mathematics (2025 Shift 6)
@@ -1755,13 +1669,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '17 Feb Shift 2',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S6.length,
-    maxMarks: mathsQuestions2025S6.length,
+    totalQuestions: 17,
+    maxMarks: 17,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S6.length} Questions)`,
-    questions: mathsQuestions2025S6.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (17 Questions)`,
+    questionSource: { file: './alp2025Shift6Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 60. Sectional Test - General Intelligence & Reasoning (2025 Shift 6)
@@ -1779,13 +1693,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '17 Feb Shift 2',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S6.length,
-    maxMarks: reasoningQuestions2025S6.length,
+    totalQuestions: 44,
+    maxMarks: 44,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S6.length} Questions)`,
-    questions: reasoningQuestions2025S6.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (44 Questions)`,
+    questionSource: { file: './alp2025Shift6Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -1816,12 +1730,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S7.length,
-      'Mathematics': mathsQuestions2025S7.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S7.length
+      'General Science': 16,
+      'Mathematics': 17,
+      'General Intelligence & Reasoning': 42
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S7.length}), Maths (${mathsQuestions2025S7.length}), Reasoning (${reasoningQuestions2025S7.length})`,
-    questions: alp2025Shift7Questions
+    sectionSummary: `Covers: General Science & GK (16), Maths (17), Reasoning (42)`,
+    questionSource: { file: './alp2025Shift7Bilingual.json' }
   },
 
   // 62. Sectional Test - General Science & Current Affairs (2025 Shift 7)
@@ -1839,13 +1753,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '17 Feb Shift 3',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S7.length,
-    maxMarks: scienceQuestions2025S7.length,
+    totalQuestions: 16,
+    maxMarks: 16,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S7.length} Questions)`,
-    questions: scienceQuestions2025S7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (16 Questions)`,
+    questionSource: { file: './alp2025Shift7Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 63. Sectional Test - Mathematics (2025 Shift 7)
@@ -1863,13 +1777,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '17 Feb Shift 3',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S7.length,
-    maxMarks: mathsQuestions2025S7.length,
+    totalQuestions: 17,
+    maxMarks: 17,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S7.length} Questions)`,
-    questions: mathsQuestions2025S7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (17 Questions)`,
+    questionSource: { file: './alp2025Shift7Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 64. Sectional Test - General Intelligence & Reasoning (2025 Shift 7)
@@ -1887,13 +1801,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '17 Feb Shift 3',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S7.length,
-    maxMarks: reasoningQuestions2025S7.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S7.length} Questions)`,
-    questions: reasoningQuestions2025S7.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (42 Questions)`,
+    questionSource: { file: './alp2025Shift7Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -1924,12 +1838,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S8.length,
-      'Mathematics': mathsQuestions2025S8.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S8.length
+      'General Science': 11,
+      'Mathematics': 22,
+      'General Intelligence & Reasoning': 42
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S8.length}), Maths (${mathsQuestions2025S8.length}), Reasoning (${reasoningQuestions2025S8.length})`,
-    questions: alp2025Shift8Questions
+    sectionSummary: `Covers: General Science & GK (11), Maths (22), Reasoning (42)`,
+    questionSource: { file: './alp2025Shift8Bilingual.json' }
   },
 
   // 66. Sectional Test - General Science & Current Affairs (2025 Shift 8)
@@ -1947,13 +1861,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '18 Feb Shift 1',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S8.length,
-    maxMarks: scienceQuestions2025S8.length,
+    totalQuestions: 11,
+    maxMarks: 11,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S8.length} Questions)`,
-    questions: scienceQuestions2025S8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (11 Questions)`,
+    questionSource: { file: './alp2025Shift8Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 67. Sectional Test - Mathematics (2025 Shift 8)
@@ -1971,13 +1885,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '18 Feb Shift 1',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S8.length,
-    maxMarks: mathsQuestions2025S8.length,
+    totalQuestions: 22,
+    maxMarks: 22,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S8.length} Questions)`,
-    questions: mathsQuestions2025S8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (22 Questions)`,
+    questionSource: { file: './alp2025Shift8Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 68. Sectional Test - General Intelligence & Reasoning (2025 Shift 8)
@@ -1995,13 +1909,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '18 Feb Shift 1',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S8.length,
-    maxMarks: reasoningQuestions2025S8.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S8.length} Questions)`,
-    questions: reasoningQuestions2025S8.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (42 Questions)`,
+    questionSource: { file: './alp2025Shift8Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -2032,12 +1946,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S9.length,
-      'Mathematics': mathsQuestions2025S9.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S9.length
+      'General Science': 15,
+      'Mathematics': 17,
+      'General Intelligence & Reasoning': 43
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S9.length}), Maths (${mathsQuestions2025S9.length}), Reasoning (${reasoningQuestions2025S9.length})`,
-    questions: alp2025Shift9Questions
+    sectionSummary: `Covers: General Science & GK (15), Maths (17), Reasoning (43)`,
+    questionSource: { file: './alp2025Shift9Bilingual.json' }
   },
 
   // 70. Sectional Test - General Science & Current Affairs (2025 Shift 9)
@@ -2055,13 +1969,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '18 Feb Shift 2',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S9.length,
-    maxMarks: scienceQuestions2025S9.length,
+    totalQuestions: 15,
+    maxMarks: 15,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S9.length} Questions)`,
-    questions: scienceQuestions2025S9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (15 Questions)`,
+    questionSource: { file: './alp2025Shift9Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 71. Sectional Test - Mathematics (2025 Shift 9)
@@ -2079,13 +1993,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '18 Feb Shift 2',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S9.length,
-    maxMarks: mathsQuestions2025S9.length,
+    totalQuestions: 17,
+    maxMarks: 17,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S9.length} Questions)`,
-    questions: mathsQuestions2025S9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (17 Questions)`,
+    questionSource: { file: './alp2025Shift9Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 72. Sectional Test - General Intelligence & Reasoning (2025 Shift 9)
@@ -2103,13 +2017,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '18 Feb Shift 2',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S9.length,
-    maxMarks: reasoningQuestions2025S9.length,
+    totalQuestions: 43,
+    maxMarks: 43,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S9.length} Questions)`,
-    questions: reasoningQuestions2025S9.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (43 Questions)`,
+    questionSource: { file: './alp2025Shift9Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -2140,12 +2054,12 @@ export const RAILWAY_TESTS = [
       'General Intelligence & Reasoning'
     ],
     sectionCounts: {
-      'General Science': scienceQuestions2025S10.length,
-      'Mathematics': mathsQuestions2025S10.length,
-      'General Intelligence & Reasoning': reasoningQuestions2025S10.length
+      'General Science': 15,
+      'Mathematics': 19,
+      'General Intelligence & Reasoning': 41
     },
-    sectionSummary: `Covers: General Science & GK (${scienceQuestions2025S10.length}), Maths (${mathsQuestions2025S10.length}), Reasoning (${reasoningQuestions2025S10.length})`,
-    questions: alp2025Shift10Questions
+    sectionSummary: `Covers: General Science & GK (15), Maths (19), Reasoning (41)`,
+    questionSource: { file: './alp2025Shift10Bilingual.json' }
   },
 
   // 74. Sectional Test - General Science & Current Affairs (2025 Shift 10)
@@ -2163,13 +2077,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '18 Feb Shift 3',
     durationMinutes: 15,
-    totalQuestions: scienceQuestions2025S10.length,
-    maxMarks: scienceQuestions2025S10.length,
+    totalQuestions: 15,
+    maxMarks: 15,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Science'],
-    sectionSummary: `Covers: Pure General Science & GK (${scienceQuestions2025S10.length} Questions)`,
-    questions: scienceQuestions2025S10.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure General Science & GK (15 Questions)`,
+    questionSource: { file: './alp2025Shift10Bilingual.json', sectionFilter: 'General Science', reindex: true }
   },
 
   // 75. Sectional Test - Mathematics (2025 Shift 10)
@@ -2187,13 +2101,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '18 Feb Shift 3',
     durationMinutes: 25,
-    totalQuestions: mathsQuestions2025S10.length,
-    maxMarks: mathsQuestions2025S10.length,
+    totalQuestions: 19,
+    maxMarks: 19,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestions2025S10.length} Questions)`,
-    questions: mathsQuestions2025S10.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (19 Questions)`,
+    questionSource: { file: './alp2025Shift10Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 76. Sectional Test - General Intelligence & Reasoning (2025 Shift 10)
@@ -2211,13 +2125,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 3',
     shiftName: '18 Feb Shift 3',
     durationMinutes: 35,
-    totalQuestions: reasoningQuestions2025S10.length,
-    maxMarks: reasoningQuestions2025S10.length,
+    totalQuestions: 41,
+    maxMarks: 41,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestions2025S10.length} Questions)`,
-    questions: reasoningQuestions2025S10.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (41 Questions)`,
+    questionSource: { file: './alp2025Shift10Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // ==========================================
@@ -2246,7 +2160,7 @@ export const RAILWAY_TESTS = [
     negativeMarks: 0.33,
     sections: ['Basic Science & Engineering', 'Mathematics', 'General Intelligence & Reasoning', 'General Awareness'],
     sectionSummary: 'Part A Pattern: 42 BS&E • 19 Maths • 19 Reasoning • 20 General Awareness',
-    questions: alp2025Cbt2Shift1Questions
+    questionSource: { file: './alp2025Cbt2Shift1Bilingual.json' }
   },
 
   // 78. Sectional - BS&E (CBT-2 Shift 1)
@@ -2264,13 +2178,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '28 Jul Shift 1',
     durationMinutes: 35,
-    totalQuestions: bseQuestionsCbt2S1.length,
-    maxMarks: bseQuestionsCbt2S1.length,
+    totalQuestions: 42,
+    maxMarks: 42,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Basic Science & Engineering'],
-    sectionSummary: `Covers: Pure Basic Science & Engineering (${bseQuestionsCbt2S1.length} Questions)`,
-    questions: bseQuestionsCbt2S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Basic Science & Engineering (42 Questions)`,
+    questionSource: { file: './alp2025Cbt2Shift1Bilingual.json', sectionFilter: 'Basic Science & Engineering', reindex: true }
   },
 
   // 79. Sectional - Mathematics (CBT-2 Shift 1)
@@ -2288,13 +2202,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '28 Jul Shift 1',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsCbt2S1.length,
-    maxMarks: mathsQuestionsCbt2S1.length,
+    totalQuestions: 19,
+    maxMarks: 19,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsCbt2S1.length} Questions)`,
-    questions: mathsQuestionsCbt2S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (19 Questions)`,
+    questionSource: { file: './alp2025Cbt2Shift1Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 80. Sectional - Reasoning (CBT-2 Shift 1)
@@ -2312,13 +2226,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '28 Jul Shift 1',
     durationMinutes: 25,
-    totalQuestions: reasoningQuestionsCbt2S1.length,
-    maxMarks: reasoningQuestionsCbt2S1.length,
+    totalQuestions: 19,
+    maxMarks: 19,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsCbt2S1.length} Questions)`,
-    questions: reasoningQuestionsCbt2S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (19 Questions)`,
+    questionSource: { file: './alp2025Cbt2Shift1Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // 81. Sectional - General Awareness (CBT-2 Shift 1)
@@ -2336,13 +2250,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 1',
     shiftName: '28 Jul Shift 1',
     durationMinutes: 10,
-    totalQuestions: gaQuestionsCbt2S1.length,
-    maxMarks: gaQuestionsCbt2S1.length,
+    totalQuestions: 20,
+    maxMarks: 20,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Awareness'],
-    sectionSummary: `Covers: General Awareness & Current Affairs (${gaQuestionsCbt2S1.length} Questions)`,
-    questions: gaQuestionsCbt2S1.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: General Awareness & Current Affairs (20 Questions)`,
+    questionSource: { file: './alp2025Cbt2Shift1Bilingual.json', sectionFilter: 'General Awareness', reindex: true }
   },
 
   // 82. Full Mock Test 2 - CBT-2 Part A (28 Jul Shift 2) - PASS PRO
@@ -2367,7 +2281,7 @@ export const RAILWAY_TESTS = [
     negativeMarks: 0.33,
     sections: ['Basic Science & Engineering', 'Mathematics', 'General Intelligence & Reasoning', 'General Awareness'],
     sectionSummary: 'Part A Pattern: 45 BS&E • 17 Maths • 21 Reasoning • 17 General Awareness',
-    questions: alp2025Cbt2Shift2Questions
+    questionSource: { file: './alp2025Cbt2Shift2Bilingual.json' }
   },
 
   // 83. Sectional - BS&E (CBT-2 Shift 2)
@@ -2385,13 +2299,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '28 Jul Shift 2',
     durationMinutes: 35,
-    totalQuestions: bseQuestionsCbt2S2.length,
-    maxMarks: bseQuestionsCbt2S2.length,
+    totalQuestions: 45,
+    maxMarks: 45,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Basic Science & Engineering'],
-    sectionSummary: `Covers: Pure Basic Science & Engineering (${bseQuestionsCbt2S2.length} Questions)`,
-    questions: bseQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Basic Science & Engineering (45 Questions)`,
+    questionSource: { file: './alp2025Cbt2Shift2Bilingual.json', sectionFilter: 'Basic Science & Engineering', reindex: true }
   },
 
   // 84. Sectional - Mathematics (CBT-2 Shift 2)
@@ -2409,13 +2323,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '28 Jul Shift 2',
     durationMinutes: 25,
-    totalQuestions: mathsQuestionsCbt2S2.length,
-    maxMarks: mathsQuestionsCbt2S2.length,
+    totalQuestions: 17,
+    maxMarks: 17,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['Mathematics'],
-    sectionSummary: `Covers: Pure Mathematics (${mathsQuestionsCbt2S2.length} Questions)`,
-    questions: mathsQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Mathematics (17 Questions)`,
+    questionSource: { file: './alp2025Cbt2Shift2Bilingual.json', sectionFilter: 'Mathematics', reindex: true }
   },
 
   // 85. Sectional - Reasoning (CBT-2 Shift 2)
@@ -2433,13 +2347,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '28 Jul Shift 2',
     durationMinutes: 25,
-    totalQuestions: reasoningQuestionsCbt2S2.length,
-    maxMarks: reasoningQuestionsCbt2S2.length,
+    totalQuestions: 21,
+    maxMarks: 21,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Intelligence & Reasoning'],
-    sectionSummary: `Covers: Pure Reasoning & Intelligence (${reasoningQuestionsCbt2S2.length} Questions)`,
-    questions: reasoningQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: Pure Reasoning & Intelligence (21 Questions)`,
+    questionSource: { file: './alp2025Cbt2Shift2Bilingual.json', sectionFilter: 'General Intelligence & Reasoning', reindex: true }
   },
 
   // 86. Sectional - General Awareness (CBT-2 Shift 2)
@@ -2457,13 +2371,13 @@ export const RAILWAY_TESTS = [
     shiftTime: 'Shift 2',
     shiftName: '28 Jul Shift 2',
     durationMinutes: 10,
-    totalQuestions: gaQuestionsCbt2S2.length,
-    maxMarks: gaQuestionsCbt2S2.length,
+    totalQuestions: 17,
+    maxMarks: 17,
     positiveMarks: 1.0,
     negativeMarks: 0.33,
     sections: ['General Awareness'],
-    sectionSummary: `Covers: General Awareness & Current Affairs (${gaQuestionsCbt2S2.length} Questions)`,
-    questions: gaQuestionsCbt2S2.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }))
+    sectionSummary: `Covers: General Awareness & Current Affairs (17 Questions)`,
+    questionSource: { file: './alp2025Cbt2Shift2Bilingual.json', sectionFilter: 'General Awareness', reindex: true }
   },
 
   // ==========================================

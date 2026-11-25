@@ -1,34 +1,3 @@
-import electrician_s1 from './trades/alp2025Cbt2Trade_electrician_s1.json';
-import electrician_s2 from './trades/alp2025Cbt2Trade_electrician_s2.json';
-import fitter_s1 from './trades/alp2025Cbt2Trade_fitter_s1.json';
-import fitter_s2 from './trades/alp2025Cbt2Trade_fitter_s2.json';
-import diesel_s1 from './trades/alp2025Cbt2Trade_diesel_s1.json';
-import diesel_s2 from './trades/alp2025Cbt2Trade_diesel_s2.json';
-import electronics_s1 from './trades/alp2025Cbt2Trade_electronics_s1.json';
-import electronics_s2 from './trades/alp2025Cbt2Trade_electronics_s2.json';
-import heat_engine_s1 from './trades/alp2025Cbt2Trade_heat-engine_s1.json';
-import heat_engine_s2 from './trades/alp2025Cbt2Trade_heat-engine_s2.json';
-import rac_s1 from './trades/alp2025Cbt2Trade_rac_s1.json';
-import rac_s2 from './trades/alp2025Cbt2Trade_rac_s2.json';
-import mmv_s1 from './trades/alp2025Cbt2Trade_mmv_s1.json';
-import mmv_s2 from './trades/alp2025Cbt2Trade_mmv_s2.json';
-import machinist_s1 from './trades/alp2025Cbt2Trade_machinist_s1.json';
-import machinist_s2 from './trades/alp2025Cbt2Trade_machinist_s2.json';
-import turner_s1 from './trades/alp2025Cbt2Trade_turner_s1.json';
-import turner_s2 from './trades/alp2025Cbt2Trade_turner_s2.json';
-import tractor_s1 from './trades/alp2025Cbt2Trade_tractor_s1.json';
-import tractor_s2 from './trades/alp2025Cbt2Trade_tractor_s2.json';
-import wireman_s1 from './trades/alp2025Cbt2Trade_wireman_s1.json';
-import wireman_s2 from './trades/alp2025Cbt2Trade_wireman_s2.json';
-import radio_tv_s1 from './trades/alp2025Cbt2Trade_radio-tv_s1.json';
-import radio_tv_s2 from './trades/alp2025Cbt2Trade_radio-tv_s2.json';
-import armature_s1 from './trades/alp2025Cbt2Trade_armature_s1.json';
-import armature_s2 from './trades/alp2025Cbt2Trade_armature_s2.json';
-import instrument_s1 from './trades/alp2025Cbt2Trade_instrument_s1.json';
-import instrument_s2 from './trades/alp2025Cbt2Trade_instrument_s2.json';
-import millwright_s1 from './trades/alp2025Cbt2Trade_millwright_s1.json';
-import millwright_s2 from './trades/alp2025Cbt2Trade_millwright_s2.json';
-
 export const CBT2_PART_B_TRADES = [
   { key: 'electrician', name: 'Electrician', nameHi: 'इलेक्ट्रीशियन' }, 
   { key: 'fitter', name: 'Fitter', nameHi: 'फ़िटर' }, 
@@ -71,7 +40,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Electrician'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: electrician_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_electrician_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-electrician-s2',
@@ -96,7 +65,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Electrician'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: electrician_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_electrician_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-fitter-s1',
@@ -121,7 +90,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Fitter'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: fitter_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_fitter_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-fitter-s2',
@@ -146,7 +115,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Fitter'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: fitter_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_fitter_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-diesel-s1',
@@ -171,7 +140,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Mechanic Diesel'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: diesel_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_diesel_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-diesel-s2',
@@ -196,7 +165,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Mechanic Diesel'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: diesel_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_diesel_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-electronics-s1',
@@ -221,7 +190,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Electronics Mechanic'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: electronics_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_electronics_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-electronics-s2',
@@ -246,7 +215,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Electronics Mechanic'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: electronics_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_electronics_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-heat-engine-s1',
@@ -271,7 +240,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Heat Engine'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: heat_engine_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_heat-engine_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-heat-engine-s2',
@@ -296,7 +265,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Heat Engine'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: heat_engine_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_heat-engine_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-rac-s1',
@@ -321,7 +290,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Refrigeration & AC Mechanic'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: rac_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_rac_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-rac-s2',
@@ -346,7 +315,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Refrigeration & AC Mechanic'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: rac_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_rac_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-mmv-s1',
@@ -371,7 +340,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Mechanic Motor Vehicle'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: mmv_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_mmv_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-mmv-s2',
@@ -396,7 +365,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Mechanic Motor Vehicle'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: mmv_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_mmv_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-machinist-s1',
@@ -421,7 +390,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Machinist'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: machinist_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_machinist_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-machinist-s2',
@@ -446,7 +415,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Machinist'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: machinist_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_machinist_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-turner-s1',
@@ -471,7 +440,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Turner'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: turner_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_turner_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-turner-s2',
@@ -496,7 +465,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Turner'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: turner_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_turner_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-tractor-s1',
@@ -521,7 +490,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Mechanic Tractor'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: tractor_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_tractor_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-tractor-s2',
@@ -546,7 +515,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Mechanic Tractor'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: tractor_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_tractor_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-wireman-s1',
@@ -571,7 +540,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Wireman'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: wireman_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_wireman_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-wireman-s2',
@@ -596,7 +565,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Wireman'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: wireman_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_wireman_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-radio-tv-s1',
@@ -621,7 +590,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Mechanic Radio & TV'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: radio_tv_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_radio-tv_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-radio-tv-s2',
@@ -646,7 +615,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Mechanic Radio & TV'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: radio_tv_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_radio-tv_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-armature-s1',
@@ -671,7 +640,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Armature & Coil Winder'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: armature_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_armature_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-armature-s2',
@@ -696,7 +665,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Armature & Coil Winder'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: armature_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_armature_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-instrument-s1',
@@ -721,7 +690,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Instrument Mechanic'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: instrument_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_instrument_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-instrument-s2',
@@ -746,7 +715,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Instrument Mechanic'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: instrument_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_instrument_s2.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-millwright-s1',
@@ -771,7 +740,7 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Millwright Maintenance Mechanic'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: millwright_s1
+    questionSource: { file: './trades/alp2025Cbt2Trade_millwright_s1.json' }
   },
   {
     id: 'rrb-alp-2025-cbt2-partb-millwright-s2',
@@ -796,6 +765,6 @@ export const CBT2_PART_B_TESTS = [
     negativeMarks: 0.33,
     sections: ['Part B: Millwright Maintenance Mechanic'],
     sectionSummary: 'Trade Qualifying Paper: 75 Technical Questions (35% = 26.25 Marks to Qualify)',
-    questions: millwright_s2
+    questionSource: { file: './trades/alp2025Cbt2Trade_millwright_s2.json' }
   },
 ];

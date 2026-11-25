@@ -1,5 +1,7 @@
 -- =========================================================================
 -- RAILWAYPREP PORTAL - PRODUCTION SUPABASE SCHEMA
+-- NOTE: Run supabase_referral_migration.sql AFTER this file for referrals,
+--       self-healing profile sync (ensure_my_profile), and VIP/Admin setup.
 -- =========================================================================
 
 -- 1. PROFILES TABLE

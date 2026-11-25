@@ -102,8 +102,10 @@ RETURNS TRIGGER AS $$
 DECLARE
   v_ref_code TEXT;
   v_referrer_id UUID;
+  v_is_admin BOOLEAN;
 BEGIN
   v_ref_code := UPPER(SUBSTRING(REPLACE(NEW.id::text, '-', ''), 1, 6));
+  v_is_admin := LOWER(COALESCE(NEW.email, '')) = 'mdtasleem7645@gmail.com';
 
   -- Lookup referrer if code provided at signup
   IF NEW.raw_user_meta_data ->> 'referred_by_code' IS NOT NULL THEN
@@ -114,15 +116,16 @@ BEGIN
     LIMIT 1;
   END IF;
 
-  INSERT INTO public.profiles (id, email, full_name, is_admin, referral_code, referred_by, pass_pro_plan)
+  INSERT INTO public.profiles (id, email, full_name, is_admin, is_pass_pro, referral_code, referred_by, pass_pro_plan)
   VALUES (
     NEW.id,
     NEW.email,
     COALESCE(NEW.raw_user_meta_data ->> 'full_name', split_part(NEW.email, '@', 1)),
-    CASE WHEN NEW.email = 'mdtasleem7645@gmail.com' THEN true ELSE false END,
+    v_is_admin,
+    v_is_admin,
     v_ref_code,
     v_referrer_id,
-    CASE WHEN NEW.email = 'mdtasleem7645@gmail.com' THEN 'paid' ELSE 'free' END
+    CASE WHEN v_is_admin THEN 'paid' ELSE 'free' END
   )
   ON CONFLICT (id) DO NOTHING;
 
@@ -260,3 +263,115 @@ BEGIN
   RETURN jsonb_build_object('success', true, 'status', CASE WHEN p_approve THEN 'approved' ELSE 'rejected' END);
 END;
 $$ LANGUAGE plpgsql SECURITY DEFINER;
+
+-- 9. Self-healing Profile Sync RPC (Creates missing profile / referral code & syncs Admin VIP)
+CREATE OR REPLACE FUNCTION public.ensure_my_profile(p_ref_code TEXT DEFAULT NULL)
+RETURNS JSONB AS $$
+DECLARE
+  v_uid UUID := auth.uid();
+  v_user RECORD;
+  v_profile public.profiles%ROWTYPE;
+  v_ref_code TEXT;
+  v_referrer_id UUID;
+  v_is_admin BOOLEAN;
+BEGIN
+  IF v_uid IS NULL THEN
+    RETURN NULL;
+  END IF;
+
+  SELECT id, email, raw_user_meta_data, email_confirmed_at
+  INTO v_user
+  FROM auth.users
+  WHERE id = v_uid;
+
+  IF NOT FOUND THEN
+    RETURN NULL;
+  END IF;
+
+  v_ref_code := UPPER(SUBSTRING(REPLACE(v_uid::text, '-', ''), 1, 6));
+  v_is_admin := LOWER(COALESCE(v_user.email, '')) = 'mdtasleem7645@gmail.com';
+
+  INSERT INTO public.profiles (id, email, full_name, is_admin, is_pass_pro, referral_code, pass_pro_plan)
+  VALUES (
+    v_uid,
+    v_user.email,
+    COALESCE(v_user.raw_user_meta_data ->> 'full_name', split_part(v_user.email, '@', 1)),
+    v_is_admin,
+    v_is_admin,
+    v_ref_code,
+    CASE WHEN v_is_admin THEN 'paid' ELSE 'free' END
+  )
+  ON CONFLICT (id) DO NOTHING;
+
+  -- Ensure existing profile also has referral_code & admin VIP flags synced
+  UPDATE public.profiles
+  SET
+    referral_code = COALESCE(referral_code, v_ref_code),
+    full_name = COALESCE(NULLIF(full_name, ''), v_user.raw_user_meta_data ->> 'full_name', split_part(v_user.email, '@', 1)),
+    email = COALESCE(email, v_user.email),
+    is_admin = CASE WHEN v_is_admin THEN true ELSE is_admin END,
+    is_pass_pro = CASE WHEN v_is_admin THEN true ELSE is_pass_pro END,
+    pass_pro_plan = CASE WHEN v_is_admin THEN 'paid' ELSE pass_pro_plan END,
+    updated_at = now()
+  WHERE id = v_uid
+    AND (
+      referral_code IS NULL
+      OR (v_is_admin AND (NOT COALESCE(is_admin, false) OR NOT COALESCE(is_pass_pro, false) OR COALESCE(pass_pro_plan, 'free') <> 'paid'))
+      OR NULLIF(full_name, '') IS NULL
+      OR email IS NULL
+    );
+
+  -- Claim referral code if provided and not yet referred
+  IF p_ref_code IS NOT NULL AND LENGTH(TRIM(p_ref_code)) >= 4 THEN
+    SELECT * INTO v_profile FROM public.profiles WHERE id = v_uid;
+    IF v_profile.referred_by IS NULL THEN
+      SELECT id INTO v_referrer_id
+      FROM public.profiles
+      WHERE referral_code = UPPER(TRIM(p_ref_code)) AND id <> v_uid
+      LIMIT 1;
+
+      IF v_referrer_id IS NOT NULL THEN
+        UPDATE public.profiles SET referred_by = v_referrer_id WHERE id = v_uid;
+
+        INSERT INTO public.referrals (referrer_id, referred_user_id, referred_email, status)
+        VALUES (v_referrer_id, v_uid, v_user.email, 'pending')
+        ON CONFLICT (referred_user_id) DO NOTHING;
+
+        IF v_user.email_confirmed_at IS NOT NULL THEN
+          PERFORM public._process_referral_verification(v_uid);
+        END IF;
+      END IF;
+    END IF;
+  END IF;
+
+  SELECT * INTO v_profile FROM public.profiles WHERE id = v_uid;
+  RETURN to_jsonb(v_profile);
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
+
+-- 10. Immediate Backfill for any existing users & Admin account
+INSERT INTO public.profiles (id, email, full_name, is_admin, is_pass_pro, referral_code, pass_pro_plan)
+SELECT
+  u.id,
+  u.email,
+  COALESCE(u.raw_user_meta_data ->> 'full_name', split_part(u.email, '@', 1)),
+  LOWER(COALESCE(u.email, '')) = 'mdtasleem7645@gmail.com',
+  LOWER(COALESCE(u.email, '')) = 'mdtasleem7645@gmail.com',
+  UPPER(SUBSTRING(REPLACE(u.id::text, '-', ''), 1, 6)),
+  CASE WHEN LOWER(COALESCE(u.email, '')) = 'mdtasleem7645@gmail.com' THEN 'paid' ELSE 'free' END
+FROM auth.users u
+ON CONFLICT (id) DO NOTHING;
+
+UPDATE public.profiles
+SET
+  referral_code = UPPER(SUBSTRING(REPLACE(id::text, '-', ''), 1, 6)),
+  updated_at = now()
+WHERE referral_code IS NULL;
+
+UPDATE public.profiles
+SET
+  is_admin = true,
+  is_pass_pro = true,
+  pass_pro_plan = 'paid',
+  updated_at = now()
+WHERE LOWER(COALESCE(email, '')) = 'mdtasleem7645@gmail.com';

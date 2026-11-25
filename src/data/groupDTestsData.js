@@ -1,58 +1,3 @@
-import groupDShift1 from './groupd/rrbGroupD2025_shift1.json';
-import groupDShift2 from './groupd/rrbGroupD2025_shift2.json';
-import groupDShift3 from './groupd/rrbGroupD2025_shift3.json';
-import groupDShift4 from './groupd/rrbGroupD2025_shift4.json';
-import groupDShift5 from './groupd/rrbGroupD2025_shift5.json';
-import groupDShift6 from './groupd/rrbGroupD2025_shift6.json';
-import groupDShift7 from './groupd/rrbGroupD2025_shift7.json';
-import groupDShift8 from './groupd/rrbGroupD2025_shift8.json';
-import groupDShift9 from './groupd/rrbGroupD2025_shift9.json';
-import groupDShift10 from './groupd/rrbGroupD2025_shift10.json';
-import groupDShift11 from './groupd/rrbGroupD2025_shift11.json';
-import groupDShift12 from './groupd/rrbGroupD2025_shift12.json';
-import groupDShift13 from './groupd/rrbGroupD2025_shift13.json';
-import groupDShift14 from './groupd/rrbGroupD2025_shift14.json';
-import groupDShift15 from './groupd/rrbGroupD2025_shift15.json';
-import groupDShift16 from './groupd/rrbGroupD2025_shift16.json';
-import groupDShift17 from './groupd/rrbGroupD2025_shift17.json';
-import groupDShift18 from './groupd/rrbGroupD2025_shift18.json';
-import groupDShift19 from './groupd/rrbGroupD2025_shift19.json';
-import groupDShift20 from './groupd/rrbGroupD2025_shift20.json';
-import groupDShift21 from './groupd/rrbGroupD2025_shift21.json';
-import groupDShift22 from './groupd/rrbGroupD2025_shift22.json';
-import groupDShift23 from './groupd/rrbGroupD2025_shift23.json';
-import groupDShift24 from './groupd/rrbGroupD2025_shift24.json';
-import groupDShift25 from './groupd/rrbGroupD2025_shift25.json';
-import groupDShift26 from './groupd/rrbGroupD2025_shift26.json';
-import groupDShift27 from './groupd/rrbGroupD2025_shift27.json';
-import groupDShift28 from './groupd/rrbGroupD2025_shift28.json';
-import groupDShift29 from './groupd/rrbGroupD2025_shift29.json';
-import groupDShift30 from './groupd/rrbGroupD2025_shift30.json';
-import groupDShift31 from './groupd/rrbGroupD2025_shift31.json';
-import groupDShift32 from './groupd/rrbGroupD2025_shift32.json';
-import groupDShift33 from './groupd/rrbGroupD2025_shift33.json';
-import groupDShift34 from './groupd/rrbGroupD2025_shift34.json';
-import groupDShift35 from './groupd/rrbGroupD2025_shift35.json';
-import groupDShift36 from './groupd/rrbGroupD2025_shift36.json';
-import groupDShift37 from './groupd/rrbGroupD2025_shift37.json';
-import groupDShift38 from './groupd/rrbGroupD2025_shift38.json';
-import groupDShift39 from './groupd/rrbGroupD2025_shift39.json';
-import groupDShift40 from './groupd/rrbGroupD2025_shift40.json';
-import groupDShift41 from './groupd/rrbGroupD2025_shift41.json';
-import groupDShift42 from './groupd/rrbGroupD2025_shift42.json';
-import groupDShift43 from './groupd/rrbGroupD2025_shift43.json';
-import groupDShift44 from './groupd/rrbGroupD2025_shift44.json';
-import groupDShift45 from './groupd/rrbGroupD2025_shift45.json';
-import groupDShift46 from './groupd/rrbGroupD2025_shift46.json';
-import groupDShift47 from './groupd/rrbGroupD2025_shift47.json';
-import groupDShift48 from './groupd/rrbGroupD2025_shift48.json';
-
-// Shift 1 Pure Sectionals (100% Free Demo)
-const shift1Science = groupDShift1.slice(0, 25);
-const shift1Maths = groupDShift1.slice(25, 50).map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }));
-const shift1Reasoning = groupDShift1.slice(50, 80).map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }));
-const shift1GA = groupDShift1.slice(80, 100).map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }));
-
 export const GROUP_D_TESTS = [
   {
     id: 'rrb-groupd-2025-shift1',
@@ -83,7 +28,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift1
+    questionSource: { file: './groupd/rrbGroupD2025_shift1.json' }
   },
   // Sectional 1: General Science (Shift 1)
   {
@@ -110,7 +55,7 @@ export const GROUP_D_TESTS = [
     sections: ['General Science'],
     sectionDistribution: { 'General Science': 25 },
     sectionSummary: 'Pure General Science (25 Official Questions)',
-    questions: shift1Science
+    questionSource: { file: './groupd/rrbGroupD2025_shift1.json', slice: [0, 25], reindex: false }
   },
   // Sectional 2: Mathematics (Shift 1)
   {
@@ -137,7 +82,7 @@ export const GROUP_D_TESTS = [
     sections: ['Mathematics'],
     sectionDistribution: { 'Mathematics': 25 },
     sectionSummary: 'Pure Mathematics (25 Official Questions)',
-    questions: shift1Maths
+    questionSource: { file: './groupd/rrbGroupD2025_shift1.json', slice: [25, 50], reindex: true }
   },
   // Sectional 3: Reasoning (Shift 1)
   {
@@ -164,7 +109,7 @@ export const GROUP_D_TESTS = [
     sections: ['General Intelligence & Reasoning'],
     sectionDistribution: { 'General Intelligence & Reasoning': 30 },
     sectionSummary: 'Pure Reasoning & Intelligence (30 Official Questions)',
-    questions: shift1Reasoning
+    questionSource: { file: './groupd/rrbGroupD2025_shift1.json', slice: [50, 80], reindex: true }
   },
   // Sectional 4: General Awareness (Shift 1)
   {
@@ -191,7 +136,7 @@ export const GROUP_D_TESTS = [
     sections: ['General Awareness & Current Affairs'],
     sectionDistribution: { 'General Awareness & Current Affairs': 20 },
     sectionSummary: 'Pure General Awareness & Current Affairs (20 Official Questions)',
-    questions: shift1GA
+    questionSource: { file: './groupd/rrbGroupD2025_shift1.json', slice: [80, 100], reindex: true }
   },
   {
     id: 'rrb-groupd-2025-shift2',
@@ -222,7 +167,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift2
+    questionSource: { file: './groupd/rrbGroupD2025_shift2.json' }
   },
   {
     id: 'rrb-groupd-2025-shift3',
@@ -253,7 +198,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift3
+    questionSource: { file: './groupd/rrbGroupD2025_shift3.json' }
   },
   {
     id: 'rrb-groupd-2025-shift4',
@@ -284,7 +229,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift4
+    questionSource: { file: './groupd/rrbGroupD2025_shift4.json' }
   },
   {
     id: 'rrb-groupd-2025-shift5',
@@ -315,7 +260,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift5
+    questionSource: { file: './groupd/rrbGroupD2025_shift5.json' }
   },
   {
     id: 'rrb-groupd-2025-shift6',
@@ -346,7 +291,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift6
+    questionSource: { file: './groupd/rrbGroupD2025_shift6.json' }
   },
   {
     id: 'rrb-groupd-2025-shift7',
@@ -377,7 +322,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift7
+    questionSource: { file: './groupd/rrbGroupD2025_shift7.json' }
   },
   {
     id: 'rrb-groupd-2025-shift8',
@@ -408,7 +353,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift8
+    questionSource: { file: './groupd/rrbGroupD2025_shift8.json' }
   },
   {
     id: 'rrb-groupd-2025-shift9',
@@ -439,7 +384,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift9
+    questionSource: { file: './groupd/rrbGroupD2025_shift9.json' }
   },
   {
     id: 'rrb-groupd-2025-shift10',
@@ -470,7 +415,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift10
+    questionSource: { file: './groupd/rrbGroupD2025_shift10.json' }
   },
   {
     id: 'rrb-groupd-2025-shift11',
@@ -501,7 +446,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift11
+    questionSource: { file: './groupd/rrbGroupD2025_shift11.json' }
   },
   {
     id: 'rrb-groupd-2025-shift12',
@@ -532,7 +477,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift12
+    questionSource: { file: './groupd/rrbGroupD2025_shift12.json' }
   },
   {
     id: 'rrb-groupd-2025-shift13',
@@ -563,7 +508,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift13
+    questionSource: { file: './groupd/rrbGroupD2025_shift13.json' }
   },
   {
     id: 'rrb-groupd-2025-shift14',
@@ -594,7 +539,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift14
+    questionSource: { file: './groupd/rrbGroupD2025_shift14.json' }
   },
   {
     id: 'rrb-groupd-2025-shift15',
@@ -625,7 +570,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift15
+    questionSource: { file: './groupd/rrbGroupD2025_shift15.json' }
   },
   {
     id: 'rrb-groupd-2025-shift16',
@@ -656,7 +601,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift16
+    questionSource: { file: './groupd/rrbGroupD2025_shift16.json' }
   },
   {
     id: 'rrb-groupd-2025-shift17',
@@ -687,7 +632,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift17
+    questionSource: { file: './groupd/rrbGroupD2025_shift17.json' }
   },
   {
     id: 'rrb-groupd-2025-shift18',
@@ -718,7 +663,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift18
+    questionSource: { file: './groupd/rrbGroupD2025_shift18.json' }
   },
   {
     id: 'rrb-groupd-2025-shift19',
@@ -749,7 +694,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift19
+    questionSource: { file: './groupd/rrbGroupD2025_shift19.json' }
   },
   {
     id: 'rrb-groupd-2025-shift20',
@@ -780,7 +725,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift20
+    questionSource: { file: './groupd/rrbGroupD2025_shift20.json' }
   },
   {
     id: 'rrb-groupd-2025-shift21',
@@ -811,7 +756,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift21
+    questionSource: { file: './groupd/rrbGroupD2025_shift21.json' }
   },
   {
     id: 'rrb-groupd-2025-shift22',
@@ -842,7 +787,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift22
+    questionSource: { file: './groupd/rrbGroupD2025_shift22.json' }
   },
   {
     id: 'rrb-groupd-2025-shift23',
@@ -873,7 +818,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift23
+    questionSource: { file: './groupd/rrbGroupD2025_shift23.json' }
   },
   {
     id: 'rrb-groupd-2025-shift24',
@@ -904,7 +849,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift24
+    questionSource: { file: './groupd/rrbGroupD2025_shift24.json' }
   },
   {
     id: 'rrb-groupd-2025-shift25',
@@ -935,7 +880,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift25
+    questionSource: { file: './groupd/rrbGroupD2025_shift25.json' }
   },
   {
     id: 'rrb-groupd-2025-shift26',
@@ -966,7 +911,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift26
+    questionSource: { file: './groupd/rrbGroupD2025_shift26.json' }
   },
   {
     id: 'rrb-groupd-2025-shift27',
@@ -997,7 +942,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift27
+    questionSource: { file: './groupd/rrbGroupD2025_shift27.json' }
   },
   {
     id: 'rrb-groupd-2025-shift28',
@@ -1028,7 +973,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift28
+    questionSource: { file: './groupd/rrbGroupD2025_shift28.json' }
   },
   {
     id: 'rrb-groupd-2025-shift29',
@@ -1059,7 +1004,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift29
+    questionSource: { file: './groupd/rrbGroupD2025_shift29.json' }
   },
   {
     id: 'rrb-groupd-2025-shift30',
@@ -1090,7 +1035,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift30
+    questionSource: { file: './groupd/rrbGroupD2025_shift30.json' }
   },
   {
     id: 'rrb-groupd-2025-shift31',
@@ -1121,7 +1066,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift31
+    questionSource: { file: './groupd/rrbGroupD2025_shift31.json' }
   },
   {
     id: 'rrb-groupd-2025-shift32',
@@ -1152,7 +1097,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift32
+    questionSource: { file: './groupd/rrbGroupD2025_shift32.json' }
   },
   {
     id: 'rrb-groupd-2025-shift33',
@@ -1183,7 +1128,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift33
+    questionSource: { file: './groupd/rrbGroupD2025_shift33.json' }
   },
   {
     id: 'rrb-groupd-2025-shift34',
@@ -1214,7 +1159,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift34
+    questionSource: { file: './groupd/rrbGroupD2025_shift34.json' }
   },
   {
     id: 'rrb-groupd-2025-shift35',
@@ -1245,7 +1190,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift35
+    questionSource: { file: './groupd/rrbGroupD2025_shift35.json' }
   },
   {
     id: 'rrb-groupd-2025-shift36',
@@ -1276,7 +1221,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift36
+    questionSource: { file: './groupd/rrbGroupD2025_shift36.json' }
   },
   {
     id: 'rrb-groupd-2025-shift37',
@@ -1307,7 +1252,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift37
+    questionSource: { file: './groupd/rrbGroupD2025_shift37.json' }
   },
   {
     id: 'rrb-groupd-2025-shift38',
@@ -1338,7 +1283,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift38
+    questionSource: { file: './groupd/rrbGroupD2025_shift38.json' }
   },
   {
     id: 'rrb-groupd-2025-shift39',
@@ -1369,7 +1314,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift39
+    questionSource: { file: './groupd/rrbGroupD2025_shift39.json' }
   },
   {
     id: 'rrb-groupd-2025-shift40',
@@ -1400,7 +1345,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift40
+    questionSource: { file: './groupd/rrbGroupD2025_shift40.json' }
   },
   {
     id: 'rrb-groupd-2025-shift41',
@@ -1431,7 +1376,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift41
+    questionSource: { file: './groupd/rrbGroupD2025_shift41.json' }
   },
   {
     id: 'rrb-groupd-2025-shift42',
@@ -1462,7 +1407,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift42
+    questionSource: { file: './groupd/rrbGroupD2025_shift42.json' }
   },
   {
     id: 'rrb-groupd-2025-shift43',
@@ -1493,7 +1438,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift43
+    questionSource: { file: './groupd/rrbGroupD2025_shift43.json' }
   },
   {
     id: 'rrb-groupd-2025-shift44',
@@ -1524,7 +1469,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift44
+    questionSource: { file: './groupd/rrbGroupD2025_shift44.json' }
   },
   {
     id: 'rrb-groupd-2025-shift45',
@@ -1555,7 +1500,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift45
+    questionSource: { file: './groupd/rrbGroupD2025_shift45.json' }
   },
   {
     id: 'rrb-groupd-2025-shift46',
@@ -1586,7 +1531,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift46
+    questionSource: { file: './groupd/rrbGroupD2025_shift46.json' }
   },
   {
     id: 'rrb-groupd-2025-shift47',
@@ -1617,7 +1562,7 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift47
+    questionSource: { file: './groupd/rrbGroupD2025_shift47.json' }
   },
   {
     id: 'rrb-groupd-2025-shift48',
@@ -1648,6 +1593,6 @@ export const GROUP_D_TESTS = [
       'General Awareness & Current Affairs': 20
     },
     sectionSummary: 'General Science: 25 Qs | Mathematics: 25 Qs | Reasoning: 30 Qs | GA: 20 Qs',
-    questions: groupDShift48
+    questionSource: { file: './groupd/rrbGroupD2025_shift48.json' }
   },
 ];
