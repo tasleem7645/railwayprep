@@ -9,6 +9,12 @@ import {
   normalizeMistakeCategory,
   buildMistakeReTest,
 } from '../utils/mistakeTestBuilder';
+import {
+  isMistakeDue,
+  formatMistakeSrsStatus,
+  applyMistakeReviewOutcome,
+  summarizeMistakeSrs,
+} from '../utils/mistakeSpacedRepetition';
 import { notifyStudyStateChanged } from '../utils/studySyncEvents';
 
 export default function MistakeNotebookModal({ onClose, onStartCustomTest, initialSubject = 'all' }) {
@@ -111,24 +117,63 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
     }
   };
 
+  const srsSummary = useMemo(() => summarizeMistakeSrs(mistakes), [mistakes]);
+  const dueMistakes = useMemo(() => mistakes.filter((m) => isMistakeDue(m)), [mistakes]);
+
   const subjectCounts = useMemo(() => {
-    const counts = { all: mistakes.length, science: 0, math: 0, reasoning: 0, ga: 0, other: 0 };
+    const counts = {
+      all: mistakes.length,
+      due: srsSummary.dueCount,
+      mastered: srsSummary.masteredCount,
+      science: 0,
+      math: 0,
+      reasoning: 0,
+      ga: 0,
+      other: 0,
+    };
     mistakes.forEach((m) => {
       const cat = normalizeMistakeCategory(m.subject);
       counts[cat] = (counts[cat] || 0) + 1;
     });
     return counts;
-  }, [mistakes]);
+  }, [mistakes, srsSummary]);
 
   const filteredMistakes = mistakes.filter((m) => {
+    if (selectedSubject === 'due') return isMistakeDue(m);
+    if (selectedSubject === 'mastered') return Boolean(m.srsMastered);
     if (selectedSubject === 'all') return true;
     return normalizeMistakeCategory(m.subject) === selectedSubject;
   });
 
-  const handleLaunchReTest = (limit = null) => {
-    if (!onStartCustomTest || filteredMistakes.length === 0) return;
-    const customQuiz = buildMistakeReTest(filteredMistakes, selectedSubject, limit);
+  const handleInlineReattempt = (q, optIdx) => {
+    if (reattemptChoice[q.id] !== undefined) return;
+    setReattemptChoice((prev) => ({ ...prev, [q.id]: optIdx }));
+    const correctIdx =
+      lang === 'hi' && q.correctIndexHi !== undefined
+        ? q.correctIndexHi
+        : q.correctIndex ?? 0;
+    const isCorrect = optIdx === correctIdx;
+    setMistakes((prevList) => {
+      const updated = prevList.map((item) =>
+        item.id === q.id ? applyMistakeReviewOutcome(item, isCorrect) : item
+      );
+      try {
+        localStorage.setItem('railwayprep_mistake_notebook', JSON.stringify(updated));
+        notifyStudyStateChanged();
+      } catch (e) {}
+      return updated;
+    });
+  };
+
+  const handleLaunchReTest = (limit = null, overrideList = null, filterTag = null) => {
+    const pool = Array.isArray(overrideList) ? overrideList : filteredMistakes;
+    if (!onStartCustomTest || pool.length === 0) return;
+    const customQuiz = buildMistakeReTest(pool, filterTag || selectedSubject, limit);
     if (customQuiz) {
+      if (filterTag === 'due') {
+        customQuiz.title = `SM-2 Due Revision CBT (${customQuiz.questions.length} Qs)`;
+        customQuiz.subTitle = 'Spaced Repetition Queue (Day 1 → 3 → 7 → 21) • +1 / -1/3 Negative Marking';
+      }
       onStartCustomTest(customQuiz);
     }
   };
@@ -138,19 +183,26 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
       <div className="bg-slate-900 border border-slate-800 rounded-3xl w-full max-w-4xl shadow-2xl flex flex-col max-h-[90vh] overflow-hidden">
         
         {/* Modal Header */}
-        <div className="p-5 sm:p-6 border-b border-slate-800 flex items-center justify-between bg-slate-950/60">
+        <div className="p-5 sm:p-6 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 bg-slate-950/60">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-rose-500/10 border border-rose-500/30 text-rose-400 flex items-center justify-center shadow-lg">
+            <div className="w-10 h-10 rounded-2xl bg-rose-500/10 border border-rose-500/30 text-rose-400 flex items-center justify-center shadow-lg shrink-0">
               <Bookmark className="w-5 h-5 fill-rose-500/20" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <h3 className="text-lg font-black text-white">Smart Mistake Notebook</h3>
-                <span className="text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30">
-                  {mistakes.length} Saved Questions
+              <div className="flex flex-wrap items-center gap-2">
+                <h3 className="text-lg font-black text-white">Smart Mistake Notebook (गलती डायरी)</h3>
+                <span className="text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/35">
+                  Due Today: {srsSummary.dueCount}
                 </span>
+                {srsSummary.masteredCount > 0 && (
+                  <span className="text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/35">
+                    Mastered ✓: {srsSummary.masteredCount}
+                  </span>
+                )}
               </div>
-              <p className="text-xs text-slate-400">मॉक टेस्ट में आपके गलत हुए सवाल — केवल अपनी कमजोरियों का 1-क्लिक अभ्यास करें</p>
+              <p className="text-xs text-slate-400 mt-0.5">
+                Spaced Repetition Revision (Day 1 → 3 → 7 → 21): लगातार 2 बार सही हल करते ही सवाल Mastered ✓ हो जाएगा
+              </p>
             </div>
           </div>
 
@@ -170,9 +222,20 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
           </div>
         </div>
 
-        {/* Filter Bar + Direct CBT Launch */}
+        {/* Filter Bar + Spaced Repetition Queue Filters */}
         <div className="px-6 py-3 border-b border-slate-800/80 bg-slate-900/90 flex flex-wrap items-center justify-between gap-3">
           <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setSelectedSubject('due')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                selectedSubject === 'due'
+                  ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black'
+                  : 'bg-amber-500/10 border border-amber-500/35 text-amber-300 hover:bg-amber-500/20'
+              }`}
+            >
+              <RefreshCw className="w-3 h-3" />
+              <span>Due Today ({subjectCounts.due})</span>
+            </button>
             {MISTAKE_SUBJECT_FILTERS.filter(
               (f) => f.id === 'all' || (subjectCounts[f.id] || 0) > 0
             ).map((f) => (
@@ -188,6 +251,18 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
                 {f.label} ({subjectCounts[f.id] || 0})
               </button>
             ))}
+            {subjectCounts.mastered > 0 && (
+              <button
+                onClick={() => setSelectedSubject('mastered')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                  selectedSubject === 'mastered'
+                    ? 'bg-emerald-500 text-slate-950 font-black'
+                    : 'bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 hover:bg-emerald-500/20'
+                }`}
+              >
+                ✓ Mastered ({subjectCounts.mastered})
+              </button>
+            )}
           </div>
 
           {mistakes.length > 0 && (
@@ -206,9 +281,15 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
           {filteredMistakes.length === 0 ? (
             <div className="text-center py-12">
               <CheckCircle2 className="w-12 h-12 text-emerald-400 mx-auto mb-3 opacity-60" />
-              <h4 className="text-base font-bold text-white">कोई गलत सवाल नहीं बचा!</h4>
+              <h4 className="text-base font-bold text-white">
+                {selectedSubject === 'due'
+                  ? 'आज का Spaced Revision Queue पूरा हो गया! 🎉'
+                  : 'कोई गलत सवाल नहीं बचा!'}
+              </h4>
               <p className="text-xs text-slate-400 mt-1 max-w-sm mx-auto">
-                जब भी आप कोई नया मॉक टेस्ट देंगे, जो सवाल गलत होंगे वे अपने-आप यहाँ अभ्यास के लिए जुड़ जाएंगे।
+                {selectedSubject === 'due'
+                  ? 'Abhi koi due question bacha nahi hai — scheduled mistakes apne agle interval (Day 1/3/7/21) par wapas aayengi.'
+                  : 'जब भी आप कोई नया मॉक टेस्ट देंगे, जो सवाल गलत होंगे वे अपने-आप यहाँ अभ्यास के लिए जुड़ जाएंगे।'}
               </p>
             </div>
           ) : (
@@ -231,16 +312,29 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
                   ? q.correctIndexHi
                   : q.correctIndex ?? 0;
               const userAttempt = reattemptChoice[q.id];
+              const srsInfo = formatMistakeSrsStatus(q);
+              const srsBadgeCls =
+                srsInfo.badgeType === 'mastered'
+                  ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/35'
+                  : srsInfo.badgeType === 'scheduled'
+                  ? 'bg-sky-500/15 text-sky-300 border-sky-500/35'
+                  : 'bg-amber-500/15 text-amber-300 border-amber-500/35';
 
               return (
                 <div key={q.id || idx} className="p-5 rounded-2xl bg-slate-950/70 border border-slate-800 space-y-4">
-                  <div className="flex items-center justify-between text-xs">
-                    <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
+                    <div className="flex flex-wrap items-center gap-2">
                       <span className="font-extrabold px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300">
                         Q.{idx + 1}
                       </span>
                       <span className="font-bold text-teal-400">{q.subject}</span>
                       {q.topic && <span className="text-slate-500">• {q.topic}</span>}
+                      <span
+                        title={srsInfo.detail}
+                        className={`px-2 py-0.5 rounded-full border text-[10px] font-bold ${srsBadgeCls}`}
+                      >
+                        {srsInfo.label}
+                      </span>
                     </div>
 
                     <button
@@ -258,7 +352,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
                     className="text-sm font-semibold text-white leading-relaxed"
                   />
 
-                  {/* Options with Re-attempt selection */}
+                  {/* Options with Re-attempt selection & SRS recording */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
                     {opts.map((opt, optIdx) => {
                       const isCorrect = optIdx === correctIdx;
@@ -277,7 +371,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
                       return (
                         <div
                           key={optIdx}
-                          onClick={() => setReattemptChoice(prev => ({ ...prev, [q.id]: optIdx }))}
+                          onClick={() => handleInlineReattempt(q, optIdx)}
                           className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition-all ${borderClass}`}
                         >
                           <div className="flex items-center gap-2">
@@ -313,17 +407,27 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
           )}
         </div>
 
-        {/* Modal Footer with Real CBT Mistake Re-Test Action */}
+        {/* Modal Footer with Spaced Repetition Due CBT & Filtered Re-Test Actions */}
         <div className="p-4 border-t border-slate-800 bg-slate-950 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
           <span className="text-slate-400">
-            दैनिक अभ्यास टिप: रोज़ाना गलत प्रश्नों का असली टाइमर CBT Re-Test देने से परीक्षा में 8–12 अंक बढ़ते हैं।
+            SM-2 Tip: <b>Due Today</b> सवालों का Re-Test देने से याददाश्त 3x मज़बूत होती है।
           </span>
           <div className="flex flex-wrap items-center gap-2 shrink-0">
+            {dueMistakes.length > 0 && selectedSubject !== 'due' && onStartCustomTest && (
+              <button
+                type="button"
+                onClick={() => handleLaunchReTest(null, dueMistakes, 'due')}
+                className="px-3.5 py-2.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/45 text-amber-300 font-black text-xs cursor-pointer flex items-center gap-1.5"
+              >
+                <RefreshCw className="w-3.5 h-3.5" />
+                <span>Revise Due Queue ({dueMistakes.length} Qs)</span>
+              </button>
+            )}
             {filteredMistakes.length > 10 && onStartCustomTest && (
               <button
                 type="button"
                 onClick={() => handleLaunchReTest(10)}
-                className="px-3.5 py-2.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 font-bold text-xs cursor-pointer"
+                className="px-3.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-bold text-xs cursor-pointer"
               >
                 Quick 10 Re-Test
               </button>
@@ -335,7 +439,11 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
                 className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black text-xs cursor-pointer shadow-lg shadow-amber-950/50 flex items-center gap-1.5"
               >
                 <Zap className="w-3.5 h-3.5 fill-slate-950" />
-                <span>Start CBT Re-Test ({filteredMistakes.length} Qs)</span>
+                <span>
+                  {selectedSubject === 'due'
+                    ? `Start Due Revision CBT (${filteredMistakes.length} Qs)`
+                    : `Start CBT Re-Test (${filteredMistakes.length} Qs)`}
+                </span>
               </button>
             )}
             <button

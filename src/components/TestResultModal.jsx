@@ -17,6 +17,11 @@ import { getCutoffBenchmark, evaluateCutoffStatus } from '../utils/cutoffCalcula
 import { renderPrintableShiftWindow } from '../utils/shiftPdfGenerator';
 import { supabase } from '../lib/supabaseClient';
 import { notifyStudyStateChanged } from '../utils/studySyncEvents';
+import {
+  computeTestSpeedReport,
+  classifyQuestionSpeed,
+  formatShortSec,
+} from '../utils/speedAnalytics';
 
 export default function TestResultModal({
   result,
@@ -30,7 +35,14 @@ export default function TestResultModal({
   onOpenAuth,
   hideAds = false,
 }) {
-  const { test, answers, timeTakenSeconds, attemptSyncedAt, isHistoricalReview = false } = result;
+  const {
+    test,
+    answers,
+    timeTakenSeconds,
+    attemptSyncedAt,
+    isHistoricalReview = false,
+    questionTimes = {},
+  } = result;
   
   // Tabs: 'overview' | 'leaderboard' | 'solutions'
   const [activeTab, setActiveTab] = useState('overview');
@@ -144,6 +156,15 @@ export default function TestResultModal({
   const accuracy = (correctCount + wrongCount) > 0 
     ? Math.round((correctCount / (correctCount + wrongCount)) * 100) 
     : 0;
+  const speedReport = computeTestSpeedReport(test.questions, answers, questionTimes);
+
+  const jumpToQuestionInSolutions = (questionId) => {
+    setSolutionFilter('all');
+    setSelectedSection('All');
+    const targetIdx = test.questions.findIndex((q) => q.id === questionId);
+    setReviewIndex(targetIdx >= 0 ? targetIdx : 0);
+    setActiveTab('solutions');
+  };
 
   // Deterministic fallback estimate when leaderboard has < 1 recorded attempt
   const estPercentile = Math.min(99.6, Math.max(15, (finalScore / Math.max(1, test.maxMarks)) * 98)).toFixed(1);
@@ -428,6 +449,180 @@ export default function TestResultModal({
               </div>
             </div>
 
+            {/* Speed & Silly-Mistake Analytics ("You vs Ideal Benchmark") */}
+            <div className="p-5 rounded-2xl bg-slate-900/60 border border-indigo-500/30 space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div>
+                  <h3 className="text-sm font-black text-white flex items-center gap-2">
+                    <Clock className="w-4 h-4 text-indigo-400" />
+                    <span>Per-Question Speed & Silly-Mistake Radar (You vs Ideal Pace)</span>
+                  </h3>
+                  <p className="text-[11px] text-slate-400 mt-0.5">
+                    Target benchmark: Math/Reasoning ~54s • Science/GA/Trade ~36s
+                  </p>
+                </div>
+                {speedReport.hasRealTiming && (
+                  <div className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-slate-300">
+                    Tracked: <span className="text-teal-300">{formatShortSec(speedReport.totalTrackedSec)}</span>
+                  </div>
+                )}
+              </div>
+
+              {!speedReport.hasRealTiming ? (
+                <div className="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800 text-xs text-slate-400">
+                  Is purane saved attempt mein per-question timing record nahi thi — naye CBT mocks submit karne par har sawal ka speed aur silly-mistake breakdown yahan automatic dikhega.
+                </div>
+              ) : (
+                <>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                    <div className="p-3 rounded-xl bg-slate-950/80 border border-slate-800">
+                      <div className="text-[11px] text-slate-400 font-semibold">Avg Speed (Right Qs)</div>
+                      <div className="text-lg font-black text-emerald-300 mt-0.5">{formatShortSec(speedReport.avgCorrectSec)}</div>
+                    </div>
+                    <div className="p-3 rounded-xl bg-slate-950/80 border border-slate-800">
+                      <div className="text-[11px] text-slate-400 font-semibold">Avg Speed (Wrong Qs)</div>
+                      <div className="text-lg font-black text-rose-300 mt-0.5">{formatShortSec(speedReport.avgWrongSec)}</div>
+                    </div>
+                    <div className="p-3 rounded-xl bg-slate-950/80 border border-slate-800">
+                      <div className="text-[11px] text-slate-400 font-semibold">Time Wasted (Wrong/Skip)</div>
+                      <div className="text-lg font-black text-amber-300 mt-0.5">{formatShortSec(speedReport.wastedTimeSec)}</div>
+                    </div>
+                    <div className="p-3 rounded-xl bg-slate-950/80 border border-slate-800">
+                      <div className="text-[11px] text-slate-400 font-semibold">Superfast Right</div>
+                      <div className="text-lg font-black text-teal-300 mt-0.5">{speedReport.buckets.superfastRight.length} Qs</div>
+                    </div>
+                  </div>
+
+                  {/* Clickable Speed Buckets (Jump straight to Question Solution) */}
+                  {(speedReport.buckets.rushMistakes.length > 0 ||
+                    speedReport.buckets.overtimeTraps.length > 0 ||
+                    speedReport.buckets.sunkCostSkips.length > 0 ||
+                    speedReport.buckets.superfastRight.length > 0) && (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                      {speedReport.buckets.rushMistakes.length > 0 && (
+                        <div className="p-3.5 rounded-xl bg-rose-950/25 border border-rose-500/30 space-y-2">
+                          <div className="font-bold text-rose-300 flex items-center justify-between">
+                            <span>⚡ Speed / Silly Mistakes (&le;12s Wrong)</span>
+                            <span>{speedReport.buckets.rushMistakes.length} Qs</span>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5">
+                            {speedReport.buckets.rushMistakes.slice(0, 8).map((item) => (
+                              <button
+                                key={item.id}
+                                type="button"
+                                onClick={() => jumpToQuestionInSolutions(item.id)}
+                                className="px-2 py-1 rounded-lg bg-rose-500/15 hover:bg-rose-500/30 text-rose-200 border border-rose-500/35 text-[11px] font-bold cursor-pointer"
+                              >
+                                Q.{item.qNo} ({item.seconds}s)
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {speedReport.buckets.overtimeTraps.length > 0 && (
+                        <div className="p-3.5 rounded-xl bg-amber-950/25 border border-amber-500/30 space-y-2">
+                          <div className="font-bold text-amber-300 flex items-center justify-between">
+                            <span>⏳ Time-Waster Traps (Slow Wrong)</span>
+                            <span>{speedReport.buckets.overtimeTraps.length} Qs</span>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5">
+                            {speedReport.buckets.overtimeTraps.slice(0, 8).map((item) => (
+                              <button
+                                key={item.id}
+                                type="button"
+                                onClick={() => jumpToQuestionInSolutions(item.id)}
+                                className="px-2 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/30 text-amber-200 border border-amber-500/35 text-[11px] font-bold cursor-pointer"
+                              >
+                                Q.{item.qNo} ({formatShortSec(item.seconds)})
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {speedReport.buckets.sunkCostSkips.length > 0 && (
+                        <div className="p-3.5 rounded-xl bg-slate-950/75 border border-slate-700 space-y-2">
+                          <div className="font-bold text-slate-300 flex items-center justify-between">
+                            <span>🛑 Sunk-Cost Skips (&ge;45s Skipped)</span>
+                            <span>{speedReport.buckets.sunkCostSkips.length} Qs</span>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5">
+                            {speedReport.buckets.sunkCostSkips.slice(0, 8).map((item) => (
+                              <button
+                                key={item.id}
+                                type="button"
+                                onClick={() => jumpToQuestionInSolutions(item.id)}
+                                className="px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-[11px] font-bold cursor-pointer"
+                              >
+                                Q.{item.qNo} ({formatShortSec(item.seconds)})
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {speedReport.buckets.superfastRight.length > 0 && (
+                        <div className="p-3.5 rounded-xl bg-emerald-950/25 border border-emerald-500/30 space-y-2">
+                          <div className="font-bold text-emerald-300 flex items-center justify-between">
+                            <span>🚀 Superfast Accuracy Wins</span>
+                            <span>{speedReport.buckets.superfastRight.length} Qs</span>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5">
+                            {speedReport.buckets.superfastRight.slice(0, 8).map((item) => (
+                              <button
+                                key={item.id}
+                                type="button"
+                                onClick={() => jumpToQuestionInSolutions(item.id)}
+                                className="px-2 py-1 rounded-lg bg-emerald-500/15 hover:bg-emerald-500/30 text-emerald-200 border border-emerald-500/35 text-[11px] font-bold cursor-pointer"
+                              >
+                                Q.{item.qNo} ({item.seconds}s)
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* Section-Wise Time Share Bars */}
+                  {speedReport.sectionSpeed.length > 0 && (
+                    <div className="space-y-2 pt-1">
+                      <div className="text-[11px] font-bold text-slate-300 uppercase tracking-wide">
+                        Section-Wise Time Spent vs Ideal Pace
+                      </div>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                        {speedReport.sectionSpeed.map((s) => {
+                          const barCls =
+                            s.paceStatus === 'slow'
+                              ? 'bg-amber-500'
+                              : s.paceStatus === 'fast'
+                              ? 'bg-emerald-500'
+                              : 'bg-indigo-400';
+                          return (
+                            <div key={s.section} className="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5 text-[11px]">
+                              <div className="flex items-center justify-between gap-2">
+                                <span className="font-bold text-white truncate">{s.section}</span>
+                                <span className="text-slate-300 font-semibold shrink-0">
+                                  {formatShortSec(s.totalSec)} ({s.sharePct}%) • ~{s.avgSec}s/Q
+                                </span>
+                              </div>
+                              <div className="h-1.5 w-full rounded-full bg-slate-800 overflow-hidden">
+                                <div
+                                  className={`h-full rounded-full ${barCls}`}
+                                  style={{ width: `${Math.max(8, Math.min(100, s.sharePct))}%` }}
+                                />
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
+
             {/* Quick Action to jump to Solutions */}
             <div className="p-5 rounded-2xl bg-gradient-to-r from-teal-950/40 via-slate-900/60 to-purple-950/40 border border-teal-500/30 flex flex-wrap items-center justify-between gap-4">
               <div>
@@ -555,7 +750,7 @@ export default function TestResultModal({
                   
                   {/* Question Header & Status Badge */}
                   <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-800">
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-2">
                       <span className="px-3 py-1 rounded-md bg-teal-500/20 text-teal-300 font-bold text-xs">
                         Question {activeReviewQ.shiftQuestionNo || activeReviewQ.id}
                       </span>
@@ -567,6 +762,29 @@ export default function TestResultModal({
                           • {activeReviewQ.topic}
                         </span>
                       )}
+                      {speedReport.hasRealTiming && (() => {
+                        const qSpeed = classifyQuestionSpeed(
+                          activeReviewQ,
+                          questionTimes?.[activeReviewQ.id] || 0,
+                          userAns
+                        );
+                        const toneCls =
+                          qSpeed.tone === 'emerald'
+                            ? 'bg-emerald-500/15 text-emerald-300 border-emerald-500/35'
+                            : qSpeed.tone === 'rose'
+                            ? 'bg-rose-500/15 text-rose-300 border-rose-500/35'
+                            : qSpeed.tone === 'orange' || qSpeed.tone === 'amber'
+                            ? 'bg-amber-500/15 text-amber-300 border-amber-500/35'
+                            : 'bg-indigo-500/15 text-indigo-300 border-indigo-500/35';
+                        return (
+                          <span className={`px-2.5 py-1 rounded-md border text-[11px] font-bold flex items-center gap-1 ${toneCls}`}>
+                            <Clock className="w-3 h-3" />
+                            <span>
+                              {formatShortSec(qSpeed.seconds)} / {formatShortSec(qSpeed.idealSeconds)} • {qSpeed.label}
+                            </span>
+                          </span>
+                        );
+                      })()}
                     </div>
 
                     {/* Result Badge + Report Error Button */}

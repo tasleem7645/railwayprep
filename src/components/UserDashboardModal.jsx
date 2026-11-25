@@ -31,6 +31,8 @@ export default function UserDashboardModal({
   onReopenAttempt,
   reopeningAttemptId = null,
   onLaunchWeakTopicDrill,
+  onLaunchWeakMiniMock,
+  launchingWeakTopicKey = null,
   onClose,
   onLogout,
   onOpenPassPro,
@@ -751,16 +753,37 @@ export default function UserDashboardModal({
                             {w.mistakeCount > 0 && ` • ${w.mistakeCount} saved mistakes`}
                           </div>
                         </div>
-                        {onLaunchWeakTopicDrill && (
-                          <button
-                            type="button"
-                            onClick={() => onLaunchWeakTopicDrill(w)}
-                            className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-400 hover:to-emerald-400 text-slate-950 text-[11px] font-black flex items-center justify-center gap-1.5 cursor-pointer shrink-0 shadow-md"
-                          >
-                            <Zap className="w-3.5 h-3.5" />
-                            <span>Practice Weak Topic</span>
-                          </button>
-                        )}
+                        <div className="flex flex-wrap items-center gap-2 shrink-0">
+                          {onLaunchWeakMiniMock && (
+                            <button
+                              type="button"
+                              onClick={() => onLaunchWeakMiniMock(w)}
+                              disabled={Boolean(launchingWeakTopicKey)}
+                              className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 text-[11px] font-black flex items-center justify-center gap-1.5 cursor-pointer shadow-md disabled:opacity-60"
+                            >
+                              {launchingWeakTopicKey === `${w.subject}::${w.topic}` ? (
+                                <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                              ) : (
+                                <Zap className="w-3.5 h-3.5 fill-slate-950" />
+                              )}
+                              <span>
+                                {launchingWeakTopicKey === `${w.subject}::${w.topic}`
+                                  ? 'Preparing 15 Qs...'
+                                  : '15-Q Mini CBT'}
+                              </span>
+                            </button>
+                          )}
+                          {onLaunchWeakTopicDrill && (
+                            <button
+                              type="button"
+                              onClick={() => onLaunchWeakTopicDrill(w)}
+                              className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 border border-teal-500/35 text-[11px] font-bold flex items-center justify-center gap-1.5 cursor-pointer"
+                            >
+                              <Eye className="w-3.5 h-3.5" />
+                              <span>Mistakes / PYQ</span>
+                            </button>
+                          )}
+                        </div>
                       </div>
                     ))}
                   </div>

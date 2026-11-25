@@ -254,6 +254,7 @@ export default function CBTMockTestModal({
       test,
       answers,
       reviewStatus,
+      questionTimes,
       timeTakenSeconds: (test.durationMinutes * 60) - timeLeft
     });
   };

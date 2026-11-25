@@ -14,9 +14,12 @@ import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
 import { hydrateTest } from './data/testQuestionLoader';
 import { getStudyStreak, recordStudyActivity } from './utils/studyStreak';
 import { isEphemeralQuizId, normalizeMistakeCategory } from './utils/mistakeTestBuilder';
-import { STUDY_SYNC_EVENT } from './utils/studySyncEvents';
+import { STUDY_SYNC_EVENT, notifyStudyStateChanged } from './utils/studySyncEvents';
 import { recordMockTopicStats } from './utils/topicPerformance';
 import { syncStudyStateOnLogin, pushStudyStateToCloud } from './utils/cloudStudySync';
+import { saveTestSpeedProfile, getTestSpeedProfile } from './utils/speedAnalytics';
+import { buildWeakTopicMiniTest } from './utils/weakTopicQuizBuilder';
+import { applySrsBatchFromReTest } from './utils/mistakeSpacedRepetition';
 import { lazyWithRetry, forceFreshReload, isChunkLoadError, triggerOneTimeChunkReload } from './utils/chunkRecovery';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
@@ -207,6 +210,7 @@ export default function App() {
   const [studyStreak, setStudyStreak] = useState(() => getStudyStreak());
   const [cloudSyncState, setCloudSyncState] = useState({ status: 'idle', syncedAt: null });
   const [reopeningAttemptId, setReopeningAttemptId] = useState(null);
+  const [launchingWeakTopicKey, setLaunchingWeakTopicKey] = useState(null);
   const [mistakeInitialSubject, setMistakeInitialSubject] = useState('all');
 
   const isPaidPro = Boolean(hasPassPro && profile?.pass_pro_plan === 'paid');
@@ -598,6 +602,23 @@ export default function App() {
     // Record per-topic accuracy for Smart Weak-Topic Radar & Cloud Sync
     recordMockTopicStats(test.questions, answers);
 
+    // Save per-question time analytics profile for Speed Radar & historical review
+    if (!test.isCustomTopicQuiz && resultData.questionTimes) {
+      saveTestSpeedProfile(test.id, resultData.questionTimes);
+    }
+
+    // Update SM-2 Spaced Repetition progress if finishing a Mistake Notebook CBT Re-Test
+    if (test.isMistakeReTest) {
+      try {
+        const parsed = JSON.parse(localStorage.getItem('railwayprep_mistake_notebook') || '[]');
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          const updatedSrs = applySrsBatchFromReTest(parsed, test.questions, answers);
+          localStorage.setItem('railwayprep_mistake_notebook', JSON.stringify(updatedSrs));
+          notifyStudyStateChanged();
+        }
+      } catch (e) {}
+    }
+
     // Sync test attempt to Supabase Cloud if logged in
     if (session?.user?.id) {
       try {
@@ -657,11 +678,13 @@ export default function App() {
     setReopeningAttemptId(attempt.id);
     try {
       const hydrated = await hydrateTest(baseTest);
+      const speedProfile = getTestSpeedProfile(baseTest.id);
       setIsDashboardOpen(false);
       setTestResult({
         test: hydrated,
         answers: attempt.answers_json || {},
         timeTakenSeconds: attempt.time_taken_seconds || 0,
+        questionTimes: speedProfile?.questionTimes || {},
         attemptSyncedAt: attempt.created_at ? new Date(attempt.created_at).getTime() : Date.now(),
         isHistoricalReview: true,
       });
@@ -692,6 +715,32 @@ export default function App() {
       setIsMistakeModalOpen(true);
     } else {
       setActiveTab('pyq-explorer');
+    }
+  };
+
+  const handleLaunchWeakMiniMock = async (weakItem) => {
+    if (!weakItem || launchingWeakTopicKey) return;
+    const topicKey = `${weakItem.subject}::${weakItem.topic}`;
+    setLaunchingWeakTopicKey(topicKey);
+    try {
+      const miniTest = await buildWeakTopicMiniTest({
+        weakItem,
+        railwayTests: RAILWAY_TESTS,
+        getTestAccess,
+        maxQuestions: 15,
+      });
+      if (!miniTest) {
+        alert('Is weak topic ke liye abhi questions load nahi ho paaye. Dobara try karein.');
+        return;
+      }
+      setIsDashboardOpen(false);
+      setSavedSession(null);
+      setActiveTest(miniTest);
+    } catch (err) {
+      console.error('Failed to build weak-topic mini mock:', err);
+      alert('15-Q Mini CBT generate karne mein samasya aayi.');
+    } finally {
+      setLaunchingWeakTopicKey(null);
     }
   };
 
@@ -1323,6 +1372,8 @@ export default function App() {
             onReopenAttempt={handleReopenAttempt}
             reopeningAttemptId={reopeningAttemptId}
             onLaunchWeakTopicDrill={handleLaunchWeakTopicDrill}
+            onLaunchWeakMiniMock={handleLaunchWeakMiniMock}
+            launchingWeakTopicKey={launchingWeakTopicKey}
             onClose={() => setIsDashboardOpen(false)}
             onLogout={handleLogout}
             onOpenPassPro={() => setIsPassProOpen(true)}

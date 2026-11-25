@@ -4,6 +4,7 @@
  */
 
 import { mergeTopicStats } from './topicPerformance.js';
+import { mergeSpeedProfiles } from './speedAnalytics.js';
 
 export function mergeMistakes(localList = [], cloudList = []) {
   const localArr = Array.isArray(localList) ? localList : [];
@@ -13,7 +14,18 @@ export function mergeMistakes(localList = [], cloudList = []) {
 
   combined.forEach((item) => {
     if (!item || !item.id) return;
-    byId.set(item.id, item);
+    const prev = byId.get(item.id);
+    if (!prev) {
+      byId.set(item.id, item);
+      return;
+    }
+    const prevRevTs = Number(prev.srsLastReviewedAt || 0);
+    const curRevTs = Number(item.srsLastReviewedAt || 0);
+    const prevRevCnt = Number(prev.srsReviewCount || 0);
+    const curRevCnt = Number(item.srsReviewCount || 0);
+    if (curRevTs > prevRevTs || (curRevTs === prevRevTs && curRevCnt >= prevRevCnt)) {
+      byId.set(item.id, item);
+    }
   });
 
   const all = Array.from(byId.values());
@@ -61,5 +73,6 @@ export function mergeStreakState(localRaw = {}, cloudRaw = {}) {
     bestAccuracy: Math.max(Number(loc.bestAccuracy || 0), Number(cld.bestAccuracy || 0)),
     lastActiveDate: (useLocCurrent ? locDate : cldDate) || null,
     topicStats: mergeTopicStats(loc.topicStats || {}, cld.topicStats || {}),
+    speedProfiles: mergeSpeedProfiles(loc.speedProfiles || {}, cld.speedProfiles || {}),
   };
 }

@@ -5,6 +5,7 @@
 import { supabase } from '../lib/supabaseClient';
 import { PROGRESS_KEY, loadPyqProgress } from './pyqProgress';
 import { TOPIC_STATS_KEY, readTopicStats, writeTopicStats } from './topicPerformance';
+import { readAllSpeedProfiles, writeAllSpeedProfiles } from './speedAnalytics';
 import { mergeMistakes, mergePyqProgress, mergeStreakState } from './studyStateMerge';
 
 const MISTAKE_STORAGE_KEY = 'railwayprep_mistake_notebook';
@@ -35,12 +36,14 @@ function readLocalRawStreak() {
 export function getLocalCloudPayload() {
   const rawStreak = readLocalRawStreak();
   const topicStats = readTopicStats();
+  const speedProfiles = readAllSpeedProfiles();
   return {
     mistakes_json: readLocalMistakes(),
     pyq_progress_json: loadPyqProgress(),
     streak_json: {
       ...rawStreak,
       topicStats,
+      speedProfiles,
     },
   };
 }
@@ -86,7 +89,11 @@ export async function syncStudyStateOnLogin(userId) {
     const mergedMistakes = mergeMistakes(localPayload.mistakes_json, cloudRow?.mistakes_json || []);
     const mergedPyq = mergePyqProgress(localPayload.pyq_progress_json, cloudRow?.pyq_progress_json || {});
     const mergedStreakAll = mergeStreakState(localPayload.streak_json, cloudRow?.streak_json || {});
-    const { topicStats: mergedTopicStats, ...mergedStreakOnly } = mergedStreakAll;
+    const {
+      topicStats: mergedTopicStats,
+      speedProfiles: mergedSpeedProfiles,
+      ...mergedStreakOnly
+    } = mergedStreakAll;
 
     try {
       if (mergedMistakes.length > 0 || (cloudRow && Array.isArray(cloudRow.mistakes_json))) {
@@ -97,6 +104,7 @@ export async function syncStudyStateOnLogin(userId) {
         localStorage.setItem(STREAK_STORAGE_KEY, JSON.stringify(mergedStreakOnly));
       }
       writeTopicStats(mergedTopicStats || {});
+      writeAllSpeedProfiles(mergedSpeedProfiles || {});
     } catch (e) {}
 
     // Push merged state back up if cloud row was missing or local held newer items
