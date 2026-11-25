@@ -513,7 +513,7 @@ export default function App() {
         });
         const pos = test.positiveMarks || 1;
         const neg = test.negativeMarks || 0.33;
-        const rawScore = Number((correctCount * pos - wrongCount * neg).toFixed(2));
+        const rawScore = Number(Math.max(0, correctCount * pos - wrongCount * neg).toFixed(2));
         const attempted = correctCount + wrongCount;
         const accuracy = attempted > 0 ? Number(((correctCount / attempted) * 100).toFixed(2)) : 0;
 
@@ -531,6 +531,7 @@ export default function App() {
           time_taken_seconds: timeTakenSeconds || 0,
           answers_json: answers,
         });
+        setTestResult((prev) => (prev ? { ...prev, attemptSyncedAt: Date.now() } : prev));
       } catch (e) {
         console.warn('Cloud test attempt sync notice:', e);
       }
@@ -1502,10 +1503,12 @@ export default function App() {
         {testResult && (
           <TestResultModal
             result={testResult}
+            user={session?.user || null}
             onClose={() => setTestResult(null)}
             onRetake={handleRetakeTest}
             onOpenPassPro={() => setIsPassProOpen(true)}
             onOpenMistakes={() => setIsMistakeModalOpen(true)}
+            onOpenAuth={(msg) => { setTestResult(null); openAuthPrompt(msg); }}
             hideAds={isPaidPro}
           />
         )}

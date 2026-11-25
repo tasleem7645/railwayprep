@@ -8,12 +8,29 @@ import {
 } from 'lucide-react';
 import AdBanner from './AdBanner';
 import QuestionContentRenderer from './QuestionContentRenderer';
+import ExpectedCutoffCard from './ExpectedCutoffCard';
+import ShiftLeaderboardTab from './ShiftLeaderboardTab';
+import { supabase } from '../lib/supabaseClient';
 
-export default function TestResultModal({ result, onClose, onRetake, onOpenPassPro, onOpenMistakes, hideAds = false }) {
-  const { test, answers, timeTakenSeconds } = result;
+export default function TestResultModal({
+  result,
+  user = null,
+  onClose,
+  onRetake,
+  onOpenPassPro,
+  onOpenMistakes,
+  onOpenAuth,
+  hideAds = false,
+}) {
+  const { test, answers, timeTakenSeconds, attemptSyncedAt } = result;
   
-  // Tabs: 'overview' | 'solutions'
+  // Tabs: 'overview' | 'leaderboard' | 'solutions'
   const [activeTab, setActiveTab] = useState('overview');
+
+  // Real-Time Shift Leaderboard State
+  const [leaderboard, setLeaderboard] = useState(null);
+  const [loadingLeaderboard, setLoadingLeaderboard] = useState(false);
+  const [leaderboardError, setLeaderboardError] = useState(false);
   
   // Solutions Review Filters: 'all' | 'correct' | 'incorrect' | 'unattempted' | 'marked'
   const [solutionFilter, setSolutionFilter] = useState('all');
@@ -108,9 +125,36 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
     ? Math.round((correctCount / (correctCount + wrongCount)) * 100) 
     : 0;
 
-  // Estimated percentile (simulated based on score)
-  const percentile = Math.min(99.6, Math.max(45, (finalScore / test.maxMarks) * 98 + Math.random() * 1.5)).toFixed(1);
-  const estimatedRank = Math.max(12, Math.round((1 - (percentile / 100)) * 15400));
+  // Deterministic fallback estimate when leaderboard has < 1 recorded attempt
+  const estPercentile = Math.min(99.6, Math.max(15, (finalScore / Math.max(1, test.maxMarks)) * 98)).toFixed(1);
+  const estRank = Math.max(1, Math.round((1 - (parseFloat(estPercentile) / 100)) * 15400));
+
+  const fetchLeaderboard = async () => {
+    setLoadingLeaderboard(true);
+    setLeaderboardError(false);
+    try {
+      const { data, error } = await supabase.rpc('get_shift_leaderboard', {
+        p_test_id: test.id,
+        p_user_score: finalScore,
+      });
+      if (error) throw error;
+      if (data) setLeaderboard(data);
+    } catch (e) {
+      console.warn('Leaderboard fetch notice:', e);
+      setLeaderboardError(true);
+    } finally {
+      setLoadingLeaderboard(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchLeaderboard();
+  }, [test.id, finalScore, attemptSyncedAt]);
+
+  const hasLiveLeaderboard = Boolean(leaderboard && leaderboard.total_participants >= 1);
+  const displayPercentile = hasLiveLeaderboard && leaderboard.user_percentile !== null
+    ? Number(leaderboard.user_percentile).toFixed(1)
+    : estPercentile;
 
   const getOptionsList = (q, lang) => {
     if (!q || !q.options) return [];
@@ -217,9 +261,20 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
           </div>
 
           <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 text-center">
-            <div className="text-xs font-semibold text-slate-400">All-India Percentile</div>
-            <div className="text-2xl sm:text-3xl font-black text-amber-400 mt-1">{percentile}%ile</div>
-            <div className="text-[10px] text-slate-400 font-medium mt-0.5">Estimated Rank ~{estimatedRank}</div>
+            <div className="text-xs font-semibold text-slate-400 flex items-center justify-center gap-1.5">
+              <span>{hasLiveLeaderboard ? 'Live Percentile' : 'All-India Percentile'}</span>
+              {hasLiveLeaderboard && (
+                <span className="px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 text-[9px] font-black uppercase">
+                  LIVE
+                </span>
+              )}
+            </div>
+            <div className="text-2xl sm:text-3xl font-black text-amber-400 mt-1">{displayPercentile}%ile</div>
+            <div className="text-[10px] text-slate-400 font-medium mt-0.5">
+              {hasLiveLeaderboard && leaderboard.user_rank
+                ? `Live Rank #${leaderboard.user_rank} of ${leaderboard.total_participants}`
+                : `Est. Rank ~${estRank}`}
+            </div>
           </div>
 
           <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 text-center">
@@ -232,22 +287,38 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
         {/* High-Converting Monetization / AdSlot */}
         <AdBanner slot="result" onOpenPassPro={onOpenPassPro} hideAds={hideAds} />
 
-        {/* Tab Switcher: Overview vs Detailed Solutions */}
-        <div className="flex border-b border-slate-800 mb-6">
+        {/* Tab Switcher: Overview vs Live Leaderboard vs Detailed Solutions */}
+        <div className="flex border-b border-slate-800 mb-6 overflow-x-auto no-scrollbar">
           <button
             onClick={() => setActiveTab('overview')}
-            className={`px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 ${
+            className={`px-4 sm:px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 whitespace-nowrap ${
               activeTab === 'overview'
                 ? 'border-teal-400 text-teal-400 bg-teal-500/5'
                 : 'border-transparent text-slate-400 hover:text-slate-200'
             }`}
           >
             <BarChart3 className="w-4 h-4" />
-            <span>Scorecard & Analysis</span>
+            <span>Scorecard & Cutoff</span>
+          </button>
+          <button
+            onClick={() => setActiveTab('leaderboard')}
+            className={`px-4 sm:px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 whitespace-nowrap ${
+              activeTab === 'leaderboard'
+                ? 'border-amber-400 text-amber-400 bg-amber-500/5'
+                : 'border-transparent text-slate-400 hover:text-slate-200'
+            }`}
+          >
+            <Trophy className="w-4 h-4" />
+            <span>Live Leaderboard</span>
+            {hasLiveLeaderboard && (
+              <span className="px-1.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 text-[10px] font-black">
+                {leaderboard.total_participants}
+              </span>
+            )}
           </button>
           <button
             onClick={() => setActiveTab('solutions')}
-            className={`px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 ${
+            className={`px-4 sm:px-5 py-2.5 text-xs font-bold border-b-2 transition-all cursor-pointer flex items-center gap-2 whitespace-nowrap ${
               activeTab === 'solutions'
                 ? 'border-teal-400 text-teal-400 bg-teal-500/5'
                 : 'border-transparent text-slate-400 hover:text-slate-200'
@@ -258,10 +329,12 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
           </button>
         </div>
 
-        {/* TAB CONTENT 1: OVERVIEW & SECTION BREAKDOWN */}
+        {/* TAB CONTENT 1: OVERVIEW, CUTOFF METER & SECTION BREAKDOWN */}
         {activeTab === 'overview' && (
           <div className="space-y-6">
-            
+            {/* Expected Cutoff Meter */}
+            <ExpectedCutoffCard test={test} finalScore={finalScore} />
+
             {/* Section Breakdown Table */}
             <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800">
               <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
@@ -307,7 +380,7 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
               <div>
                 <h4 className="text-sm font-bold text-white">Review All Questions with Step-by-Step Solutions</h4>
                 <p className="text-xs text-slate-400 mt-0.5">
-                  Check official RRB answer key, your chosen answers, and bilingual explanations for all 75 questions.
+                  Check official RRB answer key, your chosen answers, and bilingual explanations for all {test.questions.length} questions.
                 </p>
               </div>
               <button
@@ -322,7 +395,21 @@ export default function TestResultModal({ result, onClose, onRetake, onOpenPassP
           </div>
         )}
 
-        {/* TAB CONTENT 2: DETAILED SOLUTIONS & REVIEW MODE */}
+        {/* TAB CONTENT 2: LIVE SHIFT LEADERBOARD */}
+        {activeTab === 'leaderboard' && (
+          <ShiftLeaderboardTab
+            test={test}
+            finalScore={finalScore}
+            user={user}
+            leaderboard={leaderboard}
+            loading={loadingLeaderboard}
+            error={leaderboardError}
+            onRefresh={fetchLeaderboard}
+            onOpenAuth={onOpenAuth}
+          />
+        )}
+
+        {/* TAB CONTENT 3: DETAILED SOLUTIONS & REVIEW MODE */}
         {activeTab === 'solutions' && (
           <div className="space-y-5">
             
