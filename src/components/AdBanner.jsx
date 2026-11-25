@@ -98,7 +98,7 @@ export default function AdBanner({
               className="px-3.5 py-2 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shadow-md shadow-teal-950/50 cursor-pointer transition-all"
             >
               <Download className="w-3.5 h-3.5" />
-              <span>Get Solved PDFs (₹{payments.pdfBundlePrice})</span>
+              <span>Download Solved Shift PDFs</span>
             </button>
           )}
           <a

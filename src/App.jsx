@@ -1601,7 +1601,21 @@ export default function App() {
 
         {/* Paid PDF Bundle Modal */}
         {isPdfModalOpen && (
-          <PaidPdfBundleModal onClose={() => setIsPdfModalOpen(false)} />
+          <PaidPdfBundleModal
+            railwayTests={RAILWAY_TESTS}
+            getTestAccess={getTestAccess}
+            hasPassPro={hasPassPro}
+            user={session?.user || null}
+            onClose={() => setIsPdfModalOpen(false)}
+            onOpenPassPro={() => {
+              setIsPdfModalOpen(false);
+              setIsPassProOpen(true);
+            }}
+            onOpenAuth={(msg) => {
+              setIsPdfModalOpen(false);
+              openAuthPrompt(msg);
+            }}
+          />
         )}
 
         {/* Legal & Compliance Modal (AdSense Required) */}

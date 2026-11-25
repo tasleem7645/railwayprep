@@ -1,248 +1,319 @@
-import React, { useState } from 'react';
-import { 
-  X, Download, FileText, CheckCircle2, QrCode, 
-  ArrowRight, Sparkles, Copy, Check, ShieldCheck 
+import React, { useState, useMemo } from 'react';
+import {
+  X, Download, FileText, Printer, Lock, Crown, LogIn,
+  Globe, BookOpen, CheckCircle2, Sparkles
 } from 'lucide-react';
-import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
+import { EXAM_HIERARCHY } from '../utils/pyqTaxonomy';
+import { hydrateTest } from '../data/testQuestionLoader';
+import {
+  renderPrintableShiftWindow,
+  downloadOfflineSolvedSheet,
+} from '../utils/shiftPdfGenerator';
 
-export default function PaidPdfBundleModal({ onClose }) {
-  const { payments } = MONETIZATION_CONFIG;
-  const [selectedBundle, setSelectedBundle] = useState('2025_2026_combo');
-  const [copiedUPI, setCopiedUPI] = useState(false);
-  const [showQR, setShowQR] = useState(false);
-  const [utrInput, setUtrInput] = useState('');
-  const [isUnlocked, setIsUnlocked] = useState(false);
+export default function PaidPdfBundleModal({
+  onClose,
+  railwayTests = [],
+  getTestAccess,
+  hasPassPro = false,
+  user = null,
+  onOpenPassPro,
+  onOpenAuth,
+}) {
+  const [selectedExamKey, setSelectedExamKey] = useState('alp');
+  const [selectedYearKey, setSelectedYearKey] = useState('alp-2026');
+  const [selectedTestId, setSelectedTestId] = useState('');
+  const [langMode, setLangMode] = useState('bilingual'); // 'bilingual' | 'hi' | 'en'
+  const [layoutMode, setLayoutMode] = useState('solved'); // 'solved' | 'practice'
+  const [generating, setGenerating] = useState(false);
 
-  const BUNDLES = [
-    {
-      id: '2025_2026_combo',
-      title: 'RRB ALP 2025 & 2026 Complete Solved Papers (19 Shifts)',
-      pages: '280+ Pages',
-      price: payments.pdfBundlePrice,
-      badge: 'Best Value • 100% Bilingual',
-      features: [
-        'All 10 Shifts of 2025 + All 9 Shifts of 2026',
-        'Official Answers with detailed step-by-step Hindi/English explanations',
-        'High-resolution formulas, Venn diagrams & clean print layout'
-      ]
-    },
-    {
-      id: 'science_crux',
-      title: 'NCERT Class 9th & 10th Science High-Yield Mind Maps',
-      pages: '120+ Pages',
-      price: 19,
-      badge: 'Score 20/20 in Science',
-      features: [
-        'Physics numericals with speed formula cheatsheets',
-        'Chemical reactions, Periodic table & Biology diagrams'
-      ]
-    },
-    {
-      id: 'super_combo',
-      title: 'All-in-One Super Bundle (All PDFs + Pass Pro 1 Year)',
-      pages: 'Unlimited Access',
-      price: payments.superComboPrice,
-      badge: 'Toppers Choice',
-      features: [
-        'All 76+ Online CBT Mock Tests Unlocked',
-        'All Shift PDFs + Science & Maths Mind Maps'
-      ]
-    }
-  ];
+  const activeExam = useMemo(
+    () => EXAM_HIERARCHY.find((e) => e.key === selectedExamKey) || EXAM_HIERARCHY[0],
+    [selectedExamKey]
+  );
 
-  const currentBundle = BUNDLES.find(b => b.id === selectedBundle) || BUNDLES[0];
+  const activeYear = useMemo(
+    () => activeExam.years.find((y) => y.key === selectedYearKey) || activeExam.years[0],
+    [activeExam, selectedYearKey]
+  );
 
-  const handleCopyUPI = () => {
-    navigator.clipboard?.writeText(payments.upiId);
-    setCopiedUPI(true);
-    setTimeout(() => setCopiedUPI(false), 2500);
+  const shiftsList = useMemo(
+    () => railwayTests.filter(activeYear.filter),
+    [railwayTests, activeYear]
+  );
+
+  const selectedTest = useMemo(
+    () => shiftsList.find((t) => t.id === selectedTestId) || shiftsList[0] || null,
+    [shiftsList, selectedTestId]
+  );
+
+  const accessStatus = selectedTest && getTestAccess ? getTestAccess(selectedTest) : 'open';
+
+  const handleSelectExam = (exKey) => {
+    const ex = EXAM_HIERARCHY.find((e) => e.key === exKey) || EXAM_HIERARCHY[0];
+    setSelectedExamKey(ex.key);
+    setSelectedYearKey(ex.years[0].key);
+    setSelectedTestId('');
   };
 
-  const handleVerifyPayment = (e) => {
-    e.preventDefault();
-    if (!utrInput.trim()) return;
-    // Unlock if UTR is 12 digits or matches admin code
-    if (utrInput.trim().length >= 8 || utrInput.trim() === payments.secretAdminCode) {
-      setIsUnlocked(true);
-      try {
-        localStorage.setItem('railwayprep_pass_pro_active', 'true');
-      } catch (e) {}
+  const handleSelectYear = (yrKey) => {
+    setSelectedYearKey(yrKey);
+    setSelectedTestId('');
+  };
+
+  const handleExportPdf = async (mode = 'print') => {
+    if (!selectedTest || generating) return;
+    if (accessStatus === 'login_required') {
+      if (onOpenAuth) onOpenAuth('Login karke Shifts 2–3 ke Solved PDFs free download karein!');
+      return;
+    }
+    if (accessStatus === 'pass_pro_required') {
+      if (onOpenPassPro) onOpenPassPro();
+      return;
+    }
+
+    // Open blank window synchronously during click gesture to bypass mobile popup blockers
+    const preWin = mode === 'print' ? window.open('', '_blank') : null;
+    if (preWin) {
+      preWin.document.write(
+        '<body style="background:#070B18;color:#fff;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0"><p>Generating Bilingual Solved PDF Sheet...</p></body>'
+      );
+    }
+
+    setGenerating(true);
+    try {
+      const hydrated = await hydrateTest(selectedTest);
+      if (mode === 'print') {
+        renderPrintableShiftWindow(hydrated, { langMode, layoutMode }, preWin);
+      } else {
+        downloadOfflineSolvedSheet(hydrated, { langMode, layoutMode });
+      }
+    } catch (err) {
+      console.error('PDF generation failed:', err);
+      if (preWin) preWin.close();
+      alert('PDF generate karne mein problem aayi. Please dobara try karein.');
+    } finally {
+      setGenerating(false);
     }
   };
 
   return (
     <div className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-3 sm:p-4">
-      <div className="max-w-xl w-full max-h-[90vh] bg-[#090D1A] border border-teal-500/40 rounded-3xl p-6 sm:p-8 shadow-2xl relative flex flex-col overflow-hidden">
-        
-        {/* Glow */}
+      <div className="max-w-2xl w-full max-h-[90vh] bg-[#090D1A] border border-teal-500/40 rounded-3xl p-5 sm:p-7 shadow-2xl relative flex flex-col overflow-hidden">
         <div className="absolute top-0 right-0 w-48 h-48 bg-teal-500/10 rounded-full blur-3xl pointer-events-none" />
 
-        {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-5 right-5 p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
+          className="absolute top-4 right-4 p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
         >
           <X className="w-5 h-5" />
         </button>
 
         {/* Header */}
-        <div className="text-center pb-3">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-300 font-extrabold text-xs mb-2">
-            <Download className="w-3.5 h-3.5 text-teal-400" />
-            <span>Digital Download Store</span>
+        <div className="pb-4 border-b border-slate-800 pr-8">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-500/15 border border-teal-500/35 text-teal-300 font-extrabold text-[11px] mb-2">
+            <Sparkles className="w-3.5 h-3.5 text-teal-400" />
+            <span>Built-In Bilingual Solved Shift PDF Studio</span>
           </div>
-          <h2 className="text-2xl font-black text-white">
-            Download Printable <span className="text-teal-400">Solved PDF Bundles</span>
+          <h2 className="text-xl sm:text-2xl font-black text-white">
+            Download Printable <span className="text-teal-400">Solved Question PDFs</span>
           </h2>
           <p className="text-xs text-slate-400 mt-1">
-            Offline study material with step-by-step bilingual solutions for rapid revision.
+            Apni pasand ki shift chunein, Hindi/English mode select karein aur A4 Print-Ready Solved PDF turant save karein!
           </p>
         </div>
 
-        {/* Body content */}
-        <div className="flex-1 overflow-y-auto space-y-4 py-2 custom-scrollbar">
-          
-          {isUnlocked ? (
-            <div className="p-6 rounded-2xl bg-emerald-950/40 border border-emerald-500/40 text-center space-y-3">
-              <div className="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 flex items-center justify-center mx-auto">
-                <CheckCircle2 className="w-6 h-6" />
-              </div>
-              <h3 className="text-lg font-bold text-white">Payment Verified!</h3>
-              <p className="text-xs text-slate-300">
-                Your PDF downloads have been unlocked successfully.
-              </p>
-              <div className="pt-2 space-y-2">
-                <a
-                  href="/RRB-ALP-2025-CBT1-EN-Official-Answer-Key.pdf"
-                  download
-                  className="w-full py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg transition-all"
+        {/* Body */}
+        <div className="flex-1 overflow-y-auto space-y-4 py-4 custom-scrollbar">
+          {/* Exam & Year Selectors */}
+          <div className="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-3">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-[11px] font-bold text-slate-400 mr-1">1. Exam:</span>
+              {EXAM_HIERARCHY.map((ex) => (
+                <button
+                  key={ex.key}
+                  type="button"
+                  onClick={() => handleSelectExam(ex.key)}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-black cursor-pointer transition-all ${
+                    selectedExamKey === ex.key
+                      ? 'bg-teal-500 text-slate-950'
+                      : 'bg-slate-950 border border-slate-800 text-slate-300 hover:text-white'
+                  }`}
                 >
-                  <Download className="w-4 h-4" />
-                  <span>Download RRB ALP 2025 All Shifts PDF</span>
-                </a>
-                <a
-                  href="/RRB-ALP-2025-CBT1-HI-Official-Answer-Key.pdf"
-                  download
-                  className="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 font-bold text-xs flex items-center justify-center gap-2 border border-slate-700 transition-all"
-                >
-                  <Download className="w-4 h-4" />
-                  <span>Download Hindi All Shifts PDF</span>
-                </a>
-              </div>
+                  {ex.label}
+                </button>
+              ))}
             </div>
-          ) : (
-            <>
-              {/* Bundle Selectors */}
-              <div className="space-y-2.5">
-                {BUNDLES.map(b => (
-                  <div
-                    key={b.id}
-                    onClick={() => setSelectedBundle(b.id)}
-                    className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center justify-between gap-3 ${
-                      selectedBundle === b.id
-                        ? 'bg-teal-500/10 border-teal-500 shadow-md shadow-teal-500/10'
-                        : 'bg-slate-900/60 border-slate-800 hover:border-slate-700'
+
+            <div className="flex flex-wrap items-center gap-1.5 pt-2 border-t border-slate-800/80">
+              <span className="text-[11px] font-bold text-slate-400 mr-1">2. Year / Stage:</span>
+              {activeExam.years.map((yr) => (
+                <button
+                  key={yr.key}
+                  type="button"
+                  onClick={() => handleSelectYear(yr.key)}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold cursor-pointer border ${
+                    activeYear.key === yr.key
+                      ? 'bg-amber-400 text-slate-950 border-amber-400'
+                      : 'bg-slate-950 text-slate-300 border-slate-800 hover:text-white'
+                  }`}
+                >
+                  {yr.shortLabel}
+                </button>
+              ))}
+            </div>
+
+            {/* Shift Picker */}
+            <div className="pt-2 border-t border-slate-800/80 space-y-1.5">
+              <label className="block text-[11px] font-bold text-slate-400">
+                3. Select Official Shift ({shiftsList.length} Available):
+              </label>
+              <select
+                value={selectedTest?.id || ''}
+                onChange={(e) => setSelectedTestId(e.target.value)}
+                className="w-full px-3 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-xs font-bold text-white focus:outline-none focus:border-teal-400 cursor-pointer"
+              >
+                {shiftsList.map((t) => {
+                  const st = getTestAccess ? getTestAccess(t) : 'open';
+                  const tag = st === 'open' ? '✅ UNLOCKED' : st === 'login_required' ? '🔐 LOGIN FREE' : '👑 PASS PRO';
+                  return (
+                    <option key={t.id} value={t.id} className="bg-slate-900">
+                      {tag} — {t.title} ({t.totalQuestions} Qs)
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+          </div>
+
+          {/* PDF Language & Layout Options */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
+              <div className="text-[11px] font-bold text-slate-400 flex items-center gap-1.5">
+                <Globe className="w-3.5 h-3.5 text-teal-400" />
+                <span>PDF Language Mode</span>
+              </div>
+              <div className="grid grid-cols-3 gap-1.5">
+                {[
+                  { key: 'bilingual', label: 'EN + हिंदी' },
+                  { key: 'hi', label: 'हिंदी Only' },
+                  { key: 'en', label: 'English' },
+                ].map((l) => (
+                  <button
+                    key={l.key}
+                    type="button"
+                    onClick={() => setLangMode(l.key)}
+                    className={`py-2 rounded-lg text-[11px] font-bold cursor-pointer border ${
+                      langMode === l.key
+                        ? 'bg-teal-500 text-slate-950 border-teal-500'
+                        : 'bg-slate-950 border-slate-800 text-slate-300'
                     }`}
                   >
-                    <div className="flex items-start gap-3">
-                      <div className={`w-8 h-8 rounded-xl flex items-center justify-center shrink-0 mt-0.5 ${
-                        selectedBundle === b.id ? 'bg-teal-500 text-slate-950' : 'bg-slate-800 text-slate-400'
-                      }`}>
-                        <FileText className="w-4 h-4" />
-                      </div>
-                      <div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-xs font-bold text-white">{b.title}</span>
-                          <span className="text-[10px] font-black uppercase px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300">
-                            {b.badge}
-                          </span>
-                        </div>
-                        <div className="text-[11px] text-slate-400 mt-0.5">{b.pages} • Printable A4 PDF</div>
-                      </div>
-                    </div>
-                    <div className="text-right shrink-0">
-                      <div className="text-base font-black text-teal-400">₹{b.price}</div>
-                    </div>
-                  </div>
+                    {l.label}
+                  </button>
                 ))}
               </div>
+            </div>
 
-              {/* Payment Section */}
-              <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800 space-y-3">
-                <div className="flex items-center justify-between text-xs">
-                  <span className="text-slate-400">Selected Product:</span>
-                  <span className="font-bold text-white truncate max-w-[200px]">{currentBundle.title}</span>
-                </div>
-                <div className="flex items-center justify-between text-xs pt-1 border-t border-slate-900">
-                  <span className="text-slate-400">Total Payable:</span>
-                  <span className="text-lg font-black text-amber-400">₹{currentBundle.price}</span>
-                </div>
-
-                {/* QR Code and UPI ID */}
-                <div className="pt-2">
-                  <div className="flex items-center justify-between p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
-                    <div>
-                      <div className="text-[10px] text-slate-400">UPI ID for Payment</div>
-                      <div className="font-mono text-teal-300 font-bold">{payments.upiId}</div>
-                    </div>
-                    <button
-                      onClick={handleCopyUPI}
-                      className="px-3 py-1.5 rounded-lg bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 border border-teal-500/40 text-xs font-bold flex items-center gap-1 cursor-pointer"
-                    >
-                      {copiedUPI ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                      <span>{copiedUPI ? 'Copied!' : 'Copy'}</span>
-                    </button>
-                  </div>
-                </div>
-
-                {/* QR toggle */}
-                <button
-                  onClick={() => setShowQR(!showQR)}
-                  className="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-850 text-slate-300 border border-slate-800 text-xs font-bold flex items-center justify-center gap-2 cursor-pointer transition-colors"
-                >
-                  <QrCode className="w-4 h-4 text-teal-400" />
-                  <span>{showQR ? 'Hide UPI QR Code' : 'Show UPI QR Code to Scan'}</span>
-                </button>
-
-                {showQR && (
-                  <div className="p-4 rounded-xl bg-white text-slate-950 text-center animate-in fade-in max-w-xs mx-auto">
-                    <img 
-                      src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=upi://pay?pa=${payments.upiId}&pn=${encodeURIComponent(payments.payeeName)}&am=${currentBundle.price}&cu=INR`}
-                      alt="UPI QR Code" 
-                      className="w-44 h-44 mx-auto"
-                    />
-                    <div className="text-[11px] font-bold mt-2">
-                      Scan with GPay / PhonePe / Paytm / BHIM
-                    </div>
-                    <div className="text-[10px] text-slate-600">Amount: ₹{currentBundle.price}</div>
-                  </div>
-                )}
-
-                {/* UTR Verification form */}
-                <form onSubmit={handleVerifyPayment} className="pt-2 border-t border-slate-900 flex gap-2">
-                  <input
-                    type="text"
-                    value={utrInput}
-                    onChange={(e) => setUtrInput(e.target.value)}
-                    placeholder="Enter 12-digit UTR / Ref No."
-                    className="flex-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-teal-500"
-                  />
-                  <button
-                    type="submit"
-                    className="px-4 py-2 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs shrink-0 cursor-pointer transition-colors"
-                  >
-                    Unlock
-                  </button>
-                </form>
-                <div className="text-[10px] text-slate-500 text-center">
-                  *After UPI payment, enter the 12-digit UTR number from your payment app to unlock instantly.
-                </div>
+            <div className="p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
+              <div className="text-[11px] font-bold text-slate-400 flex items-center gap-1.5">
+                <BookOpen className="w-3.5 h-3.5 text-amber-400" />
+                <span>Paper Format</span>
               </div>
-            </>
+              <div className="grid grid-cols-2 gap-1.5">
+                {[
+                  { key: 'solved', label: 'Solved + Solutions' },
+                  { key: 'practice', label: 'Practice + Key' },
+                ].map((m) => (
+                  <button
+                    key={m.key}
+                    type="button"
+                    onClick={() => setLayoutMode(m.key)}
+                    className={`py-2 rounded-lg text-[11px] font-bold cursor-pointer border ${
+                      layoutMode === m.key
+                        ? 'bg-amber-400 text-slate-950 border-amber-400'
+                        : 'bg-slate-950 border-slate-800 text-slate-300'
+                    }`}
+                  >
+                    {m.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Selected Shift Summary & Action Buttons */}
+          {selectedTest && (
+            <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800 space-y-3">
+              <div className="flex items-start justify-between gap-2">
+                <div>
+                  <div className="text-xs font-black text-white">{selectedTest.title}</div>
+                  <div className="text-[11px] text-slate-400 mt-0.5">
+                    Includes diagrams, tables, highlighted official keys & bilingual solutions.
+                  </div>
+                </div>
+                {accessStatus === 'open' && (
+                  <span className="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[10px] font-black shrink-0 flex items-center gap-1">
+                    <CheckCircle2 className="w-3 h-3" /> READY
+                  </span>
+                )}
+              </div>
+
+              {accessStatus === 'open' ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
+                  <button
+                    type="button"
+                    disabled={generating}
+                    onClick={() => handleExportPdf('print')}
+                    className="py-3 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-400 hover:to-emerald-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg cursor-pointer disabled:opacity-60"
+                  >
+                    <Printer className="w-4 h-4" />
+                    <span>{generating ? 'Preparing PDF...' : 'Save A4 PDF / Print'}</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    disabled={generating}
+                    onClick={() => handleExportPdf('offline')}
+                    className="py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-teal-300 border border-teal-500/40 font-bold text-xs flex items-center justify-center gap-2 cursor-pointer disabled:opacity-60"
+                  >
+                    <Download className="w-4 h-4" />
+                    <span>Download Offline Sheet</span>
+                  </button>
+                </div>
+              ) : accessStatus === 'login_required' ? (
+                <button
+                  type="button"
+                  onClick={() => handleExportPdf('print')}
+                  className="w-full py-3 rounded-xl bg-gradient-to-r from-teal-500/20 to-emerald-500/20 hover:from-teal-500 hover:to-emerald-500 text-teal-300 hover:text-slate-950 border border-teal-500/50 font-black text-xs flex items-center justify-center gap-2 cursor-pointer transition-all"
+                >
+                  <LogIn className="w-4 h-4" />
+                  <span>Free Login to Unlock Shifts 2–3 PDFs</span>
+                </button>
+              ) : (
+                <div className="space-y-2.5 pt-1">
+                  <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-[11px] text-amber-200">
+                    Shift 1 har exam ka PDF **100% Free** hai! Is Shift ka Solved PDF (aur sabhi 99 Official Shift PDFs + Tests) unlock karne ke liye **Pass Pro (₹49)** ya **4 Verified Referrals** complete karein.
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => onOpenPassPro && onOpenPassPro()}
+                    className="w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg cursor-pointer"
+                  >
+                    <Crown className="w-4 h-4 fill-slate-950" />
+                    <span>Unlock All 99 Shift PDFs + Pass Pro (₹49 / Free Refer)</span>
+                  </button>
+                </div>
+              )}
+            </div>
           )}
 
+          {!hasPassPro && (
+            <div className="text-[11px] text-slate-400 text-center">
+              Tip: Free demo check karne ke liye kisi bhi exam ka <b className="text-emerald-400">Shift 1</b> select karke PDF download karke dekhein!
+              {!user && ' (Login par Shifts 2 & 3 bhi free milte hain)'}
+            </div>
+          )}
         </div>
-
       </div>
     </div>
   );

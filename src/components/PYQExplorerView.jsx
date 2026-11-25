@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import {
   Search, Zap, Filter, Globe, BookOpen, Lock, Check, X,
   ChevronLeft, ChevronRight, Sparkles, Layers, Eye, EyeOff, RotateCcw,
-  Star, FolderTree, Flag, CheckCircle2
+  Star, FolderTree, Flag, CheckCircle2, Printer
 } from 'lucide-react';
 import QuestionContentRenderer from './QuestionContentRenderer';
 import { loadTestQuestions } from '../data/testQuestionLoader';
@@ -13,6 +13,7 @@ import {
   getPyqCorrectIndex,
   buildCustomTopicQuiz,
 } from '../utils/pyqHelper';
+import { renderPrintableShiftWindow } from '../utils/shiftPdfGenerator';
 import {
   loadPyqProgress,
   savePyqAttempt,
@@ -295,6 +296,34 @@ export default function PYQExplorerView({
     onStartTopicQuiz(customQuiz);
   };
 
+  const handleExportChapterPdf = () => {
+    if (filteredQuestions.length === 0) return;
+    const picked = filteredQuestions.slice(0, 50).map((q, idx) => ({
+      ...q,
+      id: idx + 1,
+      shiftQuestionNo: idx + 1,
+    }));
+    const chapterHeading =
+      selectedTopic !== 'All'
+        ? selectedTopic
+        : selectedChapter !== 'All'
+        ? selectedChapter
+        : selectedSubject !== 'All'
+        ? selectedSubject
+        : `${activeExam.shortLabel} (${activeYear.shortLabel})`;
+    renderPrintableShiftWindow(
+      {
+        id: `pyq_${activeYear.key}_${chapterHeading}`,
+        title: `Chapter PYQ Solved PDF: ${chapterHeading} (${picked.length} Qs)`,
+        subTitle: `${activeExam.label} • ${activeYear.label} • Curated Bilingual PYQs`,
+        maxMarks: picked.length,
+        shiftTime: `${picked.length} Questions`,
+        questions: picked,
+      },
+      { langMode: lang === 'hi' ? 'bilingual' : 'en', layoutMode: 'solved' }
+    );
+  };
+
   const handlePickOption = (q, optIdx) => {
     const correctIdx = getPyqCorrectIndex(q, lang);
     const updated = savePyqAttempt(q._uid, optIdx, optIdx === correctIdx);
@@ -355,6 +384,15 @@ export default function PYQExplorerView({
               <span>
                 Start {quizSize === 'all' ? Math.min(50, filteredQuestions.length) : Math.min(quizSize, filteredQuestions.length || quizSize)}-Q Topic CBT Quiz
               </span>
+            </button>
+            <button
+              type="button"
+              disabled={filteredQuestions.length === 0 || loadingPack}
+              onClick={handleExportChapterPdf}
+              className="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-teal-300 border border-teal-500/40 font-bold text-xs flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 transition-all"
+            >
+              <Printer className="w-3.5 h-3.5" />
+              <span>Export Chapter PDF (Up to 50 Qs)</span>
             </button>
           </div>
         </div>

@@ -12,6 +12,7 @@ import ExpectedCutoffCard from './ExpectedCutoffCard';
 import ShiftLeaderboardTab from './ShiftLeaderboardTab';
 import ShareScoreCardModal from './ShareScoreCardModal';
 import { getCutoffBenchmark, evaluateCutoffStatus } from '../utils/cutoffCalculator';
+import { renderPrintableShiftWindow } from '../utils/shiftPdfGenerator';
 import { supabase } from '../lib/supabaseClient';
 
 export default function TestResultModal({
@@ -226,12 +227,17 @@ export default function TestResultModal({
               <span>Share Score Card</span>
             </button>
             <button
-              onClick={() => window.print()}
+              onClick={() =>
+                renderPrintableShiftWindow(test, {
+                  langMode: reviewLang === 'hi' ? 'bilingual' : 'en',
+                  layoutMode: 'solved',
+                })
+              }
               className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-teal-300 text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer border border-slate-700"
-              title="Print or Save PDF Scorecard"
+              title="Generate A4 Bilingual Solved Paper PDF"
             >
               <Printer className="w-3.5 h-3.5" />
-              <span>Print PDF</span>
+              <span>Solved Paper PDF</span>
             </button>
             {onOpenMistakes && (
               <button
