@@ -7,6 +7,7 @@
 import { renderCh3TissueDiagramSvg } from './ch3TissueDiagrams.js';
 import { renderCh4MotionDiagramSvg } from './ch4MotionDiagrams.js';
 import { renderCh7WorkDiagramSvg } from './ch7WorkDiagrams.js';
+import { renderCh8AtomDiagramSvg } from './ch8AtomDiagrams.js';
 
 function esc(s) {
   return String(s ?? '')
@@ -394,6 +395,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
 
   const ch7Svg = renderCh7WorkDiagramSvg(key, { lang, theme });
   if (ch7Svg) return ch7Svg;
+
+  const ch8Svg = renderCh8AtomDiagramSvg(key, { lang, theme });
+  if (ch8Svg) return ch8Svg;
 
   return '';
 }
