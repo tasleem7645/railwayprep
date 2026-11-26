@@ -1,10 +1,13 @@
 /**
- * Luxury A4 Coaching E-Book Print & Offline HTML Generator for NCERT Pro Notes.
- * Solves all raw-DOM print glitches: uses pure pitch-black ink on crisp white A4 pages,
- * light-adapted inline vector flowcharts, embedded PD microscopy photos, highlighted keywords,
- * zero website chrome/navbars, and supports Hindi / English / Bilingual export modes.
+ * RailwayPrep PRO — Printable A4 Coaching Booklet Generator for NCERT Science Notes.
+ * Preserves clean 1-column A4 e-book card layout while adding:
+ * - Repeating top brand header & bottom brand footer on every printed page (Logo + RailwayPrep PRO)
+ * - Subtle centered diagonal brand watermark across printed PDF pages
+ * - Full light-mode labeled Vector SVG Diagrams & Venn charts inside every concept block
+ * - Professional classroom coaching labels, inline English science terms & zero 3rd-party mentions
  */
 import { parseMathSegments } from './mathParser.js';
+import { renderNcertDiagramSvg } from '../data/ncert/diagrams/chapterVectorDiagrams.js';
 
 function escapeHtml(str) {
   return String(str ?? '')
@@ -15,9 +18,14 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
+function renderMathHtml(text) {
+  return parseMathSegments(text)
+    .map((seg) => (seg.type === 'text' ? escapeHtml(seg.val) : seg.html))
+    .join('');
+}
+
 function formatRichTextHtml(raw) {
   const str = String(raw ?? '');
-  // Split around ==highlight==, **bold**, and `code`, then apply KaTeX per slice
   const tokens = str.split(/(==[^=]+==|\*\*[^*]+\*\*|`[^`]+`)/g);
   return tokens
     .map((tok) => {
@@ -35,12 +43,6 @@ function formatRichTextHtml(raw) {
     })
     .join('')
     .replace(/\n/g, '<br/>');
-}
-
-function renderMathHtml(text) {
-  return parseMathSegments(text)
-    .map((seg) => (seg.type === 'text' ? escapeHtml(seg.val) : seg.html))
-    .join('');
 }
 
 function getBi(obj, langMode) {
@@ -61,109 +63,37 @@ function renderSingleText(obj, langMode) {
   return formatRichTextHtml(obj[langMode] || obj.hi || obj.en || '');
 }
 
-function buildLightFlowSvg(flowKey, langMode) {
-  const hi = langMode !== 'en';
-  if (flowKey === 'org-hierarchy') {
-    return `
-      <svg viewBox="0 0 640 96" class="flow-svg">
-        <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 1 L 10 5 L 0 9 z" fill="#0d9488"/></marker></defs>
-        ${[
-          { x: 10, t: hi ? 'कोशिका (Cell)' : '1. Cell', c: '#dcfce7', b: '#16a34a' },
-          { x: 138, t: hi ? 'ऊतक (Tissue)' : '2. Tissue', c: '#e0f2fe', b: '#0284c7' },
-          { x: 266, t: hi ? 'अंग (Organ)' : '3. Organ', c: '#fef3c7', b: '#d97706' },
-          { x: 394, t: hi ? 'अंग-तंत्र (System)' : '4. System', c: '#f3e8ff', b: '#9333ea' },
-          { x: 522, t: hi ? 'जीव (Organism)' : '5. Organism', c: '#ffe4e6', b: '#e11d48' },
-        ]
-          .map(
-            (n, i) => `
-          <rect x="${n.x}" y="22" width="108" height="44" rx="8" fill="${n.c}" stroke="${n.b}" stroke-width="1.8"/>
-          <text x="${n.x + 54}" y="49" text-anchor="middle" font-size="11" font-weight="800" fill="#0f172a">${n.t}</text>
-          ${i < 4 ? `<line x1="${n.x + 110}" y1="44" x2="${n.x + 125}" y2="44" stroke="#0d9488" stroke-width="2" marker-end="url(#arr)"/>` : ''}
-        `
-          )
-          .join('')}
-      </svg>`;
-  }
-  if (flowKey === 'cell-wall-permeability') {
-    return `
-      <svg viewBox="0 0 640 105" class="flow-svg">
-        <rect x="14" y="12" width="295" height="82" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.8"/>
-        <text x="160" y="34" text-anchor="middle" font-size="12" font-weight="800" fill="#065f46">${hi ? 'कोशिका भित्ति (Cell Wall)' : 'Cell Wall (Plants/Fungi/Bacteria)'}</text>
-        <text x="160" y="54" text-anchor="middle" font-size="11" fill="#0f172a">${hi ? 'पूर्ण पारगम्य (जल व खनिज सभी पार)' : 'Freely Permeable • Rigid Armor'}</text>
-        <text x="160" y="74" text-anchor="middle" font-size="10.5" font-weight="700" fill="#047857">${hi ? 'पदार्थ: सेल्युलोस (पादप) | काइटिन (कवक)' : 'Material: Cellulose (Plant) | Chitin (Fungi)'}</text>
-
-        <rect x="331" y="12" width="295" height="82" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
-        <text x="478" y="34" text-anchor="middle" font-size="12" font-weight="800" fill="#1e3a8a">${hi ? 'प्लाज्मा झिल्ली (Cell Membrane)' : 'Plasma Membrane (ALL Cells)'}</text>
-        <text x="478" y="54" text-anchor="middle" font-size="11" fill="#0f172a">${hi ? 'वरणात्मक / चुनिंदा पारगम्य (7–10 nm)' : 'Selectively Permeable (7–10 nm)'}</text>
-        <text x="478" y="74" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1d4ed8">${hi ? 'पदार्थ: लिपिड + प्रोटीन (Fluid-Mosaic)' : 'Material: Lipid Bilayer + Protein Gatekeepers'}</text>
-      </svg>`;
-  }
-  if (flowKey === 'endomembrane-highway') {
-    return `
-      <svg viewBox="0 0 640 100" class="flow-svg">
-        <defs><marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 1 L 10 5 L 0 9 z" fill="#4f46e5"/></marker></defs>
-        ${[
-          { x: 10, t1: hi ? 'केंद्रक (DNA)' : 'Nucleus (DNA)', t2: hi ? 'मुख्य आदेश' : 'Master Code', c: '#f3e8ff', b: '#9333ea' },
-          { x: 165, t1: hi ? 'RER + SER' : 'RER & SER', t2: hi ? 'प्रोटीन + वसा निर्माण' : 'Protein + Lipid', c: '#ffedd5', b: '#ea580c' },
-          { x: 325, t1: hi ? 'गॉल्जीकाय (1898)' : 'Golgi Apparatus', t2: hi ? 'डाकघर पैकिंग' : 'Post Office Pack', c: '#fce7f3', b: '#db2777' },
-          { x: 485, t1: hi ? 'लाइसोसोम / झिल्ली' : 'Lysosome / Exit', t2: hi ? 'सफाई या स्रवण' : 'Digestion / Ship', c: '#fee2e2', b: '#dc2626' },
-        ]
-          .map(
-            (b, i) => `
-          <rect x="${b.x}" y="18" width="142" height="62" rx="9" fill="${b.c}" stroke="${b.b}" stroke-width="1.8"/>
-          <text x="${b.x + 71}" y="42" text-anchor="middle" font-size="11.5" font-weight="800" fill="#0f172a">${b.t1}</text>
-          <text x="${b.x + 71}" y="62" text-anchor="middle" font-size="10.5" fill="#334155">${b.t2}</text>
-          ${i < 3 ? `<line x1="${b.x + 143}" y1="49" x2="${b.x + 153}" y2="49" stroke="#4f46e5" stroke-width="2" marker-end="url(#arr2)"/>` : ''}
-        `
-          )
-          .join('')}
-      </svg>`;
-  }
-  if (flowKey === 'mito-plastid-power') {
-    return `
-      <svg viewBox="0 0 640 104" class="flow-svg">
-        <rect x="12" y="10" width="300" height="84" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.8"/>
-        <text x="162" y="32" text-anchor="middle" font-size="12" font-weight="800" fill="#9a3412">${hi ? '⚡ माइटोकॉन्ड्रिया (Own DNA + 70S)' : '⚡ Mitochondria (Own DNA + 70S)'}</text>
-        <text x="162" y="52" text-anchor="middle" font-size="10.8" fill="#0f172a">${hi ? 'ग्लूकोस -> श्वसन (Cristae) -> ATP ऊर्जा' : 'Glucose -> Respiration (Cristae) -> ATP Energy'}</text>
-        <text x="162" y="72" text-anchor="middle" font-size="10.5" font-weight="700" fill="#c2410c">${hi ? 'पादप व जंतु दोनों में' : 'Present in Plants & Animals'}</text>
-
-        <rect x="328" y="10" width="300" height="84" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
-        <text x="478" y="32" text-anchor="middle" font-size="12" font-weight="800" fill="#14532d">${hi ? '🌿 लवक / Plastids (Own DNA + 70S)' : '🌿 3 Plastids (Plants Only • Own DNA)'}</text>
-        <text x="478" y="52" text-anchor="middle" font-size="10.8" fill="#0f172a">${hi ? 'हरितलवक (भोजन) | वर्णीलवक (फूल/फल रंग)' : 'Chloro (Food) | Chromo (Flowers/Fruit)'}</text>
-        <text x="478" y="72" text-anchor="middle" font-size="10.5" font-weight="700" fill="#15803d">${hi ? 'अवर्णी लवक (आलू/अरबी गोदाम)' : 'Leucoplast (Colourless Starch/Oil Vault)'}</text>
-      </svg>`;
-  }
-  if (flowKey === 'cell-theory-cancer-pcd') {
-    return `
-      <svg viewBox="0 0 640 96" class="flow-svg">
-        <rect x="12" y="12" width="300" height="72" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
-        <text x="162" y="34" text-anchor="middle" font-size="11.5" font-weight="800" fill="#065f46">${hi ? '✅ सामान्य कोशिका (Normal Cell)' : '✅ Normal Healthy Cell'}</text>
-        <text x="162" y="54" text-anchor="middle" font-size="10.5" fill="#0f172a">${hi ? 'संपर्क अवरोध ✓ + प्रोग्राम्ड डेथ (PCD ✓)' : 'Contact Inhibition ✓ + Programmed Death (PCD) ✓'}</text>
-        <text x="162" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#047857">${hi ? 'भ्रूण में अँगुलियाँ अलग करने में सहायक!' : 'Prevents webbed fingers & uncontrolled tumours'}</text>
-
-        <rect x="328" y="12" width="300" height="72" rx="10" fill="#fff1f2" stroke="#e11d48" stroke-width="1.8"/>
-        <text x="478" y="34" text-anchor="middle" font-size="11.5" font-weight="800" fill="#9f1239">${hi ? '⚠️ कैंसर कोशिका (Cancer Cell)' : '⚠️ Cancer / Tumour Cell'}</text>
-        <text x="478" y="54" text-anchor="middle" font-size="10.5" fill="#0f172a">${hi ? 'नियंत्रण खत्म -> अनियंत्रित विभाजन' : 'Loses Contact Inhibition -> Uncontrolled Division'}</text>
-        <text x="478" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#be123c">${hi ? 'सुदम्य (स्थिर) या दुर्दम (फैलने वाला) अर्बुद' : 'Forms Benign or Malignant Spreading Tumours'}</text>
-      </svg>`;
-  }
-  return '';
-}
-
 export function buildPrintableNcertBookHtml(chapterData, options = {}) {
   const {
     langMode = 'hi', // 'hi' | 'en' | 'bilingual'
     origin = typeof window !== 'undefined' ? window.location.origin : 'https://railwayprep.com',
   } = options;
 
+  const svgLang = langMode === 'en' ? 'en' : 'hi';
   const pyqMap = new Map((chapterData.pyqBank || []).map((q) => [q.id, q]));
-  const docTitle = `RailwayPrep_NCERT_Class9_Ch2_Cell_${langMode.toUpperCase()}_Notes`;
+  const docTitle = `RailwayPrep_PRO_${chapterData.id}_${langMode.toUpperCase()}_Notes`;
+  const cleanHost = escapeHtml(origin.replace(/^https?:\/\//, ''));
+  const chapterShortTitle = escapeHtml(
+    chapterData.title?.[svgLang] || chapterData.title?.en || chapterData.id
+  );
+
+  const blueprintSvg = chapterData.blueprintSvgKey
+    ? `<div class="svg-wrap">${renderNcertDiagramSvg(chapterData.blueprintSvgKey, { lang: svgLang, theme: 'light' })}</div>`
+    : '';
 
   const secHtml = (chapterData.sections || [])
     .map((sec) => {
-      const flowSvg = sec.flowDiagramKey ? buildLightFlowSvg(sec.flowDiagramKey, langMode) : '';
+      const flowSvg = sec.flowDiagramKey
+        ? `<div class="svg-wrap">${renderNcertDiagramSvg(sec.flowDiagramKey, { lang: svgLang, theme: 'light' })}</div>`
+        : '';
+
       const blocksHtml = (sec.blocks || [])
         .map((blk) => {
+          const conceptBody = blk.conceptStory || blk.desiIntuition;
+          const blkSvg = blk.diagramKey
+            ? `<div class="svg-wrap">${renderNcertDiagramSvg(blk.diagramKey, { lang: svgLang, theme: 'light' })}</div>`
+            : '';
+
           const pyqsHtml = (blk.inlinePyqIds || [])
             .map((pid) => pyqMap.get(pid))
             .filter(Boolean)
@@ -182,8 +112,8 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
 
           const realImgHtml = blk.realImage
             ? `<div class="img-strip">
-                <figure><img src="${origin}${blk.realImage.url}" alt="Figure" /></figure>
-                ${blk.realImage.secondaryUrl ? `<figure><img src="${origin}${blk.realImage.secondaryUrl}" alt="Figure 2" /></figure>` : ''}
+                <figure><img src="${escapeHtml(origin)}${blk.realImage.url}" alt="Figure" /></figure>
+                ${blk.realImage.secondaryUrl ? `<figure><img src="${escapeHtml(origin)}${blk.realImage.secondaryUrl}" alt="Figure 2" /></figure>` : ''}
                 <div class="img-cap"><strong>${renderSingleText(blk.realImage.title, langMode)}</strong><div>${renderSingleText(blk.realImage.caption, langMode)}</div></div>
               </div>`
             : '';
@@ -191,11 +121,13 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
           return `
             <div class="block-card">
               <h3>${renderSingleText(blk.heading, langMode)}</h3>
-              ${blk.desiIntuition ? `<div class="box-intuition"><span class="pill pill-green">${langMode === 'en' ? 'Simple Intuition' : 'सरल देसी समझ'}</span>${renderSingleText(blk.desiIntuition, langMode)}</div>` : ''}
+              ${conceptBody ? `<div class="box-intuition"><span class="pill pill-green">${langMode === 'en' ? 'Concept Explanation' : '📘 शिक्षक व्याख्या'}</span>${renderSingleText(conceptBody, langMode)}</div>` : ''}
               ${Array.isArray(blk.bullets) ? `<ul class="bullet-list">${blk.bullets.map((b) => `<li>${renderSingleText(b, langMode)}</li>`).join('')}</ul>` : ''}
+              ${blkSvg}
               ${realImgHtml}
-              ${blk.viralTrick ? `<div class="box-trick"><span class="pill pill-amber">${langMode === 'en' ? '💡 Viral Memory Hack' : '💡 याद रखने की ट्रिक'}</span>${renderSingleText(blk.viralTrick, langMode)}</div>` : ''}
-              ${blk.topperEdge ? `<div class="box-topper"><span class="pill pill-purple">${langMode === 'en' ? '⭐ Ranker NCERT+ Booster' : '⭐ टॉपर + Nirman+ बूस्टर'}</span>${renderSingleText(blk.topperEdge, langMode)}</div>` : ''}
+              ${blk.viralTrick ? `<div class="box-trick"><span class="pill pill-amber">${langMode === 'en' ? '🧠 Memory Key / Mnemonic' : '🧠 परीक्षा स्मृति सूत्र'}</span>${renderSingleText(blk.viralTrick, langMode)}</div>` : ''}
+              ${blk.topperEdge ? `<div class="box-topper"><span class="pill pill-purple">${langMode === 'en' ? '🎯 NCERT+ CBT Exam Edge' : '🎯 NCERT+ एवं CBT उच्च बिंदु'}</span>${renderSingleText(blk.topperEdge, langMode)}</div>` : ''}
+              ${blk.trapAlert ? `<div class="box-trap"><span class="pill pill-rose">${langMode === 'en' ? '⚠️ Exam Trap (-0.33)' : '⚠️ -0.33 Trap Alert'}</span>${renderSingleText(blk.trapAlert, langMode)}</div>` : ''}
               ${pyqsHtml}
             </div>`;
         })
@@ -213,6 +145,26 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
     })
     .join('');
 
+  const confusionHtml = Array.isArray(chapterData.confusionBreakers) && chapterData.confusionBreakers.length > 0
+    ? `<section class="chapter-sec">
+        <div class="sec-head"><span class="sec-num">VS</span><h2>${langMode === 'en' ? 'High-Frequency Confusion Breakers (Save -0.33 Marks)' : 'अक्सर गलत होने वाले तुलनात्मक युग्म (-0.33 Marks बचाएं)'}</h2></div>
+        <div class="block-card">
+          <div class="cheat-grid">
+            ${chapterData.confusionBreakers
+              .map(
+                (cb) => `
+              <div class="cheat-item">
+                <div style="font-weight:800;color:#9f1239;margin-bottom:3px">${renderSingleText(cb.pair, langMode)}</div>
+                <div><strong>1)</strong> ${renderSingleText(cb.left, langMode)}</div>
+                <div style="margin-top:2px"><strong>2)</strong> ${renderSingleText(cb.right, langMode)}</div>
+              </div>`
+              )
+              .join('')}
+          </div>
+        </div>
+      </section>`
+    : '';
+
   const tablesHtml = (chapterData.tables || [])
     .map(
       (tbl) => `
@@ -228,37 +180,58 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
     )
     .join('');
 
-  const activitiesHtml = `
-    <section class="chapter-sec">
-      <div class="sec-head"><span class="sec-num">LAB</span><h2>${langMode === 'en' ? 'All 5 NCERT Activities Summary' : 'सभी 5 NCERT क्रियाकलाप (प्रयोग सारांश)'}</h2></div>
-      ${(chapterData.activities || [])
-        .map(
-          (a) => `
-        <div class="block-card">
-          <h3>Activity ${a.num}: ${renderSingleText(a.title, langMode)}</h3>
-          <div class="act-meta"><strong>Materials:</strong> ${renderSingleText(a.materials, langMode)}</div>
-          <div class="act-steps">${renderSingleText(a.steps, langMode)}</div>
-          <div class="box-intuition"><span class="pill pill-green">🎯 Exam Takeaway</span>${renderSingleText(a.examTakeaway, langMode)}</div>
-        </div>`
-        )
-        .join('')}
-    </section>`;
-
-  const exercisesHtml = `
-    <section class="chapter-sec">
-      <div class="sec-head"><span class="sec-num">EX</span><h2>${langMode === 'en' ? 'NCERT In-Text & All 16 Exercises Solved' : 'पाठ्यपुस्तक के प्रश्न एवं सभी 16 अभ्यास हल'}</h2></div>
-      <div class="block-card">
-        ${(chapterData.exercises || [])
+  const actCount = (chapterData.activities || []).length;
+  const activitiesHtml = actCount > 0
+    ? `<section class="chapter-sec">
+        <div class="sec-head"><span class="sec-num">LAB</span><h2>${langMode === 'en' ? `All ${actCount} NCERT Activities Summary` : `सभी ${actCount} NCERT क्रियाकलाप (प्रयोग सारांश)`}</h2></div>
+        ${chapterData.activities
           .map(
-            (ex) => `
-          <div class="ex-row">
-            <div class="ex-q"><strong>Q${ex.num}.</strong> ${renderSingleText(ex.q, langMode)}</div>
-            <div class="ex-a"><strong>Ans:</strong> ${renderSingleText(ex.a, langMode)}</div>
+            (a) => `
+          <div class="block-card">
+            <h3>Activity ${a.num}: ${renderSingleText(a.title, langMode)}</h3>
+            <div class="act-meta"><strong>Materials:</strong> ${renderSingleText(a.materials, langMode)}</div>
+            <div class="act-steps">${renderSingleText(a.steps, langMode)}</div>
+            <div class="box-intuition"><span class="pill pill-green">🎯 Exam Takeaway</span>${renderSingleText(a.examTakeaway, langMode)}</div>
           </div>`
           )
           .join('')}
-      </div>
-    </section>`;
+      </section>`
+    : '';
+
+  const inTextHtml = Array.isArray(chapterData.inTextQuestions) && chapterData.inTextQuestions.length > 0
+    ? `<section class="chapter-sec">
+        <div class="sec-head"><span class="sec-num">IN</span><h2>${langMode === 'en' ? 'NCERT In-Text Think & Answer Solutions' : 'पाठ्यपुस्तक "सोचिए और बताइए" संपूर्ण हल'}</h2></div>
+        <div class="block-card">
+          ${chapterData.inTextQuestions
+            .map(
+              (item) => `
+            <div class="ex-row">
+              <div class="ex-q"><strong>[${escapeHtml(item.num)}]</strong> ${renderSingleText(item.q, langMode)}</div>
+              <div class="ex-a"><strong>Ans:</strong> ${renderSingleText(item.a, langMode)}</div>
+            </div>`
+            )
+            .join('')}
+        </div>
+      </section>`
+    : '';
+
+  const exCount = (chapterData.exercises || []).length;
+  const exercisesHtml = exCount > 0
+    ? `<section class="chapter-sec">
+        <div class="sec-head"><span class="sec-num">EX</span><h2>${langMode === 'en' ? `Complete ${exCount} NCERT Solved Exercises` : `सभी ${exCount} NCERT अभ्यास प्रश्न हल`}</h2></div>
+        <div class="block-card">
+          ${chapterData.exercises
+            .map(
+              (ex) => `
+            <div class="ex-row">
+              <div class="ex-q"><strong>Q${ex.num}.</strong> ${renderSingleText(ex.q, langMode)}</div>
+              <div class="ex-a"><strong>Ans:</strong> ${renderSingleText(ex.a, langMode)}</div>
+            </div>`
+            )
+            .join('')}
+        </div>
+      </section>`
+    : '';
 
   return `<!DOCTYPE html>
 <html lang="${langMode === 'en' ? 'en' : 'hi'}">
@@ -267,7 +240,7 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
   <title>${escapeHtml(docTitle)}</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css" />
   <style>
-    @page { size: A4 portrait; margin: 12mm 12mm 14mm; }
+    @page { size: A4 portrait; margin: 11mm 11mm 13mm; }
     * { box-sizing: border-box; }
     body {
       margin: 0;
@@ -276,7 +249,7 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
       color: #0f172a;
       font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
       font-size: 13px;
-      line-height: 1.55;
+      line-height: 1.56;
       -webkit-print-color-adjust: exact !important;
       print-color-adjust: exact !important;
     }
@@ -292,6 +265,37 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
       color: #042f2e; font-weight: 900; font-size: 13px;
       border: none; padding: 9px 18px; border-radius: 10px; cursor: pointer;
     }
+    .pdf-watermark {
+      display: none;
+    }
+    .print-shell {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .print-shell > thead,
+    .print-shell > tfoot {
+      display: none;
+    }
+    .running-bar {
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      border-bottom: 1.5px solid #cbd5e1;
+      padding: 4px 2px 6px;
+      margin-bottom: 8px;
+      font-size: 10.5px; font-weight: 800; color: #334155;
+    }
+    .running-brand {
+      display: flex; align-items: center; gap: 6px; color: #0f172a; font-weight: 900;
+    }
+    .running-brand img {
+      width: 18px; height: 18px; border-radius: 4px; object-fit: cover;
+    }
+    .running-foot {
+      display: flex; align-items: center; justify-content: space-between;
+      border-top: 1px solid #cbd5e1;
+      padding: 5px 2px 2px;
+      margin-top: 8px;
+      font-size: 10px; font-weight: 700; color: #475569;
+    }
     .book {
       max-width: 210mm;
       margin: 14px auto 32px;
@@ -299,6 +303,8 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
       padding: 16px 20px;
       border-radius: 12px;
       box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+      position: relative;
+      z-index: 1;
     }
     .cover-header {
       border: 2px solid #0d9488;
@@ -309,8 +315,8 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
       display: flex; align-items: center; justify-content: space-between; gap: 14px;
     }
     .brand { display: flex; align-items: center; gap: 10px; }
-    .brand img { width: 42px; height: 42px; border-radius: 8px; object-fit: cover; }
-    .brand-title { font-size: 15px; font-weight: 900; color: #0f172a; }
+    .brand img { width: 44px; height: 44px; border-radius: 9px; object-fit: cover; border: 1.5px solid #0d9488; }
+    .brand-title { font-size: 15.5px; font-weight: 900; color: #0f172a; }
     .brand-sub { font-size: 11px; font-weight: 700; color: #0d9488; }
     .doc-h1 { font-size: 20px; font-weight: 900; color: #0f172a; margin: 4px 0 4px; }
     .doc-sub { font-size: 12px; color: #334155; margin: 0; }
@@ -332,7 +338,7 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
     .sec-num { background: #14b8a6; color: #042f2e; font-weight: 900; font-size: 11px; padding: 2px 7px; border-radius: 5px; }
     .block-card {
       border: 1px solid #cbd5e1; border-radius: 10px;
-      padding: 10px 13px; margin-bottom: 10px; background: #ffffff;
+      padding: 10px 13px; margin-bottom: 10px; background: rgba(255,255,255,0.92);
       break-inside: avoid; page-break-inside: avoid;
     }
     .block-card h3 { margin: 0 0 7px; font-size: 14px; font-weight: 800; color: #0f766e; border-bottom: 1px dashed #cbd5e1; padding-bottom: 4px; }
@@ -345,9 +351,11 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
     .pill-green { background: #bbf7d0; color: #14532d; }
     .pill-amber { background: #fde68a; color: #78350f; }
     .pill-purple { background: #e9d5ff; color: #581c87; }
+    .pill-rose { background: #fecdd3; color: #9f1239; }
     .box-intuition { background: #ecfdf5; border-left: 3.5px solid #10b981; border-radius: 6px; padding: 7px 10px; margin: 6px 0; font-size: 12.2px; color: #064e3b; }
     .box-trick { background: #fffbeb; border-left: 3.5px solid #f59e0b; border-radius: 6px; padding: 7px 10px; margin: 6px 0; font-size: 12px; color: #78350f; }
     .box-topper { background: #faf5ff; border-left: 3.5px solid #9333ea; border-radius: 6px; padding: 7px 10px; margin: 6px 0; font-size: 12px; color: #4c1d95; }
+    .box-trap { background: #fff1f2; border-left: 3.5px solid #e11d48; border-radius: 6px; padding: 7px 10px; margin: 6px 0; font-size: 12px; color: #881337; }
     .pyq-box { background: #f8fafc; border: 1px solid #cbd5e1; border-left: 3.5px solid #0284c7; border-radius: 7px; padding: 7px 10px; margin-top: 7px; font-size: 11.8px; }
     .pyq-tag { font-size: 10px; font-weight: 900; color: #0369a1; text-transform: uppercase; margin-bottom: 2px; }
     .pyq-q { font-weight: 700; color: #0f172a; margin-bottom: 4px; }
@@ -355,7 +363,7 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
     .pyq-opt { font-size: 11px; padding: 2px 6px; border-radius: 4px; background: #fff; border: 1px solid #e2e8f0; }
     .pyq-ans { background: #dcfce7; border-color: #16a34a; font-weight: 800; color: #14532d; }
     .pyq-exp { font-size: 11px; color: #334155; }
-    .flow-svg { width: 100%; height: auto; max-height: 110px; margin: 6px 0 10px; display: block; break-inside: avoid; }
+    .svg-wrap { margin: 8px 0; break-inside: avoid; page-break-inside: avoid; }
     .img-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 8px 0; padding: 8px; border: 1px solid #e2e8f0; border-radius: 8px; background: #f8fafc; break-inside: avoid; }
     .img-strip figure { margin: 0; }
     .img-strip img { max-height: 115px; max-width: 170px; border-radius: 6px; border: 1px solid #cbd5e1; object-fit: cover; background: #fff; }
@@ -375,51 +383,113 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
       body { background: #ffffff !important; }
       .toolbar { display: none !important; }
       .book { margin: 0; padding: 0; box-shadow: none; max-width: 100%; }
+      .print-shell > thead { display: table-header-group; }
+      .print-shell > tfoot { display: table-footer-group; }
+      .pdf-watermark {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-32deg);
+        opacity: 0.055;
+        pointer-events: none;
+        z-index: 0;
+        text-align: center;
+      }
+      .pdf-watermark img { width: 96px; height: 96px; border-radius: 18px; object-fit: cover; margin-bottom: 6px; }
+      .pdf-watermark .wm-title { font-size: 36px; font-weight: 900; letter-spacing: 2px; color: #0f172a; }
+      .pdf-watermark .wm-sub { font-size: 14px; font-weight: 800; color: #0d9488; letter-spacing: 1px; }
     }
   </style>
 </head>
 <body>
   <div class="toolbar">
     <div>
-      <strong>RailwayPrep PRO • Luxury A4 Coaching Booklet Studio</strong>
-      <div style="font-size:11px;color:#cbd5e1">Tap "Save as PDF / Print" — A4 layout with high-contrast black ink & real figures!</div>
+      <strong>RailwayPrep PRO • A4 Coaching E-Book Studio</strong>
+      <div style="font-size:11px;color:#cbd5e1">Tap "Save as PDF / Print" — Branded A4 layout with repeating header, logo watermark & labeled vector plates!</div>
     </div>
     <button class="btn-print" onclick="window.print()">🖨️ Save A4 PDF / Print</button>
   </div>
 
+  <!-- Subtle Centered Diagonal Brand Watermark (repeats cleanly on every printed PDF page) -->
+  <div class="pdf-watermark" aria-hidden="true">
+    <img src="${escapeHtml(origin)}/logo.jpg" alt="" onerror="this.style.display='none'" />
+    <div class="wm-title">RailwayPrep PRO</div>
+    <div class="wm-sub">${cleanHost} • VERIFIED CBT NOTES</div>
+  </div>
+
   <main class="book">
-    <header class="cover-header">
-      <div class="brand">
-        <img src="${escapeHtml(origin)}/logo.jpg" alt="RailwayPrep PRO" onerror="this.style.display='none'" />
-        <div>
-          <div class="brand-title">RailwayPrep PRO • NCERT Science Gold Standard v2</div>
-          <div class="brand-sub">${escapeHtml(chapterData.sourceCode)} | Print Mode: ${langMode.toUpperCase()}</div>
-        </div>
-      </div>
-      <div style="text-align:right;font-size:11px;font-weight:700;color:#334155">
-        <div>${chapterData.metrics.activities} Activities • ${chapterData.metrics.exercisesSolved} Exercises</div>
-        <div>${chapterData.metrics.pyqsMatched}+ Dated RRB PYQs Included</div>
-      </div>
-    </header>
+    <table class="print-shell">
+      <thead>
+        <tr>
+          <td>
+            <div class="running-bar">
+              <div class="running-brand">
+                <img src="${escapeHtml(origin)}/logo.jpg" alt="RailwayPrep PRO" onerror="this.style.display='none'" />
+                <span>RailwayPrep PRO • Official Study Vault</span>
+              </div>
+              <span>${chapterShortTitle}</span>
+            </div>
+          </td>
+        </tr>
+      </thead>
 
-    <h1 class="doc-h1">${renderSingleText(chapterData.title, langMode)}</h1>
-    <p class="doc-sub">${renderSingleText(chapterData.subtitle, langMode)}</p>
+      <tfoot>
+        <tr>
+          <td>
+            <div class="running-foot">
+              <span>RailwayPrep PRO (${cleanHost})</span>
+              <span>NCERT Science Gold Standard • Printed Offline Study Edition</span>
+            </div>
+          </td>
+        </tr>
+      </tfoot>
 
-    <div class="cheat-box" style="margin-top:10px">
-      <div class="cheat-title">⚡ ${langMode === 'en' ? '60-Second Rapid Revision Bullets' : '60-सेकंड परीक्षा सुपर-रिवीजन'}</div>
-      <div class="cheat-grid">
-        ${(chapterData.quickRevision60Sec || []).map((b, i) => `<div class="cheat-item"><strong>${i + 1}.</strong> ${renderSingleText(b, langMode)}</div>`).join('')}
-      </div>
-    </div>
+      <tbody>
+        <tr>
+          <td>
+            <header class="cover-header">
+              <div class="brand">
+                <img src="${escapeHtml(origin)}/logo.jpg" alt="RailwayPrep PRO" onerror="this.style.display='none'" />
+                <div>
+                  <div class="brand-title">RailwayPrep PRO • NCERT Science Deep-Dive Series</div>
+                  <div class="brand-sub">${escapeHtml(chapterData.sourceCode)} | Mode: ${langMode.toUpperCase()}</div>
+                </div>
+              </div>
+              <div style="text-align:right;font-size:11px;font-weight:700;color:#334155">
+                <div>${chapterData.metrics.activities} Activities • ${chapterData.metrics.exercisesSolved} Exercises</div>
+                <div>${chapterData.metrics.pyqsMatched}+ Dated RRB PYQs Included</div>
+              </div>
+            </header>
 
-    ${secHtml}
-    ${tablesHtml}
-    ${activitiesHtml}
-    ${exercisesHtml}
+            <h1 class="doc-h1">${renderSingleText(chapterData.title, langMode)}</h1>
+            <p class="doc-sub">${renderSingleText(chapterData.subtitle, langMode)}</p>
 
-    <footer class="book-footer">
-      RailwayPrep PRO Study Vault (${escapeHtml(origin.replace(/^https?:\/\//, ''))}) • Verified 2026–27 NCERT + RRB PYQs + Interactive Labs Online.
-    </footer>
+            <div class="cheat-box" style="margin-top:10px">
+              <div class="cheat-title">⚡ ${langMode === 'en' ? '60-Second Rapid Revision Bullets' : '60-सेकंड परीक्षा सुपर-रिवीजन'}</div>
+              <div class="cheat-grid">
+                ${(chapterData.quickRevision60Sec || []).map((b, i) => `<div class="cheat-item"><strong>${i + 1}.</strong> ${renderSingleText(b, langMode)}</div>`).join('')}
+              </div>
+            </div>
+
+            ${blueprintSvg}
+            ${secHtml}
+            ${confusionHtml}
+            ${tablesHtml}
+            ${activitiesHtml}
+            ${inTextHtml}
+            ${exercisesHtml}
+
+            <footer class="book-footer">
+              RailwayPrep PRO (${cleanHost}) • Verified 2026–27 NCERT + RRB CBT PYQs + Interactive Web Labs Available Online.
+            </footer>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </main>
 </body>
 </html>`;

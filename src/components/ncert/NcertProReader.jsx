@@ -3,7 +3,7 @@ import {
   ArrowLeft, Crown, Sparkles, BookOpen, FlaskConical, Table2,
   Lightbulb, Zap, CheckCircle2, Printer, Maximize2, X,
   Award, HelpCircle, RotateCcw, ChevronDown, ChevronUp, Play, Layers, Globe,
-  GitBranch, Star
+  GitBranch, Star, AlertTriangle, BarChart3, Bookmark, Check
 } from 'lucide-react';
 import { MathText } from '../QuestionContentRenderer';
 import ProFeatureGate from './ProFeatureGate';
@@ -18,10 +18,11 @@ import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
 const REVISION_STORAGE_KEY = 'railwayprep_ncert_revised_v1';
+const MASTERY_STORAGE_KEY = 'railwayprep_ncert_mastery_v1';
 
-function loadRevisedMap() {
+function loadStorageMap(key) {
   try {
-    return JSON.parse(localStorage.getItem(REVISION_STORAGE_KEY) || '{}');
+    return JSON.parse(localStorage.getItem(key) || '{}');
   } catch {
     return {};
   }
@@ -78,7 +79,7 @@ export default function NcertProReader({
   onStartChapterQuiz,
 }) {
   const [lang, setLang] = useState('hi'); // 'hi' | 'en'
-  const [depthMode, setDepthMode] = useState('all'); // 'all' | 'easy' | 'ranker'
+  const [depthMode, setDepthMode] = useState('all'); // 'all' | 'easy' | 'ranker' | 'traps_only'
   const [activeSubTab, setActiveSubTab] = useState('all');
   const [zoomedVisual, setZoomedVisual] = useState(null);
   const [showPdfModal, setShowPdfModal] = useState(false);
@@ -86,10 +87,33 @@ export default function NcertProReader({
   const [expandedEx, setExpandedEx] = useState({});
   const [flippedCards, setFlippedCards] = useState({});
   const [pyqAnswers, setPyqAnswers] = useState({});
-  const [revisedMap, setRevisedMap] = useState(() => loadRevisedMap());
+  const [activityPredictions, setActivityPredictions] = useState({});
+  const [revisedMap, setRevisedMap] = useState(() => loadStorageMap(REVISION_STORAGE_KEY));
+  const [masteryMap, setMasteryMap] = useState(() => loadStorageMap(MASTERY_STORAGE_KEY));
 
   const pyqLookup = useMemo(() => new Map((chapterData.pyqBank || []).map((q) => [q.id, q])), [chapterData.pyqBank]);
   const isRevised = Boolean(revisedMap[chapterData.id]);
+
+  const totalBlocks = useMemo(
+    () => (chapterData.sections || []).reduce((acc, s) => acc + (s.blocks?.length || 0), 0),
+    [chapterData.sections]
+  );
+
+  const chapterMastery = masteryMap[chapterData.id] || { done: {}, pinned: {} };
+  const doneCount = Object.values(chapterMastery.done || {}).filter(Boolean).length;
+  const pinnedCount = Object.values(chapterMastery.pinned || {}).filter(Boolean).length;
+
+  const toggleBlockFlag = (blockId, field) => {
+    setMasteryMap((prev) => {
+      const cur = prev[chapterData.id] || { done: {}, pinned: {} };
+      const nextGroup = { ...(cur[field] || {}), [blockId]: !cur[field]?.[blockId] };
+      const next = { ...prev, [chapterData.id]: { ...cur, [field]: nextGroup } };
+      try {
+        localStorage.setItem(MASTERY_STORAGE_KEY, JSON.stringify(next));
+      } catch {}
+      return next;
+    });
+  };
 
   const toggleRevised = () => {
     const next = { ...revisedMap, [chapterData.id]: !isRevised };
@@ -139,7 +163,7 @@ export default function NcertProReader({
     if (!onStartChapterQuiz || !Array.isArray(chapterData.pyqBank) || chapterData.pyqBank.length === 0) return;
     const quiz = buildCustomTopicQuiz({
       examLabel: 'NCERT Pro Chapter Drill',
-      subjectLabel: 'Biology',
+      subjectLabel: chapterData.subjectLabel?.[lang] || 'General Science',
       chapterLabel: chapterData.title[lang],
       topicLabel: chapterData.title.en,
       questions: chapterData.pyqBank,
@@ -211,28 +235,44 @@ export default function NcertProReader({
           </div>
         </div>
 
-        {/* Depth Selector: Beginners vs Toppers */}
-        <div className="flex flex-wrap items-center gap-1.5 pt-1 border-t border-slate-800/80">
-          <span className="text-[11px] font-bold text-slate-400 mr-1">
-            {lang === 'hi' ? 'रीडिंग लेवल:' : 'Study Depth:'}
-          </span>
-          {[
-            { id: 'all', en: '✨ Complete (Easy + NCERT + Topper)', hi: '✨ संपूर्ण (आसान + ट्रिक्स + टॉपर बूस्टर)' },
-            { id: 'easy', en: '🟢 Beginner & Mnemonics Mode', hi: '🟢 सिर्फ आसान भाषा व ट्रिक्स (Beginners)' },
-            { id: 'ranker', en: '🔥 Ranker NCERT+ Mode', hi: '🔥 टॉपर & रेलवे NCERT+ मोड' },
-          ].map((m) => (
-            <button
-              key={m.id}
-              onClick={() => setDepthMode(m.id)}
-              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold cursor-pointer border transition-all ${
-                depthMode === m.id
-                  ? 'bg-teal-500 text-slate-950 border-teal-300'
-                  : 'bg-slate-900 text-slate-300 border-slate-800 hover:border-slate-700'
-              }`}
-            >
-              {m[lang]}
-            </button>
-          ))}
+        {/* Depth Selector & Live Topic Progress */}
+        <div className="flex flex-wrap items-center justify-between gap-2 pt-1.5 border-t border-slate-800/80">
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="text-[11px] font-bold text-slate-400 mr-1">
+              {lang === 'hi' ? 'अध्ययन मोड:' : 'Study Depth:'}
+            </span>
+            {[
+              { id: 'all', en: '✨ Complete Lecture', hi: '✨ संपूर्ण क्लास नोट्स' },
+              { id: 'easy', en: '📘 Concepts + Memory Keys', hi: '📘 शिक्षक व्याख्या + ट्रिक्स' },
+              { id: 'ranker', en: '🎯 NCERT+ CBT Ranker', hi: '🎯 उच्च-स्तरीय CBT + Traps' },
+              { id: 'traps_only', en: '⚡ Last-Night PYQ & Diagrams', hi: '⚡ लास्ट-नाइट चित्र व PYQ' },
+            ].map((m) => (
+              <button
+                key={m.id}
+                onClick={() => setDepthMode(m.id)}
+                className={`px-2.5 py-1 rounded-lg text-[11px] font-bold cursor-pointer border transition-all ${
+                  depthMode === m.id
+                    ? 'bg-teal-500 text-slate-950 border-teal-300'
+                    : 'bg-slate-900 text-slate-300 border-slate-800 hover:border-slate-700'
+                }`}
+              >
+                {m[lang]}
+              </button>
+            ))}
+          </div>
+
+          {totalBlocks > 0 && (
+            <div className="flex items-center gap-2 text-[11px] font-bold text-slate-300">
+              <span className="px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                ✓ {doneCount}/{totalBlocks} {lang === 'hi' ? 'पूर्ण' : 'Done'}
+              </span>
+              {pinnedCount > 0 && (
+                <span className="px-2 py-0.5 rounded-md bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                  ⭐ {pinnedCount} Imp
+                </span>
+              )}
+            </div>
+          )}
         </div>
       </div>
 
@@ -293,6 +333,36 @@ export default function NcertProReader({
               ))}
             </div>
           </div>
+
+          {/* Chapter Blueprint Mind-Map & RRB Sub-Topic Weightage Radar */}
+          {(chapterData.blueprintSvgKey || Array.isArray(chapterData.weightageBars)) && (
+            <div className="mt-4 space-y-3">
+              {chapterData.blueprintSvgKey && (
+                <SectionFlowDiagramSVG flowKey={chapterData.blueprintSvgKey} lang={lang} />
+              )}
+              {Array.isArray(chapterData.weightageBars) && (
+                <div className="p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-2.5">
+                  <div className="text-xs font-black text-cyan-300 flex items-center gap-1.5">
+                    <BarChart3 className="w-4 h-4" />
+                    <span>{lang === 'hi' ? 'RRB CBT परीक्षा भार विश्लेषण (पिछले प्रश्न-पत्रों पर आधारित)' : 'RRB CBT Weightage Radar (Based on Shift PYQs)'}</span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5">
+                    {chapterData.weightageBars.map((w, idx) => (
+                      <div key={idx} className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1.5">
+                        <div className="flex items-center justify-between text-xs font-bold text-white">
+                          <span className="truncate pr-2">{w.label[lang]}</span>
+                          <span className="text-teal-300 font-black shrink-0">{w.pct}%</span>
+                        </div>
+                        <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
+                          <div className="h-full rounded-full bg-gradient-to-r from-teal-400 to-emerald-400" style={{ width: `${w.pct}%` }} />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
 
@@ -300,10 +370,10 @@ export default function NcertProReader({
       <div className="flex overflow-x-auto no-scrollbar gap-2 py-1">
         {[
           { id: 'all', en: 'All Content (Complete NCERT+)', hi: 'संपूर्ण नोट्स (100% क्रमवार)' },
-          { id: 'concepts', en: 'Concepts + Diagrams + Tricks', hi: 'आसान कॉन्सेप्ट + चित्र + ट्रिक्स' },
+          { id: 'concepts', en: 'Concepts + Diagrams + Tricks', hi: 'संपूर्ण व्याख्या + चित्र + सूत्र' },
           { id: 'activities', en: `Activities (${chapterData.activities.length}) & Tables`, hi: `क्रियाकलाप (${chapterData.activities.length}) व तालिकाएँ` },
-          { id: 'visuals', en: 'Microscopy & Scientists', hi: 'असली फोटो व वैज्ञानिक' },
-          { id: 'exercises', en: 'Exercises (16) & Flashcards', hi: 'अभ्यास (16) व फ्लैशकार्ड' },
+          { id: 'visuals', en: 'Microscopy & Scientists', hi: 'असली चित्र व वैज्ञानिक' },
+          { id: 'exercises', en: `Exercises (${chapterData.exercises.length}) & Flashcards`, hi: `अभ्यास (${chapterData.exercises.length}) व फ्लैशकार्ड` },
           { id: 'pyqs', en: `All ${chapterData.pyqBank.length} RRB PYQs`, hi: `सभी ${chapterData.pyqBank.length} रेलवे PYQ` },
         ].map((tab) => (
           <button
@@ -338,101 +408,158 @@ export default function NcertProReader({
               {sec.flowDiagramKey && <SectionFlowDiagramSVG flowKey={sec.flowDiagramKey} lang={lang} />}
 
               <div className="space-y-6">
-                {sec.blocks.map((blk, bIdx) => (
-                  <div key={bIdx} className="p-4 sm:p-6 rounded-2xl bg-[#080D1B] border border-slate-800/90 space-y-4">
-                    <h3 className="text-base sm:text-lg font-black text-emerald-300 flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 shrink-0" />
-                      <span>{blk.heading[lang]}</span>
-                    </h3>
+                {sec.blocks.map((blk, bIdx) => {
+                  const blockId = `${sec.id}_${bIdx}`;
+                  const isBlkDone = Boolean(chapterMastery.done?.[blockId]);
+                  const isBlkPinned = Boolean(chapterMastery.pinned?.[blockId]);
+                  const conceptBody = blk.conceptStory || blk.desiIntuition;
 
-                    {/* Layer 1: Beginner Desi Intuition */}
-                    {blk.desiIntuition && depthMode !== 'ranker' && (
-                      <div className="p-3.5 sm:p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/35 text-[15px] sm:text-base text-emerald-100 leading-relaxed">
-                        <span className="inline-block text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 mb-1.5">
-                          {lang === 'hi' ? '🟢 आसान देसी समझ (Beginners Guide)' : '🟢 Simple Real-Life Intuition'}
-                        </span>
-                        <div>
-                          <RichHighlightText text={blk.desiIntuition[lang]} />
+                  return (
+                    <div
+                      key={bIdx}
+                      className={`p-4 sm:p-6 rounded-2xl bg-[#080D1B] border space-y-4 transition-colors ${
+                        isBlkPinned ? 'border-amber-400/50 shadow-lg shadow-amber-950/20' : 'border-slate-800/90'
+                      }`}
+                    >
+                      <div className="flex flex-wrap items-start justify-between gap-2">
+                        <h3 className="text-base sm:text-lg font-black text-emerald-300 flex items-center gap-2">
+                          <BookOpen className="w-5 h-5 shrink-0" />
+                          <span>{blk.heading[lang]}</span>
+                        </h3>
+
+                        <div className="flex items-center gap-1.5 shrink-0">
+                          <button
+                            type="button"
+                            onClick={() => toggleBlockFlag(blockId, 'pinned')}
+                            className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold border cursor-pointer ${
+                              isBlkPinned
+                                ? 'bg-amber-500/20 border-amber-400 text-amber-300'
+                                : 'bg-slate-900 border-slate-700 text-slate-400 hover:text-amber-300'
+                            }`}
+                          >
+                            <Bookmark className="w-3 h-3" />
+                            <span>{isBlkPinned ? (lang === 'hi' ? 'महत्वपूर्ण ★' : 'Pinned ★') : 'Imp'}</span>
+                          </button>
+
+                          <button
+                            type="button"
+                            onClick={() => toggleBlockFlag(blockId, 'done')}
+                            className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold border cursor-pointer ${
+                              isBlkDone
+                                ? 'bg-emerald-500/20 border-emerald-400 text-emerald-300'
+                                : 'bg-slate-900 border-slate-700 text-slate-400 hover:text-emerald-300'
+                            }`}
+                          >
+                            <Check className="w-3 h-3" />
+                            <span>{isBlkDone ? (lang === 'hi' ? 'पूर्ण' : 'Done') : lang === 'hi' ? 'पढ़ा' : 'Mark'}</span>
+                          </button>
                         </div>
                       </div>
-                    )}
 
-                    {/* Layer 2: Structured Highlighted Micro-Bullets (Large readable typography) */}
-                    {Array.isArray(blk.bullets) && (
-                      <ul className="space-y-3 pl-1">
-                        {blk.bullets.map((bullet, k) => (
-                          <li key={k} className="flex items-start gap-2.5 text-[15px] sm:text-base text-slate-100 leading-7">
-                            <span className="mt-2.5 w-2 h-2 rounded-full bg-teal-400 shrink-0" />
-                            <div>
-                              <RichHighlightText text={bullet[lang]} />
-                            </div>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
+                      {/* Layer 1: Full Classroom Teacher Explanation */}
+                      {conceptBody && depthMode !== 'ranker' && depthMode !== 'traps_only' && (
+                        <div className="p-3.5 sm:p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/35 text-[15px] sm:text-base text-emerald-100 leading-relaxed whitespace-pre-line">
+                          <span className="inline-block text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 mb-1.5">
+                            {lang === 'hi' ? '📘 शिक्षक व्याख्या (Concept Clarity)' : '📘 Teacher Explanation (Mechanism & Why)'}
+                          </span>
+                          <div>
+                            <RichHighlightText text={conceptBody[lang]} />
+                          </div>
+                        </div>
+                      )}
 
-                    {/* Contextual Real Public-Domain / CC0 Microscope & Historical Images */}
-                    {blk.realImage && (
-                      <ProFeatureGate
-                        hasPassPro={hasPassPro}
-                        onOpenPassPro={onOpenPassPro}
-                        lang={lang}
-                        featureTitle={blk.realImage.title}
-                        featureSubtitle={{
-                          en: 'Unlock crisp authentic laboratory micrographs & 17th-century scientific discoveries.',
-                          hi: 'असली प्रयोगशाला माइक्रोस्कोप चित्र और ऐतिहासिक वैज्ञानिक फोटो अनलॉक करें।',
-                        }}
-                      >
-                        <div className="p-3.5 sm:p-4 rounded-2xl bg-slate-900/90 border border-slate-700/80 space-y-2.5">
-                          <div className="text-xs sm:text-sm font-black text-amber-300">{blk.realImage.title[lang]}</div>
-                          <div className={`grid gap-3 ${blk.realImage.secondaryUrl ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1'}`}>
-                            <img
-                              src={blk.realImage.url}
-                              alt={blk.realImage.title[lang]}
-                              onClick={() => setZoomedVisual({ imageUrl: blk.realImage.url, title: blk.realImage.title, figRef: { en: 'Real Microscopy / Historical Asset', hi: 'असली प्रयोगशाला चित्र' }, hotspots: [{ en: blk.realImage.caption.en, hi: blk.realImage.caption.hi }] })}
-                              className="w-full max-h-64 object-contain rounded-xl bg-black/50 border border-slate-800 cursor-pointer hover:brightness-110"
-                            />
-                            {blk.realImage.secondaryUrl && (
+                      {/* Layer 2: Structured Highlighted Facts + Bilingual Terms */}
+                      {Array.isArray(blk.bullets) && depthMode !== 'traps_only' && (
+                        <ul className="space-y-3 pl-1">
+                          {blk.bullets.map((bullet, k) => (
+                            <li key={k} className="flex items-start gap-2.5 text-[15px] sm:text-base text-slate-100 leading-7">
+                              <span className="mt-2.5 w-2 h-2 rounded-full bg-teal-400 shrink-0" />
+                              <div>
+                                <RichHighlightText text={bullet[lang]} />
+                              </div>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+
+                      {/* Block-Level Crisp Labeled Vector Plate (Synced with Light PDF Print!) */}
+                      {blk.diagramKey && <SectionFlowDiagramSVG flowKey={blk.diagramKey} lang={lang} />}
+
+                      {/* Contextual Real Public-Domain / CC0 Microscope & Historical Images */}
+                      {blk.realImage && (
+                        <ProFeatureGate
+                          hasPassPro={hasPassPro}
+                          onOpenPassPro={onOpenPassPro}
+                          lang={lang}
+                          featureTitle={blk.realImage.title}
+                          featureSubtitle={{
+                            en: 'Unlock crisp authentic laboratory micrographs & scientific archival visual plates.',
+                            hi: 'असली प्रयोगशाला माइक्रोस्कोप चित्र और ऐतिहासिक वैज्ञानिक फोटो अनलॉक करें।',
+                          }}
+                        >
+                          <div className="p-3.5 sm:p-4 rounded-2xl bg-slate-900/90 border border-slate-700/80 space-y-2.5">
+                            <div className="text-xs sm:text-sm font-black text-amber-300">{blk.realImage.title[lang]}</div>
+                            <div className={`grid gap-3 ${blk.realImage.secondaryUrl ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1'}`}>
                               <img
-                                src={blk.realImage.secondaryUrl}
-                                alt="Comparison view"
-                                onClick={() => setZoomedVisual({ imageUrl: blk.realImage.secondaryUrl, title: blk.realImage.title, figRef: { en: 'Real Comparison Image', hi: 'तुलनात्मक चित्र' }, hotspots: [{ en: blk.realImage.caption.en, hi: blk.realImage.caption.hi }] })}
+                                src={blk.realImage.url}
+                                alt={blk.realImage.title[lang]}
+                                onClick={() => setZoomedVisual({ imageUrl: blk.realImage.url, title: blk.realImage.title, figRef: { en: 'Real Microscopy / Historical Asset', hi: 'असली प्रयोगशाला चित्र' }, hotspots: [{ en: blk.realImage.caption.en, hi: blk.realImage.caption.hi }] })}
                                 className="w-full max-h-64 object-contain rounded-xl bg-black/50 border border-slate-800 cursor-pointer hover:brightness-110"
                               />
-                            )}
+                              {blk.realImage.secondaryUrl && (
+                                <img
+                                  src={blk.realImage.secondaryUrl}
+                                  alt="Comparison view"
+                                  onClick={() => setZoomedVisual({ imageUrl: blk.realImage.secondaryUrl, title: blk.realImage.title, figRef: { en: 'Real Comparison Image', hi: 'तुलनात्मक चित्र' }, hotspots: [{ en: blk.realImage.caption.en, hi: blk.realImage.caption.hi }] })}
+                                  className="w-full max-h-64 object-contain rounded-xl bg-black/50 border border-slate-800 cursor-pointer hover:brightness-110"
+                                />
+                              )}
+                            </div>
+                            <p className="text-xs sm:text-[13px] text-slate-300 leading-relaxed">{blk.realImage.caption[lang]}</p>
                           </div>
-                          <p className="text-xs sm:text-[13px] text-slate-300 leading-relaxed">{blk.realImage.caption[lang]}</p>
-                        </div>
-                      </ProFeatureGate>
-                    )}
+                        </ProFeatureGate>
+                      )}
 
-                    {/* Viral Memory Hack Card */}
-                    {blk.viralTrick && (
-                      <div className="p-3.5 sm:p-4 rounded-2xl bg-amber-500/10 border border-amber-400/40 text-[14.5px] sm:text-[15px] text-amber-100 leading-relaxed whitespace-pre-line">
-                        <span className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 mb-1.5">
-                          <Lightbulb className="w-3.5 h-3.5" />
-                          <span>{lang === 'hi' ? '💡 वायरल ट्रिक / देसी जुगाड़' : '💡 Viral Memory Hack'}</span>
-                        </span>
-                        <div>
-                          <RichHighlightText text={blk.viralTrick[lang]} />
+                      {/* Exam Memory Key Card */}
+                      {blk.viralTrick && (
+                        <div className="p-3.5 sm:p-4 rounded-2xl bg-amber-500/10 border border-amber-400/40 text-[14.5px] sm:text-[15px] text-amber-100 leading-relaxed whitespace-pre-line">
+                          <span className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 mb-1.5">
+                            <Lightbulb className="w-3.5 h-3.5" />
+                            <span>{lang === 'hi' ? '🧠 परीक्षा स्मृति सूत्र (Exam Memory Key)' : '🧠 Exam Memory Key / Mnemonic'}</span>
+                          </span>
+                          <div>
+                            <RichHighlightText text={blk.viralTrick[lang]} />
+                          </div>
                         </div>
-                      </div>
-                    )}
+                      )}
 
-                    {/* Layer 3: Super-Intelligent Ranker & Nirman+ Railway Booster */}
-                    {blk.topperEdge && depthMode !== 'easy' && (
-                      <div className="p-3.5 sm:p-4 rounded-2xl bg-violet-500/10 border border-violet-400/40 text-[14.5px] sm:text-[15px] text-violet-100 leading-relaxed">
-                        <span className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-violet-500/20 text-violet-300 mb-1.5">
-                          <Star className="w-3.5 h-3.5" />
-                          <span>{lang === 'hi' ? '🔥 टॉपर + रेलवे Nirman+ बूस्टर' : '🔥 Ranker & Railway NCERT+ Edge'}</span>
-                        </span>
-                        <div>
-                          <RichHighlightText text={blk.topperEdge[lang]} />
+                      {/* Layer 3: NCERT+ CBT Edge */}
+                      {blk.topperEdge && depthMode !== 'easy' && depthMode !== 'traps_only' && (
+                        <div className="p-3.5 sm:p-4 rounded-2xl bg-violet-500/10 border border-violet-400/40 text-[14.5px] sm:text-[15px] text-violet-100 leading-relaxed whitespace-pre-line">
+                          <span className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-violet-500/20 text-violet-300 mb-1.5">
+                            <Star className="w-3.5 h-3.5" />
+                            <span>{lang === 'hi' ? '🎯 NCERT+ एवं CBT उच्च-स्तरीय बिंदु' : '🎯 NCERT+ & Railway CBT Edge'}</span>
+                          </span>
+                          <div>
+                            <RichHighlightText text={blk.topperEdge[lang]} />
+                          </div>
                         </div>
-                      </div>
-                    )}
+                      )}
 
-                    {/* Concept -> Immediate Inline Dated RRB PYQ(s) (Nirman Batch Style!) */}
+                      {/* Layer 4: Common Negative Marking Trap Alert (-0.33 Trap) */}
+                      {blk.trapAlert && depthMode !== 'easy' && (
+                        <div className="p-3.5 sm:p-4 rounded-2xl bg-rose-500/10 border border-rose-400/40 text-[14.5px] sm:text-[15px] text-rose-100 leading-relaxed">
+                          <span className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-rose-500/20 text-rose-300 mb-1.5">
+                            <AlertTriangle className="w-3.5 h-3.5" />
+                            <span>{lang === 'hi' ? '⚠️ -0.33 Trap Alert (परीक्षा में सावधानी)' : '⚠️ -0.33 Exam Trap Alert'}</span>
+                          </span>
+                          <div>
+                            <RichHighlightText text={blk.trapAlert[lang]} />
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Concept -> Immediate Inline Dated RRB PYQ(s) */}
                     {Array.isArray(blk.inlinePyqIds) && blk.inlinePyqIds.length > 0 && (
                       <div className="space-y-3 pt-1">
                         {blk.inlinePyqIds.map((pid) => {
@@ -484,7 +611,8 @@ export default function NcertProReader({
                       </div>
                     )}
                   </div>
-                ))}
+                );
+                })}
               </div>
 
               {sec.svgLab && renderSvgLab(sec.svgLab, sec.svgLabTitle)}
@@ -547,6 +675,43 @@ export default function NcertProReader({
                     </span>
                     <RichHighlightText text={act.examTakeaway[lang]} />
                   </div>
+
+                  {/* Interactive 1-Tap Activity Observation Predictor */}
+                  {act.predictQuestion && (
+                    <div className="p-3 rounded-xl bg-cyan-950/25 border border-cyan-500/30 space-y-2">
+                      <div className="text-[11px] font-black text-cyan-300 uppercase">
+                        {lang === 'hi' ? '🔬 प्रयोग पूर्वानुमान (बताइए आगे क्या होगा?)' : '🔬 Lab Observation Predictor'}
+                      </div>
+                      <div className="text-xs font-bold text-white">{act.predictQuestion.prompt[lang]}</div>
+                      <div className="flex flex-wrap gap-1.5">
+                        {act.predictQuestion.options[lang].map((opt, oIdx) => {
+                          const picked = activityPredictions[act.num];
+                          const isDone = picked !== undefined;
+                          const isCorr = oIdx === act.predictQuestion.correctIndex;
+                          let bCls = 'bg-slate-900 border-slate-700 text-slate-300 hover:border-cyan-400';
+                          if (isDone) {
+                            if (isCorr) bCls = 'bg-emerald-500/25 border-emerald-400 text-emerald-200 font-bold';
+                            else if (picked === oIdx) bCls = 'bg-rose-500/25 border-rose-400 text-rose-200';
+                          }
+                          return (
+                            <button
+                              key={oIdx}
+                              type="button"
+                              onClick={() => setActivityPredictions((p) => ({ ...p, [act.num]: oIdx }))}
+                              className={`px-2.5 py-1 rounded-lg border text-[11px] cursor-pointer transition-all ${bCls}`}
+                            >
+                              {opt}
+                            </button>
+                          );
+                        })}
+                      </div>
+                      {activityPredictions[act.num] !== undefined && (
+                        <p className="text-[11px] text-emerald-200 leading-snug pt-0.5">
+                          <RichHighlightText text={act.predictQuestion.reason[lang]} />
+                        </p>
+                      )}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
@@ -697,7 +862,7 @@ export default function NcertProReader({
           <div className="rounded-3xl bg-slate-900/65 border border-slate-800 p-5 sm:p-7 space-y-3">
             <h2 className="text-base sm:text-lg font-black text-teal-300 flex items-center gap-2">
               <HelpCircle className="w-5 h-5" />
-              <span>{lang === 'hi' ? 'पाठ्यपुस्तक "सोचिए और बताइए" (7 हल सहित)' : 'NCERT In-Text Think & Answer (All 7)'}</span>
+              <span>{lang === 'hi' ? `पाठ्यपुस्तक "सोचिए और बताइए" (${chapterData.inTextQuestions.length} हल सहित)` : `NCERT In-Text Think & Answer (All ${chapterData.inTextQuestions.length})`}</span>
             </h2>
             <div className="space-y-2.5">
               {chapterData.inTextQuestions.map((item, i) => {
@@ -728,7 +893,7 @@ export default function NcertProReader({
           <div className="rounded-3xl bg-slate-900/65 border border-slate-800 p-5 sm:p-7 space-y-3">
             <h2 className="text-base sm:text-lg font-black text-white flex items-center gap-2">
               <CheckCircle2 className="w-5 h-5 text-emerald-400" />
-              <span>{lang === 'hi' ? 'सभी 16 NCERT अभ्यास प्रश्न (संपूर्ण सरल हल)' : 'All 16 Solved NCERT Exercises'}</span>
+              <span>{lang === 'hi' ? `सभी ${chapterData.exercises.length} NCERT अभ्यास प्रश्न (संपूर्ण सरल हल)` : `All ${chapterData.exercises.length} Solved NCERT Exercises`}</span>
             </h2>
             <div className="space-y-2.5">
               {chapterData.exercises.map((ex) => {
@@ -768,7 +933,7 @@ export default function NcertProReader({
                 <span>{lang === 'hi' ? `अध्याय के सभी ${chapterData.pyqBank.length} रेलवे PYQs (CBT टेस्ट मोड)` : `All ${chapterData.pyqBank.length} Verified Railway PYQs`}</span>
               </h2>
               <p className="text-xs sm:text-sm text-slate-300 mt-0.5">
-                {lang === 'hi' ? 'RRB Group D, ALP, Tech Gr-III व Nirman+ से सत्यापित प्रश्न' : 'Verified from RRB Group D, ALP, Tech Gr-III & Nirman+ shifts'}
+                {lang === 'hi' ? 'RRB Group D, ALP, Technician Gr-III व NTPC से सत्यापित प्रश्न' : 'Verified from RRB Group D, ALP, Tech Gr-III & NTPC CBT shifts'}
               </p>
             </div>
 
@@ -785,7 +950,7 @@ export default function NcertProReader({
             hasPassPro={hasPassPro}
             onOpenPassPro={onOpenPassPro}
             lang={lang}
-            featureTitle={{ en: 'Chapter PYQ CBT Practice Set', hi: 'अध्याय के सभी 18 रेलवे PYQs अनलॉक करें' }}
+            featureTitle={{ en: `All ${chapterData.pyqBank.length} Chapter PYQ CBT Practice Set`, hi: `अध्याय के सभी ${chapterData.pyqBank.length} रेलवे PYQs अनलॉक करें` }}
           >
             {pyqStats.answered > 0 && (
               <div className="mb-4 p-3 rounded-2xl bg-slate-950/80 border border-slate-800 flex items-center justify-between text-sm">
@@ -856,34 +1021,36 @@ export default function NcertProReader({
             <button onClick={() => setShowPdfModal(false)} className="absolute top-4 right-4 p-1.5 rounded-xl text-slate-400 hover:text-white cursor-pointer">
               <X className="w-5 h-5" />
             </button>
-            <div className="text-center pt-1">
-              <div className="w-12 h-12 rounded-2xl bg-teal-500/20 text-teal-300 flex items-center justify-center mx-auto mb-3">
-                <Printer className="w-6 h-6" />
+            <div className="space-y-3 pt-1">
+              <div className="text-center pt-1">
+                <div className="w-12 h-12 rounded-2xl bg-teal-500/20 text-teal-300 flex items-center justify-center mx-auto mb-3">
+                  <Printer className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-black text-white">RailwayPrep PRO • A4 E-Book PDF</h3>
+                <p className="text-xs text-slate-300 mt-1 leading-relaxed">
+                  Clean white A4 study booklet with RailwayPrep PRO header/footer & watermark, sharp typography, light-mode vector plates, real micrographs & solved PYQs.
+                </p>
               </div>
-              <h3 className="text-lg font-black text-white">Luxury A4 Coaching Booklet PDF</h3>
-              <p className="text-xs text-slate-300 mt-1 leading-relaxed">
-                Clean white A4 e-book layout with pitch-black crisp fonts, light-mode flowcharts, viral tricks & real microscopy photos (zero dark-UI clutter!).
-              </p>
-            </div>
-            <div className="space-y-2.5 pt-2">
-              <button
-                onClick={() => handleOpenPdfOption('hi')}
-                className="w-full py-3 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-black text-xs sm:text-sm cursor-pointer shadow-lg"
-              >
-                🇮🇳 हिन्दी Pro A4 Booklet डाउनलोड / प्रिंट करें
-              </button>
-              <button
-                onClick={() => handleOpenPdfOption('en')}
-                className="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-bold text-xs sm:text-sm cursor-pointer"
-              >
-                🇬🇧 English Pro A4 Booklet Print / Save PDF
-              </button>
-              <button
-                onClick={() => handleOpenPdfOption('bilingual')}
-                className="w-full py-2.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 font-bold text-xs sm:text-sm cursor-pointer"
-              >
-                🌐 Bilingual (हिन्दी + English Together) A4 Booklet
-              </button>
+              <div className="space-y-2.5 pt-2">
+                <button
+                  onClick={() => handleOpenPdfOption('hi')}
+                  className="w-full py-3 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-black text-xs sm:text-sm cursor-pointer shadow-lg"
+                >
+                  🇮🇳 हिन्दी Pro A4 Booklet डाउनलोड / प्रिंट करें
+                </button>
+                <button
+                  onClick={() => handleOpenPdfOption('en')}
+                  className="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-bold text-xs sm:text-sm cursor-pointer"
+                >
+                  🇬🇧 English Pro A4 Booklet Print / Save PDF
+                </button>
+                <button
+                  onClick={() => handleOpenPdfOption('bilingual')}
+                  className="w-full py-2.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 font-bold text-xs sm:text-sm cursor-pointer"
+                >
+                  🌐 Bilingual (हिन्दी + English Together) A4 Booklet
+                </button>
+              </div>
             </div>
           </div>
         </div>

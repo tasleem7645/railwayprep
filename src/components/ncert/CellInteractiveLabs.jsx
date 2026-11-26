@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Play, Pause, RotateCcw, Sparkles, Microscope, Droplets, GitBranch, Layers } from 'lucide-react';
+import { renderNcertDiagramSvg } from '../../data/ncert/diagrams/chapterVectorDiagrams';
 
 /**
  * Custom Animated & Interactive React + SVG Labs for Class 9 Biology Ch 2 (Cell)
@@ -1028,176 +1029,15 @@ export function MitosisMeiosisAnimatorSVG({ lang = 'hi' }) {
   );
 }
 
-// ==================== 5. BRANCHING VISUAL FLOWCHARTS INSIDE EVERY SECTION ====================
+// ==================== 5. SHARED VECTOR ANATOMY & FLOW DIAGRAMS ====================
 export function SectionFlowDiagramSVG({ flowKey, lang = 'hi' }) {
-  const hi = lang !== 'en';
+  const svgMarkup = renderNcertDiagramSvg(flowKey, { lang, theme: 'dark' });
+  if (!svgMarkup) return null;
 
-  if (flowKey === 'org-hierarchy') {
-    const nodes = [
-      { label: hi ? 'कोशिका (Cell)' : '1. Cell', sub: hi ? 'जीवन की ईंट' : 'Basic Unit', bg: '#064E3B', stroke: '#10B981' },
-      { label: hi ? 'ऊतक (Tissue)' : '2. Tissue', sub: hi ? 'समान कोशिका समूह' : 'Similar Cells', bg: '#0C4A6E', stroke: '#38BDF8' },
-      { label: hi ? 'अंग (Organ)' : '3. Organ', sub: hi ? 'जैसे: फेफड़े' : 'e.g., Lungs', bg: '#78350F', stroke: '#FBBF24' },
-      { label: hi ? 'अंग-तंत्र' : '4. Organ System', sub: hi ? 'जैसे: श्वसन तंत्र' : 'Respiratory Sys.', bg: '#581C87', stroke: '#C084FC' },
-      { label: hi ? 'संपूर्ण जीव' : '5. Organism', sub: hi ? 'पादप / जंतु' : 'Plant / Animal', bg: '#881337', stroke: '#FB7185' },
-    ];
-    return (
-      <div className="rounded-2xl border border-teal-500/30 bg-[#070E1D] p-3.5 sm:p-4 overflow-x-auto">
-        <div className="text-[11px] font-black text-teal-300 uppercase mb-2">
-          {hi ? '📊 विज़ुअल फ्लोचार्ट: कोशिका से शरीर का निर्माण' : '📊 Visual Flow: Cell to Complete Organism'}
-        </div>
-        <svg viewBox="0 0 650 86" className="w-full min-w-[520px] h-20">
-          {nodes.map((n, i) => {
-            const x = 8 + i * 130;
-            return (
-              <g key={i}>
-                <rect x={x} y="10" width="114" height="62" rx="12" fill={n.bg} fillOpacity="0.45" stroke={n.stroke} strokeWidth="2" />
-                <text x={x + 57} y="34" textAnchor="middle" fill="#FFFFFF" fontSize="11.5" fontWeight="bold">{n.label}</text>
-                <text x={x + 57} y="54" textAnchor="middle" fill="#CBD5E1" fontSize="10">{n.sub}</text>
-                {i < 4 && (
-                  <path d={`M ${x + 115} 41 L ${x + 128} 41`} stroke="#2DD4BF" strokeWidth="2.5" markerEnd="url(#flowArr)" />
-                )}
-              </g>
-            );
-          })}
-          <defs>
-            <marker id="flowArr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto">
-              <path d="M 0 1 L 10 5 L 0 9 z" fill="#2DD4BF" />
-            </marker>
-          </defs>
-        </svg>
-      </div>
-    );
-  }
-
-  if (flowKey === 'cell-wall-permeability') {
-    return (
-      <div className="rounded-2xl border border-emerald-500/30 bg-[#070E1D] p-3.5 sm:p-4">
-        <div className="text-[11px] font-black text-emerald-300 uppercase mb-2">
-          {hi ? '🛡️ तुलनात्मक चार्ट: कोशिका भित्ति बनाम कोशिका झिल्ली' : '🛡️ Permeability Shield Comparison'}
-        </div>
-        <svg viewBox="0 0 640 102" className="w-full h-24">
-          <rect x="8" y="8" width="302" height="86" rx="14" fill="#064E3B" fillOpacity="0.35" stroke="#10B981" strokeWidth="2" />
-          <text x="159" y="30" textAnchor="middle" fill="#6EE7B7" fontSize="12" fontWeight="bold">
-            {hi ? 'कोशिका भित्ति (केवल पादप, कवक, जीवाणु)' : 'Cell Wall (Plants, Fungi & Bacteria)'}
-          </text>
-          <text x="159" y="51" textAnchor="middle" fill="#F8FAFC" fontSize="11">
-            {hi ? 'पूर्ण पारगम्य (जल व सभी खनिज आर-पार)' : 'Freely Permeable (Water + Minerals Pass)'}
-          </text>
-          <text x="159" y="72" textAnchor="middle" fill="#FDE68A" fontSize="10.5" fontWeight="bold">
-            {hi ? 'पादप: सेल्युलोस | कवक: काइटिन' : 'Plant = Cellulose | Fungi = Chitin'}
-          </text>
-
-          <rect x="330" y="8" width="302" height="86" rx="14" fill="#0C4A6E" fillOpacity="0.35" stroke="#38BDF8" strokeWidth="2" />
-          <text x="481" y="30" textAnchor="middle" fill="#7DD3FC" fontSize="12" fontWeight="bold">
-            {hi ? 'प्लाज्मा झिल्ली (सभी जीवित कोशिकाओं में)' : 'Plasma Membrane (Universal to ALL Cells)'}
-          </text>
-          <text x="481" y="51" textAnchor="middle" fill="#F8FAFC" fontSize="11">
-            {hi ? 'चुनिंदा / वरणात्मक पारगम्य (7–10 nm)' : 'Selectively Permeable (7–10 nm Thick)'}
-          </text>
-          <text x="481" y="72" textAnchor="middle" fill="#BAE6FD" fontSize="10.5" fontWeight="bold">
-            {hi ? 'पदार्थ: लिपिड द्विपरत + प्रोटीन गेटकीपर' : 'Fluid-Mosaic: Lipids + Gatekeeper Proteins'}
-          </text>
-        </svg>
-      </div>
-    );
-  }
-
-  if (flowKey === 'endomembrane-highway') {
-    const steps = [
-      { t: hi ? 'केंद्रक (DNA)' : '1. Nucleus', s: hi ? 'ऑर्डर देता है' : 'Sends DNA Blueprint', c: '#581C87', b: '#C084FC' },
-      { t: hi ? 'RER + SER' : '2. ER Workshop', s: hi ? 'प्रोटीन + वसा निर्माण' : 'Builds Protein & Lipid', c: '#7C2D12', b: '#FB923C' },
-      { t: hi ? 'गॉल्जीकाय' : '3. Golgi (1898)', s: hi ? 'डाकघर: पैकिंग-शिपिंग' : 'Post Office Packaging', c: '#831843', b: '#F472B6' },
-      { t: hi ? 'लाइसोसोम / स्रवण' : '4. Lysosome/Exit', s: hi ? 'सफाई या झिल्ली निर्माण' : 'Digest / Ship Out', c: '#7F1D1D', b: '#F87171' },
-    ];
-    return (
-      <div className="rounded-2xl border border-pink-500/30 bg-[#070E1D] p-3.5 sm:p-4 overflow-x-auto">
-        <div className="text-[11px] font-black text-pink-300 uppercase mb-2">
-          {hi ? '🏭 कोशिका की सप्लाई-चेन: बनने से पैकिंग और सफाई तक' : '🏭 Endomembrane Supply Chain Pipeline'}
-        </div>
-        <svg viewBox="0 0 640 88" className="w-full min-w-[500px] h-20">
-          {steps.map((st, idx) => {
-            const x = 8 + idx * 160;
-            return (
-              <g key={idx}>
-                <rect x={x} y="12" width="144" height="62" rx="12" fill={st.c} fillOpacity="0.45" stroke={st.b} strokeWidth="2" />
-                <text x={x + 72} y="36" textAnchor="middle" fill="#FFFFFF" fontSize="11.5" fontWeight="bold">{st.t}</text>
-                <text x={x + 72} y="55" textAnchor="middle" fill="#CBD5E1" fontSize="10">{st.s}</text>
-                {idx < 3 && (
-                  <path d={`M ${x + 145} 43 L ${x + 158} 43`} stroke="#F472B6" strokeWidth="2.5" />
-                )}
-              </g>
-            );
-          })}
-        </svg>
-      </div>
-    );
-  }
-
-  if (flowKey === 'mito-plastid-power') {
-    return (
-      <div className="rounded-2xl border border-amber-500/30 bg-[#070E1D] p-3.5 sm:p-4">
-        <div className="text-[11px] font-black text-amber-300 uppercase mb-2">
-          {hi ? '⚡ अपना DNA रखने वाले 2 पावर-सेंटर: माइटोकॉन्ड्रिया व लवक' : '⚡ Semi-Autonomous Twins (Own DNA + 70S Ribosomes)'}
-        </div>
-        <svg viewBox="0 0 640 104" className="w-full h-24">
-          <rect x="8" y="8" width="302" height="88" rx="14" fill="#7C2D12" fillOpacity="0.35" stroke="#FB923C" strokeWidth="2" />
-          <text x="159" y="30" textAnchor="middle" fill="#FDBA74" fontSize="12" fontWeight="bold">
-            {hi ? '⚡ माइटोकॉन्ड्रिया (पादप व जंतु दोनों)' : '⚡ Mitochondria (Plants + Animals)'}
-          </text>
-          <text x="159" y="51" textAnchor="middle" fill="#F8FAFC" fontSize="11">
-            {hi ? 'ग्लूकोस -> क्रेब्स चक्र (Cristae) -> ATP ऊर्जा' : 'Glucose -> Krebs Cycle (Cristae) -> ATP'}
-          </text>
-          <text x="159" y="73" textAnchor="middle" fill="#FDE68A" fontSize="10.5" fontWeight="bold">
-            {hi ? 'दोहरी झिल्ली + खुद का DNA व 70S राइबोसोम' : 'Double Membrane + Own DNA & Ribosomes'}
-          </text>
-
-          <rect x="330" y="8" width="302" height="88" rx="14" fill="#064E3B" fillOpacity="0.35" stroke="#34D399" strokeWidth="2" />
-          <text x="481" y="30" textAnchor="middle" fill="#6EE7B7" fontSize="12" fontWeight="bold">
-            {hi ? '🌿 3 लवक / Plastids (केवल पादपों में)' : '🌿 3 Plastids (PLANT CELLS ONLY)'}
-          </text>
-          <text x="481" y="51" textAnchor="middle" fill="#F8FAFC" fontSize="11">
-            {hi ? 'हरितलवक (खाना) | वर्णीलवक (रंग)' : 'Chloro (Food) | Chromo (Flower/Fruit Paint)'}
-          </text>
-          <text x="481" y="73" textAnchor="middle" fill="#A7F3D0" fontSize="10.5" fontWeight="bold">
-            {hi ? 'अवर्णी लवक (आलू-अरबी में स्टार्च/तेल गोदाम)' : 'Leucoplast (Colourless Starch/Oil Storage)'}
-          </text>
-        </svg>
-      </div>
-    );
-  }
-
-  if (flowKey === 'cell-theory-cancer-pcd') {
-    return (
-      <div className="rounded-2xl border border-rose-500/30 bg-[#070E1D] p-3.5 sm:p-4">
-        <div className="text-[11px] font-black text-rose-300 uppercase mb-2">
-          {hi ? '🚦 कोशिका का ट्रैफिक नियम: सामान्य कोशिका बनाम कैंसर' : '🚦 Cell Division Brakes: Normal vs Cancer'}
-        </div>
-        <svg viewBox="0 0 640 94" className="w-full h-24">
-          <rect x="8" y="8" width="302" height="78" rx="14" fill="#064E3B" fillOpacity="0.35" stroke="#10B981" strokeWidth="2" />
-          <text x="159" y="31" textAnchor="middle" fill="#6EE7B7" fontSize="12" fontWeight="bold">
-            {hi ? '✅ सामान्य कोशिका (Normal Cell)' : '✅ Normal Cell (Controlled)'}
-          </text>
-          <text x="159" y="52" textAnchor="middle" fill="#F8FAFC" fontSize="11">
-            {hi ? 'संपर्क अवरोध ✓ + क्रमादेशित मृत्यु (PCD ✓)' : 'Contact Inhibition ✓ + Programmed Death ✓'}
-          </text>
-          <text x="159" y="72" textAnchor="middle" fill="#A7F3D0" fontSize="10">
-            {hi ? 'भ्रूण में अँगुलियाँ अलग करने हेतु ज़रूरी' : 'Prevents webbed fingers & tumours'}
-          </text>
-
-          <rect x="330" y="8" width="302" height="78" rx="14" fill="#881337" fillOpacity="0.35" stroke="#FB7185" strokeWidth="2" />
-          <text x="481" y="31" textAnchor="middle" fill="#FDA4AF" fontSize="12" fontWeight="bold">
-            {hi ? '⚠️ कैंसर कोशिका (Brakes Failed!)' : '⚠️ Cancer / Tumour Cell'}
-          </text>
-          <text x="481" y="52" textAnchor="middle" fill="#F8FAFC" fontSize="11">
-            {hi ? 'अनियंत्रित विभाजन -> अर्बुद (Tumour)' : 'Uncontrolled Division -> Tumours'}
-          </text>
-          <text x="481" y="72" textAnchor="middle" fill="#FECDD3" fontSize="10">
-            {hi ? 'सुदम्य (स्थिर) या दुर्दम (फैलने वाला कैंसर)' : 'Benign (Localized) or Malignant (Spreading)'}
-          </text>
-        </svg>
-      </div>
-    );
-  }
-
-  return null;
+  return (
+    <div
+      className="rounded-2xl border border-slate-800 bg-[#070D1B] p-2.5 sm:p-3.5 overflow-x-auto"
+      dangerouslySetInnerHTML={{ __html: svgMarkup }}
+    />
+  );
 }
