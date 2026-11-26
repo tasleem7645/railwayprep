@@ -15,6 +15,7 @@ import {
   SectionFlowDiagramSVG,
 } from './CellInteractiveLabs';
 import { MotionSimulatorLabSVG } from './MotionInteractiveLabs';
+import { EnergyMachinesLabSVG } from './EnergyMachinesLab';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -137,6 +138,7 @@ export default function NcertProReader({
     else if (labKey === 'cell-explorer') comp = <InteractiveCellExplorerSVG lang={lang} />;
     else if (labKey === 'mitosis-meiosis') comp = <MitosisMeiosisAnimatorSVG lang={lang} />;
     else if (labKey === 'motion-graph-lab') comp = <MotionSimulatorLabSVG lang={lang} />;
+    else if (labKey === 'energy-machines-lab') comp = <EnergyMachinesLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (
