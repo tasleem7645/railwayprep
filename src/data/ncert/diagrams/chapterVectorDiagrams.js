@@ -4,6 +4,8 @@
  * Zoom ladders & flowcharts that work identically on Dark Web UI and Light A4 PDF!
  */
 
+import { renderCh3TissueDiagramSvg } from './ch3TissueDiagrams.js';
+
 function esc(s) {
   return String(s ?? '')
     .replace(/&/g, '&amp;')
@@ -381,6 +383,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
         <text x="507" y="87" text-anchor="middle" font-size="8.8" font-weight="700" fill="${p.rose.text}">${hi ? 'सुदम्य (Benign/स्थिर) vs दुर्दम (Malignant/फैलने वाला)' : 'Benign (Localized) vs Malignant (Metastasis)'}</text>
       </svg>`;
   }
+
+  const ch3Svg = renderCh3TissueDiagramSvg(key, { hi, p, a, theme });
+  if (ch3Svg) return ch3Svg;
 
   return '';
 }
