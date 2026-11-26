@@ -1590,8 +1590,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (04 Sep 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए।"
+      "en": "Simplify: $3\\left(\\left(\\frac{4}{3}\\right)x^2 - 25x + 12\\right) - 4(x^2 + 7x - 18)$.",
+      "hi": "निम्नलिखित को सरल कीजिए।\n$3\\left(\\left(\\frac{4}{3}\\right)x^2 - 25x + 12\\right) - 4(x^2 + 7x - 18)$"
     },
     "options": {
       "en": [
@@ -1614,9 +1614,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−103x + 108) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−103x + 108) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_137e9bc9273a.png",
-    "image_hi": "/crops/ntpc/hi_c4e822fa17c0.png"
+    }
   },
   {
     "id": 50,
@@ -1696,16 +1694,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_4110b8a6f002.png)",
-        "![Option](/crops/ntpc/en_3d851166d51e.png)",
-        "![Option](/crops/ntpc/en_b3ba94aea579.png)",
-        "![Option](/crops/ntpc/en_8d6ae1ef7554.png)"
+        "$13\\frac{41}{61}$ days",
+        "$4\\frac{41}{61}$ days",
+        "$11\\frac{41}{61}$ days",
+        "$7\\frac{41}{61}$ days"
       ],
       "hi": [
-        "दिन ![Option](/crops/ntpc/hi_002bf0ad03fc.png)",
-        "दिन ![Option](/crops/ntpc/hi_ab5e083686bd.png)",
-        "दिन ![Option](/crops/ntpc/hi_5801ce9c167b.png)",
-        "दिन ![Option](/crops/ntpc/hi_ce97536f6f3c.png)"
+        "$13\\frac{41}{61}$ दिन",
+        "$4\\frac{41}{61}$ दिन",
+        "$11\\frac{41}{61}$ दिन",
+        "$7\\frac{41}{61}$ दिन"
       ]
     },
     "correctIndex": 1,
@@ -1713,8 +1711,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (दिन ![Option](/crops/ntpc/hi_ab5e083686bd.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($4\\frac{41}{61}$ days) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($4\\frac{41}{61}$ दिन) सही उत्तर है।"
     }
   },
   {
@@ -1724,8 +1722,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (04 Sep 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $7^2 + \\sqrt{10^2} - 2\\sqrt{64} - 6$ is",
+      "hi": "$7^2 + \\sqrt{10^2} - 2\\sqrt{64} - 6$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1748,9 +1746,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (37) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (37) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_a595a6de6dfc.png",
-    "image_hi": "/crops/ntpc/hi_6c4baf4371a9.png"
+    }
   },
   {
     "id": 54,
@@ -1792,8 +1788,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (04 Sep 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $\\sqrt{196} + \\sqrt{0.0324} - \\sqrt{5.76} =$",
+      "hi": "$\\sqrt{196} + \\sqrt{0.0324} - \\sqrt{5.76}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1816,9 +1812,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (11.78) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (11.78) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_9797354bdef2.png",
-    "image_hi": "/crops/ntpc/hi_fd571cf9d74e.png"
+    }
   },
   {
     "id": 56,
@@ -1865,16 +1859,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_1e724e49a3d0.png)",
-        "![Option](/crops/ntpc/en_96ea138ca06a.png)",
-        "![Option](/crops/ntpc/en_706e223d78d4.png)",
-        "![Option](/crops/ntpc/en_f5fcbecd0073.png)"
+        "$\\frac{80}{7}$",
+        "$\\frac{90}{7}$",
+        "$\\frac{83}{8}$",
+        "$\\frac{85}{9}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_6d1080f4a00e.png)",
-        "![Option](/crops/ntpc/hi_6d0face3ca0a.png)",
-        "![Option](/crops/ntpc/hi_00fc4e0f0614.png)",
-        "![Option](/crops/ntpc/hi_189a0ec03d7d.png)"
+        "$\\frac{80}{7}$",
+        "$\\frac{90}{7}$",
+        "$\\frac{83}{8}$",
+        "$\\frac{85}{9}$"
       ]
     },
     "correctIndex": 1,
@@ -1882,8 +1876,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{90}{7}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{90}{7}$) सही उत्तर है।"
     }
   },
   {
@@ -1926,21 +1920,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (04 Sep 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $\\frac{\\sin^3 A - \\cos^3 A}{1 + \\sin A \\cdot \\cos A} + 2\\sin^2 54^\\circ \\sec^2 36^\\circ$ is:",
+      "hi": "$\\frac{\\sin^3 A - \\cos^3 A}{1 + \\sin A \\cdot \\cos A} + 2\\sin^2 54^\\circ \\sec^2 36^\\circ$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_88df55389f75.png)",
-        "![Option](/crops/ntpc/en_8e767f20df7c.png)",
-        "![Option](/crops/ntpc/en_bfadbefb3ab3.png)",
-        "![Option](/crops/ntpc/en_b56986407f6d.png)"
+        "$2(1 + \\sin A . \\cos A)$",
+        "$\\sin A + \\cos A - 2$",
+        "$\\sin A - \\cos A + 2$",
+        "$\\sin A \\cdot \\cos A + 2$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_da19f2b6cffa.png)",
-        "![Option](/crops/ntpc/hi_d9b1a2ef06f4.png)",
-        "![Option](/crops/ntpc/hi_f39022a2fcf7.png)",
-        "![Option](/crops/ntpc/hi_f7b7a59a005f.png)"
+        "$2(1 + \\sin A.\\cos A)$",
+        "$\\sin A + \\cos A - 2$",
+        "$\\sin A - \\cos A + 2$",
+        "$\\sin A \\cdot \\cos A + 2$"
       ]
     },
     "correctIndex": 2,
@@ -1948,11 +1942,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_99295b498c73.png",
-    "image_hi": "/crops/ntpc/hi_df2610c4c08c.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($\\sin A - \\cos A + 2$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($\\sin A - \\cos A + 2$) सही उत्तर है।"
+    }
   },
   {
     "id": 60,
@@ -2197,16 +2189,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_93b1e89b5f21.png)",
-        "![Option](/crops/ntpc/en_6be1cbf0e041.png)",
-        "![Option](/crops/ntpc/en_d4c0819ac0b7.png)",
-        "![Option](/crops/ntpc/en_606863136ba0.png)"
+        "88%",
+        "96%",
+        "91%",
+        "89%"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_26d483bbf881.png)",
-        "![Option](/crops/ntpc/hi_90a67fbdd727.png)",
-        "![Option](/crops/ntpc/hi_02777e65b8ba.png)",
-        "![Option](/crops/ntpc/hi_606863136ba0.png)"
+        "88%",
+        "96%",
+        "91%",
+        "89%"
       ]
     },
     "correctIndex": 2,
@@ -2214,8 +2206,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (91%) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (91%) सही उत्तर है।"
     }
   },
   {

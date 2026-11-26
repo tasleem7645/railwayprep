@@ -1425,8 +1425,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (13 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि किसी बेलन की ऊँ चाई और त्रिज्या क्रमशः 7 cm और 3 cm है, तो उसका आयतन ज्ञात कीजिए। (π = 3.14 का उपयोग कीजिए)।"
+      "en": "Find the volume of the cylinder whose height and radius are 7 cm and 3 cm, respectively. (Use π = 3.14).",
+      "hi": "यदि किसी बेलन की ऊँचाई और त्रिज्या क्रमशः 7 cm और 3 cm है, तो उसका आयतन ज्ञात कीजिए। (π = 3.14 का उपयोग कीजिए)।"
     },
     "options": {
       "en": [
@@ -1449,8 +1449,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (197.82 cm3) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (197.82 cm3) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_b6d76d71ac52.png"
+    }
   },
   {
     "id": 45,
@@ -1492,21 +1491,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (13 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि है, तो का (डिग्री में) में मान ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_5147a7cdf2db.png)\n![Equation / Figure](/crops/ntpc/hi_c4d17f2263ab.png)"
+      "en": "If $3\\sin^2\\theta + 7\\cos^2\\theta = 4$, $0^\\circ < \\theta < 90^\\circ$, then the value of $\\theta$ (in degrees) is",
+      "hi": "यदि $3\\sin^2\\theta + 7\\cos^2\\theta = 4, 0^\\circ < \\theta < 90^\\circ$ है, तो $\\theta$ का (डिग्री में) मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_e318227a1a1a.png)",
-        "![Option](/crops/ntpc/en_0b8ccb3d4a33.png)",
-        "![Option](/crops/ntpc/en_53011c5964a8.png)",
-        "![Option](/crops/ntpc/en_884b993d9212.png)"
+        "15°",
+        "60°",
+        "45°",
+        "30°"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_3513a94e59a2.png)",
-        "![Option](/crops/ntpc/hi_e76dad9a5f91.png)",
-        "![Option](/crops/ntpc/hi_09a875a194e9.png)",
-        "![Option](/crops/ntpc/hi_249eac650d89.png)"
+        "15°",
+        "60°",
+        "45°",
+        "30°"
       ]
     },
     "correctIndex": 1,
@@ -1514,10 +1513,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_5fad4d0296df.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (60°) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (60°) सही उत्तर है।"
+    }
   },
   {
     "id": 47,
@@ -1630,14 +1628,14 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_68af0d72c51a.png)",
-        "![Option](/crops/ntpc/en_3b473232c4a4.png)",
+        "$\\frac{100}{4}$% loss",
+        "$\\frac{100}{4}$% gain",
         "20% loss",
         "20% gain"
       ],
       "hi": [
-        "% हानि ![Option](/crops/ntpc/hi_eae35d7a3207.png)",
-        "% लाभ ![Option](/crops/ntpc/hi_837f27fac80d.png)",
+        "$\\frac{100}{4}$ % हानि",
+        "$\\frac{100}{4}$ % लाभ",
         "20% हानि",
         "20% लाभ"
       ]
@@ -1790,8 +1788,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (13 Aug 2025 Shift 1)",
     "question": {
-      "en": "The value of",
-      "hi": "नीचे दिए गए समीकरण / आरेख को हल करें:"
+      "en": "The value of $\\sqrt{144} + \\sqrt{0.0225} - \\sqrt{6.25} =$",
+      "hi": "$\\sqrt{144} + \\sqrt{0.0225} - \\sqrt{6.25}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1814,9 +1812,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (9.65) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (9.65) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_095313b5a5fb.png",
-    "image_hi": "/crops/ntpc/hi_79d05f8a3401.png"
+    }
   },
   {
     "id": 56,
@@ -1995,16 +1991,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_ef3c88996a84.png)",
-        "![Option](/crops/ntpc/en_5a96810314a7.png)",
-        "![Option](/crops/ntpc/en_ff17bc32df4f.png)",
-        "![Option](/crops/ntpc/en_6cb45aeb37cf.png)"
+        "$8\\frac{4}{5}$ days",
+        "$11\\frac{4}{5}$ days",
+        "$13\\frac{4}{5}$ days",
+        "$17\\frac{4}{5}$ days"
       ],
       "hi": [
-        "दिन ![Option](/crops/ntpc/hi_51fb995bf3ac.png)",
-        "दिन ![Option](/crops/ntpc/hi_3da8937b8ba2.png)",
-        "दिन ![Option](/crops/ntpc/hi_c5d62d87fe6e.png)",
-        "दिन ![Option](/crops/ntpc/hi_41bbfb44bd22.png)"
+        "$8\\frac{4}{5}$ दिन",
+        "$11\\frac{4}{5}$ दिन",
+        "$13\\frac{4}{5}$ दिन",
+        "$17\\frac{4}{5}$ दिन"
       ]
     },
     "correctIndex": 0,
@@ -2012,8 +2008,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (दिन ![Option](/crops/ntpc/hi_51fb995bf3ac.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($8\\frac{4}{5}$ days) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($8\\frac{4}{5}$ दिन) सही उत्तर है।"
     }
   },
   {
@@ -2188,8 +2184,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (13 Aug 2025 Shift 1)",
     "question": {
-      "en": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle whose dimensions are given as 249 m and 168 m.",
-      "hi": "उस सबसे बड़े वृत्त की परिधि (m में) ज्ञात कीजिए जिसे 249 m और 168 m भुजाओं वाले एक आयत के अंदर पूर्णतः खींचा जा सकता है। ( लीजिए)"
+      "en": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle whose dimensions are given as 249 m and 168 m. (Take $\\pi = \\frac{22}{7}$.)",
+      "hi": "उस सबसे बड़े वृत्त की परिधि (m में) ज्ञात कीजिए जिसे 249 m और 168 m भुजाओं वाले एक आयत के अंदर पूर्णतः खींचा जा सकता है। ($\\pi = \\frac{22}{7}$ लीजिए)"
     },
     "options": {
       "en": [
@@ -2212,9 +2208,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (528) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (528) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_193ca042e1f3.png",
-    "image_hi": "/crops/ntpc/hi_88115d7ca564.png"
+    }
   },
   {
     "id": 68,
@@ -2223,21 +2217,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (13 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "पाइप P, किसी टैंक के भाग को 14 घंटे में भर सकता है, और पाइप Q उसी टैंक के भाग को 20 घंटे में भर सकता है। P और Q दोनों को 2 घंटे के लिए चालू रखा जाता है, फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अके ले चालू किया किया जाता है जो टैंक के पानी को 6 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?\n![Equation / Figure](/crops/ntpc/hi_c46f67e46a98.png)\n![Equation / Figure](/crops/ntpc/hi_14482b43b317.png)"
+      "en": "Pipe P can fill $\\frac{7}{9}$ part of a tank in 14 hours and pipe Q can fill $\\frac{5}{9}$ part of the same tank in 20 hours. Both P and Q were kept open for 2 hours, then both were closed. Pipe R was then opened alone and it emptied the water in the tank in 6 hours. In how much time can pipes P, Q and R together fill the empty tank?",
+      "hi": "पाइप P, किसी टैंक के $\\frac{7}{9}$ भाग को 14 घंटे में भर सकता है, और पाइप Q उसी टैंक के $\\frac{5}{9}$ भाग को 20 घंटे में भर सकता है। P और Q दोनों को 2 घंटे के लिए चालू रखा जाता है, फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अकेले चालू किया जाता है जो टैंक के पानी को 6 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_46669935100e.png)",
-        "![Option](/crops/ntpc/en_0fe1d26d4248.png)",
-        "![Option](/crops/ntpc/en_610eee1ba147.png)",
-        "![Option](/crops/ntpc/en_3a133c858cdc.png)"
+        "3 hours",
+        "18 hours",
+        "12 hours",
+        "19 hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_6d268d8fd3f1.png)",
-        "घंटे ![Option](/crops/ntpc/hi_fe252f3e233e.png)",
-        "घंटे ![Option](/crops/ntpc/hi_3858ed288fdb.png)",
-        "घंटे ![Option](/crops/ntpc/hi_76264af23a0e.png)"
+        "3 घंटे",
+        "18 घंटे",
+        "12 घंटे",
+        "19 घंटे"
       ]
     },
     "correctIndex": 1,
@@ -2245,10 +2239,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (घंटे ![Option](/crops/ntpc/hi_fe252f3e233e.png)) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_8c73408d27eb.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (18 hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (18 घंटे) सही उत्तर है।"
+    }
   },
   {
     "id": 69,

@@ -1331,16 +1331,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_ad55a4cc0998.png)",
-        "![Option](/crops/ntpc/en_167fac589113.png)",
-        "![Option](/crops/ntpc/en_a8218ea8c201.png)",
-        "![Option](/crops/ntpc/en_019c71f775a9.png)"
+        "$11\\frac{256}{365}$ hours",
+        "$7\\frac{256}{365}$ hours",
+        "$10\\frac{256}{365}$ hours",
+        "$4\\frac{256}{365}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_6549755ebcc0.png)",
-        "घंटे ![Option](/crops/ntpc/hi_d30ec824171c.png)",
-        "घंटे ![Option](/crops/ntpc/hi_0f66452213a6.png)",
-        "घंटे ![Option](/crops/ntpc/hi_517c0da1f75f.png)"
+        "$11\\frac{256}{365}$ घंटे",
+        "$7\\frac{256}{365}$ घंटे",
+        "$10\\frac{256}{365}$ घंटे",
+        "$4\\frac{256}{365}$ घंटे"
       ]
     },
     "correctIndex": 3,
@@ -1348,8 +1348,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (घंटे ![Option](/crops/ntpc/hi_517c0da1f75f.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($4\\frac{256}{365}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($4\\frac{256}{365}$ घंटे) सही उत्तर है।"
     }
   },
   {
@@ -1590,7 +1590,7 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "ABCD is a quadrilateral in which $AB \\parallel DC$, and E and F are the mid points of the diagonals AC and BD, respectively. If AB = 45 cm, BC = 96 cm, DC = 53 cm, and AD = 37 cm, then what is the length of EF (in cm)?",
       "hi": "ABCD एक चतुर्भुज है जिसमें AB || DC है, तथा E और F क्रमशः विकर्णों AC और BD के मध्य बिंदु हैं। यदि AB = 45 cm, BC = 96 cm, DC = 53 cm, और AD = 37 cm है, तो EF की लंबाई (cm में) कितनी है?"
     },
     "options": {
@@ -1614,8 +1614,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (4) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (4) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_94eddb7f0dec.png"
+    }
   },
   {
     "id": 50,
@@ -1724,7 +1723,7 @@
     "topic": "Ratio, Proportion & Partnership • RRB NTPC UG 2024 (11 Aug 2025 Shift 3)",
     "question": {
       "en": "If 40% of first number is equal to two-sevenths of second number, what is the ratio of first number to the second number?",
-      "hi": "यदि पहली संख्या का 40%, दूसरी संख्या के वें भाग के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात कितना है?"
+      "hi": "यदि पहली संख्या का 40%, दूसरी संख्या के $\\frac{2}{7}$ वें भाग के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात कितना है?"
     },
     "options": {
       "en": [
@@ -1747,8 +1746,7 @@
       "keyConcept": "Ratio, Proportion & Partnership",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (5 : 7) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (5 : 7) सही उत्तर है।"
-    },
-    "image_hi": "/crops/ntpc/hi_6a32cf860a45.png"
+    }
   },
   {
     "id": 54,
@@ -1762,14 +1760,14 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_f445af230210.png)",
-        "![Option](/crops/ntpc/en_6dabdb469438.png)",
+        "$\\frac{100}{31}$% gain",
+        "$\\frac{100}{31}$% loss",
         "62% gain",
         "62% loss"
       ],
       "hi": [
-        "लाभ ![Option](/crops/ntpc/hi_777fa2dbf454.png)",
-        "हानि ![Option](/crops/ntpc/hi_777fa2dbf454.png)",
+        "$\\frac{100}{31}\\%$ लाभ",
+        "$\\frac{100}{31}\\%$ हानि",
         "62% लाभ",
         "62% हानि"
       ]
@@ -2054,21 +2052,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "लोके श और मनोज किसी निश्चित कार्य को क्रमशः 11 और 15 दिनों में पूरा कर सकते हैं। उन्होंने साथ मिलकर कार्य करना शुरू किया और 5 दिन बाद, मनोज ने कार्य छोड़ दिया। लोके श शेष कार्य को कितने दिनों में पूरा करेगा?"
+      "en": "Lokesh and Manoj can complete a certain piece of work in 11 and 15 days, respectively. They started working together, and after 5 days, Manoj left. In how many days will Lokesh complete the remaining work?",
+      "hi": "लोकेश और मनोज किसी निश्चित कार्य को क्रमशः 11 और 15 दिनों में पूरा कर सकते हैं। उन्होंने साथ मिलकर कार्य करना शुरू किया और 5 दिन बाद, मनोज ने कार्य छोड़ दिया। लोकेश शेष कार्य को कितने दिनों में पूरा करेगा?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_11fc987ea37b.png)",
-        "![Option](/crops/ntpc/en_bbd5fcd47c06.png)",
-        "![Option](/crops/ntpc/en_82c3da2ee1b5.png)",
-        "![Option](/crops/ntpc/en_b1f3f8f742e4.png)"
+        "$2\\frac{1}{3}$",
+        "$7\\frac{2}{3}$",
+        "$7\\frac{1}{3}$",
+        "$2\\frac{2}{3}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_43efe9b85952.png)",
-        "![Option](/crops/ntpc/hi_bbd5fcd47c06.png)",
-        "![Option](/crops/ntpc/hi_28838ee8987b.png)",
-        "![Option](/crops/ntpc/hi_e3876835706b.png)"
+        "$2\\frac{1}{3}$",
+        "$7\\frac{2}{3}$",
+        "$7\\frac{1}{3}$",
+        "$2\\frac{2}{3}$"
       ]
     },
     "correctIndex": 0,
@@ -2076,10 +2074,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_884c8f857128.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($2\\frac{1}{3}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($2\\frac{1}{3}$) सही उत्तर है।"
+    }
   },
   {
     "id": 64,
@@ -2154,21 +2151,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "Himanshi bought a toy for ₹199, decorated it at a cost of ₹9, and sold the toy for ₹231. Find the loss or profit percentage.",
       "hi": "हिमांशी ने ₹199 में एक खिलौना खरीदा, उसे ₹9 की लागत से सजाया और खिलौने को ₹231 में बेच दिया। हानि या लाभ प्रतिशत ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_efeb548f2e86.png)",
-        "![Option](/crops/ntpc/en_558918ffcbc1.png)",
-        "![Option](/crops/ntpc/en_d67303358e3a.png)",
-        "![Option](/crops/ntpc/en_583708c2a86e.png)"
+        "$\\frac{575}{52}$% loss",
+        "$\\frac{575}{52}$% profit",
+        "$\\frac{585}{52}$% loss",
+        "575% profit"
       ],
       "hi": [
-        "हानि ![Option](/crops/ntpc/hi_cb5265948f25.png)",
-        "लाभ ![Option](/crops/ntpc/hi_79faeeefc1a5.png)",
-        "हानि ![Option](/crops/ntpc/hi_61149db0f8d4.png)",
-        "लाभ ![Option](/crops/ntpc/hi_3db9520240b0.png)"
+        "$\\frac{575}{52}$% हानि",
+        "$\\frac{575}{52}\\%$ लाभ",
+        "$\\frac{585}{52}\\%$ हानि",
+        "575% लाभ"
       ]
     },
     "correctIndex": 1,
@@ -2176,10 +2173,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (लाभ ![Option](/crops/ntpc/hi_79faeeefc1a5.png)) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_29ec3d0e5b11.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{575}{52}$% profit) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{575}{52}\\%$ लाभ) सही उत्तर है।"
+    }
   },
   {
     "id": 67,
@@ -2188,21 +2184,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्न को सरल कीजिए:"
+      "en": "Simplify: $\\frac{\\cos\\alpha}{1 - \\sin\\alpha} - \\frac{1 + \\sin\\alpha}{\\cos\\alpha}$",
+      "hi": "निम्न को सरल कीजिए: $\\frac{\\cos\\alpha}{1 - \\sin\\alpha} - \\frac{1 + \\sin\\alpha}{\\cos\\alpha}$"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_8b9b5c20e940.png)",
-        "![Option](/crops/ntpc/en_40d358b59536.png)",
-        "![Option](/crops/ntpc/en_e51bba6be40d.png)",
-        "![Option](/crops/ntpc/en_f760f72ec86e.png)"
+        "$\\cos^2\\alpha$",
+        "0",
+        "1",
+        "$\\sin^2\\alpha$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_8b9b5c20e940.png)",
-        "![Option](/crops/ntpc/hi_938c479e7094.png)",
-        "![Option](/crops/ntpc/hi_6a9a72e28a9d.png)",
-        "![Option](/crops/ntpc/hi_f760f72ec86e.png)"
+        "$\\cos^2\\alpha$",
+        "0",
+        "1",
+        "$\\sin^2\\alpha$"
       ]
     },
     "correctIndex": 1,
@@ -2210,11 +2206,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_3e9739c5f0c1.png",
-    "image_hi": "/crops/ntpc/hi_cd15f08ce315.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (0) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (0) सही उत्तर है।"
+    }
   },
   {
     "id": 68,
@@ -2256,8 +2250,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (11 Aug 2025 Shift 3)",
     "question": {
-      "en": "A cylindrical rod has an outer curved surface area of 2200 cm 2. If the length of the rod is 16 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is:",
-      "hi": "एक बेलनाकार छड़ का बाह्य वक्र पृष्ठीय क्षेत्रफल 2200 cm2 है। यदि छड़ की लंबाई 16 cm है, तो छड़ की बाह्य त्रिज्या (cm में) ज्ञात कीजिए। (उत्तर को दशमलव के दो स्थानों तक पूर्णांकित करें) ( का उपयोग करें )\n![Equation / Figure](/crops/ntpc/hi_fd780b6f8781.png)\n![Equation / Figure](/crops/ntpc/hi_bd062ec91bee.png)"
+      "en": "A cylindrical rod has an outer curved surface area of 2200 cm². If the length of the rod is 16 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is: (Take $\\pi = \\frac{22}{7}$)",
+      "hi": "एक बेलनाकार छड़ का बाह्य वक्र पृष्ठीय क्षेत्रफल 2200 cm² है। यदि छड़ की लंबाई 16 cm है, तो छड़ की बाह्य त्रिज्या (cm में) ज्ञात कीजिए। (उत्तर को दशमलव के दो स्थानों तक पूर्णांकित करें) ($\\pi = \\frac{22}{7}$ का उपयोग करें)"
     },
     "options": {
       "en": [
@@ -2280,8 +2274,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (21.88) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (21.88) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_5b8749b92183.png"
+    }
   },
   {
     "id": 70,

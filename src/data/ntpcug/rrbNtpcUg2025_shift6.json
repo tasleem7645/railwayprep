@@ -1392,8 +1392,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (08 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए।"
+      "en": "Simplify: $3\\left(\\left(\\frac{7}{3}\\right)x^2 - 25x + 12\\right) - 7(x^2 + 9x - 13)$.",
+      "hi": "निम्नलिखित को सरल कीजिए: $3\\left(\\left(\\frac{7}{3}\\right)x^2 - 25x + 12\\right) - 7(x^2 + 9x - 13)$"
     },
     "options": {
       "en": [
@@ -1416,9 +1416,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (−138x + 127) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (−138x + 127) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_105ef03f97d2.png",
-    "image_hi": "/crops/ntpc/hi_9b23b26a33e2.png"
+    }
   },
   {
     "id": 44,
@@ -1498,16 +1496,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_8a4293d28c33.png)",
-        "![Option](/crops/ntpc/en_5825dd40ea11.png)",
-        "![Option](/crops/ntpc/en_4157ae9abe89.png)",
-        "![Option](/crops/ntpc/en_7ddc0bfd1ddb.png)"
+        "$\\frac{4}{9}$",
+        "$\\frac{11}{9}$",
+        "$\\frac{14}{9}$",
+        "$\\frac{13}{9}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_edbc21bbd8ff.png)",
-        "![Option](/crops/ntpc/hi_b81c1e063a9a.png)",
-        "![Option](/crops/ntpc/hi_4157ae9abe89.png)",
-        "![Option](/crops/ntpc/hi_7ddc0bfd1ddb.png)"
+        "$\\frac{4}{9}$",
+        "$\\frac{11}{9}$",
+        "$\\frac{14}{9}$",
+        "$\\frac{13}{9}$"
       ]
     },
     "correctIndex": 0,
@@ -1515,8 +1513,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($\\frac{4}{9}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($\\frac{4}{9}$) सही उत्तर है।"
     }
   },
   {
@@ -1658,21 +1656,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (08 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "एक मीनार के आधार से b2 m और a2 m की दूरी पर और इसके साथ एक ही सरल रेखा पर क्रमशः दो बिंदुओं X और Y (मीनार की विपरीत दिशाओं में) से मीनार के शीर्ष के उन्नयन कोण पूरक हैं। मीनार की ऊँ चाई (m में) ज्ञात कीजिए।"
+      "en": "The angles of elevation of the top of a tower from two points X and Y (on opposite sides of the tower) at distances of $b^2$ m and $a^2$ m, respectively, from the base and in the same straight line with it are complementary. The height of the tower (in m) is:",
+      "hi": "एक मीनार के आधार से $b^2$ m और $a^2$ m की दूरी पर और इसके साथ एक ही सरल रेखा पर क्रमशः दो बिंदुओं X और Y (मीनार की विपरीत दिशाओं में) से मीनार के शीर्ष के उन्नयन कोण पूरक हैं। मीनार की ऊँचाई (m में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_064e149620a5.png)",
-        "![Option](/crops/ntpc/en_1e70d56543f0.png)",
+        "$(ab)^{\\frac{1}{2}}$",
+        "$ab^{\\frac{1}{2}}$",
         "ab",
-        "![Option](/crops/ntpc/en_55eb751c56fa.png)"
+        "$ba^{\\frac{1}{2}}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_ef42415e49ae.png)",
-        "![Option](/crops/ntpc/hi_f8eaa8f57c61.png)",
+        "$(ab)^{\\frac{1}{2}}$",
+        "$ab^{\\frac{1}{2}}$",
         "ab",
-        "![Option](/crops/ntpc/hi_55eb751c56fa.png)"
+        "$ba^{\\frac{1}{2}}$"
       ]
     },
     "correctIndex": 2,
@@ -1682,8 +1680,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (ab) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (ab) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_1108b5dc7814.png"
+    }
   },
   {
     "id": 52,
@@ -1730,14 +1727,14 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_4984983fbe13.png)",
-        "![Option](/crops/ntpc/en_9deb2927943a.png)",
+        "$\\frac{100}{15}$% loss",
+        "$\\frac{100}{15}$% gain",
         "75% gain",
         "75% loss"
       ],
       "hi": [
-        "हानि ![Option](/crops/ntpc/hi_18376fb1c345.png)",
-        "लाभ ![Option](/crops/ntpc/hi_140e253fff27.png)",
+        "$\\frac{100}{15}\\%$ हानि",
+        "$\\frac{100}{15}\\%$ लाभ",
         "75% लाभ",
         "75% हानि"
       ]
@@ -1791,8 +1788,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (08 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "65 का 65%, 15 के से कितना अधिक है?"
+      "en": "By how much is 65% of 65 greater than $\\frac{1}{5}$ of 15?",
+      "hi": "65 का 65%, 15 के $\\frac{1}{5}$ से कितना अधिक है?"
     },
     "options": {
       "en": [
@@ -1815,9 +1812,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (39.25) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (39.25) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_db5f8ea99cad.png",
-    "image_hi": "/crops/ntpc/hi_ce7431d20218.png"
+    }
   },
   {
     "id": 56,
@@ -1826,8 +1821,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (08 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "ABCD एक समलम्ब है जिसमें और AC = CD है। यदि ∠ABC = 19° और ∠BAC = 137° है, तो ∠ACD की माप (डिग्री में) ज्ञात कीजिए।"
+      "en": "ABCD is a trapezium in which $BC \\parallel AD$ and AC = CD. If ∠ABC = 19° and ∠BAC = 137°, then find the measure of ∠ACD (in degrees).",
+      "hi": "ABCD एक समलम्ब है जिसमें $BC \\parallel AD$ और AC = CD है। यदि ∠ABC = 19° और ∠BAC = 137° है, तो ∠ACD की माप (डिग्री में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1850,9 +1845,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (132°) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (132°) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_b7c3a8dd82ac.png",
-    "image_hi": "/crops/ntpc/hi_e62ac83c5440.png"
+    }
   },
   {
     "id": 57,
@@ -2097,16 +2090,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_45768cdd1838.png)",
-        "![Option](/crops/ntpc/en_71d5debecf43.png)",
-        "![Option](/crops/ntpc/en_4841e24bb598.png)",
-        "![Option](/crops/ntpc/en_ddb53e83a49f.png)"
+        "$\\frac{27}{4}$",
+        "$\\frac{44}{2}$",
+        "$\\frac{35}{2}$",
+        "$\\frac{31}{3}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_f69b8b59eec9.png)",
-        "![Option](/crops/ntpc/hi_9c65f033cfac.png)",
-        "![Option](/crops/ntpc/hi_3361fc8b9ade.png)",
-        "![Option](/crops/ntpc/hi_986eda0fcf0e.png)"
+        "$\\frac{27}{4}$",
+        "$\\frac{44}{2}$",
+        "$\\frac{35}{2}$",
+        "$\\frac{31}{3}$"
       ]
     },
     "correctIndex": 2,
@@ -2114,8 +2107,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($\\frac{35}{2}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($\\frac{35}{2}$) सही उत्तर है।"
     }
   },
   {
@@ -2125,8 +2118,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (08 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $10^2 + \\sqrt{2^2} - 4\\sqrt{25} - 3$ is:",
+      "hi": "$10^2 + \\sqrt{2^2} - 4\\sqrt{25} - 3$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -2149,9 +2142,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (79) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (79) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_d7f7d378e47c.png",
-    "image_hi": "/crops/ntpc/hi_b0366eea90ce.png"
+    }
   },
   {
     "id": 66,

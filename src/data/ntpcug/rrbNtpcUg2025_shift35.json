@@ -1425,21 +1425,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "दिए गए व्यंजक का मान ज्ञात कीजिए।"
+      "en": "What is the value of the given expression?\n$\\frac{\\sin^4 A - \\cos^4 A + 1}{1 + \\frac{1}{\\tan^2 A}}$",
+      "hi": "दिए गए व्यंजक का मान ज्ञात कीजिए।\n$\\frac{\\sin^4 A - \\cos^4 A + 1}{1 + \\frac{1}{\\tan^2 A}}$"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_bc717b8d6ca4.png)",
-        "![Option](/crops/ntpc/en_9d64abc17f54.png)",
-        "![Option](/crops/ntpc/en_4034e5a630b5.png)",
-        "![Option](/crops/ntpc/en_e64967bbdf04.png)"
+        "$\\frac{\\sin A \\cdot \\cos A}{\\tan^2 A}$",
+        "$2\\sin^4 A$",
+        "$2\\sin^2 A + \\tan^2 A$",
+        "$2\\sin A. \\cos A$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_efe6a650259a.png)",
-        "![Option](/crops/ntpc/hi_20f5678c6f83.png)",
-        "![Option](/crops/ntpc/hi_4034e5a630b5.png)",
-        "![Option](/crops/ntpc/hi_d79de75225cc.png)"
+        "$\\frac{\\sin A \\cdot \\cos A}{\\tan^2 A}$",
+        "$2\\sin^4 A$",
+        "$2\\sin^2 A + \\tan^2 A$",
+        "$2\\sin A.\\cos A$"
       ]
     },
     "correctIndex": 1,
@@ -1447,11 +1447,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_264a0976d49c.png",
-    "image_hi": "/crops/ntpc/hi_b398ed100643.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($2\\sin^4 A$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($2\\sin^4 A$) सही उत्तर है।"
+    }
   },
   {
     "id": 45,
@@ -1856,8 +1854,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $8^2 + \\sqrt{9^2} - 4\\sqrt{25} - 14$ is:",
+      "hi": "$8^2 + \\sqrt{9^2} - 4\\sqrt{25} - 14$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1880,9 +1878,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (39) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (39) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_66e9ecce3fa7.png",
-    "image_hi": "/crops/ntpc/hi_8f83460958fb.png"
+    }
   },
   {
     "id": 58,
@@ -2089,21 +2085,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "पाइप P, किसी टैंक के भाग को 30 घंटे में भर सकता है, और पाइप Q उसी टैंक के भाग को 12 घंटे में भर सकता है। P और Q दोनों को 7 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अके ले चालू किया जाता है जो टैंक के पानी को 9 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?\n![Equation / Figure](/crops/ntpc/hi_89262e1bd134.png)\n![Equation / Figure](/crops/ntpc/hi_8ca2b6becd5c.png)"
+      "en": "Pipe P can fill $\\frac{5}{7}$ part of a tank in 30 hours, and pipe Q can fill $\\frac{4}{7}$ part of the same tank in 12 hours. Both P and Q were kept open for 7 hours, then both were closed. Then pipe R alone was opened and it emptied the water in the tank in 9 hours. In how much time can pipes P, Q and R together fill the empty tank?",
+      "hi": "पाइप P, किसी टैंक के $\\frac{5}{7}$ भाग को 30 घंटे में भर सकता है, और पाइप Q उसी टैंक के $\\frac{4}{7}$ भाग को 12 घंटे में भर सकता है। P और Q दोनों को 7 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अकेले चालू किया जाता है जो टैंक के पानी को 9 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_88c5a3673a84.png)",
-        "![Option](/crops/ntpc/en_20cc510a3450.png)",
-        "![Option](/crops/ntpc/en_fc469d2f3512.png)",
-        "![Option](/crops/ntpc/en_fa7608154299.png)"
+        "82 hours",
+        "78 hours",
+        "63 hours",
+        "56 hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_3f9173b28936.png)",
-        "घंटे ![Option](/crops/ntpc/hi_1baacac226b0.png)",
-        "घंटे ![Option](/crops/ntpc/hi_5e1f952c6aeb.png)",
-        "घंटे ![Option](/crops/ntpc/hi_fc021e9ef854.png)"
+        "82 घंटे",
+        "78 घंटे",
+        "63 घंटे",
+        "56 घंटे"
       ]
     },
     "correctIndex": 2,
@@ -2111,10 +2107,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (घंटे ![Option](/crops/ntpc/hi_5e1f952c6aeb.png)) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_32793a93d052.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (63 hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (63 घंटे) सही उत्तर है।"
+    }
   },
   {
     "id": 65,
@@ -2161,16 +2156,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_cacea4935f31.png)",
-        "![Option](/crops/ntpc/en_fa98b99bb5d0.png)",
-        "![Option](/crops/ntpc/en_0c2d2f31fc45.png)",
-        "![Option](/crops/ntpc/en_79c1c0240b91.png)"
+        "$5\\frac{65}{99}$ hours",
+        "$6\\frac{65}{99}$ hours",
+        "$8\\frac{65}{99}$ hours",
+        "$7\\frac{65}{99}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_2f9913dc64c8.png)",
-        "घंटे ![Option](/crops/ntpc/hi_65f78129f976.png)",
-        "घंटे ![Option](/crops/ntpc/hi_72f26a492a1c.png)",
-        "घंटे ![Option](/crops/ntpc/hi_e922b4d13fae.png)"
+        "$5\\frac{65}{99}$ घंटे",
+        "$6\\frac{65}{99}$ घंटे",
+        "$8\\frac{65}{99}$ घंटे",
+        "$7\\frac{65}{99}$ घंटे"
       ]
     },
     "correctIndex": 0,
@@ -2178,8 +2173,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (घंटे ![Option](/crops/ntpc/hi_2f9913dc64c8.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($5\\frac{65}{99}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($5\\frac{65}{99}$ घंटे) सही उत्तर है।"
     }
   },
   {

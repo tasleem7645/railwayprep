@@ -1331,16 +1331,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_8de1f6ccda34.png)",
-        "![Option](/crops/ntpc/en_705fb023a04f.png)",
-        "![Option](/crops/ntpc/en_6e50b44d5e9c.png)",
-        "![Option](/crops/ntpc/en_698776501378.png)"
+        "$\\frac{39}{5}$",
+        "$\\frac{36}{4}$",
+        "$\\frac{41}{3}$",
+        "$\\frac{35}{3}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_496e97bdd723.png)",
-        "![Option](/crops/ntpc/hi_9bcbc66f7328.png)",
-        "![Option](/crops/ntpc/hi_56b785999b7a.png)",
-        "![Option](/crops/ntpc/hi_a56891e15af3.png)"
+        "$\\frac{39}{5}$",
+        "$\\frac{36}{4}$",
+        "$\\frac{41}{3}$",
+        "$\\frac{35}{3}$"
       ]
     },
     "correctIndex": 3,
@@ -1348,8 +1348,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{35}{3}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{35}{3}$) सही उत्तर है।"
     }
   },
   {
@@ -1359,21 +1359,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (03 Sep 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "ज़मीन पर स्थित एक बिंदु और एक इमारत के शीर्ष द्वारा ज़मीन के साथ बनाया गया कोण 30° है। यदि बिंदु इमारत के तल से x इकाई की दूरी पर है, तो इमारत की ऊँ चाई (इकाई में) ज्ञात कीजिए।"
+      "en": "The angle made by a point on the ground and the top of a building with the ground is 30°. If the point is $x$ units distance away from the bottom of the building, then find the height (in units) of the building.",
+      "hi": "ज़मीन पर स्थित एक बिंदु और एक इमारत के शीर्ष द्वारा ज़मीन के साथ बनाया गया कोण 30° है। यदि बिंदु इमारत के तल से $x$ इकाई की दूरी पर है, तो इमारत की ऊँचाई (इकाई में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_3c167725339d.png)",
-        "![Option](/crops/ntpc/en_ba2cb3a6fcd3.png)",
-        "![Option](/crops/ntpc/en_a59ffdeec0ca.png)",
-        "![Option](/crops/ntpc/en_d720473794c7.png)"
+        "$\\frac{x}{3}$",
+        "$\\frac{x}{\\sqrt{2}}$",
+        "$\\frac{x}{2}$",
+        "$\\frac{x}{\\sqrt{3}}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_b0d2ffef31d4.png)",
-        "![Option](/crops/ntpc/hi_4736823262be.png)",
-        "![Option](/crops/ntpc/hi_a88d19ff5bde.png)",
-        "![Option](/crops/ntpc/hi_e11c29df7034.png)"
+        "$\\frac{x}{3}$",
+        "$\\frac{x}{\\sqrt{2}}$",
+        "$\\frac{x}{2}$",
+        "$\\frac{x}{\\sqrt{3}}$"
       ]
     },
     "correctIndex": 3,
@@ -1381,10 +1381,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_e7bb372e1e51.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{x}{\\sqrt{3}}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{x}{\\sqrt{3}}$) सही उत्तर है।"
+    }
   },
   {
     "id": 43,
@@ -1690,8 +1689,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (03 Sep 2025 Shift 2)",
     "question": {
-      "en": "A cylindrical rod has an outer curved surface area of 7700 cm 2. If the length of the rod is 95 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is:",
-      "hi": "एक बेलनाकार छड़ का बाहरी वक्र पृष्ठीय क्षेत्रफल 7700 cm2 है। यदि छड़ की लंबाई 95 cm है, तो छड़ की बाहरी त्रिज्या (cm में), दशमलव के दो स्थानों तक, ज्ञात कीजिए। ( लीजिए।)"
+      "en": "A cylindrical rod has an outer curved surface area of 7700 cm². If the length of the rod is 95 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is: (Take $\\pi = \\frac{22}{7}$)",
+      "hi": "एक बेलनाकार छड़ का बाहरी वक्र पृष्ठीय क्षेत्रफल 7700 cm² है। यदि छड़ की लंबाई 95 cm है, तो छड़ की बाहरी त्रिज्या (cm में), दशमलव के दो स्थानों तक, ज्ञात कीजिए। ($\\pi = \\frac{22}{7}$ लीजिए।)"
     },
     "options": {
       "en": [
@@ -1714,9 +1713,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (12.89) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (12.89) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_f212059bbd4a.png",
-    "image_hi": "/crops/ntpc/hi_d2be7e626a2d.png"
+    }
   },
   {
     "id": 53,
@@ -2027,14 +2024,14 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_ada234d1783e.png)",
-        "![Option](/crops/ntpc/en_20fc628ea1ad.png)",
+        "$\\frac{100}{20}$% loss",
+        "$\\frac{100}{20}$% gain",
         "80% loss",
         "80% gain"
       ],
       "hi": [
-        "लाभ ![Option](/crops/ntpc/hi_35d4b4b99ee6.png)",
-        "हानि ![Option](/crops/ntpc/hi_e77007170dc7.png)",
+        "$\\frac{100}{20}\\%$ लाभ",
+        "$\\frac{100}{20}\\%$ हानि",
         "80% हानि",
         "80% लाभ"
       ]
@@ -2088,8 +2085,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (03 Sep 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "65 का 65%, 45 के से कितना अधिक है?"
+      "en": "By how much is 65% of 65 greater than $\\frac{2}{5}$ of 45?",
+      "hi": "65 का 65%, 45 के $\\frac{2}{5}$ से कितना अधिक है?"
     },
     "options": {
       "en": [
@@ -2112,9 +2109,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (24.25) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (24.25) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_2948671433e4.png",
-    "image_hi": "/crops/ntpc/hi_d1916b0a3267.png"
+    }
   },
   {
     "id": 65,
@@ -2194,16 +2189,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_57f8534dadcd.png)",
-        "![Option](/crops/ntpc/en_288644e9a3d2.png)",
-        "![Option](/crops/ntpc/en_a709a64308ca.png)",
-        "![Option](/crops/ntpc/en_521ae6c41fe1.png)"
+        "$10\\frac{324}{379}$ hours",
+        "$1\\frac{324}{379}$ hours",
+        "$4\\frac{324}{379}$ hours",
+        "$13\\frac{324}{379}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_15914eff6600.png)",
-        "घंटे ![Option](/crops/ntpc/hi_f0d6f28c4143.png)",
-        "घंटे ![Option](/crops/ntpc/hi_43a022eb637e.png)",
-        "घंटे ![Option](/crops/ntpc/hi_ce46a6e0616b.png)"
+        "$10\\frac{324}{379}$ घंटे",
+        "$1\\frac{324}{379}$ घंटे",
+        "$4\\frac{324}{379}$ घंटे",
+        "$13\\frac{324}{379}$ घंटे"
       ]
     },
     "correctIndex": 2,
@@ -2211,8 +2206,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (घंटे ![Option](/crops/ntpc/hi_43a022eb637e.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($4\\frac{324}{379}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($4\\frac{324}{379}$ घंटे) सही उत्तर है।"
     }
   },
   {
@@ -2227,16 +2222,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_efc257cc2229.png)",
-        "![Option](/crops/ntpc/en_25957419cdef.png)",
-        "![Option](/crops/ntpc/en_db92de5614ff.png)",
-        "![Option](/crops/ntpc/en_73973b2577e0.png)"
+        "$34\\frac{8}{11}$",
+        "$32\\frac{8}{11}$",
+        "$31\\frac{8}{11}$",
+        "$33\\frac{8}{11}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_c3fc98fe38a5.png)",
-        "![Option](/crops/ntpc/hi_956314e38867.png)",
-        "![Option](/crops/ntpc/hi_3c82bc93b1ac.png)",
-        "![Option](/crops/ntpc/hi_91f054869196.png)"
+        "$34\\frac{8}{11}$",
+        "$32\\frac{8}{11}$",
+        "$31\\frac{8}{11}$",
+        "$33\\frac{8}{11}$"
       ]
     },
     "correctIndex": 1,
@@ -2244,8 +2239,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Geometry & Mensuration",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($32\\frac{8}{11}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($32\\frac{8}{11}$) सही उत्तर है।"
     }
   },
   {
@@ -2255,21 +2250,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (03 Sep 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "₹4,500 मुद्रित मूल्य वाली एक पुस्तक 10%, 20% और 25% की क्रमिक छू ट पर उपलब्ध है। पुस्तक का विक्रय मूल्य ज्ञात कीजिए।"
+      "en": "A book with a printed price of ₹4,500 is available on successive discounts of 10%, 20% and 25%. Find the selling price of the book.",
+      "hi": "₹4,500 मुद्रित मूल्य वाली एक पुस्तक 10%, 20% और 25% की क्रमिक छूट पर उपलब्ध है। पुस्तक का विक्रय मूल्य ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_6e93ce2b3477.png)",
-        "![Option](/crops/ntpc/en_9f6a3dd98fad.png)",
-        "![Option](/crops/ntpc/en_d2300b336a95.png)",
-        "![Option](/crops/ntpc/en_96256e91d8af.png)"
+        "₹2,440",
+        "₹2,410",
+        "₹2,430",
+        "₹2,420"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_6e93ce2b3477.png)",
-        "![Option](/crops/ntpc/hi_ed2c0ce12bed.png)",
-        "![Option](/crops/ntpc/hi_b2deb2013ee3.png)",
-        "![Option](/crops/ntpc/hi_f1d9b96bee19.png)"
+        "₹2,440",
+        "₹2,410",
+        "₹2,430",
+        "₹2,420"
       ]
     },
     "correctIndex": 2,
@@ -2277,10 +2272,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_a3f0abc13630.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹2,430) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹2,430) सही उत्तर है।"
+    }
   },
   {
     "id": 70,

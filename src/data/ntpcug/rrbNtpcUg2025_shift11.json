@@ -1892,16 +1892,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_7a5d70ed1931.png)",
-        "![Option](/crops/ntpc/en_76d1482446bc.png)",
-        "![Option](/crops/ntpc/en_80b0ee6f23b4.png)",
-        "![Option](/crops/ntpc/en_d58299cc82a0.png)"
+        "$13\\frac{12}{13}$ hours",
+        "$11\\frac{12}{13}$ hours",
+        "$6\\frac{12}{13}$ hours",
+        "$2\\frac{12}{13}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_7508b09b3692.png)",
-        "घंटे ![Option](/crops/ntpc/hi_81d4f304666e.png)",
-        "घंटे ![Option](/crops/ntpc/hi_a93c0f9816ef.png)",
-        "घंटे ![Option](/crops/ntpc/hi_7ddeb73d3a9f.png)"
+        "$13\\frac{12}{13}$ घंटे",
+        "$11\\frac{12}{13}$ घंटे",
+        "$6\\frac{12}{13}$ घंटे",
+        "$2\\frac{12}{13}$ घंटे"
       ]
     },
     "correctIndex": 2,
@@ -1909,8 +1909,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (घंटे ![Option](/crops/ntpc/hi_a93c0f9816ef.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($6\\frac{12}{13}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($6\\frac{12}{13}$ घंटे) सही उत्तर है।"
     }
   },
   {
@@ -1920,8 +1920,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (12 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "ABCD एक समलम्ब है जिसमें और AC = CD है। यदि ∠ABC = 24° और ∠BAC = 112° है, तो ∠ACD का माप (डिग्री में) ज्ञात कीजिए।"
+      "en": "ABCD is a trapezium in which $BC \\parallel AD$ and $AC = CD$. If $\\angle ABC = 24^\\circ$ and $\\angle BAC = 112^\\circ$, find the measure of $\\angle ACD$ (in degrees).",
+      "hi": "ABCD एक समलम्ब है जिसमें $BC \\parallel AD$ और AC = CD है। यदि ∠ABC = 24° और ∠BAC = 112° है, तो ∠ACD का माप (डिग्री में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1944,9 +1944,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (92°) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (92°) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_1ffe6eaf499d.png",
-    "image_hi": "/crops/ntpc/hi_5fc4fa0518e6.png"
+    }
   },
   {
     "id": 60,
@@ -2186,21 +2184,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (12 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "पाइप P, किसी टैंक के भाग को 16 घंटे में भर सकता है, और पाइप Q उसी टैंक के भाग को 20 घंटे में भर सकता है। P और Q दोनों को 2 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अके ले चालू किया जाता है जो टैंक के पानी को 8 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?\n![Equation / Figure](/crops/ntpc/hi_728051b982d8.png)\n![Equation / Figure](/crops/ntpc/hi_54a1d510ce00.png)"
+      "en": "Pipe P can fill $\\frac{2}{3}$ part of a tank in 16 hours, and pipe Q can fill $\\frac{5}{6}$ part of the same tank in 20 hours. Both P and Q were kept open for 2 hours, and then both were closed. Pipe R was then opened alone and it emptied the water in the tank in 8 hours. In how much time can pipes P, Q and R together fill the empty tank?",
+      "hi": "पाइप P, किसी टैंक के $\\frac{2}{3}$ भाग को 16 घंटे में भर सकता है, और पाइप Q उसी टैंक के $\\frac{5}{6}$ भाग को 20 घंटे में भर सकता है। P और Q दोनों को 2 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अकेले चालू किया जाता है जो टैंक के पानी को 8 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_e3d9ba85f8b0.png)",
-        "![Option](/crops/ntpc/en_715826c95c1c.png)",
-        "![Option](/crops/ntpc/en_d023b72b926f.png)",
-        "![Option](/crops/ntpc/en_ee8d19a4046e.png)"
+        "8 hours",
+        "29 hours",
+        "26 hours",
+        "16 hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_0f9ab9aa57c6.png)",
-        "घंटे ![Option](/crops/ntpc/hi_48ec1e8a8bd4.png)",
-        "घंटे ![Option](/crops/ntpc/hi_24b0abed38c9.png)",
-        "घंटे ![Option](/crops/ntpc/hi_2d34180e5a55.png)"
+        "8 घंटे",
+        "29 घंटे",
+        "26 घंटे",
+        "16 घंटे"
       ]
     },
     "correctIndex": 3,
@@ -2208,10 +2206,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (घंटे ![Option](/crops/ntpc/hi_2d34180e5a55.png)) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_3e7854e41605.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (16 hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (16 घंटे) सही उत्तर है।"
+    }
   },
   {
     "id": 68,

@@ -1331,16 +1331,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_1801c1a221f2.png)",
-        "![Option](/crops/ntpc/en_f4d4355e9c46.png)",
-        "![Option](/crops/ntpc/en_be6f977b8c14.png)",
-        "![Option](/crops/ntpc/en_fc4460362138.png)"
+        "$12\\frac{74}{131}$ days",
+        "$4\\frac{74}{131}$ days",
+        "$2\\frac{74}{131}$ days",
+        "$6\\frac{74}{131}$ days"
       ],
       "hi": [
-        "दिन ![Option](/crops/ntpc/hi_16ba7d311d79.png)",
-        "दिन ![Option](/crops/ntpc/hi_8e8f0251fab7.png)",
-        "दिन ![Option](/crops/ntpc/hi_bfa60708c057.png)",
-        "दिन ![Option](/crops/ntpc/hi_b797d45a240f.png)"
+        "$12\\frac{74}{131}$ दिन",
+        "$4\\frac{74}{131}$ दिन",
+        "$2\\frac{74}{131}$ दिन",
+        "$6\\frac{74}{131}$ दिन"
       ]
     },
     "correctIndex": 2,
@@ -1348,8 +1348,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (दिन ![Option](/crops/ntpc/hi_bfa60708c057.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($2\\frac{74}{131}$ days) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($2\\frac{74}{131}$ दिन) सही उत्तर है।"
     }
   },
   {
@@ -1496,16 +1496,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_a698347a5368.png)",
-        "![Option](/crops/ntpc/en_5aee65e0d5a5.png)",
-        "![Option](/crops/ntpc/en_b036a5e1da14.png)",
-        "![Option](/crops/ntpc/en_fe22d3ce86cc.png)"
+        "$\\frac{72}{5}$",
+        "$\\frac{65}{5}$",
+        "$\\frac{82}{6}$",
+        "$\\frac{70}{7}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_c55f78a45864.png)",
-        "![Option](/crops/ntpc/hi_5aee65e0d5a5.png)",
-        "![Option](/crops/ntpc/hi_510dfec3fb30.png)",
-        "![Option](/crops/ntpc/hi_1d1c1def8369.png)"
+        "$\\frac{72}{5}$",
+        "$\\frac{65}{5}$",
+        "$\\frac{82}{6}$",
+        "$\\frac{70}{7}$"
       ]
     },
     "correctIndex": 0,
@@ -1513,8 +1513,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($\\frac{72}{5}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($\\frac{72}{5}$) सही उत्तर है।"
     }
   },
   {
@@ -1722,8 +1722,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (21 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "65 का 65%, 15 के से कितना अधिक है?"
+      "en": "By how much is 65% of 65 greater than $\\frac{2}{5}$ of 15?",
+      "hi": "65 का 65%, 15 के $\\frac{2}{5}$ से कितना अधिक है?"
     },
     "options": {
       "en": [
@@ -1746,9 +1746,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (36.25) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (36.25) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_fa89d898a412.png",
-    "image_hi": "/crops/ntpc/hi_be7bf42a1a7d.png"
+    }
   },
   {
     "id": 54,
@@ -1960,16 +1958,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_2bffa2a0a785.png)",
-        "![Option](/crops/ntpc/en_b2f3a235357d.png)",
-        "![Option](/crops/ntpc/en_dee80cb9675e.png)",
-        "![Option](/crops/ntpc/en_7c5b073cdae6.png)"
+        "160 $\\text{cm}^2$",
+        "180 $\\text{cm}^2$",
+        "140 $\\text{cm}^2$",
+        "130 $\\mathrm{cm}^2$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_39620467a27d.png)",
-        "![Option](/crops/ntpc/hi_ce38d2ef39d2.png)",
-        "![Option](/crops/ntpc/hi_b928b23965f6.png)",
-        "![Option](/crops/ntpc/hi_c4e940b2a8b1.png)"
+        "160 $\\text{cm}^2$",
+        "180 $\\text{cm}^2$",
+        "140 $\\text{cm}^2$",
+        "130 $\\text{cm}^2$"
       ]
     },
     "correctIndex": 0,
@@ -1977,8 +1975,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Geometry & Mensuration",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (160 $\\text{cm}^2$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (160 $\\text{cm}^2$) सही उत्तर है।"
     }
   },
   {
@@ -2219,21 +2217,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (21 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि है, तो का मान ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_6736b9a3000a.png)\n![Equation / Figure](/crops/ntpc/hi_e894d0288e04.png)"
+      "en": "If $\\cot A = \\sqrt{5}$, then find the value of $\\frac{\\operatorname{cosec}^2 A - \\sec^2 A}{\\operatorname{cosec}^2 A + \\sec^2 A}$.",
+      "hi": "यदि $\\cot A = \\sqrt{5}$ है, तो $\\frac{\\operatorname{cosec}^2 A - \\sec^2 A}{\\operatorname{cosec}^2 A + \\sec^2 A}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_2379a2b977a9.png)",
-        "![Option](/crops/ntpc/en_800101103f49.png)",
-        "![Option](/crops/ntpc/en_f47134bc87b8.png)",
-        "![Option](/crops/ntpc/en_e1079ad67c91.png)"
+        "$\\frac{\\sqrt{5} + 1}{\\sqrt{5} - 1}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{\\sqrt{5} - 1}{\\sqrt{5} + 1}$",
+        "$\\frac{3}{2}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_2379a2b977a9.png)",
-        "![Option](/crops/ntpc/hi_797102e33578.png)",
-        "![Option](/crops/ntpc/hi_f47134bc87b8.png)",
-        "![Option](/crops/ntpc/hi_b04abc5bac24.png)"
+        "$\\frac{\\sqrt{5} + 1}{\\sqrt{5} - 1}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{\\sqrt{5} - 1}{\\sqrt{5} + 1}$",
+        "$\\frac{3}{2}$"
       ]
     },
     "correctIndex": 1,
@@ -2241,10 +2239,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_b755436353be.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{2}{3}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{2}{3}$) सही उत्तर है।"
+    }
   },
   {
     "id": 69,
@@ -2258,16 +2255,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_9411c7951c80.png)",
-        "![Option](/crops/ntpc/en_6ef149e7e4e5.png)",
-        "![Option](/crops/ntpc/en_28974d4cd2a8.png)",
-        "![Option](/crops/ntpc/en_917340246389.png)"
+        "4",
+        "0",
+        "-3",
+        "-1"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_935bb8cb2cd3.png)",
-        "![Option](/crops/ntpc/hi_afbabba2d318.png)",
-        "![Option](/crops/ntpc/hi_ef2b5f555090.png)",
-        "![Option](/crops/ntpc/hi_2114c4ade3b3.png)"
+        "4",
+        "0",
+        "-3",
+        "-1"
       ]
     },
     "correctIndex": 1,
@@ -2275,8 +2272,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (0) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (0) सही उत्तर है।"
     }
   },
   {

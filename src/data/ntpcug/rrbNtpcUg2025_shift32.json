@@ -655,7 +655,7 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Science, Space & Tech",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹500 crore) is the verified correct answer.",
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹500 crore) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹500 करोड़) सही उत्तर है।"
     }
   },
@@ -1491,8 +1491,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (22 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए।"
+      "en": "Simplify: $3\\left(\\left(\\frac{7}{3}\\right)x^2 - 26x + 13\\right) - 7(x^2 + 9x - 11)$",
+      "hi": "निम्नलिखित को सरल कीजिए। $3\\left(\\left(\\frac{7}{3}\\right)x^2 - 26x + 13\\right) - 7(x^2 + 9x - 11)$"
     },
     "options": {
       "en": [
@@ -1515,9 +1515,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−141x + 116) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−141x + 116) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_7d5915f3d044.png",
-    "image_hi": "/crops/ntpc/hi_797cef7adce2.png"
+    }
   },
   {
     "id": 47,
@@ -1559,21 +1557,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (22 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि और ​है, तो का मान कितना होगा?\n![Equation / Figure](/crops/ntpc/hi_d85afca3d274.png)\n![Equation / Figure](/crops/ntpc/hi_6f9298cd01d3.png)\n![Equation / Figure](/crops/ntpc/hi_92c6e2d9df4b.png)\n![Equation / Figure](/crops/ntpc/hi_23254021e4fa.png)"
+      "en": "If $x = a \\operatorname{cosec} A \\sin B$, $y = b \\operatorname{cosec} A \\cos B$, and $z = c \\cot A$, then what is the value of $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} - \\frac{z^2}{c^2}$?",
+      "hi": "यदि $x = a \\operatorname{cosec} A \\sin B$, $y = b \\operatorname{cosec} A \\cos B$ और $z = c \\cot A$ है, तो $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} - \\frac{z^2}{c^2}$ का मान कितना होगा?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_7c22fc7a6fa1.png)",
-        "![Option](/crops/ntpc/en_f584c717791d.png)",
-        "![Option](/crops/ntpc/en_277c728e5966.png)",
-        "![Option](/crops/ntpc/en_5f10ddb7a856.png)"
+        "-2",
+        "1",
+        "0",
+        "-1"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_8907ceaf9ad3.png)",
-        "![Option](/crops/ntpc/hi_214befab6f9a.png)",
-        "![Option](/crops/ntpc/hi_277c728e5966.png)",
-        "![Option](/crops/ntpc/hi_c0f2cd36ad1c.png)"
+        "-2",
+        "1",
+        "0",
+        "-1"
       ]
     },
     "correctIndex": 1,
@@ -1581,10 +1579,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_61fd53800de7.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (1) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (1) सही उत्तर है।"
+    }
   },
   {
     "id": 49,
@@ -1664,16 +1661,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_4e4638baf6a0.png)",
-        "![Option](/crops/ntpc/en_81e4d6c00223.png)",
-        "![Option](/crops/ntpc/en_7aa3ed7063e8.png)",
-        "![Option](/crops/ntpc/en_48bd0c19eb0e.png)"
+        "$6\\frac{2}{17}$ hours",
+        "$2\\frac{2}{17}$ hours",
+        "$9\\frac{2}{17}$ hours",
+        "$3\\frac{2}{17}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_5f20ddef9499.png)",
-        "घंटे ![Option](/crops/ntpc/hi_7fa7f6a4ba73.png)",
-        "घंटे ![Option](/crops/ntpc/hi_77b200101863.png)",
-        "घंटे ![Option](/crops/ntpc/hi_d959706dac76.png)"
+        "$6\\frac{2}{17}$ घंटे",
+        "$2\\frac{2}{17}$ घंटे",
+        "$9\\frac{2}{17}$ घंटे",
+        "$3\\frac{2}{17}$ घंटे"
       ]
     },
     "correctIndex": 0,
@@ -1681,8 +1678,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (घंटे ![Option](/crops/ntpc/hi_5f20ddef9499.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($6\\frac{2}{17}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($6\\frac{2}{17}$ घंटे) सही उत्तर है।"
     }
   },
   {
@@ -1758,8 +1755,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (22 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $6^2 + \\sqrt{3^2} - 7\\sqrt{81} - 16$ is",
+      "hi": "$6^2 + \\sqrt{3^2} - 7\\sqrt{81} - 16$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1782,9 +1779,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (-40) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (-40) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_629b493c65f6.png",
-    "image_hi": "/crops/ntpc/hi_d07fc321c2dd.png"
+    }
   },
   {
     "id": 55,
@@ -1864,16 +1859,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_2234a91e18a1.png)",
-        "![Option](/crops/ntpc/en_6ee69d1b023e.png)",
-        "![Option](/crops/ntpc/en_a3026181f6fa.png)",
-        "![Option](/crops/ntpc/en_3f8cd298298c.png)"
+        "69%",
+        "61%",
+        "63%",
+        "65%"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_2234a91e18a1.png)",
-        "![Option](/crops/ntpc/hi_6ee69d1b023e.png)",
-        "![Option](/crops/ntpc/hi_a3026181f6fa.png)",
-        "![Option](/crops/ntpc/hi_327d351cdbfc.png)"
+        "69%",
+        "61%",
+        "63%",
+        "65%"
       ]
     },
     "correctIndex": 3,
@@ -1881,8 +1876,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (65%) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (65%) सही उत्तर है।"
     }
   },
   {
@@ -2024,21 +2019,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (22 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "को सरलीकृ त की‍जिए।"
+      "en": "Simplify $13 \\times (3 \\times 4^2) \\div 9 + 59 - 75$",
+      "hi": "$13 \\times (3 \\times 4^2) \\div 9 + 59 - 75$ को सरलीकृत कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_47eeddbb8ab2.png)",
-        "![Option](/crops/ntpc/en_ee94cb4e4cf0.png)",
-        "![Option](/crops/ntpc/en_bd658837a099.png)",
-        "![Option](/crops/ntpc/en_aec2776dccb3.png)"
+        "$\\frac{160}{3}$",
+        "$\\frac{160}{9}$",
+        "$\\frac{157}{9}$",
+        "$\\frac{157}{3}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_47eeddbb8ab2.png)",
-        "![Option](/crops/ntpc/hi_967996828bf2.png)",
-        "![Option](/crops/ntpc/hi_5c8dd2e27dd1.png)",
-        "![Option](/crops/ntpc/hi_aec2776dccb3.png)"
+        "$\\frac{160}{3}$",
+        "$\\frac{160}{9}$",
+        "$\\frac{157}{9}$",
+        "$\\frac{157}{3}$"
       ]
     },
     "correctIndex": 0,
@@ -2046,11 +2041,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_f248d9d02a54.png",
-    "image_hi": "/crops/ntpc/hi_566b8ffedcbc.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($\\frac{160}{3}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($\\frac{160}{3}$) सही उत्तर है।"
+    }
   },
   {
     "id": 63,
@@ -2092,8 +2085,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (22 Aug 2025 Shift 2)",
     "question": {
-      "en": "A cylindrical rod has an outer curved surface area of 1100 cm 2. If the length of the rod is 29 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is:",
-      "hi": "एक बेलनाकार छड़ का बाहरी वक्र पृष्ठीय क्षेत्रफल 1100 cm2 है। यदि छड़ की लंबाई 29 cm है, तो छड़ की बाहरी त्रिज्या (cm में) दशमलव के दो स्थानों तक, ज्ञात कीजिए। ( लीजिए।)"
+      "en": "A cylindrical rod has an outer curved surface area of 1100 cm². If the length of the rod is 29 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is: (Take $\\pi = \\frac{22}{7}$)",
+      "hi": "एक बेलनाकार छड़ का बाहरी वक्र पृष्ठीय क्षेत्रफल 1100 cm² है। यदि छड़ की लंबाई 29 cm है, तो छड़ की बाहरी त्रिज्या (cm में) दशमलव के दो स्थानों तक, ज्ञात कीजिए। ($\\pi = \\frac{22}{7}$ लीजिए।)"
     },
     "options": {
       "en": [
@@ -2116,9 +2109,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (6.03) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (6.03) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_f212059bbd4a.png",
-    "image_hi": "/crops/ntpc/hi_88115d7ca564.png"
+    }
   },
   {
     "id": 65,
@@ -2165,16 +2156,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_acd6a4cebde3.png)",
-        "![Option](/crops/ntpc/en_7204928f298a.png)",
-        "![Option](/crops/ntpc/en_80759b435f82.png)",
-        "![Option](/crops/ntpc/en_bb693678bb8c.png)"
+        "$\\frac{875}{41}$% loss",
+        "$\\frac{885}{41}$% loss",
+        "875% profit",
+        "$\\frac{875}{41}$% profit"
       ],
       "hi": [
-        "हानि ![Option](/crops/ntpc/hi_f0d6d905585f.png)",
-        "हानि ![Option](/crops/ntpc/hi_14440c3cafad.png)",
-        "लाभ ![Option](/crops/ntpc/hi_6546ff272833.png)",
-        "लाभ ![Option](/crops/ntpc/hi_44150cef2a2f.png)"
+        "$\\frac{875}{41}\\%$ हानि",
+        "$\\frac{885}{41}\\%$ हानि",
+        "875% लाभ",
+        "$\\frac{875}{41}$% लाभ"
       ]
     },
     "correctIndex": 3,
@@ -2182,8 +2173,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (लाभ ![Option](/crops/ntpc/hi_44150cef2a2f.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{875}{41}$% profit) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{875}{41}$% लाभ) सही उत्तर है।"
     }
   },
   {
@@ -2226,8 +2217,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (22 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "किसी निश्चित मूलधन पर 4.5% वार्षिक ब्याज दर पर वर्ष का साधारण ब्याज ₹6,270 है। उसी मूलधन पर 8.6% वार्षिक साधारण ब्याज दर पर वर्ष में देय मिश्रधन ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_c285f88f310c.png)\n![Equation / Figure](/crops/ntpc/hi_0458f3a672ae.png)"
+      "en": "The simple interest on a certain sum for $7\\frac{1}{3}$ years at the rate of 4.5% per annum is ₹6,270. What will be the amount payable on the same sum at the rate of 8.6% per annum simple interest in $11\\frac{1}{2}$ years?",
+      "hi": "किसी निश्चित मूलधन पर 4.5% वार्षिक ब्याज दर पर $7\\frac{1}{3}$ वर्ष का साधारण ब्याज ₹6,270 है। उसी मूलधन पर 8.6% वार्षिक साधारण ब्याज दर पर $11\\frac{1}{2}$ वर्ष में देय मिश्रधन ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -2250,8 +2241,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹37,791) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹37,791) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_38d969ab808b.png"
+    }
   },
   {
     "id": 69,

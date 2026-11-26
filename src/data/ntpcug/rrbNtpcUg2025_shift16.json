@@ -1430,16 +1430,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_100074164a68.png)",
-        "![Option](/crops/ntpc/en_cf1e8bb7f1a1.png)",
-        "![Option](/crops/ntpc/en_06a2e4cbd3f5.png)",
-        "![Option](/crops/ntpc/en_4d27924f0258.png)"
+        "$12\\frac{10}{11}$ hours",
+        "$9\\frac{10}{11}$ hours",
+        "$8\\frac{10}{11}$ hours",
+        "$4\\frac{10}{11}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_fe67b2a148f6.png)",
-        "घंटे ![Option](/crops/ntpc/hi_45221c72262a.png)",
-        "घंटे ![Option](/crops/ntpc/hi_cfec219f89fc.png)",
-        "घंटे ![Option](/crops/ntpc/hi_2e2790bd5996.png)"
+        "$12\\frac{10}{11}$ घंटे",
+        "$9\\frac{10}{11}$ घंटे",
+        "$8\\frac{10}{11}$ घंटे",
+        "$4\\frac{10}{11}$ घंटे"
       ]
     },
     "correctIndex": 3,
@@ -1447,8 +1447,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (घंटे ![Option](/crops/ntpc/hi_2e2790bd5996.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($4\\frac{10}{11}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($4\\frac{10}{11}$ घंटे) सही उत्तर है।"
     }
   },
   {
@@ -1887,8 +1887,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (14 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए।"
+      "en": "Simplify: $2\\left(\\left(\\frac{6}{2}\\right)x^2 - 22x + 15\\right) - 6(x^2 + 5x - 18)$.",
+      "hi": "निम्नलिखित को सरल कीजिए। $2\\left(\\left(\\frac{6}{2}\\right)x^2 - 22x + 15\\right) - 6(x^2 + 5x - 18)$"
     },
     "options": {
       "en": [
@@ -1911,9 +1911,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (−74x + 138) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (−74x + 138) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_e910acbbdef5.png",
-    "image_hi": "/crops/ntpc/hi_4043d4ac67a1.png"
+    }
   },
   {
     "id": 59,
@@ -2021,21 +2019,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (14 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "आदित्य 150 m ऊँ चे एक लाइट हाउस पर खड़ा है और अपने दोनों ओर क्रमशः 30° और 60° के अवनमन कोण से दोनों नावों को देख रहा है। दोनों नावों के बीच की दूरी ज्ञात कीजिए।"
+      "en": "Aditya is standing on a light house of 150 m height and watching two boats on either side of him with angles of depression of 30° and 60°, respectively. Find the distance between the two boats.",
+      "hi": "आदित्य 150 m ऊँचे एक लाइट हाउस पर खड़ा है और अपने दोनों ओर क्रमशः 30° और 60° के अवनमन कोण से दोनों नावों को देख रहा है। दोनों नावों के बीच की दूरी ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_824359d9438b.png)",
-        "![Option](/crops/ntpc/en_1e7e75cd8460.png)",
-        "![Option](/crops/ntpc/en_8c71c45a2e08.png)",
-        "![Option](/crops/ntpc/en_2f601174ac4a.png)"
+        "$150\\sqrt{3}$ m",
+        "$200\\sqrt{3}$ m",
+        "250 m",
+        "300 m"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_b17a017c95ab.png)",
-        "![Option](/crops/ntpc/hi_6397fb989a12.png)",
-        "![Option](/crops/ntpc/hi_8c71c45a2e08.png)",
-        "![Option](/crops/ntpc/hi_3cfc2d8850ce.png)"
+        "$150\\sqrt{3}$ m",
+        "$200\\sqrt{3}$ m",
+        "250 m",
+        "300 m"
       ]
     },
     "correctIndex": 1,
@@ -2043,10 +2041,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_7c66a1e44efd.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($200\\sqrt{3}$ m) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($200\\sqrt{3}$ m) सही उत्तर है।"
+    }
   },
   {
     "id": 63,
@@ -2187,8 +2184,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (14 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "65 का 65%, 25 के से कितना अधिक है?"
+      "en": "By how much is 65% of 65 greater than $\\frac{2}{5}$ of 25?",
+      "hi": "65 का 65%, 25 के $\\frac{2}{5}$ से कितना अधिक है?"
     },
     "options": {
       "en": [
@@ -2211,9 +2208,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (32.25) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (32.25) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_15dcebf49492.png",
-    "image_hi": "/crops/ntpc/hi_d1916b0a3267.png"
+    }
   },
   {
     "id": 68,

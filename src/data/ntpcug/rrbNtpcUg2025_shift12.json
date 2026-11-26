@@ -1595,16 +1595,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_69c5fdd32544.png)",
-        "![Option](/crops/ntpc/en_4261af4e1c9e.png)",
-        "![Option](/crops/ntpc/en_dd01d6798247.png)",
-        "![Option](/crops/ntpc/en_eafe2835108c.png)"
+        "10%",
+        "15%",
+        "14%",
+        "11%"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_682bce45708e.png)",
-        "![Option](/crops/ntpc/hi_dbf987164f9c.png)",
-        "![Option](/crops/ntpc/hi_0e0aa3923475.png)",
-        "![Option](/crops/ntpc/hi_ee60be43f4e0.png)"
+        "10%",
+        "15%",
+        "14%",
+        "11%"
       ]
     },
     "correctIndex": 3,
@@ -1612,8 +1612,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (11%) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (11%) सही उत्तर है।"
     }
   },
   {
@@ -1628,16 +1628,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_8fdfaa022560.png)",
-        "![Option](/crops/ntpc/en_24d1e17751c4.png)",
-        "![Option](/crops/ntpc/en_2ec6ca2aa001.png)",
-        "![Option](/crops/ntpc/en_19f99404f1af.png)"
+        "$10\\frac{27}{35}$ days",
+        "$13\\frac{27}{35}$ days",
+        "$11\\frac{27}{35}$ days",
+        "$7\\frac{27}{35}$ days"
       ],
       "hi": [
-        "दिन ![Option](/crops/ntpc/hi_420c80391e5b.png)",
-        "दिन ![Option](/crops/ntpc/hi_8c67f51abcba.png)",
-        "दिन ![Option](/crops/ntpc/hi_96872de744b6.png)",
-        "दिन ![Option](/crops/ntpc/hi_8c9db6e1b1aa.png)"
+        "$10\\frac{27}{35}$ दिन",
+        "$13\\frac{27}{35}$ दिन",
+        "$11\\frac{27}{35}$ दिन",
+        "$7\\frac{27}{35}$ दिन"
       ]
     },
     "correctIndex": 3,
@@ -1645,8 +1645,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (दिन ![Option](/crops/ntpc/hi_8c9db6e1b1aa.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($7\\frac{27}{35}$ days) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($7\\frac{27}{35}$ दिन) सही उत्तर है।"
     }
   },
   {
@@ -1689,21 +1689,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (12 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "पाइप P, किसी टैंक के भाग को 24 घंटे में भर सकता है, और पाइप Q उसी टैंक के भाग को 16 घंटे में भर सकता है। P और Q दोनों को 4 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अके ले चालू किया जाता है जो टैंक के पानी को 5 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?\n![Equation / Figure](/crops/ntpc/hi_728051b982d8.png)\n![Equation / Figure](/crops/ntpc/hi_6f75435dc8d4.png)"
+      "en": "Pipe P can fill $\\frac{2}{3}$ part of a tank in 24 hours, and pipe Q can fill $\\frac{2}{3}$ part of the same tank in 16 hours. Both P and Q were kept open for 4 hours, and then both were closed. Pipe R was then opened alone and it emptied the water in the tank in 5 hours. In how much time can pipes P, Q and R together fill the empty tank?",
+      "hi": "पाइप P, किसी टैंक के $\\frac{2}{3}$ भाग को 24 घंटे में भर सकता है, और पाइप Q उसी टैंक के $\\frac{2}{3}$ भाग को 16 घंटे में भर सकता है। P और Q दोनों को 4 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अकेले चालू किया जाता है जो टैंक के पानी को 5 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_70a7b888e69c.png)",
-        "![Option](/crops/ntpc/en_14f941e55f7f.png)",
-        "![Option](/crops/ntpc/en_150efbec2f61.png)",
-        "![Option](/crops/ntpc/en_1bd482b7e65e.png)"
+        "62 hours",
+        "88 hours",
+        "79 hours",
+        "72 hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_2236af9e159d.png)",
-        "घंटे ![Option](/crops/ntpc/hi_d0bb23b0103a.png)",
-        "घंटे ![Option](/crops/ntpc/hi_1aa2e76f6fb2.png)",
-        "घंटे ![Option](/crops/ntpc/hi_559af954accc.png)"
+        "62 घंटे",
+        "88 घंटे",
+        "79 घंटे",
+        "72 घंटे"
       ]
     },
     "correctIndex": 3,
@@ -1711,10 +1711,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (घंटे ![Option](/crops/ntpc/hi_559af954accc.png)) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_52c7926206be.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (72 hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (72 घंटे) सही उत्तर है।"
+    }
   },
   {
     "id": 53,
@@ -1822,8 +1821,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (12 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए।"
+      "en": "Simplify: $4\\left(\\left(\\frac{6}{4}\\right)x^2 - 25x + 12\\right) - 6(x^2 + 5x - 13)$.",
+      "hi": "निम्नलिखित को सरल कीजिए: $4\\left(\\left(\\frac{6}{4}\\right)x^2 - 25x + 12\\right) - 6(x^2 + 5x - 13)$"
     },
     "options": {
       "en": [
@@ -1846,9 +1845,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−130x + 126) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−130x + 126) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_13e2eb818cdf.png",
-    "image_hi": "/crops/ntpc/hi_f7edfdb36b47.png"
+    }
   },
   {
     "id": 57,
@@ -1956,21 +1953,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (12 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि है, तो का मान ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_eb6e3bd4659d.png)\n![Equation / Figure](/crops/ntpc/hi_db4ed8e2ef89.png)"
+      "en": "If $\\sec\\theta + \\tan\\theta = s$, then find the value of $\\frac{s^2 - 1}{s^2 + 1}$.",
+      "hi": "यदि $\\sec\\theta + \\tan\\theta = s$ है, तो $\\frac{s^2 - 1}{s^2 + 1}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_bba300438d04.png)",
-        "![Option](/crops/ntpc/en_137f13b7ffe7.png)",
-        "![Option](/crops/ntpc/en_5b3631ad8625.png)",
-        "![Option](/crops/ntpc/en_3fe58be1ceea.png)"
+        "$\\sin\\theta$",
+        "$\\sec\\theta$",
+        "$\\cot\\theta$",
+        "$\\operatorname{cosec}\\theta$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_7d33b887400d.png)",
-        "![Option](/crops/ntpc/hi_bee7b06e0587.png)",
-        "![Option](/crops/ntpc/hi_0758265b56d4.png)",
-        "![Option](/crops/ntpc/hi_7e152f6fc2b8.png)"
+        "$\\sin\\theta$",
+        "$\\sec\\theta$",
+        "$\\cot\\theta$",
+        "$\\operatorname{cosec}\\theta$"
       ]
     },
     "correctIndex": 0,
@@ -1978,10 +1975,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_52dc0f3f5d35.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($\\sin\\theta$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($\\sin\\theta$) सही उत्तर है।"
+    }
   },
   {
     "id": 61,
@@ -2122,8 +2118,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (12 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "75 का 65%, 45 के से कितना अधिक है?"
+      "en": "By how much is 65% of 75 greater than $\\frac{2}{5}$ of 45?",
+      "hi": "75 का 65%, 45 के $\\frac{2}{5}$ से कितना अधिक है?"
     },
     "options": {
       "en": [
@@ -2146,9 +2142,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (30.75) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (30.75) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_26a5837a1500.png",
-    "image_hi": "/crops/ntpc/hi_fe2b7a333a53.png"
+    }
   },
   {
     "id": 66,
@@ -2157,7 +2151,7 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (12 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "ABCD is a quadrilateral in which $AB \\parallel DC$, and E and F are the midpoints of the diagonals AC and BD, respectively. If AB = 12 cm, BC = 40 cm, DC = 30 cm, and AD = 45 cm, then what is the length of EF (in cm)?",
       "hi": "ABCD एक चतुर्भुज है जिसमें AB || DC है, तथा E और F क्रमशः विकर्णों AC और BD के मध्य बिंदु हैं। यदि AB = 12 cm, BC = 40 cm, DC = 30 cm, और AD = 45 cm, तो EF की लंबाई (cm में) कितनी है?"
     },
     "options": {
@@ -2181,8 +2175,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (9) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (9) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_36f36b805d27.png"
+    }
   },
   {
     "id": 67,
@@ -2196,15 +2189,15 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_923bb97daac9.png)",
+        "$\\frac{100}{8}$% loss",
         "50% gain",
-        "![Option](/crops/ntpc/en_b94199d3fad0.png)",
+        "$\\frac{100}{8}$% gain",
         "50% loss"
       ],
       "hi": [
-        "हानि ![Option](/crops/ntpc/hi_409758c0f16d.png)",
+        "$\\frac{100}{8}$% हानि",
         "50% लाभ",
-        "लाभ ![Option](/crops/ntpc/hi_409758c0f16d.png)",
+        "$\\frac{100}{8}$% लाभ",
         "50% हानि"
       ]
     },

@@ -1392,8 +1392,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (07 Aug 2025 Shift 2)",
     "question": {
-      "en": "Find the volume (in cm3) of a sphere having a diameter of 22 cm, giving your answer correct to two places of decimal. Take Π =.",
-      "hi": "22 cm व्यास वाले एक गोले का आयतन (cm3 में) ज्ञात कीजिए, तथा अपना उत्तर दशमलव के दो स्थानों तक सही दीजिए। Π= का उपयोग कीजिए।"
+      "en": "Find the volume (in cm³) of a sphere having a diameter of 22 cm, giving your answer correct to two places of decimal. Take $\\pi = \\frac{22}{7}$.",
+      "hi": "22 cm व्यास वाले एक गोले का आयतन (cm³ में) ज्ञात कीजिए, तथा अपना उत्तर दशमलव के दो स्थानों तक सही दीजिए। $\\pi = \\frac{22}{7}$ का उपयोग कीजिए।"
     },
     "options": {
       "en": [
@@ -1416,9 +1416,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (5577.52) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (5577.52) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_0e42c1b90e11.png",
-    "image_hi": "/crops/ntpc/hi_cc399ad3ea45.png"
+    }
   },
   {
     "id": 44,
@@ -1427,8 +1425,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (07 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "किसी वस्तु को उसके वास्तविक विक्रय मूल्य के पर बेचने पर, मानव को 24% की हानि होती है। यदि वह इस वस्तु को उसके वास्तविक विक्रय मूल्य के 88% पर बेचता है, तो लाभ प्रतिशत ज्ञात कीजिए।"
+      "en": "By selling an article at $\\frac{2}{5}$ of its actual selling price, Manav incurs a loss of 24%. If he sells it at 88% of its actual selling price, then find the profit percentage.",
+      "hi": "किसी वस्तु को उसके वास्तविक विक्रय मूल्य के $\\frac{2}{5}$ पर बेचने पर, मानव को 24% की हानि होती है। यदि वह इस वस्तु को उसके वास्तविक विक्रय मूल्य के 88% पर बेचता है, तो लाभ प्रतिशत ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1451,9 +1449,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (67.2%) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (67.2%) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_d77b1b657bf2.png",
-    "image_hi": "/crops/ntpc/hi_8cfd841be6d9.png"
+    }
   },
   {
     "id": 45,
@@ -1566,16 +1562,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_4b9809fa50f2.png)",
-        "![Option](/crops/ntpc/en_3ff8112db723.png)",
-        "![Option](/crops/ntpc/en_c8d4a3309eaa.png)",
-        "![Option](/crops/ntpc/en_29ccd49eb733.png)"
+        "$1\\frac{85}{223}$ hours",
+        "$5\\frac{85}{223}$ hours",
+        "$3\\frac{85}{223}$ hours",
+        "$9\\frac{85}{223}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_01c3aac0a900.png)",
-        "घंटे ![Option](/crops/ntpc/hi_5b7384448e62.png)",
-        "घंटे ![Option](/crops/ntpc/hi_1bc2062038c0.png)",
-        "घंटे ![Option](/crops/ntpc/hi_952046a07de0.png)"
+        "$1\\frac{85}{223}$ घंटे",
+        "$5\\frac{85}{223}$ घंटे",
+        "$3\\frac{85}{223}$ घंटे",
+        "$9\\frac{85}{223}$ घंटे"
       ]
     },
     "correctIndex": 1,
@@ -1583,8 +1579,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (घंटे ![Option](/crops/ntpc/hi_5b7384448e62.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($5\\frac{85}{223}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($5\\frac{85}{223}$ घंटे) सही उत्तर है।"
     }
   },
   {
@@ -1990,21 +1986,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (07 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि है, तो का मान कितना होगा?\n![Equation / Figure](/crops/ntpc/hi_a1b2d4ed295f.png)\n![Equation / Figure](/crops/ntpc/hi_23025813a422.png)"
+      "en": "If $\\sin\\theta = \\frac{1}{2}$, then $13 \\times \\operatorname{cosec}^2\\theta - 3 \\times \\cot^2\\theta - 15$ is equal to:",
+      "hi": "यदि $\\sin\\theta = \\frac{1}{2}$ है, तो $13 \\times \\operatorname{cosec}^2\\theta - 3 \\times \\cot^2\\theta - 15$ का मान कितना होगा?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_dc2213df54fa.png)",
-        "![Option](/crops/ntpc/en_3ef538f44615.png)",
-        "![Option](/crops/ntpc/en_c5de30b2670c.png)",
-        "![Option](/crops/ntpc/en_c62936af2b4b.png)"
+        "28",
+        "68",
+        "26",
+        "56"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_a60469b847c6.png)",
-        "![Option](/crops/ntpc/hi_1e63be347a7d.png)",
-        "![Option](/crops/ntpc/hi_24b0abed38c9.png)",
-        "![Option](/crops/ntpc/hi_6694a6c4206f.png)"
+        "28",
+        "68",
+        "26",
+        "56"
       ]
     },
     "correctIndex": 0,
@@ -2012,10 +2008,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_25a9a5b3c5b0.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (28) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (28) सही उत्तर है।"
+    }
   },
   {
     "id": 62,
@@ -2123,8 +2118,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (07 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "एक लंब वृत्‍तीय बेलन का आयतन है। यदि बेलन की त्रिज्‍या और ऊं चाई बराबर है तो बेलन की ऊं चाई ज्ञात करें। ( का प्रयोग करें)\n![Equation / Figure](/crops/ntpc/hi_b2bdf1156e73.png)\n![Equation / Figure](/crops/ntpc/hi_75ec62be5e0c.png)"
+      "en": "The volume of a right circular cylinder is 8624 cm³. If the radius and height of the cylinder are equal, then find the height of the cylinder. (Use $\\pi = \\frac{22}{7}$)",
+      "hi": "एक लंब वृत्तीय बेलन का आयतन 8624 cm³ है। यदि बेलन की त्रिज्या और ऊंचाई बराबर है तो बेलन की ऊंचाई ज्ञात करें। ($\\pi = \\frac{22}{7}$ का प्रयोग करें)"
     },
     "options": {
       "en": [
@@ -2147,8 +2142,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (14 cm) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (14 cm) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_58e68172f96b.png"
+    }
   },
   {
     "id": 66,
@@ -2289,8 +2283,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (07 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए:"
+      "en": "Simplify the following: $2\\left(\\left(\\frac{4}{2}\\right)x^2 - 21x + 15\\right) - 4(x^2 + 5x - 15)$",
+      "hi": "निम्नलिखित को सरल कीजिए: $2\\left(\\left(\\frac{4}{2}\\right)x^2 - 21x + 15\\right) - 4(x^2 + 5x - 15)$"
     },
     "options": {
       "en": [
@@ -2313,9 +2307,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (−62x + 90) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (−62x + 90) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_36e7a959cb68.png",
-    "image_hi": "/crops/ntpc/hi_1a725f1ba10e.png"
+    }
   },
   {
     "id": 71,

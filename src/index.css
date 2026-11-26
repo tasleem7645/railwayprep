@@ -44,3 +44,15 @@
 .touch-manipulation {
   touch-action: manipulation;
 }
+
+/* KaTeX typography & mobile overflow protection */
+.katex-display {
+  margin: 0.55rem 0;
+  padding: 0.25rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+.katex {
+  font-size: 1.04em;
+}

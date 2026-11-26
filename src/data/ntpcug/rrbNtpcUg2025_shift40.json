@@ -1491,21 +1491,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (01 Sep 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि और एक न्यूनकोण है, तो का मान ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_79de951483ef.png)\n![Equation / Figure](/crops/ntpc/hi_1a28edd0c367.png)\n![Equation / Figure](/crops/ntpc/hi_e9b2072d099e.png)"
+      "en": "If $\\cot^2\\theta = \\frac{1}{(1 - a^2)}$, $|a| < 1$, and $\\theta$ is an acute angle, then find the value of $(\\sec\\theta + \\operatorname{cosec}\\theta \\tan^3\\theta)$.",
+      "hi": "यदि $\\cot^2\\theta = \\frac{1}{(1 - a^2)}, |a| < 1,$ और $\\theta$ एक न्यूनकोण है, तो $(\\sec\\theta + \\operatorname{cosec}\\theta \\tan^3\\theta)$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_48d54b53a295.png)",
-        "![Option](/crops/ntpc/en_9215f4c1a706.png)",
-        "![Option](/crops/ntpc/en_d80ecfcdc711.png)",
-        "![Option](/crops/ntpc/en_c3bfa4b395a9.png)"
+        "$(a^2 - 8)$",
+        "$(4 - a^2)$",
+        "$(2 - a^{\\frac{3}{2}})$",
+        "$(2 - a^2)^{\\frac{3}{2}}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_499a40057dd5.png)",
-        "![Option](/crops/ntpc/hi_9215f4c1a706.png)",
-        "![Option](/crops/ntpc/hi_d6262b5d4978.png)",
-        "![Option](/crops/ntpc/hi_c3bfa4b395a9.png)"
+        "$(a^2 - 8)$",
+        "$(4 - a^2)$",
+        "$(2 - a^{\\frac{3}{2}})$",
+        "$(2 - a^2)^{\\frac{3}{2}}$"
       ]
     },
     "correctIndex": 3,
@@ -1513,10 +1513,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_c1f1409fc875.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($(2 - a^2)^{\\frac{3}{2}}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($(2 - a^2)^{\\frac{3}{2}}$) सही उत्तर है।"
+    }
   },
   {
     "id": 47,
@@ -1558,8 +1557,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (01 Sep 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "55 का 65%, 15 के से कितना अधिक है?"
+      "en": "By how much is 65% of 55 greater than $\\frac{2}{5}$ of 15?",
+      "hi": "55 का 65%, 15 के $\\frac{2}{5}$ से कितना अधिक है?"
     },
     "options": {
       "en": [
@@ -1582,9 +1581,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (29.75) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (29.75) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_d1edc5b84e9a.png",
-    "image_hi": "/crops/ntpc/hi_ff62d0126d8d.png"
+    }
   },
   {
     "id": 49,
@@ -1632,15 +1629,15 @@
     "options": {
       "en": [
         "68% gain",
-        "![Option](/crops/ntpc/en_237eace111ba.png)",
+        "$\\frac{100}{34}$% gain",
         "68% loss",
-        "![Option](/crops/ntpc/en_e76ca8b2b753.png)"
+        "$\\frac{100}{34}$% loss"
       ],
       "hi": [
         "68% लाभ",
-        "लाभ ![Option](/crops/ntpc/hi_64d09f05c770.png)",
+        "$\\frac{100}{34}\\%$ लाभ",
         "68% हानि",
-        "हानि ![Option](/crops/ntpc/hi_7724b069aec6.png)"
+        "$\\frac{100}{34}\\%$ हानि"
       ]
     },
     "correctIndex": 2,
@@ -1791,21 +1788,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (01 Sep 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $\\frac{5}{2} + \\left(\\frac{1}{1 + \\frac{3}{8}}\\right) - \\frac{5}{3}$ is",
+      "hi": "$\\frac{5}{2} + \\left(\\frac{1}{1 + \\frac{3}{8}}\\right) - \\frac{5}{3}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_ce01f302559a.png)",
-        "![Option](/crops/ntpc/en_0661880be37e.png)",
-        "![Option](/crops/ntpc/en_893deede74c6.png)",
-        "![Option](/crops/ntpc/en_b45d3f82a8aa.png)"
+        "$\\frac{113}{72}$",
+        "$\\frac{95}{69}$",
+        "$\\frac{106}{59}$",
+        "$\\frac{103}{66}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_42aaaa08530e.png)",
-        "![Option](/crops/ntpc/hi_dc4072c82cd8.png)",
-        "![Option](/crops/ntpc/hi_9987e35e66bc.png)",
-        "![Option](/crops/ntpc/hi_94e13055749e.png)"
+        "$\\frac{113}{72}$",
+        "$\\frac{95}{69}$",
+        "$\\frac{106}{59}$",
+        "$\\frac{103}{66}$"
       ]
     },
     "correctIndex": 3,
@@ -1813,11 +1810,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_fef3203de6d8.png",
-    "image_hi": "/crops/ntpc/hi_2d9421b9beba.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{103}{66}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{103}{66}$) सही उत्तर है।"
+    }
   },
   {
     "id": 56,
@@ -2029,16 +2024,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_02c03e38685c.png)",
-        "![Option](/crops/ntpc/en_1a7cde65d5ff.png)",
-        "![Option](/crops/ntpc/en_bcf2cbcac0eb.png)",
-        "![Option](/crops/ntpc/en_d472fee3dc66.png)"
+        "₹5,125",
+        "₹5,655",
+        "₹6,555",
+        "₹4,525"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_02c03e38685c.png)",
-        "![Option](/crops/ntpc/hi_b6e4578092ee.png)",
-        "![Option](/crops/ntpc/hi_c4bcb4ff619f.png)",
-        "![Option](/crops/ntpc/hi_f045c8084ecf.png)"
+        "₹5,125",
+        "₹5,655",
+        "₹6,555",
+        "₹4,525"
       ]
     },
     "correctIndex": 2,
@@ -2046,8 +2041,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹6,555) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹6,555) सही उत्तर है।"
     }
   },
   {
@@ -2057,8 +2052,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (01 Sep 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "किसी निश्चित मूलधन पर 2.5% वार्षिक ब्‍याज दर पर वर्ष का साधारण ब्याज ₹8,400 है। उसी मूलधन पर 8.1% की वार्षिक साधारण ब्याज दर पर वर्ष में देय मिश्रधन ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_63978d46be67.png)\n![Equation / Figure](/crops/ntpc/hi_dd4a7e04de99.png)"
+      "en": "The simple interest on a certain sum for $4\\frac{1}{5}$ years at the rate of 2.5% per annum is ₹8,400. What will be the amount payable on the same sum at the rate of 8.1% per annum simple interest in $10\\frac{1}{4}$ years?",
+      "hi": "किसी निश्चित मूलधन पर 2.5% वार्षिक ब्याज दर पर $4\\frac{1}{5}$ वर्ष का साधारण ब्याज ₹8,400 है। उसी मूलधन पर 8.1% की वार्षिक साधारण ब्याज दर पर $10\\frac{1}{4}$ वर्ष में देय मिश्रधन ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -2081,8 +2076,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹1,46,420) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹1,46,420) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_198af337d710.png"
+    }
   },
   {
     "id": 64,
@@ -2091,8 +2085,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (01 Sep 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए।"
+      "en": "Simplify: $3\\left(\\left(\\frac{4}{3}\\right)x^2 - 24x + 18\\right) - 4(x^2 + 7x - 18)$",
+      "hi": "निम्नलिखित को सरल कीजिए:\n$3\\left(\\left(\\frac{4}{3}\\right)x^2 - 24x + 18\\right) - 4(x^2 + 7x - 18)$"
     },
     "options": {
       "en": [
@@ -2115,9 +2109,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−100x + 126) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−100x + 126) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_5db7f16144f7.png",
-    "image_hi": "/crops/ntpc/hi_14e2ac0d7cb9.png"
+    }
   },
   {
     "id": 65,
@@ -2197,16 +2189,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_b1aa133076c7.png)",
-        "![Option](/crops/ntpc/en_d9045087e0c2.png)",
-        "![Option](/crops/ntpc/en_58fb151a49c4.png)",
-        "![Option](/crops/ntpc/en_ae9dfeede388.png)"
+        "$3\\frac{5}{19}$ hours",
+        "$5\\frac{5}{19}$ hours",
+        "$2\\frac{5}{19}$ hours",
+        "$11\\frac{5}{19}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_1ceffdeb428e.png)",
-        "घंटे ![Option](/crops/ntpc/hi_d6964a015d6a.png)",
-        "घंटे ![Option](/crops/ntpc/hi_a63ab807b37e.png)",
-        "घंटे ![Option](/crops/ntpc/hi_7fdb6c877b29.png)"
+        "$3\\frac{5}{19}$ घंटे",
+        "$5\\frac{5}{19}$ घंटे",
+        "$2\\frac{5}{19}$ घंटे",
+        "$11\\frac{5}{19}$ घंटे"
       ]
     },
     "correctIndex": 1,
@@ -2214,8 +2206,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (घंटे ![Option](/crops/ntpc/hi_d6964a015d6a.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($5\\frac{5}{19}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($5\\frac{5}{19}$ घंटे) सही उत्तर है।"
     }
   },
   {

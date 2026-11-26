@@ -5,6 +5,7 @@
  */
 
 import { getPyqOptions, getPyqCorrectIndex, getQuestionImage } from './pyqHelper.js';
+import { parseMathSegments } from './mathParser.js';
 
 function escapeHtml(str) {
   return String(str ?? '')
@@ -15,15 +16,21 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
+function renderMathTextHtml(str) {
+  return parseMathSegments(str)
+    .map((seg) => (seg.type === 'text' ? escapeHtml(seg.val) : seg.html))
+    .join('');
+}
+
 function renderInlineMarkdownImagesHtml(str, origin = '') {
   const txt = String(str ?? '');
-  if (!txt.includes('![')) return escapeHtml(txt);
+  if (!txt.includes('![')) return renderMathTextHtml(txt);
   const re = /!\[([^\]]*)\]\(([^)]+)\)/g;
   let out = '';
   let lastIdx = 0;
   let m;
   while ((m = re.exec(txt)) !== null) {
-    if (m.index > lastIdx) out += escapeHtml(txt.slice(lastIdx, m.index));
+    if (m.index > lastIdx) out += renderMathTextHtml(txt.slice(lastIdx, m.index));
     const rawUrl = m[2];
     const absUrl = rawUrl.startsWith('http')
       ? rawUrl
@@ -31,7 +38,7 @@ function renderInlineMarkdownImagesHtml(str, origin = '') {
     out += `<img src="${escapeHtml(absUrl)}" alt="${escapeHtml(m[1] || 'Figure')}" style="max-height:48px;vertical-align:middle;background:#fff;padding:2px 4px;border-radius:4px;border:1px solid #cbd5e1;" />`;
     lastIdx = re.lastIndex;
   }
-  if (lastIdx < txt.length) out += escapeHtml(txt.slice(lastIdx));
+  if (lastIdx < txt.length) out += renderMathTextHtml(txt.slice(lastIdx));
   return out;
 }
 
@@ -66,9 +73,9 @@ function formatTextWithTablesHtml(content, origin = '') {
 
     const tableHtml = `
       <table class="q-table">
-        <thead><tr>${head.map((c) => `<th>${escapeHtml(c)}</th>`).join('')}</tr></thead>
+        <thead><tr>${head.map((c) => `<th>${renderMathTextHtml(c)}</th>`).join('')}</tr></thead>
         <tbody>${body
-          .map((r) => `<tr>${r.map((c) => `<td>${escapeHtml(c)}</td>`).join('')}</tr>`)
+          .map((r) => `<tr>${r.map((c) => `<td>${renderMathTextHtml(c)}</td>`).join('')}</tr>`)
           .join('')}</tbody>
       </table>
     `;
@@ -148,17 +155,17 @@ export function buildPrintableShiftHtml(test, options = {}) {
 
       let solHtml = '';
       if (layoutMode === 'solved' && q.solution) {
-        const approach = q.solution.approach ? `<div><b>Verdict:</b> ${escapeHtml(q.solution.approach)}</div>` : '';
-        const concept = q.solution.keyConcept ? `<div class="sol-formula">${escapeHtml(q.solution.keyConcept)}</div>` : '';
+        const approach = q.solution.approach ? `<div><b>Verdict:</b> ${renderMathTextHtml(q.solution.approach)}</div>` : '';
+        const concept = q.solution.keyConcept ? `<div class="sol-formula">${renderMathTextHtml(q.solution.keyConcept)}</div>` : '';
         const expEn = q.solution.en || '';
         const expHi = q.solution.hi || '';
         let expText = '';
         if (langMode === 'bilingual') {
-          expText = `${expHi ? `<div><b>व्याख्या:</b> ${escapeHtml(expHi)}</div>` : ''}${expEn ? `<div><b>Explanation:</b> ${escapeHtml(expEn)}</div>` : ''}`;
+          expText = `${expHi ? `<div><b>व्याख्या:</b> ${renderMathTextHtml(expHi)}</div>` : ''}${expEn ? `<div><b>Explanation:</b> ${renderMathTextHtml(expEn)}</div>` : ''}`;
         } else if (langMode === 'hi') {
-          expText = escapeHtml(expHi || expEn);
+          expText = renderMathTextHtml(expHi || expEn);
         } else {
-          expText = escapeHtml(expEn || expHi);
+          expText = renderMathTextHtml(expEn || expHi);
         }
         solHtml = `
           <div class="sol-box">
@@ -208,6 +215,7 @@ export function buildPrintableShiftHtml(test, options = {}) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css" />
   <style>
     @page { size: A4; margin: 14mm 12mm; }
     * { box-sizing: border-box; }

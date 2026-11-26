@@ -1458,8 +1458,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (13 Aug 2025 Shift 2)",
     "question": {
-      "en": "The volume of a right circular cylinder whose height is 20 cm and circumference of the base is 44 cm is: (Take)",
-      "hi": "यदि किसी लम्ब वृत्तीय बेलन की ऊं चाई 20 cm और आधार की परिधि 44 cm है, तो उसका आयतन ज्ञात कीजिए। ( लीजिए)"
+      "en": "The volume of a right circular cylinder whose height is 20 cm and circumference of the base is 44 cm is: (Take $\\pi = \\frac{22}{7}$)",
+      "hi": "यदि किसी लम्ब वृत्तीय बेलन की ऊंचाई 20 cm और आधार की परिधि 44 cm है, तो उसका आयतन ज्ञात कीजिए। ($\\pi = \\frac{22}{7}$ लीजिए)"
     },
     "options": {
       "en": [
@@ -1482,9 +1482,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (3080 cu.cm) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (3080 cu.cm) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_433c30a06e2d.png",
-    "image_hi": "/crops/ntpc/hi_5d4dda331dc1.png"
+    }
   },
   {
     "id": 46,
@@ -1663,16 +1661,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_b34797d0865a.png)",
-        "![Option](/crops/ntpc/en_8af0fafd1435.png)",
-        "![Option](/crops/ntpc/en_a60a5e768e82.png)",
-        "![Option](/crops/ntpc/en_dc662e9d8a69.png)"
+        "$2\\frac{16}{27}$ days",
+        "$12\\frac{16}{27}$ days",
+        "$10\\frac{16}{27}$ days",
+        "$8\\frac{16}{27}$ days"
       ],
       "hi": [
-        "दिन ![Option](/crops/ntpc/hi_23e28b5359bc.png)",
-        "दिन ![Option](/crops/ntpc/hi_e054da48220e.png)",
-        "दिन ![Option](/crops/ntpc/hi_b7305f95c2ea.png)",
-        "दिन ![Option](/crops/ntpc/hi_48db905640c5.png)"
+        "$2\\frac{16}{27}$ दिन",
+        "$12\\frac{16}{27}$ दिन",
+        "$10\\frac{16}{27}$ दिन",
+        "$8\\frac{16}{27}$ दिन"
       ]
     },
     "correctIndex": 0,
@@ -1680,8 +1678,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (दिन ![Option](/crops/ntpc/hi_23e28b5359bc.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($2\\frac{16}{27}$ days) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($2\\frac{16}{27}$ दिन) सही उत्तर है।"
     }
   },
   {
@@ -2186,21 +2184,21 @@
     "subject": "Mathematics",
     "topic": "Number System, Algebra & Percentage • RRB NTPC UG 2024 (13 Aug 2025 Shift 2)",
     "question": {
-      "en": "Simplify the following.",
-      "hi": "निम्नलिखित को सरलीकृ त की‍जिए।"
+      "en": "Simplify the following: $9 \\times (19 \\times (4^2)) \\div 14 + 13 - 86$",
+      "hi": "निम्नलिखित को सरलीकृत कीजिए: $9 \\times (19 \\times (4^2)) \\div 14 + 13 - 86$"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_7fe9f52292d1.png)",
-        "![Option](/crops/ntpc/en_0eb88088fe64.png)",
-        "![Option](/crops/ntpc/en_11623132f191.png)",
-        "![Option](/crops/ntpc/en_2cd24dbfd877.png)"
+        "$\\frac{853}{7}$",
+        "$\\frac{857}{7}$",
+        "$\\frac{856}{7}$",
+        "$\\frac{852}{7}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_23eaa895b4e3.png)",
-        "![Option](/crops/ntpc/hi_0eb88088fe64.png)",
-        "![Option](/crops/ntpc/hi_5dd73b758f26.png)",
-        "![Option](/crops/ntpc/hi_1c7db1151a14.png)"
+        "$\\frac{853}{7}$",
+        "$\\frac{857}{7}$",
+        "$\\frac{856}{7}$",
+        "$\\frac{852}{7}$"
       ]
     },
     "correctIndex": 1,
@@ -2208,11 +2206,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Number System, Algebra & Percentage",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_c12fbd68918a.png",
-    "image_hi": "/crops/ntpc/hi_e25c0066e24c.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{857}{7}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{857}{7}$) सही उत्तर है।"
+    }
   },
   {
     "id": 68,
@@ -2221,21 +2217,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (13 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि है, तो का मान ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_86b95a6686bf.png)\n![Equation / Figure](/crops/ntpc/hi_51c70c69f14f.png)"
+      "en": "If $\\sin\\theta + \\operatorname{cosec}\\theta = 2$, then the value of $\\sin^{120}\\theta + \\operatorname{cosec}^{120}\\theta$ is:",
+      "hi": "यदि $\\sin\\theta + \\operatorname{cosec}\\theta = 2$ है, तो $\\sin^{120}\\theta + \\operatorname{cosec}^{120}\\theta$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_88ec470b60e7.png)",
-        "![Option](/crops/ntpc/en_fcd9668f49ce.png)",
-        "![Option](/crops/ntpc/en_b6f60b542ef9.png)",
-        "![Option](/crops/ntpc/en_c7c4877cc36e.png)"
+        "1",
+        "0",
+        "$\\frac{1}{2}$",
+        "2"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_e51bba6be40d.png)",
-        "![Option](/crops/ntpc/hi_7e81df0cd70e.png)",
-        "![Option](/crops/ntpc/hi_0cb5f9ab0127.png)",
-        "![Option](/crops/ntpc/hi_c7c4877cc36e.png)"
+        "1",
+        "0",
+        "$\\frac{1}{2}$",
+        "2"
       ]
     },
     "correctIndex": 3,
@@ -2243,10 +2239,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_b0a4dac5c2c7.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (2) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (2) सही उत्तर है।"
+    }
   },
   {
     "id": 69,
@@ -2255,21 +2250,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (13 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "Anjani can do a certain piece of work in 30 days. Anjani and Khushbu can do the same work together in 16 days, and Anjani, Khushbu and Sushmita can do the same work together in 15 days. In how many days can Anjani and Sushmita do the same work?",
       "hi": "अंजनी किसी निश्चित कार्य को 30 दिनों में पूरा कर सकती है। अंजनी और खुशबू मिलकर उसी कार्य को 16 दिनों में पूरा कर सकती हैं, तथा अंजनी, खुशबू और सुष्मिता मिलकर उसी कार्य को 15 दिनों में पूरा कर सकती हैं। अंजनी और सुष्मिता उसी कार्य को कितने दिनों में पूरा कर सकती हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_265c8e3ab724.png)",
-        "![Option](/crops/ntpc/en_ec1e25c7e715.png)",
-        "![Option](/crops/ntpc/en_307395bd3a75.png)",
-        "![Option](/crops/ntpc/en_0d86a5265f1c.png)"
+        "$\\frac{85}{4}$",
+        "$\\frac{81}{3}$",
+        "$\\frac{73}{5}$",
+        "$\\frac{80}{3}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_a57723577fd6.png)",
-        "![Option](/crops/ntpc/hi_ec1e25c7e715.png)",
-        "![Option](/crops/ntpc/hi_3375d8a90bbb.png)",
-        "![Option](/crops/ntpc/hi_0d86a5265f1c.png)"
+        "$\\frac{85}{4}$",
+        "$\\frac{81}{3}$",
+        "$\\frac{73}{5}$",
+        "$\\frac{80}{3}$"
       ]
     },
     "correctIndex": 3,
@@ -2277,10 +2272,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_ba07e106810c.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{80}{3}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{80}{3}$) सही उत्तर है।"
+    }
   },
   {
     "id": 70,

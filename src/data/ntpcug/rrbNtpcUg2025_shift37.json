@@ -1458,8 +1458,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (29 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान _____ है।"
+      "en": "The value of $\\sqrt{196} + \\sqrt{0.0361} - \\sqrt{7.29}$ is _____.",
+      "hi": "$\\sqrt{196} + \\sqrt{0.0361} - \\sqrt{7.29}$ का मान _____ है।"
     },
     "options": {
       "en": [
@@ -1482,9 +1482,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (11.49) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (11.49) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_f2dabcad8a43.png",
-    "image_hi": "/crops/ntpc/hi_2dc80eb056ef.png"
+    }
   },
   {
     "id": 46,
@@ -1531,16 +1529,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_770bebe949d5.png)",
-        "![Option](/crops/ntpc/en_13a29781e240.png)",
-        "![Option](/crops/ntpc/en_b7fdc241c114.png)",
-        "![Option](/crops/ntpc/en_066f0c851393.png)"
+        "$5\\frac{247}{505}$ hours",
+        "$10\\frac{247}{505}$ hours",
+        "$7\\frac{247}{505}$ hours",
+        "$11\\frac{247}{505}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_4ffe08f17677.png)",
-        "घंटे ![Option](/crops/ntpc/hi_98be45ed1fff.png)",
-        "घंटे ![Option](/crops/ntpc/hi_6f27a28ec283.png)",
-        "घंटे ![Option](/crops/ntpc/hi_5ab079453e20.png)"
+        "$5\\frac{247}{505}$ घंटे",
+        "$10\\frac{247}{505}$ घंटे",
+        "$7\\frac{247}{505}$ घंटे",
+        "$11\\frac{247}{505}$ घंटे"
       ]
     },
     "correctIndex": 0,
@@ -1548,8 +1546,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (घंटे ![Option](/crops/ntpc/hi_4ffe08f17677.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($5\\frac{247}{505}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($5\\frac{247}{505}$ घंटे) सही उत्तर है।"
     }
   },
   {
@@ -1658,21 +1656,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (29 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "यदि है, तो का मान ज्ञात करें।\n![Equation / Figure](/crops/ntpc/hi_f003d55e9622.png)\n![Equation / Figure](/crops/ntpc/hi_35d2801fb85d.png)"
+      "en": "If $P = \\tan\\theta + \\sec\\theta$, then the value of $\\tan\\theta$ is:",
+      "hi": "यदि $P = \\tan\\theta + \\sec\\theta$ है, तो $\\tan\\theta$ का मान ज्ञात करें।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_2fece86bd78e.png)",
-        "![Option](/crops/ntpc/en_ad8cb5f6efc5.png)",
-        "![Option](/crops/ntpc/en_74132f3a2263.png)",
-        "![Option](/crops/ntpc/en_dbd9f32831c9.png)"
+        "$\\frac{P^2 + 1}{P}$",
+        "$\\frac{P^2 - 1}{P + 1}$",
+        "$\\frac{P^2 + 1}{2P}$",
+        "$\\frac{P^2 - 1}{2P}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_5364fc9ed825.png)",
-        "![Option](/crops/ntpc/hi_52e73314708c.png)",
-        "![Option](/crops/ntpc/hi_90f8ec178ec7.png)",
-        "![Option](/crops/ntpc/hi_37f9a9dcae8c.png)"
+        "$\\frac{P^2 + 1}{P}$",
+        "$\\frac{P^2 - 1}{P + 1}$",
+        "$\\frac{P^2 + 1}{2P}$",
+        "$\\frac{P^2 - 1}{2P}$"
       ]
     },
     "correctIndex": 3,
@@ -1680,10 +1678,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_373f24b98a8b.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{P^2 - 1}{2P}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{P^2 - 1}{2P}$) सही उत्तर है।"
+    }
   },
   {
     "id": 52,
@@ -1890,21 +1887,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (29 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $\\frac{4}{3} + \\left(\\frac{1}{1 + \\frac{5}{6}}\\right) - \\frac{5}{4}$ is:",
+      "hi": "$\\frac{4}{3} + \\left(\\frac{1}{1 + \\frac{5}{6}}\\right) - \\frac{5}{4}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_77164c4161cf.png)",
-        "![Option](/crops/ntpc/en_898c35029523.png)",
-        "![Option](/crops/ntpc/en_5b5239cfb710.png)",
-        "![Option](/crops/ntpc/en_cc45b3f69224.png)"
+        "$\\frac{85}{134}$",
+        "$\\frac{89}{126}$",
+        "$\\frac{93}{125}$",
+        "$\\frac{83}{132}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_77164c4161cf.png)",
-        "![Option](/crops/ntpc/hi_f301236bc9de.png)",
-        "![Option](/crops/ntpc/hi_fa85ac27f784.png)",
-        "![Option](/crops/ntpc/hi_cc45b3f69224.png)"
+        "$\\frac{85}{134}$",
+        "$\\frac{89}{126}$",
+        "$\\frac{93}{125}$",
+        "$\\frac{83}{132}$"
       ]
     },
     "correctIndex": 3,
@@ -1912,11 +1909,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_de42f5280c2d.png",
-    "image_hi": "/crops/ntpc/hi_babd78eda001.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{83}{132}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{83}{132}$) सही उत्तर है।"
+    }
   },
   {
     "id": 59,
@@ -2030,14 +2025,14 @@
     "options": {
       "en": [
         "60% gain",
-        "![Option](/crops/ntpc/en_0dec9d53a296.png)",
-        "![Option](/crops/ntpc/en_bf12b4874107.png)",
+        "$\\frac{100}{6}$% gain",
+        "$\\frac{100}{6}$% loss",
         "60% loss"
       ],
       "hi": [
         "60% लाभ",
-        "% लाभ ![Option](/crops/ntpc/hi_150040bb7c5d.png)",
-        "% हानि ![Option](/crops/ntpc/hi_5826671bc4c5.png)",
+        "$\\frac{100}{6}$ % लाभ",
+        "$\\frac{100}{6}$ % हानि",
         "60% हानि"
       ]
     },
@@ -2057,21 +2052,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (29 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "8 cm त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात कीजिए। ( का उपयोग कीजिए)"
+      "en": "What is the surface area of a sphere of radius 8 cm? (use $\\pi = 3.14$)",
+      "hi": "8 cm त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात कीजिए। ($\\pi = 3.14$ का उपयोग कीजिए)"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_bc2f168307c4.png)",
-        "![Option](/crops/ntpc/en_8d8a6094d4ef.png)",
-        "![Option](/crops/ntpc/en_ca3ea33de5b4.png)",
-        "![Option](/crops/ntpc/en_c6bfcf25d47e.png)"
+        "800.08 $\\text{cm}^2$",
+        "801.18 $\\text{cm}^2$",
+        "805.54 $\\text{cm}^2$",
+        "803.84 $\\text{cm}^2$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_d7f82dc86c18.png)",
-        "![Option](/crops/ntpc/hi_7d9392d91651.png)",
-        "![Option](/crops/ntpc/hi_ca3ea33de5b4.png)",
-        "![Option](/crops/ntpc/hi_cad12041331e.png)"
+        "800.08 $\\text{cm}^2$",
+        "801.18 $\\mathrm{cm}^2$",
+        "805.54 $\\text{cm}^2$",
+        "803.84 $\\text{cm}^2$"
       ]
     },
     "correctIndex": 3,
@@ -2079,11 +2074,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_7acc09d9405a.png",
-    "image_hi": "/crops/ntpc/hi_9db0763454f9.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (803.84 $\\text{cm}^2$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (803.84 $\\text{cm}^2$) सही उत्तर है।"
+    }
   },
   {
     "id": 64,

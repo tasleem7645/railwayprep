@@ -1392,21 +1392,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "पाइप P, किसी टैंक के भाग को 15 घंटे में भर सकता है, और पाइप Q उसी टैंक के भाग को 25 घंटे में भर सकता है। P और Q दोनों को 2 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अके ले चालू किया जाता है जो टैंक के पानी को 5 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?\n![Equation / Figure](/crops/ntpc/hi_09b81f344de1.png)\n![Equation / Figure](/crops/ntpc/hi_8b5ba5b36b74.png)"
+      "en": "Pipe P can fill $\\frac{3}{4}$ part of a tank in 15 hours, and pipe Q can fill $\\frac{5}{6}$ part of the same tank in 25 hours. Both P and Q were kept open for 2 hours, then both were closed. Then pipe R alone was opened and it emptied the water in the tank in 5 hours. In how much time can pipes P, Q and R together fill the empty tank?",
+      "hi": "पाइप P, किसी टैंक के $\\frac{3}{4}$ भाग को 15 घंटे में भर सकता है, और पाइप Q उसी टैंक के $\\frac{5}{6}$ भाग को 25 घंटे में भर सकता है। P और Q दोनों को 2 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अकेले चालू किया जाता है जो टैंक के पानी को 5 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_ff2297d23060.png)",
-        "![Option](/crops/ntpc/en_a76dbe4c5d02.png)",
-        "![Option](/crops/ntpc/en_8d61e7d95443.png)",
-        "![Option](/crops/ntpc/en_09cb2742c99d.png)"
+        "20 hours",
+        "22 hours",
+        "17 hours",
+        "31 hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_a7fe8d6f4070.png)",
-        "घंटे ![Option](/crops/ntpc/hi_91e2a5623ac7.png)",
-        "घंटे ![Option](/crops/ntpc/hi_9091a9bbeab2.png)",
-        "घंटे ![Option](/crops/ntpc/hi_bf0b860200ea.png)"
+        "20 घंटे",
+        "22 घंटे",
+        "17 घंटे",
+        "31 घंटे"
       ]
     },
     "correctIndex": 0,
@@ -1414,10 +1414,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (घंटे ![Option](/crops/ntpc/hi_a7fe8d6f4070.png)) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_9edcdd8a39f5.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (20 hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (20 घंटे) सही उत्तर है।"
+    }
   },
   {
     "id": 44,
@@ -1558,8 +1557,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान _____ है।"
+      "en": "The value of $\\sqrt{400} + \\sqrt{0.0225} - \\sqrt{9}$ is ____.",
+      "hi": "$\\sqrt{400} + \\sqrt{0.0225} - \\sqrt{9}$ का मान _____ है।"
     },
     "options": {
       "en": [
@@ -1582,9 +1581,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (17.15) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (17.15) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_00270f46ebe2.png",
-    "image_hi": "/crops/ntpc/hi_fdd3823db8df.png"
+    }
   },
   {
     "id": 49,
@@ -1593,21 +1590,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "एक इमारत के शिखर पर एक ध्वजदंड खड़ा है। इमारत के पाद से 30 m की दूरी पर, ध्वजदंड के शिखर का उन्नयन कोण 60° है और इमारत के शिखर का उन्नयन कोण 30° है। ध्वजदंड की ऊँ चाई (मीटर में) ज्ञात कीजिए।"
+      "en": "A flagstaff stands on the top of a building. At a distance of 30 m away from the foot of the building, the angle of elevation of the top of the flagstaff is 60° and the angle of elevation of the top of the building is 30°. Find the height of the flagstaff (in metres).",
+      "hi": "एक इमारत के शिखर पर एक ध्वजदंड खड़ा है। इमारत के पाद से 30 m की दूरी पर, ध्वजदंड के शिखर का उन्नयन कोण 60° है और इमारत के शिखर का उन्नयन कोण 30° है। ध्वजदंड की ऊँचाई (मीटर में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_9e82098dbf2c.png)",
-        "![Option](/crops/ntpc/en_3fee382a4b45.png)",
-        "![Option](/crops/ntpc/en_1e14a3b1d05b.png)",
-        "![Option](/crops/ntpc/en_0cd0b21ba963.png)"
+        "$60\\sqrt{3}$",
+        "$40\\sqrt{3}$",
+        "$20\\sqrt{3}$",
+        "$30\\sqrt{3}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_a243b06a2a0c.png)",
-        "![Option](/crops/ntpc/hi_3faed9c75b85.png)",
-        "![Option](/crops/ntpc/hi_f52688e732fb.png)",
-        "![Option](/crops/ntpc/hi_461568988d0d.png)"
+        "$60\\sqrt{3}$",
+        "$40\\sqrt{3}$",
+        "$20\\sqrt{3}$",
+        "$30\\sqrt{3}$"
       ]
     },
     "correctIndex": 2,
@@ -1615,10 +1612,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_2b215eecd770.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($20\\sqrt{3}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($20\\sqrt{3}$) सही उत्तर है।"
+    }
   },
   {
     "id": 50,
@@ -1660,21 +1656,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "ABCD is a trapezium in which BC $\\parallel$ AD and AC = CD. If $\\angle$ABC = 54° and $\\angle$BAC = 60°, then what is the measure of $\\angle$ACD (in degree)?",
       "hi": "ABCD एक समलम्ब है जिसमें BC ∥ AD और AC = CD है। यदि ∠ABC = 54° और ∠BAC = 60° है, तो ∠ACD की माप (डिग्री में) कितनी है?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_57a60739bad4.png)",
-        "![Option](/crops/ntpc/en_906a44e300e4.png)",
-        "![Option](/crops/ntpc/en_1478918e3c9c.png)",
-        "![Option](/crops/ntpc/en_9dfc428d7fcd.png)"
+        "181",
+        "184",
+        "48",
+        "171"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_4ad1d644f962.png)",
-        "![Option](/crops/ntpc/hi_1bad9d89f771.png)",
-        "![Option](/crops/ntpc/hi_e75612c5c9f8.png)",
-        "![Option](/crops/ntpc/hi_e5b2a40e553e.png)"
+        "181",
+        "184",
+        "48",
+        "171"
       ]
     },
     "correctIndex": 2,
@@ -1682,10 +1678,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_1b716f482787.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (48) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (48) सही उत्तर है।"
+    }
   },
   {
     "id": 52,
@@ -1832,15 +1827,15 @@
     "options": {
       "en": [
         "[Option Image Unavailable in Official PDF]",
-        "![Option](/crops/ntpc/en_eb24e5babb7c.png)",
-        "![Option](/crops/ntpc/en_29e4d25ddf57.png)",
-        "![Option](/crops/ntpc/en_f52fa66c4c09.png)"
+        "$\\frac{127}{312}$",
+        "$\\frac{133}{312}$",
+        "$\\frac{137}{312}$"
       ],
       "hi": [
         "[आधिकारिक PDF में छवि अनुपलब्ध]",
-        "![Option](/crops/ntpc/hi_0ddf74133fe6.png)",
-        "![Option](/crops/ntpc/hi_8750564765f3.png)",
-        "![Option](/crops/ntpc/hi_5de2166ff405.png)"
+        "$\\frac{127}{312}$",
+        "$\\frac{133}{312}$",
+        "$\\frac{137}{312}$"
       ]
     },
     "correctIndex": 1,
@@ -1848,8 +1843,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{127}{312}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{127}{312}$) सही उत्तर है।"
     }
   },
   {
@@ -1959,7 +1954,7 @@
     "topic": "Ratio, Proportion & Partnership • RRB NTPC UG 2024 (11 Aug 2025 Shift 1)",
     "question": {
       "en": "If 39% of first number is equal to eight-ninths of second number, what is the ratio of first number to the second number?",
-      "hi": "यदि पहली संख्या का 39% दूसरी संख्या के वें भाग के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात कितना है?"
+      "hi": "यदि पहली संख्या का 39% दूसरी संख्या के $\\frac{8}{9}$ वें भाग के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात कितना है?"
     },
     "options": {
       "en": [
@@ -1982,8 +1977,7 @@
       "keyConcept": "Ratio, Proportion & Partnership",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (800 : 351) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (800 : 351) सही उत्तर है।"
-    },
-    "image_hi": "/crops/ntpc/hi_d6c494ca8a7f.png"
+    }
   },
   {
     "id": 61,
@@ -2025,8 +2019,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "किसी निश्चित मूलधन पर 7.7% वार्षिक ब्‍याज दर पर वर्ष का साधारण ब्याज ₹1,188 है। उसी मूलधन पर 8.5% वार्षिक साधारण ब्याज दर पर वर्ष में देय मिश्रधन ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_dc8b6896e547.png)\n![Equation / Figure](/crops/ntpc/hi_9444878f7531.png)"
+      "en": "The simple interest on a certain sum for $2\\frac{6}{7}$ years at the rate of 7.7% per annum is ₹1,188. What will be the amount payable on the same sum at the rate of 8.5% per annum simple interest in $4\\frac{5}{9}$ years?",
+      "hi": "किसी निश्चित मूलधन पर 7.7% वार्षिक ब्याज दर पर $2\\frac{6}{7}$ वर्ष का साधारण ब्याज ₹1,188 है। उसी मूलधन पर 8.5% वार्षिक साधारण ब्याज दर पर $4\\frac{5}{9}$ वर्ष में देय मिश्रधन ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -2049,8 +2043,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹7,491) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹7,491) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_4cb95d86f2cc.png"
+    }
   },
   {
     "id": 63,
@@ -2059,7 +2052,7 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (11 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "Find the volume of the sphere whose diameter is 30 cm. (Use $\\pi = 3.14$.)",
       "hi": "30 cm व्यास वाले गोले का आयतन ज्ञात कीजिए। (π = 3.14 का उपयोग कीजिए।)"
     },
     "options": {
@@ -2083,8 +2076,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (14,130 cm3) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (14,130 cm3) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_07190368cd2a.png"
+    }
   },
   {
     "id": 64,
@@ -2258,8 +2250,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (11 Aug 2025 Shift 1)",
     "question": {
-      "en": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle with sides 249 m and 217 m.",
-      "hi": "उस सबसे बड़े वृत्त की परिधि (m में) ज्ञात कीजिए जिसे 249 m और 217 m भुजाओं वाले एक आयत के अंदर पूर्णतः खींचा जा सकता है। ( लीजिए)"
+      "en": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle with sides 249 m and 217 m. (Take $\\pi = \\frac{22}{7}$.)",
+      "hi": "उस सबसे बड़े वृत्त की परिधि (m में) ज्ञात कीजिए जिसे 249 m और 217 m भुजाओं वाले एक आयत के अंदर पूर्णतः खींचा जा सकता है। ($\\pi = \\frac{22}{7}$ लीजिए)"
     },
     "options": {
       "en": [
@@ -2282,9 +2274,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (682) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (682) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_12b14e2e5d1e.png",
-    "image_hi": "/crops/ntpc/hi_0bfc404f1c52.png"
+    }
   },
   {
     "id": 70,
@@ -2298,16 +2288,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_46dee55bcfd2.png)",
-        "![Option](/crops/ntpc/en_e92b82c8e61c.png)",
-        "![Option](/crops/ntpc/en_2234a91e18a1.png)",
-        "![Option](/crops/ntpc/en_31be30411223.png)"
+        "66%",
+        "67%",
+        "69%",
+        "72%"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_90e8c6299c8a.png)",
-        "![Option](/crops/ntpc/hi_608929beb046.png)",
-        "![Option](/crops/ntpc/hi_7ae9cf1f0c57.png)",
-        "![Option](/crops/ntpc/hi_6f24dcd2da9e.png)"
+        "66%",
+        "67%",
+        "69%",
+        "72%"
       ]
     },
     "correctIndex": 1,
@@ -2315,8 +2305,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (67%) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (67%) सही उत्तर है।"
     }
   },
   {

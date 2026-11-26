@@ -1326,8 +1326,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "किसी वस्तु को उसके वास्तविक विक्रय मूल्य के पर बेचने पर, हितेश को 25% की हानि होती है। यदि वह इस वस्तु को उसके वास्तविक विक्रय मूल्य के 58% पर बेचता है, तो लाभ प्रतिशत ज्ञात कीजिए।"
+      "en": "By selling an article at $\\frac{5}{14}$ of its actual selling price, Hitesh incurs a loss of 25%. If he sells this article at 58% of its actual selling price, then find the profit percentage.",
+      "hi": "किसी वस्तु को उसके वास्तविक विक्रय मूल्य के $\\frac{5}{14}$ पर बेचने पर, हितेश को 25% की हानि होती है। यदि वह इस वस्तु को उसके वास्तविक विक्रय मूल्य के 58% पर बेचता है, तो लाभ प्रतिशत ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1350,9 +1350,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (21.8%) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (21.8%) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_3127a18de213.png",
-    "image_hi": "/crops/ntpc/hi_1696bb732266.png"
+    }
   },
   {
     "id": 42,
@@ -1460,8 +1458,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "75 का 65%, 45 के से कितना अधिक है?"
+      "en": "By how much is 65% of 75 greater than $\\frac{3}{5}$ of 45?",
+      "hi": "75 का 65%, 45 के $\\frac{3}{5}$ से कितना अधिक है?"
     },
     "options": {
       "en": [
@@ -1484,9 +1482,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (21.75) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (21.75) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_33ffaa006e7b.png",
-    "image_hi": "/crops/ntpc/hi_9dfb9e70363c.png"
+    }
   },
   {
     "id": 46,
@@ -1561,15 +1557,15 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "पाइप P एक टैंक का भाग 12 घंटे में भर सकता है और पाइप Q उसी टैंक का भाग 30 घंटे में भर सकता है। P और Q दोनों को 5 घंटे तक खुला रखा गया, फिर दोनों को बंद कर दिया गया। फिर अके ले पाइप R को खोला गया और इसके द्वारा टैंक का पूरा पानी 8 घंटे में खाली हो गया। पाइप P, Q और R एक साथ खाली टैंक को कितने समय में भर सकते हैं?\n![Equation / Figure](/crops/ntpc/hi_4759146909e9.png)\n![Equation / Figure](/crops/ntpc/hi_87c615c4a653.png)"
+      "en": "Pipe P can fill $\\frac{4}{5}$ part of a tank in 12 hours and pipe Q can fill $\\frac{2}{7}$ part of the same tank in 30 hours. Both P and Q were kept open for 5 hours, then both were closed. Then pipe R alone was opened and it emptied the water in the tank in 8 hours. Pipes P, Q and R together can fill the empty tank in:",
+      "hi": "पाइप P एक टैंक का $\\frac{4}{5}$ भाग 12 घंटे में भर सकता है और पाइप Q उसी टैंक का $\\frac{2}{7}$ भाग 30 घंटे में भर सकता है। P और Q दोनों को 5 घंटे तक खुला रखा गया, फिर दोनों को बंद कर दिया गया। फिर अकेले पाइप R को खोला गया और इसके द्वारा टैंक का पूरा पानी 8 घंटे में खाली हो गया। पाइप P, Q और R एक साथ खाली टैंक को कितने समय में भर सकते हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_8d61e7d95443.png)",
-        "![Option](/crops/ntpc/en_448475324cb9.png)",
-        "![Option](/crops/ntpc/en_88a3958c7d66.png)",
-        "![Option](/crops/ntpc/en_100ae5ee0616.png)"
+        "17 hours",
+        "35 hours",
+        "43 hours",
+        "18 hours"
       ],
       "hi": [
         "17 घंटे",
@@ -1583,10 +1579,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (35 hours) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (35 घंटे) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_aa628f36a62d.png"
+    }
   },
   {
     "id": 49,
@@ -1595,21 +1590,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $\\frac{5}{3} + \\left(\\frac{1}{1 + \\frac{4}{9}}\\right) - \\frac{2}{5}$ is:",
+      "hi": "$\\frac{5}{3} + \\left(\\frac{1}{1 + \\frac{4}{9}}\\right) - \\frac{2}{5}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_67751ba7b413.png)",
-        "![Option](/crops/ntpc/en_a513e301e31c.png)",
-        "![Option](/crops/ntpc/en_feadb1655e79.png)",
-        "![Option](/crops/ntpc/en_9abde38c479d.png)"
+        "$\\frac{384}{191}$",
+        "$\\frac{380}{197}$",
+        "$\\frac{379}{201}$",
+        "$\\frac{382}{195}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_67751ba7b413.png)",
-        "![Option](/crops/ntpc/hi_bdf225238bef.png)",
-        "![Option](/crops/ntpc/hi_9a4919779052.png)",
-        "![Option](/crops/ntpc/hi_42a563d37882.png)"
+        "$\\frac{384}{191}$",
+        "$\\frac{380}{197}$",
+        "$\\frac{379}{201}$",
+        "$\\frac{382}{195}$"
       ]
     },
     "correctIndex": 3,
@@ -1617,11 +1612,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_9b2b9a09291d.png",
-    "image_hi": "/crops/ntpc/hi_e78156fe3c9f.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{382}{195}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{382}{195}$) सही उत्तर है।"
+    }
   },
   {
     "id": 50,
@@ -1795,21 +1788,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्न को सरल कीजिए:"
+      "en": "Simplify: $\\frac{(\\tan^2\\beta \\operatorname{cosec}^2\\beta)}{(1 + \\tan^2\\beta)}$",
+      "hi": "निम्न को सरल कीजिए: $\\frac{(\\tan^2 \\beta \\operatorname{cosec}^2 \\beta)}{(1 + \\tan^2 \\beta)}$"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_687274200f11.png)",
-        "![Option](/crops/ntpc/en_243909089453.png)",
-        "![Option](/crops/ntpc/en_e1160859dc27.png)",
-        "![Option](/crops/ntpc/en_828f8b18c99e.png)"
+        "$\\sec \\beta$",
+        "-1",
+        "1",
+        "$\\tan\\beta$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_1cd44b791616.png)",
-        "![Option](/crops/ntpc/hi_46a86ae043cf.png)",
-        "![Option](/crops/ntpc/hi_e1160859dc27.png)",
-        "![Option](/crops/ntpc/hi_1df233b842cf.png)"
+        "$\\sec \\beta$",
+        "-1",
+        "1",
+        "$\\tan \\beta$"
       ]
     },
     "correctIndex": 2,
@@ -1817,11 +1810,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_b0d24c6be05c.png",
-    "image_hi": "/crops/ntpc/hi_f3a79c7445ba.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (1) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (1) सही उत्तर है।"
+    }
   },
   {
     "id": 56,
@@ -1868,16 +1859,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_8f952812252d.png)",
-        "![Option](/crops/ntpc/en_b1dd8fb9edc0.png)",
-        "![Option](/crops/ntpc/en_e179516f800e.png)",
-        "![Option](/crops/ntpc/en_f1cdb26cae88.png)"
+        "$\\frac{735}{37}$% profit",
+        "725% loss",
+        "$\\frac{725}{37}$% profit",
+        "$\\frac{725}{37}$% loss"
       ],
       "hi": [
-        "लाभ ![Option](/crops/ntpc/hi_6e2f817743fe.png)",
-        "हानि ![Option](/crops/ntpc/hi_51bc271b65b8.png)",
-        "लाभ ![Option](/crops/ntpc/hi_479ae7311abd.png)",
-        "हानि ![Option](/crops/ntpc/hi_8280a0ecaff4.png)"
+        "$\\frac{735}{37}\\%$ लाभ",
+        "725% हानि",
+        "$\\frac{725}{37}$% लाभ",
+        "$\\frac{725}{37}\\%$ हानि"
       ]
     },
     "correctIndex": 3,
@@ -1885,8 +1876,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (हानि ![Option](/crops/ntpc/hi_8280a0ecaff4.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{725}{37}$% loss) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{725}{37}\\%$ हानि) सही उत्तर है।"
     }
   },
   {
@@ -1896,8 +1887,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $7^2 + \\sqrt{8^2} - 5\\sqrt{16} - 14$ is:",
+      "hi": "$7^2 + \\sqrt{8^2} - 5\\sqrt{16} - 14$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1920,9 +1911,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (23) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (23) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_4c61f717c60c.png",
-    "image_hi": "/crops/ntpc/hi_cb951c45cc06.png"
+    }
   },
   {
     "id": 59,
@@ -2030,8 +2019,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $\\sqrt{121} + \\sqrt{0.0225} - \\sqrt{5.76}$ is:",
+      "hi": "$\\sqrt{121} + \\sqrt{0.0225} - \\sqrt{5.76}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -2054,9 +2043,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (8.75) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (8.75) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_505049f06c79.png",
-    "image_hi": "/crops/ntpc/hi_1a09159fa1b5.png"
+    }
   },
   {
     "id": 63,
@@ -2070,16 +2057,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_608886f70d12.png)",
-        "![Option](/crops/ntpc/en_29bf452cf8b9.png)",
-        "![Option](/crops/ntpc/en_595bdf4f7873.png)",
-        "![Option](/crops/ntpc/en_6cd3f6684a30.png)"
+        "$9\\frac{371}{929}$ hours",
+        "$7\\frac{371}{929}$ hours",
+        "$5\\frac{371}{929}$ hours",
+        "$4\\frac{371}{929}$ hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_43d04c3b3971.png)",
-        "घंटे ![Option](/crops/ntpc/hi_01faa479f960.png)",
-        "घंटे ![Option](/crops/ntpc/hi_3fb2dd0202b4.png)",
-        "घंटे ![Option](/crops/ntpc/hi_da2d7a350c1d.png)"
+        "$9\\frac{371}{929}$ घंटे",
+        "$7\\frac{371}{929}$ घंटे",
+        "$5\\frac{371}{929}$ घंटे",
+        "$4\\frac{371}{929}$ घंटे"
       ]
     },
     "correctIndex": 2,
@@ -2087,8 +2074,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (घंटे ![Option](/crops/ntpc/hi_3fb2dd0202b4.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($5\\frac{371}{929}$ hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($5\\frac{371}{929}$ घंटे) सही उत्तर है।"
     }
   },
   {
@@ -2136,16 +2123,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_93524fef99e1.png)",
-        "![Option](/crops/ntpc/en_6c988c435685.png)",
-        "![Option](/crops/ntpc/en_9f39b7a83ae2.png)",
-        "![Option](/crops/ntpc/en_191410e862d5.png)"
+        "67.3 $\\pi$ cubic metres",
+        "68.6 $\\pi$ cubic metres",
+        "65.4 $\\pi$ cubic metres",
+        "63.7 $\\pi$ cubic metres"
       ],
       "hi": [
-        "घन मीटर ![Option](/crops/ntpc/hi_2e9d2858c881.png)",
-        "घन मीटर ![Option](/crops/ntpc/hi_420c9c28652a.png)",
-        "घन मीटर ![Option](/crops/ntpc/hi_729bc71fda92.png)",
-        "घन मीटर ![Option](/crops/ntpc/hi_c62638211872.png)"
+        "$67.3\\pi$ घन मीटर",
+        "68.6 $\\pi$ घन मीटर",
+        "$65.4\\pi$ घन मीटर",
+        "$63.7\\pi$ घन मीटर"
       ]
     },
     "correctIndex": 3,
@@ -2153,8 +2140,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Geometry & Mensuration",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (घन मीटर ![Option](/crops/ntpc/hi_c62638211872.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (63.7 $\\pi$ cubic metres) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($63.7\\pi$ घन मीटर) सही उत्तर है।"
     }
   },
   {
@@ -2263,8 +2250,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (28 Aug 2025 Shift 3)",
     "question": {
-      "en": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle whose dimensions are given as 63 m and 116 m.",
-      "hi": "उस सबसे बड़े वृत्त की परिधि (m में) ज्ञात कीजिए जिसे 63 m और 116 m विमाओं वाले एक आयत के अंदर पूर्णतः खींचा जा सकता है। ( लीजिए)"
+      "en": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle whose dimensions are given as 63 m and 116 m. (Take $\\pi = \\frac{22}{7}$)",
+      "hi": "उस सबसे बड़े वृत्त की परिधि (m में) ज्ञात कीजिए जिसे 63 m और 116 m विमाओं वाले एक आयत के अंदर पूर्णतः खींचा जा सकता है। ($\\pi = \\frac{22}{7}$ लीजिए)"
     },
     "options": {
       "en": [
@@ -2287,9 +2274,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (198) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (198) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_193ca042e1f3.png",
-    "image_hi": "/crops/ntpc/hi_8c65a39f0790.png"
+    }
   },
   {
     "id": 70,

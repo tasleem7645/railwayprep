@@ -8,6 +8,8 @@ import confetti from 'canvas-confetti';
 import { DAILY_QUIZZES } from '../data/dailyQuizzesData';
 import { notifyStudyStateChanged } from '../utils/studySyncEvents';
 import { recordMockTopicStats } from '../utils/topicPerformance';
+import QuestionContentRenderer, { OptionContentRenderer, MathText } from './QuestionContentRenderer';
+import { getQuestionImage } from '../utils/pyqHelper';
 
 export default function DailyQuizView({ onOpenPassPro, onOpenMistakes, onRecordStudy, studyStreak = null }) {
   const [activeTab, setActiveTab] = useState('today'); // 'today' | 'archive' | 'leaderboard'
@@ -609,9 +611,11 @@ function RapidQuizRunnerModal({ quiz, onClose, onFinishQuiz, onOpenMistakes }) {
                   <span className="font-bold text-teal-400">Question {currentIndex + 1} of {questions.length}</span>
                   <span>+1.00 / -0.33</span>
                 </div>
-                <p className="text-sm sm:text-base font-semibold text-slate-100 leading-relaxed">
-                  {lang === 'hi' ? currentQ.question?.hi : currentQ.question?.en}
-                </p>
+                <QuestionContentRenderer
+                  text={lang === 'hi' ? (currentQ.question?.hi || currentQ.question?.en) : (currentQ.question?.en || currentQ.question?.hi)}
+                  image={getQuestionImage(currentQ, lang)}
+                  className="text-sm sm:text-base font-semibold text-slate-100 leading-relaxed"
+                />
               </div>
 
               {/* Options */}
@@ -641,7 +645,7 @@ function RapidQuizRunnerModal({ quiz, onClose, onFinishQuiz, onOpenMistakes }) {
                       }`}>
                         {String.fromCharCode(65 + optIdx)}
                       </div>
-                      <span className="flex-1 leading-relaxed">{opt}</span>
+                      <span className="flex-1 leading-relaxed"><OptionContentRenderer value={opt} /></span>
                       {isSubmitted && isCorrectOpt && <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />}
                       {isSubmitted && isSelected && !isCorrectOpt && <XCircle className="w-4 h-4 text-rose-400 shrink-0" />}
                     </div>
@@ -653,9 +657,9 @@ function RapidQuizRunnerModal({ quiz, onClose, onFinishQuiz, onOpenMistakes }) {
               {isSubmitted && currentQ.solution && (
                 <div className="p-4 rounded-xl bg-slate-950 border border-teal-500/30 text-xs space-y-1">
                   <div className="font-bold text-teal-400">💡 विस्तृत समाधान (Solution):</div>
-                  <p className="text-slate-300 leading-relaxed">
-                    {lang === 'hi' ? currentQ.solution?.hi : currentQ.solution?.en}
-                  </p>
+                  <div className="text-slate-300 leading-relaxed">
+                    <MathText text={lang === 'hi' ? (currentQ.solution?.hi || currentQ.solution?.en) : (currentQ.solution?.en || currentQ.solution?.hi)} />
+                  </div>
                 </div>
               )}
             </>

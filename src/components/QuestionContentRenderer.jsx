@@ -1,15 +1,52 @@
 import React, { useState } from 'react';
+import 'katex/dist/katex.min.css';
 import { X, ZoomIn } from 'lucide-react';
+import { parseMathSegments } from '../utils/mathParser';
 
 const INLINE_IMG_RE = /!\[([^\]]*)\]\(([^)]+)\)/g;
 
 /**
- * Renders an option value that may contain plain text, inline figure/fraction PNGs (`![alt](url)`), or both.
+ * Renders text with inline/block KaTeX expressions (`$$...$$` or verified math `$...$`).
+ */
+export function MathText({ text = '', className = '' }) {
+  const str = text == null ? '' : String(text);
+  const segments = parseMathSegments(str);
+  if (segments.length === 1 && segments[0].type === 'text') {
+    return className ? <span className={className}>{segments[0].val}</span> : <>{segments[0].val}</>;
+  }
+
+  const body = segments.map((seg, i) =>
+    seg.type === 'text' ? (
+      <React.Fragment key={i}>{seg.val}</React.Fragment>
+    ) : seg.isBlock ? (
+      <span
+        key={i}
+        className="block my-1.5 overflow-x-auto max-w-full"
+        dangerouslySetInnerHTML={{ __html: seg.html }}
+      />
+    ) : (
+      <span
+        key={i}
+        className="inline-block align-middle mx-0.5"
+        dangerouslySetInnerHTML={{ __html: seg.html }}
+      />
+    )
+  );
+
+  return className ? <span className={className}>{body}</span> : <>{body}</>;
+}
+
+/**
+ * Renders an option value that may contain plain text, KaTeX math, inline figure/fraction PNGs (`![alt](url)`), or both.
  */
 export function OptionContentRenderer({ value = '' }) {
   const str = value == null ? '' : String(value);
   if (!str.includes('![')) {
-    return <span className="break-words">{str}</span>;
+    return (
+      <span className="break-words">
+        <MathText text={str} />
+      </span>
+    );
   }
 
   const parts = [];
@@ -31,7 +68,9 @@ export function OptionContentRenderer({ value = '' }) {
     <span className="inline-flex flex-wrap items-center gap-2 break-words">
       {parts.map((p, idx) =>
         p.type === 'text' ? (
-          <span key={idx}>{p.val}</span>
+          <span key={idx}>
+            <MathText text={p.val} />
+          </span>
         ) : (
           <img
             key={idx}
@@ -48,7 +87,7 @@ export function OptionContentRenderer({ value = '' }) {
 }
 
 /**
- * Renders question text, markdown tables, inline math/figure PNGs, and standalone diagrams with click-to-zoom.
+ * Renders question text, KaTeX formulas, markdown tables, inline math/figure PNGs, and standalone diagrams with click-to-zoom.
  */
 export default function QuestionContentRenderer({ text = '', image = null, className = '' }) {
   const [zoomSrc, setZoomSrc] = useState(null);
@@ -57,7 +96,11 @@ export default function QuestionContentRenderer({ text = '', image = null, class
 
   const renderLineWithInlineImages = (lineStr, keyPrefix) => {
     if (!lineStr.includes('![')) {
-      return <p key={keyPrefix}>{lineStr}</p>;
+      return (
+        <div key={keyPrefix} className="break-words">
+          <MathText text={lineStr} />
+        </div>
+      );
     }
     const parts = [];
     let lastIdx = 0;
@@ -77,7 +120,9 @@ export default function QuestionContentRenderer({ text = '', image = null, class
       <div key={keyPrefix} className="flex flex-wrap items-center gap-2 leading-relaxed">
         {parts.map((p, idx) =>
           p.type === 'text' ? (
-            <span key={idx}>{p.val}</span>
+            <span key={idx}>
+              <MathText text={p.val} />
+            </span>
           ) : (
             <button
               key={idx}
@@ -137,7 +182,7 @@ export default function QuestionContentRenderer({ text = '', image = null, class
                 <tr>
                   {headerRow.map((th, i) => (
                     <th key={i} className="px-4 py-2.5 border-r last:border-r-0 border-slate-700/80 uppercase tracking-wider">
-                      {th}
+                      <MathText text={th} />
                     </th>
                   ))}
                 </tr>
@@ -147,7 +192,7 @@ export default function QuestionContentRenderer({ text = '', image = null, class
                   <tr key={rIdx} className={rIdx % 2 === 0 ? 'bg-slate-950/40' : 'bg-slate-900/60'}>
                     {tr.map((td, cIdx) => (
                       <td key={cIdx} className="px-4 py-2 border-r last:border-r-0 border-slate-800 font-mono">
-                        {td}
+                        <MathText text={td} />
                       </td>
                     ))}
                   </tr>

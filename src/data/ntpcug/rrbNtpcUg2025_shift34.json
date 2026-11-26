@@ -1326,8 +1326,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए।"
+      "en": "Simplify: $2\\left(\\left(\\frac{7}{2}\\right)x^2 - 28x + 17\\right) - 7(x^2 + 6x - 11)$.",
+      "hi": "निम्नलिखित को सरल कीजिए। $2\\left(\\left(\\frac{7}{2}\\right)x^2 - 28x + 17\\right) - 7(x^2 + 6x - 11)$"
     },
     "options": {
       "en": [
@@ -1350,9 +1350,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (−98x + 111) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (−98x + 111) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_a7fc3f836b88.png",
-    "image_hi": "/crops/ntpc/hi_c516d8332cdd.png"
+    }
   },
   {
     "id": 42,
@@ -1395,7 +1393,7 @@
     "topic": "Ratio, Proportion & Partnership • RRB NTPC UG 2024 (28 Aug 2025 Shift 1)",
     "question": {
       "en": "If 51% of first number is equal to six-sevenths of second number, what is the ratio of first number to the second number?",
-      "hi": "यदि पहली संख्या का 51%, दूसरी संख्या के वें भाग के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात कितना है?"
+      "hi": "यदि पहली संख्या का 51%, दूसरी संख्या के $\\frac{6}{7}$ वें भाग के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात कितना है?"
     },
     "options": {
       "en": [
@@ -1418,8 +1416,7 @@
       "keyConcept": "Ratio, Proportion & Partnership",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (200 : 119) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (200 : 119) सही उत्तर है।"
-    },
-    "image_hi": "/crops/ntpc/hi_8e24a5c1bdab.png"
+    }
   },
   {
     "id": 44,
@@ -1428,21 +1425,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्न को सरल कीजिए:"
+      "en": "Simplify: $\\sec\\theta (1 + \\sin\\theta)(\\sec\\theta - \\tan\\theta)$",
+      "hi": "निम्न को सरल कीजिए: $\\sec\\theta (1 + \\sin\\theta)(\\sec\\theta - \\tan\\theta)$"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_79d9649fd198.png)",
-        "![Option](/crops/ntpc/en_f37901e4cbfc.png)",
-        "![Option](/crops/ntpc/en_c0f2cd36ad1c.png)",
-        "![Option](/crops/ntpc/en_f584c717791d.png)"
+        "$\\tan\\theta$",
+        "$\\sec\\theta$",
+        "-1",
+        "1"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_6a37addd9a4c.png)",
-        "![Option](/crops/ntpc/hi_137f13b7ffe7.png)",
-        "![Option](/crops/ntpc/hi_a235f21db3fe.png)",
-        "![Option](/crops/ntpc/hi_55d74b5bbb31.png)"
+        "$\\tan\\theta$",
+        "$\\sec\\theta$",
+        "-1",
+        "1"
       ]
     },
     "correctIndex": 3,
@@ -1450,11 +1447,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_896759d2d5a2.png",
-    "image_hi": "/crops/ntpc/hi_191193694fdc.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (1) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (1) सही उत्तर है।"
+    }
   },
   {
     "id": 45,
@@ -1732,16 +1727,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_a06309fd7119.png)",
-        "![Option](/crops/ntpc/en_98d9b95207f0.png)",
-        "![Option](/crops/ntpc/en_057c6b7ea81d.png)",
-        "![Option](/crops/ntpc/en_7d2a84968e5f.png)"
+        "62%",
+        "60%",
+        "61%",
+        "63%"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_04d8f2dd6557.png)",
-        "![Option](/crops/ntpc/hi_3d60576e1993.png)",
-        "![Option](/crops/ntpc/hi_f86fabd37f5f.png)",
-        "![Option](/crops/ntpc/hi_084bf8735629.png)"
+        "62%",
+        "60%",
+        "61%",
+        "63%"
       ]
     },
     "correctIndex": 1,
@@ -1749,8 +1744,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (60%) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (60%) सही उत्तर है।"
     }
   },
   {
@@ -2062,16 +2057,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_a51d8de8fc23.png)",
-        "![Option](/crops/ntpc/en_02a3c944b7b1.png)",
-        "![Option](/crops/ntpc/en_32f1b42d275d.png)",
-        "![Option](/crops/ntpc/en_9749f1562ff1.png)"
+        "$11\\frac{120}{149}$ days",
+        "$12\\frac{120}{149}$ days",
+        "$6\\frac{120}{149}$ days",
+        "$2\\frac{120}{149}$ days"
       ],
       "hi": [
-        "दिन ![Option](/crops/ntpc/hi_13d32e31b657.png)",
-        "दिन ![Option](/crops/ntpc/hi_5bfe6fd23059.png)",
-        "दिन ![Option](/crops/ntpc/hi_46de27e855fe.png)",
-        "दिन ![Option](/crops/ntpc/hi_3a0a65bb82bb.png)"
+        "$11\\frac{120}{149}$ दिन",
+        "$12\\frac{120}{149}$ दिन",
+        "$6\\frac{120}{149}$ दिन",
+        "$2\\frac{120}{149}$ दिन"
       ]
     },
     "correctIndex": 3,
@@ -2079,8 +2074,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (दिन ![Option](/crops/ntpc/hi_3a0a65bb82bb.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($2\\frac{120}{149}$ days) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($2\\frac{120}{149}$ दिन) सही उत्तर है।"
     }
   },
   {
@@ -2189,15 +2184,15 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (28 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "पाइप P, किसी टैंक के भाग को 30 घंटे में भर सकता है, और पाइप Q उसी टैंक के भाग को 27 घंटे में भर सकता है। P और Q दोनों को 2 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अके ले चालू किया जाता है जो टैंक के पानी को 4 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?\n![Equation / Figure](/crops/ntpc/hi_b25a67323a7d.png)\n![Equation / Figure](/crops/ntpc/hi_51349e569bad.png)"
+      "en": "Pipe P can fill $\\frac{5}{6}$ part of a tank in 30 hours, and pipe Q can fill $\\frac{3}{4}$ part of the same tank in 27 hours. Both P and Q were kept open for 2 hours, and then both were closed. Then pipe R alone was opened, and it emptied the water in the tank in 4 hours. In how much time can pipes P, Q and R together fill the empty tank?",
+      "hi": "पाइप P, किसी टैंक के $\\frac{5}{6}$ भाग को 30 घंटे में भर सकता है, और पाइप Q उसी टैंक के $\\frac{3}{4}$ भाग को 27 घंटे में भर सकता है। P और Q दोनों को 2 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अकेले चालू किया जाता है जो टैंक के पानी को 4 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_da9684cdb144.png)",
-        "![Option](/crops/ntpc/en_fd8b6fdf2117.png)",
-        "![Option](/crops/ntpc/en_6975ef20cbc1.png)",
-        "![Option](/crops/ntpc/en_2c3b445799fe.png)"
+        "54 hours",
+        "44 hours",
+        "48 hours",
+        "36 hours"
       ],
       "hi": [
         "54 घंटे",
@@ -2211,10 +2206,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (36 hours) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (36 घंटे) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_a65fc5768414.png"
+    }
   },
   {
     "id": 68,

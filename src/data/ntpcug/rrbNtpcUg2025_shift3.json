@@ -1331,16 +1331,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_e7473e08ab31.png)",
-        "![Option](/crops/ntpc/en_3a908196b504.png)",
-        "![Option](/crops/ntpc/en_02f92d3e3c43.png)",
-        "![Option](/crops/ntpc/en_d24ef376c307.png)"
+        "$\\frac{200}{7}$% profit",
+        "$\\frac{200}{7}$% loss",
+        "200% profit",
+        "$\\frac{210}{7}$% loss"
       ],
       "hi": [
-        "लाभ ![Option](/crops/ntpc/hi_7244af633c6b.png)",
-        "हानि ![Option](/crops/ntpc/hi_fd06cae11689.png)",
-        "लाभ ![Option](/crops/ntpc/hi_1089b3ecd216.png)",
-        "हानि ![Option](/crops/ntpc/hi_a5a445f51756.png)"
+        "$\\frac{200}{7}\\%$ लाभ",
+        "$\\frac{200}{7}\\%$ हानि",
+        "200% लाभ",
+        "$\\frac{210}{7}$% हानि"
       ]
     },
     "correctIndex": 0,
@@ -1348,8 +1348,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (लाभ ![Option](/crops/ntpc/hi_7244af633c6b.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($\\frac{200}{7}$% profit) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($\\frac{200}{7}\\%$ लाभ) सही उत्तर है।"
     }
   },
   {
@@ -1689,8 +1689,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (07 Aug 2025 Shift 3)",
     "question": {
-      "en": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle whose dimensions are given as 126 m and 226 m.",
-      "hi": "उस सबसे बड़े वृत्त की परिधि (m में) ज्ञात कीजिए जिसे 126 m और 226 m भुजाओं वाले एक आयत के अंदर पूर्णतः खींचा जा सकता है। ( लीजिए)"
+      "en": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle whose dimensions are given as 126 m and 226 m. (Take $\\pi = \\frac{22}{7}$.)",
+      "hi": "उस सबसे बड़े वृत्त की परिधि (m में) ज्ञात कीजिए जिसे 126 m और 226 m भुजाओं वाले एक आयत के अंदर पूर्णतः खींचा जा सकता है। ($\\pi = \\frac{22}{7}$ लीजिए)"
     },
     "options": {
       "en": [
@@ -1713,9 +1713,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (396) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (396) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_0b4793439c89.png",
-    "image_hi": "/crops/ntpc/hi_0bfc404f1c52.png"
+    }
   },
   {
     "id": 53,
@@ -1762,16 +1760,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_aa0c8072e6a6.png)",
-        "![Option](/crops/ntpc/en_f0719f670081.png)",
-        "![Option](/crops/ntpc/en_74256912c7fb.png)",
-        "![Option](/crops/ntpc/en_29290c1f983b.png)"
+        "$\\frac{45}{4}$",
+        "$\\frac{53}{6}$",
+        "$\\frac{35}{4}$",
+        "$\\frac{44}{5}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_52d31c86a66f.png)",
-        "![Option](/crops/ntpc/hi_906b282f33d3.png)",
-        "![Option](/crops/ntpc/hi_69aa258370df.png)",
-        "![Option](/crops/ntpc/hi_26d0bd0bdc77.png)"
+        "$\\frac{45}{4}$",
+        "$\\frac{53}{6}$",
+        "$\\frac{35}{4}$",
+        "$\\frac{44}{5}$"
       ]
     },
     "correctIndex": 0,
@@ -1779,8 +1777,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ($\\frac{45}{4}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ($\\frac{45}{4}$) सही उत्तर है।"
     }
   },
   {
@@ -1894,16 +1892,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_f237c9085f68.png)",
-        "![Option](/crops/ntpc/en_b95dd1fa5151.png)",
-        "![Option](/crops/ntpc/en_46fb686f0ee7.png)",
-        "![Option](/crops/ntpc/en_23d5660610cf.png)"
+        "$9\\frac{101}{129}$ days",
+        "$13\\frac{101}{129}$ days",
+        "$11\\frac{101}{129}$ days",
+        "$20\\frac{101}{129}$ days"
       ],
       "hi": [
-        "दिन ![Option](/crops/ntpc/hi_f1d358cdbcc8.png)",
-        "दिन ![Option](/crops/ntpc/hi_6409344d153f.png)",
-        "दिन ![Option](/crops/ntpc/hi_dcd1fec3ff3d.png)",
-        "दिन ![Option](/crops/ntpc/hi_8f1da6326af1.png)"
+        "$9\\frac{101}{129}$ दिन",
+        "$13\\frac{101}{129}$ दिन",
+        "$11\\frac{101}{129}$ दिन",
+        "$20\\frac{101}{129}$ दिन"
       ]
     },
     "correctIndex": 2,
@@ -1911,8 +1909,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (दिन ![Option](/crops/ntpc/hi_dcd1fec3ff3d.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($11\\frac{101}{129}$ days) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($11\\frac{101}{129}$ दिन) सही उत्तर है।"
     }
   },
   {
@@ -1955,21 +1953,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (07 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्न को सरल कीजिए:"
+      "en": "Simplify: $\\sec^2\\beta - \\frac{1}{\\operatorname{cosec}^2\\beta - 1}$",
+      "hi": "निम्न को सरल कीजिए: $\\sec^2\\beta - \\frac{1}{\\operatorname{cosec}^2\\beta - 1}$"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_42c43d549a1d.png)",
-        "![Option](/crops/ntpc/en_4054f7d4a0ef.png)",
-        "![Option](/crops/ntpc/en_e1160859dc27.png)",
-        "![Option](/crops/ntpc/en_94ad8e9a0ab9.png)"
+        "$\\operatorname{cosec}\\beta$",
+        "0",
+        "1",
+        "$\\sec\\beta$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_d2f26d0a71fa.png)",
-        "![Option](/crops/ntpc/hi_277c728e5966.png)",
-        "![Option](/crops/ntpc/hi_e1160859dc27.png)",
-        "![Option](/crops/ntpc/hi_94ad8e9a0ab9.png)"
+        "$\\operatorname{cosec}\\beta$",
+        "0",
+        "1",
+        "$\\sec\\beta$"
       ]
     },
     "correctIndex": 2,
@@ -1977,11 +1975,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_8fb8731ec6c4.png",
-    "image_hi": "/crops/ntpc/hi_0bc5c0c43720.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (1) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (1) सही उत्तर है।"
+    }
   },
   {
     "id": 61,
@@ -2023,8 +2019,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (07 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "एक समलम्ब चतुर्भुज है, जिसमें और है। यदि और है, तो की माप (डिग्री में) ज्ञात कीजिए।\n![Equation / Figure](/crops/ntpc/hi_1e86d88a597e.png)\n![Equation / Figure](/crops/ntpc/hi_e174516d1df5.png)\n![Equation / Figure](/crops/ntpc/hi_1e69305d9ce7.png)\n![Equation / Figure](/crops/ntpc/hi_b17b0344c291.png)\n![Equation / Figure](/crops/ntpc/hi_02f0f6517fc5.png)\n![Equation / Figure](/crops/ntpc/hi_5f365ee22477.png)"
+      "en": "ABCD is a trapezium in which $BC \\parallel AD$ and $AC = CD$. If $\\angle ABC = 18^\\circ$ and $\\angle BAC = 93^\\circ$, then find the measure of $\\angle ACD$ (in degrees).",
+      "hi": "एक समलम्ब चतुर्भुज ABCD है, जिसमें $BC \\parallel AD$ और $AC = CD$ है। यदि $\\angle ABC = 18^\\circ$ और $\\angle BAC = 93^\\circ$ है, तो $\\angle ACD$ की माप (डिग्री में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -2047,8 +2043,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (42°) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (42°) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_1f52610d2f96.png"
+    }
   },
   {
     "id": 63,
@@ -2090,8 +2085,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (07 Aug 2025 Shift 3)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए:"
+      "en": "Simplify the following. $3\\left(\\left(\\frac{4}{3}\\right)x^2 - 30x + 18\\right) - 4(x^2 + 8x - 14)$",
+      "hi": "निम्नलिखित को सरल कीजिए: $3\\left(\\left(\\frac{4}{3}\\right)x^2 - 30x + 18\\right) - 4(x^2 + 8x - 14)$"
     },
     "options": {
       "en": [
@@ -2114,9 +2109,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−122x + 110) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−122x + 110) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_06fb55bb9343.png",
-    "image_hi": "/crops/ntpc/hi_89d0962bfe41.png"
+    }
   },
   {
     "id": 65,

@@ -4,7 +4,7 @@ import {
   ChevronLeft, ChevronRight, Sparkles, Layers, Eye, EyeOff, RotateCcw,
   Star, FolderTree, Flag, CheckCircle2, Printer
 } from 'lucide-react';
-import QuestionContentRenderer, { OptionContentRenderer } from './QuestionContentRenderer';
+import QuestionContentRenderer, { OptionContentRenderer, MathText } from './QuestionContentRenderer';
 import ReportQuestionModal from './ReportQuestionModal';
 import { loadTestQuestions } from '../data/testQuestionLoader';
 import { EXAM_HIERARCHY, classifyQuestionTaxonomy } from '../utils/pyqTaxonomy';
@@ -991,19 +991,23 @@ export default function PYQExplorerView({
                     {q.solution.approach && (
                       <div>
                         <strong className="text-teal-300">Verdict: </strong>
-                        <span>{q.solution.approach}</span>
+                        <MathText text={q.solution.approach} />
                       </div>
                     )}
                     {q.solution.keyConcept && (
                       <div className="px-3 py-2 rounded-lg bg-slate-900 border border-slate-800 font-mono text-amber-300">
-                        {q.solution.keyConcept}
+                        <MathText text={q.solution.keyConcept} />
                       </div>
                     )}
-                    <p className="text-slate-400">
-                      {lang === 'hi'
-                        ? q.solution.hi || q.solution.en
-                        : q.solution.en || q.solution.hi}
-                    </p>
+                    <div className="text-slate-400">
+                      <MathText
+                        text={
+                          lang === 'hi'
+                            ? q.solution.hi || q.solution.en
+                            : q.solution.en || q.solution.hi
+                        }
+                      />
+                    </div>
                   </div>
                 )}
               </div>

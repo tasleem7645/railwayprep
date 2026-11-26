@@ -1557,8 +1557,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (20 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को सरल कीजिए।"
+      "en": "Simplify: $4\\left(\\left(\\frac{7}{4}\\right)x^2 - 27x + 19\\right) - 7(x^2 + 9x - 14)$.",
+      "hi": "निम्नलिखित को सरल कीजिए:\n$4\\left(\\left(\\frac{7}{4}\\right)x^2 - 27x + 19\\right) - 7(x^2 + 9x - 14)$"
     },
     "options": {
       "en": [
@@ -1581,9 +1581,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−171x + 174) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−171x + 174) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_dc680d42bc28.png",
-    "image_hi": "/crops/ntpc/hi_57c33f6d50df.png"
+    }
   },
   {
     "id": 49,
@@ -1593,7 +1591,7 @@
     "topic": "Ratio, Proportion & Partnership • RRB NTPC UG 2024 (20 Aug 2025 Shift 2)",
     "question": {
       "en": "If 77% of first number is equal to three-fourths of second number, what is the ratio of first number to the second number?",
-      "hi": "यदि पहली संख्या का 77%, दूसरी संख्या के वें भाग के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात कितना है?"
+      "hi": "यदि पहली संख्या का 77%, दूसरी संख्या के $\\frac{3}{4}$ वें भाग के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात कितना है?"
     },
     "options": {
       "en": [
@@ -1616,8 +1614,7 @@
       "keyConcept": "Ratio, Proportion & Partnership",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (75 : 77) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (75 : 77) सही उत्तर है।"
-    },
-    "image_hi": "/crops/ntpc/hi_140ed2f519a6.png"
+    }
   },
   {
     "id": 50,
@@ -1697,16 +1694,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_f87e988d56a8.png)",
-        "![Option](/crops/ntpc/en_0c78daefa770.png)",
-        "![Option](/crops/ntpc/en_129e900e0e22.png)",
-        "![Option](/crops/ntpc/en_116753e82e13.png)"
+        "$5\\frac{3}{1111}$",
+        "$4\\frac{3}{1111}$",
+        "$6\\frac{3}{1111}$",
+        "$7\\frac{3}{1111}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_f87e988d56a8.png)",
-        "![Option](/crops/ntpc/hi_0c78daefa770.png)",
-        "![Option](/crops/ntpc/hi_f81f0dad2d40.png)",
-        "![Option](/crops/ntpc/hi_116753e82e13.png)"
+        "$5\\frac{3}{1111}$",
+        "$4\\frac{3}{1111}$",
+        "$6\\frac{3}{1111}$",
+        "$7\\frac{3}{1111}$"
       ]
     },
     "correctIndex": 2,
@@ -1714,8 +1711,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($6\\frac{3}{1111}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($6\\frac{3}{1111}$) सही उत्तर है।"
     }
   },
   {
@@ -1758,8 +1755,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (20 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "ABCD एक समलम्ब है जिसमें और AC = CD है। यदि ∠ABC = 40° और ∠BAC = 120° है, तो ∠ACD की माप (डिग्री में) ज्ञात कीजिए।"
+      "en": "ABCD is a trapezium in which $BC \\parallel AD$ and $AC = CD$. If $\\angle ABC = 40^\\circ$ and $\\angle BAC = 120^\\circ$, then find the measure (in degrees) of $\\angle ACD$.",
+      "hi": "ABCD एक समलम्ब है जिसमें $BC \\parallel AD$ और AC = CD है। यदि ∠ABC = 40° और ∠BAC = 120° है, तो ∠ACD की माप (डिग्री में) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1782,9 +1779,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (140°) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (140°) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_7b94d73514e6.png",
-    "image_hi": "/crops/ntpc/hi_bd2d5ef6f142.png"
+    }
   },
   {
     "id": 55,
@@ -2024,8 +2019,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (20 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $\\frac{(1 + \\sin A)(\\tan A - \\sec A + 1)\\sec A}{\\tan A + \\sec A - (\\sec^2 A - \\tan^2 A)}$ is:",
+      "hi": "$\\frac{(1 + \\sin A)(\\tan A - \\sec A + 1)\\sec A}{\\tan A + \\sec A - (\\sec^2 A - \\tan^2 A)}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -2048,9 +2043,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (1) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (1) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_f22928bb59c0.png",
-    "image_hi": "/crops/ntpc/hi_8ab8b3eee613.png"
+    }
   },
   {
     "id": 63,
@@ -2158,8 +2151,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (20 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "65 का 65%, 15 के से कितना अधिक है?"
+      "en": "By how much is 65% of 65 greater than $\\frac{3}{5}$ of 15?",
+      "hi": "65 का 65%, 15 के $\\frac{3}{5}$ से कितना अधिक है?"
     },
     "options": {
       "en": [
@@ -2182,9 +2175,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (33.25) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (33.25) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_475faf0a75da.png",
-    "image_hi": "/crops/ntpc/hi_22c983b07e26.png"
+    }
   },
   {
     "id": 67,
@@ -2226,7 +2217,7 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (20 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "Two cubes each of volume 125 $\\text{cm}^3$ are joined end to end. The total surface area of the resulting cuboid is:",
       "hi": "125 cm3 आयतन वाले दो घनों को, एक-दूसरे के फलकों से जोड़ा जाता है। इस प्रकार बने घनाभ का सम्पूर्ण पृष्ठीय क्षेत्रफल ज्ञात कीजिए।"
     },
     "options": {
@@ -2251,8 +2242,7 @@
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (250 cm2) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (250 cm2) सही उत्तर है।"
     },
-    "image_en": "/crops/ntpc/en_a37eba5360f8.png",
-    "image_hi": "/crops/ntpc/hi_35e9110468fa.png"
+    "image": "/crops/ntpc/hi_35e9110468fa.png"
   },
   {
     "id": 69,

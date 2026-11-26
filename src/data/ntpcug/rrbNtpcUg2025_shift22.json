@@ -1364,16 +1364,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_fd0a3d9e0721.png)",
+        "$\\frac{100}{11}$% gain",
         "22% loss",
         "22% gain",
-        "![Option](/crops/ntpc/en_0731a24c7e59.png)"
+        "$\\frac{100}{11}$% loss"
       ],
       "hi": [
-        "% लाभ ![Option](/crops/ntpc/hi_2628d9497484.png)",
+        "$\\frac{100}{11}$ % लाभ",
         "22% हानि",
         "22% लाभ",
-        "% हानि ![Option](/crops/ntpc/hi_1a72c6077818.png)"
+        "$\\frac{100}{11}$ % हानि"
       ]
     },
     "correctIndex": 1,
@@ -1558,7 +1558,7 @@
     "topic": "Ratio, Proportion & Partnership • RRB NTPC UG 2024 (19 Aug 2025 Shift 1)",
     "question": {
       "en": "If 38% of first number is equal to two-sevenths of second number, what is the ratio of first number to the second number?",
-      "hi": "यदि पहली संख्या का 38%, दूसरी संख्या के के बराबर है, तो पहली संख्या और दूसरी संख्या का अनुपात ज्ञात कीजिए।"
+      "hi": "यदि पहली संख्या का 38%, दूसरी संख्या के $\\frac{2}{7}$ के बराबर है, तो पहली संख्या और दूसरी संख्या का अनुपात ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1581,8 +1581,7 @@
       "keyConcept": "Ratio, Proportion & Partnership",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (100 : 133) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (100 : 133) सही उत्तर है।"
-    },
-    "image_hi": "/crops/ntpc/hi_fb7d42f530f2.png"
+    }
   },
   {
     "id": 49,
@@ -1657,21 +1656,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (19 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "निम्नलिखित को हल कीजिए:"
+      "en": "Solve the following: $(\\operatorname{cosec} 23^\\circ - \\sin 23^\\circ)(\\tan 23^\\circ + \\cot 23^\\circ)(\\sec 23^\\circ - \\cos 23^\\circ)$",
+      "hi": "निम्नलिखित को हल कीजिए: $(\\operatorname{cosec} 23^\\circ - \\sin 23^\\circ)(\\tan 23^\\circ + \\cot 23^\\circ)(\\sec 23^\\circ - \\cos 23^\\circ)$"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_df78c7b9eccd.png)",
-        "![Option](/crops/ntpc/en_214befab6f9a.png)",
-        "![Option](/crops/ntpc/en_7e81df0cd70e.png)",
-        "![Option](/crops/ntpc/en_211f6109da30.png)"
+        "$\\tan 23^\\circ$",
+        "1",
+        "0",
+        "$\\sin 23^\\circ$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_14d96ddd2ca5.png)",
-        "![Option](/crops/ntpc/hi_214befab6f9a.png)",
-        "![Option](/crops/ntpc/hi_277c728e5966.png)",
-        "![Option](/crops/ntpc/hi_211f6109da30.png)"
+        "$\\tan 23^\\circ$",
+        "1",
+        "0",
+        "$\\sin 23^\\circ$"
       ]
     },
     "correctIndex": 1,
@@ -1679,11 +1678,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_baaf515e966d.png",
-    "image_hi": "/crops/ntpc/hi_ee4f8e1d580a.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (1) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (1) सही उत्तर है।"
+    }
   },
   {
     "id": 52,
@@ -1725,21 +1722,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (19 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "Isha can do a certain piece of work in 22 days. Isha and Smriti can together do the same work in 11 days, and Isha, Smriti and Ashlesha can do the same work together in 10 days. In how many days can Isha and Ashlesha complete the same work?",
       "hi": "ईशा किसी निश्चित कार्य को 22 दिनों में पूरा कर सकती है। ईशा और स्मृति मिलकर उसी कार्य को 11 दिनों में पूरा कर सकती हैं, तथा ईशा, स्मृति और अश्लेषा मिलकर उसी कार्य को 10 दिनों में पूरा कर सकती हैं। ईशा और अश्लेषा उसी कार्य को कितने दिन में पूरा कर सकती हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_d661841eccda.png)",
-        "![Option](/crops/ntpc/en_9c16df8e9f0f.png)",
-        "![Option](/crops/ntpc/en_eb27cee62755.png)",
-        "![Option](/crops/ntpc/en_5d81615562ef.png)"
+        "$\\frac{49}{4}$",
+        "$\\frac{55}{3}$",
+        "$\\frac{64}{3}$",
+        "$\\frac{61}{5}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_d661841eccda.png)",
-        "![Option](/crops/ntpc/hi_55c5b0079828.png)",
-        "![Option](/crops/ntpc/hi_c85fc6003a0b.png)",
-        "![Option](/crops/ntpc/hi_786d19288c2f.png)"
+        "$\\frac{49}{4}$",
+        "$\\frac{55}{3}$",
+        "$\\frac{64}{3}$",
+        "$\\frac{61}{5}$"
       ]
     },
     "correctIndex": 1,
@@ -1747,10 +1744,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_0595b770af4b.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{55}{3}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{55}{3}$) सही उत्तर है।"
+    }
   },
   {
     "id": 54,
@@ -1764,16 +1760,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_23adb94f82e8.png)",
-        "![Option](/crops/ntpc/en_31c676285374.png)",
-        "![Option](/crops/ntpc/en_abe31c225b9d.png)",
-        "![Option](/crops/ntpc/en_90e5fb26931b.png)"
+        "$\\frac{26}{209}$",
+        "$\\frac{24}{209}$",
+        "$\\frac{32}{209}$",
+        "$\\frac{29}{209}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_d96fbc63b29d.png)",
-        "![Option](/crops/ntpc/hi_9a767cb05c3f.png)",
-        "![Option](/crops/ntpc/hi_66ebd1972a25.png)",
-        "![Option](/crops/ntpc/hi_f640be5d461c.png)"
+        "$\\frac{26}{209}$",
+        "$\\frac{24}{209}$",
+        "$\\frac{32}{209}$",
+        "$\\frac{29}{209}$"
       ]
     },
     "correctIndex": 3,
@@ -1781,8 +1777,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{29}{209}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{29}{209}$) सही उत्तर है।"
     }
   },
   {
@@ -1863,16 +1859,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_96814da0cee3.png)",
-        "![Option](/crops/ntpc/en_1194e0f755d7.png)",
-        "![Option](/crops/ntpc/en_6982114f9121.png)",
-        "![Option](/crops/ntpc/en_67fd7d15fdd6.png)"
+        "$-\\frac{5}{2}$",
+        "$-\\frac{1}{2}$",
+        "$-\\frac{9}{2}$",
+        "$\\frac{3}{2}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_fdf016966d35.png)",
-        "![Option](/crops/ntpc/hi_d6f8465cb0e2.png)",
-        "![Option](/crops/ntpc/hi_e076c1e99975.png)",
-        "![Option](/crops/ntpc/hi_67fd7d15fdd6.png)"
+        "$-\\frac{5}{2}$",
+        "$-\\frac{1}{2}$",
+        "$-\\frac{9}{2}$",
+        "$\\frac{3}{2}$"
       ]
     },
     "correctIndex": 1,
@@ -1880,8 +1876,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($-\\frac{1}{2}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($-\\frac{1}{2}$) सही उत्तर है।"
     }
   },
   {
@@ -2056,8 +2052,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (19 Aug 2025 Shift 1)",
     "question": {
-      "en": "Find the curved surface area of a sphere whose radius is 2.8 cm.",
-      "hi": "यदि किसी गोले की त्रिज्या 2.8 cm है, तो उसका वक्र पृष्ठीय क्षेत्रफल ज्ञात कीजिए। ( का उपयोग कीजिए।)"
+      "en": "Find the curved surface area of a sphere whose radius is 2.8 cm. (Use $\\pi = \\frac{22}{7}$)",
+      "hi": "यदि किसी गोले की त्रिज्या 2.8 cm है, तो उसका वक्र पृष्ठीय क्षेत्रफल ज्ञात कीजिए। ($\\pi = \\frac{22}{7}$ का उपयोग कीजिए।)"
     },
     "options": {
       "en": [
@@ -2080,9 +2076,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (98.56cm2) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (98.56 cm2) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_13837a305bbe.png",
-    "image_hi": "/crops/ntpc/hi_69e7a5395646.png"
+    }
   },
   {
     "id": 64,
@@ -2124,8 +2118,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (19 Aug 2025 Shift 1)",
     "question": {
-      "en": "A hollow spherical shell is made of a metal of density 7 g/cm 3. Its internal and external radii are 1 cm and 2 cm, respectively. What is the weight (in grams) of the shell?",
-      "hi": "एक खोखला गोलाकार खोल 7 g/cm3 घनत्व वाली धातु से बना है। इसकी आंतरिक और बाह्य त्रिज्याएँ क्रमशः 1 cm और 2 cm हैं। खोल का भार (ग्राम में) कितना है? ( का उपयोग कीजिए तथा अपने उत्तर को निकटतम ग्राम तक पूर्णांकित कीजिए)"
+      "en": "A hollow spherical shell is made of a metal of density 7 g/cm3. Its internal and external radii are 1 cm and 2 cm, respectively. What is the weight (in grams) of the shell? (Use $\\pi = \\frac{22}{7}$, and round off your answer to the nearest gram.)",
+      "hi": "एक खोखला गोलाकार खोल 7 g/cm3 घनत्व वाली धातु से बना है। इसकी आंतरिक और बाह्य त्रिज्याएँ क्रमशः 1 cm और 2 cm हैं। खोल का भार (ग्राम में) कितना है? ($\\pi = \\frac{22}{7}$ का उपयोग कीजिए तथा अपने उत्तर को निकटतम ग्राम तक पूर्णांकित कीजिए)"
     },
     "options": {
       "en": [
@@ -2148,9 +2142,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (205) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (205) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_070f72dcabd8.png",
-    "image_hi": "/crops/ntpc/hi_1d82455545f2.png"
+    }
   },
   {
     "id": 66,
@@ -2258,21 +2250,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (19 Aug 2025 Shift 1)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "का मान ज्ञात कीजिए।"
+      "en": "The value of $\\frac{3}{4} + \\left(\\frac{1}{1 + \\frac{3}{7}}\\right) - \\frac{3}{4}$ is",
+      "hi": "$\\frac{3}{4} + \\left(\\frac{1}{1 + \\frac{3}{7}}\\right) - \\frac{3}{4}$ का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_0b48367a1e85.png)",
-        "![Option](/crops/ntpc/en_19639ab17080.png)",
-        "![Option](/crops/ntpc/en_8da180b9891b.png)",
-        "![Option](/crops/ntpc/en_c8cdc203059b.png)"
+        "$\\frac{2}{11}$",
+        "$\\frac{5}{16}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{16}{19}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_96272324c7e9.png)",
-        "![Option](/crops/ntpc/hi_44c09b671ede.png)",
-        "![Option](/crops/ntpc/hi_1440ac4610c4.png)",
-        "![Option](/crops/ntpc/hi_2607e3184f40.png)"
+        "$\\frac{2}{11}$",
+        "$\\frac{5}{16}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{16}{19}$"
       ]
     },
     "correctIndex": 2,
@@ -2280,11 +2272,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_8750731bb8b7.png",
-    "image_hi": "/crops/ntpc/hi_c6106f2c25a1.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($\\frac{7}{10}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($\\frac{7}{10}$) सही उत्तर है।"
+    }
   },
   {
     "id": 70,

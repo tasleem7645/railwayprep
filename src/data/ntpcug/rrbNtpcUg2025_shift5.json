@@ -1326,8 +1326,8 @@
     "subject": "Mathematics",
     "topic": "Geometry & Mensuration • RRB NTPC UG 2024 (08 Aug 2025 Shift 2)",
     "question": {
-      "en": "A cylindrical rod has an outer curved surface area of 3300 cm2. If the length of the rod is 72 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is: Take Π =.",
-      "hi": "एक बेलनाकार छड़ का बाहरी वक्र पृष्ठीय क्षेत्रफल 3300 cm2 है। यदि छड़ की लंबाई 72 cm है, तो छड़ की बाहरी त्रिज्या (cm में), दशमलव के दो स्थानों तक, ज्ञात कीजिए। ( लीजिए)"
+      "en": "A cylindrical rod has an outer curved surface area of 3300 cm2. If the length of the rod is 72 cm, then the outer radius (in cm) of the rod, correct to two places of decimal, is: Take $\\pi = \\frac{22}{7}$.",
+      "hi": "एक बेलनाकार छड़ का बाहरी वक्र पृष्ठीय क्षेत्रफल 3300 cm2 है। यदि छड़ की लंबाई 72 cm है, तो छड़ की बाहरी त्रिज्या (cm में), दशमलव के दो स्थानों तक, ज्ञात कीजिए। ($\\pi = \\frac{22}{7}$ लीजिए)"
     },
     "options": {
       "en": [
@@ -1350,9 +1350,7 @@
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (7.29) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (7.29) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_5a5f8813d8c2.png",
-    "image_hi": "/crops/ntpc/hi_0ba36af4b747.png"
+    }
   },
   {
     "id": 42,
@@ -1399,16 +1397,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_215db05d7038.png)",
-        "![Option](/crops/ntpc/en_40e4402bafc5.png)",
-        "![Option](/crops/ntpc/en_5fdd1cdff9eb.png)",
-        "![Option](/crops/ntpc/en_4acf80872c17.png)"
+        "$\\frac{11}{10}$",
+        "$\\frac{3}{10}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{1}{10}$"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_2b9fd608b24a.png)",
-        "![Option](/crops/ntpc/hi_daa08e7118e3.png)",
-        "![Option](/crops/ntpc/hi_2690b5991839.png)",
-        "![Option](/crops/ntpc/hi_b15a3e53167a.png)"
+        "$\\frac{11}{10}$",
+        "$\\frac{3}{10}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{1}{10}$"
       ]
     },
     "correctIndex": 3,
@@ -1416,8 +1414,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (चित्र विकल्प देखें) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{1}{10}$) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{1}{10}$) सही उत्तर है।"
     }
   },
   {
@@ -1460,21 +1458,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (08 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "पाइप P, किसी टैंक के भाग को 30 घंटे में भर सकता है, और पाइप Q उसी टैंक के भाग को 28 घंटे में भर सकता है। P और Q दोनों को 7 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अके ले चालू किया जाता है जो टैंक के पानी को 8 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?\n![Equation / Figure](/crops/ntpc/hi_42f660dd8abf.png)\n![Equation / Figure](/crops/ntpc/hi_8cfd841be6d9.png)"
+      "en": "Pipe P can fill $\\frac{5}{7}$ part of a tank in 30 hours, and pipe Q can fill $\\frac{2}{5}$ part of the same tank in 28 hours. Both P and Q were kept open for 7 hours, and then both were closed. Pipe R was then opened alone, and it emptied the water in the tank in 8 hours. In how much time can pipes P, Q and R together fill the empty tank?",
+      "hi": "पाइप P, किसी टैंक के $\\frac{5}{7}$ भाग को 30 घंटे में भर सकता है, और पाइप Q उसी टैंक के $\\frac{2}{5}$ भाग को 28 घंटे में भर सकता है। P और Q दोनों को 7 घंटे के लिए चालू रखा जाता है, और फिर दोनों को बंद कर दिया जाता है। फिर पाइप R को अकेले चालू किया जाता है जो टैंक के पानी को 8 घंटे में खाली कर देता है। पाइप P, Q और R मिलकर खाली टैंक को कितने समय में भर सकते हैं?"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_d4d43a916a01.png)",
-        "![Option](/crops/ntpc/en_aba32be9e85c.png)",
-        "![Option](/crops/ntpc/en_21611c855db0.png)",
-        "![Option](/crops/ntpc/en_c072909a1561.png)"
+        "214 hours",
+        "222 hours",
+        "204 hours",
+        "210 hours"
       ],
       "hi": [
-        "घंटे ![Option](/crops/ntpc/hi_15bd091fc885.png)",
-        "घंटे ![Option](/crops/ntpc/hi_0e9950a2653c.png)",
-        "घंटे ![Option](/crops/ntpc/hi_af93cf11e4a4.png)",
-        "घंटे ![Option](/crops/ntpc/hi_802fd7ec9c5d.png)"
+        "214 घंटे",
+        "222 घंटे",
+        "204 घंटे",
+        "210 घंटे"
       ]
     },
     "correctIndex": 3,
@@ -1482,10 +1480,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (घंटे ![Option](/crops/ntpc/hi_802fd7ec9c5d.png)) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_d959de86cbfb.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (210 hours) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (210 घंटे) सही उत्तर है।"
+    }
   },
   {
     "id": 46,
@@ -1763,16 +1760,16 @@
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_ed1a1998eb3b.png)",
-        "![Option](/crops/ntpc/en_5e09b546089a.png)",
-        "![Option](/crops/ntpc/en_6db71899bdbf.png)",
-        "![Option](/crops/ntpc/en_9d77add05ed9.png)"
+        "$\\frac{560}{21}$% profit",
+        "$\\frac{550}{21}$% loss",
+        "$\\frac{550}{21}$% profit",
+        "550 % loss"
       ],
       "hi": [
-        "लाभ ![Option](/crops/ntpc/hi_9e43b066a495.png)",
-        "हानि ![Option](/crops/ntpc/hi_8c6aeecdffa6.png)",
-        "लाभ ![Option](/crops/ntpc/hi_589eb6664ce5.png)",
-        "हानि ![Option](/crops/ntpc/hi_925233bd2978.png)"
+        "$\\frac{560}{21}$% लाभ",
+        "$\\frac{550}{21}\\%$ हानि",
+        "$\\frac{550}{21}\\%$ लाभ",
+        "550% हानि"
       ]
     },
     "correctIndex": 1,
@@ -1780,8 +1777,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (हानि ![Option](/crops/ntpc/hi_8c6aeecdffa6.png)) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{550}{21}$% loss) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{550}{21}\\%$ हानि) सही उत्तर है।"
     }
   },
   {
@@ -2022,8 +2019,8 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (08 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
-      "hi": "किसी वस्तु को उसके वास्तविक विक्रय मूल्य के पर बेचने पर, निर्भय को 26% की हानि होती है। यदि वह इस वस्तु को उसके वास्तविक विक्रय मूल्य के 84% पर बेचता है, तो लाभ प्रतिशत ज्ञात कीजिए।"
+      "en": "By selling an article at $\\frac{2}{5}$ of its actual selling price, Nirbhay incurs a loss of 26%. If he sells it at 84% of its actual selling price, then find the profit percentage.",
+      "hi": "किसी वस्तु को उसके वास्तविक विक्रय मूल्य के $\\frac{2}{5}$ पर बेचने पर, निर्भय को 26% की हानि होती है। यदि वह इस वस्तु को उसके वास्तविक विक्रय मूल्य के 84% पर बेचता है, तो लाभ प्रतिशत ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -2046,9 +2043,7 @@
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (55.4%) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (55.4%) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_ed1f98f524dc.png",
-    "image_hi": "/crops/ntpc/hi_eab70abee311.png"
+    }
   },
   {
     "id": 63,
@@ -2123,21 +2118,21 @@
     "subject": "Mathematics",
     "topic": "Quantitative Aptitude • RRB NTPC UG 2024 (08 Aug 2025 Shift 2)",
     "question": {
-      "en": "Solve the mathematical expression / figure shown below:",
+      "en": "A regular polygon has 30 sides. Find the measure of one interior angle.",
       "hi": "एक सम बहुभुज में 30 भुजाएँ हैं। एक अंत:कोण की माप ज्ञात कीजिए।"
     },
     "options": {
       "en": [
-        "![Option](/crops/ntpc/en_fc856d4a7994.png)",
-        "![Option](/crops/ntpc/en_5b0e111e507f.png)",
-        "![Option](/crops/ntpc/en_649ad3a512d0.png)",
-        "![Option](/crops/ntpc/en_64e9f4d2f154.png)"
+        "12°",
+        "168°",
+        "128°",
+        "48°"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_313ccc7c6d9a.png)",
-        "![Option](/crops/ntpc/hi_0975c00aa1ea.png)",
-        "![Option](/crops/ntpc/hi_1f03a21a95e2.png)",
-        "![Option](/crops/ntpc/hi_8668a799f034.png)"
+        "12°",
+        "168°",
+        "128°",
+        "48°"
       ]
     },
     "correctIndex": 1,
@@ -2145,10 +2140,9 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
-    },
-    "image_en": "/crops/ntpc/en_331356251845.png"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (168°) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (168°) सही उत्तर है।"
+    }
   },
   {
     "id": 66,

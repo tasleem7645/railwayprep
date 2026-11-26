@@ -3,7 +3,7 @@ import {
   X, Bookmark, CheckCircle2, AlertCircle, Trash2,
   RefreshCw, BookOpen, ChevronRight, Sparkles, Filter, Check, Zap
 } from 'lucide-react';
-import QuestionContentRenderer, { OptionContentRenderer } from './QuestionContentRenderer';
+import QuestionContentRenderer, { OptionContentRenderer, MathText } from './QuestionContentRenderer';
 import { getQuestionImage } from '../utils/pyqHelper';
 import {
   MISTAKE_SUBJECT_FILTERS,
@@ -394,7 +394,9 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
                   {/* Detailed Solution Box */}
                   <div className="p-3.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
                     <span className="font-bold text-amber-300 block mb-1">💡 सही समाधान व व्याख्या (Explanation):</span>
-                    <p className="text-slate-300 leading-relaxed">{sol || 'Official Railway Answer Key solution.'}</p>
+                    <div className="text-slate-300 leading-relaxed">
+                      <MathText text={sol || 'Official Railway Answer Key solution.'} />
+                    </div>
                   </div>
                 </div>
               );
