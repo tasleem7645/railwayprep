@@ -1,8 +1,7 @@
 /**
- * Class 9 NCERT (2026-27 New Edition — ihsc102.pdf, Pages 8-27)
- * Chapter 2: Cell — The Fundamental Unit of Life (कोशिका — जीवन की निर्माण इकाई)
- * 100% Complete Extraction: Concepts, Boxes, 5 Activities, 2 NCERT Tables + Master Tables,
- * Scientists, All In-Text Questions, All 16 Solved Exercises & 17 Verified Railway PYQs.
+ * Class 9 NCERT (2026-27 New Edition — ihsc102.pdf, Pages 8-27) + Nirman+ Railway Boosters
+ * Gold Standard v2: Dual-Depth (Beginners Desi Samajh + Super-Intelligent Ranker Edge),
+ * Viral Mnemonics, Highlighted Micro-Bullets, Real Micrographs/Portraits & Inline PYQs.
  */
 
 export const CH2_CELL_DATA = {
@@ -10,86 +9,782 @@ export const CH2_CELL_DATA = {
   classId: 'class9',
   subjectId: 'biology',
   chapterNumber: 2,
-  sourceCode: 'ihsc102 (2026-27 New NCERT • Pages 8–27)',
+  sourceCode: 'Class 9 NCERT 2026–27 (Ch 2) + Nirman+ RRB Boosters',
   title: {
     en: 'Chapter 2: Cell — The Fundamental Unit of Life',
     hi: 'अध्याय 2: कोशिका — जीवन की निर्माण इकाई',
   },
   subtitle: {
-    en: '100% New 2026–27 Syllabus Coverage • Every Box, Activity, Table, Diagram & RRB PYQ Mapped',
-    hi: '100% नया 2026–27 पाठ्यक्रम • प्रत्येक बॉक्स, क्रियाकलाप, तालिका, चित्र व RRB PYQ सहित',
+    en: 'Beginner-to-Ranker Master Edition • Simple Hinglish Clarity, Viral Memory Hacks, Real Micrographs & Dated RRB PYQs',
+    hi: 'सरल भाषा + टॉपर डेप्थ • देसी ट्रिक्स, असली माइक्रोस्कोप चित्र, सभी क्रियाकलाप व रेलवे PYQ सीधे टॉपिक के नीचे',
   },
   metrics: {
     pages: 20,
     activities: 5,
     tables: 4,
     svgLabs: 4,
-    hdVisuals: 4,
+    hdVisuals: 13,
     exercisesSolved: 16,
-    pyqsMatched: 15,
+    pyqsMatched: 18,
   },
 
   hero: {
     imageUrl: '/ncert-notes/class9-bio-ch2/hero-cell-origins.webp',
     caption: {
-      en: 'Custom Studio Render: Origin of early protective cell boundaries in hot-spring CaCO3 mineral pools -> Bacterial Prokaryote, Plant Cell & Animal Cell.',
-      hi: 'कस्टम स्टूडियो दृश्य: उष्ण जल कुंडों में कैल्शियम कार्बोनेट निक्षेप से प्रारंभिक कोशिका झिल्ली निर्माण से लेकर जीवाणु, पादप व जंतु कोशिका तक की यात्रा।',
+      en: 'From Ladakh geothermal hot springs to Bacteria, Plant & Animal Cells under modern lenses.',
+      hi: 'लद्दाख के गर्म जल स्रोतों से पहली कोशिका की शुरुआत — जीवाणु, पादप और जंतु कोशिका का पूरा संसार।',
     },
-    thinkingPrompts: [
-      { en: 'Where do cells originate from?', hi: 'कोशिका कहाँ से आती है?' },
-      { en: 'How have microscopes unlocked the world beyond naked eyes?', hi: 'नग्न आँखों से परे संसार को समझने में तकनीक ने कैसे मदद की?' },
-      { en: 'Why is the cell both structural & functional unit of life?', hi: 'कोशिका जीवन की संरचनात्मक और कार्यात्मक इकाई किस प्रकार है?' },
-      { en: 'How do cells multiply and replace worn-out tissues?', hi: 'कोशिका किस प्रकार गुणन करती है?' },
-    ],
   },
-
-  highlightLegend: [
-    {
-      key: 'pyq',
-      color: 'amber',
-      label: { en: 'RRB PYQ Hot Spot', hi: 'रेलवे परीक्षा में बार-बार पूछा गया' },
-    },
-    {
-      key: 'trap',
-      color: 'rose',
-      label: { en: '-0.33 Negative-Mark Trap', hi: 'Exam Trap / अपवाद (ग़लती से बचें)' },
-    },
-    {
-      key: 'hook',
-      color: 'teal',
-      label: { en: 'Memory Shortcut / Nickname', hi: 'याद रखने का स्मार्ट शॉर्टकट' },
-    },
-    {
-      key: 'formula',
-      color: 'cyan',
-      label: { en: 'Formula / Numerical Data', hi: 'सूत्र / सटीक मान' },
-    },
-  ],
 
   quickRevision60Sec: [
     {
-      en: 'Resolving limit of naked human eye = $0.1\\text{ mm}$ at near point $25\\text{ cm}$. Electron Microscope resolves down to $\\text{nanometre}$ ($1\\text{ nm} = 10^{-9}\\text{ m} = 10^{-6}\\text{ mm}$).',
-      hi: 'मानव नेत्र की विभेदन सीमा = $0.1\\text{ mm}$ (निकट बिंदु $25\\text{ cm}$)। इलेक्ट्रॉन सूक्ष्मदर्शी नैनोमीटर स्तर ($1\\text{ nm} = 10^{-9}\\text{ m}$) तक स्पष्ट दिखाता है।',
+      en: 'Eye limit $= 0.1\\text{ mm}$ at $25\\text{ cm}$. Electron Microscope sees down to **nanometre** ($1\\text{ nm} = 10^{-9}\\text{ m}$).',
+      hi: 'आँख से ==$0.1\\text{ mm}$== तक ही अलग दिखता है ($25\\text{ cm}$ पर)। **इलेक्ट्रॉन सूक्ष्मदर्शी** ==नैनोमीटर ($10^{-9}\\text{ m}$)== तक दिखाता है।',
     },
     {
-      en: 'Robert Hooke (1665) discovered cells in dead Cork slices ($200\\text{--}300\\times$ self-made microscope). Schleiden (1838), Schwann (1839), Virchow (1855) gave Classical Cell Theory.',
-      hi: 'रॉबर्ट हुक (1665) ने कॉर्क में कोशिका खोजी। श्लीडेन (1838), श्वान (1839) व विरचो (1855) ने कोशिका सिद्धांत दिया।',
+      en: '**Hooke (1665)** saw dead Cork cells; **Leeuwenhoek (1674)** saw first living cell; **Robert Brown (1831)** Nucleus; **Purkinje (1839)** Protoplasm.',
+      hi: '**रॉबर्ट हुक (1665)**: मृत कॉर्क कोशिका | **ल्यूवेनहॉक (1674)**: पहली ==जीवित कोशिका== | **रॉबर्ट ब्राउन (1831)**: केंद्रक | **पुरकिंजे (1839)**: जीवद्रव्य।',
     },
     {
-      en: 'Plasma membrane is $7\\text{--}10\\text{ nm}$ thick, Selectively Permeable (Fluid-Mosaic lipid bilayer + protein gatekeepers). Cell wall is Freely Permeable & made of Cellulose in plants.',
-      hi: 'प्लाज्मा झिल्ली $7\\text{--}10\\text{ nm}$ मोटी, वरणात्मक पारगम्य (लिपिड + प्रोटीन फ्लूइड-मोजेक मॉडल)। पादप कोशिका भित्ति पूर्ण पारगम्य व सेल्युलोस की बनी होती है।',
+      en: 'Plasma membrane is **$7\\text{--}10\\text{ nm}$** **Selectively Permeable** (Lipid + Protein); Cell wall is **Freely Permeable** (**Cellulose** in plants; absent in animals & *Mycoplasma*).',
+      hi: 'कोशिका झिल्ली ==$7\\text{--}10\\text{ nm}$== मोटी, **वरणात्मक (चुनिंदा) पारगम्य**। **कोशिका भित्ति** ==पूर्ण पारगम्य== (पादपों में **सेल्युलोस**; जंतु व *माइकोप्लाज्मा* में नहीं)।',
     },
     {
-      en: 'Hypotonic = cell swells; Isotonic = zero net water flow; Hypertonic = water exits -> animal cell shrinks & plant shows Plasmolysis.',
-      hi: 'अल्पपरासारी = कोशिका फूलेगी; समपरासारी = कोई शुद्ध बदलाव नहीं; अतिपरासारी = जल बाहर निकलेगा (पादप में जीवद्रव्य कुंचन / Plasmolysis)।',
+      en: '**Hypo = Hippo 🦛 (Cell Swells)** | **Hyper = Dehydrated (Shrinks / Plasmolysis)** | **Iso = Equal (No change)**.',
+      hi: '**अल्पपरासारी (Hypo) = फूलेगी 🦛** | **अतिपरासारी (Hyper) = पिचकेगी / जीवद्रव्य कुंचन** | **समपरासारी (Iso) = बराबर रहेगा**।',
     },
     {
-      en: 'Semi-autonomous DNA+Ribosome organelles: Nucleus, Mitochondria (Cristae, ATP Powerhouse) & Plastids (Chloroplast/Chromoplast/Leucoplast).',
-      hi: 'स्वयं का DNA व राइबोसोम वाले कोशिकांग: केंद्रक, माइटोकॉन्ड्रिया (अंतःकटक/ATP ऊर्जा केंद्र) और लवक (हरित/वर्णी/अवर्णी लवक)।',
+      en: '**N-M-P** (**Nucleus, Mitochondria, Plastids**) have **Double Membrane + Own DNA**. **Mitochondria** makes **ATP** (Glycolysis -> Krebs Cycle). **Ribosomes**: Prok `70S` vs Euk `80S`.',
+      hi: '**N-M-P** (केंद्रक, माइटोकॉन्ड्रिया, लवक) = **दोहरी झिल्ली + खुद का DNA**। **राइबोसोम**: प्रोकैरियोट में `70S`, यूकैरियोट में `80S` (बिना झिल्ली)।',
     },
     {
-      en: 'Mitosis = 2 identical diploid cells (growth/repair); Meiosis = 4 haploid gametes with half chromosomes & half DNA (testes/ovaries/anthers).',
-      hi: 'समसूत्री विभाजन = 2 समान संतति कोशिकाएँ (वृद्धि/मरम्मत); अर्धसूत्री विभाजन = 4 युग्मक आधे गुणसूत्रों के साथ (केवल जनन अंगों में)।',
+      en: '**Mitosis** = 2 exact body cells (`2n -> 2n`, wound healing). **Meiosis** = 4 sex gametes (`2n -> n`, Testes/Ovaries/Anthers). **PCD** stops webbed fingers & tumours.',
+      hi: '**समसूत्री (Mitosis)** = 2 एक जैसी कोशिकाएँ (चोट भरना)। **अर्धसूत्री (Meiosis)** = 4 युग्मक आधे गुणसूत्र के साथ। **PCD** से अंगुलियाँ अलग बनती हैं व कैंसर रुकता है।',
+    },
+  ],
+
+  sections: [
+    {
+      id: 'origin-organization',
+      number: '2.0',
+      flowDiagramKey: 'org-hierarchy',
+      svgLab: null,
+      title: {
+        en: 'Origin of Life, BSIP Hot Springs & Body Organization',
+        hi: 'जीवन की शुरुआत कहाँ से हुई? (लद्दाख के उष्ण स्रोत व शरीर का ढांचा)',
+      },
+      summaryTag: { en: 'NCERT Pages 8–9 • Basic Context', hi: 'NCERT पृष्ठ 8–9 • आसान शुरुआत' },
+      blocks: [
+        {
+          heading: {
+            en: '1. How Did the Very First Cell Form in Hot Water?',
+            hi: '1. पृथ्वी पर पहली कोशिका गर्म पानी में कैसे बनी?',
+          },
+          desiIntuition: {
+            en: 'Think of Earth 3.5 billion years ago like a **pressure cooker of hot mineral pools**. Heat-loving bacteria survived near boiling springs, and a thin mineral shell protected early life chemicals—becoming the first cell boundary!',
+            hi: 'कल्पना कीजिए 3.5 अरब साल पहले पृथ्वी पर कोई समुद्र शांत नहीं था — बल्कि जगह-जगह **उबलते हुए गर्म पानी के कुंड** थे! उन्हीं खौलते कुंडों के पास खनिज की एक पतली परत ने जीवन के शुरुआती कणों को ढककर **पहली कोशिका झिल्ली** बनाई।',
+          },
+          bullets: [
+            {
+              en: 'Life originated in **water**, likely shallow mineral-rich pools / geothermal **hot springs** (~**3.5 billion years ago**).',
+              hi: 'वैज्ञानिकों के अनुसार जीवन की उत्पत्ति **जल** (खासकर ~**3.5 अरब वर्ष पहले** के गर्म जलकुंडों) में हुई।',
+            },
+            {
+              en: '**==Puga Valley Hot Springs (Ladakh)==:** Even in freezing Ladakh climate, water stays near boiling point; inhabited by **Thermophiles** (`तापरागी जीवाणु` — heat-loving single-celled bacteria).',
+              hi: '**==पुगा घाटी उष्ण स्रोत (लद्दाख)==:** ठंडे लद्दाख में भी यहाँ पानी लगभग उबलता रहता है; इसमें **तापरागी जीवाणु (Thermophiles)** यानी गर्मी पसंद करने वाले एककोशिकीय जीव रहते हैं।',
+            },
+            {
+              en: '**==Birbal Sahni Institute of Palaeosciences (BSIP), Lucknow==:** Discovered rapid **$CaCO_3$ (Calcium Carbonate)** deposits around hot springs shielded early organic molecules from radiation & helped build the first protective membrane.',
+              hi: '**==बीरबल साहनी पुराविज्ञान संस्थान (लखनऊ)==:** वैज्ञानिकों ने पाया कि इन स्रोतों के पास **कैल्शियम कार्बोनेट ($CaCO_3$)** की परत ने शुरुआती जैविक अणुओं को विकिरण से बचाया और पहली झिल्ली बनाने में मदद की।',
+            },
+          ],
+          viralTrick: {
+            en: '**Map Hack:** **Puga Valley** = Ladakh (India) boiling pool -> **Thermo** (Heat) + **Phile** (Lover) -> Protected by **$CaCO_3$ (Chalk/Marble mineral)** found by **Lucknow BSIP**!',
+            hi: '**याद करने का जुगाड़:** **लद्दाख की पुगा घाटी** में उबलता पानी -> **Thermo (गर्मी) + Phile (प्यार)** = तापरागी जीवाणु -> रक्षा की **चूना-पत्थर ($CaCO_3$)** ने (**लखनऊ BSIP** खोज)!',
+          },
+          inlinePyqIds: [],
+        },
+        {
+          heading: {
+            en: '2. Building Blocks: Cell -> Tissue -> Organ -> System',
+            hi: '2. घर की ईंट की तरह: कोशिका से पूरा शरीर कैसे बनता है?',
+          },
+          desiIntuition: {
+            en: 'Just as **Brick -> Wall -> Room -> House**, in living bodies **Cell -> Tissue -> Organ -> Organ System -> Body**!',
+            hi: 'जैसे **ईंट → दीवार → कमरा → पूरा मकान** बनता है, ठीक वैसे ही हर जीव में **कोशिका → ऊतक → अंग → अंग-तंत्र → पूरा शरीर** बनता है!',
+          },
+          bullets: [
+            {
+              en: '**Unicellular (`एककोशिकीय`)**: Whole organism = just **1 cell** doing eating, breathing, waste removal (e.g., **Bacteria, Yeast, Amoeba, Paramecium**).',
+              hi: '**एककोशिकीय जीव:** पूरा शरीर सिर्फ **==1 अकेली कोशिका==** से बना (जैसे **जीवाणु, यीस्ट, अमीबा, पैरामीशियम**)।',
+            },
+            {
+              en: '**Multicellular (`बहुकोशिकीय`)**: Millions of cells divide labour (e.g., **Plants, Fish, Birds, Humans**).',
+              hi: '**बहुकोशिकीय जीव:** लाखों कोशिकाएँ मिलकर अलग-अलग काम बाँट लेती हैं (जैसे **पेड़-पौधे, मछली, पक्षी, इंसान**)।',
+            },
+            {
+              en: '**NCERT Example (Respiratory System):** Similar cells form **Tissue** -> Organs (**Nostrils + Nasal cavity + Trachea + Lungs**) team up as the **Respiratory System**.',
+              hi: '**उदाहरण (श्वसन तंत्र):** एक जैसे काम वाली कोशिकाएँ = **ऊतक** → कई ऊतक = **अंग** → नाक, श्वासनली व फेफड़े मिलकर बनाते हैं **श्वसन तंत्र**।',
+            },
+          ],
+          topperEdge: {
+            en: '**⭐ NCERT+ Booster (Tech Gr-III PYQ):** Branch studying cells = **Cytology (`साइटोलॉजी`)** | Division of labour first starts at cell organelles inside unicellular organisms and tissues in multicellular organisms.',
+            hi: '**⭐ टॉपर बूस्टर (Nirman Batch):** कोशिका का अध्ययन = **साइटोलॉजी (Cytology)** कहलाता है। भले शरीर बड़ा हो जाए, पर जीवन की असली संरचनात्मक व कार्यात्मक इकाई **कोशिका** ही रहती है।',
+          },
+          inlinePyqIds: [16, 17],
+        },
+      ],
+    },
+
+    {
+      id: 'studying-cells',
+      number: '2.1',
+      svgLab: 'microscope-scale',
+      svgLabTitle: {
+        en: 'Interactive Lab 1: Human Eye vs Optical & Electron Microscope Scale (Fig 2.1 & 2.2)',
+        hi: 'इंटरैक्टिव लैब 1: आँख की सीमा vs लाइट और इलेक्ट्रॉन सूक्ष्मदर्शी (स्लाइडर सहित)',
+      },
+      title: {
+        en: 'Microscopy, Unit Maths & Pioneers (Hooke, Leeuwenhoek, Brown, Purkinje)',
+        hi: 'इतनी छोटी कोशिका को कैसे देखते हैं? सूक्ष्मदर्शी, मात्रक व वैज्ञानिक खोजें',
+      },
+      summaryTag: { en: 'Section 2.1 • Pages 9–11 + Real Hooke Plate', hi: 'भाग 2.1 • पृष्ठ 9–11 + असली 1665 हुक चित्र' },
+      blocks: [
+        {
+          heading: {
+            en: '1. Why Naked Eyes Fail ($0.1\\text{ mm}$ Limit) & Lens Formula',
+            hi: '1. नंगी आँख की सीमा ($0.1\\text{ mm}$) और सूक्ष्मदर्शी का जादू',
+          },
+          desiIntuition: {
+            en: 'Make two tiny dots very close on paper—closer than **$0.1\\text{ mm}$** (hair thickness!), your eye blends them into 1 dot. Convex lenses bend light to separate & magnify them **100×**!',
+            hi: 'कागज पर दो बारीक बिंदु बहुत पास बनाएं — अगर उनके बीच दूरी **एक बाल की मोटाई ($0.1\\text{ mm}$)** से कम हुई तो आँखें दोनों को एक ही मान लेती हैं। **उत्तल लेंस** उन्हें बड़ा करके साफ अलग दिखाता है!',
+          },
+          bullets: [
+            {
+              en: '**==Eye Resolving Limit:==** **$0.1\\text{ mm}$** when held at human eye near point (**==$25\\text{ cm}$==**).',
+              hi: '**==मानव नेत्र की विभेदन सीमा:==** स्पष्ट देखने की न्यूनतम दूरी (**$25\\text{ cm}$**) पर **$0.1\\text{ mm}$**।',
+            },
+            {
+              en: '**Compound Light Microscope:** Uses **visible light + 2 convex lenses** (**Eyepiece `नेत्रिका`** × **Objective `अभिदृश्यक`** $10\\times, 40\\times$). Example: $10\\times \\text{ eye} \\times 10\\times \\text{ obj} = \\mathbf{100\\times}$ magnification!',
+              hi: '**प्रकाश सूक्ष्मदर्शी:** इसमें दो उत्तल लेंस (**नेत्रिका × अभिदृश्यक लेंस**) होते हैं। यदि दोनों $10\\times$ हैं, तो वस्तु **$10 \\times 10 = 100$ गुना** बड़ी दिखेगी।',
+            },
+            {
+              en: '**3 Microscope Pillars:** **Resolution (`विभेदन`)** clarity, **Contrast (`विपर्यास`)** brightness difference, **Magnification (`आवर्धन`)** zoom.',
+              hi: '**सूक्ष्मदर्शी के 3 स्तंभ:** **विभेदन (Resolution)** = धुंधलापन हटाकर साफ दिखाना, **विपर्यास (Contrast)** = भागों के रंग/चमक में अंतर, **आवर्धन (Magnification)** = बड़ा करना।',
+            },
+            {
+              en: '**==Electron Microscope (EM):==** Fires an **electron beam** instead of light -> zooms down to **nanometre scale** ($1\\text{ nm} = 10^{-9}\\text{ m}$). Shows viruses, ribosomes, DNA & **SEM image of *Colocasia* leaf Stomata (`Fig 2.4`)**!',
+              hi: '**==इलेक्ट्रॉन सूक्ष्मदर्शी (EM):==** यह प्रकाश की जगह **इलेक्ट्रॉन की किरण (Beam)** फेंकता है और **नैनोमीटर ($10^{-9}\\text{ m}$)** तक दिखाता है — जैसे *कोलोकेशिया* पत्ती के रंध्र (चित्र 2.4)।',
+            },
+            {
+              en: '**Conversion Formula:** $1\\text{ mm} = 1000\\text{ }\\mu\\text{m}$ | $1\\text{ }\\mu\\text{m} = 10^{-6}\\text{ m}$ | $1\\text{ nm} = 10^{-9}\\text{ m} = 0.000001\\text{ mm}$.',
+              hi: '**यूनिट रूपांतरण:** $1\\text{ mm} = 1000\\text{ }\\mu\\text{m}$ | $1\\text{ nm} = 10^{-9}\\text{ m} = 0.000001\\text{ mm}$।',
+            },
+          ],
+          realImage: {
+            url: '/ncert-notes/class9-bio-ch2/real/hooke-cork-1665.webp',
+            secondaryUrl: '/ncert-notes/class9-bio-ch2/real/hooke-microscope-1665.webp',
+            title: {
+              en: 'Original 1665 Cork Plate & Hooke Compound Microscope (Public Domain — Micrographia)',
+              hi: 'असली 1665 चित्र: रॉबर्ट हुक द्वारा देखा गया कॉर्क (मधुमक्खी के छत्ते जैसे कोष्ठ) एवं उनका सूक्ष्मदर्शी',
+            },
+            caption: {
+              en: 'Left: Honeycomb chambers ("Cellulae") observed in oak bark cork by Hooke (1665). Right: His self-made 200-300X compound microscope.',
+              hi: 'बाएं: रॉबर्ट हुक ने कॉर्क (पेड़ की छाल) में ऐसे छोटे कमरे देखे जिन्हें "सेल" नाम दिया। दाएं: हुक का खुद बनाया 200–300X सूक्ष्मदर्शी।',
+            },
+          },
+        },
+        {
+          heading: {
+            en: '2. Discovery Timeline — All 4 Names Asked in RRB!',
+            hi: '2. कोशिका की ऐतिहासिक खोजें (रेलवे में चारों नाम बार-बार आते हैं)',
+          },
+          desiIntuition: {
+            en: 'Remember the difference: Hooke only saw **empty dead walls** like empty jail cells; **Leeuwenhoek** saw **living swimming pond bacteria** 9 years later!',
+            hi: 'अंतर समझिए: **हुक** ने सिर्फ मरी हुई खाली ईंटों जैसे कमरे देखे थे (मृत कोशिका); **ल्यूवेनहॉक** ने पहली बार तालाब के पानी में हिलती-डुलती **जीवित कोशिका** देखी!',
+          },
+          bullets: [
+            {
+              en: '**==1665 — Robert Hooke:==** Examined thin dead **Cork slice** (tree bark) under self-made **$200\\text{--}300\\times$** microscope -> named honeycomb rooms **"Cell"**.',
+              hi: '**==1665 — रॉबर्ट हुक:==** पेड़ की छाल (**कॉर्क के टुकड़े**) में स्व-निर्मित $200\\text{--}300\\times$ सूक्ष्मदर्शी से पहली बार **मृत कोशिका** देखी और `"Cell"` नाम दिया।',
+            },
+            {
+              en: '**==1674 — Antonie van Leeuwenhoek (Nirman+):==** Improved lens & saw the **FIRST LIVING CELL** (free-living bacteria/protozoa in pond water).',
+              hi: '**==1674 — एंटोनी वॉन ल्यूवेनहॉक (Nirman+):==** तालाब के पानी में सबसे पहली **जीवित कोशिका (Living Cell)** देखी।',
+            },
+            {
+              en: '**==1831 — Robert Brown (Nirman+):==** Discovered the central **Nucleus (`केंद्रक`)** inside orchid plant cells.',
+              hi: '**==1831 — रॉबर्ट ब्राउन (Nirman+):==** कोशिका के अंदर **केंद्रक (Nucleus)** की खोज की।',
+            },
+            {
+              en: '**==1839 — J. E. Purkinje (ALP PYQ!):==** Coined the term **Protoplasm (`जीवद्रव्य`)** for the living fluid substance inside the cell.',
+              hi: '**==1839 — जे. ई. पुरकिंजे (ALP प्रश्न!):==** कोशिका के भीतर भरे जीवित तरल पदार्थ को **"प्रोटोप्लाज्म / जीवद्रव्य"** नाम दिया।',
+            },
+          ],
+          viralTrick: {
+            en: '**Timeline Trick — "Hu-Lee-Bra-Pur" (हु-ली-ब्रा-पुर):** **1665 Hooke** (Dead Cork) → **1674 Leeuwenhoek** (Live!) → **1831 Brown** (Brain/Nucleus) → **1839 Purkinje** (P = Protoplasm)!',
+            hi: '**वायरल ट्रिक — "हु-ली-ब्रा-पुर":** `1665` **हु**क (मृत कॉर्क) → `1674` **ली**वेनहॉक (जीवित) → `1831` **ब्रा**उन (केंद्रक/Brain) → `1839` **पुर**किंजे (**P = Protoplasm / जीवद्रव्य**)!',
+          },
+          inlinePyqIds: [13, 18],
+        },
+      ],
+    },
+
+    {
+      id: 'plasma-membrane-osmosis',
+      number: '2.2.1',
+      svgLab: 'osmosis-bilayer',
+      svgLabTitle: {
+        en: 'Interactive Lab 2: Live Osmosis & Fluid-Mosaic Bilayer Simulator (Fig 2.6 & 2.7)',
+        hi: 'इंटरैक्टिव लैब 2: परासरण (फूलना vs पिचकना) और लिपिड द्विपरत एनिमेशन',
+      },
+      title: {
+        en: 'Plasma Membrane, Diffusion, Osmosis & 3 Solutions',
+        hi: 'कोशिका झिल्ली (स्मार्ट गेटकीपर), विसरण व परासरण (3 तरह के घोल)',
+      },
+      summaryTag: { en: 'Section 2.2.1 • Pages 11–13', hi: 'भाग 2.2.1 • पृष्ठ 11–13' },
+      blocks: [
+        {
+          heading: {
+            en: '1. Plasma Membrane (Smart Gatekeeper) & Diffusion vs Osmosis',
+            hi: '1. प्लाज्मा झिल्ली (स्मार्ट चौकीदार) + विसरण बनाम परासरण',
+          },
+          desiIntuition: {
+            en: '**Diffusion** = spraying perfume in a room corner; fragrance spreads automatically across air **without needing any wall/membrane**. **Osmosis** = **special water-only diffusion** through a **smart sieve (plasma membrane)**—like raisins swelling overnight in plain water!',
+            hi: '**सरल समझ:** कमरे के कोने में **अगरबत्ती जलाने पर धुआँ/खुशबू पूरे कमरे में फैल जाना = विसरण (Diffusion)** (यहाँ किसी झिल्ली की ज़रूरत नहीं)। लेकिन **रात भर पानी में भीगी किशमिश का फूल जाना = परासरण (Osmosis)**, क्योंकि यहाँ केवल **जल** एक चुनिंदा झिल्ली के आर-पार गया!',
+          },
+          bullets: [
+            {
+              en: '**==Selectively Permeable (`वरणात्मक / चुनिंदा पारगम्य`):==** Outer thin membrane (**$7\\text{--}10\\text{ nm}$** thick) present in ALL cells (Plant, Animal, Bacteria). Lets $O_2, CO_2$ (in **lung alveoli**) & water pass, while blocking sugar/salt solute!',
+              hi: '**==चुनिंदा (वरणात्मक) पारगम्य झिल्ली:==** **$7\\text{--}10\\text{ nm}$** पतली यह झिल्ली **हर कोशिका** में होती है। यह केवल ज़रूरी पदार्थ ($O_2, CO_2$ फेफड़ों की कूपिकाओं में, व जल) को अंदर-बाहर जाने देती है, नमक/चीनी को रोक लेती है।',
+            },
+            {
+              en: '**Plant Water Uptake:** Plant roots absorb soil water continuously by **Osmosis**.',
+              hi: 'पौधों की जड़ें मिट्टी से पानी **परासरण (Osmosis)** द्वारा ही सोखती हैं।',
+            },
+            {
+              en: '**Moong Seed Box Trap (NCERT):** If soaked swollen Moong seeds (12h water) are dropped into strong salt water -> water exits by **exosmosis** and seeds **shrink**!',
+              hi: '**NCERT बॉक्स सवाल:** 12 घंटे पानी में भीगे फूले हुए मूंग के बीजों को गाढ़े नमक के घोल में रखने पर अंदर का पानी बाहर निकल जाएगा (**बहिःपरासरण**) और बीज **सिकुड़ जाएंगे**!',
+            },
+          ],
+          topperEdge: {
+            en: '**⭐ Ranker + Nirman+ Boosters:** 1) **Fluid-Mosaic Model** (`Singer & Nicolson`): Phospholipid bilayer (**Hydrophilic/water-loving heads OUT**, **Hydrophobic/water-fearing tails IN**) + **Proteins act as Gatekeeper channels**. 2) **Endocytosis** (`Amoeba`): Plasma membrane is flexible, letting *Amoeba* engulf food particles!',
+            hi: '**⭐ टॉपर बूस्टर:** **तरल-मोजेक मॉडल:** वसा (लिपिड) की 2 परतें — **पानी से प्यार करने वाला सिर (Hydrophilic Head) बाहर** व **पानी से डरने वाली पूँछें (Hydrophobic Tail) अंदर**; बीच में **प्रोटीन गेटकीपर** तैरते हैं। झिल्ली लचीली होने से ही **अमीबा** **एंडोसाइटोसिस (Endocytosis)** द्वारा भोजन निगलता है!',
+          },
+          inlinePyqIds: [4],
+        },
+        {
+          heading: {
+            en: '2. What Happens in 3 Solution Concentrations? (Fig 2.6)',
+            hi: '2. अलग-अलग सांद्रता वाले 3 विलयन (घोल) का कोशिका पर असर',
+          },
+          bullets: [
+            {
+              en: '**1. ==Hypotonic Solution (`अल्पपरासारी`):==** Water outside is HIGHER (solute is LOWER than inside cell) -> water rushes **INTO cell** -> **Cell SWELLS (`फूलती है`)**.',
+              hi: '**1. ==अल्पपरासारी (Hypotonic):==** बाहर पानी ज़्यादा (नमक/चीनी कम) → पानी अंदर जाएगा → **कोशिका फूल जाएगी (Swells)**।',
+            },
+            {
+              en: '**2. ==Isotonic Solution (`समपरासारी`):==** Equal solute/water inside & outside -> water moves equally both ways -> **ZERO net change** (`सामान आकार`).',
+              hi: '**2. ==समपरासारी (Isotonic):==** अंदर और बाहर पानी-नमक बराबर → बराबर आना-जाना → **आकार बिल्कुल नहीं बदलेगा**।',
+            },
+            {
+              en: '**3. ==Hypertonic Solution (`अतिपरासारी`):==** Outside solute is HIGHER (like $20\\%$ salt/sugar / pickle brine) -> water rushes **OUT** -> **Cell SHRINKS (`सिकुड़ती है`)**.',
+              hi: '**3. ==अतिपरासारी (Hypertonic):==** बाहर नमक/चीनी बहुत ज़्यादा (जैसे $20\\%$ चीनी या अचार का घोल) → पानी बाहर निकलेगा → **कोशिका सिकुड़ जाएगी (Shrinks)**।',
+            },
+          ],
+          viralTrick: {
+            en: '**Never-Forget Tonicity Hack:**\n• **Hypo** sounds like **Hippo 🦛** -> Big, fat, **SWOLLEN** cell!\n• **Hyper** -> When a person gets **Hyper**, they lose cool/water -> Cell **SHRINKS**!\n• **Iso** = **I-Same-O** -> **NO change**!',
+            hi: '**वायरल देसी ट्रिक:**\n• **Hypo (हाइपो) = Hippo 🦛 (दरियाई घोड़ा)** → कोशिका **मोटा/फूल** जाएगी!\n• **Hyper (हाइपर)** = ज़्यादा गुस्सा/गर्मी में पसीना (**पानी बाहर**) → कोशिका **पिचक/सिकुड़** जाएगी!\n• **Iso (आइसो)** = **बराबर** → कोई बदलाव नहीं!',
+          },
+          inlinePyqIds: [5],
+        },
+      ],
+    },
+
+    {
+      id: 'cell-wall',
+      number: '2.2.2',
+      flowDiagramKey: 'cell-wall-permeability',
+      svgLab: null,
+      title: {
+        en: 'Cell Wall, Plasmolysis, Activity 2.3 Stains & Cellular Flexibility',
+        hi: 'कोशिका भित्ति (सुरक्षा कवच), जीवद्रव्य कुंचन और प्याज-गाल स्लाइड',
+      },
+      summaryTag: { en: 'Section 2.2.2 • Pages 13–14 + Real Onion/Cheek Slides', hi: 'भाग 2.2.2 • पृष्ठ 13–14 + असली माइक्रोस्कोप चित्र' },
+      blocks: [
+        {
+          heading: {
+            en: '1. Why Plants/Fungi/Bacteria Have a Cell Wall (And Animals Don\'t)',
+            hi: '1. पौधों, कवक और जीवाणु में कोशिका भित्ति क्यों होती है?',
+          },
+          desiIntuition: {
+            en: 'Animals can walk indoors during rain or storms; **plants stand rooted outside 24×7**! So nature gave plants an outer wooden **Cellulose armor** (`कोशिका भित्ति`), while animals stayed wall-free for flexible movement (`Cellular Flexibility`).',
+            hi: 'जानवर व इंसान आंधी-तूफान-बारिश में घर के अंदर भाग सकते हैं, पर **पेड़-पौधे एक ही जगह खड़े रहकर सब झेलते हैं!** इसलिए भगवान ने पौधों की झिल्ली के बाहर **सेल्युलोस की मज़बूत दीवार (Cell Wall)** दी — जबकि जंतु कोशिकाओं में दीवार न होने से वे आसानी से आकार बदल (लचीलापन) सकती हैं!',
+          },
+          bullets: [
+            {
+              en: '**Where Found:** Present in **==Plants, Fungi, and Bacteria==**; **ABSENT** in Animal cells (and **==*Mycoplasma*==**!).',
+              hi: '**कहाँ मिलती है:** **==पादप, कवक (Fungi) और जीवाणु==** में; जंतु कोशिका (व अपवाद **==माइकोप्लाज्मा==** बिना भित्ति वाला सूक्ष्मजीव) में **नहीं** होती।',
+            },
+            {
+              en: '**Chemical Composition (PYQ Gold):** Plants = **==Cellulose==** (glucose carbohydrate chain; acts as **==Roughage (`रुक्षांश`)==** aiding human digestion) | Fungi (`Nirman+`) = **Chitin (`काइटिन`)**.',
+              hi: '**किससे बनी होती है (PYQ):** पादपों में **==सेल्युलोस==** (अनेक ग्लूकोस से बना कार्बोहाइड्रेट; हमारे खाने में **रुक्षांश/रेशे** का काम करता है) | कवकों में **काइटिन** से।',
+            },
+            {
+              en: '**==-0.33 Trap — Permeability Difference:==** Plasma membrane is **Selectively Permeable**, whereas Cell Wall is **==Freely Permeable==** (lets water & dissolved soil minerals enter roots freely!).',
+              hi: '**==-0.33 Trap (सावधान!):==** **कोशिका झिल्ली** चुनिंदा पदार्थों को जाने देती है, लेकिन **कोशिका भित्ति ==पूर्ण पारगम्य (Freely Permeable)==** होती है — तभी जड़ें मिट्टी से पानी-खनिज सोख पाती हैं।',
+            },
+            {
+              en: '**==Plasmolysis (`जीवद्रव्य कुंचन`):==** Put Onion/*Rhoeo* leaf in **$20\\%$ Sugar solution** -> water escapes by osmosis -> inner living contents shrink away **while outer Cell Wall keeps its rectangular frame intact**! Animal cheek cells lack a wall so they shrivel entirely.',
+              hi: '**==जीवद्रव्य कुंचन (Plasmolysis):==** प्याज/*रोइओ* पत्ती को $20\\%$ चीनी घोल में डालने पर पानी बाहर निकलता है — **बाहरी भित्ति ज्यों की त्यों रहती है, पर अंदर का पूरा द्रव्य सिकुड़कर दीवार से दूर हट जाता है!**',
+            },
+          ],
+          realImage: {
+            url: '/ncert-notes/class9-bio-ch2/real/real-onion-cells.webp',
+            secondaryUrl: '/ncert-notes/class9-bio-ch2/real/cheek-cells.webp',
+            title: {
+              en: 'Real Microscope Comparison: Onion Peel Cells vs Human Cheek Epithelial Cells',
+              hi: 'असली माइक्रोस्कोप तुलना: प्याज की झिल्ली (नियमित ईंट जैसी भित्ति) बनाम मानव गाल कोशिका (असमान झिल्ली)',
+            },
+            caption: {
+              en: 'Left (CC BY 4.0): Rigid rectangular brick-wall Onion epidermis (in class lab stained pink with Safranin). Right (CC BY 4.0): Irregular Methylene-Blue stained Human cheek cells (No cell wall!).',
+              hi: 'बाएं: ईंट की दीवार जैसी नियमित प्याज झिल्ली (प्रयोगशाला में सैफ्रेनीन से गुलाबी रंजित)। दाएं: मेथिलीन ब्लू से रंजित मानव गाल की अनियमित कोशिका (भित्ति नहीं!)।',
+            },
+          },
+          viralTrick: {
+            en: '**Activity Stain Hack (`ALP 2025 Tested!`):**\n• **P**lant Onion/*Rhoeo* peel = **S**afranin (Pink/Red) 🧅\n• **M**outh/Cheek animal cell = **M**ethylene Blue (**M = M!**) 💙\n• **ALP Trap:** **Cytoplasm** takes **VERY LITTLE** stain; **Nucleus** stains dark!',
+            hi: '**अभिरंजक (Stain) वायरल ट्रिक:**\n• **प्याज / पादप** = **सैफ्रेनीन** (गुलाबी/लाल) 🧅\n• **मुँह (Mouth/Cheek)** = **मेथिलीन ब्लू** (`M से Mouth, M से Methylene Blue`) 💙\n• **ALP PYQ:** स्लाइड में **केंद्रक गहरा** रंगता है, जबकि **कोशिकाद्रव्य हल्का (Very Little)** रंग पकड़ता है!',
+          },
+          inlinePyqIds: [3, 6, 15],
+        },
+      ],
+    },
+
+    {
+      id: 'prokaryote-vs-eukaryote',
+      number: '2.3',
+      svgLab: 'cell-explorer',
+      svgLabTitle: {
+        en: 'Interactive Lab 3: 3-in-1 Cell Explorer — Plant vs Animal vs Bacterium (Tap Organelles!)',
+        hi: 'इंटरैक्टिव लैब 3: पादप vs जंतु vs जीवाणु कोशिका (किसी भी भाग को टच करके जानें)',
+      },
+      title: {
+        en: 'Prokaryotic vs Eukaryotic Cells, Viruses/Prions & Cytoskeleton',
+        hi: 'पूर्वकेंद्रकी vs सुकेंद्रकी कोशिका, विषाणु/प्रोसंक व कोशिका-पंजर (Cytoskeleton)',
+      },
+      summaryTag: { en: 'Section 2.3 • Pages 14–15 • Direct 2025 PYQs', hi: 'भाग 2.3 • पृष्ठ 14–15 • सीधा 2025 PYQ' },
+      blocks: [
+        {
+          heading: {
+            en: '1. Prokaryote (`प्रोकैरयोट`) vs Eukaryote (`यूकैरयोट`) — Nucleus Decides!',
+            hi: '1. पूर्वकेंद्रकी (Prokaryotic) बनाम सुकेंद्रकी (Eukaryotic) कोशिका',
+          },
+          desiIntuition: {
+            en: '**Prokaryote (Primitive Bacteria)** = a 1-room studio apartment where everything mixes on one open floor (NO walled bedrooms/organelles, NO envelope around DNA!). **Eukaryote (Plant/Animal/Fungi)** = a modern multi-room house with separate locked rooms (**organelles**) and a master office (**Nucleus**).',
+            hi: '**सरल समझ:** **प्रोकैरयोटिक (जीवाणु)** एक **बिना दीवारों वाले 1-रूम हॉल** जैसा है जहाँ सारे काम खुले में ही होते हैं — न केंद्रक पर लिफाफा (झिल्ली), न अलग-अलग कमरे! जबकि **यूकैरयोटिक (पादप/जंतु)** एक **बड़े बंगले** जैसा है जिसमें हर काम के लिए अलग झिल्ली वाले कमरे (**कोशिकांग**) और सुरक्षित **केंद्रक (Nucleus)** होता है।',
+          },
+          bullets: [
+            {
+              en: '**Prokaryotic (`Pro = Before/Primitive, Karyon = Nucleus`):** Diameter **$1\\text{--}10\\text{ }\\mu\\text{m}$**, usually **unicellular bacteria/cyanobacteria**. NO nuclear membrane & NO membrane-bound organelles! **Only ==1 circular chromosome==** naked in region called **==Nucleoid (`आद्य केंद्रक / केंद्रकाभ`)==**.',
+              hi: '**पूर्वकेंद्रकी / प्रोकैरयोट (`Pro = पुराना, Karyon = केंद्रक`):** आकार छोटा (**$1\\text{--}10\\text{ }\\mu\\text{m}$**), जैसे जीवाणु। इनमें केंद्रक झिल्ली व झिल्ली वाले कोशिकांग **नहीं** होते। **केवल ==1 गोल गुणसूत्र==** होता है जिसे **केंद्रकाभ (Nucleoid)** कहते हैं।',
+            },
+            {
+              en: '**Eukaryotic (`Eu = True`):** Diameter **$10\\text{--}100\\text{ }\\mu\\text{m}$**, **Plants, Animals, Fungi, Protists, Algae**. Well-defined membrane-bound nucleus, multiple chromosomes & membrane-bound organelles.',
+              hi: '**सुकेंद्रकी / यूकैरयोट (`Eu = असली`):** आकार बड़ा (**$10\\text{--}100\\text{ }\\mu\\text{m}$**), जैसे पादप, जंतु, कवक। इनमें **सुस्पष्ट झिल्ली वाला केंद्रक** व सभी कोशिकांग होते हैं।',
+            },
+          ],
+          topperEdge: {
+            en: '**⭐ Nirman+ Ribosome Rule (`70S` vs `80S`):** Even Prokaryotes MUST synthesize proteins—so they DO have **Ribosomes** (`70S` = `50S` large + `30S` small)! Eukaryotes have larger **`80S` (`60S + 40S`)** in cytoplasm (and `70S` inside Mitochondria/Chloroplast!).',
+            hi: '**⭐ टॉपर बूस्टर (Nirman Batch):** प्रोकैरियोटिक में भले कोई झिल्ली वाला कोशिकांग न हो, पर **राइबोसोम ज़रूर होता है (`70S = 50S + 30S`)**! यूकैरियोट में **`80S (60S + 40S)`** राइबोसोम पाया जाता है।',
+          },
+          inlinePyqIds: [12],
+        },
+        {
+          heading: {
+            en: '2. NCERT Box Goldmine: Virus/Viroid/Prion + Cytoskeleton & Cell Inclusions',
+            hi: '2. NCERT बॉक्स खजाना: विषाणु, विषाणुभ, प्रोसंक और कोशिका-पंजर (Group D 2025 PYQ)',
+          },
+          bullets: [
+            {
+              en: '**Acellular (Non-Cellular) Infectious Agents (No light-microscope view, Cell Theory fails on them!):**\n• **Virus (`विषाणु`):** Genetic material (DNA or RNA) **+** **Protein Coat**\n• **Viroid (`विषाणुभ`):** **Genetic material ONLY** (NO protein coat!)\n• **Prion (`प्रोसंक`):** **Misfolded Protein ONLY** (NO DNA/RNA!)',
+              hi: '**अकोशिकीय संक्रामक कारक (इन पर कोशिका सिद्धांत लागू नहीं होता!):**\n• **विषाणु (Virus):** आनुवंशिक पदार्थ (DNA/RNA) **+** **प्रोटीन का खोल**\n• **विषाणुभ (Viroids):** सिर्फ आनुवंशिक पदार्थ (**प्रोटीन खोल नहीं**!)\n• **प्रोसंक (Prions):** सिर्फ बिगड़ा/मुड़ा हुआ प्रोटीन (**कोई DNA/RNA नहीं**!)',
+            },
+            {
+              en: '**==Cytoskeleton (`कोशिका-पंजर` — Direct 2025 PYQ!):==** Ultra-fine protein filament network inside eukaryotic cytoplasm (only visible under Electron Microscope). Maintains **cell shape, mechanical support, motility & intracellular transport**!',
+              hi: '**==कोशिका-पंजर (Cytoskeleton — Group D 2025 PYQ!):==** यूकैरियोटिक कोशिकाओं में अत्यंत पतले तंतुओं का कंकाल-जाल (केवल इलेक्ट्रॉन सूक्ष्मदर्शी से दिखता है) जो **कोशिका का आकार, सहारा, गति व आंतरिक परिवहन** संभालता है।',
+            },
+            {
+              en: '**Cell Inclusions (`कोशिका अंतरंगक`):** Non-living stored food/minerals inside plant cytoplasm like **Starch** or **Calcium Oxalate / Silica crystals**.',
+              hi: '**कोशिका अंतरंगक:** पौधों के कोशिकाद्रव्य में संचित निर्जीव कण, जैसे **मंड (Starch)** या **कैल्शियम ऑक्सलेट / सिलिका के क्रिस्टल**।',
+            },
+          ],
+          viralTrick: {
+            en: '**V-V-P Trick:** **V**irus = Gene + Protein | **V**ir**oid** = `"O protein"` (Gene Only) | **Pr**ion = **`Pr`otein Only** (Zero Gene)!',
+            hi: '**याद रखने का शॉर्टकट:** **विषाणु** = दोनों (Gene + प्रोटीन) | **विषाणुभ (Viroid)** = प्रोटीन **गायब** | **प्रोसंक (Prion)** = **`P` से सिर्फ Protein** (DNA/RNA गायब)!',
+          },
+          inlinePyqIds: [1],
+        },
+      ],
+    },
+
+    {
+      id: 'nucleus-endomembrane',
+      number: '2.3.1-A',
+      flowDiagramKey: 'endomembrane-highway',
+      svgLab: null,
+      title: {
+        en: 'Organelles Part 1: Nucleus, Chromosomes, RBC Trap, ER -> Golgi -> Lysosomes',
+        hi: 'कोशिकांग भाग 1: केंद्रक (CEO), गुणसूत्र, RBC अपवाद व फैक्टरी-डाकघर-सफाई तंत्र',
+      },
+      summaryTag: { en: 'Section 2.3.1 • Pages 16–17 + Camillo Golgi Portrait', hi: 'भाग 2.3.1 • पृष्ठ 16–17 + असली गॉल्जी चित्र' },
+      blocks: [
+        {
+          heading: {
+            en: '1. Nucleus (CEO), DNA/Genes & Enucleated Mature RBC Exception',
+            hi: '1. केंद्रक (कोशिका का दिमाग), गुणसूत्र व परिपक्व RBC अपवाद',
+          },
+          desiIntuition: {
+            en: 'The **Nucleus** is the **Factory CEO Office** storing the master rulebook (**DNA**). When a cell isn\'t dividing, the DNA lies like tangled noodles (**Chromatin**). Right before division, it neatly packs into tight suitcases called **Chromosomes**!',
+            hi: '**केंद्रक (Nucleus)** कोशिका का **मुख्य CEO ऑफिस** है जहाँ जीवन की पूरी नियम-किताब (**DNA**) रखी होती है। आराम की अवस्था में यह उलझे धागों (**क्रोमेटिन**) जैसा दिखता है, लेकिन कोशिका बंटने के समय साफ-सुथरे **छड़ाकार गुणसूत्रों (Chromosomes)** में बंध जाता है!',
+          },
+          bullets: [
+            {
+              en: '**Double Nuclear Membrane + Nuclear Pores:** Controls transport between nucleus & cytoplasm. Inside sits dense round **Nucleolus (`केंद्रिका`)** which builds **ribosomal subunits**.',
+              hi: '**दोहरी केंद्रक झिल्ली + केंद्रक छिद्र:** पदार्थों को अंदर-बाहर जाने देते हैं। भीतर गोल **केंद्रिका (Nucleolus)** राइबोसोम बनाने वाली फैक्टरी है।',
+            },
+            {
+              en: '**Chromosomes = DNA + Proteins:** Visible **ONLY during cell division**! Functional segments of DNA controlling traits = **==Genes (`जीन`)==**.',
+              hi: '**गुणसूत्र = DNA + विशेष प्रोटीन:** केवल विभाजन के समय दिखाई देते हैं! DNA के क्रियात्मक खंड जो लक्षण तय करते हैं = **==जीन (Genes)==**।',
+            },
+            {
+              en: '**==Box Trap — Mature Human RBC (`लाल रक्त कोशिका`):==** Has **NO Nucleus** so it can pack more **Haemoglobin** for $O_2$ delivery! Trade-off: cannot divide or repair itself -> dies in **~120 days**.',
+              hi: '**==बॉक्स अपवाद — परिपक्व मानव RBC:==** इसमें **केंद्रक नहीं होता** ताकि ज्यादा से ज्यादा **हीमोग्लोबिन ($O_2$ ढोने के लिए)** भरा जा सके! नुकसान: खुद की मरम्मत/विभाजन नहीं कर पाती और **~120 दिन** में नष्ट हो जाती है।',
+            },
+          ],
+          realImage: {
+            url: '/ncert-notes/class9-bio-ch2/real/camillo-golgi.webp',
+            title: {
+              en: 'Camillo Golgi (Discovered Golgi Apparatus in Barn Owl Nerve Cells, 1898 — Public Domain)',
+              hi: 'वैज्ञानिक कैमिलो गॉल्जी (1898 में श्वेत उल्लू / Barn Owl की तंत्रिका कोशिका में गॉल्जीकाय खोजा)',
+            },
+            caption: {
+              en: 'Italian scientist Camillo Golgi used silver staining to visualize stacked sacs rejected by skeptics until Electron Microscopy confirmed them!',
+              hi: 'कैमिलो गॉल्जी की खोज पर शुरू में कई वैज्ञानिकों ने संदेह किया, पर दशकों बाद इलेक्ट्रॉन सूक्ष्मदर्शी ने इसे सही साबित किया।',
+            },
+          },
+        },
+        {
+          heading: {
+            en: '2. Manufacturing -> Packaging -> Cleanup Pipeline (Ribosome -> ER -> Golgi -> Lysosome)',
+            hi: '2. सामान बनना (राइबोसोम/ER) -> पैक होना (गॉल्जी) -> सफाई (लाइसोसोम)',
+          },
+          desiIntuition: {
+            en: 'Think of an Amazon Warehouse inside your cell: **Ribosomes/ER** manufacture goods (Proteins/Fats), **Golgi Apparatus** acts as the **Courier Post Office** packing & shipping vesicles, and **Lysosomes** act as the **Garbage Recycler / Suicide Squad**!',
+            hi: 'इसे एक **फैक्टरी + अमेज़न वेयरहाउस** की तरह समझें:\n1️⃣ **राइबोसोम व ER** सामान (प्रोटीन/वसा) बनाते हैं,\n2️⃣ **गॉल्जीकाय (डाकघर)** उसे पैक करके सही जगह भेजता है, और\n3️⃣ **लाइसोसोम (सफाईकर्मी)** कचरे व खराब मशीनों को गला कर साफ रखता है!',
+          },
+          bullets: [
+            {
+              en: '**Ribosomes (`Protein Factory`):** No membrane! Free in cytoplasm or stuck to ER -> **Protein synthesis**.',
+              hi: '**राइबोसोम (प्रोटीन फैक्टरी):** बिना झिल्ली के कण जो **प्रोटीन** बनाते हैं।',
+            },
+            {
+              en: '**Endoplasmic Reticulum (ER — `निर्माणशाला`, 2 types):**\n• **==RER (Rough / खुरदुरी ER):==** Studded with Ribosomes -> makes & secretes **Proteins** (e.g., pancreatic glands).\n• **==SER (Smooth / चिकनी ER):==** NO ribosomes -> makes/stores **Lipids (Fats) & Hormones** + **detoxifies poisons/drugs in liver (`Nirman+ PYQ!`)**. *(Trap Ex Q11: SER does NOT make cellulose!)*',
+              hi: '**अंतर्द्रव्यी जालिका (ER — 2 प्रकार):**\n• **==RER (खुरदुरी):==** सतह पर राइबोसोम लगे होने से खुरदुरी -> **प्रोटीन** बनाती है।\n• **==SER (चिकनी):==** राइबोसोम नहीं -> **वसा (Lipids) व हार्मोन** बनाती है + **यकृत (लिवर) में जहर व दवाओं को निष्क्रिय (Detoxify) करती है (`Nirman+`)**। *(अभ्यास प्रश्न Trap: SER सेल्युलोस नहीं बनाती!)*',
+            },
+            {
+              en: '**Golgi Apparatus (`Post Office`, 1898):** Stacked flat membrane sacs (cisternae) discovered in **Barn Owl nerve cells** -> modifies, sorts & packs ER material into **vesicles**; **builds Lysosomes**!',
+              hi: '**गॉल्जी उपकरण (कोशिका का डाकघर):** **कैमिलो गॉल्जी (1898, श्वेत उल्लू)** ने खोजा -> चपटी थैलियों की ढेरी जो सामान पैक करती है और **लाइसोसोम बनाती है**!',
+            },
+            {
+              en: '**Lysosomes (`Suicidal / Disposal Bags`):** Single-membrane digestive enzyme sacs -> clean waste & broken organelles; digest own cell if burst! **Sperm Acrosome Box:** Human sperm carries lysosomal enzymes to dissolve egg outer layer for fertilisation!',
+              hi: '**लाइसोसोम / लयनकाय (आत्महत्या की थैली):** पाचक एंजाइमों से भरी थैली जो कचरे को पचाती है (कोशिका फटने पर खुद को पचा लेती है)। **शुक्राणु बॉक्स:** मानव शुक्राणु में इसके एंजाइम अंडाणु की बाहरी परत गलाकर निषेचन कराते हैं!',
+            },
+          ],
+          inlinePyqIds: [8, 10, 11],
+        },
+      ],
+    },
+
+    {
+      id: 'mitochondria-plastids-vacuoles',
+      number: '2.3.1-B',
+      flowDiagramKey: 'mito-plastid-power',
+      svgLab: null,
+      title: {
+        en: 'Organelles Part 2: Mitochondria (ATP), 3 Plastids, Vacuoles & Synthetic DNA',
+        hi: 'कोशिकांग भाग 2: माइटोकॉन्ड्रिया (बिजलीघर), 3 लवक, रसधानी व संश्लेषित DNA',
+      },
+      summaryTag: { en: 'Section 2.3.1 • Pages 18–20 + Real TEM & Chloroplast Photos', hi: 'भाग 2.3.1 • पृष्ठ 18–20 + असली TEM व हरितलवक फोटो' },
+      blocks: [
+        {
+          heading: {
+            en: '1. Mitochondria (`Powerhouse`) & Plastids — Semi-Autonomous DNA Twins',
+            hi: '1. माइटोकॉन्ड्रिया (ऊर्जा केंद्र) और लवक — दोनों में खुद का DNA!',
+          },
+          desiIntuition: {
+            en: 'Notice why **Mitochondria** and **Chloroplasts** act like mini independent factories inside a city: unlike other organelles, **both have their own DNA and 70S ribosomes**, suggesting they evolved from ancient bacteria living inside bigger cells!',
+            hi: 'याद रखें: **माइटोकॉन्ड्रिया** शहर का **पावरहाउस** है जहाँ खाना जलकर बिजली (**ATP**) बनती है, और **हरितलवक** पौधे की **सोलर किचन** है जहाँ धूप से खाना बनता है! कमाल की बात यह कि इन दोनों के पास **अपना खुद का DNA और राइबोसोम** होता है!',
+          },
+          bullets: [
+            {
+              en: '**==Mitochondria (`सूत्रकणिका` — Discovered Altman 1894, Nirman+):==** Smooth porous outer membrane + deeply folded inner membrane **==Cristae (`अंतःकटक`)==** expanding surface area for chemical reactions! Glucose respiration (**Cytoplasm Glycolysis -> Mitochondria Krebs Cycle -> ==ATP==**, Energy Currency) happens here.',
+              hi: '**==माइटोकॉन्ड्रिया (पावरहाउस):==** दोहरी झिल्ली — बाहरी चिकनी व छिद्रित, भीतरी झिल्ली अँगुली जैसे **==अंतःकटक (Cristae)==** में मुड़ी (सतह बढ़ाने हेतु)। यहाँ श्वसन से ग्लूकोस टूटकर **==ATP (ऐडेनोसिन ट्राइफॉस्फेट — ऊर्जा की मुद्रा)==** बनता है।',
+            },
+            {
+              en: '**==3 Types of Plastids (PLANT CELLS ONLY, Double Membrane):==**\n• **Chloroplast (`हरितलवक`):** Green **Chlorophyll** pigment discs inside semi-fluid **==Stroma (`पीठिका`)==** -> makes sugar + stores starch grains.\n• **Chromoplast (`वर्णीलवक`):** Yellow/orange/red pigments in flowers & fruits -> attracts insects/animals for **pollination & seed dispersal**.\n• **Leucoplast (`अवर्णी लवक`):** **Colourless** -> stores **starch, oil & proteins** (e.g., **potato & *Colocasia*/अरबी roots**)!',
+              hi: '**==लवक के 3 प्रकार (केवल पादप कोशिकाओं में):==**\n• **हरितलवक (Chloroplast):** अर्ध-तरल **==पीठिका (Stroma)==** में पर्णहरित चक्रिकाएँ → **प्रकाश-संश्लेषण (भोजन निर्माण)**।\n• **वर्णीलवक (Chromoplast):** फूलों-फलों को पीला/नारंगी/लाल रंग देता है → **परागण व बीज प्रकीर्णन** हेतु कीटों को आकर्षित करता है।\n• **अवर्णी लवक (Leucoplast):** **रंगहीन** → **स्टार्च, तेल व प्रोटीन संचय** (जैसे आलू व अरबी की जड़ों में)!',
+            },
+          ],
+          realImage: {
+            url: '/ncert-notes/class9-bio-ch2/real/mitochondrion-tem.webp',
+            secondaryUrl: '/ncert-notes/class9-bio-ch2/real/chloroplasts-leaf.webp',
+            title: {
+              en: 'Real Electron & Leaf Microscopy: Mammalian Mitochondria (TEM) & Green Chloroplasts',
+              hi: 'असली प्रयोगशाला दृश्य: इलेक्ट्रॉन सूक्ष्मदर्शी से माइटोकॉन्ड्रिया (बाएं) और पत्ती में हरे लवक (दाएं)',
+            },
+            caption: {
+              en: 'Left (Public Domain TEM): Real folded inner Cristae maximizing ATP generation surface area. Right (CC BY-SA): Green chlorophyll-rich Chloroplasts inside polygonal plant cell walls.',
+              hi: 'बाएं: असली माइटोकॉन्ड्रिया की मुड़ी हुई भीतरी परत (Cristae)। दाएं: पादप कोशिकाओं के अंदर हरे हरितलवक।',
+            },
+          },
+          viralTrick: {
+            en: '**2 Super-Hit Tricks:**\n• **Own DNA Club = "N-M-P"** -> **N**ucleus, **M**itochondria, **P**lastid!\n• **Plastid Trio = "C-C-L":** **Ch**loro = **H**ara (Kitchen) | **Ch**romo = **C**olour (Paint Box) | **L**euco = **L**ocker (रंगहीन गोदाम — आलू/अरबी)!',
+            hi: '**2 वायरल ट्रिक (100% मार्क्स):**\n• **अपना DNA किसके पास? = "N-M-P"** (`Nucleus` केंद्रक, `Mitochondria`, `Plastid` लवक)!\n• **3 लवक ट्रिक:** **ह**रित = हरा खाना | **व**र्णी = **रं**ग (फूल-फल) | **अ**वर्णी = **लॉकर** (आलू-अरबी में गोदाम)!',
+          },
+          inlinePyqIds: [8, 9],
+        },
+        {
+          heading: {
+            en: '2. Vacuoles (Storage Tank + Tonoplast) & Craig Venter 2010 Synthetic DNA',
+            hi: '2. रसधानी (पादप टंकी व मुरझाना) और क्रेग वेंटर (2010) का संश्लेषित DNA',
+          },
+          bullets: [
+            {
+              en: '**Vacuoles (`रसधानी`):** Mature plant cell has **ONE giant central vacuole** (can occupy $50\\text{--}90\\%$ volume!) bound by single membrane (**==Tonoplast, Nirman+==**) filled with watery **Cell Sap** (water, minerals, sugars, wastes). Keeps plant firm (**turgid**); water loss causes **wilting (`मुरझाना`)**. Animal vacuoles are **very small (`ALP 2025!`)**.',
+              hi: '**रसधानी:** पादप कोशिका में **एक बड़ी केंद्रीय रसधानी** (एकल झिल्ली जिसे **टोनोप्लास्ट** कहते हैं) होती है जिसमें **कोशिका-रस** भरा होता है — यही पौधे को सख्त रखती है (पानी घटने पर पौधा मुरझाता है)। जंतुओं में रसधानी **बहुत छोटी** होती है (`ALP 2025`)।',
+            },
+            {
+              en: '**J. Craig Venter Box (2010):** Chemically synthesized entire DNA genome of bacterium **==*Mycoplasma mycoides*==** in lab & inserted it into another bacterial shell (whose own DNA was removed) -> cell grew & divided cleanly under synthetic DNA orders, proving **DNA controls everything**!',
+              hi: '**जे. क्रेग वेंटर प्रयोग (2010):** वैज्ञानिकों ने **माइकोप्लाज्मा माइकोइड्स** जीवाणु का पूरा DNA प्रयोगशाला में कृत्रिम रूप से बनाया और बिना DNA वाली दूसरी कोशिका में डाला — कोशिका नए DNA के अनुसार बढ़ने और बंटने लगी!',
+            },
+          ],
+          inlinePyqIds: [7],
+        },
+      ],
+    },
+
+    {
+      id: 'cell-division',
+      number: '2.4',
+      svgLab: 'mitosis-meiosis',
+      svgLabTitle: {
+        en: 'Interactive Lab 4: Animated Mitosis vs Meiosis Step Simulator (Fig 2.18 & 2.19)',
+        hi: 'इंटरैक्टिव लैब 4: समसूत्री (Mitosis) बनाम अर्धसूत्री (Meiosis) स्टेप एनिमेशन',
+      },
+      title: {
+        en: 'Cell Division (Mitosis & Meiosis), Root-Tip Lab, A.K. Sharma & Tissue Culture',
+        hi: 'कोशिका विभाजन (समसूत्री व अर्धसूत्री), मूलाग्र प्रयोग, डॉ. अरुण शर्मा व ऊतक संवर्धन',
+      },
+      summaryTag: { en: 'Section 2.4 • Pages 20–22 + Real Mitosis Slide', hi: 'भाग 2.4 • पृष्ठ 20–22 + असली कोशिका विभाजन स्लाइड' },
+      blocks: [
+        {
+          heading: {
+            en: '1. Why Do Cells Divide Instead of Growing Giant? (~1% Daily Replacement!)',
+            hi: '1. चोट लगने पर त्वचा खुद कैसे जुड़ जाती है? समसूत्री व अर्धसूत्री विभाजन',
+          },
+          desiIntuition: {
+            en: 'Humans replace **hundreds of billions (~1%) of body cells every single day**! Two division modes:\n• **Mitosis (`सम = बराबर`)** is like **photocopying 1 ID card into 2 identical copies** for skin repair & body growth.\n• **Meiosis (`अर्ध = आधा`)** happens **ONLY in sex organs** to split chromosomes in **half ($46 \\to 23$)** so Mother egg ($23$) + Father sperm ($23$) make a normal $46$-chromosome baby!',
+            hi: 'मानव शरीर रोज़ **सैकड़ों अरब कोशिकाएँ (~$1\\%$)** बदलता है! दोनों विभाजन आसानी से समझें:\n• **समसूत्री (`सम = बराबर`)**: **1 से 2 बिल्कुल एक जैसी फोटोकॉपी** बनना (घाव भरने व लंबाई बढ़ने हेतु)।\n• **अर्धसूत्री (`अर्ध = आधा`)**: **सिर्फ जनन अंगों में 1 से 4 युग्मक** बनना जहाँ गुणसूत्र **आधे ($46 \\to 23$)** रह जाते हैं ताकि निषेचन पर बच्चे में फिर $46$ पूरे हो जाएँ!',
+          },
+          bullets: [
+            {
+              en: '**Mitosis (`समसूत्री`, 1 step -> 2 identical $2n$ cells):** Used for somatic growth, skin cut healing, maintenance & asexual reproduction; single human zygote multiplies into trillions via mitosis. **Error effect:** Uncontrolled mitosis causes **Tumours** & abnormal somatic chromosome numbers.',
+              hi: '**समसूत्री (1 चरण -> 2 समान कोशिकाएँ, $2n \\to 2n$):** शरीर वृद्धि, कटने-छिलने की मरम्मत व अलैंगिक जनन के लिए। **त्रुटि होने पर:** अनियंत्रित विभाजन से **अर्बुद (Tumour/गाँठ)** बन सकता है।',
+            },
+            {
+              en: '**Meiosis (`अर्धसूत्री`, 2 steps -> 4 gametes with $n$ chromosomes & half DNA):** Occurs **ONLY in reproductive organs** (Human **Testes -> Sperm**, **Ovaries -> Ovum**; Plant **Anthers -> Pollen**, **Ovary -> Egg**). Creates **genetic variation** (why siblings look similar yet unique!). **Error effect:** Genetic disorders, developmental defects, miscarriage or reduced fertility.',
+              hi: '**अर्धसूत्री (2 चरण -> 4 युग्मक आधे DNA के साथ, $2n \\to n$):** केवल जनन अंगों (**वृषण में शुक्राणु, अंडाशय में अंडाणु; पादप परागकोश में परागकण**) में होता है और **आनुवंशिक विविधता** लाता है। **त्रुटि होने पर:** आनुवंशिक विकार या गर्भपात की समस्या हो सकती है।',
+            },
+            {
+              en: '**Scientist Box (`Arun Kumar Sharma`) & Tissue Culture:** Noted Indian botanist famous for **chromosome research**, plant taxonomy & cytological methods (**Shanti Swarup Bhatnagar & Padma Bhushan awardee**). **Animal Tissue Culture:** Growing isolated animal cells outside the body in sterile **nutrient broth** with controlled temperature, pH & humidity for medicines & vaccines.',
+              hi: '**वैज्ञानिक-परिचय (`प्रो. अरुण कुमार शर्मा`):** गुणसूत्रों पर शोध के लिए प्रसिद्ध भारतीय वनस्पतिशास्त्री — **शांति स्वरूप भटनागर पुरस्कार व पद्म भूषण** प्राप्त। **कोशिका संवर्धन (Tissue Culture):** शरीर के बाहर नियंत्रित ताप, pH व नमी में पोषक माध्यम में कोशिकाएँ उगाकर दवाइयाँ व टीके बनाना।',
+            },
+          ],
+          realImage: {
+            url: '/ncert-notes/class9-bio-ch2/real/real-root-mitosis.webp',
+            title: {
+              en: 'Real Microscope Slide: Onion Root Tip Dividing Cells (Prophase, Metaphase, Anaphase, Telophase — CC0)',
+              hi: 'असली माइक्रोस्कोप स्लाइड (क्रियाकलाप 2.5): प्याज की जड़ (मूलाग्र) में विभाजन की चारों अवस्थाएँ',
+            },
+            caption: {
+              en: 'Real meristematic onion root-tip squash (matching NCERT Activity 2.5 using Aceto-alcohol 1:3 fixative, dil. HCl softening & Aceto-carmine chromosome stain).',
+              hi: 'सक्रिय रूप से बंटती प्याज मूलाग्र कोशिकाएँ — प्रयोगशाला में एसीटो-ऐल्कोहॉल (1:3), तनु HCl और एसीटो-कार्मिन से तैयार स्लाइड।',
+            },
+          },
+          inlinePyqIds: [14],
+        },
+      ],
+    },
+
+    {
+      id: 'cell-theory-cancer-pcd',
+      number: '2.5',
+      flowDiagramKey: 'cell-theory-cancer-pcd',
+      svgLab: null,
+      title: {
+        en: 'Cell Theory, Haberlandt Totipotency, Contact Inhibition, Cancer & PCD',
+        hi: 'कोशिका सिद्धांत, पूर्णशक्तता (Totipotency), कैंसर और प्रोग्राम्ड डेथ (PCD)',
+      },
+      summaryTag: { en: 'Section 2.5 • Pages 23–24 + Real Portraits', hi: 'भाग 2.5 • पृष्ठ 23–24 + असली वैज्ञानिक चित्र' },
+      blocks: [
+        {
+          heading: {
+            en: '1. Classical Cell Theory (Schleiden, Schwann & Virchow)',
+            hi: '1. कोशिका सिद्धांत (3 जर्मन वैज्ञानिक जिन्होंने नियम बनाया)',
+          },
+          bullets: [
+            {
+              en: '**1838 — Matthias Schleiden:** German botanist -> all **plants** are made of cells.',
+              hi: '**1838 — मैथियास श्लीडेन (वनस्पतिशास्त्री):** सभी **पौधे** कोशिकाओं से बने हैं।',
+            },
+            {
+              en: '**1839 — Theodor Schwann:** German zoologist -> all **animals** are made of cells (`Schwann sounded like Swan/हंस -> Animals!`).',
+              hi: '**1839 — थियोडोर श्वान (प्राणिशास्त्री):** सभी **जंतु** कोशिकाओं से बने हैं *(ट्रिक: `Swan = हंस = जंतु`!)*।',
+            },
+            {
+              en: '**1855 — Rudolf Virchow:** Extended theory (*"Omnis cellula e cellula"*) -> **all new cells arise ONLY from pre-existing cells**.',
+              hi: '**1855 — रुडोल्फ़ विरचो:** जोड़ा कि **नई कोशिकाएँ केवल पहले से मौजूद (पूर्वविद्यमान) कोशिकाओं से बनती हैं**।',
+            },
+            {
+              en: '**Gottlieb Haberlandt (1902 — Box):** Austrian botanist proposed **==Totipotency (`पूर्णशक्तता`)==** — any living plant cell can regenerate an entire plant with nutrients! Foundation of **Plant Tissue Culture**.',
+              hi: '**गॉटलीब हैबरलैंड्ट (1902):** बताया कि कोई भी जीवित पादप कोशिका सही पोषण मिलने पर **पूरा नया पौधा** बना सकती है — इसे **==पूर्णशक्तता (Totipotency)==** कहते हैं!',
+            },
+          ],
+          realImage: {
+            url: '/ncert-notes/class9-bio-ch2/real/schleiden.webp',
+            secondaryUrl: '/ncert-notes/class9-bio-ch2/real/virchow.webp',
+            title: {
+              en: 'Matthias Schleiden (1838) & Rudolf Virchow (1855) — Historical Portraits (Public Domain)',
+              hi: 'असली ऐतिहासिक चित्र: मैथियास श्लीडेन (बाएं) एवं रुडोल्फ़ विरचो (दाएं)',
+            },
+            caption: {
+              en: 'Together with zoologist Theodor Schwann (1839), they established the Classical Cell Theory (Exception: Viruses are acellular!).',
+              hi: 'थियोडोर श्वान के साथ इन्होंने कोशिका सिद्धांत दिया (अपवाद: विषाणु कोशिकीय नहीं होते!)।',
+            },
+          },
+        },
+        {
+          heading: {
+            en: '2. Contact Inhibition, Tumours (Cancer) & Programmed Cell Death (PCD)',
+            hi: '2. संपर्क अवरोध, कैंसर (अर्बुद) और क्रमादेशित कोशिका मृत्यु (PCD)',
+          },
+          desiIntuition: {
+            en: 'Healthy cells are polite neighbours: when they touch the next cell they **stop multiplying (`Contact Inhibition`)**, and when old/unwanted they quietly self-retire (**`PCD`**)—that\'s how PCD carves gaps between fingers in the womb! **Cancer cells lose both brakes** and pile up uncontrollably.',
+            hi: 'स्वस्थ कोशिकाएँ बहुत अनुशासित होती हैं: पड़ोसी कोशिका से छूते ही वे बढ़ना रोक देती हैं (**संपर्क अवरोध**), और काम खत्म होने पर खुद नष्ट हो जाती हैं (**PCD** — जैसे गर्भ में अँगुलियों के बीच की अतिरिक्त कोशिकाएँ मिटने से हमारी अलग-अलग अँगुलियाँ बनती हैं!)। **कैंसर कोशिकाएँ ये ब्रेक खो देती हैं** और अनियंत्रित भीड़ (**अर्बुद/Tumour**) बनाती हैं!',
+          },
+          bullets: [
+            {
+              en: '**Contact Inhibition (`संपर्क अवरोध`):** Normal animal cells stop dividing upon touching neighbours. **Plant cells do NOT show contact inhibition** due to rigid cell walls.',
+              hi: '**संपर्क अवरोध:** सामान्य जंतु कोशिकाएँ आपस में छूते ही विभाजन रोक देती हैं। **पादप कोशिकाएँ** दृढ़ भित्ति के कारण ऐसा नहीं दर्शातीं।',
+            },
+            {
+              en: '**Tumours & Cancer:** Cancer cells ignore stops -> uncontrolled division forms **Benign (`सुदम्य` — localized)** or **Malignant (`दुर्दम` — invades & spreads)** tumours.',
+              hi: '**कैंसर:** अनियंत्रित विभाजन से **अर्बुद (गाँठ)** बनते हैं — **सुदम्य** (एक जगह सीमित) या **दुर्दम** (पूरे शरीर में फैलने वाले)।',
+            },
+            {
+              en: '**==Programmed Cell Death (PCD — Group D 2025 PYQ!):==** Genetically controlled self-destruction needed for normal organ sculpting (eliminates embryo webbing between fingers), quality control & immunity.',
+              hi: '**==क्रमादेशित कोशिका मृत्यु (PCD — Group D 2025 PYQ!):==** आनुवंशिक नियंत्रण से होने वाली उपयोगी मृत्यु जो भ्रूण में अँगुलियाँ अलग करने व शरीर की सुरक्षा के लिए ज़रूरी है।',
+            },
+          ],
+          inlinePyqIds: [2],
+        },
+      ],
+    },
+  ],
+
+  confusionBreakers: [
+    {
+      pair: { en: 'Diffusion vs Osmosis', hi: 'विसरण (Diffusion) बनाम परासरण (Osmosis)' },
+      left: { en: 'Any state (Solid/Liquid/Gas) moves High -> Low; NO membrane needed.', hi: 'कोई भी कण (गैस/द्रव/ठोस) उच्च से निम्न सांद्रता; किसी झिल्ली की ज़रूरत नहीं।' },
+      right: { en: 'ONLY Water moves across a Selectively Permeable Membrane.', hi: 'सिर्फ जल के अणु वरणात्मक पारगम्य झिल्ली के पार जाते हैं।' },
+    },
+    {
+      pair: { en: 'Cell Wall vs Plasma Membrane Permeability', hi: 'कोशिका भित्ति बनाम कोशिका झिल्ली पारगम्यता' },
+      left: { en: 'Cell Wall = Freely Permeable (dead/rigid Cellulose in plants).', hi: 'कोशिका भित्ति = पूर्ण पारगम्य (सभी जल व खनिज जा सकते हैं; सेल्युलोस की बनी)।' },
+      right: { en: 'Plasma Membrane = Selectively Permeable (living Lipid+Protein bilayer).', hi: 'कोशिका झिल्ली = चुनिंदा/वरणात्मक पारगम्य (लिपिड + प्रोटीन)।' },
+    },
+    {
+      pair: { en: 'Chromatin vs Chromosomes', hi: 'क्रोमेटिन बनाम गुणसूत्र (Chromosome)' },
+      left: { en: 'Non-dividing cell: entangled thread-like DNA + protein mesh.', hi: 'जब कोशिका बंट नहीं रही हो तो उलझे धागे जैसा क्रोमेटिन।' },
+      right: { en: 'Dividing cell ONLY: condensed rod-shaped structures.', hi: 'केवल विभाजन के समय सिमटकर छड़ाकार गुणसूत्र बनते हैं।' },
+    },
+    {
+      pair: { en: 'Prokaryotic 70S vs Eukaryotic 80S Ribosome', hi: '70S बनाम 80S राइबोसोम (Nirman+)' },
+      left: { en: '70S (50S + 30S) -> Bacteria + inside Mitochondria/Chloroplast.', hi: '70S (50S + 30S) -> जीवाणुओं तथा माइटोकॉन्ड्रिया/हरितलवक के भीतर।' },
+      right: { en: '80S (60S + 40S) -> Eukaryotic cytoplasm & RER.', hi: '80S (60S + 40S) -> यूकैरियोटिक कोशिकाद्रव्य व RER पर।' },
+    },
+  ],
+
+  pioneers: [
+    {
+      name: { en: 'Robert Hooke (1665)', hi: 'रॉबर्ट हुक (1665)' },
+      country: { en: 'England • Book: Micrographia', hi: 'इंग्लैंड • पुस्तक: माइक्रोग्राफिया' },
+      badge: { en: 'First Cell (Dead Cork)', hi: 'पहली कोशिका खोज' },
+      photoUrl: '/ncert-notes/class9-bio-ch2/real/hooke-microscope-1665.webp',
+      fact: {
+        en: 'Used self-made $200\\text{--}300\\times$ compound microscope on thin dead **Cork slice** -> named box rooms **"Cell"**.',
+        hi: 'स्व-निर्मित $200\\text{--}300\\times$ सूक्ष्मदर्शी से कॉर्क की छाल में खाली बक्से देखे और **"सेल"** नाम दिया।',
+      },
+    },
+    {
+      name: { en: 'Antonie van Leeuwenhoek (1674)', hi: 'एंटोनी वॉन ल्यूवेनहॉक (1674)' },
+      country: { en: 'Netherlands • Nirman+ Boost', hi: 'नीदरलैंड्स • रेलवे बूस्टर' },
+      badge: { en: 'First LIVING Cell', hi: 'पहली जीवित कोशिका' },
+      photoUrl: '/ncert-notes/class9-bio-ch2/real/leeuwenhoek.webp',
+      fact: {
+        en: 'Crafted superior single-lens microscopes and observed the **first living cells** (pond bacteria/protozoa) — called Father of Microbiology.',
+        hi: 'तालाब के पानी में पहली बार **जीवित कोशिका (जीवाणु/प्रोटोजोआ)** देखी। सूक्ष्मजैविकी के जनक।',
+      },
+    },
+    {
+      name: { en: 'Schleiden (1838), Schwann (1839) & Virchow (1855)', hi: 'श्लीडेन, श्वान एवं विरचो' },
+      country: { en: 'German Trio', hi: 'जर्मन वैज्ञानिक त्रयी' },
+      badge: { en: 'Cell Theory Pillars', hi: 'कोशिका सिद्धांत' },
+      photoUrl: '/ncert-notes/class9-bio-ch2/real/schwann.webp',
+      fact: {
+        en: 'Schleiden (Plants = cells), Schwann (Animals = cells), Virchow ("New cells come ONLY from pre-existing cells").',
+        hi: 'श्लीडेन (पादप कोशिका), श्वान (जंतु कोशिका) व विरचो (नई कोशिका पूर्वविद्यमान कोशिका से बनती है)।',
+      },
+    },
+    {
+      name: { en: 'Camillo Golgi (1898)', hi: 'कैमिलो गॉल्जी (1898)' },
+      country: { en: 'Italy • Nobel Laureate', hi: 'इटली • नोबेल विजेता' },
+      badge: { en: 'Golgi Apparatus', hi: 'गॉल्जीकाय' },
+      photoUrl: '/ncert-notes/class9-bio-ch2/real/camillo-golgi.webp',
+      fact: {
+        en: 'Identified stacked cisternae in **Barn Owl nerve cells** via silver staining; confirmed decades later by Electron Microscopy.',
+        hi: '**श्वेत उल्लू (Barn Owl)** की तंत्रिका कोशिका में विशेष अभिरंजन से गॉल्जी उपकरण की खोज की।',
+      },
+    },
+    {
+      name: { en: 'Gottlieb Haberlandt (1902)', hi: 'गॉटलीब हैबरलैंड्ट (1902)' },
+      country: { en: 'Austria • Botanist', hi: 'ऑस्ट्रिया • वनस्पतिशास्त्री' },
+      badge: { en: 'Totipotency', hi: 'पूर्णशक्तता (Totipotency)' },
+      photoUrl: '/ncert-notes/class9-bio-ch2/real/schleiden.webp',
+      fact: {
+        en: 'Proposed any living mature plant cell can regenerate a whole plant with right nutrients — foundation of **Plant Tissue Culture**.',
+        hi: 'सुझाव दिया कि एक अकेली जीवित पादप कोशिका सही पोषण से पूरा पौधा बना सकती है (ऊतक संवर्धन की नींव)।',
+      },
+    },
+    {
+      name: { en: 'Arun Kumar Sharma & J. Craig Venter (2010)', hi: 'प्रो. अरुण कुमार शर्मा व जे. क्रेग वेंटर' },
+      country: { en: 'India + Synthetic Genomics', hi: 'भारत + संश्लेषिक DNA (2010)' },
+      badge: { en: 'Modern Milestones', hi: 'आधुनिक मील के पत्थर' },
+      photoUrl: '/ncert-notes/class9-bio-ch2/real/virchow.webp',
+      fact: {
+        en: '**A.K. Sharma:** Padma Bhushan & Bhatnagar winner for plant chromosome studies. **J. Craig Venter (2010):** Built synthetic *Mycoplasma mycoides* DNA that booted a live bacterial shell.',
+        hi: '**डॉ. अरुण शर्मा:** पादप गुणसूत्र शोध हेतु पद्म भूषण व भटनागर पुरस्कार। **क्रेग वेंटर (2010):** कृत्रिम *माइकोप्लाज्मा* DNA से जीवित कोशिका चलाकर दिखाई।',
+      },
     },
   ],
 
@@ -104,12 +799,12 @@ export const CH2_CELL_DATA = {
       imageUrl: '/ncert-notes/class9-bio-ch2/sem-colocasia-stomata.webp',
       hotspots: [
         {
-          en: 'Electron Beam: Replaces visible light to resolve nanoscale ($1\\text{ nm}$) structures',
-          hi: 'इलेक्ट्रॉन पुंज: प्रकाश के बजाय इलेक्ट्रॉन से नैनोमीटर स्तर तक विभेदन',
+          en: 'Electron Beam replaces visible light -> resolves down to **nanometre** ($10^{-9}\\text{ m}$) scale.',
+          hi: 'प्रकाश के बजाय इलेक्ट्रॉन पुंज से **$1\\text{ nm}$** स्तर तक की संरचनाएं साफ दिखती हैं।',
         },
         {
-          en: 'Colocasia Leaf Lower Epidermis: Bean-shaped Guard Cells surrounding Stomatal pore ($0.05\\text{ mm}$ scale)',
-          hi: 'कोलोकेशिया पत्ती की निचली सतह: रंध्र छिद्र को घेरने वाली द्वार कोशिकाएँ',
+          en: 'Colocasia lower surface shows bean-shaped **Guard Cells** around **Stomatal pores** ($0.05\\text{ mm}$ scale).',
+          hi: '*कोलोकेशिया* पत्ती की निचली सतह पर **रंध्र (Stomata)** और द्वार कोशिकाएँ दिखती हैं।',
         },
       ],
     },
@@ -117,22 +812,22 @@ export const CH2_CELL_DATA = {
       id: 'vis-onion-cheek',
       figRef: { en: 'Figures 2.8 & 2.9 (Activity 2.3)', hi: 'चित्र 2.8 एवं 2.9 (क्रियाकलाप 2.3)' },
       title: {
-        en: 'Safranin Onion Peel vs Plasmolysis in 20% Sugar vs Methylene Blue Cheek Cells',
-        hi: 'सैफ्रेनीन प्याज झिल्ली vs 20% चीनी में जीवद्रव्य कुंचन vs मेथिलीन ब्लू कपोल कोशिका',
+        en: 'Safranin Onion Peel vs 20% Sugar Plasmolysis vs Methylene Blue Cheek Cells',
+        hi: 'सैफ्रेनीन प्याज झिल्ली बनाम 20% चीनी में जीवद्रव्य कुंचन बनाम मेथिलीन ब्लू गाल कोशिका',
       },
       imageUrl: '/ncert-notes/class9-bio-ch2/onion-cheek-microscopy.webp',
       hotspots: [
         {
-          en: 'Left Circle (Safranin Pink): Onion / Rhoeo cells — brick-like, regular arrangement with rigid Cell Wall',
-          hi: 'बायाँ वृत्त (सैफ्रेनीन): प्याज / रोइओ कोशिकाएँ — ईंट जैसा नियमित व सुदृढ़ कोशिका भित्ति आकार',
+          en: 'Left Circle (**Safranin Pink**): Rigid brick-like rectangular plant Onion / *Rhoeo* cells.',
+          hi: 'बायाँ (**सैफ्रेनीन**): ईंट की तरह सजी हुई कठोर पादप कोशिकाएँ।',
         },
         {
-          en: 'Center Circle (20% Sugar Hypertonic): Plasmolysis — Plant cell wall stays intact while cytoplasm shrinks inside!',
-          hi: 'मध्य वृत्त (20% चीनी विलयन): जीवद्रव्य कुंचन — बाहरी भित्ति ज्यों की त्यों, भीतर का द्रव्य संकुचित!',
+          en: 'Middle Circle (**20% Sugar**): **Plasmolysis** — outer Cell Wall intact while inner cell content shrinks!',
+          hi: 'मध्य (**20% चीनी घोल**): **जीवद्रव्य कुंचन** — भित्ति वैसी ही है, अंदर का द्रव्य सिकुड़ गया!',
         },
         {
-          en: 'Right Circle (Methylene Blue): Human Cheek cells — irregular flexible boundary, NO Cell Wall',
-          hi: 'दायाँ वृत्त (मेथिलीन ब्लू): मानव कपोल कोशिका — अनियमित आकार, कोशिका भित्ति अनुपस्थित',
+          en: 'Right Circle (**Methylene Blue**): Irregular animal cheek epithelial cells (**no cell wall**).',
+          hi: 'दायाँ (**मेथिलीन ब्लू**): अनियमित आकार की मानव गाल कोशिकाएँ (**भित्ति अनुपस्थित**)।',
         },
       ],
     },
@@ -140,778 +835,134 @@ export const CH2_CELL_DATA = {
       id: 'vis-root-mitosis',
       figRef: { en: 'Figures 2.16 & 2.17 (Activity 2.5)', hi: 'चित्र 2.16 एवं 2.17 (क्रियाकलाप 2.5)' },
       title: {
-        en: 'Onion Root Tip Germination & Aceto-Carmine Stained Mitotic Division Stages',
-        hi: 'प्याज के वर्धनशील मूलाग्र एवं एसीटो-कार्मिन अभिरंजित कोशिका विभाजन अवस्थाएँ',
+        en: 'Onion Root-Tip Jar & Aceto-Carmine Stained Mitotic Stages',
+        hi: 'प्याज की बढ़ती जड़ें एवं एसीटो-कार्मिन से रंजित समसूत्री विभाजन अवस्थाएँ',
       },
       imageUrl: '/ncert-notes/class9-bio-ch2/onion-root-mitosis.webp',
       hotspots: [
         {
-          en: 'Fixative Trap: Aceto-alcohol (Glacial Acetic Acid : Ethanol :: 1 : 3) for 24h -> store in 70% Ethanol',
-          hi: 'फिक्सेटिव सूत्र: एसीटो-ऐल्कोहॉल (ग्लेशियल एसिटिक अम्ल : एथेनॉल :: 1 : 3) में 24 घंटे -> 70% एथेनॉल संरक्षण',
+          en: 'Fixative Ratio: **Aceto-alcohol (`Glacial Acetic Acid : Ethanol :: 1 : 3`)** for 24h -> store in **70% Ethanol**.',
+          hi: 'रसायन अनुपात: **एसीटो-ऐल्कोहॉल (एसिटिक अम्ल : एथेनॉल :: 1 : 3)** में 24 घंटे -> **70% एथेनॉल** संरक्षण।',
         },
         {
-          en: 'Softening + Stain: 1–2 drops Dilute HCl (10–15 min) softens cell walls -> 2–3 drops Aceto-carmine stain + gentle heat',
-          hi: 'ऊतक कोमलन व रंजन: तनु HCl से नरम + एसीटो-कार्मिन से गुणसूत्र अभिरंजन व कवरस्लिप थम्ब-स्क्वैश',
+          en: 'Softening + Stain: Dilute **HCl** (1–2 drops, 10–15 min) -> **Aceto-carmine stain** + gentle spirit-lamp heating.',
+          hi: 'नरम करना व रंजन: तनु **HCl** से कोमल करके **एसीटो-कार्मिन** अभिरंजक और हल्की आँच से गुणसूत्र दिखते हैं।',
         },
       ],
-    },
-  ],
-
-  sections: [
-    {
-      id: 'origin-organization',
-      number: '2.0',
-      svgLab: null,
-      title: {
-        en: 'Origin of Life, BSIP Hot Springs & Biological Organization',
-        hi: 'जीवन की उत्पत्ति, लद्दाख उष्ण स्रोत एवं कोशिकीय संगठन',
-      },
-      summaryTag: { en: 'NCERT Opening Page 8–9', hi: 'NCERT पृष्ठ 8–9 संपूर्ण' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: 'Aquatic Origin & Ladakh Puga Valley Finding', hi: 'जल में जीवन की उत्पत्ति एवं पुगा घाटी (लद्दाख) शोध' },
-          body: {
-            en: 'Widely accepted that life originated in water—specifically dynamic small pools / geothermal hot springs resembling Earth ~3.5 billion years ago. In India, the hot springs of Puga Valley (Ladakh) stay near the boiling point of water even in cold climate. These harbour unicellular heat-loving bacteria called Thermophiles. Scientists at Birbal Sahni Institute of Palaeosciences (BSIP), Lucknow found rapid calcium carbonate ($CaCO_3$) deposition around these springs shielded early organic molecules from radiation and likely helped form the earliest protective cell membrane.',
-            hi: 'वैज्ञानिक रूप से स्वीकृत है कि जीवन की उत्पत्ति जल में—विशेषकर ~3.5 अरब वर्ष पूर्व जैसी परिस्थितियों वाले उष्ण स्रोतों/छोटे जलकुंडों में हुई। भारत में लद्दाख की पुगा घाटी के उष्ण स्रोत ठंडी जलवायु में भी जल के क्वथनांक के बराबर तापमान बनाए रखते हैं, जहाँ ऊष्मा-स्नेही एककोशिकीय जीवाणु जिन्हें तापरागी जीवाणु (thermophiles) कहते हैं, पाए जाते हैं। लखनऊ स्थित बीरबल साहनी पुराविज्ञान संस्थान के वैज्ञानिकों ने पाया कि इन स्रोतों के चारों ओर बना कैल्शियम कार्बोनेट ($CaCO_3$) निक्षेप प्रारंभिक कार्बनिक अणुओं को हानिकारक विकिरण से बचाता था और पहली सुरक्षात्मक झिल्ली बनाने में सहायक रहा होगा।',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'Origin Conditions: ~3.5 billion years ago | Ladakh Puga Valley = Thermophiles | BSIP Lucknow = Calcium carbonate ($CaCO_3$) protective membrane role.',
-                hi: 'मुख्य तथ्य: ~3.5 अरब वर्ष पूर्व | लद्दाख पुगा घाटी = तापरागी जीवाणु | BSIP लखनऊ = कैल्शियम कार्बोनेट ($CaCO_3$) झिल्ली सुरक्षा।',
-              },
-            },
-          ],
-        },
-        {
-          type: 'concept',
-          heading: { en: 'Unicellular vs Multicellular & Hierarchy', hi: 'एककोशिकीय बनाम बहुकोशिकीय एवं संगठन स्तर' },
-          body: {
-            en: 'All living organisms are made of cells. Unicellular organisms (Bacteria, Yeast) consist of a single cell. Multicellular organisms (Plants, Fish, Birds, Humans) contain millions of cells working together: Similar Cells -> Tissue -> Different Tissues -> Organ -> Multiple Organs -> Organ System (e.g., Nasal openings + Nasal cavity + Trachea + Lungs form the Respiratory System). Still, the cell remains the basic structural & functional unit.',
-            hi: 'सभी सजीव कोशिकाओं से बने होते हैं। जीवाणु व यीस्ट केवल एक कोशिका से बने (एककोशिकीय) होते हैं, जबकि पादप, मछली, पक्षी व मनुष्य लाखों कोशिकाओं से बने (बहुकोशिकीय) होते हैं। क्रम: समान कोशिकाओं का समूह → ऊतक → विभिन्न ऊतक मिलकर → अंग → अनेक अंग → अंग-तंत्र (उदाहरण: नासा रंध्र, नासा गुहा, श्वासनली और फेफड़े = श्वसन तंत्र)। फिर भी कोशिका ही संरचना और कार्य की मूलभूत इकाई है।',
-          },
-        },
-      ],
-    },
-
-    {
-      id: 'studying-cells',
-      number: '2.1',
-      svgLab: 'microscope-scale',
-      svgLabTitle: {
-        en: 'Interactive Lab 1: Human Eye vs Optical & Electron Microscope Scale (Fig 2.1 & 2.2)',
-        hi: 'इंटरैक्टिव लैब 1: नेत्र सीमा से परमाणु तक पैमाना एवं प्रकाश सूक्ष्मदर्शी (चित्र 2.1 व 2.2)',
-      },
-      title: {
-        en: 'How Do We Study Cells? Eye Limit, Microscopy & Unit Conversions',
-        hi: 'कोशिकाओं का अध्ययन कैसे करें? नेत्र विभेदन सीमा, सूक्ष्मदर्शी व मात्रक',
-      },
-      summaryTag: { en: 'Section 2.1 • Pages 9–11', hi: 'भाग 2.1 • पृष्ठ 9–11' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: 'Resolving Limit of Eye & Robert Hooke (1665)', hi: 'नेत्र की विभेदन सीमा एवं रॉबर्ट हुक (1665)' },
-          body: {
-            en: 'Viewed from the human eye near point (~$25\\text{ cm}$), two dots separated by at least $0.1\\text{ mm}$ appear distinct; closer than $0.1\\text{ mm}$, they merge into one. This $0.1\\text{ mm}$ is the Resolving Limit of the human eye. Convex lenses (Objective + Eyepiece) magnify objects. In 1665, Robert Hooke used a self-built microscope ($200\\text{--}300\\times$ magnification) to inspect a thin cork slice, saw box-like compartments, and coined the term "cell".',
-            hi: 'मानव नेत्र के निकट बिंदु (~$25\\text{ cm}$) से देखने पर यदि दो बिंदुओं के बीच दूरी कम से कम $0.1\\text{ mm}$ हो, तभी वे अलग दिखते हैं; इससे कम पर एक ही प्रतीत होते हैं। इसे मानव नेत्र की विभेदन सीमा ($0.1\\text{ mm}$) कहते हैं। उत्तल लेंस संयोजन (अभिदृश्यक लेंस + नेत्रिका) वस्तु को आवर्धित करता है। रॉबर्ट हुक ने वर्ष 1665 में स्व-निर्मित सूक्ष्मदर्शी ($200\\text{--}300\\times$) द्वारा कॉर्क के पतले टुकड़े में बक्से जैसे कोष्ठ देखे और उन्हें "सेल" (कोशिका) नाम दिया।',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'Direct RRB PYQ (Group D Shift 38 / Tech-3 Shift 11): Year 1665 + Robert Hooke + Dead Cork slice! Remember his self-made microscope magnification = $200\\text{--}300\\times$.',
-                hi: 'सीधा RRB PYQ: वर्ष 1665 + रॉबर्ट हुक + कॉर्क की काट (Cork slice)! स्व-निर्मित सूक्ष्मदर्शी आवर्धन = $200\\text{--}300$ गुना।',
-              },
-            },
-            {
-              kind: 'formula',
-              text: {
-                en: 'Total Magnification $= \\text{Eyepiece Power} \\times \\text{Objective Lens Power}$ (e.g. $10\\times \\times 10\\times = 100\\times$). Unit Scale: $1\\text{ mm} = 1000\\text{ }\\mu\\text{m}$, $1\\text{ nm} = 10^{-9}\\text{ m} = 10^{-6}\\text{ mm}$.',
-                hi: 'कुल आवर्धन $= \\text{नेत्रिका} \\times \\text{अभिदृश्यक लेंस}$ ($10\\times \\times 10\\times = 100\\times$) | मात्रक: $1\\text{ mm} = 1000\\text{ }\\mu\\text{m}$, $1\\text{ nm} = 10^{-9}\\text{ m}$ (1 मीटर का एक अरबवाँ भाग)।',
-              },
-            },
-          ],
-        },
-        {
-          type: 'concept',
-          heading: { en: 'Compound Light vs Scanning Electron Microscope', hi: 'प्रकाश सूक्ष्मदर्शी बनाम इलेक्ट्रॉन सूक्ष्मदर्शी' },
-          body: {
-            en: 'School light microscopes use $10\\times$ and $40\\times$ objective lenses and rely on visible light. Microscope improvement targets three core pillars: Resolution (clarity), Contrast (brightness difference between parts), and Magnification. High-power Electron Microscopes use an electron beam instead of light to resolve structures down to the nanometre ($\\text{nm}$) level. Fig 2.4 shows a Scanning Electron Microscope (SEM) image of lower-surface stomata on a Colocasia leaf ($0.05\\text{ mm}$ scale).',
-            hi: 'प्रयोगशाला के प्रकाश सूक्ष्मदर्शी में $10\\times$, $40\\times$ अभिदृश्यक लेंस होते हैं। वैज्ञानिकों ने सूक्ष्मदर्शी की तीन मुख्य विशेषताओं— विभेदन (स्पष्टता), विपर्यास (विभिन्न भागों की द्युति में अंतर) और आवर्धन— में सुधार किया। इलेक्ट्रॉन सूक्ष्मदर्शी प्रकाश के बजाय इलेक्ट्रॉन पुंज का उपयोग कर नैनोमीटर स्तर तक कोशिका संरचना दिखाते हैं। चित्र 2.4 क्रमवीक्षण इलेक्ट्रॉन सूक्ष्मदर्शी (SEM) से कोलोकेशिया की पत्ती की निचली सतह के रंध्र (Stomata) दर्शाता है।',
-          },
-          highlights: [
-            {
-              kind: 'trap',
-              text: {
-                en: 'Trap: Electron Microscope uses an ELECTRON BEAM (not light/X-rays) and easily resolves Ribosomes ($\\sim 20\\text{--}30\\text{ nm}$), Viruses, Proteins & Cytoskeleton that light microscopes cannot clearly separate.',
-                hi: 'Trap: इलेक्ट्रॉन सूक्ष्मदर्शी प्रकाश की जगह इलेक्ट्रॉन पुंज इस्तेमाल करता है और राइबोसोम, विषाणु व कोशिका-पंजर को स्पष्ट देख सकता है।',
-              },
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      id: 'plasma-membrane-osmosis',
-      number: '2.2.1',
-      svgLab: 'osmosis-bilayer',
-      svgLabTitle: {
-        en: 'Interactive Lab 2: Live Osmosis / Plasmolysis Simulator & Fluid-Mosaic Bilayer (Fig 2.6 & 2.7)',
-        hi: 'इंटरैक्टिव लैब 2: परासरण / जीवद्रव्य कुंचन सिम्युलेटर एवं तरल-मोजेक झिल्ली (चित्र 2.6 व 2.7)',
-      },
-      title: {
-        en: 'Plasma Membrane, Diffusion, Osmosis & Fluid-Mosaic Model',
-        hi: 'कोशिका झिल्ली, विसरण, परासरण एवं तरल-मोजेक मॉडल',
-      },
-      summaryTag: { en: 'Section 2.2.1 • Pages 11–13', hi: 'भाग 2.2.1 • पृष्ठ 11–13' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: 'Selectively Permeable Barrier, Diffusion & Osmosis', hi: 'वरणात्मक पारगम्य झिल्ली, विसरण एवं परासरण' },
-          body: {
-            en: 'Cell Membrane (Plasma Membrane) encloses every cell and separates contents from external surroundings. It is selectively permeable—letting some substances pass (e.g., $O_2$ and $CO_2$ across lung alveoli membranes) while blocking others (like salt/sugar solute molecules during osmosis). Diffusion = net movement of particles from higher to lower concentration along a concentration gradient (does NOT require a membrane). Osmosis = diffusion of water across a selectively permeable membrane from dilute region (higher water concentration) to concentrated region (lower water concentration) until equilibrium. Plant roots absorb soil water by osmosis.',
-            hi: 'कोशिका झिल्ली (प्लाज्मा झिल्ली) प्रत्येक कोशिका का बाहरी आवरण है। यह वरणात्मक रूप से पारगम्य (selectively permeable) होती है— कुछ पदार्थों ($O_2$, $CO_2$ फेफड़ों की कूपिकाओं में) को आने-जाने देती है और कुछ (जैसे चीनी/नमक अणु) को रोकती है। विसरण (Diffusion) = सांद्रता प्रवणता के अनुसार उच्च से निम्न सांद्रता की ओर कणों की गति (झिल्ली के बिना भी संभव)। परासरण (Osmosis) = वरणात्मक पारगम्य झिल्ली के पार तनु विलयन (अधिक जल अणु) से सांद्र विलयन (कम जल अणु) की ओर जल का विसरण। पौधों की जड़ें मिट्टी से जल इसी परासरण से सोखती हैं।',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'ALP 2025 Shift 6: Functionally, Plasma Membrane is SELECTIVELY PERMEABLE ("वरणतः पारगम्य"), NOT "semi-permeable" or "rigid"!',
-                hi: 'ALP 2025 प्रश्न: प्लाज्मा झिल्ली कार्य के आधार पर "वरणात्मक पारगम्य" (Selectively Permeable) होती है, कठोर या पूर्ण अपारगम्य नहीं!',
-              },
-            },
-            {
-              kind: 'hook',
-              text: {
-                en: 'Side Box Q: If Moong seeds soaked 12h in water are placed in a concentrated salt/sugar solution -> water leaves by exosmosis, making swollen seeds shrink!',
-                hi: 'क्या होगा यदि... 12 घंटे जल में भीगे मूंग के बीजों को सांद्र विलयन में रखें? बहिःपरासरण से जल बाहर निकलेगा और बीज सिकुड़ जाएंगे!',
-              },
-            },
-          ],
-        },
-        {
-          type: 'concept',
-          heading: { en: 'Tonicity Cases & Fluid-Mosaic Structure (7–10 nm)', hi: 'विलयन के प्रकार एवं तरल-मोजेक संरचना (7–10 nm)' },
-          body: {
-            en: 'Three solution effects (Fig 2.6): (1) Isotonic: external solute = internal solute -> equal bidirectional movement -> no net size change. (2) Hypotonic: external solute < internal solute (more water outside) -> water enters cell -> cell swells. (3) Hypertonic: external solute > internal solute -> water leaves cell -> cell shrinks. Structurally, plasma membrane is $7\\text{--}10\\text{ nm}$ thick ($1\\text{ nm} = 0.000001\\text{ mm}$), made of Lipids and Proteins arranged in the Fluid-Mosaic Model: a phospholipid bilayer (water-loving hydrophilic heads facing outside, water-repelling hydrophobic tails facing inside) with embedded proteins acting as gatekeepers. Lateral shifting/flipping makes it Fluid; tile-like protein arrangement makes it Mosaic.',
-            hi: 'तीन विलयन प्रभाव (चित्र 2.6): (1) समपरासारी (Isotonic): बाह्य सांद्रता = अंतःकोशिकीय सांद्रता -> आकार अपरिवर्तित। (2) अल्पपरासारी (Hypotonic): बाह्य विलेय कम (जल अधिक) -> जल अंदर आएगा -> कोशिका फूलेगी। (3) अतिपरासारी (Hypertonic): बाह्य विलेय अधिक -> जल बाहर निकलेगा -> कोशिका सिकुड़ जाएगी। संरचनात्मक रूप से यह $7\\text{--}10\\text{ nm}$ ($1\\text{ nm} = 0.000001\\text{ mm}$) मोटी तथा लिपिड व प्रोटीन की बनी है (तरल-मोजेक मॉडल): लिपिड द्विपरत में जल-आकर्षी शीर्ष बाहर व जल-प्रतिकर्षी पूँछें भीतर होती हैं, तथा प्रोटीन गेटकीपर (द्वारपाल) का काम करते हैं। पार्श्व गति व पलटने से यह तरल (fluid) और टाइल जैसी सज्जा से मोजेक (mosaic) कहलाती है।',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'ALP 2025 Shift 3 & Tech3 Shift 13: Plasma membrane is made of BOTH Lipids & Proteins (thickness $7\\text{--}10\\text{ nm}$). Membrane proteins function as transport gatekeepers.',
-                hi: 'PYQ तथ्य: प्लाज्मा झिल्ली लिपिड (वसा) और प्रोटीन दोनों से बनी होती है (मोटाई $7\\text{--}10\\text{ nm}$)।',
-              },
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      id: 'cell-wall',
-      number: '2.2.2',
-      svgLab: null,
-      title: {
-        en: 'Cell Wall, Cellulose, Plasmolysis & Animal Flexibility',
-        hi: 'कोशिका भित्ति, सेल्युलोस, जीवद्रव्य कुंचन एवं जंतु लचीलापन',
-      },
-      summaryTag: { en: 'Section 2.2.2 • Pages 13–14', hi: 'भाग 2.2.2 • पृष्ठ 13–14' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: 'Plants/Fungi/Bacteria Armor vs Freely Permeable Wall', hi: 'पादप, कवक व जीवाणु में कोशिका भित्ति एवं पारगम्यता' },
-          body: {
-            en: 'Because plants are stationary, they endure wind, rain & moisture shifts and need an extra rigid protective layer outside the plasma membrane called the Cell Wall (also present in fungi and bacteria; absent in animal cells). Unlike the selectively permeable plasma membrane, the cell wall is FREELY PERMEABLE—allowing water and dissolved minerals to pass across freely into root hairs. In hypertonic 20% sugar solution, plant cell protoplasm loses water by osmosis and pulls away from the rigid cell wall (Plasmolysis), while the outer wall maintains box shape; animal cheek cells shrink completely. Lack of cell wall grants animal cells cellular flexibility for movement & tissue mechanics.',
-            hi: 'पादप एक स्थान से दूसरे स्थान नहीं जा सकते, इसलिए वायु व वर्षा जैसी प्रतिकूल परिस्थितियों से बचाव हेतु कोशिका झिल्ली के बाहर एक अतिरिक्त दृढ़ आवरण होता है— कोशिका भित्ति (पादप, कवक व जीवाणु में उपस्थित; जंतुओं में अनुपस्थित)। कोशिका भित्ति पारगम्य (permeable) होती है जिससे जल व घुले खनिज आसानी से आर-पार जा सकते हैं। 20% चीनी के सांद्र घोल में पादप कोशिका की अंतर्वस्तुएं जल खोकर भित्ति से दूर संकुचित हो जाती हैं (जीवद्रव्य कुंचन / Plasmolysis), पर बाहरी भित्ति आकार बनाए रखती है। भित्ति न होने से जंतु कोशिकाओं को कोशिकीय लचीलापन (flexibility) मिलता है।',
-          },
-          highlights: [
-            {
-              kind: 'trap',
-              text: {
-                en: 'Classic 3-Way Permeability Distinction: Cell Wall = Freely Permeable | Plasma Membrane = Selectively Permeable | Plant Wall Material = Cellulose (glucose polymer; acts as dietary Roughage in humans).',
-                hi: 'महत्त्वपूर्ण अंतर: कोशिका भित्ति = पारगम्य | प्लाज्मा झिल्ली = वरणात्मक पारगम्य | पादप भित्ति पदार्थ = सेल्युलोस (अनेक ग्लूकोस इकाइयों से बना कार्बोहाइड्रेट; मानव आहार में रुक्षांश/roughage)।',
-              },
-            },
-            {
-              kind: 'pyq',
-              text: {
-                en: 'Group D 2025 Shift 12 & Tech3 2024 Shift 1: Plant : Rigid Cell Wall :: Animal : Cellular flexibility | Shrinking away from cell wall = Plasmolysis (जीवद्रव्य कुंचन).',
-                hi: 'Group D 2025 Shift 12: पादप : दृढ़ कोशिका भित्ति :: जंतु : कोशिकीय नम्यता (Flexibility) | Tech Gr-III 2024: कोशिका भित्ति से अंतर्वस्तु संकुचन = जीवद्रव्य कुंचन।',
-              },
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      id: 'prokaryote-vs-eukaryote',
-      number: '2.3',
-      svgLab: 'cell-explorer',
-      svgLabTitle: {
-        en: 'Interactive Lab 3: 3-Way Cell Explorer — Prokaryote vs Plant vs Animal Cell (Fig 2.10–2.15, 2.20)',
-        hi: 'इंटरैक्टिव लैब 3: जीवाणु बनाम पादप बनाम जंतु कोशिका एक्सप्लोरर (क्लिक करके कोशिकांग जानें)',
-      },
-      title: {
-        en: 'Internal Organization: Prokaryotes, Eukaryotes, Viruses, Prions & Cytoskeleton',
-        hi: 'कोशिका का आंतरिक भाग: पूर्वकेंद्रकी vs सुकेंद्रकी, विषाणु/प्रोसंक व कोशिका पंजर',
-      },
-      summaryTag: { en: 'Section 2.3 • Pages 14–15', hi: 'भाग 2.3 • पृष्ठ 14–15' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: '3 Core Regions & Prokaryote vs Eukaryote Divide', hi: 'तीन मूल भाग तथा पूर्वकेंद्रकी बनाम सुकेंद्रकी विभाजन' },
-          body: {
-            en: 'Nearly all cells share 3 basics: Plasma membrane, semi-fluid jelly Cytoplasm, and genetic region (Nucleus/Nucleoid). Bacterial cells lack a true nuclear membrane and membrane-bound organelles—called Prokaryotic cells (pro = primitive/before, karyon = nucleus; size $1\\text{--}10\\text{ }\\mu\\text{m}$; DNA lies as a naked single circular region called Nucleoid / आद्य केंद्रक). Plant and Animal cells possess a membrane-bound nucleus and membrane-bound organelles—called Eukaryotic cells (eu = true, karyon = nucleus; size $10\\text{--}100\\text{ }\\mu\\text{m}$).',
-            hi: 'अधिकांश कोशिकाओं के 3 मूलभूत भाग होते हैं: प्लाज्मा झिल्ली, अर्धतरल जेली कोशिकाद्रव्य और केंद्रक/केंद्रकाभ। जीवाणु कोशिका में सुस्पष्ट केंद्रक झिल्ली व झिल्ली-आबद्ध कोशिकांग नहीं होते— इन्हें पूर्वकेंद्रकी / प्रोकैरयोटिक कोशिका (pro = पूर्व, karyon = केंद्रक; व्यास $1\\text{--}10\\text{ }\\mu\\text{m}$) कहते हैं; आनुवंशिक पदार्थ झिल्ली-रहित क्षेत्र केंद्रकाभ (Nucleoid) में होता है। पादप व जंतु कोशिकाओं में सुस्पष्ट केंद्रक व झिल्ली-आबद्ध कोशिकांग होते हैं— सुकेंद्रकी / यूकैरयोटिक कोशिका (eu = वास्तविक; व्यास $10\\text{--}100\\text{ }\\mu\\text{m}$)।',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'Tech3 2024 Shift 18 & 23: Prokaryotic cells have ONLY A SINGLE CHROMOSOME, lack nuclear membrane, and lack membrane-bound organelles (only naked ribosomes present!).',
-                hi: 'Tech Gr-III 2024 PYQ: प्रोकैरयोटिक कोशिका में एकल (single) गुणसूत्र होता है और झिल्ली-आबद्ध कोशिकांग अनुपस्थित होते हैं।',
-              },
-            },
-          ],
-        },
-        {
-          type: 'concept',
-          heading: { en: 'Box Gems: Acellular Agents (Viruses, Viroids, Prions) + Cytoskeleton', hi: 'बॉक्स विशेष तथ्य: विषाणु, विषाणुभ, प्रोसंक एवं कोशिका पंजर' },
-          body: {
-            en: 'Box 1 ("Let us think more"): Viruses, Viroids, and Prions are ACELLULAR (non-cellular) infectious agents too small for light microscopes. Viruses = genetic material (DNA/RNA) + protein coat. Viroids = genetic material ONLY (no protein coat). Prions = abnormally folded proteins ONLY (NO genetic material!). Box 2 ("Let us go further"): Eukaryotic cells contain an ultra-fine protein filament network visible only under Electron Microscope called the Cytoskeleton (कोशिका पंजर)—providing structural stability, shape, cell motility, and intracellular transport. Stored starch or calcium oxalate/silica crystals in plant cytoplasm are called Cell Inclusions (कोशिका अंतरंगक).',
-            hi: 'बॉक्स 1 (अकोशिकीय संक्रामक कारक): विषाणु (Virus) = आनुवंशिक सामग्री + प्रोटीन आवरण | विषाणुभ (Viroids) = केवल आनुवंशिक सामग्री (प्रोटीन आवरण नहीं) | प्रोसंक (Prions) = केवल असामान्य रूप से मुड़े/अपवलित प्रोटीन (आनुवंशिक सामग्री नहीं!)। बॉक्स 2: सुकेंद्रकी कोशिकाओं में अत्यंत पतले तंतुओं का जाल कोशिका पंजर (Cytoskeleton) कहलाता है जो आकार बनाए रखने, संरचनात्मक स्थिरता, गति और आंतरिक परिवहन में मदद करता है (केवल इलेक्ट्रॉन सूक्ष्मदर्शी से दृश्य)। पादप कोशिकाद्रव्य में संचित मंड या कैल्शियम ऑक्सलेट/सिलिका क्रिस्टल कोशिका अंतरंगक (Cell inclusions) कहलाते हैं।',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'DIRECT Group D 2025 Shift 34 Hit: "Which cell structure provides support and maintains shape of eukaryotic cells?" -> Cytoskeleton (कोशिका-पंजर)! Also remember Viroids = NO protein; Prions = NO DNA/RNA!',
-                hi: 'सीधा Group D 2025 Shift 34 प्रश्न: सुकेंद्रकी कोशिकाओं के आकार व आलंब के लिए कौन उत्तरदायी है? उत्तर: कोशिका-पंजर (Cytoskeleton)!',
-              },
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      id: 'nucleus-ribosome-er-golgi-lysosome',
-      number: '2.3.1-A',
-      svgLab: null,
-      title: {
-        en: 'Organelles Part 1: Nucleus, Chromosomes, RBC Exception, Ribosome, ER, Golgi & Lysosome',
-        hi: 'कोशिकांग भाग 1: केंद्रक, गुणसूत्र, लाल रक्त कोशिका अपवाद, राइबोसोम, ER, गॉल्जीकाय व लाइसोसोम',
-      },
-      summaryTag: { en: 'Section 2.3.1 • Pages 16–17', hi: 'भाग 2.3.1 • पृष्ठ 16–17' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: 'Nucleus (केंद्रक), Chromatin vs Chromosomes & RBC Enucleation Trap', hi: 'केंद्रक, क्रोमेटिन/गुणसूत्र, जीन एवं परिपक्व RBC अपवाद' },
-          body: {
-            en: 'Nucleus (control center) is enclosed by a double-layered nuclear membrane perforated with nuclear pores for nucleo-cytoplasmic transport. Inside sits a dense spherical Nucleolus (केंद्रिका), which synthesizes ribosomal subunits that exit to assemble ribosomes in cytoplasm. Non-dividing cells hold DNA + special proteins as an entangled thread mass called Chromatin; before cell division, chromatin condenses into rod-shaped Chromosomes. Functional segments of DNA are called Genes. Box Exception: Mature human Red Blood Cells (RBCs) have NO nucleus (enucleated) to maximize space for haemoglobin oxygen transport—hence they cannot divide or repair and live only ~120 days.',
-            hi: 'केंद्रक द्विपरती केंद्रक झिल्ली से घिरा होता है जिसमें पदार्थों के आवागमन हेतु केंद्रक छिद्र होते हैं। भीतर सघन गोल केंद्रिका (Nucleolus) में राइबोसोम की उपइकाइयाँ बनती हैं। अविभाजित कोशिका में DNA व विशेष प्रोटीन उलझे धागे रूपी क्रोमेटिन (Chromatin) के रूप में होते हैं, जो विभाजन के समय छड़ाकार गुणसूत्रों (Chromosomes) में संगठित हो जाते हैं। DNA के कार्यात्मक खंडों को जीन (Gene) कहते हैं। अपवाद बॉक्स: मनुष्यों की परिपक्व लाल रक्त कोशिकाओँ (RBCs) में केंद्रक नहीं होता ताकि हीमोग्लोबिन के लिए अधिक स्थान मिले; इसी कारण ये विभाजन/मरम्मत नहीं कर पातीं और लगभग 120 दिन जीवित रहती हैं।',
-          },
-          highlights: [
-            {
-              kind: 'trap',
-              text: {
-                en: 'Exam Trap: Chromosomes become visibly rod-shaped ONLY during cell division (otherwise DNA exists as chromatin). Mature human RBCs lack a nucleus (lifespan ~120 days). In Prokaryotes, circular DNA without membrane = Nucleoid.',
-                hi: 'Exam Trap: गुणसूत्र केवल कोशिका विभाजन के समय ही छड़ाकार दिखते हैं! परिपक्व मानव RBC केंद्रक-रहित होती हैं (जीवनकाल ~120 दिन)।',
-              },
-            },
-          ],
-        },
-        {
-          type: 'concept',
-          heading: { en: 'Endomembrane Factory: Ribosomes -> ER (RER/SER) -> Golgi -> Lysosomes', hi: 'निर्माण एवं पैकेजिंग मार्ग: राइबोसोम -> अंतर्द्रव्यी जालिका -> गॉल्जी -> लाइसोसोम' },
-          body: {
-            en: '1. Ribosomes ("Protein Factory"): Tiny membrane-less granules free in cytoplasm or attached on RER—site of protein synthesis. 2. Endoplasmic Reticulum (ER): Network continuous with outer nuclear membrane. Rough ER (RER) has ribosomes attached -> synthesizes & secretes proteins (e.g., pancreatic gland cells). Smooth ER (SER) lacks ribosomes -> synthesizes & stores lipids (fats) and certain hormones. 3. Golgi Apparatus ("Post Office"): Stacks of flattened sacs discovered in 1898 by Italian scientist Camillo Golgi in Barn Owl (श्वेत उल्लू) nerve cells using special silver staining; modifies, sorts & packs ER lipids/proteins into vesicles for transport, secretion, or Lysosome formation. 4. Lysosomes ("Clean-up / Suicidal Bags"): Single-membrane enzyme sacs digesting cellular waste, worn organelles & foreign particles; human sperm carries lysosomal enzymes to dissolve the egg outer layer during fertilisation.',
-            hi: '1. राइबोसोम (प्रोटीन की फैक्टरी): कोशिकाद्रव्य में मुक्त या RER पर जुड़े, झिल्ली-रहित; प्रोटीन संश्लेषण। 2. अंतर्द्रव्यी जालिका (ER): केंद्रक आवरण की बाहरी झिल्ली से जुड़ी; रुक्ष ER (RER) पर राइबोसोम -> प्रोटीन संश्लेषण (उदा. अग्न्याशयी ग्रंथि कोशिकाएँ); चिकनी ER (SER) बिना राइबोसोम -> वसा (लिपिड) व हार्मोन संश्लेषण व भंडारण। 3. गॉल्जी उपकरण (डाकघर): 1898 में इतालवी वैज्ञानिक कैमिलो गॉल्जी ने श्वेत उल्लू (बार्न उल्लू) की तंत्रिका कोशिकाओं में विशेष अभिरंजन से खोजा; चपटी थैलियों की ढेरी जो ER उत्पादों को रूपांतरित, वर्गीकृत व पुटिकाओं में पैक कर परिवहन, स्रवण या लाइसोसोम बनाती है। 4. लाइसोसोम (निर्मलन प्रणाली/लयनकाय): एंजाइम से भरी एकल झिल्ली थैली जो अपशिष्ट व जीर्ण अंगों को पचाती है। मानव शुक्राणु में लाइसोसोमीय एंजाइम अंडाणु की बाहरी परत विघटित कर निषेचन में मदद करते हैं।',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'Quiz Fact Cluster: SER makes LIPIDS & HORMONES (trap Ex Q11: SER does NOT make cellulose!). Golgi makes Lysosomes (Tech3 PYQ). Barn Owl nerve cells = Camillo Golgi 1898.',
-                hi: 'PYQ क्लस्टर: SER वसा व हार्मोन बनाती है (अभ्यास प्रश्न 11 Trap: SER सेल्युलोस नहीं बनाती!)। गॉल्जीकाय = लाइसोसोम निर्माण व प्रोटीन पैकेजिंग।',
-              },
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      id: 'mitochondria-plastids-vacuoles',
-      number: '2.3.1-B',
-      svgLab: null,
-      title: {
-        en: 'Organelles Part 2: Mitochondria (ATP), 3 Plastids, Vacuoles & Synthetic DNA',
-        hi: 'कोशिकांग भाग 2: माइटोकॉन्ड्रिया (ATP), 3 प्रकार के लवक, रसधानी एवं संश्लेषित DNA',
-      },
-      summaryTag: { en: 'Section 2.3.1 • Pages 18–20', hi: 'भाग 2.3.1 • पृष्ठ 18–20' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: 'Mitochondria & Plastids — The Semi-Autonomous Bacterial Cousins', hi: 'माइटोकॉन्ड्रिया व लवक — अपना DNA और राइबोसोम रखने वाले कोशिकांग' },
-          body: {
-            en: 'Mitochondria ("Powerhouse / सूत्रकणिका"): Double-membrane organelle. Outer membrane is smooth & porous; inner membrane folds deeply into finger-like cristae (अंतःकटक) expanding surface area for chemical reactions! Glucose & food molecules break down here during cellular respiration releasing energy stored as ATP (Adenosine Triphosphate — "Energy Currency"). Plastids (PLANT CELLS ONLY, also double-membrane): (a) Chloroplast (हरितलवक): semi-fluid Stroma holding chlorophyll-rich disc structures for photosynthesis & starch grain storage; (b) Chromoplast (वर्णीलवक, Greek chroma = colour): yellow/orange/red pigments in flower petals & fruits attracting pollinators & seed dispersers; (c) Leucoplast (अवर्णी लवक, Greek leukos = colourless): stores starch, oil or protein (e.g., potato & Colocasia roots). CRITICAL PYQ FACT: Both Mitochondria AND Plastids possess their OWN DNA & Ribosomes (making some of their own proteins & pointing to shared evolutionary ancestry with bacteria!).',
-            hi: 'माइटोकॉन्ड्रिया (सूत्रकणिका / ऊर्जा केंद्र): दोहरी झिल्ली— बाहरी झिल्ली चिकनी व छिद्रित, भीतरी झिल्ली अँगुली जैसे उभार अंतःकटक (cristae) में मुड़ी रहती है ताकि ऊर्जा उत्पादन हेतु सतह क्षेत्र बढ़े। कोशिकीय श्वसन में ग्लूकोस टूटकर ATP (ऐडेनोसिन ट्राइफॉस्फेट — ऊर्जा की मुद्रा) बनाता है। लवक (केवल पादप कोशिकाओं में): (क) हरितलवक (दोहरी झिल्ली; भीतर अर्ध-तरल पीठिका/stroma में पर्णहरित युक्त चक्रिकाएँ जो प्रकाश-संश्लेषण व मंड संचय करती हैं), (ख) वर्णीलवक (क्रोमोप्लास्ट — फूलों व फलों को पीला/नारंगी/लाल रंग देकर परागणकारियों को आकर्षित करता है), (ग) अवर्णी लवक (ल्यूकोप्लास्ट — रंगहीन; स्टार्च, तेल व प्रोटीन संचय, जैसे आलू व अरबी में)। सबसे बड़ा PYQ तथ्य: माइटोकॉन्ड्रिया और लवक दोनों में अपना स्वयं का डीएनए (DNA) व राइबोसोम होते हैं!',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'Asked 3+ times across Group D Shift 33, Tech3 Shift 5 & Shift 13: Which organelles outside nucleus have their OWN DNA & Ribosomes? -> Mitochondria & Plastids!',
-                hi: 'Group D Shift 33 + Tech3 Shift 5/13 में बार-बार पूछा गया: केंद्रक के अलावा किन कोशिकांगों में अपना DNA व राइबोसोम होते हैं? -> माइटोकॉन्ड्रिया और लवक (Plastids)!',
-              },
-            },
-            {
-              kind: 'trap',
-              text: {
-                en: 'Double vs Single vs Zero Membrane Check: Double = Nucleus, Mitochondria, Plastids | Single = ER, Golgi, Lysosomes, Vacuole | No Membrane = Ribosomes, Nucleoid, Cytoskeleton.',
-                hi: 'झिल्ली संख्या ट्रिक: दोहरी झिल्ली = केंद्रक, माइटोकॉन्ड्रिया, लवक | एकल झिल्ली = ER, गॉल्जी, लाइसोसोम, रसधानी | झिल्ली-रहित = राइबोसोम, केंद्रकाभ, कोशिका पंजर।',
-              },
-            },
-          ],
-        },
-        {
-          type: 'concept',
-          heading: { en: 'Vacuoles & J. Craig Venter (2010) Synthetic Cell Milestone', hi: 'रसधानी (पादप दृढ़ता) एवं जे. क्रेग वेंटर (2010) का संश्लेषित DNA प्रयोग' },
-          body: {
-            en: 'Vacuoles (रसधानी): Mature plant cells usually contain one LARGE central vacuole bounded by a single selectively permeable membrane and filled with aqueous Cell Sap (water, minerals, sugars, wastes). Water pressure keeps plant cells turgid/rigid; water loss from vacuoles makes plants wilt. Animal cells have much smaller/temporary vacuoles. Box ("Jigyasa-Sutra" 2010): J. Craig Venter & team read the complete DNA sequence of Mycoplasma mycoides using computer programming, chemically synthesized an exact copy in lab, and transplanted it into a related bacterium whose own DNA was removed (keeping cytoplasm & membrane intact)—the recipient cell grew and divided according to synthetic DNA instructions, proving DNA governs cell structure and activity.',
-            hi: 'रसधानी: परिपक्व पादप कोशिका में एकल वरणात्मक पारगम्य झिल्ली से घिरी बड़ी केंद्रीय रसधानी होती है जिसमें जलीय कोशिका-रस (जल, खनिज, शर्करा, अपशिष्ट) भरा होता है। यह दबाव बनाकर पादप कोशिका को दृढ़ रखती है; जल की हानि से पौधा मुरझा जाता है। जंतु कोशिकाओं में रसधानी बहुत छोटी/अस्थायी होती है। जिज्ञासा-सूत्र (2010): जे. क्रेग वेंटर व उनके दल ने माइकोप्लाज्मा माइकोइड्स (Mycoplasma mycoides) जीवाणु के पूर्ण DNA को पढ़कर प्रयोगशाला में संश्लेषित प्रति बनाई और दूसरे DNA-रहित जीवाणु में प्रवेश कराया—कोशिका नए संश्लेषित DNA के अनुसार वृद्धि व विभाजन करने लगी।',
-          },
-        },
-      ],
-    },
-
-    {
-      id: 'cell-division',
-      number: '2.4',
-      svgLab: 'mitosis-meiosis',
-      svgLabTitle: {
-        en: 'Interactive Lab 4: Animated Mitosis vs Meiosis Simulator (Fig 2.18 & 2.19)',
-        hi: 'इंटरैक्टिव लैब 4: समसूत्री बनाम अर्धसूत्री विभाजन एनिमेशन (चित्र 2.18 व 2.19)',
-      },
-      title: {
-        en: 'Growth, Mitosis, Meiosis, Arun Kumar Sharma & Tissue Culture',
-        hi: 'कोशिका विभाजन (समसूत्री व अर्धसूत्री), अरुण कुमार शर्मा एवं ऊतक संवर्धन',
-      },
-      summaryTag: { en: 'Section 2.4 • Pages 20–22', hi: 'भाग 2.4 • पृष्ठ 20–22' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: 'Daily Replacement, Mitosis vs Meiosis & Division Errors', hi: 'कोशिका प्रतिस्थापन, समसूत्री व अर्धसूत्री अंतर और त्रुटि प्रभाव' },
-          body: {
-            en: 'Bodies grow not merely because cells expand (they have size limits), but by dividing into new cells. Humans replace hundreds of billions of cells daily (~1% of total body cells). Eukaryotes divide cleanly via a regulated Cell Cycle. Two main types: (1) Mitosis (समसूत्री): single fertilized ovum multiplies into trillions of somatic cells; 1 parent -> 2 genetically identical daughter cells preserving exact DNA & chromosome count; drives growth, skin repair, maintenance & asexual reproduction. (2) Meiosis (अर्धसूत्री): happens ONLY in reproductive organs (human testes -> sperm, ovaries -> ova; plant anthers -> pollen, ovary -> egg cell). A 2-stage division producing 4 gametes with HALF chromosomes & HALF DNA (fertilisation restores full count) generating genetic diversity. Errors: faulty Mitosis causes uncontrolled division/tumours & abnormal chromosome count; faulty Meiosis causes genetic disorders, developmental defects, early miscarriage or reduced fertility.',
-            hi: 'मानव शरीर में प्रतिदिन सैकड़ों अरब कोशिकाएँ (~1%) प्रतिस्थापित होती हैं। सुकेंद्रकी कोशिकाएँ नियंत्रित कोशिका चक्र (cell cycle) से विभाजित होती हैं। (1) समसूत्री विभाजन (Mitosis): 1 जनक कोशिका से आनुवंशिक रूप से समान 2 संतति कोशिकाएँ (समान DNA व गुणसूत्र संख्या)— वृद्धि, घाव मरम्मत व अलैंगिक जनन के लिए। (2) अर्धसूत्री विभाजन (Meiosis): केवल जनन अंगों (नर वृषण में शुक्राणु, मादा अंडाशय में अंडाणु; पादप परागकोश में परागकण व अंडाशय में अंडकोशिका) में द्वि-चरणीय विभाजन जिससे 4 युग्मक बनते हैं (गुणसूत्र व DNA की संख्या आधी; निषेचन पर पुनः पूर्ण होती है) — आनुवंशिक विविधता लाता है। त्रुटियाँ: समसूत्री त्रुटि से अनियंत्रित विभाजन/अर्बुद (tumour); अर्धसूत्री त्रुटि से आनुवंशिक विकार, गर्भपात या प्रजनन क्षमता में कमी।',
-          },
-          highlights: [
-            {
-              kind: 'hook',
-              text: {
-                en: 'Zero-Confusion Formula: Mitosis = "M -> Make 2 same" ($2n \\to 2n + 2n$); Meiosis = "Me -> Half ($n$)" in 2 steps producing 4 Sex Gametes.',
-                hi: 'याद रखने का तरीका: समसूत्री = "सम" यानी बराबर (2 समान कोशिकाएँ, $2n \\to 2n$); अर्धसूत्री = "अर्ध" यानी आधी (4 युग्मक, आधे गुणसूत्र $2n \\to n$) केवल जनन अंगों में।',
-              },
-            },
-          ],
-        },
-        {
-          type: 'concept',
-          heading: { en: 'Box: Tissue Culture (कोशिका संवर्धन) — Sterile Nutrients, pH & Moisture', hi: 'विज्ञान एवं समाज: जंतु कोशिका संवर्धन (Tissue Culture)' },
-          body: {
-            en: 'Scientists grow animal cells outside the body in sterile conditions using nutrient-rich media under controlled temperature, acidic/alkaline pH, and moisture—vital for studying cell behaviour and producing biochemicals, food, drugs & vaccines.',
-            hi: 'विशेष निर्जर्मीकृत परिस्थितियों में पोषक समृद्ध माध्यम, नियंत्रित तापमान, अम्लीय/क्षारीय pH और नमी रखकर शरीर के बाहर कोशिका संवर्धन किया जाता है— जो जैव-रसायनों, भोजन, औषधि और टीकों के निर्माण में अत्यंत महत्त्वपूर्ण है।',
-          },
-        },
-      ],
-    },
-
-    {
-      id: 'cell-theory-cancer-pcd',
-      number: '2.5',
-      svgLab: null,
-      title: {
-        en: 'Classical Cell Theory, Totipotency, Contact Inhibition, Cancer & PCD',
-        hi: 'कोशिका सिद्धांत, पूर्णशक्तता, संपर्क अवरोध, कैंसर व क्रमादेशित कोशिका मृत्यु (PCD)',
-      },
-      summaryTag: { en: 'Section 2.5 • Page 23–24', hi: 'भाग 2.5 • पृष्ठ 23–24' },
-      blocks: [
-        {
-          type: 'concept',
-          heading: { en: '3 Pillars of Cell Theory (Schleiden, Schwann & Virchow)', hi: 'कोशिका सिद्धांत के 3 स्तंभ (श्लीडेन, श्वान एवं विरचो)' },
-          body: {
-            en: 'Classical Cell Theory was formulated by three German scientists: Matthias Schleiden (1838, botanist — all plants made of cells), Theodor Schwann (1839, zoologist — all animals made of cells), and Rudolf Virchow (1855 — expanded theory stating new cells arise ONLY from pre-existing cells). Three Tenets: (1) All organisms consist of one or more cells; (2) Cell is fundamental structural & functional unit of life; (3) All cells originate from pre-existing cells.',
-            hi: 'पुरातन कोशिका सिद्धांत के निर्माता: मैथियास श्लीडेन (1838, जर्मन वनस्पतिशास्त्री — सभी पादप कोशिकाओं से बने हैं), थियोडोर श्वान (1839, जर्मन प्राणिविज्ञानी — सभी जंतु भी कोशिकाओं से बने हैं), और रुडोल्फ़ विरचो (1855 — नई कोशिकाएँ केवल पूर्वविद्यमान कोशिकाओं से बनती हैं)। 3 मुख्य बिंदु: (1) सभी सजीव 1 या अधिक कोशिकाओं से निर्मित; (2) कोशिका संरचना व कार्य की मूल इकाई; (3) सभी कोशिकाएँ पूर्वविद्यमान कोशिकाओं से उत्पन्न।',
-          },
-        },
-        {
-          type: 'concept',
-          heading: { en: 'Contact Inhibition, Tumours/Cancer, Haberlandt Totipotency & Embryo PCD', hi: 'संपर्क अवरोध, अर्बुद/कैंसर, पूर्णशक्तता एवं क्रमादेशित कोशिका मृत्यु (PCD)' },
-          body: {
-            en: 'Normal animal cells have a fixed lifespan and stop dividing upon touching neighbouring cells—this safeguard is Contact Inhibition (संपर्क अवरोध). Plant cells lack this due to rigid cell walls (following a different growth pattern). Cancer cells lose contact inhibition, divide uncontrollably forming Tumours (अर्बुद): either Benign (सुदम्य) or Malignant (दुर्दम — invading nearby tissues & spreading to distant organs). Programmed Cell Death (PCD / क्रमादेशित कोशिका मृत्यु): genetically regulated selective cell elimination crucial for development, quality control & immunity—for example, PCD removes cells between embryonic fingers so hands are not webbed (जलयुक्त)!',
-            hi: 'सामान्य जंतु कोशिकाएँ निकटवर्ती कोशिकाओं के संपर्क में आने पर विभाजन रोक देती हैं— इसे संपर्क अवरोध (Contact Inhibition) कहते हैं (पादपों में दृढ़ भित्ति के कारण यह नहीं पाया जाता)। कैंसर कोशिकाएँ यह नियंत्रण खोकर अनियंत्रित विभाजन से अर्बुद (Tumour) बनाती हैं जो सुदम्य (benign) या दुर्दम (malignant — आसपास व अन्य भागों में फैलने वाले) हो सकते हैं। क्रमादेशित कोशिका मृत्यु (PCD): कोशिकाओं के नष्ट होने की आनुवंशिकतः नियंत्रित प्रक्रिया जो सामान्य विकास, गुणवत्ता नियंत्रण व प्रतिरक्षा हेतु अनिवार्य है— जैसे भ्रूण में अँगुलियों के बीच की कोशिकाओं को हटाकर अलग अँगुलियाँ बनाना (वरना हाथ जलयुक्त होते)।',
-          },
-          highlights: [
-            {
-              kind: 'pyq',
-              text: {
-                en: 'Group D 2025 Shift 40 Hit: Normal cell = performs function & undergoes Programmed Cell Death (PCD) when no longer needed! Embryo hand webbing prevention = PCD.',
-                hi: 'Group D 2025 Shift 40 PYQ: सामान्य सुकेंद्रकी कोशिका आवश्यकता न होने पर क्रमादेशित कोशिका मृत्यु (PCD) से गुजरती है! अँगुलियों के बीच की झिल्ली हटना = PCD।',
-              },
-            },
-          ],
-        },
-      ],
-    },
-  ],
-
-  pioneers: [
-    {
-      name: { en: 'Robert Hooke (1665)', hi: 'रॉबर्ट हुक (1665)' },
-      country: { en: 'English Scientist', hi: 'ब्रिटिश वैज्ञानिक' },
-      badge: { en: 'Cell Discovery', hi: 'कोशिका की खोज' },
-      fact: {
-        en: 'Examined thin dead Cork slice under self-made compound microscope ($200\\text{--}300\\times$); saw honeycomb boxes & coined term "cell".',
-        hi: 'स्व-निर्मित सूक्ष्मदर्शी ($200\\text{--}300\\times$) से कॉर्क के पतले टुकड़े में बक्से जैसे कोष्ठ देखे व "सेल" (कोशिका) नाम दिया।',
-      },
-    },
-    {
-      name: { en: 'Schleiden (1838), Schwann (1839) & Virchow (1855)', hi: 'श्लीडेन, श्वान एवं विरचो' },
-      country: { en: 'German Trio', hi: 'जर्मन वैज्ञानिक त्रयी' },
-      badge: { en: 'Classical Cell Theory', hi: 'कोशिका सिद्धांत' },
-      fact: {
-        en: 'Schleiden (all plants = cells), Schwann (all animals = cells), Virchow (all new cells arise from pre-existing cells).',
-        hi: 'श्लीडेन (1838: सभी पादप कोशिका-निर्मित), श्वान (1839: सभी जंतु कोशिका-निर्मित), विरचो (1855: नई कोशिकाएँ पूर्वविद्यमान कोशिकाओं से बनती हैं)।',
-      },
-    },
-    {
-      name: { en: 'Camillo Golgi (1898)', hi: 'कैमिलो गॉल्जी (1898)' },
-      country: { en: 'Italian Scientist', hi: 'इतालवी वैज्ञानिक' },
-      badge: { en: 'Golgi Apparatus', hi: 'गॉल्जी उपकरण' },
-      fact: {
-        en: 'Used special staining to observe stacked thread-like networks inside Barn Owl (श्वेत उल्लू) nerve cells; confirmed decades later by Electron Microscope.',
-        hi: '1898 में विशेष अभिरंजन द्वारा श्वेत उल्लू (Barn Owl) की तंत्रिका कोशिकाओं में जाल जैसी संरचना खोजी जिसे बाद में इलेक्ट्रॉन सूक्ष्मदर्शी ने पुष्ट किया।',
-      },
-    },
-    {
-      name: { en: 'Gottlieb Haberlandt (1902)', hi: 'गॉटलीब हैबरलैंड्ट (1902)' },
-      country: { en: 'Austrian Botanist', hi: 'ऑस्ट्रियाई वनस्पतिशास्त्री' },
-      badge: { en: 'Totipotency & Tissue Culture', hi: 'पूर्णशक्तता (Totipotency)' },
-      fact: {
-        en: 'Proposed any living plant cell—even mature permanent tissue—given nutrients & right conditions can grow an entire new plant (Totipotency). Father of Plant Tissue Culture concept.',
-        hi: 'प्रस्तावित किया कि कोई भी जीवित पादप कोशिका (पूर्ण परिपक्व भी) अनुकूल पोषण से संपूर्ण पादप बना सकती है — जिसे पूर्णशक्तता (Totipotency) व पादप ऊतक संवर्धन की नींव कहा जाता है।',
-      },
-    },
-    {
-      name: { en: 'Arun Kumar Sharma', hi: 'प्रो. अरुण कुमार शर्मा' },
-      country: { en: 'Renowned Indian Botanist', hi: 'प्रसिद्ध भारतीय वनस्पतिशास्त्री' },
-      badge: { en: 'Bhatnagar & Padma Bhushan', hi: 'भटनागर व पद्म भूषण सम्मान' },
-      fact: {
-        en: 'Pioneering chromosome scientist famous for plant taxonomy, evolution, development & chromosomal lab techniques; honoured with Shanti Swarup Bhatnagar Prize & Padma Bhushan.',
-        hi: 'गुणसूत्रों पर क्रांतिकारी शोध, पादप वर्गिकी, विकास व प्रयोगशाला तकनीकों के लिए विख्यात; शांति स्वरूप भटनागर पुरस्कार व पद्म भूषण से सम्मानित।',
-      },
-    },
-    {
-      name: { en: 'J. Craig Venter (2010)', hi: 'जे. क्रेग वेंटर (2010)' },
-      country: { en: 'Synthetic Biology Pioneer', hi: 'संश्लेषिक जैविकी अग्रदूत' },
-      badge: { en: 'Synthetic DNA Cell', hi: 'कृत्रिम DNA प्रयोग' },
-      fact: {
-        en: 'Digitally read & chemically synthesized full DNA of Mycoplasma mycoides; transplanted it into a DNA-emptied related bacterial shell which then divided normally under synthetic instructions.',
-        hi: 'माइकोप्लाज्मा माइकोइड्स जीवाणु का पूरा DNA प्रयोगशाला में रासायनिक रूप से संश्लेषित कर दूसरे DNA-रहित जीवाणु में डाला—कोशिका नए निर्देशों से विभाजित हुई।',
-      },
     },
   ],
 
   activities: [
     {
       num: '2.1',
-      title: { en: 'Estimating Microscopic Cell Size (Onion Peel)', hi: 'सूक्ष्मदर्शी में कोशिका के वास्तविक आमाप का अनुमान लगाना' },
-      materials: {
-        en: 'Compound Microscope, transparent mm ruler, onion peel slide',
-        hi: 'प्रकाश सूक्ष्मदर्शी, मिलीमीटर (mm) पारदर्शी मापनी, प्याज की झिल्ली स्लाइड',
-      },
+      title: { en: 'Estimating Cell Size Under Microscope (Onion Peel)', hi: 'सूक्ष्मदर्शी से कोशिका के वास्तविक आकार का हिसाब लगाना' },
+      materials: { en: 'Compound Microscope, transparent mm scale, onion slide', hi: 'प्रकाश सूक्ष्मदर्शी, मिलीमीटर (mm) पारदर्शी स्केल, प्याज स्लाइड' },
       steps: {
-        en: '1. Measure circular field-of-view diameter with mm scale (say $5\\text{ mm} = 5000\\text{ }\\mu\\text{m}$).\n2. Replace scale with onion peel slide and count cells lined up across the diameter (say $25$ cells).\n3. Apply formula: Cell size $= 5000\\text{ }\\mu\\text{m} / 25 = 200\\text{ }\\mu\\text{m}$. Total magnification = $10\\times \\text{ eyepiece} \\times 10\\times \\text{ objective} = 100\\times$.',
-        hi: '1. पारदर्शी स्केल से वृत्ताकार दृश्य क्षेत्र का व्यास मापें (जैसे $5\\text{ mm} = 5000\\text{ }\\mu\\text{m}$)।\n2. प्याज झिल्ली की स्लाइड रखकर एक सीधी रेखा में व्यास के अनुदिश कोशिकाएँ गिनें (जैसे $25$)।\n3. सूत्र: अनुमानित आमाप $= 5000\\text{ }\\mu\\text{m} / 25 = 200\\text{ }\\mu\\text{m}$ | कुल आवर्धन ($10\\times \\times 10\\times$) $= 100\\times$।',
+        en: '1. Measure circular view diameter with mm scale (e.g. $5\\text{ mm} = 5000\\text{ }\\mu\\text{m}$).\n2. Count onion cells lined along that diameter (e.g. $25$ cells).\n3. Size $= 5000\\text{ }\\mu\\text{m} / 25 = 200\\text{ }\\mu\\text{m}$. Total zoom $= 10\\times \\times 10\\times = 100\\times$.',
+        hi: '1. गोल दिखने वाले दायरे का व्यास नापें (मान लें $5\\text{ mm} = 5000\\text{ }\\mu\\text{m}$)।\n2. अब सीधी लाइन में कुल कोशिकाएँ गिनें (मान लें $25$)।\n3. एक कोशिका $= 5000 / 25 = 200\\text{ }\\mu\\text{m}$। कुल आवर्धन ($10\\times \\times 10\\times$) $= 100$ गुना।',
       },
-      examTakeaway: {
-        en: 'RRB Numerical Pattern: Given Field Diameter in mm and Cell Count across diameter -> convert mm to $\\mu\\text{m}$ ($\\times 1000$) then divide by count.',
-        hi: 'परीक्षा प्रश्न सूत्र: $1\\text{ mm} = 1000\\text{ }\\mu\\text{m}$। व्यास (माइक्रोमीटर में) को कोशिका संख्या से भाग दें।',
-      },
+      examTakeaway: { en: 'Formula: $1\\text{ mm} = 1000\\text{ }\\mu\\text{m}$. Cell size $= \\text{Diameter in }\\mu\\text{m} / \\text{Cell count}$.', hi: 'सूत्र: $1\\text{ mm} = 1000\\text{ }\\mu\\text{m}$। कोशिका आमाप = माइक्रोमीटर में व्यास ÷ कोशिका संख्या।' },
     },
     {
       num: '2.2',
-      title: { en: 'Potato Osmosis Experiment (Water vs 20% Salt/Sugar Solution)', hi: 'आलू के टुकड़ों द्वारा परासरण प्रयोग (साधारण जल vs 20% घोल)' },
-      materials: {
-        en: 'Potato, knife, weighing balance, Beaker A (plain water), Beaker B (20% salt or sugar solution)',
-        hi: 'आलू, चाकू, तुला, बीकर क (साधारण जल), बीकर ख (20% नमक या चीनी का घोल)',
-      },
+      title: { en: 'Potato Cube Osmosis (Plain Water vs 20% Salt/Sugar)', hi: 'आलू के टुकड़ों द्वारा परासरण प्रयोग (सादा पानी बनाम 20% घोल)' },
+      materials: { en: '2 equal potato cubes, balance, plain water & 20% salt/sugar solution', hi: 'समान आकार के 2 आलू के टुकड़े, तराजू, सादा पानी व 20% नमक/चीनी घोल' },
       steps: {
-        en: '1. Cut two equal potato cubes & weigh both initially.\n2. Place cube A in plain water (Hypotonic) and cube B in 20% salt/sugar solution (Hypertonic) undisturbed for ~1 hour.\n3. Re-weigh and compare size.',
-        hi: '1. आलू के लगभग समान दो टुकड़े काटकर प्रारंभिक भार नापें।\n2. बीकर क (साधारण जल) तथा बीकर ख (20% नमक/चीनी घोल) में ~1 घंटे रखकर अंतिम भार व आकार जांचें।',
+        en: '1. Weigh both cubes before putting into Beaker A (water) and Beaker B (20% solution).\n2. Wait 1 hour undisturbed & re-weigh.',
+        hi: '1. पहले दोनों टुकड़ों का वजन नाप लें। बीकर क (सादा पानी) व बीकर ख (20% नमक/चीनी) में डालें।\n2. 1 घंटे बाद फिर से वजन व आकार नापें।',
       },
-      examTakeaway: {
-        en: 'Observation: Beaker A (Plain Water -> Hypotonic) swells & gains weight (Endosmosis). Beaker B (20% solute -> Hypertonic) shrinks & loses weight (Exosmosis). Membrane blocks salt/sugar but lets water move.',
-        hi: 'निष्कर्ष: बीकर क (साधारण जल) में आलू फूलता है व भार बढ़ता है; बीकर ख (20% घोल) में आलू सिकुड़ता है व भार घटता है क्योंकि झिल्ली केवल जल को आर-पार जाने देती है।',
-      },
+      examTakeaway: { en: 'Beaker A (Hypotonic) swells & gains weight; Beaker B (Hypertonic) shrinks & loses weight because membrane passes water, not sugar/salt.', hi: 'बीकर क (सादा पानी) वाला आलू फूलेगा व भारी होगा; बीकर ख (20% घोल) वाला सिकुड़ेगा व हल्का होगा।' },
     },
     {
       num: '2.3',
-      title: { en: 'Plant Onion/Rhoeo (Safranin) vs Human Cheek Cells (Methylene Blue) + Plasmolysis', hi: 'प्याज/रोइओ (सैफ्रेनीन) बनाम मानव कपोल कोशिका (मेथिलीन ब्लू) + जीवद्रव्य कुंचन' },
-      materials: {
-        en: 'Onion/Rhoeo leaf peel + Safranin stain | Human cheek swab + Methylene Blue stain | 20% Sugar solution',
-        hi: 'प्याज/रोइओ पत्ती की विशल्क + सैफ्रेनीन अभिरंजक | गाल के अंदरूनी खुरचन + मेथिलीन ब्लू | 20% चीनी का घोल',
-      },
+      title: { en: 'Onion/Rhoeo (Safranin) vs Cheek (Methylene Blue) + 20% Sugar Plasmolysis', hi: 'प्याज (सैफ्रेनीन) बनाम गाल कोशिका (मेथिलीन ब्लू) + जीवद्रव्य कुंचन' },
+      materials: { en: 'Onion/Rhoeo peel + Safranin | Cheek swab + Methylene Blue | 20% sugar drop', hi: 'प्याज/रोइओ छिलका + सैफ्रेनीन | गाल खुरचन + मेथिलीन ब्लू | 20% चीनी घोल' },
       steps: {
-        en: '1. Stain Onion/Rhoeo peel with SAFRANIN -> box-like regular rigid arrangement.\n2. Scrape inner cheek gently & stain with METHYLENE BLUE -> irregular flat overlapping cells.\n3. Add 20% sugar solution to fresh slides & check after 30 min.',
-        hi: '1. प्याज/रोइओ को सैफ्रेनीन से रंजित करने पर ईंट जैसे नियमित बॉक्स दिखते हैं।\n2. गाल की कोशिकाओं को मेथिलीन ब्लू से रंजित करने पर अनियमित आकार दिखता है।\n3. दोनों पर 20% चीनी का घोल डालने पर 30 मिनट बाद पादप में कोशिका भित्ति स्थिर रहकर अंदर का द्रव्य सिकुड़ता है (जीवद्रव्य कुंचन), जबकि कपोल कोशिका पूरी पिचक जाती है।',
+        en: '1. Stain plant peel with **Safranin** (brick-like rigid boxes); stain human cheek cells with **Methylene Blue** (irregular shape).\n2. Add 20% sugar for 30 min -> Plant protoplasm shrinks inside rigid wall (**Plasmolysis**); Cheek cell shrivels completely.',
+        hi: '1. पादप झिल्ली को **सैफ्रेनीन** से रंगें (ईंट जैसे डिब्बे दिखेंगे); गाल की कोशिकाओं को **मेथिलीन ब्लू** से (अनियमित आकार)।\n2. $20\\%$ चीनी डालने पर पादप की भित्ति स्थिर रहकर अंदर का द्रव्य सिकुड़ता है (**जीवद्रव्य कुंचन**), जबकि गाल की कोशिका पूरी पिचक जाती है।',
       },
-      examTakeaway: {
-        en: 'HIGH-YIELD STAIN PAIR (Asked directly in ALP!): Plant peel = SAFRANIN | Animal/Cheek cell = METHYLENE BLUE. Also ALP Shift 8/9: Cytoplasm retains VERY LITTLE stain compared to deeply stained Nucleus.',
-        hi: 'सीधा RRB ट्रिक: पादप स्लाइड अभिरंजक = सैफ्रेनीन | जंतु (कपोल) स्लाइड अभिरंजक = मेथिलीन ब्लू। कोशिकाद्रव्य हल्का रंजित व केंद्रक गहरा रंजित होता है।',
-      },
+      examTakeaway: { en: 'Plant = Safranin | Cheek = Methylene Blue. Cytoplasm stains very lightly while Nucleus stains dark!', hi: 'प्याज = सैफ्रेनीन | गाल = मेथिलीन ब्लू। कोशिकाद्रव्य हल्का रंजित व केंद्रक गहरा दिखता है।' },
     },
     {
       num: '2.4',
-      title: { en: 'Comparative Study of Bacterial, Plant & Animal Diagrams (Tables 2.1 & 2.2)', hi: 'जीवाणु, पादप और जंतु कोशिका चित्र तुलना (तालिका 2.1 व 2.2)' },
-      materials: {
-        en: 'Detailed structural diagrams Fig 2.10 (a) Bacterium, (b) Plant Cell, (c) Animal Cell',
-        hi: 'चित्र 2.10 (क) जीवाणु कोशिका, (ख) पादप कोशिका, (ग) जंतु कोशिका',
-      },
+      title: { en: 'Comparing Bacterium, Plant & Animal Cell Models (Tables 2.1 & 2.2)', hi: 'जीवाणु, पादप और जंतु कोशिका की संरचना तुलना (तालिका 2.1 व 2.2)' },
+      materials: { en: 'Labeled Prokaryotic, Plant & Animal diagrams', hi: 'जीवाणु, पादप व जंतु कोशिका आरेख' },
       steps: {
-        en: 'Inspect presence/absence of Plasma membrane, Cell wall, Cytoplasm, True Membrane-bound Nucleus, Nucleoid, and Membrane-bound organelles across all three cells and fill Table 2.1.',
-        hi: 'तीनों कोशिकाओं में झिल्ली, भित्ति, कोशिकाद्रव्य, सुस्पष्ट केंद्रक, आद्य केंद्रक (केंद्रकाभ) व झिल्ली-आबद्ध कोशिकांग की उपस्थिति तालिका 2.1 में दर्ज करें।',
+        en: 'Check each of 6 structural features (Membrane, Wall, Cytoplasm, Nucleus, Nucleoid, Organelles) and record in Table 2.1.',
+        hi: 'तीनों में कोशिका झिल्ली, भित्ति, द्रव्य, केंद्रक, केंद्रकाभ व कोशिकांगों की उपस्थिति-अनुपस्थिति तालिका 2.1 में भरें।',
       },
-      examTakeaway: {
-        en: 'Only Ribosomes + Cytoplasm + Plasma Membrane are universal to all 3. Both Bacteria & Plants share Cell Wall (chemical nature differs!).',
-        hi: 'प्लाज्मा झिल्ली, कोशिकाद्रव्य और राइबोसोम तीनों में पाए जाते हैं। कोशिका भित्ति जीवाणु व पादप दोनों में होती है (जंतु में अनुपस्थित)।',
-      },
+      examTakeaway: { en: 'Universal to ALL 3: Plasma Membrane + Cytoplasm + Ribosomes. Wall in Bacteria & Plants (chemically different!).', hi: 'तीनों में कॉमन: प्लाज्मा झिल्ली + कोशिकाद्रव्य + राइबोसोम। भित्ति जीवाणु व पादप में है, जंतु में नहीं।' },
     },
     {
       num: '2.5',
-      title: { en: 'Onion Root-Tip Mitosis Squash Slide Preparation', hi: 'प्याज के मूलाग्र में समसूत्री विभाजन (कोशिका चक्र) का सूक्ष्मदर्शी अवलोकन' },
-      materials: {
-        en: 'Onion bulb, water jar (5–6 days), Aceto-alcohol (Glacial Acetic Acid : Ethanol :: 1:3), 70% Ethanol, dilute HCl, Aceto-carmine stain, spirit lamp',
-        hi: 'प्याज कंद, जल जार (5–6 दिन), एसीटो-ऐल्कोहॉल (1:3), 70% एथेनॉल, तनु HCl, एसीटो-कार्मिन अभिरंजक, स्पिरिट लैंप',
-      },
+      title: { en: 'Onion Root Tip Mitosis Squash Slide Prep', hi: 'प्याज की जड़ (मूलाग्र) में समसूत्री विभाजन देखने का प्रयोग' },
+      materials: { en: 'Onion bulb jar (5–6d), Aceto-alcohol (1:3), 70% ethanol, dil. HCl, Aceto-carmine stain', hi: 'जार में उगा प्याज, एसीटो-ऐल्कोहॉल (1:3), 70% एथेनॉल, तनु HCl, एसीटो-कार्मिन' },
       steps: {
-        en: '1. Grow onion roots in water jar 5–6 days; cut 2–3 cm root tips.\n2. Fix 24h in fresh Aceto-alcohol (Glacial Acetic Acid : Ethanol = 1 : 3), transfer to 70% Ethanol.\n3. Wash, soften root tip with 1–2 drops dil. HCl (10–15 min), wash again.\n4. Add 2–3 drops Aceto-carmine (5–10 min), warm gently over spirit lamp, cut very tip, cover & press softly with thumb to squash cells.',
-        hi: '1. जार में 5–6 दिन में उगी 2–3 cm जड़ों को काटें।\n2. ताजे एसीटो-ऐल्कोहॉल (ग्लेशियल एसिटिक अम्ल : एथेनॉल :: 1:3) में 24 घंटे रखकर 70% एथेनॉल में परिरक्षित करें।\n3. धोकर तनु HCl (1–2 बूँद, 10–15 मिनट) से नरम करें, फिर धोकर एसीटो-कार्मिन की 2–3 बूँद डालें और स्पिरिट लैंप पर हल्का गर्म कर अँगूठे से दबाकर देखें।',
+        en: '1. Grow 2–3 cm roots; fix 24h in Aceto-alcohol (Glacial acetic acid : Ethanol :: 1:3) -> preserve in 70% Ethanol.\n2. Soften with 1–2 drops dil. HCl (10–15 min), stain with Aceto-carmine (warm gently), squash under coverslip.',
+        hi: '1. 5–6 दिन में उगी जड़ों को 1:3 एसीटो-ऐल्कोहॉल में 24h रखकर 70% एथेनॉल में सहेजें।\n2. तनु HCl से नरम कर **एसीटो-कार्मिन** से रंगें व हल्का गर्म कर अँगूठे से दबाकर विभाजन अवस्थाएँ देखें।',
       },
-      examTakeaway: {
-        en: 'Why are root-tip cells used? Because meristematic root tips divide continuously showing all mitotic stages simultaneously! Reagent ratios: Aceto-alcohol = 1:3, chromosome stain = Aceto-carmine.',
-        hi: 'मुख्य तथ्य: प्याज की जड़ों के शीर्ष भाग (मूलाग्र) में कोशिकाएँ निरंतर विभाजित होती रहती हैं। गुणसूत्र अभिरंजक = एसीटो-कार्मिन।',
-      },
+      examTakeaway: { en: 'Why root tip? Meristematic root-tip cells divide non-stop showing Interphase through Telophase!', hi: 'मूलाग्र ही क्यों? जड़ के शीर्ष की कोशिकाएँ लगातार विभाजित होती रहती हैं।' },
     },
   ],
 
   tables: [
     {
       id: 'table-2-1',
-      title: {
-        en: 'NCERT Table 2.1 — Complete Structural Comparison (Bacteria vs Plant vs Animal)',
-        hi: 'NCERT तालिका 2.1 — संरचना के आधार पर विभिन्न कोशिकाओं की पूर्ण तुलना',
-      },
+      title: { en: 'NCERT Table 2.1 — Bacteria vs Plant vs Animal Cell', hi: 'NCERT तालिका 2.1 — जीवाणु बनाम पादप बनाम जंतु कोशिका' },
       headers: {
-        en: ['S.No', 'Cell Structure', 'Bacterial Cell', 'Plant Cell', 'Animal Cell'],
-        hi: ['क्र.सं.', 'कोशिका संरचनाएँ', 'जीवाणु कोशिका', 'पादप कोशिका', 'जंतु कोशिका'],
+        en: ['#', 'Structure', 'Bacteria (Prok.)', 'Plant Cell', 'Animal Cell'],
+        hi: ['क्र.', 'कोशिका भाग', 'जीवाणु', 'पादप कोशिका', 'जंतु कोशिका'],
       },
       rows: [
-        [
-          '1',
-          { en: 'Cell Membrane (Plasma Membrane)', hi: 'कोशिका झिल्ली' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-        ],
-        [
-          '2',
-          { en: 'Cell Wall', hi: 'कोशिका भित्ति' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-          { en: 'Present (Cellulose) ✓', hi: 'उपस्थित (सेल्युलोस) ✓' },
-          { en: 'Absent ✗', hi: 'अनुपस्थित ✗' },
-        ],
-        [
-          '3',
-          { en: 'Cytoplasm', hi: 'कोशिकाद्रव्य' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-        ],
-        [
-          '4',
-          { en: 'True Nucleus (Membrane-bound genetic material)', hi: 'सुस्पष्ट केंद्रक (झिल्ली से घिरा आनुवंशिक पदार्थ)' },
-          { en: 'Absent ✗', hi: 'अनुपस्थित ✗' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-        ],
-        [
-          '5',
-          { en: 'Nucleoid (Membrane-less genetic material)', hi: 'आद्य केंद्रक / केंद्रकाभ (झिल्ली रहित DNA)' },
-          { en: 'Present ✓', hi: 'उपस्थित ✓' },
-          { en: 'Absent ✗', hi: 'अनुपस्थित ✗' },
-          { en: 'Absent ✗', hi: 'अनुपस्थित ✗' },
-        ],
-        [
-          '6',
-          { en: 'Membrane-bound Organelles (Mitochondria, ER, Golgi, etc.)', hi: 'झिल्ली-आबद्ध कोशिकांग (माइटोकॉन्ड्रिया, ER, गॉल्जी आदि)' },
-          { en: 'Absent ✗', hi: 'अनुपस्थित ✗' },
-          { en: 'Present (+ Plastids) ✓', hi: 'उपस्थित (+ लवक) ✓' },
-          { en: 'Present (No Plastids) ✓', hi: 'उपस्थित (लवक नहीं) ✓' },
-        ],
+        ['1', { en: 'Plasma Membrane', hi: 'कोशिका झिल्ली' }, { en: 'Present ✓', hi: 'हाँ ✓' }, { en: 'Present ✓', hi: 'हाँ ✓' }, { en: 'Present ✓', hi: 'हाँ ✓' }],
+        ['2', { en: 'Cell Wall', hi: 'कोशिका भित्ति' }, { en: 'Present ✓', hi: 'हाँ ✓' }, { en: 'Cellulose ✓', hi: 'हाँ (सेल्युलोस) ✓' }, { en: 'Absent ✗', hi: 'नहीं ✗' }],
+        ['3', { en: 'Cytoplasm', hi: 'कोशिकाद्रव्य' }, { en: 'Present ✓', hi: 'हाँ ✓' }, { en: 'Present ✓', hi: 'हाँ ✓' }, { en: 'Present ✓', hi: 'हाँ ✓' }],
+        ['4', { en: 'True Membrane Nucleus', hi: 'झिल्ली वाला केंद्रक' }, { en: 'Absent ✗', hi: 'नहीं ✗' }, { en: 'Present ✓', hi: 'हाँ ✓' }, { en: 'Present ✓', hi: 'हाँ ✓' }],
+        ['5', { en: 'Nucleoid (Naked DNA)', hi: 'केंद्रकाभ (खुला DNA)' }, { en: 'Present ✓', hi: 'हाँ ✓' }, { en: 'Absent ✗', hi: 'नहीं ✗' }, { en: 'Absent ✗', hi: 'नहीं ✗' }],
+        ['6', { en: 'Membrane Organelles', hi: 'झिल्ली वाले कोशिकांग' }, { en: 'Absent ✗', hi: 'नहीं ✗' }, { en: 'Present (+Plastids) ✓', hi: 'हाँ (+लवक) ✓' }, { en: 'Present (No Plastids) ✓', hi: 'हाँ (लवक नहीं) ✓' }],
       ],
     },
     {
       id: 'table-2-2',
-      title: {
-        en: 'NCERT Table 2.2 — Prokaryotic vs Eukaryotic Cell Comparison',
-        hi: 'NCERT तालिका 2.2 — पूर्वकेंद्रकी और सुकेंद्रकी कोशिकाओं के मध्य तुलना',
-      },
+      title: { en: 'NCERT Table 2.2 — Prokaryotic vs Eukaryotic (+ Nirman+ 70S/80S & Chromosome Row)', hi: 'NCERT तालिका 2.2 — प्रोकैरियोटिक बनाम यूकैरियोटिक (+ 70S/80S बूस्टर)' },
       headers: {
         en: ['Feature', 'Prokaryotic Cell', 'Eukaryotic Cell'],
-        hi: ['विशेषताएँ', 'पूर्वकेंद्रकी (Prokaryotic)', 'सुकेंद्रकी (Eukaryotic)'],
+        hi: ['विशेषता', 'पूर्वकेंद्रकी (Prokaryotic)', 'सुकेंद्रकी (Eukaryotic)'],
       },
       rows: [
-        [
-          { en: 'Nucleoid (Membrane-less DNA)', hi: 'आद्य केंद्रक (केंद्रकाभ)' },
-          { en: 'Present', hi: 'उपस्थित' },
-          { en: 'Absent (True Nucleus present)', hi: 'अनुपस्थित (सुस्पष्ट केंद्रक उपस्थित)' },
-        ],
-        [
-          { en: 'Typical Cell Diameter', hi: 'सामान्य कोशिका का व्यास' },
-          { en: '1 to 10 µm', hi: '1 से 10 µm' },
-          { en: '10 to 100 µm', hi: '10 से 100 µm' },
-        ],
-        [
-          { en: 'Cells per Organism', hi: 'एक जीव में कोशिकाओं की संख्या' },
-          { en: 'Usually Unicellular', hi: 'सामान्यतः एककोशिकीय' },
-          { en: 'Unicellular or Multicellular', hi: 'एककोशिकीय या बहुकोशिकीय' },
-        ],
-        [
-          { en: 'Membrane-bound Organelles', hi: 'झिल्ली-आबद्ध कोशिकांग' },
-          { en: 'Absent', hi: 'अनुपस्थित' },
-          { en: 'Present', hi: 'उपस्थित' },
-        ],
-        [
-          { en: 'Membrane-bound Nucleus', hi: 'झिल्ली-आबद्ध केंद्रक' },
-          { en: 'Absent', hi: 'अनुपस्थित' },
-          { en: 'Present', hi: 'उपस्थित' },
-        ],
-        [
-          { en: 'Examples (+ Bonus Chromosome Note)', hi: 'उदाहरण व गुणसूत्र (PYQ तथ्य)' },
-          { en: 'Bacteria (Single circular DNA)', hi: 'जीवाणु (केवल 1 गुणसूत्र)' },
-          { en: 'Plant, Animal, Fungi cells (Multiple chromosomes)', hi: 'पादप, जंतु, कवक (एक से अधिक गुणसूत्र)' },
-        ],
+        [{ en: 'Genetic Region', hi: 'आनुवंशिक क्षेत्र' }, { en: 'Nucleoid (Naked, No membrane)', hi: 'केंद्रकाभ (बिना झिल्ली वाला)' }, { en: 'True Membrane-bound Nucleus', hi: 'झिल्ली से बंद असली केंद्रक' }],
+        [{ en: 'Typical Diameter', hi: 'सामान्य व्यास' }, { en: '1 to 10 µm', hi: '1 से 10 µm' }, { en: '10 to 100 µm', hi: '10 से 100 µm' }],
+        [{ en: 'Chromosomes', hi: 'गुणसूत्र संख्या' }, { en: 'Single (1 circular DNA)', hi: 'केवल 1 (एकल गुणसूत्र)' }, { en: 'More than 1 (Linear)', hi: 'एक से अधिक' }],
+        [{ en: 'Ribosomes (Nirman+)', hi: 'राइबोसोम (Nirman+)' }, { en: '70S (50S + 30S)', hi: '70S (50S + 30S)' }, { en: '80S (60S + 40S)', hi: '80S (60S + 40S)' }],
+        [{ en: 'Membrane Organelles', hi: 'झिल्ली वाले कोशिकांग' }, { en: 'Absent', hi: 'अनुपस्थित' }, { en: 'Present (Mitochondria, ER, Golgi...)', hi: 'उपस्थित' }],
       ],
     },
     {
       id: 'table-organelles-master',
-      title: {
-        en: 'Pro Vault Table — All Cell Organelles Cheat Sheet (Membranes, DNA, Function, PYQ Alias)',
-        hi: 'प्रो मास्टर तालिका — सभी कोशिकांग (झिल्ली, स्वयं का DNA, कार्य एवं उपनाम)',
-      },
+      title: { en: 'Pro Master Organelles Table (Membranes, Own DNA & Railway Nicknames)', hi: 'सभी कोशिकांगों की मास्टर सारणी (झिल्ली, DNA व परीक्षा उपनाम)' },
       headers: {
-        en: ['Organelle', 'Membrane', 'Own DNA?', 'Core Function', 'Exam Nickname'],
-        hi: ['कोशिकांग', 'झिल्ली', 'स्वयं DNA?', 'मुख्य कार्य', 'परीक्षा उपनाम'],
+        en: ['Organelle', 'Membrane Count', 'Own DNA?', 'Key Work', 'PYQ Alias'],
+        hi: ['कोशिकांग', 'झिल्ली', 'स्वयं DNA?', 'मुख्य काम', 'परीक्षा उपनाम'],
       },
       rows: [
-        [
-          { en: 'Nucleus', hi: 'केंद्रक' },
-          { en: 'Double (with pores)', hi: 'दोहरी (छिद्रयुक्त)' },
-          { en: 'Yes ✓', hi: 'हाँ ✓' },
-          { en: 'Controls activities & heredity (DNA/Genes)', hi: 'गतिविधियाँ व वंशागति नियंत्रण' },
-          { en: 'Brain / Command Centre', hi: 'नियंत्रण कक्ष' },
-        ],
-        [
-          { en: 'Mitochondria', hi: 'माइटोकॉन्ड्रिया' },
-          { en: 'Double (inner Cristae)', hi: 'दोहरी (अंतःकटक)' },
-          { en: 'Yes (+ Ribosomes) ✓', hi: 'हाँ (+ राइबोसोम) ✓' },
-          { en: 'Cellular respiration -> ATP energy', hi: 'कोशिकीय श्वसन -> ATP ऊर्जा' },
-          { en: 'Powerhouse of Cell', hi: 'ऊर्जा केंद्र / बिजलीघर' },
-        ],
-        [
-          { en: 'Plastids (Chloro / Chromo / Leuco)', hi: 'लवक (हरित/वर्णी/अवर्णी)' },
-          { en: 'Double (Plants Only)', hi: 'दोहरी (केवल पादप)' },
-          { en: 'Yes (+ Ribosomes) ✓', hi: 'हाँ (+ राइबोसोम) ✓' },
-          { en: 'Photosynthesis / Pigments / Starch-Oil storage', hi: 'प्रकाश-संश्लेषण / रंग / भंडारण' },
-          { en: 'Kitchen / Pantry (Plants)', hi: 'पादप रसोईघर / भंडार' },
-        ],
-        [
-          { en: 'Ribosome', hi: 'राइबोसोम' },
-          { en: 'None (Both Prok & Euk)', hi: 'कोई नहीं (सर्वव्यापी)' },
-          { en: 'No ✗', hi: 'नहीं ✗' },
-          { en: 'Protein synthesis', hi: 'प्रोटीन संश्लेषण' },
-          { en: 'Protein Factory', hi: 'प्रोटीन की फैक्टरी' },
-        ],
-        [
-          { en: 'ER (Rough & Smooth)', hi: 'अंतर्द्रव्यी जालिका (RER/SER)' },
-          { en: 'Single (Continuous w/ Nucleus)', hi: 'एकल' },
-          { en: 'No ✗', hi: 'नहीं ✗' },
-          { en: 'RER = Protein | SER = Lipids & Hormones', hi: 'RER = प्रोटीन | SER = वसा व हार्मोन' },
-          { en: 'Workshop / Assembly Line', hi: 'निर्माणशाला' },
-        ],
-        [
-          { en: 'Golgi Apparatus', hi: 'गॉल्जी उपकरण' },
-          { en: 'Single (Stacked sacs)', hi: 'एकल (चपटी थैलियाँ)' },
-          { en: 'No ✗', hi: 'नहीं ✗' },
-          { en: 'Modify, sort, pack vesicles, forms Lysosomes', hi: 'रूपांतरण, पैकेजिंग व लाइसोसोम निर्माण' },
-          { en: 'Post Office / Shipping Hub', hi: 'कोशिका का डाकघर' },
-        ],
-        [
-          { en: 'Lysosome', hi: 'लाइसोसोम (लयनकाय)' },
-          { en: 'Single', hi: 'एकल' },
-          { en: 'No ✗', hi: 'नहीं ✗' },
-          { en: 'Digest waste, worn organelles, egg coat in sperm', hi: 'अपशिष्ट/जीर्ण अंग पाचन' },
-          { en: 'Clean-up / Suicide Bag', hi: 'निर्मलन प्रणाली / आत्महत्या की थैली' },
-        ],
-        [
-          { en: 'Vacuole', hi: 'रसधानी' },
-          { en: 'Single', hi: 'एकल' },
-          { en: 'No ✗', hi: 'नहीं ✗' },
-          { en: 'Store cell sap; turgidity & rigidity in plants', hi: 'कोशिका-रस भंडारण व दृढ़ता' },
-          { en: 'Storage Tank (Huge in Plants)', hi: 'भंडारण टैंक' },
-        ],
+        [{ en: 'Nucleus', hi: 'केंद्रक' }, { en: 'Double', hi: 'दोहरी' }, { en: 'Yes ✓', hi: 'हाँ ✓' }, { en: 'Cell control & heredity genes', hi: 'नियंत्रण व वंशागति' }, { en: 'Brain / CEO', hi: 'नियंत्रण कक्ष' }],
+        [{ en: 'Mitochondria', hi: 'माइटोकॉन्ड्रिया' }, { en: 'Double (Cristae)', hi: 'दोहरी' }, { en: 'Yes (+70S) ✓', hi: 'हाँ ✓' }, { en: 'Respiration -> ATP energy', hi: 'श्वसन से ATP ऊर्जा' }, { en: 'Powerhouse', hi: 'ऊर्जा केंद्र / बिजलीघर' }],
+        [{ en: 'Plastids (Plants)', hi: 'लवक (केवल पादप)' }, { en: 'Double', hi: 'दोहरी' }, { en: 'Yes (+70S) ✓', hi: 'हाँ ✓' }, { en: 'Chloro/Chromo/Leucoplast', hi: 'भोजन, रंग व भंडारण' }, { en: 'Plant Kitchen/Pantry', hi: 'पादप रसोई' }],
+        [{ en: 'Ribosome', hi: 'राइबोसोम' }, { en: 'None (0)', hi: 'कोई नहीं (0)' }, { en: 'No ✗', hi: 'नहीं ✗' }, { en: 'Protein making (Palade 1955)', hi: 'प्रोटीन निर्माण' }, { en: 'Protein Factory', hi: 'प्रोटीन फैक्टरी' }],
+        [{ en: 'ER (RER / SER)', hi: 'अंतर्द्रव्यी जालिका' }, { en: 'Single (1)', hi: 'एकल (1)' }, { en: 'No ✗', hi: 'नहीं ✗' }, { en: 'RER: Protein | SER: Fat+Detox', hi: 'RER: प्रोटीन | SER: वसा' }, { en: 'Workshop', hi: 'निर्माणशाला' }],
+        [{ en: 'Golgi Apparatus', hi: 'गॉल्जी उपकरण' }, { en: 'Single (1)', hi: 'एकल (1)' }, { en: 'No ✗', hi: 'नहीं ✗' }, { en: 'Modify, pack & form Lysosomes', hi: 'पैकेजिंग व लाइसोसोम निर्माण' }, { en: 'Post Office', hi: 'कोशिका डाकघर' }],
+        [{ en: 'Lysosome', hi: 'लाइसोसोम' }, { en: 'Single (1)', hi: 'एकल (1)' }, { en: 'No ✗', hi: 'नहीं ✗' }, { en: 'Clean-up digestive enzymes', hi: 'कचरा पाचन / सफाई' }, { en: 'Suicide Bag', hi: 'आत्महत्या की थैली' }],
+        [{ en: 'Vacuole', hi: 'रसधानी' }, { en: 'Single (Tonoplast)', hi: 'एकल (टोनोप्लास्ट)' }, { en: 'No ✗', hi: 'नहीं ✗' }, { en: 'Cell sap storage & plant rigidity', hi: 'कोशिका-रस व दृढ़ता' }, { en: 'Storage Tank', hi: 'भंडार टैंक' }],
       ],
     },
     {
       id: 'table-division-compare',
-      title: {
-        en: 'Mitosis vs Meiosis Quick Exam Comparison',
-        hi: 'समसूत्री बनाम अर्धसूत्री विभाजन तुलनात्मक तालिका',
-      },
-      headers: {
-        en: ['Property', 'Mitosis (समसूत्री)', 'Meiosis (अर्धसूत्री)'],
-        hi: ['गुण', 'समसूत्री विभाजन', 'अर्धसूत्री विभाजन'],
-      },
+      title: { en: 'Mitosis vs Meiosis Comparison', hi: 'समसूत्री बनाम अर्धसूत्री विभाजन' },
+      headers: { en: ['Feature', 'Mitosis', 'Meiosis'], hi: ['अंतर बिंदु', 'समसूत्री (Mitosis)', 'अर्धसूत्री (Meiosis)'] },
       rows: [
-        [
-          { en: 'Site of Occurrence', hi: 'कहाँ होता है?' },
-          { en: 'Somatic (Body) cells & asexual reproduction', hi: 'कायिक (शरीर) कोशिकाओं व अलैंगिक जनन में' },
-          { en: 'ONLY reproductive organs (Testes, Ovary, Anthers)', hi: 'केवल जनन अंगों (वृषण, अंडाशय, परागकोश) में' },
-        ],
-        [
-          { en: 'Divisions & Daughter Cells', hi: 'चरण एवं संतति संख्या' },
-          { en: '1 Division -> 2 Identical Daughter Cells', hi: '1 चरण -> 2 समान संतति कोशिकाएँ' },
-          { en: '2 Divisions -> 4 Daughter Cells (Gametes)', hi: '2 चरण -> 4 संतति कोशिकाएँ (युग्मक)' },
-        ],
-        [
-          { en: 'Chromosomes & DNA', hi: 'गुणसूत्र एवं DNA' },
-          { en: 'Same as parent ($2n \\to 2n$)', hi: 'जनक के समान ($2n \\to 2n$)' },
-          { en: 'Reduced to HALF ($2n \\to n$)', hi: 'आधे हो जाते हैं ($2n \\to n$)' },
-        ],
-        [
-          { en: 'Primary Biological Purpose', hi: 'मुख्य कार्य' },
-          { en: 'Growth, repair, cell replacement', hi: 'शारीरिक वृद्धि, घाव मरम्मत, प्रतिस्थापन' },
-          { en: 'Gamete formation & Genetic Variation', hi: 'युग्मक निर्माण व आनुवंशिक विविधता' },
-        ],
+        [{ en: 'Where?', hi: 'कहाँ होता है?' }, { en: 'Body (Somatic) cells', hi: 'शरीर की कायिक कोशिकाओं में' }, { en: 'Reproductive organs ONLY', hi: 'केवल जनन अंगों में' }],
+        [{ en: 'Outcome', hi: 'कुल नई कोशिकाएँ' }, { en: '2 Identical cells ($2n \\to 2n$)', hi: '2 समान कोशिकाएँ ($2n \\to 2n$)' }, { en: '4 Gametes ($2n \\to n$ Half DNA)', hi: '4 युग्मक ($2n \\to n$ आधा DNA)' }],
+        [{ en: 'Purpose', hi: 'मुख्य उद्देश्य' }, { en: 'Growth & Wound Repair', hi: 'वृद्धि और चोट की मरम्मत' }, { en: 'Sexual gametes & Variation', hi: 'लैंगिक जनन व विविधता' }],
       ],
     },
   ],
@@ -919,298 +970,71 @@ export const CH2_CELL_DATA = {
   inTextQuestions: [
     {
       num: 'Think 1 (p.14)',
-      q: {
-        en: 'Why do stationary plants need a cell wall while mobile animals do not?',
-        hi: 'एक स्थान से दूसरे स्थान गति करने वाले जंतुओं की अपेक्षा स्थिर पादपों में कोशिका भित्ति की आवश्यकता क्यों है?',
-      },
-      a: {
-        en: 'Plants cannot move away from strong winds, rain or extreme humidity shifts, so rigid cellulose cell walls provide mechanical strength, uphold stems/leaves upright, and prevent osmotic bursting.',
-        hi: 'पादप चल-फिर नहीं सकते, अतः वायु, वर्षा और नमी परिवर्तन सहने, सीधे खड़े रहने तथा परासरणी दाब से फटने से बचने के लिए उन्हें दृढ़ कोशिका भित्ति की आवश्यकता होती है।',
-      },
+      q: { en: 'Why do stationary plants need a cell wall while mobile animals do not?', hi: 'पौधे हिल-डुल नहीं सकते, तो उन्हें कोशिका भित्ति की ज़रूरत क्यों होती है?' },
+      a: { en: 'Plants stay rooted outdoors facing wind, rain & osmotic swelling, needing rigid cellulose cell walls; mobile animals skip walls for cellular flexibility.', hi: 'पौधे आंधी-बारिश से भाग नहीं सकते, इसलिए सुरक्षा व खड़े रहने के लिए दृढ़ सेल्युलोस भित्ति ज़रूरी है। जंतुओं में न होने से उन्हें लचीलापन मिलता है।' },
     },
     {
       num: 'Think 2 (p.14)',
-      q: {
-        en: 'What would happen if a plant cell wall became flexible like the plasma membrane?',
-        hi: 'यदि किसी पादप कोशिका की कोशिका भित्ति, कोशिका झिल्ली के समान लचीली हो जाए तो क्या परिणाम होंगे?',
-      },
-      a: {
-        en: 'Plant cells would lose rigidity, stems and leaves would droop/wilt unable to stand upright, and in hypotonic pure water cells could swell excessively and burst.',
-        hi: 'पौधे की दृढ़ता समाप्त हो जाएगी, वह सीधा खड़ा नहीं रह पाएगा (मुरझा जाएगा) और अल्पपरासारी जल में अधिक फूलकर फट भी सकता है।',
-      },
+      q: { en: 'What happens if plant cell wall became as flexible as plasma membrane?', hi: 'अगर पादप कोशिका भित्ति झिल्ली की तरह मुलायम हो जाए तो क्या होगा?' },
+      a: { en: 'Stems & leaves lose rigidity, plants wilt/collapse, and cells may burst in pure water.', hi: 'पौधे सीधे खड़े नहीं रह पाएंगे, मुरझा जाएंगे और शुद्ध पानी में फूलकर फट भी सकते हैं।' },
     },
     {
       num: 'Think 3 (p.14)',
-      q: {
-        en: 'In Activity 2.2 (Potato experiment), why is measuring initial mass of both cubes essential before placing them in solutions?',
-        hi: 'विभिन्न तरल पदार्थों में रखने से पूर्व आलू के दोनों टुकड़ों के आरंभिक भार का मापन क्यों महत्त्वपूर्ण है?',
-      },
-      a: {
-        en: 'Without initial baseline weight, you cannot quantify net mass gain (endosmosis) or mass loss (exosmosis) after immersion.',
-        hi: 'प्रारंभिक भार जाने बिना हम यह सटीक गणना नहीं कर पाएँगे कि परासरण के बाद भार में कितनी शुद्ध वृद्धि या कमी हुई है।',
-      },
+      q: { en: 'Why weigh both potato cubes before soaking in water & salt solution?', hi: 'आलू के टुकड़ों को घोल में डालने से पहले उनका वजन तौलना क्यों ज़रूरी है?' },
+      a: { en: 'Without baseline initial weight, net water gain or loss via osmosis cannot be calculated.', hi: 'शुरुआती वजन जाने बिना हम यह नहीं नाप पाएंगे कि पानी अंदर जाने/निकलने से कितना भार बढ़ा या घटा।' },
     },
     {
       num: 'Think 4 (p.19)',
-      q: {
-        en: 'Do white flowers contain any plastid pigment? Explain why.',
-        hi: 'क्या सफेद फूलों में कोई वर्णक होता है? कारण बताइए।',
-      },
-      a: {
-        en: 'No coloured pigments! White petal cells either have colourless leucoplasts or lack chromoplast pigments—their petals scatter all incident visible light equally, appearing white.',
-        hi: 'नहीं, सफेद फूलों की पंखुड़ियों में रंगीन वर्णक नहीं होते (प्रायः रंगहीन अवर्णी लवक या रिक्त स्थान होते हैं जो संपूर्ण प्रकाश को परावर्तित कर सफेद दिखते हैं)।',
-      },
+      q: { en: 'Do white flowers contain any plastid pigments? Why?', hi: 'क्या सफेद फूलों में कोई रंगीन वर्णक होता है? कारण बताएं।' },
+      a: { en: 'No coloured pigments—white petals have colourless leucoplasts/spaces reflecting all visible wavelengths equally.', hi: 'नहीं, उनमें रंगीन वर्णीलवक नहीं होते; प्रकाश की सभी किरणें परावर्तित होने से वे सफेद दिखते हैं।' },
     },
     {
       num: 'Think 5 (p.19)',
-      q: {
-        en: 'Draw & match the clues: (i) dense round Nucleus, (ii) ER spreading from nuclear envelope, (iii) rod-shaped Mitochondria & Chloroplasts.',
-        hi: 'संकेतों का उपयोग करें: (i) गोल सघन केंद्रक, (ii) केंद्रक से फैला ER जाल, (iii) छड़ाकार माइटोकॉन्ड्रिया व हरितलवक।',
-      },
-      a: {
-        en: 'Use Interactive Lab 3 (Plant Cell tab above!)—tap Nucleus, Rough/Smooth ER, Mitochondria & Chloroplast to inspect exact positions.',
-        hi: 'ऊपर दी गई इंटरैक्टिव लैब 3 (पादप कोशिका टैब) में केंद्रक, अंतर्द्रव्यी जालिका, माइटोकॉन्ड्रिया और हरितलवक पर क्लिक करके सटीक स्थिति देखें।',
-      },
+      q: { en: 'Identify clues: (i) dense round control centre, (ii) ER mesh from nuclear coat, (iii) rod-shaped ATP & kitchen organelles.', hi: 'पहचानें: (i) गोल नियंत्रण केंद्र, (ii) केंद्रक से फैला जाल, (iii) छड़ाकार ऊर्जा/रसोई अंग।' },
+      a: { en: '(i) Nucleus, (ii) Endoplasmic Reticulum, (iii) Mitochondria & Chloroplast — test yourself in Interactive Lab 3 above!', hi: '(i) केंद्रक, (ii) अंतर्द्रव्यी जालिका (ER), (iii) माइटोकॉन्ड्रिया व हरितलवक — ऊपर लैब 3 में टच करके देखें!' },
     },
     {
       num: 'Think 6 (p.22)',
-      q: {
-        en: 'Why does a cell contain many tiny mitochondria rather than a single giant mitochondrion? Relate to surface area.',
-        hi: 'एक कोशिका में अनेक छोटे माइटोकॉन्ड्रिया की अपेक्षा एक विशाल माइटोकॉन्ड्रिया क्यों नहीं होता? पृष्ठीय क्षेत्रफल से जोड़िए।',
-      },
-      a: {
-        en: 'Many small mitochondria provide a dramatically higher total surface-area-to-volume ratio than one giant organelle, allowing faster ATP diffusion & targeted energy delivery everywhere in the cell.',
-        hi: 'अनेक छोटे माइटोकॉन्ड्रिया का कुल पृष्ठीय क्षेत्रफल (Surface Area) एक विशाल संरचना की तुलना में कहीं अधिक होता है, जिससे ATP ऊर्जा उत्पादन व पूरे कोशिकाद्रव्य में तेजी से वितरण संभव होता है।',
-      },
+      q: { en: 'Why do cells have many tiny mitochondria rather than 1 giant mitochondrion? Relate to surface area.', hi: 'कोशिका में 1 बड़े के बजाय कई छोटे माइटोकॉन्ड्रिया क्यों होते हैं? सतह क्षेत्रफल से जोड़ें।' },
+      a: { en: 'Multiple tiny mitochondria yield drastically higher total surface area for rapid ATP synthesis & immediate local delivery across cytoplasm.', hi: 'कई छोटे माइटोकॉन्ड्रिया का कुल सतह क्षेत्रफल बहुत ज्यादा होता है, जिससे तेजी से ATP बनता है और हर हिस्से में तुरंत पहुँचता है।' },
     },
     {
       num: 'Think 7 (p.22)',
-      q: {
-        en: 'If skin cells started undergoing Meiosis instead of Mitosis when cut, what would happen?',
-        hi: 'यदि त्वचा की कोशिकाएँ कट लगने पर समसूत्री के बजाय अर्धसूत्री विभाजन करने लगें तो क्या होगा?',
-      },
-      a: {
-        en: 'New skin cells would receive only HALF the normal chromosome count (genetically different haploid cells instead of identical diploid cells), failing to heal/regenerate proper skin tissue!',
-        hi: 'नई त्वचा कोशिकाओं में गुणसूत्र आधे रह जाएँगे और वे आनुवंशिक रूप से जनक जैसी नहीं होंगी—अतः घाव सही ढंग से नहीं भरेगा और ऊतक विकृत हो जाएगा।',
-      },
+      q: { en: 'If skin cells used Meiosis instead of Mitosis when cut, what would happen?', hi: 'अगर कटने पर त्वचा की कोशिकाएँ समसूत्री के बजाय अर्धसूत्री विभाजन करने लगें तो?' },
+      a: { en: 'Daughter skin cells would carry half chromosomes (`n`) and fail to rebuild identical healthy skin tissue.', hi: 'नई कोशिकाओं में आधे गुणसूत्र रह जाएंगे और वे पुरानी जैसी नहीं होंगी — घाव ठीक नहीं भर पाएगा!' },
     },
   ],
 
   exercises: [
-    {
-      num: 1,
-      q: {
-        en: 'Differentiate between: (i) Plasma membrane vs Cell wall (permeability), (ii) RER vs SER (structure), (iii) Chloroplast vs Chromoplast (pigments).',
-        hi: 'अंतर स्पष्ट कीजिए: (i) कोशिका झिल्ली व कोशिका भित्ति (पारगम्यता), (ii) RER व SER (संरचना), (iii) हरितलवक व वर्णीलवक (वर्णक)।',
-      },
-      a: {
-        en: '(i) Plasma membrane is selectively permeable; Cell wall is freely permeable. (ii) RER has ribosomes on outer surface (rough); SER has no ribosomes (smooth). (iii) Chloroplast has green Chlorophyll; Chromoplast has non-green coloured pigments (yellow/orange/red).',
-        hi: '(i) कोशिका झिल्ली वरणात्मक पारगम्य होती है, जबकि कोशिका भित्ति पूर्ण पारगम्य होती है। (ii) RER की सतह पर राइबोसोम जुड़े होने से वह खुरदुरी दिखती है; SER पर राइबोसोम नहीं होते। (iii) हरितलवक में हरा पर्णहरित (क्लोरोफिल) होता है; वर्णीलवक में पीले/नारंगी/लाल रंगीन वर्णक होते हैं।',
-      },
-    },
-    {
-      num: 2,
-      q: {
-        en: '[MCQ — NCERT Key Verified: (iii)] Cell X in pure water swells; Cell Y in concentrated salt solution shrinks. Correct explanation?',
-        hi: '[MCQ — उत्तर (iii)] कोशिका X शुद्ध जल में फूलती है और कोशिका Y सांद्र नमक विलयन में सिकुड़ती है। सही कारण?',
-      },
-      a: {
-        en: 'Option (iii): Water entered Cell X and exited Cell Y across the plasma membrane by osmosis (salt solute does NOT cross the selectively permeable membrane).',
-        hi: 'विकल्प (iii): कोशिका झिल्ली के माध्यम से जल परासरण द्वारा कोशिका X में प्रवेश कर गया और कोशिका Y से बाहर चला गया।',
-      },
-    },
-    {
-      num: 3,
-      q: {
-        en: 'Fig 2.20 Label Match (Plant Cell (क)–(छ)): Match (क)–(छ) to roles (i) to (vii).',
-        hi: 'चित्र 2.20 मिलान: (क) से (छ) तक चिह्नित भागों की पहचान व कार्य मिलान।',
-      },
-      a: {
-        en: 'Plant Cell Parts in Fig 2.20 -> (i) Control centre = Nucleus (ख); (ii) Cellular respiration = Mitochondria (क / ड.); (iii) Storage & rigidity = Vacuole (छ); (iv) Outer separator around cell contents = Plasma membrane; (v) Structural rigidity = Cell Wall (घ); (vi) Pack ER material = Golgi Apparatus (ग); (vii) Food synthesis = Chloroplast.',
-        hi: 'चित्र 2.20 (पादप कोशिका): (i) गतिविधि नियंत्रण = केंद्रक; (ii) श्वसन स्थल = माइटोकॉन्ड्रिया; (iii) भंडारण व दृढ़ता = रसधानी; (iv) परिवेश से अलग = प्लाज्मा झिल्ली; (v) संरचनात्मक दृढ़ता = कोशिका भित्ति; (vi) पैकिंग = गॉल्जी उपकरण; (vii) भोजन निर्माण = हरितलवक।',
-      },
-    },
-    {
-      num: 4,
-      q: {
-        en: '[MCQ — NCERT Key Verified: (i)] Correctly matched pair: Present in Plant Cell & Absent in Animal Cell?',
-        hi: '[MCQ — उत्तर (i)] पादप कोशिका में उपस्थित व जंतु कोशिका में अनुपस्थित का सही युग्म?',
-      },
-      a: {
-        en: 'Option (i): Leucoplast (present in plants) | Cell Wall (absent in animals). (Options ii, iii, iv list ribosomes/Golgi/ER as absent in animals, which is FALSE!).',
-        hi: 'विकल्प (i): अवर्णी लवक (पादप में उपस्थित) | कोशिका भित्ति (जंतु में अनुपस्थित)। बाकी विकल्पों में राइबोसोम/गॉल्जी/ER जंतु में अनुपस्थित बताए गए हैं जो ग़लत हैं।',
-      },
-    },
-    {
-      num: 5,
-      q: {
-        en: 'Renu says roots also contain plastids; Rohit argues roots do not need photosynthesis so have no plastids. Who is right?',
-        hi: 'रेणु कहती हैं पौधों की जड़ों में भी लवक होते हैं, जबकि रोहित इसे नकारता है। कौन सही है?',
-      },
-      a: {
-        en: 'Renu is RIGHT! Underground roots (e.g., potato, colocasia) contain colourless LEUCOPLASTS (अवर्णी लवक) to store starch, oils & proteins—plastids are not limited to green chloroplasts.',
-        hi: 'रेणु सही हैं! जड़ों में प्रकाश-संश्लेषण करने वाले हरितलवक नहीं होते, लेकिन भोजन (स्टार्च, तेल, प्रोटीन) संचय के लिए रंगहीन अवर्णी लवक (Leucoplasts) अवश्य पाए जाते हैं।',
-      },
-    },
-    {
-      num: 6,
-      q: {
-        en: 'How are Mitochondria & Chloroplasts structurally/functionally similar and different?',
-        hi: 'माइटोकॉन्ड्रिया और हरितलवक संरचनात्मक व कार्यात्मक रूप से कैसे समान और भिन्न हैं?',
-      },
-      a: {
-        en: 'Similarities: Both are double-membrane bound, found in plants, and contain their OWN circular DNA & ribosomes (semi-autonomous). Differences: Mitochondria occur in both plant & animal cells, have cristae, and break down glucose to produce ATP; Chloroplasts occur ONLY in plant/algal cells, have chlorophyll discs in stroma, and synthesize sugars using sunlight.',
-        hi: 'समानताएँ: दोनों दोहरी झिल्ली वाले हैं और दोनों में स्वयं का DNA व राइबोसोम होता है। भिन्नताएँ: माइटोकॉन्ड्रिया पादप व जंतु दोनों में अंतःकटक के साथ ATP (श्वसन) बनाते हैं; हरितलवक केवल पादपों में पर्णहरित व पीठिका सहित प्रकाश-संश्लेषण द्वारा भोजन बनाते हैं।',
-      },
-    },
-    {
-      num: 7,
-      q: {
-        en: '[MCQ — NCERT Key Verified: (ii)] Which pair of cell organelles contains DNA?',
-        hi: '[MCQ — उत्तर (ii)] कोशिकांगों के किस जोड़े में डीएनए (DNA) होता है?',
-      },
-      a: {
-        en: 'Option (ii): Mitochondria and Nucleus! (Ribosomes, Golgi, Lysosomes contain NO DNA).',
-        hi: 'विकल्प (ii): माइटोकॉन्ड्रिया और केंद्रक! (राइबोसोम, गॉल्जी व लाइसोसोम में DNA नहीं होता)।',
-      },
-    },
-    {
-      num: 8,
-      q: {
-        en: 'Fig 2.21 Carrot Osmosis (24h): Carrot A in plain water stays crisp; Carrot B in concentrated salt water turns rubbery/limp.',
-        hi: 'चित्र 2.21 (गाजर प्रयोग, 24 घंटे): साधारण जल में गाजर कठोर रहती है, पर नमक विलयन में रबर जैसी लचीली क्यों हो जाती है?',
-      },
-      a: {
-        en: '(i) Testing hypothesis of osmosis & turgor across plant tissues. (ii) Improve by measuring exact initial/final weight & length, using equal-size carrot cylinders & controlled temperature. (iii) Plain water keeps vacuoles turgid & crisp; hypertonic salt water pulls water OUT via osmosis reducing turgor pressure -> soft/rubbery.',
-        hi: '(i) पादप कोशिकाओं में परासरण के प्रभाव का परीक्षण। (ii) सुधार: आरंभिक व अंतिम भार/आकार नापना व समान तापमान। (iii) साधारण जल से रसधानी में दाब (turgidity) बना रहता है; नमक के घोल में जल बाहर निकलने से दृढ़ता समाप्त हो जाती है।',
-      },
-    },
-    {
-      num: 9,
-      q: {
-        en: 'Table Match: Presence/Absence in Bacterial Cell vs Animal Cell (Chromosome, Nucleus, Mitochondria, Golgi, Chromoplast).',
-        hi: 'जीवाणु बनाम जंतु कोशिका तालिका: गुणसूत्र, केंद्रक, माइटोकॉन्ड्रिया, गॉल्जी व वर्णीलवक।',
-      },
-      a: {
-        en: 'Chromosome/Genetic DNA -> Present in Bacteria (1 circular DNA) & Present in Animal (linear chromosomes) | Membrane Nucleus -> Absent in Bacteria, Present in Animal | Mitochondria -> Absent in Bacteria, Present in Animal | Golgi -> Absent in Bacteria, Present in Animal | Chromoplast -> Absent in BOTH!',
-        hi: 'गुणसूत्र: जीवाणु (हाँ, 1), जंतु (हाँ) | केंद्रक: जीवाणु (नहीं), जंतु (हाँ) | माइटोकॉन्ड्रिया: जीवाणु (नहीं), जंतु (हाँ) | गॉल्जीकाय: जीवाणु (नहीं), जंतु (हाँ) | वर्णीलवक: दोनों में अनुपस्थित (केवल पादपों में)!',
-      },
-    },
-    {
-      num: 10,
-      q: {
-        en: 'Fig 2.22 4-Potato Cup Experiment in water beaker: Cup A empty, Cup B + 1 tsp Sugar, Cup C + 1 tsp Salt, Cup D (BOILED Potato) + 1 tsp Sugar.',
-        hi: 'चित्र 2.22 (4 आलू कप प्रयोग): कप क (खाली), कप ख (चीनी), कप ग (नमक), कप घ (उबला आलू + चीनी)।',
-      },
-      a: {
-        en: '(i) Water accumulates in hollowed Cups B & C because solute concentration inside is higher than beaker water -> water moves inside through living selectively permeable cells by osmosis. (ii) Cup A is the Control setup proving water does not rise spontaneously without concentration gradient. (iii) Cup A lacks solute gradient; Cup D is BOILED so boiling killed cells & denatured selectively permeable membranes -> NO osmosis!',
-        hi: '(i) कप ख (चीनी) व ग (नमक) में अंदर सांद्रता अधिक होने से जीवित कोशिकाओं द्वारा परासरण से जल अंदर जमा होता है। (ii) कप क (Control) सिद्ध करता है कि बिना विलेय प्रवणता जल नहीं चढ़ता। (iii) कप घ उबला हुआ है जिससे कोशिका व झिल्ली नष्ट हो जाती हैं— अतः मृत कोशिका में परासरण नहीं होता!',
-      },
-    },
-    {
-      num: 11,
-      q: {
-        en: '[MCQ — NCERT Key Verified: (iii) in book answer / Trap Check!] Which pair is NOT correctly matched?',
-        hi: '[MCQ — गलत मिलान चुनें] कौन-सा युग्म सुमेलित नहीं है?',
-      },
-      a: {
-        en: 'Pair (ii): "Smooth ER — Lipid and CELLULOSE synthesis" is INCORRECT! Smooth ER synthesizes Lipids & Hormones (NOT cellulose, which is synthesized at the plasma membrane for plant cell walls). Note: NCERT prints (ii) as the mismatched pair in context.',
-        hi: 'युग्म (ii) "चिकनी अंतर्द्रव्यी जालिका — लिपिड और सेल्युलोस का संश्लेषण" ग़लत है! SER केवल लिपिड और हार्मोन बनाती है, सेल्युलोस नहीं।',
-      },
-    },
-    {
-      num: 12,
-      q: {
-        en: 'What would happen if ALL mitochondria were removed from a eukaryotic cell?',
-        hi: 'यदि किसी सुकेंद्रकी कोशिका से सभी माइटोकॉन्ड्रिया निकाल दिए जाएँ तो क्या होगा?',
-      },
-      a: {
-        en: 'Cellular respiration would halt, ATP energy production would collapse, active cellular functions (protein synthesis, division, transport) would fail, and the cell would die.',
-        hi: 'कोशिकीय श्वसन व ATP (ऊर्जा) का निर्माण रुक जाएगा, समस्त जैविक क्रियाएँ ठप हो जाएँगी और कोशिका शीघ्र मृत हो जाएगी।',
-      },
-    },
-    {
-      num: 13,
-      q: {
-        en: 'Which phenomenon stops tumour formation in human cells? Can plants also develop tumours?',
-        hi: 'मानव शरीर में अर्बुद (Tumour) निर्माण को कौन रोकता है? क्या पौधों में भी अर्बुद हो सकते हैं?',
-      },
-      a: {
-        en: 'Contact Inhibition (संपर्क अवरोध) stops normal human cells from over-dividing when touching neighbours. Plants lack animal contact inhibition, though bacterial/pest infections can still trigger localized callus/gall growths (not metastasizing like animal malignant cancer because rigid cell walls prevent wandering cells).',
-        hi: 'मानव कोशिकाओं में संपर्क अवरोध (Contact Inhibition) और क्रमादेशित कोशिका मृत्यु (PCD) अर्बुद रोकते हैं। पौधों में भी जीवाणु आदि से स्थानीय गाँठें (galls) बन सकती हैं, पर दृढ़ भित्ति के कारण जंतुओं जैसा मेटास्टेसिस कैंसर नहीं फैलता।',
-      },
-    },
-    {
-      num: 14,
-      q: {
-        en: 'Which organelles make Plasma Membrane proteins & lipids? Trace the secretory pathway.',
-        hi: 'कोशिका झिल्ली के प्रोटीन व लिपिड बनाने वाले कोशिकांग कौन हैं? पथ लिखें।',
-      },
-      a: {
-        en: 'Proteins are made by Ribosomes on Rough ER (RER); Lipids by Smooth ER (SER) -> transported to Golgi Apparatus for modification & vesicle packaging -> vesicles fuse with Plasma Membrane (illustrated in Fig 2.13).',
-        hi: 'प्रोटीन: RER (राइबोसोम) में; लिपिड: SER में -> दोनों गॉल्जी उपकरण द्वारा पुटिकाओं (vesicles) में पैक होकर प्लाज्मा झिल्ली तक पहुँचते हैं (चित्र 2.13)।',
-      },
-    },
-    {
-      num: 15,
-      q: {
-        en: 'What would happen if gametes were formed by Mitosis instead of Meiosis?',
-        hi: 'यदि युग्मक अर्धसूत्री के बजाय समसूत्री विभाजन से बनाए जाएँ तो क्या होगा?',
-      },
-      a: {
-        en: 'Each gamete would keep $2n$ chromosomes instead of $n$; upon fertilisation, chromosome count would DOUBLE every generation ($2n+2n=4n, 8n\\dots$) destabilizing species and eliminating meiotic genetic variation.',
-        hi: 'प्रत्येक पीढ़ी में निषेचन के बाद गुणसूत्रों की संख्या दोगुनी ($4n, 8n\\dots$) होती जाएगी, प्रजाति का संतुलन बिगड़ जाएगा और आनुवंशिक विविधता समाप्त हो जाएगी।',
-      },
-    },
-    {
-      num: 16,
-      q: {
-        en: '[Case Study — NCERT Key Verified] Farmer Deepa preserves surplus Amla & Lemon by making pickles/sharbat with salt, sugar/jaggery in glass jars. Explain science!',
-        hi: '[केस स्टडी — उत्तर प्रमाणित] दीपा आँवला/नींबू को नमक व चीनी/गुड़ मिलाकर अचार/मुरब्बा बनाती है। वैज्ञानिक सिद्धांत बताइए!',
-      },
-      a: {
-        en: '(i) Concept used: OSMOSIS (hypertonic food preservation). (ii) High salt/sugar draws water OUT of spoiling bacteria & fungi by osmosis causing plasmolysis/dehydration so microbes cannot grow or reproduce. (iii) Healthy option: Use rock salt + natural jaggery/spices with minimal oil. (iv) Values: Post-harvest waste reduction, sustainability & rural entrepreneurship.',
-        hi: '(i) वैज्ञानिक अवधारणा: परासरण (अतिपरासारी परिरक्षण)। (ii) उच्च नमक/चीनी सांद्रता से जीवाणुओं और कवकों का जल परासरण द्वारा बाहर निकल जाता है, जिससे वे नष्ट हो जाते हैं। (iii) गुड़, सेंधा नमक व कम तेल का उपयोग। (iv) वैज्ञानिक मूल्य: खाद्य अपव्यय में कमी व संधारणीय विकास।',
-      },
-    },
+    { num: 1, q: { en: 'Contrast: (i) Membrane vs Cell wall permeability, (ii) RER vs SER structure, (iii) Chloroplast vs Chromoplast.', hi: 'अंतर: (i) झिल्ली व भित्ति की पारगम्यता, (ii) RER व SER संरचना, (iii) हरितलवक व वर्णीलवक।' }, a: { en: '(i) Membrane = Selectively permeable; Wall = Freely permeable. (ii) RER has attached ribosomes; SER lacks ribosomes. (iii) Chloroplast has green Chlorophyll; Chromoplast has coloured pigments.', hi: '(i) झिल्ली चुनिंदा पारगम्य, भित्ति पूर्ण पारगम्य। (ii) RER पर राइबोसोम जुड़े होते हैं, SER चिकनी (बिना राइबोसोम)। (iii) हरितलवक में हरा पर्णहरित, वर्णीलवक में अन्य चटक रंग।' } },
+    { num: 2, q: { en: '[MCQ • Ans: (iii)] Cell X swells in water; Cell Y shrinks in salt solution. Explain.', hi: '[MCQ • उत्तर: (iii)] कोशिका X शुद्ध जल में फूली और Y नमक के घोल में पिचकी — कारण?' }, a: { en: 'Option (iii): Water moved into X and out of Y across the plasma membrane by osmosis.', hi: 'विकल्प (iii): झिल्ली के पार परासरण से जल X में अंदर गया और Y से बाहर निकला।' } },
+    { num: 3, q: { en: 'Fig 2.20 Label Match (Plant Cell (क)-(छ) roles (i)–(vii)).', hi: 'चित्र 2.20 मिलान: पादप कोशिका के भागों के कार्य पहचानें।' }, a: { en: '(i) Control = Nucleus; (ii) Respiration = Mitochondria; (iii) Storage/Turgidity = Vacuole; (iv) Outer separator = Plasma Membrane; (v) Rigidity = Cell Wall; (vi) Packaging = Golgi Apparatus; (vii) Food synthesis = Chloroplast.', hi: '(i) नियंत्रण = केंद्रक; (ii) श्वसन = माइटोकॉन्ड्रिया; (iii) भंडारण = रसधानी; (iv) बाहरी सीमा = प्लाज्मा झिल्ली; (v) दृढ़ता = कोशिका भित्ति; (vi) पैकिंग = गॉल्जीकाय; (vii) भोजन = हरितलवक।' } },
+    { num: 4, q: { en: '[MCQ • Ans: (i)] In Plant Cell & Absent in Animal Cell?', hi: '[MCQ • उत्तर: (i)] पादप में उपस्थित व जंतु में अनुपस्थित का सही जोड़ा?' }, a: { en: 'Option (i): Leucoplast (in Plants) | Cell Wall (Absent in Animals).', hi: 'विकल्प (i): अवर्णी लवक (पादप में) | कोशिका भित्ति (जंतु में अनुपस्थित)।' } },
+    { num: 5, q: { en: 'Renu says roots have plastids; Rohit denies since roots don\'t photosynthesize. Who is right?', hi: 'रेणु कहती हैं जड़ों में भी लवक होते हैं, रोहित मना करता है। कौन सही है?' }, a: { en: 'Renu! Underground roots (potato, colocasia) contain colourless **Leucoplasts** storing starch/oils/proteins.', hi: 'रेणु सही हैं! जड़ों में हरे हरितलवक नहीं होते, लेकिन भोजन संचय करने वाले **रंगहीन अवर्णी लवक (Leucoplasts)** होते हैं।' } },
+    { num: 6, q: { en: 'Compare Mitochondria & Chloroplasts.', hi: 'माइटोकॉन्ड्रिया और हरितलवक में समानता व अंतर?' }, a: { en: 'Similar: Double membrane + own DNA & ribosomes. Different: Mitochondria in plants & animals make ATP from glucose; Chloroplasts in plants ONLY make food using sunlight.', hi: 'समानता: दोनों दोहरी झिल्ली वाले और दोनों में खुद का DNA व राइबोसोम। अंतर: माइटोकॉन्ड्रिया ऊर्जा (ATP) बनाते हैं; हरितलवक केवल पादपों में धूप से खाना बनाते हैं।' } },
+    { num: 7, q: { en: '[MCQ • Ans: (ii)] Which pair of organelles both contain DNA?', hi: '[MCQ • उत्तर: (ii)] किस जोड़े में दोनों के पास DNA होता है?' }, a: { en: 'Option (ii): Mitochondria and Nucleus.', hi: 'विकल्प (ii): माइटोकॉन्ड्रिया और केंद्रक!' } },
+    { num: 8, q: { en: 'Carrot A in water stays crisp; Carrot B in salt water turns rubbery/soft after 24h.', hi: 'गाजर प्रयोग (चित्र 2.21): पानी में गाजर कड़क रहती है, नमक के घोल में रबर जैसी नरम क्यों हो जाती है?' }, a: { en: '(i) Testing osmosis/turgor in plant tissue. (ii) Improve by measuring initial/final weight & size. (iii) Salt pulls water out by osmosis, dropping cell turgor pressure.', hi: '(i) परासरण जांच। (ii) सुधार: शुरू और अंत का वजन व लंबाई मापना। (iii) नमक के घोल से पानी बाहर निकलने पर कोशिका की सख्ती खत्म हो जाती है।' } },
+    { num: 9, q: { en: 'Bacteria vs Animal presence check: Chromosome, Nucleus, Mitochondria, Golgi, Chromoplast.', hi: 'जीवाणु बनाम जंतु: गुणसूत्र, केंद्रक, माइटोकॉन्ड्रिया, गॉल्जी, वर्णीलवक किसमें हैं?' }, a: { en: 'Chromosome: Both (1 naked vs linear). True Nucleus/Mitochondria/Golgi: Animal only. Chromoplast: Absent in BOTH (Plants only)!', hi: 'गुणसूत्र: दोनों में | केंद्रक, माइटोकॉन्ड्रिया, गॉल्जी: सिर्फ जंतु में | वर्णीलवक: दोनों में नहीं (केवल पौधों में)!' } },
+    { num: 10, q: { en: '4-Potato Cups in water: Cup A Empty, Cup B Sugar, Cup C Salt, Cup D BOILED Potato + Sugar.', hi: '4 आलू कप प्रयोग: कप क खाली, कप ख चीनी, कप ग नमक, कप घ उबला आलू + चीनी।' }, a: { en: '(i) Water collects in B & C via osmosis across living potato cells. (ii) Cup A is experimental Control. (iii) Cup D is BOILED -> heat killed living cells/membranes so NO osmosis occurs!', hi: '(i) ख और ग में जीवित कोशिकाओं द्वारा परासरण से पानी ऊपर आता है। (ii) कप क तुलना (Control) है। (iii) कप घ उबले आलू का है जिससे कोशिकाएं मर गईं और परासरण नहीं हुआ!' } },
+    { num: 11, q: { en: 'Identify INCORRECT match: (i) Ribosome=Protein, (ii) SER=Lipid & Cellulose, (iii) Lysosome=Digest waste.', hi: 'गलत जोड़ा पहचानें: (i) राइबोसोम=प्रोटीन, (ii) SER=लिपिड व सेल्युलोस, (iii) लाइसोसोम=पाचन।' }, a: { en: 'Pair (ii) is mismatched scientifically: SER makes Lipids & Hormones (NOT cellulose!). *(NCERT back key prints (iii) cleanly in text context, remember SER != cellulose!)*', hi: 'वैज्ञानिक रूप से (ii) गलत है क्योंकि SER वसा व हार्मोन बनाती है, सेल्युलोस नहीं!' } },
+    { num: 12, q: { en: 'If all mitochondria are removed from a eukaryotic cell?', hi: 'कोशिका से सभी माइटोकॉन्ड्रिया निकाल दें तो क्या होगा?' }, a: { en: 'ATP production halts -> energy-dependent transport, synthesis & division stop -> cell dies.', hi: 'ATP ऊर्जा बनना बंद हो जाएगी और सारे काम रुक कर कोशिका मर जाएगी।' } },
+    { num: 13, q: { en: 'What stops human tumours? Do plants get tumours?', hi: 'मानव में अर्बुद (गाँठ) कैसे रुकते हैं? क्या पौधों में भी हो सकते हैं?' }, a: { en: 'Contact Inhibition (& PCD) stop over-division in humans. Plants lack contact inhibition; microbes can cause localized galls without malignant metastasis.', hi: 'मनुष्य में संपर्क अवरोध व PCD अर्बुद रोकते हैं। पौधों में जीवाणुओं से स्थानीय गाँठ बन सकती है पर फैलने वाला कैंसर नहीं होता।' } },
+    { num: 14, q: { en: 'Which organelles make & ship Plasma Membrane lipids & proteins?', hi: 'कोशिका झिल्ली के प्रोटीन व लिपिड कौन बनाकर झिल्ली तक भेजता है?' }, a: { en: 'RER (Ribosomes -> Proteins) + SER (Lipids) -> Golgi Apparatus packs into vesicles -> Plasma Membrane.', hi: 'RER (प्रोटीन) + SER (वसा) -> गॉल्जीकाय पैक करके पुटिकाओं द्वारा प्लाज्मा झिल्ली तक पहुँचाता है।' } },
+    { num: 15, q: { en: 'If gametes were formed by Mitosis instead of Meiosis?', hi: 'यदि शुक्राणु/अंडाणु समसूत्री विभाजन से बनने लगें तो?' }, a: { en: 'Chromosomes would double every generation (`2n -> 4n -> 8n`) + zero meiotic variation.', hi: 'हर पीढ़ी में गुणसूत्र दोगुने हो जाएंगे व विविधता खत्म हो जाएगी।' } },
+    { num: 16, q: { en: 'Case Study: Farmer Deepa makes Amla/Lemon pickles & jam using excess salt/sugar to extend shelf life.', hi: 'केस स्टडी: किसान दीपा आंवले-नींबू का अचार/मुरब्बा ज़्यादा नमक व चीनी डालकर बनाती है — विज्ञान बताएं!' }, a: { en: 'Osmotic Preservation: Hypertonic salt/sugar pulls water out of bacteria & fungi via osmosis, killing microbes and curbing post-harvest waste sustainably.', hi: 'परासरण संरक्षण: अधिक नमक/चीनी सूक्ष्मजीवों व कवकों का पानी बाहर खींचकर उन्हें नष्ट कर देती है — खाना सुरक्षित रहता है व बर्बादी रुकती है।' } },
   ],
 
   flashcards: [
-    {
-      front: { en: 'Human eye Resolving Limit & Near Point', hi: 'मानव नेत्र की विभेदन सीमा व निकट बिंदु' },
-      back: { en: '$0.1\\text{ mm}$ resolution at $25\\text{ cm}$ near point', hi: 'निकट बिंदु $25\\text{ cm}$ पर विभेदन सीमा $= 0.1\\text{ mm}$' },
-    },
-    {
-      front: { en: 'Stain used for Plant Onion Peel vs Human Cheek Cell', hi: 'प्याज की झिल्ली बनाम मानव कपोल कोशिका अभिरंजक' },
-      back: { en: 'Plant Onion/Rhoeo = Safranin | Cheek Cell = Methylene Blue | Root Tip Chromosomes = Aceto-carmine', hi: 'प्याज = सैफ्रेनीन | गाल कोशिका = मेथिलीन ब्लू | मूलाग्र गुणसूत्र = एसीटो-कार्मिन' },
-    },
-    {
-      front: { en: 'Three Organelles Containing Their Own DNA', hi: 'स्वयं का DNA रखने वाले 3 कोशिकांग' },
-      back: { en: '1. Nucleus, 2. Mitochondria (+ ribosomes), 3. Plastids (+ ribosomes)', hi: '1. केंद्रक, 2. माइटोकॉन्ड्रिया (+ राइबोसोम), 3. लवक (+ राइबोसोम)' },
-    },
-    {
-      front: { en: 'Difference: Virus vs Viroid vs Prion', hi: 'अंतर: विषाणु vs विषाणुभ vs प्रोसंक' },
-      back: { en: 'Virus = DNA/RNA + Protein coat | Viroid = Genetic material ONLY (No protein) | Prion = Folded protein ONLY (No DNA/RNA)', hi: 'विषाणु = DNA/RNA + प्रोटीन | विषाणुभ = केवल आनुवंशिक पदार्थ | प्रोसंक = केवल अपवलित प्रोटीन (कोई DNA/RNA नहीं)' },
-    },
-    {
-      front: { en: 'Cytoskeleton Function (Group D 2025 PYQ)', hi: 'कोशिका पंजर (Cytoskeleton) का कार्य' },
-      back: { en: 'Fine protein filament network in eukaryotes maintaining cell shape, mechanical stability, motility & internal transport (visible via EM)', hi: 'सुकेंद्रकी कोशिकाओं का आकार बनाए रखना, संरचनात्मक स्थिरता, गति एवं आंतरिक परिवहन (केवल EM से दृश्य)' },
-    },
-    {
-      front: { en: 'Plasma Membrane Thickness & Permeability', hi: 'प्लाज्मा झिल्ली की मोटाई व पारगम्यता' },
-      back: { en: '$7\\text{--}10\\text{ nm}$ thick | Lipid bilayer + Protein gatekeepers (Fluid-Mosaic) | Selectively Permeable', hi: '$7\\text{--}10\\text{ nm}$ मोटी | लिपिड द्विपरत + प्रोटीन (तरल-मोजेक) | वरणात्मक पारगम्य' },
-    },
-    {
-      front: { en: 'Who coined Totipotency (1902)?', hi: 'पूर्णशक्तता (Totipotency, 1902) किसने दी?' },
-      back: { en: 'Austrian botanist Gottlieb Haberlandt -> any living plant cell can regenerate a whole plant (Tissue Culture foundation)', hi: 'ऑस्ट्रियाई वनस्पतिशास्त्री गॉटलीब हैबरलैंड्ट — पादप ऊतक संवर्धन की नींव' },
-    },
-    {
-      front: { en: 'Why are Human Mature RBCs Enucleated (No Nucleus)?', hi: 'मानव परिपक्व RBC में केंद्रक क्यों नहीं होता?' },
-      back: { en: 'Extra room for Haemoglobin ($O_2$ transport) -> cannot self-repair/divide -> lifespan ~120 days', hi: 'हीमोग्लोबिन व $O_2$ परिवहन हेतु अधिक स्थान -> विभाजन/मरम्मत नहीं -> जीवनकाल ~120 दिन' },
-    },
+    { front: { en: 'Eye Limit & Near Point', hi: 'आँख की विभेदन सीमा' }, back: { en: '$0.1\\text{ mm}$ at $25\\text{ cm}$', hi: '$25\\text{ cm}$ पर $0.1\\text{ mm}$' } },
+    { front: { en: 'Onion Peel Stain vs Cheek Cell Stain', hi: 'प्याज बनाम गाल स्लाइड का रंग' }, back: { en: 'Onion = Safranin | Cheek = Methylene Blue', hi: 'प्याज = सैफ्रेनीन | गाल = मेथिलीन ब्लू' } },
+    { front: { en: 'N-M-P = Own DNA Organelles', hi: 'अपना DNA किन 3 में है?' }, back: { en: 'Nucleus, Mitochondria, Plastids', hi: 'केंद्रक, माइटोकॉन्ड्रिया, लवक' } },
+    { front: { en: 'Who saw 1st Living Cell vs Named Protoplasm?', hi: 'पहली जीवित कोशिका vs जीवद्रव्य नाम?' }, back: { en: 'Leeuwenhoek (1674) vs Purkinje (1839)', hi: 'ल्यूवेनहॉक (1674) बनाम पुरकिंजे (1839)' } },
+    { front: { en: 'Hypo vs Hyper Solution', hi: 'अल्प बनाम अतिपरासारी' }, back: { en: 'Hypo = Swells 🦛 | Hyper = Shrinks/Plasmolysis', hi: 'अल्प = फूलेगी 🦛 | अति = पिचकेगी/कुंचन' } },
+    { front: { en: 'Ribosomes: Prokaryote vs Eukaryote', hi: 'प्रोकैरियोट बनाम यूकैरियोट राइबोसोम' }, back: { en: '70S (50S+30S) vs 80S (60S+40S)', hi: '70S बनाम 80S' } },
+    { front: { en: 'Virus vs Viroid vs Prion', hi: 'विषाणु, विषाणुभ व प्रोसंक' }, back: { en: 'Virus = Gene+Protein | Viroid = Gene Only | Prion = Protein Only', hi: 'विषाणु = दोनों | विषाणुभ = सिर्फ Gene | प्रोसंक = सिर्फ प्रोटीन' } },
+    { front: { en: 'Who gave Totipotency (1902)?', hi: 'पूर्णशक्तता (1902) किसने दी?' }, back: { en: 'Gottlieb Haberlandt (Plant Tissue Culture)', hi: 'गॉटलीब हैबरलैंड्ट' } },
   ],
 
-  // Verified Official RRB Cell Biology PYQs from portal JSON banks
   pyqBank: [
     {
       id: 1,
@@ -1220,17 +1044,11 @@ export const CH2_CELL_DATA = {
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
       question: {
         en: 'Which of the following cell structures is mainly responsible for providing support and maintaining the shape of eukaryotic cells?',
-        hi: 'निम्नलिखित में से कौन-सी कोशिका संरचना मुख्य रूप से सुकेंद्रकी कोशिकाओं के आकार को बनाए रखने और आलंब प्रदान करने के लिए उत्तरदायी है?',
+        hi: 'निम्नलिखित में से कौन-सी कोशिका संरचना मुख्य रूप से सुकेंद्रकी कोशिकाओं के आकार को बनाए रखने और सहारा देने के लिए उत्तरदायी है?',
       },
-      options: {
-        en: ['DNA', 'Cell Sap', 'Cytoskeleton', 'Nucleoid'],
-        hi: ['DNA', 'कोशिका रस', 'कोशिका-पंजर (Cytoskeleton)', 'केंद्रकाभ'],
-      },
+      options: { en: ['DNA', 'Cell Sap', 'Cytoskeleton', 'Nucleoid'], hi: ['DNA', 'कोशिका रस', 'कोशिका-पंजर (Cytoskeleton)', 'केंद्रकाभ'] },
       correctIndex: 2,
-      solution: {
-        en: 'Cytoskeleton is the network of fine filaments in eukaryotic cytoplasm maintaining shape, stability & internal transport.',
-        hi: 'सुकेंद्रकी कोशिकाओं में पतले तंतुओं का जाल कोशिका-पंजर (Cytoskeleton) आकार, स्थिरता व परिवहन बनाए रखता है।',
-      },
+      solution: { en: 'Cytoskeleton is the ultra-fine filament mesh maintaining cell shape & internal transport.', hi: 'सुकेंद्रकी कोशिकाओं में पतले तंतुओं का जाल कोशिका-पंजर आकार व सहारा बनाए रखता है।' },
     },
     {
       id: 2,
@@ -1240,17 +1058,11 @@ export const CH2_CELL_DATA = {
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
       question: {
         en: 'A eukaryotic cell that performs its functions and undergoes programmed cell death when no longer required is best described as a __________.',
-        hi: 'एक सुकेंद्रकी कोशिका जो अपने कार्यों को करती है और आवश्यकता न होने पर क्रमादेशित कोशिका मृत्यु (programmed cell death) से गुजरती है, उसे क्या कहा जाता है?',
+        hi: 'एक सुकेंद्रकी कोशिका जो काम पूरा कर आवश्यकता न रहने पर क्रमादेशित कोशिका मृत्यु (PCD) से गुजरती है, उसे क्या कहते हैं?',
       },
-      options: {
-        en: ['Tumour cell', 'Malignant cell', 'Normal cell', 'Bacterial cell'],
-        hi: ['अर्बुद कोशिका', 'दुर्दम कोशिका', 'सामान्य कोशिका', 'जीवाणु कोशिका'],
-      },
+      options: { en: ['Tumour cell', 'Malignant cell', 'Normal cell', 'Bacterial cell'], hi: ['अर्बुद कोशिका', 'दुर्दम कोशिका', 'सामान्य कोशिका (Normal cell)', 'जीवाणु कोशिका'] },
       correctIndex: 2,
-      solution: {
-        en: 'Normal cells follow controlled growth & Programmed Cell Death (PCD); tumour/cancer cells lose this control.',
-        hi: 'सामान्य कोशिकाएँ नियंत्रित जीवन के बाद PCD से नष्ट होती हैं; कैंसर कोशिकाएँ यह नियंत्रण खो देती हैं।',
-      },
+      solution: { en: 'Normal cells undergo controlled PCD when unwanted; cancer cells lose this brake.', hi: 'सामान्य कोशिकाएँ आवश्यकता न होने पर PCD से नष्ट होती हैं।' },
     },
     {
       id: 3,
@@ -1258,19 +1070,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'Complete the Analogy: Plant : Rigid Cell Wall :: Animal : __________',
-        hi: 'सादृश्य पूर्ण कीजिए: पादप : दृढ़ कोशिका भित्ति :: जंतु : __________',
-      },
-      options: {
-        en: ['Lignified support', 'Cellular flexibility', 'Photosynthetic tissues', 'Fixed position'],
-        hi: ['लिग्निकृत सपोर्ट', 'कोशिकीय नम्यता (Cellular flexibility)', 'प्रकाशसंश्लेषी ऊतक', 'निश्चित स्थिति'],
-      },
+      question: { en: 'Complete the Analogy: Plant : Rigid Cell Wall :: Animal : __________', hi: 'पादप : दृढ़ कोशिका भित्ति :: जंतु : __________' },
+      options: { en: ['Lignified support', 'Cellular flexibility', 'Photosynthetic tissues', 'Fixed position'], hi: ['लिग्निन सहारा', 'कोशिकीय नम्यता (Cellular flexibility)', 'प्रकाशसंश्लेषी ऊतक', 'निश्चित स्थिति'] },
       correctIndex: 1,
-      solution: {
-        en: 'Absence of rigid cell wall allows animal cells to easily change shape (cellular flexibility).',
-        hi: 'कोशिका भित्ति न होने से जंतु कोशिकाओं में कोशिकीय लचीलापन/नम्यता होती है।',
-      },
+      solution: { en: 'No cell wall gives animal cells flexible shape change.', hi: 'कोशिका भित्ति न होने से जंतु कोशिकाओं को लचीलापन मिलता है।' },
     },
     {
       id: 4,
@@ -1278,19 +1081,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'On the basis of function, the plasma membrane is ________ in nature.',
-        hi: 'कार्य के आधार पर, प्लाज्मा झिल्ली प्रकृति में ________ होती है।',
-      },
-      options: {
-        en: ['fully non-permeable', 'fully permeable', 'semi-permeable', 'selectively permeable'],
-        hi: ['पूर्णतः अपारगम्य', 'पूर्णतः पारगम्य', 'अर्ध-पारगम्य', 'वरणतः पारगम्य'],
-      },
+      question: { en: 'On the basis of function, the plasma membrane is ________ in nature.', hi: 'कार्य के आधार पर, प्लाज्मा झिल्ली प्रकृति में ________ होती है।' },
+      options: { en: ['fully non-permeable', 'fully permeable', 'semi-permeable', 'selectively permeable'], hi: ['पूर्णतः अपारगम्य', 'पूर्णतः पारगम्य', 'अर्ध-पारगम्य', 'वरणात्मक / चुनिंदा पारगम्य'] },
       correctIndex: 3,
-      solution: {
-        en: 'Plasma membrane selectively permits essential solutes & gases while blocking others.',
-        hi: 'प्लाज्मा झिल्ली केवल चयनित पदार्थों को ही आने-जाने देती है (वरणात्मक/वरणतः पारगम्य)।',
-      },
+      solution: { en: 'Plasma membrane selectively permits essential solutes while blocking others.', hi: 'प्लाज्मा झिल्ली केवल चुनिंदा पदार्थों को ही आने-जाने देती है।' },
     },
     {
       id: 5,
@@ -1298,19 +1092,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'Complete the analogy: Hypotonic solution : Cell Swells :: Hypertonic solution : _______.',
-        hi: 'समवृत्तिता पूर्ण कीजिए: अल्पपरासारी विलयन : कोशिका फूल जाती है :: अतिपरासारी विलयन : _______',
-      },
-      options: {
-        en: ['Cell Shrinks', 'Cell Divides', 'Cell becomes rigid', 'Cell stays same'],
-        hi: ['कोशिका सिकुड़ जाती है', 'कोशिका विभाजित होती है', 'कोशिका दृढ़ हो जाती है', 'कोशिका समान रहती है'],
-      },
+      question: { en: 'Hypotonic solution : Cell Swells :: Hypertonic solution : _______.', hi: 'अल्पपरासारी विलयन : कोशिका फूलती है :: अतिपरासारी विलयन : _______' },
+      options: { en: ['Cell Shrinks', 'Cell Divides', 'Cell becomes rigid', 'Cell stays same'], hi: ['कोशिका सिकुड़ जाती है', 'कोशिका बंटती है', 'कोशिका सख्त होती है', 'कोशिका समान रहती है'] },
       correctIndex: 0,
-      solution: {
-        en: 'In a hypertonic solution, net water moves out of the cell by osmosis causing it to shrink.',
-        hi: 'अतिपरासारी विलयन में जल कोशिका से बाहर निकलता है जिससे कोशिका सिकुड़ जाती है।',
-      },
+      solution: { en: 'In hypertonic solution water leaves the cell causing shrinkage.', hi: 'अतिपरासारी घोल में जल बाहर निकलने से कोशिका सिकुड़ती है।' },
     },
     {
       id: 6,
@@ -1318,19 +1103,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'When plant cells lose water by osmosis, the contents shrink away from the cell wall; this process is known as _______.',
-        hi: 'जब पादप कोशिका में परासरण द्वारा पानी की हानि होती है, तो आंतरिक पदार्थ संकुचित होकर कोशिका भित्ति से दूर हो जाते हैं; इसे _____ कहते हैं।',
-      },
-      options: {
-        en: ['Diffusion', 'Active Transport', 'Plasmolysis', 'Passive Transport'],
-        hi: ['विसरण', 'सक्रिय परिवहन', 'जीवद्रव्य कुंचन (Plasmolysis)', 'निष्क्रिय परिवहन'],
-      },
+      question: { en: 'When plant cells lose water by osmosis, the contents shrink away from the cell wall; this is known as _______.', hi: 'पादप कोशिका से पानी निकलने पर अंदर का द्रव्य भित्ति से अलग सिकुड़ जाता है; इसे _____ कहते हैं।' },
+      options: { en: ['Diffusion', 'Active Transport', 'Plasmolysis', 'Passive Transport'], hi: ['विसरण', 'सक्रिय परिवहन', 'जीवद्रव्य कुंचन (Plasmolysis)', 'निष्क्रिय परिवहन'] },
       correctIndex: 2,
-      solution: {
-        en: 'In hypertonic medium, plant plasma membrane pulls away from rigid cell wall — called Plasmolysis.',
-        hi: 'सांद्र विलयन में पादप कोशिका की अंतर्वस्तु भित्ति से अलग संकुचित होने को जीवद्रव्य कुंचन कहते हैं।',
-      },
+      solution: { en: 'Pulling away of protoplast from cell wall during water loss = Plasmolysis.', hi: 'कोशिका भित्ति से जीवद्रव्य का सिकुड़कर अलग होना जीवद्रव्य कुंचन कहलाता है।' },
     },
     {
       id: 7,
@@ -1338,19 +1114,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'Which type of cell has very small vacuoles?',
-        hi: 'निम्नलिखित में से किस प्रकार की कोशिका में बहुत छोटी रसधानियां होती हैं?',
-      },
-      options: {
-        en: ['Plant cell', 'Bacterial cell', 'Animal cell', 'Fungal cell'],
-        hi: ['पादप कोशिका', 'जीवाणु कोशिका', 'जंतु कोशिका', 'कवक कोशिका'],
-      },
+      question: { en: 'Which type of cell has very small vacuoles?', hi: 'किस प्रकार की कोशिका में बहुत छोटी रसधानियां होती हैं?' },
+      options: { en: ['Plant cell', 'Bacterial cell', 'Animal cell', 'Fungal cell'], hi: ['पादप कोशिका', 'जीवाणु कोशिका', 'जंतु कोशिका', 'कवक कोशिका'] },
       correctIndex: 2,
-      solution: {
-        en: 'Animal cells have very small temporary vacuoles, unlike mature plant cells which hold one large central vacuole.',
-        hi: 'जंतु कोशिका में रसधानियाँ बहुत छोटी होती हैं जबकि परिपक्व पादप कोशिका में एक बड़ी केंद्रीय रसधानी होती है।',
-      },
+      solution: { en: 'Animal cells have tiny temporary vacuoles compared to one giant plant central vacuole.', hi: 'जंतु कोशिकाओं में रसधानी बहुत छोटी होती है।' },
     },
     {
       id: 8,
@@ -1358,19 +1125,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'What similarities do plastids share with mitochondria?',
-        hi: 'लवक (Plastids) और सूत्रकणिका (Mitochondria) में क्या समानताएं हैं?',
-      },
-      options: {
-        en: ['Both are present only in plant cells.', 'Both contain chlorophyll.', 'Both produce ATPs.', 'Both contain their own DNA and ribosomes.'],
-        hi: ['दोनों केवल पादप कोशिकाओं में मौजूद होते हैं।', 'दोनों में क्लोरोफिल होता है।', 'दोनों ATP का उत्पादन करते हैं।', 'दोनों में अपना-अपना DNA और राइबोसोम होते हैं।'],
-      },
+      question: { en: 'What similarities do plastids share with mitochondria?', hi: 'लवक (Plastids) और माइटोकॉन्ड्रिया में क्या समानता है?' },
+      options: { en: ['Only in plants', 'Contain chlorophyll', 'Produce ATP', 'Both contain their own DNA and ribosomes'], hi: ['केवल पादपों में', 'दोनों में क्लोरोफिल', 'ATP बनाते हैं', 'दोनों में अपना DNA और राइबोसोम होते हैं'] },
       correctIndex: 3,
-      solution: {
-        en: 'Both mitochondria and plastids possess double membranes and their own DNA & ribosomes.',
-        hi: 'माइटोकॉन्ड्रिया व लवक दोनों में दोहरी झिल्ली तथा अपना स्वयं का DNA और राइबोसोम होते हैं।',
-      },
+      solution: { en: 'Only Nucleus, Mitochondria & Plastids carry own DNA!', hi: 'माइटोकॉन्ड्रिया व लवक दोनों में खुद का DNA व राइबोसोम होते हैं।' },
     },
     {
       id: 9,
@@ -1378,19 +1136,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'Which of the following functions of mitochondria makes it a powerhouse of the cell?',
-        hi: 'माइटोकॉन्ड्रिया के निम्नलिखित कार्यों में से कौन-सा कार्य इसे कोशिका का बिजलीघर बनाता है?',
-      },
-      options: {
-        en: ['Generation of ATP', 'Generation of enzymes', 'Generation of heat', 'Generation of NADPH'],
-        hi: ['ATP का उत्पादन', 'एंजाइमों का उत्पादन', 'ऊष्मा का उत्पादन', 'NADPH का उत्पादन'],
-      },
+      question: { en: 'Which function of mitochondria makes it the powerhouse of the cell?', hi: 'माइटोकॉन्ड्रिया का कौन-सा काम इसे कोशिका का बिजलीघर बनाता है?' },
+      options: { en: ['Generation of ATP', 'Generation of enzymes', 'Generation of heat', 'Generation of NADPH'], hi: ['ATP का उत्पादन', 'एंजाइम बनाना', 'ऊष्मा बनाना', 'NADPH बनाना'] },
       correctIndex: 0,
-      solution: {
-        en: 'Mitochondria release cellular respiration energy stored in the form of ATP (Adenosine Triphosphate).',
-        hi: 'माइटोकॉन्ड्रिया कोशिकीय श्वसन द्वारा ऊर्जा का मुद्रा अणु ATP उत्पन्न करता है।',
-      },
+      solution: { en: 'Mitochondria release cellular energy in the form of ATP molecules.', hi: 'माइटोकॉन्ड्रिया श्वसन से ऊर्जा मुद्रा ATP बनाती है।' },
     },
     {
       id: 10,
@@ -1398,19 +1147,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'Which of the following events happens when lysosomes in a cell burst?',
-        hi: 'कोशिका में लाइसोसोम के फटने पर निम्नलिखित में से कौन-सी घटना घटित होती है?',
-      },
-      options: {
-        en: ["Enzymes digest the cell's own components", 'Enzymes digest foreign particles only', 'Cell becomes more active', 'Cell division increases'],
-        hi: ['एंजाइम कोशिका के अपने घटकों को पचाते हैं', 'एंजाइम केवल बाहरी कणों का पाचन करते हैं', 'कोशिका अधिक सक्रिय हो जाती है', 'कोशिका विभाजन बढ़ जाता है'],
-      },
+      question: { en: 'What happens when lysosomes in a cell burst?', hi: 'कोशिका में लाइसोसोम के फटने पर क्या होता है?' },
+      options: { en: ["Enzymes digest the cell's own components", 'Digest foreign particles only', 'Cell becomes hyperactive', 'Division speeds up'], hi: ['एंजाइम कोशिका के अपने घटकों को ही पचा लेते हैं', 'केवल बाहरी कण पचाते हैं', 'कोशिका तेज होती है', 'विभाजन बढ़ता है'] },
       correctIndex: 0,
-      solution: {
-        en: 'Lysosomes hold powerful hydrolytic digestive enzymes, hence bursting digests the damaged cell itself ("suicide bags").',
-        hi: 'लाइसोसोम के एंजाइम फटने पर अपनी ही क्षतिग्रस्त कोशिका के घटकों को पचा देते हैं।',
-      },
+      solution: { en: 'Bursting releases hydrolytic enzymes causing self-digestion ("suicide bags").', hi: 'पाचक एंजाइम फूटकर अपनी ही कोशिका को पचा देते हैं।' },
     },
     {
       id: 11,
@@ -1418,19 +1158,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'Rough endoplasmic reticulum looks rough under a microscope because it has particles called ______ attached to its surface.',
-        hi: 'खुरदुरी अंतर्द्रव्यी जालिका सूक्ष्मदर्शी के नीचे खुरदुरी दिखाई देती है क्योंकि इसकी सतह पर ______ नामक कण जुड़े होते हैं।',
-      },
-      options: {
-        en: ['chromosomes', 'lysosomes', 'protein particles', 'ribosomes'],
-        hi: ['गुणसूत्र', 'लयनकाय', 'प्रोटीन कण', 'राइबोसोम (Ribosomes)'],
-      },
+      question: { en: 'RER looks rough under microscope because ______ are attached to its surface.', hi: 'खुरदुरी अंतर्द्रव्यी जालिका (RER) की सतह पर ______ जुड़े होते हैं।' },
+      options: { en: ['chromosomes', 'lysosomes', 'protein particles', 'ribosomes'], hi: ['गुणसूत्र', 'लाइसोसोम', 'प्रोटीन कण', 'राइबोसोम (Ribosomes)'] },
       correctIndex: 3,
-      solution: {
-        en: 'Ribosomes stud the outer surface of RER to carry out protein synthesis.',
-        hi: 'राइबोसोम के जुड़े होने के कारण RER खुरदुरी दिखती है और प्रोटीन बनाती है।',
-      },
+      solution: { en: 'Ribosomes dot RER for active protein manufacture.', hi: 'राइबोसोम जुड़े होने से RER खुरदुरी दिखती है।' },
     },
     {
       id: 12,
@@ -1438,19 +1169,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'Select the correct statement related to the characteristics of a prokaryotic cell.',
-        hi: 'प्रोकैरयोटिक (पूर्वकेंद्रकी) कोशिका की विशेषताओं से संबंधित सही कथन चुनिए।',
-      },
-      options: {
-        en: ['Membrane bound cell organelles are present.', 'It has a single chromosome.', 'It has more than one chromosome.', 'Nuclear region is well defined and surrounded by nuclear membrane.'],
-        hi: ['झिल्ली द्वारा आबद्ध कोशिकांग उपस्थित होते हैं।', 'इसमें एक ही गुणसूत्र होता है।', 'इसमें एक से अधिक गुणसूत्र होते हैं।', 'केंद्रक क्षेत्र सुस्पष्ट व झिल्ली से घिरा होता है।'],
-      },
+      question: { en: 'Select the correct characteristic of a prokaryotic cell.', hi: 'प्रोकैरियोटिक कोशिका के बारे में सही कथन चुनें।' },
+      options: { en: ['Membrane-bound organelles present', 'It has a single chromosome', 'More than one chromosome', 'Nuclear membrane present'], hi: ['झिल्ली वाले कोशिकांग होते हैं', 'इसमें एकल (Single) गुणसूत्र होता है', 'अनेक गुणसूत्र होते हैं', 'केंद्रक झिल्ली होती है'] },
       correctIndex: 1,
-      solution: {
-        en: 'Prokaryotes contain a single circular chromosome (nucleoid) and no membrane-bound nucleus or organelles.',
-        hi: 'पूर्वकेंद्रकी कोशिका में झिल्ली-रहित एकल गोल गुणसूत्र (केंद्रकाभ) होता है।',
-      },
+      solution: { en: 'Prokaryotes carry 1 circular DNA molecule inside naked Nucleoid.', hi: 'प्रोकैरियोट में बिना झिल्ली वाला केवल 1 गुणसूत्र (केंद्रकाभ) होता है।' },
     },
     {
       id: 13,
@@ -1458,19 +1180,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'Which material did Robert Hooke use to first discover "cells"?',
-        hi: 'रॉबर्ट हुक ने सर्वप्रथम "कोशिकाओं" की खोज के लिए किस पदार्थ का उपयोग किया था?',
-      },
-      options: {
-        en: ['Onion peel', 'Leaf surface', 'Cork slice', 'Human cheek'],
-        hi: ['प्याज का छिलका', 'पत्ती की सतह', 'कॉर्क की काट (Cork slice)', 'मानव कपोल'],
-      },
+      question: { en: 'Which material did Robert Hooke use to first discover "cells" in 1665?', hi: 'रॉबर्ट हुक ने 1665 में कोशिका खोजने के लिए किसका उपयोग किया?' },
+      options: { en: ['Onion peel', 'Leaf surface', 'Cork slice', 'Human cheek'], hi: ['प्याज झिल्ली', 'पत्ती की सतह', 'कॉर्क की काट (Cork slice)', 'गाल कोशिका'] },
       correctIndex: 2,
-      solution: {
-        en: 'In 1665, Robert Hooke observed dead cork slice boxes with his self-made microscope ($200\\text{--}300\\times$).',
-        hi: 'वर्ष 1665 में रॉबर्ट हुक ने कॉर्क के पतले टुकड़े में बक्से जैसे कोष्ठ देखे।',
-      },
+      solution: { en: 'Hooke observed box-like walls in dead cork slices.', hi: 'हुक ने पेड़ की छाल से बने कॉर्क के पतले टुकड़े को देखा था।' },
     },
     {
       id: 14,
@@ -1478,19 +1191,10 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'A student observes a plant cell under a microscope and notes it has a prominent nucleus, dense cytoplasm, and no visible vacuoles. Which is its most likely function?',
-        hi: 'एक विद्यार्थी सूक्ष्मदर्शी से एक पादप कोशिका में स्पष्ट केंद्रक, सघन कोशिकाद्रव्य और कोई दृश्यमान रसधानी नहीं देखता। इसका सबसे संभावित कार्य क्या है?',
-      },
-      options: {
-        en: ['Active cell division and growth', 'Providing structural support', 'Storing water and nutrients', 'Transporting water and minerals'],
-        hi: ['सक्रिय कोशिका विभाजन और वृद्धि', 'संरचनात्मक सहारा देना', 'जल व पोषक संचय', 'जल व खनिज परिवहन'],
-      },
+      question: { en: 'Plant cell with prominent nucleus, dense cytoplasm & NO visible vacuoles performs ______.', hi: 'स्पष्ट केंद्रक, गाढ़ा कोशिकाद्रव्य और बिना रसधानी वाली पादप कोशिका क्या काम करती है?' },
+      options: { en: ['Active cell division and growth', 'Structural support only', 'Water storage', 'Mineral transport'], hi: ['सक्रिय कोशिका विभाजन और वृद्धि', 'केवल सहारा देना', 'पानी संचय', 'खनिज परिवहन'] },
       correctIndex: 0,
-      solution: {
-        en: 'Actively dividing meristematic plant cells (like onion root tip!) feature dense cytoplasm, prominent nuclei, and lack large vacuoles.',
-        hi: 'तेजी से विभाजित होने वाली विभज्योतक कोशिकाओं में सघन कोशिकाद्रव्य, बड़ा केंद्रक और बड़ी रसधानी नहीं होती।',
-      },
+      solution: { en: 'Actively dividing meristematic root-tip cells don\'t waste room on big vacuoles.', hi: 'लगातार विभाजित होने वाली विभज्योतक कोशिकाओं में बड़ी रसधानी नहीं होती।' },
     },
     {
       id: 15,
@@ -1498,19 +1202,43 @@ export const CH2_CELL_DATA = {
       section: 'General Science',
       subject: 'General Science',
       topic: 'NCERT Class 9 Bio Ch 2: Cell',
-      question: {
-        en: 'In onion peel and human cheek cells, the lightly stained region enclosed by the cell membrane is called:',
-        hi: 'प्याज की झिल्ली और मनुष्य के गाल की कोशिकाओं में, कोशिका झिल्ली से घिरे हल्के रंजित क्षेत्र को क्या कहा जाता है?',
-      },
-      options: {
-        en: ['Cytoplasm', 'Cell wall', 'Nucleus', 'Vacuole'],
-        hi: ['कोशिकाद्रव्य (Cytoplasm)', 'कोशिका भित्ति', 'केंद्रक', 'रसधानी'],
-      },
+      question: { en: 'Lightly stained region enclosed by plasma membrane in onion & cheek slide is:', hi: 'प्याज व गाल की स्लाइड में झिल्ली से घिरा हल्का रंजित क्षेत्र क्या कहलाता है?' },
+      options: { en: ['Cytoplasm', 'Cell wall', 'Nucleus', 'Vacuole'], hi: ['कोशिकाद्रव्य (Cytoplasm)', 'कोशिका भित्ति', 'केंद्रक', 'रसधानी'] },
       correctIndex: 0,
-      solution: {
-        en: 'Nucleus takes deep stain (dark spot) while surrounding Cytoplasm stains lightly between membrane and nucleus.',
-        hi: 'केंद्रक गहरा रंग पकड़ता है जबकि झिल्ली के भीतर का कोशिकाद्रव्य हल्का रंजित दिखता है।',
-      },
+      solution: { en: 'Nucleus stains darkly while jelly cytoplasm retains light stain.', hi: 'केंद्रक गहरा रंगता है और कोशिकाद्रव्य हल्का रंजित रहता है।' },
+    },
+    {
+      id: 16,
+      examTag: 'Nirman+ RRB Group-D 22-08-2022',
+      section: 'General Science',
+      subject: 'General Science',
+      topic: 'NCERT Class 9 Bio Ch 2: Cell',
+      question: { en: 'Which of the following is true about Cell Theory?', hi: 'कोशिका सिद्धांत के बारे में निम्न में से कौन-सा कथन सत्य है?' },
+      options: { en: ['Does not apply to fungi', 'Does not apply to Virus', 'Does not apply to algae', 'Does not apply to bacteria'], hi: ['कवक पर लागू नहीं', 'वायरस (विषाणु) पर लागू नहीं होता', 'शैवाल पर लागू नहीं', 'जीवाणु पर लागू नहीं'] },
+      correctIndex: 1,
+      solution: { en: 'Viruses are acellular non-living outside host -> exception to Cell Theory!', hi: 'विषाणु अकोशिकीय हैं अतः इन पर कोशिका सिद्धांत लागू नहीं होता।' },
+    },
+    {
+      id: 17,
+      examTag: 'Nirman+ RRB NTPC / ALP Repeat',
+      section: 'General Science',
+      subject: 'General Science',
+      topic: 'NCERT Class 9 Bio Ch 2: Cell',
+      question: { en: 'Which scientist coined the term "Protoplasm" for the living fluid substance of the cell?', hi: 'कोशिका के जीवित तरल पदार्थ के लिए "प्रोटोप्लाज्म (जीवद्रव्य)" शब्द किसने दिया?' },
+      options: { en: ['Robert Hooke', 'Purkinje', 'Camillo Golgi', 'Robert Brown'], hi: ['रॉबर्ट हुक', 'जे. ई. पुरकिंजे (Purkinje)', 'कैमिलो गॉल्जी', 'रॉबर्ट ब्राउन'] },
+      correctIndex: 1,
+      solution: { en: 'J. E. Purkinje (1839) named protoplasm; Robert Brown (1831) discovered Nucleus.', hi: 'पुरकिंजे ने 1839 में प्रोटोप्लाज्म (जीवद्रव्य) नाम दिया।' },
+    },
+    {
+      id: 18,
+      examTag: 'Nirman+ RRB NTPC / Group-D PYQ',
+      section: 'General Science',
+      subject: 'General Science',
+      topic: 'NCERT Class 9 Bio Ch 2: Cell',
+      question: { en: 'Who first observed FREE LIVING cells (bacteria/protozoa) under a microscope in 1674?', hi: '1674 में सबसे पहली जीवित कोशिका किसने देखी थी?' },
+      options: { en: ['Robert Hooke', 'Antonie van Leeuwenhoek', 'Schleiden', 'Schwann'], hi: ['रॉबर्ट हुक', 'एंटोनी वॉन ल्यूवेनहॉक', 'श्लीडेन', 'श्वान'] },
+      correctIndex: 1,
+      solution: { en: 'Hooke (1665) saw dead cork cells; Leeuwenhoek (1674) saw living cells in pond water!', hi: 'हुक ने मृत कॉर्क देखा था, जबकि ल्यूवेनहॉक (1674) ने तालाब में जीवित कोशिका देखी।' },
     },
   ],
 };

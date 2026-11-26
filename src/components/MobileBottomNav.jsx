@@ -20,7 +20,7 @@ export default function MobileBottomNav({
   return (
     <nav
       aria-label="Mobile Quick Navigation"
-      className="lg:hidden fixed bottom-0 inset-x-0 z-30 bg-[#070B18]/95 backdrop-blur-lg border-t border-slate-800/90 px-2 pt-1.5 pb-[calc(0.45rem+env(safe-area-inset-bottom))] shadow-[0_-8px_30px_rgba(0,0,0,0.45)]"
+      className="lg:hidden print:hidden fixed bottom-0 inset-x-0 z-30 bg-[#070B18]/95 backdrop-blur-lg border-t border-slate-800/90 px-2 pt-1.5 pb-[calc(0.45rem+env(safe-area-inset-bottom))] shadow-[0_-8px_30px_rgba(0,0,0,0.45)]"
     >
       <div className="grid grid-cols-5 items-center max-w-md mx-auto">
         {navItems.map((item) => {

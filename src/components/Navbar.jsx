@@ -112,7 +112,7 @@ export default function Navbar({
   return (
     <>
       {/* Compact Single-Row Sticky Header (<= 64px height on all screens) */}
-      <header className="sticky top-0 z-40 bg-[#070B18]/95 backdrop-blur-md border-b border-slate-800/80 shadow-sm">
+      <header className="sticky top-0 z-40 print:hidden bg-[#070B18]/95 backdrop-blur-md border-b border-slate-800/80 shadow-sm">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between gap-2 h-14 sm:h-16">
             {/* Left: Menu Trigger (Mobile/Tablet) + Brand Logo + Desktop Exam Goal Pill */}

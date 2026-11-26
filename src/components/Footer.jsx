@@ -18,7 +18,7 @@ export default function Footer({
   };
 
   return (
-    <footer className="bg-[#050811] border-t border-slate-800/80 text-slate-400 text-xs">
+    <footer className="print:hidden bg-[#050811] border-t border-slate-800/80 text-slate-400 text-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-24 lg:py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           
