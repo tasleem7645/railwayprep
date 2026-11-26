@@ -595,9 +595,7 @@ export default function App() {
       if (userAns === undefined) {
         unattemptedCount++;
       } else {
-        const isCorrect =
-          userAns === q.correctIndex ||
-          (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+        const isCorrect = userAns === q.correctIndex;
         if (isCorrect) correctCount++;
         else wrongCount++;
       }

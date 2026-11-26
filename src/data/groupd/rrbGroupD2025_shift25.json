@@ -17,9 +17,9 @@
         "They form identical compounds"
       ],
       "hi": [
-        "उनकी संयोजकताएँ भिन्न - भिन्न होती है।",
         "वे सोडियम के साथ अलग तरह से अभिक्रिया करते हैं।",
         "वे हाइड्रोजन के साथ आबंधन नहीं बना सकते हैं।",
+        "उनकी संयोजकताएँ भिन्न - भिन्न होती है।",
         "वे समरूप यौगिक बनाते हैं।"
       ]
     },
@@ -108,8 +108,8 @@
     "subject": "General Science",
     "topic": "Basic Organic Chemistry • RRB Group D Level-1 (13 Aug 2026 Shift 25)",
     "question": {
-      "en": "What is formed when carbon burns in oxygen? 10:30 AM · English",
-      "hi": "ऑक्सीजन में कार्बन के जलने पर क्या बनता है ? 10:30 AM · Hindi"
+      "en": "What is formed when carbon burns in oxygen?",
+      "hi": "ऑक्सीजन में कार्बन के जलने पर क्या बनता है ?"
     },
     "options": {
       "en": [
@@ -119,8 +119,8 @@
         "Carbon monoxide with heat and light released"
       ],
       "hi": [
-        "ऊष्मा और प्रकाश के साथ मेथेन गैस मुक्त होती है",
         "ऊष्मा और प्रकाश के साथ हाइड्रोजन गैस मुक्त होती है",
+        "ऊष्मा और प्रकाश के साथ मेथेन गैस मुक्त होती है",
         "ऊष्मा और प्रकाश के साथ कार्बन डाइऑक्साइड मुक्त होती है",
         "ऊष्मा और प्रकाश के साथ कार्बन मोनोऑक्साइड मुक्त होती है"
       ]
@@ -153,9 +153,9 @@
         "They share all higher levels up to order"
       ],
       "hi": [
+        "वे कु ल साझा करते हैं लेकिन वर्ग नहीं",
         "वे प्रजाति (species) साझा करते हैं लेकिन गण नहीं",
         "वे वंश (genus) साझा करते हैं लेकिन कु ल नहीं",
-        "वे कु ल साझा करते हैं लेकिन वर्ग नहीं",
         "वे गण तक के सभी उच्च स्तरों को साझा करते हैं"
       ]
     },
@@ -221,8 +221,8 @@
         "1.0 A"
       ],
       "hi": [
-        "2.0 A",
         "0.6 A",
+        "2.0 A",
         "1.2 A",
         "1.0 A"
       ]
@@ -256,9 +256,9 @@
       ],
       "hi": [
         "आमाशय अम्ल तेजी से बढ़ता है",
-        "पाचक एं जाइम मुक्त होते हैं",
+        "स्वाद कलिकाएं तेजी से गति करना शुरू कर देती हैं",
         "लार ग्रंथियां लार का स्राव करती हैं",
-        "स्वाद कलिकाएं तेजी से गति करना शुरू कर देती हैं"
+        "पाचक एं जाइम मुक्त होते हैं"
       ]
     },
     "correctIndex": 2,
@@ -289,10 +289,10 @@
         "Thick walls"
       ],
       "hi": [
-        "मोटी दीवारें",
         "बड़ा व्यास",
+        "कठोर अस्तर",
         "विस्तृत कुं डलन",
-        "कठोर अस्तर"
+        "मोटी दीवारें"
       ]
     },
     "correctIndex": 2,
@@ -324,9 +324,9 @@
       ],
       "hi": [
         "परॉक्साइड , हाइड्राइड या सायनाइड",
-        "नाइट्राइड , फ्लोराइड या ब्रोमाइड",
+        "क्लोराइड , सिलिके ट या फॉस्फे ट",
         "ऑक्साइड , सल्फाइड या कार्बोनेट",
-        "क्लोराइड , सिलिके ट या फॉस्फे ट"
+        "नाइट्राइड , फ्लोराइड या ब्रोमाइड"
       ]
     },
     "correctIndex": 2,
@@ -357,9 +357,9 @@
         "Iris"
       ],
       "hi": [
+        "रेटिना (Retina)",
         "दृक् तंत्रिका (Optic Nerve)",
         "कॉर्निया (Cornea)",
-        "रेटिना (Retina)",
         "आइरिस (Iris)"
       ]
     },
@@ -391,10 +391,10 @@
         "Both statements A and B are incorrect."
       ],
       "hi": [
-        "कथन A और B दोनों गलत हैं।",
         "कथन A गलत है लेकिन B सही है।",
+        "कथन A सही है लेकिन B गलत है।",
         "कथन A और B दोनों सही हैं।",
-        "कथन A सही है लेकिन B गलत है।"
+        "कथन A और B दोनों गलत हैं।"
       ]
     },
     "correctIndex": 2,
@@ -425,8 +425,8 @@
         "Horizontal straight line"
       ],
       "hi": [
-        "तिर्यक् सीधी रेखा",
         "वक्रित रेखा",
+        "तिर्यक् सीधी रेखा",
         "परवलय",
         "क्षैतिज सीधी रेखा"
       ]
@@ -460,8 +460,8 @@
       ],
       "hi": [
         "स्थिर धनात्मक ढाल वाली सरल रेखा द्वारा",
-        "परिवर्ती ढाल वाली वक्रित रेखा द्वारा",
         "क्षैतिज सरल रेखा द्वारा",
+        "परिवर्ती ढाल वाली वक्रित रेखा द्वारा",
         "ऋणात्मक ढाल वाली सरल रेखा द्वारा"
       ]
     },
@@ -528,9 +528,9 @@
       ],
       "hi": [
         "+20 cm",
-        "+10 cm",
+        "-10 cm",
         "-20 cm",
-        "-10 cm"
+        "+10 cm"
       ]
     },
     "correctIndex": 2,
@@ -561,9 +561,9 @@
         "Oil and water"
       ],
       "hi": [
+        "वायु",
         "सिरका",
         "लवण - जल",
-        "वायु",
         "तेल और जल"
       ]
     },
@@ -630,8 +630,8 @@
       ],
       "hi": [
         "आंतरिक कारक (Internal factor)",
-        "उत् क्र मणीय सिग्नल (Reversible signal)",
         "जीवीय कारक (Biotic factor)",
+        "उत् क्र मणीय सिग्नल (Reversible signal)",
         "दिशात्मक उद्दीपक (Directional stimulus)"
       ]
     },
@@ -663,9 +663,9 @@
         "Gymnosperms rely on efficient water transport"
       ],
       "hi": [
-        "सुई जैसी पत्तियां प्रजातियों की विविधता को बढ़ाने में मदद करती हैं",
-        "एं जियोस्पर्म , प्रजनन के लिए फू लों और फलों का उपयोग करते हैं",
         "जलीय निषेचन की घटनाएं विभिन्नता बढ़ाती हैं",
+        "एं जियोस्पर्म , प्रजनन के लिए फू लों और फलों का उपयोग करते हैं",
+        "सुई जैसी पत्तियां प्रजातियों की विविधता को बढ़ाने में मदद करती हैं",
         "जिम्नोस्पर्म , दक्ष जल परिवहन पर निर्भर होते हैं"
       ]
     },
@@ -694,13 +694,13 @@
         "Chlorenchyma",
         "Sclerenchyma",
         "Collenchyma",
-        "Parenchyma Mathematics"
+        "Parenchyma"
       ],
       "hi": [
-        "पैरेन्काइमा (Parenchyma)",
+        "क्लोरेन्काइमा (Chlorenchyma)",
         "स्क्लेरेन्काइमा (Sclerenchyma)",
         "कोलेन्काइमा (Collenchyma)",
-        "क्लोरेन्काइमा (Chlorenchyma)"
+        "पैरेन्काइमा (Parenchyma)"
       ]
     },
     "correctIndex": 2,
@@ -731,10 +731,10 @@
         "Rapid stimulus transmission"
       ],
       "hi": [
-        "तीव्र उद्दीपन संचरण",
         "सक्रिय चलन",
+        "सुरक्षात्मक अधिचर्म",
         "विभाजित करने की क्षमता लुप्त होना",
-        "सुरक्षात्मक अधिचर्म"
+        "तीव्र उद्दीपन संचरण"
       ]
     },
     "correctIndex": 2,
@@ -799,9 +799,9 @@
         "Distance moved by the box"
       ],
       "hi": [
-        "प्रयुक्त विधि का यांत्रिक लाभ",
-        "बॉक्स द्वारा अर्जित स्थितिज ऊर्जा",
         "अनुप्रयुक्त आयास",
+        "बॉक्स द्वारा अर्जित स्थितिज ऊर्जा",
+        "प्रयुक्त विधि का यांत्रिक लाभ",
         "बॉक्स द्वारा तय की गई दूरी"
       ]
     },
@@ -833,9 +833,9 @@
         "Acetic acid; pH 6.0-7.0"
       ],
       "hi": [
-        "लैक्टिक अम्ल ; pH 3.5-4.5",
-        "हाइड्रोक्लोरिक अम्ल (HCl); pH 1.5-3.5",
         "सिट्रिक अम्ल ; pH 6.5-7.0",
+        "हाइड्रोक्लोरिक अम्ल (HCl); pH 1.5-3.5",
+        "लैक्टिक अम्ल ; pH 3.5-4.5",
         "ऐसीटिक अम्ल ; pH 6.0-7.0"
       ]
     },
@@ -867,9 +867,9 @@
         "8"
       ],
       "hi": [
+        "12",
         "4",
         "16",
-        "12",
         "8"
       ]
     },
@@ -902,9 +902,9 @@
       ],
       "hi": [
         "₹18,539",
-        "₹17,872",
+        "₹18,607",
         "₹18,275",
-        "₹18,607"
+        "₹17,872"
       ]
     },
     "correctIndex": 2,
@@ -935,10 +935,10 @@
         "48.31 km/hr"
       ],
       "hi": [
-        "48.31 km/hr",
         "54.86 km/hr",
+        "50.53 km/hr",
         "58.38 km/hr",
-        "50.53 km/hr"
+        "48.31 km/hr"
       ]
     },
     "correctIndex": 2,
@@ -969,10 +969,10 @@
         "360"
       ],
       "hi": [
-        "360",
+        "440",
         "520",
         "480",
-        "440"
+        "360"
       ]
     },
     "correctIndex": 2,
@@ -1004,9 +1004,9 @@
       ],
       "hi": [
         "60π",
-        "25π",
+        "90π",
         "65π",
-        "90π"
+        "25π"
       ]
     },
     "correctIndex": 2,
@@ -1037,9 +1037,9 @@
         "104"
       ],
       "hi": [
-        "106",
         "102",
         "108",
+        "106",
         "104"
       ]
     },
@@ -1071,9 +1071,9 @@
         "12 rooms"
       ],
       "hi": [
-        "18 कमरे",
-        "14 कमरे",
         "16 कमरे",
+        "14 कमरे",
+        "18 कमरे",
         "12 कमरे"
       ]
     },
@@ -1105,9 +1105,9 @@
         "231"
       ],
       "hi": [
-        "281",
-        "211",
         "331",
+        "211",
+        "281",
         "231"
       ]
     },
@@ -1141,8 +1141,8 @@
       "hi": [
         "30% और 70%",
         "80% और 20%",
-        "20% और 80%",
-        "70% और 30%"
+        "70% और 30%",
+        "20% और 80%"
       ]
     },
     "correctIndex": 1,
@@ -1175,8 +1175,8 @@
       "hi": [
         "263.5",
         "265.5",
-        "264.5",
-        "266.5"
+        "266.5",
+        "264.5"
       ]
     },
     "correctIndex": 1,
@@ -1207,9 +1207,9 @@
         "9"
       ],
       "hi": [
+        "7",
         "6",
         "8",
-        "7",
         "9"
       ]
     },
@@ -1242,9 +1242,9 @@
       ],
       "hi": [
         "33% की कमी",
-        "26% की वृद्धि",
+        "29% की कमी",
         "31.6% की वृद्धि",
-        "29% की कमी"
+        "26% की वृद्धि"
       ]
     },
     "correctIndex": 2,
@@ -1275,9 +1275,9 @@
         "69,000"
       ],
       "hi": [
+        "69,900",
         "68,800",
         "68,000",
-        "69,900",
         "69,000"
       ]
     },
@@ -1309,10 +1309,10 @@
         "45%"
       ],
       "hi": [
-        "41%",
+        "39%",
         "40%",
-        "45%",
-        "39%"
+        "41%",
+        "45%"
       ]
     },
     "correctIndex": 1,
@@ -1343,9 +1343,9 @@
         "49 km"
       ],
       "hi": [
-        "51 km",
-        "50 km",
         "48 km",
+        "50 km",
+        "51 km",
         "49 km"
       ]
     },
@@ -1379,8 +1379,8 @@
       "hi": [
         "III",
         "IV",
-        "II",
-        "I"
+        "I",
+        "II"
       ]
     },
     "correctIndex": 1,
@@ -1479,10 +1479,10 @@
         "1"
       ],
       "hi": [
-        "1 30-40 40-50 50-60 39 10 x वर्ग इकाई है , तो वृत्त की परिधि और षट्भुज के परिमाप का अनुपात ज्ञात",
+        "2",
         "5",
         "4",
-        "2"
+        "1"
       ]
     },
     "correctIndex": 0,
@@ -1492,7 +1492,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • sin^2 + cos^2 = 1",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (1 30-40 40-50 50-60 39 10 x वर्ग इकाई है , तो वृत्त की परिधि और षट्भुज के परिमाप का अनुपात ज्ञात) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (2) सही उत्तर है।"
     }
   },
   {
@@ -1515,8 +1515,8 @@
       "hi": [
         "172",
         "148",
-        "169",
-        "175"
+        "175",
+        "169"
       ]
     },
     "correctIndex": 1,
@@ -1537,7 +1537,7 @@
     "topic": "Regular Polygons • RRB Group D Level-1 (13 Aug 2026 Shift 25)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "किसी वृत्त के भीतर एक सम - षट्भुज अंतर्निहित है। यदि षट्भुज का क्षेत्रफल कीजिए।"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1557,10 +1557,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Regular Polygons",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1571,7 +1571,7 @@
     "topic": "Simplification • RRB Group D Level-1 (13 Aug 2026 Shift 25)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "1120 मीटर लंबी एक रस्सी को पर्वतारोहियों के एक समूह में बराबर - बराबर बाँटा जाता पर्वतारोही हैं , तो a का मान ज्ञात कीजिए।"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1593,8 +1593,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Simplification",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1615,8 +1615,8 @@
         "2789.95 cm3"
       ],
       "hi": [
-        "2438.56 cm3",
         "2156.33 cm3",
+        "2438.56 cm3",
         "3305.29 cm3",
         "2789.95 cm3"
       ]
@@ -1693,10 +1693,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • sin^2 + cos^2 = 1",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1819,10 +1819,10 @@
         "J"
       ],
       "hi": [
-        "J",
-        "Q",
         "I",
-        "P"
+        "Q",
+        "P",
+        "J"
       ]
     },
     "correctIndex": 1,
@@ -1853,9 +1853,9 @@
         "K"
       ],
       "hi": [
+        "G",
         "L",
         "P",
-        "G",
         "K"
       ]
     },
@@ -1887,10 +1887,10 @@
         "LKJ"
       ],
       "hi": [
-        "LKJ",
+        "FGR",
         "BGT",
         "DCL",
-        "FGR"
+        "LKJ"
       ]
     },
     "correctIndex": 2,
@@ -1921,10 +1921,10 @@
         "# = SBN, % = HPE"
       ],
       "hi": [
-        "# = SBN, % = HPE",
+        "# = SAL, % = HPE",
         "# = RAL, % = HPE",
         "# = RAL, % = HPD",
-        "# = SAL, % = HPE"
+        "# = SBN, % = HPE"
       ]
     },
     "correctIndex": 1,
@@ -1956,9 +1956,9 @@
       ],
       "hi": [
         "SBU : VFT",
-        "NDS : RHV",
+        "LCX : NEA",
         "TCR : WES",
-        "LCX : NEA"
+        "NDS : RHV"
       ]
     },
     "correctIndex": 2,
@@ -1989,10 +1989,10 @@
         "KIMP"
       ],
       "hi": [
-        "KIMP",
+        "IKPM",
         "KIPM",
         "IKMP",
-        "IKPM"
+        "KIMP"
       ]
     },
     "correctIndex": 1,
@@ -2058,8 +2058,8 @@
       ],
       "hi": [
         "पांच",
-        "चार",
         "छह",
+        "चार",
         "तीन"
       ]
     },
@@ -2092,9 +2092,9 @@
       ],
       "hi": [
         "172",
+        "168",
         "174",
-        "170",
-        "168"
+        "170"
       ]
     },
     "correctIndex": 0,
@@ -2125,10 +2125,10 @@
         "One"
       ],
       "hi": [
-        "एक",
+        "एक भी नहीं",
         "तीन",
         "दो",
-        "एक भी नहीं"
+        "एक"
       ]
     },
     "correctIndex": 2,
@@ -2161,8 +2161,8 @@
       "hi": [
         "159 - 795 - 464",
         "164 - 820 - 499",
-        "139 - 695 - 383",
-        "122 - 610 - 389"
+        "122 - 610 - 389",
+        "139 - 695 - 383"
       ]
     },
     "correctIndex": 1,
@@ -2195,8 +2195,8 @@
       "hi": [
         "23 - 46 - 92 -122",
         "24 - 48 - 52 - 62",
-        "32 - 64 - 128 - 138",
-        "27 - 54 - 72 - 92"
+        "27 - 54 - 72 - 92",
+        "32 - 64 - 128 - 138"
       ]
     },
     "correctIndex": 0,
@@ -2228,8 +2228,8 @@
       ],
       "hi": [
         "199",
-        "119",
         "919",
+        "119",
         "209"
       ]
     },
@@ -2261,9 +2261,9 @@
         "PT - NR"
       ],
       "hi": [
-        "RV - PT",
-        "LO - IL",
         "BF - ZD",
+        "LO - IL",
+        "RV - PT",
         "PT - NR"
       ]
     },
@@ -2295,10 +2295,10 @@
         "WUX"
       ],
       "hi": [
-        "WUX",
-        "VUW",
         "LJM",
-        "AYB"
+        "VUW",
+        "AYB",
+        "WUX"
       ]
     },
     "correctIndex": 1,
@@ -2331,8 +2331,8 @@
       "hi": [
         "5",
         "6",
-        "8",
-        "4"
+        "4",
+        "8"
       ]
     },
     "correctIndex": 0,
@@ -2363,10 +2363,10 @@
         "M"
       ],
       "hi": [
-        "M",
         "G",
+        "I",
         "H",
-        "I"
+        "M"
       ]
     },
     "correctIndex": 2,
@@ -2398,8 +2398,8 @@
       ],
       "hi": [
         "T",
-        "Q",
         "D",
+        "Q",
         "N"
       ]
     },
@@ -2432,8 +2432,8 @@
       ],
       "hi": [
         "दो",
-        "चार",
         "तीन",
+        "चार",
         "एक"
       ]
     },
@@ -2465,10 +2465,10 @@
         "T"
       ],
       "hi": [
-        "T",
-        "R",
         "U",
-        "P"
+        "R",
+        "P",
+        "T"
       ]
     },
     "correctIndex": 1,
@@ -2501,8 +2501,8 @@
       "hi": [
         "माता के पिता का भाई",
         "माता की माता का भाई",
-        "माता के पिता का पिता",
-        "माता की माता का पिता"
+        "माता की माता का पिता",
+        "माता के पिता का पिता"
       ]
     },
     "correctIndex": 1,
@@ -2567,8 +2567,8 @@
         "Four"
       ],
       "hi": [
-        "तीन",
         "दो",
+        "तीन",
         "पांच",
         "चार"
       ]
@@ -2595,16 +2595,16 @@
     },
     "options": {
       "en": [
-        "alone or statement II alone) are sufficient to answer the question",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question",
         "Data in Statement II alone is sufficient to answer the question while data in statement I is not",
         "Both statements I and II together are NOT sufficient to answer the question",
         "Data in Statement I alone is sufficient to answer the question while data in statement II is not"
       ],
       "hi": [
-        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है। कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं",
-        "हैं।",
-        "अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
-        "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है। कथन I और II दोनों एक साथ ( न तो अके ले कथन I और न ही"
+        "कथन I और II दोनों एक साथ (न तो अकेले कथन I और न ही अकेले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
+        "कथन II में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है।",
+        "कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "कथन I में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 3,
@@ -2614,7 +2614,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Data in Statement I alone is sufficient to answer the question while data in statement II is not) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है। कथन I और II दोनों एक साथ ( न तो अके ले कथन I और न ही) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (कथन I में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है।) सही उत्तर है।"
     }
   },
   {
@@ -2631,14 +2631,14 @@
       "en": [
         "Data in statement II alone is sufficient to answer the question while data in statement I is not.",
         "Data in statement I alone is sufficient to answer the question while data in statement II is not.",
-        "Both statements I and II together are NOT sufficient to answer the question. Both statements I and II together (and not",
-        "statement I alone or statement II alone) are sufficient to answer the question. General Awareness"
+        "Both statements I and II together are NOT sufficient to answer the question.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question."
       ],
       "hi": [
-        "कथन I और II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं कथन I और II दोनों मिलकर ( और न अके ले कथन I या अके ले",
-        "जबकि कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है",
-        "जबकि कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है ,",
-        "कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है ,"
+        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है",
+        "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है",
+        "कथन I और II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं",
+        "कथन I और II दोनों मिलकर ( और न अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं"
       ]
     },
     "correctIndex": 3,
@@ -2647,8 +2647,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (statement I alone or statement II alone) are sufficient to answer the question. General Awareness) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है ,) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (कथन I और II दोनों मिलकर ( और न अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं) सही उत्तर है।"
     }
   },
   {
@@ -2664,15 +2664,15 @@
     "options": {
       "en": [
         "Data in statement II alone is sufficient to answer the question while data in statement I is not.",
-        "Both statements I and II together are NOT sufficient to answer the question. Both statements I and II together (and not statement I",
-        "alone or statement II alone) are sufficient to answer the question.",
+        "Both statements I and II together are NOT sufficient to answer the question.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.",
         "Data in statement I alone is sufficient to answer the question while data in statement II is not."
       ],
       "hi": [
-        "है जबकि कथन I में दी गई जानकारी अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है। कथन I में दी गई जानकारी अके ले प्रश्न का उत्तर देने के लिए पर्याप्त",
-        "पर्याप्त नहीं हैं।",
-        "है जबकि कथन II में दी गई जानकारी अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है। संयुक्त रूप से कथन 1 और 2 दोनों प्रश्न का उत्तर देने के लिए",
-        "संयुक्त रूप से कथन I और II दोनों ( अके ले कथन I नहीं या अके ले कथन II नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त है।"
+        "कथन II में दी गई जानकारी अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन I में दी गई जानकारी अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।",
+        "संयुक्त रूप से कथन 1 और 2 दोनों प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "संयुक्त रूप से कथन I और II दोनों ( अके ले कथन I नहीं या अके ले कथन II नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त है।",
+        "कथन I में दी गई जानकारी अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन II में दी गई जानकारी अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 1,
@@ -2681,8 +2681,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Both statements I and II together are NOT sufficient to answer the question. Both statements I and II together (and not statement I) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (पर्याप्त नहीं हैं।) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Both statements I and II together are NOT sufficient to answer the question.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (संयुक्त रूप से कथन 1 और 2 दोनों प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।) सही उत्तर है।"
     }
   },
   {
@@ -2703,10 +2703,10 @@
         "th"
       ],
       "hi": [
-        "th",
+        "ry",
         "vd",
         "kb",
-        "ry General Awareness"
+        "th"
       ]
     },
     "correctIndex": 1,
@@ -2738,9 +2738,9 @@
       ],
       "hi": [
         "चिकित्सा",
-        "साहित्य और शिक्षा",
+        "सामाजिक कार्य",
         "विज्ञान और इंजीनियरिंग",
-        "सामाजिक कार्य"
+        "साहित्य और शिक्षा"
       ]
     },
     "correctIndex": 0,
@@ -2771,10 +2771,10 @@
         "Sports coaching"
       ],
       "hi": [
-        "वैज्ञानिक शोध",
+        "लॉ प्रैक्टिस",
         "फिल्म ऐक्टिंग",
-        "स्पोर्ट्स कोचिंग",
-        "लॉ प्रैक्टिस"
+        "वैज्ञानिक शोध",
+        "स्पोर्ट्स कोचिंग"
       ]
     },
     "correctIndex": 1,
@@ -2806,9 +2806,9 @@
       ],
       "hi": [
         "श्री अशोक कु मार लाहिड़ी",
-        "श्री सुमन बेरी",
         "श्री अमिताभ कांत",
-        "डॉ . राजीव कु मार"
+        "डॉ . राजीव कु मार",
+        "श्री सुमन बेरी"
       ]
     },
     "correctIndex": 0,
@@ -2839,10 +2839,10 @@
         "PARAM Siddhi Supercomputer"
       ],
       "hi": [
+        "परम गंगा (PARAM Ganga) सुपरकं प्यूटिंग फै सिलिटी",
         "परम युवा (PARAM Yuva) सुपरकं प्यूटर",
-        "परम सिद्धि (PARAM Siddhi) सुपरकं प्यूटर",
         "परम शक्ति (Param Shakti) सुपरकं प्यूटिंग फै सिलिटी",
-        "परम गंगा (PARAM Ganga) सुपरकं प्यूटिंग फै सिलिटी"
+        "परम सिद्धि (PARAM Siddhi) सुपरकं प्यूटर"
       ]
     },
     "correctIndex": 2,
@@ -2873,9 +2873,9 @@
         "Mia Amor Mottley"
       ],
       "hi": [
+        "राल्फ थॉर्न (Ralph Thorne)",
         "सैंड्रा मेसन (Sandra Mason)",
         "फ्रुं डेल स्टुअर्ट (Freundel Stuart)",
-        "राल्फ थॉर्न (Ralph Thorne)",
         "मिया अमोर मोटली (Mia Amor Mottley)"
       ]
     },
@@ -2907,10 +2907,10 @@
         "SDG 11"
       ],
       "hi": [
-        "SDG 11",
+        "SDG 15",
         "SDG 6",
         "SDG 13",
-        "SDG 15"
+        "SDG 11"
       ]
     },
     "correctIndex": 2,
@@ -2941,8 +2941,8 @@
         "Operation Matrishakti"
       ],
       "hi": [
-        "ऑपरेशन नन्हे फरिश्‍ते",
         "ऑपरेशन जीवन रक्षा",
+        "ऑपरेशन नन्हे फरिश्‍ते",
         "ऑपरेशन सुरक्षा",
         "ऑपरेशन मातृशक्ति"
       ]
@@ -3009,10 +3009,10 @@
         "Alpine Skiing"
       ],
       "hi": [
-        "अल्पाइन स्कीइंग (Alpine Skiing)",
+        "स्की जंपिंग (Ski Jumping)",
         "स्नोबोर्डिंग (Snowboarding)",
         "फ्रीस्टाइल स्कीइंग (Freestyle Skiing)",
-        "स्की जंपिंग (Ski Jumping)"
+        "अल्पाइन स्कीइंग (Alpine Skiing)"
       ]
     },
     "correctIndex": 2,
@@ -3044,9 +3044,9 @@
       ],
       "hi": [
         "आपातकालीन स्वास्थ्य देखभाल",
-        "सैन्य स्वास्थ्य देखभाल",
+        "पशुचिकित्सा स्वास्थ्य देखभाल",
         "समग्र स्वास्थ्य देखभाल",
-        "पशुचिकित्सा स्वास्थ्य देखभाल"
+        "सैन्य स्वास्थ्य देखभाल"
       ]
     },
     "correctIndex": 2,
@@ -3078,9 +3078,9 @@
       ],
       "hi": [
         "खेलो इंडिया मिशन",
-        "टारगेट ओलंपिक पोडियम स्कीम (TOPS) 2.0",
         "राष्ट्रीय खेल विकास ढांचा",
-        "भारत स्पोर्ट्स एक्सीलेंस प्रोग्राम"
+        "भारत स्पोर्ट्स एक्सीलेंस प्रोग्राम",
+        "टारगेट ओलंपिक पोडियम स्कीम (TOPS) 2.0"
       ]
     },
     "correctIndex": 0,
@@ -3111,8 +3111,8 @@
         "Article 19"
       ],
       "hi": [
-        "अनुच्छेद 14",
         "अनुच्छेद 32",
+        "अनुच्छेद 14",
         "अनुच्छेद 21",
         "अनुच्छेद 19"
       ]
@@ -3146,9 +3146,9 @@
       ],
       "hi": [
         "सॉलिड फ्यूल डक्टेड रैमजेट टेक्नोलॉजी (Solid Fuel Ducted Ramjet technology)",
-        "System)",
+        "क्रायोजेनिक नोदन प्रणाली (Cryogenic Propulsion System)",
         "न्यूक्लियर थर्मल इंजन (Nuclear Thermal Engine)",
-        "क्रायोजेनिक नोदन प्रणाली (Cryogenic Propulsion System)"
+        "इलेक्ट्रिक जेट नोदन प्रणाली (Electric Jet Propulsion System)"
       ]
     },
     "correctIndex": 0,
@@ -3180,9 +3180,9 @@
       ],
       "hi": [
         "नई दिल्ली",
-        "चेन्नई",
         "जयपुर",
-        "हैदराबाद"
+        "हैदराबाद",
+        "चेन्नई"
       ]
     },
     "correctIndex": 0,
@@ -3247,10 +3247,10 @@
         "Indian Sports Council"
       ],
       "hi": [
-        "भारतीय डोपिंग रोधी परिषद",
+        "भारतीय खेल प्राधिकरण",
         "राष्ट्रीय डोपिंग - रोधी एजेंसी",
-        "भारतीय खेल परिषद",
-        "भारतीय खेल प्राधिकरण"
+        "भारतीय डोपिंग रोधी परिषद",
+        "भारतीय खेल परिषद"
       ]
     },
     "correctIndex": 1,
@@ -3281,10 +3281,10 @@
         "World Under-23 Wrestling Championships"
       ],
       "hi": [
-        "Championships)",
-        "कॉमनवेल्थ कु श्ती चैंपियनशिप (Commonwealth Wrestling Championships) विश्व अंडर -23 कु श्ती चैंपियनशिप (World Under-23",
+        "कॉमनवेल्थ कु श्ती चैंपियनशिप (Commonwealth Wrestling Championships)",
+        "एशियाई कु श्ती चैंपियनशिप (Asian Wrestling Championships)",
         "एशियाई अंडर -23 कु श्ती चैंपियनशिप (Asian Under-23 Wrestling Championships)",
-        "Wrestling Championships)"
+        "विश्व अंडर -23 कु श्ती चैंपियनशिप (World Under-23 Wrestling Championships)"
       ]
     },
     "correctIndex": 2,
@@ -3315,9 +3315,9 @@
         "National Institute of Technology Silchar"
       ],
       "hi": [
-        "इंडियन इंस्टीट्यूट ऑफ़ टेक्नोलॉजी गुवाहाटी",
-        "सिक्किम मणिपाल इंस्टीट्यूट ऑफ़ टेक्नोलॉजी",
         "बिड़ला इंस्टीट्यूट ऑफ़ टेक्नोलॉजी मेसरा",
+        "सिक्किम मणिपाल इंस्टीट्यूट ऑफ़ टेक्नोलॉजी",
+        "इंडियन इंस्टीट्यूट ऑफ़ टेक्नोलॉजी गुवाहाटी",
         "नेशनल इंस्टीट्यूट ऑफ़ टेक्नोलॉजी सिलचर"
       ]
     },
@@ -3349,9 +3349,9 @@
         "Kuno National Park"
       ],
       "hi": [
-        "बांधवगढ़ राष्ट्रीय उद्यान",
         "कान्हा राष्ट्रीय उद्यान",
         "पेंच राष्ट्रीय उद्यान",
+        "बांधवगढ़ राष्ट्रीय उद्यान",
         "कु नो राष्ट्रीय उद्यान"
       ]
     },
@@ -3383,10 +3383,10 @@
         "Lakshmibai National Institute of Physical Education, Gwalior"
       ],
       "hi": [
-        "लक्ष् मीबाई राष्ट्रीय शारीरिक शिक्षा संस्थान , ग्वालियर",
+        "नेताजी सुभाष राष्ट्रीय खेल संस्थान , पटियाला",
         "भारतीय खेल प्राधिकरण राष्ट्रीय उत्कृ ष्टता केंद्र (SAI NCoE), गांधीनगर",
         "इंदिरा गांधी स्टेडियम , नई दिल्ली",
-        "नेताजी सुभाष राष्ट्रीय खेल संस्थान , पटियाला"
+        "लक्ष् मीबाई राष्ट्रीय शारीरिक शिक्षा संस्थान , ग्वालियर"
       ]
     },
     "correctIndex": 1,

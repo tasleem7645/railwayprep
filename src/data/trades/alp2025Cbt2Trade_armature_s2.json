@@ -11,25 +11,25 @@
     },
     "options": {
       "en": [
-        "It provides low electrical insulation resistance for rapid heat dissipation in winding assemblies It provides improved ageing resistance and high",
-        "dielectric strength for winding insulation applications",
+        "It provides low electrical insulation resistance for rapid heat dissipation in winding assemblies",
+        "It provides improved ageing resistance and high dielectric strength for winding insulation applications",
         "It provides high magnetic permeability for improved alternating current motor flux distribution",
         "It provides conductive bonding characteristics for direct electrical connection between winding layers"
       ],
       "hi": [
-        "यह उन्नत प्रत्यावर्ती धारा मोटर फ्लक्स वितरण के लिए उच्च चुंबकीय पारगम्यता प्रदान करता है।",
         "यह वाइंडिंग असेंबली में तीव्र ऊष्मा क्षय के लिए निम्न विद्युत विद्युतरोधन प्रतिरोध प्रदान करता है।",
-        "यह वाइंडिंग परतों के बीच प्रत्यक्ष विद्युत संयोजन के लिए चालक आबंधन अभिलक्षण प्रदान करता है।",
-        "यह वाइंडिंग विद्युतरोधन अनुप्रयोगों के लिए उन्नत काल - प्रभावन प्रतिरोध और उच्च परावैद्युत सामर्थ्य प्रदान करता है।"
+        "यह वाइंडिंग विद्युतरोधन अनुप्रयोगों के लिए उन्नत काल-प्रभावन प्रतिरोध और उच्च परावैद्युत सामर्थ्य प्रदान करता है।",
+        "यह उन्नत प्रत्यावर्ती धारा मोटर फ्लक्स वितरण के लिए उच्च चुंबकीय पारगम्यता प्रदान करता है।",
+        "यह वाइंडिंग परतों के बीच प्रत्यक्ष विद्युत संयोजन के लिए चालक आबंधन अभिलक्षण प्रदान करता है।"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (dielectric strength for winding insulation applications). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (यह वाइंडिंग विद्युतरोधन अनुप्रयोगों के लिए उन्नत काल - प्रभावन प्रतिरोध और उच्च परावैद्युत सामर्थ्य प्रदान करता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (It provides improved ageing resistance and high dielectric strength for winding insulation applications). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह वाइंडिंग विद्युतरोधन अनुप्रयोगों के लिए उन्नत काल-प्रभावन प्रतिरोध और उच्च परावैद्युत सामर्थ्य प्रदान करता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -50,19 +50,19 @@
         "Enamel coating"
       ],
       "hi": [
-        "रबड़ कोषण (Rubber sheathing)",
-        "इनेमल आवरण (Enamel coating)",
         "कागज वेष्टन (Paper wrapping)",
-        "कॉटन ब्रेडिंग (Cotton braiding)"
+        "रबड़ कोषण (Rubber sheathing)",
+        "कॉटन ब्रेडिंग (Cotton braiding)",
+        "इनेमल आवरण (Enamel coating)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Enamel coating). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (इनेमल आवरण (Enamel coating))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Enamel coating). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (इनेमल आवरण (Enamel coating))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -83,19 +83,19 @@
         "Excavate pit, place plate diagonally, connect earth wire, fill with only soil"
       ],
       "hi": [
-        "को संयोजित करना तथा चारकोल और नमक की एकांतर परतों से भरना उथली खाई खोदना , प्लेट को क्षैतिज रूप से रखना , भू - संपर्क तार",
-        "को संयोजित करना , केवल रेत से ढकना",
-        "गहरा गड्ढा खोदना , भू - संपर्क तार को संयोजित किए बिना प्लेट रखना , पत्थरों और मिट्टी से भरना गड्ढा खोदना , प्लेट को विकर्णतः रखना , भू - संपर्क तार को संयोजित",
-        "करना , केवल मिट्टी से भरना"
+        "गहरा गड्ढा खोदना, भू-संपर्क तार को संयोजित किए बिना प्लेट रखना, पत्थरों और मिट्टी से भरना",
+        "उथली खाई खोदना, प्लेट को क्षैतिज रूप से रखना, भू-संपर्क तार को संयोजित करना, केवल रेत से ढकना",
+        "गड्ढा खोदना, प्लेट को लंबवत रखना, भू-संपर्क तार को संयोजित करना तथा चारकोल और नमक की एकांतर परतों से भरना",
+        "गड्ढा खोदना, प्लेट को विकर्णतः रखना, भू-संपर्क तार को संयोजित करना, केवल मिट्टी से भरना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Excavate pit, place plate vertically, connect earth wire, fill with alternate charcoal and salt layers). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (को संयोजित करना तथा चारकोल और नमक की एकांतर परतों से भरना उथली खाई खोदना , प्लेट को क्षैतिज रूप से रखना , भू - संपर्क तार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Excavate pit, place plate vertically, connect earth wire, fill with alternate charcoal and salt layers). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (गड्ढा खोदना, प्लेट को लंबवत रखना, भू-संपर्क तार को संयोजित करना तथा चारकोल और नमक की एकांतर परतों से भरना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -116,19 +116,19 @@
         "To increase the direct current resistance of the winding conductor"
       ],
       "hi": [
+        "वार्निश संसेचन (varnish impregnation) से पहले विद्युतरोधन और वाइंडिंग परतों से अवशोषित नमी को बाहर निकालना",
+        "क्योरिंग (curing) के बाद वार्निश की तरलता को स्थायी रूप से बढ़ाना",
         "प्रत्यक्ष ऊष्मा उपचार द्वारा चालक विद्युतरोधन को तापीय रूप से सुदृढ़ करना",
-        "वाइंडिंग चालक के दिष्ट धारा प्रतिरोध को बढ़ाना क्योरिंग (curing) के बाद वार्निश की तरलता को स्थायी रूप से",
-        "बढ़ाना वार्निश संसेचन (varnish impregnation) से पहले",
-        "विद्युतरोधन और वाइंडिंग परतों से अवशोषित नमी को बाहर निकालना"
+        "वाइंडिंग चालक के दिष्ट धारा प्रतिरोध को बढ़ाना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (To remove absorbed moisture from insulation and winding layers before varnish impregnation). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (विद्युतरोधन और वाइंडिंग परतों से अवशोषित नमी को बाहर निकालना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (To remove absorbed moisture from insulation and winding layers before varnish impregnation). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (वार्निश संसेचन (varnish impregnation) से पहले विद्युतरोधन और वाइंडिंग परतों से अवशोषित नमी को बाहर निकालना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -160,8 +160,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Adding multiple earth electrodes). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (कई भू - इलेक्ट्रोड को जोड़ना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Adding multiple earth electrodes). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (कई भू - इलेक्ट्रोड को जोड़ना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -183,18 +183,18 @@
       ],
       "hi": [
         "आर्मेचर के साथ श्रेणी क्रम में",
-        "आर्मेचर के साथ समांतर क्रम में",
+        "लोड के साथ श्रेणी क्रम में",
         "आर्मेचर से स्वतंत्र रूप से",
-        "लोड के साथ श्रेणी क्रम में"
+        "आर्मेचर के साथ समांतर क्रम में"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (In parallel with armature). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (आर्मेचर के साथ समांतर क्रम में)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (In parallel with armature). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (आर्मेचर के साथ समांतर क्रम में)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -215,10 +215,10 @@
         "To verify dynamic mechanical stability of the rotating assembly during continuous operation"
       ],
       "hi": [
-        "सही विद्युत फेज संबंध और स्टेटर वाइंडिंग टर्मिनल ध्रुवता को सत्यापित करना",
+        "वाइंडिंग चालकों और फ्रे म के बीच परावैद्युत विद्युतरोधन प्रतिरोध विशेषताओं को सत्यापित करना",
         "यह सत्यापित करना कि वाइंडिंग और मशीन का तापमान निर्दिष्ट विद्युतरोधन - वर्ग की तापीय सीमाओं के अंदर बना रहे",
-        "सतत प्रचालन के दौरान घूर्णी असेंबली के गतिक यांत्रिक स्थायित्व को सत्यापित करना",
-        "वाइंडिंग चालकों और फ्रे म के बीच परावैद्युत विद्युतरोधन प्रतिरोध विशेषताओं को सत्यापित करना"
+        "सही विद्युत फेज संबंध और स्टेटर वाइंडिंग टर्मिनल ध्रुवता को सत्यापित करना",
+        "सतत प्रचालन के दौरान घूर्णी असेंबली के गतिक यांत्रिक स्थायित्व को सत्यापित करना"
       ]
     },
     "correctIndex": 1,
@@ -226,8 +226,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (remain within specified insulation-class thermal limits). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (यह सत्यापित करना कि वाइंडिंग और मशीन का तापमान निर्दिष्ट विद्युतरोधन - वर्ग की तापीय सीमाओं के अंदर बना रहे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (remain within specified insulation-class thermal limits). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह सत्यापित करना कि वाइंडिंग और मशीन का तापमान निर्दिष्ट विद्युतरोधन - वर्ग की तापीय सीमाओं के अंदर बना रहे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -248,19 +248,19 @@
         "Protect against supply failure"
       ],
       "hi": [
-        "चाल में वृद्धि करना",
-        "आपूर्ति विफलता से बचाना",
+        "बलाघुर्ण में वृद्धि करना",
         "ओवरलोड से बचाना",
-        "बलाघुर्ण में वृद्धि करना"
+        "चाल में वृद्धि करना",
+        "आपूर्ति विफलता से बचाना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Protect against supply failure). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (आपूर्ति विफलता से बचाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Protect against supply failure). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (आपूर्ति विफलता से बचाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -281,19 +281,19 @@
         "Connected to earth potential through one secondary terminal during measurement"
       ],
       "hi": [
-        "निम्न - प्रतिरोध वाले चालकीय पथ के माध्यम से लघु - परिपथित रखा जाना चाहिए",
+        "बिना किसी बाह्य विद्युत लोड कनेक्शन के विवृत - परिपथित रखा जाना चाहिए",
         "वोल्टता अनुप्रयोग के दौरान एक बाह्य प्रतिरोधी लोड बैंक से संयोजित किया जाना चाहिए",
-        "मापन के दौरान एक द्वितीयक टर्मिनल के माध्यम से भू - विभव से संयोजित किया जाना चाहिए",
-        "बिना किसी बाह्य विद्युत लोड कनेक्शन के विवृत - परिपथित रखा जाना चाहिए"
+        "निम्न - प्रतिरोध वाले चालकीय पथ के माध्यम से लघु - परिपथित रखा जाना चाहिए",
+        "मापन के दौरान एक द्वितीयक टर्मिनल के माध्यम से भू - विभव से संयोजित किया जाना चाहिए"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Kept open-circuited without any external electrical load connection). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (बिना किसी बाह्य विद्युत लोड कनेक्शन के विवृत - परिपथित रखा जाना चाहिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Kept open-circuited without any external electrical load connection). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (बिना किसी बाह्य विद्युत लोड कनेक्शन के विवृत - परिपथित रखा जाना चाहिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -314,19 +314,19 @@
         "500 ohms"
       ],
       "hi": [
-        "500 ओम",
         "2 मेगाओम",
         "10 किलोओम",
-        "100 मेगाओम"
+        "100 मेगाओम",
+        "500 ओम"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (2 megaohms). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (2 मेगाओम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (2 megaohms). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (2 मेगाओम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -347,19 +347,19 @@
         "Staggering dimension figures to improve reading clarity"
       ],
       "hi": [
-        "पठन स्पष्टता को बेहतर बनाने के लिए विमीय आंकड़ों का सांतर वितरण करना",
         "विमीय आंकड़ों को ऋजु संरेखण में एक साथ रखना",
+        "समीप स्थापन के लिए विमीय आकृति के आमाप में कमी करना",
         "अभीष्ट विमीय मान आंकड़ों में से एक को छोड़ देना",
-        "समीप स्थापन के लिए विमीय आकृति के आमाप में कमी करना"
+        "पठन स्पष्टता को बेहतर बनाने के लिए विमीय आंकड़ों का सांतर वितरण करना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Staggering dimension figures to improve reading clarity). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (पठन स्पष्टता को बेहतर बनाने के लिए विमीय आंकड़ों का सांतर वितरण करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Staggering dimension figures to improve reading clarity). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (पठन स्पष्टता को बेहतर बनाने के लिए विमीय आंकड़ों का सांतर वितरण करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -380,19 +380,19 @@
         "Field circuit open or weakened"
       ],
       "hi": [
-        "क्षेत्र परिपथ का विवृत या दुर्बल होना",
-        "लोड में वृद्धि",
+        "आर्मेचर प्रतिरोध में वृद्धि",
         "आपूर्ति वोल्टता में कमी",
-        "आर्मेचर प्रतिरोध में वृद्धि"
+        "लोड में वृद्धि",
+        "क्षेत्र परिपथ का विवृत या दुर्बल होना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Field circuit open or weakened). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (क्षेत्र परिपथ का विवृत या दुर्बल होना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Field circuit open or weakened). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (क्षेत्र परिपथ का विवृत या दुर्बल होना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -413,19 +413,19 @@
         "5/12"
       ],
       "hi": [
-        "5/12",
         "13/12",
         "12/5",
-        "12/13"
+        "12/13",
+        "5/12"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (12/13). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (12/13)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (12/13). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (12/13)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -446,19 +446,19 @@
         "It reduces the possibility of insulation failure"
       ],
       "hi": [
-        "यह द्रव की परावैद्युत सामर्थ्य को बढ़ाता है",
         "यह रोधन भंजन की संभावना को बढ़ाता है",
-        "यह रोधन विफलता की संभावना को कम करता है",
-        "यह रोधन भंजन के प्रति सुदृढ़ करता है"
+        "यह द्रव की परावैद्युत सामर्थ्य को बढ़ाता है",
+        "यह रोधन भंजन के प्रति सुदृढ़ करता है",
+        "यह रोधन विफलता की संभावना को कम करता है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (It increases the chances of insulation breakdown). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (यह रोधन भंजन की संभावना को बढ़ाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (It increases the chances of insulation breakdown). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (यह रोधन भंजन की संभावना को बढ़ाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -479,19 +479,19 @@
         "Magnetic flux waveform shape"
       ],
       "hi": [
-        "क्रोड पदार्थ पारगम्यता",
         "ट्रांसफार्मर का प्रभावी फे रा अनुपात",
-        "चुंबकीय फ्लक्स तरंगरूप की आकृति",
-        "प्रचालन की आवृत्ति"
+        "प्रचालन की आवृत्ति",
+        "क्रोड पदार्थ पारगम्यता",
+        "चुंबकीय फ्लक्स तरंगरूप की आकृति"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Effective turns ratio of the transformer). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (ट्रांसफार्मर का प्रभावी फे रा अनुपात)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Effective turns ratio of the transformer). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (ट्रांसफार्मर का प्रभावी फे रा अनुपात)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -512,19 +512,19 @@
         "Lap joint"
       ],
       "hi": [
-        "सिरा जोड़ (Edge joint)",
+        "सीवन जोड़ (Seam joint)",
         "खांचा जोड़ (Groove joint)",
-        "लैप जोड़ (Lap joint)",
-        "सीवन जोड़ (Seam joint)"
+        "सिरा जोड़ (Edge joint)",
+        "लैप जोड़ (Lap joint)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Lap joint). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (लैप जोड़ (Lap joint))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Lap joint). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (लैप जोड़ (Lap joint))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -545,10 +545,10 @@
         "Steel wire"
       ],
       "hi": [
+        "ऐलुम़ि नियम तार",
         "आयरन तार",
-        "स्टील तार",
         "कॉपर तार",
-        "ऐलुम़ि नियम तार"
+        "स्टील तार"
       ]
     },
     "correctIndex": 2,
@@ -556,8 +556,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Copper wire). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (कॉपर तार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Copper wire). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (कॉपर तार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -578,19 +578,19 @@
         "Acceleration of varnish polymerization before impregnation"
       ],
       "hi": [
-        "संसेचन से पहले वार्निश के बहुलकीकरण में तेजी लाना",
-        "चालक विद्युतरोधन की यांत्रिक दृढ़ता में वृद्धि",
         "वाइंडिंग में उपस्थित नमी का पूर्ण उन्मूलन",
-        "वाइंडिंग विद्युतरोधन पदार्थ का तापीय निम्नीकरण"
+        "चालक विद्युतरोधन की यांत्रिक दृढ़ता में वृद्धि",
+        "वाइंडिंग विद्युतरोधन पदार्थ का तापीय निम्नीकरण",
+        "संसेचन से पहले वार्निश के बहुलकीकरण में तेजी लाना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Thermal degradation of winding insulation material). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (वाइंडिंग विद्युतरोधन पदार्थ का तापीय निम्नीकरण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Thermal degradation of winding insulation material). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (वाइंडिंग विद्युतरोधन पदार्थ का तापीय निम्नीकरण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -611,19 +611,19 @@
         "Lap winding"
       ],
       "hi": [
-        "पूर्ण - पिच कुं डलन (Full-pitch winding)",
         "तरंग कुं डलन (Wave winding)",
-        "लैप कुं डलन (Lap winding)",
-        "लघु - पिच कुं डलन (Short-pitch winding)"
+        "पूर्ण - पिच कुं डलन (Full-pitch winding)",
+        "लघु - पिच कुं डलन (Short-pitch winding)",
+        "लैप कुं डलन (Lap winding)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Short-pitch winding). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (लघु - पिच कुं डलन (Short-pitch winding))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Short-pitch winding). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (लघु - पिच कुं डलन (Short-pitch winding))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -644,19 +644,19 @@
         "They develop improved resistance to petroleum-based insulating oils"
       ],
       "hi": [
-        "वे पेट्रोलियम - आधारित विद्युतरोधी तेलों के प्रति बेहतर प्रतिरोध उत्पन्न कर लेते हैं वे पूर्णतः पारदर्शी हो जाते हैं और वाष्पशील गंध - यौगिकों से मुक्त हो",
-        "जाते हैं",
+        "वे समय के साथ अपने अभिप्रेत विद्युत - रोधन और सुरक्षात्मक निष्पादन अभिलक्षणों को खो देते हैं",
+        "वे पूर्णतः पारदर्शी हो जाते हैं और वाष्पशील गंध - यौगिकों से मुक्त हो जाते हैं",
         "वे कठोर होकर एक स्थायी , काँच के समान विद्युतरोधी परत में परिवर्तित हो जाते हैं",
-        "वे समय के साथ अपने अभिप्रेत विद्युत - रोधन और सुरक्षात्मक निष्पादन अभिलक्षणों को खो देते हैं"
+        "वे पेट्रोलियम - आधारित विद्युतरोधी तेलों के प्रति बेहतर प्रतिरोध उत्पन्न कर लेते हैं"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (They lose their intended insulating and protective performance characteristics over time). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (वे समय के साथ अपने अभिप्रेत विद्युत - रोधन और सुरक्षात्मक निष्पादन अभिलक्षणों को खो देते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (They lose their intended insulating and protective performance characteristics over time). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (वे समय के साथ अपने अभिप्रेत विद्युत - रोधन और सुरक्षात्मक निष्पादन अभिलक्षणों को खो देते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -677,19 +677,19 @@
         "By connecting current transformer in series with the ammeter"
       ],
       "hi": [
+        "एमीटर के साथ श्रेणी क्रम में उपयुक्त मान वाला एक प्रतिरोध जोड़कर",
         "एमीटर के साथ समांतर क्रम में उपयुक्त मान वाला एक शंट प्रतिरोध जोड़कर",
         "एमीटर के साथ श्रेणी क्रम में एक गुणक प्रतिरोध जोड़कर",
-        "एमीटर के साथ श्रेणी क्रम में एक धारा ट्रांसफार्मर जोड़कर",
-        "एमीटर के साथ श्रेणी क्रम में उपयुक्त मान वाला एक प्रतिरोध जोड़कर"
+        "एमीटर के साथ श्रेणी क्रम में एक धारा ट्रांसफार्मर जोड़कर"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (By connecting a shunt resistance of suitable value in parallel with the ammeter). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (एमीटर के साथ समांतर क्रम में उपयुक्त मान वाला एक शंट प्रतिरोध जोड़कर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (By connecting a shunt resistance of suitable value in parallel with the ammeter). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (एमीटर के साथ समांतर क्रम में उपयुक्त मान वाला एक शंट प्रतिरोध जोड़कर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -712,8 +712,8 @@
       "hi": [
         "उभयधारा मोटर से प्रचालित साधित्रों",
         "3- फेज प्रेरण मोटर परिपथों",
-        "एकल - फेज प्रेरण मोटर प्रणालियों",
-        "दिष्ट धारा शंट मोटर ड्राइव"
+        "दिष्ट धारा शंट मोटर ड्राइव",
+        "एकल - फेज प्रेरण मोटर प्रणालियों"
       ]
     },
     "correctIndex": 1,
@@ -721,8 +721,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Three-phase induction motor circuits). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (3- फेज प्रेरण मोटर परिपथों)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Three-phase induction motor circuits). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (3- फेज प्रेरण मोटर परिपथों)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -744,8 +744,8 @@
       ],
       "hi": [
         "उच्च वोल्टता उत्पादन",
-        "उच्च धारा क्षमता",
         "एकाधिक ब्रशों की आवश्यकता",
+        "उच्च धारा क्षमता",
         "निम्न वोल्टता उत्पादन"
       ]
     },
@@ -754,8 +754,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (High voltage generation). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (उच्च वोल्टता उत्पादन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (High voltage generation). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (उच्च वोल्टता उत्पादन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -770,25 +770,25 @@
     },
     "options": {
       "en": [
-        "compressed and inserted into a heated outer component, producing a permanent clearance fit after assembly. Both mating components are cooled before assembly,",
-        "producing a permanent interference fit after returning to ambient temperature. Both mating components are heated uniformly before",
-        "assembly, producing a clearance fit after cooling to ambient temperature. A metallic outer component is heated to expand",
-        "its internal diameter and assembled over a cooler mating component, producing an interference fit after cooling to ambient temperature."
+        "A cooled inner component is mechanically compressed and inserted into a heated outer component, producing a permanent clearance fit after assembly.",
+        "Both mating components are cooled before assembly, producing a permanent interference fit after returning to ambient temperature.",
+        "Both mating components are heated uniformly before assembly, producing a clearance fit after cooling to ambient temperature.",
+        "A metallic outer component is heated to expand its internal diameter and assembled over a cooler mating component, producing an interference fit after cooling to ambient temperature."
       ],
       "hi": [
-        "जिससे परिवेशी तापमान पर लौटने के बाद एक स्थायी व्यतिकरण फिट उत्पन्न होती है। एक शीतलित आंतरिक घटक को यांत्रिक रूप से संपीडित करके एक",
-        "तप्त बाह्य घटक में निविष्ट किया जाता है , जिससे समन्वायोजन के बाद एक स्थायी अवकाशी फिट उत्पन्न होती है। एक धात्विक बाह्य घटक को उसके आंतरिक व्यास को बढ़ाने",
-        "के लिए तप्त किया जाता है और एक शीतलित मेटिंग घटक पर समन्वायोजित किया जाता है , जिससे परिवेशी तापमान तक शीतलित होने के बाद एक व्यतिकरण फिट उत्पन्न होती है। समन्वायोजन से पहले दोनों मेटिंग घटकों को समान रूप से तप्त",
-        "किया जाता है , जिससे परिवेशी तापमान तक शीतलित होने के बाद अवकाशी फिट प्राप्त होती है।"
+        "एक शीतलित आंतरिक घटक को यांत्रिक रूप से संपीडित करके एक तप्त बाह्य घटक में निविष्ट किया जाता है, जिससे समन्वायोजन के बाद एक स्थायी अवकाशी फिट उत्पन्न होती है।",
+        "समन्वायोजन से पहले दोनों मेटिंग घटकों को शीतलित किया जाता है, जिससे परिवेशी तापमान पर लौटने के बाद एक स्थायी व्यतिकरण फिट उत्पन्न होती है।",
+        "समन्वायोजन से पहले दोनों मेटिंग घटकों को समान रूप से तप्त किया जाता है, जिससे परिवेशी तापमान तक शीतलित होने के बाद अवकाशी फिट प्राप्त होती है।",
+        "एक धात्विक बाह्य घटक को उसके आंतरिक व्यास को बढ़ाने के लिए तप्त किया जाता है और एक शीतलित मेटिंग घटक पर समन्वायोजित किया जाता है, जिससे परिवेशी तापमान तक शीतलित होने के बाद एक व्यतिकरण फिट उत्पन्न होती है।"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (its internal diameter and assembled over a cooler mating component, producing an interference fit after cooling to ambient temperature.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (के लिए तप्त किया जाता है और एक शीतलित मेटिंग घटक पर समन्वायोजित किया जाता है , जिससे परिवेशी तापमान तक शीतलित होने के बाद एक व्यतिकरण फिट उत्पन्न होती है। समन्वायोजन से पहले दोनों मेटिंग घटकों को समान रूप से तप्त)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (A metallic outer component is heated to expand its internal diameter and assembled over a cooler mating component, producing an interference fit after cooling to ambient temperature.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (एक धात्विक बाह्य घटक को उसके आंतरिक व्यास को बढ़ाने के लिए तप्त किया जाता है और एक शीतलित मेटिंग घटक पर समन्वायोजित किया जाता है, जिससे परिवेशी तापमान तक शीतलित होने के बाद एक व्यतिकरण फिट उत्पन्न होती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -809,19 +809,19 @@
         "To communicate details only with higher management staff"
       ],
       "hi": [
-        "विवरणों के बारे में केवल उच्च प्रबंधन कर्मचारियों को ही संसूचित करना",
-        "कार्यों का समन्वय करना और सभी को उचित सूचना प्रदान करना",
         "केवल चयनित कर्मचारियों को ही जिम्मेदारियां सौंपना",
-        "संबंधित बाह्य एजेंसियों से सूचना न साझा करना"
+        "संबंधित बाह्य एजेंसियों से सूचना न साझा करना",
+        "कार्यों का समन्वय करना और सभी को उचित सूचना प्रदान करना",
+        "विवरणों के बारे में केवल उच्च प्रबंधन कर्मचारियों को ही संसूचित करना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (To coordinate actions and keep everyone properly informed). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (कार्यों का समन्वय करना और सभी को उचित सूचना प्रदान करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (To coordinate actions and keep everyone properly informed). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (कार्यों का समन्वय करना और सभी को उचित सूचना प्रदान करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -842,19 +842,19 @@
         "Thermal tachometer"
       ],
       "hi": [
-        "एनालॉग टैकोमीटर",
         "यांत्रिक टैकोमीटर",
-        "तापीय टैकोमीटर",
-        "विद्युत टैकोमीटर"
+        "विद्युत टैकोमीटर",
+        "एनालॉग टैकोमीटर",
+        "तापीय टैकोमीटर"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Electronic tachometer). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (विद्युत टैकोमीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Electronic tachometer). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (विद्युत टैकोमीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -875,19 +875,19 @@
         "112.5"
       ],
       "hi": [
-        "112.5",
-        "125.0",
+        "150.0",
         "187.5",
-        "150.0"
+        "125.0",
+        "112.5"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (187.5). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (187.5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (187.5). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (187.5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -908,19 +908,19 @@
         "Conductance"
       ],
       "hi": [
-        "प्रतिरोध (Resistance)",
-        "धारिता (Capacitance)",
         "प्रेरकत्व (Inductance)",
+        "धारिता (Capacitance)",
+        "प्रतिरोध (Resistance)",
         "चालकत्व (Conductance)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Resistance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (प्रतिरोध (Resistance))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Resistance). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (प्रतिरोध (Resistance))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -952,8 +952,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (To avoid damage due to weak insulation.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (दुर्बल विद्युत - रोधन से होने वाली क्षति को रोकने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (To avoid damage due to weak insulation.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (दुर्बल विद्युत - रोधन से होने वाली क्षति को रोकने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -974,19 +974,19 @@
         "36"
       ],
       "hi": [
-        "36",
-        "20",
         "25",
-        "16"
+        "16",
+        "20",
+        "36"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (20). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (20)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (20). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (20)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1009,8 +1009,8 @@
       "hi": [
         "यह भारी लोड (heavy load) के अधीन अधिक स्थायी होता है",
         "इसमें हानियां कम होती हैं",
-        "यह बड़ी मोटरों के लिए बेहतर होता है यह समान धारा रेटिंग (current rating) के लिए कम शक्ति",
-        "प्रदान करता है"
+        "यह बड़ी मोटरों के लिए बेहतर होता है",
+        "यह समान धारा रेटिंग (current rating) के लिए कम शक्ति प्रदान करता है"
       ]
     },
     "correctIndex": 3,
@@ -1018,8 +1018,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It delivers less power for the same current rating). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (प्रदान करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It delivers less power for the same current rating). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (यह समान धारा रेटिंग (current rating) के लिए कम शक्ति प्रदान करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1040,19 +1040,19 @@
         "Oleoresinous baking varnish requiring prolonged thermal curing for impregnation stability"
       ],
       "hi": [
-        "spirit varnish), जो परिवेशी परिस्थितियों में इन्सुलेशन के तेजी से शुष्कन की सुविधा देता है सॉल्वेंटलेस एपॉक्सी संसेचन वार्निश (Solventless epoxy",
-        "impregnation varnish), जिसे उपचार (cure) करने के लिए विशेष प्रसंस्करण उपकरणों की आवश्यकता होती है ओलियोरेसिनस बेकिंग वार्निश (Oleoresinous baking",
-        "varnish), जिसके संसेचन स्थायित्व के लिए लंबे समय तक ऊष्मा उपचार की आवश्यकता होती है थर्मोसेटिंग बेकिंग वार्निश (Thermosetting baking varnish),",
-        "जिसके लिए इन्सुलेशन कठोर होने के लिए नियंत्रित ऊष्मा उपचार की आवश्यकता होती है"
+        "सॉल्वेंटलेस एपॉक्सी संसेचन वार्निश (Solventless epoxy impregnation varnish), जिसे उपचार (cure) करने के लिए विशेष प्रसंस्करण उपकरणों की आवश्यकता होती है",
+        "एयर-ड्राइंग शैलैक स्पिरिट वार्निश (Air-drying shellac spirit varnish), जो परिवेशी परिस्थितियों में इन्सुलेशन के तेजी से शुष्कन की सुविधा देता है",
+        "थर्मोसेटिंग बेकिंग वार्निश (Thermosetting baking varnish), जिसके लिए इन्सुलेशन कठोर होने के लिए नियंत्रित ऊष्मा उपचार की आवश्यकता होती है",
+        "ओलियोरेसिनस बेकिंग वार्निश (Oleoresinous baking varnish), जिसके संसेचन स्थायित्व के लिए लंबे समय तक ऊष्मा उपचार की आवश्यकता होती है"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Air-drying shellac spirit varnish allowing rapid insulation drying under ambient conditions). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (spirit varnish), जो परिवेशी परिस्थितियों में इन्सुलेशन के तेजी से शुष्कन की सुविधा देता है सॉल्वेंटलेस एपॉक्सी संसेचन वार्निश (Solventless epoxy)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Air-drying shellac spirit varnish allowing rapid insulation drying under ambient conditions). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (एयर-ड्राइंग शैलैक स्पिरिट वार्निश (Air-drying shellac spirit varnish), जो परिवेशी परिस्थितियों में इन्सुलेशन के तेजी से शुष्कन की सुविधा देता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1073,10 +1073,10 @@
         "Selecting thicker insulation material for the winding wire"
       ],
       "hi": [
-        "वाइंडिंग तार के लिए अपेक्षाकृ त मोटे इन्सुलेशन सामग्री का चयन करना",
+        "पूरी कुं डली में समान वाइंडिंग तनन बनाए रखना",
         "रूपक पृष्ठ पर सुरक्षात्मक कोटिंग अनुप्रयुक्त करना",
         "कुं डली के कोनों पर सटीक कोण और विमाएं निर्मित करना",
-        "पूरी कुं डली में समान वाइंडिंग तनन बनाए रखना"
+        "वाइंडिंग तार के लिए अपेक्षाकृ त मोटे इन्सुलेशन सामग्री का चयन करना"
       ]
     },
     "correctIndex": 2,
@@ -1084,8 +1084,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Forming precise angles and dimensions at the coil corners). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (कुं डली के कोनों पर सटीक कोण और विमाएं निर्मित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Forming precise angles and dimensions at the coil corners). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (कुं डली के कोनों पर सटीक कोण और विमाएं निर्मित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1108,17 +1108,17 @@
       "hi": [
         "मशीनन प्रक्रियाओं के दौरान घूर्णी मशीन घटकों को आलंबित करना",
         "कर्तन उपकरण को गाइड किए बिना कार्यवस्तु को दृढ़ता से आलंबित करना कार्यवस्तु को सुरक्षित रूप से होल्ड (hold) करना और कर्तन",
-        "उपकरण को सटीक रूप से गाइड करना",
-        "समन्वायोजन प्रक्रमों के दौरान अस्थायी रूप से होल्डिंग बल (holding force) प्रयुक्त करना"
+        "समन्वायोजन प्रक्रमों के दौरान अस्थायी रूप से होल्डिंग बल (holding force) प्रयुक्त करना",
+        "उपकरण को सटीक रूप से गाइड करना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Securely holding the workpiece and accurately guiding the cutting tool). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (उपकरण को सटीक रूप से गाइड करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Securely holding the workpiece and accurately guiding the cutting tool). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (उपकरण को सटीक रूप से गाइड करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1139,19 +1139,19 @@
         "They serve as supporting and forming tools"
       ],
       "hi": [
+        "ये तापन और बंकन टूलों के रूप में कार्य करते हैं",
         "ये कर्तन और वेल्डिंग टूलों के रूप में कार्य करते हैं",
-        "ये सहायक और अभिरूपण टूलों के रूप में कार्य करते हैं",
         "ये मापक और मार्किंग टूलों के रूप में कार्य करते हैं",
-        "ये तापन और बंकन टूलों के रूप में कार्य करते हैं"
+        "ये सहायक और अभिरूपण टूलों के रूप में कार्य करते हैं"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (They serve as supporting and forming tools). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (ये सहायक और अभिरूपण टूलों के रूप में कार्य करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (They serve as supporting and forming tools). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (ये सहायक और अभिरूपण टूलों के रूप में कार्य करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1172,19 +1172,19 @@
         "No load open circuit condition"
       ],
       "hi": [
-        "पश्चगामी शक्ति गुणांक लोड स्थिति",
-        "लोड रहित विवृत परिपथ स्थिति",
+        "अग्रगामी शक्ति गुणांक लोड स्थिति",
         "शून्य उत्तेजन प्रचालन स्थिति",
-        "अग्रगामी शक्ति गुणांक लोड स्थिति"
+        "पश्चगामी शक्ति गुणांक लोड स्थिति",
+        "लोड रहित विवृत परिपथ स्थिति"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Lagging power factor load condition). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (पश्चगामी शक्ति गुणांक लोड स्थिति)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Lagging power factor load condition). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (पश्चगामी शक्ति गुणांक लोड स्थिति)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1205,19 +1205,19 @@
         "18 m"
       ],
       "hi": [
-        "12 m",
         "15 m",
+        "12 m",
         "10 m",
         "18 m"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (15 m). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (15 m)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (15 m). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (15 m)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1238,19 +1238,19 @@
         "Digital voltmeter configured for continuity measurement"
       ],
       "hi": [
-        "stand)",
+        "विद्युतरोधी टर्मिनल अटैचमेंट वाला सोल्डरिंग स्टेशन (Soldering station)",
         "बिना तनाव नियंत्रण के मैन्युअल तार खींचने की व्यवस्था",
-        "निरंतरता मापन के लिए कॉन्फ़िगर किया गया डिजिटल वोल्टमीटर",
-        "विद्युतरोधी टर्मिनल अटैचमेंट वाला सोल्डरिंग स्टेशन (Soldering station)"
+        "समायोज्य तनाव तंत्र से सुसज्जित वायर रील स्टैंड (Wire reel stand)",
+        "निरंतरता मापन के लिए कॉन्फ़िगर किया गया डिजिटल वोल्टमीटर"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Wire reel stand equipped with an adjustable tensioning mechanism). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (stand))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Wire reel stand equipped with an adjustable tensioning mechanism). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (समायोज्य तनाव तंत्र से सुसज्जित वायर रील स्टैंड (Wire reel stand))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1271,19 +1271,19 @@
         "Mechanical Resonance"
       ],
       "hi": [
+        "कू लॉम नियम",
         "फै राडे का विद्युत चुम्बकीय प्रेरण नियम",
         "ऊष्मा चालन",
-        "कू लॉम नियम",
         "यांत्रिक अनुनाद"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Faraday's Law of Electromagnetic Induction). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (फै राडे का विद्युत चुम्बकीय प्रेरण नियम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Faraday's Law of Electromagnetic Induction). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (फै राडे का विद्युत चुम्बकीय प्रेरण नियम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1304,19 +1304,19 @@
         "6 m"
       ],
       "hi": [
-        "6 m",
-        "9 m",
+        "8 m",
         "7 m",
-        "8 m"
+        "9 m",
+        "6 m"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (9 m). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (9 m)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (9 m). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (9 m)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1337,19 +1337,19 @@
         "Self-induction"
       ],
       "hi": [
-        "स्व - प्रेरण",
         "स्थिर - वैद्युत प्रेरण",
         "अन्योन्य प्रेरण",
-        "विद्युत - चुंबकीय प्रेरण"
+        "विद्युत - चुंबकीय प्रेरण",
+        "स्व - प्रेरण"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Electromagnetic induction). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (विद्युत - चुंबकीय प्रेरण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Electromagnetic induction). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विद्युत - चुंबकीय प्रेरण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1370,10 +1370,10 @@
         "To convert AC voltage into DC voltage"
       ],
       "hi": [
+        "विद्युत ऊर्जा को चुंबकीय रूप से संग्रहित करना",
         "निश्चित आवृत्ति पर AC वोल्टता उत्पन्न करना",
-        "AC वोल्टता को DC वोल्टता में रूपांतरित करना",
         "समान आवृत्ति पर AC वोल्टता को परिवर्तित करना",
-        "विद्युत ऊर्जा को चुंबकीय रूप से संग्रहित करना"
+        "AC वोल्टता को DC वोल्टता में रूपांतरित करना"
       ]
     },
     "correctIndex": 2,
@@ -1381,8 +1381,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (To change AC voltage at the same frequency). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (समान आवृत्ति पर AC वोल्टता को परिवर्तित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (To change AC voltage at the same frequency). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (समान आवृत्ति पर AC वोल्टता को परिवर्तित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1403,19 +1403,19 @@
         "Reduced likelihood of workplace injuries and accidents"
       ],
       "hi": [
-        "कर्मचारियों के लिए निर्धारित लंच ब्रेक की अवधि में कमी",
-        "कार्यस्थल पर चोट लगने और दुर्घटनाओं की संभावना में कमी",
+        "उत्पादन के दौरान कर्मचारियों के कार्य - समय में वृद्धि",
         "कं पनी के कर्मचारियों पर अधिरोपित अपेक्षाकृ त उच्च वित्तीय कर",
-        "उत्पादन के दौरान कर्मचारियों के कार्य - समय में वृद्धि"
+        "कर्मचारियों के लिए निर्धारित लंच ब्रेक की अवधि में कमी",
+        "कार्यस्थल पर चोट लगने और दुर्घटनाओं की संभावना में कमी"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Reduced likelihood of workplace injuries and accidents). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (कार्यस्थल पर चोट लगने और दुर्घटनाओं की संभावना में कमी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Reduced likelihood of workplace injuries and accidents). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (कार्यस्थल पर चोट लगने और दुर्घटनाओं की संभावना में कमी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1436,19 +1436,19 @@
         "Starter to fuse, switch to relay, and cable to terminal"
       ],
       "hi": [
-        "बॉडी से स्टार्टिंग वाइंडिंग , बॉडी से रनिंग वाइंडिंग , और वाइंडिंग के बीच",
         "फेज से न्यू ट्रल , फेज से फेज , और न्यू ट्रल से अर्थ",
-        "स्टार्टर से फ्यूज , स्विच से रिले , और के बल से टर्मिनल",
-        "आर्मेचर से कम्यूटेटर , ब्रश से स्प्रिंग , और शाफ्ट से बॉडी"
+        "आर्मेचर से कम्यूटेटर , ब्रश से स्प्रिंग , और शाफ्ट से बॉडी",
+        "बॉडी से स्टार्टिंग वाइंडिंग , बॉडी से रनिंग वाइंडिंग , और वाइंडिंग के बीच",
+        "स्टार्टर से फ्यूज , स्विच से रिले , और के बल से टर्मिनल"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Body to starting winding, body to running winding, and between windings). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (बॉडी से स्टार्टिंग वाइंडिंग , बॉडी से रनिंग वाइंडिंग , और वाइंडिंग के बीच)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Body to starting winding, body to running winding, and between windings). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बॉडी से स्टार्टिंग वाइंडिंग , बॉडी से रनिंग वाइंडिंग , और वाइंडिंग के बीच)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1469,19 +1469,19 @@
         "Sharpening the tip and polishing regularly"
       ],
       "hi": [
-        "टिप को नियमित रूप से तीक्ष् ण करना और पॉलिश करना",
-        "पृष्ठ पर नियमित रूप से तेल को अनुप्रयुक्त करना",
+        "प्रत्येक उपयोग से पहले पृष्ठ को नम करना",
         "इसे सीधा रखते हुए निघर्षण की जांच करना",
-        "प्रत्येक उपयोग से पहले पृष्ठ को नम करना"
+        "पृष्ठ पर नियमित रूप से तेल को अनुप्रयुक्त करना",
+        "टिप को नियमित रूप से तीक्ष् ण करना और पॉलिश करना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Sharpening the tip and polishing regularly). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (टिप को नियमित रूप से तीक्ष् ण करना और पॉलिश करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Sharpening the tip and polishing regularly). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (टिप को नियमित रूप से तीक्ष् ण करना और पॉलिश करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1502,9 +1502,9 @@
         "The winding resistance is reduced significantly"
       ],
       "hi": [
-        "मशीन का फेज अनुक्रम प्रतिलोमित हो जाता है",
-        "निर्गत वोल्टता में तृतीय हार्मोनिक EMF, न्यूनतम हो जाता है",
         "मूल EMF में पर्याप्त वृद्धि हो जाती है",
+        "निर्गत वोल्टता में तृतीय हार्मोनिक EMF, न्यूनतम हो जाता है",
+        "मशीन का फेज अनुक्रम प्रतिलोमित हो जाता है",
         "वाइंडिंग प्रतिरोध में पर्याप्त कमी हो जाती है"
       ]
     },
@@ -1513,8 +1513,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The third harmonic EMF is minimized in the output voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (निर्गत वोल्टता में तृतीय हार्मोनिक EMF, न्यूनतम हो जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The third harmonic EMF is minimized in the output voltage). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (निर्गत वोल्टता में तृतीय हार्मोनिक EMF, न्यूनतम हो जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1536,18 +1536,18 @@
       ],
       "hi": [
         "पिंजरी मोटर (Squirrel cage motor)",
-        "सार्वत्रिक मोटर (Universal motor)",
         "प्रतिष्टम्भ मोटर (Reluctance motor)",
+        "सार्वत्रिक मोटर (Universal motor)",
         "छायित ध्रुव मोटर (Shaded pole motor)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Universal motor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (सार्वत्रिक मोटर (Universal motor))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Universal motor). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (सार्वत्रिक मोटर (Universal motor))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1568,19 +1568,19 @@
         "40 A"
       ],
       "hi": [
-        "20 A",
-        "40 A",
         "60 A",
-        "80 A"
+        "80 A",
+        "20 A",
+        "40 A"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (80 A). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (80 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (80 A). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (80 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1601,19 +1601,19 @@
         "Inspection tag"
       ],
       "hi": [
+        "मटेरियल रिटर्न स्लिप (Material return slip)",
         "अटेंडेंस रजिस्टर (Attendance register)",
         "जॉब आर्डर (Job order)",
-        "मटेरियल रिटर्न स्लिप (Material return slip)",
         "इंस्पेक्शन टैग (Inspection tag)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Job order). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (जॉब आर्डर (Job order))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Job order). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (जॉब आर्डर (Job order))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1628,16 +1628,16 @@
     },
     "options": {
       "en": [
-        "To provide additional mechanical reinforcement for rotating and stationary assembly components To provide standardized equipment identification",
-        "and rated operating specifications for the assembled electrical machine",
+        "To provide additional mechanical reinforcement for rotating and stationary assembly components",
+        "To provide standardized equipment identification and rated operating specifications for the assembled electrical machine",
         "To provide dynamic balancing correction for the rotating assembly during high-speed operation",
         "To provide supplementary electrical insulation between energized conductive machine components"
       ],
       "hi": [
-        "करना",
+        "घूर्णी और स्थिर असेंबली घटकों के लिए अतिरिक्त यांत्रिक सुदृढ़ीकरण प्रदान करना",
         "असेंबल की गई विद्युत मशीन के लिए मानकीकृ त उपस्कर पहचान और निर्धारित प्रचालन विनिर्देश प्रदान कराना",
         "उच्च चाल प्रचालन के दौरान घूर्णी असेंबली के लिए गतिक संतुलन सुधार प्रदान करना",
-        "घूर्णी और स्थिर असेंबली घटकों के लिए अतिरिक्त यांत्रिक सुदृढीकरण प्रदान करना"
+        "ऊर्जित चालकीय मशीन घटकों के बीच अतिरिक्त विद्युत रोधन प्रदान करना"
       ]
     },
     "correctIndex": 1,
@@ -1645,8 +1645,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (and rated operating specifications for the assembled electrical machine). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (असेंबल की गई विद्युत मशीन के लिए मानकीकृ त उपस्कर पहचान और निर्धारित प्रचालन विनिर्देश प्रदान कराना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (To provide standardized equipment identification and rated operating specifications for the assembled electrical machine). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (असेंबल की गई विद्युत मशीन के लिए मानकीकृ त उपस्कर पहचान और निर्धारित प्रचालन विनिर्देश प्रदान कराना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1667,19 +1667,19 @@
         "Because DC voltage cannot be converted into AC voltage"
       ],
       "hi": [
-        "सकता",
-        "क्योंकि प्रत्यावर्ती वोल्टता में कोई ऊष्मीय हानि नहीं होती",
+        "क्योंकि घूर्णी प्रत्यावर्तित्र स्वाभाविक रूप से ज्यावक्रीय प्रत्यावर्ती emf उत्पन्न करते हैं",
         "क्योंकि बैटरियां प्रत्यक्ष रूप से प्रत्यावर्ती वोल्टता उत्पन्न करती हैं",
-        "क्योंकि घूर्णी प्रत्यावर्तित्र स्वाभाविक रूप से ज्यावक्रीय प्रत्यावर्ती emf उत्पन्न करते हैं"
+        "क्योंकि प्रत्यावर्ती वोल्टता में कोई ऊष्मीय हानि नहीं होती",
+        "क्योंकि DC वोल्टता को AC वोल्टता में परिवर्तित नहीं किया जा सकता"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Because rotating alternators naturally produce sinusoidal alternating emf). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (क्योंकि घूर्णी प्रत्यावर्तित्र स्वाभाविक रूप से ज्यावक्रीय प्रत्यावर्ती emf उत्पन्न करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Because rotating alternators naturally produce sinusoidal alternating emf). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (क्योंकि घूर्णी प्रत्यावर्तित्र स्वाभाविक रूप से ज्यावक्रीय प्रत्यावर्ती emf उत्पन्न करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1695,24 +1695,24 @@
     "options": {
       "en": [
         "Remove conductor insulation, wind all stator coils, and terminate end connections",
-        "Start with the outermost coil, insert slot wedges, and wind remaining stator coils Wind the innermost coil first, continue with",
-        "progressively larger coils, and bring out end connections",
+        "Start with the outermost coil, insert slot wedges, and wind remaining stator coils",
+        "Wind the innermost coil first, continue with progressively larger coils, and bring out end connections",
         "Insert insulating guide paper, wind all stator coils simultaneously, and clamp winding ends"
       ],
       "hi": [
-        "होती कुं डली को लपेटते जाएं और अंत में कनेक्शन के सिरे बाहर निकालें चालक का रोधन हटाएं , सभी स्टेटर कुं डलियों को लपेटें , और अंतिम",
-        "कनेक्शन समाप्त करें",
-        "रोधक गाइड पेपर प्रविष्ट करें , सभी स्टेटर कुं डलियों को एक साथ लपेटें , और वाइंडिंग के सिरों को क्लैंप करें",
-        "सबसे बाहरी कुं डली से शुरू करें , स्लॉट वेज प्रविष्ट करें , और शेष स्टेटर कुं डलियों को लपेटें"
+        "चालक का रोधन हटाएं, सभी स्टेटर कुंडलियों को लपेटें, और अंतिम कनेक्शन समाप्त करें",
+        "सबसे बाहरी कुंडली से शुरू करें, स्लॉट वेज प्रविष्ट करें, और शेष स्टेटर कुंडलियों को लपेटें",
+        "सबसे भीतरी कुंडली को पहले लपेटें, उत्तरोत्तर बड़ी होती कुंडली को लपेटते जाएं और अंत में कनेक्शन के सिरे बाहर निकालें",
+        "रोधक गाइड पेपर प्रविष्ट करें, सभी स्टेटर कुंडलियों को एक साथ लपेटें, और वाइंडिंग के सिरों को क्लैंप करें"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (progressively larger coils, and bring out end connections). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (होती कुं डली को लपेटते जाएं और अंत में कनेक्शन के सिरे बाहर निकालें चालक का रोधन हटाएं , सभी स्टेटर कुं डलियों को लपेटें , और अंतिम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Wind the innermost coil first, continue with progressively larger coils, and bring out end connections). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (सबसे भीतरी कुंडली को पहले लपेटें, उत्तरोत्तर बड़ी होती कुंडली को लपेटते जाएं और अंत में कनेक्शन के सिरे बाहर निकालें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1733,19 +1733,19 @@
         "0.5"
       ],
       "hi": [
-        "0.5",
-        "-1",
         "0",
-        "1"
+        "1",
+        "-1",
+        "0.5"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (0). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (0)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (0). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (0)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1756,29 +1756,29 @@
     "topic": "Armature & Coil Winder Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
     "question": {
       "en": "Which sequence correctly describes the standard order of making end connections during rewinding of a three-phase AC motor stator winding?",
-      "hi": "किसी 3- फेज AC मोटर की स्टेटर वाइंडिंग की रीवाइंडिंग (rewinding) के दौरान , सिरों के संयोजन (end connections) करने के मानक क्रम को निम्नलिखित में से कौन - सा अनुक्रम सही से वर्णित करता है ? सबसे पहले टर्मिनल लीड (terminal lead) संयोजन , फिर अंतर -"
+      "hi": "किसी 3- फेज AC मोटर की स्टेटर वाइंडिंग की रीवाइंडिंग (rewinding) के दौरान , सिरों के संयोजन (end connections) करने के मानक क्रम को निम्नलिखित में से कौन - सा अनुक्रम सही से वर्णित करता है ?"
     },
     "options": {
       "en": [
         "First coil-group connections, then terminal lead connections, and finally inter-coil connections",
         "First terminal lead connections, then coil-group connections, and finally inter-coil connections",
-        "First terminal lead connections, then inter-coil connections, and finally coil-group connections First inter-coil connections, then coil-group",
-        "connections, and finally terminal lead connections"
+        "First terminal lead connections, then inter-coil connections, and finally coil-group connections",
+        "First inter-coil connections, then coil-group connections, and finally terminal lead connections"
       ],
       "hi": [
-        "कुं डली संयोजन , और अंत में कुं डली - समूह संयोजन",
-        "सबसे पहले अंतर - कुं डली (inter-coil) संयोजन , फिर कुं डली - समूह संयोजन , और अंत में टर्मिनल लीड संयोजन",
-        "सबसे पहले टर्मिनल लीड (terminal lead) संयोजन , फिर कुं डली - समूह संयोजन , और अंत में अंतर - कुं डली संयोजन सबसे पहले कुं डली - समूह (coil-group) संयोजन , फिर टर्मिनल",
-        "लीड संयोजन , और अंत में अंतर - कुं डली संयोजन"
+        "सबसे पहले कुं डली - समूह (coil-group) संयोजन , फिर टर्मिनल लीड संयोजन , और अंत में अंतर - कुं डली संयोजन",
+        "सबसे पहले टर्मिनल लीड (terminal lead) संयोजन , फिर कुं डली - समूह संयोजन , और अंत में अंतर - कुं डली संयोजन",
+        "सबसे पहले टर्मिनल लीड (terminal lead) संयोजन , फिर अंतर - कुं डली संयोजन , और अंत में कुं डली - समूह संयोजन",
+        "सबसे पहले अंतर - कुं डली (inter-coil) संयोजन , फिर कुं डली - समूह संयोजन , और अंत में टर्मिनल लीड संयोजन"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (connections, and finally terminal lead connections). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (सबसे पहले अंतर - कुं डली (inter-coil) संयोजन , फिर कुं डली - समूह संयोजन , और अंत में टर्मिनल लीड संयोजन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (First inter-coil connections, then coil-group connections, and finally terminal lead connections). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (सबसे पहले अंतर - कुं डली (inter-coil) संयोजन , फिर कुं डली - समूह संयोजन , और अंत में टर्मिनल लीड संयोजन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1799,19 +1799,19 @@
         "By measuring insulation resistance between winding conductors and grounded machine body"
       ],
       "hi": [
-        "प्रत्येक लाइन टर्मिनल और एक न्यू ट्रल कनेक्शन बिंदु के बीच वाइंडिंग प्रतिरोध को मापकर वाइंडिंग चालकों और भू - संपर्कित मशीन बॉडी के बीच विद्युत - रोधन",
-        "प्रतिरोध को मापकर",
-        "लाइन टर्मिनलों और एक विद्युत न्यू ट्रल बिंदु के बीच फेज वोल्टता को मापकर",
-        "सभी फेज टर्मिनल युग्मों के बीच फेज सांतत्य और संवृत - लूप विद्युत पथों की पुष्टि करके"
+        "प्रत्येक लाइन टर्मिनल और एक न्यूट्रल कनेक्शन बिंदु के बीच वाइंडिंग प्रतिरोध को मापकर",
+        "सभी फेज टर्मिनल युग्मों के बीच फेज सांतत्य और संवृत-लूप विद्युत पथों की पुष्टि करके",
+        "लाइन टर्मिनलों और एक विद्युत न्यूट्रल बिंदु के बीच फेज वोल्टता को मापकर",
+        "वाइंडिंग चालकों और भू-संपर्कित मशीन बॉडी के बीच विद्युत-रोधन प्रतिरोध को मापकर"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (By confirming phase continuity and closed-loop electrical paths between all phase terminal pairs). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (सभी फेज टर्मिनल युग्मों के बीच फेज सांतत्य और संवृत - लूप विद्युत पथों की पुष्टि करके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (By confirming phase continuity and closed-loop electrical paths between all phase terminal pairs). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सभी फेज टर्मिनल युग्मों के बीच फेज सांतत्य और संवृत-लूप विद्युत पथों की पुष्टि करके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1832,19 +1832,19 @@
         "Reducing the number of turns in the coil"
       ],
       "hi": [
+        "दाब कुं डली के साथ श्रेणीक्रम में उच्च प्रतिरोध का उपयोग करना",
         "कुं डली के प्रतिरोध में कमी करना",
-        "कुं डली में फे रों की संख्या में कमी करना",
         "कुं डली के साथ समांतर - क्रम में निम्न प्रतिरोध को संयोजित करना",
-        "दाब कुं डली के साथ श्रेणीक्रम में उच्च प्रतिरोध का उपयोग करना"
+        "कुं डली में फे रों की संख्या में कमी करना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Using a high resistance in series with the pressure coil). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (दाब कुं डली के साथ श्रेणीक्रम में उच्च प्रतिरोध का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Using a high resistance in series with the pressure coil). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (दाब कुं डली के साथ श्रेणीक्रम में उच्च प्रतिरोध का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1865,10 +1865,10 @@
         "The armature winding resistance distribution is electrically nonuniform"
       ],
       "hi": [
-        "आर्मेचर कुं डलन प्रतिरोध वितरण विद्युत रूप से असमान है",
-        "आर्मेचर रोटर स्थैतिक रूप से संतुलित है रोटर पर एक अतिरिक्त संतुलन प्रतिभार (balancing",
-        "counterweight) की आवश्यकता है",
-        "रोटर असेंबली पर और अधिक स्थैतिक संतुलन सुधार (static balancing correction) की आवश्यकता है"
+        "रोटर पर एक अतिरिक्त संतुलन प्रतिभार (balancing counterweight) की आवश्यकता है",
+        "आर्मेचर रोटर स्थैतिक रूप से संतुलित है",
+        "रोटर असेंबली पर और अधिक स्थैतिक संतुलन सुधार (static balancing correction) की आवश्यकता है",
+        "आर्मेचर कुंडलन प्रतिरोध वितरण विद्युत रूप से असमान है"
       ]
     },
     "correctIndex": 1,
@@ -1876,8 +1876,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The armature rotor is statically balanced). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (आर्मेचर रोटर स्थैतिक रूप से संतुलित है रोटर पर एक अतिरिक्त संतुलन प्रतिभार (balancing)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The armature rotor is statically balanced). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (आर्मेचर रोटर स्थैतिक रूप से संतुलित है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1898,10 +1898,10 @@
         "Inclined at 45 degrees to the horizontal"
       ],
       "hi": [
-        "क्षैतिज से 45 डिग्री पर आनत",
+        "क्षैतिज से 60 डिग्री पर आनत",
         "क्षैतिज से 90 डिग्री पर आनत",
         "क्षैतिज से 75 डिग्री पर आनत",
-        "क्षैतिज से 60 डिग्री पर आनत"
+        "क्षैतिज से 45 डिग्री पर आनत"
       ]
     },
     "correctIndex": 2,
@@ -1909,8 +1909,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Inclined at 75 degrees to the horizontal). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (क्षैतिज से 75 डिग्री पर आनत)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Inclined at 75 degrees to the horizontal). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (क्षैतिज से 75 डिग्री पर आनत)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1931,19 +1931,19 @@
         "Capacitance"
       ],
       "hi": [
+        "विद्युतरोधी प्रतिरोध",
         "विद्युत धारा",
         "वोल्टता",
-        "विद्युतरोधी प्रतिरोध",
         "धारिता"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Insulation resistance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (विद्युतरोधी प्रतिरोध)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Insulation resistance). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (विद्युतरोधी प्रतिरोध)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1964,19 +1964,19 @@
         "To ensure insulation can withstand high voltage"
       ],
       "hi": [
-        "परीक्षण काल में कमी करने के लिए",
+        "नियत हानियों की गणना करने के लिए",
         "परीक्षण वोल्टता में वृद्धि करने के लिए",
-        "विद्युत - रोधन की उच्च वोल्टता सहन करने की क्षमता सुनिश्चित करने के लिए",
-        "नियत हानियों की गणना करने के लिए"
+        "परीक्षण काल में कमी करने के लिए",
+        "विद्युत - रोधन की उच्च वोल्टता सहन करने की क्षमता सुनिश्चित करने के लिए"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (To ensure insulation can withstand high voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (विद्युत - रोधन की उच्च वोल्टता सहन करने की क्षमता सुनिश्चित करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (To ensure insulation can withstand high voltage). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (विद्युत - रोधन की उच्च वोल्टता सहन करने की क्षमता सुनिश्चित करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1993,23 +1993,23 @@
       "en": [
         "Presence of electrical continuity across all winding terminals during continuity verification testing",
         "Stable conductor resistance value obtained during low-voltage resistance measurement testing",
-        "Minor imbalance in phase winding resistance measured under ambient temperature conditions Significant reduction in insulation resistance",
-        "value under specified direct voltage testing conditions"
+        "Minor imbalance in phase winding resistance measured under ambient temperature conditions",
+        "Significant reduction in insulation resistance value under specified direct voltage testing conditions"
       ],
       "hi": [
         "सातत्य सत्यापन परीक्षण के दौरान सभी वाइंडिंग टर्मिनलों पर विद्युत सातत्य की उपस्थिति",
+        "निम्न-वोल्टता प्रतिरोध मापन परीक्षण के दौरान प्राप्त स्थायी चालक प्रतिरोध मान",
         "परिवेश तापमान स्थितियों के अंतर्गत मापे गए फेज वाइंडिंग प्रतिरोध में मामूली असंतुलन",
-        "निर्दिष्ट दिष्ट वोल्टता परीक्षण स्थितियों के अंतर्गत विद्युतरोधन प्रतिरोध मान में महत्त् वपूर्ण कमी निम्न - वोल्टता प्रतिरोध मापन परीक्षण के दौरान प्राप्त स्थायी चालक",
-        "प्रतिरोध मान"
+        "निर्दिष्ट दिष्ट वोल्टता परीक्षण स्थितियों के अंतर्गत विद्युतरोधन प्रतिरोध मान में महत्त्वपूर्ण कमी"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (value under specified direct voltage testing conditions). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (निर्दिष्ट दिष्ट वोल्टता परीक्षण स्थितियों के अंतर्गत विद्युतरोधन प्रतिरोध मान में महत्त् वपूर्ण कमी निम्न - वोल्टता प्रतिरोध मापन परीक्षण के दौरान प्राप्त स्थायी चालक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Significant reduction in insulation resistance value under specified direct voltage testing conditions). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (निर्दिष्ट दिष्ट वोल्टता परीक्षण स्थितियों के अंतर्गत विद्युतरोधन प्रतिरोध मान में महत्त्वपूर्ण कमी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2030,19 +2030,19 @@
         "They are ceramic-based insulants known as mica."
       ],
       "hi": [
-        "ये प्राकृ तिक ठोस रोधक हैं जिनका उपयोग खनिज तेल के रूप में किया जाता है। ये सिरेमिक - आधारित रोधन हैं जिन्हें माइका के रूप में जाना जाता",
-        "है।",
+        "ये गैसीय रोधक हैं जिन्हें सामान्यतः सिलिकॉन तेल कहा जाता है।",
         "ये कृ त्रिम द्रव रोधक हैं जिन्हें व्यावसायिक रूप से एस्के रेल कहा जाता है।",
-        "ये गैसीय रोधक हैं जिन्हें सामान्यतः सिलिकॉन तेल कहा जाता है।"
+        "ये प्राकृ तिक ठोस रोधक हैं जिनका उपयोग खनिज तेल के रूप में किया जाता है।",
+        "ये सिरेमिक - आधारित रोधन हैं जिन्हें माइका के रूप में जाना जाता है।"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (They are synthetic liquid insulants commercially called Askarel.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (ये कृ त्रिम द्रव रोधक हैं जिन्हें व्यावसायिक रूप से एस्के रेल कहा जाता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (They are synthetic liquid insulants commercially called Askarel.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (ये कृ त्रिम द्रव रोधक हैं जिन्हें व्यावसायिक रूप से एस्के रेल कहा जाता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2063,19 +2063,19 @@
         "Better conductivity"
       ],
       "hi": [
-        "बेहतर चालकता के कारण",
         "उच्च गलनांक के कारण",
         "उच्च प्रतिरोधकता के कारण",
-        "निम्न घनत्व के कारण"
+        "निम्न घनत्व के कारण",
+        "बेहतर चालकता के कारण"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Higher resistivity). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (उच्च प्रतिरोधकता के कारण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Higher resistivity). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (उच्च प्रतिरोधकता के कारण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2096,19 +2096,19 @@
         "low speed machines"
       ],
       "hi": [
-        "निम्न वोल्टता , उच्च धारा वाले अनुप्रयोगों",
-        "निम्न चाल वाली मशीनों",
         "उच्च वोल्टता , निम्न धारा वाले अनुप्रयोगों",
-        "केवल उच्च धारा वाले अनुप्रयोगों"
+        "निम्न वोल्टता , उच्च धारा वाले अनुप्रयोगों",
+        "केवल उच्च धारा वाले अनुप्रयोगों",
+        "निम्न चाल वाली मशीनों"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (high voltage, low current applications). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (उच्च वोल्टता , निम्न धारा वाले अनुप्रयोगों)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (high voltage, low current applications). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (उच्च वोल्टता , निम्न धारा वाले अनुप्रयोगों)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2130,9 +2130,9 @@
       ],
       "hi": [
         "लैंप (Lamp)",
-        "ग्राउंड (Ground)",
         "फ्यूज (Fuse)",
-        "प्रतिरोधक (Resistor)"
+        "प्रतिरोधक (Resistor)",
+        "ग्राउंड (Ground)"
       ]
     },
     "correctIndex": 0,
@@ -2140,8 +2140,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Lamp). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (लैंप (Lamp))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Lamp). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (लैंप (Lamp))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2163,18 +2163,18 @@
       ],
       "hi": [
         "94%",
-        "92%",
         "96%",
+        "92%",
         "98%"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option B is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (96%). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (96%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (96%). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (96%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2195,19 +2195,19 @@
         "All phase currents are in phase with each other"
       ],
       "hi": [
+        "सभी फेज़ धाराओं का परिमाण समान होता है और वे 120 डिग्री से अलग होते हैं",
+        "सभी फेज़ धाराएं असमान और यादृच्छिक रूप से फेज़ में हैं",
         "एक फेज़ में शून्य धारा है जबकि अन्य फेज़ में धारा है",
-        "सभी फेज़ धाराएं एक - दूसरे के समान - फेज़ में हैं",
-        "सभी फेज़ धाराएं असमान और यादृच्छिक रूप से फेज़ में हैं सभी फेज़ धाराओं का परिमाण समान होता है और वे 120",
-        "डिग्री से अलग होते हैं"
+        "सभी फेज़ धाराएं एक - दूसरे के समान - फेज़ में हैं"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (All phase currents have equal magnitude and are 120 degrees apart). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (डिग्री से अलग होते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (All phase currents have equal magnitude and are 120 degrees apart). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सभी फेज़ धाराओं का परिमाण समान होता है और वे 120 डिग्री से अलग होते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2228,19 +2228,19 @@
         "A motor operating only with direct current supply"
       ],
       "hi": [
-        "एक हॉर्सपावर से कम निर्धारित निर्गत शक्ति वाली मोटर",
         "एक वाट से कम निर्धारित निर्गत शक्ति वाली मोटर",
-        "केवल दिष्ट धारा सप्लाई से प्रचालित होने वाली मोटर",
-        "केवल 1000 r.p.m से अधिक चाल पर प्रचालित होने वाली मोटर"
+        "केवल 1000 r.p.m से अधिक चाल पर प्रचालित होने वाली मोटर",
+        "एक हॉर्सपावर से कम निर्धारित निर्गत शक्ति वाली मोटर",
+        "केवल दिष्ट धारा सप्लाई से प्रचालित होने वाली मोटर"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (A motor rated below one horsepower output power). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (एक हॉर्सपावर से कम निर्धारित निर्गत शक्ति वाली मोटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (A motor rated below one horsepower output power). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (एक हॉर्सपावर से कम निर्धारित निर्गत शक्ति वाली मोटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2261,19 +2261,19 @@
         "Reduced speed"
       ],
       "hi": [
-        "बेहतर दक्षता",
-        "चाल में कमी",
+        "अनुचित दिक्परिवर्तन",
         "वोल्टता में वृद्धि",
-        "अनुचित दिक्परिवर्तन"
+        "बेहतर दक्षता",
+        "चाल में कमी"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option A is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Improper commutation). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (अनुचित दिक्परिवर्तन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Improper commutation). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (अनुचित दिक्परिवर्तन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2295,18 +2295,18 @@
       ],
       "hi": [
         "विद्युत कटौती के दौरान बैकअप पावर प्रदान करना",
-        "ओवरलोड या शॉर्ट सर्किट होने पर विद्युत सप्लाई को स्वचालित रूप से बंद करना",
         "सामान्य प्रचालन के दौरान धारा प्रवाह को नियंत्रित करना",
-        "उपकरणों को सप्लाई की जाने वाली वोल्टता को बढ़ाना"
+        "उपकरणों को सप्लाई की जाने वाली वोल्टता को बढ़ाना",
+        "ओवरलोड या शॉर्ट सर्किट होने पर विद्युत सप्लाई को स्वचालित रूप से बंद करना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (To automatically switch off electrical supply in case of overload or short circuit). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (ओवरलोड या शॉर्ट सर्किट होने पर विद्युत सप्लाई को स्वचालित रूप से बंद करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (To automatically switch off electrical supply in case of overload or short circuit). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (ओवरलोड या शॉर्ट सर्किट होने पर विद्युत सप्लाई को स्वचालित रूप से बंद करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2327,19 +2327,19 @@
         "45 watts"
       ],
       "hi": [
-        "45 वाट",
-        "24 वाट",
         "72 वाट",
-        "60 वाट"
+        "24 वाट",
+        "60 वाट",
+        "45 वाट"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (45 watts). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (45 वाट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (45 watts). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (45 वाट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2360,19 +2360,19 @@
         "insulation bonding, and reducing partial discharge within windings"
       ],
       "hi": [
-        "विद्युत मशीन के विनिर्माण असेम्बली के समय को कम करके",
-        "नमी के प्रवेश को रोककर , विद्युतरोधी आबंधन में सुधार करके और वाइंडिंग के भीतर आंशिक डिस्चार्ज को कम करके",
         "विद्युत मशीन के प्रचालन तापमान को सक्रिय रूप से नियंत्रित करके",
-        "चालक वाइंडिंग के भौतिक अनुप्रस्थ - काट क्षेत्रफल को बढ़ाकर"
+        "चालक वाइंडिंग के भौतिक अनुप्रस्थ - काट क्षेत्रफल को बढ़ाकर",
+        "विद्युत मशीन के विनिर्माण असेम्बली के समय को कम करके",
+        "नमी के प्रवेश को रोककर , विद्युतरोधी आबंधन में सुधार करके और वाइंडिंग के भीतर आंशिक डिस्चार्ज को कम करके"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (insulation bonding, and reducing partial discharge within windings). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (नमी के प्रवेश को रोककर , विद्युतरोधी आबंधन में सुधार करके और वाइंडिंग के भीतर आंशिक डिस्चार्ज को कम करके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (insulation bonding, and reducing partial discharge within windings). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (नमी के प्रवेश को रोककर , विद्युतरोधी आबंधन में सुधार करके और वाइंडिंग के भीतर आंशिक डिस्चार्ज को कम करके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2393,19 +2393,19 @@
         "To provide a thermal cooling medium for stator winding heat dissipation"
       ],
       "hi": [
-        "स्टेटर वाइंडिंग के ऊष्मा क्षय के लिए एक ऊष्मीय शीतलन माध्यम प्रदान करना",
-        "स्टेटर स्लॉट में कुं डली निवेशन के दौरान वाइंडिंग चालकों के यांत्रिक अपघर्षण को रोकना",
+        "स्टेटर क्रोड संरचना के भीतर चुंबकीय फ्लक्स घनत्व को बढ़ाना",
         "आसन्न स्टेटर स्लॉट सतहों के बीच विद्युत चालकीय पथ प्रदान करना",
-        "स्टेटर क्रोड संरचना के भीतर चुंबकीय फ्लक्स घनत्व को बढ़ाना"
+        "स्टेटर स्लॉट में कुं डली निवेशन के दौरान वाइंडिंग चालकों के यांत्रिक अपघर्षण को रोकना",
+        "स्टेटर वाइंडिंग के ऊष्मा क्षय के लिए एक ऊष्मीय शीतलन माध्यम प्रदान करना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (To prevent mechanical abrasion of winding conductors during coil insertion into stator slots). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (स्टेटर स्लॉट में कुं डली निवेशन के दौरान वाइंडिंग चालकों के यांत्रिक अपघर्षण को रोकना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (To prevent mechanical abrasion of winding conductors during coil insertion into stator slots). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (स्टेटर स्लॉट में कुं डली निवेशन के दौरान वाइंडिंग चालकों के यांत्रिक अपघर्षण को रोकना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2427,18 +2427,18 @@
       ],
       "hi": [
         "चोटिल अंग को स्प्लिंट की सहायता से अचलीकृ त करना",
+        "तत्काल पेशेवर चिकित्सा सहायता को बुलाना",
         "चोट के ऊपर और नीचे के हिस्से को टेक प्रदान करना",
-        "उसी क्षण अस्थि को मैन्युअल रूप से पुनः संरेखित करने का प्रयास करना",
-        "तत्काल पेशेवर चिकित्सा सहायता को बुलाना"
+        "उसी क्षण अस्थि को मैन्युअल रूप से पुनः संरेखित करने का प्रयास करना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option D is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Attempt to realign the bone manually at that moment). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (उसी क्षण अस्थि को मैन्युअल रूप से पुनः संरेखित करने का प्रयास करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Attempt to realign the bone manually at that moment). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (उसी क्षण अस्थि को मैन्युअल रूप से पुनः संरेखित करने का प्रयास करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2459,8 +2459,8 @@
         "A six-sided polygon with unequal sides"
       ],
       "hi": [
-        "छह भुजाओं वाला एक बहुभुज जिसकी भुजाएँ बराबर हों लेकिन कोण असमान हों",
         "छह भुजाओं वाला एक बहुभुज जिसकी केवल सम्मुख भुजाएँ बराबर हों",
+        "छह भुजाओं वाला एक बहुभुज जिसकी भुजाएँ बराबर हों लेकिन कोण असमान हों",
         "छह भुजाओं वाला एक बहुभुज जिसकी भुजाएँ और कोण बराबर हों",
         "छह भुजाओं वाला एक बहुभुज जिसकी भुजाएँ असमान हों"
       ]
@@ -2470,8 +2470,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Armature & Coil Winder) Answer Key: Option C is verified correct.",
       "keyConcept": "Armature & Coil Winder Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (A six-sided polygon with equal sides and equal angles). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (छह भुजाओं वाला एक बहुभुज जिसकी भुजाएँ और कोण बराबर हों)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (A six-sided polygon with equal sides and equal angles). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (छह भुजाओं वाला एक बहुभुज जिसकी भुजाएँ और कोण बराबर हों)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   }
 ]

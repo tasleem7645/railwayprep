@@ -18,9 +18,9 @@
       ],
       "hi": [
         "घट जाएगी",
-        "शून्य हो जाएगी",
         "अपरिवर्तित रहेगी",
-        "बढ़ जाएगी"
+        "बढ़ जाएगी",
+        "शून्य हो जाएगी"
       ]
     },
     "correctIndex": 0,
@@ -29,7 +29,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (decrease). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (घट जाएगी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 2,
@@ -49,10 +50,10 @@
         "Data in both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question."
       ],
       "hi": [
-        "दोनों कथनों I और II में दी गई जानकारी एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त है।",
         "केवल कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
+        "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
         "दोनों कथनों I और II में दी गई जानकारी एक साथ भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।",
-        "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।"
+        "दोनों कथनों I और II में दी गई जानकारी एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त है।"
       ]
     },
     "correctIndex": 2,
@@ -61,7 +62,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (Data in both statements I and II together are not sufficient to answer the question.). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (दोनों कथनों I और II में दी गई जानकारी एक साथ भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 3,
@@ -93,7 +95,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (12 – 144 – 288 – 576). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (12 – 144 – 288 – 576)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 4,
@@ -113,8 +116,8 @@
         "81"
       ],
       "hi": [
-        "80",
         "78",
+        "80",
         "82",
         "81"
       ]
@@ -124,8 +127,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (78). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (80)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (78)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 5,
@@ -146,8 +150,8 @@
       ],
       "hi": [
         "पुत्र",
-        "पिता का पिता",
         "पुत्री",
+        "पिता का पिता",
         "पिता"
       ]
     },
@@ -157,7 +161,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (Son). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (पुत्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 6,
@@ -177,8 +182,8 @@
         "TZ 65"
       ],
       "hi": [
-        "TY 55",
         "RY 55",
+        "TY 55",
         "RZ 54",
         "TZ 65"
       ]
@@ -189,7 +194,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (RZ 54). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (RZ 54)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 7,
@@ -199,7 +205,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 2 • 2025 Cycle)",
     "question": {
       "en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह युग्म, उस ग्रुप से संबंधित नहीं है? (नोट: असंगत अक्षर-समूह युग्म, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह युग्म उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह युग्म, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
     },
     "options": {
       "en": [
@@ -209,10 +215,10 @@
         "OL - PM"
       ],
       "hi": [
-        "ST-UV",
-        "WX-YZ",
-        "FG-HI",
-        "OP-IJ"
+        "TQ - JI",
+        "MJ - NK",
+        "VS - WT",
+        "OL - PM"
       ]
     },
     "correctIndex": 0,
@@ -220,8 +226,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (TQ - JI). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (ST-UV)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (TQ - JI)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 8,
@@ -241,9 +248,9 @@
         "4 km to the west"
       ],
       "hi": [
-        "5 km, पूर्व की ओर",
-        "4 km, पूर्व की ओर",
         "5 km, पश्चिम की ओर",
+        "4 km, पूर्व की ओर",
+        "5 km, पूर्व की ओर",
         "4 km, पश्चिम की ओर"
       ]
     },
@@ -253,7 +260,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (4 km to the west). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (4 km, पश्चिम की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 9,
@@ -274,9 +282,9 @@
       ],
       "hi": [
         "वास्तविक, उल्टा और फोकस पर",
-        "आभासी, उल्टा और फोकस पर",
+        "वास्तविक, सीधा और 2F पर",
         "आभासी, सीधा और अनंत पर",
-        "वास्तविक, सीधा और 2F पर"
+        "आभासी, उल्टा और फोकस पर"
       ]
     },
     "correctIndex": 0,
@@ -285,7 +293,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (Real, inverted, and at the focus). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (वास्तविक, उल्टा और फोकस पर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 10,
@@ -305,10 +314,10 @@
         "Second to the left"
       ],
       "hi": [
-        "बाईं ओर से दूसरा",
+        "दाईं ओर से तीसरा",
         "ठीक दाईं ओर पड़ोस में",
         "बाईं ओर से तीसरा",
-        "दाईं ओर से तीसरा"
+        "बाईं ओर से दूसरा"
       ]
     },
     "correctIndex": 1,
@@ -317,7 +326,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (Immediate right). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (ठीक दाईं ओर पड़ोस में)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 11,
@@ -327,7 +337,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 2 • 2025 Cycle)",
     "question": {
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. (Left) X H O Z N M W I C G I U S O R Y I Y V I H W (Right) How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by a consonant?",
-      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) N G T X R K H V A W Z W U B R E C F K L Z (दाएं) ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद भी एक व्यंजन है?"
+      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) X H O Z N M W I C G I U S O R Y I Y V I H W (दाएं) ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद भी एक व्यंजन है?"
     },
     "options": {
       "en": [
@@ -337,10 +347,10 @@
         "7"
       ],
       "hi": [
-        "तीन",
-        "एक",
-        "दो",
-        "एक भी नहीं"
+        "5",
+        "6",
+        "8",
+        "7"
       ]
     },
     "correctIndex": 0,
@@ -348,8 +358,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (5). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 12,
@@ -381,7 +392,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (ECW). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (ECW)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 13,
@@ -401,8 +413,8 @@
         "D"
       ],
       "hi": [
-        "C",
         "F",
+        "C",
         "A",
         "D"
       ]
@@ -412,8 +424,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (C). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (F)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (C)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 14,
@@ -433,8 +446,8 @@
         "5"
       ],
       "hi": [
-        "3",
         "4",
+        "3",
         "2",
         "5"
       ]
@@ -444,8 +457,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (3). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 15,
@@ -465,10 +479,10 @@
         "South"
       ],
       "hi": [
-        "पश्चिम",
-        "दक्षिण",
         "पूर्व",
-        "उत्तर"
+        "पश्चिम",
+        "उत्तर",
+        "दक्षिण"
       ]
     },
     "correctIndex": 2,
@@ -476,8 +490,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (North). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (पूर्व)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (उत्तर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 16,
@@ -497,10 +512,10 @@
         "Two"
       ],
       "hi": [
-        "दो",
+        "एक",
         "एक भी नहीं",
         "तीन",
-        "एक"
+        "दो"
       ]
     },
     "correctIndex": 1,
@@ -509,7 +524,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (None). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (एक भी नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 17,
@@ -541,7 +557,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (T). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (T)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 18,
@@ -561,10 +578,10 @@
         "3"
       ],
       "hi": [
-        "3",
+        "4",
         "5",
         "2",
-        "4"
+        "3"
       ]
     },
     "correctIndex": 0,
@@ -572,8 +589,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (4). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 19,
@@ -605,7 +623,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (363). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (363)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 20,
@@ -637,7 +656,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (Blue light). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (नीले रंगे के प्रकाश)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 21,
@@ -669,7 +689,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (Animal cell). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (जंतु कोशिका)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 22,
@@ -678,7 +699,7 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 2 • 2025 Cycle)",
     "question": {
-      "en": "6561",
+      "en": "A student's marks were wrongly entered as 34 instead of 70. Due to this, the average marks of the class decreased. How many students are there in the class?",
       "hi": "किसी विद्यार्थी के अंक गलती से 70 के स्थान पर 34 दर्ज कर दिए गए। इसके कारण, कक्षा के औसत अंकों में की कमी हो गई। कक्षा में विद्यार्थियों की संख्या कितनी है?"
     },
     "options": {
@@ -701,7 +722,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (27). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (27)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 23,
@@ -721,8 +743,8 @@
         "15%"
       ],
       "hi": [
-        "16.7%",
         "10.5%",
+        "16.7%",
         "12%",
         "15%"
       ]
@@ -732,8 +754,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (10.5%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (16.7%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (10.5%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 24,
@@ -743,7 +766,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 2 • 2025 Cycle)",
     "question": {
       "en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह युग्म उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह युग्म, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार वे एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह युग्म, उस ग्रुप से संबंधित नहीं है? (नोट: असंगत अक्षर-समूह युग्म, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
     },
     "options": {
       "en": [
@@ -753,10 +776,10 @@
         "LM−MQ"
       ],
       "hi": [
-        "MJ - NK",
-        "OL - PM",
-        "VS - WT",
-        "TQ - JI"
+        "XY−ZA",
+        "QR−ST",
+        "NO−PQ",
+        "LM−MQ"
       ]
     },
     "correctIndex": 3,
@@ -764,8 +787,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (LM−MQ). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (TQ - JI)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (LM−MQ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 25,
@@ -785,8 +809,8 @@
         "59"
       ],
       "hi": [
-        "58",
         "57",
+        "58",
         "60",
         "59"
       ]
@@ -796,8 +820,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (57). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (58)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (57)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 26,
@@ -829,7 +854,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (Z). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (Z)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 27,
@@ -849,10 +875,10 @@
         "Brother's daughter"
       ],
       "hi": [
-        "भाई की पुत्री",
         "बहन",
+        "माता",
         "भाई की पत्नी",
-        "माता"
+        "भाई की पुत्री"
       ]
     },
     "correctIndex": 2,
@@ -861,7 +887,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (Brother's wife). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (भाई की पत्नी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 28,
@@ -893,7 +920,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (8% profit). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (8% लाभ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 29,
@@ -925,7 +953,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (4√7 cm). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (4√7 cm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 30,
@@ -945,10 +974,10 @@
         "Particles are heavy and settle down"
       ],
       "hi": [
-        "कण भारी होते हैं और नीचे बैठ जाते हैं।",
         "जल स्याही के साथ अभिक्रिया करता है।",
+        "कण विश्राम अवस्था में हैं।",
         "पदार्थ के कण निरंतर गति कर रहे हैं।",
-        "कण विश्राम अवस्था में हैं।"
+        "कण भारी होते हैं और नीचे बैठ जाते हैं।"
       ]
     },
     "correctIndex": 2,
@@ -957,7 +986,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (Particles of matter are constantly moving). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (पदार्थ के कण निरंतर गति कर रहे हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 31,
@@ -989,7 +1019,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (7,200). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (7,200)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 32,
@@ -1021,7 +1052,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (3). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 33,
@@ -1053,7 +1085,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (DCL). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (DCL)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 34,
@@ -1073,8 +1106,8 @@
         "21%"
       ],
       "hi": [
-        "19.7%",
         "22.3%",
+        "19.7%",
         "23%",
         "21%"
       ]
@@ -1084,8 +1117,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (22.3%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (19.7%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (22.3%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 35,
@@ -1117,7 +1151,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (₹8,000). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (₹8,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 36,
@@ -1137,9 +1172,9 @@
         "4348√3"
       ],
       "hi": [
-        "4374√3",
-        "4404",
         "4338",
+        "4404",
+        "4374√3",
         "4348√3"
       ]
     },
@@ -1148,8 +1183,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (4338). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (4374√3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (4338)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 37,
@@ -1171,8 +1207,8 @@
       "hi": [
         "नीति (NITI) आयोग",
         "नेशनल सोलर एनर्जी फे डरेशन ऑफ इंडिया",
-        "भारतीय नवीकरणीय ऊर्जा विकास एजेंसी",
-        "विद्युत मंत्रालय"
+        "विद्युत मंत्रालय",
+        "भारतीय नवीकरणीय ऊर्जा विकास एजेंसी"
       ]
     },
     "correctIndex": 1,
@@ -1181,7 +1217,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (National Solar Energy Federation of India). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (नेशनल सोलर एनर्जी फे डरेशन ऑफ इंडिया)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 38,
@@ -1201,9 +1238,9 @@
         "4950"
       ],
       "hi": [
-        "5000",
-        "4600",
         "4800",
+        "4600",
+        "5000",
         "4950"
       ]
     },
@@ -1212,8 +1249,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (4800). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (5000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (4800)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 39,
@@ -1245,7 +1283,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (F). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (F)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 40,
@@ -1277,7 +1316,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (A). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 41,
@@ -1309,7 +1349,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (Biodegradable). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (जैवनिम्नीकरणीय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 42,
@@ -1341,7 +1382,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (178). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (178)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 43,
@@ -1361,9 +1403,9 @@
         "G"
       ],
       "hi": [
-        "T",
-        "M",
         "O",
+        "M",
+        "T",
         "G"
       ]
     },
@@ -1372,8 +1414,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (O). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (T)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (O)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 44,
@@ -1405,7 +1448,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (49). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (49)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 45,
@@ -1425,8 +1469,8 @@
         "109"
       ],
       "hi": [
-        "97",
         "101",
+        "97",
         "117",
         "109"
       ]
@@ -1436,8 +1480,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (101). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (97)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (101)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 46,
@@ -1457,10 +1502,10 @@
         "34 (2/7) days"
       ],
       "hi": [
-        "34 (2/7) दिन",
+        "34 (2/6) दिन",
         "33 (6/7) दिन",
         "36 (5/6) दिन",
-        "34 (2/6) दिन"
+        "34 (2/7) दिन"
       ]
     },
     "correctIndex": 3,
@@ -1468,8 +1513,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (34 (2/7) days). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (34 (2/6) दिन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (34 (2/7) दिन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 47,
@@ -1489,10 +1535,10 @@
         "It is rigid in nature"
       ],
       "hi": [
-        "यह प्रकृ ति में दृढ़ होती है।",
-        "यह कोशिका का सबसे बाह्य आवरण है।",
         "प्लाज्मा झिल्ली लिपिड और प्रोटीन से बनी होती है।",
-        "यह वरणतः पारगम्य होती है।"
+        "यह वरणतः पारगम्य होती है।",
+        "यह कोशिका का सबसे बाह्य आवरण है।",
+        "यह प्रकृ ति में दृढ़ होती है।"
       ]
     },
     "correctIndex": 0,
@@ -1500,8 +1546,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (Plasma membrane is made up of lipid and protein). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (यह प्रकृ ति में दृढ़ होती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (प्लाज्मा झिल्ली लिपिड और प्रोटीन से बनी होती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 48,
@@ -1533,7 +1580,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (One circle inside another and one separate circle). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (एक वृत्त दूसरे के अंदर और एक अलग वृत्त)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 49,
@@ -1565,7 +1613,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (6). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (6)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 50,
@@ -1585,10 +1634,10 @@
         "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question"
       ],
       "hi": [
-        "दोनों कथन I और II एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
+        "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
         "दोनों कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
         "केवल कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
-        "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।"
+        "दोनों कथन I और II एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
       ]
     },
     "correctIndex": 3,
@@ -1596,8 +1645,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (दोनों कथन I और II एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 51,
@@ -1617,9 +1667,9 @@
         "24"
       ],
       "hi": [
-        "49",
-        "18",
         "36",
+        "18",
+        "49",
         "24"
       ]
     },
@@ -1628,8 +1678,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (36). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (49)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (36)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 52,
@@ -1661,7 +1712,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (6). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (6)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 53,
@@ -1681,8 +1733,8 @@
         "NLIM"
       ],
       "hi": [
-        "NKHN",
         "MKIN",
+        "NKHN",
         "MLHM",
         "NLIM"
       ]
@@ -1692,8 +1744,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (MKIN). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (NKHN)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (MKIN)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 54,
@@ -1725,7 +1778,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (71). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (71)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 55,
@@ -1757,7 +1811,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (11). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (11)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 56,
@@ -1767,7 +1822,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 2 • 2025 Cycle)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "का मान ज्ञात कीजिए।"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1785,11 +1840,12 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
+      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
-    }
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 57,
@@ -1799,7 +1855,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 2 • 2025 Cycle)",
     "question": {
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. (Left) N G T X R K H V A W Z W U B R E C F K L Z (Right) How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by a consonant?",
-      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) X H O Z N M W I C G I U S O R Y I Y V I H W (दाएं) ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद भी एक व्यंजन है?"
+      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) N G T X R K H V A W Z W U B R E C F K L Z (दाएं) ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद भी एक व्यंजन है?"
     },
     "options": {
       "en": [
@@ -1809,10 +1865,10 @@
         "One"
       ],
       "hi": [
-        "5",
-        "7",
-        "6",
-        "8"
+        "एक भी नहीं",
+        "तीन",
+        "दो",
+        "एक"
       ]
     },
     "correctIndex": 0,
@@ -1820,8 +1876,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (None). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (एक भी नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 58,
@@ -1853,7 +1910,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (₹19,000). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (₹19,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 59,
@@ -1885,7 +1943,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (20 - 23 - 138 - 133). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (20 - 23 - 138 - 133)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 60,
@@ -1905,10 +1964,10 @@
         "Cannot be questioned in courts"
       ],
       "hi": [
+        "न्यायालयों में मौलिक अधिकारों से ऊपर हैं",
         "न्यायालयों द्वारा लागू किए जाते हैं",
-        "को न्यायालयों में चुनौती नहीं दी जा सकती",
         "किसी भी न्यायालय द्वारा लागू नहीं किए जा सकते",
-        "न्यायालयों में मौलिक अधिकारों से ऊपर हैं"
+        "को न्यायालयों में चुनौती नहीं दी जा सकती"
       ]
     },
     "correctIndex": 2,
@@ -1917,7 +1976,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (Are not enforceable by any court). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (किसी भी न्यायालय द्वारा लागू नहीं किए जा सकते)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 61,
@@ -1949,7 +2009,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (178.3). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (178.3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 62,
@@ -1981,7 +2042,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (21). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (21)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 63,
@@ -2001,10 +2063,10 @@
         "Both conclusion (I) and (II) follow"
       ],
       "hi": [
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं",
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है",
         "केवल निष्कर्ष (I) अनुसरण करता है",
-        "केवल निष्कर्ष (II) अनुसरण करता है"
+        "केवल निष्कर्ष (II) अनुसरण करता है",
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है",
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं"
       ]
     },
     "correctIndex": 0,
@@ -2012,8 +2074,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (Only conclusion (I) follows). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (केवल निष्कर्ष (I) अनुसरण करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 64,
@@ -2033,8 +2096,8 @@
         "₹26,650"
       ],
       "hi": [
-        "₹28,500",
         "₹25,750",
+        "₹28,500",
         "₹27,550",
         "₹26,650"
       ]
@@ -2044,8 +2107,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (₹28,500). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (₹25,750)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (₹28,500)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 65,
@@ -2077,7 +2141,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (2.4 hours). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (2.4 घंटे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 66,
@@ -2097,10 +2162,10 @@
         "53"
       ],
       "hi": [
-        "53",
+        "64",
         "59",
         "62",
-        "64"
+        "53"
       ]
     },
     "correctIndex": 0,
@@ -2108,8 +2173,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (64). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (53)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (64)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 67,
@@ -2119,7 +2185,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 2 • 2025 Cycle)",
     "question": {
       "en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार वे एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह युग्म, उस ग्रुप से संबंधित नहीं है? (नोट: असंगत अक्षर-समूह युग्म, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह युग्म, उस ग्रुप से संबंधित नहीं है? (नोट: असंगत अक्षर-समूह युग्म, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
     },
     "options": {
       "en": [
@@ -2129,10 +2195,10 @@
         "OP-IJ"
       ],
       "hi": [
-        "QR−ST",
-        "NO−PQ",
-        "XY−ZA",
-        "LM−MQ"
+        "WX-YZ",
+        "ST-UV",
+        "FG-HI",
+        "OP-IJ"
       ]
     },
     "correctIndex": 3,
@@ -2140,8 +2206,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (OP-IJ). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (LM−MQ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (OP-IJ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 68,
@@ -2173,7 +2240,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (₹5,630.40). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (₹5,630.40)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 69,
@@ -2205,7 +2273,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (24.2). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (24.2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 70,
@@ -2237,7 +2306,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (3916 cm2). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (3916 cm2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 71,
@@ -2257,10 +2327,10 @@
         "Sodium hydroxide and oxygen gas evolve during the reaction with ethanol."
       ],
       "hi": [
-        "एथेनॉल के साथ अभिक्रिया के दौरान सोडियम हाइड्रॉक्साइड और ऑक्सीजन गैस निकलती हैं।",
+        "एथेनॉल के साथ अभिक्रिया के दौरान केवल सोडियम ऑक्साइड और जल निर्मित होता है।",
         "एथेनॉल के साथ अभिक्रिया के दौरान सोडियम कार्बोनेट और हाइड्रोजन गैस निकलती हैं।",
         "एथेनॉल के साथ अभिक्रिया के दौरान सोडियम एथॉक्साइड और हाइड्रोजन गैस निकलती हैं।",
-        "एथेनॉल के साथ अभिक्रिया के दौरान केवल सोडियम ऑक्साइड और जल निर्मित होता है।"
+        "एथेनॉल के साथ अभिक्रिया के दौरान सोडियम हाइड्रॉक्साइड और ऑक्सीजन गैस निकलती हैं।"
       ]
     },
     "correctIndex": 2,
@@ -2269,7 +2339,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (Sodium ethoxide and hydrogen gas evolve during the reaction with ethanol.). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (एथेनॉल के साथ अभिक्रिया के दौरान सोडियम एथॉक्साइड और हाइड्रोजन गैस निकलती हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 72,
@@ -2301,7 +2372,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option B (2288). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (2288)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 73,
@@ -2333,7 +2405,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option C (OKZD). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (OKZD)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 74,
@@ -2353,10 +2426,10 @@
         "300"
       ],
       "hi": [
-        "300",
+        "250",
         "360",
         "320",
-        "250"
+        "300"
       ]
     },
     "correctIndex": 3,
@@ -2364,8 +2437,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option D (300). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (250)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (300)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 75,
@@ -2397,6 +2471,7 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
       "en": "Correct Answer: Option A (300√3). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (300√3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   }
 ]

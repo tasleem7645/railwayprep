@@ -17,19 +17,19 @@
         "Grip section provided at the handle end"
       ],
       "hi": [
-        "हत्थे के अंत में प्रदान किया गया ग्रिप सेक्शन (Grip section)",
-        "हत्थे को दृढ़ता से सुरक्षित करने के लिए निविष्ट वेज (wedge)",
         "हथौड़े के शीर्ष को हत्थे से जोड़ने वाला आई होल (eye hole)",
-        "हथौड़े के शीर्ष की मुख्य बॉडी को बनाने वाला चीक पोरशन (Cheek portion)"
+        "हथौड़े के शीर्ष की मुख्य बॉडी को बनाने वाला चीक पोरशन (Cheek portion)",
+        "हत्थे को दृढ़ता से सुरक्षित करने के लिए निविष्ट वेज (wedge)",
+        "हत्थे के अंत में प्रदान किया गया ग्रिप सेक्शन (Grip section)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Cheek portion forming the main body of hammer head). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (हथौड़े के शीर्ष की मुख्य बॉडी को बनाने वाला चीक पोरशन (Cheek portion))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Cheek portion forming the main body of hammer head). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (हथौड़े के शीर्ष की मुख्य बॉडी को बनाने वाला चीक पोरशन (Cheek portion))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -50,19 +50,19 @@
         "20 Wb"
       ],
       "hi": [
-        "0.005 Wb",
-        "20 Wb",
         "0.05 Wb",
-        "1250000 Wb"
+        "0.005 Wb",
+        "1250000 Wb",
+        "20 Wb"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (0.05 Wb). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (0.05 Wb)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (0.05 Wb). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (0.05 Wb)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -84,9 +84,9 @@
       ],
       "hi": [
         "मास्टर सिलेंडर (Master cylinder)",
-        "ब्रेक बूस्टर (Brake booster)",
         "ब्रेक ड्रम (Brake drum)",
-        "समानुपातन वाल्व (Proportioning valve)"
+        "समानुपातन वाल्व (Proportioning valve)",
+        "ब्रेक बूस्टर (Brake booster)"
       ]
     },
     "correctIndex": 0,
@@ -94,8 +94,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Master cylinder). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (मास्टर सिलेंडर (Master cylinder))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Master cylinder). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (मास्टर सिलेंडर (Master cylinder))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -106,7 +106,7 @@
     "topic": "Heat Engine Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
     "question": {
       "en": "The geometrical figure of a triangle can be constructed using:",
-      "hi": "किसी त्रिभुज की ज्यामितीय आकृति का निर्माण _______ का उपयोग करके किया जा सकता है ? · 2:30 PM - 5:00 PM · Hindi"
+      "hi": "किसी त्रिभुज की ज्यामितीय आकृति का निर्माण _______ का उपयोग करके किया जा सकता है ? ·"
     },
     "options": {
       "en": [
@@ -116,9 +116,9 @@
         "Two angles and one side"
       ],
       "hi": [
-        "चार भुजाएं",
-        "केवल एक भुजा और एक कोण",
         "केवल एक कोण",
+        "केवल एक भुजा और एक कोण",
+        "चार भुजाएं",
         "दो कोण और एक भुजा"
       ]
     },
@@ -127,8 +127,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Two angles and one side). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (दो कोण और एक भुजा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Two angles and one side). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (दो कोण और एक भुजा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -138,7 +138,7 @@
     "subject": "Heat Engine",
     "topic": "Heat Engine Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
     "question": {
-      "en": "Which of the following is a direct result of poor cylinder head design in diesel engines? · 2:30 PM - 5:00 PM · English",
+      "en": "Which of the following is a direct result of poor cylinder head design in diesel engines? ·",
       "hi": "निम्नलिखित में से कौन - सा , डीजल इंजन में अनुचित सिलिंडर हेड डिजाइन (cylinder head design) का प्रत्यक्ष परिणाम है ?"
     },
     "options": {
@@ -149,19 +149,19 @@
         "Increased vibration due higher unbalance force"
       ],
       "hi": [
+        "बार - बार सिलिंडर हेड गैसके ट की विफलता और रिसाव",
         "कम उत्स र्जन और उन्नत परिवेश",
         "गियर शिफ्टिंग और ट्रांसमिशन ऑपरेशन में कठिनाई",
-        "बार - बार सिलिंडर हेड गैसके ट की विफलता और रिसाव",
         "उच्च असंतुलन बल के कारण कं पन में वृद्धि"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Frequent cylinder head gasket failures and leaks). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (बार - बार सिलिंडर हेड गैसके ट की विफलता और रिसाव)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Frequent cylinder head gasket failures and leaks). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (बार - बार सिलिंडर हेड गैसके ट की विफलता और रिसाव)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -182,19 +182,19 @@
         "Brass"
       ],
       "hi": [
+        "ढलवां लौह",
         "प्लास्टिक",
         "मिश्रधातु इस्पात",
-        "पीतल",
-        "ढलवां लौह"
+        "पीतल"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Alloy steel). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (मिश्रधातु इस्पात)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Alloy steel). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (मिश्रधातु इस्पात)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -216,8 +216,8 @@
       ],
       "hi": [
         "जोड़ की सफाई करना , संरेखण , टांका वेल्डिंग , अंतिम वेल्डिंग , पाइपलाइन को अलग करना",
-        "अंतिम वेल्डिंग , संरेखण , जोड़ की सफाई करना , पाइपलाइन को अलग करना , टांका वेल्डिंग टांका वेल्डिंग , जोड़ की सफाई करना , संरेखण , पाइपलाइन को अलग",
-        "करना , अंतिम वेल्डिंग",
+        "अंतिम वेल्डिंग , संरेखण , जोड़ की सफाई करना , पाइपलाइन को अलग करना , टांका वेल्डिंग",
+        "टांका वेल्डिंग , जोड़ की सफाई करना , संरेखण , पाइपलाइन को अलग करना , अंतिम वेल्डिंग",
         "पाइपलाइन को अलग करना , जोड़ की सफाई करना , संरेखण , टांका वेल्डिंग , अंतिम वेल्डिंग"
       ]
     },
@@ -226,8 +226,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Isolating pipeline, cleaning joint, aligning, tack welding, final welding). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (पाइपलाइन को अलग करना , जोड़ की सफाई करना , संरेखण , टांका वेल्डिंग , अंतिम वेल्डिंग)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Isolating pipeline, cleaning joint, aligning, tack welding, final welding). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (पाइपलाइन को अलग करना , जोड़ की सफाई करना , संरेखण , टांका वेल्डिंग , अंतिम वेल्डिंग)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -248,19 +248,19 @@
         "The ability of a material to store magnetic flux"
       ],
       "hi": [
+        "चुंबकीय फ्लक्स के स्थापित होने में बाधा",
         "चुंबकीय क्रोड में विद्युत शक्ति हानि",
-        "किसी पदार्थ की चुंबकीय फ्लक्स को संग्रहित करने की क्षमता",
         "समय के साथ चुंबकीय क्षेत्र में परिवर्तन की दर",
-        "चुंबकीय फ्लक्स के स्थापित होने में बाधा"
+        "किसी पदार्थ की चुंबकीय फ्लक्स को संग्रहित करने की क्षमता"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (The opposition offered to the establishment of magnetic flux). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (चुंबकीय फ्लक्स के स्थापित होने में बाधा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (The opposition offered to the establishment of magnetic flux). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (चुंबकीय फ्लक्स के स्थापित होने में बाधा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -281,19 +281,19 @@
         "Four-stroke spark-ignition engine"
       ],
       "hi": [
-        "चार - स्ट्रोक स्फु लिंग - प्रज्वलन इंजन",
-        "द्व‍ि - स्ट्रोक स्फु लिंग - प्रज्वलन इंजन",
+        "चार - स्ट्रोक संपीडन - प्रज्वलन इंजन",
         "वांके ल घूर्णी इंजन",
-        "चार - स्ट्रोक संपीडन - प्रज्वलन इंजन"
+        "द्व‍ि - स्ट्रोक स्फु लिंग - प्रज्वलन इंजन",
+        "चार - स्ट्रोक स्फु लिंग - प्रज्वलन इंजन"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Four-stroke compression-ignition engine). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (चार - स्ट्रोक संपीडन - प्रज्वलन इंजन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Four-stroke compression-ignition engine). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (चार - स्ट्रोक संपीडन - प्रज्वलन इंजन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -314,19 +314,19 @@
         "High optical clarity"
       ],
       "hi": [
-        "उच्च प्रकाशिक स्पष्टता",
-        "उच्च विद्युत चालकता",
         "उच्च श्रांति सामर्थ्य",
-        "उच्च तापीय प्रसार"
+        "उच्च तापीय प्रसार",
+        "उच्च विद्युत चालकता",
+        "उच्च प्रकाशिक स्पष्टता"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (High fatigue strength). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (उच्च श्रांति सामर्थ्य)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (High fatigue strength). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (उच्च श्रांति सामर्थ्य)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -347,19 +347,19 @@
         "Conventional petrol engines have higher compression ratios than diesel engines."
       ],
       "hi": [
-        "पारंपरिक पेट्रोल इंजनों का संपीडन अनुपात डीजल इंजनों की तुलना में कम होता है",
         "पारंपरिक पेट्रोल इंजनों का संपीडन अनुपात डीजल इंजनों के समान होता है",
+        "पारंपरिक पेट्रोल इंजनों का संपीडन अनुपात डीजल इंजनों की तुलना में कम होता है",
         "पारंपरिक पेट्रोल इंजनों का संपीडन अनुपात केवल निष्कर्मण चालों पर अधिक होता है",
         "पारंपरिक पेट्रोल इंजनों का संपीडन अनुपात डीजल इंजनों की तुलना में अधिक होता है"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Conventional petrol engines have lower compression ratios than diesel engines.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (पारंपरिक पेट्रोल इंजनों का संपीडन अनुपात डीजल इंजनों की तुलना में कम होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Conventional petrol engines have lower compression ratios than diesel engines.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (पारंपरिक पेट्रोल इंजनों का संपीडन अनुपात डीजल इंजनों की तुलना में कम होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -381,18 +381,18 @@
       ],
       "hi": [
         "सिलेंडर के बाहर प्रारंभिक दहन के साथ पूर्व - दहन कक्ष",
+        "सहायक कक्ष में स्पर्शरेखीय वायु प्रवेश के साथ भंवर कक्ष (Swirl chamber)",
         "एक अलग कक्ष में संग्रहीत संपीडित वायु के साथ वायु सेल कक्ष (Air cell chamber)",
-        "मुख्य कक्ष में अंतः - क्षेपित ईंधन के साथ सीधा अंतः क्षेपण कक्ष सहायक कक्ष में स्पर्शरेखीय वायु प्रवेश के साथ भंवर कक्ष (Swirl",
-        "chamber)"
+        "मुख्य कक्ष में अंतः - क्षेपित ईंधन के साथ सीधा अंतः क्षेपण कक्ष"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Direct injection chamber with fuel injected into the main chamber). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (मुख्य कक्ष में अंतः - क्षेपित ईंधन के साथ सीधा अंतः क्षेपण कक्ष सहायक कक्ष में स्पर्शरेखीय वायु प्रवेश के साथ भंवर कक्ष (Swirl)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Direct injection chamber with fuel injected into the main chamber). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (मुख्य कक्ष में अंतः - क्षेपित ईंधन के साथ सीधा अंतः क्षेपण कक्ष)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -413,9 +413,9 @@
         "Aluminum sheet"
       ],
       "hi": [
-        "स्टेनलेस स्टील शीट",
         "कॉपर शीट",
         "टिनप्लेट",
+        "स्टेनलेस स्टील शीट",
         "ऐलुमिनियम शीट"
       ]
     },
@@ -424,8 +424,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Aluminum sheet). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (ऐलुमिनियम शीट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Aluminum sheet). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (ऐलुमिनियम शीट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -447,18 +447,18 @@
       ],
       "hi": [
         "2900 डिग्री सेल्सियस",
-        "3100 डिग्री सेल्सियस",
         "2000 डिग्री सेल्सियस",
+        "3100 डिग्री सेल्सियस",
         "2400 डिग्री सेल्सियस"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (3100 degree Celsius). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (3100 डिग्री सेल्सियस)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (3100 degree Celsius). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (3100 डिग्री सेल्सियस)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -479,19 +479,19 @@
         "Feeler gauge"
       ],
       "hi": [
-        "बलाघूर्ण रिंच (Torque wrench)",
-        "पत्ती प्रमापी (Feeler gauge)",
         "हथौड़ा (Hammer)",
-        "रेती (File)"
+        "बलाघूर्ण रिंच (Torque wrench)",
+        "रेती (File)",
+        "पत्ती प्रमापी (Feeler gauge)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Feeler gauge). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (पत्ती प्रमापी (Feeler gauge))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Feeler gauge). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (पत्ती प्रमापी (Feeler gauge))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -512,19 +512,19 @@
         "To protect workers from health hazards at the workplace"
       ],
       "hi": [
-        "कार्यस्थल पर श्रमिकों को स्वास्थ्य खतरों से बचाना",
         "उत्पादन आउटपुट को दक्षतापूर्वक बढ़ाना",
         "श्रमिकों के उपस्थिति रिकॉर्ड की निगरानी करना",
-        "मशीनरी अनुरक्षण की लागत को कम करना"
+        "मशीनरी अनुरक्षण की लागत को कम करना",
+        "कार्यस्थल पर श्रमिकों को स्वास्थ्य खतरों से बचाना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (To protect workers from health hazards at the workplace). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (कार्यस्थल पर श्रमिकों को स्वास्थ्य खतरों से बचाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (To protect workers from health hazards at the workplace). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (कार्यस्थल पर श्रमिकों को स्वास्थ्य खतरों से बचाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -546,9 +546,9 @@
       ],
       "hi": [
         "बाह्य वलय दक्षिणावर्त दिशा में घूर्णन करता है",
-        "ब्रेकों को बलपूर्वक लगाया जाता है",
+        "वाहन पूर्ण रूप से रुक जाता है",
         "बाह्य वलय वामावर्त दिशा में घूर्णन करता है",
-        "वाहन पूर्ण रूप से रुक जाता है"
+        "ब्रेकों को बलपूर्वक लगाया जाता है"
       ]
     },
     "correctIndex": 2,
@@ -556,8 +556,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Outer ring rotates in an anticlockwise direction). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (बाह्य वलय वामावर्त दिशा में घूर्णन करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Outer ring rotates in an anticlockwise direction). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बाह्य वलय वामावर्त दिशा में घूर्णन करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -578,19 +578,19 @@
         "Apply more torque to the tap"
       ],
       "hi": [
+        "टैपिंग की चाल बढ़ाना",
         "छीलन को तोड़ने और साफ करने के लिए टैप को पीछे करना",
         "कर्तन तरल की मात्रा कम करना",
-        "टैप पर अधिक बलाघूर्ण प्रयुक्त करना",
-        "टैपिंग की चाल बढ़ाना"
+        "टैप पर अधिक बलाघूर्ण प्रयुक्त करना"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Back off the tap to break and clear chips). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (छीलन को तोड़ने और साफ करने के लिए टैप को पीछे करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Back off the tap to break and clear chips). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (छीलन को तोड़ने और साफ करने के लिए टैप को पीछे करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -611,19 +611,19 @@
         "Because increasing turns always removes magnetic flux from the core"
       ],
       "hi": [
-        "क्योंकि फे रों की संख्या और धारा के गुणनफल के रूप में चुंबकत्व वाहक बल बढ़ता है",
         "क्योंकि फे रों की संख्या अधिक होने से प्रदाय वोल्टता शून्य हो जाती है",
-        "क्योंकि फे रों की संख्या बढ़ाने से सदैव क्रोड से चुंबकीय फ्लक्स हट जाता है",
-        "क्योंकि लौह क्रोड एक विद्युत रोधी में परिवर्तित हो जाती है"
+        "क्योंकि लौह क्रोड एक विद्युत रोधी में परिवर्तित हो जाती है",
+        "क्योंकि फे रों की संख्या और धारा के गुणनफल के रूप में चुंबकत्व वाहक बल बढ़ता है",
+        "क्योंकि फे रों की संख्या बढ़ाने से सदैव क्रोड से चुंबकीय फ्लक्स हट जाता है"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Because magnetomotive force increases as the product of turns and current). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (क्योंकि फे रों की संख्या और धारा के गुणनफल के रूप में चुंबकत्व वाहक बल बढ़ता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Because magnetomotive force increases as the product of turns and current). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (क्योंकि फे रों की संख्या और धारा के गुणनफल के रूप में चुंबकत्व वाहक बल बढ़ता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -646,8 +646,8 @@
       "hi": [
         "स्नेहन प्रणाली (Lubrication system)",
         "शीतलन प्रणाली (Cooling system)",
-        "ईंधन आपूर्ति प्रणाली (Fuel supply system)",
-        "रेचन प्रणाली (Exhaust system)"
+        "रेचन प्रणाली (Exhaust system)",
+        "ईंधन आपूर्ति प्रणाली (Fuel supply system)"
       ]
     },
     "correctIndex": 1,
@@ -655,8 +655,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Cooling system). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (शीतलन प्रणाली (Cooling system))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Cooling system). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (शीतलन प्रणाली (Cooling system))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -677,19 +677,19 @@
         "Radiator"
       ],
       "hi": [
-        "स्पार्क प्लग (Spark plug)",
-        "रेडिएटर (Radiator)",
         "गतिपालक चक्र (Flywheel)",
-        "निकास वाल्व (Exhaust valve)"
+        "स्पार्क प्लग (Spark plug)",
+        "निकास वाल्व (Exhaust valve)",
+        "रेडिएटर (Radiator)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Flywheel). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (गतिपालक चक्र (Flywheel))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Flywheel). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (गतिपालक चक्र (Flywheel))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -710,19 +710,19 @@
         "New locking pin"
       ],
       "hi": [
-        "गियर का अत्यधिक एं ड फ्लोट (Excessive end float of gear)",
-        "रोधी वरक छड़ (Tight selector rod) उचित गियर लीवर समायोजन (Proper gear lever",
-        "adjustment)",
+        "रोधी वरक छड़ (Tight selector rod)",
+        "गियर का अत्यधिक एंड फ्लोट (Excessive end float of gear)",
+        "उचित गियर लीवर समायोजन (Proper gear lever adjustment)",
         "नया लॉकिंग पिन (New locking pin)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Excessive end float of gear). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (गियर का अत्यधिक एं ड फ्लोट (Excessive end float of gear))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Excessive end float of gear). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (गियर का अत्यधिक एंड फ्लोट (Excessive end float of gear))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -743,10 +743,10 @@
         "Because higher temperature permanently increases the number of valence electrons in each atom"
       ],
       "hi": [
-        "क्योंकि उच्चतर ताप , अर्धचालक को सीधे अतिचालक में रूपांतरित कर देता है",
+        "क्योंकि उच्चतर ताप , क्रिस्टल के परमाणु आकार को कम कर देता है",
         "क्योंकि उच्चतर ताप कु छ सहसंयोजक आबंधों को खंडित करके अधिक मुक्त आवेश वाहक सृजित करता है",
-        "क्योंकि उच्चतर ताप प्रत्येक परमाणु में संयोजी इलेक्ट्रॉनों की संख्या को स्थायी रूप से बढ़ा देता है",
-        "क्योंकि उच्चतर ताप , क्रिस्टल के परमाणु आकार को कम कर देता है"
+        "क्योंकि उच्चतर ताप , अर्धचालक को सीधे अतिचालक में रूपांतरित कर देता है",
+        "क्योंकि उच्चतर ताप प्रत्येक परमाणु में संयोजी इलेक्ट्रॉनों की संख्या को स्थायी रूप से बढ़ा देता है"
       ]
     },
     "correctIndex": 1,
@@ -754,8 +754,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Because higher temperature creates more free charge carriers by breaking some covalent bonds). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (क्योंकि उच्चतर ताप कु छ सहसंयोजक आबंधों को खंडित करके अधिक मुक्त आवेश वाहक सृजित करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Because higher temperature creates more free charge carriers by breaking some covalent bonds). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (क्योंकि उच्चतर ताप कु छ सहसंयोजक आबंधों को खंडित करके अधिक मुक्त आवेश वाहक सृजित करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -776,19 +776,19 @@
         "Only at the end of the threading pass after reaching the required length"
       ],
       "hi": [
-        "चिप्स को तोड़ने के लिए वर्क पीस के साथ प्रत्येक पूर्ण चूड़ी बनाने के बाद",
         "सामग्री की स्थिति के आधार पर , चिप्स को तोड़ने के लिए कर्तन के दौरान समय - समय पर",
+        "चिप्स को तोड़ने के लिए वर्क पीस के साथ प्रत्येक पूर्ण चूड़ी बनाने के बाद",
         "कर्तन प्रारंभ होने से पहले चूड़ी कर्तन प्रचालन के प्रारंभ में केवल एक बार",
         "केवल आवश्यक लंबाई तक पहुंचने के बाद चूड़ी कर्तन पास के अंत में"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Periodically during cutting to break chips, depending on material conditions). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (सामग्री की स्थिति के आधार पर , चिप्स को तोड़ने के लिए कर्तन के दौरान समय - समय पर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Periodically during cutting to break chips, depending on material conditions). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सामग्री की स्थिति के आधार पर , चिप्स को तोड़ने के लिए कर्तन के दौरान समय - समय पर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -809,19 +809,19 @@
         "To provide mechanical protection against heavy soil pressure"
       ],
       "hi": [
-        "फेज चालक की विद्युत चालकता बढ़ाने के लिए",
-        "मृदा के भारी दाब से यांत्रिक सुरक्षा प्रदान करने के लिए",
         "के बल को मृदा में नमी और क्षयकारी तरल से बचाने के लिए",
-        "भूमिगत के बल तंत्र की प्रारंभिक लागत को कम करने के लिए"
+        "फेज चालक की विद्युत चालकता बढ़ाने के लिए",
+        "भूमिगत के बल तंत्र की प्रारंभिक लागत को कम करने के लिए",
+        "मृदा के भारी दाब से यांत्रिक सुरक्षा प्रदान करने के लिए"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (To protect the cable from moisture and damaging liquids in the soil). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (के बल को मृदा में नमी और क्षयकारी तरल से बचाने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (To protect the cable from moisture and damaging liquids in the soil). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (के बल को मृदा में नमी और क्षयकारी तरल से बचाने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -842,19 +842,19 @@
         "store electric charge."
       ],
       "hi": [
-        "चुंबकीय फ्लक्स वहन",
-        "विद्युत आवेश संग्रहीत",
+        "ऊष्मा उत्पन्न",
         "विद्युत धारा प्रवाहित",
-        "ऊष्मा उत्पन्न"
+        "चुंबकीय फ्लक्स वहन",
+        "विद्युत आवेश संग्रहीत"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (carry magnetic flux.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (चुंबकीय फ्लक्स वहन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (carry magnetic flux.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (चुंबकीय फ्लक्स वहन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -875,19 +875,19 @@
         "Exhaust gases are expelled only during a separate exhaust stroke in the cycle"
       ],
       "hi": [
-        "रेचन गैसें निकलती हैं",
         "दहन प्रक्रम के लिए सिलिंडर में प्रवेश करने से पहले वायु और ईंधन को कार्बुरेटर में मिश्रित होते हैं",
-        "इंजन , दो क्रैं कशाफ्ट परिक्रमण के साथ चार स्ट्रोक में एक शक्ति चक्र पूरा करता है इंजन , एक क्रैं कशाफ्ट परिक्रमण के साथ दो स्ट्रोक में एक",
-        "शक्ति चक्र पूरा करता है"
+        "इंजन , एक क्रैंकशाफ्ट परिक्रमण के साथ दो स्ट्रोक में एक शक्ति चक्र पूरा करता है",
+        "इंजन , दो क्रैंकशाफ्ट परिक्रमण के साथ चार स्ट्रोक में एक शक्ति चक्र पूरा करता है",
+        "चक्र में केवल एक पृथक रेचन स्ट्रोक के दौरान ही रेचन गैसें निकलती हैं"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The engine completes one power cycle in two strokes with one crankshaft revolution). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (शक्ति चक्र पूरा करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The engine completes one power cycle in two strokes with one crankshaft revolution). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (इंजन , एक क्रैंकशाफ्ट परिक्रमण के साथ दो स्ट्रोक में एक शक्ति चक्र पूरा करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -908,19 +908,19 @@
         "Cylinder liner, rocker arm, injector"
       ],
       "hi": [
+        "पिस्टन , संयोजी छड़ , क्रैं कशैफ्ट",
         "ईंधन अंतःक्षेपित्र , कै मशैफ्ट , फ्लाईव्हील",
         "वाल्व , सिलिंडर हेड , कै मशैफ्ट",
-        "पिस्टन , संयोजी छड़ , क्रैं कशैफ्ट",
         "सिलिंडर आस्तर , संदोलक भुजा , अंतःक्षेपित्र"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Piston, connecting rod, crankshaft). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (पिस्टन , संयोजी छड़ , क्रैं कशैफ्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Piston, connecting rod, crankshaft). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (पिस्टन , संयोजी छड़ , क्रैं कशैफ्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -941,19 +941,19 @@
         "Rotational movement"
       ],
       "hi": [
+        "तापीय प्रसार",
         "रैखिक संचलन",
         "तापीय आकुं चन",
-        "घूर्णी संचलन",
-        "तापीय प्रसार"
+        "घूर्णी संचलन"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Linear movement). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (रैखिक संचलन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Linear movement). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (रैखिक संचलन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -974,19 +974,19 @@
         "Third angle projection"
       ],
       "hi": [
-        "प्रथम कोण प्रक्षेपण",
         "तिर्यक प्रक्षेपण",
+        "प्रथम कोण प्रक्षेपण",
         "परिप्रेक्ष् य प्रक्षेपण",
         "तृतीय कोण प्रक्षेपण"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (First angle projection). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (प्रथम कोण प्रक्षेपण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (First angle projection). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (प्रथम कोण प्रक्षेपण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1007,19 +1007,19 @@
         "Thick plastics bar"
       ],
       "hi": [
-        "पतली शीट के लिए",
-        "मोटी प्लास्टिक छड़ के लिए",
         "मोटी स्टील छड़ों के लिए",
-        "पतली प्लास्टिक छड़ के लिए"
+        "पतली शीट के लिए",
+        "पतली प्लास्टिक छड़ के लिए",
+        "मोटी प्लास्टिक छड़ के लिए"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Thin sheets). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (पतली शीट के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Thin sheets). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (पतली शीट के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1040,10 +1040,10 @@
         "0.7 A"
       ],
       "hi": [
-        "0.7 A",
         "3.5 A",
+        "5.7 A",
         "4.3 A",
-        "5.7 A"
+        "0.7 A"
       ]
     },
     "correctIndex": 2,
@@ -1051,8 +1051,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (4.3 A). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (4.3 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (4.3 A). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (4.3 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1073,19 +1073,19 @@
         "Copper alloy"
       ],
       "hi": [
-        "ताम्र मिश्र धातु (Copper alloy)",
-        "ऐलुमिनियम मिश्र धातु (Aluminum alloy)",
         "अल्पभार प्लास्टिक (Lightweight plastic)",
-        "उच्‍च - सामर्थ्य स्टील (High-strength steel)"
+        "ऐलुमिनियम मिश्र धातु (Aluminum alloy)",
+        "उच्‍च - सामर्थ्य स्टील (High-strength steel)",
+        "ताम्र मिश्र धातु (Copper alloy)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (High-strength steel). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (उच्‍च - सामर्थ्य स्टील (High-strength steel))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (High-strength steel). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (उच्‍च - सामर्थ्य स्टील (High-strength steel))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1106,9 +1106,9 @@
         "Storing rotational energy"
       ],
       "hi": [
+        "बलाघूर्ण को ट्रांसमिशन तक संचारित करना",
         "घूर्णन के दौरान आनमन को हैंडल करना",
         "बलाघूर्ण परिवर्तक को क्रैं कशैफ्ट से जोड़ना",
-        "बलाघूर्ण को ट्रांसमिशन तक संचारित करना",
         "घूर्णी ऊर्जा को संग्रहित करना"
       ]
     },
@@ -1117,8 +1117,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Storing rotational energy). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (घूर्णी ऊर्जा को संग्रहित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Storing rotational energy). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (घूर्णी ऊर्जा को संग्रहित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1139,10 +1139,10 @@
         "Clutch pedal"
       ],
       "hi": [
-        "बल - आघूर्ण परिवर्तित्र (Torque converter)",
+        "उत्प्रेरकी परिवर्तित्र (Catalytic converter)",
         "गवर्नर वाल्व (Governor valve)",
-        "क्लच पेडल (Clutch pedal)",
-        "उत्प्रेरकी परिवर्तित्र (Catalytic converter)"
+        "बल - आघूर्ण परिवर्तित्र (Torque converter)",
+        "क्लच पेडल (Clutch pedal)"
       ]
     },
     "correctIndex": 1,
@@ -1150,8 +1150,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Governor valve). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (गवर्नर वाल्व (Governor valve))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Governor valve). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (गवर्नर वाल्व (Governor valve))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1173,18 +1173,18 @@
       ],
       "hi": [
         "लेड और कांस्य",
-        "ढलवां लोहा और पिटवां लोहा",
         "मृदु इस्पात और स्टेनलेस इस्पात",
-        "कॉपर और ऐलुमिनियम"
+        "कॉपर और ऐलुमिनियम",
+        "ढलवां लोहा और पिटवां लोहा"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Copper and aluminium). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (कॉपर और ऐलुमिनियम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Copper and aluminium). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (कॉपर और ऐलुमिनियम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1205,10 +1205,10 @@
         "To increase the overall piston weight"
       ],
       "hi": [
-        "सिलेंडर की दीवारों और स्फु लिंग प्लग को ठंडा करने के लिए",
+        "क्रैं कशैफ्ट और संयोजी छड़ को सुदृढ़ करने के लिए",
         "दहन को बेहतर बनाने और अपस्फोटन को कम करने के लिए",
-        "समग्र पिस्टन भार को बढ़ाने के लिए",
-        "क्रैं कशैफ्ट और संयोजी छड़ को सुदृढ़ करने के लिए"
+        "सिलेंडर की दीवारों और स्फु लिंग प्लग को ठंडा करने के लिए",
+        "समग्र पिस्टन भार को बढ़ाने के लिए"
       ]
     },
     "correctIndex": 1,
@@ -1216,8 +1216,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (To improve combustion and reduce knocking). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (दहन को बेहतर बनाने और अपस्फोटन को कम करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (To improve combustion and reduce knocking). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (दहन को बेहतर बनाने और अपस्फोटन को कम करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1238,19 +1238,19 @@
         "It is based on the ratio of center distance of sine bar to slip gauge height."
       ],
       "hi": [
-        "यह साइन बार की केंद्र दूरी और स्लिप गेज ऊं चाई के अनुपात पर आधारित है",
         "यह स्लिप गेज ऊं चाई और साइन बार की केंद्र दूरी के अनुपात पर आधारित है",
+        "यह स्लिप गेज ऊं चाई और साइन बार लंबाई के योग पर आधारित है",
         "यह स्लिप गेज ऊं चाई और साइन बार लंबाई के गुणनफल पर आधारित है",
-        "यह स्लिप गेज ऊं चाई और साइन बार लंबाई के योग पर आधारित है"
+        "यह साइन बार की केंद्र दूरी और स्लिप गेज ऊं चाई के अनुपात पर आधारित है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (It is based on the ratio of slip gauge height to the center distance of sine bar.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (यह स्लिप गेज ऊं चाई और साइन बार की केंद्र दूरी के अनुपात पर आधारित है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (It is based on the ratio of slip gauge height to the center distance of sine bar.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (यह स्लिप गेज ऊं चाई और साइन बार की केंद्र दूरी के अनुपात पर आधारित है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1267,23 +1267,23 @@
       "en": [
         "Different fuels are used in 2-stroke and 4-stroke engines",
         "Higher-viscosity lubrication is required in a 4-stroke engine",
-        "Power stroke occurs in every revolution of a 2- stroke engine",
+        "Power stroke occurs in every revolution of a 2-stroke engine",
         "A cooling system is absent in a 2-stroke engine"
       ],
       "hi": [
-        "4- स्ट्रोक इंजन में उच्च - श्यानता स्नेहन की आवश्यकता होती है",
-        "2- स्ट्रोक इंजन में शीतलन तंत्र नहीं होता है 2- स्ट्रोक और 4- स्ट्रोक इंजनों में अलग - अलग ईंधनों का उपयोग",
-        "होता है",
-        "2- स्ट्रोक इंजन के प्रत्येक परिक्रमण में पावर स्ट्रोक होता है"
+        "2-स्ट्रोक और 4-स्ट्रोक इंजनों में अलग-अलग ईंधनों का उपयोग होता है",
+        "4-स्ट्रोक इंजन में उच्च-श्यानता स्नेहन की आवश्यकता होती है",
+        "2-स्ट्रोक इंजन के प्रत्येक परिक्रमण में पावर स्ट्रोक होता है",
+        "2-स्ट्रोक इंजन में शीतलन तंत्र नहीं होता है"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Power stroke occurs in every revolution of a 2- stroke engine). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (2- स्ट्रोक इंजन के प्रत्येक परिक्रमण में पावर स्ट्रोक होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Power stroke occurs in every revolution of a 2-stroke engine). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (2-स्ट्रोक इंजन के प्रत्येक परिक्रमण में पावर स्ट्रोक होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1304,19 +1304,19 @@
         "Apron and dust mask"
       ],
       "hi": [
-        "एप्रन और डस्ट मास्क",
-        "वेल्डिंग हेल्मेट और सुरक्षा जूते",
+        "श्वसित्र और एप्रन",
         "वेल्डिंग हेलमेट और श्वसित्र",
-        "श्वसित्र और एप्रन"
+        "वेल्डिंग हेल्मेट और सुरक्षा जूते",
+        "एप्रन और डस्ट मास्क"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Welding helmet and respirator). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (वेल्डिंग हेलमेट और श्वसित्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Welding helmet and respirator). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (वेल्डिंग हेलमेट और श्वसित्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1337,19 +1337,19 @@
         "Stainless steel"
       ],
       "hi": [
-        "पीतल",
         "ऐलुमिनियम",
         "उच्च कार्बन स्टील",
+        "पीतल",
         "स्टेनलेस स्टील"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (High carbon steel). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (उच्च कार्बन स्टील)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (High carbon steel). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (उच्च कार्बन स्टील)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1370,19 +1370,19 @@
         "To support the camshaft in its position"
       ],
       "hi": [
-        "कै मशैफ्ट को उसकी स्थिति में बनाए रखना",
         "संदोलक भुजा के संचलन को नियंत्रित करना",
         "वाल्व के लिए सीलिंग पृष्ठ (sealing surface) प्रदान करना",
-        "पिस्टन रिंग को सुरक्षित रूप से उसके स्थान पर थामे रखना"
+        "पिस्टन रिंग को सुरक्षित रूप से उसके स्थान पर थामे रखना",
+        "कै मशैफ्ट को उसकी स्थिति में बनाए रखना"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (To provide a sealing surface for the valves). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (वाल्व के लिए सीलिंग पृष्ठ (sealing surface) प्रदान करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (To provide a sealing surface for the valves). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (वाल्व के लिए सीलिंग पृष्ठ (sealing surface) प्रदान करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1403,19 +1403,19 @@
         "It creates a short circuit and may damage the multimeter"
       ],
       "hi": [
-        "इससे रेंज चयन के कारण मापित वोल्टता में वृद्धि होगी",
-        "इससे लघु परिपथ होगा और मल्टीमीटर को क्षति पहुंचेगी",
         "इससे परिपथ को प्रभावित किए बिना एक स्थिर पाठ्यांक उत्पन्न होगा",
-        "इससे बैटरी द्वारा कर्षित धारा का सही ढंग से मापन होगा"
+        "इससे बैटरी द्वारा कर्षित धारा का सही ढंग से मापन होगा",
+        "इससे रेंज चयन के कारण मापित वोल्टता में वृद्धि होगी",
+        "इससे लघु परिपथ होगा और मल्टीमीटर को क्षति पहुंचेगी"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It creates a short circuit and may damage the multimeter). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (इससे लघु परिपथ होगा और मल्टीमीटर को क्षति पहुंचेगी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It creates a short circuit and may damage the multimeter). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (इससे लघु परिपथ होगा और मल्टीमीटर को क्षति पहुंचेगी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1426,7 +1426,7 @@
     "topic": "Heat Engine Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 2)",
     "question": {
       "en": "A technician is designing a safety checklist for petrol engine shutdown. Which combination of tasks ensures optimal safety and engine protection?",
-      "hi": "एक तकनीशियन पेट्रोल इंजन को शटडाउन करने के लिए सुरक्षा चेकलिस्ट डिज़ाइन कर रहा है। कार्यों का कौन - सा संयोजन , इष्टतम सुरक्षा और इंजन सुरक्षा सुनिश्चित करता है ? इंजन की स्‍पीड बढ़ाना , इग्निशन को टर्न - ऑफ करना , इंजन को"
+      "hi": "एक तकनीशियन पेट्रोल इंजन को शटडाउन करने के लिए सुरक्षा चेकलिस्ट डिज़ाइन कर रहा है। कार्यों का कौन - सा संयोजन , इष्टतम सुरक्षा और इंजन सुरक्षा सुनिश्चित करता है ?"
     },
     "options": {
       "en": [
@@ -1436,10 +1436,10 @@
         "Idle engine before shutdown, turn off ignition, inspect for leaks, secure battery terminals"
       ],
       "hi": [
-        "धोना , सीट कवर का निरीक्षण करना रेडियेटर कै प को तुरंत ओपन करना , बैटरी डिस्कनेक्ट करना , टायर",
-        "प्रेशर चेक करना , सीट एडजस्ट करना",
-        "एयर फिल्टर क्लीन करना , सीट बेल्ट की जांच करना , डैशबोर्ड पॉलिश करना , शीतलक रिफिल करना इंजन को शटडाउन करने से पहले उसे निष्क्रिय अवस्था में",
-        "रखना , इग्निशन को टर्न - ऑफ करना , लीक का निरीक्षण करना , बैटरी टर्मिनल को सुरक्षित करना"
+        "रेडियेटर कै प को तुरंत ओपन करना , बैटरी डिस्कनेक्ट करना , टायर प्रेशर चेक करना , सीट एडजस्ट करना",
+        "एयर फिल्टर क्लीन करना , सीट बेल्ट की जांच करना , डैशबोर्ड पॉलिश करना , शीतलक रिफिल करना",
+        "इंजन की स्पीड बढ़ाना , इग्निशन को टर्न - ऑफ करना , इंजन को धोना , सीट कवर का निरीक्षण करना",
+        "इंजन को शटडाउन करने से पहले उसे निष्क्रिय अवस्था में रखना , इग्निशन को टर्न - ऑफ करना , लीक का निरीक्षण करना , बैटरी टर्मिनल को सुरक्षित करना"
       ]
     },
     "correctIndex": 3,
@@ -1447,8 +1447,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Idle engine before shutdown, turn off ignition, inspect for leaks, secure battery terminals). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (रखना , इग्निशन को टर्न - ऑफ करना , लीक का निरीक्षण करना , बैटरी टर्मिनल को सुरक्षित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Idle engine before shutdown, turn off ignition, inspect for leaks, secure battery terminals). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (इंजन को शटडाउन करने से पहले उसे निष्क्रिय अवस्था में रखना , इग्निशन को टर्न - ऑफ करना , लीक का निरीक्षण करना , बैटरी टर्मिनल को सुरक्षित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1471,8 +1471,8 @@
       "hi": [
         "सिस्टम ब्लीडिंग (System bleeding)",
         "पैड प्रतिस्थापन (Pad replacement)",
-        "तरल टॉपिंग (Fluid topping)",
-        "के बल कसना (Cable tightening)"
+        "के बल कसना (Cable tightening)",
+        "तरल टॉपिंग (Fluid topping)"
       ]
     },
     "correctIndex": 0,
@@ -1480,8 +1480,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (System bleeding). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (सिस्टम ब्लीडिंग (System bleeding))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (System bleeding). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सिस्टम ब्लीडिंग (System bleeding))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1502,19 +1502,19 @@
         "Difficulty in starting and abnormal engine noise"
       ],
       "hi": [
-        "प्रवर्तन में कठिनाई और इंजन में असामान्य रव (noise) होना",
-        "फै न बेल्ट का सर्पण और प्रत्यावर्तित्र आउटपुट में कमी",
         "शीतक द्रव्य का स्तर कम होना और इंजन का तापमान अधिक होना",
-        "खराब बैटरी चार्ज और मंद क्रैं किंग (cranking)"
+        "खराब बैटरी चार्ज और मंद क्रैं किंग (cranking)",
+        "फै न बेल्ट का सर्पण और प्रत्यावर्तित्र आउटपुट में कमी",
+        "प्रवर्तन में कठिनाई और इंजन में असामान्य रव (noise) होना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Difficulty in starting and abnormal engine noise). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (प्रवर्तन में कठिनाई और इंजन में असामान्य रव (noise) होना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Difficulty in starting and abnormal engine noise). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (प्रवर्तन में कठिनाई और इंजन में असामान्य रव (noise) होना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1535,19 +1535,19 @@
         "Quantity of temperature in a body"
       ],
       "hi": [
-        "किसी वस्तु में तापमान का परिमाण",
-        "ऊष्मा चालन की क्षमता",
         "किसी वस्तु में ऊष्मा की मात्रा",
-        "किसी वस्तु की तप्तता या शीतलता की कोटि"
+        "ऊष्मा चालन की क्षमता",
+        "किसी वस्तु की तप्तता या शीतलता की कोटि",
+        "किसी वस्तु में तापमान का परिमाण"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Degree of hotness or coldness of a body). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (किसी वस्तु की तप्तता या शीतलता की कोटि)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Degree of hotness or coldness of a body). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (किसी वस्तु की तप्तता या शीतलता की कोटि)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1568,19 +1568,19 @@
         "Set the spindle length so the valve is fully pressed and secure the lock nut"
       ],
       "hi": [
-        "स्पिंडल को उसकी लंबाई के आधे तक छोटा करना और गैस्के ट को बदलना",
         "स्पिंडल को तब तक समायोजित करना जब तक कि पेडल फ्लश के समतल न हो जाए और थ्रेड सीलेंट लगाना",
-        "स्पिंडल की लंबाई को इस प्रकार सेट करना कि वाल्व पूरी तरह से दब जाए और लॉक नट को कस दें",
-        "स्पिंडल को तब तक बढ़ाना जब तक कि वह पेडल स्टॉप के संपर्क में न आ जाए और जैम नट को ढीला करना"
+        "स्पिंडल को उसकी लंबाई के आधे तक छोटा करना और गैस्के ट को बदलना",
+        "स्पिंडल को तब तक बढ़ाना जब तक कि वह पेडल स्टॉप के संपर्क में न आ जाए और जैम नट को ढीला करना",
+        "स्पिंडल की लंबाई को इस प्रकार सेट करना कि वाल्व पूरी तरह से दब जाए और लॉक नट को कस दें"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Set the spindle length so the valve is fully pressed and secure the lock nut). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (स्पिंडल की लंबाई को इस प्रकार सेट करना कि वाल्व पूरी तरह से दब जाए और लॉक नट को कस दें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Set the spindle length so the valve is fully pressed and secure the lock nut). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (स्पिंडल की लंबाई को इस प्रकार सेट करना कि वाल्व पूरी तरह से दब जाए और लॉक नट को कस दें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1602,18 +1602,18 @@
       ],
       "hi": [
         "शहरी यातायात में बहुधा इंजन स्तंभन (engine stalling)",
-        "विभिन्न ऊं चाईयों पर इंजन का एकसमान निष्पादन",
         "राजमार्गों पर ईंधन जेट का हस्तचालित समायोजन",
-        "त्वरण के दौरान विलंबित प्रज्वलन काल (ignition timing)"
+        "त्वरण के दौरान विलंबित प्रज्वलन काल (ignition timing)",
+        "विभिन्न ऊं चाईयों पर इंजन का एकसमान निष्पादन"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Consistent engine performance at varying altitudes). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (विभिन्न ऊं चाईयों पर इंजन का एकसमान निष्पादन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Consistent engine performance at varying altitudes). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (विभिन्न ऊं चाईयों पर इंजन का एकसमान निष्पादन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1634,19 +1634,19 @@
         "Steering knuckle and pitman arm"
       ],
       "hi": [
+        "टाई रॉड और सेंटर ( रिले ) लिंक",
         "स्टीयरिंग कॉलम और सेंटर लिंक",
-        "स्टीयरिंग नकल और पिटमैन आर्म",
         "पिटमैन आर्म और आइडलर आर्म",
-        "टाई रॉड और सेंटर ( रिले ) लिंक"
+        "स्टीयरिंग नकल और पिटमैन आर्म"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Tie rod and center (relay) link). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (टाई रॉड और सेंटर ( रिले ) लिंक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Tie rod and center (relay) link). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (टाई रॉड और सेंटर ( रिले ) लिंक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1667,19 +1667,19 @@
         "Gives the same speed and penetration"
       ],
       "hi": [
-        "समान गति और अंतर्वेधन प्रदान करती है",
-        "अंतर्वेधन को बढ़ाती है लेकिन गति को कम करती है",
         "गति को बढ़ाती है लेकिन अंतर्वेधन को कम करती है",
-        "गति को कम करती है लेकिन अंतर्वेधन को बढ़ाती है"
+        "अंतर्वेधन को बढ़ाती है लेकिन गति को कम करती है",
+        "गति को कम करती है लेकिन अंतर्वेधन को बढ़ाती है",
+        "समान गति और अंतर्वेधन प्रदान करती है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Increases speed but reduces penetration). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (गति को बढ़ाती है लेकिन अंतर्वेधन को कम करती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Increases speed but reduces penetration). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (गति को बढ़ाती है लेकिन अंतर्वेधन को कम करती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1700,8 +1700,8 @@
         "Pure aluminum"
       ],
       "hi": [
-        "कॉपर",
         "पीतल",
+        "कॉपर",
         "ढलवां लोहा",
         "शुद्ध ऐलुमिनियम"
       ]
@@ -1711,8 +1711,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Cast iron). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (ढलवां लोहा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Cast iron). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (ढलवां लोहा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1733,19 +1733,19 @@
         "Comparing internal and external sizes"
       ],
       "hi": [
+        "अप्रत्यक्ष मापन अंतरण",
         "समानांतर रेखा अवस्थापन",
-        "आंतरिक और बाह्य आमापों की तुलना",
         "प्रत्यक्ष मापन रीडिंग",
-        "अप्रत्यक्ष मापन अंतरण"
+        "आंतरिक और बाह्य आमापों की तुलना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Indirect measurement transfer). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (अप्रत्यक्ष मापन अंतरण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Indirect measurement transfer). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (अप्रत्यक्ष मापन अंतरण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1766,19 +1766,19 @@
         "Single cut is used only for wood while double cut is used for metals"
       ],
       "hi": [
-        "सिंगल कट में समानांतर दांतों का एक सेट होता है जबकि डबल कट में दो सेट होते हैं।",
+        "सिंगल कट फ़ाइलों में कोई दांत नहीं होते हैं जबकि डबल कट में होते हैं।",
         "सिंगल कट रेती सदैव गोल होती है जबकि डबल कट सदैव सपाट होती है।",
-        "सिंगल कट का उपयोग केवल लकड़ी के लिए किया जाता है जबकि डबल कट का उपयोग धातुओं के लिए किया जाता है।",
-        "सिंगल कट फ़ाइलों में कोई दांत नहीं होते हैं जबकि डबल कट में होते हैं।"
+        "सिंगल कट में समानांतर दांतों का एक सेट होता है जबकि डबल कट में दो सेट होते हैं।",
+        "सिंगल कट का उपयोग केवल लकड़ी के लिए किया जाता है जबकि डबल कट का उपयोग धातुओं के लिए किया जाता है।"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Single cut has one set of parallel teeth while double cut has two). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (सिंगल कट में समानांतर दांतों का एक सेट होता है जबकि डबल कट में दो सेट होते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Single cut has one set of parallel teeth while double cut has two). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (सिंगल कट में समानांतर दांतों का एक सेट होता है जबकि डबल कट में दो सेट होते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1799,19 +1799,19 @@
         "0.001 mm"
       ],
       "hi": [
-        "1 mm",
         "0.1 mm",
-        "0.001 mm",
-        "0.01 mm"
+        "0.01 mm",
+        "1 mm",
+        "0.001 mm"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (0.01 mm). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (0.01 mm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (0.01 mm). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (0.01 mm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1832,19 +1832,19 @@
         "To indicate visible outlines of an object"
       ],
       "hi": [
-        "मापन के लिए विमांकन रेखाओं को इंगित करने के लिए",
-        "किसी वस्तु की दृश्य आउटलाइन को इंगित करने के लिए",
         "प्रत्यक्ष रूप से दृश्य न होने वाले प्रछन्न कोरों को इंगित करने के लिए",
-        "सममिति के लिए केंद्र रेखाओं को इंगित करने के लिए"
+        "सममिति के लिए केंद्र रेखाओं को इंगित करने के लिए",
+        "मापन के लिए विमांकन रेखाओं को इंगित करने के लिए",
+        "किसी वस्तु की दृश्य आउटलाइन को इंगित करने के लिए"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (To indicate hidden edges that are not directly visible). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (प्रत्यक्ष रूप से दृश्य न होने वाले प्रछन्न कोरों को इंगित करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (To indicate hidden edges that are not directly visible). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (प्रत्यक्ष रूप से दृश्य न होने वाले प्रछन्न कोरों को इंगित करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1866,9 +1866,9 @@
       ],
       "hi": [
         "ड्राइव में उचित तनाव बनाए रखना",
-        "टाइमिंग बेल्ट या चेन को घुमाते रहना",
         "टाइमिंग घटकों की आवश्यकता को पूर्णतः समाप्त करना",
-        "उच्च तनाव प्रदान करके इंजन संपीडन अनुपात बढ़ाना"
+        "उच्च तनाव प्रदान करके इंजन संपीडन अनुपात बढ़ाना",
+        "टाइमिंग बेल्ट या चेन को घुमाते रहना"
       ]
     },
     "correctIndex": 0,
@@ -1876,8 +1876,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (To maintain proper tension in the drive). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (ड्राइव में उचित तनाव बनाए रखना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (To maintain proper tension in the drive). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (ड्राइव में उचित तनाव बनाए रखना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1898,19 +1898,19 @@
         "excessive"
       ],
       "hi": [
+        "अत्‍यंत छोटा",
         "उचित रूप से समायोजित",
         "शून्य",
-        "अत्यधिक",
-        "अत्‍यंत छोटा"
+        "अत्यधिक"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (excessive). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (अत्यधिक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (excessive). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (अत्यधिक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1931,19 +1931,19 @@
         "Its polished and shiny surface"
       ],
       "hi": [
-        "उसके समतलता और स्थायित्व की उच्च डिग्री",
         "दृश्यता के लिए उसका हल्का रंग",
-        "उसका पॉलिश किया हुआ और चमकदार पृष्ठ",
-        "कार्यवस्तु की तुलना में उसका भार"
+        "कार्यवस्तु की तुलना में उसका भार",
+        "उसके समतलता और स्थायित्व की उच्च डिग्री",
+        "उसका पॉलिश किया हुआ और चमकदार पृष्ठ"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Its high degree of flatness and stability). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (उसके समतलता और स्थायित्व की उच्च डिग्री)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Its high degree of flatness and stability). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (उसके समतलता और स्थायित्व की उच्च डिग्री)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1964,19 +1964,19 @@
         "Clutch position sensor"
       ],
       "hi": [
-        "फ्यूल इंजेक्टर (Fuel injector)",
+        "व्हीकल स्पीड सेंसर (Vehicle speed sensor)",
         "ऑक्सीजन सेंसर (Oxygen sensor)",
-        "क्लच पोजीशन सेंसर (Clutch position sensor)",
-        "व्हीकल स्पीड सेंसर (Vehicle speed sensor)"
+        "फ्यूल इंजेक्टर (Fuel injector)",
+        "क्लच पोजीशन सेंसर (Clutch position sensor)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Vehicle speed sensor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (व्हीकल स्पीड सेंसर (Vehicle speed sensor))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Vehicle speed sensor). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (व्हीकल स्पीड सेंसर (Vehicle speed sensor))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2008,8 +2008,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (The tang). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (टैंग (tang))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (The tang). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (टैंग (tang))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2030,19 +2030,19 @@
         "Post-weld grinding for smooth surface finish"
       ],
       "hi": [
-        "स्क्राइबर से वेल्ड सेंटर लाइन को चिह्नित करना",
         "वेल्डिंग से पहले कोरों की सही तैयारी करना",
         "उपलब्ध अधिकतम नॉज़ल आकार का उपयोग करना",
+        "स्क्राइबर से वेल्ड सेंटर लाइन को चिह्नित करना",
         "पृष्ठीय परिसज्जा को चिकना करने के लिए वेल्ड के बाद ग्राइंडिंग"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Correct edge preparation before welding). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (वेल्डिंग से पहले कोरों की सही तैयारी करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Correct edge preparation before welding). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (वेल्डिंग से पहले कोरों की सही तैयारी करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2064,18 +2064,18 @@
       ],
       "hi": [
         "संयोजी छड़",
+        "क्रैं कशैफ्ट",
         "कै मशैफ्ट",
-        "पिस्टन",
-        "क्रैं कशैफ्ट"
+        "पिस्टन"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Camshaft). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (कै मशैफ्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Camshaft). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (कै मशैफ्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2096,19 +2096,19 @@
         "Ensuring the die is aligned squarely with the workpiece axis"
       ],
       "hi": [
-        "बाह्य चूड़ी कर्तन प्रचालन के दौरान स्नेहन न करना",
         "कर्तन के दौरान डाई को घुमाते समय असमान दाब लगाना",
-        "यह सुनिश्चित करना कि डाई उचित रूप से वर्क पीस अक्ष के साथ संरेखित हो",
-        "डाई को वर्क पीस अक्ष से थोड़ा दूर झुकाना"
+        "बाह्य चूड़ी कर्तन प्रचालन के दौरान स्नेहन न करना",
+        "डाई को वर्क पीस अक्ष से थोड़ा दूर झुकाना",
+        "यह सुनिश्चित करना कि डाई उचित रूप से वर्क पीस अक्ष के साथ संरेखित हो"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Ensuring the die is aligned squarely with the workpiece axis). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (यह सुनिश्चित करना कि डाई उचित रूप से वर्क पीस अक्ष के साथ संरेखित हो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Ensuring the die is aligned squarely with the workpiece axis). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (यह सुनिश्चित करना कि डाई उचित रूप से वर्क पीस अक्ष के साथ संरेखित हो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2129,19 +2129,19 @@
         "Pedal return spring"
       ],
       "hi": [
+        "ब्रेक ड्रम (Brake drum)",
         "व्हील सिलेंडर (Wheel cylinder)",
         "मास्टर सिलेंडर (Master cylinder)",
-        "ब्रेक ड्रम (Brake drum)",
         "पैडल रिटर्न स्प्रिंग (Pedal return spring)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Master cylinder). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (मास्टर सिलेंडर (Master cylinder))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Master cylinder). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (मास्टर सिलेंडर (Master cylinder))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2162,19 +2162,19 @@
         "Because it is a good conductor of electricity"
       ],
       "hi": [
-        "क्योंकि यह विद्युत का सुचालक होता है",
-        "क्योंकि यह आपूर्ति वोल्टता को कम करके एक सुरक्षित मान तक लाता है",
         "क्योंकि यह तार में धारा को बढ़ाता है",
-        "क्योंकि यह विद्युत आघात से बचाने के लिए विद्युतरोधी के रूप में कार्य करता है"
+        "क्योंकि यह विद्युत आघात से बचाने के लिए विद्युतरोधी के रूप में कार्य करता है",
+        "क्योंकि यह आपूर्ति वोल्टता को कम करके एक सुरक्षित मान तक लाता है",
+        "क्योंकि यह विद्युत का सुचालक होता है"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Because it acts as insulator to protect from electric shock). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (क्योंकि यह विद्युत आघात से बचाने के लिए विद्युतरोधी के रूप में कार्य करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Because it acts as insulator to protect from electric shock). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (क्योंकि यह विद्युत आघात से बचाने के लिए विद्युतरोधी के रूप में कार्य करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2195,19 +2195,19 @@
         "Mechanical arm"
       ],
       "hi": [
-        "यांत्रिक भुजा (Mechanical arm)",
-        "लोड भुजा (Load arm)",
         "आयास भुजा (Effort arm)",
-        "लीवर लंबाई (Lever length)"
+        "लोड भुजा (Load arm)",
+        "लीवर लंबाई (Lever length)",
+        "यांत्रिक भुजा (Mechanical arm)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Effort arm). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (आयास भुजा (Effort arm))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Effort arm). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (आयास भुजा (Effort arm))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2228,19 +2228,19 @@
         "Sharp cutting edge"
       ],
       "hi": [
-        "वृत्ताकार डायल",
         "हैंडल ग्रिप",
-        "तीक्ष् ण कर्तन कोर",
-        "सपाट आधार"
+        "सपाट आधार",
+        "वृत्ताकार डायल",
+        "तीक्ष् ण कर्तन कोर"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Flat base). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (सपाट आधार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Flat base). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सपाट आधार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2261,19 +2261,19 @@
         "Insufficient surface preparation"
       ],
       "hi": [
-        "अत्यधिक सोल्डर अनुप्रयोग",
+        "निम्न फ्लक्स क्वथनांक",
         "उच्च गलन सोल्डर",
-        "अपर्याप्त पृष्ठ विरचन",
-        "निम्न फ्लक्स क्वथनांक"
+        "अत्यधिक सोल्डर अनुप्रयोग",
+        "अपर्याप्त पृष्ठ विरचन"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Insufficient surface preparation). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (अपर्याप्त पृष्ठ विरचन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Insufficient surface preparation). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (अपर्याप्त पृष्ठ विरचन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2294,19 +2294,19 @@
         "Reduce the thickness of the solder"
       ],
       "hi": [
-        "सोल्डरन से पहले उचित फ्लक्स (flux) प्रयुक्त करना",
         "सोल्डरन लौह वाटता (wattage) में वृद्धि करना",
-        "सोल्डर की मोटाई कम करना",
-        "सोल्डरन से पहले लौह घटक को ठंडा करना"
+        "सोल्डरन से पहले लौह घटक को ठंडा करना",
+        "सोल्डरन से पहले उचित फ्लक्स (flux) प्रयुक्त करना",
+        "सोल्डर की मोटाई कम करना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Apply an appropriate flux before soldering). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (सोल्डरन से पहले उचित फ्लक्स (flux) प्रयुक्त करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Apply an appropriate flux before soldering). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (सोल्डरन से पहले उचित फ्लक्स (flux) प्रयुक्त करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2327,19 +2327,19 @@
         "Blade"
       ],
       "hi": [
-        "ब्लेड",
-        "वर्नियर स्के ल",
         "स्टॉक",
-        "डायल"
+        "वर्नियर स्के ल",
+        "डायल",
+        "ब्लेड"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option A is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Stock). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (स्टॉक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Stock). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (स्टॉक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2371,8 +2371,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (The diaphragm inside the regulator). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (रेगुलेटर के अंदर का डायाफ्राम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (The diaphragm inside the regulator). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (रेगुलेटर के अंदर का डायाफ्राम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2393,19 +2393,19 @@
         "Large weld area and high overall strength"
       ],
       "hi": [
-        "सीमित वेल्ड क्षेत्र और जोड़ सामर्थ्य में कमी",
-        "बड़ा वेल्ड क्षेत्र और उच्च समग्र सामर्थ्य",
         "जोड़ में उच्च तन्यता और लचीलापन",
-        "व्यापक अभिगम्यता और उल्‍लेखनीय प्रबलन"
+        "व्यापक अभिगम्यता और उल्‍लेखनीय प्रबलन",
+        "सीमित वेल्ड क्षेत्र और जोड़ सामर्थ्य में कमी",
+        "बड़ा वेल्ड क्षेत्र और उच्च समग्र सामर्थ्य"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option C is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Limited weld area and reduced joint strength). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (सीमित वेल्ड क्षेत्र और जोड़ सामर्थ्य में कमी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Limited weld area and reduced joint strength). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (सीमित वेल्ड क्षेत्र और जोड़ सामर्थ्य में कमी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2426,19 +2426,19 @@
         "Voltage is equal to current multiplied by resistance"
       ],
       "hi": [
-        "वोल्टता , विद्युत - धारा और प्रतिरोध के गुणनफल के बराबर होती है",
-        "विद्युत - शक्ति , प्रतिरोध के अनुक्रमानुपाती होती है",
+        "विद्युत - धारा , विद्युत - शक्ति को वोल्टता से विभाजित करने के बराबर होती है",
         "प्रतिरोध , वोल्टता और विद्युत - धारा के गुणनफल के बराबर होता है",
-        "विद्युत - धारा , विद्युत - शक्ति को वोल्टता से विभाजित करने के बराबर होती है"
+        "विद्युत - शक्ति , प्रतिरोध के अनुक्रमानुपाती होती है",
+        "वोल्टता , विद्युत - धारा और प्रतिरोध के गुणनफल के बराबर होती है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option D is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Voltage is equal to current multiplied by resistance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (वोल्टता , विद्युत - धारा और प्रतिरोध के गुणनफल के बराबर होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Voltage is equal to current multiplied by resistance). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (वोल्टता , विद्युत - धारा और प्रतिरोध के गुणनफल के बराबर होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2459,19 +2459,19 @@
         "Fuel passage"
       ],
       "hi": [
-        "फ़्यूल पैसेज (Fuel passage)",
         "नीडल वॉल्व (Needle valve)",
         "स्पिंडल (Spindle)",
-        "नोज़ल बॉडी (Nozzle body)"
+        "नोज़ल बॉडी (Nozzle body)",
+        "फ़्यूल पैसेज (Fuel passage)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Heat Engine) Answer Key: Option B is verified correct.",
       "keyConcept": "Heat Engine Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Spindle). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (स्पिंडल (Spindle))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Spindle). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (स्पिंडल (Spindle))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   }
 ]

@@ -17,8 +17,8 @@
         "Most α-particles were absorbed by the foil"
       ],
       "hi": [
-        "सोने के परमाणु रासायनिक रूप से अस्थिर थे",
         "परमाणुओं में इलेक्ट्रॉन विद्युत रूप से उदासीन थे",
+        "सोने के परमाणु रासायनिक रूप से अस्थिर थे",
         "केवल कु छ ही α- कणों में विक्षेपण देखा गया था",
         "अधिकांश α- कण पन्नी द्वारा अवशोषित कर लिए गए थे"
       ]
@@ -51,10 +51,10 @@
         "N2"
       ],
       "hi": [
-        "N2",
         "NH3",
+        "H2O",
         "CO2",
-        "H2O"
+        "N2"
       ]
     },
     "correctIndex": 2,
@@ -86,9 +86,9 @@
       ],
       "hi": [
         "2,2- डाइमेथिलब्यूटेन (2,2-Dimethylbutane)",
+        "2,3- डाइमेथिलब्यूटेन (2,3-Dimethylbutane)",
         "3,3- डाइमेथिलब्यूटेन (3,3-Dimethylbutane)",
-        "1,2- डाइमेथिलब्यूटेन (1,2-Dimethylbutane)",
-        "2,3- डाइमेथिलब्यूटेन (2,3-Dimethylbutane)"
+        "1,2- डाइमेथिलब्यूटेन (1,2-Dimethylbutane)"
       ]
     },
     "correctIndex": 0,
@@ -108,8 +108,8 @@
     "subject": "General Science",
     "topic": "Biodiversity & Conservation • RRB Group D Level-1 (14 Aug 2026 Shift 29)",
     "question": {
-      "en": "A conservation biologist is designing a strategy to protect the Nilgiri tahr, which is found only in a specific Indian region. Which approach would be most appropriate for its conservation, based on its classification? 2:15 PM · English",
-      "hi": "एक संरक्षण जीवविज्ञानी केवल एक विशिष्ट भारतीय क्षेत्र में पाए जाने वाले नीलगिरी तहर (Nilgiri tahr) की रक्षा के लिए एक रणनीति तैयार कर रहा है। इसके वर्गीकरण के आधार पर इसके संरक्षण के लिए कौन - सा उपागम सबसे उपयुक्त होगा ? 2:15 PM · Hindi"
+      "en": "A conservation biologist is designing a strategy to protect the Nilgiri tahr, which is found only in a specific Indian region. Which approach would be most appropriate for its conservation, based on its classification?",
+      "hi": "एक संरक्षण जीवविज्ञानी केवल एक विशिष्ट भारतीय क्षेत्र में पाए जाने वाले नीलगिरी तहर (Nilgiri tahr) की रक्षा के लिए एक रणनीति तैयार कर रहा है। इसके वर्गीकरण के आधार पर इसके संरक्षण के लिए कौन - सा उपागम सबसे उपयुक्त होगा ?"
     },
     "options": {
       "en": [
@@ -119,10 +119,10 @@
         "Creating generic wildlife reserves"
       ],
       "hi": [
-        "प्रजातिगत वन्यजीव अभयारण्यों का निर्माण करना",
         "अन्य त्र व्यापक प्रजातियों को प्राथमिकता देना",
+        "अन्य क्षेत्रों में प्रजातियों का स्थानांतरण करना",
         "पश्चिमी घाट में इसके स्थानिक पर्यावास पर फोकस करना",
-        "अन्य क्षेत्रों में प्रजातियों का स्थानांतरण करना"
+        "प्रजातिगत वन्यजीव अभयारण्यों का निर्माण करना"
       ]
     },
     "correctIndex": 2,
@@ -154,9 +154,9 @@
       ],
       "hi": [
         "समपरासारी",
-        "सांद्रित",
         "अल्पपरासारी",
-        "शुद्ध जल"
+        "शुद्ध जल",
+        "सांद्रित"
       ]
     },
     "correctIndex": 0,
@@ -255,10 +255,10 @@
         "It kills all bacteria"
       ],
       "hi": [
+        "यह आमाशय तक भोजन का परिवहन करती है",
         "यह पोषकों को अवशोषित करती है",
-        "यह सभी जीवाणुओं को नष्ट कर देती है",
         "यह स्टार्च को सरल शर्क रा में विघटित कर देती है",
-        "यह आमाशय तक भोजन का परिवहन करती है"
+        "यह सभी जीवाणुओं को नष्ट कर देती है"
       ]
     },
     "correctIndex": 2,
@@ -289,9 +289,9 @@
         "Plant trees and practice sustainable farming"
       ],
       "hi": [
-        "सौर और पवन ऊर्जा का उपयोग करना",
-        "जीवाश्म ईंधन के उपयोग में वृद्धि करना",
         "जल की बचत करना और अपशिष्ट का पुनर्चक्रण करना",
+        "जीवाश्म ईंधन के उपयोग में वृद्धि करना",
+        "सौर और पवन ऊर्जा का उपयोग करना",
         "वृक्षारोपण करना और संधारणीय कृ षि का अभ्यास करना"
       ]
     },
@@ -324,8 +324,8 @@
       ],
       "hi": [
         "दोनों कथन सत्य हैं",
-        "कथन 1 सत्य है और कथन 2 असत्य है",
         "दोनों कथन असत्य हैं",
+        "कथन 1 सत्य है और कथन 2 असत्य है",
         "कथन 1 असत्य है और कथन 2 सत्य है"
       ]
     },
@@ -392,9 +392,9 @@
       ],
       "hi": [
         "इससे अत्यधिक धारा के कारण ओवरलोडिंग और संभावित शॉर्ट - सर्किट का जोखिम बढ़ जाता है",
+        "यह सुनिश्चित करता है कि सभी उपकरण निम्न वोल्टता पर कार्य करेंगे",
         "इससे घर में विद्युत खतरों का जोखिम कम हो जाता है",
-        "यह फ्यूज को किसी भी स्थिति में कार्य करने से रोकता है",
-        "यह सुनिश्चित करता है कि सभी उपकरण निम्न वोल्टता पर कार्य करेंगे"
+        "यह फ्यूज को किसी भी स्थिति में कार्य करने से रोकता है"
       ]
     },
     "correctIndex": 0,
@@ -425,9 +425,9 @@
         "The ability of the eye lens to change its focal length to focus on objects at different distances"
       ],
       "hi": [
+        "प्रकाश तीव्रता के साथ पुतली की आकार परिवर्तित करने की क्षमता",
         "बेहतर दृष्टि के लिए पलक स्थिति का समायोजन",
         "गतिमान वस्तुओं का अनुसरण करने के लिए नेत्र - गोलक का संचलन",
-        "प्रकाश तीव्रता के साथ पुतली की आकार परिवर्तित करने की क्षमता",
         "विभिन्न दूरियों पर वस्तुओं पर फोकस करने के लिए नेत्र लेंस की अपनी फोकस दूरी परिवर्तित करने की क्षमता"
       ]
     },
@@ -495,8 +495,8 @@
       "hi": [
         "चालक के चारों ओर विद्युत क्षेत्र उत्पन्न होता है",
         "चालक के चारों ओर चुंबकीय क्षेत्र उपस्थित होता है",
-        "चालक के चारों ओर ऊष्मा उत्पन्न होती है",
-        "क्षेत्र गुरुत्वीय रूप से सक्रिय हो जाता है"
+        "क्षेत्र गुरुत्वीय रूप से सक्रिय हो जाता है",
+        "चालक के चारों ओर ऊष्मा उत्पन्न होती है"
       ]
     },
     "correctIndex": 1,
@@ -527,8 +527,8 @@
         "The total change in velocity during that time interval"
       ],
       "hi": [
-        "उस समय अंतराल के दौरान पिंड का त्वरण",
         "उस समय अंतराल के दौरान औसत वेग",
+        "उस समय अंतराल के दौरान पिंड का त्वरण",
         "उस समय अंतराल के दौरान पिंड का विस्थापन",
         "उस समय अंतराल के दौरान वेग में कु ल परिवर्तन"
       ]
@@ -561,9 +561,9 @@
         "Distance (or displacement) travelled"
       ],
       "hi": [
+        "कार की चाल",
         "कार के त्वरण",
         "वेग में परिवर्तन",
-        "कार की चाल",
         "यात्रा की गई दूरी ( या विस्थापन )"
       ]
     },
@@ -595,10 +595,10 @@
         "3 m behind the mirror"
       ],
       "hi": [
-        "दर्पण के पीछे 3 m",
-        "दर्पण की पीछे 0.75 m",
         "दर्पण के सामने 0.12 m",
-        "दर्पण के सामने 3 m"
+        "दर्पण की पीछे 0.75 m",
+        "दर्पण के सामने 3 m",
+        "दर्पण के पीछे 3 m"
       ]
     },
     "correctIndex": 1,
@@ -629,9 +629,9 @@
         "diverge away from the mirror"
       ],
       "hi": [
-        "वक्रता केंद्र के माध्यम से वापस परावर्तित होगी",
-        "मुख्य अक्ष के समानांतर निकलेगी",
         "ध्रुव पर अभिसरित होगी",
+        "मुख्य अक्ष के समानांतर निकलेगी",
+        "वक्रता केंद्र के माध्यम से वापस परावर्तित होगी",
         "दर्पण से अपसारित होगी"
       ]
     },
@@ -663,9 +663,9 @@
         "Sand and water solution"
       ],
       "hi": [
-        "ऐसीटिक अम्ल और जल का विलयन",
-        "शर्क रा और जल का विलयन",
         "सोडियम क्लोराइड और जल",
+        "शर्क रा और जल का विलयन",
+        "ऐसीटिक अम्ल और जल का विलयन",
         "बालू और जल का विलयन"
       ]
     },
@@ -697,10 +697,10 @@
         "calcium sulphate"
       ],
       "hi": [
-        "कै ल्शियम सल्फे ट",
+        "कै ल्शियम ऑक्साइड",
         "कै ल्शियम हाइड्रोजन कार्बोनेट",
         "कै ल्शियम कार्बोनेट",
-        "कै ल्शियम ऑक्साइड"
+        "कै ल्शियम सल्फे ट"
       ]
     },
     "correctIndex": 2,
@@ -733,8 +733,8 @@
       "hi": [
         "विलयन सांद्रता में अंतर",
         "संबंधित तत् वों की सापेक्षिक अभिक्रियाशीलता",
-        "भौतिक अवस्था में अंतर",
-        "परमाण्विक द्रव्यमानों में अंतर"
+        "परमाण्विक द्रव्यमानों में अंतर",
+        "भौतिक अवस्था में अंतर"
       ]
     },
     "correctIndex": 1,
@@ -765,9 +765,9 @@
         "Rings of cartilage"
       ],
       "hi": [
+        "ग्रसनी",
         "स्वरयंत्र",
         "ग्रासनली",
-        "ग्रसनी",
         "उपास्थि केवलय"
       ]
     },
@@ -799,10 +799,10 @@
         "4 m"
       ],
       "hi": [
-        "4 m",
-        "6 m",
         "2 m",
-        "12 m"
+        "6 m",
+        "12 m",
+        "4 m"
       ]
     },
     "correctIndex": 1,
@@ -834,9 +834,9 @@
       ],
       "hi": [
         "1 J",
-        "10 J",
+        "0.1 J",
         "0.5 J",
-        "0.1 J"
+        "10 J"
       ]
     },
     "correctIndex": 0,
@@ -867,10 +867,10 @@
         "24ab"
       ],
       "hi": [
-        "16ac",
+        "12bc",
         "48bc",
-        "24ab",
-        "12bc"
+        "16ac",
+        "24ab"
       ]
     },
     "correctIndex": 1,
@@ -903,8 +903,8 @@
       "hi": [
         "₹80",
         "₹32",
-        "₹20",
-        "₹50"
+        "₹50",
+        "₹20"
       ]
     },
     "correctIndex": 1,
@@ -936,8 +936,8 @@
       ],
       "hi": [
         "51°",
-        "52°",
         "50°",
+        "52°",
         "53°"
       ]
     },
@@ -971,8 +971,8 @@
       "hi": [
         "48",
         "40",
-        "36",
-        "42"
+        "42",
+        "36"
       ]
     },
     "correctIndex": 1,
@@ -1004,8 +1004,8 @@
       ],
       "hi": [
         "12:56 pm",
-        "1:10 pm",
         "1:30 pm",
+        "1:10 pm",
         "1:06 pm"
       ]
     },
@@ -1037,10 +1037,10 @@
         "1,120"
       ],
       "hi": [
-        "1,120",
+        "1,060",
         "1,100",
         "1,080",
-        "1,060"
+        "1,120"
       ]
     },
     "correctIndex": 1,
@@ -1073,8 +1073,8 @@
       "hi": [
         "210",
         "180",
-        "200",
-        "240"
+        "240",
+        "200"
       ]
     },
     "correctIndex": 0,
@@ -1105,10 +1105,10 @@
         "120"
       ],
       "hi": [
-        "120",
-        "720",
         "60",
-        "80"
+        "720",
+        "80",
+        "120"
       ]
     },
     "correctIndex": 1,
@@ -1139,8 +1139,8 @@
         "₹376.50"
       ],
       "hi": [
-        "₹348.50",
         "₹352.50",
+        "₹348.50",
         "₹359.50",
         "₹376.50"
       ]
@@ -1174,9 +1174,9 @@
       ],
       "hi": [
         "1.54",
-        "3.39",
+        "2.42",
         "0.58",
-        "2.42"
+        "3.39"
       ]
     },
     "correctIndex": 0,
@@ -1208,9 +1208,9 @@
       ],
       "hi": [
         "1",
-        "2",
+        "4",
         "3",
-        "4"
+        "2"
       ]
     },
     "correctIndex": 0,
@@ -1241,9 +1241,9 @@
         "20"
       ],
       "hi": [
-        "22",
-        "18",
         "19",
+        "18",
+        "22",
         "20"
       ]
     },
@@ -1275,10 +1275,10 @@
         "decrease by ₹4,133"
       ],
       "hi": [
-        "₹4,133 की वृद्धि",
+        "₹4,131 की वृद्धि",
         "₹4,128 की कमी",
-        "₹4,133 की कमी",
-        "₹4,131 की वृद्धि"
+        "₹4,133 की वृद्धि",
+        "₹4,133 की कमी"
       ]
     },
     "correctIndex": 1,
@@ -1310,9 +1310,9 @@
       ],
       "hi": [
         "I",
-        "IV",
         "II",
-        "III"
+        "III",
+        "IV"
       ]
     },
     "correctIndex": 0,
@@ -1343,10 +1343,10 @@
         "25320 cm2"
       ],
       "hi": [
-        "25320 cm2",
-        "25350 cm2",
         "25386 cm2",
-        "25332 cm2"
+        "25350 cm2",
+        "25332 cm2",
+        "25320 cm2"
       ]
     },
     "correctIndex": 1,
@@ -1377,10 +1377,10 @@
         "17800"
       ],
       "hi": [
-        "17800",
+        "19400",
         "19800",
         "18400",
-        "19400"
+        "17800"
       ]
     },
     "correctIndex": 1,
@@ -1479,8 +1479,8 @@
         "2,80,800"
       ],
       "hi": [
-        "2,00,000",
         "5,00,000",
+        "2,00,000",
         "4,00,000",
         "2,80,800"
       ]
@@ -1503,7 +1503,7 @@
     "topic": "Mean Proportional • RRB Group D Level-1 (14 Aug 2026 Shift 29)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "और का मध्यानुपाती कितना है ?"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1523,10 +1523,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Mean Proportional",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1547,10 +1547,10 @@
         "99"
       ],
       "hi": [
+        "106",
         "94",
-        "99",
         "113",
-        "106"
+        "99"
       ]
     },
     "correctIndex": 2,
@@ -1581,10 +1581,10 @@
         "3"
       ],
       "hi": [
-        "3",
+        "5",
         "4",
         "1",
-        "5"
+        "3"
       ]
     },
     "correctIndex": 2,
@@ -1627,8 +1627,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Ratio Comparison",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1659,10 +1659,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Reciprocal Relations",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1693,10 +1693,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Surds",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1718,9 +1718,9 @@
       ],
       "hi": [
         "तीन",
+        "चार",
         "दो",
-        "एक",
-        "चार"
+        "एक"
       ]
     },
     "correctIndex": 0,
@@ -1751,10 +1751,10 @@
         "Three"
       ],
       "hi": [
-        "तीन",
         "एक भी नहीं",
+        "दो",
         "एक",
-        "दो"
+        "तीन"
       ]
     },
     "correctIndex": 2,
@@ -1785,10 +1785,10 @@
         "10"
       ],
       "hi": [
+        "8",
         "11",
-        "10",
         "9",
-        "8"
+        "10"
       ]
     },
     "correctIndex": 2,
@@ -1819,9 +1819,9 @@
         "9"
       ],
       "hi": [
-        "7",
-        "5",
         "8",
+        "5",
+        "7",
         "9"
       ]
     },
@@ -1887,9 +1887,9 @@
         "Three"
       ],
       "hi": [
-        "दो",
         "एक",
         "चार",
+        "दो",
         "तीन"
       ]
     },
@@ -1955,9 +1955,9 @@
         "YNX"
       ],
       "hi": [
-        "NYX",
         "YNI",
         "NXY",
+        "NYX",
         "YNX"
       ]
     },
@@ -1989,10 +1989,10 @@
         "FT 6"
       ],
       "hi": [
-        "FT 6",
         "DG 7",
+        "JI 5",
         "OG 8",
-        "JI 5"
+        "FT 6"
       ]
     },
     "correctIndex": 2,
@@ -2023,9 +2023,9 @@
         "Four"
       ],
       "hi": [
-        "छह",
-        "पाँच",
         "तीन",
+        "पाँच",
+        "छह",
         "चार"
       ]
     },
@@ -2057,9 +2057,9 @@
         "Four"
       ],
       "hi": [
+        "एक",
         "दो",
         "तीन",
-        "एक",
         "चार"
       ]
     },
@@ -2091,10 +2091,10 @@
         "F"
       ],
       "hi": [
-        "F",
+        "L",
         "J",
         "D",
-        "L"
+        "F"
       ]
     },
     "correctIndex": 1,
@@ -2161,8 +2161,8 @@
       "hi": [
         "149",
         "175",
-        "122",
-        "136"
+        "136",
+        "122"
       ]
     },
     "correctIndex": 0,
@@ -2194,9 +2194,9 @@
       ],
       "hi": [
         "76",
-        "74",
         "77",
-        "84"
+        "84",
+        "74"
       ]
     },
     "correctIndex": 0,
@@ -2227,10 +2227,10 @@
         "RING - RNIG - GNIR"
       ],
       "hi": [
-        "VENT - VETN - ENTV",
+        "MONK - OMNK - KONM",
         "DEAR - DRAE - RAED",
-        "RING - RNIG - GNIR",
-        "MONK - OMNK - KONM"
+        "VENT - VETN - ENTV",
+        "RING - RNIG - GNIR"
       ]
     },
     "correctIndex": 1,
@@ -2262,8 +2262,8 @@
       ],
       "hi": [
         "# = JRW, % = PCJ",
-        "# = GRW, % = PGJ",
         "# = KPS, % = PGJ",
+        "# = GRW, % = PGJ",
         "# = JPW, % = PCJ"
       ]
     },
@@ -2295,9 +2295,9 @@
         "EJH"
       ],
       "hi": [
-        "XBA",
         "ZDC",
         "WAZ",
+        "XBA",
         "EJH"
       ]
     },
@@ -2329,9 +2329,9 @@
         "IK - NQ"
       ],
       "hi": [
-        "EG - JL",
-        "MO - RT",
         "QS - VX",
+        "MO - RT",
+        "EG - JL",
         "IK - NQ"
       ]
     },
@@ -2364,9 +2364,9 @@
       ],
       "hi": [
         "19",
+        "17",
         "18",
-        "20",
-        "17"
+        "20"
       ]
     },
     "correctIndex": 0,
@@ -2397,9 +2397,9 @@
         "12"
       ],
       "hi": [
-        "13",
-        "9",
         "11",
+        "9",
+        "13",
         "12"
       ]
     },
@@ -2465,10 +2465,10 @@
         "Father"
       ],
       "hi": [
-        "पिता",
         "पति",
+        "पुत्र",
         "भाई",
-        "पुत्र"
+        "पिता"
       ]
     },
     "correctIndex": 2,
@@ -2499,9 +2499,9 @@
         "Mother's mother"
       ],
       "hi": [
-        "पिता की माता",
         "माता की बहन",
         "पिता की बहन",
+        "पिता की माता",
         "माता की माता"
       ]
     },
@@ -2567,10 +2567,10 @@
         "28"
       ],
       "hi": [
-        "28",
+        "30",
         "27",
         "29",
-        "30"
+        "28"
       ]
     },
     "correctIndex": 2,
@@ -2595,16 +2595,16 @@
     },
     "options": {
       "en": [
-        "statement I alone or statement II alone) are sufficient to answer the question.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.",
         "Data in statement II alone is sufficient to answer the question while data in statement I is not.",
         "Data in statements I and II together are NOT sufficient to answer the question.",
         "Data in statement I alone is sufficient to answer the question while data in statement II is not."
       ],
       "hi": [
-        "कथन I और कथन II दोनों मिलकर ( और न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं। अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त",
-        "अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
-        "है , जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
-        "कथन I और कथन II दोनों मिलकर भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।"
+        "कथन I और कथन II दोनों मिलकर ( और न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
+        "अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
+        "कथन I और II दोनों मिलकर भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 0,
@@ -2613,8 +2613,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (statement I alone or statement II alone) are sufficient to answer the question.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (कथन I और कथन II दोनों मिलकर ( और न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं। अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (कथन I और कथन II दोनों मिलकर ( और न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।) सही उत्तर है।"
     }
   },
   {
@@ -2630,15 +2630,15 @@
     "options": {
       "en": [
         "Both statements I and II together are NOT sufficient to answer the question",
-        "Data in Statement II alone is sufficient to answer the question while data in statement I is not Both statements I and II together (and not statement I",
-        "alone or statement II alone) are sufficient to answer the question.",
+        "Data in Statement II alone is sufficient to answer the question while data in statement I is not",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.",
         "Data in Statement I alone is sufficient to answer the question while data in statement II is not"
       ],
       "hi": [
-        "कथन I और II दोनों संयुक्‍त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं",
-        "कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है कथन I और II दोनों संयुक्‍त रूप से ( और केवल कथन I या कथन II",
-        "नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त हैं",
-        "कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है"
+        "कथन I और II दोनों संयुक्त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं",
+        "कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है",
+        "कथन I और II दोनों संयुक्त रूप से (और केवल कथन I या कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं",
+        "कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है"
       ]
     },
     "correctIndex": 0,
@@ -2648,7 +2648,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Both statements I and II together are NOT sufficient to answer the question) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (कथन I और II दोनों संयुक्‍त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (कथन I और II दोनों संयुक्त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं) सही उत्तर है।"
     }
   },
   {
@@ -2663,16 +2663,16 @@
     },
     "options": {
       "en": [
-        "alone or statement II alone) are sufficient to answer the question.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.",
         "Data in Statement II alone is sufficient to answer the question while data in statement I is not",
         "Both statements I and II together are NOT sufficient to answer the question",
         "Data in Statement I alone is sufficient to answer the question while data in statement II is not"
       ],
       "hi": [
-        "कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है",
-        "कथन I और II दोनों संयुक्‍त रूप से ( और केवल कथन I या कथन II नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त हैं कथन I और II दोनों संयुक्‍त रूप से प्रश्न का उत्तर देने के लिए",
-        "पर्याप्त नहीं हैं",
-        "कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है General Awareness"
+        "कथन I और II दोनों संयुक्त रूप से (और केवल कथन I या कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं",
+        "कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है",
+        "कथन I और II दोनों संयुक्त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं",
+        "कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है"
       ]
     },
     "correctIndex": 2,
@@ -2682,7 +2682,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Both statements I and II together are NOT sufficient to answer the question) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (पर्याप्त नहीं हैं) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (कथन I और II दोनों संयुक्त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं) सही उत्तर है।"
     }
   },
   {
@@ -2703,8 +2703,8 @@
         "ht"
       ],
       "hi": [
-        "wg",
         "aq",
+        "wg",
         "kc",
         "ht"
       ]
@@ -2772,9 +2772,9 @@
       ],
       "hi": [
         "वेनेज़ुएला (Venezuela)",
-        "क्यूबा (Cuba)",
         "बोलिविया (Bolivia)",
-        "कोलंबिया (Colombia)"
+        "कोलंबिया (Colombia)",
+        "क्यूबा (Cuba)"
       ]
     },
     "correctIndex": 0,
@@ -2806,8 +2806,8 @@
       ],
       "hi": [
         "नेट जीरो और ऊर्जा सुरक्षा के लिए हरित प्रौद्योगिकी को बढ़ावा देना",
-        "संधारणीय औद्योगिक रूपांतरण के लिए नवीकरणीय ऊर्जा को गति प्रदान करना",
         "स्वच्छ ऊर्जा नवाचार और वित्तपोषण के माध्यम से जलवायु लचीलापन निर्मित करना",
+        "संधारणीय औद्योगिक रूपांतरण के लिए नवीकरणीय ऊर्जा को गति प्रदान करना",
         "वैश्विक साझेदारी और डिजिटल माध्यमों के माध्यम से एनडीसी कार्यान्वयन हेतु कार्बन वित्त को सुगम बनाना"
       ]
     },
@@ -2840,9 +2840,9 @@
       ],
       "hi": [
         "साधना सप्ताह 2026",
-        "राष्ट्रीय शिक्षा उन्नति सप्ताह 2026",
+        "विकसित भारत सप्ताह 2026",
         "कर्मयोगी शासन सप्ताह 2026",
-        "विकसित भारत सप्ताह 2026"
+        "राष्ट्रीय शिक्षा उन्नति सप्ताह 2026"
       ]
     },
     "correctIndex": 0,
@@ -2873,10 +2873,10 @@
         "Captaining the Indian cricket team in a series win"
       ],
       "hi": [
-        "भारतीय क्रिके ट टीम की कप्तानी करते हुए सीरीज़ जीतना",
         "राष्ट्रीय बैडमिंटन चैंपियनशिप जीतना",
+        "उत्कृ ष्टता के लिए अर्जुन पुरस्कार प्राप्त करना",
         "अलेक्जेंडर डोंस्की के साथ डबल्स टेनिस खिताब हासिल करना",
-        "उत्कृ ष्टता के लिए अर्जुन पुरस्कार प्राप्त करना"
+        "भारतीय क्रिके ट टीम की कप्तानी करते हुए सीरीज़ जीतना"
       ]
     },
     "correctIndex": 2,
@@ -2907,9 +2907,9 @@
         "Simon Ehammer"
       ],
       "hi": [
-        "निकलास कौल (Niklas Kaul)",
         "डेमियन वार्नर (Damian Warner)",
         "के विन मेयर (Kevin Mayer)",
+        "निकलास कौल (Niklas Kaul)",
         "साइमन एहमर (Simon Ehammer)"
       ]
     },
@@ -2941,9 +2941,9 @@
         "Gurindervir Singh"
       ],
       "hi": [
-        "विशाल टी . के",
         "अनिमेष कु जूर",
         "यशस पी .",
+        "विशाल टी . के",
         "गुरिंदरवीर सिंह"
       ]
     },
@@ -3009,10 +3009,10 @@
         "₹3 lakh"
       ],
       "hi": [
-        "₹3 लाख",
+        "₹6 लाख",
         "₹5 लाख",
         "₹4 लाख",
-        "₹6 लाख"
+        "₹3 लाख"
       ]
     },
     "correctIndex": 1,
@@ -3043,10 +3043,10 @@
         "Malabar"
       ],
       "hi": [
-        "कोंकण (Konkan)",
+        "वरुण (Varuna)",
         "मिलन (MILAN)",
-        "मालाबार (Malabar)",
-        "वरुण (Varuna)"
+        "कोंकण (Konkan)",
+        "मालाबार (Malabar)"
       ]
     },
     "correctIndex": 1,
@@ -3077,9 +3077,9 @@
         "Bharatiya Janata Party"
       ],
       "hi": [
+        "वाम मोर्चा",
         "भारतीय राष्ट्रीय कांग्रेस",
         "तृणमूल कांग्रेस",
-        "वाम मोर्चा",
         "भारतीय जनता पार्टी"
       ]
     },
@@ -3111,10 +3111,10 @@
         "Pradhan Mantri Gram Sadak Yojana"
       ],
       "hi": [
+        "प्रधानमंत्री रोजगार सृजन कार्यक्रम",
         "राष्ट्रीय शहरी आजीविका मिशन",
-        "प्रधानमंत्री ग्राम सड़क योजना",
         "प्रधानमंत्री जन विकास कार्यक्रम",
-        "प्रधानमंत्री रोजगार सृजन कार्यक्रम"
+        "प्रधानमंत्री ग्राम सड़क योजना"
       ]
     },
     "correctIndex": 2,
@@ -3145,9 +3145,9 @@
         "Decriminalising minor offences to improve ease of doing business"
       ],
       "hi": [
-        "केंद्र सरकार के अंतर्गत सभी नियामक शक्तियों का केंद्रीकरण करना",
         "सिविल दंड को अनिवार्य कारावास से प्रतिस्थापित करना",
         "आर्थिक अपराधों के लिए निवारक हिरासत का विस्तार करना",
+        "केंद्र सरकार के अंतर्गत सभी नियामक शक्तियों का केंद्रीकरण करना",
         "व्यापार करने में सुगमता में सुधार के लिए छोटे - मोटे अपराधों को अपराधमुक्त करना"
       ]
     },
@@ -3179,10 +3179,10 @@
         "Jiangshan"
       ],
       "hi": [
+        "पुणे",
         "बर्मिंघम (Birmingham)",
-        "जियांगशान (Jiangshan)",
         "गांधीनगर",
-        "पुणे"
+        "जियांगशान (Jiangshan)"
       ]
     },
     "correctIndex": 2,
@@ -3213,9 +3213,9 @@
         "Bengaluru"
       ],
       "hi": [
-        "हैदराबाद",
         "पुणे",
         "चेन्नई",
+        "हैदराबाद",
         "बेंगलुरु"
       ]
     },
@@ -3248,9 +3248,9 @@
       ],
       "hi": [
         "भारतीय अंतरिक्ष अनुसंधान संगठन",
-        "राष्ट्रीय शैक्षिक अनुसंधान और प्रशिक्षण परिषद",
         "वैज्ञानिक तथा औद्योगिक अनुसंधान परिषद",
-        "शिक्षा मंत्रालय"
+        "शिक्षा मंत्रालय",
+        "राष्ट्रीय शैक्षिक अनुसंधान और प्रशिक्षण परिषद"
       ]
     },
     "correctIndex": 0,
@@ -3315,10 +3315,10 @@
         "Single-tube Multiplex Real-Time RT-PCR Method"
       ],
       "hi": [
-        "पोर्टेबल RT-PCR डिवाइस (Portable RT-PCR device) AI- सक्षम डेंगू सेंटिनल प्लेटफॉर्म (AI-Enabled Dengue",
-        "Sentinel Platform)",
-        "CRISPR-Cas9 आधारित फीवर - स्कै न टूल (CRISPR-Cas9 Based Fever-Scan Tool) सिंगल - ट्यूब मल्टीप्लेक्स रियल - टाइम RT-PCR विधि",
-        "(Single-tube Multiplex Real-Time RT-PCR Method)"
+        "CRISPR-Cas9 आधारित फीवर-स्कैन टूल (CRISPR-Cas9 Based Fever-Scan Tool)",
+        "पोर्टेबल RT-PCR डिवाइस (Portable RT-PCR device)",
+        "AI-सक्षम डेंगू सेंटिनल प्लेटफॉर्म (AI-Enabled Dengue Sentinel Platform)",
+        "सिंगल-ट्यूब मल्टीप्लेक्स रियल-टाइम RT-PCR विधि (Single-tube Multiplex Real-Time RT-PCR Method)"
       ]
     },
     "correctIndex": 3,
@@ -3328,7 +3328,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs • Science & Technology Current Affairs",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Single-tube Multiplex Real-Time RT-PCR Method) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D ((Single-tube Multiplex Real-Time RT-PCR Method)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (सिंगल-ट्यूब मल्टीप्लेक्स रियल-टाइम RT-PCR विधि (Single-tube Multiplex Real-Time RT-PCR Method)) सही उत्तर है।"
     }
   },
   {
@@ -3383,9 +3383,9 @@
         "National Productivity Council"
       ],
       "hi": [
-        "नीति आयोग",
-        "अखिल भारतीय व्यापार और सामुदायिक फाउंडेशन",
         "विदेश मंत्रालय",
+        "अखिल भारतीय व्यापार और सामुदायिक फाउंडेशन",
+        "नीति आयोग",
         "राष्ट्रीय उत्पादकता परिषद"
       ]
     },

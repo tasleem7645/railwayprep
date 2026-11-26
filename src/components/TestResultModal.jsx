@@ -15,6 +15,7 @@ import ShareScoreCardModal from './ShareScoreCardModal';
 import ReportQuestionModal from './ReportQuestionModal';
 import { getCutoffBenchmark, evaluateCutoffStatus } from '../utils/cutoffCalculator';
 import { renderPrintableShiftWindow } from '../utils/shiftPdfGenerator';
+import { getQuestionImage } from '../utils/pyqHelper';
 import { supabase } from '../lib/supabaseClient';
 import { notifyStudyStateChanged } from '../utils/studySyncEvents';
 import {
@@ -83,9 +84,7 @@ export default function TestResultModal({
       const wrongQuestions = test.questions
         .filter((q) => {
           const userAns = answers[q.id];
-          const isCorrectAns =
-            userAns === q.correctIndex ||
-            (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+          const isCorrectAns = userAns === q.correctIndex;
           return userAns !== undefined && !isCorrectAns;
         })
         .map((q) => ({
@@ -135,9 +134,7 @@ export default function TestResultModal({
     }
     sectionStats[sec].total++;
 
-    const isCorrect = userAns !== undefined && (
-      userAns === q.correctIndex || (q.correctIndexHi !== undefined && userAns === q.correctIndexHi)
-    );
+    const isCorrect = userAns !== undefined && userAns === q.correctIndex;
 
     if (userAns === undefined) {
       unattemptedCount++;
@@ -216,9 +213,7 @@ export default function TestResultModal({
   // Filter questions for the solutions review list
   const filteredQuestions = test.questions.filter((q) => {
     const userAns = answers[q.id];
-    const isCorrect =
-      userAns === q.correctIndex ||
-      (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+    const isCorrect = userAns === q.correctIndex;
     const isAttempted = userAns !== undefined;
 
     if (selectedSection !== 'All' && q.section !== selectedSection) {
@@ -709,9 +704,7 @@ export default function TestResultModal({
                 {filteredQuestions.map((q, idx) => {
                   const userAns = answers[q.id];
                   const isCorrect =
-                    userAns !== undefined &&
-                    (userAns === q.correctIndex ||
-                      (q.correctIndexHi !== undefined && userAns === q.correctIndexHi));
+                    userAns !== undefined && userAns === q.correctIndex;
                   const isAttempted = userAns !== undefined;
                   const isSelected = idx === reviewIndex;
 
@@ -739,10 +732,7 @@ export default function TestResultModal({
             {activeReviewQ && (() => {
               const userAns = answers[activeReviewQ.id];
               const isCorrect =
-                userAns !== undefined &&
-                (userAns === activeReviewQ.correctIndex ||
-                  (activeReviewQ.correctIndexHi !== undefined &&
-                    userAns === activeReviewQ.correctIndexHi));
+                userAns !== undefined && userAns === activeReviewQ.correctIndex;
               const isAttempted = userAns !== undefined;
 
               return (
@@ -835,7 +825,7 @@ export default function TestResultModal({
                   <div className="mb-4">
                     <QuestionContentRenderer
                       text={activeReviewQ.question[reviewLang] || activeReviewQ.question['en']}
-                      image={activeReviewQ[`image_${reviewLang}`] || activeReviewQ.image}
+                      image={getQuestionImage(activeReviewQ, reviewLang)}
                       className="text-base sm:text-lg font-medium text-slate-100 leading-relaxed font-sans"
                     />
                   </div>
@@ -843,9 +833,7 @@ export default function TestResultModal({
                   {/* 4 Options with User Response vs Official Answer Highlighting */}
                   <div className="space-y-3">
                     {getOptionsList(activeReviewQ, reviewLang).map((optText, optIdx) => {
-                      const isOfficialCorrect = (reviewLang === 'hi' && activeReviewQ.correctIndexHi !== undefined)
-                        ? optIdx === activeReviewQ.correctIndexHi
-                        : optIdx === activeReviewQ.correctIndex;
+                      const isOfficialCorrect = optIdx === activeReviewQ.correctIndex;
                       const isUserSelected = userAns === optIdx;
                       const letter = String.fromCharCode(65 + optIdx);
 

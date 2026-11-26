@@ -4,7 +4,7 @@
  * and cropped official diagrams with clean @media print A4 pagination.
  */
 
-import { getPyqOptions, getPyqCorrectIndex } from './pyqHelper.js';
+import { getPyqOptions, getPyqCorrectIndex, getQuestionImage } from './pyqHelper.js';
 
 function escapeHtml(str) {
   return String(str ?? '')
@@ -98,10 +98,7 @@ export function buildPrintableShiftHtml(test, options = {}) {
       const qNo = q.shiftQuestionNo || q.id || idx + 1;
       const enQ = q.question?.en || '';
       const hiQ = q.question?.hi || '';
-      const rawImg =
-        langMode === 'hi'
-          ? q.image_hi || q.image || q.image_en || ''
-          : q.image_en || q.image || q.image_hi || '';
+      const rawImg = getQuestionImage(q, langMode === 'hi' ? 'hi' : 'en') || '';
       const imgSrc = rawImg
         ? rawImg.startsWith('http')
           ? rawImg

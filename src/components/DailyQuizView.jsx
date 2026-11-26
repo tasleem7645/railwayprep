@@ -397,9 +397,7 @@ function RapidQuizRunnerModal({ quiz, onClose, onFinishQuiz, onOpenMistakes }) {
     questions.forEach(q => {
       const userAns = answers[q.id];
       if (userAns !== undefined) {
-        const isCorrect =
-          userAns === q.correctIndex ||
-          (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+        const isCorrect = userAns === q.correctIndex;
         if (isCorrect) {
           correct++;
         } else {

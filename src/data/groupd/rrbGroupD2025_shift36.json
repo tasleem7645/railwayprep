@@ -19,8 +19,8 @@
       "hi": [
         "वे प्रोटॉनों के धनावेश को संतुलित करके परमाणुओं को उदासीन बनाते हैं।",
         "वे न्यूट्रॉनों के साथ नाभिक के अंदर उपस्थित होते हैं।",
-        "वे परमाणु के सार्थक द्रव्यमान में वृद्धि करते हैं।",
-        "वे परमाणु को धनावेशित बनाते हैं।"
+        "वे परमाणु को धनावेशित बनाते हैं।",
+        "वे परमाणु के सार्थक द्रव्यमान में वृद्धि करते हैं।"
       ]
     },
     "correctIndex": 0,
@@ -52,9 +52,9 @@
       ],
       "hi": [
         "K- कोश",
-        "M- कोश",
         "L- कोश",
-        "N- कोश"
+        "N- कोश",
+        "M- कोश"
       ]
     },
     "correctIndex": 0,
@@ -108,8 +108,8 @@
     "subject": "General Science",
     "topic": "Cell Division (Mitosis, Meiosis) • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
-      "en": "When a cell prepares to divide, the chromatin material organizes itself into __________. 6:00 PM · English",
-      "hi": "जब कोई कोशिका विभाजित होने की तैयारी करती है , तो क्रोमैटिन पदार्थ स्वयं को __________ में व्यवस्थित कर लेता है। 6:00 PM · Hindi"
+      "en": "When a cell prepares to divide, the chromatin material organizes itself into __________.",
+      "hi": "जब कोई कोशिका विभाजित होने की तैयारी करती है , तो क्रोमैटिन पदार्थ स्वयं को __________ में व्यवस्थित कर लेता है।"
     },
     "options": {
       "en": [
@@ -120,9 +120,9 @@
       ],
       "hi": [
         "केंद्रकीय छिद्रों",
-        "प्रोटीनों",
+        "लाइसोसोम",
         "गुणसूत्रों",
-        "लाइसोसोम"
+        "प्रोटीनों"
       ]
     },
     "correctIndex": 2,
@@ -154,9 +154,9 @@
       ],
       "hi": [
         "कई अनुप्रयुक्त वोल्टताओं के लिए धारा को मापें और वोल्टता बनाम धारा का ग्राफ बनाएं",
-        "एक एकल अनुप्रयुक्त वोल्टता पर उत्पन्न ऊष्मा का अवलोकन करें",
+        "निश्चित धारा के लिए वोल्टता की गणना करें",
         "एक वोल्टता पर प्रतिरोध को मापें और सारणीबद्ध मान से तुलना करें",
-        "निश्चित धारा के लिए वोल्टता की गणना करें"
+        "एक एकल अनुप्रयुक्त वोल्टता पर उत्पन्न ऊष्मा का अवलोकन करें"
       ]
     },
     "correctIndex": 0,
@@ -188,9 +188,9 @@
       ],
       "hi": [
         "छोटी आंत",
-        "बड़ी आंत",
+        "आमाशय",
         "ग्रासनली",
-        "आमाशय"
+        "बड़ी आंत"
       ]
     },
     "correctIndex": 0,
@@ -223,8 +223,8 @@
       "hi": [
         "0.44 s",
         "1.33 s",
-        "2.20 s",
-        "0.67 s"
+        "0.67 s",
+        "2.20 s"
       ]
     },
     "correctIndex": 1,
@@ -256,8 +256,8 @@
       ],
       "hi": [
         "अयस्क का समृद्धिकरण किया जाता है , फिर धातु को निष्कर्षित किया जाता है और अंततः शोधन किया जाता है अयस्क को पिघलाया जाता है , फिर धातु को निष्कर्षित किया जाता है",
-        "अयस्क का शोधन किया जाता है , फिर धातु को निष्कर्षित किया जाता है और अंततः समृद्धिकरण किया जाता है",
         "और अंततः समृद्धिकरण किया जाता है",
+        "अयस्क का शोधन किया जाता है , फिर धातु को निष्कर्षित किया जाता है और अंततः समृद्धिकरण किया जाता है",
         "धातु को निष्कर्षित किया जाता है , फिर अयस्क का समृद्धिकरण किया जाता है और अंततः शोधन किया जाता है"
       ]
     },
@@ -290,8 +290,8 @@
       ],
       "hi": [
         "निकट - दृष्टि दोष (Myopia)",
-        "दीर्घ - दृष्टि दोष (​ H ypermetropia)",
         "अबिंदुकता (Astigmatism)",
+        "दीर्घ - दृष्टि दोष (​ H ypermetropia)",
         "जरा - दूरदृष्टिता (Presbyopia)"
       ]
     },
@@ -323,9 +323,9 @@
         "It can exist as two different isomers with straight or branched chains"
       ],
       "hi": [
-        "इसकी संरचना चक्रीय है और इसका केवल एक समावयव है",
         "यह केवल एक संभावित संरचना बनाता है",
         "इसमें कार्बन - कार्बन द्वि - आबंध होना अनिवार्य है",
+        "इसकी संरचना चक्रीय है और इसका केवल एक समावयव है",
         "यह सीधी या शाखायुक्त शृंखलाओं वाले दो अलग - अलग समावयव के रूप में विद्यमान हो सकता है"
       ]
     },
@@ -357,10 +357,10 @@
         "Anna Mani’s solar radiation measurements"
       ],
       "hi": [
-        "collection)",
+        "सरकारी मौसम पूर्वानुमान (Government weather forecasts)",
         "विश्वविद्यालय जलवायु मॉडल (University climate models)",
-        "forecasts)",
-        "अन्ना मणि का सौर विकिरण मापन (Anna Mani’s solar radiation measurements) सरकारी मौसम पूर्वानुमान (Government weather"
+        "नासा उपग्रह डेटा संग्रह (NASA satellite data collection)",
+        "अन्ना मणि का सौर विकिरण मापन (Anna Mani’s solar radiation measurements)"
       ]
     },
     "correctIndex": 3,
@@ -370,7 +370,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Indian Scientists",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Anna Mani’s solar radiation measurements) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (अन्ना मणि का सौर विकिरण मापन (Anna Mani’s solar radiation measurements) सरकारी मौसम पूर्वानुमान (Government weather) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (अन्ना मणि का सौर विकिरण मापन (Anna Mani’s solar radiation measurements)) सही उत्तर है।"
     }
   },
   {
@@ -391,8 +391,8 @@
         "non-uniform motion"
       ],
       "hi": [
-        "वृत्तीय गति",
         "आवर्ती गति",
+        "वृत्तीय गति",
         "एकसमान गति",
         "असमान गति"
       ]
@@ -427,8 +427,8 @@
       "hi": [
         "ट्रेन नियत चाल से चलते हुए निरंतर रूप से दिशा बदलती है।",
         "ट्रेन वृत्ताकार ट्रैक पर बढ़ती हुई चाल से चलती है।",
-        "ट्रेन एक सीधी रेखा में नियत चाल से चलती है।",
-        "ट्रेन विरामावस्था में रहती है क्योंकि उसकी चाल में कोई परिवर्तन नहीं होती है।"
+        "ट्रेन विरामावस्था में रहती है क्योंकि उसकी चाल में कोई परिवर्तन नहीं होती है।",
+        "ट्रेन एक सीधी रेखा में नियत चाल से चलती है।"
       ]
     },
     "correctIndex": 0,
@@ -493,10 +493,10 @@
         "Seeds encased in fruits"
       ],
       "hi": [
-        "फलों में संकोशित बीज",
+        "वास्तविक मूलों की अनुपस्थिति",
         "जल - निर्भर पुनरूपादन",
         "संवहनी ऊतक का अभाव",
-        "वास्तविक मूलों की अनुपस्थिति"
+        "फलों में संकोशित बीज"
       ]
     },
     "correctIndex": 1,
@@ -527,8 +527,8 @@
         "It leads to an decrease in rainfall"
       ],
       "hi": [
-        "इससे अवरक्त विकिरण का उत्पादन होता है",
         "यह वायुमंडलीय ऑक्सीजन के स्तर में वृद्धि का कारण बनता है",
+        "इससे अवरक्त विकिरण का उत्पादन होता है",
         "यह UV किरणों को वायुमंडल में प्रवेश करने देता है",
         "यह वर्षा में कमी का कारण बनता है"
       ]
@@ -561,9 +561,9 @@
         "Increase in ultraviolet radiation reaching Earth"
       ],
       "hi": [
+        "ऑक्सीजन स्तर में कमी",
         "केवल पृथ्वी के वायुमंडल का ठंडा होना",
         "पौधों तक पहुंचने वाले सूर्य के प्रकाश में कमी",
-        "ऑक्सीजन स्तर में कमी",
         "पृथ्वी तक पहुंचने वाले पराबैंगनी विकिरण में वृद्धि"
       ]
     },
@@ -629,10 +629,10 @@
         "Lead is less reactive than iron and cannot displace it from its compound."
       ],
       "hi": [
-        "लेड , आयरन से अधिक अभिक्रियाशील है और उसे विलयन से विस्थापित कर देता है",
-        "लेड , आयरन (II) सल्फे ट के साथ प्रबलता से अभिक्रिया करता है और एक नया यौगिक बनाता है अभिक्रिया उत् क्र मणीय है , इसलिए कोई नेट परिवर्तन अवलोकित नहीं",
-        "किया जाता है",
-        "लेड , आयरन से कम अभिक्रियाशील है और उसे उसके यौगिक से विस्थापित नहीं कर सकता है"
+        "लेड, आयरन (II) सल्फेट के साथ प्रबलता से अभिक्रिया करता है और एक नया यौगिक बनाता है",
+        "लेड, आयरन से अधिक अभिक्रियाशील है और उसे विलयन से विस्थापित कर देता है",
+        "अभिक्रिया उत्क्रमणीय है, इसलिए कोई नेट परिवर्तन अवलोकित नहीं किया जाता है",
+        "लेड, आयरन से कम अभिक्रियाशील है और उसे उसके यौगिक से विस्थापित नहीं कर सकता है"
       ]
     },
     "correctIndex": 3,
@@ -642,7 +642,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Reactivity Series",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Lead is less reactive than iron and cannot displace it from its compound.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (लेड , आयरन से कम अभिक्रियाशील है और उसे उसके यौगिक से विस्थापित नहीं कर सकता है) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (लेड, आयरन से कम अभिक्रियाशील है और उसे उसके यौगिक से विस्थापित नहीं कर सकता है) सही उत्तर है।"
     }
   },
   {
@@ -664,9 +664,9 @@
       ],
       "hi": [
         "फ्रक्टोज -6- फॉस्फे ट का निर्माण",
-        "ऐसीटिल -co-A अणु का निर्माण",
+        "ग्लूकोज -6- फॉस्फे ट का निर्माण",
         "पाइरूवेट अणु का निर्माण",
-        "ग्लूकोज -6- फॉस्फे ट का निर्माण"
+        "ऐसीटिल -co-A अणु का निर्माण"
       ]
     },
     "correctIndex": 2,
@@ -694,12 +694,12 @@
         "Nerve",
         "Cartilage",
         "Ligament",
-        "Tendon Mathematics"
+        "Tendon"
       ],
       "hi": [
-        "स्नायु (Ligament)",
         "तंत्रिका (Nerve)",
         "उपास्थि (Cartilage)",
+        "स्नायु (Ligament)",
         "कं डरा (Tendon)"
       ]
     },
@@ -709,7 +709,7 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Skeletal & Muscular System",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Tendon Mathematics) is the verified correct answer.",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Tendon) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (कं डरा (Tendon)) सही उत्तर है।"
     }
   },
@@ -732,9 +732,9 @@
       ],
       "hi": [
         "स्वरित्र जल को ऊष्मित करता है और ऊर्मिकाएं बनाता है",
-        "जल बिना कं पन के ऊर्मिकाएं बनाता है",
-        "स्वरित्र ध्वनि उत्पन्न करता है परंतु जल को गतिमान नहीं करता है स्वरित्र के कं पन ऊर्जा स्थानांतरित करते हैं , जिससे जल",
-        "गतिमान होता है"
+        "स्वरित्र ध्वनि उत्पन्न करता है परंतु जल को गतिमान नहीं करता है",
+        "जल बिना कंपन के ऊर्मिकाएं बनाता है",
+        "स्वरित्र के कंपन ऊर्जा स्थानांतरित करते हैं, जिससे जल गतिमान होता है"
       ]
     },
     "correctIndex": 3,
@@ -744,7 +744,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Sound",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Vibrations from the fork transfer energy, moving water) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (गतिमान होता है) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (स्वरित्र के कंपन ऊर्जा स्थानांतरित करते हैं, जिससे जल गतिमान होता है) सही उत्तर है।"
     }
   },
   {
@@ -765,10 +765,10 @@
         "Light energy changes to sound energy"
       ],
       "hi": [
-        "प्रकाश ऊर्जा , ध्वनि ऊर्जा में परिवर्तित हो जाती है",
-        "रासायनिक ऊर्जा , प्रकाश ऊर्जा में परिवर्तित हो जाती है",
         "प्रकाश ऊर्जा , रासायनिक ऊर्जा में परिवर्तित हो जाती है",
-        "रासायनिक ऊर्जा , ध्वनि ऊर्जा में परिवर्तित हो जाती है"
+        "रासायनिक ऊर्जा , प्रकाश ऊर्जा में परिवर्तित हो जाती है",
+        "रासायनिक ऊर्जा , ध्वनि ऊर्जा में परिवर्तित हो जाती है",
+        "प्रकाश ऊर्जा , ध्वनि ऊर्जा में परिवर्तित हो जाती है"
       ]
     },
     "correctIndex": 1,
@@ -799,10 +799,10 @@
         "Load increased by 50%"
       ],
       "hi": [
-        "लोड में 50% की वृद्धि हुई",
+        "लोड और प्रयास , दोनों में 50% की वृद्धि हुई",
         "प्रयास में 50% की कमी हुई",
         "प्रयास में 50% की वृद्धि हुई जबकि लोड अपरिवर्तित रहा",
-        "लोड और प्रयास , दोनों में 50% की वृद्धि हुई"
+        "लोड में 50% की वृद्धि हुई"
       ]
     },
     "correctIndex": 2,
@@ -833,8 +833,8 @@
         "1 kilowatt hour (kWh)"
       ],
       "hi": [
-        "1 जूल (J)",
         "1 वाट घंटा (Wh)",
+        "1 जूल (J)",
         "1 किलोवाट (kW)",
         "1 किलोवाट घंटा (kWh)"
       ]
@@ -935,10 +935,10 @@
         "75,000"
       ],
       "hi": [
-        "90,000",
+        "67,500",
         "82,500",
-        "75,000",
-        "67,500"
+        "90,000",
+        "75,000"
       ]
     },
     "correctIndex": 1,
@@ -959,7 +959,7 @@
     "topic": "Average Speed • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "A car runs the first one-third of a distance at a speed of 42 km/hr, the next half of the distance at a speed of 60 km/hr and the remaining distance at a speed of 72 km/hr. Find the approximate average speed (in km/hr) of the car for the whole journey.",
-      "hi": "यदि (a + b):(b + c):(c + a) = 4:6:10 और a + b + c = 40 है , तो a का मान ज्ञात कीजिए।"
+      "hi": "एक कार , किसी दूरी का पहला भाग 42 km/hr की चाल से , अगला भाग संपूर्ण यात्रा के लिए कार की औसत चाल (km/hr में ) लगभग कितनी होगी ?"
     },
     "options": {
       "en": [
@@ -969,10 +969,10 @@
         "58"
       ],
       "hi": [
-        "16",
-        "18",
-        "22",
-        "8"
+        "53.8",
+        "48.6",
+        "56",
+        "58"
       ]
     },
     "correctIndex": 0,
@@ -982,7 +982,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Average Speed",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (53.8) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (16) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (53.8) सही उत्तर है।"
     }
   },
   {
@@ -993,7 +993,7 @@
     "topic": "Dividing Quantity in Ratio • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "If (a + b):(b + c):(c + a) = 4:6:10 and a + b + c = 40, what is the value of a?",
-      "hi": "एक दुकान में किसी वस्तु का अंकित मूल्य ₹1,375 है। दुकान की स्कीम के अनुसार दो एक जैसी वस्तुएं खरीदने पर , ग्राहक को पहली वस्तु पर 20% और दूसरी वस्तु पर 40% की छू ट मिलेगी। यदि कोई ग्राहक दो वस्तुएं खरीदता है , तो कु ल बिल पर प्रभावी प्रतिशत छू ट ज्ञात कीजिए।"
+      "hi": "यदि (a + b):(b + c):(c + a) = 4:6:10 और a + b + c = 40 है , तो a का मान ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1003,10 +1003,10 @@
         "18"
       ],
       "hi": [
-        "27%",
-        "24%",
-        "30%",
-        "25%"
+        "22",
+        "8",
+        "16",
+        "18"
       ]
     },
     "correctIndex": 2,
@@ -1016,7 +1016,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Dividing Quantity in Ratio",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (16) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (30%) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (16) सही उत्तर है।"
     }
   },
   {
@@ -1027,7 +1027,7 @@
     "topic": "Equivalent Discount • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "A shop marks an article with ₹1,375. The shop runs a scheme: on buying two identical articles, a customer gets 20% off on the first and 40% off on the second. If a customer buys two, what is the effective percentage discount on the total bill?",
-      "hi": "दो बैंकों , A और B ने क्रमशः 3.5% और 8.5% वार्षिक ब्याज दर पर ऋण प्रदान किए। अतुल ने प्रत्येक बैंक से ₹4,80,000 की धनराशि का ऋण लिया। 2 वर्ष के पश्चात अतुल द्वारा दोनों बैंकों को चुकाए गए साधारण ब्याज की धनराशियों के बीच का धनात्मक अंतर (₹ में ) ज्ञात कीजिए।"
+      "hi": "एक दुकान में किसी वस्तु का अंकित मूल्य ₹1,375 है। दुकान की स्कीम के अनुसार दो एक जैसी वस्तुएं खरीदने पर , ग्राहक को पहली वस्तु पर 20% और दूसरी वस्तु पर 40% की छू ट मिलेगी। यदि कोई ग्राहक दो वस्तुएं खरीदता है , तो कु ल बिल पर प्रभावी प्रतिशत छू ट ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1037,10 +1037,10 @@
         "25%"
       ],
       "hi": [
-        "49,500",
-        "47,500",
-        "48,000",
-        "49,000"
+        "24%",
+        "27%",
+        "30%",
+        "25%"
       ]
     },
     "correctIndex": 2,
@@ -1050,7 +1050,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Equivalent Discount",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (30%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (48,000) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (30%) सही उत्तर है।"
     }
   },
   {
@@ -1061,7 +1061,7 @@
     "topic": "Find SI • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "Two banks, A and B, offered loans at 3.5% and 8.5% per annum, respectively. Atul borrowed an amount of ₹4,80,000 from each bank. Find the positive difference between the amounts (in ₹) of simple interest paid to the two banks by Atul after 2 years.",
-      "hi": "यदि माता की आयु का 2 गुना , उसकी पुत्री की आयु के 7 गुने से 28 वर्ष अधिक है , और पुत्री की आयु का 5 गुना , माता की आयु से 5 वर्ष कम है , तो माता और पुत्री की आयु में कितना अंतर ( वर्षों में ) है ?"
+      "hi": "दो बैंकों , A और B ने क्रमशः 3.5% और 8.5% वार्षिक ब्याज दर पर ऋण प्रदान किए। अतुल ने प्रत्येक बैंक से ₹4,80,000 की धनराशि का ऋण लिया। 2 वर्ष के पश्चात अतुल द्वारा दोनों बैंकों को चुकाए गए साधारण ब्याज की धनराशियों के बीच का धनात्मक अंतर (₹ में ) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1071,10 +1071,10 @@
         "49,000"
       ],
       "hi": [
-        "34",
-        "25",
-        "29",
-        "33"
+        "47,500",
+        "49,500",
+        "48,000",
+        "49,000"
       ]
     },
     "correctIndex": 2,
@@ -1084,7 +1084,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Find SI",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (48,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (29) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (48,000) सही उत्तर है।"
     }
   },
   {
@@ -1095,7 +1095,7 @@
     "topic": "Finding Present Age • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "If 2 times the mother's age is 28 years more than 7 times her daughter's age, and 5 times the daughter's age is 5 year less than the mother's age, then what is the difference (in years) between the ages of the mother and the daughter?",
-      "hi": "प्रिया अपनी आय का 27% मकान के किराए पर , 22% किराने के सामान पर और 18% शिक्षा पर खर्च करती है। यदि वह प्रति माह ₹12,400 की बचत करती है , तो उसकी मासिक आय ( निकटतम पूर्णांक तक पूर्णांकित ) कितनी है ?"
+      "hi": "यदि माता की आयु का 2 गुना , उसकी पुत्री की आयु के 7 गुने से 28 वर्ष अधिक है , और पुत्री की आयु का 5 गुना , माता की आयु से 5 वर्ष कम है , तो माता और पुत्री की आयु में कितना अंतर ( वर्षों में ) है ?"
     },
     "options": {
       "en": [
@@ -1105,10 +1105,10 @@
         "33"
       ],
       "hi": [
-        "₹37,576",
-        "₹37,216",
-        "₹37,356",
-        "₹37,446"
+        "29",
+        "34",
+        "25",
+        "33"
       ]
     },
     "correctIndex": 0,
@@ -1118,7 +1118,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Finding Present Age",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (29) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹37,576) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (29) सही उत्तर है।"
     }
   },
   {
@@ -1129,7 +1129,7 @@
     "topic": "Finding Value from Percentage • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "Priya spends 27% of her income on house rent, 22% on groceries, and 18% on education. If she saves ₹12,400 per month, what is her monthly income (rounded off to the nearest integer)?",
-      "hi": "एक विनिर्माण संयंत्र में 3,000 श्रमिक कार्यरत हैं , जिनकी प्रति घंटा मजदूरी अलग - अलग है। उनकी मजदूरी का वितरण नीचे दिया गया है। मजदूरी सीमा (₹ प्रति घंटे ) श्रमिकों की संख्या 3.00 से कम 150 3.01 – 4.50 580 4.51 – 6.00 900 6.01 – 7.50 500 7.51 – 9.00 600 9.00 से अधिक 270 कु ल 3,000 ऊपर दिए गए आंकड़ों का उपयोग करके , कर्मचारियों की प्रति घंटा मजदूरी की माध्यिका ज्ञात कीजिए। ( उत्तर को दशमलव के दो स्थानों तक पूर्णांकित कीजिए। )"
+      "hi": "प्रिया अपनी आय का 27% मकान के किराए पर , 22% किराने के सामान पर और 18% शिक्षा पर खर्च करती है। यदि वह प्रति माह ₹12,400 की बचत करती है , तो उसकी मासिक आय ( निकटतम पूर्णांक तक पूर्णांकित ) कितनी है ?"
     },
     "options": {
       "en": [
@@ -1139,10 +1139,10 @@
         "₹37,576"
       ],
       "hi": [
-        "₹5.98",
-        "₹4.74",
-        "₹6.23",
-        "₹5.79"
+        "₹37,356",
+        "₹37,446",
+        "₹37,216",
+        "₹37,576"
       ]
     },
     "correctIndex": 3,
@@ -1152,7 +1152,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Finding Value from Percentage",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹37,576) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹5.79) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹37,576) सही उत्तर है।"
     }
   },
   {
@@ -1163,7 +1163,7 @@
     "topic": "Grouped Data Median • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "A manufacturing plant employs 3,000 workers with varying hourly wages. The distribution of their wages is given below. Wage Range (₹ per hour) Number of Workers Less than 3.00 150 3.01 – 4.50 580 4.51 – 6.00 900 6.01 – 7.50 500 7.51 – 9.00 600 More than 9.00 270 Total 3,000 Using the data above, determine the median hourly wage of the employees (Round off your answer to two decimal places.)",
-      "hi": "15 cm आंतरिक त्रिज्या वाला एक अर्धगोलाकार कटोरा किसी द्रव से भरा हुआ है। इस द्रव को 5 cm व्यास और 6 cm ऊँ चाई वाले बेलनाकार बोतलों में भरा जाना है। कटोरे को पूर्ण रूप से खाली करने के लिए कितनी बोतलों की आवश्यकता होगी ?"
+      "hi": "एक विनिर्माण संयंत्र में 3,000 श्रमिक कार्यरत हैं , जिनकी प्रति घंटा मजदूरी अलग - अलग है। उनकी मजदूरी का वितरण नीचे दिया गया है। मजदूरी सीमा (₹ प्रति घंटे ) श्रमिकों की संख्या 3.00 से कम 150 3.01 – 4.50 580 4.51 – 6.00 900 6.01 – 7.50 500 7.51 – 9.00 600 9.00 से अधिक 270 कु ल 3,000 ऊपर दिए गए आंकड़ों का उपयोग करके , कर्मचारियों की प्रति घंटा मजदूरी की माध्यिका ज्ञात कीजिए। ( उत्तर को दशमलव के दो स्थानों तक पूर्णांकित कीजिए। )"
     },
     "options": {
       "en": [
@@ -1173,10 +1173,10 @@
         "₹5.98"
       ],
       "hi": [
-        "55",
-        "58",
-        "60",
-        "64"
+        "₹4.74",
+        "₹6.23",
+        "₹5.79",
+        "₹5.98"
       ]
     },
     "correctIndex": 2,
@@ -1186,7 +1186,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Grouped Data Median",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹5.79) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (60) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹5.79) सही उत्तर है।"
     }
   },
   {
@@ -1197,7 +1197,7 @@
     "topic": "Melting & Recasting • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "A hemispherical bowl of internal radius 15 cm is full of liquid. This liquid is to be filled into cylindrical bottles of diameter 5 cm and height 6 cm. How many bottles are required to empty the bowl completely?",
-      "hi": "एक विक्रे ता 27 नींबू ₹1 में खरीदता है। उसे 80% लाभ प्राप्त करने के लिए किस दर (₹1 में नींबू की संख्या ) पर नींबू बेचने चाहिए ?"
+      "hi": "15 cm आंतरिक त्रिज्या वाला एक अर्धगोलाकार कटोरा किसी द्रव से भरा हुआ है। इस द्रव को 5 cm व्यास और 6 cm ऊँ चाई वाले बेलनाकार बोतलों में भरा जाना है। कटोरे को पूर्ण रूप से खाली करने के लिए कितनी बोतलों की आवश्यकता होगी ?"
     },
     "options": {
       "en": [
@@ -1207,10 +1207,10 @@
         "64"
       ],
       "hi": [
-        "17",
-        "16",
-        "15",
-        "19"
+        "55",
+        "58",
+        "60",
+        "64"
       ]
     },
     "correctIndex": 2,
@@ -1220,7 +1220,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Melting & Recasting",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (60) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (15) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (60) सही उत्तर है।"
     }
   },
   {
@@ -1231,7 +1231,7 @@
     "topic": "Profit/Loss Percentage • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "A vendor purchases lemons at the rate of 27 lemons for ₹1. At what rate (number of lemons per ₹1) should he sell them in order to gain 80%?",
-      "hi": "6, 9 और 15 का चतुर्थानुपाती ज्ञात कीजिए।"
+      "hi": "एक विक्रे ता 27 नींबू ₹1 में खरीदता है। उसे 80% लाभ प्राप्त करने के लिए किस दर (₹1 में नींबू की संख्या ) पर नींबू बेचने चाहिए ?"
     },
     "options": {
       "en": [
@@ -1241,10 +1241,10 @@
         "19"
       ],
       "hi": [
-        "21.5",
-        "22.5",
-        "25.5",
-        "18.5"
+        "16",
+        "15",
+        "17",
+        "19"
       ]
     },
     "correctIndex": 1,
@@ -1254,7 +1254,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Profit/Loss Percentage",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (15) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (22.5) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (15) सही उत्तर है।"
     }
   },
   {
@@ -1265,7 +1265,7 @@
     "topic": "Proportion • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "Find the fourth proportional to 6, 9, and 15.",
-      "hi": "समान लंबाई की दो ट्रेनें एक खंभे को क्रमशः 12 सेकं ड और 18 सेकं ड में पार करती हैं। यदि वे समान दिशा में चलती हैं , तो तेज चाल वाली ट्रेन द्वारा पीछे से आकर दूसरी ट्रेन को पूरी तरह से पार करने में लगने वाला समय ज्ञात कीजिए।"
+      "hi": "6, 9 और 15 का चतुर्थानुपाती ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1275,10 +1275,10 @@
         "22.5"
       ],
       "hi": [
-        "66 सेकं ड",
-        "60 सेकं ड",
-        "75 सेकं ड",
-        "72 सेकं ड"
+        "18.5",
+        "25.5",
+        "21.5",
+        "22.5"
       ]
     },
     "correctIndex": 3,
@@ -1288,7 +1288,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Proportion",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (22.5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (72 सेकं ड) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (22.5) सही उत्तर है।"
     }
   },
   {
@@ -1299,7 +1299,7 @@
     "topic": "Two Trains Crossing • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "Two trains of equal length cross a pole in 12 seconds and 18 seconds, respectively. If they move in the same direction, find the time taken by the faster train to come from behind and completely cross the other train.",
-      "hi": "एक कक्षा में लड़कों और लड़कियों का अनुपात 3:2 है। एक परीक्षा में , लड़कों के औसत अंक 70 और लड़कियों के औसत अंक 80 हैं। पूरी कक्षा के औसत अंक ज्ञात कीजिए।"
+      "hi": "समान लंबाई की दो ट्रेनें एक खंभे को क्रमशः 12 सेकं ड और 18 सेकं ड में पार करती हैं। यदि वे समान दिशा में चलती हैं , तो तेज चाल वाली ट्रेन द्वारा पीछे से आकर दूसरी ट्रेन को पूरी तरह से पार करने में लगने वाला समय ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1309,10 +1309,10 @@
         "75 seconds"
       ],
       "hi": [
-        "72",
-        "74",
-        "76",
-        "75"
+        "60 सेकं ड",
+        "72 सेकं ड",
+        "66 सेकं ड",
+        "75 सेकं ड"
       ]
     },
     "correctIndex": 1,
@@ -1322,7 +1322,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Two Trains Crossing",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (72 seconds) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (74) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (72 सेकं ड) सही उत्तर है।"
     }
   },
   {
@@ -1333,7 +1333,7 @@
     "topic": "Weighted Average • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "A class has boys and girls in the ratio 3:2. In a test, the average marks of the boys are 70 and those of the girls are 80. Find the average marks of the whole class.",
-      "hi": "एक कार , किसी दूरी का पहला भाग 42 km/hr की चाल से , अगला भाग संपूर्ण यात्रा के लिए कार की औसत चाल (km/hr में ) लगभग कितनी होगी ?"
+      "hi": "एक कक्षा में लड़कों और लड़कियों का अनुपात 3:2 है। एक परीक्षा में , लड़कों के औसत अंक 70 और लड़कियों के औसत अंक 80 हैं। पूरी कक्षा के औसत अंक ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1343,10 +1343,10 @@
         "76"
       ],
       "hi": [
-        "58",
-        "53.8",
-        "56",
-        "48.6"
+        "72",
+        "74",
+        "75",
+        "76"
       ]
     },
     "correctIndex": 1,
@@ -1356,7 +1356,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Weighted Average",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (74) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (53.8) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (74) सही उत्तर है।"
     }
   },
   {
@@ -1387,10 +1387,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Bracket Simplification",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1421,10 +1421,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Heron's Formula",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1446,9 +1446,9 @@
       ],
       "hi": [
         "133",
-        "151",
         "127",
-        "137"
+        "137",
+        "151"
       ]
     },
     "correctIndex": 0,
@@ -1479,10 +1479,10 @@
         "12"
       ],
       "hi": [
-        "12",
+        "14",
         "8",
         "10",
-        "14"
+        "12"
       ]
     },
     "correctIndex": 2,
@@ -1514,9 +1514,9 @@
       ],
       "hi": [
         "25%",
-        "30%",
+        "22%",
         "20%",
-        "22%"
+        "30%"
       ]
     },
     "correctIndex": 2,
@@ -1557,10 +1557,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
-      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A (√2 sin θ).",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A (√2 sin θ)।"
     }
   },
   {
@@ -1591,10 +1591,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Simultaneous Fill & Empty",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1605,7 +1605,7 @@
     "topic": "Standard Angle Values • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "यदि है , तो का मान ज्ञात कीजिए।"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1625,10 +1625,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Standard Angle Values",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1639,7 +1639,7 @@
     "topic": "Surds • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "निम्नलिखित का मान ज्ञात कीजिए :​"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1661,8 +1661,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Surds",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1673,7 +1673,7 @@
     "topic": "Triangle Area & Perimeter • RRB Group D Level-1 (18 Aug 2026 Shift 36)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "एक त्रिभुज जिसकी भुजाएँ 16 cm, 24 cm और 32 cm हैं , के मध्यबिंदुओं को इन मध्यबिंदुओं द्वारा निर्मित त्रिभुज का क्षेत्रफल (cm² में ) ज्ञात कीजिए। पाइप C टंकी को 60 घंटे में खाली कर सकता है। शुरुआत में तीनों नल खोल भरने में कु ल कितना समय ( घंटे में ) लगेगा ? ✓ ✓ ✓ मिलाकर एक अन्य त्रिभुज बनाया गया है। General Intelligence & Reasoning"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1693,10 +1693,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Triangle Area & Perimeter",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1717,10 +1717,10 @@
         "One"
       ],
       "hi": [
-        "एक",
-        "चार",
         "दो",
-        "एक भी नहीं"
+        "चार",
+        "एक भी नहीं",
+        "एक"
       ]
     },
     "correctIndex": 1,
@@ -1751,10 +1751,10 @@
         "Two"
       ],
       "hi": [
-        "एक",
+        "तीन से अधिक",
         "तीन",
-        "दो",
-        "तीन से अधिक"
+        "एक",
+        "दो"
       ]
     },
     "correctIndex": 1,
@@ -1785,9 +1785,9 @@
         "MG 9"
       ],
       "hi": [
-        "LG 11",
-        "MF 11",
         "LF 9",
+        "MF 11",
+        "LG 11",
         "MG 9"
       ]
     },
@@ -1853,10 +1853,10 @@
         "C"
       ],
       "hi": [
+        "E",
         "G",
-        "C",
         "B",
-        "E"
+        "C"
       ]
     },
     "correctIndex": 2,
@@ -1887,9 +1887,9 @@
         "Four"
       ],
       "hi": [
+        "तीन",
         "दो",
         "एक",
-        "तीन",
         "चार"
       ]
     },
@@ -1922,9 +1922,9 @@
       ],
       "hi": [
         "4",
-        "2",
         "3",
-        "5"
+        "5",
+        "2"
       ]
     },
     "correctIndex": 0,
@@ -1989,10 +1989,10 @@
         "4"
       ],
       "hi": [
-        "0",
+        "2",
         "1",
-        "4",
-        "2"
+        "0",
+        "4"
       ]
     },
     "correctIndex": 1,
@@ -2023,8 +2023,8 @@
         "743"
       ],
       "hi": [
-        "765",
         "786",
+        "765",
         "740",
         "743"
       ]
@@ -2057,9 +2057,9 @@
         "125 - 250 - 500"
       ],
       "hi": [
-        "240 - 480 - 840",
         "220 - 440 - 640",
         "175 - 350 - 600",
+        "240 - 480 - 840",
         "125 - 250 - 500"
       ]
     },
@@ -2159,9 +2159,9 @@
         "CITY - ICYT - CTYI"
       ],
       "hi": [
-        "GOLD - DGOL - DLOG",
         "FLAG - LFAG - AFLG",
         "ZONE - NEZO - OZNE",
+        "GOLD - DGOL - DLOG",
         "CITY - ICYT - CTYI"
       ]
     },
@@ -2193,10 +2193,10 @@
         "OT – HZ"
       ],
       "hi": [
-        "OT – HZ",
+        "YD – RJ",
         "ZF – SK",
         "LQ – EW",
-        "YD – RJ"
+        "OT – HZ"
       ]
     },
     "correctIndex": 1,
@@ -2227,10 +2227,10 @@
         "BDF"
       ],
       "hi": [
-        "BDF",
+        "HJL",
         "RTW",
         "NPR",
-        "HJL"
+        "BDF"
       ]
     },
     "correctIndex": 1,
@@ -2263,8 +2263,8 @@
       "hi": [
         "48",
         "47",
-        "46",
-        "49"
+        "49",
+        "46"
       ]
     },
     "correctIndex": 0,
@@ -2297,8 +2297,8 @@
       "hi": [
         "44 वां",
         "45 वां",
-        "43 वां",
-        "42 वां"
+        "42 वां",
+        "43 वां"
       ]
     },
     "correctIndex": 0,
@@ -2329,9 +2329,9 @@
         "Zero"
       ],
       "hi": [
-        "दो",
-        "तीन",
         "एक",
+        "तीन",
+        "दो",
         "एक भी नहीं"
       ]
     },
@@ -2363,10 +2363,10 @@
         "Z"
       ],
       "hi": [
-        "Z",
+        "S",
         "M",
         "N",
-        "S"
+        "Z"
       ]
     },
     "correctIndex": 1,
@@ -2398,9 +2398,9 @@
       ],
       "hi": [
         "चार",
-        "दो",
+        "एक",
         "तीन",
-        "एक"
+        "दो"
       ]
     },
     "correctIndex": 2,
@@ -2431,8 +2431,8 @@
         "1 km to the North"
       ],
       "hi": [
-        "7 km उत्तर की ओर",
         "3 km दक्षिण की ओर",
+        "7 km उत्तर की ओर",
         "5 km पश्चिम की ओर",
         "1 km उत्तर की ओर"
       ]
@@ -2465,10 +2465,10 @@
         "Brother"
       ],
       "hi": [
-        "भाई",
+        "पत्नी का पिता",
         "पत्नी का भाई",
         "पिता",
-        "पत्नी का पिता"
+        "भाई"
       ]
     },
     "correctIndex": 1,
@@ -2499,10 +2499,10 @@
         "Wife's brother"
       ],
       "hi": [
+        "पत्नी के पिता",
         "पत्नी की माता",
-        "पत्नी का भाई",
         "पत्नी की बहन",
-        "पत्नी के पिता"
+        "पत्नी का भाई"
       ]
     },
     "correctIndex": 2,
@@ -2567,10 +2567,10 @@
         "50"
       ],
       "hi": [
-        "50",
+        "54",
         "52",
         "56",
-        "54"
+        "50"
       ]
     },
     "correctIndex": 1,
@@ -2629,16 +2629,16 @@
     },
     "options": {
       "en": [
-        "alone or statement II alone) are sufficient to answer the question.",
-        "Data in Statement II alone is sufficient to answer the question while data in statement I is not",
-        "Data in Statement I alone is sufficient to answer the question while data in statement II is not",
-        "Both statements I and II together are NOT sufficient to answer the question"
+        "Both statements I and II together (neither statement I alone nor statement II alone) are sufficient to answer the question.",
+        "Data in Statement II alone is sufficient to answer the question while data in statement I is not.",
+        "Data in Statement I alone is sufficient to answer the question while data in statement II is not.",
+        "Both statements I and II together are NOT sufficient to answer the question."
       ],
       "hi": [
-        "हैं",
-        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है",
-        "पर्याप्त है , जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है General Awareness",
-        "कथन I और II दोनों एक साथ ( न तो अके ले कथन I या न अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए"
+        "कथन I और II दोनों एक साथ (न तो अकेले कथन I या न अकेले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
+        "कथन II में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है।",
+        "कथन I में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है।",
+        "कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।"
       ]
     },
     "correctIndex": 2,
@@ -2647,8 +2647,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Data in Statement I alone is sufficient to answer the question while data in statement II is not) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (पर्याप्त है , जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है General Awareness) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Data in Statement I alone is sufficient to answer the question while data in statement II is not.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (कथन I में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है।) सही उत्तर है।"
     }
   },
   {
@@ -2669,10 +2669,10 @@
         "Both conclusions (I) and (II) follow."
       ],
       "hi": [
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
         "केवल निष्कर्ष (I) अनुसरण करता है।",
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
         "केवल निष्कर्ष (II) अनुसरण करता है।",
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।"
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
       ]
     },
     "correctIndex": 2,
@@ -2703,10 +2703,10 @@
         "rt"
       ],
       "hi": [
-        "rt",
+        "lw",
         "bu",
         "px",
-        "lw"
+        "rt"
       ]
     },
     "correctIndex": 1,
@@ -2738,9 +2738,9 @@
       ],
       "hi": [
         "SDG 15 – भूमि पर जीवन",
-        "SDG 8 – सभ्य कार्य और आर्थिक विकास",
         "SDG 7 – किफायती और स्वच्छ ऊर्जा",
-        "SDG 2 – शून्य भुखमरी"
+        "SDG 2 – शून्य भुखमरी",
+        "SDG 8 – सभ्य कार्य और आर्थिक विकास"
       ]
     },
     "correctIndex": 0,
@@ -2771,10 +2771,10 @@
         "Narendra Modi"
       ],
       "hi": [
-        "वी . अनंत नागेश्वरन",
+        "अमित शाह",
         "निर्मला सीतारमण",
-        "नरेंद्र मोदी",
-        "अमित शाह"
+        "वी . अनंत नागेश्वरन",
+        "नरेंद्र मोदी"
       ]
     },
     "correctIndex": 1,
@@ -2839,9 +2839,9 @@
         "Samudra Pratap"
       ],
       "hi": [
-        "समुद्र शक्ति",
         "समुद्र रक्षक",
         "विक्रम सुरक्षा",
+        "समुद्र शक्ति",
         "समुद्र प्रताप"
       ]
     },
@@ -2873,10 +2873,10 @@
         "Satellite Direct Frequency"
       ],
       "hi": [
-        "सैटेलाइट डायरेक्ट फ़्रीक्वेंसी",
+        "शॉर्ट मैसेज पीयर प्रोटोकॉल",
         "ऑप्टिकल फ़ाइबर मल्टी - कास्टिंग",
         "सेल ब्रॉडकास्ट सिस्टम",
-        "शॉर्ट मैसेज पीयर प्रोटोकॉल"
+        "सैटेलाइट डायरेक्ट फ़्रीक्वेंसी"
       ]
     },
     "correctIndex": 2,
@@ -2907,9 +2907,9 @@
         "Aadhaar Card"
       ],
       "hi": [
+        "राशन कार्ड",
         "ड्राइविंग लाइसेंस",
         "पासपोर्ट",
-        "राशन कार्ड",
         "आधार कार्ड"
       ]
     },
@@ -2941,10 +2941,10 @@
         "Merger of rural employment schemes with urban livelihood missions"
       ],
       "hi": [
+        "MGNREGA के अंतर्गत कार्य गारंटी का प्रति वर्ष 100 दिन से बढ़ाकर 150 दिन तक विस्तार",
         "ग्रामीण रोजगार प्रशासन का केवल ग्राम पंचायतों को अंतरण",
-        "ग्रामीण रोजगार योजनाओं का शहरी आजीविका मिशनों में विलय MGNREGA का VB-G RAM G ग्रामीण रोजगार ढांचे से",
-        "प्रतिस्थापन MGNREGA के अंतर्गत कार्य गारंटी का प्रति वर्ष 100 दिन से",
-        "बढ़ाकर 150 दिन तक विस्तार"
+        "MGNREGA का VB-G RAM G ग्रामीण रोजगार ढांचे से प्रतिस्थापन",
+        "ग्रामीण रोजगार योजनाओं का शहरी आजीविका मिशनों में विलय"
       ]
     },
     "correctIndex": 2,
@@ -2954,7 +2954,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs • Employment Schemes",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Replacement of MGNREGA with the VB-G RAM G rural employment framework) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (प्रतिस्थापन MGNREGA के अंतर्गत कार्य गारंटी का प्रति वर्ष 100 दिन से) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (MGNREGA का VB-G RAM G ग्रामीण रोजगार ढांचे से प्रतिस्थापन) सही उत्तर है।"
     }
   },
   {
@@ -2975,9 +2975,9 @@
         "120 days of wage employment"
       ],
       "hi": [
-        "100 दिनों के वैतनिक रोजगार",
-        "125 दिनों के वैतनिक रोजगार",
         "150 दिनों के वैतनिक रोजगार",
+        "125 दिनों के वैतनिक रोजगार",
+        "100 दिनों के वैतनिक रोजगार",
         "120 दिनों के वैतनिक रोजगार"
       ]
     },
@@ -3045,8 +3045,8 @@
       "hi": [
         "वन्यजीव संरक्षण वित्त : लोगों और पृथ्वी के लिए निवेश",
         "औषधीय और सुगंधित पौधे : स्वास्थ्य , विरासत और आजीविका का संरक्षण",
-        "वन और आजीविका : लोगों और ग्रह को कायम रखना",
-        "जैव विविधता और जलवायु परिवर्तन : वैश्विक कार्रवाई"
+        "जैव विविधता और जलवायु परिवर्तन : वैश्विक कार्रवाई",
+        "वन और आजीविका : लोगों और ग्रह को कायम रखना"
       ]
     },
     "correctIndex": 1,
@@ -3113,8 +3113,8 @@
       "hi": [
         "हॉब्स के सलर (Hobbs Kessler)",
         "डेविस बोवे (Davis Bove)",
-        "ग्रांट फिशर (Grant Fisher)",
-        "कोल हॉकर (Cole Hocker)"
+        "कोल हॉकर (Cole Hocker)",
+        "ग्रांट फिशर (Grant Fisher)"
       ]
     },
     "correctIndex": 0,
@@ -3145,10 +3145,10 @@
         "Inter-continental ballistic missile"
       ],
       "hi": [
-        "अंतरमहाद्वीपीय बैलिस्टिक मिसाइल",
+        "शॉर्ट रेंज एं टी - टैंक मिसाइल",
         "पनडुब्बियों के लिए एयर इंडिपेंडेंट प्रोपल्शन सिस्टम",
         "लॉन्ग रेंज एं टी - शिप हाइपरसोनिक मिसाइल",
-        "शॉर्ट रेंज एं टी - टैंक मिसाइल"
+        "अंतरमहाद्वीपीय बैलिस्टिक मिसाइल"
       ]
     },
     "correctIndex": 2,
@@ -3213,9 +3213,9 @@
         "National Commission for Minorities"
       ],
       "hi": [
-        "राष्ट्रीय अनुसूचित जाति आयोग",
         "राष्ट्रीय मानवाधिकार आयोग",
         "विश्वविद्यालय अनुदान आयोग",
+        "राष्ट्रीय अनुसूचित जाति आयोग",
         "राष्ट्रीय अल्पसंख्यक आयोग"
       ]
     },
@@ -3247,10 +3247,10 @@
         "Ministry of Home Affairs"
       ],
       "hi": [
-        "गृह मंत्रालय",
+        "कौशल विकास और उद्यमशीलता मंत्रालय",
         "जैवप्रौद्योगिकी विभाग",
         "नवीन एवं नवीकरणीय ऊर्जा मंत्रालय",
-        "कौशल विकास और उद्यमशीलता मंत्रालय"
+        "गृह मंत्रालय"
       ]
     },
     "correctIndex": 2,
@@ -3282,9 +3282,9 @@
       ],
       "hi": [
         "नॉर्वे",
+        "कनाडा",
         "जर्मनी",
-        "संयुक्त राज्य अमेरिका",
-        "कनाडा"
+        "संयुक्त राज्य अमेरिका"
       ]
     },
     "correctIndex": 0,
@@ -3315,10 +3315,10 @@
         "Haryana"
       ],
       "hi": [
-        "हरियाणा",
+        "उत्तर प्रदेश",
         "हिमाचल प्रदेश",
         "कर्नाटक",
-        "उत्तर प्रदेश"
+        "हरियाणा"
       ]
     },
     "correctIndex": 2,
@@ -3351,8 +3351,8 @@
       "hi": [
         "अनुच्छेद 21 के अंतर्गत सार्वजनिक सुरक्षा का संरक्षण और जीवन के अधिकार की गारंटी",
         "सभी सार्वजनिक और संस्थागत स्थानों में आवारा पशुओं को बिना प्रतिबंधन के पुनः मुक्त करना",
-        "निजी क्षेत्र की शहरी विकास परियोजनाओं के माध्यम से वाणिज्यिक पशु आश्रयों का विस्तार",
-        "आवारा पशुओं के प्रबंधन की जिम्मेदारियों से नगरपालिका प्रधिकारियों का पूरी तरह से हटना"
+        "आवारा पशुओं के प्रबंधन की जिम्मेदारियों से नगरपालिका प्रधिकारियों का पूरी तरह से हटना",
+        "निजी क्षेत्र की शहरी विकास परियोजनाओं के माध्यम से वाणिज्यिक पशु आश्रयों का विस्तार"
       ]
     },
     "correctIndex": 0,

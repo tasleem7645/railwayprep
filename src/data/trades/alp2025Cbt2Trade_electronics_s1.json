@@ -17,19 +17,19 @@
         "Tangent"
       ],
       "hi": [
-        "कोटिज्या (Cosine)",
-        "कोटिस्पर्शज्या (Cotangent)",
         "ज्या (Sine)",
+        "कोटिस्पर्शज्या (Cotangent)",
+        "कोटिज्या (Cosine)",
         "स्पर्शज्या (Tangent)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Sine). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (ज्या (Sine))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Sine). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (ज्या (Sine))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -40,7 +40,7 @@
     "topic": "Electronics Mechanic Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
     "question": {
       "en": "Which operational amplifier configuration is commonly used in zero crossing detectors?",
-      "hi": "शून्य क्रॉसिंग संसूचकों में सामान्यतः किस प्रचालक प्रवर्धक विन्यास का उपयोग किया जाता है ? प्रतिरोधी पुनर्निवेश (feedback) वाले समाकलक परिपथ का"
+      "hi": "शून्य क्रॉसिंग संसूचकों में सामान्यतः किस प्रचालक प्रवर्धक विन्यास का उपयोग किया जाता है ?"
     },
     "options": {
       "en": [
@@ -50,10 +50,10 @@
         "Non-inverting amplifier with positive feedback is used."
       ],
       "hi": [
-        "उपयोग किया जाता है",
+        "ऋणात्मक पुनर्निवेश वाले प्रतिलोमी प्रवर्धक का उपयोग किया जाता है",
         "बिना पुनर्निवेश वाले तुलनित्र विन्यास का उपयोग किया जाता है",
-        "धनात्‍मक पुनर्निवेश वाले अप्रतिलोमी प्रवर्धक का उपयोग किया जाता है",
-        "ऋणात्मक पुनर्निवेश वाले प्रतिलोमी प्रवर्धक का उपयोग किया जाता है"
+        "प्रतिरोधी पुनर्निवेश (feedback) वाले समाकलक परिपथ का उपयोग किया जाता है",
+        "धनात्मक पुनर्निवेश वाले अप्रतिलोमी प्रवर्धक का उपयोग किया जाता है"
       ]
     },
     "correctIndex": 1,
@@ -61,8 +61,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Comparator configuration without feedback is used.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (बिना पुनर्निवेश वाले तुलनित्र विन्यास का उपयोग किया जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Comparator configuration without feedback is used.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (बिना पुनर्निवेश वाले तुलनित्र विन्यास का उपयोग किया जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -83,19 +83,19 @@
         "Disconnect data cables"
       ],
       "hi": [
+        "सभी RAM स्लॉट से RAM निकाल देना",
         "कै बिनेट को खोलना",
         "विद्युत आपूर्ति बंद करना और प्लग निकालना",
-        "सभी RAM स्लॉट से RAM निकाल देना",
         "डेटा के बिल को विसंयोजित करना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Switch off and unplug the power supply). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (विद्युत आपूर्ति बंद करना और प्लग निकालना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Switch off and unplug the power supply). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विद्युत आपूर्ति बंद करना और प्लग निकालना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -116,19 +116,19 @@
         "Physical size of the sensor"
       ],
       "hi": [
-        "सेंसर की समग्र लागत",
-        "सेंसर का भौतिक आमाप",
+        "सेंसर पाठ्यांक की सटीकता",
         "सेंसर आवरण का रंग",
-        "सेंसर पाठ्यांक की सटीकता"
+        "सेंसर की समग्र लागत",
+        "सेंसर का भौतिक आमाप"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Accuracy of the sensor readings). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (सेंसर पाठ्यांक की सटीकता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Accuracy of the sensor readings). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सेंसर पाठ्यांक की सटीकता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -160,8 +160,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Resistor network). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (प्रतिरोधक नेटवर्क)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Resistor network). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (प्रतिरोधक नेटवर्क)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -182,19 +182,19 @@
         "Program memory area"
       ],
       "hi": [
-        "जनरल - पर्पस RAM एरिया (General-purpose RAM area)",
-        "प्रोग्राम मेमोरी एरिया (Program memory area)",
         "बिट - एड्रेसेबल RAM एरिया (Bit-addressable RAM area)",
-        "रजिस्टर बैंक एरिया (Register bank area)"
+        "जनरल - पर्पस RAM एरिया (General-purpose RAM area)",
+        "रजिस्टर बैंक एरिया (Register bank area)",
+        "प्रोग्राम मेमोरी एरिया (Program memory area)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (General-purpose RAM area). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (जनरल - पर्पस RAM एरिया (General-purpose RAM area))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (General-purpose RAM area). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (जनरल - पर्पस RAM एरिया (General-purpose RAM area))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -215,19 +215,19 @@
         "Use a divider to bisect a 120° angle accurately"
       ],
       "hi": [
-        "T- स्क्वायर और एक साथ दो 45° सेट - स्क्वायर का उपयोग करना \\",
-        "T- स्क्वायर कोर के साथ संरेखित मिनी - ड्राफ्टर का उपयोग करना",
-        "120° के कोण को सटीक रूप से समद्विभाजक करने के लिए डिवाइडर का उपयोग करना T- स्क्वायर , 45° सेट - स्क्वायर और 30°–60° सेट - स्क्वायर",
-        "का उपयोग करना"
+        "T-स्क्वायर और एक साथ दो 45° सेट-स्क्वायर का उपयोग करना",
+        "T-स्क्वायर कोर के साथ संरेखित मिनी-ड्राफ्टर का उपयोग करना",
+        "T-स्क्वायर, 45° सेट-स्क्वायर और 30°–60° सेट-स्क्वायर का उपयोग करना",
+        "120° के कोण को सटीक रूप से समद्विभाजक करने के लिए डिवाइडर का उपयोग करना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Use a 45° set-square with a 30°–60° set-square against a T-square). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Use a 45° set-square with a 30°–60° set-square against a T-square). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (T-स्क्वायर, 45° सेट-स्क्वायर और 30°–60° सेट-स्क्वायर का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -248,19 +248,19 @@
         "Intrinsic semiconductor at room temperature"
       ],
       "hi": [
-        "कक्ष ताप पर P- प्ररूपी अर्धचालक",
-        "कक्ष ताप पर नैज अर्धचालक",
         "0 K पर नैज अर्धचालक",
-        "कक्ष ताप पर N- प्ररूपी अर्धचालक"
+        "कक्ष ताप पर N- प्ररूपी अर्धचालक",
+        "कक्ष ताप पर P- प्ररूपी अर्धचालक",
+        "कक्ष ताप पर नैज अर्धचालक"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (P-type semiconductor at room temperature). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (कक्ष ताप पर P- प्ररूपी अर्धचालक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (P-type semiconductor at room temperature). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (कक्ष ताप पर P- प्ररूपी अर्धचालक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -281,10 +281,10 @@
         "Monovalent impurities"
       ],
       "hi": [
-        "द्विसंयोजी अशुद्धियों (Divalent impurities)",
+        "त्रिसंयोजी अशुद्धियों (Trivalent impurities)",
         "पंचसंयोजी अशुद्धियों (Pentavalent impurities)",
-        "एकसंयोजी अशुद्धियों (Monovalent impurities)",
-        "त्रिसंयोजी अशुद्धियों (Trivalent impurities)"
+        "द्विसंयोजी अशुद्धियों (Divalent impurities)",
+        "एकसंयोजी अशुद्धियों (Monovalent impurities)"
       ]
     },
     "correctIndex": 1,
@@ -292,8 +292,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Pentavalent impurities). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (पंचसंयोजी अशुद्धियों (Pentavalent impurities))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Pentavalent impurities). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (पंचसंयोजी अशुद्धियों (Pentavalent impurities))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -314,19 +314,19 @@
         "The frequency of tip cleaning"
       ],
       "hi": [
-        "सोल्डरन लोहे के भंडारण की स्थिति",
-        "अग्र की सफाई की आवृत्ति",
         "सोल्डरन लोहे के हैंडल का रंग",
-        "सोल्डर संधि का आकार और प्रकार"
+        "सोल्डर संधि का आकार और प्रकार",
+        "सोल्डरन लोहे के भंडारण की स्थिति",
+        "अग्र की सफाई की आवृत्ति"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The size and type of the solder joint). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (सोल्डर संधि का आकार और प्रकार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The size and type of the solder joint). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सोल्डर संधि का आकार और प्रकार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -347,19 +347,19 @@
         "Pulsating AC voltage"
       ],
       "hi": [
+        "प्रत्यावर्ती वोल्टता",
         "स्पंदी DC वोल्टता",
         "शुद्ध DC वोल्टता",
-        "प्रत्यावर्ती वोल्टता",
         "स्पंदी AC वोल्टता"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Pulsating DC voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (स्पंदी DC वोल्टता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Pulsating DC voltage). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (स्पंदी DC वोल्टता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -381,18 +381,18 @@
       ],
       "hi": [
         "BNC; समाक्षीय",
+        "RJ45; ट्विस्टेड पेयर",
         "टाइप A; USB",
-        "SC; फाइबर ऑप्टिक",
-        "RJ45; ट्विस्टेड पेयर"
+        "SC; फाइबर ऑप्टिक"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (twisted pair; RJ45). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (RJ45; ट्विस्टेड पेयर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (twisted pair; RJ45). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (RJ45; ट्विस्टेड पेयर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -413,9 +413,9 @@
         "multi-channel audio simultaneously through a single cable"
       ],
       "hi": [
-        "लिक्विड क्रिस्टल डिस्प्ले पिक्सेल की मूल ऑप्टिकल रिफ्रे श रेट को स्वचालित रूप से बढ़ाना",
-        "TV पैनल के अंदर आने वाले एनालॉग वीडियो सिग्नलों को डिजिटल फॉर्मेट में रूपांतरित करना आंतरिक TV लॉजिक बोर्डों को सुरक्षित रूप से संचालित करने के",
         "लिए मुख्य AC पावर वोल्टता को कम करना",
+        "TV पैनल के अंदर आने वाले एनालॉग वीडियो सिग्नलों को डिजिटल फॉर्मेट में रूपांतरित करना आंतरिक TV लॉजिक बोर्डों को सुरक्षित रूप से संचालित करने के",
+        "लिक्विड क्रिस्टल डिस्प्ले पिक्सेल की मूल ऑप्टिकल रिफ्रे श रेट को स्वचालित रूप से बढ़ाना",
         "एकल के बल के माध्यम से बिना कम्प्रैस किए डिजिटल वीडियो और बहु - चैनल ऑडियो को एक साथ ट्रांसमिट करना"
       ]
     },
@@ -424,8 +424,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (multi-channel audio simultaneously through a single cable). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (एकल के बल के माध्यम से बिना कम्प्रैस किए डिजिटल वीडियो और बहु - चैनल ऑडियो को एक साथ ट्रांसमिट करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (multi-channel audio simultaneously through a single cable). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (एकल के बल के माध्यम से बिना कम्प्रैस किए डिजिटल वीडियो और बहु - चैनल ऑडियो को एक साथ ट्रांसमिट करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -446,19 +446,19 @@
         "4 A"
       ],
       "hi": [
-        "6 A",
-        "18 A",
         "9 A",
+        "18 A",
+        "6 A",
         "4 A"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (6 A). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (6 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (6 A). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (6 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -479,19 +479,19 @@
         "HDMI"
       ],
       "hi": [
-        "HDMI",
-        "S- वीडियो",
+        "कं पोनेंट वीडियो (YPbPr)",
         "कं पोजिट वीडियो (RCA)",
-        "कं पोनेंट वीडियो (YPbPr)"
+        "S- वीडियो",
+        "HDMI"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (HDMI). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (HDMI)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (HDMI). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (HDMI)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -512,19 +512,19 @@
         "The number of input voltage peaks per cycle"
       ],
       "hi": [
-        "आउटपुट सिग्नल का औसत वोल्टता स्तर",
-        "इनपुट और आउटपुट सिग्नलों के बीच कलांतर",
         "प्रति इकाई समय आउटपुट संक्रमणों की संख्या",
+        "इनपुट और आउटपुट सिग्नलों के बीच कलांतर",
+        "आउटपुट सिग्नल का औसत वोल्टता स्तर",
         "प्रति चक्र इनपुट वोल्टता शिखरों की संख्या"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (The number of output transitions per unit time). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (प्रति इकाई समय आउटपुट संक्रमणों की संख्या)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (The number of output transitions per unit time). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (प्रति इकाई समय आउटपुट संक्रमणों की संख्या)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -546,18 +546,18 @@
       ],
       "hi": [
         "एक - चौथाई हो जाता है",
-        "समान रहता है",
         "आधा हो जाता है",
+        "समान रहता है",
         "दोगुना हो जाता है"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (It is halved). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (आधा हो जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (It is halved). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (आधा हो जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -578,10 +578,10 @@
         "Using a heavier sensor for mounting stability"
       ],
       "hi": [
-        "माउंटिंग स्‍थायित्व (mounting stability) के लिए भारी संवेदक का उपयोग करना",
-        "लक्षित सतह के अभिलक्षणों को ध्यान में रखते हुए संवेदक की सुग्राहिता और संरेखण को समायोजित करना",
         "संवेदक की आपूर्ति वोल्टता निर्धारित सीमाओं के अंदर बढ़ाना",
-        "बेहतर सिग्नल अखंडता (signal integrity) के लिए तार रोधक पदार्थ को बदलना"
+        "लक्षित सतह के अभिलक्षणों को ध्यान में रखते हुए संवेदक की सुग्राहिता और संरेखण को समायोजित करना",
+        "बेहतर सिग्नल अखंडता (signal integrity) के लिए तार रोधक पदार्थ को बदलना",
+        "माउंटिंग स्‍थायित्व (mounting stability) के लिए भारी संवेदक का उपयोग करना"
       ]
     },
     "correctIndex": 1,
@@ -589,8 +589,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Adjusting the sensor's sensitivity and alignment to account for target surface characteristics). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (लक्षित सतह के अभिलक्षणों को ध्यान में रखते हुए संवेदक की सुग्राहिता और संरेखण को समायोजित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Adjusting the sensor's sensitivity and alignment to account for target surface characteristics). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (लक्षित सतह के अभिलक्षणों को ध्यान में रखते हुए संवेदक की सुग्राहिता और संरेखण को समायोजित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -612,18 +612,18 @@
       ],
       "hi": [
         "नैज क्षेत्र",
+        "P- टाइप क्षेत्र",
         "अवक्षय क्षेत्र",
-        "N- टाइप क्षेत्र",
-        "P- टाइप क्षेत्र"
+        "N- टाइप क्षेत्र"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (P-type region). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (P- टाइप क्षेत्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (P-type region). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (P- टाइप क्षेत्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -644,19 +644,19 @@
         "270 degrees"
       ],
       "hi": [
-        "180 डिग्री",
         "90 डिग्री",
         "360 डिग्री",
+        "180 डिग्री",
         "270 डिग्री"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (180 degrees). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (180 डिग्री)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (180 degrees). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (180 डिग्री)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -677,19 +677,19 @@
         "4.7 ohms"
       ],
       "hi": [
-        "4.7 ohms",
         "470 ohms",
         "47000 ohms",
-        "4700 ohms"
+        "4700 ohms",
+        "4.7 ohms"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (4700 ohms). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (4700 ohms)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (4700 ohms). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (4700 ohms)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -710,19 +710,19 @@
         "180° phase shift"
       ],
       "hi": [
-        "आउटपुट , इनपुट से 90° अग्रगामी है",
+        "आउटपुट , इनपुट के साथ समफेज में है",
         "आउटपुट , इनपुट से 90° पश्चगामी है",
-        "180° फेज विस्थापन",
-        "आउटपुट , इनपुट के साथ समफेज में है"
+        "आउटपुट , इनपुट से 90° अग्रगामी है",
+        "180° फेज विस्थापन"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (180° phase shift). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (180° फेज विस्थापन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (180° phase shift). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (180° फेज विस्थापन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -743,19 +743,19 @@
         "Both pins are identical and can be used interchangeably."
       ],
       "hi": [
-        "पिन 3 उत्स र्जक है , क्योंकि इसमें वोल्टता पात निम्न है",
-        "पिन 2 उत्स र्जक है , क्योंकि इसमें वोल्टता पात उच्च है",
-        "दोनों पिन एकसमान हैं और एक - दूसरे के स्थान पर परस्पर उपयोग किए जा सकते हैं कोई भी पिन नहीं ; ट्रांजिस्टर खराब है क्योंकि पाठ्यांक सुमेलित नहीं",
-        "हैं"
+        "पिन 2 उत्सर्जक है, क्योंकि इसमें वोल्टता पात उच्च है",
+        "पिन 3 उत्सर्जक है, क्योंकि इसमें वोल्टता पात निम्न है",
+        "कोई भी पिन नहीं; ट्रांजिस्टर खराब है क्योंकि पाठ्यांक सुमेलित नहीं हैं",
+        "दोनों पिन एकसमान हैं और एक-दूसरे के स्थान पर परस्पर उपयोग किए जा सकते हैं"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Pin 2 is the Emitter, because it has the higher voltage drop.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (पिन 2 उत्स र्जक है , क्योंकि इसमें वोल्टता पात उच्च है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Pin 2 is the Emitter, because it has the higher voltage drop.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (पिन 2 उत्सर्जक है, क्योंकि इसमें वोल्टता पात उच्च है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -776,19 +776,19 @@
         "40 pins"
       ],
       "hi": [
-        "40 पिन",
-        "68 पिन",
         "50 पिन",
-        "34 पिन"
+        "68 पिन",
+        "34 पिन",
+        "40 पिन"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (40 pins). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (40 पिन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (40 pins). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (40 पिन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -820,8 +820,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Switch OFF the circuit supply). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (परिपथ आपूर्ति OFF कर दें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Switch OFF the circuit supply). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (परिपथ आपूर्ति OFF कर दें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -842,10 +842,10 @@
         "It maintains efficiency regardless of input voltage."
       ],
       "hi": [
-        "यह प्रत्यक्ष रूप से वैद्युतचुंबकीय व्यतिकरण को निम्न करती है",
+        "यह सभी परिस्थितियों में बैटरी की आयु बढ़ाती है",
         "यह केवल सुरक्षित वोल्टता पैरामीटर में इनवर्टर प्रचालन सुनिश्चित करती है",
-        "यह इनपुट वोल्टता की परवाह किए बिना दक्षता बनाए रखती है",
-        "यह सभी परिस्थितियों में बैटरी की आयु बढ़ाती है"
+        "यह प्रत्यक्ष रूप से वैद्युतचुंबकीय व्यतिकरण को निम्न करती है",
+        "यह इनपुट वोल्टता की परवाह किए बिना दक्षता बनाए रखती है"
       ]
     },
     "correctIndex": 1,
@@ -853,8 +853,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (It ensures the inverter operates only within safe voltage parameters.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (यह केवल सुरक्षित वोल्टता पैरामीटर में इनवर्टर प्रचालन सुनिश्चित करती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (It ensures the inverter operates only within safe voltage parameters.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यह केवल सुरक्षित वोल्टता पैरामीटर में इनवर्टर प्रचालन सुनिश्चित करती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -875,19 +875,19 @@
         "The motor will experience a significant reduction in torque and may fail to step accurately."
       ],
       "hi": [
-        "मोटर के बल - आघूर्ण में महत्वपूर्ण कमी आएगी और हो सकता है कि वह यथार्थ रूप से स्टेप न कर पाए।",
-        "विद्युत की खपत कम होने के कारण मोटर की दक्षता में सुधार होगा।",
         "मोटर अपनी निर्धारित चाल से दोगुनी चाल से घूर्णन करेगी।",
-        "मोटर पूर्ण बल - आघूर्ण के साथ सामान्य रूप से प्रचालन जारी रखेगी।"
+        "विद्युत की खपत कम होने के कारण मोटर की दक्षता में सुधार होगा।",
+        "मोटर पूर्ण बल - आघूर्ण के साथ सामान्य रूप से प्रचालन जारी रखेगी।",
+        "मोटर के बल - आघूर्ण में महत्वपूर्ण कमी आएगी और हो सकता है कि वह यथार्थ रूप से स्टेप न कर पाए।"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (The motor will experience a significant reduction in torque and may fail to step accurately.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (मोटर के बल - आघूर्ण में महत्वपूर्ण कमी आएगी और हो सकता है कि वह यथार्थ रूप से स्टेप न कर पाए।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (The motor will experience a significant reduction in torque and may fail to step accurately.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (मोटर के बल - आघूर्ण में महत्वपूर्ण कमी आएगी और हो सकता है कि वह यथार्थ रूप से स्टेप न कर पाए।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -908,19 +908,19 @@
         "It increases"
       ],
       "hi": [
-        "यह बढ़ती है",
         "यह स्थिर रहती है",
         "यह शून्य हो जाती है",
-        "यह घटती है"
+        "यह घटती है",
+        "यह बढ़ती है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It increases). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (यह बढ़ती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It increases). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (यह बढ़ती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -941,9 +941,9 @@
         "A 1 kHz square wave signal inverted (complemented) with respect to the input"
       ],
       "hi": [
+        "एक अपरिवर्ती LOW (0) सिग्नल",
         "इनपुट के समान ही एक 1 kHz वर्ग तरंग सिग्नल",
         "एक अपरिवर्ती HIGH (1) सिग्नल",
-        "एक अपरिवर्ती LOW (0) सिग्नल",
         "इनपुट के सापेक्ष प्रतिलोमित ( पूरक ) 1 kHz वर्ग तरंग सिग्नल"
       ]
     },
@@ -952,8 +952,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (A 1 kHz square wave signal inverted (complemented) with respect to the input). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (इनपुट के सापेक्ष प्रतिलोमित ( पूरक ) 1 kHz वर्ग तरंग सिग्नल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (A 1 kHz square wave signal inverted (complemented) with respect to the input). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (इनपुट के सापेक्ष प्रतिलोमित ( पूरक ) 1 kHz वर्ग तरंग सिग्नल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -985,8 +985,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (To collect data from the environment). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (वातावरण से डेटा एकत्र करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (To collect data from the environment). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (वातावरण से डेटा एकत्र करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1007,10 +1007,10 @@
         "Hartley Oscillator"
       ],
       "hi": [
-        "हार्टली दोलित्र (Hartley Oscillator)",
+        "कॉलपिट दोलित्र (Colpitts Oscillator)",
         "फेज विस्थापी दोलित्र (Phase Shift Oscillator)",
         "क्रिस्टल दोलित्र (Crystal Oscillator)",
-        "कॉलपिट दोलित्र (Colpitts Oscillator)"
+        "हार्टली दोलित्र (Hartley Oscillator)"
       ]
     },
     "correctIndex": 1,
@@ -1018,8 +1018,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Phase Shift Oscillator). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (फेज विस्थापी दोलित्र (Phase Shift Oscillator))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Phase Shift Oscillator). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (फेज विस्थापी दोलित्र (Phase Shift Oscillator))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1040,19 +1040,19 @@
         "Use a mixture of uppercase and lowercase letters for all part numbers"
       ],
       "hi": [
-        "मानकीकरण बनाए रखने के लिए सभी पार्ट नंबरों हेतु बड़े अक्षरों (uppercase letters) का उपयोग करना",
-        "लेखन प्रयास को कम करने के लिए पार्ट नंबरों हेतु छोटे अक्षरों का उपयोग करना",
         "स्थान बचाने के लिए छोटे आकार के पार्ट नंबरों हेतु छोटे अक्षरों (lowercase letters) का उपयोग करना",
+        "लेखन प्रयास को कम करने के लिए पार्ट नंबरों हेतु छोटे अक्षरों का उपयोग करना",
+        "मानकीकरण बनाए रखने के लिए सभी पार्ट नंबरों हेतु बड़े अक्षरों (uppercase letters) का उपयोग करना",
         "सभी पार्ट नंबरों हेतु बड़े और छोटे अक्षरों के मिश्रण का उपयोग करना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Use uppercase letters for all part numbers to maintain standardization). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (मानकीकरण बनाए रखने के लिए सभी पार्ट नंबरों हेतु बड़े अक्षरों (uppercase letters) का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Use uppercase letters for all part numbers to maintain standardization). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (मानकीकरण बनाए रखने के लिए सभी पार्ट नंबरों हेतु बड़े अक्षरों (uppercase letters) का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1074,18 +1074,18 @@
       ],
       "hi": [
         "स्पंदों के आयाम में विभिन्नता",
-        "स्पंदों की आवृत्ति में विभिन्नता",
-        "इनपुट और आउटपुट सिग्नल के बीच कलांतर स्पंद के ऑन - टाइम ( विस्तार ) और सिग्नल की कु ल आवर्त -",
-        "काल का अनुपात"
+        "स्पंद के ऑन - टाइम ( विस्तार ) और सिग्नल की कु ल आवर्त - काल का अनुपात",
+        "इनपुट और आउटपुट सिग्नल के बीच कलांतर",
+        "स्पंदों की आवृत्ति में विभिन्नता"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Ratio of the pulse ON-time (width) to the total time period of the signal). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (काल का अनुपात)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Ratio of the pulse ON-time (width) to the total time period of the signal). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (स्पंद के ऑन - टाइम ( विस्तार ) और सिग्नल की कु ल आवर्त - काल का अनुपात)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1106,19 +1106,19 @@
         "Voltage"
       ],
       "hi": [
-        "शक्ति",
         "धारा",
-        "वोल्टता",
-        "प्रतिरोध"
+        "प्रतिरोध",
+        "शक्ति",
+        "वोल्टता"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (वोल्टता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Voltage). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (वोल्टता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1139,19 +1139,19 @@
         "High-frequency AC voltage only"
       ],
       "hi": [
-        "केवल दिष्ट धारा (DC) वोल्टता",
+        "केवल प्रत्यावर्ती धारा (AC) वोल्टता",
         "यथार्थ रूप से AC और DC दोनों वोल्टता",
-        "केवल उच्च आवृत्ति AC वोल्टता",
-        "केवल प्रत्यावर्ती धारा (AC) वोल्टता"
+        "केवल दिष्ट धारा (DC) वोल्टता",
+        "केवल उच्च आवृत्ति AC वोल्टता"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Direct current (DC) voltage only). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (केवल दिष्ट धारा (DC) वोल्टता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Direct current (DC) voltage only). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (केवल दिष्ट धारा (DC) वोल्टता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1172,10 +1172,10 @@
         "Earth conductor"
       ],
       "hi": [
-        "नियंत्रण परिपथ चालक",
+        "पायलट तार",
         "उदासीन चालक",
-        "अर्थ कं डक्टर",
-        "पायलट तार"
+        "नियंत्रण परिपथ चालक",
+        "अर्थ कं डक्टर"
       ]
     },
     "correctIndex": 1,
@@ -1183,8 +1183,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Neutral conductor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (उदासीन चालक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Neutral conductor). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (उदासीन चालक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1205,19 +1205,19 @@
         "To act as a fuse during overload"
       ],
       "hi": [
-        "आपूर्ति आवृत्ति को कम करने हेतु",
-        "ओवरलोड के दौरान फ्यूज के रूप में कार्य करने हेतु",
+        "बेहतर प्रवर्तन बल - आघूर्ण के लिए कलांतर उत्पन्न करने हेतु",
         "चालक प्रतिरोध में स्थायी रूप से वृद्धि करने हेतु",
-        "बेहतर प्रवर्तन बल - आघूर्ण के लिए कलांतर उत्पन्न करने हेतु"
+        "आपूर्ति आवृत्ति को कम करने हेतु",
+        "ओवरलोड के दौरान फ्यूज के रूप में कार्य करने हेतु"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (To produce phase difference for better starting torque). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (बेहतर प्रवर्तन बल - आघूर्ण के लिए कलांतर उत्पन्न करने हेतु)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (To produce phase difference for better starting torque). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (बेहतर प्रवर्तन बल - आघूर्ण के लिए कलांतर उत्पन्न करने हेतु)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1238,19 +1238,19 @@
         "A stud extractor is longer than an open-end spanner, providing greater torque."
       ],
       "hi": [
-        "जबकि ओपन - एं ड स्पैनर का उपयोग केवल ढीला करने के लिए किया जाता है",
-        "स्टड एक्सट्रैक्टर , ओपन - एं ड स्पैनर की तुलना में लंबा होता है , जो अधिक बलाघूर्ण (torque) प्रदान करता है स्टड एक्सट्रैक्टर , स्टड को पकड़ता है और उसे निकालता है ,",
         "जबकि ओपन - एं ड स्पैनर बोल्ट के फ्लैटों (flats) पर फिट होता है किसी स्टड एक्सट्रैक्टर को उपयोग से पहले बाहरी हीटिंग की",
-        "आवश्यकता होती है , जबकि एक ओपन - एं ड स्पैनर को इसकी आवश्यकता नहीं होती है।"
+        "जबकि ओपन - एं ड स्पैनर का उपयोग केवल ढीला करने के लिए किया जाता है",
+        "आवश्यकता होती है , जबकि एक ओपन - एं ड स्पैनर को इसकी आवश्यकता नहीं होती है।",
+        "स्टड एक्सट्रैक्टर , ओपन - एं ड स्पैनर की तुलना में लंबा होता है , जो अधिक बलाघूर्ण (torque) प्रदान करता है स्टड एक्सट्रैक्टर , स्टड को पकड़ता है और उसे निकालता है ,"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (A stud extractor grips and removes a stud, while an open-end spanner fits the flats of a bolt.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (जबकि ओपन - एं ड स्पैनर बोल्ट के फ्लैटों (flats) पर फिट होता है किसी स्टड एक्सट्रैक्टर को उपयोग से पहले बाहरी हीटिंग की)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (A stud extractor grips and removes a stud, while an open-end spanner fits the flats of a bolt.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (जबकि ओपन - एं ड स्पैनर बोल्ट के फ्लैटों (flats) पर फिट होता है किसी स्टड एक्सट्रैक्टर को उपयोग से पहले बाहरी हीटिंग की)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1273,8 +1273,8 @@
       "hi": [
         "रसायनों के लिए खतरे का संके त और मशीनरी के लिए चेतावनी संके त",
         "रसायनों के लिए सावधानी संके त और मशीनरी के लिए चेतावनी संके त",
-        "मशीनरी के लिए खतरे का संके त और रसायनों के लिए सावधानी संके त",
-        "रसायनों के लिए चेतावनी संके त और मशीनरी के लिए सावधानी संके त"
+        "रसायनों के लिए चेतावनी संके त और मशीनरी के लिए सावधानी संके त",
+        "मशीनरी के लिए खतरे का संके त और रसायनों के लिए सावधानी संके त"
       ]
     },
     "correctIndex": 0,
@@ -1282,8 +1282,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Danger signs for chemicals and warning signs for machinery). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (रसायनों के लिए खतरे का संके त और मशीनरी के लिए चेतावनी संके त)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Danger signs for chemicals and warning signs for machinery). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (रसायनों के लिए खतरे का संके त और मशीनरी के लिए चेतावनी संके त)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1305,18 +1305,18 @@
       ],
       "hi": [
         "USB; कं सोल इंटरफे स",
+        "RJ45; LAN पोर्ट",
         "RJ11; टेलीफोन जैक",
-        "BNC; कोएक्सियल सॉके ट",
-        "RJ45; LAN पोर्ट"
+        "BNC; कोएक्सियल सॉके ट"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (RJ45; LAN port). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (RJ45; LAN पोर्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (RJ45; LAN port). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (RJ45; LAN पोर्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1337,19 +1337,19 @@
         "Anode, Cathode, Grid"
       ],
       "hi": [
-        "धनात्मक , ऋणात्मक , उदासीन (Positive, Negative, Neutral)",
-        "एनोड , कै थोड , ग्रिड (Anode, Cathode, Grid)",
         "गेट , ड्रेन , सोर्स (Gate, Drain, Source)",
-        "उत्स र्जक , संग्राहक , आधार (Emitter, Collector, Base)"
+        "धनात्मक , ऋणात्मक , उदासीन (Positive, Negative, Neutral)",
+        "उत्स र्जक , संग्राहक , आधार (Emitter, Collector, Base)",
+        "एनोड , कै थोड , ग्रिड (Anode, Cathode, Grid)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Gate, Drain, Source). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (गेट , ड्रेन , सोर्स (Gate, Drain, Source))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Gate, Drain, Source). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (गेट , ड्रेन , सोर्स (Gate, Drain, Source))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1370,19 +1370,19 @@
         "Piezoelectric effect"
       ],
       "hi": [
-        "दाबविद्युत प्रभाव",
-        "तापायनिक उत्स र्जन",
         "हॉल प्रभाव",
-        "प्रकाशविद्युत प्रभाव"
+        "तापायनिक उत्स र्जन",
+        "प्रकाशविद्युत प्रभाव",
+        "दाबविद्युत प्रभाव"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Piezoelectric effect). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (दाबविद्युत प्रभाव)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Piezoelectric effect). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (दाबविद्युत प्रभाव)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1404,8 +1404,8 @@
       ],
       "hi": [
         "सेट इनपुट (Set input)",
-        "रीसेट इनपुट (Reset input)",
         "टॉगल इनपुट (Toggle input)",
+        "रीसेट इनपुट (Reset input)",
         "क्लॉक इनपुट (Clock input)"
       ]
     },
@@ -1414,8 +1414,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (The Set input). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (सेट इनपुट (Set input))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (The Set input). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सेट इनपुट (Set input))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1436,10 +1436,10 @@
         "The stabilizer has a blown fuse"
       ],
       "hi": [
-        "स्टेबलाइजर का फ्यूज उड़ गया है",
-        "इनपुट वोल्टता में तेजी से उच्चावचन हो रहा है",
         "SMPS ओवरलोड हो गया है",
-        "रिले एक ही स्थिति में अटक गया है"
+        "इनपुट वोल्टता में तेजी से उच्चावचन हो रहा है",
+        "रिले एक ही स्थिति में अटक गया है",
+        "स्टेबलाइजर का फ्यूज उड़ गया है"
       ]
     },
     "correctIndex": 1,
@@ -1447,8 +1447,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The input voltage is fluctuating rapidly). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (इनपुट वोल्टता में तेजी से उच्चावचन हो रहा है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The input voltage is fluctuating rapidly). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (इनपुट वोल्टता में तेजी से उच्चावचन हो रहा है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1469,19 +1469,19 @@
         "They are thicker than copper wires"
       ],
       "hi": [
-        "इनका प्रतिरोध अपेक्षाकृ त उच्च होता है",
         "वे विद्युत सिग्नलों के स्थान पर प्रकाश का उपयोग करते हैं",
         "वे धातु से आवृत होते हैं",
+        "इनका प्रतिरोध अपेक्षाकृ त उच्च होता है",
         "वे कॉपर के तारों से अपेक्षाकृ त मोटे होते हैं"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (They use light instead of electrical signals). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (वे विद्युत सिग्नलों के स्थान पर प्रकाश का उपयोग करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (They use light instead of electrical signals). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (वे विद्युत सिग्नलों के स्थान पर प्रकाश का उपयोग करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1513,8 +1513,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (It may cause distortion). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (इससे विरूपण हो सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (It may cause distortion). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (इससे विरूपण हो सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1535,19 +1535,19 @@
         "Assigning the same frequency to neighboring cell sites"
       ],
       "hi": [
-        "सभी सेल साइट ऐन्टेना की ऊं चाई कम करना",
         "हैंडओवर प्रोटोकॉल के साथ ओवरलैपिंग कवरेज क्षेत्रों को शामिल करना",
+        "सभी सेल साइट ऐन्टेना की ऊं चाई कम करना",
         "प्रत्येक सेल साइट की ट्रांसमिशन पावर को कम करना",
         "निकटवर्ती सेल साइटों को समान आवृत्ति आवंटित करना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Introducing overlapping coverage areas with handover protocols). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (हैंडओवर प्रोटोकॉल के साथ ओवरलैपिंग कवरेज क्षेत्रों को शामिल करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Introducing overlapping coverage areas with handover protocols). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (हैंडओवर प्रोटोकॉल के साथ ओवरलैपिंग कवरेज क्षेत्रों को शामिल करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1569,18 +1569,18 @@
       ],
       "hi": [
         "0",
-        "0.5",
+        "1.0",
         "0.866",
-        "1.0"
+        "0.5"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (1.0). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (1.0)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (1.0). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (1.0)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1596,24 +1596,24 @@
     "options": {
       "en": [
         "Tighten as much as possible with full force",
-        "Tighten screws evenly and firmly without over- tightening",
+        "Tighten screws evenly and firmly without over-tightening",
         "Leave screws slightly loose for HDD to move freely",
         "Tighten only one side"
       ],
       "hi": [
-        "केवल एक तरफ कसना चाहिए।",
-        "पूरी ताकत लगाकर जितना हो सके , उतना कसें। HDD को स्वतंत्र रूप से गति करने देने के लिए पेंचों को थोड़ा ढीला",
-        "छोड़ देना चाहिए।",
-        "पेंचों को अत्यधिक कसे बिना , समान रूप से तथा दृढ़तापूर्वक कसना चाहिए।"
+        "पूरी ताकत लगाकर जितना हो सके, उतना कसें।",
+        "पेंचों को अत्यधिक कसे बिना, समान रूप से तथा दृढ़तापूर्वक कसना चाहिए।",
+        "HDD को स्वतंत्र रूप से गति करने देने के लिए पेंचों को थोड़ा ढीला छोड़ देना चाहिए।",
+        "केवल एक तरफ कसना चाहिए।"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Tighten screws evenly and firmly without over- tightening). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (पेंचों को अत्यधिक कसे बिना , समान रूप से तथा दृढ़तापूर्वक कसना चाहिए।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Tighten screws evenly and firmly without over-tightening). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (पेंचों को अत्यधिक कसे बिना, समान रूप से तथा दृढ़तापूर्वक कसना चाहिए।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1634,19 +1634,19 @@
         "The major axis equals the true diameter, while the minor axis becomes very small"
       ],
       "hi": [
-        "दीर्घ अक्ष वास्तविक व्यास के बराबर होता है , जबकि लघु अक्ष बहुत छोटा हो जाता है",
-        "लघु अक्ष वास्तविक व्यास के बराबर होता है , जबकि दीर्घ अक्ष बहुत छोटा हो जाता है दोनों अक्ष समान रूप से कम हो जाते हैं , जिससे एक छोटा वृत्त बनता",
-        "है",
-        "दीर्घ अक्ष वास्तविक व्यास का दोगुना हो जाता है , जबकि लघु अक्ष अपरिवर्तित रहता है"
+        "लघु अक्ष वास्तविक व्यास के बराबर होता है, जबकि दीर्घ अक्ष बहुत छोटा हो जाता है",
+        "दीर्घ अक्ष वास्तविक व्यास का दोगुना हो जाता है, जबकि लघु अक्ष अपरिवर्तित रहता है",
+        "दोनों अक्ष समान रूप से कम हो जाते हैं, जिससे एक छोटा वृत्त बनता है",
+        "दीर्घ अक्ष वास्तविक व्यास के बराबर होता है, जबकि लघु अक्ष बहुत छोटा हो जाता है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (The major axis equals the true diameter, while the minor axis becomes very small). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (दीर्घ अक्ष वास्तविक व्यास के बराबर होता है , जबकि लघु अक्ष बहुत छोटा हो जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (The major axis equals the true diameter, while the minor axis becomes very small). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (दीर्घ अक्ष वास्तविक व्यास के बराबर होता है, जबकि लघु अक्ष बहुत छोटा हो जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1667,19 +1667,19 @@
         "A zero voltage"
       ],
       "hi": [
-        "गेट धारा (gate current)",
-        "शून्य वोल्टता (zero voltage)",
         "धनात्मक वोल्टता (positive voltage)",
-        "ऋणात्मक वोल्टता (negative voltage)"
+        "ऋणात्मक वोल्टता (negative voltage)",
+        "गेट धारा (gate current)",
+        "शून्य वोल्टता (zero voltage)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (A positive voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (धनात्मक वोल्टता (positive voltage))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (A positive voltage). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (धनात्मक वोल्टता (positive voltage))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1696,23 +1696,23 @@
       "en": [
         "A primary battery always has higher voltage than a secondary battery",
         "A primary battery is used only in automobiles, while a secondary battery is used only in torches",
-        "A primary battery can be recharged many times, while a secondary battery cannot be recharged A primary battery is generally non-rechargeable,",
-        "while a secondary battery can be recharged and reused"
+        "A primary battery can be recharged many times, while a secondary battery cannot be recharged",
+        "A primary battery is generally non-rechargeable, while a secondary battery can be recharged and reused"
       ],
       "hi": [
-        "द्वितीयक बैटरी को पुनः आवेशित करके पुनः उपयोग किया जा सकता है",
         "प्राथमिक बैटरी की वोल्टता सदैव द्वितीयक बैटरी की तुलना में उच्च होती है",
-        "प्राथमिक बैटरी का उपयोग केवल ऑटोमोबाइल में किया जाता है , जबकि द्वितीयक बैटरी का उपयोग केवल टॉर्च में किया जाता है",
-        "प्राथमिक बैटरी को कई बार पुनः आवेशित किया जा सकता है , जबकि द्वितीयक बैटरी को पुनः आवेशित नहीं किया जा सकता है"
+        "प्राथमिक बैटरी का उपयोग केवल ऑटोमोबाइल में किया जाता है, जबकि द्वितीयक बैटरी का उपयोग केवल टॉर्च में किया जाता है",
+        "प्राथमिक बैटरी को कई बार पुनः आवेशित किया जा सकता है, जबकि द्वितीयक बैटरी को पुनः आवेशित नहीं किया जा सकता है",
+        "प्राथमिक बैटरी सामान्यतः नॉन-रिचार्जेबल होती है, जबकि द्वितीयक बैटरी को पुनः आवेशित करके पुनः उपयोग किया जा सकता है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (while a secondary battery can be recharged and reused). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (द्वितीयक बैटरी को पुनः आवेशित करके पुनः उपयोग किया जा सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (A primary battery is generally non-rechargeable, while a secondary battery can be recharged and reused). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (प्राथमिक बैटरी सामान्यतः नॉन-रिचार्जेबल होती है, जबकि द्वितीयक बैटरी को पुनः आवेशित करके पुनः उपयोग किया जा सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1734,9 +1734,9 @@
       ],
       "hi": [
         "स्विच - मोड पावर सप्लाई (SMPS) बोर्ड",
-        "लिक्विड क्रिस्टल डिस्प्ले (LCD) शटर मैट्रिक्स",
         "T-CON माइक्रोप्रोसेसिंग चिप",
-        "लो - वोल्टेज डिफरेंशियल सिग्नलिंग (LVDS) इंटरफे स"
+        "लो - वोल्टेज डिफरेंशियल सिग्नलिंग (LVDS) इंटरफे स",
+        "लिक्विड क्रिस्टल डिस्प्ले (LCD) शटर मैट्रिक्स"
       ]
     },
     "correctIndex": 0,
@@ -1744,8 +1744,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Switch-Mode Power Supply (SMPS) board). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (स्विच - मोड पावर सप्लाई (SMPS) बोर्ड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Switch-Mode Power Supply (SMPS) board). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (स्विच - मोड पावर सप्लाई (SMPS) बोर्ड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1766,19 +1766,19 @@
         "Attenuator"
       ],
       "hi": [
-        "क्षीणकारी",
         "निम्न पारक फिल्टर",
+        "इनवर्टर",
         "उच्च पारक फिल्टर",
-        "इनवर्टर"
+        "क्षीणकारी"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Low-pass filter). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (निम्न पारक फिल्टर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Low-pass filter). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (निम्न पारक फिल्टर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1800,18 +1800,18 @@
       ],
       "hi": [
         "द्विध्रुवी ऐन्टेना (Dipole antenna)",
-        "एकध्रुवी ऐन्टेना (Monopole antenna)",
         "समदैशिक ऐन्टेना (Isotropic antenna)",
-        "परवलयिक ऐन्टेना (Parabolic antenna)"
+        "परवलयिक ऐन्टेना (Parabolic antenna)",
+        "एकध्रुवी ऐन्टेना (Monopole antenna)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Parabolic antenna). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (परवलयिक ऐन्टेना (Parabolic antenna))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Parabolic antenna). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (परवलयिक ऐन्टेना (Parabolic antenna))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1832,19 +1832,19 @@
         "HDDs use optical discs for storage"
       ],
       "hi": [
-        "HDD, स्टोरेज के लिए ऑप्टिकल डिस्क का उपयोग करते हैं",
-        "HDD, स्पिनिंग मैग्नेटिक डिस्क पर डेटा स्टोर करते हैं",
         "HDD, डेटा स्टोर करने के लिए फ़्लैश मेमोरी का उपयोग करते हैं",
-        "HDD केवल अस्थायी स्टोरेज के लिए उपयोग किए जाते हैं"
+        "HDD केवल अस्थायी स्टोरेज के लिए उपयोग किए जाते हैं",
+        "HDD, स्पिनिंग मैग्नेटिक डिस्क पर डेटा स्टोर करते हैं",
+        "HDD, स्टोरेज के लिए ऑप्टिकल डिस्क का उपयोग करते हैं"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (HDDs store data on spinning magnetic disks). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (HDD, स्पिनिंग मैग्नेटिक डिस्क पर डेटा स्टोर करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (HDDs store data on spinning magnetic disks). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (HDD, स्पिनिंग मैग्नेटिक डिस्क पर डेटा स्टोर करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1865,19 +1865,19 @@
         "24; 24"
       ],
       "hi": [
-        "24; 10",
         "10; 24",
-        "24; 24",
-        "48; 48"
+        "48; 48",
+        "24; 10",
+        "24; 24"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (24; 10). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (24; 10)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (24; 10). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (24; 10)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1899,18 +1899,18 @@
       ],
       "hi": [
         "बहुसंके तक (Multiplexer)",
+        "कोडित्र (Encoder)",
         "लैच (Latch)",
-        "व्यवकलित्र (Subtractor)",
-        "कोडित्र (Encoder)"
+        "व्यवकलित्र (Subtractor)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Latch). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (लैच (Latch))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Latch). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (लैच (Latch))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1932,18 +1932,18 @@
       ],
       "hi": [
         "RAM",
-        "SMPS",
         "HDD",
-        "हीट सिंक"
+        "हीट सिंक",
+        "SMPS"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (SMPS). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (SMPS)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (SMPS). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (SMPS)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1964,19 +1964,19 @@
         "90°"
       ],
       "hi": [
-        "90°",
-        "180°",
         "0°",
-        "45°"
+        "45°",
+        "180°",
+        "90°"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (0°). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (0°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (0°). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (0°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1997,9 +1997,9 @@
         "Magnetic platters"
       ],
       "hi": [
-        "ऑप्टिकल डिस्क (Optical discs)",
-        "केवल फ्लैश चिप्स (Flash chips only)",
         "पेपर टेप (Paper tape)",
+        "केवल फ्लैश चिप्स (Flash chips only)",
+        "ऑप्टिकल डिस्क (Optical discs)",
         "चुंबकीय प्लैटर (Magnetic platters)"
       ]
     },
@@ -2008,8 +2008,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Magnetic platters). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (चुंबकीय प्लैटर (Magnetic platters))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Magnetic platters). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (चुंबकीय प्लैटर (Magnetic platters))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2030,19 +2030,19 @@
         "The entire display screen will permanently turn off due to over-sampling."
       ],
       "hi": [
-        "अति - प्रतिचयन के कारण संपूर्ण डिस्प्ले स्क्रीन स्थायी रूप से बंद हो जाएगी",
-        "इनपुट संके त स्वचालित रूप से दिष्ट धारा मापन मोड में स्विच हो जाएगा एलियासिंग त्रुटि , जहाँ प्रदर्शित तरंगरूप एक गलत निम्न -",
+        "एनालॉग इनपुट प्रोब टिप्स अत्यधिक ऊष्मा के कारण पिघल जाएं गी",
         "आवृत्ति संके त आकृति के रूप में दिखाई देता है",
-        "एनालॉग इनपुट प्रोब टिप्स अत्यधिक ऊष्मा के कारण पिघल जाएं गी"
+        "इनपुट संके त स्वचालित रूप से दिष्ट धारा मापन मोड में स्विच हो जाएगा एलियासिंग त्रुटि , जहाँ प्रदर्शित तरंगरूप एक गलत निम्न -",
+        "अति - प्रतिचयन के कारण संपूर्ण डिस्प्ले स्क्रीन स्थायी रूप से बंद हो जाएगी"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (appears as an incorrect low-frequency signal shape.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (आवृत्ति संके त आकृति के रूप में दिखाई देता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (appears as an incorrect low-frequency signal shape.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (आवृत्ति संके त आकृति के रूप में दिखाई देता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2063,19 +2063,19 @@
         "Common collector"
       ],
       "hi": [
-        "उभयनिष्ठ संग्राहक (Common collector)",
         "उत्स र्जक अनुगामी (Emitter follower)",
         "उभयनिष्ठ उत्स र्जक (Common emitter)",
-        "उभयनिष्ठ आधार (Common base)"
+        "उभयनिष्ठ आधार (Common base)",
+        "उभयनिष्ठ संग्राहक (Common collector)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Common emitter). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (उभयनिष्ठ उत्स र्जक (Common emitter))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Common emitter). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (उभयनिष्ठ उत्स र्जक (Common emitter))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2096,19 +2096,19 @@
         "Resistor"
       ],
       "hi": [
-        "प्रतिरोधक",
-        "प्रेरक",
         "संधारित्र",
-        "ट्रांजिस्टर"
+        "प्रेरक",
+        "ट्रांजिस्टर",
+        "प्रतिरोधक"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Capacitor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (संधारित्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Capacitor). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (संधारित्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2130,18 +2130,18 @@
       ],
       "hi": [
         "इनपुट के 0 हो जाने के बाद Q, 0 पर वापस आ जाएगा।",
-        "इनपुट के 0 पर वापस आने पर Q अमान्य हो जाएगा।",
-        "0 और 1 के बीच Q निरंतर टॉगल करेगा। इनपुट के 0 होने के बाद Q, 1 पर बना रहेगा , जो अंतिम",
-        "अवस्था को धारण करेगा।"
+        "0 और 1 के बीच Q निरंतर टॉगल करेगा।",
+        "इनपुट के 0 होने के बाद Q, 1 पर बना रहेगा , जो अंतिम अवस्था को धारण करेगा।",
+        "इनपुट के 0 पर वापस आने पर Q अमान्य हो जाएगा।"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Q will remain at 1 after inputs become 0, holding the last state.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (अवस्था को धारण करेगा।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Q will remain at 1 after inputs become 0, holding the last state.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (इनपुट के 0 होने के बाद Q, 1 पर बना रहेगा , जो अंतिम अवस्था को धारण करेगा।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2162,19 +2162,19 @@
         "Charge the phone battery"
       ],
       "hi": [
+        "एक सेल फोन से दूसरे सेल फोन पर कॉल को स्‍थानांतरित (Handover) करना",
         "नई फोन कॉल करना",
         "सेल फोन बंद (off) करना",
-        "फोन की बैटरी चार्ज करना",
-        "एक सेल फोन से दूसरे सेल फोन पर कॉल को स्‍थानांतरित (Handover) करना"
+        "फोन की बैटरी चार्ज करना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Handover a call from one cell to another). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (एक सेल फोन से दूसरे सेल फोन पर कॉल को स्‍थानांतरित (Handover) करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Handover a call from one cell to another). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (एक सेल फोन से दूसरे सेल फोन पर कॉल को स्‍थानांतरित (Handover) करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2195,19 +2195,19 @@
         "Light Emitting Diode (LED)"
       ],
       "hi": [
+        "मानक सिलिकॉन दिष्टकारी डायोड",
         "शॉटकी डायोड",
         "जेनर डायोड",
-        "प्रकाश उत्स र्जक डायोड (LED)",
-        "मानक सिलिकॉन दिष्टकारी डायोड"
+        "प्रकाश उत्स र्जक डायोड (LED)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Schottky Diode). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (शॉटकी डायोड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Schottky Diode). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (शॉटकी डायोड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2228,19 +2228,19 @@
         "Resistors and capacitors"
       ],
       "hi": [
-        "प्रतिरोधक और संधारित्र",
-        "संधारित्र और प्रेरित्र",
+        "डायोड और प्रतिरोधक",
         "प्रेरित्र और प्रतिरोधक",
-        "डायोड और प्रतिरोधक"
+        "संधारित्र और प्रेरित्र",
+        "प्रतिरोधक और संधारित्र"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Capacitors and inductor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (संधारित्र और प्रेरित्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Capacitors and inductor). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (संधारित्र और प्रेरित्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2261,19 +2261,19 @@
         "Same as the original length"
       ],
       "hi": [
+        "मूल लंबाई की आधी",
         "मूल लंबाई की दोगुनी",
         "मूल लंबाई की एक - चौथाई",
-        "मूल लंबाई की आधी",
         "मूल लंबाई के बराबर"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Half of the original length). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (मूल लंबाई की आधी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Half of the original length). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (मूल लंबाई की आधी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2294,19 +2294,19 @@
         "SATA port"
       ],
       "hi": [
-        "PCIe स्लॉट",
-        "SATA पोर्ट",
         "USB पोर्ट",
-        "RAM स्लॉट"
+        "PCIe स्लॉट",
+        "RAM स्लॉट",
+        "SATA पोर्ट"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option D is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (SATA port). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (SATA पोर्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (SATA port). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (SATA पोर्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2327,19 +2327,19 @@
         "The gate is connected directly to the channel"
       ],
       "hi": [
-        "डिवाइस में सपोर्ट के लिए एक मोटा सबस्ट्रेट होता है गेट , चैनल से एक पतली ऑक्साइड परत द्वारा विद्युतरोधित",
-        "होता है",
-        "गेट , धारा को सीमित करने के लिए एक प्रतिरोधी परत का उपयोग करता है",
-        "गेट , सीधे चैनल से जुड़ा होता है"
+        "डिवाइस में सपोर्ट के लिए एक मोटा सबस्ट्रेट होता है",
+        "गेट, धारा को सीमित करने के लिए एक प्रतिरोधी परत का उपयोग करता है",
+        "गेट, चैनल से एक पतली ऑक्साइड परत द्वारा विद्युतरोधित होता है",
+        "गेट, सीधे चैनल से जुड़ा होता है"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option C is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (The gate is insulated from the channel by a thin oxide layer). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (The gate is insulated from the channel by a thin oxide layer). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (गेट, चैनल से एक पतली ऑक्साइड परत द्वारा विद्युतरोधित होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2360,19 +2360,19 @@
         "Range"
       ],
       "hi": [
-        "रैखिकता (Linearity)",
-        "रेंज (Range)",
+        "सुग्राहिता (Sensitivity)",
         "लागत (Cost)",
-        "सुग्राहिता (Sensitivity)"
+        "रैखिकता (Linearity)",
+        "रेंज (Range)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Cost). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (लागत (Cost))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Cost). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (लागत (Cost))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2404,8 +2404,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "In a star (Y) connection, Line Voltage = √3 * Phase Voltage, while Line Current = Phase Current. Correct: Option A.",
-      "hi": "स्टार संयोजन में: Line Voltage = √3 × Phase Voltage। सही उत्तर: विकल्प A।"
+      "en": "In a star (Y) connection, Line Voltage = √3 * Phase Voltage, while Line Current = Phase Current. Correct: Option A (V_L = √3 V_ph).",
+      "hi": "स्टार संयोजन में: Line Voltage = √3 × Phase Voltage। सही उत्तर: विकल्प A (V_L = √3 V_ph)।"
     }
   },
   {
@@ -2426,19 +2426,19 @@
         "Undefined"
       ],
       "hi": [
-        "उच्च प्रतिबाधा अवस्था",
         "1",
+        "उच्च प्रतिबाधा अवस्था",
         "0",
         "अपरिभाषित"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option A is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (1). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (1). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2459,19 +2459,19 @@
         "0.5 A"
       ],
       "hi": [
-        "2 A",
         "4 A",
+        "2 A",
         "1 A",
         "0.5 A"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Electronics Mechanic) Answer Key: Option B is verified correct.",
       "keyConcept": "Electronics Mechanic Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (2 A). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (2 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (2 A). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (2 A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   }
 ]

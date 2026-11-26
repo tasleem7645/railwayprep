@@ -17,19 +17,19 @@
         "The parallelism is acceptable"
       ],
       "hi": [
-        "समतल लंबवत हैं",
-        "समांतरता स्वीकार्य है",
         "समतल समांतरता सहिष्णुता के भीतर हैं",
-        "समांतरता का विनिर्देश पूरा नहीं हुआ है"
+        "समतल लंबवत हैं",
+        "समांतरता का विनिर्देश पूरा नहीं हुआ है",
+        "समांतरता स्वीकार्य है"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (The parallelism specification is not met). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (समांतरता का विनिर्देश पूरा नहीं हुआ है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (The parallelism specification is not met). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (समांतरता का विनिर्देश पूरा नहीं हुआ है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -50,19 +50,19 @@
         "Headstock"
       ],
       "hi": [
-        "हैडस्टॉक (Headstock)",
         "कै रिज (Carriage)",
         "बेड (Bed)",
-        "टेलस्टॉक (Tailstock)"
+        "टेलस्टॉक (Tailstock)",
+        "हैडस्टॉक (Headstock)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Headstock). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (हैडस्टॉक (Headstock))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Headstock). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (हैडस्टॉक (Headstock))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -83,19 +83,19 @@
         "Mallet"
       ],
       "hi": [
-        "मुँगरी (Mallet)",
-        "बॉल - पीन हथौड़ा (Ball-peen hammer)",
+        "स्लेज हथौड़ा (Sledge hammer)",
         "नखर हथौड़ा (Claw hammer)",
-        "स्लेज हथौड़ा (Sledge hammer)"
+        "बॉल - पीन हथौड़ा (Ball-peen hammer)",
+        "मुँगरी (Mallet)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Ball-peen hammer). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (बॉल - पीन हथौड़ा (Ball-peen hammer))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Ball-peen hammer). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बॉल - पीन हथौड़ा (Ball-peen hammer))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -105,8 +105,8 @@
     "subject": "Turner",
     "topic": "Turner Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
     "question": {
-      "en": "A machinist is selecting a fit for a shaft and hole based on Bureau of Indian Standards (BIS) guidelines. What factor does BIS emphasize? 9:30 AM - 12:00 PM · English",
-      "hi": "एक मशीनिस्ट भारतीय मानक ब्यूरो (BIS) के दिशानिर्देशों के आधार पर एक शैफ्ट और छिद्र के लिए एक फिट (fit) का चयन कर रहा है। BIS किस कारक पर बल देता है ? 9:30 AM - 12:00 PM · Hindi"
+      "en": "A machinist is selecting a fit for a shaft and hole based on Bureau of Indian Standards (BIS) guidelines. What factor does BIS emphasize?",
+      "hi": "एक मशीनिस्ट भारतीय मानक ब्यूरो (BIS) के दिशानिर्देशों के आधार पर एक शैफ्ट और छिद्र के लिए एक फिट (fit) का चयन कर रहा है। BIS किस कारक पर बल देता है ?"
     },
     "options": {
       "en": [
@@ -116,10 +116,10 @@
         "Surface roughness grade"
       ],
       "hi": [
-        "तापीय प्रसार दर",
+        "घटक का भार",
         "असेंबली के लिए विमीय संगतता",
-        "पृष्ठ रूक्षता ग्रेड",
-        "घटक का भार"
+        "तापीय प्रसार दर",
+        "पृष्ठ रूक्षता ग्रेड"
       ]
     },
     "correctIndex": 1,
@@ -127,8 +127,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Dimensional compatibility for assembly). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (असेंबली के लिए विमीय संगतता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Dimensional compatibility for assembly). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (असेंबली के लिए विमीय संगतता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -149,10 +149,10 @@
         "Above the front view"
       ],
       "hi": [
+        "अग्र दृश्य के बाईं ओर",
         "अग्र दृश्य के दाईं ओर",
-        "अग्र दृश्य के ऊपर",
         "अग्र दृश्य के नीचे",
-        "अग्र दृश्य के बाईं ओर"
+        "अग्र दृश्य के ऊपर"
       ]
     },
     "correctIndex": 2,
@@ -160,8 +160,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Below the front view). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (अग्र दृश्य के नीचे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Below the front view). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (अग्र दृश्य के नीचे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -182,19 +182,19 @@
         "Unique manufacturer specifications"
       ],
       "hi": [
-        "अद्वितीय विनिर्माता विनिर्देश (Unique manufacturer specifications)",
         "अंतर्विनिमेयता (Interchangeability)",
+        "सामर्थ्य परीक्षण (Strength testing)",
         "संक्षारण प्रतिरोध (Corrosion resistance)",
-        "सामर्थ्य परीक्षण (Strength testing)"
+        "अद्वितीय विनिर्माता विनिर्देश (Unique manufacturer specifications)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Interchangeability). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (अंतर्विनिमेयता (Interchangeability))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Interchangeability). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (अंतर्विनिमेयता (Interchangeability))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -215,10 +215,10 @@
         "A thick dashed line"
       ],
       "hi": [
+        "एक मोटी संतत रेखा (Thick Continuous Line)",
         "एक मोटी चेन रेखा (Thick Chain Line)",
-        "एक मोटी असंतत रेखा (Thick Dashed Line)",
         "एक पतली संतत रेखा (Thin Continuous Line)",
-        "एक मोटी संतत रेखा (Thick Continuous Line)"
+        "एक मोटी असंतत रेखा (Thick Dashed Line)"
       ]
     },
     "correctIndex": 2,
@@ -226,8 +226,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (A thin continuous line). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (एक पतली संतत रेखा (Thin Continuous Line))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (A thin continuous line). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (एक पतली संतत रेखा (Thin Continuous Line))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -248,19 +248,19 @@
         "They are designed to make square holes"
       ],
       "hi": [
+        "ये विभिन्न छिद्र व्यासों का मशीनन कर सकते हैं",
         "इनका उपयोग छिद्र में चूड़ियाँ बनाने के लिए किया जाता है",
         "ये अंध छिद्र ड्रिलिंग के लिए सर्वोत्तम हैं",
-        "ये विभिन्न छिद्र व्यासों का मशीनन कर सकते हैं",
         "इन्हें वर्गाकार छिद्र बनाने के लिए अभिकल्पित किया गया है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (They can machine different hole diameters). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (ये विभिन्न छिद्र व्यासों का मशीनन कर सकते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (They can machine different hole diameters). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (ये विभिन्न छिद्र व्यासों का मशीनन कर सकते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -281,19 +281,19 @@
         "A cube having equal sides"
       ],
       "hi": [
+        "नुकीले सिरों वाला एक शुंडाकार बेलनाकार पिंड",
         "दोनों सिरों पर खुले मुख वाली एक खोखली नली",
         "चिकनी सतहों वाली एक सपाट वृत्ताकार चक्रिका",
-        "समान भुजाओं वाला एक घन",
-        "नुकीले सिरों वाला एक शुंडाकार बेलनाकार पिंड"
+        "समान भुजाओं वाला एक घन"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (A tapered cylindrical body with pointed ends). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (नुकीले सिरों वाला एक शुंडाकार बेलनाकार पिंड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (A tapered cylindrical body with pointed ends). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (नुकीले सिरों वाला एक शुंडाकार बेलनाकार पिंड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -314,10 +314,10 @@
         "The driver gear to driven gear ratio should be 2 to 3"
       ],
       "hi": [
+        "परिचालक गियर और परिचालित गियर का अनुपात 3 : 1 होना चाहिए",
+        "परिचालक गियर और परिचालित गियर का अनुपात 1.5 : 2 होना चाहिए",
         "परिचालक गियर और परिचालित गियर का अनुपात 2 : 1.5 होना चाहिए",
-        "परिचालक गियर और परिचालित गियर का अनुपात 1.5 : 2 होना चाहिए परिचालक गियर और परिचालित गियर का अनुपात 2 : 3 होना",
-        "चाहिए",
-        "परिचालक गियर और परिचालित गियर का अनुपात 3 : 1 होना चाहिए"
+        "परिचालक गियर और परिचालित गियर का अनुपात 2 : 3 होना चाहिए"
       ]
     },
     "correctIndex": 1,
@@ -325,8 +325,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The driver gear to driven gear ratio should be 1.5 to 2). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (परिचालक गियर और परिचालित गियर का अनुपात 1.5 : 2 होना चाहिए परिचालक गियर और परिचालित गियर का अनुपात 2 : 3 होना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The driver gear to driven gear ratio should be 1.5 to 2). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (परिचालक गियर और परिचालित गियर का अनुपात 1.5 : 2 होना चाहिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -358,8 +358,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Increasing the work done per unit time). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (प्रति यूनिट समय में किए गए कार्य को बढ़ाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Increasing the work done per unit time). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (प्रति यूनिट समय में किए गए कार्य को बढ़ाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -380,19 +380,19 @@
         "Machining is strictly prohibited for the surface"
       ],
       "hi": [
-        "पृष्ठ के लिए मशीनिंग पूरी तरह से प्रतिबंधित है।",
-        "पृष्ठ के लिए आगे किसी मशीनिंग की आवश्यकता नहीं है।",
         "पृष्ठीय कोटिंग अनुप्रयुक्त करना आवश्यक है।",
-        "पृष्ठ पर मशीनिंग अनुप्रयुक्त की जानी चाहिए।"
+        "पृष्ठ पर मशीनिंग अनुप्रयुक्त की जानी चाहिए।",
+        "पृष्ठ के लिए आगे किसी मशीनिंग की आवश्यकता नहीं है।",
+        "पृष्ठ के लिए मशीनिंग पूरी तरह से प्रतिबंधित है।"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Machining must be applied to the surface). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (पृष्ठ पर मशीनिंग अनुप्रयुक्त की जानी चाहिए।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Machining must be applied to the surface). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (पृष्ठ पर मशीनिंग अनुप्रयुक्त की जानी चाहिए।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -414,9 +414,9 @@
       ],
       "hi": [
         "प्रत्येक कार्य के लिए निरीक्षण परिणाम और दोष विवरण के लिए एक स्तंभ जोड़ना",
+        "प्रत्येक पंक्ति में श्रमिकों के नामों के क्रम को पुनः व्यवस्थित करना",
         "एक पृथक सेक्शन में लंच ब्रेक अवधियों का सारांश देना",
-        "दृश्य आकर्षण के लिए और त्रुटियों को न्यूनतम करने के लिए अधिक रंग - कोडित सेक्शन को शामिल करना",
-        "प्रत्येक पंक्ति में श्रमिकों के नामों के क्रम को पुनः व्यवस्थित करना"
+        "दृश्य आकर्षण के लिए और त्रुटियों को न्यूनतम करने के लिए अधिक रंग - कोडित सेक्शन को शामिल करना"
       ]
     },
     "correctIndex": 0,
@@ -424,8 +424,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Adding a column for inspection result and defect description for each task). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (प्रत्येक कार्य के लिए निरीक्षण परिणाम और दोष विवरण के लिए एक स्तंभ जोड़ना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Adding a column for inspection result and defect description for each task). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (प्रत्येक कार्य के लिए निरीक्षण परिणाम और दोष विवरण के लिए एक स्तंभ जोड़ना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -446,19 +446,19 @@
         "Calculate the tank’s height"
       ],
       "hi": [
-        "टैंक की ऊं चाई की गणना करें",
+        "टैंक की आयतन की गणना करें",
         "टैंक की परिधि की गणना करें",
         "टैंक के क्षेत्रफल की गणना करें",
-        "टैंक की आयतन की गणना करें"
+        "टैंक की ऊं चाई की गणना करें"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Calculate the tank’s volume). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (टैंक की आयतन की गणना करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Calculate the tank’s volume). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (टैंक की आयतन की गणना करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -479,9 +479,9 @@
         "0.1 mm divisions"
       ],
       "hi": [
-        "2 mm विभाजन",
-        "1 mm और 0.5 mm विभाजन",
         "5 mm विभाजन",
+        "1 mm और 0.5 mm विभाजन",
+        "2 mm विभाजन",
         "0.1 mm विभाजन"
       ]
     },
@@ -490,8 +490,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (1 mm and 0.5 mm divisions). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (1 mm और 0.5 mm विभाजन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (1 mm and 0.5 mm divisions). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (1 mm और 0.5 mm विभाजन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -512,19 +512,19 @@
         "The area of the segment increases"
       ],
       "hi": [
+        "खंड का क्षेत्रफल शून्य हो जाता है",
         "खंड का क्षेत्रफल कम हो जाता है",
         "खंड का क्षेत्रफल अपरिवर्तित रहता है",
-        "खंड का क्षेत्रफल बढ़ जाता है",
-        "खंड का क्षेत्रफल शून्य हो जाता है"
+        "खंड का क्षेत्रफल बढ़ जाता है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (The area of the segment increases). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (खंड का क्षेत्रफल बढ़ जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (The area of the segment increases). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (खंड का क्षेत्रफल बढ़ जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -545,19 +545,19 @@
         "It enables precise replication with minimal errors"
       ],
       "hi": [
-        "क्योंकि यह न्यूनतम त्रुटियों के साथ परिशुद्ध प्रतिकृ ति को सक्षम बनाता है",
         "क्योंकि इसमें प्रत्येक आकृति के लिए अलग - अलग मशीनों की आवश्यकता होती है",
+        "क्योंकि यह प्रत्येक पुर्जे के लिए ऑपरेटर के निर्णय पर निर्भर करता है",
         "क्योंकि इसमें प्रत्येक पुर्जे के लिए मैन्युअल ड्राइंग की आवश्यकता होती है",
-        "क्योंकि यह प्रत्येक पुर्जे के लिए ऑपरेटर के निर्णय पर निर्भर करता है"
+        "क्योंकि यह न्यूनतम त्रुटियों के साथ परिशुद्ध प्रतिकृ ति को सक्षम बनाता है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It enables precise replication with minimal errors). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (क्योंकि यह न्यूनतम त्रुटियों के साथ परिशुद्ध प्रतिकृ ति को सक्षम बनाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It enables precise replication with minimal errors). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (क्योंकि यह न्यूनतम त्रुटियों के साथ परिशुद्ध प्रतिकृ ति को सक्षम बनाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -578,19 +578,19 @@
         "Conventional lathes always use automatic tool changers"
       ],
       "hi": [
-        "पारंपरिक खराद पूर्णतया कं प्यूटरीकृ त होते हैं CNC खराद में अपेक्षाकृ त अधिक मैनुअल संरेखण की आवश्यकता",
-        "होती है",
-        "पारंपरिक खराद में सदैव स्वचालित औजार परिवर्तकों का उपयोग किया जाता है",
-        "CNC खराद का सेटअप समय सामान्यतः अपेक्षाकृ त कम होता है"
+        "CNC खराद का सेटअप समय सामान्यतः अपेक्षाकृत कम होता है",
+        "पारंपरिक खराद पूर्णतया कंप्यूटरीकृत होते हैं",
+        "CNC खराद में अपेक्षाकृत अधिक मैनुअल संरेखण की आवश्यकता होती है",
+        "पारंपरिक खराद में सदैव स्वचालित औजार परिवर्तकों का उपयोग किया जाता है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (CNC lathes generally have shorter setup time). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (CNC खराद का सेटअप समय सामान्यतः अपेक्षाकृ त कम होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (CNC lathes generally have shorter setup time). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (CNC खराद का सेटअप समय सामान्यतः अपेक्षाकृत कम होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -611,19 +611,19 @@
         "By using suction force to hold the insert"
       ],
       "hi": [
+        "स्प्रिंग - भारित हथौड़ा की क्रिया से इन्सर्ट को कसने के द्वारा",
         "इन्सर्ट को लॉक करने के लिए वेज के माध्यम से बल अनुप्रयुक्त करके",
         "परिशुद्ध इन्सर्ट क्लैम्पिंग में चुंबकीय आकर्षण द्वारा",
-        "स्प्रिंग - भारित हथौड़ा की क्रिया से इन्सर्ट को कसने के द्वारा",
         "इन्सर्ट को धारण करने के लिए चूषण बल का उपयोग करके"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (By applying force via a wedge to lock the insert). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (इन्सर्ट को लॉक करने के लिए वेज के माध्यम से बल अनुप्रयुक्त करके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (By applying force via a wedge to lock the insert). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (इन्सर्ट को लॉक करने के लिए वेज के माध्यम से बल अनुप्रयुक्त करके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -645,18 +645,18 @@
       ],
       "hi": [
         "2 mm",
-        "0.5 mm",
         "1.5 mm",
-        "1 mm"
+        "1 mm",
+        "0.5 mm"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (1.5 mm). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (1.5 mm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (1.5 mm). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (1.5 mm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -678,18 +678,18 @@
       ],
       "hi": [
         "मापित विमा , विनिर्दिष्ट सहिष्णुता मान के बराबर है",
-        "मापित विमा , डिजाइन की अभिहित विमा के बराबर है",
+        "मापित विमा , विनिर्दिष्ट अधिकतम अनुमेय साइज के बराबर है",
         "मापित विमा , विनिर्दिष्ट न्यूनतम अनुमेय साइज के बराबर है",
-        "मापित विमा , विनिर्दिष्ट अधिकतम अनुमेय साइज के बराबर है"
+        "मापित विमा , डिजाइन की अभिहित विमा के बराबर है"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The measured dimension equals the maximum permissible size specified). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (मापित विमा , विनिर्दिष्ट अधिकतम अनुमेय साइज के बराबर है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The measured dimension equals the maximum permissible size specified). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (मापित विमा , विनिर्दिष्ट अधिकतम अनुमेय साइज के बराबर है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -712,17 +712,17 @@
       "hi": [
         "मैनुअल चूड़ी कर्तन (Manual threading)",
         "एकल - खंड शिल्पकारिता (Single-piece craftsmanship)",
-        "फिक्चर स्थापन (Fixture setting)",
-        "पुनरावर्ती बैच उत्पादन (Repetitive batch production)"
+        "पुनरावर्ती बैच उत्पादन (Repetitive batch production)",
+        "फिक्चर स्थापन (Fixture setting)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Repetitive batch production). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (पुनरावर्ती बैच उत्पादन (Repetitive batch production))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Repetitive batch production). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (पुनरावर्ती बैच उत्पादन (Repetitive batch production))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -744,9 +744,9 @@
       ],
       "hi": [
         "शीतलक वितरण दिशा में परिवर्तन",
+        "मशीन संरचना का प्रत्या स्थ विरूपण",
         "मशीनन के दौरान टूल पोस्ट का अनुचित संरेखण",
-        "मशीन संरचना का प्रत्या स्थ विरूपण औज़ार – कार्यवस्तु अंतरापृष्ठ पर अपघर्षी और आसंजी",
-        "अंतःक्रियाएं"
+        "औज़ार – कार्यवस्तु अंतरापृष्ठ पर अपघर्षी और आसंजी अंतःक्रियाएं"
       ]
     },
     "correctIndex": 3,
@@ -754,8 +754,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Abrasive and adhesive interactions at the tool– workpiece interface). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (अंतःक्रियाएं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Abrasive and adhesive interactions at the tool– workpiece interface). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (औज़ार – कार्यवस्तु अंतरापृष्ठ पर अपघर्षी और आसंजी अंतःक्रियाएं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -776,19 +776,19 @@
         "Tungsten carbide and cobalt binder"
       ],
       "hi": [
-        "टंगस्टन कार्बाइड और क्रोमियम बाइंडर",
-        "टंगस्टन कार्बाइड और कोबाल्ट बाइंडर",
+        "टंगस्टन कार्बाइड और आयरन बाइंडर",
         "टंगस्टन कार्बाइड और वैनेडियम बाइंडर",
-        "टंगस्टन कार्बाइड और आयरन बाइंडर"
+        "टंगस्टन कार्बाइड और क्रोमियम बाइंडर",
+        "टंगस्टन कार्बाइड और कोबाल्ट बाइंडर"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Tungsten carbide and cobalt binder). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (टंगस्टन कार्बाइड और कोबाल्ट बाइंडर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Tungsten carbide and cobalt binder). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (टंगस्टन कार्बाइड और कोबाल्ट बाइंडर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -809,19 +809,19 @@
         "British Association"
       ],
       "hi": [
-        "यूनिफाइड (Unified)",
         "व्हिटवर्थ (Whitworth)",
         "मीटरी (Metric)",
+        "यूनिफाइड (Unified)",
         "ब्रिटिश संघ (British Association)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Whitworth). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (व्हिटवर्थ (Whitworth))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Whitworth). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (व्हिटवर्थ (Whitworth))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -842,19 +842,19 @@
         "Single angle"
       ],
       "hi": [
-        "अंतर्गत कोण (Included angle)",
         "मिश्र कोण (Compound angle)",
         "समकोण (Right angle)",
+        "अंतर्गत कोण (Included angle)",
         "एकल कोण (Single angle)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Compound angle). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (मिश्र कोण (Compound angle))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Compound angle). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (मिश्र कोण (Compound angle))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -875,19 +875,19 @@
         "1.5 millimeter per minute"
       ],
       "hi": [
-        "600 मिलीमीटर प्रति मिनट",
-        "1.5 मिलीमीटर प्रति मिनट",
         "60 मिलीमीटर प्रति मिनट",
-        "150 मिलीमीटर प्रति मिनट"
+        "600 मिलीमीटर प्रति मिनट",
+        "150 मिलीमीटर प्रति मिनट",
+        "1.5 मिलीमीटर प्रति मिनट"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (60 millimeter per minute). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (60 मिलीमीटर प्रति मिनट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (60 millimeter per minute). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (60 मिलीमीटर प्रति मिनट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -909,18 +909,18 @@
       ],
       "hi": [
         "धातु तोड़ने के प्रचालनों के दौरान बड़े छेनी पर शक्तिशाली प्रहार करना",
-        "बड़े धातु या संरचनात्मक घटकों में भारी किल्ली या खूंटे ठोकना",
         "जंग लगे बड़े यांत्रिक पुर्जों को ढीला करने के लिए गहरे प्रभाव वाले प्रहार उत्पन्न करना",
-        "कसकर फिट की गई मशीन संरचनाओं को विखंडित करने के लिए उच्च बल वाले प्रहारों का उपयोग करना"
+        "कसकर फिट की गई मशीन संरचनाओं को विखंडित करने के लिए उच्च बल वाले प्रहारों का उपयोग करना",
+        "बड़े धातु या संरचनात्मक घटकों में भारी किल्ली या खूंटे ठोकना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Driving heavy wedges or stakes into large metal or structural components). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (बड़े धातु या संरचनात्मक घटकों में भारी किल्ली या खूंटे ठोकना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Driving heavy wedges or stakes into large metal or structural components). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (बड़े धातु या संरचनात्मक घटकों में भारी किल्ली या खूंटे ठोकना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -941,19 +941,19 @@
         "Posting warning signs near all dust-producing machines"
       ],
       "hi": [
-        "धूल उत्पन्न करने वाली मशीनों पर स्थानीय रेचन संवातन (exhaust ventilation) प्रणाली कार्यान्वित करना",
-        "सभी श्रमिकों के लिए केवल व्यक्तिगत सुरक्षा उपकरणों का उपयोग करना",
         "व्यक्तिगत संपर्क (exposure) को सीमित करने के लिए श्रमिकों का कार्यों के बीच आवर्तन करना",
+        "सभी श्रमिकों के लिए केवल व्यक्तिगत सुरक्षा उपकरणों का उपयोग करना",
+        "धूल उत्पन्न करने वाली मशीनों पर स्थानीय रेचन संवातन (exhaust ventilation) प्रणाली कार्यान्वित करना",
         "सभी धूल - उत्पादक मशीनों के निकट चेतावनी संके त लगाना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Implementing local exhaust ventilation systems at dust-generating machines). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (धूल उत्पन्न करने वाली मशीनों पर स्थानीय रेचन संवातन (exhaust ventilation) प्रणाली कार्यान्वित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Implementing local exhaust ventilation systems at dust-generating machines). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (धूल उत्पन्न करने वाली मशीनों पर स्थानीय रेचन संवातन (exhaust ventilation) प्रणाली कार्यान्वित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -974,9 +974,9 @@
         "Double the interval to save lubricant"
       ],
       "hi": [
-        "अनुरक्षण का निवारण करने के लिए प्रत्येक मशीन के लिए समान अंतराल निर्धारित करना",
-        "मशीन के प्रत्येक प्रकार के लिए विनिर्माताओं के दिशानिर्देशों का उपयोग करना",
         "ब्रेकडाउन होने के बाद ही स्नेहन करना",
+        "मशीन के प्रत्येक प्रकार के लिए विनिर्माताओं के दिशानिर्देशों का उपयोग करना",
+        "अनुरक्षण का निवारण करने के लिए प्रत्येक मशीन के लिए समान अंतराल निर्धारित करना",
         "स्नेहन की बचत करने के लिए अंतराल को दोगुना करना"
       ]
     },
@@ -985,8 +985,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Use manufacturers guidelines for each machine type). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (मशीन के प्रत्येक प्रकार के लिए विनिर्माताओं के दिशानिर्देशों का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Use manufacturers guidelines for each machine type). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (मशीन के प्रत्येक प्रकार के लिए विनिर्माताओं के दिशानिर्देशों का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1007,19 +1007,19 @@
         "Small compact hammer head for easy control"
       ],
       "hi": [
-        "बड़ा प्रहार चाप प्रदान करने के लिए अभिकल्पित लंबा हत्था",
         "नाजुक कार्यों के लिए प्रतिस्थापनीय मृदु हथौड़ा फलक",
         "हथौड़े के शीर्ष पर दँतेदार ग्रिपिंग सतहें",
+        "बड़ा प्रहार चाप प्रदान करने के लिए अभिकल्पित लंबा हत्था",
         "आसान नियंत्रण के लिए छोटा संहत हथौड़ा शीर्ष"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Long handle designed to provide large striking arc). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (बड़ा प्रहार चाप प्रदान करने के लिए अभिकल्पित लंबा हत्था)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Long handle designed to provide large striking arc). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बड़ा प्रहार चाप प्रदान करने के लिए अभिकल्पित लंबा हत्था)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1040,8 +1040,8 @@
         "Machine identification and usage time"
       ],
       "hi": [
-        "मशीन मॉडल और अनुरक्षण अनुसूची",
         "मशीन का सीरियल नंबर और संस्थापन तिथि",
+        "मशीन मॉडल और अनुरक्षण अनुसूची",
         "मशीन मॉडल और विनिर्माता का नाम",
         "मशीन पहचान और उपयोग समय"
       ]
@@ -1051,8 +1051,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Machine identification and usage time). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (मशीन पहचान और उपयोग समय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Machine identification and usage time). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (मशीन पहचान और उपयोग समय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1073,19 +1073,19 @@
         "Higher spindle power required"
       ],
       "hi": [
-        "बेहतर कटिंग सटीकता",
-        "शीतलक की कोई आवश्यकता नहीं",
         "खराब चिप रिमूवल और टूल घिसाव में वृद्धि",
+        "शीतलक की कोई आवश्यकता नहीं",
+        "बेहतर कटिंग सटीकता",
         "उच्चतर स्पिंडल शक्ति की आवश्यकता"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Poor chip removal and increased tool wear). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (खराब चिप रिमूवल और टूल घिसाव में वृद्धि)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Poor chip removal and increased tool wear). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (खराब चिप रिमूवल और टूल घिसाव में वृद्धि)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1106,19 +1106,19 @@
         "Size of the hydraulic pump"
       ],
       "hi": [
-        "अग्रग पेंच का व्यास",
-        "कं ट्रोल पैनल डिस्प्ले का रंग",
         "पोजीशन फीडबैक डिवाइस का विभेदन",
+        "कं ट्रोल पैनल डिस्प्ले का रंग",
+        "अग्रग पेंच का व्यास",
         "हाइड्रोलिक पंप का आकार"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Resolution of the position feedback device). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (पोजीशन फीडबैक डिवाइस का विभेदन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Resolution of the position feedback device). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (पोजीशन फीडबैक डिवाइस का विभेदन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1139,19 +1139,19 @@
         "Environment, Health, and Safety"
       ],
       "hi": [
-        "हेल्थ एं ड सेफ्टी )",
-        "Engineering, Health, and Systems ( इंजीनियरिंग , हेल्थ , एं ड सिस्टम )",
-        "Energy, Hazard, and Security ( एनर्जी , हैजर्ड , एं ड सिक्योरिटी ) Ecology, Health, and Standards ( इकोलॉजी , हेल्थ , एं ड",
-        "स्टैंडर्ड )"
+        "Engineering, Health, and Systems ( इंजीनियरिंग , हेल्थ , एंड सिस्टम )",
+        "Energy, Hazard, and Security ( एनर्जी , हैजर्ड , एंड सिक्योरिटी )",
+        "Ecology, Health, and Standards ( इकोलॉजी , हेल्थ , एंड स्टैंडर्ड )",
+        "Environment, Health, and Safety ( एनवायरनमेंट , हेल्थ एंड सेफ्टी )"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Environment, Health, and Safety). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (हेल्थ एं ड सेफ्टी ))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Environment, Health, and Safety). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (Environment, Health, and Safety ( एनवायरनमेंट , हेल्थ एंड सेफ्टी ))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1172,19 +1172,19 @@
         "The feed rod"
       ],
       "hi": [
-        "औजार धारक (tool post)",
         "पश्च गियर (back gear) तंत्र",
+        "औजार धारक (tool post)",
         "लेथ का एप्रन (apron)",
         "प्रभरण दंड (feed rod)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (The back gear mechanism). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (पश्च गियर (back gear) तंत्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (The back gear mechanism). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (पश्च गियर (back gear) तंत्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1206,18 +1206,18 @@
       ],
       "hi": [
         "चिप ब्रेकर (Chip breaker)",
+        "स्नेहन पोर्ट (Lubrication port)",
         "रैचेट (Ratchet)",
-        "क्लैम्पिंग मैके निज़्म (Clamping mechanism)",
-        "स्नेहन पोर्ट (Lubrication port)"
+        "क्लैम्पिंग मैके निज़्म (Clamping mechanism)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Clamping mechanism). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (क्लैम्पिंग मैके निज़्म (Clamping mechanism))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Clamping mechanism). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (क्लैम्पिंग मैके निज़्म (Clamping mechanism))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1239,8 +1239,8 @@
       ],
       "hi": [
         "आंतरिक संरचना और पुर्जों की फिटिंग",
-        "प्रणाली के अंदर स्नेहन मार्ग",
         "विद्युत परिपथों का विवरण",
+        "प्रणाली के अंदर स्नेहन मार्ग",
         "केवल असेंबली की बाहरी आकृति"
       ]
     },
@@ -1249,8 +1249,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Internal construction and fit of parts). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (आंतरिक संरचना और पुर्जों की फिटिंग)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Internal construction and fit of parts). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (आंतरिक संरचना और पुर्जों की फिटिंग)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1271,19 +1271,19 @@
         "Meter"
       ],
       "hi": [
-        "मीटर",
         "वाट",
         "न्यूटन",
-        "जूल"
+        "जूल",
+        "मीटर"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Joule). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (जूल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Joule). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (जूल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1304,19 +1304,19 @@
         "A check-mark with a circle at the corner and the number 3.2 below"
       ],
       "hi": [
-        "एक चेक - मार्क जिसमें कोने पर एक वृत्त हो और नीचे संख्या 3.2 हो",
         "एक चेक - मार्क जिसमें एक क्षैतिज रेखा हो और ऊपर संख्या 3.2 हो",
         "एक चेक - मार्क जिसके अंदर एक त्रिभुज और संख्या 3.2 हो",
-        "एक चेक - मार्क जिसमें एक वृत्त और क्षैतिज रेखा दोनों हों और निकट में संख्या 3.2 हो"
+        "एक चेक - मार्क जिसमें एक वृत्त और क्षैतिज रेखा दोनों हों और निकट में संख्या 3.2 हो",
+        "एक चेक - मार्क जिसमें कोने पर एक वृत्त हो और नीचे संख्या 3.2 हो"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (A check-mark with a circle at the corner and the number 3.2 below). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (एक चेक - मार्क जिसमें कोने पर एक वृत्त हो और नीचे संख्या 3.2 हो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (A check-mark with a circle at the corner and the number 3.2 below). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (एक चेक - मार्क जिसमें कोने पर एक वृत्त हो और नीचे संख्या 3.2 हो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1337,19 +1337,19 @@
         "Metric thread"
       ],
       "hi": [
-        "मीट्रिक चूड़ी (Metric thread)",
-        "व्हिटवर्थ चूड़ी (Whitworth thread)",
         "ACME चूड़ी (ACME thread)",
-        "षट्कोणीय चूड़ी (Hexagonal thread)"
+        "व्हिटवर्थ चूड़ी (Whitworth thread)",
+        "षट्कोणीय चूड़ी (Hexagonal thread)",
+        "मीट्रिक चूड़ी (Metric thread)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Hexagonal thread). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (षट्कोणीय चूड़ी (Hexagonal thread))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Hexagonal thread). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (षट्कोणीय चूड़ी (Hexagonal thread))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1381,8 +1381,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Hardened steel). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (कठोरीकृ त इस्पात)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Hardened steel). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (कठोरीकृ त इस्पात)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1403,19 +1403,19 @@
         "Rake angle and the tool hardness"
       ],
       "hi": [
-        "रेक कोण और औज़ार की कठोरता",
         "खांचे की गभीरता और उसकी स्थिति",
+        "औज़ार सामग्री और कर्तन चाल",
         "प्रभरण दर और खांचे की लंबाई",
-        "औज़ार सामग्री और कर्तन चाल"
+        "रेक कोण और औज़ार की कठोरता"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Groove depth and groove position). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (खांचे की गभीरता और उसकी स्थिति)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Groove depth and groove position). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (खांचे की गभीरता और उसकी स्थिति)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1436,19 +1436,19 @@
         "Spiral chips with sharp edges"
       ],
       "hi": [
+        "गांठ बनाने वाली गुत्थीनुमा चिप",
         "लंबी अखंड चिप",
         "लघु तरंगित या टूटी हुई चिप",
-        "गांठ बनाने वाली गुत्थीनुमा चिप",
         "तीक्षण कोरों वाली सर्पिल चिप"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Small curled or broken chips). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (लघु तरंगित या टूटी हुई चिप)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Small curled or broken chips). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (लघु तरंगित या टूटी हुई चिप)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1469,19 +1469,19 @@
         "Machine identification number"
       ],
       "hi": [
-        "यांत्रिक दोष का विवरण",
+        "समय अंतराल और निष्पादित कार्य",
         "सामग्री विनिर्देश और पुर्जा संख्या",
-        "मशीन पहचान संख्या",
-        "समय अंतराल और निष्पादित कार्य"
+        "यांत्रिक दोष का विवरण",
+        "मशीन पहचान संख्या"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Time interval and Operations performed). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (समय अंतराल और निष्पादित कार्य)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Time interval and Operations performed). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (समय अंतराल और निष्पादित कार्य)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1502,19 +1502,19 @@
         "Cobalt increases the hardness of the tool material"
       ],
       "hi": [
-        "कोबाल्ट , टूल सामग्री की कठोरता को बढ़ाता है।",
-        "कोबाल्ट , टूल की ऊष्मीय चालकता को कम करता है।",
         "कोबाल्ट एक बंधक के रूप में कार्य करता है जो टूल को दृढ़ता प्रदान करता है।",
-        "कोबाल्ट , टूल की विद्युत चालकता को बढ़ाता है।"
+        "कोबाल्ट , टूल की विद्युत चालकता को बढ़ाता है।",
+        "कोबाल्ट , टूल की ऊष्मीय चालकता को कम करता है।",
+        "कोबाल्ट , टूल सामग्री की कठोरता को बढ़ाता है।"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Cobalt acts as a binder providing toughness to the tool). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (कोबाल्ट एक बंधक के रूप में कार्य करता है जो टूल को दृढ़ता प्रदान करता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Cobalt acts as a binder providing toughness to the tool). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (कोबाल्ट एक बंधक के रूप में कार्य करता है जो टूल को दृढ़ता प्रदान करता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1536,18 +1536,18 @@
       ],
       "hi": [
         "सतह पैटर्न निर्माण के लिए नर्लन टूल",
-        "आंतरिक प्रचालनों के लिए एक स्थिर प्रवेधन बार",
+        "एकीकृ त स्टेडी रेस्ट फिंगर्स वाला बॉक्स टूल",
         "मानक एकल बिंदु खरादी टूल",
-        "एकीकृ त स्टेडी रेस्ट फिंगर्स वाला बॉक्स टूल"
+        "आंतरिक प्रचालनों के लिए एक स्थिर प्रवेधन बार"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (A box tool with integrated steady rest fingers). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (एकीकृ त स्टेडी रेस्ट फिंगर्स वाला बॉक्स टूल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (A box tool with integrated steady rest fingers). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (एकीकृ त स्टेडी रेस्ट फिंगर्स वाला बॉक्स टूल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1568,19 +1568,19 @@
         "Tool wear reduces due to lower friction at the interface"
       ],
       "hi": [
-        "अंतरपृष्ठ पर निम्नतर घर्षण के कारण औज़ार घिसाई में कमी होती है",
-        "चाल के नियत होने के कारण औज़ार घिसाई में लगभग कोई परिवर्तन नहीं होता है",
         "उच्चतर कर्तन बलों और तापमान के कारण औज़ार घिसाई में वृद्धि होती है",
-        "बेहतर चिप निर्वातन के कारण उपकरण औज़ार घिसाई में कमी होती है"
+        "चाल के नियत होने के कारण औज़ार घिसाई में लगभग कोई परिवर्तन नहीं होता है",
+        "बेहतर चिप निर्वातन के कारण उपकरण औज़ार घिसाई में कमी होती है",
+        "अंतरपृष्ठ पर निम्नतर घर्षण के कारण औज़ार घिसाई में कमी होती है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Tool wear increases due to higher cutting forces and temperature). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (उच्चतर कर्तन बलों और तापमान के कारण औज़ार घिसाई में वृद्धि होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Tool wear increases due to higher cutting forces and temperature). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (उच्चतर कर्तन बलों और तापमान के कारण औज़ार घिसाई में वृद्धि होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1601,19 +1601,19 @@
         "It is completely round on both sides"
       ],
       "hi": [
+        "इसके केंद्र में एक छिद्र होता है",
         "इसका एक पार्श्व सपाट और एक पार्श्व नुकीला होता है",
         "यह दोनों सिरों पर शंक्वाकार होता है",
-        "यह दोनों पार्श्व से पूर्णतः गोल होता है",
-        "इसके केंद्र में एक छिद्र होता है"
+        "यह दोनों पार्श्व से पूर्णतः गोल होता है"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (It has one side flat and one side pointed). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (इसका एक पार्श्व सपाट और एक पार्श्व नुकीला होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (It has one side flat and one side pointed). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (इसका एक पार्श्व सपाट और एक पार्श्व नुकीला होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1634,19 +1634,19 @@
         "A gear with 120 teeth for conversion"
       ],
       "hi": [
+        "रूपांतरण के लिए 100 दांतों वाला गियर",
         "127 दांतों वाला एक स्थानांतरी गियर",
-        "रूपांतरण के लिए 120 दांतों वाला गियर",
         "रूपांतरण के लिए 80 दांतों वाला एक गियर",
-        "रूपांतरण के लिए 100 दांतों वाला गियर"
+        "रूपांतरण के लिए 120 दांतों वाला गियर"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (A translation gear with 127 teeth). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (127 दांतों वाला एक स्थानांतरी गियर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (A translation gear with 127 teeth). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (127 दांतों वाला एक स्थानांतरी गियर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1667,19 +1667,19 @@
         "Spigot joint"
       ],
       "hi": [
-        "सॉके ट जोड़ (Socket joint)",
-        "स्पिगोट जोड़ (Spigot joint)",
         "फ्लैंजदार जोड़ (Flanged joint)",
-        "सम्मिलन जोड़ (Union joint)"
+        "सॉके ट जोड़ (Socket joint)",
+        "सम्मिलन जोड़ (Union joint)",
+        "स्पिगोट जोड़ (Spigot joint)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Flanged joint). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (फ्लैंजदार जोड़ (Flanged joint))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Flanged joint). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (फ्लैंजदार जोड़ (Flanged joint))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1700,19 +1700,19 @@
         "Hand-operated spindle rotation"
       ],
       "hi": [
-        "भौतिक गियर विस्थापन",
-        "हस्त - प्रचालित स्पिंडल (spindle) घूर्णन",
+        "स्वचालित अक्ष संचलन (axis movement) समन्वय",
         "प्रत्यक्ष मैनुअल औजार प्रहस्तन",
-        "स्वचालित अक्ष संचलन (axis movement) समन्वय"
+        "भौतिक गियर विस्थापन",
+        "हस्त - प्रचालित स्पिंडल (spindle) घूर्णन"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Automated axis movement coordination). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (स्वचालित अक्ष संचलन (axis movement) समन्वय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Automated axis movement coordination). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (स्वचालित अक्ष संचलन (axis movement) समन्वय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1744,8 +1744,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Cylindrical body). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (सिंलिडरी बॉडी (Cylindrical body))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Cylindrical body). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सिंलिडरी बॉडी (Cylindrical body))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1766,19 +1766,19 @@
         "Change gears"
       ],
       "hi": [
+        "प्रभरण दंड (Feed rod)",
         "अग्रण पेंच (Lead screw)",
         "विपर्यायी गियर (Reversing gears)",
-        "प्रभरण दंड (Feed rod)",
         "परिवर्ती गियर (Change gears)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Reversing gears). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (विपर्यायी गियर (Reversing gears))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Reversing gears). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विपर्यायी गियर (Reversing gears))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1799,19 +1799,19 @@
         "Use a CO fire extinguisher 2"
       ],
       "hi": [
+        "फे न शामक का उपयोग करना",
         "अग्नि को कवर करने के लिए रेत का उपयोग करना",
-        "CO अग्निशामक का उपयोग करना 2",
         "जल शामक का उपयोग करना",
-        "फे न शामक का उपयोग करना"
+        "CO अग्निशामक का उपयोग करना 2"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Use a CO fire extinguisher 2). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (CO अग्निशामक का उपयोग करना 2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Use a CO fire extinguisher 2). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (CO अग्निशामक का उपयोग करना 2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1832,19 +1832,19 @@
         "Intermediate gear, driver gear, driven gear, conversion gear"
       ],
       "hi": [
-        "कन्वर्ज़न गियर , ड्रिवन गियर , ड्राइवर गियर , इंटरमीडिएट गियर",
         "ड्राइवर गियर , इंटरमीडिएट गियर , कन्वर्ज़न गियर , ड्रिवन गियर",
+        "कन्वर्ज़न गियर , ड्रिवन गियर , ड्राइवर गियर , इंटरमीडिएट गियर",
         "ड्रिवन गियर , कन्वर्ज़न गियर , ड्राइवर गियर , इंटरमीडिएट गियर",
         "इंटरमीडिएट गियर , ड्राइवर गियर , ड्रिवन गियर , कन्वर्ज़न गियर"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Driver gear, intermediate gear, conversion gear, driven gear). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (ड्राइवर गियर , इंटरमीडिएट गियर , कन्वर्ज़न गियर , ड्रिवन गियर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Driver gear, intermediate gear, conversion gear, driven gear). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (ड्राइवर गियर , इंटरमीडिएट गियर , कन्वर्ज़न गियर , ड्रिवन गियर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1865,9 +1865,9 @@
         "Quenching"
       ],
       "hi": [
+        "पायन (Tempering)",
         "अनीलन (Annealing)",
         "तापानुशीतन (Normalizing)",
-        "पायन (Tempering)",
         "शमन (Quenching)"
       ]
     },
@@ -1876,8 +1876,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Quenching). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (शमन (Quenching))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Quenching). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (शमन (Quenching))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1899,18 +1899,18 @@
       ],
       "hi": [
         "टूलबॉक्स साइज़ (Toolbox size)",
-        "स्विंग ओवर बेड (Swing over bed)",
         "शीतलक जलाशय प्रकार (Coolant reservoir type)",
-        "नियंत्रण पैनल का रंग (Control panel color)"
+        "नियंत्रण पैनल का रंग (Control panel color)",
+        "स्विंग ओवर बेड (Swing over bed)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Swing over bed). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (स्विंग ओवर बेड (Swing over bed))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Swing over bed). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (स्विंग ओवर बेड (Swing over bed))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1931,19 +1931,19 @@
         "To lock the spindle during measurement"
       ],
       "hi": [
-        "संपूर्ण मिलीमीटरों के बीच पाठ्यांक की यथार्थता में सुधार के लिए",
-        "माप के दौरान स्पिंडल को लॉक करने के लिए",
         "स्पिंडल घूर्णन की चाल को बढ़ाने के लिए",
-        "चूड़ी अंतराल मापने के लिए"
+        "चूड़ी अंतराल मापने के लिए",
+        "संपूर्ण मिलीमीटरों के बीच पाठ्यांक की यथार्थता में सुधार के लिए",
+        "माप के दौरान स्पिंडल को लॉक करने के लिए"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (To improve reading accuracy between whole millimeters). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (संपूर्ण मिलीमीटरों के बीच पाठ्यांक की यथार्थता में सुधार के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (To improve reading accuracy between whole millimeters). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (संपूर्ण मिलीमीटरों के बीच पाठ्यांक की यथार्थता में सुधार के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1966,17 +1966,17 @@
       "hi": [
         "औजार धारक (Tool post)",
         "तर्कु नासा (Spindle nose)",
-        "टेलस्टॉक बैरल (Tailstock barrel)",
-        "बेड गाइडवे (Bed guideways)"
+        "बेड गाइडवे (Bed guideways)",
+        "टेलस्टॉक बैरल (Tailstock barrel)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Bed guideways). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (बेड गाइडवे (Bed guideways))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Bed guideways). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बेड गाइडवे (Bed guideways))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1997,19 +1997,19 @@
         "V-shape"
       ],
       "hi": [
-        "नुकीली (Pointed)",
         "सपाट (Flat)",
-        "V- आकृति (V-shape)",
-        "गोल (Round)"
+        "गोल (Round)",
+        "नुकीली (Pointed)",
+        "V- आकृति (V-shape)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Flat). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (सपाट (Flat))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Flat). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सपाट (Flat))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2030,19 +2030,19 @@
         "A flat rectangular plate clamped on the faceplate"
       ],
       "hi": [
-        "केंद्रों के बीच आलंबित एक लंबा , पतला शैफ्ट",
-        "फे स - प्लेट पर क्लैंप की गई एक सपाट आयताकार प्लेट",
+        "केवल चक में पकड़ा जाने वाली एक चूड़ीदार छड़",
         "बड़े व्यास वाली एक छोटी और मोटी कार्यवस्तु",
-        "केवल चक में पकड़ा जाने वाली एक चूड़ीदार छड़"
+        "केंद्रों के बीच आलंबित एक लंबा , पतला शैफ्ट",
+        "फे स - प्लेट पर क्लैंप की गई एक सपाट आयताकार प्लेट"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (A long, slender shaft supported between centers). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (केंद्रों के बीच आलंबित एक लंबा , पतला शैफ्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (A long, slender shaft supported between centers). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (केंद्रों के बीच आलंबित एक लंबा , पतला शैफ्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2063,19 +2063,19 @@
         "The handle of the reamer"
       ],
       "hi": [
-        "रीमर का हैंडल",
-        "रीमर के ब्लेड",
+        "रीमर का शैंक",
         "रीमर का लगा नट",
-        "रीमर का शैंक"
+        "रीमर के ब्लेड",
+        "रीमर का हैंडल"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The nut on the reamer). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (रीमर का लगा नट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The nut on the reamer). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (रीमर का लगा नट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2096,19 +2096,19 @@
         "It is used for starting threads in deep holes"
       ],
       "hi": [
+        "इसका उपयोग थ्रू - छिद्रों (through holes) में चूड़ियाँ बनाने के लिए किया जाता है",
+        "इसका उपयोग अंध छिद्रों में समापन चूड़ियों (finishing threads) के लिए किया जाता है",
         "यह प्लग टैप (plug tap) की तुलना में बड़ी चूड़ियाँ बनाता है",
-        "इसका उपयोग गभीर छिद्रों में आरंभी चूड़ियों (starting threads) के लिए किया जाता है इसका उपयोग थ्रू - छिद्रों (through holes) में चूड़ियाँ बनाने के",
-        "लिए किया जाता है",
-        "इसका उपयोग अंध छिद्रों में समापन चूड़ियों (finishing threads) के लिए किया जाता है"
+        "इसका उपयोग गभीर छिद्रों में आरंभी चूड़ियों (starting threads) के लिए किया जाता है"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (It is used for finishing threads in blind holes). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (इसका उपयोग अंध छिद्रों में समापन चूड़ियों (finishing threads) के लिए किया जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (It is used for finishing threads in blind holes). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (इसका उपयोग अंध छिद्रों में समापन चूड़ियों (finishing threads) के लिए किया जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2129,19 +2129,19 @@
         "Set in Order"
       ],
       "hi": [
-        "शॉर्ट (Sort)",
         "सस्टेन (Sustain)",
-        "सेट - इन - ऑर्डर (Set in Order)",
-        "शाइन (Shine)"
+        "शाइन (Shine)",
+        "शॉर्ट (Sort)",
+        "सेट - इन - ऑर्डर (Set in Order)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Sort). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (शॉर्ट (Sort))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Sort). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (शॉर्ट (Sort))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2162,19 +2162,19 @@
         "Indexing movement = 40 plus number of divisions"
       ],
       "hi": [
+        "इंडेक्सिंग मूवमेंट = 40 ÷ विभाजनों की संख्या",
         "इंडेक्सिंग मूवमेंट = विभाजनों की संख्या ÷ 40",
         "इंडेक्सिंग मूवमेंट = 40 × विभाजनों की संख्या",
-        "इंडेक्सिंग मूवमेंट = 40 ÷ विभाजनों की संख्या",
         "इंडेक्सिंग मूवमेंट = 40 + विभाजनों की संख्या"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Indexing movement = 40 divided by number of divisions). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (इंडेक्सिंग मूवमेंट = 40 ÷ विभाजनों की संख्या)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Indexing movement = 40 divided by number of divisions). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (इंडेक्सिंग मूवमेंट = 40 ÷ विभाजनों की संख्या)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2195,19 +2195,19 @@
         "It has no effect on tool life"
       ],
       "hi": [
-        "यह औजार द्वारा अपघर्षण कठिन बना देता है",
-        "इसका औजार आयु पर कोई प्रभाव नहीं पड़ता है",
         "दुर्बल कर्तन कोर के कारण यह औजार आयु को कम कर सकता है",
-        "यह घर्षण को कम करके औजार आयु को सदैव बढ़ाता है"
+        "यह घर्षण को कम करके औजार आयु को सदैव बढ़ाता है",
+        "यह औजार द्वारा अपघर्षण कठिन बना देता है",
+        "इसका औजार आयु पर कोई प्रभाव नहीं पड़ता है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (It can reduce tool life due to weaker cutting edge). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (दुर्बल कर्तन कोर के कारण यह औजार आयु को कम कर सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (It can reduce tool life due to weaker cutting edge). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (दुर्बल कर्तन कोर के कारण यह औजार आयु को कम कर सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2228,10 +2228,10 @@
         "2.50 mm"
       ],
       "hi": [
-        "1.90 mm",
+        "1.50 mm",
         "2.01 mm",
-        "2.50 mm",
-        "1.50 mm"
+        "1.90 mm",
+        "2.50 mm"
       ]
     },
     "correctIndex": 1,
@@ -2239,8 +2239,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (2.01 mm). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (2.01 mm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (2.01 mm). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (2.01 mm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2261,9 +2261,9 @@
         "It helps prevent accidents and injuries"
       ],
       "hi": [
-        "इससे मरम्मत की लागत बढ़ जाती है",
-        "इससे कार्य तेजी से हो पाता है",
         "इससे कार्यशाला में शोर बढ़ जाता है",
+        "इससे कार्य तेजी से हो पाता है",
+        "इससे मरम्मत की लागत बढ़ जाती है",
         "यह दुर्घटनाओं और क्षतियों को रोकने में मदद करता है"
       ]
     },
@@ -2272,8 +2272,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It helps prevent accidents and injuries). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (यह दुर्घटनाओं और क्षतियों को रोकने में मदद करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It helps prevent accidents and injuries). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (यह दुर्घटनाओं और क्षतियों को रोकने में मदद करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2294,19 +2294,19 @@
         "Crest"
       ],
       "hi": [
-        "लीड (Lead)",
-        "शिखर (Crest)",
         "मूल (Root)",
-        "अंतराल (Pitch)"
+        "लीड (Lead)",
+        "अंतराल (Pitch)",
+        "शिखर (Crest)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Lead). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (लीड (Lead))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Lead). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (लीड (Lead))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2327,19 +2327,19 @@
         "Maximum profile height"
       ],
       "hi": [
-        "रूक्षता औसत (Roughness average)",
         "तरंगिलता (Waviness)",
         "वर्ग माध्य मूल रूक्षता (Root mean square roughness)",
+        "रूक्षता औसत (Roughness average)",
         "अधिकतम प्रोफ़ाइल ऊं चाई (Maximum profile height)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option C is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Roughness average). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (रूक्षता औसत (Roughness average))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Roughness average). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (रूक्षता औसत (Roughness average))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2361,9 +2361,9 @@
       ],
       "hi": [
         "40 rpm",
+        "60 rpm",
         "30 rpm",
-        "360 rpm",
-        "60 rpm"
+        "360 rpm"
       ]
     },
     "correctIndex": 0,
@@ -2371,8 +2371,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option A is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (40 rpm). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (40 rpm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (40 rpm). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (40 rpm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2393,19 +2393,19 @@
         "The coolant system is operating normally."
       ],
       "hi": [
-        "शीतलक तंत्र सामान्य रूप से कार्य कर रहा है।",
-        "मशीन निष्क्रिय है , और कोई प्रोग्राम नहीं चल रहा है।",
+        "वर्क पीस पदार्थ , अपेक्षा से अधिक मृदु (softer) है।",
         "कटिंग टूल या तो धारहीन है या गलत तरीके से लगाया गया है।",
-        "वर्क पीस पदार्थ , अपेक्षा से अधिक मृदु (softer) है।"
+        "मशीन निष्क्रिय है , और कोई प्रोग्राम नहीं चल रहा है।",
+        "शीतलक तंत्र सामान्य रूप से कार्य कर रहा है।"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The cutting tool is dull or improperly mounted.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (कटिंग टूल या तो धारहीन है या गलत तरीके से लगाया गया है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The cutting tool is dull or improperly mounted.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (कटिंग टूल या तो धारहीन है या गलत तरीके से लगाया गया है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2426,19 +2426,19 @@
         "A stepped mandrel has multiple diameters along its length"
       ],
       "hi": [
-        "सोपानी मैंड्रेल के अपनी लंबाई के अनुदिश कई व्यास होते हैं",
         "सोपानी मैंड्रेल सदैव प्लेन मैंड्रेल से छोटा होता है",
         "सोपानी मैंड्रेल का उपयोग केवल मृदु पदार्थों के लिए किया जाता है",
-        "सोपानी मैंड्रेल का उपयोग खराद पर नहीं किया जा सकता है"
+        "सोपानी मैंड्रेल का उपयोग खराद पर नहीं किया जा सकता है",
+        "सोपानी मैंड्रेल के अपनी लंबाई के अनुदिश कई व्यास होते हैं"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option D is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (A stepped mandrel has multiple diameters along its length). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (सोपानी मैंड्रेल के अपनी लंबाई के अनुदिश कई व्यास होते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (A stepped mandrel has multiple diameters along its length). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (सोपानी मैंड्रेल के अपनी लंबाई के अनुदिश कई व्यास होते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2459,19 +2459,19 @@
         "All dimensions are placed so that they can be read from the right side of the sheet"
       ],
       "hi": [
-        "सभी विमाओं को इस प्रकार रखा जाता है कि उन्हें शीट के दाईं ओर से पढ़ा जा सके",
         "विमाओं को लक्षण के आधार पर दोनों दिशाओं में रखा जाता है",
         "सभी विमाओं को इस प्रकार रखा जाता है कि उन्हें शीट के निचले किनारे से पढ़ा जा सके",
-        "उचित अंतराल बनाए रखने के लिए विमाओं को ड्राइंग शीट पर समान रूप से रखा जाता है"
+        "उचित अंतराल बनाए रखने के लिए विमाओं को ड्राइंग शीट पर समान रूप से रखा जाता है",
+        "सभी विमाओं को इस प्रकार रखा जाता है कि उन्हें शीट के दाईं ओर से पढ़ा जा सके"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Turner) Answer Key: Option B is verified correct.",
       "keyConcept": "Turner Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (All dimensions are placed so that they can be read from the bottom of the sheet). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (सभी विमाओं को इस प्रकार रखा जाता है कि उन्हें शीट के निचले किनारे से पढ़ा जा सके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (All dimensions are placed so that they can be read from the bottom of the sheet). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (सभी विमाओं को इस प्रकार रखा जाता है कि उन्हें शीट के निचले किनारे से पढ़ा जा सके)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   }
 ]

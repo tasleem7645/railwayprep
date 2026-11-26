@@ -18,9 +18,9 @@
       ],
       "hi": [
         "उदासीन",
-        "उभयधर्मी",
         "क्षारीय",
-        "अम्लीय"
+        "अम्लीय",
+        "उभयधर्मी"
       ]
     },
     "correctIndex": 0,
@@ -51,10 +51,10 @@
         "Find the atomic mass of barium only"
       ],
       "hi": [
-        "केवल बेरियम का परमाणु द्रव्यमान ज्ञात करना",
+        "बेरियम का परमाणु क्रमांक ज्ञात करना",
         "केवल नाइट्रेट का आण्विक द्रव्यमान ज्ञात करना",
         "सूत्र में तत् वों को ज्ञात करना",
-        "बेरियम का परमाणु क्रमांक ज्ञात करना"
+        "केवल बेरियम का परमाणु द्रव्यमान ज्ञात करना"
       ]
     },
     "correctIndex": 2,
@@ -85,10 +85,10 @@
         "Nitrogen"
       ],
       "hi": [
-        "नाइट्रोजन",
+        "हाइड्रोजन",
         "सल्फर",
         "क्लोरीन",
-        "हाइड्रोजन"
+        "नाइट्रोजन"
       ]
     },
     "correctIndex": 1,
@@ -108,8 +108,8 @@
     "subject": "General Science",
     "topic": "Basic Organic Chemistry • RRB Group D Level-1 (09 Aug 2026 Shift 14)",
     "question": {
-      "en": "Read the following two statements carefully and choose the correct option: Statement I: Ethanol on oxidation with alkaline potassium permanganate gives ethanoic acid. Statement II: Oxidation of ethanol involves the removal of hydrogen atoms and addition of oxygen. Which of the following is correct? - 2:15 PM · English",
-      "hi": "निम्नलिखित दो कथनों को ध्यानपूर्वक पढ़िए और सही विकल्प का चयन कीजिए। कथन I: क्षारीय पोटेशियम परमैंगनेट के साथ ऑक्सीकरण करने पर एथेनॉल से एथेनॉइक अम्ल प्राप्त होता है। कथन II: एथेनॉल के ऑक्सीकरण में हाइड्रोजन परमाणुओं का निष्कासन होता है और ऑक्सीजन का योग शामिल होता है। निम्नलिखित में से कौन - सा सही है ? - 2:15 PM · Hindi"
+      "en": "Read the following two statements carefully and choose the correct option: Statement I: Ethanol on oxidation with alkaline potassium permanganate gives ethanoic acid. Statement II: Oxidation of ethanol involves the removal of hydrogen atoms and addition of oxygen. Which of the following is correct? -",
+      "hi": "निम्नलिखित दो कथनों को ध्यानपूर्वक पढ़िए और सही विकल्प का चयन कीजिए। कथन I: क्षारीय पोटेशियम परमैंगनेट के साथ ऑक्सीकरण करने पर एथेनॉल से एथेनॉइक अम्ल प्राप्त होता है। कथन II: एथेनॉल के ऑक्सीकरण में हाइड्रोजन परमाणुओं का निष्कासन होता है और ऑक्सीजन का योग शामिल होता है। निम्नलिखित में से कौन - सा सही है ? -"
     },
     "options": {
       "en": [
@@ -119,9 +119,9 @@
         "Only statement II is correct."
       ],
       "hi": [
-        "दोनों कथन सही हैं , लेकिन कथन II, कथन I की व्याख्या नहीं करता है।",
-        "है।",
-        "केवल कथन I सही है। दोनों कथन सही हैं , और कथन II, कथन I की व्याख्या करता",
+        "केवल कथन I सही है।",
+        "दोनों कथन सही हैं, और कथन II, कथन I की व्याख्या करता है।",
+        "दोनों कथन सही हैं, लेकिन कथन II, कथन I की व्याख्या नहीं करता है।",
         "केवल कथन II सही है।"
       ]
     },
@@ -132,7 +132,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • Basic Organic Chemistry",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Both statements are correct, and Statement II explains Statement I.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (है।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (दोनों कथन सही हैं, और कथन II, कथन I की व्याख्या करता है।) सही उत्तर है।"
     }
   },
   {
@@ -153,10 +153,10 @@
         "All living things must show visible movement to be alive."
       ],
       "hi": [
-        "जीवित रहने के लिए सभी सजीवों में दृश्य संचलन का होना आवश्यक है।",
         "केवल प्राणी ही बिना दृश्य संचलन के जीवित रह सकते हैं।",
+        "जीवित प्राणियों में सदैव दृश्य जीवित मौजूद होती है।",
         "पादप बिना किसी दृश्य वृद्धि या संचलन के भी जीवित रह सकते हैं।",
-        "जीवित प्राणियों में सदैव दृश्य जीवित मौजूद होती है।"
+        "जीवित रहने के लिए सभी सजीवों में दृश्य संचलन का होना आवश्यक है।"
       ]
     },
     "correctIndex": 2,
@@ -188,9 +188,9 @@
       ],
       "hi": [
         "माइटोकॉन्ड्रिया",
-        "केंद्रक",
+        "राइबोसोम",
         "अंतर्द्र व्यी जालिका",
-        "राइबोसोम"
+        "केंद्रक"
       ]
     },
     "correctIndex": 0,
@@ -222,9 +222,9 @@
       ],
       "hi": [
         "250 W",
+        "500 W",
         "200 W",
-        "1000 W",
-        "500 W"
+        "1000 W"
       ]
     },
     "correctIndex": 0,
@@ -255,9 +255,9 @@
         "Evaporation→ Condensation→ Precipitation"
       ],
       "hi": [
-        "संघनन → वर्षण → वाष्पन",
-        "वर्षण → अपवाह → वाष्पन",
         "वाष्पन → वर्षण → संघनन",
+        "वर्षण → अपवाह → वाष्पन",
+        "संघनन → वर्षण → वाष्पन",
         "वाष्पन → संघनन → वर्षण"
       ]
     },
@@ -289,9 +289,9 @@
         "Insulin"
       ],
       "hi": [
-        "वृद्धि हॉर्मोन",
         "एड्रिनेलिन",
         "थायराइड हॉर्मोन",
+        "वृद्धि हॉर्मोन",
         "इंसुलिन"
       ]
     },
@@ -324,8 +324,8 @@
       ],
       "hi": [
         "नलिका (Tubules)",
-        "के शिकागुच्छ (Glomerulus)",
         "तंत्रिकाकोशिका (Neurons)",
+        "के शिकागुच्छ (Glomerulus)",
         "वृक्काणु (Nephrons)"
       ]
     },
@@ -358,8 +358,8 @@
       ],
       "hi": [
         "नाइट्रोजन , तेल और वसा के ऑक्सीकरण को रोकता है",
-        "नाइट्रोजन , चिप्स से नमी को हटा देता है",
         "नाइट्रोजन , चिप्स के कु रकु रेपन को बढ़ा देता है",
+        "नाइट्रोजन , चिप्स से नमी को हटा देता है",
         "नाइट्रोजन , तेल के साथ अभिक्रिया करके उसका स्थिरीकरण करता है"
       ]
     },
@@ -391,10 +391,10 @@
         "Cytoplasm"
       ],
       "hi": [
-        "कोशिका भित्ति (Cell wall)",
+        "कनेक्टिव मैट्रिक्स (Connective matrix)",
         "आधार झिल्ली (Basement membrane)",
-        "कोशिकाद्रव्य (Cytoplasm)",
-        "कनेक्टिव मैट्रिक्स (Connective matrix)"
+        "कोशिका भित्ति (Cell wall)",
+        "कोशिकाद्रव्य (Cytoplasm)"
       ]
     },
     "correctIndex": 1,
@@ -421,14 +421,14 @@
       "en": [
         "Unsaturated hydrocarbons contain more oxygen, which leads to incomplete combustion.",
         "Saturated hydrocarbons react with nitrogen in the air to prevent soot formation.",
-        "Saturated hydrocarbons have weaker bonds, so they burn more completely. Unsaturated hydrocarbons have a higher carbon-",
-        "to-hydrogen ratio, leading to incomplete combustion and soot formation."
+        "Saturated hydrocarbons have weaker bonds, so they burn more completely.",
+        "Unsaturated hydrocarbons have a higher carbon-to-hydrogen ratio, leading to incomplete combustion and soot formation."
       ],
       "hi": [
-        "उनका अपूर्ण दहन होता है।",
-        "संतृप्त हाइड्रोकार्बन वायु में उपस्थित नाइट्रोजन के साथ अभिक्रिया करके कालिख बनने से रोकते हैं। असंतृप्त हाइड्रोकार्बन में कार्बन - हाइड्रोजन अनुपात अधिक",
-        "रूप से जलते हैं।",
-        "होता है , जिसके कारण अपूर्ण दहन और कालिख का निर्माण होता है। संतृप्त हाइड्रोकार्बन में दुर्बल आबंध होते हैं , इसलिए वे अधिक पूर्ण"
+        "असंतृप्त हाइड्रोकार्बन में अधिक ऑक्सीजन होती है , जिसके कारण उनका अपूर्ण दहन होता है।",
+        "संतृप्त हाइड्रोकार्बन वायु में उपस्थित नाइट्रोजन के साथ अभिक्रिया करके कालिख बनने से रोकते हैं।",
+        "संतृप्त हाइड्रोकार्बन में दुर्बल आबंध होते हैं , इसलिए वे अधिक पूर्ण रूप से जलते हैं।",
+        "असंतृप्त हाइड्रोकार्बन में कार्बन - हाइड्रोजन अनुपात अधिक होता है , जिसके कारण अपूर्ण दहन और कालिख का निर्माण होता है।"
       ]
     },
     "correctIndex": 3,
@@ -437,8 +437,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Hydrocarbons (Methane, Ethane, etc.)",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (to-hydrogen ratio, leading to incomplete combustion and soot formation.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (होता है , जिसके कारण अपूर्ण दहन और कालिख का निर्माण होता है। संतृप्त हाइड्रोकार्बन में दुर्बल आबंध होते हैं , इसलिए वे अधिक पूर्ण) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Unsaturated hydrocarbons have a higher carbon-to-hydrogen ratio, leading to incomplete combustion and soot formation.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (असंतृप्त हाइड्रोकार्बन में कार्बन - हाइड्रोजन अनुपात अधिक होता है , जिसके कारण अपूर्ण दहन और कालिख का निर्माण होता है।) सही उत्तर है।"
     }
   },
   {
@@ -460,9 +460,9 @@
       ],
       "hi": [
         "अंगुष्ठ धारा की दिशा को इंगित करता है , मुड़ी हुई उंगुलियां चुंबकीय क्षेत्र की दिशा को इंगित करती हैं",
-        "धारा की दिशा को इंगित करती हैं",
+        "धारा के लिए वाम हस्त का उपयोग किया जाता है , चुंबकीय क्षेत्र के लिए दक्षिण हस्त का उपयोग किया जाता है",
         "उंगुलियां धारा की दिशा को इंगित करती हैं , मुड़ा हुआ अंगुष्ठ चुंबकीय क्षेत्र की दिशा को इंगित करता है",
-        "धारा के लिए वाम हस्त का उपयोग किया जाता है , चुंबकीय क्षेत्र के लिए दक्षिण हस्त का उपयोग किया जाता है अंगुष्ठ चुंबकीय क्षेत्र की दिशा को इंगित करता है , मुड़ी हुई उंगुलियां"
+        "अंगुष्ठ चुंबकीय क्षेत्र की दिशा को इंगित करता है , मुड़ी हुई उंगुलियां धारा की दिशा को इंगित करती हैं"
       ]
     },
     "correctIndex": 0,
@@ -527,10 +527,10 @@
         "The direction of motion only"
       ],
       "hi": [
-        "केवल गति की दिशा",
+        "अनुप्रयुक्त बल की मात्रा",
         "सरल पथ के अनुदिश स्थिति परिवर्तन की दर",
         "सभी दिशाओं में तय की गई कु ल दूरी",
-        "अनुप्रयुक्त बल की मात्रा"
+        "केवल गति की दिशा"
       ]
     },
     "correctIndex": 1,
@@ -561,8 +561,8 @@
         "2 and 3 only"
       ],
       "hi": [
-        "1, 2, 3 और 4",
         "केवल 1 और 4",
+        "1, 2, 3 और 4",
         "केवल 1, 2 और 3",
         "केवल 2 और 3"
       ]
@@ -595,10 +595,10 @@
         "+ 0.33"
       ],
       "hi": [
-        "+ 0.33",
+        "-0.33",
         "-3",
         "+ 3",
-        "-0.33"
+        "+ 0.33"
       ]
     },
     "correctIndex": 2,
@@ -629,10 +629,10 @@
         "50 cm in front of the mirror"
       ],
       "hi": [
-        "दर्पण के सामने 25 cm",
+        "दर्पण के पीछे 10 cm",
         "दर्पण के पीछे 25 cm",
-        "दर्पण के सामने 50 cm",
-        "दर्पण के पीछे 10 cm"
+        "दर्पण के सामने 25 cm",
+        "दर्पण के सामने 50 cm"
       ]
     },
     "correctIndex": 1,
@@ -663,8 +663,8 @@
         "Colloidal solution"
       ],
       "hi": [
-        "रेत और जल का मिश्रण",
         "निलंबन",
+        "रेत और जल का मिश्रण",
         "वास्तविक विलयन",
         "कोलॉइडी विलयन"
       ]
@@ -694,13 +694,13 @@
         "Combustion",
         "Respiration",
         "Photosynthesis",
-        "Decomposition Mathematics"
+        "Decomposition"
       ],
       "hi": [
-        "अपघटन",
+        "दहन",
         "श्वसन",
         "प्रकाश संश्लेषण",
-        "दहन"
+        "अपघटन"
       ]
     },
     "correctIndex": 2,
@@ -731,10 +731,10 @@
         "Vacuum and darkness"
       ],
       "hi": [
-        "निर्वात और अंधकार",
+        "शुद्ध जल और सूर्य का प्रकाश",
         "शुष्क वायु और निम्न तापमान",
         "आर्द्र वायु और लवणों या अम्लों की उपस्थिति",
-        "शुद्ध जल और सूर्य का प्रकाश"
+        "निर्वात और अंधकार"
       ]
     },
     "correctIndex": 2,
@@ -767,8 +767,8 @@
       "hi": [
         "अस्थिअणु (Osteocyte)",
         "उपास्थिअणु (Chondrocyte)",
-        "वसाकोशिका (Adipocyte)",
-        "रेशकोरक (Fibroblast)"
+        "रेशकोरक (Fibroblast)",
+        "वसाकोशिका (Adipocyte)"
       ]
     },
     "correctIndex": 1,
@@ -799,10 +799,10 @@
         "250 Hz"
       ],
       "hi": [
-        "250 Hz",
+        "125 Hz",
         "500 Hz",
         "1000 Hz",
-        "125 Hz"
+        "250 Hz"
       ]
     },
     "correctIndex": 1,
@@ -835,8 +835,8 @@
       "hi": [
         "हल्‍के रंग वाली",
         "अधिक द्रव्यमान वाली",
-        "बड़े आकार वाली",
-        "भिन्न आकृति वाली"
+        "भिन्न आकृति वाली",
+        "बड़े आकार वाली"
       ]
     },
     "correctIndex": 1,
@@ -867,9 +867,9 @@
         "41,616"
       ],
       "hi": [
-        "40,800",
-        "44,217",
         "40,400",
+        "44,217",
+        "40,800",
         "41,616"
       ]
     },
@@ -902,9 +902,9 @@
       ],
       "hi": [
         "31,740",
+        "32,113",
         "33,001",
-        "32,510",
-        "32,113"
+        "32,510"
       ]
     },
     "correctIndex": 0,
@@ -935,9 +935,9 @@
         "40 km/h"
       ],
       "hi": [
-        "35 km/h",
         "45 km/h",
         "30 km/h",
+        "35 km/h",
         "40 km/h"
       ]
     },
@@ -970,9 +970,9 @@
       ],
       "hi": [
         "62",
-        "61",
         "65",
-        "60"
+        "60",
+        "61"
       ]
     },
     "correctIndex": 0,
@@ -1072,8 +1072,8 @@
       ],
       "hi": [
         "1,040",
-        "1,044",
         "1,022",
+        "1,044",
         "1,072"
       ]
     },
@@ -1105,10 +1105,10 @@
         "3"
       ],
       "hi": [
-        "3",
+        "6",
         "5",
         "8",
-        "6"
+        "3"
       ]
     },
     "correctIndex": 1,
@@ -1139,10 +1139,10 @@
         "330"
       ],
       "hi": [
-        "380",
+        "260",
         "280",
-        "330",
-        "260"
+        "380",
+        "330"
       ]
     },
     "correctIndex": 1,
@@ -1174,9 +1174,9 @@
       ],
       "hi": [
         "3,000",
-        "2,400",
+        "1,500",
         "2,000",
-        "1,500"
+        "2,400"
       ]
     },
     "correctIndex": 2,
@@ -1207,9 +1207,9 @@
         "29:1"
       ],
       "hi": [
-        "29:7",
-        "23:7",
         "27:1",
+        "23:7",
+        "29:7",
         "29:1"
       ]
     },
@@ -1242,9 +1242,9 @@
       ],
       "hi": [
         "₹1,086 की वृद्धि",
-        "₹1,089 की कमी",
+        "₹1,085 की कमी",
         "₹1,088 की वृद्धि",
-        "₹1,085 की कमी"
+        "₹1,089 की कमी"
       ]
     },
     "correctIndex": 0,
@@ -1275,10 +1275,10 @@
         "0"
       ],
       "hi": [
+        "3",
         "1",
-        "0",
         "2",
-        "3"
+        "0"
       ]
     },
     "correctIndex": 2,
@@ -1309,8 +1309,8 @@
         "₹2,24,644"
       ],
       "hi": [
-        "₹2,24,500",
         "₹2,24,800",
+        "₹2,24,500",
         "₹2,18,644",
         "₹2,24,644"
       ]
@@ -1377,10 +1377,10 @@
         "3520 cm2"
       ],
       "hi": [
-        "3520 cm2",
+        "3780 cm2",
         "3650 cm2",
         "3430 cm2",
-        "3780 cm2"
+        "3520 cm2"
       ]
     },
     "correctIndex": 1,
@@ -1446,9 +1446,9 @@
       ],
       "hi": [
         "15 वर्ष",
+        "18 वर्ष",
         "17 वर्ष",
-        "14 वर्ष",
-        "18 वर्ष"
+        "14 वर्ष"
       ]
     },
     "correctIndex": 0,
@@ -1479,9 +1479,9 @@
         "4x2+ 6xy − 9y2"
       ],
       "hi": [
-        "4x2− 6xy − 9y2 छोटी संख्या में 10 की वृद्धि कर दी जाती है , तो संख्याएं बराबर हो जाती हैं। , जिसका उन्नयन कोण 30° है। वह टावर की ओर सीधा चलता है और पाता है कि द्वारा चली गई दूरी ज्ञात कीजिए।",
-        "4x2+ 9y2",
         "4x2− 9y2",
+        "4x2+ 9y2",
+        "4x2− 6xy − 9y2",
         "4x2+ 6xy − 9y2"
       ]
     },
@@ -1492,7 +1492,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • a^2 - b^2",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (4x2− 9y2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (4x2− 6xy − 9y2 छोटी संख्या में 10 की वृद्धि कर दी जाती है , तो संख्याएं बराबर हो जाती हैं। , जिसका उन्नयन कोण 30° है। वह टावर की ओर सीधा चलता है और पाता है कि द्वारा चली गई दूरी ज्ञात कीजिए।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (4x2− 9y2) सही उत्तर है।"
     }
   },
   {
@@ -1523,10 +1523,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Basic Ratio",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1559,8 +1559,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Building/Tower Problems",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1571,7 +1571,7 @@
     "topic": "Congruence & Similarity • RRB Group D Level-1 (09 Aug 2026 Shift 14)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "यदि और तो"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1591,10 +1591,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Congruence & Similarity",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1617,8 +1617,8 @@
       "hi": [
         "309",
         "311",
-        "301",
-        "313"
+        "313",
+        "301"
       ]
     },
     "correctIndex": 0,
@@ -1649,10 +1649,10 @@
         "27:23"
       ],
       "hi": [
+        "11:9",
         "43:41",
-        "27:23",
         "56:55",
-        "11:9"
+        "27:23"
       ]
     },
     "correctIndex": 2,
@@ -1693,10 +1693,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • sin^2 + cos^2 = 1",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1717,9 +1717,9 @@
         "T"
       ],
       "hi": [
+        "Q",
         "P",
         "V",
-        "Q",
         "T"
       ]
     },
@@ -1785,9 +1785,9 @@
         "5"
       ],
       "hi": [
-        "7",
-        "4",
         "6",
+        "4",
+        "7",
         "5"
       ]
     },
@@ -1956,9 +1956,9 @@
       ],
       "hi": [
         "3",
-        "4",
+        "5",
         "2",
-        "5"
+        "4"
       ]
     },
     "correctIndex": 0,
@@ -1990,9 +1990,9 @@
       ],
       "hi": [
         "6",
-        "9",
+        "3",
         "4",
-        "3"
+        "9"
       ]
     },
     "correctIndex": 0,
@@ -2023,10 +2023,10 @@
         "10"
       ],
       "hi": [
+        "12",
         "14",
-        "10",
         "11",
-        "12"
+        "10"
       ]
     },
     "correctIndex": 2,
@@ -2057,9 +2057,9 @@
         "One"
       ],
       "hi": [
-        "चार",
-        "तीन",
         "दो",
+        "तीन",
+        "चार",
         "एक"
       ]
     },
@@ -2093,8 +2093,8 @@
       "hi": [
         "279",
         "289",
-        "284",
-        "294"
+        "294",
+        "284"
       ]
     },
     "correctIndex": 1,
@@ -2125,8 +2125,8 @@
         "5 km to the west"
       ],
       "hi": [
-        "6 km, पश्चिम दिशा में",
         "5 km, पूर्व दिशा में",
+        "6 km, पश्चिम दिशा में",
         "6 km, पूर्व दिशा में",
         "5 km, पश्चिम दिशा में"
       ]
@@ -2194,8 +2194,8 @@
       ],
       "hi": [
         "13 – 9 – 15 – 23",
-        "9 – 13 – 29 – 37",
         "7 – 11 – 19 – 11",
+        "9 – 13 – 29 – 37",
         "10 – 14 – 25 – 33"
       ]
     },
@@ -2228,9 +2228,9 @@
       ],
       "hi": [
         "2",
+        "4",
         "8",
-        "6",
-        "4"
+        "6"
       ]
     },
     "correctIndex": 0,
@@ -2263,8 +2263,8 @@
       "hi": [
         "64",
         "70",
-        "66",
-        "68"
+        "68",
+        "66"
       ]
     },
     "correctIndex": 0,
@@ -2296,8 +2296,8 @@
       ],
       "hi": [
         "AS - EX",
-        "QK - UO",
         "CL - GP",
+        "QK - UO",
         "ND - RH"
       ]
     },
@@ -2329,8 +2329,8 @@
         "TL – NF"
       ],
       "hi": [
-        "WO – QI",
         "YQ – SK",
+        "WO – QI",
         "ME – HA",
         "TL – NF"
       ]
@@ -2363,9 +2363,9 @@
         "113"
       ],
       "hi": [
-        "114",
-        "115",
         "116",
+        "115",
+        "114",
         "113"
       ]
     },
@@ -2397,9 +2397,9 @@
         "M"
       ],
       "hi": [
-        "K",
         "F",
         "J",
+        "K",
         "M"
       ]
     },
@@ -2432,8 +2432,8 @@
       ],
       "hi": [
         "T",
-        "M",
         "Y",
+        "M",
         "U"
       ]
     },
@@ -2501,8 +2501,8 @@
       "hi": [
         "F",
         "A",
-        "D",
-        "C"
+        "C",
+        "D"
       ]
     },
     "correctIndex": 1,
@@ -2567,10 +2567,10 @@
         "$"
       ],
       "hi": [
+        "+",
         "&",
-        "$",
         "@",
-        "+"
+        "$"
       ]
     },
     "correctIndex": 2,
@@ -2632,7 +2632,7 @@
         "144",
         "168",
         "183",
-        "165 General Awareness"
+        "165"
       ],
       "hi": [
         "144",
@@ -2665,14 +2665,14 @@
       "en": [
         "Data in Statement I alone is sufficient to answer the question while data in statement II is not",
         "Both statements I and II together are NOT sufficient to answer the question",
-        "Data in Statement II alone is sufficient to answer the question while data in statement I is not Both statements I and II together (and not",
-        "statement 1 alone or statement II alone) are sufficient to answer the question."
+        "Data in Statement II alone is sufficient to answer the question while data in statement I is not",
+        "Both statements I and II together (and not statement 1 alone or statement II alone) are sufficient to answer the question."
       ],
       "hi": [
-        "कथन I का डेटा पर्याप्त नहीं है।",
-        "कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं। कथन I और II दोनों एक साथ ( और केवल कथन 1 या कथन",
-        "कथन II का डेटा पर्याप्त नहीं है।",
-        "II अके ले नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त हैं। केवल कथन I का डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि"
+        "केवल कथन I का डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II का डेटा पर्याप्त नहीं है।",
+        "कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "केवल कथन II का डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I का डेटा पर्याप्त नहीं है।",
+        "कथन I और II दोनों एक साथ ( और केवल कथन 1 या कथन II अके ले नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
       ]
     },
     "correctIndex": 3,
@@ -2681,8 +2681,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (statement 1 alone or statement II alone) are sufficient to answer the question.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (II अके ले नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त हैं। केवल कथन I का डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Both statements I and II together (and not statement 1 alone or statement II alone) are sufficient to answer the question.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (कथन I और II दोनों एक साथ ( और केवल कथन 1 या कथन II अके ले नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।) सही उत्तर है।"
     }
   },
   {
@@ -2703,10 +2703,10 @@
         "du"
       ],
       "hi": [
-        "du",
+        "kt",
         "rg",
         "vc",
-        "kt General Awareness"
+        "du"
       ]
     },
     "correctIndex": 2,
@@ -2737,9 +2737,9 @@
         "Dharmendra Singh Deol"
       ],
       "hi": [
+        "डॉ . एन . राजम",
         "पीयूष पांडे",
         "उदय कोटक",
-        "डॉ . एन . राजम",
         "धर्मेन्द्र सिंह देओल"
       ]
     },
@@ -2773,8 +2773,8 @@
       "hi": [
         "कु आलालंपुर शांति समझौता",
         "बैंकॉक घोषणा",
-        "जकार्ता संधि",
-        "नोम पेन्ह समझौता"
+        "नोम पेन्ह समझौता",
+        "जकार्ता संधि"
       ]
     },
     "correctIndex": 0,
@@ -2806,9 +2806,9 @@
       ],
       "hi": [
         "शुभेंदु अधिकारी",
+        "अभिषेक बनर्जी",
         "दिलीप घोष",
-        "मुकु ल रॉय",
-        "अभिषेक बनर्जी"
+        "मुकु ल रॉय"
       ]
     },
     "correctIndex": 0,
@@ -2873,9 +2873,9 @@
         "Motihari"
       ],
       "hi": [
-        "गया",
-        "भागलपुर",
         "पटना",
+        "भागलपुर",
+        "गया",
         "मोतिहारी"
       ]
     },
@@ -2907,10 +2907,10 @@
         "Defence Institute of Advanced Technology"
       ],
       "hi": [
-        "उन्नत प्रौद्योगिकी रक्षा संस्थान (Defence Institute of Advanced Technology)",
+        "टाटा एडवांस्ड सिस्टम्स (Tata Advanced Systems)",
         "रक्षा अनुसंधान एवं विकास संगठन (Defence Research and Development Organisation)",
-        "टाटा एडवांस्ड सिस्टम्स (Tata Advanced Systems) भारतीय अंतरिक्ष अनुसंधान संगठन (Indian Space Research",
-        "Organisation)"
+        "भारतीय अंतरिक्ष अनुसंधान संगठन (Indian Space Research Organisation)",
+        "उन्नत प्रौद्योगिकी रक्षा संस्थान (Defence Institute of Advanced Technology)"
       ]
     },
     "correctIndex": 1,
@@ -2943,8 +2943,8 @@
       "hi": [
         "केवल - प्रौद्योगिकी उपागम (Technology-only approach)",
         "समग्रतात्मक और पीड़ित - केंद्रित उपागम (Holistic and victim-centric approach)",
-        "उद्योग - केंद्रित उपागम (Industry-centric approach)",
-        "बाजार - संचालित उपागम (Market-driven approach)"
+        "बाजार - संचालित उपागम (Market-driven approach)",
+        "उद्योग - केंद्रित उपागम (Industry-centric approach)"
       ]
     },
     "correctIndex": 1,
@@ -2975,8 +2975,8 @@
         "Karnataka"
       ],
       "hi": [
-        "मध्य प्रदेश",
         "के रल",
+        "मध्य प्रदेश",
         "गुजरात",
         "कर्नाटक"
       ]
@@ -3009,9 +3009,9 @@
         "David Chipperfield"
       ],
       "hi": [
-        "फ्रांसिस के रे (Francis Kéré)",
-        "स्मिलजान रेडिक क्लार्क (Smiljan Radić Clarke)",
         "ऐनी लैकाटन (Anne Lacaton)",
+        "स्मिलजान रेडिक क्लार्क (Smiljan Radić Clarke)",
+        "फ्रांसिस के रे (Francis Kéré)",
         "डेविड चिपरफील्ड (David Chipperfield)"
       ]
     },
@@ -3078,9 +3078,9 @@
       ],
       "hi": [
         "Storage ( स्टोरेज )",
-        "Security ( सिक्योरिटी )",
         "Sustainability ( सस्टेनेबिलिटी )",
-        "Supply ( सप्लाई )"
+        "Supply ( सप्लाई )",
+        "Security ( सिक्योरिटी )"
       ]
     },
     "correctIndex": 0,
@@ -3111,10 +3111,10 @@
         "Barometric Plasma Pressure Sensor"
       ],
       "hi": [
-        "Pressure Sensor)",
-        "मैग्नेटिक फ्लक्स कम्पास एलाइनर (Magnetic Flux Compass Aligner) डॉप्लर लेजर रेंजिंग ट्रांसिवर (Doppler Laser Ranging",
+        "डॉप्लर लेजर रेंजिंग ट्रांसिवर (Doppler Laser Ranging Transceiver)",
+        "मैग्नेटिक फ्लक्स कम्पास एलाइनर (Magnetic Flux Compass Aligner)",
         "इमेजिंग इन्फ्रारेड होमिंग सीकर (Imaging Infrared Homing Seeker)",
-        "Transceiver)"
+        "बैरोमेट्रिक प्लाज्मा प्रेशर सेंसर (Barometric Plasma Pressure Sensor)"
       ]
     },
     "correctIndex": 2,
@@ -3146,8 +3146,8 @@
       ],
       "hi": [
         "संघ लोक सेवा आयोग",
-        "विश्वविद्यालय अनुदान आयोग",
         "राष्ट्रीय चिकित्सा आयोग",
+        "विश्वविद्यालय अनुदान आयोग",
         "राष्ट्रीय परीक्षा एजेंसी"
       ]
     },
@@ -3179,8 +3179,8 @@
         "National Youth Day"
       ],
       "hi": [
-        "विश्व विरासत दिवस (World Heritage Day)",
         "विश्व पुस्तक एवं कॉपीराइट दिवस (World Book and Copyright Day)",
+        "विश्व विरासत दिवस (World Heritage Day)",
         "राष्ट्रीय पंचायती राज दिवस (National Panchayati Raj Day)",
         "राष्ट्रीय युवा दिवस (National Youth Day)"
       ]
@@ -3248,9 +3248,9 @@
       ],
       "hi": [
         "केवल OTP वेरिफिके शन",
-        "केवल QR कोड वेरिफिके शन",
+        "सिंगल - फै क्टर पासवर्ड ऑथेंटिके शन",
         "टू - फै क्टर ऑथेंटिके शन",
-        "सिंगल - फै क्टर पासवर्ड ऑथेंटिके शन"
+        "केवल QR कोड वेरिफिके शन"
       ]
     },
     "correctIndex": 2,
@@ -3281,8 +3281,8 @@
         "Egypt"
       ],
       "hi": [
-        "मोरक्को",
         "के न्या",
+        "मोरक्को",
         "दक्षिण अफ्रीका",
         "मिस्र"
       ]
@@ -3317,8 +3317,8 @@
       "hi": [
         "चंडीगढ़",
         "लद्दाख",
-        "पुडुचेरी",
-        "लक्षद्वीप"
+        "लक्षद्वीप",
+        "पुडुचेरी"
       ]
     },
     "correctIndex": 1,
@@ -3350,9 +3350,9 @@
       ],
       "hi": [
         "गंगा जल संधि",
-        "तीस्ता नदी समझौता",
+        "महाकाली संधि",
         "सिंधु जल संधि",
-        "महाकाली संधि"
+        "तीस्ता नदी समझौता"
       ]
     },
     "correctIndex": 2,
@@ -3383,10 +3383,10 @@
         "Bhutan"
       ],
       "hi": [
-        "भूटान",
+        "श्रीलंका",
         "बांग्लादेश",
         "नेपाल",
-        "श्रीलंका"
+        "भूटान"
       ]
     },
     "correctIndex": 2,

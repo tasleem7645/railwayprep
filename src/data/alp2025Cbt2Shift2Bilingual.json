@@ -19,8 +19,8 @@
       "hi": [
         "Compact Disc, Optical Storage (कॉम्पैक्ट डिस्क, ऑप्टिकल स्टोरेज)",
         "Compact Drive, Optical Storage (कॉम्पैक्ट ड्राइव, ऑप्टिकल स्टोरेज)",
-        "Compact Drive, Magnetic Storage (कॉम्पैक्ट ड्राइव, मैग्नेटिक स्टोरेज)",
-        "Compact Disc, Magnetic Storage (कॉम्पैक्ट डिस्क, मैग्नेटिक स्टोरेज)"
+        "Compact Disc, Magnetic Storage (कॉम्पैक्ट डिस्क, मैग्नेटिक स्टोरेज)",
+        "Compact Drive, Magnetic Storage (कॉम्पैक्ट ड्राइव, मैग्नेटिक स्टोरेज)"
       ]
     },
     "correctIndex": 0,
@@ -28,8 +28,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (Compact Disc, Optical Storage). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (Compact Disc, Optical Storage (कॉम्पैक्ट डिस्क, ऑप्टिकल स्टोरेज))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (Compact Disc, Optical Storage (कॉम्पैक्ट डिस्क, ऑप्टिकल स्टोरेज))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 2,
@@ -50,9 +51,9 @@
       ],
       "hi": [
         "यांत्रिक लाभ",
-        "रैंप के अनुदिश तय की जाने वाली दूरी",
         "बॉक्स को ऊपर उठाने में किया गया कार्य",
-        "अभीष्ट बल"
+        "अभीष्ट बल",
+        "रैंप के अनुदिश तय की जाने वाली दूरी"
       ]
     },
     "correctIndex": 1,
@@ -60,8 +61,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (The work done in raising the box). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (रैंप के अनुदिश तय की जाने वाली दूरी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (बॉक्स को ऊपर उठाने में किया गया कार्य)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 3,
@@ -81,10 +83,10 @@
         "The distance is 120 meters; the displacement is 120 meters"
       ],
       "hi": [
-        "दूरी 120 मीटर है; विस्थापन 120 मीटर है",
         "दूरी 120 मीटर है; विस्थापन 200 मीटर है",
+        "दूरी 200 मीटर है; विस्थापन 200 मीटर है",
         "दूरी 200 मीटर है; विस्थापन 120 मीटर है",
-        "दूरी 200 मीटर है; विस्थापन 200 मीटर है"
+        "दूरी 120 मीटर है; विस्थापन 120 मीटर है"
       ]
     },
     "correctIndex": 2,
@@ -92,8 +94,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (The distance is 200 meters; the displacement is 120 meters). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (दूरी 200 मीटर है; विस्थापन 120 मीटर है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (दूरी 200 मीटर है; विस्थापन 120 मीटर है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 4,
@@ -113,10 +116,10 @@
         "An object with greater mass but lower speed will have more kinetic energy."
       ],
       "hi": [
+        "कम द्रव्यमान और निम्नतर चाल वाली वस्तु में गतिज ऊर्जा अधिक होगी।",
         "अधिक द्रव्यमान और उच्चतर चाल वाली वस्तु में गतिज ऊर्जा अधिक होगी।",
-        "अधिक द्रव्यमान लेकिन निम्नतर चाल वाली वस्तु में गतिज ऊर्जा अधिक होगी।",
         "समान द्रव्यमान लेकिन उच्चतर चाल वाली वस्तु में गतिज ऊर्जा कम होगी।",
-        "कम द्रव्यमान और निम्नतर चाल वाली वस्तु में गतिज ऊर्जा अधिक होगी।"
+        "अधिक द्रव्यमान लेकिन निम्नतर चाल वाली वस्तु में गतिज ऊर्जा अधिक होगी।"
       ]
     },
     "correctIndex": 1,
@@ -124,8 +127,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (An object with greater mass and higher speed will have more kinetic energy.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (अधिक द्रव्यमान लेकिन निम्नतर चाल वाली वस्तु में गतिज ऊर्जा अधिक होगी।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (अधिक द्रव्यमान और उच्चतर चाल वाली वस्तु में गतिज ऊर्जा अधिक होगी।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 5,
@@ -145,10 +149,10 @@
         "Each character is shaded after drawing."
       ],
       "hi": [
-        "प्रत्येक अक्षर एक ही सतत स्ट्रोक से बनाया जाता है",
         "प्रत्येक अक्षर कई समानांतर रेखाओं से बना होता है",
-        "प्रत्येक अक्षर को ड्राइंग बनाने के बाद छायांकित किया जाता है",
-        "प्रत्येक अक्षर की आउटलाइन बनाई जाती है और फिर उसे भरा जाता है"
+        "प्रत्येक अक्षर एक ही सतत स्ट्रोक से बनाया जाता है",
+        "प्रत्येक अक्षर की आउटलाइन बनाई जाती है और फिर उसे भरा जाता है",
+        "प्रत्येक अक्षर को ड्राइंग बनाने के बाद छायांकित किया जाता है"
       ]
     },
     "correctIndex": 1,
@@ -156,8 +160,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (Each character is made with one continuous stroke.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (प्रत्येक अक्षर कई समानांतर रेखाओं से बना होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (प्रत्येक अक्षर एक ही सतत स्ट्रोक से बनाया जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 6,
@@ -178,9 +183,9 @@
       ],
       "hi": [
         "7.57 सेकं ड",
-        "9.25 सेकं ड",
+        "8.43 सेकं ड",
         "8.57 सेकं ड",
-        "8.43 सेकं ड"
+        "9.25 सेकं ड"
       ]
     },
     "correctIndex": 2,
@@ -188,8 +193,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (8.57 seconds). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (8.57 सेकं ड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (8.57 सेकं ड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 7,
@@ -209,10 +215,10 @@
         "Four"
       ],
       "hi": [
+        "छह",
         "पांच",
-        "चार",
         "तीन",
-        "छह"
+        "चार"
       ]
     },
     "correctIndex": 3,
@@ -220,8 +226,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Four). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (छह)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (चार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 8,
@@ -241,10 +248,10 @@
         "Speed of the vehicle"
       ],
       "hi": [
-        "गंतव्य तक पहुंचने में लगने वाला समय",
-        "वाहन की चाल",
         "यात्रा की दिशा",
-        "एक संदर्भ बिंदु से दूरी"
+        "एक संदर्भ बिंदु से दूरी",
+        "गंतव्य तक पहुंचने में लगने वाला समय",
+        "वाहन की चाल"
       ]
     },
     "correctIndex": 1,
@@ -252,8 +259,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (Distance from a reference point). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (वाहन की चाल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (एक संदर्भ बिंदु से दूरी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 9,
@@ -273,10 +281,10 @@
         "Household kitchen garbage"
       ],
       "hi": [
-        "औद्योगिक प्रक्रिया अपशिष्ट",
-        "घरेलू रसोई का कचरा",
+        "अस्पताल का बायोमेडिकल अपशिष्ट",
         "खनन पुच्छन",
-        "अस्पताल का बायोमेडिकल अपशिष्ट"
+        "औद्योगिक प्रक्रिया अपशिष्ट",
+        "घरेलू रसोई का कचरा"
       ]
     },
     "correctIndex": 3,
@@ -284,8 +292,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Household kitchen garbage). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (अस्पताल का बायोमेडिकल अपशिष्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (घरेलू रसोई का कचरा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 10,
@@ -305,8 +314,8 @@
         "Blowing chips away with compressed air around the lathe"
       ],
       "hi": [
-        "धातु के छीलन को सीधे नग्न हाथों से पोंछना",
         "खराद से धातु की धूल हटाने के लिए रैग का उपयोग करना",
+        "धातु के छीलन को सीधे नग्न हाथों से पोंछना",
         "खराद से धातु के छीलन को हटाने के लिए ब्रश का उपयोग करना",
         "खराद के चारों ओर संपीड़ित वायु से छीलन को उड़ाना"
       ]
@@ -316,8 +325,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (Using a brush to remove metal chips from the lathe). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (खराद से धातु के छीलन को हटाने के लिए ब्रश का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (खराद से धातु के छीलन को हटाने के लिए ब्रश का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 11,
@@ -337,10 +347,10 @@
         "336"
       ],
       "hi": [
-        "336",
         "378",
         "350",
-        "357"
+        "357",
+        "336"
       ]
     },
     "correctIndex": 2,
@@ -348,8 +358,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (357). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (350)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (357)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 12,
@@ -369,10 +380,10 @@
         "14,000"
       ],
       "hi": [
-        "12,000",
-        "14,000",
+        "7,500",
         "15,500",
-        "7,500"
+        "12,000",
+        "14,000"
       ]
     },
     "correctIndex": 3,
@@ -380,8 +391,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (14,000). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (7,500)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (14,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 13,
@@ -402,9 +414,9 @@
       ],
       "hi": [
         "27 किलोमीटर",
-        "131 किलोमीटर",
+        "31 किलोमीटर",
         "52 किलोमीटर",
-        "31 किलोमीटर"
+        "131 किलोमीटर"
       ]
     },
     "correctIndex": 0,
@@ -412,8 +424,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (27 kilometers). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (27 किलोमीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (27 किलोमीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 14,
@@ -433,10 +446,10 @@
         "To display output on the screen"
       ],
       "hi": [
-        "प्रोग्राम अनुदेशों को निष्पादित करना",
         "दीर्घकालिक डेटा संग्रहीत करना",
-        "स्क्रीन पर आउटपुट प्रदर्शित करना",
-        "नेटवर्क कनेक्शनों को प्रबंधित करना"
+        "प्रोग्राम अनुदेशों को निष्पादित करना",
+        "नेटवर्क कनेक्शनों को प्रबंधित करना",
+        "स्क्रीन पर आउटपुट प्रदर्शित करना"
       ]
     },
     "correctIndex": 1,
@@ -444,8 +457,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (To execute program instructions). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (दीर्घकालिक डेटा संग्रहीत करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (प्रोग्राम अनुदेशों को निष्पादित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 15,
@@ -465,10 +479,10 @@
         "Three"
       ],
       "hi": [
+        "दो",
         "एक भी नहीं",
-        "तीन",
         "एक",
-        "दो"
+        "तीन"
       ]
     },
     "correctIndex": 3,
@@ -476,8 +490,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Three). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 16,
@@ -498,8 +513,8 @@
       ],
       "hi": [
         "रोधन के द्वारा विद्युत आघात से सुरक्षा के लिए",
-        "तारों को भारी बनाने के लिए",
         "अधिक ऊष्मा उत्पन्न करने के लिए",
+        "तारों को भारी बनाने के लिए",
         "विद्युत धारा के प्रवाह को बढ़ाने के लिए"
       ]
     },
@@ -508,8 +523,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (To prevent electric shocks by insulation). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (रोधन के द्वारा विद्युत आघात से सुरक्षा के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (रोधन के द्वारा विद्युत आघात से सुरक्षा के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 17,
@@ -530,9 +546,9 @@
       ],
       "hi": [
         "उसी बैकपैक को क्षैतिज रूप से 2 मीटर तक ले जाना",
+        "एक अपेक्षाकृ त भारी बैकपैक को उसी 2 मीटर ऊं चे कगार पर उठाना",
         "उसी बैकपैक को 1 मीटर ऊं चे कगार पर उठाना",
-        "एक अपेक्षाकृ त हल्के बैकपैक को उसी 2 मीटर ऊं चे कगार पर उठाना",
-        "एक अपेक्षाकृ त भारी बैकपैक को उसी 2 मीटर ऊं चे कगार पर उठाना"
+        "एक अपेक्षाकृ त हल्के बैकपैक को उसी 2 मीटर ऊं चे कगार पर उठाना"
       ]
     },
     "correctIndex": 1,
@@ -540,8 +556,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (Lifting a heavier backpack to the same 2-meter ledge). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (उसी बैकपैक को 1 मीटर ऊं चे कगार पर उठाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (एक अपेक्षाकृ त भारी बैकपैक को उसी 2 मीटर ऊं चे कगार पर उठाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 18,
@@ -562,9 +579,9 @@
       ],
       "hi": [
         "मध्यवर्ती सत्यापन किए बिना सतत रूप से सभी कोण आरेखित करना",
-        "अंतिम रूप देने से पहले पेंसिल द्वारा सभी कोणों को हल्के से चिह्नित करना",
         "सभी पुनरावृत्त कोणों के लिए एक ही निर्देश रेखा का उपयोग करना",
-        "सभी कोणों के लिए केवल प्रारंभिक चांदा संरेखण पर निर्भर रहना"
+        "सभी कोणों के लिए केवल प्रारंभिक चांदा संरेखण पर निर्भर रहना",
+        "अंतिम रूप देने से पहले पेंसिल द्वारा सभी कोणों को हल्के से चिह्नित करना"
       ]
     },
     "correctIndex": 1,
@@ -572,8 +589,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (Using the same reference line for all repeated angles). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (अंतिम रूप देने से पहले पेंसिल द्वारा सभी कोणों को हल्के से चिह्नित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (सभी पुनरावृत्त कोणों के लिए एक ही निर्देश रेखा का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 19,
@@ -593,10 +611,10 @@
         "It is always radioactive and requires heavy shielding."
       ],
       "hi": [
-        "यह सदैव रेडियोधर्मी होता है और इसके लिए अत्यधिक परिरक्षण की आवश्यकता होती है",
         "इसमें संक्रामक कारक हो सकते हैं जो स्वास्थ्य जोखिम उत्पन्न करते हैं",
+        "अन्य प्रकार के अपशिष्टों की तुलना में इसके पुनर्चक्रित होने की संभावना अधिक होती है",
         "इसमें अधिक रासायनिक सामग्री होती हैं और यह सदैव विषाक्त होता है",
-        "अन्य प्रकार के अपशिष्टों की तुलना में इसके पुनर्चक्रित होने की संभावना अधिक होती है"
+        "यह सदैव रेडियोधर्मी होता है और इसके लिए अत्यधिक परिरक्षण की आवश्यकता होती है"
       ]
     },
     "correctIndex": 0,
@@ -604,8 +622,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (It may contain infectious agents that pose health risks.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (यह सदैव रेडियोधर्मी होता है और इसके लिए अत्यधिक परिरक्षण की आवश्यकता होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (इसमें संक्रामक कारक हो सकते हैं जो स्वास्थ्य जोखिम उत्पन्न करते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 20,
@@ -625,10 +644,10 @@
         "5"
       ],
       "hi": [
-        "4",
         "3",
-        "5",
-        "6"
+        "4",
+        "6",
+        "5"
       ]
     },
     "correctIndex": 2,
@@ -636,8 +655,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (6). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (6)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 21,
@@ -668,8 +688,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (4/5). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (4/5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (4/5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 22,
@@ -689,10 +710,10 @@
         "₹82,000"
       ],
       "hi": [
-        "₹75,000",
-        "₹82,000",
+        "₹80,000",
         "₹78,000",
-        "₹80,000"
+        "₹75,000",
+        "₹82,000"
       ]
     },
     "correctIndex": 0,
@@ -700,8 +721,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (₹80,000). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (₹75,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (₹80,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 23,
@@ -721,10 +743,10 @@
         "B"
       ],
       "hi": [
+        "C",
         "A",
-        "B",
         "E",
-        "C"
+        "B"
       ]
     },
     "correctIndex": 2,
@@ -732,8 +754,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (E). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (E)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (E)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 24,
@@ -753,10 +776,10 @@
         "44"
       ],
       "hi": [
-        "44",
         "48",
         "36",
-        "40"
+        "40",
+        "44"
       ]
     },
     "correctIndex": 2,
@@ -764,8 +787,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (40). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (36)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (40)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 25,
@@ -785,10 +809,10 @@
         "Mother's sister"
       ],
       "hi": [
-        "बहन",
         "माता",
-        "माता की बहन",
-        "माता की माता"
+        "बहन",
+        "माता की माता",
+        "माता की बहन"
       ]
     },
     "correctIndex": 2,
@@ -796,8 +820,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (Mother's mother). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (माता की बहन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (माता की माता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 26,
@@ -817,10 +842,10 @@
         "A pair of long and short parallel lines placed alternately"
       ],
       "hi": [
-        "केवल एक लंबी रेखा",
         "एक साथ आरेखित दो छोटी रेखाएं",
-        "एकांतर रूप से आरेखित की गई लंबी और छोटी समानांतर रेखाओं का एक युग्म",
-        "श्रेणीक्रम में संयोजित दो वृत्त"
+        "केवल एक लंबी रेखा",
+        "श्रेणीक्रम में संयोजित दो वृत्त",
+        "एकांतर रूप से आरेखित की गई लंबी और छोटी समानांतर रेखाओं का एक युग्म"
       ]
     },
     "correctIndex": 3,
@@ -828,8 +853,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (A pair of long and short parallel lines placed alternately). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (श्रेणीक्रम में संयोजित दो वृत्त)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (एकांतर रूप से आरेखित की गई लंबी और छोटी समानांतर रेखाओं का एक युग्म)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 27,
@@ -849,10 +875,10 @@
         "300 N, because the Moon's gravity is about one-half of Earth's."
       ],
       "hi": [
-        "300 N, क्योंकि चंद्रमा का गुरुत्व, पृथ्वी के गुरुत्व का लगभग आधा होता है।",
         "200 N, क्योंकि चंद्रमा का गुरुत्व, पृथ्वी के गुरूत्व का लगभग एक-तिहाई होता है।",
         "100 N, क्योंकि चंद्रमा का गुरूत्व, पृथ्वी के गुरूत्व का लगभग होता है।",
-        "600 N, क्योंकि चंद्रमा पर किसी भी व्यक्ति का भार अपरिवर्तित रहता है।"
+        "600 N, क्योंकि चंद्रमा पर किसी भी व्यक्ति का भार अपरिवर्तित रहता है।",
+        "300 N, क्योंकि चंद्रमा का गुरुत्व, पृथ्वी के गुरुत्व का लगभग आधा होता है।"
       ]
     },
     "correctIndex": 1,
@@ -860,8 +886,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (100 N, because the Moon's gravity is about one-sixth of Earth's.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (200 N, क्योंकि चंद्रमा का गुरुत्व, पृथ्वी के गुरूत्व का लगभग एक-तिहाई होता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (100 N, क्योंकि चंद्रमा का गुरूत्व, पृथ्वी के गुरूत्व का लगभग होता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 28,
@@ -881,10 +908,10 @@
         "doubled"
       ],
       "hi": [
-        "आधी हो जाएगी",
+        "अपरिवर्तित रहेगी",
         "घटकर एक-चौथाई",
-        "दोगुनी हो जाएगी",
-        "अपरिवर्तित रहेगी"
+        "आधी हो जाएगी",
+        "दोगुनी हो जाएगी"
       ]
     },
     "correctIndex": 3,
@@ -892,8 +919,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (doubled). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (अपरिवर्तित रहेगी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (दोगुनी हो जाएगी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 29,
@@ -913,10 +941,10 @@
         "6 hours"
       ],
       "hi": [
-        "6 घंटे",
+        "7 घंटे",
         "9 घंटे",
         "8 घंटे",
-        "7 घंटे"
+        "6 घंटे"
       ]
     },
     "correctIndex": 1,
@@ -924,8 +952,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (9 hours). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (9 घंटे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (9 घंटे)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 30,
@@ -945,10 +974,10 @@
         "RDXY"
       ],
       "hi": [
-        "QDYY",
-        "RDXY",
+        "QEYZ",
         "REXZ",
-        "QEYZ"
+        "QDYY",
+        "RDXY"
       ]
     },
     "correctIndex": 3,
@@ -956,8 +985,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (RDXY). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (QEYZ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (RDXY)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 31,
@@ -977,10 +1007,10 @@
         "7"
       ],
       "hi": [
-        "7",
+        "9",
         "6",
         "8",
-        "9"
+        "7"
       ]
     },
     "correctIndex": 0,
@@ -988,8 +1018,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (9). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (7)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (9)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 32,
@@ -1009,10 +1040,10 @@
         "3 hours 36 minutes"
       ],
       "hi": [
-        "3 घंटे 16 मिनट",
-        "3 घंटे 36 मिनट",
+        "3 घंटे 26 मिनट",
         "3 घंटे 6 मिनट",
-        "3 घंटे 26 मिनट"
+        "3 घंटे 16 मिनट",
+        "3 घंटे 36 मिनट"
       ]
     },
     "correctIndex": 3,
@@ -1020,8 +1051,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (3 hours 36 minutes). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (3 घंटे 26 मिनट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (3 घंटे 36 मिनट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 33,
@@ -1041,10 +1073,10 @@
         "9000 square meters"
       ],
       "hi": [
-        "9000 वर्ग मीटर",
-        "1800 वर्ग मीटर",
         "19500 वर्ग मीटर",
-        "15000 वर्ग मीटर"
+        "15000 वर्ग मीटर",
+        "1800 वर्ग मीटर",
+        "9000 वर्ग मीटर"
       ]
     },
     "correctIndex": 3,
@@ -1052,8 +1084,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (9000 square meters). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (15000 वर्ग मीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (9000 वर्ग मीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 34,
@@ -1073,10 +1106,10 @@
         "One"
       ],
       "hi": [
-        "एक",
+        "एक भी नहीं",
         "दो",
         "तीन",
-        "एक भी नहीं"
+        "एक"
       ]
     },
     "correctIndex": 3,
@@ -1084,8 +1117,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (One). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (एक भी नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 35,
@@ -1106,9 +1140,9 @@
       ],
       "hi": [
         "YTN",
+        "ZTM",
         "XSM",
-        "ZUO",
-        "ZTM"
+        "ZUO"
       ]
     },
     "correctIndex": 0,
@@ -1116,8 +1150,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (YTN). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (YTN)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (YTN)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 36,
@@ -1137,10 +1172,10 @@
         "32"
       ],
       "hi": [
-        "30",
         "35",
-        "32",
-        "28"
+        "28",
+        "30",
+        "32"
       ]
     },
     "correctIndex": 2,
@@ -1148,8 +1183,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (30). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (32)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (30)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 37,
@@ -1169,10 +1205,10 @@
         "A1 size sheet"
       ],
       "hi": [
-        "A2 साइज़ शीट",
-        "A1 साइज़ शीट",
         "A0 साइज़ शीट",
-        "A3 साइज़ शीट"
+        "A2 साइज़ शीट",
+        "A3 साइज़ शीट",
+        "A1 साइज़ शीट"
       ]
     },
     "correctIndex": 0,
@@ -1180,8 +1216,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (A0 size sheet). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (A2 साइज़ शीट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (A0 साइज़ शीट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 38,
@@ -1203,8 +1240,8 @@
       "hi": [
         "दोनों कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्तनहींहैं।",
         "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
-        "केवल कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि केवल कथन I में दी गई जानकारी पर्याप्त नहीं है।",
-        "दोनों कथन I और II एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
+        "दोनों कथन I और II एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
+        "केवल कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि केवल कथन I में दी गई जानकारी पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 0,
@@ -1212,8 +1249,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (Both statements I and II together are NOT sufficient to answer the question). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (दोनों कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्तनहींहैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (दोनों कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्तनहींहैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 39,
@@ -1234,9 +1272,9 @@
       ],
       "hi": [
         "10 डिग्री सेल्सियस",
-        "2 डिग्री सेल्सियस",
+        "1 डिग्री सेल्सियस",
         "0.5 डिग्री सेल्सियस",
-        "1 डिग्री सेल्सियस"
+        "2 डिग्री सेल्सियस"
       ]
     },
     "correctIndex": 1,
@@ -1244,8 +1282,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (1 degree Celsius). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (2 डिग्री सेल्सियस)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (1 डिग्री सेल्सियस)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 40,
@@ -1265,10 +1304,10 @@
         "D"
       ],
       "hi": [
+        "A",
         "C",
         "Y",
-        "D",
-        "A"
+        "D"
       ]
     },
     "correctIndex": 0,
@@ -1276,8 +1315,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (A). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (C)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 41,
@@ -1297,9 +1337,9 @@
         "Enhancing vertical air mixing through artificial turbulence"
       ],
       "hi": [
+        "क्षैतिज प्रकीर्णन को न्यूनतम करने के लिए स्थानीय पवन चाल को कम करना",
         "उत्सर्जन स्रोतों के पास सतही तापमान में वृद्धि करना",
         "उत्सर्जन स्रोतों का प्रतिलोमन परतों से उत्थापन करना",
-        "क्षैतिज प्रकीर्णन को न्यूनतम करने के लिए स्थानीय पवन चाल को कम करना",
         "कृ त्रिम विक्षोभ के माध्यम से ऊर्ध्वाधर वायु मिश्रण को बढ़ाना"
       ]
     },
@@ -1308,8 +1348,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Enhancing vertical air mixing through artificial turbulence). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (कृ त्रिम विक्षोभ के माध्यम से ऊर्ध्वाधर वायु मिश्रण को बढ़ाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (कृ त्रिम विक्षोभ के माध्यम से ऊर्ध्वाधर वायु मिश्रण को बढ़ाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 42,
@@ -1330,9 +1371,9 @@
       ],
       "hi": [
         "SPQ 107",
-        "TPQ 107",
+        "SPQ 106",
         "TPQ 106",
-        "SPQ 106"
+        "TPQ 107"
       ]
     },
     "correctIndex": 1,
@@ -1340,8 +1381,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (SPQ 106). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (TPQ 107)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (SPQ 106)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 43,
@@ -1372,8 +1414,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (160). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (160)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (160)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 44,
@@ -1393,10 +1436,10 @@
         "RL-SN"
       ],
       "hi": [
-        "RL-SN",
         "PJ-QK",
         "HB-IC",
-        "FZ-GA"
+        "FZ-GA",
+        "RL-SN"
       ]
     },
     "correctIndex": 3,
@@ -1404,8 +1447,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (RL-SN). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (FZ-GA)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (RL-SN)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 45,
@@ -1427,8 +1471,8 @@
       "hi": [
         "निष्कर्ष (I) और निष्कर्ष (II) दोनों अनुसरण करते हैं।",
         "न तो निष्कर्ष (I) और न ही निष्कर्ष (II) अनुसरण करता है।",
-        "केवल निष्कर्ष (I) अनुसरण करता है।",
-        "केवल निष्कर्ष (II) अनुसरण करता है।"
+        "केवल निष्कर्ष (II) अनुसरण करता है।",
+        "केवल निष्कर्ष (I) अनुसरण करता है।"
       ]
     },
     "correctIndex": 3,
@@ -1436,8 +1480,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Only conclusion (I) follows.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (केवल निष्कर्ष (II) अनुसरण करता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (केवल निष्कर्ष (I) अनुसरण करता है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 46,
@@ -1457,10 +1502,10 @@
         "27 km/h"
       ],
       "hi": [
-        "27 km/h",
         "23 km/h",
         "21 km/h",
-        "20 km/h"
+        "20 km/h",
+        "27 km/h"
       ]
     },
     "correctIndex": 2,
@@ -1468,8 +1513,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (20 km/h). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (21 km/h)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (20 km/h)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 47,
@@ -1489,10 +1535,10 @@
         "Waiting for a supervisor to notice hazards"
       ],
       "hi": [
-        "पर्यवेक्षक द्वारा खतरों पर ध्यान देने की प्रतीक्षा करना",
         "दुर्घटनाएं होने से पहले खतरों की पहचान करना और उन्हें ठीक करना",
+        "बैठकों में केवल पिछली सुरक्षा समस्याओं (past safety problems) पर चर्चा करना",
         "घटनाएं (incidents) होने के बाद खतरों की रिपोर्ट करना",
-        "बैठकों में केवल पिछली सुरक्षा समस्याओं (past safety problems) पर चर्चा करना"
+        "पर्यवेक्षक द्वारा खतरों पर ध्यान देने की प्रतीक्षा करना"
       ]
     },
     "correctIndex": 0,
@@ -1500,8 +1546,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (Identifying and correcting hazards before accidents occur). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (पर्यवेक्षक द्वारा खतरों पर ध्यान देने की प्रतीक्षा करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (दुर्घटनाएं होने से पहले खतरों की पहचान करना और उन्हें ठीक करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 48,
@@ -1521,10 +1568,10 @@
         "Rapid biodegradation and chemical leaching"
       ],
       "hi": [
-        "तापीय प्रदूषण और प्रभावी कम्पोस्टिंग",
-        "तीव्र जैवनिम्नीकरण और रासायनिक निक्षालन",
         "पर्यावरण में दीर्घस्थायित्व और माइक्रोप्लास्टिक निर्माण",
-        "निष्प्रभावन और आसान पुनर्चक्रण"
+        "तापीय प्रदूषण और प्रभावी कम्पोस्टिंग",
+        "निष्प्रभावन और आसान पुनर्चक्रण",
+        "तीव्र जैवनिम्नीकरण और रासायनिक निक्षालन"
       ]
     },
     "correctIndex": 0,
@@ -1532,8 +1579,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (Persistence in the environment and microplastic formation). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (तापीय प्रदूषण और प्रभावी कम्पोस्टिंग)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (पर्यावरण में दीर्घस्थायित्व और माइक्रोप्लास्टिक निर्माण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 49,
@@ -1554,9 +1602,9 @@
       ],
       "hi": [
         "आयास",
-        "भुजा",
+        "फलक्रम",
         "लोड",
-        "फलक्रम"
+        "भुजा"
       ]
     },
     "correctIndex": 2,
@@ -1564,8 +1612,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (Load). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (लोड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (लोड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 50,
@@ -1585,10 +1634,10 @@
         "11"
       ],
       "hi": [
-        "10.5",
-        "11",
         "10",
-        "11.5"
+        "10.5",
+        "11.5",
+        "11"
       ]
     },
     "correctIndex": 2,
@@ -1596,8 +1645,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (11.5). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (10)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (11.5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 51,
@@ -1617,10 +1667,10 @@
         "South"
       ],
       "hi": [
-        "दक्षिण",
-        "उत्तर",
+        "पूर्व",
         "पश्चिम",
-        "पूर्व"
+        "उत्तर",
+        "दक्षिण"
       ]
     },
     "correctIndex": 0,
@@ -1628,8 +1678,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (East). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (दक्षिण)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (पूर्व)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 52,
@@ -1649,10 +1700,10 @@
         "The rib is sectioned but the hole is left unsectioned"
       ],
       "hi": [
+        "छिद्र को परिच्छेदित किया जाता है लेकिन रिब को अपरिच्छेदित दिखाया जाता है",
         "छिद्र और रिब दोनों को अपरिच्छेदित दिखाया जाता है",
         "छिद्र और रिब दोनों को परिच्छेदित दिखाया जाता है",
-        "रिब को परिच्छेदित किया जाता है लेकिन छिद्र को अपरिच्छेदित छोड़ दिया जाता है",
-        "छिद्र को परिच्छेदित किया जाता है लेकिन रिब को अपरिच्छेदित दिखाया जाता है"
+        "रिब को परिच्छेदित किया जाता है लेकिन छिद्र को अपरिच्छेदित छोड़ दिया जाता है"
       ]
     },
     "correctIndex": 0,
@@ -1660,8 +1711,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (The hole is sectioned but the rib is shown unsectioned). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (छिद्र और रिब दोनों को अपरिच्छेदित दिखाया जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (छिद्र को परिच्छेदित किया जाता है लेकिन रिब को अपरिच्छेदित दिखाया जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 53,
@@ -1681,10 +1733,10 @@
         "2, 3 and 1"
       ],
       "hi": [
+        "1, 2 और 3",
         "2, 1 और 3",
         "3, 1 और 2",
-        "2, 3 और 1",
-        "1, 2 और 3"
+        "2, 3 और 1"
       ]
     },
     "correctIndex": 0,
@@ -1692,8 +1744,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (1, 2 and 3). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (2, 1 और 3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (1, 2 और 3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 54,
@@ -1713,10 +1766,10 @@
         "It shows the object as seen from above or below"
       ],
       "hi": [
-        "यह वस्तु को ऊपर या नीचे से देखने पर प्राप्त दृश्य दर्शाता है",
-        "यह वस्तु को बाएं या दाएं पार्श्व से देखने पर प्राप्त दृश्य दर्शाता है",
         "यह वस्तु को सम्मुख रूप से देखने पर प्राप्त दृश्य दर्शाता है",
-        "यह वस्तु के सभी दृश्यों का संयोजन दर्शाता है"
+        "यह वस्तु को बाएं या दाएं पार्श्व से देखने पर प्राप्त दृश्य दर्शाता है",
+        "यह वस्तु के सभी दृश्यों का संयोजन दर्शाता है",
+        "यह वस्तु को ऊपर या नीचे से देखने पर प्राप्त दृश्य दर्शाता है"
       ]
     },
     "correctIndex": 1,
@@ -1724,8 +1777,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (It shows the object as seen from left or right side). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (यह वस्तु को बाएं या दाएं पार्श्व से देखने पर प्राप्त दृश्य दर्शाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (यह वस्तु को बाएं या दाएं पार्श्व से देखने पर प्राप्त दृश्य दर्शाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 55,
@@ -1745,10 +1799,10 @@
         "A cuboid has all faces as squares of equal size."
       ],
       "hi": [
-        "घनाभ एक ऐसा ठोस है जिसमें छह आयताकार फलक होते हैं और सम्मुख फलक बराबर होते हैं",
-        "घनाभ के सभी फलक समान आमाप के वर्ग के रूप में होते हैं",
         "घनाभ की सभी भुजाएं और कोण बराबर होते हैं, जिस कारण यह घन के समान होता है",
-        "घनाभ एक ऐसा ठोस है जिसके सभी फलक समांतर चतुर्भुज होते हैं, परंतु उनका आयत होना आवश्यक नहीं है"
+        "घनाभ एक ऐसा ठोस है जिसके सभी फलक समांतर चतुर्भुज होते हैं, परंतु उनका आयत होना आवश्यक नहीं है",
+        "घनाभ एक ऐसा ठोस है जिसमें छह आयताकार फलक होते हैं और सम्मुख फलक बराबर होते हैं",
+        "घनाभ के सभी फलक समान आमाप के वर्ग के रूप में होते हैं"
       ]
     },
     "correctIndex": 2,
@@ -1756,8 +1810,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (A cuboid is a solid with six rectangular faces, and opposite faces are equal.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (घनाभ की सभी भुजाएं और कोण बराबर होते हैं, जिस कारण यह घन के समान होता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (घनाभ एक ऐसा ठोस है जिसमें छह आयताकार फलक होते हैं और सम्मुख फलक बराबर होते हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 56,
@@ -1777,10 +1832,10 @@
         "To link wireless devices only"
       ],
       "hi": [
-        "केवल वायरलेस डिवाइसों को लिंक करना",
         "छोटे भौगोलिक क्षेत्र के भीतर कं प्यूटरों को कनेक्ट करना",
         "वैश्विक नेटवर्कों को कनेक्ट करना",
-        "सोशल मीडिया अकाउंट को कनेक्ट करना"
+        "सोशल मीडिया अकाउंट को कनेक्ट करना",
+        "केवल वायरलेस डिवाइसों को लिंक करना"
       ]
     },
     "correctIndex": 0,
@@ -1788,8 +1843,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (To connect computers within a small geographical area). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (केवल वायरलेस डिवाइसों को लिंक करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (छोटे भौगोलिक क्षेत्र के भीतर कं प्यूटरों को कनेक्ट करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 57,
@@ -1809,8 +1865,8 @@
         "TCMBF"
       ],
       "hi": [
-        "FBMCT",
         "FCBMT",
+        "FBMCT",
         "TBMCF",
         "TCMBF"
       ]
@@ -1820,8 +1876,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (TBMCF). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (TBMCF)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (TBMCF)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 58,
@@ -1841,10 +1898,10 @@
         "12"
       ],
       "hi": [
-        "9",
         "15",
-        "12",
-        "18"
+        "9",
+        "18",
+        "12"
       ]
     },
     "correctIndex": 0,
@@ -1852,8 +1909,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (15). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (9)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (15)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 59,
@@ -1873,10 +1931,10 @@
         "It protects the thermometer from breaking easily."
       ],
       "hi": [
-        "यह बल्ब को कक्षीय वायु के संपर्क में रखकर यथार्थ पाठ्यांक सुनिश्चित करता है",
+        "यह तापमापी के अंदर द्रव के हिमीकरण को रोकता है",
         "यह तापमापी द्वारा शीघ्रता से शरीर का तापमान मापने में सहायक होता है",
-        "यह तापमापी को सरलता से टूटने से सुरक्षित रखता है",
-        "यह तापमापी के अंदर द्रव के हिमीकरण को रोकता है"
+        "यह बल्ब को कक्षीय वायु के संपर्क में रखकर यथार्थ पाठ्यांक सुनिश्चित करता है",
+        "यह तापमापी को सरलता से टूटने से सुरक्षित रखता है"
       ]
     },
     "correctIndex": 2,
@@ -1884,8 +1942,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (It ensures accurate reading by keeping the bulb exposed to room air.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (यह तापमापी को सरलता से टूटने से सुरक्षित रखता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (यह बल्ब को कक्षीय वायु के संपर्क में रखकर यथार्थ पाठ्यांक सुनिश्चित करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 60,
@@ -1907,8 +1966,8 @@
       "hi": [
         "नॉर्मली क्लोज्ड पुश बटन के प्रतीक को सामान्य स्विच के प्रतीक से प्रतिस्थापित करना",
         "स्कीम मानचित्र में नॉर्मली क्लोज्ड पुश बटन के बारे में स्पष्टतया शब्दों में वर्णन करना",
-        "कन्वेंशनों के अनुसार, नॉर्मली क्लोज्ड पुश बटन के लिए निर्धारित मानक प्रतीक का प्रयोग करना",
-        "पुश बटन का हस्त निर्मित प्रतिरूप बनाना और उसके कार्य की व्याख्या युक्त एक नोट लिखना"
+        "पुश बटन का हस्त निर्मित प्रतिरूप बनाना और उसके कार्य की व्याख्या युक्त एक नोट लिखना",
+        "कन्वेंशनों के अनुसार, नॉर्मली क्लोज्ड पुश बटन के लिए निर्धारित मानक प्रतीक का प्रयोग करना"
       ]
     },
     "correctIndex": 3,
@@ -1916,8 +1975,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Use the standardized symbol for a normally closed push button as per conventions). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (पुश बटन का हस्त निर्मित प्रतिरूप बनाना और उसके कार्य की व्याख्या युक्त एक नोट लिखना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (कन्वेंशनों के अनुसार, नॉर्मली क्लोज्ड पुश बटन के लिए निर्धारित मानक प्रतीक का प्रयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 61,
@@ -1948,8 +2008,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (65). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (65)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (65)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 62,
@@ -1969,10 +2030,10 @@
         "Buy from the third shopkeeper"
       ],
       "hi": [
-        "पहले या दूसरे दुकानदार से खरीदें क्योंकि दोनों समान हैं।",
         "पहले दुकानदार से खरीदें",
-        "तीसरे दुकानदार से खरीदें",
-        "दूसरे दुकानदार से खरीदें"
+        "पहले या दूसरे दुकानदार से खरीदें क्योंकि दोनों समान हैं।",
+        "दूसरे दुकानदार से खरीदें",
+        "तीसरे दुकानदार से खरीदें"
       ]
     },
     "correctIndex": 3,
@@ -1980,8 +2041,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Buy from the third shopkeeper). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (दूसरे दुकानदार से खरीदें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (तीसरे दुकानदार से खरीदें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 63,
@@ -2012,8 +2074,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (12 m). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (12 m)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (12 m)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 64,
@@ -2033,10 +2096,10 @@
         "4"
       ],
       "hi": [
-        "4",
-        "1",
+        "7",
         "2",
-        "7"
+        "1",
+        "4"
       ]
     },
     "correctIndex": 1,
@@ -2044,8 +2107,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (2). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 65,
@@ -2065,10 +2129,10 @@
         "Distance travelled in a particular direction divided by time"
       ],
       "hi": [
-        "तय की गई कु ल दूरी / कु ल समय",
+        "वेग में परिवर्तन / कु ल समय",
         "कु ल विस्थापन / कु ल समय",
-        "एक निश्चित दिशा में तय दूरी / समय",
-        "वेग में परिवर्तन / कु ल समय"
+        "तय की गई कु ल दूरी / कु ल समय",
+        "एक निश्चित दिशा में तय दूरी / समय"
       ]
     },
     "correctIndex": 2,
@@ -2076,8 +2140,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (Total distance travelled divided by the total time taken). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (एक निश्चित दिशा में तय दूरी / समय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (तय की गई कु ल दूरी / कु ल समय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 66,
@@ -2099,8 +2164,8 @@
       "hi": [
         "10 cm",
         "30 cm",
-        "40 cm",
-        "20 cm"
+        "20 cm",
+        "40 cm"
       ]
     },
     "correctIndex": 1,
@@ -2108,8 +2173,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (30 cm). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (30 cm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (30 cm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 67,
@@ -2131,8 +2197,8 @@
       "hi": [
         "लाल पृष्‍ठभूमि पर सफे द टेक्स्ट या प्रतीक",
         "पीली पृष्‍ठभूमि पर काले टेक्स्ट या प्रतीक",
-        "नीली पृष्‍ठभूमि पर सफे द टेक्स्ट या प्रतीक",
-        "हरी पृष्‍ठभूमि पर सफे द टेक्स्ट या प्रतीक"
+        "हरी पृष्‍ठभूमि पर सफे द टेक्स्ट या प्रतीक",
+        "नीली पृष्‍ठभूमि पर सफे द टेक्स्ट या प्रतीक"
       ]
     },
     "correctIndex": 2,
@@ -2140,8 +2206,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (Green background with white text or symbols). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (नीली पृष्‍ठभूमि पर सफे द टेक्स्ट या प्रतीक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (हरी पृष्‍ठभूमि पर सफे द टेक्स्ट या प्रतीक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 68,
@@ -2161,10 +2228,10 @@
         "Data in statement II alone is sufficient to answer the question while data in statement I is not"
       ],
       "hi": [
-        "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए\n पर्याप्त नहीं है।",
+        "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।",
+        "कथन I और II एक साथ (न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
         "कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
-        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए\n पर्याप्त नहीं है।",
-        "कथन I और II एक साथ (न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
+        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 2,
@@ -2172,8 +2239,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (Both statements I and II together are NOT sufficient to answer the question). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए\n पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 69,
@@ -2204,8 +2272,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (4 (1/6)%). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (4 (1/6)%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (4 (1/6)%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 70,
@@ -2225,10 +2294,10 @@
         "10.36%"
       ],
       "hi": [
-        "10.36 %",
-        "15.12 %",
+        "13.81 %",
         "12.64 %",
-        "13.81 %"
+        "15.12 %",
+        "10.36 %"
       ]
     },
     "correctIndex": 1,
@@ -2236,8 +2305,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (12.64%). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (15.12 %)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (12.64 %)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 71,
@@ -2258,9 +2328,9 @@
       ],
       "hi": [
         "(21, 33)",
+        "(14, 28)",
         "(17, 54)",
-        "(28, 49)",
-        "(14, 28)"
+        "(28, 49)"
       ]
     },
     "correctIndex": 2,
@@ -2268,8 +2338,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C ((17, 54)). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C ((28, 49))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C ((17, 54))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 72,
@@ -2289,10 +2360,10 @@
         "210 meters"
       ],
       "hi": [
-        "10 मीटर",
-        "210 मीटर",
         "60 मीटर",
-        "150 मीटर"
+        "10 मीटर",
+        "150 मीटर",
+        "210 मीटर"
       ]
     },
     "correctIndex": 3,
@@ -2300,8 +2371,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (210 meters). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (150 मीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (210 मीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 73,
@@ -2321,10 +2393,10 @@
         "1333"
       ],
       "hi": [
-        "1433",
         "1443",
-        "1333",
-        "1543"
+        "1543",
+        "1433",
+        "1333"
       ]
     },
     "correctIndex": 3,
@@ -2332,8 +2404,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (1333). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (1543)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (1333)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 74,
@@ -2353,10 +2426,10 @@
         "Only conclusion (II) follows"
       ],
       "hi": [
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं",
         "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है",
-        "केवल निष्कर्ष (II) अनुसरण करता है",
-        "केवल निष्कर्ष (I) अनुसरण करता है"
+        "केवल निष्कर्ष (I) अनुसरण करता है",
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं",
+        "केवल निष्कर्ष (II) अनुसरण करता है"
       ]
     },
     "correctIndex": 3,
@@ -2364,8 +2437,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Only conclusion (II) follows). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (केवल निष्कर्ष (I) अनुसरण करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (केवल निष्कर्ष (II) अनुसरण करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 75,
@@ -2385,8 +2459,8 @@
         "It calculates the average speed over a journey."
       ],
       "hi": [
-        "यह वाहन द्वारा तय की गई कु ल दूरी को मापता है",
         "यह उस वर्तमान चाल को प्रदर्शित करता है जिस पर वाहन गतिमान है",
+        "यह वाहन द्वारा तय की गई कु ल दूरी को मापता है",
         "यह वाहन की चाल में परिवर्तन की दर को दर्शाता है",
         "यह यात्रा के लिए औसत चाल की गणना करता है"
       ]
@@ -2396,8 +2470,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (It displays the current speed at which the vehicle is moving.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (यह वाहन द्वारा तय की गई कु ल दूरी को मापता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (यह उस वर्तमान चाल को प्रदर्शित करता है जिस पर वाहन गतिमान है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 76,
@@ -2418,8 +2493,8 @@
       ],
       "hi": [
         "₹92,846.25",
-        "₹89,846.25",
         "₹88,846.25",
+        "₹89,846.25",
         "₹89,946.25"
       ]
     },
@@ -2428,8 +2503,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (₹89,846.25). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹88,846.25)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (₹89,846.25)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 77,
@@ -2450,8 +2526,8 @@
       ],
       "hi": [
         "T",
-        "X",
         "U",
+        "X",
         "V"
       ]
     },
@@ -2460,8 +2536,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (X). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (U)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (X)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 78,
@@ -2481,10 +2558,10 @@
         "Yellow with black symbol or text"
       ],
       "hi": [
-        "नीले पृष्ठ पर सफ़े द प्रतीक या टेक्स्ट",
         "हरे पृष्ठ पर सफ़े द प्रतीक या टेक्स्ट",
-        "पीले पृष्ठ पर काले प्रतीक या टेक्स्ट",
-        "लाल पृष्ठ पर सफ़े द प्रतीक या टेक्स्ट"
+        "नीले पृष्ठ पर सफ़े द प्रतीक या टेक्स्ट",
+        "लाल पृष्ठ पर सफ़े द प्रतीक या टेक्स्ट",
+        "पीले पृष्ठ पर काले प्रतीक या टेक्स्ट"
       ]
     },
     "correctIndex": 3,
@@ -2492,8 +2569,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Yellow with black symbol or text). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (लाल पृष्ठ पर सफ़े द प्रतीक या टेक्स्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (पीले पृष्ठ पर काले प्रतीक या टेक्स्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 79,
@@ -2513,10 +2591,10 @@
         "Father's brother's wife's mother"
       ],
       "hi": [
-        "पिता के भाई की पत्नी की बहन",
         "माता के भाई की पत्नी की बहन",
-        "पिता के भाई की पत्नी की माता",
-        "माता के भाई की पत्नी की माता"
+        "पिता के भाई की पत्नी की बहन",
+        "माता के भाई की पत्नी की माता",
+        "पिता के भाई की पत्नी की माता"
       ]
     },
     "correctIndex": 3,
@@ -2524,8 +2602,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Father's brother's wife's mother). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (माता के भाई की पत्नी की माता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (पिता के भाई की पत्नी की माता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 80,
@@ -2545,10 +2624,10 @@
         "40 : 51"
       ],
       "hi": [
-        "51 : 42",
-        "40 : 51",
         "31 : 50",
-        "40 : 41"
+        "40 : 41",
+        "51 : 42",
+        "40 : 51"
       ]
     },
     "correctIndex": 3,
@@ -2556,8 +2635,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (40 : 51). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (40 : 41)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (40 : 51)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 81,
@@ -2577,10 +2657,10 @@
         "1500 W"
       ],
       "hi": [
+        "3000 W",
         "2000 W",
-        "1500 W",
         "1000 W",
-        "3000 W"
+        "1500 W"
       ]
     },
     "correctIndex": 0,
@@ -2588,8 +2668,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (3000 W). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (2000 W)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (3000 W)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 82,
@@ -2609,10 +2690,10 @@
         "VZZ - BCD"
       ],
       "hi": [
-        "VZZ - BCD",
-        "ABD - VZZ",
         "BCD - VZZ",
-        "BOC - VZT"
+        "BOC - VZT",
+        "ABD - VZZ",
+        "VZZ - BCD"
       ]
     },
     "correctIndex": 0,
@@ -2620,8 +2701,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (BCD - VZZ). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (VZZ - BCD)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (BCD - VZZ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 83,
@@ -2641,10 +2723,10 @@
         "T"
       ],
       "hi": [
-        "T",
+        "W",
         "P",
         "S",
-        "W"
+        "T"
       ]
     },
     "correctIndex": 0,
@@ -2652,8 +2734,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (W). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (T)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (W)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 84,
@@ -2684,8 +2767,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (WANs can be built by connecting multiple LANs via wired or wireless links.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (WAN को वायर्ड या वायरलेस लिंक के माध्यम से अनेक LAN को कनेक्ट करके बनाया जा सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (WAN को वायर्ड या वायरलेस लिंक के माध्यम से अनेक LAN को कनेक्ट करके बनाया जा सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 85,
@@ -2705,10 +2789,10 @@
         "Hazard and Operability Study"
       ],
       "hi": [
+        "Handling and Organizing Safety (हैंडलिंग एं ड ऑर्गेनाइजिंग सेफ्टी)",
         "Hazardous Operation Standard (हैज़र्डस ऑपरेशन स्टैंडर्ड)",
-        "Hazard and Operability Study (हैज़र्ड एं ड ऑपरेबिलिटी स्टडी)",
         "Hazardous Operations Safety (हैज़र्डस ऑपरेशन्स सेफ़्टी)",
-        "Handling and Organizing Safety (हैंडलिंग एं ड ऑर्गेनाइजिंग सेफ्टी)"
+        "Hazard and Operability Study (हैज़र्ड एं ड ऑपरेबिलिटी स्टडी)"
       ]
     },
     "correctIndex": 3,
@@ -2716,8 +2800,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (Hazard and Operability Study). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (Handling and Organizing Safety (हैंडलिंग एं ड ऑर्गेनाइजिंग सेफ्टी))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (Hazard and Operability Study (हैज़र्ड एं ड ऑपरेबिलिटी स्टडी))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 86,
@@ -2737,10 +2822,10 @@
         "KE – LF"
       ],
       "hi": [
-        "IT – KV",
         "DG – EH",
-        "KE – LF",
-        "SJ – TK"
+        "SJ – TK",
+        "IT – KV",
+        "KE – LF"
       ]
     },
     "correctIndex": 2,
@@ -2748,8 +2833,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (IT – KV). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (KE – LF)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (IT – KV)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 87,
@@ -2769,10 +2855,10 @@
         "342"
       ],
       "hi": [
-        "342",
-        "352",
         "358",
-        "356"
+        "352",
+        "356",
+        "342"
       ]
     },
     "correctIndex": 1,
@@ -2780,8 +2866,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (352). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (352)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (352)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 88,
@@ -2801,10 +2888,10 @@
         "252"
       ],
       "hi": [
-        "159",
+        "185",
         "267",
-        "252",
-        "185"
+        "159",
+        "252"
       ]
     },
     "correctIndex": 3,
@@ -2812,8 +2899,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (252). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (185)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (252)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 89,
@@ -2833,10 +2921,10 @@
         "₹288.24"
       ],
       "hi": [
-        "₹288.24",
-        "₹291.18",
+        "₹296.46",
         "₹284.45",
-        "₹296.46"
+        "₹291.18",
+        "₹288.24"
       ]
     },
     "correctIndex": 2,
@@ -2844,8 +2932,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (₹291.18). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹284.45)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (₹291.18)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 90,
@@ -2865,8 +2954,8 @@
         "The fuse wire must have high resistance and be thick to prevent melting."
       ],
       "hi": [
-        "फ्यूज तार के चिरस्थायित्व के लिए उच्च गलनांक होना चाहिए।",
         "अतिरिक्त धारा के दौरान परिपथ को विच्छेदित करने के लिए फ्यूज तार का गलनांक निम्न होना चाहिए।",
+        "फ्यूज तार के चिरस्थायित्व के लिए उच्च गलनांक होना चाहिए।",
         "दक्ष शीतलन के लिए फ्यूज तार का पृष्ठ चमकदार होना चाहिए।",
         "पिघलने से रोकने के लिए फ्यूज तार को उच्च प्रतिरोध वाला और मोटा होना चाहिए।"
       ]
@@ -2876,8 +2965,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (The fuse wire must have a low melting point to break the circuit during excess current.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (फ्यूज तार के चिरस्थायित्व के लिए उच्च गलनांक होना चाहिए।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (अतिरिक्त धारा के दौरान परिपथ को विच्छेदित करने के लिए फ्यूज तार का गलनांक निम्न होना चाहिए।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 91,
@@ -2897,10 +2987,10 @@
         "Head protection with industrial-grade hard hats"
       ],
       "hi": [
-        "रसायन-रोधी दस्तानों का उपयोग करके हाथों की सुरक्षा",
         "श्वसन सुरक्षा उपकरण जैसे कि हाफ-फे स मास्क",
-        "औद्योगिक-ग्रेड हार्ड हैट के साथ सिर की सुरक्षा",
-        "ज्वाला-मंदक सूट के साथ शारीरिक सुरक्षा"
+        "ज्वाला-मंदक सूट के साथ शारीरिक सुरक्षा",
+        "रसायन-रोधी दस्तानों का उपयोग करके हाथों की सुरक्षा",
+        "औद्योगिक-ग्रेड हार्ड हैट के साथ सिर की सुरक्षा"
       ]
     },
     "correctIndex": 0,
@@ -2908,8 +2998,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (Respiratory protection devices such as half-face masks). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (रसायन-रोधी दस्तानों का उपयोग करके हाथों की सुरक्षा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (श्वसन सुरक्षा उपकरण जैसे कि हाफ-फे स मास्क)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 92,
@@ -2929,10 +3020,10 @@
         "50%"
       ],
       "hi": [
-        "50%",
         "65%",
         "60%",
-        "30%"
+        "30%",
+        "50%"
       ]
     },
     "correctIndex": 0,
@@ -2940,8 +3031,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (65%). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (50%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (65%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 93,
@@ -2961,10 +3053,10 @@
         "12 – 34 – 41 – 50"
       ],
       "hi": [
-        "12 – 34 – 41 – 50",
-        "8 – 22 – 15 – 24",
         "11 – 31 – 38 – 29",
-        "4 – 14 – 21 – 30"
+        "4 – 14 – 21 – 30",
+        "8 – 22 – 15 – 24",
+        "12 – 34 – 41 – 50"
       ]
     },
     "correctIndex": 3,
@@ -2972,8 +3064,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (12 – 34 – 41 – 50). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (4 – 14 – 21 – 30)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (12 – 34 – 41 – 50)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 94,
@@ -3004,8 +3097,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (A triangle is a polygon with three straight sides and three angles.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (त्रिभुज एक ऐसा बहुभुज है जिसमें तीन सीधी भुजाएँ और तीन कोण होते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (त्रिभुज एक ऐसा बहुभुज है जिसमें तीन सीधी भुजाएँ और तीन कोण होते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 95,
@@ -3025,8 +3119,8 @@
         "Core Processing Unit"
       ],
       "hi": [
-        "Computer Processing Unit (कं प्यूटर प्रोसेसिंग यूनिट)",
         "Central Processing Unit (सेंट्रल प्रोसेसिंग यूनिट)",
+        "Computer Processing Unit (कं प्यूटर प्रोसेसिंग यूनिट)",
         "Control Processing Unit (कं ट्रोल प्रोसेसिंग यूनिट)",
         "Core Processing Unit (कोर प्रोसेसिंग यूनिट)"
       ]
@@ -3036,8 +3130,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option A (Central Processing Unit). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (Computer Processing Unit (कं प्यूटर प्रोसेसिंग यूनिट))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (Central Processing Unit (सेंट्रल प्रोसेसिंग यूनिट))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 96,
@@ -3057,10 +3152,10 @@
         "Decreasing the length of the wire"
       ],
       "hi": [
+        "तार को मोटा बनाना",
         "तार के प्रतिरोध में वृद्धि करना",
         "तार में धारा को कम करना",
-        "तार की लंबाई कम करना",
-        "तार को मोटा बनाना"
+        "तार की लंबाई कम करना"
       ]
     },
     "correctIndex": 1,
@@ -3068,8 +3163,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option B (Increasing the resistance of the wire). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (तार में धारा को कम करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (तार के प्रतिरोध में वृद्धि करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 97,
@@ -3089,10 +3185,10 @@
         "It shows the object's height and width as seen from the front"
       ],
       "hi": [
-        "यह सामने से देखने पर वस्तु की ऊं चाई और चौड़ाई को दर्शाता है",
-        "यह वस्तु का केवल निचले या दाएं पार्श्व को दर्शाता है",
         "यह वस्तु की केवल एक विमा को दर्शाता है",
-        "यह पार्श्व से देखने पर वस्तु की गभीरता और ऊं चाई को दर्शाता है"
+        "यह पार्श्व से देखने पर वस्तु की गभीरता और ऊं चाई को दर्शाता है",
+        "यह वस्तु का केवल निचले या दाएं पार्श्व को दर्शाता है",
+        "यह सामने से देखने पर वस्तु की ऊं चाई और चौड़ाई को दर्शाता है"
       ]
     },
     "correctIndex": 3,
@@ -3100,8 +3196,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (It shows the object's height and width as seen from the front). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (यह पार्श्व से देखने पर वस्तु की गभीरता और ऊं चाई को दर्शाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (यह सामने से देखने पर वस्तु की ऊं चाई और चौड़ाई को दर्शाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 98,
@@ -3121,10 +3218,10 @@
         "Refrigerants contain particles that absorb harmful UV light."
       ],
       "hi": [
-        "प्रशीतक-द्रव्यों में ऐसे कण होते हैं जो हानिकारक UV प्रकाश को अवशोषित करते हैं।",
-        "प्रशीतक-द्रव्य ऐसे पदार्थ मुक्त करते हैं जो ओजोन विघटन को उत्प्रेरित करते हैं।",
         "प्रशीतक-द्रव्य, ग्रीनहाउस गैसें उत्सर्जित करते हैं जो समतापमंडल को गर्म करती हैं।",
-        "प्रशीतक-द्रव्य, ऑक्सीजन उत्पादन को बढ़ाते हैं, जिससे ओजोन पुनःप्राप्ति में सहायता मिलती है।"
+        "प्रशीतक-द्रव्य, ऑक्सीजन उत्पादन को बढ़ाते हैं, जिससे ओजोन पुनःप्राप्ति में सहायता मिलती है।",
+        "प्रशीतक-द्रव्य ऐसे पदार्थ मुक्त करते हैं जो ओजोन विघटन को उत्प्रेरित करते हैं।",
+        "प्रशीतक-द्रव्यों में ऐसे कण होते हैं जो हानिकारक UV प्रकाश को अवशोषित करते हैं।"
       ]
     },
     "correctIndex": 2,
@@ -3132,8 +3229,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "Basic Science & Engineering • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (Refrigerants release substances that catalyze ozone breakdown.). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (प्रशीतक-द्रव्य, ग्रीनहाउस गैसें उत्सर्जित करते हैं जो समतापमंडल को गर्म करती हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (प्रशीतक-द्रव्य ऐसे पदार्थ मुक्त करते हैं जो ओजोन विघटन को उत्प्रेरित करते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 99,
@@ -3153,10 +3251,10 @@
         "183"
       ],
       "hi": [
+        "185",
         "181",
         "182",
-        "183",
-        "185"
+        "183"
       ]
     },
     "correctIndex": 2,
@@ -3164,8 +3262,9 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option C (182). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (183)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (182)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 100,
@@ -3185,10 +3284,10 @@
         "45°"
       ],
       "hi": [
-        "45°",
-        "60°",
         "55°",
-        "110°"
+        "110°",
+        "60°",
+        "45°"
       ]
     },
     "correctIndex": 3,
@@ -3196,7 +3295,8 @@
       "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
       "keyConcept": "General Awareness & Current Affairs • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
       "en": "Correct Answer: Option D (45°). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (110°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (45°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   }
 ]

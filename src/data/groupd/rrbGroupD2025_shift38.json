@@ -51,10 +51,10 @@
         "The atom is converted into a neutron."
       ],
       "hi": [
+        "परमाणु , ऋणात्मक आवेश वाला सोडियम आयन बन जाता है",
         "परमाणु एक उदासीन सोडियम परमाणु बना रहता है",
-        "परमाणु , न्यूट्रॉन में परिवर्तित हो जाता है",
         "परमाणु , धनात्मक आवेश वाला सोडियम आयन बन जाता है",
-        "परमाणु , ऋणात्मक आवेश वाला सोडियम आयन बन जाता है"
+        "परमाणु , न्यूट्रॉन में परिवर्तित हो जाता है"
       ]
     },
     "correctIndex": 2,
@@ -86,8 +86,8 @@
       ],
       "hi": [
         "एथेनॉल का जल - अपघटन",
-        "एथेनॉल का अपचयन",
         "एथेनॉल का ऑक्सीकरण",
+        "एथेनॉल का अपचयन",
         "एथेनॉल का निर्जलीकरण"
       ]
     },
@@ -108,8 +108,8 @@
     "subject": "General Science",
     "topic": "Cell Structure & Organelles • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
     "question": {
-      "en": "Which material did Robert Hooke use to first discover \"cells\"? 2:15 PM · English",
-      "hi": "रॉबर्ट हुक (Robert Hooke) ने सर्वप्रथम \" कोशिकाएँ \" की खोज करने के लिए किस पदार्थ का उपयोग किया था ? 2:15 PM · Hindi"
+      "en": "Which material did Robert Hooke use to first discover \"cells\"?",
+      "hi": "रॉबर्ट हुक (Robert Hooke) ने सर्वप्रथम \" कोशिकाएँ \" की खोज करने के लिए किस पदार्थ का उपयोग किया था ?"
     },
     "options": {
       "en": [
@@ -153,10 +153,10 @@
         "High pumping force"
       ],
       "hi": [
+        "मोटी प्रत्या स्थ भित्ति",
         "सूक्ष् मदर्शीय के शिका",
-        "उच्च पंपिंग बल",
         "एकमार्गी वाल्व",
-        "मोटी प्रत्या स्थ भित्ति"
+        "उच्च पंपिंग बल"
       ]
     },
     "correctIndex": 2,
@@ -187,10 +187,10 @@
         "Reduces blood pressure in the lungs"
       ],
       "hi": [
-        "यह फे फड़ों में रक्तदाब को कम करता है",
-        "यह ऑक्सीजनित और विऑक्सीजनित रक्त के मिश्रण को रोकता है",
         "यह रक्त को हृदय के माध्यम से केवल एक बार प्रवाहित होने देता है",
-        "यह सुनिश्चित करता है कि फे फड़ों के ऊतकों में केवल ऑक्सीजनित रक्त ही प्रवेश करे"
+        "यह ऑक्सीजनित और विऑक्सीजनित रक्त के मिश्रण को रोकता है",
+        "यह सुनिश्चित करता है कि फे फड़ों के ऊतकों में केवल ऑक्सीजनित रक्त ही प्रवेश करे",
+        "यह फे फड़ों में रक्तदाब को कम करता है"
       ]
     },
     "correctIndex": 1,
@@ -221,10 +221,10 @@
         "The thicker wire has a different material, resulting in higher current"
       ],
       "hi": [
-        "प्रवाहित होगी",
-        "मोटे तार का क्षेत्रफल अधिक होगा , जिसके परिणामस्वरूप अधिक प्रतिरोध और निम्नतर धारा प्रवाहित होगी मोटे तार में भिन्न पदार्थ होगा , जिसके परिणामस्वरूप अधिक धारा",
-        "मोटे तार का क्षेत्रफल अधिक होगा , जिसके परिणामस्वरूप निम्नतर प्रतिरोध और उच्चतर धारा प्रवाहित होगी",
-        "मोटे तार में अधिक प्रतिरोधकता होगी , जिसके परिणामस्वरूप अधिक धारा प्रवाहित होगी"
+        "मोटे तार में अधिक प्रतिरोधकता होगी, जिसके परिणामस्वरूप अधिक धारा प्रवाहित होगी",
+        "मोटे तार का क्षेत्रफल अधिक होगा, जिसके परिणामस्वरूप अधिक प्रतिरोध और निम्नतर धारा प्रवाहित होगी",
+        "मोटे तार का क्षेत्रफल अधिक होगा, जिसके परिणामस्वरूप निम्नतर प्रतिरोध और उच्चतर धारा प्रवाहित होगी",
+        "मोटे तार में भिन्न पदार्थ होगा, जिसके परिणामस्वरूप अधिक धारा प्रवाहित होगी"
       ]
     },
     "correctIndex": 2,
@@ -234,7 +234,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • Current Electricity (Ohm's Law, Circuits)",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (The thicker wire has a larger area, resulting in lower resistance and higher current) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (मोटे तार का क्षेत्रफल अधिक होगा , जिसके परिणामस्वरूप निम्नतर प्रतिरोध और उच्चतर धारा प्रवाहित होगी) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (मोटे तार का क्षेत्रफल अधिक होगा, जिसके परिणामस्वरूप निम्नतर प्रतिरोध और उच्चतर धारा प्रवाहित होगी) सही उत्तर है।"
     }
   },
   {
@@ -255,9 +255,9 @@
         "Earth’s axial tilt and spherical shape affect sunlight distribution"
       ],
       "hi": [
+        "महासागरीय धाराएं प्राप्त सूर्य के प्रकाश की मात्रा को परिवर्तित करती हैं",
         "ध्रुवों पर दिन की लंबाई केवल अक्षांश निर्धारित करते हैं",
         "वायुमंडलीय संरचना , ध्रुवों पर सूर्य के प्रकाश को अवरुद्ध करती है",
-        "महासागरीय धाराएं प्राप्त सूर्य के प्रकाश की मात्रा को परिवर्तित करती हैं",
         "पृथ्वी का अक्षीय झुकाव और गोल आकार सूर्य के प्रकाश के वितरण को प्रभावित करता है"
       ]
     },
@@ -291,8 +291,8 @@
       "hi": [
         "सोडियम धातु",
         "हाइड्रोजन गैस",
-        "ऑक्सीजन गैस",
-        "क्लोरीन गैस"
+        "क्लोरीन गैस",
+        "ऑक्सीजन गैस"
       ]
     },
     "correctIndex": 1,
@@ -323,10 +323,10 @@
         "Field lines curve randomly inside the solenoid"
       ],
       "hi": [
+        "चुंबकीय क्षेत्र रेखाएं केवल परिनालिका के बाहर सीधी समानांतर रेखाओं का निर्माण करती हैं",
         "चुंबकीय क्षेत्र रेखाएं परिनालिका के चारों ओर एक सिरे से दूसरे सिरे तक सर्पिल होती हैं",
-        "चुंबकीय क्षेत्र रेखाएं परिनालिका के अंदर यादृच्छिक रूप से वक्र होती हैं",
         "चुंबकीय क्षेत्र रेखाएं एक सिरे से निकलकर दूसरे सिरे में प्रवेश करती हैं , जिससे बाहर की ओर संवृत पाश बनते हैं",
-        "चुंबकीय क्षेत्र रेखाएं केवल परिनालिका के बाहर सीधी समानांतर रेखाओं का निर्माण करती हैं"
+        "चुंबकीय क्षेत्र रेखाएं परिनालिका के अंदर यादृच्छिक रूप से वक्र होती हैं"
       ]
     },
     "correctIndex": 2,
@@ -357,9 +357,9 @@
         "Both machines are equally efficient"
       ],
       "hi": [
-        "इसका निर्धारण नहीं किया जा सकता है",
-        "मशीन Q",
         "मशीन P",
+        "मशीन Q",
+        "इसका निर्धारण नहीं किया जा सकता है",
         "दोनों मशीनें समान रूप से दक्ष हैं"
       ]
     },
@@ -391,9 +391,9 @@
         "To make work easier by changing the magnitude or direction of a force"
       ],
       "hi": [
+        "किसी वस्तु के भार में वृद्धि करना",
         "किसी कार्य में किए गए कु ल कार्य को कम करना",
         "ऊर्जा उत्पन्न करना",
-        "किसी वस्तु के भार में वृद्धि करना",
         "किसी बल के परिमाण या दिशा को परिवर्तित करके कार्य को आसान बनाना"
       ]
     },
@@ -425,8 +425,8 @@
         "Acceleration"
       ],
       "hi": [
-        "बल",
         "संवेग",
+        "बल",
         "रैखिक वेग",
         "त्वरण"
       ]
@@ -461,8 +461,8 @@
       "hi": [
         "2F से परे",
         "2F पर",
-        "मुख्य फोकस (F) पर",
-        "मुख्य फोकस (F) और 2F के बीच"
+        "मुख्य फोकस (F) और 2F के बीच",
+        "मुख्य फोकस (F) पर"
       ]
     },
     "correctIndex": 0,
@@ -493,10 +493,10 @@
         "The solution formed is a colloidal solution"
       ],
       "hi": [
+        "लवण , जल में पूर्णतः अविलेय है",
         "जल में लवण की विलेयता बहुत कम होती है",
-        "निर्मित विलयन एक कोलॉइडी विलयन है",
         "निर्मित विलयन संतृप्त लवण विलयन है",
-        "लवण , जल में पूर्णतः अविलेय है"
+        "निर्मित विलयन एक कोलॉइडी विलयन है"
       ]
     },
     "correctIndex": 2,
@@ -561,10 +561,10 @@
         "Land mass distribution alters flow"
       ],
       "hi": [
-        "भू - संहति वितरण , प्रवाह को परिवर्तित करता है",
+        "ताप प्रवणता जल को धक्का देती है",
         "पृथ्वी का घूर्णन जल संचलन को विक्षेपित करता है",
         "पवन की दिशा सभी घूर्णन को संचालित करती है",
-        "ताप प्रवणता जल को धक्का देती है"
+        "भू - संहति वितरण , प्रवाह को परिवर्तित करता है"
       ]
     },
     "correctIndex": 1,
@@ -595,10 +595,10 @@
         "MnCl2"
       ],
       "hi": [
-        "H2O",
+        "MnO2",
         "HCl",
-        "MnCl2",
-        "MnO2"
+        "H2O",
+        "MnCl2"
       ]
     },
     "correctIndex": 1,
@@ -629,8 +629,8 @@
         "Al2O3"
       ],
       "hi": [
-        "Al2O",
         "Al3O2",
+        "Al2O",
         "AlO2",
         "Al2O3"
       ]
@@ -665,8 +665,8 @@
       "hi": [
         "पारगम्यता (Permeability)",
         "पूर्णशक्तता (Totipotency)",
-        "संपर्क संदमन (Contact inhibition)",
-        "स्फीति (Turgidity)"
+        "स्फीति (Turgidity)",
+        "संपर्क संदमन (Contact inhibition)"
       ]
     },
     "correctIndex": 1,
@@ -697,10 +697,10 @@
         "hypertension"
       ],
       "hi": [
+        "एनीमिया",
         "दमा",
-        "अतिरक्‍तदाब",
         "त्वचा कैं सर",
-        "एनीमिया"
+        "अतिरक्‍तदाब"
       ]
     },
     "correctIndex": 2,
@@ -731,10 +731,10 @@
         "Due to scattering of light by dust particles in the air"
       ],
       "hi": [
-        "बादलों से प्रकाश के परावर्तन के कारण",
+        "वायुमंडलीय गैसों द्वारा प्रकाश के अवशोषण के कारण",
         "वायुमंडल में विभिन्न वायु परतों के कारण होने वाले अपवर्तन के कारण",
-        "वायु में धूल के कणों द्वारा प्रकाश के प्रकीर्णन के कारण",
-        "वायुमंडलीय गैसों द्वारा प्रकाश के अवशोषण के कारण"
+        "बादलों से प्रकाश के परावर्तन के कारण",
+        "वायु में धूल के कणों द्वारा प्रकाश के प्रकीर्णन के कारण"
       ]
     },
     "correctIndex": 1,
@@ -766,9 +766,9 @@
       ],
       "hi": [
         "किलोग्राम मीटर प्रति वर्ग सेकं ड",
+        "किलोग्राम प्रति मीटर प्रति सेकं ड",
         "किलोग्राम मीटर प्रति सेकं ड",
-        "मीटर प्रति किलोग्राम प्रति वर्ग सेकं ड",
-        "किलोग्राम प्रति मीटर प्रति सेकं ड"
+        "मीटर प्रति किलोग्राम प्रति वर्ग सेकं ड"
       ]
     },
     "correctIndex": 0,
@@ -799,10 +799,10 @@
         "The solution containing oil droplets because hydrophobic cores trap oil."
       ],
       "hi": [
-        "अंतःक्रिया नहीं करते हैं Mathematics",
-        "दोनों में से किसी भी विलयन में नहीं , क्योंकि मिसेल जलीय विलयनों में विद्यमान नहीं हो सकते हैं",
-        "बिना तेल वाले विलयन में , क्योंकि साबुन तेल के साथ मिसेल का निर्माण नहीं कर सकता है दोनों विलयनों में , क्योंकि मिसेल कभी भी तैलीय पदार्थों के साथ",
-        "ट्रैप कर लेते हैं"
+        "बिना तेल वाले विलयन में, क्योंकि साबुन तेल के साथ मिसेल का निर्माण नहीं कर सकता है",
+        "दोनों में से किसी भी विलयन में नहीं, क्योंकि मिसेल जलीय विलयनों में विद्यमान नहीं हो सकते हैं",
+        "दोनों विलयनों में, क्योंकि मिसेल कभी भी तैलीय पदार्थों के साथ अंतःक्रिया नहीं करते हैं",
+        "तेल की बूंदों वाले विलयन में, क्योंकि हाइड्रोफोबिक कोर तेल को ट्रैप कर लेते हैं"
       ]
     },
     "correctIndex": 3,
@@ -812,7 +812,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Soaps & Detergents",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (The solution containing oil droplets because hydrophobic cores trap oil.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (ट्रैप कर लेते हैं) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (तेल की बूंदों वाले विलयन में, क्योंकि हाइड्रोफोबिक कोर तेल को ट्रैप कर लेते हैं) सही उत्तर है।"
     }
   },
   {
@@ -833,10 +833,10 @@
         "The bell stops vibrating immediately as air is removed"
       ],
       "hi": [
-        "वायु निकाले जाने पर घंटी तुरंत कं पन करना बंद कर देती है",
+        "ध्वनि के तारत्व में वृद्धि हो जाती है",
         "ध्वनि अधिक तीव्र हो जाती है",
         "वायु निकाले जाने पर ध्वनि क्षीण होती जाती है",
-        "ध्वनि के तारत्व में वृद्धि हो जाती है"
+        "वायु निकाले जाने पर घंटी तुरंत कं पन करना बंद कर देती है"
       ]
     },
     "correctIndex": 2,
@@ -867,9 +867,9 @@
         "82,500"
       ],
       "hi": [
+        "90,000",
         "75,000",
         "67,500",
-        "90,000",
         "82,500"
       ]
     },
@@ -935,9 +935,9 @@
         "1331.5 km"
       ],
       "hi": [
-        "1333.9 km",
-        "1332.8 km",
         "1330.2 km",
+        "1332.8 km",
+        "1333.9 km",
         "1331.5 km"
       ]
     },
@@ -969,9 +969,9 @@
         "1769"
       ],
       "hi": [
-        "1760",
-        "1745",
         "1757",
+        "1745",
+        "1760",
         "1769"
       ]
     },
@@ -1004,9 +1004,9 @@
       ],
       "hi": [
         "₹57",
-        "₹69",
         "₹48",
-        "₹78"
+        "₹78",
+        "₹69"
       ]
     },
     "correctIndex": 0,
@@ -1037,8 +1037,8 @@
         "22"
       ],
       "hi": [
-        "24",
         "13",
+        "24",
         "21",
         "22"
       ]
@@ -1071,8 +1071,8 @@
         "47,500"
       ],
       "hi": [
-        "49,500",
         "49,000",
+        "49,500",
         "48,000",
         "47,500"
       ]
@@ -1106,9 +1106,9 @@
       ],
       "hi": [
         "33",
-        "28",
         "36",
-        "35"
+        "35",
+        "28"
       ]
     },
     "correctIndex": 0,
@@ -1140,9 +1140,9 @@
       ],
       "hi": [
         "₹40,000",
+        "₹32,000",
         "₹35,000",
-        "₹45,000",
-        "₹32,000"
+        "₹45,000"
       ]
     },
     "correctIndex": 0,
@@ -1173,8 +1173,8 @@
         "₹27,675"
       ],
       "hi": [
-        "₹25,825",
         "₹27,850",
+        "₹25,825",
         "₹27,625",
         "₹27,675"
       ]
@@ -1197,7 +1197,7 @@
     "topic": "Ratio Comparison • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
     "question": {
       "en": "What is the correct ascending order of the following ratios: 12:13, 25:26, 2:3, 5:6?",
-      "hi": "यदि किसी चतुर्भुज के कोणों का अनुपात 2 : 7 : 2 : 7 है , तो यह एक _______ है।"
+      "hi": "निम्नलिखित अनुपातों का सही आरोही क्रम क्या है ? 12:13, 25:26, 2:3, 5:6"
     },
     "options": {
       "en": [
@@ -1205,6 +1205,244 @@
         "2:3, 5:6, 12:13, 25:26",
         "2:3, 5:6, 25:26, 12:13",
         "2:3, 12:13, 5:6, 25:26"
+      ],
+      "hi": [
+        "5:6, 2:3, 12:13, 25:26",
+        "2:3, 5:6, 12:13, 25:26",
+        "2:3, 5:6, 25:26, 12:13",
+        "2:3, 12:13, 5:6, 25:26"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "officialHiIndex": 3,
+    "solution": {
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "keyConcept": "Mathematics • Ratio Comparison",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (2:3, 5:6, 12:13, 25:26) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (2:3, 5:6, 12:13, 25:26) सही उत्तर है।"
+    }
+  },
+  {
+    "id": 37,
+    "shiftQuestionNo": 37,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Ratio Simplification • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
+    "question": {
+      "en": "The salaries of P, Q, and R are in the ratio 3 : 4 : 5. Their salaries are increased by 5%, 10%, and 15%, respectively. Find the new ratio of their salaries after the increases.",
+      "hi": "P, Q और R के वेतन का अनुपात 3 : 4 : 5 है। उनके वेतन में क्रमशः 5%, 10% और 15% की वृद्धि होती है। वृद्धि के बाद उनके वेतन का नया अनुपात ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "53 : 88 : 105",
+        "63 : 88 : 115",
+        "63 : 78 : 115",
+        "63 : 84 : 115"
+      ],
+      "hi": [
+        "53 : 88 : 105",
+        "63 : 88 : 115",
+        "63 : 78 : 115",
+        "63 : 84 : 115"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "officialHiIndex": 3,
+    "solution": {
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "keyConcept": "Mathematics • Ratio Simplification",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (63 : 88 : 115) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (63 : 88 : 115) सही उत्तर है।"
+    }
+  },
+  {
+    "id": 38,
+    "shiftQuestionNo": 38,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Rectangle & Square • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
+    "question": {
+      "en": "The perimeter of a square is 564 m. Its area (in m 2 ) is:",
+      "hi": "एक वर्ग का परिमाप 564 m है। इसका क्षेत्रफल (m 2 में ) ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "19880",
+        "19892",
+        "19881",
+        "19841"
+      ],
+      "hi": [
+        "19880",
+        "19892",
+        "19881",
+        "19841"
+      ]
+    },
+    "correctIndex": 2,
+    "correctIndexHi": 2,
+    "officialHiIndex": 0,
+    "solution": {
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "keyConcept": "Mathematics • Rectangle & Square",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (19881) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (19881) सही उत्तर है।"
+    }
+  },
+  {
+    "id": 39,
+    "shiftQuestionNo": 39,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Replacement in Group • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
+    "question": {
+      "en": "The average weight of 12 children increases by 1.5 kg when a new child comes in place of one child who weighed 42 kg. What might be the weight of the new child?",
+      "hi": "जब 42 kg वजन वाले बच्चे के स्थान पर एक नए बच्चे को शामिल किया जाता है , तो 12 बच्चों के औसत वजन में 1.5 kg की वृद्धि हो जाती है। नए बच्चे का वजन ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "61 kg",
+        "62 kg",
+        "59 kg",
+        "60 kg"
+      ],
+      "hi": [
+        "61 kg",
+        "62 kg",
+        "59 kg",
+        "60 kg"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "officialHiIndex": 1,
+    "solution": {
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "keyConcept": "Mathematics • Replacement in Group",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (60 kg) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (60 kg) सही उत्तर है।"
+    }
+  },
+  {
+    "id": 40,
+    "shiftQuestionNo": 40,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Sequential Workers • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
+    "question": {
+      "en": "A can do a task in 24 days, while B can do the same task in 16 days. A begins the task and works for 6 days before B joins him. After that, they work together to complete the remaining job. In how many days is the task completed?",
+      "hi": "A किसी कार्य को 24 दिनों में पूरा कर सकता है , जबकि B उसी कार्य को 16 दिनों में पूरा कर सकता है। A कार्य शुरू करता है , और B के शामिल होने से पहले 6 दिन तक कार्य करता है। उसके बाद , वे शेष कार्य को पूरा करने के लिए मिलकर काम करते हैं। कार्य कितने दिनों में पूरा होगा ?"
+    },
+    "options": {
+      "en": [
+        "13.2 days",
+        "14.5 days",
+        "16.2 days",
+        "15 days"
+      ],
+      "hi": [
+        "13.2 दिन",
+        "14.5 दिन",
+        "16.2 दिन",
+        "15 दिन"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "officialHiIndex": 0,
+    "solution": {
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
+      "keyConcept": "Mathematics • Sequential Workers",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (13.2 days) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (13.2 दिन) सही उत्तर है।"
+    }
+  },
+  {
+    "id": 41,
+    "shiftQuestionNo": 41,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Simple Mean • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
+    "question": {
+      "en": "In a group of 10 students, the mean of the lowest 9 scores is 46 while the mean of the highest 9 scores is 50. For the entire group of 10 students, the maximum possible mean exceeds the minimum possible mean by:",
+      "hi": "10 विद्यार्थियों के एक समूह में , न्यूनतम 9 प्राप्तांकों का माध्य 46 है जबकि अधिकतम 9 प्राप्तांकों का माध्य 50 है। 10 विद्यार्थियों के पूर्ण समूह के लिए , अधिकतम संभव माध्य , न्यूनतम संभव माध्य से कितना अधिक है ?"
+    },
+    "options": {
+      "en": [
+        "4.3",
+        "3.6",
+        "3.4",
+        "3.2"
+      ],
+      "hi": [
+        "4.3",
+        "3.6",
+        "3.4",
+        "3.2"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "officialHiIndex": 3,
+    "solution": {
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "keyConcept": "Mathematics • Simple Mean",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (3.2) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (3.2) सही उत्तर है।"
+    }
+  },
+  {
+    "id": 42,
+    "shiftQuestionNo": 42,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Volume • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
+    "question": {
+      "en": "A cuboid has its three edges in arithmetic progression and its volume is 384 cm³. If the smallest edge measures 4 cm, find the length of the largest edge.",
+      "hi": "किसी घनाभ के तीन कोर , समांतर श्रेढ़ी में हैं और उसका आयतन 384 cm 3 है। यदि सबसे छोटे कोर की माप 4 cm है , तो सबसे बड़े कोर की लंबाई ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "14 cm",
+        "32 cm",
+        "17 cm",
+        "12 cm"
+      ],
+      "hi": [
+        "14 cm",
+        "32 cm",
+        "17 cm",
+        "12 cm"
+      ]
+    },
+    "correctIndex": 3,
+    "correctIndexHi": 3,
+    "officialHiIndex": 0,
+    "solution": {
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "keyConcept": "Mathematics • Volume",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (12 cm) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (12 cm) सही उत्तर है।"
+    }
+  },
+  {
+    "id": 43,
+    "shiftQuestionNo": 43,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Average Speed • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
+    "question": {
+      "en": "If the angles of a quadrilateral are in the ratio 2 : 7 : 2 : 7, then it is a _______.",
+      "hi": "यदि किसी चतुर्भुज के कोणों का अनुपात 2 : 7 : 2 : 7 है , तो यह एक _______ है।"
+    },
+    "options": {
+      "en": [
+        "Square",
+        "Parallelogram",
+        "Rectangle",
+        "Trapezium"
       ],
       "hi": [
         "वर्ग",
@@ -1218,247 +1456,9 @@
     "officialHiIndex": 3,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Ratio Comparison",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (2:3, 5:6, 12:13, 25:26) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (समांतर चतुर्भुज) सही उत्तर है।"
-    }
-  },
-  {
-    "id": 37,
-    "shiftQuestionNo": 37,
-    "section": "Mathematics",
-    "subject": "Mathematics",
-    "topic": "Ratio Simplification • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
-    "question": {
-      "en": "The salaries of P, Q, and R are in the ratio 3 : 4 : 5. Their salaries are increased by 5%, 10%, and 15%, respectively. Find the new ratio of their salaries after the increases.",
-      "hi": "निम्नलिखित अनुपातों का सही आरोही क्रम क्या है ? 12:13, 25:26, 2:3, 5:6"
-    },
-    "options": {
-      "en": [
-        "53 : 88 : 105",
-        "63 : 88 : 115",
-        "63 : 78 : 115",
-        "63 : 84 : 115"
-      ],
-      "hi": [
-        "5:6, 2:3, 12:13, 25:26",
-        "2:3, 5:6, 12:13, 25:26",
-        "2:3, 5:6, 25:26, 12:13",
-        "2:3, 12:13, 5:6, 25:26"
-      ]
-    },
-    "correctIndex": 1,
-    "correctIndexHi": 1,
-    "officialHiIndex": 3,
-    "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Ratio Simplification",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (63 : 88 : 115) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (2:3, 5:6, 12:13, 25:26) सही उत्तर है।"
-    }
-  },
-  {
-    "id": 38,
-    "shiftQuestionNo": 38,
-    "section": "Mathematics",
-    "subject": "Mathematics",
-    "topic": "Rectangle & Square • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
-    "question": {
-      "en": "The perimeter of a square is 564 m. Its area (in m 2 ) is:",
-      "hi": "P, Q और R के वेतन का अनुपात 3 : 4 : 5 है। उनके वेतन में क्रमशः 5%, 10% और 15% की वृद्धि होती है। वृद्धि के बाद उनके वेतन का नया अनुपात ज्ञात कीजिए।"
-    },
-    "options": {
-      "en": [
-        "19880",
-        "19892",
-        "19881",
-        "19841"
-      ],
-      "hi": [
-        "63 : 84 : 115",
-        "63 : 78 : 115",
-        "63 : 88 : 115",
-        "53 : 88 : 105"
-      ]
-    },
-    "correctIndex": 2,
-    "correctIndexHi": 2,
-    "officialHiIndex": 0,
-    "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Rectangle & Square",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (19881) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (63 : 88 : 115) सही उत्तर है।"
-    }
-  },
-  {
-    "id": 39,
-    "shiftQuestionNo": 39,
-    "section": "Mathematics",
-    "subject": "Mathematics",
-    "topic": "Replacement in Group • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
-    "question": {
-      "en": "The average weight of 12 children increases by 1.5 kg when a new child comes in place of one child who weighed 42 kg. What might be the weight of the new child?",
-      "hi": "एक वर्ग का परिमाप 564 m है। इसका क्षेत्रफल (m 2 में ) ज्ञात कीजिए।"
-    },
-    "options": {
-      "en": [
-        "61 kg",
-        "62 kg",
-        "59 kg",
-        "60 kg"
-      ],
-      "hi": [
-        "19892",
-        "19841",
-        "19880",
-        "19881"
-      ]
-    },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
-    "officialHiIndex": 1,
-    "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Replacement in Group",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (60 kg) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (19881) सही उत्तर है।"
-    }
-  },
-  {
-    "id": 40,
-    "shiftQuestionNo": 40,
-    "section": "Mathematics",
-    "subject": "Mathematics",
-    "topic": "Sequential Workers • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
-    "question": {
-      "en": "A can do a task in 24 days, while B can do the same task in 16 days. A begins the task and works for 6 days before B joins him. After that, they work together to complete the remaining job. In how many days is the task completed?",
-      "hi": "जब 42 kg वजन वाले बच्चे के स्थान पर एक नए बच्चे को शामिल किया जाता है , तो 12 बच्चों के औसत वजन में 1.5 kg की वृद्धि हो जाती है। नए बच्चे का वजन ज्ञात कीजिए।"
-    },
-    "options": {
-      "en": [
-        "13.2 days",
-        "14.5 days",
-        "16.2 days",
-        "15 days"
-      ],
-      "hi": [
-        "60 kg",
-        "59 kg",
-        "61 kg",
-        "62 kg"
-      ]
-    },
-    "correctIndex": 0,
-    "correctIndexHi": 0,
-    "officialHiIndex": 0,
-    "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Sequential Workers",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (13.2 days) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (60 kg) सही उत्तर है।"
-    }
-  },
-  {
-    "id": 41,
-    "shiftQuestionNo": 41,
-    "section": "Mathematics",
-    "subject": "Mathematics",
-    "topic": "Simple Mean • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
-    "question": {
-      "en": "In a group of 10 students, the mean of the lowest 9 scores is 46 while the mean of the highest 9 scores is 50. For the entire group of 10 students, the maximum possible mean exceeds the minimum possible mean by:",
-      "hi": "A किसी कार्य को 24 दिनों में पूरा कर सकता है , जबकि B उसी कार्य को 16 दिनों में पूरा कर सकता है। A कार्य शुरू करता है , और B के शामिल होने से पहले 6 दिन तक कार्य करता है। उसके बाद , वे शेष कार्य को पूरा करने के लिए मिलकर काम करते हैं। कार्य कितने दिनों में पूरा होगा ?"
-    },
-    "options": {
-      "en": [
-        "4.3",
-        "3.6",
-        "3.4",
-        "3.2"
-      ],
-      "hi": [
-        "14.5 दिन",
-        "16.2 दिन",
-        "15 दिन",
-        "13.2 दिन"
-      ]
-    },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
-    "officialHiIndex": 3,
-    "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Simple Mean",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (3.2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (13.2 दिन) सही उत्तर है।"
-    }
-  },
-  {
-    "id": 42,
-    "shiftQuestionNo": 42,
-    "section": "Mathematics",
-    "subject": "Mathematics",
-    "topic": "Volume • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
-    "question": {
-      "en": "A cuboid has its three edges in arithmetic progression and its volume is 384 cm³. If the smallest edge measures 4 cm, find the length of the largest edge.",
-      "hi": "10 विद्यार्थियों के एक समूह में , न्यूनतम 9 प्राप्तांकों का माध्य 46 है जबकि अधिकतम 9 प्राप्तांकों का माध्य 50 है। 10 विद्यार्थियों के पूर्ण समूह के लिए , अधिकतम संभव माध्य , न्यूनतम संभव माध्य से कितना अधिक है ?"
-    },
-    "options": {
-      "en": [
-        "14 cm",
-        "32 cm",
-        "17 cm",
-        "12 cm"
-      ],
-      "hi": [
-        "3.4",
-        "3.6",
-        "4.3",
-        "3.2"
-      ]
-    },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
-    "officialHiIndex": 0,
-    "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Volume",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (12 cm) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (3.2) सही उत्तर है।"
-    }
-  },
-  {
-    "id": 43,
-    "shiftQuestionNo": 43,
-    "section": "Mathematics",
-    "subject": "Mathematics",
-    "topic": "Average Speed • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
-    "question": {
-      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "किसी घनाभ के तीन कोर , समांतर श्रेढ़ी में हैं और उसका आयतन 384 cm 3 है। यदि सबसे छोटे कोर की माप 4 cm है , तो सबसे बड़े कोर की लंबाई ज्ञात कीजिए।"
-    },
-    "options": {
-      "en": [
-        "97",
-        "89",
-        "95",
-        "101"
-      ],
-      "hi": [
-        "97",
-        "89",
-        "95",
-        "101"
-      ]
-    },
-    "correctIndex": 0,
-    "correctIndexHi": 0,
-    "officialHiIndex": 3,
-    "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Average Speed",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option B (Parallelogram).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प B (समांतर चतुर्भुज)।"
     }
   },
   {
@@ -1469,7 +1469,7 @@
     "topic": "Degree Based • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
     "question": {
       "en": "Study the data of the number of accidents on different days of a week If the data of Thursday is dropped and rest of the data is plotted on made at the centre by Wednesday earlier and now?",
-      "hi": "एक एयरक्राफ्ट ने स्थान A से स्थान B तक 1440 km की दूरी घंटे में तय था। एयरक्राफ्ट की औसत चाल ज्ञात कीजिए।"
+      "hi": "दिए गए पाई चार्ट में , सप्ताह के विभिन्न दिनों में हुई दुर्घटनाओं की संख्या के आंकड़ों यदि गुरुवार के आंकड़ों को हटा दिया जाता है और शेष आंकड़ों को पाई चार्ट पर आरेखित अंतर ( डिग्री में ) ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -1477,6 +1477,40 @@
         "20",
         "45",
         "30"
+      ],
+      "hi": [
+        "25",
+        "20",
+        "45",
+        "30"
+      ]
+    },
+    "correctIndex": 1,
+    "correctIndexHi": 1,
+    "officialHiIndex": 1,
+    "solution": {
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "keyConcept": "Mathematics • Degree Based",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (20) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (20) सही उत्तर है।"
+    }
+  },
+  {
+    "id": 45,
+    "shiftQuestionNo": 45,
+    "section": "Mathematics",
+    "subject": "Mathematics",
+    "topic": "Laws of Indices • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
+    "question": {
+      "en": "✓ in the given pie chart and answer the question below it. a pie chart, then what is the difference in angles (in degrees) ✓",
+      "hi": "एक एयरक्राफ्ट ने स्थान A से स्थान B तक 1440 km की दूरी घंटे में तय था। एयरक्राफ्ट की औसत चाल ज्ञात कीजिए।"
+    },
+    "options": {
+      "en": [
+        "154 km/hr",
+        "144 km/hr",
+        "148 km/hr",
+        "140 km/hr"
       ],
       "hi": [
         "154 km/hr",
@@ -1490,43 +1524,9 @@
     "officialHiIndex": 1,
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Degree Based",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (20) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (144 km/hr) सही उत्तर है।"
-    }
-  },
-  {
-    "id": 45,
-    "shiftQuestionNo": 45,
-    "section": "Mathematics",
-    "subject": "Mathematics",
-    "topic": "Laws of Indices • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
-    "question": {
-      "en": "✓ in the given pie chart and answer the question below it. a pie chart, then what is the difference in angles (in degrees) ✓",
-      "hi": "दिए गए पाई चार्ट में , सप्ताह के विभिन्न दिनों में हुई दुर्घटनाओं की संख्या के आंकड़ों यदि गुरुवार के आंकड़ों को हटा दिया जाता है और शेष आंकड़ों को पाई चार्ट पर आरेखित अंतर ( डिग्री में ) ज्ञात कीजिए।"
-    },
-    "options": {
-      "en": [
-        "97",
-        "89",
-        "95",
-        "101"
-      ],
-      "hi": [
-        "97",
-        "89",
-        "95",
-        "101"
-      ]
-    },
-    "correctIndex": 0,
-    "correctIndexHi": 0,
-    "officialHiIndex": 1,
-    "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Laws of Indices",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option B (144 km/hr).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प B (144 km/hr)।"
     }
   },
   {
@@ -1537,7 +1537,7 @@
     "topic": "MP with Discount and Profit • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "को सरल कीजिए।"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1559,8 +1559,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • MP with Discount and Profit",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1571,7 +1571,7 @@
     "topic": "Mean of Grouped Data • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
     "question": {
       "en": "The following table shows the distribution of marks obtained by students direct method. Marks(x) 10 Number 3 of students",
-      "hi": "एक दुकानदार एक खिलौने के अंकित मूल्य पर 23% की छू ट देने पर ₹56 का लाभ कीजिए। का अध्ययन कीजिए और उसके नीचे दिए गए प्रश्न का उत्तर दीजिए। किया जाता है , तो बुधवार द्वारा केंद्र पर पहले और अब बनाए गए कोणों में ✓ ✓ अर्जित करता है। यदि उसका लाभ 10% है , तो खिलौने का अंकित मूल्य ज्ञात"
+      "hi": "निम्नलिखित तालिका एक परीक्षा में विद्यार्थियों द्वारा प्राप्त अंकों का बंटन दर्शाती है : कीजिए। अंक (x) 10 विद्यार्थियों की संख्या 3"
     },
     "options": {
       "en": [
@@ -1591,10 +1591,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Mean of Grouped Data",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1605,7 +1605,7 @@
     "topic": "Parallelogram • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "निम्नलिखित तालिका एक परीक्षा में विद्यार्थियों द्वारा प्राप्त अंकों का बंटन दर्शाती है : कीजिए। अंक (x) 10 विद्यार्थियों की संख्या 3"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1627,8 +1627,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Parallelogram",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1659,10 +1659,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
-      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A (√2 sin θ).",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A (√2 sin θ)।"
     }
   },
   {
@@ -1685,7 +1685,7 @@
       "hi": [
         "2p",
         "p2+ 1",
-        "p2 General Intelligence & Reasoning",
+        "p2",
         "p2− 1"
       ]
     },
@@ -1696,7 +1696,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • cosec^2 - cot^2 = 1",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (p2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (p2 General Intelligence & Reasoning) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (p2) सही उत्तर है।"
     }
   },
   {
@@ -1719,8 +1719,8 @@
       "hi": [
         "4",
         "2",
-        "3",
-        "1"
+        "1",
+        "3"
       ]
     },
     "correctIndex": 1,
@@ -1751,9 +1751,9 @@
         "1"
       ],
       "hi": [
+        "2",
         "3",
         "4",
-        "2",
         "1"
       ]
     },
@@ -1786,9 +1786,9 @@
       ],
       "hi": [
         "4",
+        "1",
         "2",
-        "3",
-        "1"
+        "3"
       ]
     },
     "correctIndex": 0,
@@ -1820,9 +1820,9 @@
       ],
       "hi": [
         "R",
-        "V",
+        "U",
         "S",
-        "U"
+        "V"
       ]
     },
     "correctIndex": 0,
@@ -1888,8 +1888,8 @@
       ],
       "hi": [
         "दो",
-        "चार",
         "एक",
+        "चार",
         "तीन"
       ]
     },
@@ -1922,9 +1922,9 @@
       ],
       "hi": [
         "QWM",
-        "QVL",
+        "OXK",
         "PWL",
-        "OXK"
+        "QVL"
       ]
     },
     "correctIndex": 2,
@@ -1955,10 +1955,10 @@
         "3"
       ],
       "hi": [
-        "3",
         "7",
+        "8",
         "0",
-        "8"
+        "3"
       ]
     },
     "correctIndex": 2,
@@ -2024,8 +2024,8 @@
       ],
       "hi": [
         "6",
-        "7",
         "5",
+        "7",
         "4"
       ]
     },
@@ -2057,9 +2057,9 @@
         "998"
       ],
       "hi": [
-        "990",
         "963",
         "972",
+        "990",
         "998"
       ]
     },
@@ -2091,10 +2091,10 @@
         "5"
       ],
       "hi": [
-        "5",
-        "7",
         "12",
-        "15"
+        "7",
+        "15",
+        "5"
       ]
     },
     "correctIndex": 1,
@@ -2125,9 +2125,9 @@
         "6"
       ],
       "hi": [
-        "4",
-        "2",
         "0",
+        "2",
+        "4",
         "6"
       ]
     },
@@ -2159,8 +2159,8 @@
         "5"
       ],
       "hi": [
-        "7",
         "6",
+        "7",
         "8",
         "5"
       ]
@@ -2193,10 +2193,10 @@
         "1"
       ],
       "hi": [
-        "1",
         "10",
+        "198",
         "161",
-        "198"
+        "1"
       ]
     },
     "correctIndex": 2,
@@ -2227,9 +2227,9 @@
         "LNQU"
       ],
       "hi": [
-        "LMPU",
-        "LNPU",
         "LOPW",
+        "LNPU",
+        "LMPU",
         "LNQU"
       ]
     },
@@ -2261,10 +2261,10 @@
         "PGZ : SFU"
       ],
       "hi": [
+        "DIV : GGR",
         "IBR : LAM",
-        "PGZ : SFU",
         "NQV : QPR",
-        "DIV : GGR"
+        "PGZ : SFU"
       ]
     },
     "correctIndex": 2,
@@ -2296,9 +2296,9 @@
       ],
       "hi": [
         "# = TOM , % = MXJ",
-        "# = TPM , % = MXH",
         "# = UOM , % = MZJ",
-        "# = TON , % = NXJ"
+        "# = TON , % = NXJ",
+        "# = TPM , % = MXH"
       ]
     },
     "correctIndex": 0,
@@ -2330,8 +2330,8 @@
       ],
       "hi": [
         "DKQ",
-        "TAH",
         "CJQ",
+        "TAH",
         "ELS"
       ]
     },
@@ -2363,9 +2363,9 @@
         "PKH"
       ],
       "hi": [
-        "TRP",
-        "PNL",
         "XVT",
+        "PNL",
+        "TRP",
         "PKH"
       ]
     },
@@ -2397,10 +2397,10 @@
         "One"
       ],
       "hi": [
-        "एक",
         "तीन",
+        "दो",
         "एक की भी नहीं",
-        "दो"
+        "एक"
       ]
     },
     "correctIndex": 2,
@@ -2433,8 +2433,8 @@
       "hi": [
         "आठ",
         "ग्यारह",
-        "सात",
-        "नौ"
+        "नौ",
+        "सात"
       ]
     },
     "correctIndex": 0,
@@ -2465,9 +2465,9 @@
         "Mother's brother's son"
       ],
       "hi": [
-        "माता का भाई",
         "भाई",
         "पिता",
+        "माता का भाई",
         "माता के भाई का पुत्र"
       ]
     },
@@ -2535,8 +2535,8 @@
       "hi": [
         "8",
         "C",
-        "M",
-        "T"
+        "T",
+        "M"
       ]
     },
     "correctIndex": 0,
@@ -2567,10 +2567,10 @@
         "Four"
       ],
       "hi": [
-        "चार",
         "तीन",
+        "एक",
         "दो",
-        "एक"
+        "चार"
       ]
     },
     "correctIndex": 2,
@@ -2601,8 +2601,8 @@
         "2"
       ],
       "hi": [
-        "5",
         "1",
+        "5",
         "8",
         "2"
       ]
@@ -2635,10 +2635,10 @@
         "Only conclusion (I) follows"
       ],
       "hi": [
-        "केवल निष्कर्ष (I) अनुसरण करता है",
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है",
         "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं",
         "केवल निष्कर्ष (II) अनुसरण करता है",
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है"
+        "केवल निष्कर्ष (I) अनुसरण करता है"
       ]
     },
     "correctIndex": 2,
@@ -2693,7 +2693,7 @@
     "topic": "Missing Number • RRB Group D Level-1 (19 Aug 2026 Shift 38)",
     "question": {
       "en": "Find the missing number in the sequence: 4, 9, 25, 49, 121, ?",
-      "hi": "दी गई श्रृंखला में प्रश्न - चिह्न (?) के स्थान पर कौन - सा विकल्प आना चाहिए ? 19 21 26 36 53 ?"
+      "hi": "दी गई श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 4, 9, 25, 49, 121, ?"
     },
     "options": {
       "en": [
@@ -2713,7 +2713,7 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Intelligence & Reasoning • Missing Number",
       "en": "The numbers are squares of prime numbers: 2², 3², 5², 7², 11², 13² = 169. Correct: Option B (169).",
       "hi": "अभाज्य संख्याओं के वर्ग: 2², 3², 5², 7², 11², 13² = 169। सही उत्तर: विकल्प B (169)।"
@@ -2738,9 +2738,9 @@
       ],
       "hi": [
         "माता अमृतानंदमयी",
-        "स्वामी विवेकानंद",
+        "सद्गु रु जग्गी वासुदेव",
         "स्वामिनी शुद्धानंदा घिरी",
-        "सद्गु रु जग्गी वासुदेव"
+        "स्वामी विवेकानंद"
       ]
     },
     "correctIndex": 2,
@@ -2771,10 +2771,10 @@
         "Jeswin Aldrin"
       ],
       "hi": [
-        "जेसविन एल्ड्रिन",
+        "एल्डहोस पॉल",
         "तेजस्विन शंकर",
         "अविनाश साबले",
-        "एल्डहोस पॉल"
+        "जेसविन एल्ड्रिन"
       ]
     },
     "correctIndex": 1,
@@ -2806,9 +2806,9 @@
       ],
       "hi": [
         "20 वर्षों",
-        "15 वर्षों",
+        "5 वर्षों",
         "10 वर्षों",
-        "5 वर्षों"
+        "15 वर्षों"
       ]
     },
     "correctIndex": 2,
@@ -2840,9 +2840,9 @@
       ],
       "hi": [
         "जगुआर स्ट्राइक एयरक्राफ्ट (Jaguar strike aircraft)",
-        "मिराज -2000 फाइटर एयरक्राफ्ट (Mirage-2000 fighter aircraft)",
+        "तेजस लाइट एयरक्राफ्ट (Tejas light aircraft)",
         "राफे ल कॉम्बैट एयरक्राफ्ट (Rafale combat aircraft)",
-        "तेजस लाइट एयरक्राफ्ट (Tejas light aircraft)"
+        "मिराज -2000 फाइटर एयरक्राफ्ट (Mirage-2000 fighter aircraft)"
       ]
     },
     "correctIndex": 0,
@@ -2873,10 +2873,10 @@
         "All India Trinamool Congress"
       ],
       "hi": [
+        "भारतीय राष्ट्रीय कांग्रेस",
         "भारतीय कम्युनिस्ट पार्टी ( मार्क्सवादी )",
-        "अखिल भारतीय तृणमूल कांग्रेस",
         "भारतीय जनता पार्टी",
-        "भारतीय राष्ट्रीय कांग्रेस"
+        "अखिल भारतीय तृणमूल कांग्रेस"
       ]
     },
     "correctIndex": 2,
@@ -2907,8 +2907,8 @@
         "15 August 2026"
       ],
       "hi": [
-        "22 जनवरी 2026",
         "2 मार्च 2026",
+        "22 जनवरी 2026",
         "1 जुलाई 2026",
         "15 अगस्त 2026"
       ]
@@ -2943,8 +2943,8 @@
       "hi": [
         "भारत संचार निगम लिमिटेड (BSNL)",
         "सेंटर फॉर डेवलपमेंट ऑफ टेलीमैटिक्स (C-DOT)",
-        "राष्ट्रीय सूचना विज्ञान केंद्र (NIC)",
-        "टेलीकम्युनिके शंस कं सल्टेंट्स इंडिया लिमिटेड (TCIL)"
+        "टेलीकम्युनिके शंस कं सल्टेंट्स इंडिया लिमिटेड (TCIL)",
+        "राष्ट्रीय सूचना विज्ञान केंद्र (NIC)"
       ]
     },
     "correctIndex": 1,
@@ -2975,9 +2975,9 @@
         "SUMAN"
       ],
       "hi": [
-        "Sakhi",
-        "JANANI",
         "LaQshya",
+        "JANANI",
+        "Sakhi",
         "SUMAN"
       ]
     },
@@ -3003,16 +3003,16 @@
     },
     "options": {
       "en": [
-        "grants and monitoring institutional performance across universities. To convert complex research publications and",
-        "patents into simple, multilingual content for wider public dissemination.",
-        "To enable AI-assisted drafting and filing of intellectual property applications for researchers. To establish a centralized repository for secure",
-        "storage and commercialization of patents generated through publicly funded research."
+        "To create an AI-powered platform for allocating research grants and monitoring institutional performance across universities.",
+        "To convert complex research publications and patents into simple, multilingual content for wider public dissemination.",
+        "To enable AI-assisted drafting and filing of intellectual property applications for researchers.",
+        "To establish a centralized repository for secure storage and commercialization of patents generated through publicly funded research."
       ],
       "hi": [
-        "के सुरक्षित भंडारण और व्यावसायीकरण के लिए एक केंद्रीकृ त भंडार स्थापित करना",
-        "व्यापक सार्वजनिक प्रसार के लिए जटिल शोध प्रकाशनों और पेटेंटों को सरल , बहुभाषी विषयवस्तु में परिवर्तित करना शोधकर्ताओं के लिए बौद्धिक संपदा आवेदनों की AI- असिस्टेड",
-        "विश्वविद्यालयों में अनुसंधान अनुदान आवंटित करने और संस्थागत निष्पादन की निगरानी के लिए एक AI- संचालित प्लेटफॉर्म बनाना",
-        "प्रारुपण और फाइलिंग को सक्षम बनाना"
+        "विश्वविद्यालयों में अनुसंधान अनुदान आवंटित करने और संस्थागत निष्पादन की निगरानी के लिए एक AI-संचालित प्लेटफॉर्म बनाना",
+        "व्यापक सार्वजनिक प्रसार के लिए जटिल शोध प्रकाशनों और पेटेंटों को सरल, बहुभाषी विषयवस्तु में परिवर्तित करना",
+        "शोधकर्ताओं के लिए बौद्धिक संपदा आवेदनों की AI-असिस्टेड प्रारुपण और फाइलिंग को सक्षम बनाना",
+        "सार्वजनिक रूप से वित्तपोषित अनुसंधान के माध्यम से उत्पन्न पेटेंटों के सुरक्षित भंडारण और व्यावसायीकरण के लिए एक केंद्रीकृत भंडार स्थापित करना"
       ]
     },
     "correctIndex": 1,
@@ -3021,8 +3021,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs • New Apps & Portals",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (patents into simple, multilingual content for wider public dissemination.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (व्यापक सार्वजनिक प्रसार के लिए जटिल शोध प्रकाशनों और पेटेंटों को सरल , बहुभाषी विषयवस्तु में परिवर्तित करना शोधकर्ताओं के लिए बौद्धिक संपदा आवेदनों की AI- असिस्टेड) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (To convert complex research publications and patents into simple, multilingual content for wider public dissemination.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (व्यापक सार्वजनिक प्रसार के लिए जटिल शोध प्रकाशनों और पेटेंटों को सरल, बहुभाषी विषयवस्तु में परिवर्तित करना) सही उत्तर है।"
     }
   },
   {
@@ -3043,9 +3043,9 @@
         "SMILE–Beggary Survey Mobile Application"
       ],
       "hi": [
-        "पीएम - दक्ष (PM-DAKSH) मोबाइल एप्लीके शन",
         "सुगम्य भारत (Sugamya Bharat) मोबाइल एप्लीके शन",
         "सिथा (SITHA) मोबाइल एप्लीके शन",
+        "पीएम - दक्ष (PM-DAKSH) मोबाइल एप्लीके शन",
         "स्माइल - बेगरी (SMILE–Beggary) सर्वे मोबाइल एप्लीके शन"
       ]
     },
@@ -3078,9 +3078,9 @@
       ],
       "hi": [
         "भव्य (BHAVYA)",
+        "भंडान (BHANDAN)",
         "नव्य (NAVYA)",
-        "भरतव्य (BHARATAVYA)",
-        "भंडान (BHANDAN)"
+        "भरतव्य (BHARATAVYA)"
       ]
     },
     "correctIndex": 0,
@@ -3112,9 +3112,9 @@
       ],
       "hi": [
         "एग्रीकल्चर इंश्योरेंस कं पनी ऑफ इंडिया लिमिटेड (AIC)",
-        "नेशनल बैंक फॉर एग्रीकल्चर एं ड रूरल डेवलपमेंट (NABARD)",
         "यूनाइटेड इंडिया इंश्योरेंस कं पनी लिमिटेड",
-        "एक्सपोर्ट क्रे डिट गारंटी कॉर्पोरेशन ऑफ इंडिया"
+        "एक्सपोर्ट क्रे डिट गारंटी कॉर्पोरेशन ऑफ इंडिया",
+        "नेशनल बैंक फॉर एग्रीकल्चर एं ड रूरल डेवलपमेंट (NABARD)"
       ]
     },
     "correctIndex": 0,
@@ -3145,10 +3145,10 @@
         "Mikaela Shiffrin"
       ],
       "hi": [
-        "मिकाएला शिफरीन (Mikaela Shiffrin)",
-        "फ्रांजो वॉन ऑलमेन (Franjo von Allmen)",
         "मार्को ओडरमैट (Marco Odermatt)",
-        "लुकास पिनहेरो ब्राथेन (Lucas Pinheiro Braathen)"
+        "फ्रांजो वॉन ऑलमेन (Franjo von Allmen)",
+        "लुकास पिनहेरो ब्राथेन (Lucas Pinheiro Braathen)",
+        "मिकाएला शिफरीन (Mikaela Shiffrin)"
       ]
     },
     "correctIndex": 1,
@@ -3179,10 +3179,10 @@
         "Kyoto Protocol Flexibility Mechanisms"
       ],
       "hi": [
-        "क्योटो प्रोटोकॉल फ्लेक्सिबिलिटी मैके निज्म्स",
-        "पेरिस समझौते का अनुच्छेद 6.2",
         "ग्रीन क्लाइमेट फं ड (GCF) प्रोटोकॉल",
-        "कार्बन बार्डर एडजस्टमेंट मैके निज्म्स (CBAM)"
+        "पेरिस समझौते का अनुच्छेद 6.2",
+        "कार्बन बार्डर एडजस्टमेंट मैके निज्म्स (CBAM)",
+        "क्योटो प्रोटोकॉल फ्लेक्सिबिलिटी मैके निज्म्स"
       ]
     },
     "correctIndex": 1,
@@ -3248,8 +3248,8 @@
       ],
       "hi": [
         "मणिपुर",
-        "तमिलनाडु",
         "मध्य प्रदेश",
+        "तमिलनाडु",
         "कर्नाटक"
       ]
     },
@@ -3281,9 +3281,9 @@
         "Gujarat"
       ],
       "hi": [
+        "ओडिशा",
         "महाराष्ट्र",
         "उत्तर प्रदेश",
-        "ओडिशा",
         "गुजरात"
       ]
     },
@@ -3315,9 +3315,9 @@
         "Yaoundé, Cameroon"
       ],
       "hi": [
-        "नैरोबी , के न्या (Nairobi, Kenya)",
-        "अबू धाबी , यूएई (Abu Dhabi, UAE)",
         "अदीस अबाबा , इथियोपिया (Addis Ababa, Ethiopia)",
+        "अबू धाबी , यूएई (Abu Dhabi, UAE)",
+        "नैरोबी , के न्या (Nairobi, Kenya)",
         "याउन्डे , कै मरून (Yaoundé, Cameroon)"
       ]
     },
@@ -3350,8 +3350,8 @@
       ],
       "hi": [
         "भारत – यूरोपीय संघ निवेश संरक्षण समझौता",
-        "भारत – यूरोपीय संघ डिजिटल साझेदारी समझौता",
         "भारत – यूरोपीय संघ व्यापक आर्थिक साझेदारी समझौता",
+        "भारत – यूरोपीय संघ डिजिटल साझेदारी समझौता",
         "भारत – यूरोपीय संघ मुक्त व्यापार समझौता ( भारत -EU FTA)"
       ]
     },
@@ -3383,10 +3383,10 @@
         "The transformation of education begins with teachers"
       ],
       "hi": [
-        "शिक्षा का रूपांतरण शिक्षकों से शुरू होता है (The transformation of education begins with teachers) शिक्षकों के विचारों को महत्व देना : शिक्षा के लिए एक नए सामाजिक",
-        "समझौते की ओर (Valuing teacher voices: Towards a new social contract for education) शिक्षार्थियों की अगली पीढ़ी को प्रेरित करना (Inspiring the",
-        "(Recasting teaching as a collaborative profession)",
-        "Next Generation of Learners) शिक्षण को सहयोगी पेशे के रूप में पुनर्परिभाषित करना"
+        "शिक्षकों के विचारों को महत्व देना: शिक्षा के लिए एक नए सामाजिक समझौते की ओर (Valuing teacher voices: Towards a new social contract for education)",
+        "शिक्षार्थियों की अगली पीढ़ी को प्रेरित करना (Inspiring the Next Generation of Learners)",
+        "शिक्षण को सहयोगी पेशे के रूप में पुनर्परिभाषित करना (Recasting teaching as a collaborative profession)",
+        "शिक्षा का रूपांतरण शिक्षकों से शुरू होता है (The transformation of education begins with teachers)"
       ]
     },
     "correctIndex": 2,
@@ -3396,7 +3396,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs • UN Declared Days",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Recasting teaching as a collaborative profession) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C ((Recasting teaching as a collaborative profession)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (शिक्षण को सहयोगी पेशे के रूप में पुनर्परिभाषित करना (Recasting teaching as a collaborative profession)) सही उत्तर है।"
     }
   }
 ]

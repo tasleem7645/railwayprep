@@ -18,9 +18,9 @@
       ],
       "hi": [
         "यह छोटा , सघन और धनात्मक रूप से आवेशित होता है।",
+        "इसमें केवल इलेक्ट्रॉन होते हैं।",
         "यह पूरे परमाणु में फै ला होता है।",
-        "यह बड़ा और ऋणात्मक रूप से आवेशित होता है।",
-        "इसमें केवल इलेक्ट्रॉन होते हैं।"
+        "यह बड़ा और ऋणात्मक रूप से आवेशित होता है।"
       ]
     },
     "correctIndex": 0,
@@ -85,10 +85,10 @@
         "Bacterial cell"
       ],
       "hi": [
+        "अर्बुद कोशिका (Tumour cell)",
         "दुर्दम कोशिका (Malignant cell)",
-        "जीवाणु कोशिका (Bacterial cell)",
         "सामान्य कोशिका (Normal cell)",
-        "अर्बुद कोशिका (Tumour cell)"
+        "जीवाणु कोशिका (Bacterial cell)"
       ]
     },
     "correctIndex": 2,
@@ -109,7 +109,7 @@
     "topic": "Cell Structure & Organelles • RRB Group D Level-1 (20 Aug 2026 Shift 40)",
     "question": {
       "en": "Which organelle is physically continuous with the nuclear envelope?",
-      "hi": "निम्नलिखित में से कौन - सा कोशिकांग भौतिक रूप से केंद्रकीय आवरण से जुड़ा होता है ? 10:30 AM · Hindi"
+      "hi": "निम्नलिखित में से कौन - सा कोशिकांग भौतिक रूप से केंद्रकीय आवरण से जुड़ा होता है ?"
     },
     "options": {
       "en": [
@@ -119,9 +119,9 @@
         "Endoplasmic Reticulum"
       ],
       "hi": [
+        "लाइसोसोम",
         "गॉल्जीकाय",
         "माइटोकॉन्ड्रिया",
-        "लाइसोसोम",
         "अंतर्द्र व्यी जालिका"
       ]
     },
@@ -142,7 +142,7 @@
     "subject": "General Science",
     "topic": "Classification of Organisms • RRB Group D Level-1 (20 Aug 2026 Shift 40)",
     "question": {
-      "en": "A clinician differentiates two bacteria using the classification hierarchy: same order but different families. Which conclusion does this indicate? 10:30 AM · English",
+      "en": "A clinician differentiates two bacteria using the classification hierarchy: same order but different families. Which conclusion does this indicate?",
       "hi": "एक चिकित्सक , वर्गीकरण पदानुक्रम का उपयोग करते हुए दो जीवाणुओं में अंतर करता है : दोनों का गण (Order) समान है , लेकिन कु ल (Family) अलग - अलग हैं। यह किस निष्कर्ष को दर्शाता है ?"
     },
     "options": {
@@ -153,10 +153,10 @@
         "They share order and class, but not family"
       ],
       "hi": [
-        "वे गण और वर्ग साझा करते हैं , लेकिन कु ल साझा नहीं करते हैं",
-        "वे केवल गण स्तर साझा करते हैं",
         "वे गण और कु ल साझा करते हैं , लेकिन वंश (genus) या प्रजाति साझा नहीं करते हैं",
-        "वे केवल कु ल स्तर साझा करते हैं"
+        "वे केवल गण स्तर साझा करते हैं",
+        "वे केवल कु ल स्तर साझा करते हैं",
+        "वे गण और वर्ग साझा करते हैं , लेकिन कु ल साझा नहीं करते हैं"
       ]
     },
     "correctIndex": 1,
@@ -221,10 +221,10 @@
         "Herbivores"
       ],
       "hi": [
-        "अपघटक",
+        "मांसाहारी",
         "उत्पादक",
-        "शाकाहारी",
-        "मांसाहारी"
+        "अपघटक",
+        "शाकाहारी"
       ]
     },
     "correctIndex": 1,
@@ -255,8 +255,8 @@
         "Trachea"
       ],
       "hi": [
-        "आंतें",
         "मूत्रमार्ग",
+        "आंतें",
         "मूत्रवाहिनी",
         "श्वासनली"
       ]
@@ -290,9 +290,9 @@
       ],
       "hi": [
         "पक्ष् माभ को एक विशिष्ट स्थान की ओर स्थानांतरित करके",
-        "सतह पर प्रत्यक्ष अवशोषण द्वारा",
+        "अपने पूरे शरीर की आकृति को बदलकर",
         "अस्थायी पादाभ का विस्तार करके",
-        "अपने पूरे शरीर की आकृति को बदलकर"
+        "सतह पर प्रत्यक्ष अवशोषण द्वारा"
       ]
     },
     "correctIndex": 0,
@@ -391,10 +391,10 @@
         "a clean flame"
       ],
       "hi": [
-        "स्वच्छ ज्वाला",
+        "अत्यधिक काले धुएं वाली नीली ज्वाला",
         "अत्यधिक काले धुएं वाली पीली ज्वाला",
         "बिना धुएं वाली पीली ज्वाला",
-        "अत्यधिक काले धुएं वाली नीली ज्वाला"
+        "स्वच्छ ज्वाला"
       ]
     },
     "correctIndex": 1,
@@ -425,9 +425,9 @@
         "Double bond is broken"
       ],
       "hi": [
-        "सूर्य के प्रकाश की उपस्थिति में होती है",
-        "एकाधिक उत्पाद बन सकते हैं",
         "एक परमाणु दूसरे परमाणु को प्रतिस्थापित करता है",
+        "एकाधिक उत्पाद बन सकते हैं",
+        "सूर्य के प्रकाश की उपस्थिति में होती है",
         "द्वि - आबंध टूट जाता है"
       ]
     },
@@ -460,9 +460,9 @@
       ],
       "hi": [
         "बल्ब को पारदर्शी बनाना",
-        "बल्ब की द्युति में वृद्धि करना",
+        "फिलामेंट को तीव्रता से शीतल करना",
         "फिलामेंट के जीवनकाल को बढ़ाना",
-        "फिलामेंट को तीव्रता से शीतल करना"
+        "बल्ब की द्युति में वृद्धि करना"
       ]
     },
     "correctIndex": 2,
@@ -493,10 +493,10 @@
         "Calculate the slope of the velocity-time graph"
       ],
       "hi": [
+        "ग्राफ से अंतिम वेग के मान को पढ़ना",
         "अंतिम समय से प्रारंभिक समय को घटाना",
-        "वेग - समय ग्राफ की ढाल की गणना करना दिए गए अंतराल के लिए वेग - समय ग्राफ के अंतर्गत क्षेत्रफल",
-        "की गणना करना",
-        "ग्राफ से अंतिम वेग के मान को पढ़ना"
+        "दिए गए अंतराल के लिए वेग - समय ग्राफ के अंतर्गत क्षेत्रफल की गणना करना",
+        "वेग - समय ग्राफ की ढाल की गणना करना"
       ]
     },
     "correctIndex": 2,
@@ -506,7 +506,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • Mechanics",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Calculate the area under the velocity-time graph for the given interval) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (की गणना करना) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (दिए गए अंतराल के लिए वेग - समय ग्राफ के अंतर्गत क्षेत्रफल की गणना करना) सही उत्तर है।"
     }
   },
   {
@@ -528,9 +528,9 @@
       ],
       "hi": [
         "आलंब",
-        "प्रतिरोध",
+        "भार",
         "आयास",
-        "भार"
+        "प्रतिरोध"
       ]
     },
     "correctIndex": 2,
@@ -561,10 +561,10 @@
         "Aluminium is dipped in alkali to increase its reactivity."
       ],
       "hi": [
-        "ऐल्युमीनियम की अभिक्रियाशीलता बढ़ाने के लिए उसे क्षार में डुबोया जाता है।",
         "जंग लगने से बचाने के लिए ऐल्युमीनियम को जस्ते से लेपित किया जाता है।",
+        "ऑक्साइड परत को कम करने के लिए विद्युत - अपघटन में ऐल्युमीनियम को कै थोड बनाया जाता है।",
         "ऐल्युमीनियम को एनोड बनाया जाता है और ऑक्सीकृ त करके मोटी सुरक्षात्मक ऑक्साइड परत बनाई जाती है।",
-        "ऑक्साइड परत को कम करने के लिए विद्युत - अपघटन में ऐल्युमीनियम को कै थोड बनाया जाता है।"
+        "ऐल्युमीनियम की अभिक्रियाशीलता बढ़ाने के लिए उसे क्षार में डुबोया जाता है।"
       ]
     },
     "correctIndex": 2,
@@ -595,9 +595,9 @@
         "It is always diminished compared to the object"
       ],
       "hi": [
-        "यह कभी आवर्धित और कभी छोटा होता है।",
-        "यह बिंब की तुलना में हमेशा आवर्धित होता है।",
         "यह हमेशा बिंब के समान साइज़ का होता है।",
+        "यह बिंब की तुलना में हमेशा आवर्धित होता है।",
+        "यह कभी आवर्धित और कभी छोटा होता है।",
         "यह बिंब की तुलना में हमेशा छोटा होता है।"
       ]
     },
@@ -629,10 +629,10 @@
         "The solute particles can be seen with the naked eye."
       ],
       "hi": [
-        "विलेय के कणों को नग्न आंखों से देखा जा सकता है।",
+        "स्थायी रहने पर विलेय के कण नीचे बैठ जाते हैं।",
         "विलेय के कण प्रकाश किरण - पुंज को प्रकीर्ण करते हैं लेकिन नीचे नहीं बैठते हैं।",
         "विलेय के कण प्रकाश किरण - पुंज को प्रकीर्ण नहीं करते हैं।",
-        "स्थायी रहने पर विलेय के कण नीचे बैठ जाते हैं।"
+        "विलेय के कणों को नग्न आंखों से देखा जा सकता है।"
       ]
     },
     "correctIndex": 1,
@@ -663,10 +663,10 @@
         "It simplifies the calculation of velocity"
       ],
       "hi": [
-        "यह वेग की गणना को सरल बनाता है",
-        "यह सूत्र \"F = k ma\" में स्थिरांक k को 1 के बराबर बनाता है",
         "यह द्रव्यमान और त्वरण को मान में बराबर बनाता है",
-        "यह त्वरण के मान को बदलता है"
+        "यह सूत्र \"F = k ma\" में स्थिरांक k को 1 के बराबर बनाता है",
+        "यह त्वरण के मान को बदलता है",
+        "यह वेग की गणना को सरल बनाता है"
       ]
     },
     "correctIndex": 1,
@@ -698,9 +698,9 @@
       ],
       "hi": [
         "नाइट्रोजन",
-        "कार्बन डाइऑक्साइड",
+        "क्लोरीन",
         "हाइड्रोजन",
-        "क्लोरीन"
+        "कार्बन डाइऑक्साइड"
       ]
     },
     "correctIndex": 2,
@@ -728,7 +728,7 @@
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true but R is not the correct explanation of A",
         "A is false, but R is true",
-        "A is true, but R is false Mathematics"
+        "A is true, but R is false"
       ],
       "hi": [
         "A और R दोनों सत्य हैं , और R, A की सही व्याख्या है",
@@ -765,10 +765,10 @@
         "Decomposition reaction"
       ],
       "hi": [
-        "अपघटन ( वियोजन ) अभिक्रिया",
-        "उदासीनीकरण अभिक्रिया",
         "संयोजन अभिक्रिया",
-        "विस्थापन अभिक्रिया"
+        "उदासीनीकरण अभिक्रिया",
+        "विस्थापन अभिक्रिया",
+        "अपघटन ( वियोजन ) अभिक्रिया"
       ]
     },
     "correctIndex": 1,
@@ -799,10 +799,10 @@
         "The human ear amplifies only high frequencies"
       ],
       "hi": [
-        "मानव कान केवल उच्च आवृत्तियों को प्रवर्धित करता है",
-        "है मानव कान , निम्न आवृत्तियों को उच्च आवृत्तियों में परिवर्तित करता",
-        "मानव कान , 20 Hz से कम की सभी आवृत्तियों को सुन सकता है मानव कान , 20 Hz से कम की आवृत्तियों को नहीं सुन सकता",
-        "है"
+        "मानव कान निम्न आवृत्तियों को उच्च आवृत्तियों में परिवर्तित करता है",
+        "मानव कान 20 Hz से कम की आवृत्तियों को नहीं सुन सकता है",
+        "मानव कान 20 Hz से कम की सभी आवृत्तियों को सुन सकता है",
+        "मानव कान केवल उच्च आवृत्तियों को प्रवर्धित करता है"
       ]
     },
     "correctIndex": 1,
@@ -812,7 +812,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • Wave Properties (Frequency, Wavelength)",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (The human ear cannot hear frequencies below 20 Hz) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (है मानव कान , निम्न आवृत्तियों को उच्च आवृत्तियों में परिवर्तित करता) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (मानव कान 20 Hz से कम की आवृत्तियों को नहीं सुन सकता है) सही उत्तर है।"
     }
   },
   {
@@ -834,9 +834,9 @@
       ],
       "hi": [
         "2 kg की वस्तु जो 6 m/s पर गति कर रही है",
-        "4 kg की वस्तु जो 3 m/s पर गति कर रही है",
+        "किसी भी वस्तु में गतिज ऊर्जा नहीं है",
         "दोनों वस्तुओं की गतिज ऊर्जा समान है",
-        "किसी भी वस्तु में गतिज ऊर्जा नहीं है Mathematics"
+        "4 kg की वस्तु जो 3 m/s पर गति कर रही है"
       ]
     },
     "correctIndex": 0,
@@ -867,10 +867,10 @@
         "40"
       ],
       "hi": [
-        "40",
+        "20",
         "10",
         "30",
-        "20"
+        "40"
       ]
     },
     "correctIndex": 1,
@@ -902,9 +902,9 @@
       ],
       "hi": [
         "532.5%",
+        "537.9%",
         "529.3%",
-        "538.3%",
-        "537.9%"
+        "538.3%"
       ]
     },
     "correctIndex": 0,
@@ -969,9 +969,9 @@
         "17"
       ],
       "hi": [
-        "20",
-        "16",
         "18",
+        "16",
+        "20",
         "17"
       ]
     },
@@ -1003,8 +1003,8 @@
         "152"
       ],
       "hi": [
-        "160",
         "158",
+        "160",
         "156",
         "152"
       ]
@@ -1106,8 +1106,8 @@
       ],
       "hi": [
         "15",
-        "30",
         "35",
+        "30",
         "180"
       ]
     },
@@ -1139,10 +1139,10 @@
         "3%"
       ],
       "hi": [
-        "6%",
+        "1%",
         "4%",
-        "3%",
-        "1%"
+        "6%",
+        "3%"
       ]
     },
     "correctIndex": 1,
@@ -1174,9 +1174,9 @@
       ],
       "hi": [
         "1",
+        "4",
         "7",
-        "8",
-        "4"
+        "8"
       ]
     },
     "correctIndex": 0,
@@ -1241,8 +1241,8 @@
         "54 km/hr"
       ],
       "hi": [
-        "45 km/hr",
         "60 km/hr",
+        "45 km/hr",
         "50 km/hr",
         "54 km/hr"
       ]
@@ -1275,9 +1275,9 @@
         "40 years"
       ],
       "hi": [
+        "35 वर्ष",
         "50 वर्ष",
         "45 वर्ष",
-        "35 वर्ष",
         "40 वर्ष"
       ]
     },
@@ -1306,13 +1306,13 @@
         "72",
         "72.5",
         "73",
-        "73.5 Masuri rice priced at ₹80 per kg. loss?"
+        "73.5"
       ],
       "hi": [
-        "73",
         "72",
-        "73.5",
-        "72.5"
+        "72.5",
+        "73",
+        "73.5"
       ]
     },
     "correctIndex": 3,
@@ -1321,8 +1321,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Weighted Average",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (73.5 Masuri rice priced at ₹80 per kg. loss?) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (72.5) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (73.5) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (73.5) सही उत्तर है।"
     }
   },
   {
@@ -1333,7 +1333,7 @@
     "topic": "(a+b)^2, (a-b)^2 • RRB Group D Level-1 (20 Aug 2026 Shift 40)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "यदि है , तो का मान ज्ञात कीजिए।"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1353,10 +1353,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • (a+b)^2, (a-b)^2",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1367,7 +1367,7 @@
     "topic": "Circle Area & Circumference • RRB Group D Level-1 (20 Aug 2026 Shift 40)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "एक वर्ग के अंतर्गत बने वृत्त की त्रिज्या 57 cm है। परिवृत्त का क्षेत्रफल (cm² में ) ज्ञात (π = का उपयोग कीजिए )"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1387,10 +1387,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Circle Area & Circumference",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1421,10 +1421,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Mean Price",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1446,9 +1446,9 @@
       ],
       "hi": [
         "80",
-        "61",
+        "66",
         "68",
-        "66"
+        "61"
       ]
     },
     "correctIndex": 0,
@@ -1489,10 +1489,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Order of Operations",
-      "en": "6 - 9 ÷ 3 = 6 - 3 = 3. 60 ÷ 3 - 3 = 20 - 3 = 17. 38 - 17 = 21. 45 - 21 = 24. Correct: Option A.",
-      "hi": "45 - 21 = 24। सही उत्तर: विकल्प A।"
+      "en": "6 - 9 ÷ 3 = 6 - 3 = 3. 60 ÷ 3 - 3 = 20 - 3 = 17. 38 - 17 = 21. 45 - 21 = 24. Correct: Option A (24).",
+      "hi": "45 - 21 = 24। सही उत्तर: विकल्प A (24)।"
     }
   },
   {
@@ -1523,10 +1523,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
-      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A (√2 sin θ).",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A (√2 sin θ)।"
     }
   },
   {
@@ -1557,10 +1557,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Rectangle & Square",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1591,10 +1591,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Sphere & Hemisphere",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1605,7 +1605,7 @@
     "topic": "Trigonometric Identities • RRB Group D Level-1 (20 Aug 2026 Shift 40)",
     "question": {
       "en": "Evaluate: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$",
-      "hi": "यदि है , तो का मान ज्ञात कीजिए।"
+      "hi": "मान ज्ञात कीजिए: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$"
     },
     "options": {
       "en": [
@@ -1627,8 +1627,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Trigonometric Identities",
-      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D.",
-      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D।"
+      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D (tan² A).",
+      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D (tan² A)।"
     }
   },
   {
@@ -1659,10 +1659,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Two Items Mixing",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1680,11 +1680,11 @@
         "Operations",
         "Salaries",
         "Marketing",
-        "Research & Development (R&D) General Intelligence & Reasoning"
+        "Research & Development (R&D)"
       ],
       "hi": [
-        "वेतन",
         "संचालन",
+        "वेतन",
         "विपणन",
         "अनुसंधान एवं विकास (R&D)"
       ]
@@ -1695,7 +1695,7 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Year-on-Year Comparison",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Research & Development (R&D) General Intelligence & Reasoning) is the verified correct answer.",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Research & Development (R&D)) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (अनुसंधान एवं विकास (R&D)) सही उत्तर है।"
     }
   },
@@ -1719,8 +1719,8 @@
       "hi": [
         "BFDU",
         "CEDU",
-        "BFEV",
-        "CEEV"
+        "CEEV",
+        "BFEV"
       ]
     },
     "correctIndex": 0,
@@ -1753,8 +1753,8 @@
       "hi": [
         "शिव और आलोक",
         "शिव और मिनी",
-        "रिंकू और टिंकू",
-        "आलोक और फरहीन"
+        "आलोक और फरहीन",
+        "रिंकू और टिंकू"
       ]
     },
     "correctIndex": 0,
@@ -1787,8 +1787,8 @@
       "hi": [
         "चार",
         "एक",
-        "दो",
-        "तीन"
+        "तीन",
+        "दो"
       ]
     },
     "correctIndex": 0,
@@ -1819,9 +1819,9 @@
         "Brother's wife"
       ],
       "hi": [
-        "पत्नी के पिता",
-        "माता की बहन",
         "बहन का पति",
+        "माता की बहन",
+        "पत्नी के पिता",
         "भाई की पत्नी"
       ]
     },
@@ -1853,8 +1853,8 @@
         "Three"
       ],
       "hi": [
-        "एक",
         "चार",
+        "एक",
         "दो",
         "तीन"
       ]
@@ -1887,8 +1887,8 @@
         "2"
       ],
       "hi": [
-        "5",
         "1",
+        "5",
         "8",
         "2"
       ]
@@ -1921,10 +1921,10 @@
         "4"
       ],
       "hi": [
-        "4",
-        "3",
         "2",
-        "5"
+        "3",
+        "5",
+        "4"
       ]
     },
     "correctIndex": 1,
@@ -1955,9 +1955,9 @@
         "One"
       ],
       "hi": [
-        "तीन",
         "एक भी नहीं",
         "दो",
+        "तीन",
         "एक"
       ]
     },
@@ -1990,9 +1990,9 @@
       ],
       "hi": [
         "एक भी नहीं",
-        "तीन",
+        "एक",
         "दो",
-        "एक"
+        "तीन"
       ]
     },
     "correctIndex": 2,
@@ -2023,9 +2023,9 @@
         "18"
       ],
       "hi": [
-        "15",
-        "16",
         "14",
+        "16",
+        "15",
         "18"
       ]
     },
@@ -2057,9 +2057,9 @@
         "7"
       ],
       "hi": [
-        "8",
-        "6",
         "5",
+        "6",
+        "8",
         "7"
       ]
     },
@@ -2091,9 +2091,9 @@
         "One"
       ],
       "hi": [
-        "दो",
         "तीन",
         "चार",
+        "दो",
         "एक"
       ]
     },
@@ -2126,8 +2126,8 @@
       ],
       "hi": [
         "644",
-        "663",
         "652",
+        "663",
         "636"
       ]
     },
@@ -2160,9 +2160,9 @@
       ],
       "hi": [
         "7-49-59-118",
-        "3-9-18-27",
+        "4-16-32-42",
         "8-16-32-42",
-        "4-16-32-42"
+        "3-9-18-27"
       ]
     },
     "correctIndex": 0,
@@ -2193,9 +2193,9 @@
         "35"
       ],
       "hi": [
-        "40",
         "45",
         "30",
+        "40",
         "35"
       ]
     },
@@ -2227,10 +2227,10 @@
         "42"
       ],
       "hi": [
+        "46",
         "45",
-        "42",
         "44",
-        "46"
+        "42"
       ]
     },
     "correctIndex": 2,
@@ -2261,10 +2261,10 @@
         "53"
       ],
       "hi": [
-        "53",
+        "11",
         "50",
         "15",
-        "11"
+        "53"
       ]
     },
     "correctIndex": 2,
@@ -2295,10 +2295,10 @@
         "# = PWE, % = SUE"
       ],
       "hi": [
+        "# = NWD, % = SRG",
         "# = NVD, % = QGN",
-        "# = PWE, % = SUE",
         "# = PWD, % = QRE",
-        "# = NWD, % = SRG"
+        "# = PWE, % = SUE"
       ]
     },
     "correctIndex": 2,
@@ -2364,9 +2364,9 @@
       ],
       "hi": [
         "GL-EJ-CF",
-        "AB-CD-EF",
+        "BF-DH-FJ",
         "TR-QP-NM",
-        "BF-DH-FJ"
+        "AB-CD-EF"
       ]
     },
     "correctIndex": 0,
@@ -2397,9 +2397,9 @@
         "UM – CE"
       ],
       "hi": [
+        "VO – DF",
         "PI – XZ",
         "JC – RT",
-        "VO – DF",
         "UM – CE"
       ]
     },
@@ -2431,10 +2431,10 @@
         "KMO"
       ],
       "hi": [
-        "KMO",
         "RTV",
+        "DFH",
         "LMQ",
-        "DFH"
+        "KMO"
       ]
     },
     "correctIndex": 2,
@@ -2465,9 +2465,9 @@
         "Two"
       ],
       "hi": [
-        "चार",
-        "एक",
         "तीन",
+        "एक",
+        "चार",
         "दो"
       ]
     },
@@ -2499,10 +2499,10 @@
         "Three"
       ],
       "hi": [
-        "तीन",
+        "दो",
         "चार",
         "एक",
-        "दो"
+        "तीन"
       ]
     },
     "correctIndex": 1,
@@ -2533,10 +2533,10 @@
         "Three"
       ],
       "hi": [
-        "दो",
+        "चार",
         "एक",
-        "तीन",
-        "चार"
+        "दो",
+        "तीन"
       ]
     },
     "correctIndex": 1,
@@ -2568,8 +2568,8 @@
       ],
       "hi": [
         "पति",
-        "पुत्र",
         "पिता",
+        "पुत्र",
         "भाई"
       ]
     },
@@ -2603,8 +2603,8 @@
       "hi": [
         "तीन",
         "दो",
-        "पांच",
-        "चार"
+        "चार",
+        "पांच"
       ]
     },
     "correctIndex": 0,
@@ -2631,14 +2631,14 @@
       "en": [
         "Data in statement II alone is sufficient to answer the question while data in statement I is not.",
         "Data in statement I alone is sufficient to answer the question while data in statement II is not.",
-        "Both statements I and II together are NOT sufficient to answer the question. Both statements I and II together (and not statement I",
-        "alone or statement II alone) are sufficient to answer the question."
+        "Both statements I and II together are NOT sufficient to answer the question.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question."
       ],
       "hi": [
-        "अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
-        "अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
-        "पर्याप्त नहीं हैं। General Awareness",
-        "अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है। कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए"
+        "अकेले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
+        "अकेले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
+        "कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "कथन I और कथन II दोनों मिलकर (और न कि अकेले कथन I या अकेले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
       ]
     },
     "correctIndex": 2,
@@ -2647,8 +2647,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Both statements I and II together are NOT sufficient to answer the question. Both statements I and II together (and not statement I) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (पर्याप्त नहीं हैं। General Awareness) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Both statements I and II together are NOT sufficient to answer the question.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।) सही उत्तर है।"
     }
   },
   {
@@ -2669,10 +2669,10 @@
         "Neither conclusion (I) nor (II) follows."
       ],
       "hi": [
-        "केवल निष्कर्ष (I) अनुसरण करता है।",
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
         "केवल निष्कर्ष (II) अनुसरण करता है।",
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
+        "केवल निष्कर्ष (I) अनुसरण करता है।",
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।"
       ]
     },
     "correctIndex": 1,
@@ -2700,13 +2700,13 @@
         "Only conclusion (II) follows.",
         "Only conclusion (I) follows.",
         "Both conclusions (I) and (II) follow.",
-        "Neither conclusion (I) nor (II) follows. General Awareness"
+        "Neither conclusion (I) nor (II) follows."
       ],
       "hi": [
         "केवल निष्कर्ष (II) अनुसरण करता है।",
+        "केवल निष्कर्ष (I) अनुसरण करता है।",
         "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
-        "केवल निष्कर्ष (I) अनुसरण करता है।"
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।"
       ]
     },
     "correctIndex": 0,
@@ -2737,8 +2737,8 @@
         "Punjab"
       ],
       "hi": [
-        "मुंबई",
         "बंगाल",
+        "मुंबई",
         "कर्नाटक",
         "पंजाब"
       ]
@@ -2772,9 +2772,9 @@
       ],
       "hi": [
         "काहिरा (Cairo)",
-        "लागोस (Lagos)",
+        "नैरोबी (Nairobi)",
         "हरारे (Harare)",
-        "नैरोबी (Nairobi)"
+        "लागोस (Lagos)"
       ]
     },
     "correctIndex": 2,
@@ -2805,10 +2805,10 @@
         "South Africa"
       ],
       "hi": [
-        "दक्षिण अफ्रीका",
-        "इंग्लैंड",
         "ऑस्ट्रेलिया",
-        "पाकिस्तान"
+        "इंग्लैंड",
+        "पाकिस्तान",
+        "दक्षिण अफ्रीका"
       ]
     },
     "correctIndex": 1,
@@ -2873,10 +2873,10 @@
         "Governor can amend bills before assent and can send the bill back to the assembly"
       ],
       "hi": [
-        "और उन्हें अनिश्चित काल के लिए अस्वीकार या विलंबित नहीं किया जा सकता",
-        "राज्यपाल विधेयक को मंजूरी से पहले संशोधित कर सकते हैं और विधेयक को विधानसभा में वापस भेज सकते हैं",
-        "राज्यपाल के पास पूर्ण वीटो शक्ति है राज्यपाल को राज्य के विधेयकों पर कार्रवाई करनी चाहिए",
-        "राज्यपाल अनिश्चित काल तक पॉके ट वीटो का प्रयोग कर सकते हैं"
+        "राज्यपाल को राज्य के विधेयकों पर कार्रवाई करनी चाहिए और उन्हें अनिश्चित काल के लिए अस्वीकार या विलंबित नहीं किया जा सकता",
+        "राज्यपाल अनिश्चित काल तक पॉके ट वीटो का प्रयोग कर सकते हैं",
+        "राज्यपाल के पास पूर्ण वीटो शक्ति है",
+        "राज्यपाल विधेयक को मंजूरी से पहले संशोधित कर सकते हैं और विधेयक को विधानसभा में वापस भेज सकते हैं"
       ]
     },
     "correctIndex": 0,
@@ -2886,7 +2886,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Awareness & Current Affairs • Governor & Chief Minister",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (The Governor must act on state bills and cannot refuse or delay them indefinitely) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (और उन्हें अनिश्चित काल के लिए अस्वीकार या विलंबित नहीं किया जा सकता) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (राज्यपाल को राज्य के विधेयकों पर कार्रवाई करनी चाहिए और उन्हें अनिश्चित काल के लिए अस्वीकार या विलंबित नहीं किया जा सकता) सही उत्तर है।"
     }
   },
   {
@@ -2907,10 +2907,10 @@
         "Planet vs. Plastics"
       ],
       "hi": [
-        "ग्रह बनाम प्लास्टिक (Planet vs. Plastics)",
-        "हमारी शक्ति , हमारा ग्रह (Our Power, Our Planet)",
         "हमारी पृथ्वी को पुनर्स्थापित करें (Restore our Earth)",
-        "हमारे ग्रह में निवेश करें (Invest In Our Planet)"
+        "हमारी शक्ति , हमारा ग्रह (Our Power, Our Planet)",
+        "हमारे ग्रह में निवेश करें (Invest In Our Planet)",
+        "ग्रह बनाम प्लास्टिक (Planet vs. Plastics)"
       ]
     },
     "correctIndex": 1,
@@ -2975,10 +2975,10 @@
         "Indian Navy"
       ],
       "hi": [
-        "भारतीय नौसेना",
+        "राष्ट्रीय सुरक्षा गार्ड",
         "भारतीय वायु सेना",
         "भारतीय तटरक्षक बल",
-        "राष्ट्रीय सुरक्षा गार्ड"
+        "भारतीय नौसेना"
       ]
     },
     "correctIndex": 1,
@@ -3010,8 +3010,8 @@
       ],
       "hi": [
         "क्रायोजेनिक रॉके ट इंजन",
-        "सॉलिड रॉके ट बूस्टर मोटर",
         "रैमजेट प्रोपल्शन मॉड्यूल",
+        "सॉलिड रॉके ट बूस्टर मोटर",
         "एक्टिवली कू ल्ड फु ल - स्के ल स्क्रै मजेट कं बस्टर"
       ]
     },
@@ -3045,8 +3045,8 @@
       "hi": [
         "ऑपरेशन नन्हे फरिश्ते",
         "ऑपरेशन स्माइल",
-        "ऑपरेशन मुस्कान",
-        "मिशन वात्सल्य"
+        "मिशन वात्सल्य",
+        "ऑपरेशन मुस्कान"
       ]
     },
     "correctIndex": 0,
@@ -3077,10 +3077,10 @@
         "My Country, My Right"
       ],
       "hi": [
-        "मेरा राष्ट्र , मेरी आवाज",
+        "मेरा लोकतंत्र , मेरा कर्तव्य",
         "मेरा भारत , मेरा वोट",
-        "मेरा देश , मेरा अधिकार",
-        "मेरा लोकतंत्र , मेरा कर्तव्य"
+        "मेरा राष्ट्र , मेरी आवाज",
+        "मेरा देश , मेरा अधिकार"
       ]
     },
     "correctIndex": 1,
@@ -3111,10 +3111,10 @@
         "Securities and Exchange Board of India"
       ],
       "hi": [
-        "इंफ्रास्ट्रक्चर डेवलपमेंट फाइनेंस कं पनी (IDFC) लिमिटेड",
+        "टूरिज्म फाइनेंस कॉर्पोरेशन ऑफ इंडिया (TFCI) लिमिटेड",
         "भारतीय रिजर्व बैंक",
-        "भारतीय प्रतिभूति और विनिमय बोर्ड",
-        "टूरिज्म फाइनेंस कॉर्पोरेशन ऑफ इंडिया (TFCI) लिमिटेड"
+        "इंफ्रास्ट्रक्चर डेवलपमेंट फाइनेंस कं पनी (IDFC) लिमिटेड",
+        "भारतीय प्रतिभूति और विनिमय बोर्ड"
       ]
     },
     "correctIndex": 1,
@@ -3145,8 +3145,8 @@
         "Ministry of Finance"
       ],
       "hi": [
-        "पर्यावरण , वन और जलवायु परिवर्तन मंत्रालय",
         "नीति आयोग",
+        "पर्यावरण , वन और जलवायु परिवर्तन मंत्रालय",
         "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय",
         "वित्त मंत्रालय"
       ]
@@ -3248,9 +3248,9 @@
       ],
       "hi": [
         "अनुच्छेद 14",
+        "अनुच्छेद 15",
         "अनुच्छेद 19",
-        "अनुच्छेद 21",
-        "अनुच्छेद 15"
+        "अनुच्छेद 21"
       ]
     },
     "correctIndex": 0,
@@ -3281,10 +3281,10 @@
         "Centre for Biomedical Science and Technology"
       ],
       "hi": [
-        "सेंटर फॉर बायोमेडिकल साइंस एं ड टेक्नोलॉजी",
         "सेंटर फॉर जेनेटिक रिसर्च एं ड डेवलपमेंट",
+        "सेंटर फॉर बायोटेक्नोलॉजी स्टडीज़",
         "सेंटर ऑफ एक्सीलेंस फॉर CRISPR इनोवेशन एं ड ट्रांसलेशन",
-        "सेंटर फॉर बायोटेक्नोलॉजी स्टडीज़"
+        "सेंटर फॉर बायोमेडिकल साइंस एं ड टेक्नोलॉजी"
       ]
     },
     "correctIndex": 2,
@@ -3315,8 +3315,8 @@
         "Bengal Florican"
       ],
       "hi": [
-        "सारस क्रे न",
         "ग्रेट इंडियन बस्टर्ड",
+        "सारस क्रे न",
         "भारतीय स्किमर",
         "बंगाल फ्लोरिकन"
       ]
@@ -3349,10 +3349,10 @@
         "Technology, Economy, and Equity"
       ],
       "hi": [
-        "नवाचार , प्रभाव और अखंडता (Innovation, Impact, and Integrity) प्रौद्योगिकी , अर्थव्यवस्था और समानता (Technology,",
+        "नवाचार , प्रभाव और अखंडता (Innovation, Impact, and Integrity)",
         "शासन , विकास और हरित (Governance, Growth, and Green)",
         "लोग , ग्रह और प्रगति (People, Planet, and Progress)",
-        "Economy, and Equity)"
+        "प्रौद्योगिकी , अर्थव्यवस्था और समानता (Technology, Economy, and Equity)"
       ]
     },
     "correctIndex": 2,

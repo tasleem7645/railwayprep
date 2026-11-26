@@ -29,7 +29,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (3735/900). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (3735/900)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 2,
@@ -50,9 +51,9 @@
       ],
       "hi": [
         "10 (22/23)",
-        "11 (1/23)",
+        "11 (7/23)",
         "12 (1/23)",
-        "11 (7/23)"
+        "11 (1/23)"
       ]
     },
     "correctIndex": 1,
@@ -60,8 +61,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (11 (7/23)). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (11 (1/23))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (11 (7/23))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 3,
@@ -93,7 +95,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (45). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (45)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 4,
@@ -125,7 +128,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (Article 74). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (अनुच्छेद 74)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 5,
@@ -135,7 +139,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Which of the following equations correctly relates the resistance (R) of a conductor to its length (l), area of cross-section (A), and resistivity (ρ)?",
-      "hi": "सात बॉक्स T, W, Z, K, R, U और H एक के ऊपर एक रखे गए हैं, लेकिन आवश्यक नहीं कि वे इसी क्रम में हों। W के नीचे केवल दो बॉक्स रखे गए हैं। T को K के ठीक नीचे रखा गया है। H और W के बीच केवल एक बॉक्स रखा गया है। H को T के ठीक नीचे रखा गया है। U को Z के ठीक ऊपर रखा गया है। W के ठीक ऊपर कौन-सा बॉक्स रखा गया है?"
+      "hi": "निम्नलिखित में से कौन-सा समीकरण, एक चालक के प्रतिरोध (R) को उसकी लंबाई (l), अनुप्रस्थ काट के क्षेत्रफल (A) और प्रतिरोधकता (ρ) के साथ सही तरह से संबद्ध करता है?"
     },
     "options": {
       "en": [
@@ -145,10 +149,10 @@
         "R=ρA/l"
       ],
       "hi": [
-        "Z",
-        "T",
-        "R",
-        "K"
+        "R=l/ρA",
+        "R=A/ρl",
+        "R=ρl/A",
+        "R=ρA/l"
       ]
     },
     "correctIndex": 2,
@@ -156,8 +160,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (R=ρl/A). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (R)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (R=ρl/A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 6,
@@ -166,7 +171,7 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
-      "en": "6554",
+      "en": "A student's marks were wrongly entered as 23 instead of 59. Due to this, the average marks of the class decreased. How many students are there in the class?",
       "hi": "एक विद्यार्थी के अंक गलती से 59 के बजाय 23 दर्ज कर दिए गए। इसके कारण कक्षा के औसत अंक कम हो गए। कक्षा में विद्यार्थियों की संख्या कितनी है?"
     },
     "options": {
@@ -189,7 +194,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (28). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (28)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 7,
@@ -198,30 +204,31 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
-      "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+      "en": "Simplify the given trigonometric expression.",
+      "hi": "को सरल कीजिए।"
     },
     "options": {
       "en": [
-        "97",
-        "89",
-        "95",
-        "101"
+        "secA − cosecA",
+        "sinA − cosA",
+        "cosecA − secA",
+        "cosA − sinA"
       ],
       "hi": [
-        "97",
-        "89",
-        "95",
-        "101"
+        "secA − cosecA",
+        "sinA − cosA",
+        "cosecA − secA",
+        "cosA − sinA"
       ]
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
+      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
-    }
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (secA − cosecA).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (secA − cosecA)।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 8,
@@ -231,7 +238,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Refer to the following letter, symbol series and answer the question that follows. Counting to be done from left to right only. (Left) N % Q E A L & M @ B & F > £ N H * # < L % P (Right) How many such symbols are there, each of which are immediately preceded by a letter and immediately followed by a symbol? 6519",
-      "hi": "निम्नलिखित में से कौन-सा समीकरण, एक चालक के प्रतिरोध (R) को उसकी लंबाई (l), अनुप्रस्थ काट के क्षेत्रफल (A) और प्रतिरोधकता (ρ) के साथ सही तरह से संबद्ध करता है?"
+      "hi": "निम्नलिखित अक्षर, प्रतीक श्रृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) N % Q E A L & M @ B & F > £ N H * # < L % P (दाएं) ऐसे कितने प्रतीक हैं, जिनमें से प्रत्येक के ठीक पहले एक अक्षर और ठीक बाद एक प्रतीक है?"
     },
     "options": {
       "en": [
@@ -241,10 +248,10 @@
         "None"
       ],
       "hi": [
-        "R=l/ρA",
-        "R=ρl/A",
-        "R=ρA/l",
-        "R=A/ρl"
+        "एक",
+        "दो",
+        "तीन",
+        "एक भी नहीं"
       ]
     },
     "correctIndex": 1,
@@ -252,8 +259,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (Two). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (R=ρl/A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 9,
@@ -274,8 +282,8 @@
       ],
       "hi": [
         "-1/9",
-        "-1/3",
         "-1/10",
+        "-1/3",
         "-1/6"
       ]
     },
@@ -284,8 +292,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (-1/3). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (-1/10)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (-1/3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 10,
@@ -317,7 +326,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (4.48). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (4.48)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 11,
@@ -339,8 +349,8 @@
       "hi": [
         "25,206",
         "24,954",
-        "25,066",
-        "25,183"
+        "25,183",
+        "25,066"
       ]
     },
     "correctIndex": 3,
@@ -348,8 +358,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (25,066). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (25,183)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (25,066)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 12,
@@ -381,7 +392,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (31%). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (31%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 13,
@@ -401,10 +413,10 @@
         "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question"
       ],
       "hi": [
-        "दोनों कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
         "केवल कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
-        "दोनों कथन I और II एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
-        "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।"
+        "दोनों कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
+        "दोनों कथन I और II एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
       ]
     },
     "correctIndex": 0,
@@ -412,8 +424,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Data in statement II alone is sufficient to answer the question while data in statement I is not). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (दोनों कथन I और II एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (केवल कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 14,
@@ -434,8 +447,8 @@
       ],
       "hi": [
         "169",
-        "167",
         "168",
+        "167",
         "170"
       ]
     },
@@ -444,8 +457,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (168). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (167)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (168)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 15,
@@ -477,7 +491,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (13351). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (13351)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 16,
@@ -509,7 +524,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (11 km to the south). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (11 km, दक्षिण की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 17,
@@ -519,7 +535,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "AL8 is related to EQ40 in a certain way. In the same way, MF13 is related to QK65. To which of the given options is UO5 related, following the same logic?",
-      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+      "hi": "एक निश्चित तरीके से, AL8 का संबंध EQ40 से है। उसी तरीके से, MF13 का संबंध QK65 से है। समान तर्क का अनुसरण करते हुए, UO5 का संबंध दिए गए विकल्पों में से किससे है?"
     },
     "options": {
       "en": [
@@ -529,10 +545,10 @@
         "XT20"
       ],
       "hi": [
-        "XPJ",
-        "QHC",
-        "DUP",
-        "JAV"
+        "YT25",
+        "MT25",
+        "ZT20",
+        "XT20"
       ]
     },
     "correctIndex": 0,
@@ -540,8 +556,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (YT25). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (XPJ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (YT25)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 18,
@@ -561,10 +578,10 @@
         "Vegetable peels, flowers, paper"
       ],
       "hi": [
-        "सब्जियों के छिलके , फू ल, कागज",
+        "खराब भोजन, सब्जियों के छिलके , इस्तेमाल की हुई चाय की पत्तियाँ",
         "प्लास्टिक बबल पैक, दूध के सामान्य पैके ट, दवा की प्लास्टिक की बोतलें",
         "घास, खराब भोजन, सब्जियों के छिलके",
-        "खराब भोजन, सब्जियों के छिलके , इस्तेमाल की हुई चाय की पत्तियाँ"
+        "सब्जियों के छिलके , फू ल, कागज"
       ]
     },
     "correctIndex": 1,
@@ -573,7 +590,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (Plastic bubble pack, regular milk packets, medicine plastic bottles). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (प्लास्टिक बबल पैक, दूध के सामान्य पैके ट, दवा की प्लास्टिक की बोतलें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 19,
@@ -605,7 +623,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (1). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 20,
@@ -637,7 +656,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (90). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (90)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 21,
@@ -647,7 +667,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "What happens at the boiling point of a liquid?",
-      "hi": "एक निश्चित तरीके से, AL8 का संबंध EQ40 से है। उसी तरीके से, MF13 का संबंध QK65 से है। समान तर्क का अनुसरण करते हुए, UO5 का संबंध दिए गए विकल्पों में से किससे है?"
+      "hi": "किसी द्रव के क्वथनांक पर क्या होता है?"
     },
     "options": {
       "en": [
@@ -657,10 +677,10 @@
         "Particles gain enough energy to change into vapour."
       ],
       "hi": [
-        "MT25",
-        "XT20",
-        "ZT20",
-        "YT25"
+        "कण ऊर्जा का ह्रास करते हैं और एक-दूसरे के नजदीक आ जाते हैं।",
+        "कण तरल रूप में रहते हुए थोड़ा सा प्रसार करते हैं।",
+        "कण स्थिर रहते हैं और किसी भी प्रकार का संचलन नहीं करते।",
+        "कण वाष्प में परिवर्तित होने के लिए पर्याप्त ऊर्जा प्राप्त करते हैं।"
       ]
     },
     "correctIndex": 3,
@@ -668,8 +688,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (Particles gain enough energy to change into vapour.). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (YT25)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (कण वाष्प में परिवर्तित होने के लिए पर्याप्त ऊर्जा प्राप्त करते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 22,
@@ -701,7 +722,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (47). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (47)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 23,
@@ -721,9 +743,9 @@
         "FDF"
       ],
       "hi": [
-        "FCL",
-        "KCE",
         "FCE",
+        "KCE",
+        "FCL",
         "FDF"
       ]
     },
@@ -732,8 +754,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (FCE). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (FCL)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (FCE)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 24,
@@ -743,7 +766,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Read the given statement(s) and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s). Statements: All kings are bombs. No parrots are kings. Conclusions: (I) Some bombs are not parrots. (II) Some bombs are kings.",
-      "hi": "एक निश्चित कू ट भाषा में, 'A + B' का अर्थ है कि 'A, B की पुत्री है', 'A – B' का अर्थ है कि 'A, B का पिता है', 'A × B' का अर्थ है कि 'A, B का पुत्र है' और 'A ÷ B' का अर्थ है कि 'A, B की बहन है'। उपरोक्त के आधार पर, यदि 'Q × M + V – J ÷ P' है, तो Q का P से क्या संबंध है?"
+      "hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़िए। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही यह सामान्यतः ज्ञात तथ्यों से भिन्न प्रतीत होती हो, तय कीजिए कि दिए गए निष्कर्षों में से कौन-से निष्कर्ष, कथनों का तार्किक रूप से अनुसरण करता है। कथन: सभी राजा, बम हैं। कोई तोता, राजा नहीं है। निष्कर्ष: (I) कु छ बम, तोता नहीं हैं। (II) कु छ बम, राजा हैं।"
     },
     "options": {
       "en": [
@@ -753,10 +776,10 @@
         "Neither conclusion (I) nor (II) follows."
       ],
       "hi": [
-        "बहन का पुत्र",
-        "भाई",
-        "पिता",
-        "बहन का पति"
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
+        "केवल निष्कर्ष (I) अनुसरण करता है।",
+        "केवल निष्कर्ष (II) अनुसरण करता है।",
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।"
       ]
     },
     "correctIndex": 0,
@@ -764,8 +787,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Both conclusions (I) and (II) follow.). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (बहन का पुत्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 25,
@@ -786,9 +810,9 @@
       ],
       "hi": [
         "परमाणु में एक छोटा, सघन नाभिक होता है जो एल्फा कणों को प्रतिकर्षित करता है।",
-        "इलेक्ट्रॉन स्थिर कक्षाओं में नाभिक के चारों ओर चक्कर लगाते हैं।",
+        "धन आवेश और द्रव्यमान परमाणु के केंद्र में संकेंद्रित होते हैं।",
         "धन आवेश पूरे परमाणु में समान रूप से वितरित होता है, और इसमें इलेक्ट्रॉन अंतर्निहित होते हैं।",
-        "धन आवेश और द्रव्यमान परमाणु के केंद्र में संकेंद्रित होते हैं।"
+        "इलेक्ट्रॉन स्थिर कक्षाओं में नाभिक के चारों ओर चक्कर लगाते हैं।"
       ]
     },
     "correctIndex": 2,
@@ -797,7 +821,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (The positive charge is uniformly distributed throughout the atom, and electrons are embedded in it.). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (धन आवेश पूरे परमाणु में समान रूप से वितरित होता है, और इसमें इलेक्ट्रॉन अंतर्निहित होते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 26,
@@ -807,7 +832,7 @@
     "topic": "General Science (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "The double-layered covering of the nucleus is called as ______",
-      "hi": "एक प्रश्न के बाद दो कथन दिए गए हैं, जिन्हें (I) और (II) से क्रमांकित किया गया है। आपको यह तय करना है कि क्या कथनों में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है। दोनों कथनों को पढ़िए और सबसे उपयुक्त उत्तर का चयन कीजिए। प्रश्न: पांच स्तंभों, I, L, O, M और D में से प्रत्येक की ऊं चाई अलग-अलग है, इनमें से सबसे ऊं चा स्तंभ कौन-सा है? कथन: (I) O, D से छोटा है। (II) M, D से ऊं चा है।"
+      "hi": "केंद्रक के दोहरे परत वाले आवरण को ______ कहा जाता है।"
     },
     "options": {
       "en": [
@@ -817,10 +842,10 @@
         "Cell wall"
       ],
       "hi": [
-        "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
-        "दोनों कथनों I और II में दी गई जानकारी एक साथ भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।",
-        "दोनों कथनों I और II में दी गई जानकारी एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त है।",
-        "केवल कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।"
+        "क्रोमैटिन भित्ति",
+        "केंद्रक झिल्ली",
+        "प्लाज्मा झिल्ली",
+        "कोशिका भित्ति"
       ]
     },
     "correctIndex": 1,
@@ -828,8 +853,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (Nuclear membrane). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (दोनों कथनों I और II में दी गई जानकारी एक साथ भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (केंद्रक झिल्ली)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 27,
@@ -861,7 +887,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (81). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (81)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 28,
@@ -893,7 +920,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A ((17, 68, 204)). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A ((17, 68, 204))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 29,
@@ -903,7 +931,7 @@
     "topic": "General Science (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही वह सामान्यतः ज्ञात तथ्यों से भिन्न प्रतीत होती हो, निर्णय कीजिए कि दिए गए निष्कर्षों में से कौन-से निष्कर्ष, कथनों का तार्किक रूप से अनुसरण करते हैं। कथन: कु छ मग, बकरियाँ हैं। सभी बकरियाँ, वर्ग हैं। निष्कर्ष: (I) कु छ मग, वर्ग हैं। (II) कु छ वर्ग, बकरियाँ हैं।"
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
     },
     "options": {
       "en": [
@@ -913,10 +941,10 @@
         "LOS"
       ],
       "hi": [
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
-        "केवल निष्कर्ष (II) अनुसरण करता है।",
-        "केवल निष्कर्ष (I) अनुसरण करता है।",
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
+        "GKN",
+        "OSV",
+        "TXA",
+        "LOS"
       ]
     },
     "correctIndex": 3,
@@ -924,8 +952,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (LOS). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (LOS)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 30,
@@ -945,8 +974,8 @@
         "11"
       ],
       "hi": [
-        "12",
         "15",
+        "12",
         "13",
         "11"
       ]
@@ -956,8 +985,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (15). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (12)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (15)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 31,
@@ -967,7 +997,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements. Statements: Some mugs are goats. All goats are squares. Conclusions: (I) Some mugs are squares. (II) Some squares are goats.",
-      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+      "hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही वह सामान्यतः ज्ञात तथ्यों से भिन्न प्रतीत होती हो, निर्णय कीजिए कि दिए गए निष्कर्षों में से कौन-से निष्कर्ष, कथनों का तार्किक रूप से अनुसरण करते हैं। कथन: कु छ मग, बकरियाँ हैं। सभी बकरियाँ, वर्ग हैं। निष्कर्ष: (I) कु छ मग, वर्ग हैं। (II) कु छ वर्ग, बकरियाँ हैं।"
     },
     "options": {
       "en": [
@@ -977,10 +1007,10 @@
         "Neither conclusion (I) nor (II) follows."
       ],
       "hi": [
-        "PUZ",
-        "CHN",
-        "INT",
-        "LQW"
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
+        "केवल निष्कर्ष (II) अनुसरण करता है।",
+        "केवल निष्कर्ष (I) अनुसरण करता है।",
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।"
       ]
     },
     "correctIndex": 0,
@@ -988,8 +1018,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Both conclusions (I) and (II) follow.). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (PUZ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 32,
@@ -1021,7 +1052,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (30). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (30)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 33,
@@ -1053,7 +1085,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (8 : 15). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (8 : 15)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 34,
@@ -1085,7 +1118,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (2208). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (2208)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 35,
@@ -1117,7 +1151,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (4000). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (4000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 36,
@@ -1149,7 +1184,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (8). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (8)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 37,
@@ -1159,7 +1195,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "The ability of the eye lens to adjust its focal length to see objects clearly at different distances is called:",
-      "hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़िए। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही यह सामान्यतः ज्ञात तथ्यों से भिन्न प्रतीत होती हो, तय कीजिए कि दिए गए निष्कर्षों में से कौन-से निष्कर्ष, कथनों का तार्किक रूप से अनुसरण करता है। कथन: सभी राजा, बम हैं। कोई तोता, राजा नहीं है। निष्कर्ष: (I) कु छ बम, तोता नहीं हैं। (II) कु छ बम, राजा हैं।"
+      "hi": "अभिनेत्र लेंस की अलग-अलग दूरियों पर वस्तुओं को स्पष्ट रूप से देखने के लिए अपनी फोकस दूरी को समायोजित करने की क्षमता को क्या कहते हैं?"
     },
     "options": {
       "en": [
@@ -1169,10 +1205,10 @@
         "Range of vision"
       ],
       "hi": [
-        "केवल निष्कर्ष (II) अनुसरण करता है।",
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
-        "केवल निष्कर्ष (I) अनुसरण करता है।"
+        "दृष्‍टि निर्बंध",
+        "अभिसरण क्षमता",
+        "समंजन क्षमता",
+        "दृष्टि परिसर"
       ]
     },
     "correctIndex": 2,
@@ -1180,8 +1216,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (Power of accommodation). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (समंजन क्षमता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 38,
@@ -1191,7 +1228,7 @@
     "topic": "General Science (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "If an object is placed between infinity and the pole (P) in front of a convex mirror, what type of image will be formed?",
-      "hi": "को सरल कीजिए।"
+      "hi": "यदि किसी उत्तल दर्पण के सामने अनंत और ध्रुव (P) के बीच एक वस्तु रखी जाए, तो किस प्रकार का प्रतिबिंब बनेगा?"
     },
     "options": {
       "en": [
@@ -1201,10 +1238,10 @@
         "Real, inverted, and enlarged"
       ],
       "hi": [
-        "secA − cosecA",
-        "sinA − cosA",
-        "cosecA − secA",
-        "cosA − sinA"
+        "आभासी, सीधा और छोटा (साइज़ में छोटा)",
+        "वास्तविक, सीधा, और वस्तु के समान साइज़",
+        "वास्तविक, उल्टा और छोटा",
+        "वास्तविक, उल्टा और विवर्धित"
       ]
     },
     "correctIndex": 0,
@@ -1212,8 +1249,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Virtual, erect, and diminished (smaller in size)). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (secA − cosecA)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (आभासी, सीधा और छोटा (साइज़ में छोटा))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 39,
@@ -1245,7 +1283,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (83). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (83)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 40,
@@ -1265,9 +1304,9 @@
         "Two"
       ],
       "hi": [
-        "एक",
-        "तीन",
         "चार",
+        "तीन",
+        "एक",
         "दो"
       ]
     },
@@ -1277,7 +1316,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (Two). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 41,
@@ -1297,8 +1337,8 @@
         "48"
       ],
       "hi": [
-        "72",
         "64",
+        "72",
         "80",
         "48"
       ]
@@ -1308,8 +1348,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (64). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (72)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (64)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 42,
@@ -1341,7 +1382,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D ((176,16,11)). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D ((176,16,11))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 43,
@@ -1373,7 +1415,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (21 : 36). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (21 : 36)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 44,
@@ -1405,7 +1448,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (PN -8). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (PN -8)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 45,
@@ -1415,7 +1459,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. (Left) W U G E K L T Q J W U J V E S C V K J T C (Right) How many such vowels are there, each of which is immediately preceded by a vowel and also immediately followed by a consonant?",
-      "hi": "किसी द्रव के क्वथनांक पर क्या होता है?"
+      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) W U G E K L T Q J W U J V E S C V K J T C (दाएं) ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक स्वर है और ठीक बाद एक व्यंजन है?"
     },
     "options": {
       "en": [
@@ -1425,10 +1469,10 @@
         "Two"
       ],
       "hi": [
-        "कण तरल रूप में रहते हुए थोड़ा सा प्रसार करते हैं।",
-        "कण स्थिर रहते हैं और किसी भी प्रकार का संचलन नहीं करते।",
-        "कण वाष्प में परिवर्तित होने के लिए पर्याप्त ऊर्जा प्राप्त करते हैं।",
-        "कण ऊर्जा का ह्रास करते हैं और एक-दूसरे के नजदीक आ जाते हैं।"
+        "एक भी नहीं",
+        "एक",
+        "तीन से अधिक",
+        "दो"
       ]
     },
     "correctIndex": 0,
@@ -1436,8 +1480,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (None). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (कण तरल रूप में रहते हुए थोड़ा सा प्रसार करते हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (एक भी नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 46,
@@ -1447,7 +1492,7 @@
     "topic": "General Science (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "In a certain code language, 'A + B' means 'A is the daughter of B', 'A – B' means 'A is the father of B', 'A × B' means 'A is the son of B' and 'A ÷ B' means 'A is the sister of B'. Based on the above, how is Q related to P if 'Q × M + V – J ÷ P'?",
-      "hi": "G, J, M, O, R, S और T में से प्रत्येक की परीक्षा सोमवार से शुरू होकर रविवार को समाप्त होने वाले एक ही सप्ताह के अलग-अलग दिन है। O और S के बीच केवल तीन व्यक्तियों की परीक्षा है। S की परीक्षा सप्ताह के अंतिम दिन है। G और J के बीच केवल एक व्यक्ति की परीक्षा है। T की परीक्षा, M की परीक्षा से ठीक एक दिन पहले है। R की परीक्षा शुक्रवार को नहीं है। J की परीक्षा, G की परीक्षा से पहले है। मंगलवार को किसकी परीक्षा है?"
+      "hi": "एक निश्चित कू ट भाषा में, 'A + B' का अर्थ है कि 'A, B की पुत्री है', 'A – B' का अर्थ है कि 'A, B का पिता है', 'A × B' का अर्थ है कि 'A, B का पुत्र है' और 'A ÷ B' का अर्थ है कि 'A, B की बहन है'। उपरोक्त के आधार पर, यदि 'Q × M + V – J ÷ P' है, तो Q का P से क्या संबंध है?"
     },
     "options": {
       "en": [
@@ -1457,10 +1502,10 @@
         "Father"
       ],
       "hi": [
-        "J",
-        "T",
-        "G",
-        "O"
+        "बहन का पुत्र",
+        "भाई",
+        "बहन का पति",
+        "पिता"
       ]
     },
     "correctIndex": 0,
@@ -1468,8 +1513,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Sister's son). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (J)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (बहन का पुत्र)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 47,
@@ -1479,7 +1525,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "A question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and select the most appropriate answer. Question: Among 5 poles, I, L, O, M and D each having a different height, which pole is the tallest? Statements: (I) O is shorter than D. (II) M is taller than D.",
-      "hi": "सात बॉक्स T, U, V, W, X, Y और Z एक के ऊपर एक रखे गए हैं, लेकिन आवश्यक नहीं कि वे इसी क्रम में हों। X के ऊपर केवल एक बॉक्स रखा गया है। T को Y के ठीक ऊपर रखा गया है। U को Y के ठीक नीचे रखा गया है। V को सबसे नीचे से पाँचवें स्थान पर रखा गया है। W को Z के नीचे किसी स्थान पर रखा गया है। कौन-सा बॉक्स सबसे ऊपर रखा गया है?"
+      "hi": "एक प्रश्न के बाद दो कथन दिए गए हैं, जिन्हें (I) और (II) से क्रमांकित किया गया है। आपको यह तय करना है कि क्या कथनों में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है। दोनों कथनों को पढ़िए और सबसे उपयुक्त उत्तर का चयन कीजिए। प्रश्न: पांच स्तंभों, I, L, O, M और D में से प्रत्येक की ऊं चाई अलग-अलग है, इनमें से सबसे ऊं चा स्तंभ कौन-सा है? कथन: (I) O, D से छोटा है। (II) M, D से ऊं चा है।"
     },
     "options": {
       "en": [
@@ -1489,10 +1535,10 @@
         "Data in statement I alone is sufficient to answer the question while data in statement II is not."
       ],
       "hi": [
-        "V",
-        "Z",
-        "U",
-        "T"
+        "दोनों कथनों I और II में दी गई जानकारी एक साथ (केवल कथन I या केवल कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त है।",
+        "दोनों कथनों I और II में दी गई जानकारी एक साथ भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।",
+        "केवल कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
+        "केवल कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 1,
@@ -1500,8 +1546,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (Data in both statements I and II together are not sufficient to answer the question.). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (Z)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (दोनों कथनों I और II में दी गई जानकारी एक साथ भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 48,
@@ -1533,7 +1580,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (132). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (132)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 49,
@@ -1553,10 +1601,10 @@
         "58.25%"
       ],
       "hi": [
-        "58.25 %",
+        "56.25 %",
         "62.25 %",
         "52.25 %",
-        "56.25 %"
+        "58.25 %"
       ]
     },
     "correctIndex": 0,
@@ -1564,8 +1612,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (56.25%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (58.25 %)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (56.25 %)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 50,
@@ -1575,7 +1624,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "A, B, C, D, E, F and G are sitting around a circular table, facing the centre. F sits third to the left of A. C sits second to the left of D. Only A sits between E and C. B is not an immediate neighbour of F. How many people sit between D and E when counted from the right of E?",
-      "hi": "यदि किसी उत्तल दर्पण के सामने अनंत और ध्रुव (P) के बीच एक वस्तु रखी जाए, तो किस प्रकार का प्रतिबिंब बनेगा?"
+      "hi": "A, B, C, D, E, F और G एक गोल मेज के परित: उसके केंद्र की ओर अभिमुख होकर बैठे हैं। F, A के बाएँ तीसरे स्थान पर बैठा है। C, D के बाएँ दूसरे स्थान पर बैठा है। E और C के बीच केवल A बैठा है। B, F का निकटतम पड़ोसी नहीं है। E के दाईं ओर से गिनने पर D और E के बीच कितने व्‍यक्ति बैठे हैं?"
     },
     "options": {
       "en": [
@@ -1585,10 +1634,10 @@
         "3"
       ],
       "hi": [
-        "वास्तविक, उल्टा और छोटा",
-        "आभासी, सीधा और छोटा (साइज़ में छोटा)",
-        "वास्तविक, सीधा, और वस्तु के समान साइज़",
-        "वास्तविक, उल्टा और विवर्धित"
+        "2",
+        "4",
+        "1",
+        "3"
       ]
     },
     "correctIndex": 3,
@@ -1596,8 +1645,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (3). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (वास्तविक, उल्टा और विवर्धित)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 51,
@@ -1617,10 +1667,10 @@
         "10 km to the North"
       ],
       "hi": [
-        "10 km, उत्तर की ओर",
+        "12 km, दक्षिण की ओर",
         "11 km, उत्तर की ओर",
         "13 km, दक्षिण की ओर",
-        "12 km, दक्षिण की ओर"
+        "10 km, उत्तर की ओर"
       ]
     },
     "correctIndex": 0,
@@ -1628,8 +1678,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (12 km to the South). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (10 km, उत्तर की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (12 km, दक्षिण की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 52,
@@ -1639,7 +1690,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Each of G, J, M, O, R, S, and T has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Only three people have exams between O and S. S has an exam on the last day of the week. Only one person has an exam between G and J. T has an exam immediately the day before M. R doesn't have an exam on Friday. J has an exam before G. Who has an exam on Tuesday?",
-      "hi": "अभिनेत्र लेंस की अलग-अलग दूरियों पर वस्तुओं को स्पष्ट रूप से देखने के लिए अपनी फोकस दूरी को समायोजित करने की क्षमता को क्या कहते हैं?"
+      "hi": "G, J, M, O, R, S और T में से प्रत्येक की परीक्षा सोमवार से शुरू होकर रविवार को समाप्त होने वाले एक ही सप्ताह के अलग-अलग दिन है। O और S के बीच केवल तीन व्यक्तियों की परीक्षा है। S की परीक्षा सप्ताह के अंतिम दिन है। G और J के बीच केवल एक व्यक्ति की परीक्षा है। T की परीक्षा, M की परीक्षा से ठीक एक दिन पहले है। R की परीक्षा शुक्रवार को नहीं है। J की परीक्षा, G की परीक्षा से पहले है। मंगलवार को किसकी परीक्षा है?"
     },
     "options": {
       "en": [
@@ -1649,10 +1700,10 @@
         "T"
       ],
       "hi": [
-        "समंजन क्षमता",
-        "दृष्‍टि निर्बंध",
-        "दृष्टि परिसर",
-        "अभिसरण क्षमता"
+        "J",
+        "G",
+        "O",
+        "T"
       ]
     },
     "correctIndex": 0,
@@ -1660,8 +1711,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (J). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (समंजन क्षमता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (J)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 53,
@@ -1671,7 +1723,7 @@
     "topic": "General Science (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) K N C G I N F Z X I J X M N W T K K S V V (दाएं) ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक स्वर है और ठीक बाद एक व्यंजन है?"
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
     },
     "options": {
       "en": [
@@ -1681,10 +1733,10 @@
         "LQW"
       ],
       "hi": [
-        "दो",
-        "एक भी नहीं",
-        "एक",
-        "तीन"
+        "PUZ",
+        "INT",
+        "CHN",
+        "LQW"
       ]
     },
     "correctIndex": 0,
@@ -1692,8 +1744,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (PUZ). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (PUZ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 54,
@@ -1713,9 +1766,9 @@
         "32 minutes"
       ],
       "hi": [
-        "34 (1/3) मिनट",
-        "27 (2/3) मिनट",
         "36 मिनट",
+        "27 (2/3) मिनट",
+        "34 (1/3) मिनट",
         "32 मिनट"
       ]
     },
@@ -1724,8 +1777,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option C (34 (1/3) minutes). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (36 मिनट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (34 (1/3) मिनट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 55,
@@ -1745,9 +1799,9 @@
         "Three"
       ],
       "hi": [
-        "दो",
-        "एक",
         "एक भी नहीं",
+        "एक",
+        "दो",
         "तीन"
       ]
     },
@@ -1757,7 +1811,8 @@
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (Three). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 56,
@@ -1766,7 +1821,7 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
-      "en": "7231",
+      "en": "Tap A can empty a tank in 30 minutes. Tap B can empty it in 15 minutes. If both taps work together, how much time will it take to empty the tank?",
       "hi": "नल A एक टैंक को 30 मिनट में खाली कर सकता है। नल B इसे 15 मिनट में खाली कर सकता है। यदि दोनों नल एक साथ चलते हैं, तो टैंक को खाली करने में कितना समय लगेगा?"
     },
     "options": {
@@ -1777,8 +1832,8 @@
         "30 minutes"
       ],
       "hi": [
-        "10 मिनट",
         "40 मिनट",
+        "10 मिनट",
         "20 मिनट",
         "30 मिनट"
       ]
@@ -1788,8 +1843,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (40 minutes). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (10 मिनट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (40 मिनट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 57,
@@ -1821,7 +1877,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (64). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (64)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 58,
@@ -1841,10 +1898,10 @@
         "QWNS"
       ],
       "hi": [
-        "QWNS",
+        "AQWE",
         "QNJU",
         "QWCG",
-        "AQWE"
+        "QWNS"
       ]
     },
     "correctIndex": 0,
@@ -1852,8 +1909,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (AQWE). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (QWNS)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (AQWE)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 59,
@@ -1863,7 +1921,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "D, E, F, G, I, J and K are sitting around a circular table, facing the centre of the table. G is the immediate neighbour of both D and J. J sits third to the left of I. K sits to the immediate left of I. F is not an immediate neighbour of J. Who sits third to the left of E?",
-      "hi": "केंद्रक के दोहरे परत वाले आवरण को ______ कहा जाता है।"
+      "hi": "D, E, F, G, I, J और K एक गोल मेज के परित: केंद्र की ओर अभिमुख होकर बैठे हैं। D और J दोनों का निकटतम पड़ोसी G है। J, I के बाएं तीसरे स्थान पर बैठा है। K, I के ठीक बाएं पड़ोस में बैठा है। F, J का निकटतम पड़ोसी नहीं है। E के बाएं तीसरे स्थान पर कौन बैठा है?"
     },
     "options": {
       "en": [
@@ -1873,10 +1931,10 @@
         "D"
       ],
       "hi": [
-        "क्रोमैटिन भित्ति",
-        "प्लाज्मा झिल्ली",
-        "कोशिका भित्ति",
-        "केंद्रक झिल्ली"
+        "I",
+        "F",
+        "K",
+        "D"
       ]
     },
     "correctIndex": 3,
@@ -1884,8 +1942,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (D). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (केंद्रक झिल्ली)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (D)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 60,
@@ -1905,10 +1964,10 @@
         "Cost price = ₹5,000, Selling price = ₹5,600"
       ],
       "hi": [
-        "क्रय मूल्य = ₹5,000, विक्रय मूल्य = ₹5,600",
+        "क्रय मूल्य = ₹4,000, विक्रय मूल्य = ₹5,000",
         "क्रय मूल्य = ₹5,000, विक्रय मूल्य = ₹5,500",
         "क्रय मूल्य = ₹5,000, विक्रय मूल्य = ₹6,000",
-        "क्रय मूल्य = ₹4,000, विक्रय मूल्य = ₹5,000"
+        "क्रय मूल्य = ₹5,000, विक्रय मूल्य = ₹5,600"
       ]
     },
     "correctIndex": 0,
@@ -1916,8 +1975,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Cost price = ₹4,000, Selling price = ₹5,000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (क्रय मूल्य = ₹5,000, विक्रय मूल्य = ₹5,600)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (क्रय मूल्य = ₹4,000, विक्रय मूल्य = ₹5,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 61,
@@ -1937,10 +1997,10 @@
         "RDLKN"
       ],
       "hi": [
-        "RDLKN",
+        "REKNL",
         "SDLKM",
         "SEKNM",
-        "REKNL"
+        "RDLKN"
       ]
     },
     "correctIndex": 0,
@@ -1948,8 +2008,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (REKNL). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (RDLKN)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (REKNL)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 62,
@@ -1959,7 +2020,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Which breed of cattle is primarily used for dairy purposes in India?",
-      "hi": "A, B, C, D, E, F और G एक गोल मेज के परित: उसके केंद्र की ओर अभिमुख होकर बैठे हैं। F, A के बाएँ तीसरे स्थान पर बैठा है। C, D के बाएँ दूसरे स्थान पर बैठा है। E और C के बीच केवल A बैठा है। B, F का निकटतम पड़ोसी नहीं है। E के दाईं ओर से गिनने पर D और E के बीच कितने व्‍यक्ति बैठे हैं?"
+      "hi": "भारत में डेयरी उद्देश्यों के लिए मुख्य रूप से किस नस्ल के मवेशियों का उपयोग किया जाता है?"
     },
     "options": {
       "en": [
@@ -1969,10 +2030,10 @@
         "Gir"
       ],
       "hi": [
-        "3",
-        "4",
-        "1",
-        "2"
+        "ओंगोल",
+        "साहीवाल",
+        "कांकरेज",
+        "गिर"
       ]
     },
     "correctIndex": 0,
@@ -1980,8 +2041,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Ongole). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (ओंगोल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 63,
@@ -2013,7 +2075,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (13200). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (13200)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 64,
@@ -2033,9 +2096,9 @@
         "₹44,305"
       ],
       "hi": [
-        "₹43,605",
-        "₹46,305",
         "₹43,506",
+        "₹46,305",
+        "₹43,605",
         "₹44,305"
       ]
     },
@@ -2044,8 +2107,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (₹43,506). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (₹43,605)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (₹43,506)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 65,
@@ -2077,7 +2141,8 @@
       "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (₹2,650). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (₹2,650)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 66,
@@ -2109,7 +2174,8 @@
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option D (FZS). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (FZS)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 67,
@@ -2129,10 +2195,10 @@
         "Three"
       ],
       "hi": [
-        "एक",
         "चार",
-        "तीन",
-        "दो"
+        "एक",
+        "दो",
+        "तीन"
       ]
     },
     "correctIndex": 0,
@@ -2140,8 +2206,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Four). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (चार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 68,
@@ -2151,7 +2218,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Seven boxes, T, U, V, W, X, Y and Z are kept one over the other but not necessarily in the same order. Only one box is kept above X. T is kept immediately above Y. U is placed immediately below Y. V is kept fifth from the bottom. W is kept on one of the positions below Z. What box is kept at the top?",
-      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) W U G E K L T Q J W U J V E S C V K J T C (दाएं) ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक स्वर है और ठीक बाद एक व्यंजन है?"
+      "hi": "सात बॉक्स T, U, V, W, X, Y और Z एक के ऊपर एक रखे गए हैं, लेकिन आवश्यक नहीं कि वे इसी क्रम में हों। X के ऊपर केवल एक बॉक्स रखा गया है। T को Y के ठीक ऊपर रखा गया है। U को Y के ठीक नीचे रखा गया है। V को सबसे नीचे से पाँचवें स्थान पर रखा गया है। W को Z के नीचे किसी स्थान पर रखा गया है। कौन-सा बॉक्स सबसे ऊपर रखा गया है?"
     },
     "options": {
       "en": [
@@ -2161,10 +2228,10 @@
         "T"
       ],
       "hi": [
-        "दो",
-        "तीन से अधिक",
-        "एक भी नहीं",
-        "एक"
+        "Z",
+        "U",
+        "V",
+        "T"
       ]
     },
     "correctIndex": 0,
@@ -2172,8 +2239,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Z). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (Z)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 69,
@@ -2194,8 +2262,8 @@
       ],
       "hi": [
         "14",
-        "11",
         "13",
+        "11",
         "12"
       ]
     },
@@ -2204,8 +2272,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
       "keyConcept": "General Science (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option B (13). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (11)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (13)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 70,
@@ -2215,7 +2284,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. (Left) K N C G I N F Z X I J X M N W T K K S V V (Right) How many such consonants are there, each of which is immediately preceded by a vowel and also immediately followed by a consonant?",
-      "hi": "भारत में डेयरी उद्देश्यों के लिए मुख्य रूप से किस नस्ल के मवेशियों का उपयोग किया जाता है?"
+      "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) K N C G I N F Z X I J X M N W T K K S V V (दाएं) ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक स्वर है और ठीक बाद एक व्यंजन है?"
     },
     "options": {
       "en": [
@@ -2225,10 +2294,10 @@
         "None"
       ],
       "hi": [
-        "साहीवाल",
-        "गिर",
-        "ओंगोल",
-        "कांकरेज"
+        "दो",
+        "एक",
+        "तीन",
+        "एक भी नहीं"
       ]
     },
     "correctIndex": 0,
@@ -2236,8 +2305,9 @@
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (Two). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (साहीवाल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 71,
@@ -2247,7 +2317,7 @@
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
       "en": "Seven boxes, T, W, Z, K, R, U and H are kept one over the other but not necessarily in the same order. Only two boxes are kept below W. T is kept immediately below K. Only one box is kept between H and W. H is kept immediately below T. U is kept immediately above Z. Which box is placed immediately above W?",
-      "hi": "M, O की माता है। O, J की बहन है। T, K की पुत्री है। T, J की बहन है। J, B का पिता है। B, F की पत्नी है। M का K से क्या संबंध है?"
+      "hi": "सात बॉक्स T, W, Z, K, R, U और H एक के ऊपर एक रखे गए हैं, लेकिन आवश्यक नहीं कि वे इसी क्रम में हों। W के नीचे केवल दो बॉक्स रखे गए हैं। T को K के ठीक नीचे रखा गया है। H और W के बीच केवल एक बॉक्स रखा गया है। H को T के ठीक नीचे रखा गया है। U को Z के ठीक ऊपर रखा गया है। W के ठीक ऊपर कौन-सा बॉक्स रखा गया है?"
     },
     "options": {
       "en": [
@@ -2255,6 +2325,105 @@
         "T",
         "K",
         "Z"
+      ],
+      "hi": [
+        "R",
+        "T",
+        "K",
+        "Z"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
+      "en": "Correct Answer: Option A (R). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प A (R)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
+  },
+  {
+    "id": 72,
+    "shiftQuestionNo": 72,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
+    "question": {
+      "en": "Where was the first Lokpal Day commemoration held in 2025?",
+      "hi": "वर्ष 2025 में प्रथम लोकपाल दिवस समारोह कहाँ आयोजित किया गया था?"
+    },
+    "options": {
+      "en": [
+        "Parliament House, New Delhi",
+        "Supreme Court Auditorium, New Delhi",
+        "Vigyan Bhawan, New Delhi",
+        "Zorawar Auditorium, Manekshaw Centre, Delhi Cantt"
+      ],
+      "hi": [
+        "संसद भवन, नई दिल्ली",
+        "सर्वोच्च न्यायालय सभागार, नई दिल्ली \"",
+        "विज्ञान भवन, नई दिल्ली",
+        "ज़ोरावर सभागार, मानेकशॉ केंद्र, दिल्ली कैं ट"
+      ]
+    },
+    "correctIndex": 3,
+    "solution": {
+      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
+      "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
+      "en": "Correct Answer: Option D (Zorawar Auditorium, Manekshaw Centre, Delhi Cantt). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प D (ज़ोरावर सभागार, मानेकशॉ केंद्र, दिल्ली कैं ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
+  },
+  {
+    "id": 73,
+    "shiftQuestionNo": 73,
+    "section": "General Science",
+    "subject": "General Science",
+    "topic": "General Science (16 Feb 2026 Shift 3 • 2025 Cycle)",
+    "question": {
+      "en": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह उस ग्रुप से संबंधित नहीं है? (नोटः असंगत अक्षर-समूह, व्यंजनों/स्वरों की संख्या या उनकी स्थिति पर आधारित नहीं है।)"
+    },
+    "options": {
+      "en": [
+        "JAV",
+        "QHC",
+        "DUP",
+        "XPJ"
+      ],
+      "hi": [
+        "JAV",
+        "QHC",
+        "DUP",
+        "XPJ"
+      ]
+    },
+    "correctIndex": 0,
+    "solution": {
+      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
+      "keyConcept": "General Science (16 Feb 2026 Shift 3)",
+      "en": "Correct Answer: Option A (JAV). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प A (JAV)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
+  },
+  {
+    "id": 74,
+    "shiftQuestionNo": 74,
+    "section": "General Intelligence & Reasoning",
+    "subject": "General Intelligence & Reasoning",
+    "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
+    "question": {
+      "en": "M is the mother of O. O is the sister of J. T is the daughter of K. T is the sister of J. J is the father of B. B is the wife of F. How is M related to K?",
+      "hi": "M, O की माता है। O, J की बहन है। T, K की पुत्री है। T, J की बहन है। J, B का पिता है। B, F की पत्नी है। M का K से क्या संबंध है?"
+    },
+    "options": {
+      "en": [
+        "Husband",
+        "Wife",
+        "Sister",
+        "Brother"
       ],
       "hi": [
         "पति",
@@ -2267,90 +2436,27 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option A (R). Verified by official RRB ALP answer key.",
+      "en": "Correct Answer: Option A (Husband). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (पति)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
-    "id": 72,
-    "shiftQuestionNo": 72,
+    "id": 75,
+    "shiftQuestionNo": 75,
     "section": "General Intelligence & Reasoning",
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
     "question": {
-      "en": "Where was the first Lokpal Day commemoration held in 2025?",
-      "hi": "निम्नलिखित अक्षर, प्रतीक श्रृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) N % Q E A L & M @ B & F > £ N H * # < L % P (दाएं) ऐसे कितने प्रतीक हैं, जिनमें से प्रत्येक के ठीक पहले एक अक्षर और ठीक बाद एक प्रतीक है?"
-    },
-    "options": {
-      "en": [
-        "Parliament House, New Delhi",
-        "Supreme Court Auditorium, New Delhi",
-        "Vigyan Bhawan, New Delhi",
-        "Zorawar Auditorium, Manekshaw Centre, Delhi Cantt"
-      ],
-      "hi": [
-        "तीन",
-        "एक",
-        "एक भी नहीं",
-        "दो"
-      ]
-    },
-    "correctIndex": 3,
-    "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
-      "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option D (Zorawar Auditorium, Manekshaw Centre, Delhi Cantt). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
-  },
-  {
-    "id": 73,
-    "shiftQuestionNo": 73,
-    "section": "General Science",
-    "subject": "General Science",
-    "topic": "General Science (16 Feb 2026 Shift 3 • 2025 Cycle)",
-    "question": {
-      "en": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "hi": "D, E, F, G, I, J और K एक गोल मेज के परित: केंद्र की ओर अभिमुख होकर बैठे हैं। D और J दोनों का निकटतम पड़ोसी G है। J, I के बाएं तीसरे स्थान पर बैठा है। K, I के ठीक बाएं पड़ोस में बैठा है। F, J का निकटतम पड़ोसी नहीं है। E के बाएं तीसरे स्थान पर कौन बैठा है?"
-    },
-    "options": {
-      "en": [
-        "JAV",
-        "QHC",
-        "DUP",
-        "XPJ"
-      ],
-      "hi": [
-        "D",
-        "F",
-        "K",
-        "I"
-      ]
-    },
-    "correctIndex": 0,
-    "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "General Science (16 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option A (JAV). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (D)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
-  },
-  {
-    "id": 74,
-    "shiftQuestionNo": 74,
-    "section": "General Intelligence & Reasoning",
-    "subject": "General Intelligence & Reasoning",
-    "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
-    "question": {
-      "en": "M is the mother of O. O is the sister of J. T is the daughter of K. T is the sister of J. J is the father of B. B is the wife of F. How is M related to K?",
+      "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. (Left) O Q K K M I W K M F A F Y U T U B H T X S (Right) How many such consonants are there, each of which is immediately preceded by a vowel and also immediately followed by a vowel?1773",
       "hi": "निम्नलिखित अक्षर शृंखला का संदर्भ लीजिए और उसके बाद दिए गए प्रश्न का उत्तर दीजिए। गिनती केवल बाएं से दाएं की जानी है। (बाएं) O Q K K M I W K M F A F Y U T U B H T X S (दाएं) ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक स्वर है और ठीक बाद भी एक स्वर है?"
     },
     "options": {
       "en": [
-        "Husband",
-        "Wife",
-        "Sister",
-        "Brother"
+        "One",
+        "Two",
+        "None",
+        "Three \""
       ],
       "hi": [
         "एक",
@@ -2363,40 +2469,9 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option A (Husband). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
-  },
-  {
-    "id": 75,
-    "shiftQuestionNo": 75,
-    "section": "General Intelligence & Reasoning",
-    "subject": "General Intelligence & Reasoning",
-    "topic": "General Intelligence & Reasoning (16 Feb 2026 Shift 3 • 2025 Cycle)",
-    "question": {
-      "en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. (Left) O Q K K M I W K M F A F Y U T U B H T X S (Right) How many such consonants are there, each of which is immediately preceded by a vowel and also immediately followed by a vowel?1773",
-      "hi": "वर्ष 2025 में प्रथम लोकपाल दिवस समारोह कहाँ आयोजित किया गया था?"
-    },
-    "options": {
-      "en": [
-        "One",
-        "Two",
-        "None",
-        "Three \""
-      ],
-      "hi": [
-        "ज़ोरावर सभागार, मानेकशॉ केंद्र, दिल्ली कैं ट",
-        "संसद भवन, नई दिल्ली",
-        "विज्ञान भवन, नई दिल्ली",
-        "सर्वोच्च न्यायालय सभागार, नई दिल्ली \""
-      ]
-    },
-    "correctIndex": 0,
-    "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "General Intelligence & Reasoning (16 Feb 2026 Shift 3)",
       "en": "Correct Answer: Option A (One). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (ज़ोरावर सभागार, मानेकशॉ केंद्र, दिल्ली कैं ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   }
 ]

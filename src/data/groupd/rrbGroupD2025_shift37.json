@@ -17,10 +17,10 @@
         "136 u"
       ],
       "hi": [
-        "136 u",
+        "114 u",
         "118 u",
         "132 u",
-        "114 u"
+        "136 u"
       ]
     },
     "correctIndex": 2,
@@ -53,8 +53,8 @@
       "hi": [
         "ऋणायन",
         "उदासीन",
-        "प्रोटॉन",
-        "धनायन"
+        "धनायन",
+        "प्रोटॉन"
       ]
     },
     "correctIndex": 0,
@@ -108,8 +108,8 @@
     "subject": "General Science",
     "topic": "Circulatory System (Heart, Blood) • RRB Group D Level-1 (19 Aug 2026 Shift 37)",
     "question": {
-      "en": "After a severe injury, a patient's blood pressure decreases and they start to develop extensive bruising. Which dual failure in physiological systems best explains these clinical observations? 10:30 AM · English",
-      "hi": "गंभीर चोट के बाद , किसी रोगी का रक्तदाब कम हो जाता है और वे व्यापक खरोंच (extensive bruising) में विकसित होने लगती हैं। शरीरक्रियात्मक तंत्रों में कौन - सी दोहरी विफलता इन नैदानिक प्रेक्षणों की सटीक व्याख्या करती है ? 10:30 AM · Hindi"
+      "en": "After a severe injury, a patient's blood pressure decreases and they start to develop extensive bruising. Which dual failure in physiological systems best explains these clinical observations?",
+      "hi": "गंभीर चोट के बाद , किसी रोगी का रक्तदाब कम हो जाता है और वे व्यापक खरोंच (extensive bruising) में विकसित होने लगती हैं। शरीरक्रियात्मक तंत्रों में कौन - सी दोहरी विफलता इन नैदानिक प्रेक्षणों की सटीक व्याख्या करती है ?"
     },
     "options": {
       "en": [
@@ -154,8 +154,8 @@
       ],
       "hi": [
         "लोहे का तार",
-        "दोनों में बराबर",
         "निर्धारित नहीं किया जा सकता है",
+        "दोनों में बराबर",
         "तांबे का तार"
       ]
     },
@@ -211,7 +211,7 @@
     "topic": "Echo, Resonance, Doppler Effect • RRB Group D Level-1 (19 Aug 2026 Shift 37)",
     "question": {
       "en": "A group of engineers is tasked with designing a lecture hall for maximum speech intelligibility. Which combination of features should they prioritize to minimize reverberation?",
-      "hi": "इंजीनियरों के एक समूह को अधिकतम वाक् बोधगम्यता के लिए एक व्याख्यान हॉल डिजाइन करने का कार्य सौंपा गया है। अनुरणन को न्यूनतम करने के लिए उन्हें किन विशेषताओं के संयोजन को प्राथमिकता देनी चाहिए ? मृदु दीवार कवरिंग , ध्वानिक सीलिंग टाइल्स और गद्दीदार"
+      "hi": "इंजीनियरों के एक समूह को अधिकतम वाक् बोधगम्यता के लिए एक व्याख्यान हॉल डिजाइन करने का कार्य सौंपा गया है। अनुरणन को न्यूनतम करने के लिए उन्हें किन विशेषताओं के संयोजन को प्राथमिकता देनी चाहिए ?"
     },
     "options": {
       "en": [
@@ -221,10 +221,10 @@
         "Upholstered seating with bare walls and floors"
       ],
       "hi": [
-        "गद्दीदार सीटिंग और अनावृत दीवारें और फर्श",
+        "पॉलिश युक्त पत्थर के फर्श और कांच की दीवारें",
         "परावर्ती पैनलों वाली ऊं ची सीलिंग",
-        "सीटिंग",
-        "पॉलिश युक्त पत्थर के फर्श और कांच की दीवारें"
+        "मृदु दीवार कवरिंग, ध्वानिक सीलिंग टाइल्स और गद्दीदार सीटिंग",
+        "गद्दीदार सीटिंग और अनावृत दीवारें और फर्श"
       ]
     },
     "correctIndex": 2,
@@ -234,7 +234,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • Echo, Resonance, Doppler Effect",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Soft wall coverings, acoustic ceiling tiles, and upholstered seating) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (सीटिंग) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (मृदु दीवार कवरिंग, ध्वानिक सीलिंग टाइल्स और गद्दीदार सीटिंग) सही उत्तर है।"
     }
   },
   {
@@ -257,8 +257,8 @@
       "hi": [
         "वे ऊपरी वायुमंडल द्वारा अवशोषित कर ली जाती हैं",
         "इनकी तरंगदैर्ध्य लंबी होती है",
-        "वे पृथ्वी की सतह द्वारा परावर्तित होती हैं",
-        "वे मेघ द्वारा प्रकीर्णित हो जाती हैं"
+        "वे मेघ द्वारा प्रकीर्णित हो जाती हैं",
+        "वे पृथ्वी की सतह द्वारा परावर्तित होती हैं"
       ]
     },
     "correctIndex": 0,
@@ -289,9 +289,9 @@
         "Kidneys"
       ],
       "hi": [
+        "हृदय",
         "फु फ्फु स",
         "यकृ त",
-        "हृदय",
         "वृक्क"
       ]
     },
@@ -324,8 +324,8 @@
       ],
       "hi": [
         "CnH2n+2",
-        "CnH2n-2",
         "CnH2n",
+        "CnH2n-2",
         "CnH2n+1"
       ]
     },
@@ -358,9 +358,9 @@
       ],
       "hi": [
         "कार्बन डाइऑक्साइड",
+        "मेथेन",
         "नाइट्रोजन गैस",
-        "आर्गन",
-        "मेथेन"
+        "आर्गन"
       ]
     },
     "correctIndex": 0,
@@ -392,9 +392,9 @@
       ],
       "hi": [
         "आवश्यक बल कम हो जाता है।",
-        "गाड़ी को कम स्थितिज ऊर्जा प्राप्त होती है।",
         "आवश्यक बल स्थिर रहता है।",
-        "आवश्यक बल बढ़ता है।"
+        "आवश्यक बल बढ़ता है।",
+        "गाड़ी को कम स्थितिज ऊर्जा प्राप्त होती है।"
       ]
     },
     "correctIndex": 0,
@@ -426,9 +426,9 @@
       ],
       "hi": [
         "वस्तु का त्वरण शून्य है",
+        "वस्तु का त्वरण बदल रहा है",
         "वस्तु का त्वरण ऋणात्मक है",
-        "वस्तु का त्वरण एकसमान है",
-        "वस्तु का त्वरण बदल रहा है"
+        "वस्तु का त्वरण एकसमान है"
       ]
     },
     "correctIndex": 0,
@@ -494,9 +494,9 @@
       ],
       "hi": [
         "कपाल तंत्रिकाएं (Spinal nerves)",
-        "प्रेरक तंत्रिकाएं (Motor nerves)",
         "स्वचालित तंत्रिकाएं (Autonomic nerves)",
-        "मेरु तंत्रिकाएं (Spinal nerves)"
+        "मेरु तंत्रिकाएं (Spinal nerves)",
+        "प्रेरक तंत्रिकाएं (Motor nerves)"
       ]
     },
     "correctIndex": 0,
@@ -527,10 +527,10 @@
         "Neither will accelerate"
       ],
       "hi": [
-        "दोनों में से कोई भी त्वरित नहीं होगा",
+        "ट्रक अधिक त्वरित होगा",
         "दोनों समान रूप से त्वरित होंगे",
         "कार अधिक त्वरित होगी",
-        "ट्रक अधिक त्वरित होगा"
+        "दोनों में से कोई भी त्वरित नहीं होगा"
       ]
     },
     "correctIndex": 2,
@@ -563,8 +563,8 @@
       "hi": [
         "मरुस्थलीय पौधों में प्रकाश संश्लेषण के लिए जल अनावश्यक होता है",
         "मरुस्थलीय पौधों में प्रकाश संश्लेषण के लिए कार्बन डाइऑक्साइड की आवश्यकता नहीं होती है",
-        "यौगिक शामिल हो सकते हैं।",
-        "मरुस्थलीय पौधों में प्रकाश संश्लेषण केवल रात में होता है प्रकाश संश्लेषण में , बाद में उपयोग के लिए संग्रहीत मध्यवर्ती"
+        "प्रकाश संश्लेषण में, बाद में उपयोग के लिए संग्रहीत मध्यवर्ती यौगिक शामिल हो सकते हैं।",
+        "मरुस्थलीय पौधों में प्रकाश संश्लेषण केवल रात में होता है"
       ]
     },
     "correctIndex": 2,
@@ -574,7 +574,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • Photosynthesis",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Photosynthesis can involve intermediate compounds stored for later use) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (यौगिक शामिल हो सकते हैं।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (प्रकाश संश्लेषण में, बाद में उपयोग के लिए संग्रहीत मध्यवर्ती यौगिक शामिल हो सकते हैं।) सही उत्तर है।"
     }
   },
   {
@@ -595,10 +595,10 @@
         "2Ca + H₂O → 2CaOH + H₂"
       ],
       "hi": [
-        "2Ca + H₂O → 2CaOH + H₂",
+        "Ca + H₂O → CaH₂ + O₂",
         "Ca + H₂O → CaOH₂ + H₂",
         "Ca + 2H₂O → Ca(OH)₂ + H₂",
-        "Ca + H₂O → CaH₂ + O₂"
+        "2Ca + H₂O → 2CaOH + H₂"
       ]
     },
     "correctIndex": 2,
@@ -631,8 +631,8 @@
       "hi": [
         "प्रत्येक रंग विभिन्न कोणों पर मुड़ते हैं",
         "कु छ रंग अवशोषित हो जाते हैं",
-        "सभी रंग समानांतर रूप से निकलते हैं",
-        "सभी रंग समान कोणों पर मुड़ते हैं"
+        "सभी रंग समान कोणों पर मुड़ते हैं",
+        "सभी रंग समानांतर रूप से निकलते हैं"
       ]
     },
     "correctIndex": 0,
@@ -663,9 +663,9 @@
         "They stop flowering in plants."
       ],
       "hi": [
-        "क्योंकि वे सदैव नई किस्मों का निर्माण करते हैं",
-        "क्योंकि वे आनुवंशिक रूप से एकसमान पादप उत्पन्न करते हैं",
         "क्योंकि वे परागण कीटों पर निर्भर करते हैं",
+        "क्योंकि वे आनुवंशिक रूप से एकसमान पादप उत्पन्न करते हैं",
+        "क्योंकि वे सदैव नई किस्मों का निर्माण करते हैं",
         "क्योंकि वे पादपों में पुष्पन को रोक देते हैं"
       ]
     },
@@ -697,10 +697,10 @@
         "Muscles"
       ],
       "hi": [
-        "पेशियां (Muscles)",
-        "वृक्काणु (Nephrons)",
         "अस्थियां (Bones)",
-        "कं डरा (Tendons)"
+        "वृक्काणु (Nephrons)",
+        "कं डरा (Tendons)",
+        "पेशियां (Muscles)"
       ]
     },
     "correctIndex": 1,
@@ -733,8 +733,8 @@
       "hi": [
         "केवल III और IV",
         "केवल I और II",
-        "केवल II और IV",
-        "केवल I और III"
+        "केवल I और III",
+        "केवल II और IV"
       ]
     },
     "correctIndex": 1,
@@ -765,10 +765,10 @@
         "The period of the wave"
       ],
       "hi": [
-        "तरंग का आवर्तकाल",
+        "तरंग की प्रबलता",
         "तरंग का आयाम",
         "तरंग की चाल",
-        "तरंग की प्रबलता"
+        "तरंग का आवर्तकाल"
       ]
     },
     "correctIndex": 2,
@@ -799,10 +799,10 @@
         "Both potential and kinetic energy increase as the ball moves"
       ],
       "hi": [
-        "गेंद की स्थितिज ऊर्जा कम होती है , जबकि उसकी गतिज ऊर्जा में वृद्धि होती है जैसे - जैसे गेंद गति करती है , स्थितिज और गतिज ऊर्जा दोनों में वृद्धि",
-        "होती है",
-        "जैसे - जैसे गेंद नीचे की ओर गति करती है , उसकी गतिज ऊर्जा कम होती जाती है",
-        "जैसे - जैसे गेंद लुढ़कती है , उसकी कु ल ऊर्जा में वृद्धि होती है"
+        "गेंद की स्थितिज ऊर्जा कम होती है, जबकि उसकी गतिज ऊर्जा में वृद्धि होती है",
+        "जैसे-जैसे गेंद नीचे की ओर गति करती है, उसकी गतिज ऊर्जा कम होती जाती है",
+        "जैसे-जैसे गेंद लुढ़कती है, उसकी कुल ऊर्जा में वृद्धि होती है",
+        "जैसे-जैसे गेंद गति करती है, स्थितिज और गतिज ऊर्जा दोनों में वृद्धि होती है"
       ]
     },
     "correctIndex": 0,
@@ -812,7 +812,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Science • Work, Energy & Power",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (The ball’s potential energy decreases while its kinetic energy increases) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (गेंद की स्थितिज ऊर्जा कम होती है , जबकि उसकी गतिज ऊर्जा में वृद्धि होती है जैसे - जैसे गेंद गति करती है , स्थितिज और गतिज ऊर्जा दोनों में वृद्धि) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (गेंद की स्थितिज ऊर्जा कम होती है, जबकि उसकी गतिज ऊर्जा में वृद्धि होती है) सही उत्तर है।"
     }
   },
   {
@@ -833,10 +833,10 @@
         "Between pH 8.5 and pH 9.5"
       ],
       "hi": [
+        "pH 3 और pH 4 के बीच",
         "pH 4 और pH 5 के बीच",
-        "pH 8.5 और pH 9.5 के बीच",
         "pH 6 और pH 7.5 के बीच",
-        "pH 3 और pH 4 के बीच"
+        "pH 8.5 और pH 9.5 के बीच"
       ]
     },
     "correctIndex": 2,
@@ -867,10 +867,10 @@
         "1"
       ],
       "hi": [
-        "1",
+        "2",
         "0",
         "−1",
-        "2"
+        "1"
       ]
     },
     "correctIndex": 1,
@@ -902,9 +902,9 @@
       ],
       "hi": [
         "50",
+        "51",
         "53",
-        "52",
-        "51"
+        "52"
       ]
     },
     "correctIndex": 0,
@@ -935,8 +935,8 @@
         "188 m"
       ],
       "hi": [
-        "163 m",
         "172 m",
+        "163 m",
         "192 m",
         "188 m"
       ]
@@ -970,9 +970,9 @@
       ],
       "hi": [
         "₹7,401",
-        "₹7,201",
         "₹7,404",
-        "₹7,411"
+        "₹7,411",
+        "₹7,201"
       ]
     },
     "correctIndex": 0,
@@ -1005,8 +1005,8 @@
       "hi": [
         "1,382",
         "1,400",
-        "1,386",
-        "1,388"
+        "1,388",
+        "1,386"
       ]
     },
     "correctIndex": 1,
@@ -1039,8 +1039,8 @@
       "hi": [
         "₹2,300",
         "₹2,400",
-        "₹2,500",
-        "₹2,200"
+        "₹2,200",
+        "₹2,500"
       ]
     },
     "correctIndex": 1,
@@ -1072,9 +1072,9 @@
       ],
       "hi": [
         "7.50",
-        "23.75",
+        "3.75",
         "45",
-        "3.75"
+        "23.75"
       ]
     },
     "correctIndex": 2,
@@ -1106,9 +1106,9 @@
       ],
       "hi": [
         "68",
-        "34",
+        "38",
         "60",
-        "38"
+        "34"
       ]
     },
     "correctIndex": 0,
@@ -1139,9 +1139,9 @@
         "31%"
       ],
       "hi": [
-        "30%",
         "33%",
         "28%",
+        "30%",
         "31%"
       ]
     },
@@ -1173,8 +1173,8 @@
         "₹3,250"
       ],
       "hi": [
-        "₹3,150",
         "₹3,200",
+        "₹3,150",
         "₹3,300",
         "₹3,250"
       ]
@@ -1207,8 +1207,8 @@
         "20"
       ],
       "hi": [
-        "40",
         "9",
+        "40",
         "18",
         "20"
       ]
@@ -1275,9 +1275,9 @@
         "0.23"
       ],
       "hi": [
+        "1.75",
         "1.89",
         "0.91",
-        "1.75",
         "0.23"
       ]
     },
@@ -1309,10 +1309,10 @@
         "3"
       ],
       "hi": [
-        "3",
+        "2",
         "1",
         "4",
-        "2"
+        "3"
       ]
     },
     "correctIndex": 1,
@@ -1344,9 +1344,9 @@
       ],
       "hi": [
         "48 cm2",
+        "96 cm2",
         "52 cm2",
-        "50 cm2",
-        "96 cm2"
+        "50 cm2"
       ]
     },
     "correctIndex": 0,
@@ -1378,8 +1378,8 @@
       ],
       "hi": [
         "11.15 km/h",
-        "13.15 km/h",
         "13.50 km/h",
+        "13.15 km/h",
         "11.75 km/h"
       ]
     },
@@ -1411,8 +1411,8 @@
         "₹690"
       ],
       "hi": [
-        "₹700",
         "₹668",
+        "₹700",
         "₹672",
         "₹690"
       ]
@@ -1446,9 +1446,9 @@
       ],
       "hi": [
         "30",
+        "22",
         "28",
-        "25",
-        "22"
+        "25"
       ]
     },
     "correctIndex": 0,
@@ -1480,9 +1480,9 @@
       ],
       "hi": [
         "35 वर्ष",
-        "40 वर्ष",
+        "30 वर्ष",
         "25 वर्ष",
-        "30 वर्ष"
+        "40 वर्ष"
       ]
     },
     "correctIndex": 2,
@@ -1510,23 +1510,23 @@
         "12.5%",
         "13.9%",
         "15.6%",
-        "10.4% is: intersect perpendicularly at a point X. If AX : XB = 3 : 2 and the PQ?"
+        "10.4%"
       ],
       "hi": [
-        "10.4%",
         "12.5%",
         "13.9%",
-        "15.6% का मान ज्ञात कीजिए। लंबवत रूप से प्रतिच्छेद करते हैं। यदि AX : XB = 3 : 2 और वृत्त की त्रिज्या 5"
+        "15.6%",
+        "10.4%"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 0,
+    "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (10.4% is: intersect perpendicularly at a point X. If AX : XB = 3 : 2 and the PQ?) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (15.6% का मान ज्ञात कीजिए। लंबवत रूप से प्रतिच्छेद करते हैं। यदि AX : XB = 3 : 2 और वृत्त की त्रिज्या 5) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (12.5%) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (12.5%) सही उत्तर है।"
     }
   },
   {
@@ -1557,10 +1557,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Algebra",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1591,10 +1591,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Chord Properties",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1616,8 +1616,8 @@
       ],
       "hi": [
         "150",
-        "200",
         "100",
+        "200",
         "180"
       ]
     },
@@ -1649,10 +1649,10 @@
         "30"
       ],
       "hi": [
-        "29",
+        "20",
         "24",
-        "30",
-        "20"
+        "29",
+        "30"
       ]
     },
     "correctIndex": 1,
@@ -1680,13 +1680,13 @@
         "₹483.4",
         "₹633.6",
         "₹738.4",
-        "₹855.5 General Intelligence & Reasoning"
+        "₹855.5"
       ],
       "hi": [
-        "₹855.5",
-        "₹633.6",
         "₹483.4",
-        "₹738.4 General Intelligence & Reasoning"
+        "₹633.6",
+        "₹738.4",
+        "₹855.5"
       ]
     },
     "correctIndex": 1,
@@ -1718,9 +1718,9 @@
       ],
       "hi": [
         "G",
-        "C",
+        "F",
         "A",
-        "F"
+        "C"
       ]
     },
     "correctIndex": 2,
@@ -1751,9 +1751,9 @@
         "Anita and Ravi"
       ],
       "hi": [
+        "लक्ष् मी और शिवानी",
         "पल्लवी और अनीता",
         "रवि और लक्ष् मी",
-        "लक्ष् मी और शिवानी",
         "अनीता और रवि"
       ]
     },
@@ -1785,10 +1785,10 @@
         "Four"
       ],
       "hi": [
-        "चार",
         "तीन",
+        "एक",
         "दो",
-        "एक"
+        "चार"
       ]
     },
     "correctIndex": 2,
@@ -1819,10 +1819,10 @@
         "Y"
       ],
       "hi": [
-        "Y",
+        "X",
         "W",
         "N",
-        "X"
+        "Y"
       ]
     },
     "correctIndex": 1,
@@ -1853,8 +1853,8 @@
         "Two"
       ],
       "hi": [
-        "एक",
         "चार",
+        "एक",
         "तीन",
         "दो"
       ]
@@ -1921,10 +1921,10 @@
         "4"
       ],
       "hi": [
-        "4",
+        "2",
         "5",
         "3",
-        "2"
+        "4"
       ]
     },
     "correctIndex": 2,
@@ -1955,10 +1955,10 @@
         "Zero"
       ],
       "hi": [
-        "एक भी नहीं",
+        "दो",
         "एक",
         "तीन",
-        "दो"
+        "एक भी नहीं"
       ]
     },
     "correctIndex": 1,
@@ -1989,10 +1989,10 @@
         "9"
       ],
       "hi": [
-        "9",
-        "1",
         "6",
-        "3"
+        "1",
+        "3",
+        "9"
       ]
     },
     "correctIndex": 1,
@@ -2024,9 +2024,9 @@
       ],
       "hi": [
         "4",
+        "3",
         "2",
-        "5",
-        "3"
+        "5"
       ]
     },
     "correctIndex": 0,
@@ -2057,10 +2057,10 @@
         "5"
       ],
       "hi": [
-        "5",
         "7",
+        "9",
         "6",
-        "9"
+        "5"
       ]
     },
     "correctIndex": 2,
@@ -2091,10 +2091,10 @@
         "M"
       ],
       "hi": [
-        "C",
+        "J",
         "B",
-        "M",
-        "J"
+        "C",
+        "M"
       ]
     },
     "correctIndex": 1,
@@ -2161,8 +2161,8 @@
       "hi": [
         "7",
         "8",
-        "6",
-        "9"
+        "9",
+        "6"
       ]
     },
     "correctIndex": 1,
@@ -2193,9 +2193,9 @@
         "One"
       ],
       "hi": [
-        "तीन",
         "दो",
         "एक भी नहीं",
+        "तीन",
         "एक"
       ]
     },
@@ -2261,10 +2261,10 @@
         "8-16-26-36"
       ],
       "hi": [
-        "8-16-26-36",
         "9-18-28-38",
+        "5-10-22-44",
         "11-22-32-64",
-        "5-10-22-44"
+        "8-16-26-36"
       ]
     },
     "correctIndex": 2,
@@ -2296,9 +2296,9 @@
       ],
       "hi": [
         "438",
-        "442",
         "434",
-        "428"
+        "428",
+        "442"
       ]
     },
     "correctIndex": 0,
@@ -2330,9 +2330,9 @@
       ],
       "hi": [
         "# = MRB , % = XCM",
-        "# = MRB , % = YCM",
+        "# = NRB , % = XCM",
         "# = MRB , % = XMC",
-        "# = NRB , % = XCM"
+        "# = MRB , % = YCM"
       ]
     },
     "correctIndex": 0,
@@ -2363,10 +2363,10 @@
         "PL 4"
       ],
       "hi": [
-        "PL 4",
-        "PK 2",
         "OK 2",
-        "OL 4"
+        "PK 2",
+        "OL 4",
+        "PL 4"
       ]
     },
     "correctIndex": 1,
@@ -2397,10 +2397,10 @@
         "MAKE - AMEK - KEMA"
       ],
       "hi": [
-        "MAKE - AMEK - KEMA",
         "NOTE - NETO - ETON",
+        "FILE - ELIF - ILEF",
         "PARK - ARPK - PAKR",
-        "FILE - ELIF - ILEF"
+        "MAKE - AMEK - KEMA"
       ]
     },
     "correctIndex": 2,
@@ -2465,8 +2465,8 @@
         "TBU"
       ],
       "hi": [
-        "NFX",
         "SKC",
+        "NFX",
         "OGY",
         "TBU"
       ]
@@ -2499,10 +2499,10 @@
         "11 km towards west"
       ],
       "hi": [
-        "11 km, पश्चिम की ओर",
+        "16 km, उत्तर की ओर",
         "10 km, दक्षिण की ओर",
         "16 km, पूर्व की ओर",
-        "16 km, उत्तर की ओर"
+        "11 km, पश्चिम की ओर"
       ]
     },
     "correctIndex": 2,
@@ -2534,9 +2534,9 @@
       ],
       "hi": [
         "18",
-        "14",
         "19",
-        "28"
+        "28",
+        "14"
       ]
     },
     "correctIndex": 0,
@@ -2601,9 +2601,9 @@
         "Brother"
       ],
       "hi": [
-        "पति",
-        "पिता",
         "पुत्र",
+        "पिता",
+        "पति",
         "भाई"
       ]
     },
@@ -2630,15 +2630,15 @@
     "options": {
       "en": [
         "Data in Statement I alone is sufficient to answer the question, while data in statement II is not.",
-        "Data in Statement II alone is sufficient to answer the question, while data in statement I is not. Both statements I and II together (and not statement 1",
-        "alone or statement II alone) are sufficient to answer the question.",
+        "Data in Statement II alone is sufficient to answer the question, while data in statement I is not.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.",
         "Both statements I and II together are not sufficient to answer the question."
       ],
       "hi": [
-        "पर्याप्त है , जबकि कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है। कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है ,",
-        "प्रश्न का उत्तर देने के लिए कथन I और II दोनों एक साथ ( न कि केवल कथन I या केवल कथन II) पर्याप्त हैं। कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए",
-        "कथन I और II दोनों एक साथ मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
-        "जबकि कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।"
+        "कथन I में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।",
+        "कथन II में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।",
+        "प्रश्न का उत्तर देने के लिए कथन I और II दोनों एक साथ (न कि केवल कथन I या केवल कथन II) पर्याप्त हैं।",
+        "कथन I और II दोनों एक साथ मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।"
       ]
     },
     "correctIndex": 0,
@@ -2648,7 +2648,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Data in Statement I alone is sufficient to answer the question, while data in statement II is not.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (पर्याप्त है , जबकि कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है। कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है ,) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (कथन I में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा अकेले प्रश्न का उत्तर देने के लिए पर्याप्त नहीं है।) सही उत्तर है।"
     }
   },
   {
@@ -2669,10 +2669,10 @@
         "Only conclusion (II) follows."
       ],
       "hi": [
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
         "केवल निष्कर्ष (I) अनुसरण करता है।",
-        "केवल निष्कर्ष (II) अनुसरण करता है।",
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
+        "केवल निष्कर्ष (II) अनुसरण करता है।"
       ]
     },
     "correctIndex": 3,
@@ -2682,7 +2682,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Syllogism",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Only conclusion (II) follows.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (केवल निष्कर्ष (II) अनुसरण करता है।) सही उत्तर है।"
     }
   },
   {
@@ -2693,7 +2693,7 @@
     "topic": "Missing Number • RRB Group D Level-1 (19 Aug 2026 Shift 37)",
     "question": {
       "en": "Find the missing number in the sequence: 4, 9, 25, 49, 121, ?",
-      "hi": "दी गई श्रृंखला में प्रश्न - चिह्न (?) के स्थान पर कौन - सा विकल्प आना चाहिए ? 21 23 27 33 41 ?"
+      "hi": "दी गई श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 4, 9, 25, 49, 121, ?"
     },
     "options": {
       "en": [
@@ -2713,7 +2713,7 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Intelligence & Reasoning • Missing Number",
       "en": "The numbers are squares of prime numbers: 2², 3², 5², 7², 11², 13² = 169. Correct: Option B (169).",
       "hi": "अभाज्य संख्याओं के वर्ग: 2², 3², 5², 7², 11², 13² = 169। सही उत्तर: विकल्प B (169)।"
@@ -2737,10 +2737,10 @@
         "Mamata Banerjee"
       ],
       "hi": [
-        "ममता बनर्जी",
-        "शुभेंदु अधिकारी",
         "सुकांता मजूमदार",
-        "दिलीप घोष"
+        "शुभेंदु अधिकारी",
+        "दिलीप घोष",
+        "ममता बनर्जी"
       ]
     },
     "correctIndex": 1,
@@ -2772,9 +2772,9 @@
       ],
       "hi": [
         "के नरा बैंक (Canara Bank)",
+        "एचडीएफसी बैंक (HDFC Bank)",
         "एक्सिस बैंक (Axis Bank)",
-        "इंडियन बैंक (Indian Bank)",
-        "एचडीएफसी बैंक (HDFC Bank)"
+        "इंडियन बैंक (Indian Bank)"
       ]
     },
     "correctIndex": 0,
@@ -2806,9 +2806,9 @@
       ],
       "hi": [
         "हंगरी (Hungary)",
-        "स्लोवाकिया (Slovakia)",
         "पोलैंड (Poland)",
-        "रोमानिया (Romania)"
+        "रोमानिया (Romania)",
+        "स्लोवाकिया (Slovakia)"
       ]
     },
     "correctIndex": 0,
@@ -2839,10 +2839,10 @@
         "Khelo India Mission"
       ],
       "hi": [
-        "खेलो इंडिया मिशन",
+        "राष्ट्रीय खेल प्रोत्साहन पुरस्कार",
         "फिट इंडिया मूवमेंट",
         "राष्ट्रीय स्वास्थ्य मिशन",
-        "राष्ट्रीय खेल प्रोत्साहन पुरस्कार"
+        "खेलो इंडिया मिशन"
       ]
     },
     "correctIndex": 1,
@@ -2873,10 +2873,10 @@
         "Green Technology and Innovation Strategic Partnership"
       ],
       "hi": [
-        "Technology and Innovation Strategic Partnership)",
+        "विशेष एवं विशेषाधिकार प्राप्त रणनीतिक साझेदारी (Special and Privileged Strategic Partnership)",
         "व्यापक वैश्विक रणनीतिक साझेदारी (Comprehensive Global Strategic Partnership)",
-        "Partnership)",
-        "विशेष एवं विशेषाधिकार प्राप्त रणनीतिक साझेदारी (Special and Privileged Strategic Partnership) विशेष रणनीतिक साझेदारी (Special Strategic"
+        "विशेष रणनीतिक साझेदारी (Special Strategic Partnership)",
+        "हरित प्रौद्योगिकी एवं नवाचार रणनीतिक साझेदारी (Green Technology and Innovation Strategic Partnership)"
       ]
     },
     "correctIndex": 2,
@@ -2886,7 +2886,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs • India's Foreign Relations",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Special Strategic Partnership) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (Partnership)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (विशेष रणनीतिक साझेदारी (Special Strategic Partnership)) सही उत्तर है।"
     }
   },
   {
@@ -2941,10 +2941,10 @@
         "Rhonex Kipruto"
       ],
       "hi": [
-        "रोनेक्स किप्रुटो (Rhonex Kipruto)",
         "योमिफ के जेल्चा (Yomif Kejelcha)",
+        "सबास्टियन सावे (Sabastian Sawe)",
         "जैकब किप्लिमो (Jacob Kiplimo)",
-        "सबास्टियन सावे (Sabastian Sawe)"
+        "रोनेक्स किप्रुटो (Rhonex Kipruto)"
       ]
     },
     "correctIndex": 2,
@@ -2975,10 +2975,10 @@
         "National Biologics Development Scheme"
       ],
       "hi": [
-        "नेशनल बायोलॉजिक्स डेवलपमेंट स्कीम (National Biologics Development Scheme)",
+        "बायोइंडिया मिशन (BioIndia Mission)",
         "फार्मा विजन 2030 (Pharma Vision 2030)",
         "बायोफार्मा शक्ति (Biopharma SHAKTI)",
-        "बायोइंडिया मिशन (BioIndia Mission)"
+        "नेशनल बायोलॉजिक्स डेवलपमेंट स्कीम (National Biologics Development Scheme)"
       ]
     },
     "correctIndex": 2,
@@ -3009,10 +3009,10 @@
         "Dr. Bibek Debroy"
       ],
       "hi": [
+        "डॉ . एस . जयशंकर",
         "डॉ . किरण बेदी",
-        "डॉ . बिबेक देबरॉय",
         "डॉ . शशि थरूर",
-        "डॉ . एस . जयशंकर"
+        "डॉ . बिबेक देबरॉय"
       ]
     },
     "correctIndex": 2,
@@ -3044,9 +3044,9 @@
       ],
       "hi": [
         "SKOCH समिट 2026",
+        "इंडिया डिजिटल समिट 2026",
         "स्टार्टअप महाकुं भ 2026",
-        "रायसीना डायलॉग 2026",
-        "इंडिया डिजिटल समिट 2026"
+        "रायसीना डायलॉग 2026"
       ]
     },
     "correctIndex": 0,
@@ -3078,9 +3078,9 @@
       ],
       "hi": [
         "नीति आयोग",
-        "राष्ट्रीय सांख्यिकी कार्यालय",
+        "राष्ट्रीय विकास परिषद",
         "भारतीय प्रतिस्पर्धा आयोग",
-        "राष्ट्रीय विकास परिषद"
+        "राष्ट्रीय सांख्यिकी कार्यालय"
       ]
     },
     "correctIndex": 0,
@@ -3111,8 +3111,8 @@
         "SAHI and BODH"
       ],
       "hi": [
-        "NIRAMAY और PRAGATI",
         "SEHAT और VIKAS",
+        "NIRAMAY और PRAGATI",
         "AROGYA और SAKSHAM",
         "SAHI और BODH"
       ]
@@ -3145,10 +3145,10 @@
         "Competition Commission of India"
       ],
       "hi": [
+        "भारतीय बीमा विनियामक और विकास प्राधिकरण",
         "भारतीय प्रतिभूति और विनिमय बोर्ड",
-        "भारतीय प्रतिस्पर्धा आयोग",
         "भारतीय रिजर्व बैंक",
-        "भारतीय बीमा विनियामक और विकास प्राधिकरण"
+        "भारतीय प्रतिस्पर्धा आयोग"
       ]
     },
     "correctIndex": 2,
@@ -3180,9 +3180,9 @@
       ],
       "hi": [
         "नेशनल डिजिटल टेलीविजन चैनल",
-        "सार्वजनिक क्षेत्र के रोजगार पोर्टल",
+        "सरकारी भूमि रिकॉर्ड डेटाबेस",
         "अंतर्राष्ट्रीय अकादमिक शोध पत्रिकाओं / जर्नल्स",
-        "सरकारी भूमि रिकॉर्ड डेटाबेस"
+        "सार्वजनिक क्षेत्र के रोजगार पोर्टल"
       ]
     },
     "correctIndex": 2,
@@ -3213,10 +3213,10 @@
         "Puducherry"
       ],
       "hi": [
+        "जम्मू और कश्मीर",
         "चंडीगढ़",
-        "पुडुचेरी",
         "राष्ट्रीय राजधानी क्षेत्र दिल्ली (NCT)",
-        "जम्मू और कश्मीर"
+        "पुडुचेरी"
       ]
     },
     "correctIndex": 2,
@@ -3249,8 +3249,8 @@
       "hi": [
         "समोआ (Samoa)",
         "फिजी (Fiji)",
-        "वानुआतु (Vanuatu)",
-        "टोंगा (Tonga)"
+        "टोंगा (Tonga)",
+        "वानुआतु (Vanuatu)"
       ]
     },
     "correctIndex": 0,
@@ -3315,9 +3315,9 @@
         "41"
       ],
       "hi": [
-        "32",
-        "53",
         "67",
+        "53",
+        "32",
         "41"
       ]
     },
@@ -3349,10 +3349,10 @@
         "Diabetes"
       ],
       "hi": [
-        "मधुमेह",
+        "डेंगू",
         "यक्ष् मा",
         "कैं सर",
-        "डेंगू"
+        "मधुमेह"
       ]
     },
     "correctIndex": 2,
@@ -3384,8 +3384,8 @@
       ],
       "hi": [
         "युगांडा और तंजानिया",
-        "कांगो लोकतांत्रिक गणराज्य और रवांडा",
         "के न्या और युगांडा",
+        "कांगो लोकतांत्रिक गणराज्य और रवांडा",
         "कांगो लोकतांत्रिक गणराज्य और युगांडा"
       ]
     },

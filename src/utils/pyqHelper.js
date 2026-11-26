@@ -27,11 +27,19 @@ export function getPyqOptions(q, lang = 'hi') {
   return q.options[lang] || q.options.en || q.options.hi || [];
 }
 
-export function getPyqCorrectIndex(q, lang = 'hi') {
-  if (!q) return 0;
-  if (lang === 'hi' && q.correctIndexHi !== undefined) {
-    return q.correctIndexHi;
+export function getQuestionImage(q, lang = 'en') {
+  if (!q) return null;
+  if (lang === 'hi') {
+    if (q.image_hi) return q.image_hi;
+    const hiText = typeof q.question === 'object' ? (q.question.hi || '') : '';
+    if (hiText.includes('![')) return null;
+    return q.image || null;
   }
+  return q.image_en || q.image || null;
+}
+
+export function getPyqCorrectIndex(q) {
+  if (!q) return 0;
   return q.correctIndex ?? 0;
 }
 

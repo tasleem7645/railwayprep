@@ -27,9 +27,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Human Anatomy & Life Processes (General Science)",
-      "en": "Correct Answer: Option C (Hinge joint). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (Hinge joint). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (हिंज संधि (Hinge joint))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 2,
@@ -49,9 +50,9 @@
         "Japan"
       ],
       "hi": [
-        "दक्षिण अफ्रीका",
         "यूनाइटेड किं गडम",
         "कनाडा",
+        "दक्षिण अफ्रीका",
         "जापान"
       ]
     },
@@ -59,9 +60,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Indian Polity & Current Affairs (General Awareness)",
-      "en": "Correct Answer: Option C (South Africa). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प C (कनाडा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option C (South Africa). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प C (दक्षिण अफ्रीका)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 3,
@@ -81,19 +83,20 @@
         "Four"
       ],
       "hi": [
+        "तीन",
         "दो",
         "एक",
-        "चार",
-        "तीन"
+        "चार"
       ]
     },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option A (Three). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प A (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option A (Three). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प A (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 4,
@@ -114,18 +117,19 @@
       ],
       "hi": [
         "hjp",
+        "vq",
         "em",
-        "pw",
-        "vq"
+        "pw"
       ]
     },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Seating Arrangement & Puzzles (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option D (pw). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प D (vq)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option D (pw). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प D (pw)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 5,
@@ -155,9 +159,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Simple & Compound Interest (Mathematics)",
-      "en": "Correct Answer: Option A (74,580). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (74,580). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (74,580)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 6,
@@ -167,7 +172,7 @@
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "A, B, C, D, E and F live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on, till the topmost floor is numbered 6. Only three people live between C and F. A lives immediately above F. A lives on an even-numbered floor. C does not live on the lowermost floor. B lives immediately above D. On which floor does E live?",
-      "hi": "B, E, G, R, U और V एक ही इमारत के छह अलग-अलग तलों पर रहते हैं। इमारत में सबसे नीचे वाले तल का क्रमांक 1 है उसके ऊपर वाले तल का क्रमांक 2 है और इसी तरह सबसे ऊपर वाले तल का क्रमांक 6 है। E, विषम क्रमांक वाले , किसी तल पर रहता है लेकिन तल क्रमांक 5 पर नहीं रहता है। E और R के तलों के क्रमांकों का योगफल 5 है। R और के बीच के वल 3 व्यक्ति रहते हैं। B, V के ठीक ऊपर वाले तल पर रहता है। R से नीचे कितने व्यक्ति रहते हैं?"
+      "hi": "A, B, C, D, E और F एक ही इमारत के छह अलग-अलग तलों पर रहते हैं। इमारत में सबसे नीचे वाले तल का क्रमांक 1 है उसके ऊपर वाले तल का क्रमांक 2 है और इसी तरह सबसे ऊपर वाले तल का क्रमांक 6 है। C और F के बीच के वल , तीन व्यक्ति रहते हैं। A, F के ठीक ऊपर वाले तल पर रहता है। A, सम क्रमांक वाले तल पर रहता है। C, सबसे नीचे वाले तल पर नहीं रहता है। B, D के ठीक ऊपर वाले तल पर रहता है। E किस तल पर रहता है?"
     },
     "options": {
       "en": [
@@ -177,19 +182,20 @@
         "Floor number 5"
       ],
       "hi": [
-        "4",
-        "3",
-        "2",
-        "1"
+        "तल क्रमांक 2",
+        "तल क्रमांक 6 \"",
+        "तल क्रमांक 1",
+        "तल क्रमांक 5"
       ]
     },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Seating Arrangement & Puzzles (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (Floor number 6). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प B (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option B (Floor number 6). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प B (तल क्रमांक 6 \")। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 7,
@@ -219,9 +225,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
-      "en": "Correct Answer: Option A ((-15 - √15) / 210). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A ((-15 - √15) / 210). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A ((-15 - √15) / 210)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 8,
@@ -251,9 +258,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option C (LH – CZ). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (LH – CZ). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (LH – CZ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 9,
@@ -283,9 +291,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Profit, Loss & Discount (Mathematics)",
-      "en": "Correct Answer: Option D (2,000). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option D (2,000). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प D (2,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 10,
@@ -315,9 +324,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
-      "en": "Correct Answer: Option B (48). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (48). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (48)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 11,
@@ -347,9 +357,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Coding & Decoding (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option C (XEFZM). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (XEFZM). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (XEFZM)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 12,
@@ -369,19 +380,20 @@
         "Three"
       ],
       "hi": [
+        "एक",
         "एक का भी नहीं",
         "दो",
-        "तीन",
-        "एक"
+        "तीन"
       ]
     },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Alphabet & Word Sequence (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (None). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प B (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option B (None). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प B (एक का भी नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 13,
@@ -411,9 +423,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
-      "en": "Correct Answer: Option A (63). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (63). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (63)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 14,
@@ -443,9 +456,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (MHD80). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (MHD80). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (MHD80)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 15,
@@ -475,9 +489,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (81). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (81). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (81)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 16,
@@ -498,18 +513,19 @@
       ],
       "hi": [
         "जैसे-जैसे किसी माध्यम का तापमान बढ़ता है, ध्वनि की चाल बढ़ती जाती है।",
-        "ध्वनि की चाल तब बढ़ती है जब कोई पदार्थ ठोस से गैस में बदल जाता है।",
         "किसी भी माध्यम में ध्वनि की चाल पर तापमान का कोई प्रभाव नहीं पड़ ता है।",
-        "ध्वनि की चाल ठोस, द्रव और गैसों में समान होती है।"
+        "ध्वनि की चाल ठोस, द्रव और गैसों में समान होती है।",
+        "ध्वनि की चाल तब बढ़ती है जब कोई पदार्थ ठोस से गैस में बदल जाता है।"
       ]
     },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Acoustics & Sound Waves (General Science)",
-      "en": "Correct Answer: Option A (The speed of sound in a medium increases as its temperature rises.). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (The speed of sound in a medium increases as its temperature rises.). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (जैसे-जैसे किसी माध्यम का तापमान बढ़ता है, ध्वनि की चाल बढ़ती जाती है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 17,
@@ -539,9 +555,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option A (63). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (63). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (63)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 18,
@@ -571,9 +588,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option A (18 - 14 - 70 - 73). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (18 - 14 - 70 - 73). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (18 - 14 - 70 - 73)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 19,
@@ -603,9 +621,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option A (14). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (14). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (14)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 20,
@@ -635,9 +654,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Coding & Decoding (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option D (QPI©©). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option D (QPI©©). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प D (QPI©©)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 21,
@@ -667,9 +687,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Coding & Decoding (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (LKTDX). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (LKTDX). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (LKTDX)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 22,
@@ -699,9 +720,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Alphabet & Word Sequence (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option C (16). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (16). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (16)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 23,
@@ -731,9 +753,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Profit, Loss & Discount (Mathematics)",
-      "en": "Correct Answer: Option D (₹3800). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option D (₹3800). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प D (₹3800)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 24,
@@ -753,19 +776,20 @@
         "Second class lever"
       ],
       "hi": [
+        "तृतीय श्रेणी उत्तोलक",
         "चतुर्थ श्रेणी उत्तोलक",
         "प्रथम श्रेणी उत्तोलक",
-        "द्वितीय श्रेणी उत्तोलक",
-        "तृतीय श्रेणी उत्तोलक"
+        "द्वितीय श्रेणी उत्तोलक"
       ]
     },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Motion, Force & Work (General Science)",
-      "en": "Correct Answer: Option D (Second class lever). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प D (तृतीय श्रेणी उत्तोलक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option D (Second class lever). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प D (द्वितीय श्रेणी उत्तोलक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 25,
@@ -795,9 +819,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (TWU 82). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (TWU 82). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (TWU 82)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 26,
@@ -827,9 +852,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Simple & Compound Interest (Mathematics)",
-      "en": "Correct Answer: Option A (5,000). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (5,000). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (5,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 27,
@@ -849,19 +875,20 @@
         "Two"
       ],
       "hi": [
-        "दो",
         "तीन",
+        "एक का भी नहीं",
         "एक",
-        "एक का भी नहीं"
+        "दो"
       ]
     },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Alphabet & Word Sequence (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (Three). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प A (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option A (Three). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प A (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 28,
@@ -891,9 +918,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Geometry & Mensuration (Mathematics)",
-      "en": "Correct Answer: Option B (3014.4). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (3014.4). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (3014.4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 29,
@@ -923,9 +951,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option B (HEDA). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (HEDA). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (HEDA)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 30,
@@ -955,9 +984,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (54.17). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (54.17). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (54.17)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 31,
@@ -967,7 +997,7 @@
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "F, G, H, M, N and O live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. lives on floor numbered 4. Only two people live between and M. Only F lives between and O. H lives immediately below G. How many people live between N and O?7026",
-      "hi": "यह प्रश्न नीचे दी गई पांच, तीन-अंकीय संख्याओं पर आधारित है। (बाएं) 214 785 698 759 472 (दाएं) (उदाहरण के लिए, 697 लीजिए – पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7) (नोट: सभी संक्रियाएं बाएं से दाएं की जानी हैं।) यदि सभी संख्याओं को आरोही क्रम में व्यवस्थित किया जाए, तो कितनी संख्याओं का स्थान अपरिवर्तित रहेगा?"
+      "hi": "F, G, H, M, N और O एक ही इमारत के छह अलग-अलग तलों पर रहते हैं। इमारत के सबसे निचले तल का क्रमांक 1 है, उसके ठीक ऊपर वाले तल का क्रमांक 2 है और इसी प्रकार सबसे ऊपरी तल का क्रमांक 6 है। तल क्रमांक 4 पर रहता है। और M के बीच के वल दो लोग रहते हैं। और O के बीच के वल F रहता है। H, के ठीक नीचे रहता है। N और O के बीच कितने लोग रहते हैं?"
     },
     "options": {
       "en": [
@@ -977,19 +1007,20 @@
         "Two"
       ],
       "hi": [
-        "4",
-        "3",
-        "1",
-        "2"
+        "चार",
+        "तीन",
+        "एक",
+        "दो"
       ]
     },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Seating Arrangement & Puzzles (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (Three). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प B (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option B (Three). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प B (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 32,
@@ -1019,9 +1050,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
-      "en": "Correct Answer: Option C (38). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (38). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (38)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 33,
@@ -1051,9 +1083,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (2). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (2). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 34,
@@ -1083,9 +1116,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option C (4). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (4). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 35,
@@ -1115,9 +1149,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option C (144). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (144). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (144)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 36,
@@ -1147,9 +1182,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (5544). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (5544). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (5544)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 37,
@@ -1179,9 +1215,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
-      "en": "Correct Answer: Option B (5). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (5). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 38,
@@ -1211,9 +1248,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option A (55). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (55). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (55)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 39,
@@ -1243,9 +1281,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (4). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (4). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 40,
@@ -1265,19 +1304,20 @@
         "12 km to the east"
       ],
       "hi": [
-        "12 km; पूर्व की ओर",
         "11 km; पश्चिम की ओर",
         "13 km; पूर्व की ओर",
-        "10 km; पश्चिम की ओर"
+        "10 km; पश्चिम की ओर",
+        "12 km; पूर्व की ओर"
       ]
     },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (11 km to the west). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प A (12 km; पूर्व की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option A (11 km to the west). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प A (11 km; पश्चिम की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 41,
@@ -1309,7 +1349,8 @@
       "keyConcept": "Key Concept: Seating Arrangement & Puzzles (General Intelligence & Reasoning)",
       "en": "Correct Answer: Option B (F). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (F)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 42,
@@ -1339,9 +1380,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (3). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (3). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 43,
@@ -1373,7 +1415,8 @@
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
       "en": "Correct Answer: Option D (30). Half-chord = √(17² - 8²) = 15 cm. Full chord length = 2 × 15 = 30 cm.",
       "hi": "सही उत्तर: विकल्प D (30)। 17 cm त्रिज्या और 8 cm केंद्र से दूरी पर जीवा की आधी लंबाई = √(17² - 8²) = 15 cm। अतः जीवा की कुल लंबाई = 2 × 15 = 30 cm।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 44,
@@ -1403,9 +1446,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option C (16). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (16). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (16)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 45,
@@ -1435,9 +1479,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Geometry & Mensuration (Mathematics)",
-      "en": "Correct Answer: Option B (29 (21/51) %). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (29 (21/51) %). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (29 (21/51) %)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 46,
@@ -1457,9 +1502,9 @@
         "Andhra Pradesh"
       ],
       "hi": [
-        "कर्नाटक",
-        "तमिलनाडु",
         "के रल",
+        "तमिलनाडु",
+        "कर्नाटक",
         "आंध्र प्रदेश"
       ]
     },
@@ -1467,9 +1512,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Indian Polity & Current Affairs (General Awareness)",
-      "en": "Correct Answer: Option A (Kerala). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प A (कर्नाटक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option A (Kerala). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प A (के रल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 47,
@@ -1499,9 +1545,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option A (obtain pure metal from it). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (obtain pure metal from it). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (अयस्क से शुद्ध धातु प्राप्त करने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 48,
@@ -1521,19 +1568,20 @@
         "Data in both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question."
       ],
       "hi": [
-        "कथन I और II दोनों में दिया गया डेटा एक साथ (न तो अके ले कथन I या न अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं",
-        "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है",
         "कथन I और II दोनों में दिया गया डेटा एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं",
-        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है"
+        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है",
+        "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है",
+        "कथन I और II दोनों में दिया गया डेटा एक साथ (न तो अके ले कथन I या न अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं"
       ]
     },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (Data in both statements I and II together are NOT sufficient to answer the question.). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प A (कथन I और II दोनों में दिया गया डेटा एक साथ (न तो अके ले कथन I या न अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option A (Data in both statements I and II together are NOT sufficient to answer the question.). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प A (कथन I और II दोनों में दिया गया डेटा एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 49,
@@ -1563,9 +1611,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Coding & Decoding (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (A©LTD). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (A©LTD). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (A©LTD)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 50,
@@ -1595,9 +1644,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option C (QS−TY). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (QS−TY). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (QS−TY)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 51,
@@ -1627,9 +1677,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Simple & Compound Interest (Mathematics)",
-      "en": "Correct Answer: Option C (11,236). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (11,236). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (11,236)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 52,
@@ -1659,9 +1710,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option D (8). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option D (8). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प D (8)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 53,
@@ -1691,9 +1743,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (-61). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (-61). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (-61)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 54,
@@ -1723,9 +1776,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option B (116%). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (116%). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (116%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 55,
@@ -1755,9 +1809,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option D (66). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option D (66). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प D (66)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 56,
@@ -1787,9 +1842,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option A (275). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (275). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (275)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 57,
@@ -1809,9 +1865,9 @@
         "In the urethra and the ovaries"
       ],
       "hi": [
-        "वृषण और अंडाशय में",
-        "मूत्रमार्ग और गर्भाशय ग्रीवा में",
         "वृषण और डिम्बवाहिनी नलिका में",
+        "मूत्रमार्ग और गर्भाशय ग्रीवा में",
+        "वृषण और अंडाशय में",
         "मूत्रमार्ग और अंडाशय में"
       ]
     },
@@ -1819,9 +1875,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Human Anatomy & Life Processes (General Science)",
-      "en": "Correct Answer: Option C (In the testes and the ovaries). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प C (वृषण और डिम्बवाहिनी नलिका में)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option C (In the testes and the ovaries). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प C (वृषण और अंडाशय में)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 58,
@@ -1841,19 +1898,20 @@
         "Both Statements I and II are true."
       ],
       "hi": [
+        "कथन I और II दोनों असत्य हैं।",
         "कथन I सत्य है लेकिन कथन II असत्य है।",
         "कथन I असत्य है लेकिन कथन II सत्य है।",
-        "कथन I और II दोनों सत्य हैं।",
-        "कथन I और II दोनों असत्य हैं।"
+        "कथन I और II दोनों सत्य हैं।"
       ]
     },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option D (Both Statements I and II are true.). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प D (कथन I और II दोनों असत्य हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option D (Both Statements I and II are true.). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प D (कथन I और II दोनों सत्य हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 59,
@@ -1883,9 +1941,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (WVX−TSU). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (WVX−TSU). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (WVX−TSU)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 60,
@@ -1915,9 +1974,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option B (80). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (80). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (80)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 61,
@@ -1947,9 +2007,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option D (58°). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option D (58°). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प D (58°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 62,
@@ -1979,9 +2040,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Human Anatomy & Life Processes (General Science)",
-      "en": "Correct Answer: Option B (Decomposers). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (Decomposers). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (अपघटक (Decomposers))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 63,
@@ -2011,9 +2073,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (PH 26). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option A (PH 26). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प A (PH 26)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 64,
@@ -2043,9 +2106,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option B (69). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option B (69). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प B (69)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 65,
@@ -2055,7 +2119,7 @@
     "topic": "Seating Arrangement & Puzzles",
     "question": {
       "en": "B, E, G, R, U and V live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. E lives on an odd numbered floor but not 5. The sum of floors on which E and R live is 5. Only 3 people live between R and G. B lives immediately above V. How many people live below R?",
-      "hi": "F, G, H, M, N और O एक ही इमारत के छह अलग-अलग तलों पर रहते हैं। इमारत के सबसे निचले तल का क्रमांक 1 है, उसके ठीक ऊपर वाले तल का क्रमांक 2 है और इसी प्रकार सबसे ऊपरी तल का क्रमांक 6 है। तल क्रमांक 4 पर रहता है। और M के बीच के वल दो लोग रहते हैं। और O के बीच के वल F रहता है। H, के ठीक नीचे रहता है। N और O के बीच कितने लोग रहते हैं?"
+      "hi": "B, E, G, R, U और V एक ही इमारत के छह अलग-अलग तलों पर रहते हैं। इमारत में सबसे नीचे वाले तल का क्रमांक 1 है उसके ऊपर वाले तल का क्रमांक 2 है और इसी तरह सबसे ऊपर वाले तल का क्रमांक 6 है। E, विषम क्रमांक वाले , किसी तल पर रहता है लेकिन तल क्रमांक 5 पर नहीं रहता है। E और R के तलों के क्रमांकों का योगफल 5 है। R और के बीच के वल 3 व्यक्ति रहते हैं। B, V के ठीक ऊपर वाले तल पर रहता है। R से नीचे कितने व्यक्ति रहते हैं?"
     },
     "options": {
       "en": [
@@ -2065,19 +2129,20 @@
         "2"
       ],
       "hi": [
-        "दो",
-        "एक",
-        "तीन",
-        "चार"
+        "3",
+        "1",
+        "4",
+        "2"
       ]
     },
     "correctIndex": 1,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "Key Concept: Seating Arrangement & Puzzles (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (1). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प B (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option B (1). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प B (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 66,
@@ -2097,19 +2162,20 @@
         "Along the radius inward"
       ],
       "hi": [
-        "त्रिज्या के अनुदिश बाहर की ओर",
         "शून्य",
-        "त्रिज्या के अनुदिश अंदर की ओर",
-        "पथ के स्पर्शरेखीय"
+        "पथ के स्पर्शरेखीय",
+        "त्रिज्या के अनुदिश बाहर की ओर",
+        "त्रिज्या के अनुदिश अंदर की ओर"
       ]
     },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
-      "en": "Correct Answer: Option D (Along the radius inward). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प D (पथ के स्पर्शरेखीय)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option D (Along the radius inward). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प D (त्रिज्या के अनुदिश अंदर की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 67,
@@ -2129,19 +2195,20 @@
         "A"
       ],
       "hi": [
-        "A",
-        "J",
         "I",
-        "C"
+        "C",
+        "J",
+        "A"
       ]
     },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Seating Arrangement & Puzzles (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option C (J). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प C (I)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option C (J). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प C (J)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 68,
@@ -2161,19 +2228,20 @@
         "32 km to the South"
       ],
       "hi": [
-        "31 km, पश्चिम की ओर",
-        "32 km, दक्षिण की ओर",
         "33 km, पश्चिम की ओर",
-        "30 km, पूर्व की ओर"
+        "31 km, पश्चिम की ओर",
+        "30 km, पूर्व की ओर",
+        "32 km, दक्षिण की ओर"
       ]
     },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (33 km to the West). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प A (31 km, पश्चिम की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option A (33 km to the West). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प A (33 km, पश्चिम की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 69,
@@ -2203,9 +2271,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Trigonometry (Mathematics)",
-      "en": "Correct Answer: Option D (700). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option D (700). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प D (700)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 70,
@@ -2225,19 +2294,20 @@
         "One"
       ],
       "hi": [
-        "दो",
         "तीन",
-        "एक",
-        "एक भी नहीं"
+        "एक भी नहीं",
+        "दो",
+        "एक"
       ]
     },
     "correctIndex": 3,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option D (One). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प D (एक भी नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option D (One). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प D (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 71,
@@ -2269,7 +2339,8 @@
       "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
       "en": "Correct Answer: Option B (9 + tan²A + cot²A). Expansion gives 2 + sin²A + cosec²A + 2 + cos²A + sec²A + 2 = 6 + (sin²A + cos²A) + (1 + cot²A) + (1 + tan²A) = 9 + tan²A + cot²A.",
       "hi": "सही उत्तर: विकल्प B (9 + tan²A + cot²A)। 2 + (sin²A + cosec²A + 2) + (cos²A + sec²A + 2) = 6 + 1 + (1 + cot²A) + (1 + tan²A) = 9 + tan²A + cot²A।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 72,
@@ -2299,9 +2370,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option D (108). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option D (108). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प D (108)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 73,
@@ -2311,7 +2383,7 @@
     "topic": "Arithmetic & Numerical Ability",
     "question": {
       "en": "This question is based on the five, three-digit numbers given below. (Left) 214 785 698 759 472 (Right) (Example: 697 – First digit = 6, second digit = 9 and third digit = 7) (NOTE: All operations to be done from left to right.) If all the numbers are arranged in ascending order, the position of how many numbers will remain unchanged?",
-      "hi": "यह प्रश्न निम्नलिखित शब्दों पर आधारित है BIG FAN JET ROD प्रत्येक शब्द में, प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर से बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से बदल दिया जाता है। इस प्रकार बने कितने अक्षर-समूह, व्यंजन से शुरू होते हैं और व्यंजन पर ही समाप्त होते हैं?"
+      "hi": "यह प्रश्न नीचे दी गई पांच, तीन-अंकीय संख्याओं पर आधारित है। (बाएं) 214 785 698 759 472 (दाएं) (उदाहरण के लिए, 697 लीजिए – पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7) (नोट: सभी संक्रियाएं बाएं से दाएं की जानी हैं।) यदि सभी संख्याओं को आरोही क्रम में व्यवस्थित किया जाए, तो कितनी संख्याओं का स्थान अपरिवर्तित रहेगा?"
     },
     "options": {
       "en": [
@@ -2331,9 +2403,10 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option C (3). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (3). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 74,
@@ -2343,7 +2416,7 @@
     "topic": "Elements, Compounds & Reactions",
     "question": {
       "en": "This question is based on the following words BIG FAN JET ROD In each of the words, each vowel is changed to the letter immediately preceding it in the English alphabetical order and each consonant is changed to the letter immediately following it in the English alphabetical order. How many letter-clusters thus formed begin and end with consonants?",
-      "hi": "A, B, C, D, E और F एक ही इमारत के छह अलग-अलग तलों पर रहते हैं। इमारत में सबसे नीचे वाले तल का क्रमांक 1 है उसके ऊपर वाले तल का क्रमांक 2 है और इसी तरह सबसे ऊपर वाले तल का क्रमांक 6 है। C और F के बीच के वल , तीन व्यक्ति रहते हैं। A, F के ठीक ऊपर वाले तल पर रहता है। A, सम क्रमांक वाले तल पर रहता है। C, सबसे नीचे वाले तल पर नहीं रहता है। B, D के ठीक ऊपर वाले तल पर रहता है। E किस तल पर रहता है?"
+      "hi": "यह प्रश्न निम्नलिखित शब्दों पर आधारित है BIG FAN JET ROD प्रत्येक शब्द में, प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर से बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से बदल दिया जाता है। इस प्रकार बने कितने अक्षर-समूह, व्यंजन से शुरू होते हैं और व्यंजन पर ही समाप्त होते हैं?"
     },
     "options": {
       "en": [
@@ -2353,19 +2426,20 @@
         "2"
       ],
       "hi": [
-        "तल क्रमांक 5",
-        "तल क्रमांक 6 \"",
-        "तल क्रमांक 1",
-        "तल क्रमांक 2"
+        "3",
+        "4",
+        "1",
+        "2"
       ]
     },
     "correctIndex": 2,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Elements, Compounds & Reactions (General Science)",
-      "en": "Correct Answer: Option C (1). Verified by Railway Recruitment Board official answer key.",
-      "hi": "सही उत्तर: विकल्प C (तल क्रमांक 1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option C (1). Verified by official Railway Recruitment Board answer key.",
+      "hi": "सही उत्तर: विकल्प C (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 75,
@@ -2395,8 +2469,9 @@
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "Key Concept: Series & Analogy (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option C (-4). Verified by Railway Recruitment Board official answer key.",
+      "en": "Correct Answer: Option C (-4). Verified by official Railway Recruitment Board answer key.",
       "hi": "सही उत्तर: विकल्प C (-4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   }
 ]

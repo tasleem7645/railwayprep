@@ -17,10 +17,10 @@
         "Allows more flexible movement"
       ],
       "hi": [
-        "अधिक नम्‍य संचलन की सुविधा देता है",
-        "जल हानि को रोकता है और सुरक्षा प्रदान करता है",
         "शिकार को पकड़ने के लिए स्‍प र्शक प्रदान करता है",
-        "पाचन के लिए एकल द्वार को सुगम बनाता है"
+        "जल हानि को रोकता है और सुरक्षा प्रदान करता है",
+        "पाचन के लिए एकल द्वार को सुगम बनाता है",
+        "अधिक नम्‍य संचलन की सुविधा देता है"
       ]
     },
     "correctIndex": 1,
@@ -119,10 +119,10 @@
         "Statement A is incorrect but B is correct."
       ],
       "hi": [
-        "कथन A और B दोनों गलत हैं",
+        "कथन A और B दोनों सही हैं",
         "कथन A सही है लेकिन B गलत है",
-        "कथन A गलत है लेकिन B सही है",
-        "कथन A और B दोनों सही हैं"
+        "कथन A और B दोनों गलत हैं",
+        "कथन A गलत है लेकिन B सही है"
       ]
     },
     "correctIndex": 1,
@@ -153,9 +153,9 @@
         "It turns blue litmus red and reacts with carbonates to produce CO₂"
       ],
       "hi": [
-        "यह जल में विलीन नहीं होता है",
-        "यह साबुन जैसा लगता है और इसका स्वाद कड़वा होता है",
         "इसका उपयोग इसके शर्क रा अंश के कारण खाद्य को मीठा करने के लिए किया जाता है",
+        "यह साबुन जैसा लगता है और इसका स्वाद कड़वा होता है",
+        "यह जल में विलीन नहीं होता है",
         "यह नीले लिटमस को लाल कर देता है और कार्बोनेट के साथ अभिक्रिया करके CO2 उत्पन्न करता है"
       ]
     },
@@ -187,8 +187,8 @@
         "Carbon dioxide"
       ],
       "hi": [
-        "हाइड्रोजन",
         "हीलियम",
+        "हाइड्रोजन",
         "ऑक्सीजन",
         "कार्बन डाइऑक्साइड"
       ]
@@ -221,9 +221,9 @@
         "14,400,000 joules"
       ],
       "hi": [
-        "7,200,000 जूल",
         "720,000 जूल",
         "3,600,000 जूल",
+        "7,200,000 जूल",
         "14,400,000 जूल"
       ]
     },
@@ -255,10 +255,10 @@
         "Thermal decomposition"
       ],
       "hi": [
-        "ऊष्मीय अपघटन",
-        "कार्बन ( कोक ) के साथ अपचयन",
         "हाइड्रोजन के साथ अपचयन",
-        "विद्युत - अपघटनी अपचयन"
+        "कार्बन ( कोक ) के साथ अपचयन",
+        "विद्युत - अपघटनी अपचयन",
+        "ऊष्मीय अपघटन"
       ]
     },
     "correctIndex": 1,
@@ -290,8 +290,8 @@
       ],
       "hi": [
         "क्योंकि यह अविलेय अवशेष बनाता है",
-        "क्योंकि यह तीव्रता से अभिक्रिया करके ऊष्मा का उत्पादन करता है",
         "क्योंकि यह शीघ्रता से हाइड्रोजन गैस का उत्पादन करता है",
+        "क्योंकि यह तीव्रता से अभिक्रिया करके ऊष्मा का उत्पादन करता है",
         "क्योंकि यह अम्ल के साथ आसानी से कार्बन डाइऑक्साइड मुक्त करता है"
       ]
     },
@@ -391,10 +391,10 @@
         "The image becomes smaller and moves toward the mirror"
       ],
       "hi": [
-        "प्रतिबिंब छोटा हो जाता है और दर्पण की ओर गति करता है",
         "प्रतिबिंब छोटा हो जाता है और दर्पण से दूर चला जाता है",
+        "प्रतिबिंब का आकार और स्थिति वही रहती है",
         "प्रतिबिंब बड़ा हो जाता है और दर्पण से दूर चला जाता है",
-        "प्रतिबिंब का आकार और स्थिति वही रहती है"
+        "प्रतिबिंब छोटा हो जाता है और दर्पण की ओर गति करता है"
       ]
     },
     "correctIndex": 2,
@@ -419,15 +419,15 @@
     },
     "options": {
       "en": [
-        "because their components are not uniformly distributed",
-        "Oil and water chemically react to form a new compound",
-        "Oil dissolves completely in water to form a uniform solution",
-        "Oil and water form a homogeneous mixture with a single phase"
+        "Oil and water form a heterogeneous mixture because their components are not uniformly distributed.",
+        "Oil and water chemically react to form a new compound.",
+        "Oil dissolves completely in water to form a uniform solution.",
+        "Oil and water form a homogeneous mixture with a single phase."
       ],
       "hi": [
-        "तेल और जल एक विषमांगी मिश्रण बनाते हैं क्योंकि उनके घटक समान रूप से वितरित नहीं होते हैं। तेल , जल में पूरी तरह घुल जाता है और एक समान विलयन बनाता",
+        "तेल और जल एक विषमांगी मिश्रण बनाते हैं क्योंकि उनके घटक समान रूप से वितरित नहीं होते हैं।",
         "तेल और जल रासायनिक रूप से अभिक्रिया करके एक नया यौगिक बनाते हैं।",
-        "है।",
+        "तेल, जल में पूरी तरह घुल जाता है और एक समान विलयन बनाता है।",
         "तेल और जल एक ही अवस्था वाला समांगी मिश्रण बनाते हैं।"
       ]
     },
@@ -437,8 +437,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Science • Mixtures, Solutions, Colloids",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (because their components are not uniformly distributed) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (तेल और जल एक विषमांगी मिश्रण बनाते हैं क्योंकि उनके घटक समान रूप से वितरित नहीं होते हैं। तेल , जल में पूरी तरह घुल जाता है और एक समान विलयन बनाता) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Oil and water form a heterogeneous mixture because their components are not uniformly distributed.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (तेल और जल एक विषमांगी मिश्रण बनाते हैं क्योंकि उनके घटक समान रूप से वितरित नहीं होते हैं।) सही उत्तर है।"
     }
   },
   {
@@ -461,8 +461,8 @@
       "hi": [
         "पहली अभिक्रिया में कॉपर और दूसरी अभिक्रिया में कॉपर ऑक्साइड",
         "पहली अभिक्रिया में हाइड्रोजन और दूसरी अभिक्रिया में कॉपर ऑक्साइड",
-        "पहली अभिक्रिया में ऑक्सीजन और दूसरी अभिक्रिया में कॉपर ऑक्साइड",
-        "पहली अभिक्रिया में कॉपर ऑक्साइड और दूसरी अभिक्रिया में कॉपर"
+        "पहली अभिक्रिया में कॉपर ऑक्साइड और दूसरी अभिक्रिया में कॉपर",
+        "पहली अभिक्रिया में ऑक्सीजन और दूसरी अभिक्रिया में कॉपर ऑक्साइड"
       ]
     },
     "correctIndex": 0,
@@ -493,8 +493,8 @@
         "Oxygen and carbon"
       ],
       "hi": [
-        "नाइट्रोजन और ऑक्सीजन",
         "नाइट्रोजन और कार्बन",
+        "नाइट्रोजन और ऑक्सीजन",
         "हाइड्रोजन और ऑक्सीजन",
         "ऑक्सीजन और कार्बन"
       ]
@@ -527,9 +527,9 @@
         "Aluminium"
       ],
       "hi": [
+        "रबड़",
         "शीशा",
         "टंगस्टन",
-        "रबड़",
         "एल्यूमीनियम"
       ]
     },
@@ -561,8 +561,8 @@
         "Sclerenchyma"
       ],
       "hi": [
-        "शीर्षस्थ विभज्योतक (Apical meristem)",
         "अंतर्वेशी विभज्योतक (Intercalary meristem)",
+        "शीर्षस्थ विभज्योतक (Apical meristem)",
         "पार्श्व विभज्योतक (Lateral meristem)",
         "दृढ़ोतक (Sclerenchyma)"
       ]
@@ -596,9 +596,9 @@
       ],
       "hi": [
         "यह संचित हो जाता है जिसके परिणामस्वरूप प्रदूषण होता है",
-        "यह प्रकृ ति में आसानी से विघटित हो जाता है",
+        "यह मृदा उर्वरता में सुधार करता है",
         "यह जीवों द्वारा शीघ्र पुनर्चक्रित हो जाता है",
-        "यह मृदा उर्वरता में सुधार करता है"
+        "यह प्रकृ ति में आसानी से विघटित हो जाता है"
       ]
     },
     "correctIndex": 0,
@@ -630,9 +630,9 @@
       ],
       "hi": [
         "जल - वायु सीमा पर प्रकाश का अपवर्तन",
-        "जल में प्रकाश का आंतरिक परावर्तन",
+        "जल अणुओं द्वारा प्रकाश का प्रकीर्णन",
         "पूल फर्श से प्रकाश का परावर्तन",
-        "जल अणुओं द्वारा प्रकाश का प्रकीर्णन"
+        "जल में प्रकाश का आंतरिक परावर्तन"
       ]
     },
     "correctIndex": 0,
@@ -697,9 +697,9 @@
         "Scrotum"
       ],
       "hi": [
-        "शिश्न",
-        "डिंबवाहिनी नली",
         "शुक्रवाहिका",
+        "डिंबवाहिनी नली",
+        "शिश्न",
         "वृषणकोश"
       ]
     },
@@ -765,8 +765,8 @@
         "Increasing egg production"
       ],
       "hi": [
-        "घोंसला बनाने की क्षमता बढ़ाना",
         "छद्मावरण में सुधार",
+        "घोंसला बनाने की क्षमता बढ़ाना",
         "विरल वायु में निरंतर उड़ान को सुगम बनाना",
         "अंडे के उत्पादन में वृद्धि"
       ]
@@ -794,15 +794,15 @@
     "options": {
       "en": [
         "The total applied force, including both horizontal and vertical components, multiplied by the distance moved",
-        "Only the vertical component of the applied force, multiplied by the distance moved vertically Only the horizontal component of the applied",
-        "force, multiplied by the distance moved in the same direction, gives the work done",
+        "Only the vertical component of the applied force, multiplied by the distance moved vertically",
+        "Only the horizontal component of the applied force, multiplied by the distance moved in the same direction, gives the work done",
         "The sum of the horizontal and vertical components of the force, multiplied by the total distance traveled"
       ],
       "hi": [
-        "स्थानांतरित की गई दूरी से गुणा किया जाता है।",
-        "बल के क्षैतिज और ऊर्ध्वाधर घटकों का योग , तय की गई कु ल दूरी से गुणा किया जाता है। अनुप्रयुक्त बल के केवल क्षैतिज घटक को उसी दिशा में",
-        "स्थानांतरित दूरी से गुणा करने पर किया गया कार्य प्राप्त होता है।",
-        "अनुप्रयुक्त बल , जिसमें क्षैतिज और ऊर्ध्वाधर दोनों घटक शामिल हैं , को स्थानांतरित दूरी से गुणा किया जाता है।"
+        "अनुप्रयुक्त बल, जिसमें क्षैतिज और ऊर्ध्वाधर दोनों घटक शामिल हैं, को स्थानांतरित दूरी से गुणा किया जाता है।",
+        "अनुप्रयुक्त बल के केवल ऊर्ध्वाधर घटक को ऊर्ध्वाधर दिशा में स्थानांतरित की गई दूरी से गुणा किया जाता है।",
+        "अनुप्रयुक्त बल के केवल क्षैतिज घटक को उसी दिशा में स्थानांतरित दूरी से गुणा करने पर किया गया कार्य प्राप्त होता है।",
+        "बल के क्षैतिज और ऊर्ध्वाधर घटकों का योग, तय की गई कुल दूरी से गुणा किया जाता है।"
       ]
     },
     "correctIndex": 2,
@@ -811,8 +811,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • Work, Energy & Power",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (force, multiplied by the distance moved in the same direction, gives the work done) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (स्थानांतरित दूरी से गुणा करने पर किया गया कार्य प्राप्त होता है।) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Only the horizontal component of the applied force, multiplied by the distance moved in the same direction, gives the work done) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (अनुप्रयुक्त बल के केवल क्षैतिज घटक को उसी दिशा में स्थानांतरित दूरी से गुणा करने पर किया गया कार्य प्राप्त होता है।) सही उत्तर है।"
     }
   },
   {
@@ -833,10 +833,10 @@
         "hg/m"
       ],
       "hi": [
-        "hg/m",
+        "mg/h",
         "mh/g",
-        "mgh Mathematics",
-        "mg/h"
+        "mgh",
+        "hg/m"
       ]
     },
     "correctIndex": 2,
@@ -846,7 +846,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • Work, Energy & Power",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (mgh) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (mgh Mathematics) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (mgh) सही उत्तर है।"
     }
   },
   {
@@ -867,9 +867,9 @@
         "88 cm"
       ],
       "hi": [
-        "80 cm",
-        "81 cm",
         "85 cm",
+        "81 cm",
+        "80 cm",
         "88 cm"
       ]
     },
@@ -902,8 +902,8 @@
       ],
       "hi": [
         "29.6% वृद्धि",
-        "26.9% वृद्धि",
         "29.6% कमी",
+        "26.9% वृद्धि",
         "26.9% कमी"
       ]
     },
@@ -1037,9 +1037,9 @@
         "₹410"
       ],
       "hi": [
-        "₹375",
-        "₹400",
         "₹440",
+        "₹400",
+        "₹375",
         "₹410"
       ]
     },
@@ -1139,10 +1139,10 @@
         "2"
       ],
       "hi": [
-        "2",
         "4",
+        "3",
         "1",
-        "3"
+        "2"
       ]
     },
     "correctIndex": 2,
@@ -1173,9 +1173,9 @@
         "decrease by ₹2,657"
       ],
       "hi": [
-        "₹10,284 की वृद्धि होगी",
-        "₹2,567 की वृद्धि होगी",
         "₹10,285 की कमी होगी",
+        "₹2,567 की वृद्धि होगी",
+        "₹10,284 की वृद्धि होगी",
         "₹2,657 की कमी होगी"
       ]
     },
@@ -1242,8 +1242,8 @@
       ],
       "hi": [
         "8",
-        "12",
         "6",
+        "12",
         "10"
       ]
     },
@@ -1275,9 +1275,9 @@
         "13 km/h"
       ],
       "hi": [
-        "12 km/h",
         "11 km/h",
         "14 km/h",
+        "12 km/h",
         "13 km/h"
       ]
     },
@@ -1309,8 +1309,8 @@
         "₹68,000"
       ],
       "hi": [
-        "₹67,000",
         "₹65,000",
+        "₹67,000",
         "₹66,000",
         "₹68,000"
       ]
@@ -1343,10 +1343,10 @@
         "100 m"
       ],
       "hi": [
-        "80 m",
+        "60 m",
         "120 m",
-        "100 m",
-        "60 m"
+        "80 m",
+        "100 m"
       ]
     },
     "correctIndex": 1,
@@ -1377,10 +1377,10 @@
         "6"
       ],
       "hi": [
-        "6",
+        "4",
         "3",
         "8",
-        "4"
+        "6"
       ]
     },
     "correctIndex": 3,
@@ -1390,7 +1390,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Weighted Average",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (6) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (4) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (6) सही उत्तर है।"
     }
   },
   {
@@ -1401,7 +1401,7 @@
     "topic": "(a+b)^2, (a-b)^2 • RRB Group D Level-1 (03 Aug 2026 Shift 3)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "निम्नलिखित व्यंजक को सरलीकृ त कीजिए।"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1421,10 +1421,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • (a+b)^2, (a-b)^2",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1455,10 +1455,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Building/Tower Problems",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1489,10 +1489,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • False Weight",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1520,13 +1520,13 @@
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Grouped Data Median",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (16.875) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (16.875) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (8.2) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (8.2) सही उत्तर है।"
     }
   },
   {
@@ -1557,10 +1557,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Laws of Indices",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1593,8 +1593,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Mean Proportional",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1627,8 +1627,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • SSS, SAS, ASA, AAS, RHS",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1651,8 +1651,8 @@
       "hi": [
         "₹5,400",
         "₹4,500",
-        "₹1,800",
-        "₹1,500"
+        "₹1,500",
+        "₹1,800"
       ]
     },
     "correctIndex": 1,
@@ -1680,12 +1680,12 @@
         "1,80,000",
         "2,70,000",
         "2,40,000",
-        "2,10,000 General Intelligence & Reasoning"
+        "2,10,000"
       ],
       "hi": [
         "1,80,000",
-        "2,40,000 General Intelligence & Reasoning",
         "2,70,000",
+        "2,40,000",
         "2,10,000"
       ]
     },
@@ -1695,7 +1695,7 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Year-on-Year Comparison",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (2,10,000 General Intelligence & Reasoning) is the verified correct answer.",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (2,10,000) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (2,10,000) सही उत्तर है।"
     }
   },
@@ -1717,10 +1717,10 @@
         "Five"
       ],
       "hi": [
-        "तीन",
+        "दो",
         "चार",
-        "पांच",
-        "दो"
+        "तीन",
+        "पांच"
       ]
     },
     "correctIndex": 1,
@@ -1751,10 +1751,10 @@
         "Four"
       ],
       "hi": [
-        "चार",
-        "तीन",
         "एक",
-        "दो"
+        "तीन",
+        "दो",
+        "चार"
       ]
     },
     "correctIndex": 1,
@@ -1787,8 +1787,8 @@
       "hi": [
         "दो",
         "तीन",
-        "एक",
-        "चार"
+        "चार",
+        "एक"
       ]
     },
     "correctIndex": 1,
@@ -1855,8 +1855,8 @@
       "hi": [
         "तीन",
         "चार",
-        "दो",
-        "एक"
+        "एक",
+        "दो"
       ]
     },
     "correctIndex": 0,
@@ -1888,9 +1888,9 @@
       ],
       "hi": [
         "चार",
+        "एक",
         "तीन",
-        "दो",
-        "एक"
+        "दो"
       ]
     },
     "correctIndex": 0,
@@ -1921,9 +1921,9 @@
         "4"
       ],
       "hi": [
-        "3",
-        "2",
         "1",
+        "2",
+        "3",
         "4"
       ]
     },
@@ -1955,8 +1955,8 @@
         "Two"
       ],
       "hi": [
-        "एक",
         "एक भी नहीं",
+        "एक",
         "तीन",
         "दो"
       ]
@@ -1989,10 +1989,10 @@
         "5"
       ],
       "hi": [
-        "6",
+        "8",
         "7",
-        "5",
-        "8"
+        "6",
+        "5"
       ]
     },
     "correctIndex": 1,
@@ -2023,9 +2023,9 @@
         "One"
       ],
       "hi": [
+        "दो",
         "एक भी नहीं",
         "तीन",
-        "दो",
         "एक"
       ]
     },
@@ -2058,9 +2058,9 @@
       ],
       "hi": [
         "एक भी नहीं",
+        "तीन",
         "दो",
-        "एक",
-        "तीन"
+        "एक"
       ]
     },
     "correctIndex": 0,
@@ -2091,9 +2091,9 @@
         "Father's sister"
       ],
       "hi": [
-        "पत्नी",
-        "पुत्री",
         "पिता की माता",
+        "पुत्री",
+        "पत्नी",
         "पिता की बहन"
       ]
     },
@@ -2125,10 +2125,10 @@
         "22"
       ],
       "hi": [
-        "22",
         "17",
+        "20",
         "24",
-        "20"
+        "22"
       ]
     },
     "correctIndex": 2,
@@ -2159,10 +2159,10 @@
         "2"
       ],
       "hi": [
-        "3",
+        "4",
         "1",
-        "2",
-        "4"
+        "3",
+        "2"
       ]
     },
     "correctIndex": 1,
@@ -2227,9 +2227,9 @@
         "202"
       ],
       "hi": [
-        "177",
         "196",
         "186",
+        "177",
         "202"
       ]
     },
@@ -2296,8 +2296,8 @@
       ],
       "hi": [
         "4 - 8 - 12 - 24",
-        "16 - 32 - 64 - 70",
         "12 - 15 - 30 - 60",
+        "16 - 32 - 64 - 70",
         "14 - 16 - 32 - 68"
       ]
     },
@@ -2398,8 +2398,8 @@
       ],
       "hi": [
         "YPCR",
-        "ZQDS",
         "YPBQ",
+        "ZQDS",
         "YQCS"
       ]
     },
@@ -2465,10 +2465,10 @@
         "YVT"
       ],
       "hi": [
-        "YVT",
+        "QNL",
         "VSP",
         "AXV",
-        "QNL"
+        "YVT"
       ]
     },
     "correctIndex": 1,
@@ -2499,9 +2499,9 @@
         "AAC"
       ],
       "hi": [
-        "BAD",
-        "WVY",
         "DCF",
+        "WVY",
+        "BAD",
         "AAC"
       ]
     },
@@ -2533,10 +2533,10 @@
         "I"
       ],
       "hi": [
-        "I",
+        "E",
         "F",
         "D",
-        "E"
+        "I"
       ]
     },
     "correctIndex": 1,
@@ -2567,10 +2567,10 @@
         "18 km to the east"
       ],
       "hi": [
-        "18 km, पूर्व की ओर",
+        "19 km, पूर्व की ओर",
         "17 km, पश्चिम की ओर",
         "16 km, पश्चिम की ओर",
-        "19 km, पूर्व की ओर"
+        "18 km, पूर्व की ओर"
       ]
     },
     "correctIndex": 1,
@@ -2602,9 +2602,9 @@
       ],
       "hi": [
         "16 km; दक्षिण की ओर",
-        "9 km; उत्तर की ओर",
         "16 km; पूर्व की ओर",
-        "9 km; पश्चिम की ओर"
+        "9 km; पश्चिम की ओर",
+        "9 km; उत्तर की ओर"
       ]
     },
     "correctIndex": 0,
@@ -2636,9 +2636,9 @@
       ],
       "hi": [
         "बहन की पुत्री",
-        "पत्नी की माता",
+        "भाई की पत्नी",
         "माता",
-        "भाई की पत्नी"
+        "पत्नी की माता"
       ]
     },
     "correctIndex": 0,
@@ -2663,16 +2663,16 @@
     },
     "options": {
       "en": [
-        "Data in Statement I alone is sufficient to answer the question while data in statement II is not",
-        "Both statements I and II together are NOT sufficient to answer the question Both statements I and II together (and not statement I",
-        "alone or statement II alone) are sufficient to answer the question.",
-        "Data in Statement II alone is sufficient to answer the question while data in statement I is not General Awareness"
+        "Data in Statement I alone is sufficient to answer the question while data in Statement II is not.",
+        "Both statements I and II together are NOT sufficient to answer the question.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.",
+        "Data in Statement II alone is sufficient to answer the question while data in Statement I is not."
       ],
       "hi": [
-        "अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है",
-        "नहीं हैं",
-        "कथन I और कथन II दोनों मिलकर ( और न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं",
-        "अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त"
+        "अकेले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
+        "कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "कथन I और कथन II दोनों मिलकर (और न कि अकेले कथन I या अकेले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
+        "अकेले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 0,
@@ -2681,8 +2681,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Data in Statement I alone is sufficient to answer the question while data in statement II is not) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Data in Statement I alone is sufficient to answer the question while data in Statement II is not.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (अकेले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।) सही उत्तर है।"
     }
   },
   {
@@ -2703,10 +2703,10 @@
         "Both statements (I) and (II) together are not sufficient to answer the question."
       ],
       "hi": [
-        "नहीं है।",
-        "कथन (I) और (II) दोनों मिलकर भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं। केवल कथन (I) पर्याप्त है , लेकिन केवल कथन (II) पर्याप्त",
-        "कथन (I) और (II) दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त हैं , लेकिन कोई भी अके ले पर्याप्त नहीं है।",
-        "केवल कथन (II) पर्याप्त है , लेकिन केवल कथन (I) पर्याप्त नहीं है। General Awareness"
+        "केवल कथन (I) पर्याप्त है, लेकिन केवल कथन (II) पर्याप्त नहीं है।",
+        "कथन (I) और (II) दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त हैं, लेकिन कोई भी अकेले पर्याप्त नहीं है।",
+        "केवल कथन (II) पर्याप्त है, लेकिन केवल कथन (I) पर्याप्त नहीं है।",
+        "कथन (I) और (II) दोनों मिलकर भी प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।"
       ]
     },
     "correctIndex": 0,
@@ -2716,7 +2716,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Statement (I) alone is sufficient, but statement (II) alone is not sufficient.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (नहीं है।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (केवल कथन (I) पर्याप्त है, लेकिन केवल कथन (II) पर्याप्त नहीं है।) सही उत्तर है।"
     }
   },
   {
@@ -2737,8 +2737,8 @@
         "Bhimsen Joshi"
       ],
       "hi": [
-        "रवि शंकर",
         "जाकिर हुसैन",
+        "रवि शंकर",
         "एन . राजम",
         "भीमसेन जोशी"
       ]
@@ -2773,8 +2773,8 @@
       "hi": [
         "अनुग्रह नारायण दास",
         "विश्वजीत सहाय",
-        "संजय जमुआर",
-        "दिलीप कु मार"
+        "दिलीप कु मार",
+        "संजय जमुआर"
       ]
     },
     "correctIndex": 0,
@@ -2805,8 +2805,8 @@
         "Kochi"
       ],
       "hi": [
-        "मुंबई",
         "पणजी",
+        "मुंबई",
         "चेन्नई",
         "कोच्चि"
       ]
@@ -2839,10 +2839,10 @@
         "Three streams"
       ],
       "hi": [
-        "पाँच धाराएं",
+        "दो धाराएं",
         "चार धाराएं",
-        "तीन धाराएं",
-        "दो धाराएं"
+        "पाँच धाराएं",
+        "तीन धाराएं"
       ]
     },
     "correctIndex": 1,
@@ -2873,9 +2873,9 @@
         "Afghanistan"
       ],
       "hi": [
-        "यमन",
-        "सीरिया",
         "सोमालिया",
+        "सीरिया",
+        "यमन",
         "अफगानिस्तान"
       ]
     },
@@ -2907,10 +2907,10 @@
         "UEFA Champions League"
       ],
       "hi": [
-        "UEFA चैंपियंस लीग",
+        "डेविस कप इंटरनेशनल कॉम्पिटिशन",
         "ATP फाइनल्स चैम्पियनशिप इवेंट",
         "ग्रैं ड स्लैम टेनिस टूर्नामेंट",
-        "डेविस कप इंटरनेशनल कॉम्पिटिशन"
+        "UEFA चैंपियंस लीग"
       ]
     },
     "correctIndex": 2,
@@ -2941,10 +2941,10 @@
         "Sudanese Journalists Syndicate"
       ],
       "hi": [
-        "Federation of Journalists)",
-        "कमिटी टू प्रोटेक्ट जर्नलिस्ट्स (Committee to Protect Journalists)",
         "रिपोर्टर्स विदाउट बॉर्डर्स (Reporters Without Borders)",
-        "सूडानी जर्नलिस्ट्स सिंडिके ट (Sudanese Journalists Syndicate)"
+        "कमिटी टू प्रोटेक्ट जर्नलिस्ट्स (Committee to Protect Journalists)",
+        "इंटरनेशनल फेडरेशन ऑफ जर्नलिस्ट्स (International Federation of Journalists)",
+        "सूडानी जर्नलिस्ट्स सिंडिकेट (Sudanese Journalists Syndicate)"
       ]
     },
     "correctIndex": 3,
@@ -2954,7 +2954,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs • International Awards",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Sudanese Journalists Syndicate) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (सूडानी जर्नलिस्ट्स सिंडिके ट (Sudanese Journalists Syndicate)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (सूडानी जर्नलिस्ट्स सिंडिकेट (Sudanese Journalists Syndicate)) सही उत्तर है।"
     }
   },
   {
@@ -2975,9 +2975,9 @@
         "₹20,000 crore"
       ],
       "hi": [
-        "₹5,000 करोड़",
-        "₹15,000 करोड़",
         "₹10,000 करोड़",
+        "₹15,000 करोड़",
+        "₹5,000 करोड़",
         "₹20,000 करोड़"
       ]
     },
@@ -3010,9 +3010,9 @@
       ],
       "hi": [
         "कु ल बजट का 9.37%",
-        "कु ल बजट का 6.80%",
+        "कु ल बजट का 8.86%",
         "कु ल बजट का 11.36%",
-        "कु ल बजट का 8.86%"
+        "कु ल बजट का 6.80%"
       ]
     },
     "correctIndex": 0,
@@ -3043,8 +3043,8 @@
         "Mental Health and Neurosciences Infrastructure"
       ],
       "hi": [
-        "नवीकरणीय ऊर्जा विकास",
         "उच्चतर शिक्षा नीति सुधार",
+        "नवीकरणीय ऊर्जा विकास",
         "कृ षि विकास",
         "मानसिक स्वास्थ्य और तंत्रिकाविज्ञान अवसंरचना"
       ]
@@ -3078,8 +3078,8 @@
       ],
       "hi": [
         "रक्षा अनुसंधान एवं विकास संगठन और भारतीय नौसेना",
-        "राष्ट्रीय अन्वेषण प्राधिकरण और केंद्रीय रिजर्व पुलिस बल",
         "भारतीय थलसेना और भारतीय वायु सेना",
+        "राष्ट्रीय अन्वेषण प्राधिकरण और केंद्रीय रिजर्व पुलिस बल",
         "सशस्त्र बल विशेष अभियान प्रभाग और भारतीय तटरक्षक बल"
       ]
     },
@@ -3112,9 +3112,9 @@
       ],
       "hi": [
         "भारत इलेक्ट्रॉनिक्स लिमिटेड (BEL)",
-        "भारतीय अंतरिक्ष अनुसंधान संगठन (ISRO)",
+        "भारतीय वायु सेना (IAF)",
         "रक्षा अनुसंधान एवं विकास संगठन (DRDO)",
-        "भारतीय वायु सेना (IAF)"
+        "भारतीय अंतरिक्ष अनुसंधान संगठन (ISRO)"
       ]
     },
     "correctIndex": 2,
@@ -3145,9 +3145,9 @@
         "Mundra Port"
       ],
       "hi": [
+        "विशाखापत्तनम बंदरगाह",
         "कांडला बंदरगाह",
         "पारादीप बंदरगाह",
-        "विशाखापत्तनम बंदरगाह",
         "मुंद्रा बंदरगाह"
       ]
     },
@@ -3179,10 +3179,10 @@
         "Karnataka"
       ],
       "hi": [
-        "कर्नाटक",
-        "तमिलनाडु",
         "के रल",
-        "आंध्र प्रदेश"
+        "तमिलनाडु",
+        "आंध्र प्रदेश",
+        "कर्नाटक"
       ]
     },
     "correctIndex": 1,
@@ -3283,8 +3283,8 @@
       "hi": [
         "नॉर्वे",
         "संयुक्त राज्य अमेरिका",
-        "जापान",
-        "चीन"
+        "चीन",
+        "जापान"
       ]
     },
     "correctIndex": 0,
@@ -3349,10 +3349,10 @@
         "National Weather Forecasting Mission"
       ],
       "hi": [
-        "नेशनल क्लाइमेट एक्शन प्लान (National Climate Action Plan) नेशनल वेदर फोरकास्टिंग मिशन (National Weather",
+        "मिशन मेघदूत (Mission Meghdoot)",
         "मिशन मौसम (Mission Mausam)",
-        "Forecasting Mission)",
-        "मिशन मेघदूत (Mission Meghdoot)"
+        "नेशनल क्लाइमेट एक्शन प्लान (National Climate Action Plan)",
+        "नेशनल वेदर फोरकास्टिंग मिशन (National Weather Forecasting Mission)"
       ]
     },
     "correctIndex": 1,
@@ -3383,8 +3383,8 @@
         "Bharat Mandapam, New Delhi"
       ],
       "hi": [
-        "यशोभूमि , नई दिल्ली",
         "विज्ञान भवन , नई दिल्ली",
+        "यशोभूमि , नई दिल्ली",
         "इंडिया इंटरनेशनल सेंटर , नई दिल्ली",
         "भारत मंडपम , नई दिल्ली"
       ]

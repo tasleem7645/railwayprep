@@ -17,9 +17,9 @@
         "hydrogen"
       ],
       "hi": [
+        "हीलियम",
         "आर्गन",
         "निऑन",
-        "हीलियम",
         "हाइड्रोजन"
       ]
     },
@@ -51,8 +51,8 @@
         "Sum of atomic masses of all atoms in a formula unit"
       ],
       "hi": [
-        "धातु और अधातु परमाणुओं के परमाणु द्रव्यमानों का अनुपात",
         "किसी अणु में सभी परमाणुओं के परमाणु क्रमांकों का गुणनफल",
+        "धातु और अधातु परमाणुओं के परमाणु द्रव्यमानों का अनुपात",
         "आण्विक और परमाणु द्रव्यमान के बीच का अंतर",
         "किसी सूत्र एकांक में सभी परमाणुओं के परमाणु द्रव्यमानों का योगफल"
       ]
@@ -109,7 +109,7 @@
     "topic": "Cell Biology • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "Cell culture refers to the process of growing cells __________.",
-      "hi": "कोशिका संवर्धन का अभिप्राय __________ कोशिकाओं के वर्धन की प्रक्रिया से है। 2:15 PM · Hindi"
+      "hi": "कोशिका संवर्धन का अभिप्राय __________ कोशिकाओं के वर्धन की प्रक्रिया से है।"
     },
     "options": {
       "en": [
@@ -120,9 +120,9 @@
       ],
       "hi": [
         "काय के बाहर",
+        "बिना पोषक तत् वों के",
         "केवल मृदा में",
-        "काय के अंदर",
-        "बिना पोषक तत् वों के"
+        "काय के अंदर"
       ]
     },
     "correctIndex": 0,
@@ -142,7 +142,7 @@
     "subject": "General Science",
     "topic": "Chemistry • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
-      "en": "Which branch of chemistry is most concerned with reactions taking place within living cells? 2:15 PM · English",
+      "en": "Which branch of chemistry is most concerned with reactions taking place within living cells?",
       "hi": "रसायन विज्ञान की कौन - सी शाखा , सजीव कोशिकाओं के भीतर होने वाली अभिक्रियाओं से सबसे अधिक संबंधित है ?"
     },
     "options": {
@@ -187,10 +187,10 @@
         "Plasma"
       ],
       "hi": [
-        "मायोग्लोबिन",
+        "क्लोरोफिल",
         "हीमोग्लोबिन",
-        "प्लाज्मा",
-        "क्लोरोफिल"
+        "मायोग्लोबिन",
+        "प्लाज्मा"
       ]
     },
     "correctIndex": 1,
@@ -222,8 +222,8 @@
       ],
       "hi": [
         "फु फ्फु सी शिरा",
-        "महाधमनी",
         "फु फ्फु सी धमनी",
+        "महाधमनी",
         "महाशिरा"
       ]
     },
@@ -255,10 +255,10 @@
         "Autotrophic mode of nutrition"
       ],
       "hi": [
-        "पोषण की स्वपोषीय विधा",
         "काइटिन से बनी कोशिका भित्ति",
+        "बहुकोशिकीय संगठन",
         "झिल्ली - परिबद्ध केंद्रक की उपस्थिति",
-        "बहुकोशिकीय संगठन"
+        "पोषण की स्वपोषीय विधा"
       ]
     },
     "correctIndex": 2,
@@ -357,10 +357,10 @@
         "There is no current in the solenoid"
       ],
       "hi": [
-        "परिनालिका में कोई धारा नहीं होती है",
+        "विद्युतरोधन ध्रुवों को उत्पन्न करता है",
         "परिनालिका प्राकृ तिक रूप से चुंबकीय होती है",
         "क्योंकि धारा एक छड़ चुंबक के समान चुंबकीय प्रभाव उत्पन्न करती है",
-        "विद्युतरोधन ध्रुवों को उत्पन्न करता है"
+        "परिनालिका में कोई धारा नहीं होती है"
       ]
     },
     "correctIndex": 2,
@@ -391,10 +391,10 @@
         "The magnetic field strength decreases as the distance from the conductor increases"
       ],
       "hi": [
-        "चालक में विद्युत धारा दूरी के साथ घटती जाती है",
-        "पृथ्वी का चुंबकीय क्षेत्र दूरी के साथ प्रबल होता जाता है",
         "तार की आकृति केवल निकट दूरियों पर ही क्षेत्र सामर्थ्य को प्रभावित करती है",
-        "चालक से दूरी बढ़ने पर चुंबकीय क्षेत्र सामर्थ्य कम हो जाता है"
+        "चालक से दूरी बढ़ने पर चुंबकीय क्षेत्र सामर्थ्य कम हो जाता है",
+        "चालक में विद्युत धारा दूरी के साथ घटती जाती है",
+        "पृथ्वी का चुंबकीय क्षेत्र दूरी के साथ प्रबल होता जाता है"
       ]
     },
     "correctIndex": 3,
@@ -404,7 +404,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Magnetic Effects of Current",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (The magnetic field strength decreases as the distance from the conductor increases) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (चालक से दूरी बढ़ने पर चुंबकीय क्षेत्र सामर्थ्य कम हो जाता है) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (पृथ्वी का चुंबकीय क्षेत्र दूरी के साथ प्रबल होता जाता है) सही उत्तर है।"
     }
   },
   {
@@ -425,8 +425,8 @@
         "Displacement"
       ],
       "hi": [
-        "चाल",
         "बल",
+        "चाल",
         "त्वरण",
         "विस्थापन"
       ]
@@ -449,7 +449,7 @@
     "topic": "Mechanics • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "An ideal inclined plane is 20 m long and raises a load through a vertical height of 4 m. Compared to lifting the load straight up, the effort required to move the load up the plane is ________.",
-      "hi": "निम्नलिखित में से कौन - सा कथन एकसमान वृत्तीय गति में वेग की दिशा का सर्वोत्तम वर्णन करता है ?"
+      "hi": "एक आदर्श आनत तल 20 m लंबा है और एक लोड को 4 m की ऊर्ध्वाधर ऊँ चाई ऊपर ले जाने के लिए आवश्यक आयास ________ होता है।"
     },
     "options": {
       "en": [
@@ -459,10 +459,10 @@
         "One-half of the load"
       ],
       "hi": [
-        "यह सदैव वृत्त के किसी भी बिंदु पर स्पर्शरेखा होता है",
-        "यह सदैव वृत्त के तल के लंबवत होता है",
-        "यह सदैव केंद्र से दूर , त्रिज्या के अनुदिश होता है",
-        "यह सदैव केंद्र की ओर निर्देशित होता है"
+        "लोड का वां भाग",
+        "लोड के बराबर",
+        "लोड का एक - चौथाई",
+        "लोड का आधा"
       ]
     },
     "correctIndex": 0,
@@ -472,7 +472,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Science • Mechanics",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (One-fifth of the load) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (यह सदैव वृत्त के किसी भी बिंदु पर स्पर्शरेखा होता है) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (लोड का वां भाग) सही उत्तर है।"
     }
   },
   {
@@ -483,7 +483,7 @@
     "topic": "Mechanics • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "Which statement best describes the direction of velocity in uniform circular motion?",
-      "hi": "एनोडीकरण एक विद्युत् - अपघटनी प्रक्रम के माध्यम से निम्नलिखित में से किस धातु की मोटी ऑक्साइड परत बनाने की प्रक्रिया है ?"
+      "hi": "निम्नलिखित में से कौन - सा कथन एकसमान वृत्तीय गति में वेग की दिशा का सर्वोत्तम वर्णन करता है ?"
     },
     "options": {
       "en": [
@@ -493,10 +493,10 @@
         "It is always perpendicular to the plane of the circle"
       ],
       "hi": [
-        "एल्यूमीनियम",
-        "जस्ता",
-        "तांबा",
-        "लोहा"
+        "यह सदैव वृत्त के किसी भी बिंदु पर स्पर्शरेखा होता है",
+        "यह सदैव केंद्र की ओर निर्देशित होता है",
+        "यह सदैव केंद्र से दूर , त्रिज्या के अनुदिश होता है",
+        "यह सदैव वृत्त के तल के लंबवत होता है"
       ]
     },
     "correctIndex": 0,
@@ -506,7 +506,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Science • Mechanics",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (It is always tangent to the circle at any point) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (एल्यूमीनियम) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (यह सदैव वृत्त के किसी भी बिंदु पर स्पर्शरेखा होता है) सही उत्तर है।"
     }
   },
   {
@@ -517,7 +517,7 @@
     "topic": "Metals & Non-Metals • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "Anodizing is a process of forming a thick oxide layer of which of the following metals through an electrolytic process?",
-      "hi": "एक छात्र दर्पण का उपयोग करते समय एक ऐसे प्रतिबिंब को देखता है , जो उल्टा और वस्तु (object) से छोटा होता है। किस प्रकार का आवर्धन प्रेक्षित किया जा रहा है ?"
+      "hi": "एनोडीकरण एक विद्युत् - अपघटनी प्रक्रम के माध्यम से निम्नलिखित में से किस धातु की मोटी ऑक्साइड परत बनाने की प्रक्रिया है ?"
     },
     "options": {
       "en": [
@@ -527,10 +527,10 @@
         "copper"
       ],
       "hi": [
-        "आवर्धक एक से अधिक और ऋणात्मक है",
-        "आवर्धन एक से कम और ऋणात्मक है",
-        "आवर्धन एक के बराबर और धनात्मक है",
-        "अवर्धन एक से अधिक और धनात्मक है"
+        "लोहा",
+        "एल्यूमीनियम",
+        "जस्ता",
+        "तांबा"
       ]
     },
     "correctIndex": 1,
@@ -540,7 +540,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • Metals & Non-Metals",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (aluminium) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (आवर्धन एक से कम और ऋणात्मक है) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (एल्यूमीनियम) सही उत्तर है।"
     }
   },
   {
@@ -551,7 +551,7 @@
     "topic": "Mirrors & Lenses • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "A student observes an image that is inverted and smaller than the object when using a mirror. What type of magnification is being observed?",
-      "hi": "निम्नलिखित में से कौन - सा कथन , निलंबन (suspensions) के संदर्भ में सत्य है ?"
+      "hi": "एक छात्र दर्पण का उपयोग करते समय एक ऐसे प्रतिबिंब को देखता है , जो उल्टा और वस्तु (object) से छोटा होता है। किस प्रकार का आवर्धन प्रेक्षित किया जा रहा है ?"
     },
     "options": {
       "en": [
@@ -561,10 +561,10 @@
         "The magnification is greater than one and positive"
       ],
       "hi": [
-        "ये पारदर्शी होते हैं।",
-        "विलेय के कण स्थिर रहने पर नीचे बैठ जाते हैं।",
-        "ये प्रकाश का प्रकीर्णन नहीं करते हैं।",
-        "विलेय पूर्णतया घुल जाता है।"
+        "आवर्धन एक के बराबर और धनात्मक है",
+        "आवर्धन एक से कम और ऋणात्मक है",
+        "आवर्धक एक से अधिक और ऋणात्मक है",
+        "अवर्धन एक से अधिक और धनात्मक है"
       ]
     },
     "correctIndex": 1,
@@ -574,7 +574,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • Mirrors & Lenses",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (The magnification is less than one and negative) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (विलेय के कण स्थिर रहने पर नीचे बैठ जाते हैं।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (आवर्धन एक से कम और ऋणात्मक है) सही उत्तर है।"
     }
   },
   {
@@ -585,7 +585,7 @@
     "topic": "Mixtures, Solutions, Colloids • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "Which of the following is true about suspensions?",
-      "hi": "मानव शरीर में मुख्य रूप से प्रतिवर्त चाप (reflex arcs) कहाँ बनते हैं ?"
+      "hi": "निम्नलिखित में से कौन - सा कथन , निलंबन (suspensions) के संदर्भ में सत्य है ?"
     },
     "options": {
       "en": [
@@ -595,10 +595,10 @@
         "The solute dissolves completely"
       ],
       "hi": [
-        "हृदय",
-        "मेरुरज्जु",
-        "मस्तिष्क",
-        "फे फड़े"
+        "ये पारदर्शी होते हैं।",
+        "विलेय के कण स्थिर रहने पर नीचे बैठ जाते हैं।",
+        "ये प्रकाश का प्रकीर्णन नहीं करते हैं।",
+        "विलेय पूर्णतया घुल जाता है।"
       ]
     },
     "correctIndex": 1,
@@ -608,7 +608,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • Mixtures, Solutions, Colloids",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (The solute particles settle down on standing) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (मेरुरज्जु) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (विलेय के कण स्थिर रहने पर नीचे बैठ जाते हैं।) सही उत्तर है।"
     }
   },
   {
@@ -619,7 +619,7 @@
     "topic": "Nervous System & Brain • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "Where are reflex arcs primarily formed in the human body?",
-      "hi": "गुरुत्व की अनुक्रिया में पादपों की मूलों की अधोमुखी वृद्धि को निम्नलिखित में से क्या कहा जाता है ?"
+      "hi": "मानव शरीर में मुख्य रूप से प्रतिवर्त चाप (reflex arcs) कहाँ बनते हैं ?"
     },
     "options": {
       "en": [
@@ -629,10 +629,10 @@
         "Spinal cord"
       ],
       "hi": [
-        "रसानुवर्तन",
-        "जलानुवर्तन",
-        "प्रकाशानुवर्तन",
-        "गुरुत्वानुवर्तन"
+        "हृदय",
+        "फे फड़े",
+        "मस्तिष्क",
+        "मेरुरज्जु"
       ]
     },
     "correctIndex": 3,
@@ -642,7 +642,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Nervous System & Brain",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Spinal cord) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (गुरुत्वानुवर्तन) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (मेरुरज्जु) सही उत्तर है।"
     }
   },
   {
@@ -653,7 +653,7 @@
     "topic": "Plant Hormones • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "What is the term for the growth of plant roots downward in response to gravity?",
-      "hi": "एक विद्यार्थी सोडियम हाइड्रोजन कार्बोनेट में हाइड्रोक्लोरिक अम्ल मिलाता है। कौन - सा प्रेक्षण उदासीनीकरण की पुष्टि करता है ?"
+      "hi": "गुरुत्व की अनुक्रिया में पादपों की मूलों की अधोमुखी वृद्धि को निम्नलिखित में से क्या कहा जाता है ?"
     },
     "options": {
       "en": [
@@ -663,10 +663,10 @@
         "Hydrotropism"
       ],
       "hi": [
-        "लाल रंग में बदलना",
-        "बुदबुदाहट होना",
-        "अवक्षेप रूप",
-        "तापमान में गिरावट"
+        "प्रकाशानुवर्तन",
+        "गुरुत्वानुवर्तन",
+        "रसानुवर्तन",
+        "जलानुवर्तन"
       ]
     },
     "correctIndex": 1,
@@ -676,7 +676,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • Plant Hormones",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Geotropism) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (बुदबुदाहट होना) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (गुरुत्वानुवर्तन) सही उत्तर है।"
     }
   },
   {
@@ -687,7 +687,7 @@
     "topic": "Properties & Tests • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "A student adds hydrochloric acid to sodium hydrogen carbonate. Which observation confirms neutralization?",
-      "hi": "सूर्योदय या सूर्यास्त के समय , पृथ्वी से देखने पर सूर्य की डिस्क सपाट (flattened) क्यों दिखाई देती है ?"
+      "hi": "एक विद्यार्थी सोडियम हाइड्रोजन कार्बोनेट में हाइड्रोक्लोरिक अम्ल मिलाता है। कौन - सा प्रेक्षण उदासीनीकरण की पुष्टि करता है ?"
     },
     "options": {
       "en": [
@@ -697,10 +697,10 @@
         "Effervescence"
       ],
       "hi": [
-        "पृथ्वी द्वारा गुरुत्वीय लेंसिंग के कारण",
-        "वायु द्वारा सूर्य के प्रकाश के अवशोषण के कारण",
-        "वायुमंडल में सूर्य के प्रकाश के प्रकीर्णन के कारण",
-        "वायुमंडलीय अपवर्तन के कारण सूर्य की डिस्क पर प्रकाश का असमान रूप से मुड़ना"
+        "लाल रंग में बदलना",
+        "अवक्षेप रूप",
+        "तापमान में गिरावट",
+        "बुदबुदाहट होना"
       ]
     },
     "correctIndex": 3,
@@ -710,7 +710,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Properties & Tests",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Effervescence) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (वायुमंडलीय अपवर्तन के कारण सूर्य की डिस्क पर प्रकाश का असमान रूप से मुड़ना) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (बुदबुदाहट होना) सही उत्तर है।"
     }
   },
   {
@@ -721,20 +721,20 @@
     "topic": "Reflection & Refraction • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "During sunrise or sunset, why does the Sun’s disc appear flattened when observed from Earth?",
-      "hi": "निम्नलिखित में से कौन - सा किए गए कार्य का सही मात्रक नहीं है ?"
+      "hi": "सूर्योदय या सूर्यास्त के समय , पृथ्वी से देखने पर सूर्य की डिस्क सपाट (flattened) क्यों दिखाई देती है ?"
     },
     "options": {
       "en": [
         "Because of absorption of sunlight by air",
         "Due to gravitational lensing by Earth",
         "Due to atmospheric refraction bending light unevenly across the Sun’s disc",
-        "Because of scattering of sunlight in the atmosphere Mathematics"
+        "Because of scattering of sunlight in the atmosphere"
       ],
       "hi": [
-        "न्यूटन - मीटर",
-        "जूल",
-        "पास्कल",
-        "वाट - सेकं ड"
+        "वायु द्वारा सूर्य के प्रकाश के अवशोषण के कारण",
+        "पृथ्वी द्वारा गुरुत्वीय लेंसिंग के कारण",
+        "वायुमंडलीय अपवर्तन के कारण सूर्य की डिस्क पर प्रकाश का असमान रूप से मुड़ना",
+        "वायुमंडल में सूर्य के प्रकाश के प्रकीर्णन के कारण"
       ]
     },
     "correctIndex": 2,
@@ -744,7 +744,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • Reflection & Refraction",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Due to atmospheric refraction bending light unevenly across the Sun’s disc) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (पास्कल) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (वायुमंडलीय अपवर्तन के कारण सूर्य की डिस्क पर प्रकाश का असमान रूप से मुड़ना) सही उत्तर है।"
     }
   },
   {
@@ -755,7 +755,7 @@
     "topic": "SI Units & Dimensions • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "Which of the following is NOT a correct unit of work done?",
-      "hi": "एक औद्योगिक प्रक्रिया में , जब एक हाइड्रोकार्बन का हैलोजनीकरण किया जाता है , तो उत्पा दों का मिश्रण प्राप्त होता है। एकल - प्रतिस्थापी उत्पाद को अलग करने के लिए किस विधि का उपयोग किया जा सकता है ?"
+      "hi": "निम्नलिखित में से कौन - सा किए गए कार्य का सही मात्रक नहीं है ?"
     },
     "options": {
       "en": [
@@ -765,10 +765,10 @@
         "joule"
       ],
       "hi": [
-        "दहन",
-        "आसवन",
-        "निस्यंदन",
-        "अवक्षेपण"
+        "न्यूटन - मीटर",
+        "पास्कल",
+        "वाट - सेकं ड",
+        "जूल"
       ]
     },
     "correctIndex": 1,
@@ -778,7 +778,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • SI Units & Dimensions",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (pascal) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (आसवन) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (पास्कल) सही उत्तर है।"
     }
   },
   {
@@ -789,7 +789,7 @@
     "topic": "Separation Techniques • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "In an industrial process, a mixture of products is obtained when a hydrocarbon undergoes halogenation. Which method can be used to separate the monosubstituted product?",
-      "hi": "15 Hz की आवृत्ति वाली ध्वनि तरंग को किस रूप में वर्गीकृ त किया जाएगा ? Mathematics"
+      "hi": "एक औद्योगिक प्रक्रिया में , जब एक हाइड्रोकार्बन का हैलोजनीकरण किया जाता है , तो उत्पा दों का मिश्रण प्राप्त होता है। एकल - प्रतिस्थापी उत्पाद को अलग करने के लिए किस विधि का उपयोग किया जा सकता है ?"
     },
     "options": {
       "en": [
@@ -799,10 +799,10 @@
         "Precipitation"
       ],
       "hi": [
-        "अतिध्वनिक ध्वनि (Hypersonic sound)",
-        "अवश्रव्य ध्वनि (Infrasonic sound)",
-        "पराश्रव्य ध्वनि (Ultrasonic sound) के माध्यम से उठाता है। लोड को सीधे ऊपर उठाने की तुलना में , लोड को तल पर",
-        "श्रव्य ध्वनि (Audible sound)"
+        "दहन",
+        "निस्यंदन",
+        "आसवन",
+        "अवक्षेपण"
       ]
     },
     "correctIndex": 2,
@@ -812,7 +812,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • Separation Techniques",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Distillation) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (पराश्रव्य ध्वनि (Ultrasonic sound) के माध्यम से उठाता है। लोड को सीधे ऊपर उठाने की तुलना में , लोड को तल पर) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (आसवन) सही उत्तर है।"
     }
   },
   {
@@ -823,7 +823,7 @@
     "topic": "Wave Properties (Frequency, Wavelength) • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "A sound wave with a frequency of 15 Hz would be best categorized as which type?",
-      "hi": "एक आदर्श आनत तल 20 m लंबा है और एक लोड को 4 m की ऊर्ध्वाधर ऊँ चाई ऊपर ले जाने के लिए आवश्यक आयास ________ होता है।"
+      "hi": "15 Hz की आवृत्ति वाली ध्वनि तरंग को किस रूप में वर्गीकृ त किया जाएगा ? Mathematics"
     },
     "options": {
       "en": [
@@ -833,10 +833,10 @@
         "Infrasonic sound"
       ],
       "hi": [
-        "लोड के बराबर",
-        "लोड का एक - चौथाई",
-        "लोड का आधा",
-        "लोड का वां भाग"
+        "अतिध्वनिक ध्वनि (Hypersonic sound)",
+        "पराश्रव्य ध्वनि (Ultrasonic sound)",
+        "श्रव्य ध्वनि (Audible sound)",
+        "अवश्रव्य ध्वनि (Infrasonic sound)"
       ]
     },
     "correctIndex": 3,
@@ -846,7 +846,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Wave Properties (Frequency, Wavelength)",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Infrasonic sound) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (लोड का वां भाग) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (अवश्रव्य ध्वनि (Infrasonic sound)) सही उत्तर है।"
     }
   },
   {
@@ -867,10 +867,10 @@
         "27 years"
       ],
       "hi": [
-        "27 वर्ष",
+        "36 वर्ष",
         "54 वर्ष",
         "45 वर्ष",
-        "36 वर्ष"
+        "27 वर्ष"
       ]
     },
     "correctIndex": 2,
@@ -901,9 +901,9 @@
         "200"
       ],
       "hi": [
-        "50",
-        "100",
         "75",
+        "100",
+        "50",
         "200"
       ]
     },
@@ -970,9 +970,9 @@
       ],
       "hi": [
         "94",
-        "93",
         "95",
-        "92"
+        "92",
+        "93"
       ]
     },
     "correctIndex": 0,
@@ -1004,9 +1004,9 @@
       ],
       "hi": [
         "9,00,000",
-        "9,80,000",
+        "9,20,000",
         "10,00,000",
-        "9,20,000"
+        "9,80,000"
       ]
     },
     "correctIndex": 2,
@@ -1037,8 +1037,8 @@
         "150"
       ],
       "hi": [
-        "144",
         "152",
+        "144",
         "148",
         "150"
       ]
@@ -1105,10 +1105,10 @@
         "26.25"
       ],
       "hi": [
-        "52.5",
+        "46.25",
         "315",
-        "26.25",
-        "46.25"
+        "52.5",
+        "26.25"
       ]
     },
     "correctIndex": 1,
@@ -1173,9 +1173,9 @@
         "y = x + 13"
       ],
       "hi": [
-        "x = y + 13",
-        "y = x + 10",
         "x = y + 10",
+        "y = x + 10",
+        "x = y + 13",
         "y = x + 13"
       ]
     },
@@ -1208,9 +1208,9 @@
       ],
       "hi": [
         "28.57%",
-        "31.57%",
+        "30.57%",
         "27.57%",
-        "30.57%"
+        "31.57%"
       ]
     },
     "correctIndex": 0,
@@ -1241,8 +1241,8 @@
         "160"
       ],
       "hi": [
-        "131",
         "132",
+        "131",
         "161",
         "160"
       ]
@@ -1275,10 +1275,10 @@
         "6"
       ],
       "hi": [
-        "6",
-        "0",
         "4",
-        "3"
+        "0",
+        "3",
+        "6"
       ]
     },
     "correctIndex": 1,
@@ -1309,8 +1309,8 @@
         "IV"
       ],
       "hi": [
-        "III",
         "I",
+        "III",
         "II",
         "IV"
       ]
@@ -1343,10 +1343,10 @@
         "₹6,800"
       ],
       "hi": [
-        "₹6,800",
+        "₹7,200",
         "₹5,400",
         "₹6,000",
-        "₹7,200"
+        "₹6,800"
       ]
     },
     "correctIndex": 2,
@@ -1413,8 +1413,8 @@
       "hi": [
         "500, 640",
         "560, 480",
-        "520, 520",
-        "600, 440"
+        "600, 440",
+        "520, 520"
       ]
     },
     "correctIndex": 1,
@@ -1447,8 +1447,8 @@
       "hi": [
         "3.5 km/hr",
         "2.5 km/hr",
-        "2 km/hr",
-        "1.5 km/hr"
+        "1.5 km/hr",
+        "2 km/hr"
       ]
     },
     "correctIndex": 0,
@@ -1479,10 +1479,10 @@
         "55"
       ],
       "hi": [
-        "55",
-        "58 वृत्ताकार मैदान के क्षेत्रफल के बराबर है। वृत्ताकार मैदान की परिधि (m में ) ज्ञात 30-40 40-50 50-60 25 49 x",
+        "56",
         "57",
-        "56"
+        "58",
+        "55"
       ]
     },
     "correctIndex": 1,
@@ -1492,7 +1492,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Weighted Average",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (57) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (58 वृत्ताकार मैदान के क्षेत्रफल के बराबर है। वृत्ताकार मैदान की परिधि (m में ) ज्ञात 30-40 40-50 50-60 25 49 x) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (57) सही उत्तर है।"
     }
   },
   {
@@ -1513,9 +1513,9 @@
         "220"
       ],
       "hi": [
+        "189",
         "227",
         "222",
-        "189",
         "220"
       ]
     },
@@ -1547,10 +1547,10 @@
         "137"
       ],
       "hi": [
-        "147",
+        "181",
         "156",
-        "137",
-        "181"
+        "147",
+        "137"
       ]
     },
     "correctIndex": 1,
@@ -1593,8 +1593,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A.",
-      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A।"
+      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A (√2 sin θ).",
+      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A (√2 sin θ)।"
     }
   },
   {
@@ -1627,8 +1627,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Quadrilaterals",
-      "en": "Side a = √((d1/2)² + (d2/2)²) = √(12² + 5²) = √169 = 13 cm. Perimeter = 4 * 13 = 52 cm. Correct: Option A.",
-      "hi": "भुजा a = √(144 + 25) = 13 सेमी। परिमाप = 4 × 13 = 52 सेमी। सही उत्तर: विकल्प A।"
+      "en": "Side a = √((d1/2)² + (d2/2)²) = √(12² + 5²) = √169 = 13 cm. Perimeter = 4 * 13 = 52 cm. Correct: Option A (52 cm).",
+      "hi": "भुजा a = √(144 + 25) = 13 सेमी। परिमाप = 4 × 13 = 52 सेमी। सही उत्तर: विकल्प A (52 सेमी)।"
     }
   },
   {
@@ -1639,7 +1639,7 @@
     "topic": "Trigonometric Identities • RRB Group D Level-1 (21 Aug 2026 Shift 44)",
     "question": {
       "en": "Evaluate: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$",
-      "hi": "का मान ज्ञात का मान ज्ञात कीजिए। ✓ है। का माप ज्ञात कीजिए। ✓ कीजिए।"
+      "hi": "मान ज्ञात कीजिए: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A}$"
     },
     "options": {
       "en": [
@@ -1661,8 +1661,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Trigonometric Identities",
-      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D.",
-      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D।"
+      "en": "(1 + tan² A) = sec² A, (1 + cot² A) = csc² A. sec² A / csc² A = (1/cos² A) / (1/sin² A) = sin² A / cos² A = tan² A. Correct: Option D (tan² A).",
+      "hi": "sec² A / csc² A = tan² A। सही उत्तर: विकल्प D (tan² A)।"
     }
   },
   {
@@ -1686,7 +1686,7 @@
         "26.08%",
         "23.36%",
         "24.11%",
-        "25.52% General Intelligence & Reasoning"
+        "25.52%"
       ]
     },
     "correctIndex": 1,
@@ -1717,10 +1717,10 @@
         "LOJ"
       ],
       "hi": [
-        "LOJ",
-        "LPK",
         "LPJ",
-        "LOK"
+        "LPK",
+        "LOK",
+        "LOJ"
       ]
     },
     "correctIndex": 1,
@@ -1751,9 +1751,9 @@
         "Wife's mother"
       ],
       "hi": [
+        "पत्नी",
         "माता",
         "पत्नी की बहन",
-        "पत्नी",
         "पत्नी की माता"
       ]
     },
@@ -1786,9 +1786,9 @@
       ],
       "hi": [
         "दो",
-        "चार",
         "तीन",
-        "एक"
+        "एक",
+        "चार"
       ]
     },
     "correctIndex": 0,
@@ -1820,8 +1820,8 @@
       ],
       "hi": [
         "एक",
-        "चार",
         "दो",
+        "चार",
         "तीन"
       ]
     },
@@ -1853,9 +1853,9 @@
         "QX 5"
       ],
       "hi": [
+        "RW 7",
         "RX 7",
         "QW 5",
-        "RW 7",
         "QX 5"
       ]
     },
@@ -1887,10 +1887,10 @@
         "Three"
       ],
       "hi": [
-        "तीन",
+        "एक",
         "दो",
         "एक भी नहीं",
-        "एक"
+        "तीन"
       ]
     },
     "correctIndex": 1,
@@ -1921,10 +1921,10 @@
         "3"
       ],
       "hi": [
-        "3",
         "1",
+        "4",
         "2",
-        "4"
+        "3"
       ]
     },
     "correctIndex": 2,
@@ -1990,9 +1990,9 @@
       ],
       "hi": [
         "30",
-        "27",
+        "28",
         "31",
-        "28"
+        "27"
       ]
     },
     "correctIndex": 2,
@@ -2025,8 +2025,8 @@
       "hi": [
         "18 - 28 - 56 - 66",
         "9 - 19 - 38 -76",
-        "19 - 38 - 48 - 96",
-        "21 - 42 - 52 - 104"
+        "21 - 42 - 52 - 104",
+        "19 - 38 - 48 - 96"
       ]
     },
     "correctIndex": 1,
@@ -2058,9 +2058,9 @@
       ],
       "hi": [
         "35",
-        "36",
         "56",
-        "42"
+        "42",
+        "36"
       ]
     },
     "correctIndex": 0,
@@ -2091,10 +2091,10 @@
         "12"
       ],
       "hi": [
-        "12",
-        "15",
         "6",
-        "9"
+        "15",
+        "9",
+        "12"
       ]
     },
     "correctIndex": 1,
@@ -2125,10 +2125,10 @@
         "-16"
       ],
       "hi": [
-        "-16",
+        "-12",
         "-13",
         "-14",
-        "-12"
+        "-16"
       ]
     },
     "correctIndex": 2,
@@ -2159,10 +2159,10 @@
         "RRT−YZC"
       ],
       "hi": [
+        "RRT−XYB",
         "RSV−XZB",
-        "RRT−YZC",
         "RSV−YZC",
-        "RRT−XYB"
+        "RRT−YZC"
       ]
     },
     "correctIndex": 2,
@@ -2193,8 +2193,8 @@
         "EARL – LERA – RLEA"
       ],
       "hi": [
-        "NOTE – ENTO – OTEN",
         "DUSK – KDUS – SKDU",
+        "NOTE – ENTO – OTEN",
         "PACE – EPCA – CPAE",
         "EARL – LERA – RLEA"
       ]
@@ -2228,8 +2228,8 @@
       ],
       "hi": [
         "YE - GK",
-        "KQ - SW",
         "CI - KO",
+        "KQ - SW",
         "RA - ZJ"
       ]
     },
@@ -2295,10 +2295,10 @@
         "135"
       ],
       "hi": [
-        "136",
+        "146",
         "145",
-        "135",
-        "146"
+        "136",
+        "135"
       ]
     },
     "correctIndex": 1,
@@ -2330,9 +2330,9 @@
       ],
       "hi": [
         "एक",
-        "एक का भी नहीं",
         "तीन",
-        "दो"
+        "दो",
+        "एक का भी नहीं"
       ]
     },
     "correctIndex": 0,
@@ -2364,9 +2364,9 @@
       ],
       "hi": [
         "एक भी नहीं",
-        "एक",
+        "तीन",
         "दो",
-        "तीन"
+        "एक"
       ]
     },
     "correctIndex": 0,
@@ -2397,10 +2397,10 @@
         "Three"
       ],
       "hi": [
-        "तीन",
+        "एक",
         "चार",
         "दो",
-        "एक"
+        "तीन"
       ]
     },
     "correctIndex": 2,
@@ -2431,10 +2431,10 @@
         "Four"
       ],
       "hi": [
-        "एक",
+        "दो",
         "तीन",
-        "चार",
-        "दो"
+        "एक",
+        "चार"
       ]
     },
     "correctIndex": 1,
@@ -2467,8 +2467,8 @@
       "hi": [
         "पत्नी का भाई",
         "पत्नी का पिता",
-        "पत्नी की बहन",
-        "पत्नी के पिता का भाई"
+        "पत्नी के पिता का भाई",
+        "पत्नी की बहन"
       ]
     },
     "correctIndex": 1,
@@ -2499,10 +2499,10 @@
         "Two"
       ],
       "hi": [
-        "दो",
+        "एक भी नहीं",
         "एक",
         "तीन",
-        "एक भी नहीं"
+        "दो"
       ]
     },
     "correctIndex": 1,
@@ -2534,8 +2534,8 @@
       ],
       "hi": [
         "5",
-        "8",
         "7",
+        "8",
         "6"
       ]
     },
@@ -2567,10 +2567,10 @@
         "1"
       ],
       "hi": [
-        "3",
+        "4",
         "2",
-        "1",
-        "4"
+        "3",
+        "1"
       ]
     },
     "correctIndex": 1,
@@ -2597,14 +2597,14 @@
       "en": [
         "Data in Statement II alone is sufficient to answer the question while data in statement I is not",
         "Data in Statement I alone is sufficient to answer the question while data in statement II is not",
-        "Both statements I and II together are NOT sufficient to answer the question Both statements I and II together (and not",
-        "statement I alone or statement II alone) are sufficient to answer the question."
+        "Both statements I and II together are NOT sufficient to answer the question",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question."
       ],
       "hi": [
+        "कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है।",
         "कथन I में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन II में दिया गया डेटा पर्याप्त नहीं है।",
-        "जबकि कथन I में दिया गया डेटा पर्याप्त नहीं है। कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं",
-        "हैं।",
-        "कथन I और II दोनों एक साथ ( न तो अके ले कथन I और न ही अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं। कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है ,"
+        "कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "कथन I और II दोनों एक साथ ( न तो अके ले कथन I और न ही अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
       ]
     },
     "correctIndex": 3,
@@ -2613,8 +2613,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (statement I alone or statement II alone) are sufficient to answer the question.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (कथन I और II दोनों एक साथ ( न तो अके ले कथन I और न ही अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं। कथन II में दिया गया डेटा अके ले प्रश्न का उत्तर देने के लिए पर्याप्त है ,) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (कथन I और II दोनों एक साथ ( न तो अके ले कथन I और न ही अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।) सही उत्तर है।"
     }
   },
   {
@@ -2631,14 +2631,14 @@
       "en": [
         "Data in statements I and II together are NOT sufficient to answer the question.",
         "Data in statement II alone is sufficient to answer the question while data in statement I is not.",
-        "Data in statement I alone is sufficient to answer the question while data in statement II is not. Both statements I and II together (and not statement I",
-        "alone or statement II alone) are sufficient to answer the question."
+        "Data in statement I alone is sufficient to answer the question while data in statement II is not.",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question."
       ],
       "hi": [
-        "कथन I और कथन II दोनों मिलकर ( और न कि अके ले कथन I या अके ले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं। अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त",
-        "नहीं हैं।",
-        "पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है। कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त",
-        "है , जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।"
+        "कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "अकेले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
+        "अकेले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
+        "कथन I और कथन II दोनों मिलकर (और न कि अकेले कथन I या अकेले कथन II) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
       ]
     },
     "correctIndex": 2,
@@ -2647,8 +2647,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Data in statement I alone is sufficient to answer the question while data in statement II is not. Both statements I and II together (and not statement I) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (पर्याप्त है , जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है। कथन I और कथन II दोनों मिलकर प्रश्न का उत्तर देने के लिए पर्याप्त) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Data in statement I alone is sufficient to answer the question while data in statement II is not.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (अकेले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।) सही उत्तर है।"
     }
   },
   {
@@ -2666,13 +2666,13 @@
         "Only conclusion (II) follows.",
         "Only conclusion (I) follows.",
         "Neither conclusion (I) nor (II) follows.",
-        "Both conclusions (I) and (II) follow. General Awareness"
+        "Both conclusions (I) and (II) follow."
       ],
       "hi": [
         "केवल निष्कर्ष (II) अनुसरण करता है।",
+        "केवल निष्कर्ष (I) अनुसरण करता है।",
         "न तो निष्कर्ष (I) और न ही निष्कर्ष (II) अनुसरण करता है।",
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
-        "केवल निष्कर्ष (I) अनुसरण करता है। General Awareness"
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
       ]
     },
     "correctIndex": 0,
@@ -2738,9 +2738,9 @@
       ],
       "hi": [
         "अशोक कु मार लाहिड़ी",
-        "शशि शेखर वेम्पति",
+        "संजय कु मार",
         "वीर विक्रम यादव",
-        "संजय कु मार"
+        "शशि शेखर वेम्पति"
       ]
     },
     "correctIndex": 0,
@@ -2771,10 +2771,10 @@
         "Kaziranga National Park"
       ],
       "hi": [
-        "काजीरंगा राष्ट्रीय उद्यान",
-        "गिर राष्ट्रीय उद्यान",
         "जिम कॉर्बेट राष्ट्रीय उद्यान",
-        "बांदीपुर राष्ट्रीय उद्यान"
+        "गिर राष्ट्रीय उद्यान",
+        "बांदीपुर राष्ट्रीय उद्यान",
+        "काजीरंगा राष्ट्रीय उद्यान"
       ]
     },
     "correctIndex": 1,
@@ -2874,9 +2874,9 @@
       ],
       "hi": [
         "डेविड लेविथन (David Levithan)",
-        "रेनबो रोवेल (Rainbow Rowell)",
+        "एं जी थॉमस (Angie Thomas)",
         "जॉन ग्रीन (John Green)",
-        "एं जी थॉमस (Angie Thomas)"
+        "रेनबो रोवेल (Rainbow Rowell)"
       ]
     },
     "correctIndex": 2,
@@ -2907,8 +2907,8 @@
         "Andrew O'Hagan"
       ],
       "hi": [
-        "सलमान रुश्दी (Salman Rushdie)",
         "काज़ुओ इशिगुरो (Kazuo Ishiguro)",
+        "सलमान रुश्दी (Salman Rushdie)",
         "डगलस स्टुअर्ट (Douglas Stuart)",
         "एं ड्रयू ओ ' हेगन (Andrew O'Hagan)"
       ]
@@ -2941,10 +2941,10 @@
         "Poshan Abhiyaan"
       ],
       "hi": [
-        "पोषण अभियान",
+        "बेटी बचाओ बेटी पढ़ाओ",
         "नशा मुक्त भारत अभियान",
         "फिट इंडिया मूवमेंट",
-        "बेटी बचाओ बेटी पढ़ाओ"
+        "पोषण अभियान"
       ]
     },
     "correctIndex": 1,
@@ -2975,10 +2975,10 @@
         "Increasing crude oil imports"
       ],
       "hi": [
+        "कृ षि उत्पादन में कमी",
         "कोयला आधारित विद्युत उत्पादन का प्रसार",
-        "कच्चे तेल के आयात में वृद्धि",
         "स्वच्छ और नवीकरणीय ऊर्जा को बढ़ावा",
-        "कृ षि उत्पादन में कमी"
+        "कच्चे तेल के आयात में वृद्धि"
       ]
     },
     "correctIndex": 2,
@@ -3010,8 +3010,8 @@
       ],
       "hi": [
         "टैक्टिकल एडवांस्ड रेंज ऑग्मेंटेशन (TARA) प्रणाली",
-        "टर्मिनल एविएशन रिकोनिसेंस असेंबली (TARA-II) प्रणाली",
         "इंडिजिनस नेवल स्ट्राइक ऑग्मेंटेशन (INSA) प्रणाली",
+        "टर्मिनल एविएशन रिकोनिसेंस असेंबली (TARA-II) प्रणाली",
         "स्ट्रेटेजिक एयर डिफें स रॉके ट एप्लीके शन (SADRA) प्रणाली"
       ]
     },
@@ -3111,8 +3111,8 @@
         "Vijay Goel"
       ],
       "hi": [
-        "शशि थरूर",
         "शिवराज सिंह चौहान",
+        "शशि थरूर",
         "पी . पी . सत्यन",
         "विजय गोयल"
       ]
@@ -3145,8 +3145,8 @@
         "Pankaj Kumar Singh"
       ],
       "hi": [
-        "आशीष सूद",
         "रविंदर इंद्राज सिंह",
+        "आशीष सूद",
         "कपिल मिश्रा",
         "पंकज कु मार सिंह"
       ]
@@ -3179,9 +3179,9 @@
         "Bharatiya Janata Party (BJP)"
       ],
       "hi": [
-        "बहुजन समाज पार्टी (BSP)",
         "आम आदमी पार्टी (AAP)",
         "भारतीय राष्ट्रीय कांग्रेस (INC)",
+        "बहुजन समाज पार्टी (BSP)",
         "भारतीय जनता पार्टी (BJP)"
       ]
     },
@@ -3214,9 +3214,9 @@
       ],
       "hi": [
         "ग्रामीण क्षेत्रों में बुजुर्ग नागरिकों को स्वचालित आभासी परामर्श और टेलीमेडिसिन सेवाएं प्रदान करना",
-        "वास्तविक - समय सूची का प्रबंधन करना",
+        "राष्ट्रव्यापी कोल्ड-चेन लॉजिस्टिक्स और जिलों में शिशु वैक्सीनों की वास्तविक-समय सूची का प्रबंधन करना",
         "संस्थागत प्रसव योजनाओं के अंतर्गत पात्र गर्भवती महिलाओं को प्रत्यक्ष लाभ नकद हस्तांतरण की सुविधा प्रदान करना",
-        "मातृ एवं शिशु स्वास्थ्य सेवाओं की निर्बाध ट्रैकिंग और निगरानी करना राष्ट्रव्यापी कोल्ड - चेन लॉजिस्टिक्स और जिलों में शिशु वैक्सीनों की"
+        "मातृ एवं शिशु स्वास्थ्य सेवाओं की निर्बाध ट्रैकिंग और निगरानी करना"
       ]
     },
     "correctIndex": 3,
@@ -3226,7 +3226,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs • New Apps & Portals",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Seamless tracking and monitoring of maternal and child health services) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (मातृ एवं शिशु स्वास्थ्य सेवाओं की निर्बाध ट्रैकिंग और निगरानी करना राष्ट्रव्यापी कोल्ड - चेन लॉजिस्टिक्स और जिलों में शिशु वैक्सीनों की) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (मातृ एवं शिशु स्वास्थ्य सेवाओं की निर्बाध ट्रैकिंग और निगरानी करना) सही उत्तर है।"
     }
   },
   {
@@ -3248,8 +3248,8 @@
       ],
       "hi": [
         "6.00%",
-        "4.75%",
         "5.00%",
+        "4.75%",
         "5.50%"
       ]
     },
@@ -3283,8 +3283,8 @@
       "hi": [
         "देवेंद्र झाझरिया",
         "भाविककु मार दीन भरवाड़",
-        "निषाद कु मार",
-        "मरियप्पन थंगावेलू"
+        "मरियप्पन थंगावेलू",
+        "निषाद कु मार"
       ]
     },
     "correctIndex": 1,
@@ -3316,8 +3316,8 @@
       ],
       "hi": [
         "बिहार",
-        "ओडिशा",
         "पंजाब",
+        "ओडिशा",
         "झारखंड"
       ]
     },
@@ -3351,8 +3351,8 @@
       "hi": [
         "ज़ायू द जगुआर (Zayu the Jaguar)",
         "क्लच द बाल्ड ईगल (Clutch the Bald Eagle)",
-        "मेपल द मूस (Maple the Moose)",
-        "मिशा द फ्रें डली बेयर (Misha the Friendly Bear)"
+        "मिशा द फ्रें डली बेयर (Misha the Friendly Bear)",
+        "मेपल द मूस (Maple the Moose)"
       ]
     },
     "correctIndex": 1,
@@ -3383,10 +3383,10 @@
         "World Bank"
       ],
       "hi": [
+        "खाद्य और कृ षि संगठन",
         "एशियाई विकास बैंक",
-        "विश्व बैंक",
         "अंतर्राष्ट्रीय कृ षि विकास कोष",
-        "खाद्य और कृ षि संगठन"
+        "विश्व बैंक"
       ]
     },
     "correctIndex": 2,

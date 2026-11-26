@@ -4,6 +4,7 @@ import {
   RefreshCw, BookOpen, ChevronRight, Sparkles, Filter, Check, Zap
 } from 'lucide-react';
 import QuestionContentRenderer, { OptionContentRenderer } from './QuestionContentRenderer';
+import { getQuestionImage } from '../utils/pyqHelper';
 import {
   MISTAKE_SUBJECT_FILTERS,
   normalizeMistakeCategory,
@@ -148,10 +149,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
   const handleInlineReattempt = (q, optIdx) => {
     if (reattemptChoice[q.id] !== undefined) return;
     setReattemptChoice((prev) => ({ ...prev, [q.id]: optIdx }));
-    const correctIdx =
-      lang === 'hi' && q.correctIndexHi !== undefined
-        ? q.correctIndexHi
-        : q.correctIndex ?? 0;
+    const correctIdx = q.correctIndex ?? 0;
     const isCorrect = optIdx === correctIdx;
     setMistakes((prevList) => {
       const updated = prevList.map((item) =>
@@ -307,10 +305,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
                 typeof q.solution === 'object'
                   ? q.solution?.[lang] || q.solution?.hi || q.solution?.en || ''
                   : String(q.solution || '');
-              const correctIdx =
-                lang === 'hi' && q.correctIndexHi !== undefined
-                  ? q.correctIndexHi
-                  : q.correctIndex ?? 0;
+              const correctIdx = q.correctIndex ?? 0;
               const userAttempt = reattemptChoice[q.id];
               const srsInfo = formatMistakeSrsStatus(q);
               const srsBadgeCls =
@@ -348,7 +343,7 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
 
                   <QuestionContentRenderer
                     text={qText}
-                    image={q[`image_${lang}`] || q.image}
+                    image={getQuestionImage(q, lang)}
                     className="text-sm font-semibold text-white leading-relaxed"
                   />
 

@@ -26,10 +26,7 @@ export function classifyQuestionSpeed(question = {}, rawSeconds = 0, userAns) {
   const seconds = Math.max(0, Math.round(Number(rawSeconds || 0)));
   const idealSeconds = getIdealQuestionSeconds(question);
   const isAttempted = userAns !== undefined;
-  const isCorrect =
-    isAttempted &&
-    (userAns === question.correctIndex ||
-      (question.correctIndexHi !== undefined && userAns === question.correctIndexHi));
+  const isCorrect = isAttempted && userAns === question.correctIndex;
 
   if (!isAttempted) {
     const isSunkCost = seconds >= 45;

@@ -12,6 +12,7 @@ import {
   HOT_PYQ_KEYWORDS,
   getPyqOptions,
   getPyqCorrectIndex,
+  getQuestionImage,
   buildCustomTopicQuiz,
 } from '../utils/pyqHelper';
 import { renderPrintableShiftWindow } from '../utils/shiftPdfGenerator';
@@ -884,7 +885,7 @@ export default function PYQExplorerView({
                 {/* Question Body */}
                 <QuestionContentRenderer
                   text={q.question?.[lang] || q.question?.en || q.question?.hi}
-                  image={q[`image_${lang}`] || q.image}
+                  image={getQuestionImage(q, lang)}
                   className="text-sm sm:text-base font-medium text-slate-100 leading-relaxed"
                 />
 

@@ -17,9 +17,9 @@
         "Linear phase variation throughout the operating frequency range"
       ],
       "hi": [
-        "प्रचालन की ऊपरी आवृत्ति सीमा के निकट क्रमिक क्षीणन",
-        "आवश्यक आवृत्ति परास में लगभग एकसमान आयाम अनुक्रिया",
         "संकीर्ण प्रचालन बैंडविड् थ पर उच्च आउटपुट सुग्राहिता",
+        "आवश्यक आवृत्ति परास में लगभग एकसमान आयाम अनुक्रिया",
+        "प्रचालन की ऊपरी आवृत्ति सीमा के निकट क्रमिक क्षीणन",
         "संपूर्ण प्रचालन आवृत्ति परास में रैखिक फेज विचरण"
       ]
     },
@@ -28,8 +28,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Nearly uniform amplitude response across the required frequency range). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (आवश्यक आवृत्ति परास में लगभग एकसमान आयाम अनुक्रिया)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Nearly uniform amplitude response across the required frequency range). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (आवश्यक आवृत्ति परास में लगभग एकसमान आयाम अनुक्रिया)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -61,8 +61,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (There will be little to no output signal). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (There will be little to no output signal)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (There will be little to no output signal). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (There will be little to no output signal)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -83,10 +83,10 @@
         "Thin chain lines with longer dashes and dots"
       ],
       "hi": [
+        "एकांतर रूप से लंबे और छोटे डैश वाली मोटी शृंखला रेखाएं",
         "दृश्यमान परिरेखाओं के लिए सतत मोटी रेखाएं",
-        "लंबे डैश और डॉट वाली पतली शृंखला रेखाएं",
         "बराबर लंबाई की डैश वाली , समान दूरी पर स्थित छोटी डैश रेखाएं",
-        "एकांतर रूप से लंबे और छोटे डैश वाली मोटी शृंखला रेखाएं"
+        "लंबे डैश और डॉट वाली पतली शृंखला रेखाएं"
       ]
     },
     "correctIndex": 2,
@@ -94,8 +94,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Short, evenly spaced dashed lines with equal- length dashes). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (बराबर लंबाई की डैश वाली , समान दूरी पर स्थित छोटी डैश रेखाएं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Short, evenly spaced dashed lines with equal- length dashes). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (बराबर लंबाई की डैश वाली , समान दूरी पर स्थित छोटी डैश रेखाएं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -117,18 +117,18 @@
       ],
       "hi": [
         "आउटपुट तरंगरूप विश्लेषण (Output waveform analysis)",
+        "लाइब्रेरी कं पोनेंट्स (Library components)",
         "कस्टम स्कीमैटिक ड्राइंग (Custom schematic drawing)",
-        "सिमुलेशन स्‍पीड (Simulation speed)",
-        "लाइब्रेरी कं पोनेंट्स (Library components)"
+        "सिमुलेशन स्‍पीड (Simulation speed)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Library components). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (लाइब्रेरी कं पोनेंट्स (Library components))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Library components). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (लाइब्रेरी कं पोनेंट्स (Library components))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -149,19 +149,19 @@
         "Green"
       ],
       "hi": [
-        "हरा",
-        "लाल",
         "पीला",
-        "नीला"
+        "नीला",
+        "लाल",
+        "हरा"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Red). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (लाल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Red). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (लाल)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -177,24 +177,24 @@
     "options": {
       "en": [
         "Only connect the set-top box to the TV",
-        "Place the dish indoors and connect with any cable Mount the dish securely, align it towards the",
-        "satellite, connect with cable and connect the set- top box to the TV",
+        "Place the dish indoors and connect with any cable",
+        "Mount the dish securely, align it towards the satellite, connect with cable and connect the set-top box to the TV",
         "Install the dish at any angle without alignment"
       ],
       "hi": [
-        "डिश को घर के अंदर रखें और किसी भी के बल से कनेक्ट करें",
         "केवल सेट - टॉप बॉक्स को TV से कनेक्ट करें",
-        "डिश को बिना संरेखण के किसी भी कोण पर संस्थापित करें डिश को सुरक्षित रूप से स्थापित करें , इसे उपग्रह की ओर",
-        "संरेखित करें , के बल से कनेक्ट करें और सेट - टॉप बॉक्स को TV से कनेक्ट करें"
+        "डिश को घर के अंदर रखें और किसी भी केबल से कनेक्ट करें",
+        "डिश को सुरक्षित रूप से स्थापित करें , इसे उपग्रह की ओर संरेखित करें , केबल से कनेक्ट करें और सेट - टॉप बॉक्स को TV से कनेक्ट करें",
+        "डिश को बिना संरेखण के किसी भी कोण पर संस्थापित करें"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (satellite, connect with cable and connect the set- top box to the TV). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (संरेखित करें , के बल से कनेक्ट करें और सेट - टॉप बॉक्स को TV से कनेक्ट करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Mount the dish securely, align it towards the satellite, connect with cable and connect the set-top box to the TV). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (डिश को सुरक्षित रूप से स्थापित करें , इसे उपग्रह की ओर संरेखित करें , केबल से कनेक्ट करें और सेट - टॉप बॉक्स को TV से कनेक्ट करें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -215,19 +215,19 @@
         "It remains constant"
       ],
       "hi": [
+        "यह आनुपातिक रूप से बढ़ता है",
         "यह क्रमिक रूप से कम होता है",
         "यह यादृच्छिक रूप से परिवर्तित होता है",
-        "यह अपरिवर्ती रहता है",
-        "यह आनुपातिक रूप से बढ़ता है"
+        "यह अपरिवर्ती रहता है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (It increases proportionally). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (यह आनुपातिक रूप से बढ़ता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (It increases proportionally). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (यह आनुपातिक रूप से बढ़ता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -248,19 +248,19 @@
         "component can be opened to edit its nominal electrical value directly."
       ],
       "hi": [
-        "तकनीशियन को एक जटिल नेटवर्क श्रेणी में अनेक 10k-ohm मॉडलों को मैन्युअल रूप से एक साथ जोड़ना होगा",
+        "प्रतिरोधक मान लॉक है और एक नई विशिष्ट कस्टम पुस्तकालय फाइल को शुरू से लिखना होगा",
         "सॉफ्टवेयर माउस की स्थिति के आधार पर लाइब्रेरी मान की स्वतः गणना करता है और उसे ओवरराइट कर देता है रखे गए लाइब्रेरी कं पोनेंट के प्रॉपर्टीज मेनू को ओपन करके",
-        "इसके नॉमिनल इलेक्ट्रिकल मान को सीधे एडिट किया जा सकता है",
-        "प्रतिरोधक मान लॉक है और एक नई विशिष्ट कस्टम पुस्तकालय फाइल को शुरू से लिखना होगा"
+        "तकनीशियन को एक जटिल नेटवर्क श्रेणी में अनेक 10k-ohm मॉडलों को मैन्युअल रूप से एक साथ जोड़ना होगा",
+        "इसके नॉमिनल इलेक्ट्रिकल मान को सीधे एडिट किया जा सकता है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (component can be opened to edit its nominal electrical value directly.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (इसके नॉमिनल इलेक्ट्रिकल मान को सीधे एडिट किया जा सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (component can be opened to edit its nominal electrical value directly.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (इसके नॉमिनल इलेक्ट्रिकल मान को सीधे एडिट किया जा सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -281,19 +281,19 @@
         "Q = 0"
       ],
       "hi": [
-        "Q सदैव अपरिवर्तित रहेगा",
         "Q सदैव टॉगल करेगा",
-        "Q = 0",
-        "Q = 1"
+        "Q सदैव अपरिवर्तित रहेगा",
+        "Q = 1",
+        "Q = 0"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Q = 1). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (Q = 1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Q = 1). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Q = 1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -314,19 +314,19 @@
         "Envelope detector"
       ],
       "hi": [
+        "फेज विविक्तिकर (Phase Discriminator)",
         "आर्मस्ट्रांग परिपथ (Armstrong circuit)",
-        "अन्वालोप संसूचक (Envelope detector)",
         "अनुपात संसूचक (Ratio detector)",
-        "फेज विविक्तिकर (Phase Discriminator)"
+        "अन्वालोप संसूचक (Envelope detector)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Envelope detector). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (अन्वालोप संसूचक (Envelope detector))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Envelope detector). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (अन्वालोप संसूचक (Envelope detector))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -358,8 +358,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Power stabilizer, voltage fluctuations). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (Power stabilizer, voltage fluctuations)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Power stabilizer, voltage fluctuations). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Power stabilizer, voltage fluctuations)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -380,19 +380,19 @@
         "Increase the supply voltage and observe output"
       ],
       "hi": [
-        "आपूर्ति वोल्टता बढ़ाना और आउटपुट का प्रेक्षण करना",
-        "मॉड्यूल में संक्षारण के दृश्य संके तों का निरीक्षण करना",
+        "सभी चैनलों पर इनपुट स्पंद प्रयुक्त करना और आउटपुट तुल्यकालन का प्रेक्षण करना",
         "प्रत्येक वरण इनपुट के लिए स्थैतिक आउटपुट स्थितियों की जांच करना",
-        "सभी चैनलों पर इनपुट स्पंद प्रयुक्त करना और आउटपुट तुल्यकालन का प्रेक्षण करना"
+        "मॉड्यूल में संक्षारण के दृश्य संके तों का निरीक्षण करना",
+        "आपूर्ति वोल्टता बढ़ाना और आउटपुट का प्रेक्षण करना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Apply input pulses to all channels and observe output synchronization). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (सभी चैनलों पर इनपुट स्पंद प्रयुक्त करना और आउटपुट तुल्यकालन का प्रेक्षण करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Apply input pulses to all channels and observe output synchronization). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सभी चैनलों पर इनपुट स्पंद प्रयुक्त करना और आउटपुट तुल्यकालन का प्रेक्षण करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -413,19 +413,19 @@
         "It indicates the selectivity and sharpness of resonance"
       ],
       "hi": [
+        "यह कुं डली के अधिकतम शक्‍ति निर्धारण को इंगित करता है",
         "यह कुं डली का भौतिक आकार है",
         "यह कुं डली द्वारा वहन की जा सकने वाली अधिकतम धारा को संदर्भित करता है",
-        "यह अनुनाद की वरणक्षमता और तीक्ष् णता को इंगित करता है",
-        "यह कुं डली के अधिकतम शक्‍ति निर्धारण को इंगित करता है"
+        "यह अनुनाद की वरणक्षमता और तीक्ष् णता को इंगित करता है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It indicates the selectivity and sharpness of resonance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (यह अनुनाद की वरणक्षमता और तीक्ष् णता को इंगित करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It indicates the selectivity and sharpness of resonance). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (यह अनुनाद की वरणक्षमता और तीक्ष् णता को इंगित करता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -457,8 +457,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Trivector meter). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (Trivector meter)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Trivector meter). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (Trivector meter)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -479,19 +479,19 @@
         "5 kΩ"
       ],
       "hi": [
+        "2 kΩ",
         "10 kΩ",
         "20 kΩ",
-        "5 kΩ",
-        "2 kΩ"
+        "5 kΩ"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (20 kΩ). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (20 kΩ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (20 kΩ). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (20 kΩ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -512,19 +512,19 @@
         "Watt"
       ],
       "hi": [
-        "ऐम्पियर (Ampere)",
         "ओम (Ohm)",
-        "वाट (Watt)",
-        "वोल्‍ट (Volt)"
+        "ऐम्पियर (Ampere)",
+        "वोल्‍ट (Volt)",
+        "वाट (Watt)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Ohm). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (ओम (Ohm))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Ohm). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (ओम (Ohm))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -556,8 +556,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It confines light within the core). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (It confines light within the core)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It confines light within the core). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (It confines light within the core)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -578,19 +578,19 @@
         "Constant"
       ],
       "hi": [
-        "स्थिरांक",
         "त्रिकोणीय तरंग",
         "शून्य",
-        "वर्ग तरंग"
+        "वर्ग तरंग",
+        "स्थिरांक"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Constant). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (स्थिरांक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Constant). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (स्थिरांक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -611,19 +611,19 @@
         "180°"
       ],
       "hi": [
-        "45°",
-        "90°",
         "0°",
+        "90°",
+        "45°",
         "180°"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (0°). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (0°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (0°). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (0°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -644,19 +644,19 @@
         "Chisel"
       ],
       "hi": [
+        "पेचकस",
         "रेती",
-        "छेनी",
         "पाना",
-        "पेचकस"
+        "छेनी"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Chisel). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (छेनी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Chisel). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (छेनी)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -677,10 +677,10 @@
         "The load efficiency will significantly increase"
       ],
       "hi": [
-        "overvoltage conditions The system will automatically stabilize the output",
-        "voltage",
-        "The load will operate at a constant voltage regardless of supply changes",
-        "The load efficiency will significantly increase"
+        "लोड क्षति पहुँचाने वाली अतिवोल्टता स्थितियों के संपर्क में आ सकता है",
+        "तंत्र स्वतः ही आउटपुट वोल्टता को स्थिर कर देगा",
+        "आपूर्ति में परिवर्तनों की परवाह किए बिना लोड एक नियत वोल्टता पर प्रचालित होगा",
+        "लोड दक्षता में उल्लेखनीय वृद्धि होगी"
       ]
     },
     "correctIndex": 0,
@@ -688,8 +688,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (The load may be exposed to damaging overvoltage conditions). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (overvoltage conditions The system will automatically stabilize the output)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (The load may be exposed to damaging overvoltage conditions). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (लोड क्षति पहुँचाने वाली अतिवोल्टता स्थितियों के संपर्क में आ सकता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -710,19 +710,19 @@
         "To shape the tip for fine work"
       ],
       "hi": [
-        "टिप से पुराना सोल्डर हटाने के लिए",
-        "सूक्ष् म कार्य हेतु टिप को आकृति देने के लिए",
+        "सतह से ऑक्साइड शल्क हटाने के लिए",
         "टिप की ऊष्मा धारण क्षमता बढ़ाने के लिए",
-        "सतह से ऑक्साइड शल्क हटाने के लिए"
+        "टिप से पुराना सोल्डर हटाने के लिए",
+        "सूक्ष् म कार्य हेतु टिप को आकृति देने के लिए"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (To remove oxide scales from the surface). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (सतह से ऑक्साइड शल्क हटाने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (To remove oxide scales from the surface). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (सतह से ऑक्साइड शल्क हटाने के लिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -743,19 +743,19 @@
         "It conducts only after a specific breakover voltage is reached, not at all input voltages"
       ],
       "hi": [
-        "हैं",
+        "इसमें दो से अधिक टर्मिनल होते हैं, जिससे कनेक्शन जटिल हो जाते हैं",
+        "इसे DC अनुप्रयोगों के लिए अभिकल्पित किया गया है, न कि AC के लिए",
         "यह मानक डायोड की तुलना में बड़ा और अधिक महंगा होता है",
-        "यह केवल एक विशिष्ट ब्रेकओवर वोल्टता तक पहुँचने के बाद ही चालन करता है , न कि सभी निवेशी वोल्टताओं पर। इसे DC अनुप्रयोगों के लिए अभिकल्पित किया गया है , न कि AC के",
-        "लिए।"
+        "यह केवल एक विशिष्ट ब्रेकओवर वोल्टता तक पहुँचने के बाद ही चालन करता है, न कि सभी निवेशी वोल्टताओं पर"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It conducts only after a specific breakover voltage is reached, not at all input voltages). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (यह केवल एक विशिष्ट ब्रेकओवर वोल्टता तक पहुँचने के बाद ही चालन करता है , न कि सभी निवेशी वोल्टताओं पर। इसे DC अनुप्रयोगों के लिए अभिकल्पित किया गया है , न कि AC के)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It conducts only after a specific breakover voltage is reached, not at all input voltages). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (यह केवल एक विशिष्ट ब्रेकओवर वोल्टता तक पहुँचने के बाद ही चालन करता है, न कि सभी निवेशी वोल्टताओं पर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -776,19 +776,19 @@
         "Four input combinations"
       ],
       "hi": [
-        "चार इनपुट संयोजन",
         "आठ इनपुट संयोजन",
         "तीन इनपुट संयोजन",
-        "दो इनपुट संयोजन"
+        "दो इनपुट संयोजन",
+        "चार इनपुट संयोजन"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Four input combinations). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (चार इनपुट संयोजन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Four input combinations). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (चार इनपुट संयोजन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -820,8 +820,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (BNC Input Ports). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (BNC इनपुट पोर्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (BNC Input Ports). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (BNC इनपुट पोर्ट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -842,10 +842,10 @@
         "RCA connector"
       ],
       "hi": [
-        "RCA कनेक्टर",
         "RS-232 कनेक्टर",
+        "RJ-45 कनेक्टर",
         "F- टाइप कनेक्टर",
-        "RJ-45 कनेक्टर"
+        "RCA कनेक्टर"
       ]
     },
     "correctIndex": 2,
@@ -853,8 +853,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (F-type connector). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (F- टाइप कनेक्टर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (F-type connector). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (F- टाइप कनेक्टर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -886,8 +886,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (To prevent shock from stored voltage). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (To prevent shock from stored voltage)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (To prevent shock from stored voltage). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (To prevent shock from stored voltage)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -908,10 +908,10 @@
         "Core losses"
       ],
       "hi": [
-        "कुं डली प्रतिरोध (Coil resistance)",
+        "त्वक् प्रभाव (Skin effect)",
         "पराश्रयी धारिता (Parasitic capacitance)",
-        "क्रोड हानियां (Core losses)",
-        "त्वक् प्रभाव (Skin effect)"
+        "कुं डली प्रतिरोध (Coil resistance)",
+        "क्रोड हानियां (Core losses)"
       ]
     },
     "correctIndex": 1,
@@ -919,8 +919,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Parasitic capacitance). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (पराश्रयी धारिता (Parasitic capacitance))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Parasitic capacitance). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (पराश्रयी धारिता (Parasitic capacitance))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -941,19 +941,19 @@
         "A short-duration impulse signal followed by zero output"
       ],
       "hi": [
-        "अल्पकालिक आवेग सिग्नल और उसके बाद शून्य आउटपुट होगा",
-        "आउटपुट रैखिक रूप से बढ़ेगा",
         "आउटपुट घटते - बढ़ते रहेगा",
-        "आउटपुट रैखिक रूप से घटेगा"
+        "आउटपुट रैखिक रूप से घटेगा",
+        "आउटपुट रैखिक रूप से बढ़ेगा",
+        "अल्पकालिक आवेग सिग्नल और उसके बाद शून्य आउटपुट होगा"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (A short-duration impulse signal followed by zero output). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (अल्पकालिक आवेग सिग्नल और उसके बाद शून्य आउटपुट होगा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (A short-duration impulse signal followed by zero output). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (अल्पकालिक आवेग सिग्नल और उसके बाद शून्य आउटपुट होगा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -974,19 +974,19 @@
         "The tip should be flat for every joint"
       ],
       "hi": [
-        "सभी जोड़ों के लिए टिप सदैव अधिक तीक्ष् ण होनी चाहिए",
         "टिप फलक का क्षेत्रफल , जोड़ के क्षेत्रफल के लगभग बराबर होना चाहिए",
         "टिप , जोड़ के क्षेत्रफल से अपेक्षाकृ त अधिक बड़ी होनी चाहिए",
+        "सभी जोड़ों के लिए टिप सदैव अधिक तीक्ष् ण होनी चाहिए",
         "प्रत्येक जोड़ के लिए टिप सपाट होनी चाहिए"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (The area of the tip face should be approximately equal to the area of the joint). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (टिप फलक का क्षेत्रफल , जोड़ के क्षेत्रफल के लगभग बराबर होना चाहिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (The area of the tip face should be approximately equal to the area of the joint). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (टिप फलक का क्षेत्रफल , जोड़ के क्षेत्रफल के लगभग बराबर होना चाहिए)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1007,19 +1007,19 @@
         "To transmit combined analog video signals"
       ],
       "hi": [
-        "TV को पावर सप्लाई करना",
+        "पृथक लाल , हरे और नीले सिग्नल ट्रांसमिट करना",
         "डिजिटल ऑडियो सिग्नल ट्रांसमिट करना",
-        "संयुक्त एनालॉग वीडियो सिग्नल ट्रांसमिट करना",
-        "पृथक लाल , हरे और नीले सिग्नल ट्रांसमिट करना"
+        "TV को पावर सप्लाई करना",
+        "संयुक्त एनालॉग वीडियो सिग्नल ट्रांसमिट करना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (To transmit separate red, green, and blue signals). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (पृथक लाल , हरे और नीले सिग्नल ट्रांसमिट करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (To transmit separate red, green, and blue signals). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (पृथक लाल , हरे और नीले सिग्नल ट्रांसमिट करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1040,19 +1040,19 @@
         "0.866"
       ],
       "hi": [
+        "1.000",
         "0.707",
         "0.500",
-        "0.866",
-        "1.000"
+        "0.866"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (0.500). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (0.500)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (0.500). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (0.500)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1073,19 +1073,19 @@
         "Contact material quality"
       ],
       "hi": [
-        "निर्धारित सक्रियण वोल्टता स्तर",
-        "संपर्क पदार्थ की गुणवत्ता",
         "रिले का भौतिक आमाप",
-        "कुं डली प्रतिरोध का मान"
+        "निर्धारित सक्रियण वोल्टता स्तर",
+        "कुं डली प्रतिरोध का मान",
+        "संपर्क पदार्थ की गुणवत्ता"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Set activation voltage level). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (निर्धारित सक्रियण वोल्टता स्तर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Set activation voltage level). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (निर्धारित सक्रियण वोल्टता स्तर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1117,8 +1117,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (To smooth out the rectified signal). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (To smooth out the rectified signal)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (To smooth out the rectified signal). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (To smooth out the rectified signal)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1139,19 +1139,19 @@
         "Use a wet chemical extinguisher because it suppresses cooking-oil fires."
       ],
       "hi": [
-        "शीतित करता है",
-        "फे न शामक , क्योंकि यह जलती हुई सतह को ढक लेता है",
-        "कार्बन डाइऑक्साइड शामक , क्योंकि यह अचालक है और अवशिष्ट - रहित है आर्द्र रासायनिक शामक , क्योंकि यह खाद्य - तेल की आग का दमन",
-        "करता है"
+        "कार्बन डाइऑक्साइड शामक, क्योंकि यह अचालक है और अवशिष्ट-रहित है",
+        "जल शामक, क्योंकि यह जलती हुई सामग्री को सुरक्षित रूप से शीतित करता है",
+        "फेन शामक, क्योंकि यह जलती हुई सतह को ढक लेता है",
+        "आर्द्र रासायनिक शामक, क्योंकि यह खाद्य-तेल की आग का दमन करता है"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Use a carbon dioxide extinguisher because it is non-conductive and residue-free.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (कार्बन डाइऑक्साइड शामक , क्योंकि यह अचालक है और अवशिष्ट - रहित है आर्द्र रासायनिक शामक , क्योंकि यह खाद्य - तेल की आग का दमन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Use a carbon dioxide extinguisher because it is non-conductive and residue-free.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (कार्बन डाइऑक्साइड शामक, क्योंकि यह अचालक है और अवशिष्ट-रहित है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1172,19 +1172,19 @@
         "Cool the transmitter"
       ],
       "hi": [
-        "ट्रांसमीटर को शीतल करने",
         "आस - पास के स्टेशनों के बीच व्यतिकरण को रोकने",
+        "सिग्नल की सामर्थ्य को बढ़ाने",
         "ऐन्टेना को तड़ित से संरक्षण प्रदान करने",
-        "सिग्नल की सामर्थ्य को बढ़ाने"
+        "ट्रांसमीटर को शीतल करने"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Prevent interference between adjacent stations). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (आस - पास के स्टेशनों के बीच व्यतिकरण को रोकने)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Prevent interference between adjacent stations). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (आस - पास के स्टेशनों के बीच व्यतिकरण को रोकने)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1205,19 +1205,19 @@
         "Voltage divider"
       ],
       "hi": [
-        "वोल्टता विभाजक (Voltage divider)",
-        "डिस्चार्ज ट्रांजिस्टर (Discharge transistor)",
         "SR फ्लिप - फ्लॉप (SR flip-flop)",
-        "आउटपुट बफर (Output buffer)"
+        "आउटपुट बफर (Output buffer)",
+        "डिस्चार्ज ट्रांजिस्टर (Discharge transistor)",
+        "वोल्टता विभाजक (Voltage divider)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (SR flip-flop). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (SR फ्लिप - फ्लॉप (SR flip-flop))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (SR flip-flop). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (SR फ्लिप - फ्लॉप (SR flip-flop))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1238,19 +1238,19 @@
         "Send identical IR commands and note repeated responses"
       ],
       "hi": [
-        "करना",
+        "रिमोट की बैटरी को प्रतिस्थापित करना और सिग्नल के सामर्थ्य को नोट करना",
         "रिमोट को समीप ले जाना और अधिक प्रबल रिसेप्शन नोट करना",
-        "रिमोट की बैटरी को प्रतिस्थापित करना और सिग्नल के सामर्थ्य को नोट करना विभिन्न IR कमांड कोड प्रेषित करना और TV अनुक्रियाओं को",
-        "नोट करना"
+        "विभिन्न IR कमांड कोड प्रेषित करना और TV अनुक्रियाओं को नोट करना",
+        "समान IR कमांड प्रेषित करना और दोहराई गई अनुक्रियाओं को नोट करना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Send different IR command codes and note TV responses). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (नोट करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Send different IR command codes and note TV responses). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (विभिन्न IR कमांड कोड प्रेषित करना और TV अनुक्रियाओं को नोट करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1271,19 +1271,19 @@
         "Increase drilling speed significantly"
       ],
       "hi": [
-        "ड्रिलिंग गति में उल्लेखनीय रूप से वृद्धि करना",
+        "चादर को पृष्‍ठाधार सामग्री से सपोर्ट प्रदान करना",
         "पारवेधन से पहले ड्रिलिंग बंद कर देना",
         "अधिकतम फीड दाब का उपयोग करना",
-        "चादर को पृष्‍ठाधार सामग्री से सपोर्ट प्रदान करना"
+        "ड्रिलिंग गति में उल्लेखनीय रूप से वृद्धि करना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Support the sheet with a backing material). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (चादर को पृष्‍ठाधार सामग्री से सपोर्ट प्रदान करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Support the sheet with a backing material). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (चादर को पृष्‍ठाधार सामग्री से सपोर्ट प्रदान करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1304,9 +1304,9 @@
         "Using thin wire for the coil windings"
       ],
       "hi": [
+        "वाइंडिंग के बीच अवांछित धारिता को न्यूनतम करना",
         "ट्रांसफार्मर को बाह्य क्षेत्रों से परिरक्षित करना",
         "ट्रांसफार्मर के लिए फे राइट क्रोड का उपयोग करना",
-        "वाइंडिंग के बीच अवांछित धारिता को न्यूनतम करना",
         "कुं डली वाइंडिंग हेतु पतले तार का उपयोग करना"
       ]
     },
@@ -1315,8 +1315,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Using thin wire for the coil windings). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (कुं डली वाइंडिंग हेतु पतले तार का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Using thin wire for the coil windings). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (कुं डली वाइंडिंग हेतु पतले तार का उपयोग करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1339,8 +1339,8 @@
       "hi": [
         "धारा ; समांतर - क्रम",
         "धारा ; श्रेणी - क्रम",
-        "वोल्टता ; श्रेणी - क्रम",
-        "शक्ति गुणक ; समांतर - क्रम"
+        "शक्ति गुणक ; समांतर - क्रम",
+        "वोल्टता ; श्रेणी - क्रम"
       ]
     },
     "correctIndex": 1,
@@ -1348,8 +1348,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (current; series). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (धारा ; श्रेणी - क्रम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (current; series). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (धारा ; श्रेणी - क्रम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1370,19 +1370,19 @@
         "Small bow compass adjusted to the required spacing"
       ],
       "hi": [
-        "वाली इंकिंग पेन (Inking pen)",
+        "बराबर बिंदु चिह्नित करने के लिए T-स्क्वायर के साथ उपयोग की जाने वाली इंकिंग पेन (Inking pen)",
         "रेखा पर स्टेपिंग ऑफ (stepping off) के लिए बड़े आकार के कम्पास में फिट की गई लंबक छड़",
-        "आवश्यक अंतराल के लिए समायोजित छोटा धनु कम्पास (small bow compass) रेखा के अनुदिश चरण - दर - चरण समायोजित बड़े आकार का",
-        "डिवाइडर (divider)"
+        "रेखा के अनुदिश चरण-दर-चरण समायोजित बड़े आकार का डिवाइडर (divider)",
+        "आवश्यक अंतराल के लिए समायोजित छोटा धनु कम्पास (small bow compass)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Large-size divider adjusted step by step along the line). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (डिवाइडर (divider))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Large-size divider adjusted step by step along the line). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (रेखा के अनुदिश चरण-दर-चरण समायोजित बड़े आकार का डिवाइडर (divider))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1403,8 +1403,8 @@
         "Equal to the critical angle"
       ],
       "hi": [
-        "क्रांतिक कोण से छोटा",
         "क्रांतिक कोण का तीन गुना",
+        "क्रांतिक कोण से छोटा",
         "क्रांतिक कोण से बड़ा",
         "क्रांतिक कोण के बराबर"
       ]
@@ -1414,8 +1414,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Greater than the critical angle). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (क्रांतिक कोण से बड़ा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Greater than the critical angle). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (क्रांतिक कोण से बड़ा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1447,8 +1447,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (To send coded control signals to the TV). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (To send coded control signals to the TV)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (To send coded control signals to the TV). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (To send coded control signals to the TV)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1470,18 +1470,18 @@
       ],
       "hi": [
         "पराश्रव्य सेंसर और तापवैद्युत युग्म (Ultrasonic sensor and thermocouple) विभवमापी और प्रेरणिक प्रॉक्सिमिटी सेंसर",
-        "(Potentiometer and inductive proximity sensor)",
         "LVDT और धारिता सेंसर (LVDT and capacitive sensor)",
+        "(Potentiometer and inductive proximity sensor)",
         "थर्मिस्टर और प्रकाशवैद्युत सेंसर (Thermistor and photoelectric sensor)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Potentiometer and inductive proximity sensor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B ((Potentiometer and inductive proximity sensor))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Potentiometer and inductive proximity sensor). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C ((Potentiometer and inductive proximity sensor))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1502,9 +1502,9 @@
         "Time Domain Reflectometer (TDR)"
       ],
       "hi": [
-        "विजुअल फॉल्ट लोके टर (Visual Fault Locator - VFL)",
-        "एनालॉग टोन जनरेटर और प्रोब (Analog Tone Generator and Probe)",
         "के बल सांतत्य बीपर (Cable Continuity Beeper)",
+        "एनालॉग टोन जनरेटर और प्रोब (Analog Tone Generator and Probe)",
+        "विजुअल फॉल्ट लोके टर (Visual Fault Locator - VFL)",
         "काल प्रक्षेत्र परावर्तनमापी (Time Domain Reflectometer - TDR)"
       ]
     },
@@ -1513,8 +1513,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Time Domain Reflectometer (TDR)). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (काल प्रक्षेत्र परावर्तनमापी (Time Domain Reflectometer - TDR))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Time Domain Reflectometer (TDR)). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (काल प्रक्षेत्र परावर्तनमापी (Time Domain Reflectometer - TDR))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1536,18 +1536,18 @@
       ],
       "hi": [
         "आउटपुट सदैव LOW रहता है",
-        "आउटपुट तब HIGH होता है जब कोई भी एक इनपुट HIGH हो",
         "आउटपुट वैसा ही रहता है जैसा कि अपेक्षित था",
-        "आउटपुट केवल तभी HIGH होता है जब दोनों इनपुट LOW हों"
+        "आउटपुट केवल तभी HIGH होता है जब दोनों इनपुट LOW हों",
+        "आउटपुट तब HIGH होता है जब कोई भी एक इनपुट HIGH हो"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Output becomes HIGH when any one input becomes HIGH). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (आउटपुट तब HIGH होता है जब कोई भी एक इनपुट HIGH हो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Output becomes HIGH when any one input becomes HIGH). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (आउटपुट तब HIGH होता है जब कोई भी एक इनपुट HIGH हो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1568,19 +1568,19 @@
         "Two rods of 1.25 m and one rod of 0.875 m"
       ],
       "hi": [
-        "1.25 m की दो छड़ें और 0.875 m की एक छड़",
-        "1.25 m की एक छड़ और 0.875 m की एक छड़",
         "1.25 m की तीन छड़ें",
-        "0.875 m की चार छड़ें"
+        "1.25 m की एक छड़ और 0.875 m की एक छड़",
+        "0.875 m की चार छड़ें",
+        "1.25 m की दो छड़ें और 0.875 m की एक छड़"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Two rods of 1.25 m and one rod of 0.875 m). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (1.25 m की दो छड़ें और 0.875 m की एक छड़)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Two rods of 1.25 m and one rod of 0.875 m). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (1.25 m की दो छड़ें और 0.875 m की एक छड़)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1602,18 +1602,18 @@
       ],
       "hi": [
         "सक्रिय घटक",
-        "विद्युतरोधी परत",
         "निष्क्रिय घटक",
+        "विद्युतरोधी परत",
         "विद्युत - अपघट्य"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Passive component). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (निष्क्रिय घटक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Passive component). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (निष्क्रिय घटक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1634,19 +1634,19 @@
         "Mixer"
       ],
       "hi": [
-        "डी - एम्फे सिस सर्किट (De-emphasis circuit)",
         "ऑसिलेटर (Oscillator)",
-        "मिक्सर (Mixer)",
-        "आरएफ ट्यूनर (RF tuner)"
+        "डी - एम्फे सिस सर्किट (De-emphasis circuit)",
+        "आरएफ ट्यूनर (RF tuner)",
+        "मिक्सर (Mixer)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (De-emphasis circuit). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (डी - एम्फे सिस सर्किट (De-emphasis circuit))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (De-emphasis circuit). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (डी - एम्फे सिस सर्किट (De-emphasis circuit))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1667,10 +1667,10 @@
         "Infinite, Infinite"
       ],
       "hi": [
-        "शून्य , शून्य",
+        "शून्य , अनंत",
         "अनंत , शून्य",
-        "अनंत , अनंत",
-        "शून्य , अनंत"
+        "शून्य , शून्य",
+        "अनंत , अनंत"
       ]
     },
     "correctIndex": 1,
@@ -1678,8 +1678,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Infinite, Zero). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (अनंत , शून्य)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Infinite, Zero). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (अनंत , शून्य)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1702,8 +1702,8 @@
       "hi": [
         "उभयनिष्ठ उत्स र्जक प्रवर्धक",
         "क्लास AB कर्षापकर्ष प्रवर्धक",
-        "उभयनिष्ठ आधार प्रवर्धक",
-        "विभेदी प्रवर्धक"
+        "विभेदी प्रवर्धक",
+        "उभयनिष्ठ आधार प्रवर्धक"
       ]
     },
     "correctIndex": 1,
@@ -1711,8 +1711,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Class AB Push-pull amplifier). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (क्लास AB कर्षापकर्ष प्रवर्धक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Class AB Push-pull amplifier). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (क्लास AB कर्षापकर्ष प्रवर्धक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1733,19 +1733,19 @@
         "Applying a NOR operation directly to the input signals"
       ],
       "hi": [
-        "NOR गेट का उपयोग करके AND फ़ं क्शन को कार्यान्वित करना और फिर आउटपुट को प्रतिलोमित करना अभीष्ट लॉजिक सर्किट का निर्माण करने के लिए अनुप्रस्थ - युग्मित",
-        "NOR गेट का उपयोग करके",
-        "इनपुट सिग्नलों पर सीधे NOR ऑपरेशन अनुप्रयुक्त करना",
-        "NOR गेट का उपयोग करके OR फ़ं क्शन को कार्यान्वित करना और फिर आउटपुट को प्रतिलोमित करना"
+        "अभीष्ट लॉजिक सर्किट का निर्माण करने के लिए अनुप्रस्थ - युग्मित NOR गेट का उपयोग करके",
+        "NOR गेट का उपयोग करके OR फ़ंक्शन को कार्यान्वित करना और फिर आउटपुट को प्रतिलोमित करना",
+        "NOR गेट का उपयोग करके AND फ़ंक्शन को कार्यान्वित करना और फिर आउटपुट को प्रतिलोमित करना",
+        "इनपुट सिग्नलों पर सीधे NOR ऑपरेशन अनुप्रयुक्त करना"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Implementing an AND function using NOR gates and then inverting the output). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (NOR गेट का उपयोग करके AND फ़ं क्शन को कार्यान्वित करना और फिर आउटपुट को प्रतिलोमित करना अभीष्ट लॉजिक सर्किट का निर्माण करने के लिए अनुप्रस्थ - युग्मित)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Implementing an AND function using NOR gates and then inverting the output). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (NOR गेट का उपयोग करके AND फ़ंक्शन को कार्यान्वित करना और फिर आउटपुट को प्रतिलोमित करना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1777,8 +1777,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Displaying slightly different images to each eye). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (Displaying slightly different images to each eye)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Displaying slightly different images to each eye). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (Displaying slightly different images to each eye)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1810,8 +1810,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (To maintain a consistent output voltage despite input fluctuations). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (To maintain a consistent output voltage despite input fluctuations)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (To maintain a consistent output voltage despite input fluctuations). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (To maintain a consistent output voltage despite input fluctuations)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1832,10 +1832,10 @@
         "Use two set-squares, keep one fixed and slide the other to the required point"
       ],
       "hi": [
-        "को स्वतंत्र रूप से जोड़ना",
+        "केवल T- स्क्वायर का उपयोग करना और एक नई आनत रेखा खींचना",
         "रेखा से 20 mm मापने के लिए प्रोट्रैक्टर का उपयोग करना और बिंदु को चिह्नित करना",
-        "केवल T- स्क्वायर का उपयोग करना और एक नई आनत रेखा खींचना दो सेट - स्क्वायर का उपयोग करना , एक को स्थिर रखना और",
-        "दूसरे को अभीष्ट बिंदु तक खिसकाना"
+        "20 mm स्थानांतरित करने के लिए कम्पास का उपयोग करना और बिंदुओं को स्वतंत्र रूप से जोड़ना",
+        "दो सेट - स्क्वायर का उपयोग करना , एक को स्थिर रखना और दूसरे को अभीष्ट बिंदु तक खिसकाना"
       ]
     },
     "correctIndex": 3,
@@ -1843,8 +1843,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Use two set-squares, keep one fixed and slide the other to the required point). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (दूसरे को अभीष्ट बिंदु तक खिसकाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Use two set-squares, keep one fixed and slide the other to the required point). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (दो सेट - स्क्वायर का उपयोग करना , एक को स्थिर रखना और दूसरे को अभीष्ट बिंदु तक खिसकाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1865,19 +1865,19 @@
         "Unijunction Transistor"
       ],
       "hi": [
-        "ट्रांजिस्टर )",
         "Universal Junction Transistor ( यूनिवर्सल जंक्शन ट्रांजिस्टर )",
-        "Unijunction Transistor ( यूनिजंक्शन ट्रांजिस्टर )",
-        "Unijunctional Transistor ( यूनिजंक्शनल ट्रांजिस्टर )"
+        "Unijunctional Transistor ( यूनिजंक्शनल ट्रांजिस्टर )",
+        "Unilateral Junction Transistor ( यूनिलैटरल जंक्शन ट्रांजिस्टर )",
+        "Unijunction Transistor ( यूनिजंक्शन ट्रांजिस्टर )"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Unijunction Transistor). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (Unijunction Transistor ( यूनिजंक्शन ट्रांजिस्टर ))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Unijunction Transistor). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (Unijunction Transistor ( यूनिजंक्शन ट्रांजिस्टर ))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1898,10 +1898,10 @@
         "Ability to detect objects through electromagnetic induction"
       ],
       "hi": [
-        "contamination",
-        "Ability to detect metallic as well as non- metallic objects",
-        "Immunity to optical interference and ambient light variations Ability to detect objects through electromagnetic",
-        "induction"
+        "Higher resistance to dust and airborne contamination",
+        "Ability to detect metallic as well as non-metallic objects",
+        "Immunity to optical interference and ambient light variations",
+        "Ability to detect objects through electromagnetic induction"
       ]
     },
     "correctIndex": 1,
@@ -1909,8 +1909,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Ability to detect metallic as well as non-metallic objects). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (Ability to detect metallic as well as non- metallic objects)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Ability to detect metallic as well as non-metallic objects). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (Ability to detect metallic as well as non-metallic objects)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1931,19 +1931,19 @@
         "J = 1, K = 0"
       ],
       "hi": [
-        "J = 1, K = 0",
         "J = 0, K = 0",
         "J = 0, K = 1",
-        "J = 1, K = 1"
+        "J = 1, K = 1",
+        "J = 1, K = 0"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (J = 1, K = 1). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (J = 1, K = 1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (J = 1, K = 1). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (J = 1, K = 1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1964,19 +1964,19 @@
         "Scale used to mark equal radii from the circle centre"
       ],
       "hi": [
+        "वृत्त पर समान कोणीय विभाजनों को चिह्नित करने के लिए प्रयुक्त प्रोट्रैक्टर",
         "वृत्त के केंद्र को बोर्ड के कोर के साथ संरेखित रखने के लिए प्रयुक्त T- स्क्वायर",
-        "वृत्त के केंद्र से समान त्रिज्याओं को चिह्नित करने के लिए प्रयुक्त स्के ल",
         "वृत्त के चारों ओर समान जीवा की लंबाईयों को स्थानांतरित करने के लिए प्रयुक्त डिवाइडर",
-        "वृत्त पर समान कोणीय विभाजनों को चिह्नित करने के लिए प्रयुक्त प्रोट्रैक्टर"
+        "वृत्त के केंद्र से समान त्रिज्याओं को चिह्नित करने के लिए प्रयुक्त स्के ल"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Protractor used to mark equal angular divisions on the circle). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (वृत्त पर समान कोणीय विभाजनों को चिह्नित करने के लिए प्रयुक्त प्रोट्रैक्टर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Protractor used to mark equal angular divisions on the circle). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (वृत्त पर समान कोणीय विभाजनों को चिह्नित करने के लिए प्रयुक्त प्रोट्रैक्टर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -1997,19 +1997,19 @@
         "SR flip-flop"
       ],
       "hi": [
-        "T फ्लिप - फ्लॉप",
         "JK फ्लिप - फ्लॉप (J ≠ K प्रतिबंध )",
-        "SR फ्लिप - फ्लॉप",
-        "JK फ्लिप - फ्लॉप (J = K = 0)"
+        "JK फ्लिप - फ्लॉप (J = K = 0)",
+        "T फ्लिप - फ्लॉप",
+        "SR फ्लिप - फ्लॉप"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (T flip-flop). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (T फ्लिप - फ्लॉप)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (T flip-flop). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (T फ्लिप - फ्लॉप)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2041,8 +2041,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Ambient infrared noise interfering with the IR receiver circuit). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (Ambient infrared noise interfering with the IR receiver circuit)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Ambient infrared noise interfering with the IR receiver circuit). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (Ambient infrared noise interfering with the IR receiver circuit)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2063,19 +2063,19 @@
         "D flip flop"
       ],
       "hi": [
-        "D फ्लिप फ्लॉप",
+        "JK फ्लिप फ्लॉप",
         "NAND गेट का उपयोग करके RS फ्लिप फ्लॉप",
         "NOR गेट का उपयोग करके RS फ्लिप फ्लॉप",
-        "JK फ्लिप फ्लॉप"
+        "D फ्लिप फ्लॉप"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (JK flip flop). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (JK फ्लिप फ्लॉप)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (JK flip flop). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (JK फ्लिप फ्लॉप)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2096,19 +2096,19 @@
         "Only statement 2 is correct"
       ],
       "hi": [
-        "केवल कथन 2 सही है",
         "दोनों कथन सही हैं",
         "दोनों कथन गलत हैं",
-        "केवल कथन 1 सही है"
+        "केवल कथन 1 सही है",
+        "केवल कथन 2 सही है"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (Only statement 1 is correct). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (केवल कथन 1 सही है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (Only statement 1 is correct). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (केवल कथन 1 सही है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2131,8 +2131,8 @@
       "hi": [
         "फर्श पर नीचे की ओर लगाया गया एक कै मरा जो ऊपर की ओर इंगित करता है नेत्र - स्तर पर ATM फे सिया (ATM fascia) के भीतर",
         "अंतःस्थापित एक प्रच्छन्न पिनहोल कै मरा या सीधे यूजर के चेहरे की ओर उन्मुख एक CCTV कै मरा",
-        "आने वाले सभी ग्राहकों की लाइसेंस प्लेटों को कै प्चर करने के लिए सड़क के किनारे लगाया गया एक लंबी दूरी का कै मरा",
-        "PIN पैड पर यूजर के कीस्ट्रोक्स को मॉनीटर करने के लिए सीधे सिर के ऊपर लगा एक वाइड - एं गल कै मरा"
+        "PIN पैड पर यूजर के कीस्ट्रोक्स को मॉनीटर करने के लिए सीधे सिर के ऊपर लगा एक वाइड - एं गल कै मरा",
+        "आने वाले सभी ग्राहकों की लाइसेंस प्लेटों को कै प्चर करने के लिए सड़क के किनारे लगाया गया एक लंबी दूरी का कै मरा"
       ]
     },
     "correctIndex": 1,
@@ -2140,8 +2140,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (ATM fascia at eye-level or a CCTV angled directly at the user's face.). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (अंतःस्थापित एक प्रच्छन्न पिनहोल कै मरा या सीधे यूजर के चेहरे की ओर उन्मुख एक CCTV कै मरा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (ATM fascia at eye-level or a CCTV angled directly at the user's face.). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (अंतःस्थापित एक प्रच्छन्न पिनहोल कै मरा या सीधे यूजर के चेहरे की ओर उन्मुख एक CCTV कै मरा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2163,18 +2163,18 @@
       ],
       "hi": [
         "यह नियत रहता है",
+        "यह तीव्रता से बढ़ता है",
         "यह अनंत हो जाता है",
-        "यह घटता है",
-        "यह तीव्रता से बढ़ता है"
+        "यह घटता है"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (It decreases). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (यह घटता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (It decreases). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (यह घटता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2195,10 +2195,10 @@
         "7 dB"
       ],
       "hi": [
-        "7 dB",
+        "2 dB",
         "5 dB",
         "1 dB",
-        "2 dB"
+        "7 dB"
       ]
     },
     "correctIndex": 2,
@@ -2206,8 +2206,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option C is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option C (1 dB). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (1 dB)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option C (1 dB). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प C (1 dB)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2228,19 +2228,19 @@
         "The measure of an angle"
       ],
       "hi": [
-        "तीसरी भुजा की लंबाई",
         "त्रिभुज का परिमाप",
+        "तीसरी भुजा की लंबाई",
         "त्रिभुज का क्षेत्रफल",
         "एक कोण की माप"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (The length of the third side). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (तीसरी भुजा की लंबाई)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (The length of the third side). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (तीसरी भुजा की लंबाई)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2261,19 +2261,19 @@
         "pneumatic; air core"
       ],
       "hi": [
-        "वायवीय ; वायु क्रोड",
-        "तरल घर्षण ; कॉपर क्रोड",
         "भंवर धारा ; स्थायी चुंबक",
-        "भंवर धारा ; मृदु लौह क्रोड"
+        "भंवर धारा ; मृदु लौह क्रोड",
+        "तरल घर्षण ; कॉपर क्रोड",
+        "वायवीय ; वायु क्रोड"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (eddy current; soft iron core). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (भंवर धारा ; मृदु लौह क्रोड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (eddy current; soft iron core). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (भंवर धारा ; मृदु लौह क्रोड)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2294,8 +2294,8 @@
         "On line UPS"
       ],
       "hi": [
-        "ऑफ लाइन UPS (Off line UPS)",
         "मानक इनवर्टर (Standard inverter)",
+        "ऑफ लाइन UPS (Off line UPS)",
         "लाइन इंटरेक्टिव UPS (Line interactive UPS)",
         "ऑन लाइन UPS (On line UPS)"
       ]
@@ -2305,8 +2305,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (On line UPS). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (ऑन लाइन UPS (On line UPS))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (On line UPS). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (ऑन लाइन UPS (On line UPS))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2327,10 +2327,10 @@
         "Non-hygroscopic nature, high dielectric strength, flexibility"
       ],
       "hi": [
-        "गैर - आर्द्र ताग्राही प्रकृ ति , उच्च परावैद्युत सामर्थ्य , लचीलापन",
-        "यांत्रिक सामर्थ्य , लचीलापन , आर्द्र ताग्राही प्रकृ ति",
         "उच्च परावैद्युत सामर्थ्य , लचीलापन , यांत्रिक सामर्थ्य",
-        "उच्च परावैद्युत सामर्थ्य , गैर - आर्द्र ताग्राही प्रकृ ति , यांत्रिक सामर्थ्य"
+        "यांत्रिक सामर्थ्य , लचीलापन , आर्द्र ताग्राही प्रकृ ति",
+        "उच्च परावैद्युत सामर्थ्य , गैर - आर्द्र ताग्राही प्रकृ ति , यांत्रिक सामर्थ्य",
+        "गैर - आर्द्र ताग्राही प्रकृ ति , उच्च परावैद्युत सामर्थ्य , लचीलापन"
       ]
     },
     "correctIndex": 1,
@@ -2338,8 +2338,8 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option B is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option B (Mechanical strength, flexibility, hygroscopic nature). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (यांत्रिक सामर्थ्य , लचीलापन , आर्द्र ताग्राही प्रकृ ति)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option B (Mechanical strength, flexibility, hygroscopic nature). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प B (यांत्रिक सामर्थ्य , लचीलापन , आर्द्र ताग्राही प्रकृ ति)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2360,19 +2360,19 @@
         "Ignore the spill and continue working"
       ],
       "hi": [
-        "गिरे हुए द्रव को सफाई कर्मचारियों के लिए छोड़ देना",
-        "गिरे हुए द्रव की उपेक्षा करना और कार्य जारी रखना",
+        "गिरे हुए द्रव को साफ करना और चेतावनी संके त लगाना",
         "गिरे हुए द्रव को केवल पेपर टॉवल से ढक देना",
-        "गिरे हुए द्रव को साफ करना और चेतावनी संके त लगाना"
+        "गिरे हुए द्रव को सफाई कर्मचारियों के लिए छोड़ देना",
+        "गिरे हुए द्रव की उपेक्षा करना और कार्य जारी रखना"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option A (Clean the spill and place a warning sign). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (गिरे हुए द्रव को साफ करना और चेतावनी संके त लगाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option A (Clean the spill and place a warning sign). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प A (गिरे हुए द्रव को साफ करना और चेतावनी संके त लगाना)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   },
   {
@@ -2383,39 +2383,6 @@
     "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
     "question": {
       "en": "The output expression of the given logic circuit is _________.",
-      "hi": "फोटोट्यूब (phototube) में कौन - सा टर्मिनल , प्रकाश के संपर्क में आने पर इलेक्ट्रॉन उत्स र्जन के लिए उत्तरदायी होता है ?"
-    },
-    "options": {
-      "en": [
-        "V_L = √3 V_ph",
-        "V_L = V_ph",
-        "V_L = V_ph / √3",
-        "V_L = 3 V_ph"
-      ],
-      "hi": [
-        "V_L = √3 V_ph",
-        "V_L = V_ph",
-        "V_L = V_ph / √3",
-        "V_L = 3 V_ph"
-      ]
-    },
-    "correctIndex": 0,
-    "correctIndexHi": 0,
-    "solution": {
-      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
-      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "In a star (Y) connection, Line Voltage = √3 * Phase Voltage, while Line Current = Phase Current. Correct: Option A.",
-      "hi": "स्टार संयोजन में: Line Voltage = √3 × Phase Voltage। सही उत्तर: विकल्प A।"
-    }
-  },
-  {
-    "id": 74,
-    "shiftQuestionNo": 74,
-    "section": "Part B: Mechanic Radio & TV",
-    "subject": "Mechanic Radio & TV",
-    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
-    "question": {
-      "en": "Suppose you are tasked with implementing the Boolean equation gates would you use to construct this equation?",
       "hi": "दिए गए लॉजिक सर्किट का आउटपुट व्यंजक _______ होगा।"
     },
     "options": {
@@ -2437,8 +2404,41 @@
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "In a star (Y) connection, Line Voltage = √3 * Phase Voltage, while Line Current = Phase Current. Correct: Option A.",
-      "hi": "स्टार संयोजन में: Line Voltage = √3 × Phase Voltage। सही उत्तर: विकल्प A।"
+      "en": "In a star (Y) connection, Line Voltage = √3 * Phase Voltage, while Line Current = Phase Current. Correct: Option A (V_L = √3 V_ph).",
+      "hi": "स्टार संयोजन में: Line Voltage = √3 × Phase Voltage। सही उत्तर: विकल्प A (V_L = √3 V_ph)।"
+    }
+  },
+  {
+    "id": 74,
+    "shiftQuestionNo": 74,
+    "section": "Part B: Mechanic Radio & TV",
+    "subject": "Mechanic Radio & TV",
+    "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
+    "question": {
+      "en": "Which combination of basic logic gates is equivalent to a NAND gate?",
+      "hi": "एक NAND गेट के समतुल्य होने के लिए आप मूल लॉजिक गेट के किस संयोजन का उपयोग करेंगे?"
+    },
+    "options": {
+      "en": [
+        "AND gate followed by NOT gate",
+        "Only OR gate",
+        "Only NOT gate",
+        "OR gate followed by NOT gate"
+      ],
+      "hi": [
+        "AND गेट के बाद NOT गेट",
+        "केवल OR गेट",
+        "केवल NOT गेट",
+        "OR गेट के बाद NOT गेट"
+      ]
+    },
+    "correctIndex": 0,
+    "correctIndexHi": 0,
+    "solution": {
+      "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option A is verified correct.",
+      "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
+      "en": "In a star (Y) connection, Line Voltage = √3 * Phase Voltage, while Line Current = Phase Current. Correct: Option A (AND gate followed by NOT gate).",
+      "hi": "स्टार संयोजन में: Line Voltage = √3 × Phase Voltage। सही उत्तर: विकल्प A (AND गेट के बाद NOT गेट)।"
     }
   },
   {
@@ -2449,29 +2449,29 @@
     "topic": "Mechanic Radio & TV Trade • CEN 01/2025 CBT-2 Part B (28 Jul 2026 Shift 1)",
     "question": {
       "en": "Which terminal in a phototube is responsible for emitting electrons when exposed to light?",
-      "hi": "मान लीजिए कि आपको एक कार्यशाला में बूलीय समीकरण को कार्यान्वित करने का कार्य सौंपा गया है। इस समीकरण के निर्माण के लिए आप बेसिक लॉजिक गेट (basic logic gate) के किस संयोजन का उपयोग करेंगे ?"
+      "hi": "फोटोट्यूब (phototube) में कौन - सा टर्मिनल , प्रकाश के संपर्क में आने पर इलेक्ट्रॉन उत्सर्जन के लिए उत्तरदायी होता है ?"
     },
     "options": {
       "en": [
         "Grid",
         "Anode",
         "Filament",
-        "Cathode in a workshop. Which combination of basic logic"
+        "Cathode"
       ],
       "hi": [
-        "AND गेट के बाद NOT गेट",
-        "केवल OR गेट",
-        "केवल NOT गेट",
-        "OR गेट के बाद NOT गेट"
+        "ग्रिड (Grid)",
+        "एनोड (Anode)",
+        "फिलामेंट (Filament)",
+        "कैथोड (Cathode)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "Official RRB ALP CBT-2 Part B (Mechanic Radio & TV) Answer Key: Option D is verified correct.",
       "keyConcept": "Mechanic Radio & TV Trade Theory • CEN 01/2025 CBT-2 Part B",
-      "en": "Correct Answer: Option D (Cathode in a workshop. Which combination of basic logic). Verified by Railway Recruitment Board (RRB) official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (AND गेट के बाद NOT गेट)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक CBT-2 उत्तर कुंजी द्वारा प्रमाणित।"
+      "en": "Correct Answer: Option D (Cathode). Verified by Railway Recruitment Board official CBT-2 answer key.",
+      "hi": "सही उत्तर: विकल्प D (कैथोड (Cathode))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
     }
   }
 ]

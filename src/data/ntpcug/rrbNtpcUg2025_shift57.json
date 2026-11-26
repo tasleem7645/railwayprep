@@ -17,19 +17,19 @@
         "Kollywood"
       ],
       "hi": [
-        "बॉलीवुड",
-        "कॉलीवुड",
         "टॉलीवुड",
-        "मॉलीवुड"
+        "बॉलीवुड",
+        "मॉलीवुड",
+        "कॉलीवुड"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Awards, Sports & Culture",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Bollywood) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (बॉलीवुड) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (बॉलीवुड) सही उत्तर है।"
     }
   },
   {
@@ -50,19 +50,19 @@
         "At least XII standard pass"
       ],
       "hi": [
-        "कम से कम आठवीं कक्षा उत्तीर्ण",
-        "कम से कम बारहवीं कक्षा उत्तीर्ण",
+        "कम से कम दसवीं कक्षा उत्तीर्ण",
         "कम से कम पांचवीं कक्षा उत्तीर्ण",
-        "कम से कम दसवीं कक्षा उत्तीर्ण"
+        "कम से कम आठवीं कक्षा उत्तीर्ण",
+        "कम से कम बारहवीं कक्षा उत्तीर्ण"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (At least VIII standard pass) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (कम से कम आठवीं कक्षा उत्तीर्ण) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (कम से कम आठवीं कक्षा उत्तीर्ण) सही उत्तर है।"
     }
   },
   {
@@ -83,19 +83,19 @@
         "Article 76"
       ],
       "hi": [
-        "अनुच्छेद 74",
-        "अनुच्छेद 75",
         "अनुच्छेद 72",
+        "अनुच्छेद 75",
+        "अनुच्छेद 74",
         "अनुच्छेद 76"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Indian Polity & Constitution",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (Article 72) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (अनुच्छेद 72) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (अनुच्छेद 72) सही उत्तर है।"
     }
   },
   {
@@ -116,19 +116,19 @@
         "1803"
       ],
       "hi": [
-        "1800",
         "1808",
         "1798",
+        "1800",
         "1803"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Indian Polity & Constitution",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (1808) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (1808) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (1808) सही उत्तर है।"
     }
   },
   {
@@ -139,7 +139,7 @@
     "topic": "General Awareness & Current Affairs • RRB NTPC UG 2024 (09 Sep 2025 Shift 3)",
     "question": {
       "en": "Which of the following options explains the variation in temperature between coastal and interior parts of India?",
-      "hi": "भारत की जनजातीय बस्तियाँ प्रायः सुदूर और वन क्षेत्रों में क्यों स्थित हैं?"
+      "hi": "निम्नलिखित में से कौन-सा विकल्प, भारत के तटीय और आंतरिक भागों के बीच तापमान में भिन्नता की व्याख्या करता है?"
     },
     "options": {
       "en": [
@@ -149,19 +149,19 @@
         "Continentality"
       ],
       "hi": [
-        "क्योंकि वन प्राकृ तिक संसाधन और आजीविका प्रदान करते हैं",
-        "आधुनिक अवसंरचना तक आसान पहुँच के कारण",
-        "क्योंकि सरकारी नीतियाँ उन्हें वहाँ रहने के लिए मजबूर करती हैं",
-        "क्योंकि उन्हें शहरों में प्रवेश की अनुमति नहीं है"
+        "दाब पट्टी",
+        "अक्षांश",
+        "उन्नतांश",
+        "महाद्वीपीयता"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (Continentality) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (क्योंकि वन प्राकृ तिक संसाधन और आजीविका प्रदान करते हैं) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (महाद्वीपीयता) सही उत्तर है।"
     }
   },
   {
@@ -182,19 +182,19 @@
         "Islam"
       ],
       "hi": [
-        "जैन धर्म",
         "बौद्ध धर्म",
+        "जैन धर्म",
         "हिंदू धर्म",
         "इस्लाम धर्म"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (Buddhism) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (बौद्ध धर्म) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (बौद्ध धर्म) सही उत्तर है।"
     }
   },
   {
@@ -215,19 +215,19 @@
         "CB‑NAAT"
       ],
       "hi": [
-        "ट्रूनेट (Truenat)",
-        "लाइन प्रोब ऐसे (Line Probe Assay)",
         "लैंप-टीबी (LAMP‑TB)",
+        "लाइन प्रोब ऐसे (Line Probe Assay)",
+        "ट्रूनेट (Truenat)",
         "सीबी-एनएएटी (CB‑NAAT)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (Truenat) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (ट्रूनेट (Truenat)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (ट्रूनेट (Truenat)) सही उत्तर है।"
     }
   },
   {
@@ -248,19 +248,19 @@
         "Liaquat Ali Khan"
       ],
       "hi": [
-        "लियाकत अली खान",
+        "मलिक फिरोज खान नून",
         "मुहम्मद अली जिन्ना",
         "बेनजीर भुट्टो",
-        "मलिक फिरोज खान नून"
+        "लियाकत अली खान"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (Liaquat Ali Khan) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (लियाकत अली खान) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (लियाकत अली खान) सही उत्तर है।"
     }
   },
   {
@@ -281,19 +281,19 @@
         "Passive resistance"
       ],
       "hi": [
-        "संसद में याचिका करना",
-        "शांतिपूर्ण प्रतिरोध",
         "सांस्कृ तिक आत्मसात्करण",
-        "सशस्त्र विद्रोह"
+        "सशस्त्र विद्रोह",
+        "संसद में याचिका करना",
+        "शांतिपूर्ण प्रतिरोध"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (Passive resistance) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (शांतिपूर्ण प्रतिरोध) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (शांतिपूर्ण प्रतिरोध) सही उत्तर है।"
     }
   },
   {
@@ -314,19 +314,19 @@
         "Goa"
       ],
       "hi": [
-        "गोवा",
+        "के रल",
         "देहरादून",
         "भुवनेश्वर",
-        "के रल"
+        "गोवा"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (Kerala) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (के रल) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (के रल) सही उत्तर है।"
     }
   },
   {
@@ -347,19 +347,19 @@
         "Recent volcanic lava deposits from plate margins"
       ],
       "hi": [
-        "पुरानी क्रिस्टलीय, आग्नेय और कायांतरित चट्टानें",
         "तटीय मैदानों में बनी युवा अवसादी चट्टानें",
+        "पुरानी क्रिस्टलीय, आग्नेय और कायांतरित चट्टानें",
         "समुद्री मूल से चूनाश्म और बालुकाश्म की परतें",
         "प्लेट मार्जिन से हालिया ज्वालामुखीय लावा निक्षेप"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Old crystalline, igneous and metamorphic rocks) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (पुरानी क्रिस्टलीय, आग्नेय और कायांतरित चट्टानें) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (पुरानी क्रिस्टलीय, आग्नेय और कायांतरित चट्टानें) सही उत्तर है।"
     }
   },
   {
@@ -380,19 +380,19 @@
         "Exclusively for States"
       ],
       "hi": [
-        "के वल राज्यों के लिए",
-        "के वल आपात स्थिति में",
         "कें द्र और राज्य दोनों कानून बना सकते हैं",
-        "के वल संघ के लिए"
+        "के वल आपात स्थिति में",
+        "के वल संघ के लिए",
+        "के वल राज्यों के लिए"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Indian Polity & Constitution",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (Both the Centre and the States can legislate) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (कें द्र और राज्य दोनों कानून बना सकते हैं) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (कें द्र और राज्य दोनों कानून बना सकते हैं) सही उत्तर है।"
     }
   },
   {
@@ -414,18 +414,18 @@
       ],
       "hi": [
         "ओजोन परत के संरक्षण",
+        "वन्यजीवों के संरक्षण",
         "मरूस्थलीयन नियंत्रण",
-        "ग्रीनहाउस गैस उत्सर्जन में कमी",
-        "वन्यजीवों के संरक्षण"
+        "ग्रीनहाउस गैस उत्सर्जन में कमी"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (reduction of greenhouse gas emissions) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (ग्रीनहाउस गैस उत्सर्जन में कमी) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (ग्रीनहाउस गैस उत्सर्जन में कमी) सही उत्तर है।"
     }
   },
   {
@@ -447,18 +447,18 @@
       ],
       "hi": [
         "उदय (UDAY)",
-        "सागरमाला (Sagarmala)",
         "उड़ान (UDAN)",
+        "सागरमाला (Sagarmala)",
         "पीएम गति शक्ति (PM Gati Shakti)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Schemes, Economy & Reports",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (UDAN) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (उड़ान (UDAN)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (उड़ान (UDAN)) सही उत्तर है।"
     }
   },
   {
@@ -481,17 +481,17 @@
       "hi": [
         "डेटा को स्थायी रूप से स्‍टोर करना",
         "बाद में उपयोग के लिए डेटा स्‍टोर करना",
-        "डेटा पुनर्प्राप्ति की स्‍पीड में वृद्धि करना",
-        "स्क्रीन पर इमेज प्रदर्शित करना"
+        "स्क्रीन पर इमेज प्रदर्शित करना",
+        "डेटा पुनर्प्राप्ति की स्‍पीड में वृद्धि करना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (increase the speed of data retrieval) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (डेटा पुनर्प्राप्ति की स्‍पीड में वृद्धि करना) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (डेटा पुनर्प्राप्ति की स्‍पीड में वृद्धि करना) सही उत्तर है।"
     }
   },
   {
@@ -502,7 +502,7 @@
     "topic": "Geography, Ecology & Current Affairs • RRB NTPC UG 2024 (09 Sep 2025 Shift 3)",
     "question": {
       "en": "Why are tribal settlements usually located in remote and forested areas of India?",
-      "hi": "निम्नलिखित में से कौन-सा विकल्प, भारत के तटीय और आंतरिक भागों के बीच तापमान में भिन्नता की व्याख्या करता है?"
+      "hi": "भारत की जनजातीय बस्तियाँ प्रायः सुदूर और वन क्षेत्रों में क्यों स्थित हैं?"
     },
     "options": {
       "en": [
@@ -512,10 +512,10 @@
         "Because forests provide natural resources and livelihood"
       ],
       "hi": [
-        "अक्षांश",
-        "उन्नतांश",
-        "दाब पट्टी",
-        "महाद्वीपीयता"
+        "क्योंकि उन्हें शहरों में प्रवेश की अनुमति नहीं है",
+        "आधुनिक अवसंरचना तक आसान पहुँच के कारण",
+        "क्योंकि सरकारी नीतियाँ उन्हें वहाँ रहने के लिए मजबूर करती हैं",
+        "क्योंकि वन प्राकृ तिक संसाधन और आजीविका प्रदान करते हैं"
       ]
     },
     "correctIndex": 3,
@@ -524,7 +524,7 @@
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Geography, Ecology & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (Because forests provide natural resources and livelihood) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (महाद्वीपीयता) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (क्योंकि वन प्राकृ तिक संसाधन और आजीविका प्रदान करते हैं) सही उत्तर है।"
     }
   },
   {
@@ -545,19 +545,19 @@
         "Mamata Banerjee"
       ],
       "hi": [
-        "शरद पवार",
         "अरविंद के जरीवाल",
         "राहुल गांधी",
+        "शरद पवार",
         "ममता बनर्जी"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Rahul Gandhi) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (राहुल गांधी) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (राहुल गांधी) सही उत्तर है।"
     }
   },
   {
@@ -612,8 +612,8 @@
       ],
       "hi": [
         "घाना",
-        "के न्या",
         "दक्षिण अफ्रीका",
+        "के न्या",
         "मोरक्को"
       ]
     },
@@ -644,19 +644,19 @@
         "Macedonia"
       ],
       "hi": [
-        "मैसेडोनिया (Macedonia)",
-        "बुल्गारिया (Bulgaria)",
         "ग्रीस (Greece)",
-        "अल्बानिया (Albania)"
+        "बुल्गारिया (Bulgaria)",
+        "अल्बानिया (Albania)",
+        "मैसेडोनिया (Macedonia)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (Greece) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (ग्रीस (Greece)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (ग्रीस (Greece)) सही उत्तर है।"
     }
   },
   {
@@ -677,19 +677,19 @@
         "Ministry of Chemicals and Fertilizers"
       ],
       "hi": [
+        "उपभोक्ता मामले, खाद्य और सार्वजनिक वितरण मंत्रालय",
         "औषधि मंत्रालय",
         "स्वास्थ्य एवं परिवार कल्याण मंत्रालय",
-        "उपभोक्ता मामले, खाद्य और सार्वजनिक वितरण मंत्रालय",
         "रसायन और उर्वरक मंत्रालय"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (Ministry of Health and Family Welfare) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (स्वास्थ्य एवं परिवार कल्याण मंत्रालय) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (स्वास्थ्य एवं परिवार कल्याण मंत्रालय) सही उत्तर है।"
     }
   },
   {
@@ -711,18 +711,18 @@
       ],
       "hi": [
         "कै श मेमोरी (Cache Memory)",
+        "रोम (ROM)",
         "रैम (RAM)",
-        "हार्ड डिस्क (Hard Disk)",
-        "रोम (ROM)"
+        "हार्ड डिस्क (Hard Disk)"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (Hard Disk) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (हार्ड डिस्क (Hard Disk)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (हार्ड डिस्क (Hard Disk)) सही उत्तर है।"
     }
   },
   {
@@ -743,19 +743,19 @@
         "Fragmentation of land holdings"
       ],
       "hi": [
-        "उच्च ग्रामीण साक्षरता स्तर",
-        "जोतों का विखंडन",
         "कटाई के बाद आधारिक संरचना की कमी",
-        "वर्षापोषित कृ षि की घटती उत्पादकता"
+        "उच्च ग्रामीण साक्षरता स्तर",
+        "वर्षापोषित कृ षि की घटती उत्पादकता",
+        "जोतों का विखंडन"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (High rural literacy levels) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (उच्च ग्रामीण साक्षरता स्तर) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (उच्च ग्रामीण साक्षरता स्तर) सही उत्तर है।"
     }
   },
   {
@@ -776,19 +776,19 @@
         "The Sugar (Trade and Export) Order, 2025"
       ],
       "hi": [
-        "चीनी (नियंत्रण) आदेश, 2025",
         "चीनी (निगरानी और मूल्य निर्धारण) आदेश, 2025",
-        "चीनी (व्यापार और निर्यात) आदेश, 2025",
-        "चीनी (उत्पादन और आपूर्ति) आदेश, 2025"
+        "चीनी (नियंत्रण) आदेश, 2025",
+        "चीनी (उत्पादन और आपूर्ति) आदेश, 2025",
+        "चीनी (व्यापार और निर्यात) आदेश, 2025"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (The Sugar (Control) Order, 2025) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (चीनी (नियंत्रण) आदेश, 2025) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चीनी (नियंत्रण) आदेश, 2025) सही उत्तर है।"
     }
   },
   {
@@ -809,19 +809,19 @@
         "industrial sector"
       ],
       "hi": [
-        "सेवा क्षेत्र",
         "कृ षि क्षेत्र",
-        "औद्योगिक क्षेत्र",
-        "स्वास्थ्य क्षेत्र"
+        "स्वास्थ्य क्षेत्र",
+        "सेवा क्षेत्र",
+        "औद्योगिक क्षेत्र"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (service sector) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (सेवा क्षेत्र) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (सेवा क्षेत्र) सही उत्तर है।"
     }
   },
   {
@@ -843,9 +843,9 @@
       ],
       "hi": [
         "नगर पंचायत",
-        "नगरपालिका",
         "टाउन पंचायत",
-        "नगर निगम"
+        "नगर निगम",
+        "नगरपालिका"
       ]
     },
     "correctIndex": 0,
@@ -875,19 +875,19 @@
         "Switzerland"
       ],
       "hi": [
-        "डेनमार्क (Denmark)",
         "आइसलैंड (Iceland)",
         "फिनलैंड (Finland)",
+        "डेनमार्क (Denmark)",
         "स्विट्ज़रलैण्ड (Switzerland)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Finland) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (फिनलैंड (Finland)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (फिनलैंड (Finland)) सही उत्तर है।"
     }
   },
   {
@@ -941,19 +941,19 @@
         "Rockfall"
       ],
       "hi": [
-        "शैलपात (Rockfall)",
         "पंक प्रवाह (Mudflow)",
         "हिमस्‍खलन (Avalanche)",
-        "मृदा विसर्पण (Soil creep)"
+        "मृदा विसर्पण (Soil creep)",
+        "शैलपात (Rockfall)"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (Mudflow) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (पंक प्रवाह (Mudflow)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (पंक प्रवाह (Mudflow)) सही उत्तर है।"
     }
   },
   {
@@ -974,19 +974,19 @@
         "To provide education to children aged six to fourteen years"
       ],
       "hi": [
-        "पर्यावरण की रक्षा करना",
+        "वैज्ञानिक दृष्टिकोण विकसित करना",
         "राष्ट्रीय एकता को बनाए रखना और उसकी रक्षा करना",
-        "छह से चौदह वर्ष की आयु के बच्चों को शिक्षा प्रदान करना",
-        "वैज्ञानिक दृष्टिकोण विकसित करना"
+        "पर्यावरण की रक्षा करना",
+        "छह से चौदह वर्ष की आयु के बच्चों को शिक्षा प्रदान करना"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Indian Polity & Constitution",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (To provide education to children aged six to fourteen years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (छह से चौदह वर्ष की आयु के बच्चों को शिक्षा प्रदान करना) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (छह से चौदह वर्ष की आयु के बच्चों को शिक्षा प्रदान करना) सही उत्तर है।"
     }
   },
   {
@@ -1007,19 +1007,19 @@
         "KN Vyas"
       ],
       "hi": [
-        "अजीत कु मार मोहंती",
         "शेखर बसु",
+        "अजीत कु मार मोहंती",
         "रतन कु मार सिन्हा",
         "के एन व्यास"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Ajit Kumar Mohanty) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (अजीत कु मार मोहंती) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (अजीत कु मार मोहंती) सही उत्तर है।"
     }
   },
   {
@@ -1040,19 +1040,19 @@
         "Khizr Khan"
       ],
       "hi": [
-        "अलाउद्दीन खिलजी",
-        "ख़िज़्र ख़ाँ",
         "गयासुद्दीन तुग़लक़",
-        "ग़यासुद्दीन बलबन"
+        "ग़यासुद्दीन बलबन",
+        "अलाउद्दीन खिलजी",
+        "ख़िज़्र ख़ाँ"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Indian Polity & Constitution",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (Alauddin Khalji) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (अलाउद्दीन खिलजी) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (अलाउद्दीन खिलजी) सही उत्तर है।"
     }
   },
   {
@@ -1073,19 +1073,19 @@
         "Hospital ship"
       ],
       "hi": [
+        "गहन जलमग्न बचाव पोत",
         "ध्रुवीय अनुसंधान पोत",
         "विमान वाहक",
-        "गहन जलमग्न बचाव पोत",
         "अस्पताल जहाज"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Polar research vessel) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (ध्रुवीय अनुसंधान पोत) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (ध्रुवीय अनुसंधान पोत) सही उत्तर है।"
     }
   },
   {
@@ -1106,19 +1106,19 @@
         "Kerala"
       ],
       "hi": [
-        "के रल",
         "आंध्र",
+        "बंगाल",
         "गुजरात",
-        "बंगाल"
+        "के रल"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Bengal) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (बंगाल) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (बंगाल) सही उत्तर है।"
     }
   },
   {
@@ -1140,9 +1140,9 @@
       ],
       "hi": [
         "तीन",
-        "छः",
+        "एक",
         "दो",
-        "एक"
+        "छः"
       ]
     },
     "correctIndex": 0,
@@ -1205,9 +1205,9 @@
         "Alessia Russo"
       ],
       "hi": [
-        "लॉरेन जेम्स (Lauren James)",
         "मैरियोना कै ल्डेंटे (Mariona Caldentey)",
         "खदीजा शॉ (Khadija Shaw)",
+        "लॉरेन जेम्स (Lauren James)",
         "एलेसिया रूसो (Alessia Russo)"
       ]
     },
@@ -1238,19 +1238,19 @@
         "Union Minister for Defence"
       ],
       "hi": [
-        "कें द्रीय इलेक्ट्रॉनिक्स एवं सूचना प्रौद्योगिकी मंत्री",
-        "कें द्रीय स्वास्थ्य एवं परिवार कल्याण मंत्री",
         "कें द्रीय वित्त मंत्री",
+        "कें द्रीय स्वास्थ्य एवं परिवार कल्याण मंत्री",
+        "कें द्रीय इलेक्ट्रॉनिक्स एवं सूचना प्रौद्योगिकी मंत्री",
         "कें द्रीय रक्षा मंत्री"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (Union Minister for Electronics & Information Technology) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (कें द्रीय इलेक्ट्रॉनिक्स एवं सूचना प्रौद्योगिकी मंत्री) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (कें द्रीय इलेक्ट्रॉनिक्स एवं सूचना प्रौद्योगिकी मंत्री) सही उत्तर है।"
     }
   },
   {
@@ -1271,19 +1271,19 @@
         "To nationalise all companies"
       ],
       "hi": [
-        "भारत की अर्थव्यवस्था को स्थिर करना",
         "विलास वस्तुओं पर कर कम करना",
+        "भारत की अर्थव्यवस्था को स्थिर करना",
         "सरकारी नियंत्रण बढ़ाना",
         "सभी कं पनियों का राष्ट्रीयकरण करना"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (To stabilise India’s economy) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (भारत की अर्थव्यवस्था को स्थिर करना) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (भारत की अर्थव्यवस्था को स्थिर करना) सही उत्तर है।"
     }
   },
   {
@@ -1304,19 +1304,19 @@
         "January"
       ],
       "hi": [
-        "जनवरी",
-        "फरवरी",
         "अप्रैल",
-        "मार्च"
+        "मार्च",
+        "फरवरी",
+        "जनवरी"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "General Awareness & Current Affairs",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (January) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (जनवरी) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (जनवरी) सही उत्तर है।"
     }
   },
   {
@@ -1337,19 +1337,19 @@
         "34.12"
       ],
       "hi": [
-        "35.12",
+        "33.12",
         "36.12",
-        "34.12",
-        "33.12"
+        "35.12",
+        "34.12"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Averages & Statistics",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (34.12) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (34.12) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (34.12) सही उत्तर है।"
     }
   },
   {
@@ -1370,19 +1370,19 @@
         "79.14"
       ],
       "hi": [
+        "69.95",
         "76.47",
-        "79.14",
         "72.94",
-        "69.95"
+        "79.14"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Time, Speed & Distance",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (76.47) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (76.47) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (76.47) सही उत्तर है।"
     }
   },
   {
@@ -1404,9 +1404,9 @@
       ],
       "hi": [
         "दिन ![Option](/crops/ntpc/hi_88ceffaa4d2b.png)",
+        "दिन ![Option](/crops/ntpc/hi_3fd25f06825f.png)",
         "दिन ![Option](/crops/ntpc/hi_f9b249369961.png)",
-        "दिन ![Option](/crops/ntpc/hi_135b074888dc.png)",
-        "दिन ![Option](/crops/ntpc/hi_3fd25f06825f.png)"
+        "दिन ![Option](/crops/ntpc/hi_135b074888dc.png)"
       ]
     },
     "correctIndex": 0,
@@ -1414,8 +1414,8 @@
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Time & Work / Pipes",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A ([Figure/Equation]) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (दिन [आरेख/समीकरण]) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (See image option) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (दिन ![Option](/crops/ntpc/hi_88ceffaa4d2b.png)) सही उत्तर है।"
     }
   },
   {
@@ -1436,19 +1436,19 @@
         "2 : 1"
       ],
       "hi": [
-        "8 : 1",
         "16 : 1",
-        "2 : 1",
-        "4 : 1"
+        "8 : 1",
+        "4 : 1",
+        "2 : 1"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (8 : 1) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (8 : 1) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (8 : 1) सही उत्तर है।"
     }
   },
   {
@@ -1469,19 +1469,19 @@
         "50.7"
       ],
       "hi": [
-        "5.07",
-        "50.7",
+        "0.507",
         "507",
-        "0.507"
+        "5.07",
+        "50.7"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Number System, Algebra & Percentage",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (50.7) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (50.7) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (50.7) सही उत्तर है।"
     }
   },
   {
@@ -1502,19 +1502,19 @@
         "12"
       ],
       "hi": [
-        "15",
         "5",
         "13",
+        "15",
         "12"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (5) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (5) सही उत्तर है।"
     }
   },
   {
@@ -1568,19 +1568,19 @@
         "14.31"
       ],
       "hi": [
-        "16.92",
-        "14.31",
         "13.77",
-        "14.22"
+        "16.92",
+        "14.22",
+        "14.31"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (14.31) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (14.31) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (14.31) सही उत्तर है।"
     }
   },
   {
@@ -1601,21 +1601,21 @@
         "16.52"
       ],
       "hi": [
-        "16.52",
-        "13.96",
+        "16.68",
         "13.71",
-        "16.68"
+        "13.96",
+        "16.52"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (13.71) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (13.71) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (13.71) सही उत्तर है।"
     },
-    "image": "/crops/ntpc/en_d0277743f55c.png",
+    "image_en": "/crops/ntpc/en_d0277743f55c.png",
     "image_hi": "/crops/ntpc/hi_1400c8ca952d.png"
   },
   {
@@ -1636,19 +1636,19 @@
         "₹20"
       ],
       "hi": [
-        "₹22",
         "₹24",
         "₹26",
+        "₹22",
         "₹20"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Profit, Loss & Discount",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (₹24) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (₹24) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (₹24) सही उत्तर है।"
     }
   },
   {
@@ -1670,8 +1670,8 @@
       ],
       "hi": [
         "102",
-        "107",
         "106",
+        "107",
         "104"
       ]
     },
@@ -1702,19 +1702,19 @@
         "84"
       ],
       "hi": [
+        "104",
         "154",
-        "84",
         "204",
-        "104"
+        "84"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 3,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Simple & Compound Interest",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (104) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (104) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (104) सही उत्तर है।"
     }
   },
   {
@@ -1735,19 +1735,19 @@
         "91°"
       ],
       "hi": [
-        "85°",
         "90°",
-        "91°",
-        "88°"
+        "88°",
+        "85°",
+        "91°"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Geometry & Mensuration",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (91°) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (91°) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (91°) सही उत्तर है।"
     }
   },
   {
@@ -1768,21 +1768,21 @@
         "55.5%"
       ],
       "hi": [
+        "55.7%",
         "53.9%",
         "55.9%",
-        "55.7%",
         "55.5%"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (53.9%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (53.9%) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (53.9%) सही उत्तर है।"
     },
-    "image": "/crops/ntpc/en_519db6ff0407.png",
+    "image_en": "/crops/ntpc/en_519db6ff0407.png",
     "image_hi": "/crops/ntpc/hi_322cbcbacf70.png"
   },
   {
@@ -1803,19 +1803,19 @@
         "31"
       ],
       "hi": [
-        "31",
         "18",
         "36",
-        "19"
+        "19",
+        "31"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (18) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (18) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (18) सही उत्तर है।"
     }
   },
   {
@@ -1836,19 +1836,19 @@
         "₹31,400"
       ],
       "hi": [
+        "₹32,000",
         "₹31,800",
         "₹30,400",
-        "₹31,400",
-        "₹32,000"
+        "₹31,400"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 2,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Profit, Loss & Discount",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹31,400) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹31,400) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹31,400) सही उत्तर है।"
     }
   },
   {
@@ -1869,21 +1869,21 @@
         "−93x + 144"
       ],
       "hi": [
-        "−93x + 144",
+        "−93x − 144",
         "93x + 144",
         "93x − 144",
-        "−93x − 144"
+        "−93x + 144"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−93x + 144) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (−93x + 144) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−93x + 144) सही उत्तर है।"
     },
-    "image": "/crops/ntpc/en_7d37d923b368.png",
+    "image_en": "/crops/ntpc/en_7d37d923b368.png",
     "image_hi": "/crops/ntpc/hi_74c443cb53a6.png"
   },
   {
@@ -1904,10 +1904,10 @@
         "24.67%"
       ],
       "hi": [
+        "28.67%",
         "30.67%",
-        "24.67%",
         "26.67%",
-        "28.67%"
+        "24.67%"
       ]
     },
     "correctIndex": 2,
@@ -1937,19 +1937,19 @@
         "495"
       ],
       "hi": [
-        "495",
         "531",
         "488",
-        "517"
+        "517",
+        "495"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Ratio, Proportion & Partnership",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (488) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (488) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (488) सही उत्तर है।"
     }
   },
   {
@@ -1970,10 +1970,10 @@
         "692.5"
       ],
       "hi": [
+        "2770",
         "4155",
-        "692.5",
         "1385",
-        "2770"
+        "692.5"
       ]
     },
     "correctIndex": 2,
@@ -2003,19 +2003,19 @@
         "₹700"
       ],
       "hi": [
-        "₹750",
-        "₹700",
+        "₹900",
         "₹1,000",
-        "₹900"
+        "₹750",
+        "₹700"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Profit, Loss & Discount",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹750) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (₹750) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹750) सही उत्तर है।"
     }
   },
   {
@@ -2036,22 +2036,22 @@
         "![Option](/crops/ntpc/en_8211179d06b6.png)"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_2e90a2821b84.png)",
-        "![Option](/crops/ntpc/hi_2ce5af9bd11a.png)",
-        "![Option](/crops/ntpc/hi_5b6a79466569.png)",
-        "![Option](/crops/ntpc/hi_7e81df0cd70e.png)"
+        "![Option](/crops/ntpc/hi_cd2514f3fbf0.png)",
+        "![Option](/crops/ntpc/hi_8d4782f50423.png)",
+        "![Option](/crops/ntpc/hi_b6ce70eb63f0.png)",
+        "![Option](/crops/ntpc/hi_5ac93e583b1f.png)"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ([Figure/Equation]) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A ([आरेख/समीकरण]) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (See image option) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (चित्र विकल्प देखें) सही उत्तर है।"
     },
-    "image": "/crops/ntpc/en_3c4853f566b5.png",
-    "image_hi": "/crops/ntpc/hi_d8799da143fc.png"
+    "image_en": "/crops/ntpc/en_3c4853f566b5.png",
+    "image_hi": "/crops/ntpc/hi_b2fd41868eb7.png"
   },
   {
     "id": 63,
@@ -2072,18 +2072,18 @@
       ],
       "hi": [
         "22",
-        "26",
         "23",
-        "24"
+        "24",
+        "26"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Time, Speed & Distance",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (24) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (24) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (24) सही उत्तर है।"
     }
   },
   {
@@ -2104,19 +2104,19 @@
         "13,111"
       ],
       "hi": [
-        "13,110",
-        "13,111",
         "13,115",
-        "13,118"
+        "13,118",
+        "13,110",
+        "13,111"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Number System, Algebra & Percentage",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (13,115) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (13,115) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (13,115) सही उत्तर है।"
     }
   },
   {
@@ -2137,19 +2137,19 @@
         "3,207"
       ],
       "hi": [
-        "5,345",
         "7,483",
         "9,621",
+        "5,345",
         "3,207"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Ratio, Proportion & Partnership",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (9,621) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (9,621) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (9,621) सही उत्तर है।"
     }
   },
   {
@@ -2170,22 +2170,22 @@
         "![Option](/crops/ntpc/en_5b6a79466569.png)"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_5ac93e583b1f.png)",
-        "![Option](/crops/ntpc/hi_cd2514f3fbf0.png)",
-        "![Option](/crops/ntpc/hi_8d4782f50423.png)",
-        "![Option](/crops/ntpc/hi_b6ce70eb63f0.png)"
+        "![Option](/crops/ntpc/hi_7e81df0cd70e.png)",
+        "![Option](/crops/ntpc/hi_2e90a2821b84.png)",
+        "![Option](/crops/ntpc/hi_2ce5af9bd11a.png)",
+        "![Option](/crops/ntpc/hi_5b6a79466569.png)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ([Figure/Equation]) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ([आरेख/समीकरण]) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
     },
-    "image": "/crops/ntpc/en_d1b4c356cffe.png",
-    "image_hi": "/crops/ntpc/hi_b2fd41868eb7.png"
+    "image_en": "/crops/ntpc/en_d1b4c356cffe.png",
+    "image_hi": "/crops/ntpc/hi_d8799da143fc.png"
   },
   {
     "id": 67,
@@ -2205,19 +2205,19 @@
         "![Option](/crops/ntpc/en_6d14624f3ca9.png)"
       ],
       "hi": [
-        "![Option](/crops/ntpc/hi_6d14624f3ca9.png)",
-        "![Option](/crops/ntpc/hi_df1875db546b.png)",
+        "![Option](/crops/ntpc/hi_24b2f550d26d.png)",
         "![Option](/crops/ntpc/hi_3e19e2f3b823.png)",
-        "![Option](/crops/ntpc/hi_24b2f550d26d.png)"
+        "![Option](/crops/ntpc/hi_df1875db546b.png)",
+        "![Option](/crops/ntpc/hi_6d14624f3ca9.png)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ([Figure/Equation]) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ([आरेख/समीकरण]) सही उत्तर है।"
+      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (See image option) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (चित्र विकल्प देखें) सही उत्तर है।"
     }
   },
   {
@@ -2238,19 +2238,19 @@
         "₹23,995"
       ],
       "hi": [
-        "₹24,650",
-        "₹23,995",
         "₹25,540",
-        "₹24,870"
+        "₹24,870",
+        "₹24,650",
+        "₹23,995"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Simple & Compound Interest",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹24,650) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (₹24,650) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹24,650) सही उत्तर है।"
     }
   },
   {
@@ -2271,9 +2271,9 @@
         "20 days"
       ],
       "hi": [
+        "16 दिन",
         "18 दिन",
         "15 दिन",
-        "16 दिन",
         "20 दिन"
       ]
     },
@@ -2305,18 +2305,18 @@
       ],
       "hi": [
         "7",
+        "2",
         "3",
-        "4",
-        "2"
+        "4"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Quantitative Aptitude",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (3) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (3) सही उत्तर है।"
     }
   },
   {
@@ -2337,19 +2337,19 @@
         "Three"
       ],
       "hi": [
-        "तीन",
-        "दो",
         "चार",
-        "एक"
+        "दो",
+        "एक",
+        "तीन"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Seating Arrangement & Puzzles",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (One) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (एक) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (एक) सही उत्तर है।"
     }
   },
   {
@@ -2370,10 +2370,10 @@
         "OGZP"
       ],
       "hi": [
-        "MDAP",
+        "MEBR",
         "NFAQ",
-        "OGZP",
-        "MEBR"
+        "MDAP",
+        "OGZP"
       ]
     },
     "correctIndex": 1,
@@ -2404,9 +2404,9 @@
       ],
       "hi": [
         "12",
-        "13",
+        "10",
         "11",
-        "10"
+        "13"
       ]
     },
     "correctIndex": 2,
@@ -2436,19 +2436,19 @@
         "26"
       ],
       "hi": [
-        "4",
-        "26",
         "12",
-        "19"
+        "4",
+        "19",
+        "26"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Logical & Analytical Reasoning",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (19) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (19) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (19) सही उत्तर है।"
     }
   },
   {
@@ -2469,19 +2469,19 @@
         "Mother's brother's son"
       ],
       "hi": [
-        "माता के भाई की बहन",
-        "माता के भाई का पुत्र",
         "माता के भाई की पत्नी",
-        "माता के भाई की पुत्री"
+        "माता के भाई की पुत्री",
+        "माता के भाई की बहन",
+        "माता के भाई का पुत्र"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 3,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Blood Relations",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Mother's brother's daughter) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (माता के भाई की पुत्री) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (माता के भाई की पुत्री) सही उत्तर है।"
     }
   },
   {
@@ -2502,19 +2502,19 @@
         "NKHP"
       ],
       "hi": [
-        "NKHP",
-        "NKGP",
         "NKHO",
-        "NKGO"
+        "NKGP",
+        "NKGO",
+        "NKHP"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Coding-Decoding, Series & Analogy",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (NKGO) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (NKGO) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (NKGO) सही उत्तर है।"
     }
   },
   {
@@ -2535,19 +2535,19 @@
         "TW-YB"
       ],
       "hi": [
-        "JM-OR",
-        "TW-YB",
         "ZC-EH",
-        "FI-KM"
+        "JM-OR",
+        "FI-KM",
+        "TW-YB"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Blood Relations",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (FI-KM) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (FI-KM) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (FI-KM) सही उत्तर है।"
     }
   },
   {
@@ -2569,18 +2569,18 @@
       ],
       "hi": [
         "88",
-        "86",
         "82",
+        "86",
         "84"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Coding-Decoding, Series & Analogy",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (86) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (86) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (86) सही उत्तर है।"
     }
   },
   {
@@ -2601,9 +2601,9 @@
         "144"
       ],
       "hi": [
+        "143",
         "146",
         "145",
-        "143",
         "144"
       ]
     },
@@ -2635,18 +2635,18 @@
       ],
       "hi": [
         "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
-        "के वल निष्कर्ष (I) अनुसरण करता है।",
         "के वल निष्कर्ष (II) अनुसरण करता है।",
+        "के वल निष्कर्ष (I) अनुसरण करता है।",
         "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 1,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Syllogism & Conclusions",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (Only conclusion (I) follows.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (के वल निष्कर्ष (I) अनुसरण करता है।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (के वल निष्कर्ष (I) अनुसरण करता है।) सही उत्तर है।"
     }
   },
   {
@@ -2667,8 +2667,8 @@
         "GOE"
       ],
       "hi": [
-        "GOF",
         "JOF",
+        "GOF",
         "JOE",
         "GOE"
       ]
@@ -2700,19 +2700,19 @@
         "2"
       ],
       "hi": [
-        "2",
-        "5",
         "4",
-        "3"
+        "5",
+        "3",
+        "2"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Coding-Decoding, Series & Analogy",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (3) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (3) सही उत्तर है।"
     }
   },
   {
@@ -2733,19 +2733,19 @@
         "52"
       ],
       "hi": [
-        "51",
-        "52",
         "53",
-        "50"
+        "51",
+        "50",
+        "52"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Logical & Analytical Reasoning",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (52) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (52) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (52) सही उत्तर है।"
     }
   },
   {
@@ -2766,19 +2766,19 @@
         "6 km to the south"
       ],
       "hi": [
-        "7 km, उत्तर की ओर",
-        "6 km, दक्षिण की ओर",
+        "6 km, उत्तर की ओर",
         "7 km, दक्षिण की ओर",
-        "6 km, उत्तर की ओर"
+        "7 km, उत्तर की ओर",
+        "6 km, दक्षिण की ओर"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Direction Sense",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (7 km to the south) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (7 km, दक्षिण की ओर) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (7 km, दक्षिण की ओर) सही उत्तर है।"
     }
   },
   {
@@ -2799,10 +2799,10 @@
         "UMB 56"
       ],
       "hi": [
-        "UMB 56",
-        "UND 56",
         "TMC 54",
-        "SNB 57"
+        "UND 56",
+        "SNB 57",
+        "UMB 56"
       ]
     },
     "correctIndex": 1,
@@ -2832,19 +2832,19 @@
         "Three"
       ],
       "hi": [
+        "चार",
         "दो",
-        "तीन",
         "एक",
-        "चार"
+        "तीन"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 0,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Seating Arrangement & Puzzles",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (Two) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (दो) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (दो) सही उत्तर है।"
     }
   },
   {
@@ -2865,19 +2865,19 @@
         "3 km towards east"
       ],
       "hi": [
-        "9 km उत्तर की ओर",
-        "3 km पूर्व की ओर",
         "2 km पश्चिम की ओर",
-        "7 km दक्षिण की ओर"
+        "9 km उत्तर की ओर",
+        "7 km दक्षिण की ओर",
+        "3 km पूर्व की ओर"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Direction Sense",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (3 km towards east) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (3 km पूर्व की ओर) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (3 km पूर्व की ओर) सही उत्तर है।"
     }
   },
   {
@@ -2898,19 +2898,19 @@
         "6"
       ],
       "hi": [
-        "9",
-        "6",
         "1",
-        "3"
+        "3",
+        "9",
+        "6"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Coding-Decoding, Series & Analogy",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (9) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (9) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (9) सही उत्तर है।"
     }
   },
   {
@@ -2931,19 +2931,19 @@
         "2"
       ],
       "hi": [
-        "2",
         "4",
         "1",
-        "3"
+        "3",
+        "2"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Seating Arrangement & Puzzles",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (1) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (1) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (1) सही उत्तर है।"
     }
   },
   {
@@ -2964,19 +2964,19 @@
         "10"
       ],
       "hi": [
-        "10",
-        "11",
         "9",
-        "8"
+        "11",
+        "8",
+        "10"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 2,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Coding-Decoding, Series & Analogy",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (9) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (9) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (9) सही उत्तर है।"
     }
   },
   {
@@ -2999,8 +2999,8 @@
       "hi": [
         "दो",
         "तीन",
-        "एक भी नहीं",
-        "एक"
+        "एक",
+        "एक भी नहीं"
       ]
     },
     "correctIndex": 0,
@@ -3030,19 +3030,19 @@
         "CG-XP"
       ],
       "hi": [
-        "CG-XP",
         "HL-CU",
         "WA-RI",
-        "NR-IA"
+        "NR-IA",
+        "CG-XP"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Blood Relations",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (WA-RI) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (WA-RI) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (WA-RI) सही उत्तर है।"
     }
   },
   {
@@ -3063,19 +3063,19 @@
         "72"
       ],
       "hi": [
-        "9",
-        "72",
         "48",
-        "36"
+        "36",
+        "9",
+        "72"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 1,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Coding-Decoding, Series & Analogy",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (72) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (72) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (72) सही उत्तर है।"
     }
   },
   {
@@ -3097,18 +3097,18 @@
       ],
       "hi": [
         "(5, 16, 48)",
-        "(18, 54, 153)",
         "(33, 100, 301)",
+        "(18, 54, 153)",
         "(22, 45, 105)"
       ]
     },
     "correctIndex": 1,
-    "correctIndexHi": 2,
+    "correctIndexHi": 1,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
       "keyConcept": "Coding-Decoding, Series & Analogy",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ((33, 100, 301)) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ((33, 100, 301)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ((33, 100, 301)) सही उत्तर है।"
     }
   },
   {
@@ -3162,19 +3162,19 @@
         "Both conclusions (I) and (II) follow."
       ],
       "hi": [
-        "के वल निष्कर्ष (II) अनुसरण करता है।",
         "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
-        "के वल निष्कर्ष (I) अनुसरण करता है।"
+        "के वल निष्कर्ष (I) अनुसरण करता है।",
+        "के वल निष्कर्ष (II) अनुसरण करता है।",
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
       ]
     },
     "correctIndex": 0,
-    "correctIndexHi": 1,
+    "correctIndexHi": 0,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
       "keyConcept": "Syllogism & Conclusions",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (Neither conclusion (I) nor (II) follows.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।) सही उत्तर है।"
     }
   },
   {
@@ -3196,9 +3196,9 @@
       ],
       "hi": [
         "31",
+        "26",
         "14",
-        "37",
-        "26"
+        "37"
       ]
     },
     "correctIndex": 0,
@@ -3228,19 +3228,19 @@
         "4"
       ],
       "hi": [
-        "5",
-        "4",
+        "2",
         "3",
-        "2"
+        "5",
+        "4"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 0,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Seating Arrangement & Puzzles",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (5) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (5) सही उत्तर है।"
     }
   },
   {
@@ -3263,17 +3263,17 @@
       "hi": [
         "30",
         "25",
-        "40",
-        "35"
+        "35",
+        "40"
       ]
     },
     "correctIndex": 2,
-    "correctIndexHi": 3,
+    "correctIndexHi": 2,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
       "keyConcept": "Coding-Decoding, Series & Analogy",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (35) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (35) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (35) सही उत्तर है।"
     }
   },
   {
@@ -3294,19 +3294,19 @@
         "QT-XP"
       ],
       "hi": [
-        "QT-XP",
-        "KN-RI",
         "MP-TK",
-        "OR-VM"
+        "OR-VM",
+        "KN-RI",
+        "QT-XP"
       ]
     },
     "correctIndex": 3,
-    "correctIndexHi": 0,
+    "correctIndexHi": 3,
     "solution": {
       "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
       "keyConcept": "Blood Relations",
       "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (QT-XP) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (QT-XP) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (QT-XP) सही उत्तर है।"
     }
   }
 ]

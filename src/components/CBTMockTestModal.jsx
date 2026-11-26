@@ -6,6 +6,7 @@ import {
   Maximize, Minimize, Star, Sun, Moon
 } from 'lucide-react';
 import QuestionContentRenderer, { OptionContentRenderer } from './QuestionContentRenderer';
+import { getQuestionImage } from '../utils/pyqHelper';
 
 export default function CBTMockTestModal({ 
   test, 
@@ -734,7 +735,7 @@ export default function CBTMockTestModal({
             <div className="mb-6">
               <QuestionContentRenderer
                 text={currentQ.question[currentQLang] || currentQ.question['en']}
-                image={currentQ[`image_${currentQLang}`] || currentQ.image}
+                image={getQuestionImage(currentQ, currentQLang)}
                 className={`text-sm sm:text-base lg:text-lg font-normal leading-relaxed font-sans ${examLightMode ? 'text-slate-900 font-medium' : 'text-slate-100'}`}
               />
             </div>
@@ -980,7 +981,7 @@ export default function CBTMockTestModal({
                   </div>
                   <QuestionContentRenderer
                     text={q.question[globalLang] || q.question['en']}
-                    image={q[`image_${globalLang}`] || q.image}
+                    image={getQuestionImage(q, globalLang)}
                     className="text-slate-200 mb-2"
                   />
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] text-slate-300 pl-2">

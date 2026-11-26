@@ -17,9 +17,9 @@
         "22 u"
       ],
       "hi": [
-        "18 u",
         "20 u",
         "24 u",
+        "18 u",
         "22 u"
       ]
     },
@@ -52,9 +52,9 @@
       ],
       "hi": [
         "उत्पा दों का द्रव्यमान , अभिकारकों के द्रव्यमान से कम होता है",
-        "निकाय के तापमान में वृद्धि होती है",
         "विलयनों के मिश्रण के बाद एक श्वेत अवक्षेप बनता है",
-        "अभिक्रिया के बाद विलयन का रंग परिवर्तित हो जाता है"
+        "अभिक्रिया के बाद विलयन का रंग परिवर्तित हो जाता है",
+        "निकाय के तापमान में वृद्धि होती है"
       ]
     },
     "correctIndex": 0,
@@ -85,9 +85,9 @@
         "Tumours"
       ],
       "hi": [
-        "अंग तंत्र (Organ systems)",
-        "कोशिका अंतरंगक (Cell inclusions)",
         "रसधानी (Vacuoles)",
+        "कोशिका अंतरंगक (Cell inclusions)",
+        "अंग तंत्र (Organ systems)",
         "अर्बुद (Tumours)"
       ]
     },
@@ -108,8 +108,8 @@
     "subject": "General Science",
     "topic": "Classification of Organisms • RRB Group D Level-1 (18 Aug 2026 Shift 35)",
     "question": {
-      "en": "In the biological taxonomic hierarchy, which taxonomic rank is determined last when classifying a newly discovered plant? 2:15 PM · English",
-      "hi": "जैविक वर्गिकी पदानुक्रम में , नए खोजे गए पादप को वर्गीकृ त करते समय कौन - सा वर्गिकी पद (rank) सबसे अंत में निर्धारित किया जाता है ? 2:15 PM · Hindi"
+      "en": "In the biological taxonomic hierarchy, which taxonomic rank is determined last when classifying a newly discovered plant?",
+      "hi": "जैविक वर्गिकी पदानुक्रम में , नए खोजे गए पादप को वर्गीकृ त करते समय कौन - सा वर्गिकी पद (rank) सबसे अंत में निर्धारित किया जाता है ?"
     },
     "options": {
       "en": [
@@ -119,10 +119,10 @@
         "Order"
       ],
       "hi": [
-        "गण (Order)",
         "वंश (Genus)",
+        "कु ल (Family)",
         "स्पीशीज (Species)",
-        "कु ल (Family)"
+        "गण (Order)"
       ]
     },
     "correctIndex": 2,
@@ -147,16 +147,16 @@
     },
     "options": {
       "en": [
-        "energy transfer efficiency is higher in food chains than in food webs a food chain represents a single linear pathway,",
-        "while a food web shows interconnected feeding relationships",
+        "energy transfer efficiency is higher in food chains than in food webs",
+        "a food chain represents a single linear pathway, while a food web shows interconnected feeding relationships",
         "a food chain always involves decomposers, while food webs do not",
         "food chains exist in aquatic ecosystems, while food webs are only in terrestrial ecosystems"
       ],
       "hi": [
-        "खाद्य श्रृंखलाओं में ऊर्जा स्थानांतरण दक्षता खाद्य जाल की तुलना में उच्‍च होता है खाद्य श्रृंखलाएँ जलीय पारिस्थितिक तंत्रों में पाई जाती हैं , जबकि",
-        "खाद्य जाल परस्पर जुड़े हुए आहार संबंधों को दर्शाता है",
-        "खाद्य श्रृंखला में हमेशा अपघटक शामिल होते हैं , जबकि खाद्य जाल में नहीं खाद्य श्रृंखला एक एकल रैखिक मार्ग को दर्शाती है , जबकि",
-        "खाद्य जाल केवल स्थलीय पारिस्थितिक तंत्रों में पाए जाते हैं"
+        "खाद्य श्रृंखलाओं में ऊर्जा स्थानांतरण दक्षता खाद्य जाल की तुलना में उच्च होता है",
+        "खाद्य श्रृंखला एक एकल रैखिक मार्ग को दर्शाती है, जबकि खाद्य जाल परस्पर जुड़े हुए आहार संबंधों को दर्शाता है",
+        "खाद्य श्रृंखला में हमेशा अपघटक शामिल होते हैं, जबकि खाद्य जाल में नहीं",
+        "खाद्य श्रृंखलाएँ जलीय पारिस्थितिक तंत्रों में पाई जाती हैं, जबकि खाद्य जाल केवल स्थलीय पारिस्थितिक तंत्रों में पाए जाते हैं"
       ]
     },
     "correctIndex": 1,
@@ -165,8 +165,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Science • Ecosystem & Food Chain",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (while a food web shows interconnected feeding relationships) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (खाद्य जाल परस्पर जुड़े हुए आहार संबंधों को दर्शाता है) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (a food chain represents a single linear pathway, while a food web shows interconnected feeding relationships) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (खाद्य श्रृंखला एक एकल रैखिक मार्ग को दर्शाती है, जबकि खाद्य जाल परस्पर जुड़े हुए आहार संबंधों को दर्शाता है) सही उत्तर है।"
     }
   },
   {
@@ -188,8 +188,8 @@
       ],
       "hi": [
         "दृश्य प्रकाश",
-        "गामा किरणें",
         "पराबैंगनी प्रकाश",
+        "गामा किरणें",
         "अवरक्त विकिरण"
       ]
     },
@@ -221,9 +221,9 @@
         "Copper"
       ],
       "hi": [
-        "जस्ता (Zinc)",
-        "सोडियम (Sodium )",
         "लोहा (Iron)",
+        "सोडियम (Sodium )",
+        "जस्ता (Zinc)",
         "तांबा (Copper)"
       ]
     },
@@ -256,9 +256,9 @@
       ],
       "hi": [
         "त्वचा",
-        "मुख का अस्तरण",
+        "वृक्क की नलिकाओं",
         "अस्थि के अंदर",
-        "वृक्क की नलिकाओं"
+        "मुख का अस्तरण"
       ]
     },
     "correctIndex": 2,
@@ -323,10 +323,10 @@
         "Methane contains only single covalent bonds while ethene has a double bond"
       ],
       "hi": [
-        "मेथेन में एक द्वि - सहसंयोजी आबंध होता है",
-        "एथीन में हाइड्रोजन परमाणुओं के बीच द्वि - आबंध होते हैं मेथेन में केवल एकल सहसंयोजी आबंध होते हैं , जबकि एथीन",
-        "दोनों में केवल गैर - ध्रुवीय सहसंयोजी आबंध होते हैं",
-        "में एक द्वि - आबंध होता है"
+        "मेथेन में एक द्वि-सहसंयोजी आबंध होता है",
+        "एथीन में हाइड्रोजन परमाणुओं के बीच द्वि-आबंध होते हैं",
+        "दोनों में केवल गैर-ध्रुवीय सहसंयोजी आबंध होते हैं",
+        "मेथेन में केवल एकल सहसंयोजी आबंध होते हैं, जबकि एथीन में एक द्वि-आबंध होता है"
       ]
     },
     "correctIndex": 3,
@@ -336,7 +336,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Hydrocarbons (Methane, Ethane, etc.)",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Methane contains only single covalent bonds while ethene has a double bond) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (में एक द्वि - आबंध होता है) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (मेथेन में केवल एकल सहसंयोजी आबंध होते हैं, जबकि एथीन में एक द्वि-आबंध होता है) सही उत्तर है।"
     }
   },
   {
@@ -357,10 +357,10 @@
         "Because the solenoid is very short in length"
       ],
       "hi": [
-        "क्योंकि धारा तेजी से दिशा बदलती है",
+        "क्योंकि समानांतर रेखाएं यह दर्शाती हैं कि क्षेत्र में बहुत अधिक भिन्नता है",
         "क्योंकि चुंबकीय क्षेत्र अंदर के सभी बिंदुओं पर समान होता है , जो एकरूपता दर्शाता है",
-        "क्योंकि परिनालिका लंबाई में बहुत छोटी होती है",
-        "क्योंकि समानांतर रेखाएं यह दर्शाती हैं कि क्षेत्र में बहुत अधिक भिन्नता है"
+        "क्योंकि धारा तेजी से दिशा बदलती है",
+        "क्योंकि परिनालिका लंबाई में बहुत छोटी होती है"
       ]
     },
     "correctIndex": 1,
@@ -391,10 +391,10 @@
         "The magnetic field points towards the east at that point"
       ],
       "hi": [
+        "चुंबकीय क्षेत्र उसी बिंदु पर दक्षिण की ओर इंगित होता है",
         "चुंबकीय क्षेत्र उसी बिंदु पर पश्चिम की ओर इंगित होता है",
-        "चुंबकीय क्षेत्र उसी बिंदु पर पूर्व की ओर इंगित होता है",
         "चुंबकीय क्षेत्र उसी बिंदु पर उत्तर की ओर इंगित होता है",
-        "चुंबकीय क्षेत्र उसी बिंदु पर दक्षिण की ओर इंगित होता है"
+        "चुंबकीय क्षेत्र उसी बिंदु पर पूर्व की ओर इंगित होता है"
       ]
     },
     "correctIndex": 2,
@@ -425,10 +425,10 @@
         "50 kilometers per minute"
       ],
       "hi": [
-        "0.02 किलोमीटर प्रति घंटे",
+        "150 किलोमीटर प्रति घंटे",
         "50 किलोमीटर प्रति घंटे",
-        "50 किलोमीटर प्रति मिनट",
-        "150 किलोमीटर प्रति घंटे"
+        "0.02 किलोमीटर प्रति घंटे",
+        "50 किलोमीटर प्रति मिनट"
       ]
     },
     "correctIndex": 1,
@@ -493,9 +493,9 @@
         "36 cm"
       ],
       "hi": [
-        "7.2 cm",
-        "8 cm",
         "16 cm",
+        "8 cm",
+        "7.2 cm",
         "36 cm"
       ]
     },
@@ -527,10 +527,10 @@
         "Between the lens and its principal focus"
       ],
       "hi": [
-        "लेंस और उसके मुख्य फोकस के बीच",
         "लेंस के मुख्य फोकस पर",
+        "लेंस से फोकस दूरी की दोगुनी दूरी पर",
         "फोकस और लेंस से फोकस दूरी की दोगुनी दूरी के बीच",
-        "लेंस से फोकस दूरी की दोगुनी दूरी पर"
+        "लेंस और उसके मुख्य फोकस के बीच"
       ]
     },
     "correctIndex": 2,
@@ -595,10 +595,10 @@
         "Newton’s Law of Gravitation"
       ],
       "hi": [
-        "न्यूटन का गुरुत्वाकर्षण का नियम",
         "संवेग संरक्षण का नियम",
+        "स्थैतिक घर्षण का नियम",
         "न्यूटन का गति का पहला नियम",
-        "स्थैतिक घर्षण का नियम"
+        "न्यूटन का गुरुत्वाकर्षण का नियम"
       ]
     },
     "correctIndex": 2,
@@ -629,10 +629,10 @@
         "It improves surface appearance"
       ],
       "hi": [
-        "यह पृष्ठीय दिखावट में सुधार करता है",
+        "यह धातु की चालकता को बढ़ाता है",
         "यह धातुओं को दुर्बल बनाता है और चिरस्थायित्व कम करता है",
         "यह धातु की अभिक्रियाशीलता में वृद्धि करता है",
-        "यह धातु की चालकता को बढ़ाता है"
+        "यह पृष्ठीय दिखावट में सुधार करता है"
       ]
     },
     "correctIndex": 1,
@@ -664,8 +664,8 @@
       ],
       "hi": [
         "सक्रिय परिवहन",
-        "वाष्पोत्स र्जन",
         "विसरण",
+        "वाष्पोत्स र्जन",
         "परासरण"
       ]
     },
@@ -698,8 +698,8 @@
       ],
       "hi": [
         "लैक्टिक अम्ल (Lactic acid)",
-        "एथेनॉल (Ethanol)",
         "कार्बन डाइऑक्साइड (Carbon dioxide)",
+        "एथेनॉल (Ethanol)",
         "जल (Water)"
       ]
     },
@@ -731,10 +731,10 @@
         "Centrifugation can be applied in laboratory to separate the components of blood."
       ],
       "hi": [
-        "प्रयोगशाला में रक्त के घटकों को पृथक करने के लिए अपकेंद्रण अनुप्रयुक्त किया जा सकता है।",
+        "अपकेंद्रण में मिश्रण के घटकों को पृथक करने के लिए उसे तीव्र गति से घुमाना शामिल है।",
         "मिश्रण में भिन्न घनत्व वाले घटकों को पृथक करने के लिए अपकेंद्रण का उपयोग किया जाता है।",
         "केवल समान कण आकार वाले ठोस मिश्रणों को अपकेंद्रण के माध्यम से पृथक किया जा सकता है।",
-        "अपकेंद्रण में मिश्रण के घटकों को पृथक करने के लिए उसे तीव्र गति से घुमाना शामिल है।"
+        "प्रयोगशाला में रक्त के घटकों को पृथक करने के लिए अपकेंद्रण अनुप्रयुक्त किया जा सकता है।"
       ]
     },
     "correctIndex": 2,
@@ -766,9 +766,9 @@
       ],
       "hi": [
         "वस्तु , गुरुत्व बल के विपरीत ऊपर की ओर विस्थापित होती है",
-        "गिरती हुई वस्तु पर गुरुत्व बल केवल धनात्मक कार्य करता है",
+        "गुरुत्व बल नियत रहता है",
         "वस्तु पर लगने वाला कु ल बल शून्य होता है",
-        "गुरुत्व बल नियत रहता है"
+        "गिरती हुई वस्तु पर गुरुत्व बल केवल धनात्मक कार्य करता है"
       ]
     },
     "correctIndex": 0,
@@ -801,8 +801,8 @@
       "hi": [
         "1 : 1",
         "2 : 1",
-        "4 : 1",
-        "1 : 2"
+        "1 : 2",
+        "4 : 1"
       ]
     },
     "correctIndex": 1,
@@ -833,10 +833,10 @@
         "The solution is diluted"
       ],
       "hi": [
-        "विलयन तनूकृ त हो जाता है",
+        "विलयन वाष्पित हो जाता है",
         "तापमान में वृद्धि हो जाती है",
-        "विलयन उदासीन या अम्लीय हो जाता है Mathematics",
-        "विलयन वाष्पित हो जाता है"
+        "विलयन उदासीन या अम्लीय हो जाता है",
+        "विलयन तनूकृ त हो जाता है"
       ]
     },
     "correctIndex": 2,
@@ -846,7 +846,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Science • pH Scale & Indicators",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (The solution becomes neutral or acidic) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (विलयन उदासीन या अम्लीय हो जाता है Mathematics) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (विलयन उदासीन या अम्लीय हो जाता है) सही उत्तर है।"
     }
   },
   {
@@ -867,10 +867,10 @@
         "22 m"
       ],
       "hi": [
+        "18 m",
         "25 m",
-        "22 m",
         "20 m",
-        "18 m"
+        "22 m"
       ]
     },
     "correctIndex": 2,
@@ -902,9 +902,9 @@
       ],
       "hi": [
         "-147, -189",
-        "-91, -117",
+        "-98, -126",
         "-84, -108",
-        "-98, -126"
+        "-91, -117"
       ]
     },
     "correctIndex": 0,
@@ -936,9 +936,9 @@
       ],
       "hi": [
         "6",
-        "3",
+        "5",
         "4",
-        "5"
+        "3"
       ]
     },
     "correctIndex": 2,
@@ -970,9 +970,9 @@
       ],
       "hi": [
         "20",
-        "15",
         "25",
-        "18"
+        "18",
+        "15"
       ]
     },
     "correctIndex": 0,
@@ -1003,9 +1003,9 @@
         "72,000"
       ],
       "hi": [
+        "73,000",
         "73,500",
         "71,500",
-        "73,000",
         "72,000"
       ]
     },
@@ -1038,9 +1038,9 @@
       ],
       "hi": [
         "24",
-        "16",
+        "12",
         "8",
-        "12"
+        "16"
       ]
     },
     "correctIndex": 0,
@@ -1071,9 +1071,9 @@
         "16 years"
       ],
       "hi": [
-        "12 वर्ष",
-        "10 वर्ष",
         "14 वर्ष",
+        "10 वर्ष",
+        "12 वर्ष",
         "16 वर्ष"
       ]
     },
@@ -1105,9 +1105,9 @@
         "9:48 AM"
       ],
       "hi": [
+        "9:08 AM",
         "9:38 AM",
         "9:28 AM",
-        "9:08 AM",
         "9:48 AM"
       ]
     },
@@ -1139,10 +1139,10 @@
         "₹11,667"
       ],
       "hi": [
-        "₹11,667",
         "₹13,795",
+        "₹10,682",
         "₹12,462",
-        "₹10,682"
+        "₹11,667"
       ]
     },
     "correctIndex": 2,
@@ -1175,8 +1175,8 @@
       "hi": [
         "137.08 cm2",
         "137.87 cm2",
-        "137.71 cm2",
-        "137.42 cm2"
+        "137.42 cm2",
+        "137.71 cm2"
       ]
     },
     "correctIndex": 1,
@@ -1242,9 +1242,9 @@
       ],
       "hi": [
         "100%",
-        "200%",
+        "150%",
         "50%",
-        "150%"
+        "200%"
       ]
     },
     "correctIndex": 0,
@@ -1275,8 +1275,8 @@
         "5.6 liters"
       ],
       "hi": [
-        "6.3 लीटर",
         "9.1 लीटर",
+        "6.3 लीटर",
         "8.4 लीटर",
         "5.6 लीटर"
       ]
@@ -1309,9 +1309,9 @@
         "I"
       ],
       "hi": [
+        "II",
         "IV",
         "III",
-        "II",
         "I"
       ]
     },
@@ -1343,9 +1343,9 @@
         "₹55"
       ],
       "hi": [
+        "₹52",
         "₹50",
         "₹45",
-        "₹52",
         "₹55"
       ]
     },
@@ -1377,8 +1377,8 @@
         "Increase of 4%"
       ],
       "hi": [
-        "10% की वृद्धि",
         "4% की कमी",
+        "10% की वृद्धि",
         "8% की कमी",
         "4% की वृद्धि"
       ]
@@ -1412,9 +1412,9 @@
       ],
       "hi": [
         "50",
-        "42",
+        "40",
         "48",
-        "40"
+        "42"
       ]
     },
     "correctIndex": 2,
@@ -1445,9 +1445,9 @@
         "₹64,000"
       ],
       "hi": [
-        "₹61,200",
-        "₹67,800",
         "₹59,800",
+        "₹67,800",
+        "₹61,200",
         "₹64,000"
       ]
     },
@@ -1476,23 +1476,23 @@
         "73",
         "70",
         "69",
-        "68 can do it in 21 days. In how much time could B alone do it? brands, X, Y and Z, from six branches (A, B, C, D, E and F) of"
+        "68"
       ],
       "hi": [
         "73",
         "70",
-        "68",
-        "69 दिनों में कर सकता है। B अके ले उसी कार्य को कितने समय में कर सकता है ?"
+        "69",
+        "68"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 2,
+    "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • Weighted Average",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (68 can do it in 21 days. In how much time could B alone do it? brands, X, Y and Z, from six branches (A, B, C, D, E and F) of) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (69 दिनों में कर सकता है। B अके ले उसी कार्य को कितने समय में कर सकता है ?) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (69) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (69) सही उत्तर है।"
     }
   },
   {
@@ -1523,10 +1523,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Combined Work Rate",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1548,8 +1548,8 @@
       ],
       "hi": [
         "13 : 15",
-        "15 : 17",
         "15 : 13",
+        "15 : 17",
         "17 : 15"
       ]
     },
@@ -1571,7 +1571,7 @@
     "topic": "Laws of Indices • RRB Group D Level-1 (18 Aug 2026 Shift 35)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "सरल कीजिए।"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1591,10 +1591,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Laws of Indices",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1615,8 +1615,8 @@
         "177"
       ],
       "hi": [
-        "160",
         "159",
+        "160",
         "161",
         "177"
       ]
@@ -1639,7 +1639,7 @@
     "topic": "Volume • RRB Group D Level-1 (18 Aug 2026 Shift 35)",
     "question": {
       "en": "The cost of painting the outer surface of a closed cuboidal box is and the breadth of the box is 23 cm. If the height of the box is 5 cm,",
-      "hi": "एक संवृत घनाभीय बॉक्स के बाह्य पृष्ठ को ₹10 प्रति cm 2 की दर से पेंट करने की बॉक्स की ऊं चाई 5 cm है , तो बॉक्स में वायु की मात्रा ज्ञात कीजिए।"
+      "hi": "एक बंद घनाभाकार बॉक्स की बाहरी सतह को पेंट करने की लागत है और बॉक्स की चौड़ाई 23 cm है। यदि बॉक्स की ऊँचाई 5 cm है,"
     },
     "options": {
       "en": [
@@ -1659,10 +1659,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Volume",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1683,9 +1683,9 @@
         "24"
       ],
       "hi": [
-        "2",
         "48",
-        "96 General Intelligence & Reasoning",
+        "2",
+        "96",
         "24"
       ]
     },
@@ -1696,7 +1696,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "Mathematics • sec^2 - tan^2 = 1",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (96) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (96 General Intelligence & Reasoning) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (96) सही उत्तर है।"
     }
   },
   {
@@ -1718,9 +1718,9 @@
       ],
       "hi": [
         "तीन",
+        "दो",
         "एक",
-        "एक भी नहीं",
-        "दो"
+        "एक भी नहीं"
       ]
     },
     "correctIndex": 0,
@@ -1752,8 +1752,8 @@
       ],
       "hi": [
         "चार",
-        "एक",
         "तीन",
+        "एक",
         "पांच"
       ]
     },
@@ -1853,9 +1853,9 @@
         "1"
       ],
       "hi": [
-        "3",
         "5",
         "6",
+        "3",
         "1"
       ]
     },
@@ -1887,9 +1887,9 @@
         "2"
       ],
       "hi": [
-        "9",
-        "3",
         "4",
+        "3",
+        "9",
         "2"
       ]
     },
@@ -1923,8 +1923,8 @@
       "hi": [
         "माता",
         "बहन",
-        "पिता",
-        "माता की माता"
+        "माता की माता",
+        "पिता"
       ]
     },
     "correctIndex": 0,
@@ -1955,9 +1955,9 @@
         "343"
       ],
       "hi": [
-        "354",
-        "333",
         "352",
+        "333",
+        "354",
         "343"
       ]
     },
@@ -1990,8 +1990,8 @@
       ],
       "hi": [
         "(8, 64, 8)",
-        "(9, 162, 10)",
         "(9, 180, 11)",
+        "(9, 162, 10)",
         "(11, 242, 11)"
       ]
     },
@@ -2025,8 +2025,8 @@
       "hi": [
         "528",
         "568",
-        "551",
-        "534"
+        "534",
+        "551"
       ]
     },
     "correctIndex": 0,
@@ -2059,8 +2059,8 @@
       "hi": [
         "171",
         "177",
-        "173",
-        "180"
+        "180",
+        "173"
       ]
     },
     "correctIndex": 1,
@@ -2091,10 +2091,10 @@
         "# = HQX, % = YMG"
       ],
       "hi": [
-        "# = FQT, % = YMF",
+        "# = HQX, % = XLF",
         "# = FNT, % = XLF",
-        "# = HQX, % = YMG",
-        "# = HQX, % = XLF"
+        "# = FQT, % = YMF",
+        "# = HQX, % = YMG"
       ]
     },
     "correctIndex": 1,
@@ -2125,10 +2125,10 @@
         "SEL : OAI"
       ],
       "hi": [
-        "XHG : VFC",
+        "EHL : CFI",
         "MPN : JMK",
-        "SEL : OAI",
-        "EHL : CFI"
+        "XHG : VFC",
+        "SEL : OAI"
       ]
     },
     "correctIndex": 1,
@@ -2159,10 +2159,10 @@
         "HCDE"
       ],
       "hi": [
+        "HEAR",
         "HRED",
-        "HCDE",
         "HERC",
-        "HEAR"
+        "HCDE"
       ]
     },
     "correctIndex": 2,
@@ -2193,9 +2193,9 @@
         "TQM"
       ],
       "hi": [
+        "BXU",
         "IEB",
         "PLI",
-        "BXU",
         "TQM"
       ]
     },
@@ -2227,10 +2227,10 @@
         "DGI"
       ],
       "hi": [
-        "DGI",
+        "GJL",
         "JMO",
         "SUW",
-        "GJL"
+        "DGI"
       ]
     },
     "correctIndex": 2,
@@ -2261,10 +2261,10 @@
         "35"
       ],
       "hi": [
-        "35",
         "34",
+        "37",
         "36",
-        "37"
+        "35"
       ]
     },
     "correctIndex": 2,
@@ -2295,8 +2295,8 @@
         "Four"
       ],
       "hi": [
-        "दो",
         "एक",
+        "दो",
         "तीन",
         "चार"
       ]
@@ -2329,9 +2329,9 @@
         "One"
       ],
       "hi": [
-        "दो",
         "चार",
         "एक का भी नहीं",
+        "दो",
         "एक"
       ]
     },
@@ -2363,8 +2363,8 @@
         "One"
       ],
       "hi": [
-        "दो",
         "चार",
+        "दो",
         "तीन",
         "एक"
       ]
@@ -2397,8 +2397,8 @@
         "Zero"
       ],
       "hi": [
-        "तीन",
         "एक",
+        "तीन",
         "दो",
         "एक भी नहीं"
       ]
@@ -2431,10 +2431,10 @@
         "One"
       ],
       "hi": [
-        "एक",
         "दो",
+        "चार",
         "तीन",
-        "चार"
+        "एक"
       ]
     },
     "correctIndex": 2,
@@ -2465,10 +2465,10 @@
         "Q"
       ],
       "hi": [
-        "Q",
+        "R",
         "Z",
         "P",
-        "R"
+        "Q"
       ]
     },
     "correctIndex": 1,
@@ -2499,9 +2499,9 @@
         "Sister’s daughter"
       ],
       "hi": [
-        "माता",
-        "पिता की माता",
         "भाई की पत्नी",
+        "पिता की माता",
+        "माता",
         "बहन की पुत्री"
       ]
     },
@@ -2533,10 +2533,10 @@
         "Two"
       ],
       "hi": [
-        "तीन",
+        "एक",
         "एक भी नहीं",
-        "दो",
-        "एक"
+        "तीन",
+        "दो"
       ]
     },
     "correctIndex": 1,
@@ -2567,10 +2567,10 @@
         "One"
       ],
       "hi": [
-        "एक",
         "तीन",
+        "एक भी नहीं",
         "दो",
-        "एक भी नहीं"
+        "एक"
       ]
     },
     "correctIndex": 2,
@@ -2602,9 +2602,9 @@
       ],
       "hi": [
         "94",
-        "98",
+        "90",
         "95",
-        "90"
+        "98"
       ]
     },
     "correctIndex": 0,
@@ -2635,9 +2635,9 @@
         "48"
       ],
       "hi": [
-        "45",
-        "47 General Awareness",
         "46",
+        "47",
+        "45",
         "48"
       ]
     },
@@ -2663,16 +2663,16 @@
     },
     "options": {
       "en": [
-        "statement I alone or statement II alone) are sufficient to answer the question",
+        "Data in both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question",
         "Data in both statements I and II together are NOT sufficient to answer the question",
         "Data in statement I alone is sufficient to answer the question while data in statement II is not",
         "Data in statement II alone is sufficient to answer the question while data in statement I is not"
       ],
       "hi": [
-        "पर्याप्त नहीं हैं।",
-        "साथ ( न कि केवल कथन I या केवल कथन II) पर्याप्त है।",
-        "प्रश्न का उत्तर देने के लिए केवल कथन I का डेटा पर्याप्त है , जबकि कथन II का डेटा पर्याप्त नहीं है। प्रश्न का उत्तर देने के लिए कथन I और II दोनों में दिया गया डेटा एक",
-        "प्रश्न का उत्तर देने के लिए केवल कथन II का डेटा पर्याप्त है , जबकि कथन I का डेटा पर्याप्त नहीं है।"
+        "प्रश्न का उत्तर देने के लिए कथन I और II दोनों में दिया गया डेटा एक साथ (न कि केवल कथन I या केवल कथन II) पर्याप्त है।",
+        "प्रश्न का उत्तर देने के लिए कथन I और II दोनों में दिया गया डेटा एक साथ पर्याप्त नहीं हैं।",
+        "प्रश्न का उत्तर देने के लिए केवल कथन I का डेटा पर्याप्त है, जबकि कथन II का डेटा पर्याप्त नहीं है।",
+        "प्रश्न का उत्तर देने के लिए केवल कथन II का डेटा पर्याप्त है, जबकि कथन I का डेटा पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 3,
@@ -2682,7 +2682,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Data in statement II alone is sufficient to answer the question while data in statement I is not) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (प्रश्न का उत्तर देने के लिए केवल कथन II का डेटा पर्याप्त है , जबकि कथन I का डेटा पर्याप्त नहीं है।) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (प्रश्न का उत्तर देने के लिए केवल कथन II का डेटा पर्याप्त है, जबकि कथन I का डेटा पर्याप्त नहीं है।) सही उत्तर है।"
     }
   },
   {
@@ -2700,12 +2700,12 @@
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (II) follows.",
         "Neither conclusion (I) nor (II) follows.",
-        "Only conclusion (I) follows. General Awareness"
+        "Only conclusion (I) follows."
       ],
       "hi": [
         "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
-        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
         "केवल निष्कर्ष (II) अनुसरण करता है।",
+        "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
         "केवल निष्कर्ष (I) अनुसरण करता है।"
       ]
     },
@@ -2715,7 +2715,7 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Syllogism",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Only conclusion (I) follows. General Awareness) is the verified correct answer.",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Only conclusion (I) follows.) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (केवल निष्कर्ष (I) अनुसरण करता है।) सही उत्तर है।"
     }
   },
@@ -2738,8 +2738,8 @@
       ],
       "hi": [
         "भारत को उसका पहला ODI वर्ल्ड कप खिताब जिताना",
-        "तीन सौ अंतरराष्ट्रीय मैच पूरे करना",
         "T20 अंतरराष्ट्रीय में सबसे तेज शतक बनाना",
+        "तीन सौ अंतरराष्ट्रीय मैच पूरे करना",
         "एशियाई गेम्स में लगातार स्वर्ण पदक जीतना"
       ]
     },
@@ -2771,9 +2771,9 @@
         "Shri K Pajanivel"
       ],
       "hi": [
+        "श्री एस . राजसेकर",
         "श्री आर . वेंकटेशन",
         "श्री एम . धनपाल",
-        "श्री एस . राजसेकर",
         "श्री के . पजनीवेल"
       ]
     },
@@ -2805,9 +2805,9 @@
         "Ahmedabad"
       ],
       "hi": [
+        "कोलकाता",
         "मुंबई",
         "चेन्नई",
-        "कोलकाता",
         "अहमदाबाद"
       ]
     },
@@ -2840,9 +2840,9 @@
       ],
       "hi": [
         "ऑल डोमेन जॉइंट ऑपरेशन्स (All Domain Joint Operations)",
-        "नेटवर्क सेंट्रिक साइबर वॉरफे यर (Network Centric Cyber Warfare)",
-        "इंटीग्रेटेड कोस्टल डिफें स (Integrated Coastal Defense) थिएटर कमांड डिसेंट्रलाइजेशन (Theater Command",
-        "Decentralization)"
+        "थिएटर कमांड डिसेंट्रलाइजेशन (Theater Command Decentralization)",
+        "इंटीग्रेटेड कोस्टल डिफेंस (Integrated Coastal Defense)",
+        "नेटवर्क सेंट्रिक साइबर वॉरफेयर (Network Centric Cyber Warfare)"
       ]
     },
     "correctIndex": 0,
@@ -2873,8 +2873,8 @@
         "Raytheon Technologies"
       ],
       "hi": [
-        "लॉकहीड मार्टिन",
         "नॉर्थ्रॉप ग्रुम्मन",
+        "लॉकहीड मार्टिन",
         "GE एयरोस्पेस",
         "रेथियॉन टेक्नोलॉजीज"
       ]
@@ -2907,10 +2907,10 @@
         "Code Frontier: A Military Captain, His Network, and the Future of Digital Warfare"
       ],
       "hi": [
-        "साइबर वॉरफ़े यर (Operation Sentinel: A Naval Commander, His Unit, and the Rise of Cyber Warfare) मिशन फ़ीनिक्स : एन एयर फ़ोर्स जनरल , हिज़ स्क्वाड्रन , एं ड द एज ऑफ़ ड्रोन वॉरफ़े यर (Mission Phoenix: An Air Force",
-        "वॉरफ़े यर (Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare)",
-        "डिजिटल वॉरफ़े यर (Code Frontier: A Military Captain, His Network, and the Future of Digital Warfare) प्रोजेक्ट मावेन : ए मरीन कर्नल , हिज़ टीम , एं ड द डॉन ऑफ़ AI",
-        "General, His Squadron, and the Age of Drone Warfare) कोड फ्रं टियर : ए मिलिट्री कै प्टन , हिज़ नेटवर्क , एं ड द फ़्यूचर ऑफ़"
+        "मिशन फ़ीनिक्स: एन एयर फ़ोर्स जनरल, हिज़ स्क्वाड्रन, एंड द एज ऑफ़ ड्रोन वॉरफ़ेयर (Mission Phoenix: An Air Force General, His Squadron, and the Age of Drone Warfare)",
+        "प्रोजेक्ट मावेन: ए मरीन कर्नल, हिज़ टीम, एंड द डॉन ऑफ़ AI वॉरफ़ेयर (Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare)",
+        "ऑपरेशन सेंटिनल: ए नेवल कमांडर, हिज़ यूनिट, एंड द राइज़ ऑफ़ साइबर वॉरफ़ेयर (Operation Sentinel: A Naval Commander, His Unit, and the Rise of Cyber Warfare)",
+        "कोड फ्रंटियर: ए मिलिट्री कैप्टन, हिज़ नेटवर्क, एंड द फ़्यूचर ऑफ़ डिजिटल वॉरफ़ेयर (Code Frontier: A Military Captain, His Network, and the Future of Digital Warfare)"
       ]
     },
     "correctIndex": 1,
@@ -2920,7 +2920,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs • Famous Works & Authors",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (वॉरफ़े यर (Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (प्रोजेक्ट मावेन: ए मरीन कर्नल, हिज़ टीम, एंड द डॉन ऑफ़ AI वॉरफ़ेयर (Project Maven: A Marine Colonel, His Team, and the Dawn of AI Warfare)) सही उत्तर है।"
     }
   },
   {
@@ -2975,10 +2975,10 @@
         "Rajkumar Upadhyay"
       ],
       "hi": [
-        "राजकु मार उपाध्याय",
+        "ए . एस . किरण कु मार",
         "संदीप कु मार अग्रवाल",
         "सैम पित्रोदा",
-        "ए . एस . किरण कु मार"
+        "राजकु मार उपाध्याय"
       ]
     },
     "correctIndex": 1,
@@ -3043,10 +3043,10 @@
         "Hypersonic Glide Non-Separable Warhead"
       ],
       "hi": [
-        "हाइपरसोनिक ग्लाइड नॉन - सेपरेबल वारहेड (Hypersonic Glide Non-Separable Warhead)",
-        "इलेक्ट्रो - ऑप्टिकल वायर - गाइडेड सब - म्यूनिशन (Electro- Optical Wire-Guided Sub-Munition) मल्टीपल इंडिपेंडेंटली टार्गेटेड री - एं ट्री व्हीकल (Multiple",
-        "Independently Targeted Re-entry Vehicle)",
-        "एटमॉस्फे रिक लिक्विड रैमजेट सस्टेन्ड बूस्टर (Atmospheric Liquid Ramjet Sustained Booster)"
+        "एटमॉस्फेरिक लिक्विड रैमजेट सस्टेन्ड बूस्टर (Atmospheric Liquid Ramjet Sustained Booster)",
+        "इलेक्ट्रो-ऑप्टिकल वायर-गाइडेड सब-म्यूनिशन (Electro-Optical Wire-Guided Sub-Munition)",
+        "मल्टीपल इंडिपेंडेंटली टार्गेटेड री-एंट्री व्हीकल (Multiple Independently Targeted Re-entry Vehicle)",
+        "हाइपरसोनिक ग्लाइड नॉन-सेपरेबल वारहेड (Hypersonic Glide Non-Separable Warhead)"
       ]
     },
     "correctIndex": 2,
@@ -3056,7 +3056,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs • Missile Tests & Systems",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Multiple Independently Targeted Re-entry Vehicle) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (Independently Targeted Re-entry Vehicle)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (मल्टीपल इंडिपेंडेंटली टार्गेटेड री-एंट्री व्हीकल (Multiple Independently Targeted Re-entry Vehicle)) सही उत्तर है।"
     }
   },
   {
@@ -3077,10 +3077,10 @@
         "Indian Air Force"
       ],
       "hi": [
-        "भारतीय थल सेना",
+        "सीमा सुरक्षा बल",
         "भारतीय नौसेना",
-        "भारतीय वायु सेना",
-        "सीमा सुरक्षा बल"
+        "भारतीय थल सेना",
+        "भारतीय वायु सेना"
       ]
     },
     "correctIndex": 1,
@@ -3111,9 +3111,9 @@
         "Kailash Satyarthi"
       ],
       "hi": [
-        "रस्किन बॉन्ड",
-        "देवदत्त पटनायक",
         "राजदीप सरदेसाई",
+        "देवदत्त पटनायक",
+        "रस्किन बॉन्ड",
         "कै लाश सत्या र्थी"
       ]
     },
@@ -3145,10 +3145,10 @@
         "Cyclone Ditwah"
       ],
       "hi": [
-        "चक्रवात दितवाह (Cyclone Ditwah)",
+        "चक्रवात शक्ति (Cyclone Shakti)",
         "चक्रवात मोंथा (Cyclone Montha)",
         "चक्रवात रेमल (Cyclone Remal)",
-        "चक्रवात शक्ति (Cyclone Shakti)"
+        "चक्रवात दितवाह (Cyclone Ditwah)"
       ]
     },
     "correctIndex": 1,
@@ -3181,8 +3181,8 @@
       "hi": [
         "बुंदेलखंड एक्सप्रेसवे",
         "गंगा एक्सप्रेसवे",
-        "पूर्वांचल एक्सप्रेसवे",
-        "यमुना एक्सप्रेसवे"
+        "यमुना एक्सप्रेसवे",
+        "पूर्वांचल एक्सप्रेसवे"
       ]
     },
     "correctIndex": 1,
@@ -3213,10 +3213,10 @@
         "No Voter to be Left Behind"
       ],
       "hi": [
-        "Inclusive and Accessible)",
-        "माय इंडिया , माय वोट (My India, My Vote)",
-        "नो वोटर टु बी लेफ्ट बिहाइंड (No Voter to be Left Behind)",
-        "नथिंग लाइक वोटिंग , आई वोट फॉर श्योर (Nothing Like Voting, I Vote for Sure)"
+        "नथिंग लाइक वोटिंग, आई वोट फॉर श्योर (Nothing Like Voting, I Vote for Sure)",
+        "माय इंडिया, माय वोट (My India, My Vote)",
+        "मेकिंग इलेक्शंस इन्क्लूसिव एंड एक्सेसिबल (Making Elections Inclusive and Accessible)",
+        "नो वोटर टु बी लेफ्ट बिहाइंड (No Voter to be Left Behind)"
       ]
     },
     "correctIndex": 1,
@@ -3226,7 +3226,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs • National Themed Days",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (My India, My Vote) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (माय इंडिया , माय वोट (My India, My Vote)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (माय इंडिया, माय वोट (My India, My Vote)) सही उत्तर है।"
     }
   },
   {
@@ -3247,9 +3247,9 @@
         "Prompt Corrective Action Framework"
       ],
       "hi": [
-        "मौद्रिक नीति ढांचा",
-        "एकीकृ त ओम्बड् समैन योजना",
         "ऋण प्राधिकरण तंत्र",
+        "एकीकृ त ओम्बड् समैन योजना",
+        "मौद्रिक नीति ढांचा",
         "तत्काल सुधारात्मक कार्रवाई ढांचा"
       ]
     },
@@ -3281,9 +3281,9 @@
         "Haj Suvidha Smart Wristbands"
       ],
       "hi": [
+        "हज सेफ्टी आइडेंटिटी बैंड",
         "हज डिजिटल ट्रैवल कार्ड",
         "पिलग्रिम असिस्टेंस ट्रैकर",
-        "हज सेफ्टी आइडेंटिटी बैंड",
         "हज सुविधा स्मार्ट रिस्टबैंड"
       ]
     },
@@ -3316,9 +3316,9 @@
       ],
       "hi": [
         "2026 शीतकालीन ओलंपिक",
+        "फीफा विश्व कप 2026",
         "राष्ट्रमंडल खेल 2026",
-        "एशियाई खेल 2026",
-        "फीफा विश्व कप 2026"
+        "एशियाई खेल 2026"
       ]
     },
     "correctIndex": 0,
@@ -3349,10 +3349,10 @@
         "The Union Territories Laws (Amendment) Bill, 2026"
       ],
       "hi": [
-        "संघ राज्य - क्षेत्र विधि ( संशोधन ) विधेयक , 2026",
         "परिसीमन विधेयक , 2026",
+        "कॉर्पोरेट कानून ( संशोधन ) विधेयक , 2026",
         "जन विश्वास ( प्रावधान संशोधन ) विधेयक , 2026",
-        "कॉर्पोरेट कानून ( संशोधन ) विधेयक , 2026"
+        "संघ राज्य - क्षेत्र विधि ( संशोधन ) विधेयक , 2026"
       ]
     },
     "correctIndex": 2,
@@ -3384,9 +3384,9 @@
       ],
       "hi": [
         "भागीदारी : नवाचार , समावेशन और वैश्विक आर्थिक विकास",
-        "संधारणीयता : शासन , वित्त और अंतर्राष्ट्रीय सहयोग",
+        "विकास : अवसंरचना , प्रौद्योगिकी और सामाजिक परिवर्तन",
         "परिवर्तन : सतत विकास के लिए दृष्टि , आवाज और मूल्य",
-        "विकास : अवसंरचना , प्रौद्योगिकी और सामाजिक परिवर्तन"
+        "संधारणीयता : शासन , वित्त और अंतर्राष्ट्रीय सहयोग"
       ]
     },
     "correctIndex": 2,

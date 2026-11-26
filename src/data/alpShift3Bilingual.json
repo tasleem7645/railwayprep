@@ -29,7 +29,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (35%). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (35%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 2,
@@ -61,7 +62,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (₹28,160). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (₹28,160)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 3,
@@ -70,30 +72,31 @@
     "subject": "General Science",
     "topic": "General Science & GK (Shift 3)",
     "question": {
-      "en": "Match the following examples with their respective groups. Organism 1. Marchantia 2. Ferns Group",
-      "hi": "निम्नलिखित उदाहरणों का उनके संबंधित समूहों के साथ मिलान कीजिए। जीव                           समूह (Group)"
+      "en": "Match the following examples with their respective groups.\nOrganism: 1. Marchantia  2. Ferns  3. Spirogyra\nGroup: A. Thallophyta  B. Bryophyta  C. Pteridophyta",
+      "hi": "निम्नलिखित उदाहरणों का उनके संबंधित समूहों के साथ मिलान कीजिए।\nजीव: 1. मर्चेंशिया (Marchantia)  2. फर्न (Ferns)  3. स्पाइरोगाइरा (Spirogyra)\nसमूह: A. थैलोफाइटा (Thallophyta)  B. ब्रायोफाइटा (Bryophyta)  C. टेरिडोफाइटा (Pteridophyta)"
     },
     "options": {
       "en": [
-        "Thallophyta 1-B, 2-A, 3-C",
-        "Bryophyta Ans 3. Spirogyra    Tr 1-B, 2-C, 3-A",
-        "Pteridophya 1-A, 2-B, 3-C",
+        "1-B, 2-A, 3-C",
+        "1-B, 2-C, 3-A",
+        "1-A, 2-B, 3-C",
         "1-C, 2-B, 3-A"
       ],
       "hi": [
-        "थैलोफाइटा (Thallophyta) 1-C, 2-B, 3-A",
+        "1-B, 2-A, 3-C",
+        "1-B, 2-C, 3-A",
         "1-A, 2-B, 3-C",
-        "ब्रायोफाइटा (Bryophyta) Ans 1-B, 2-A, 3-C",
-        "टेरिडोफाइटा (Pteridophya) 1-B, 2-C, 3-A"
+        "1-C, 2-B, 3-A"
       ]
     },
-    "correctIndex": 0,
+    "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
+      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
-      "en": "Correct Answer: Option A (Thallophyta 1-B, 2-A, 3-C). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (थैलोफाइटा (Thallophyta) 1-C, 2-B, 3-A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option B (1-B, 2-C, 3-A). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प B (1-B, 2-C, 3-A)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 4,
@@ -125,7 +128,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (IG−BC). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (IG−BC)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 5,
@@ -157,7 +161,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (₹966). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (₹966)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 6,
@@ -167,7 +172,7 @@
     "topic": "General Intelligence & Reasoning (Shift 3)",
     "question": {
       "en": "Each of A, B, E, F, G, H and I has exam on a different day of a week starting from Monday and ending on Sunday of the same week. Only three people have exam between F and H. Only one person has exam between H and E. A has exam on Wednesday. G has exam on one of the days after B but on one of the days before I. F has exam on Monday. How many people have exam between G and E?",
-      "hi": "A, B, E, F, G, H  और में से प्रत्येक की परीक्षा सोमवार से शुरू होकर रविवार को समाप्त होने वाले एक ही सप्ताह के I अलग अलग दिन है। और के बीच के वल तीन व्यक्तियों की परीक्षा है। H और E के बीच के वल एक व्यक्ति की परीक्षा -            F   H है। की परीक्षा बुधवार को है। की परीक्षा, B की परीक्षा के बाद किसी एक दिन, लेकिन I की परीक्षा से पहले किसी एक A                   G दिन है। की परीक्षा सोमवार को है। G और E के बीच कितने व्यक्तियों की परीक्षा है? F"
+      "hi": "A, B, E, F, G, H और में से प्रत्येक की परीक्षा सोमवार से शुरू होकर रविवार को समाप्त होने वाले एक ही सप्ताह के I अलग अलग दिन है। और के बीच के वल तीन व्यक्तियों की परीक्षा है। H और E के बीच के वल एक व्यक्ति की परीक्षा - F H है। की परीक्षा बुधवार को है। की परीक्षा, B की परीक्षा के बाद किसी एक दिन, लेकिन I की परीक्षा से पहले किसी एक A"
     },
     "options": {
       "en": [
@@ -177,8 +182,8 @@
         "Two"
       ],
       "hi": [
-        "तीन",
         "एक",
+        "तीन",
         "चार",
         "दो"
       ]
@@ -189,7 +194,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (Two). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 7,
@@ -221,7 +227,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (182). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (182)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 8,
@@ -238,7 +245,7 @@
         "ROLT",
         "ROLS",
         "SPMT",
-        "OMKS                                            K"
+        "OMKS"
       ],
       "hi": [
         "ROLT",
@@ -253,7 +260,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (ROLS). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (ROLS)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 9,
@@ -273,10 +281,10 @@
         "Sunidhi Chauhan"
       ],
       "hi": [
-        "श्रेया घोषाल (Shreya Ghoshal)",
+        "कविता कृ ष्णामूर्ति (Kavita Krishnamurthy)",
         "अलका याग्निक (Alka Yagnik)",
-        "सुनिधि चौहान (Sunidhi Chauhan)",
-        "कविता कृ ष्णामूर्ति (Kavita Krishnamurthy)"
+        "श्रेया घोषाल (Shreya Ghoshal)",
+        "सुनिधि चौहान (Sunidhi Chauhan)"
       ]
     },
     "correctIndex": 1,
@@ -285,7 +293,8 @@
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (Alka Yagnik). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (अलका याग्निक (Alka Yagnik))। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 10,
@@ -307,7 +316,7 @@
       "hi": [
         "420",
         "470",
-        "450                                                                 K",
+        "450",
         "490"
       ]
     },
@@ -317,7 +326,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (470). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (470)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 11,
@@ -349,7 +359,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (JLOP). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (JLOP)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 12,
@@ -381,7 +392,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (96). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (96)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 13,
@@ -401,7 +413,7 @@
         "₹914.50"
       ],
       "hi": [
-        "₹967.25                                                           K",
+        "₹967.25",
         "₹985.25",
         "₹934.50",
         "₹914.50"
@@ -413,7 +425,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (₹934.50). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (₹934.50)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 14,
@@ -434,9 +447,9 @@
       ],
       "hi": [
         "अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।",
-        "कथन I और II दोनों संयुक्त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त   नहीं हैं।",
-        "कथन I और II दोनों संयुक्त रूप से (अके ले कथन I या अके ले कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
-        "अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।"
+        "अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन I में दी गई जानकारी पर्याप्त नहीं है।",
+        "कथन I और II दोनों संयुक्त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
+        "कथन I और II दोनों संयुक्त रूप से (अके ले कथन I या अके ले कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।"
       ]
     },
     "correctIndex": 0,
@@ -445,7 +458,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (Data in Statement I alone is sufficient to answer the question while data in statement II is not). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 15,
@@ -477,7 +491,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (64). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (64)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 16,
@@ -486,30 +501,31 @@
     "subject": "Mathematics",
     "topic": "Mathematics (Shift 3)",
     "question": {
-      "en": "The value of 2 cosec231° cot259° − sin231° − sin259° − cot259° is equal to:",
-      "hi": "2 cosec231° cot259° − sin231° − sin259° − cot259°                 का मान निम्नलिखित में से किसके बराबर है? 2"
+      "en": "The value of 2 cosec²31° cot²59° − sin²31° − sin²59° − cot²59° is equal to:",
+      "hi": "2 cosec²31° cot²59° − sin²31° − sin²59° − cot²59° का मान निम्नलिखित में से किसके बराबर है?"
     },
     "options": {
       "en": [
-        "cot231°",
-        "tan259°",
-        "sec231°",
-        "sec259°"
+        "cot²31°",
+        "tan²59°",
+        "sec²31°",
+        "sec²59°"
       ],
       "hi": [
-        "cot231°",
-        "sec259°",
-        "sec 31°",
-        "tan259°"
+        "cot²31°",
+        "tan²59°",
+        "sec²31°",
+        "sec²59°"
       ]
     },
     "correctIndex": 0,
     "solution": {
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
-      "en": "Correct Answer: Option A (cot231°). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (cot231°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "en": "Correct Answer: Option A (cot²31°). Verified by official RRB ALP answer key.",
+      "hi": "सही उत्तर: विकल्प A (cot²31°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 17,
@@ -541,7 +557,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (17 - 23 - 11 - 55). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (17 - 23 - 11 - 55)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 18,
@@ -561,10 +578,10 @@
         "One"
       ],
       "hi": [
-        "एक",
         "दो",
+        "तीन",
         "चार",
-        "तीन"
+        "एक"
       ]
     },
     "correctIndex": 1,
@@ -572,8 +589,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (Three). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 19,
@@ -605,7 +623,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (64). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (64)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 20,
@@ -625,9 +644,9 @@
         "Two"
       ],
       "hi": [
+        "एक",
         "चार",
         "तीन",
-        "एक",
         "दो"
       ]
     },
@@ -636,8 +655,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (Three). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 21,
@@ -652,7 +672,7 @@
     "options": {
       "en": [
         "₹98",
-        "₹105                                            K",
+        "₹105",
         "₹95",
         "₹99"
       ],
@@ -669,7 +689,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (₹99). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (₹99)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 22,
@@ -701,7 +722,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (23.51). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (23.51)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 23,
@@ -733,7 +755,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (One). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 24,
@@ -756,7 +779,7 @@
         "जल अवशोषित करने के लिए जड़ों को शर्क रा की आवश्यकता होती है",
         "प्रकाश संश्लेषण के लिए पत्तियों को खनिजों की आवश्यकता होती है",
         "प्रसुप्ति के बाद कलिकाओं को बढ़ने के लिए ऊर्जा की आवश्यकता होती है",
-        "तने अतिरिक्त खनिजों का भंडारण करते हैं                       G एक विद्यार्थी के पास चार पट्टियाँ (strips) हैं: मैग्नीशियम, कॉपर, ऐलुमिनियम और जिंक। यदि प्रत्येक को आयरन सल्फे ट"
+        "तने अतिरिक्त खनिजों का भंडारण करते हैं"
       ]
     },
     "correctIndex": 2,
@@ -765,7 +788,8 @@
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (Buds require energy to grow after dormancy). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (प्रसुप्ति के बाद कलिकाओं को बढ़ने के लिए ऊर्जा की आवश्यकता होती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 25,
@@ -797,7 +821,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (JEA). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (JEA)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 26,
@@ -807,7 +832,7 @@
     "topic": "Mathematics (Shift 3)",
     "question": {
       "en": "AB is parallel to CD. A transversal PQ intersects AB and CD at E and F, respectively, and ∠PEB = 69°. G is a point between AB and CD such that ∠BEG = 33° and ∠GFE = 17°. What is the measure of ∠EGF?",
-      "hi": "AB, CD   के समांतर है। एक तिर्यक् छेदी रेखा PQ, AB और CD को क्रमशः E और F पर प्रतिच्छेद करती है, और ∠PEB = 69°    है। G, AB और CD के बीच एक बिंदु इस प्रकार है कि ∠BEG = 33° और ∠GFE = 17° है। ∠EGF    की माप ज्ञात कीजिए।"
+      "hi": "AB, CD के समांतर है। एक तिर्यक् छेदी रेखा PQ, AB और CD को क्रमशः E और F पर प्रतिच्छेद करती है, और ∠PEB = 69° है। G, AB और CD के बीच एक बिंदु इस प्रकार है कि ∠BEG = 33° और ∠GFE = 17° है। ∠EGF की माप ज्ञात कीजिए।"
     },
     "options": {
       "en": [
@@ -829,7 +854,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (85°). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (85°)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 27,
@@ -849,10 +875,10 @@
         "Speed becomes four times"
       ],
       "hi": [
-        "चाल समान बनी रहती है",
         "चाल आधी हो जाती है",
-        "चाल चार गुनी हो जाती है",
-        "चाल दोगुनी हो जाती है"
+        "चाल दोगुनी हो जाती है",
+        "चाल समान बनी रहती है",
+        "चाल चार गुनी हो जाती है"
       ]
     },
     "correctIndex": 1,
@@ -860,8 +886,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (Speed becomes double). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (चाल आधी हो जाती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (चाल दोगुनी हो जाती है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 28,
@@ -875,7 +902,7 @@
     },
     "options": {
       "en": [
-        "1                                               K",
+        "1",
         "3",
         "2",
         "4"
@@ -893,7 +920,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (3). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 29,
@@ -913,8 +941,8 @@
         "Integrity"
       ],
       "hi": [
-        "न्याय",
         "गरिमा",
+        "न्याय",
         "बंधुत्व",
         "अखंडता"
       ]
@@ -925,7 +953,8 @@
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (Integrity). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (अखंडता)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 30,
@@ -935,7 +964,7 @@
     "topic": "Mathematics (Shift 3)",
     "question": {
       "en": "A solid right circular cone has base radius 6 cm and height 8 cm. It is completely melted and the metal is recast into small solid spheres, each of radius 2 cm. What is the maximum number of complete spheres that can be made? (Use π = 22/7)",
-      "hi": "एक ठोस लंब वृत्तीय शंकु के आधार की त्रिज्या 6 cm और 8 cm है। इसे पूरी तरह से पिघलाया जाता है और धातु को 2 cm त्रिज्या वाले छोटे ठोस गोलों में ढाला जाता है। बनाए जा सकने वाले पूर्ण गोलों की अधिकतम संख्या ज्ञात कीजिए। (            का उपयोग कीजिए)"
+      "hi": "एक ठोस लंब वृत्तीय शंकु के आधार की त्रिज्या 6 cm और 8 cm है। इसे पूरी तरह से पिघलाया जाता है और धातु को 2 cm त्रिज्या वाले छोटे ठोस गोलों में ढाला जाता है। बनाए जा सकने वाले पूर्ण गोलों की अधिकतम संख्या ज्ञात कीजिए। ( का उपयोग कीजिए)"
     },
     "options": {
       "en": [
@@ -957,7 +986,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (8). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (8)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 31,
@@ -977,10 +1007,10 @@
         "One"
       ],
       "hi": [
-        "एक",
+        "दो",
         "तीन",
         "एक का भी नहीं",
-        "दो"
+        "एक"
       ]
     },
     "correctIndex": 0,
@@ -988,8 +1018,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (Two). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 32,
@@ -998,7 +1029,7 @@
     "subject": "Mathematics",
     "topic": "Mathematics (Shift 3)",
     "question": {
-      "en": "A parent invests a certain amount in a children's future fund at 10% per annum. After 2 years, the maturity amount under compound interest, compounded annually is 50            ₹ more than it would have been under simple interest. Find the original investment (in ).           ₹",
+      "en": "A parent invests a certain amount in a children's future fund at 10% per annum. After 2 years, the maturity amount under compound interest, compounded annually is 50 ₹ more than it would have been under simple interest. Find the original investment (in ). ₹",
       "hi": "कोई माता-पिता बाल भविष्य निधि में 10% वार्षिक ब्याज दर से एक निश्चित धनराशि का निवेश करते हैं। 2 वर्ष पश्चात, वार्षिक रूप से संयोजित चक्रवृद्धि ब्याज के अंतर्गत प्राप्त परिपक्वता राशि, साधारण ब्याज के अंतर्गत प्राप्त होने वाली परिपक्वता राशि से ₹50 अधिक है। मूल निवेश (₹ में) ज्ञात कीजिए।"
     },
     "options": {
@@ -1021,7 +1052,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (5,000). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (5,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 33,
@@ -1053,7 +1085,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (3). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 34,
@@ -1074,9 +1107,9 @@
       ],
       "hi": [
         "उच्च प्रकाश तीव्रता, पर्याप्त CO₂, इष्टतम तापमान",
-        "निम्न CO₂, उच्च प्रकाश तीव्रता, इष्टतम तापमान",
+        "निम्न प्रकाश तीव्रता, उच्च CO₂, निम्न तापमान",
         "उच्च ऑक्सीजन, निम्न प्रकाश तीव्रता, उच्च तापमान",
-        "निम्न प्रकाश तीव्रता, उच्च CO₂, निम्न तापमान"
+        "निम्न CO₂, उच्च प्रकाश तीव्रता, इष्टतम तापमान"
       ]
     },
     "correctIndex": 0,
@@ -1085,7 +1118,8 @@
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (High light intensity, adequate CO₂, optimum temperature). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (उच्च प्रकाश तीव्रता, पर्याप्त CO₂, इष्टतम तापमान)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 35,
@@ -1094,8 +1128,8 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (Shift 3)",
     "question": {
-      "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 3 @ 8 # 1 % 6 & 9 $ 2 + 5 7 Code                KT AMHP BF WRDULQ Conditions – (i) If the first element is a number and the last element is a symbol, interchange the codes of the first and last elements. (ii) If the third element is an even number, the first element is coded as ©. (iii) If the third element is a symbol, the last element is coded with the code for the first element. What is the code for the following group of number-symbols? 958+1",
-      "hi": "इस प्रश्न में, संख्या/प्रतीक के एक समूह को नीचे दिए गए कू ट और उसके बाद आने वाली शर्तों के अनुसार अक्षर कू टों का उपयोग करके कू टबद्ध किया गया है। शर्तों का अनुसरण करने वाला कू टों का सही संयोजन ही आपका उत्तर है। यदि कोई भी शर्त लागू नहीं होती है, तो संबंधित संख्या/प्रतीक के कू टों का अनुसरण सीधे तालिका में दिए गए अनुसार किया जाना चाहिए। संख्या/प्रतीक 3 @ 8 # 1 % 6 & 9 $ 2 + 5 7 कू ट          KT AMHP BF WRDULQ शर्तें – (i) यदि पहला अवयव एक संख्या है और अंतिम अवयव एक प्रतीक है, तो पहले अवयव और अंतिम अवयव के कू ट परस्पर बदल दिए जाने चाहिए। (ii) यदि तीसरा अवयव एक सम संख्‍या है, तो पहले अवयव को © के रूप में कू टबद्ध कीजिए। (iii) यदि तीसरा अवयव एक प्रतीक है, तो अंतिम अवयव को पहले अवयव के कू ट के रूप में कू टबद्ध कीजिए। निम्नलिखित संख्या-प्रतीक समूह के लिए कू ट क्या है? 958+1"
+      "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 3 @ 8 # 1 % 6 & 9 $ 2 + 5 7 Code KT AMHP BF WRDULQ Conditions – (i) If the first element is a number and the last element is a symbol, interchange the codes of the first and last elements. (ii) If the third element is an even number, the first element is coded as ©. (iii) If the third element is a symbol, the last element is coded with the code for the first element. What is the code for the following group of number-symbols? 958+1",
+      "hi": "इस प्रश्न में, संख्या/प्रतीक के एक समूह को नीचे दिए गए कू ट और उसके बाद आने वाली शर्तों के अनुसार अक्षर कू टों का उपयोग करके कू टबद्ध किया गया है। शर्तों का अनुसरण करने वाला कू टों का सही संयोजन ही आपका उत्तर है। यदि कोई भी शर्त लागू नहीं होती है, तो संबंधित संख्या/प्रतीक के कू टों का अनुसरण सीधे तालिका में दिए गए अनुसार किया जाना चाहिए। संख्या/प्रतीक 3 @ 8 # 1 % 6 & 9 $ 2 + 5 7 कू ट KT AMHP BF WRDULQ शर्तें – (i) यदि पहला अवयव एक संख्या है और अंतिम अवयव एक प्रतीक है, तो पहले अवयव और अंतिम अवयव के कू ट परस्पर बदल दिए जाने चाहिए। (ii) यदि तीसरा अवयव एक सम संख्‍या है, तो पहले अवयव को © के रूप में कू टबद्ध कीजिए। (iii) यदि तीसरा अवयव एक प्रतीक है, तो अंतिम अवयव को पहले अवयव के कू ट के रूप में कू टबद्ध कीजिए। निम्नलिखित संख्या-प्रतीक समूह के लिए कू ट क्या है? 958+1"
     },
     "options": {
       "en": [
@@ -1117,7 +1151,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (©LAUH). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (©LAUH)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 36,
@@ -1127,7 +1162,7 @@
     "topic": "General Intelligence & Reasoning (Shift 3)",
     "question": {
       "en": "This question is based on the five, three-digit numbers given below. (Left) 592 847 316 925 684 (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7) NOTE - All operations to be done from left to right. What will be the resultant if the third digit of the highest number is added to the second digit of the lowest number? p",
-      "hi": "यह प्रश्न नीचे दी गई तीन-अंकीय पांच संख्याओं पर आधारित है। (बाएं) 592 847 316 925 684 (दाएं) (उदाहरण- 697 – पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7) नोट - सभी संक्रियाएं बाएं से दाएं की जानी हैं।      ng यदि सबसे बड़ी संख्या के तीसरे अंक को सबसे छोटी संख्या के दूसरे अंक में जोड़ा जाए, तो परिणाम क्या होगा?"
+      "hi": "यह प्रश्न नीचे दी गई तीन-अंकीय पांच संख्याओं पर आधारित है। (बाएं) 592 847 316 925 684 (दाएं) (उदाहरण- 697 – पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7) नोट - सभी संक्रियाएं बाएं से दाएं की जानी हैं। ng यदि सबसे बड़ी संख्या के तीसरे अंक को सबसे छोटी संख्या के दूसरे अंक में जोड़ा जाए, तो परिणाम क्या होगा?"
     },
     "options": {
       "en": [
@@ -1149,7 +1184,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (6). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (6)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 37,
@@ -1181,7 +1217,8 @@
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (38). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (38)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 38,
@@ -1213,7 +1250,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (4). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 39,
@@ -1223,7 +1261,7 @@
     "topic": "General Intelligence & Reasoning (Shift 3)",
     "question": {
       "en": "Refer to the following series and answer the question. (Counting to be done from left to right only.) (All numbers are single-digit numbers only.) (Left) 1 3 4 6 7 3 9 7 8 5 8 3 2 4 6 6 7 3 5 9 6 7 1 3 4 8 3 (Right) How many such even digits are there, each of which is immediately preceded by a perfect square and immediately followed by an odd digit? (NOTE: 1 is also a perfect square.)",
-      "hi": "निम्नलिखित शृंखला का संदर्भ लीजिए और दिए गए प्रश्न का उत्तर दीजिए। (गिनती के वल बाएं से दाएं की ओर की जानी है।) (सभी संख्याएं के वल एकल-अंकीय संख्याएं हैं।) (बाएं) 1 3 4 6 7 3 9 7 8 5 8 3 2 4 6 6 7 3 5 9 6 7 1 3 4 8 3 (दाएं)     K ऐसे कितने सम अंक हैं, जिनमें से प्रत्येक के ठीक पहले एक पूर्ण वर्ग और ठीक बाद एक विषम अंक है? (नोट: 1 भी एक पूर्ण वर्ग है।)"
+      "hi": "निम्नलिखित शृंखला का संदर्भ लीजिए और दिए गए प्रश्न का उत्तर दीजिए। (गिनती के वल बाएं से दाएं की ओर की जानी है।) (सभी संख्याएं के वल एकल-अंकीय संख्याएं हैं।) (बाएं) 1 3 4 6 7 3 9 7 8 5 8 3 2 4 6 6 7 3 5 9 6 7 1 3 4 8 3 (दाएं) K ऐसे कितने सम अंक हैं, जिनमें से प्रत्येक के ठीक पहले एक पूर्ण वर्ग और ठीक बाद एक विषम अंक है? (नोट: 1 भी एक पूर्ण वर्ग है।)"
     },
     "options": {
       "en": [
@@ -1233,9 +1271,9 @@
         "One"
       ],
       "hi": [
-        "दो से अधिक",
-        "दो",
         "एक भी नहीं",
+        "दो",
+        "दो से अधिक",
         "एक"
       ]
     },
@@ -1244,8 +1282,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (More than two). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (एक भी नहीं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (दो से अधिक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 40,
@@ -1277,7 +1316,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (50). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (50)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 41,
@@ -1297,8 +1337,8 @@
         "Data in Statement I alone is sufficient to answer the question while data in statement II is not"
       ],
       "hi": [
-        "दोनों कथन I और II संयुक्त रूप से (अके ले कथन I या अके ले कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
         "अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि के वल कथन I में दी गई जानकारी पर्याप्त नहीं है।",
+        "दोनों कथन I और II संयुक्त रूप से (अके ले कथन I या अके ले कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
         "दोनों कथन I और II संयुक्त रूप से प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
         "अके ले कथन I में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II में दी गई जानकारी पर्याप्त नहीं है।"
       ]
@@ -1308,8 +1348,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question.). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (अके ले कथन II में दी गई जानकारी प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि के वल कथन I में दी गई जानकारी पर्याप्त नहीं है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (दोनों कथन I और II संयुक्त रूप से (अके ले कथन I या अके ले कथन II नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 42,
@@ -1341,7 +1382,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (12√2 cm). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (12√2 cm)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 43,
@@ -1350,8 +1392,8 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (Shift 3)",
     "question": {
-      "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 5 @ 2 9 $ # 8 % 1 & 4 7 3 6 Code                LF BARDUQ HETPKM Conditions – (i) If the first element is a symbol, code the second element as ©. (ii) If the third element is a symbol, code the fifth element as ©. (iii) If the fourth element is an odd digit, code the third element as ©. What is the code for the following group of number-symbols? 84291",
-      "hi": "इस प्रश्न में, संख्या/प्रतीक के एक समूह को नीचे दिए गए कू ट और उसके बाद आने वाली शर्तों का अनुसरण करके अक्षर कू टों का उपयोग करके कू टबद्ध किया जाता है। शर्तों का अनुसरण करने वाला कू टों का सही संयोजन आपका उत्तर है। यदि कोई भी शर्त पूरी नहीं होती है, तो संबंधित संख्या/प्रतीक के लिए कू ट का सीधे उसी प्रकार अनुसरण किया जाना चाहिए जैसा कि तालिका में दिया गया है। संख्या/प्रतीक 5 @ 2 9 $ # 8 % 1 & 4 7 3 6 कू ट           LF BARDUQ HETPKM शर्तें –                                                             G (i) यदि पहला अवयव एक प्रतीक है, तो दूसरे अवयव को © के रूप में कू टबद्ध करें। (ii) यदि तीसरा अवयव एक प्रतीक है, तो पांचवें अवयव को © के रूप में कू टबद्ध करें। (iii) यदि चौथा अवयव एक विषम अंक है, तो तीसरे अवयव को © के रूप में कू टबद्ध करें। संख्या-प्रतीकों के निम्नलिखित समूह के लिए कू ट क्या है? 84291"
+      "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 5 @ 2 9 $ # 8 % 1 & 4 7 3 6 Code LF BARDUQ HETPKM Conditions – (i) If the first element is a symbol, code the second element as ©. (ii) If the third element is a symbol, code the fifth element as ©. (iii) If the fourth element is an odd digit, code the third element as ©. What is the code for the following group of number-symbols? 84291",
+      "hi": "इस प्रश्न में, संख्या/प्रतीक के एक समूह को नीचे दिए गए कू ट और उसके बाद आने वाली शर्तों का अनुसरण करके अक्षर कू टों का उपयोग करके कू टबद्ध किया जाता है। शर्तों का अनुसरण करने वाला कू टों का सही संयोजन आपका उत्तर है। यदि कोई भी शर्त पूरी नहीं होती है, तो संबंधित संख्या/प्रतीक के लिए कू ट का सीधे उसी प्रकार अनुसरण किया जाना चाहिए जैसा कि तालिका में दिया गया है। संख्या/प्रतीक 5 @ 2 9 $ # 8 % 1 & 4 7 3 6 कू ट LF BARDUQ HETPKM शर्तें – G (i) यदि पहला अवयव एक प्रतीक है, तो दूसरे अवयव को © के रूप में कू टबद्ध करें। (ii) यदि तीसरा अवयव एक प्रतीक है, तो पांचवें अवयव को © के रूप में कू टबद्ध करें। (iii) यदि चौथा अवयव एक विषम अंक है, तो तीसरे अवयव को © के रूप में कू टबद्ध करें। संख्या-प्रतीकों के निम्नलिखित समूह के लिए कू ट क्या है? 84291"
     },
     "options": {
       "en": [
@@ -1373,7 +1415,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (UT©AH). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (UT©AH)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 44,
@@ -1395,7 +1438,7 @@
       "hi": [
         "Y",
         "W",
-        "X                                                                 K",
+        "X",
         "E"
       ]
     },
@@ -1405,7 +1448,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (Y). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (Y)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 45,
@@ -1437,7 +1481,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (62). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (62)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 46,
@@ -1446,13 +1491,13 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (Shift 3)",
     "question": {
-      "en": "A, B, C, D and E scored different marks. C scored more than exactly three people. A",
-      "hi": "A, B, C, D   और E के प्राप्तांक भिन्न-भिन्न हैं। C के प्राप्तांक ठीक तीन व्यक्तियों से अधिक हैं। A के प्राप्तांक, D से कम हैं और के प्राप्तांक, E से कम हैं। के वल एक व्यक्ति के प्राप्तांक, B से कम हैं। किसके प्राप्तांक सर्वाधिक हैं? D"
+      "en": "A, B, C, D and E scored different marks. C scored more than exactly three people. A scored less than D, and D scored less than E. Only one person scored less than B. Who scored the highest?",
+      "hi": "A, B, C, D और E के प्राप्तांक भिन्न-भिन्न हैं। C के प्राप्तांक ठीक तीन व्यक्तियों से अधिक हैं। A के प्राप्तांक, D से कम हैं और D के प्राप्तांक, E से कम हैं। केवल एक व्यक्ति के प्राप्तांक, B से कम हैं। किसके प्राप्तांक सर्वाधिक हैं?"
     },
     "options": {
       "en": [
         "A",
-        "Who scored the highest? C",
+        "C",
         "B",
         "E"
       ],
@@ -1469,7 +1514,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (E). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (E)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 47,
@@ -1484,7 +1530,7 @@
     "options": {
       "en": [
         "0",
-        "3                                                K",
+        "3",
         "2",
         "1"
       ],
@@ -1501,7 +1547,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (0). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (0)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 48,
@@ -1533,7 +1580,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (HGCJ). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (HGCJ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 49,
@@ -1553,10 +1601,10 @@
         "pH of the solution increases"
       ],
       "hi": [
-        "विलयन का pH बढ़ जाता है",
+        "विलयन का pH उदासीन हो जाता है",
         "विलयन का pH अपरिवर्तित रहता है",
         "विलयन का pH कम हो जाता है",
-        "विलयन का pH उदासीन हो जाता है"
+        "विलयन का pH बढ़ जाता है"
       ]
     },
     "correctIndex": 2,
@@ -1565,7 +1613,8 @@
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (pH of the solution decreases). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (विलयन का pH कम हो जाता है)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 50,
@@ -1585,10 +1634,10 @@
         "Magnesium"
       ],
       "hi": [
+        "कॉपर",
         "ऐलुमिनियम",
         "जिंक",
-        "मैग्नीशियम",
-        "कॉपर                 en"
+        "मैग्नीशियम"
       ]
     },
     "correctIndex": 0,
@@ -1596,8 +1645,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (Copper). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (ऐलुमिनियम)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (कॉपर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 51,
@@ -1606,8 +1656,8 @@
     "subject": "General Intelligence & Reasoning",
     "topic": "General Intelligence & Reasoning (Shift 3)",
     "question": {
-      "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 7 & 8 $ # @ * 4 ? % Code                I HAKMJ SWYF Conditions – (i) If the first element is a symbol and the last element is a number, interchange the codes of the first and the last elements. (ii) If the second and third elements are odd numbers, code the third element as the code of the second element. (iii) If the fourth element is a symbol and the fifth element is a number, code both elements as ©. What is the code for the following group of number-symbols? 7&8$#",
-      "hi": "इस प्रश्न में, संख्या/प्रतीक के एक समूह को नीचे दिए गए कू ट और उसके बाद आने वाली शर्तों का अनुसरण करके अक्षर कू टों का उपयोग करके कू टबद्ध किया जाता है। शर्तों का अनुसरण करने वाला कू टों का सही संयोजन आपका उत्तर है। यदि किसी भी शर्त का अनुसरण नहीं होता है, तो संबंधित संख्या/प्रतीक के लिए कू ट का सीधे उसी प्रकार अनुसरण किया जाना चाहिए जैसा कि तालिका में दिया गया है। संख्या/प्रतीक 7 & 8 $ # @ * 4 ? % कू ट          I HAKMJ SWYF शर्तें – (i) यदि पहला अवयव एक प्रतीक है और अंतिम अवयव एक संख्या है, तो पहले और अंतिम अवयवों के कू टों को परस्पर प्रतिस्थापित कर दें। (ii) यदि दूसरा और तीसरा अवयव विषम संख्याएं हैं, तो तीसरे अवयव को दूसरे अवयव के कू ट के रूप में कू टबद्ध करें। (iii) यदि चौथा अवयव एक प्रतीक है और पांचवां अवयव एक संख्या है, तो दोनों अवयवों को © के रूप में कू टबद्ध करें। संख्या-प्रतीकों के निम्नलिखित समूह के लिए कू ट क्या है? 7&8$#"
+      "en": "In this question, a group of number/symbol is coded using letter codes as per the codes given below and the conditions which follow. The correct combination of codes following the conditions is your answer. If none of the conditions follow, then codes for the respective Number/Symbol are to be followed directly as given in the table. Number/symbol 7 & 8 $ # @ * 4 ? % Code I HAKMJ SWYF Conditions – (i) If the first element is a symbol and the last element is a number, interchange the codes of the first and the last elements. (ii) If the second and third elements are odd numbers, code the third element as the code of the second element. (iii) If the fourth element is a symbol and the fifth element is a number, code both elements as ©. What is the code for the following group of number-symbols? 7&8$#",
+      "hi": "इस प्रश्न में, संख्या/प्रतीक के एक समूह को नीचे दिए गए कू ट और उसके बाद आने वाली शर्तों का अनुसरण करके अक्षर कू टों का उपयोग करके कू टबद्ध किया जाता है। शर्तों का अनुसरण करने वाला कू टों का सही संयोजन आपका उत्तर है। यदि किसी भी शर्त का अनुसरण नहीं होता है, तो संबंधित संख्या/प्रतीक के लिए कू ट का सीधे उसी प्रकार अनुसरण किया जाना चाहिए जैसा कि तालिका में दिया गया है। संख्या/प्रतीक 7 & 8 $ # @ * 4 ? % कू ट I HAKMJ SWYF शर्तें – (i) यदि पहला अवयव एक प्रतीक है और अंतिम अवयव एक संख्या है, तो पहले और अंतिम अवयवों के कू टों को परस्पर प्रतिस्थापित कर दें। (ii) यदि दूसरा और तीसरा अवयव विषम संख्याएं हैं, तो तीसरे अवयव को दूसरे अवयव के कू ट के रूप में कू टबद्ध करें। (iii) यदि चौथा अवयव एक प्रतीक है और पांचवां अवयव एक संख्या है, तो दोनों अवयवों को © के रूप में कू टबद्ध करें। संख्या-प्रतीकों के निम्नलिखित समूह के लिए कू ट क्या है? 7&8$#"
     },
     "options": {
       "en": [
@@ -1618,7 +1668,7 @@
       ],
       "hi": [
         "IFAKM",
-        "IHAKM                                                            K",
+        "IHAKM",
         "IHYKM",
         "IHAKW"
       ]
@@ -1628,8 +1678,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (IHAKM). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (IHAKM                                                            K)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प B (IHAKM)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 52,
@@ -1661,7 +1712,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (199). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (199)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 53,
@@ -1681,8 +1733,8 @@
         "Two"
       ],
       "hi": [
-        "तीन",
         "एक",
+        "तीन",
         "चार",
         "दो"
       ]
@@ -1692,8 +1744,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (One). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (एक)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 54,
@@ -1715,8 +1768,8 @@
       "hi": [
         "OVI 2",
         "NWI 2",
-        "OUJ 1",
-        "OUI 1 \""
+        "OUI 1 \"",
+        "OUJ 1"
       ]
     },
     "correctIndex": 2,
@@ -1724,8 +1777,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (OUI 1). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (OUJ 1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (OUI 1 \")। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 55,
@@ -1745,10 +1799,10 @@
         "Three"
       ],
       "hi": [
-        "चार",
-        "तीन",
         "दो",
-        "एक"
+        "एक",
+        "चार",
+        "तीन"
       ]
     },
     "correctIndex": 2,
@@ -1756,8 +1810,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (Four). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (दो)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प C (चार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 56,
@@ -1789,7 +1844,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (3 km to the east). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (3 km, पूर्व की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 57,
@@ -1821,7 +1877,8 @@
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (30870). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (30870)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 58,
@@ -1841,10 +1898,10 @@
         "Four"
       ],
       "hi": [
-        "चार",
-        "दो",
+        "तीन",
         "एक",
-        "तीन"
+        "दो",
+        "चार"
       ]
     },
     "correctIndex": 0,
@@ -1852,8 +1909,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (Three). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (चार)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (तीन)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 59,
@@ -1885,7 +1943,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (9). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (9)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 60,
@@ -1905,9 +1964,9 @@
         "NJE70"
       ],
       "hi": [
-        "NJF71",
-        "NJF70",
         "NJE71",
+        "NJF70",
+        "NJF71",
         "NJE70"
       ]
     },
@@ -1916,8 +1975,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (NJE71). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (NJF71)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (NJE71)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 61,
@@ -1949,7 +2009,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (64). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (64)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 62,
@@ -1981,7 +2042,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (₹1600). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (₹1600)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 63,
@@ -2013,7 +2075,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (63). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (63)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 64,
@@ -2045,7 +2108,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (-1/5). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (-1/5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 65,
@@ -2067,8 +2131,8 @@
       "hi": [
         "क्योंकि इससे चुंबकीय क्षेत्र दुर्बल हो जाता है",
         "क्योंकि इससे एक नया चुंबकीय ध्रुव बनता है",
-        "क्योंकि एक कं पास की सुई को एक ही समय में दो दिशाओं में इंगित करना आवश्यक होगा",
-        "क्योंकि इसका अर्थ है कि क्षेत्र रेखाएं विवृत वक्र होती हैं"
+        "क्योंकि इसका अर्थ है कि क्षेत्र रेखाएं विवृत वक्र होती हैं",
+        "क्योंकि एक कं पास की सुई को एक ही समय में दो दिशाओं में इंगित करना आवश्यक होगा"
       ]
     },
     "correctIndex": 3,
@@ -2076,8 +2140,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (Because a compass needle would be required to point in two directions at the same time). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (क्योंकि इसका अर्थ है कि क्षेत्र रेखाएं विवृत वक्र होती हैं)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प D (क्योंकि एक कं पास की सुई को एक ही समय में दो दिशाओं में इंगित करना आवश्यक होगा)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 66,
@@ -2094,7 +2159,7 @@
         "24 km to the North",
         "25 km to the North",
         "26 km to the South",
-        "27 km to the South      di"
+        "27 km to the South"
       ],
       "hi": [
         "24 km, उत्तर की ओर",
@@ -2109,7 +2174,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (24 km to the North). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (24 km, उत्तर की ओर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 67,
@@ -2141,7 +2207,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option B (138). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प B (138)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 1
   },
   {
     "id": 68,
@@ -2173,7 +2240,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (58). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (58)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 69,
@@ -2205,7 +2273,8 @@
       "keyConcept": "General Intelligence & Reasoning (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (166). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (166)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 70,
@@ -2225,10 +2294,10 @@
         "It acts as a reference line passing through the center of curvature and the pole"
       ],
       "hi": [
-        "यह के वल ध्रुव पर दर्पण पृष्ठ के लंबवत एक रेखा है।",
         "यह वक्रता कें द्र पर दर्पण की स्पर्शरेखा है।",
-        "यह वक्रता कें द्र और ध्रुव से होकर गुजरने वाली एक संदर्भ रेखा के रूप में कार्य करता है।",
-        "यह फोकस और ध्रुव से होकर गुजरता है लेकिन वक्रता कें द्र से नहीं।"
+        "यह फोकस और ध्रुव से होकर गुजरता है लेकिन वक्रता कें द्र से नहीं।",
+        "यह के वल ध्रुव पर दर्पण पृष्ठ के लंबवत एक रेखा है।",
+        "यह वक्रता कें द्र और ध्रुव से होकर गुजरने वाली एक संदर्भ रेखा के रूप में कार्य करता है।"
       ]
     },
     "correctIndex": 0,
@@ -2236,8 +2305,9 @@
       "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
       "keyConcept": "General Science & GK (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (It is the tangent to the mirror at the center of curvature). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (यह के वल ध्रुव पर दर्पण पृष्ठ के लंबवत एक रेखा है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+      "hi": "सही उत्तर: विकल्प A (यह वक्रता कें द्र पर दर्पण की स्पर्शरेखा है।)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 71,
@@ -2269,7 +2339,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (67,800). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (67,800)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 72,
@@ -2301,7 +2372,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option D (21%). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प D (21%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 3
   },
   {
     "id": 73,
@@ -2310,8 +2382,8 @@
     "subject": "Mathematics",
     "topic": "Mathematics (Shift 3)",
     "question": {
-      "en": "The volume of a cylinder having diameter 16 cm and height 21 cm is: 1400                        ng",
-      "hi": "16 cm    व्यास और 21 cm ऊं चाई वाले बेलन का आयतन ज्ञात कीजिए। (              का उपयोग कीजिए।)"
+      "en": "The volume of a cylinder having diameter 16 cm and height 21 cm is: 1400",
+      "hi": "16 cm व्यास और 21 cm ऊं चाई वाले बेलन का आयतन ज्ञात कीजिए। ( का उपयोग कीजिए।)"
     },
     "options": {
       "en": [
@@ -2333,7 +2405,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option A (4224 cm3). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प A (4224 cm3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 0
   },
   {
     "id": 74,
@@ -2365,7 +2438,8 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (21). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (21)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   },
   {
     "id": 75,
@@ -2397,6 +2471,7 @@
       "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
       "en": "Correct Answer: Option C (336 km). Verified by official RRB ALP answer key.",
       "hi": "सही उत्तर: विकल्प C (336 km)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
-    }
+    },
+    "correctIndexHi": 2
   }
 ]

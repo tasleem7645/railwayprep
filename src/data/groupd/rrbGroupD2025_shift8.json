@@ -18,8 +18,8 @@
       ],
       "hi": [
         "35.5 u",
-        "34.5 u",
         "35.2 u",
+        "34.5 u",
         "35 u"
       ]
     },
@@ -51,10 +51,10 @@
         "Only 1 and 3"
       ],
       "hi": [
-        "केवल 1 और 3",
-        "केवल 1 और 2",
         "केवल 2 और 3",
-        "1, 2 और 3"
+        "केवल 1 और 2",
+        "1, 2 और 3",
+        "केवल 1 और 3"
       ]
     },
     "correctIndex": 1,
@@ -85,9 +85,9 @@
         "Diamond is a non-conductor of electricity due to the absence of free electrons."
       ],
       "hi": [
-        "हीरा विस्थापित इलेक्ट्रॉनों के कारण विद्युत का चालन करता है।",
         "हीरे में नरम परतें होती हैं जो एक - दूसरे के ऊपर फिसलती हैं।",
         "हीरा , ग्रेफाइट जैसी स्तरित संरचना में विद्यमान है।",
+        "हीरा विस्थापित इलेक्ट्रॉनों के कारण विद्युत का चालन करता है।",
         "हीरे में मुक्त इलेक्ट्रॉनों की अनुपस्थिति के कारण यह विद्युत का अचालक होता है।"
       ]
     },
@@ -108,8 +108,8 @@
     "subject": "General Science",
     "topic": "Chemical Bonding (Ionic, Covalent) • RRB Group D Level-1 (05 Aug 2026 Shift 8)",
     "question": {
-      "en": "When potassium reacts with chlorine to form potassium chloride, which formula correctly represents the resulting compound based on their combining ratios? 2:15 PM · English",
-      "hi": "जब पोटैशियम क्लोरीन के साथ अभिक्रिया करके पोटैशियम क्लोराइड बनाता है , तो उनके संयोजन अनुपातों के आधार पर कौन - सा सूत्र परिणामी यौगिक को सही ढंग से दर्शाता है ? 2:15 PM · Hindi"
+      "en": "When potassium reacts with chlorine to form potassium chloride, which formula correctly represents the resulting compound based on their combining ratios?",
+      "hi": "जब पोटैशियम क्लोरीन के साथ अभिक्रिया करके पोटैशियम क्लोराइड बनाता है , तो उनके संयोजन अनुपातों के आधार पर कौन - सा सूत्र परिणामी यौगिक को सही ढंग से दर्शाता है ?"
     },
     "options": {
       "en": [
@@ -121,8 +121,8 @@
       "hi": [
         "K2Cl2",
         "KCl",
-        "K2Cl",
-        "KCl2"
+        "KCl2",
+        "K2Cl"
       ]
     },
     "correctIndex": 1,
@@ -153,9 +153,9 @@
         "Right atrium"
       ],
       "hi": [
-        "बायां निलय",
-        "दायां निलय",
         "बायां आलिंद",
+        "दायां निलय",
+        "बायां निलय",
         "दायां आलिंद"
       ]
     },
@@ -188,9 +188,9 @@
       ],
       "hi": [
         "हरे पादपों में प्रकाश संश्लेषण",
-        "जानवरों में श्वसन",
         "जीवाश्म ईंधनों का दहन",
-        "पादपों में श्वसन"
+        "पादपों में श्वसन",
+        "जानवरों में श्वसन"
       ]
     },
     "correctIndex": 0,
@@ -221,10 +221,10 @@
         "Grasshopper"
       ],
       "hi": [
-        "टिड्डा",
-        "हॉक",
         "मेंढक",
-        "घास"
+        "हॉक",
+        "घास",
+        "टिड्डा"
       ]
     },
     "correctIndex": 1,
@@ -291,8 +291,8 @@
       "hi": [
         "पाश को शीघ्रता से एक प्रबल चुंबकीय क्षेत्र में गतिमान कराना",
         "पाश को चुंबकीय क्षेत्र में स्थिर रखना",
-        "पाश को क्षेत्र रेखाओं के समानांतर गतिमान कराना",
-        "पाश को धीरे - धीरे एक दुर्बल चुंबकीय क्षेत्र में गतिमान कराना"
+        "पाश को धीरे - धीरे एक दुर्बल चुंबकीय क्षेत्र में गतिमान कराना",
+        "पाश को क्षेत्र रेखाओं के समानांतर गतिमान कराना"
       ]
     },
     "correctIndex": 0,
@@ -319,14 +319,14 @@
       "en": [
         "The Sun emits more blue light during the day, while emitting more red light at sunset.",
         "Atmospheric absorption removes red light during the day, while removing blue light at sunset.",
-        "Dust particles scatter all wavelengths equally, while increased dust at sunset makes red light more visible. Shorter wavelengths scatter more strongly, while",
-        "longer atmospheric paths at sunset favour red wavelengths."
+        "Dust particles scatter all wavelengths equally, while increased dust at sunset makes red light more visible.",
+        "Shorter wavelengths scatter more strongly, while longer atmospheric paths at sunset favour red wavelengths."
       ],
       "hi": [
-        "के समय अधिक लाल प्रकाश उत्स र्जित करता है। धूल के कण सभी तरंगदैर्ध्य को समान रूप से प्रकीर्णित करते हैं ,",
-        "जबकि सूर्यास्त के समय धूल बढ़ने से लाल प्रकाश अधिक दृश्य होता है।",
-        "वायुमंडलीय अवशोषण दिन में लाल प्रकाश को हटा देता है , जबकि सूर्यास्त के समय नीले प्रकाश को हटा देता है। लघु तरंगदैर्ध्यें अधिक प्रबलता से प्रकीर्णित होती हैं , जबकि",
-        "सूर्यास्त के समय लंबे वायुमंडलीय मार्ग लाल तरंगदैर्ध्य के लिए अनुकू ल होते हैं।"
+        "सूर्य दिन के समय अधिक नीला प्रकाश उत्सर्जित करता है, जबकि सूर्यास्त के समय अधिक लाल प्रकाश उत्सर्जित करता है।",
+        "वायुमंडलीय अवशोषण दिन में लाल प्रकाश को हटा देता है, जबकि सूर्यास्त के समय नीले प्रकाश को हटा देता है।",
+        "धूल के कण सभी तरंगदैर्ध्य को समान रूप से प्रकीर्णित करते हैं, जबकि सूर्यास्त के समय धूल बढ़ने से लाल प्रकाश अधिक दृश्य होता है।",
+        "लघु तरंगदैर्ध्यें अधिक प्रबलता से प्रकीर्णित होती हैं, जबकि सूर्यास्त के समय लंबे वायुमंडलीय मार्ग लाल तरंगदैर्ध्य के लिए अनुकूल होते हैं।"
       ]
     },
     "correctIndex": 3,
@@ -335,8 +335,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Light & Optics",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (longer atmospheric paths at sunset favour red wavelengths.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (सूर्यास्त के समय लंबे वायुमंडलीय मार्ग लाल तरंगदैर्ध्य के लिए अनुकू ल होते हैं।) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Shorter wavelengths scatter more strongly, while longer atmospheric paths at sunset favour red wavelengths.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (लघु तरंगदैर्ध्यें अधिक प्रबलता से प्रकीर्णित होती हैं, जबकि सूर्यास्त के समय लंबे वायुमंडलीय मार्ग लाल तरंगदैर्ध्य के लिए अनुकूल होते हैं।) सही उत्तर है।"
     }
   },
   {
@@ -357,10 +357,10 @@
         "Both statements 2 and 4 only"
       ],
       "hi": [
-        "केवल कथन 2 और 4 दोनों",
         "केवल कथन 1 और 3 दोनों",
+        "केवल कथन 1 और 2 दोनों",
         "केवल कथन 3 और 4 दोनों",
-        "केवल कथन 1 और 2 दोनों"
+        "केवल कथन 2 और 4 दोनों"
       ]
     },
     "correctIndex": 2,
@@ -392,8 +392,8 @@
       ],
       "hi": [
         "6 m/s²",
-        "10 m/s²",
         "2 m/s²",
+        "10 m/s²",
         "4 m/s²"
       ]
     },
@@ -427,8 +427,8 @@
       "hi": [
         "प्रतिबिंब गायब हो जाता है",
         "प्रतिबिंब का आकार बढ़ता है",
-        "प्रतिबिंब का आकार हर समय समान रहता है",
-        "प्रतिबिंब का आकार घटता है"
+        "प्रतिबिंब का आकार घटता है",
+        "प्रतिबिंब का आकार हर समय समान रहता है"
       ]
     },
     "correctIndex": 1,
@@ -460,8 +460,8 @@
       ],
       "hi": [
         "निलंबन के कणों का आकार आणविक होता है जबकि विलयन के कणों का आकार परमाण्विक होता है।",
-        "निलंबन के कण , विलयन के कणों से छोटे होते हैं।",
         "दोनों के कणों का आकार बराबर होता है।",
+        "निलंबन के कण , विलयन के कणों से छोटे होते हैं।",
         "निलंबन के कण , विलयन के कणों से बड़े होते हैं।"
       ]
     },
@@ -527,8 +527,8 @@
         "Water forms after oxygen gain"
       ],
       "hi": [
-        "ऑक्सीकरण से क्लोरीन गैस निर्मित होती है",
         "हाइड्रोजन क्लोराइड , हाइड्रोजन का त्याग करता है",
+        "ऑक्सीकरण से क्लोरीन गैस निर्मित होती है",
         "मैंगनीज डाइऑक्साइड , ऑक्सीजन का त्याग करता है",
         "ऑक्सीजन लब्धि के बाद जल निर्मित होता है"
       ]
@@ -562,8 +562,8 @@
       ],
       "hi": [
         "मैग्नीशियम हाइड्रॉक्साइड",
-        "कॉपर हाइड्रॉक्साइड",
         "आयरन हाइड्रॉक्साइड",
+        "कॉपर हाइड्रॉक्साइड",
         "मैग्नीशियम ऑक्साइड"
       ]
     },
@@ -595,10 +595,10 @@
         "Cells mainly provide mechanical support"
       ],
       "hi": [
-        "कोशिकाओं में स्थूल द्वितीयक भित्तियां होती हैं",
+        "कोशिकाएं जल और खनिजों का परिवहन करती हैं",
         "कोशिकाएँ निरंतर विभाजन करने में सक्षम होती हैं",
-        "कोशिकाएं मुख्यत : यांत्रिक सहारा प्रदान करती हैं",
-        "कोशिकाएं जल और खनिजों का परिवहन करती हैं"
+        "कोशिकाओं में स्थूल द्वितीयक भित्तियां होती हैं",
+        "कोशिकाएं मुख्यत : यांत्रिक सहारा प्रदान करती हैं"
       ]
     },
     "correctIndex": 1,
@@ -629,9 +629,9 @@
         "Meristematic tissue"
       ],
       "hi": [
-        "मृदूतक",
-        "दृढ़ोतक",
         "बाह्यत्वचा",
+        "दृढ़ोतक",
+        "मृदूतक",
         "विभज्योतक"
       ]
     },
@@ -731,10 +731,10 @@
         "A uniform increase in claw length across all arboreal species"
       ],
       "hi": [
-        "मुख्यतः रक्षात्मक आवश्यकताओं के लिए विकसित समान तीक्ष् णता",
+        "अपने आवास में छद्मावरण प्रदान करने की दोहरी भूमिका",
         "सपाट भूमि पर चलने की तुलना में चढ़ाई के लिए उपयुक्तता",
-        "सभी वृक्षीय प्रजातियों में पंजों की लंबाई में एकसमान वृद्धि",
-        "अपने आवास में छद्मावरण प्रदान करने की दोहरी भूमिका"
+        "मुख्यतः रक्षात्मक आवश्यकताओं के लिए विकसित समान तीक्ष् णता",
+        "सभी वृक्षीय प्रजातियों में पंजों की लंबाई में एकसमान वृद्धि"
       ]
     },
     "correctIndex": 1,
@@ -765,9 +765,9 @@
         "100 W"
       ],
       "hi": [
+        "300 W",
         "10 W",
         "30 W",
-        "300 W",
         "100 W"
       ]
     },
@@ -834,9 +834,9 @@
       ],
       "hi": [
         "रंगहीन से धीरे - धीरे गुलाबी होना",
-        "पीला से तत्‍काल लाल होना",
         "हिलाने पर सफे द से हरा हो जाना",
-        "नीला से तत्‍काल रंगहीन होना"
+        "नीला से तत्‍काल रंगहीन होना",
+        "पीला से तत्‍काल लाल होना"
       ]
     },
     "correctIndex": 0,
@@ -867,9 +867,9 @@
         "₹2434.80"
       ],
       "hi": [
-        "₹2456.40",
         "₹2634.80",
         "₹2260.20",
+        "₹2456.40",
         "₹2434.80"
       ]
     },
@@ -901,9 +901,9 @@
         "36 years"
       ],
       "hi": [
-        "34 वर्ष",
-        "30 वर्ष",
         "32 वर्ष",
+        "30 वर्ष",
+        "34 वर्ष",
         "36 वर्ष"
       ]
     },
@@ -970,9 +970,9 @@
       ],
       "hi": [
         "24 : 28",
-        "23 : 26",
+        "20 : 28",
         "23 : 28",
-        "20 : 28"
+        "23 : 26"
       ]
     },
     "correctIndex": 2,
@@ -1003,10 +1003,10 @@
         "18 km"
       ],
       "hi": [
-        "18 km",
+        "15 km",
         "24 km",
         "20 km",
-        "15 km"
+        "18 km"
       ]
     },
     "correctIndex": 2,
@@ -1037,10 +1037,10 @@
         "74"
       ],
       "hi": [
-        "74",
         "70",
+        "68",
         "76",
-        "68"
+        "74"
       ]
     },
     "correctIndex": 2,
@@ -1105,8 +1105,8 @@
         "28 days"
       ],
       "hi": [
-        "20 दिन",
         "16 दिन",
+        "20 दिन",
         "24 दिन",
         "28 दिन"
       ]
@@ -1207,8 +1207,8 @@
         "₹510"
       ],
       "hi": [
-        "₹485",
         "₹490",
+        "₹485",
         "₹495",
         "₹510"
       ]
@@ -1241,9 +1241,9 @@
         "19.6"
       ],
       "hi": [
-        "20.4",
-        "18.9",
         "20.7",
+        "18.9",
+        "20.4",
         "19.6"
       ]
     },
@@ -1275,9 +1275,9 @@
         "2"
       ],
       "hi": [
-        "4",
-        "1",
         "3",
+        "1",
+        "4",
         "2"
       ]
     },
@@ -1309,10 +1309,10 @@
         "120"
       ],
       "hi": [
-        "120",
-        "90",
         "86",
-        "100"
+        "90",
+        "100",
+        "120"
       ]
     },
     "correctIndex": 1,
@@ -1344,9 +1344,9 @@
       ],
       "hi": [
         "20%",
+        "15%",
         "30%",
-        "25%",
-        "15%"
+        "25%"
       ]
     },
     "correctIndex": 0,
@@ -1378,9 +1378,9 @@
       ],
       "hi": [
         "44.02",
-        "46.04",
+        "48.08",
         "50.12",
-        "48.08"
+        "46.04"
       ]
     },
     "correctIndex": 0,
@@ -1413,8 +1413,8 @@
       "hi": [
         "3 इकाई",
         "9 इकाई",
-        "6 इकाई",
-        "4 इकाई"
+        "4 इकाई",
+        "6 इकाई"
       ]
     },
     "correctIndex": 0,
@@ -1445,10 +1445,10 @@
         "II"
       ],
       "hi": [
+        "III",
         "I",
-        "II",
         "IV",
-        "III"
+        "II"
       ]
     },
     "correctIndex": 2,
@@ -1479,10 +1479,10 @@
         "₹46990"
       ],
       "hi": [
-        "₹46990",
-        "₹46980 कीजिए। का मान ज्ञात कीजिए।",
         "₹46960",
-        "₹46970"
+        "₹46980 कीजिए। का मान ज्ञात कीजिए।",
+        "₹46970",
+        "₹46990"
       ]
     },
     "correctIndex": 1,
@@ -1503,7 +1503,7 @@
     "topic": "Basic Trigonometric Ratios • RRB Group D Level-1 (05 Aug 2026 Shift 8)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "यदि है , तो का मान ज्ञात"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1523,10 +1523,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Basic Trigonometric Ratios",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1537,7 +1537,7 @@
     "topic": "Basic Trigonometric Ratios • RRB Group D Level-1 (05 Aug 2026 Shift 8)",
     "question": {
       "en": "Evaluate the following: $15^2 - 12^2 + \\sqrt{256}$",
-      "hi": "यदि और एक न्यूनकोण है , तो"
+      "hi": "निम्नलिखित का मान ज्ञात कीजिए: $15^2 - 12^2 + \\sqrt{256}$"
     },
     "options": {
       "en": [
@@ -1557,10 +1557,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Basic Trigonometric Ratios",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1581,10 +1581,10 @@
         "2,236 cm3"
       ],
       "hi": [
-        "2,236 cm3",
+        "2,282 cm3",
         "2,246 cm3",
         "2,156 cm3",
-        "2,282 cm3"
+        "2,236 cm3"
       ]
     },
     "correctIndex": 2,
@@ -1627,8 +1627,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Find Rate",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1649,9 +1649,9 @@
         "12.72"
       ],
       "hi": [
-        "10.66",
         "16.72",
         "11.72",
+        "10.66",
         "12.72"
       ]
     },
@@ -1683,10 +1683,10 @@
         "Thursday"
       ],
       "hi": [
+        "बुधवार",
         "मंगलवार",
         "शुक्रवार",
-        "बुधवार",
-        "गुरुवार General Intelligence & Reasoning"
+        "गुरुवार"
       ]
     },
     "correctIndex": 3,
@@ -1696,7 +1696,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "Mathematics • Trend Analysis",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Thursday) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (गुरुवार General Intelligence & Reasoning) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (गुरुवार) सही उत्तर है।"
     }
   },
   {
@@ -1752,9 +1752,9 @@
       ],
       "hi": [
         "W",
-        "R",
+        "S",
         "I",
-        "S"
+        "R"
       ]
     },
     "correctIndex": 2,
@@ -1786,9 +1786,9 @@
       ],
       "hi": [
         "दो",
-        "एक",
+        "तीन",
         "चार",
-        "तीन"
+        "एक"
       ]
     },
     "correctIndex": 0,
@@ -1819,8 +1819,8 @@
         "9"
       ],
       "hi": [
-        "10",
         "11",
+        "10",
         "8",
         "9"
       ]
@@ -1854,9 +1854,9 @@
       ],
       "hi": [
         "FHH",
+        "FHI",
         "FIH",
-        "FII",
-        "FHI"
+        "FII"
       ]
     },
     "correctIndex": 0,
@@ -1888,9 +1888,9 @@
       ],
       "hi": [
         "P",
-        "R",
+        "O",
         "Q",
-        "O"
+        "R"
       ]
     },
     "correctIndex": 0,
@@ -1956,8 +1956,8 @@
       ],
       "hi": [
         "10",
-        "13",
         "11",
+        "13",
         "9"
       ]
     },
@@ -1989,10 +1989,10 @@
         "7"
       ],
       "hi": [
-        "7",
+        "12",
         "8",
         "9",
-        "12"
+        "7"
       ]
     },
     "correctIndex": 1,
@@ -2057,9 +2057,9 @@
         "7 km towards West"
       ],
       "hi": [
-        "6 km, पूर्व की ओर",
-        "7 km, उत्तर की ओर",
         "5 km, पूर्व की ओर",
+        "7 km, उत्तर की ओर",
+        "6 km, पूर्व की ओर",
         "7 km, पश्चिम की ओर"
       ]
     },
@@ -2125,10 +2125,10 @@
         "1 km to the west"
       ],
       "hi": [
-        "2 km, पूर्व में",
+        "2 km, दक्षिण में",
         "2 km, पश्चिम में",
-        "1 km, पश्चिम में",
-        "2 km, दक्षिण में"
+        "2 km, पूर्व में",
+        "1 km, पश्चिम में"
       ]
     },
     "correctIndex": 1,
@@ -2159,9 +2159,9 @@
         "9 - 29"
       ],
       "hi": [
-        "19 - 35",
         "45 - 96",
         "5 - 35",
+        "19 - 35",
         "9 - 29"
       ]
     },
@@ -2193,10 +2193,10 @@
         "8 - 32 - 28 - 120"
       ],
       "hi": [
-        "8 - 32 - 28 - 120",
+        "11 - 21 - 17 - 69",
         "6 - 24 - 20 - 80",
         "9 - 36 - 33 - 120",
-        "11 - 21 - 17 - 69"
+        "8 - 32 - 28 - 120"
       ]
     },
     "correctIndex": 1,
@@ -2227,8 +2227,8 @@
         "16"
       ],
       "hi": [
-        "11",
         "27",
+        "11",
         "22",
         "16"
       ]
@@ -2262,9 +2262,9 @@
       ],
       "hi": [
         "36",
+        "37",
         "34",
-        "38",
-        "37"
+        "38"
       ]
     },
     "correctIndex": 0,
@@ -2330,9 +2330,9 @@
       ],
       "hi": [
         "GNIL",
-        "NGIL",
+        "NGLI",
         "GNLI",
-        "NGLI"
+        "NGIL"
       ]
     },
     "correctIndex": 2,
@@ -2363,9 +2363,9 @@
         "# = OIN, % = TNS"
       ],
       "hi": [
-        "# = OOI, % = YYS",
-        "# = PON, % = TJU",
         "# = OLN, % = TNU",
+        "# = PON, % = TJU",
+        "# = OOI, % = YYS",
         "# = OIN, % = TNS"
       ]
     },
@@ -2399,8 +2399,8 @@
       "hi": [
         "XLZI",
         "NPIL",
-        "NLPI",
-        "XZIL"
+        "XZIL",
+        "NLPI"
       ]
     },
     "correctIndex": 0,
@@ -2431,10 +2431,10 @@
         "AFL"
       ],
       "hi": [
+        "DIO",
         "EJP",
-        "AFL",
         "JOT",
-        "DIO"
+        "AFL"
       ]
     },
     "correctIndex": 2,
@@ -2467,8 +2467,8 @@
       "hi": [
         "HMI",
         "WAX",
-        "OSP",
-        "FJG"
+        "FJG",
+        "OSP"
       ]
     },
     "correctIndex": 0,
@@ -2500,9 +2500,9 @@
       ],
       "hi": [
         "131",
+        "130",
         "133",
-        "132",
-        "130"
+        "132"
       ]
     },
     "correctIndex": 0,
@@ -2533,10 +2533,10 @@
         "B"
       ],
       "hi": [
-        "B",
         "F",
+        "K",
         "S",
-        "K"
+        "B"
       ]
     },
     "correctIndex": 2,
@@ -2602,9 +2602,9 @@
       ],
       "hi": [
         "$",
-        "=",
+        "@",
         "+",
-        "@"
+        "="
       ]
     },
     "correctIndex": 2,
@@ -2637,8 +2637,8 @@
       "hi": [
         "1",
         "3",
-        "0",
-        "2"
+        "2",
+        "0"
       ]
     },
     "correctIndex": 0,
@@ -2666,13 +2666,13 @@
         "3",
         "2",
         "1",
-        "4 General Awareness"
+        "4"
       ],
       "hi": [
-        "4",
-        "2",
         "3",
-        "1"
+        "2",
+        "1",
+        "4"
       ]
     },
     "correctIndex": 1,
@@ -2703,10 +2703,10 @@
         "Both conclusions (I) and (II) follow"
       ],
       "hi": [
+        "केवल निष्कर्ष (I) अनुसरण करता है",
         "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है",
-        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं",
         "केवल निष्कर्ष (II) अनुसरण करता है",
-        "केवल निष्कर्ष (I) अनुसरण करता है"
+        "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं"
       ]
     },
     "correctIndex": 2,
@@ -2737,8 +2737,8 @@
         "Rishi Kapoor"
       ],
       "hi": [
-        "राज कु मार",
         "मनोज कु मार",
+        "राज कु मार",
         "धर्मेंद्र सिंह देओल",
         "ऋषि कपूर"
       ]
@@ -2771,8 +2771,8 @@
         "Donald J. Trump"
       ],
       "hi": [
-        "हमद बिन ईसा अल खलीफा (Hamad bin Isa Al Khalifa)",
         "अलेक्जेंडर लुकाशेंको (Alyaksandr Lukashenka)",
+        "हमद बिन ईसा अल खलीफा (Hamad bin Isa Al Khalifa)",
         "बेंजामिन नेतन्या हू (Benjamin Netanyahu)",
         "डोनाल्ड जे . ट्रम्प (Donald J. Trump)"
       ]
@@ -2805,10 +2805,10 @@
         "Government Capital Expenditure"
       ],
       "hi": [
+        "निर्यात व्यय",
         "रक्षा व्यय",
-        "सरकारी पूंजीगत व्यय",
         "निजी अंतिम उपभोग व्यय",
-        "निर्यात व्यय"
+        "सरकारी पूंजीगत व्यय"
       ]
     },
     "correctIndex": 2,
@@ -2840,9 +2840,9 @@
       ],
       "hi": [
         "तीसरा स्थान",
-        "पांचवां स्थान",
         "चौथा स्थान",
-        "सातवां स्थान"
+        "सातवां स्थान",
+        "पांचवां स्थान"
       ]
     },
     "correctIndex": 0,
@@ -2873,10 +2873,10 @@
         "12th position globally"
       ],
       "hi": [
-        "वैश्विक स्तर पर 12 वां स्थान",
-        "वैश्विक स्तर पर 16 वां स्थान",
         "वैश्विक स्तर पर 10 वां स्थान",
-        "वैश्विक स्तर पर 18 वां स्थान"
+        "वैश्विक स्तर पर 16 वां स्थान",
+        "वैश्विक स्तर पर 18 वां स्थान",
+        "वैश्विक स्तर पर 12 वां स्थान"
       ]
     },
     "correctIndex": 1,
@@ -2908,8 +2908,8 @@
       ],
       "hi": [
         "के टी लेडेकी (Katie Ledecky)",
-        "सिडनी मैकलॉघलिन - लेवरोन (Sydney McLaughlin- Levrone)",
         "ऐताना बोनमाटी (Aitana Bonmatí)",
+        "सिडनी मैकलॉघलिन - लेवरोन (Sydney McLaughlin- Levrone)",
         "आर्यना सबालेंका (Aryna Sabalenka)"
       ]
     },
@@ -2942,9 +2942,9 @@
       ],
       "hi": [
         "पेरिस सेंट - जर्मेन (Paris Saint-Germain)",
-        "बायर्न म्यूनिख (Bayern Munich)",
+        "मैनचेस्टर सिटी (Manchester City)",
         "रियल मैड्रिड (Real Madrid)",
-        "मैनचेस्टर सिटी (Manchester City)"
+        "बायर्न म्यूनिख (Bayern Munich)"
       ]
     },
     "correctIndex": 0,
@@ -2975,10 +2975,10 @@
         "The Mauritius Police Special Mobile Force"
       ],
       "hi": [
-        "Special Forces Command)",
-        "सेशेल्स पीपुल्स डिफें स फोर्सेज (Seychelles People’s Defence Forces)",
-        "मालदीव नेशनल डिफें स फोर्स (MNDF) {Maldives National Defence Force (MNDF)} मॉरिशस पुलिस स्पेशल मोबाइल फोर्स (Mauritius Police",
-        "Special Mobile Force)"
+        "सेशेल्स पीपुल्स डिफेंस फोर्सेज (Seychelles People’s Defence Forces)",
+        "श्रीलंका आर्मी स्पेशल फोर्सेज कमांड (Sri Lanka Army Special Forces Command)",
+        "मालदीव नेशनल डिफेंस फोर्स (MNDF) {Maldives National Defence Force (MNDF)}",
+        "मॉरिशस पुलिस स्पेशल मोबाइल फोर्स (Mauritius Police Special Mobile Force)"
       ]
     },
     "correctIndex": 2,
@@ -2988,7 +2988,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs • Military Exercises",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (The Maldives National Defence Force (MNDF)) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (मालदीव नेशनल डिफें स फोर्स (MNDF) {Maldives National Defence Force (MNDF)} मॉरिशस पुलिस स्पेशल मोबाइल फोर्स (Mauritius Police) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (मालदीव नेशनल डिफेंस फोर्स (MNDF) {Maldives National Defence Force (MNDF)}) सही उत्तर है।"
     }
   },
   {
@@ -3009,10 +3009,10 @@
         "Turbojet propulsion technology"
       ],
       "hi": [
-        "Ducted Ramjet technology)",
-        "टर्बोजेट प्रोपल्शन टेक्नोलॉजी (Turbojet propulsion technology) सॉलिड फ्यूल डक्टेड रैमजेट टेक्नोलॉजी (Solid Fuel",
-        "लिक्विड - प्रोपेलेंट रॉके ट इंजन टेक्नोलॉजी (Liquid-propellant rocket engine technology)",
-        "स्क्रै मजेट प्रोपल्शन टेक्नोलॉजी (Scramjet propulsion technology)"
+        "सॉलिड फ्यूल डक्टेड रैमजेट टेक्नोलॉजी (Solid Fuel Ducted Ramjet technology)",
+        "लिक्विड-प्रोपेलेंट रॉकेट इंजन टेक्नोलॉजी (Liquid-propellant rocket engine technology)",
+        "स्क्रैमजेट प्रोपल्शन टेक्नोलॉजी (Scramjet propulsion technology)",
+        "टर्बोजेट प्रोपल्शन टेक्नोलॉजी (Turbojet propulsion technology)"
       ]
     },
     "correctIndex": 0,
@@ -3022,7 +3022,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "General Awareness & Current Affairs • Missile Tests & Systems",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Solid Fuel Ducted Ramjet technology) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (Ducted Ramjet technology)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (सॉलिड फ्यूल डक्टेड रैमजेट टेक्नोलॉजी (Solid Fuel Ducted Ramjet technology)) सही उत्तर है।"
     }
   },
   {
@@ -3044,8 +3044,8 @@
       ],
       "hi": [
         "AIIMS जम्मू",
-        "AIIMS नई दिल्ली",
         "AIIMS पटना",
+        "AIIMS नई दिल्ली",
         "AIIMS नागपुर"
       ]
     },
@@ -3077,10 +3077,10 @@
         "Integrated Approach in S&T for Sustainable Future"
       ],
       "hi": [
-        "National Development)",
-        "विज्ञान में महिलाएं : विकसित भारत की उत्प्रेरक (Women in Science: Catalysing Viksit Bharat) सतत् भविष्य के लिए विज्ञान और प्रौद्योगिकी में एकीकृ त दृष्टिकोण",
-        "(Integrated Approach in S&T for Sustainable Future) विकसित भारत के लिए स्वदेशी प्रौद्योगिकियां (Indigenous",
-        "Technologies for Viksit Bharat)"
+        "विकसित भारत के लिए स्वदेशी प्रौद्योगिकियां (Indigenous Technologies for Viksit Bharat)",
+        "विज्ञान में महिलाएं: विकसित भारत की उत्प्रेरक (Women in Science: Catalysing Viksit Bharat)",
+        "राष्ट्रीय विकास में विज्ञान की भूमिका (The Role of Science in National Development)",
+        "सतत् भविष्य के लिए विज्ञान और प्रौद्योगिकी में एकीकृत दृष्टिकोण (Integrated Approach in S&T for Sustainable Future)"
       ]
     },
     "correctIndex": 1,
@@ -3090,7 +3090,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs • National Themed Days",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Women in Science: Catalysing Viksit Bharat) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (विज्ञान में महिलाएं : विकसित भारत की उत्प्रेरक (Women in Science: Catalysing Viksit Bharat) सतत् भविष्य के लिए विज्ञान और प्रौद्योगिकी में एकीकृ त दृष्टिकोण) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (विज्ञान में महिलाएं: विकसित भारत की उत्प्रेरक (Women in Science: Catalysing Viksit Bharat)) सही उत्तर है।"
     }
   },
   {
@@ -3112,9 +3112,9 @@
       ],
       "hi": [
         "सर्वे मॉड्यूल और वक्फ प्रॉपर्टी लीज मॉड्यूल",
+        "ऑडिट मॉड्यूल और रजिस्ट्रेशन मॉड्यूल",
         "टैक्स मॉड्यूल और कं प्लायंस मॉड्यूल",
-        "लैंड रिकॉर्ड मॉड्यूल और डोनेशन मॉड्यूल",
-        "ऑडिट मॉड्यूल और रजिस्ट्रेशन मॉड्यूल"
+        "लैंड रिकॉर्ड मॉड्यूल और डोनेशन मॉड्यूल"
       ]
     },
     "correctIndex": 0,
@@ -3145,9 +3145,9 @@
         "Kumbhalgarh Wildlife Sanctuary"
       ],
       "hi": [
-        "पोबितोरा वन्यजीव अभयारण्य",
-        "सुल्तानपुर वन्यजीव अभयारण्य",
         "दांदेली वन्यजीव अभयारण्य",
+        "सुल्तानपुर वन्यजीव अभयारण्य",
+        "पोबितोरा वन्यजीव अभयारण्य",
         "कुं भलगढ़ वन्यजीव अभयारण्य"
       ]
     },
@@ -3179,10 +3179,10 @@
         "Purchasing fire-fighting drones for metro cities"
       ],
       "hi": [
-        "मेट्रो शहरों के लिए अग्निशमन ड्रोन क्रय करना",
-        "पंचायती राज संस्थाओं में समुदाय आधारित आपदा जोखिम न्यूनीकरण को सुदृढ़ बनाना",
         "अंडमान द्वीप समूह में भूमिगत सुनामी आश्रयों का निर्माण करना",
-        "एक नए राष्ट्रीय चक्रवात चेतावनी केंद्र का निर्माण करना"
+        "पंचायती राज संस्थाओं में समुदाय आधारित आपदा जोखिम न्यूनीकरण को सुदृढ़ बनाना",
+        "एक नए राष्ट्रीय चक्रवात चेतावनी केंद्र का निर्माण करना",
+        "मेट्रो शहरों के लिए अग्निशमन ड्रोन क्रय करना"
       ]
     },
     "correctIndex": 1,
@@ -3213,9 +3213,9 @@
         "Kerala Police"
       ],
       "hi": [
+        "आंध्र प्रदेश पुलिस",
         "कर्नाटक पुलिस",
         "तमिलनाडु पुलिस",
-        "आंध्र प्रदेश पुलिस",
         "के रल पुलिस"
       ]
     },
@@ -3247,10 +3247,10 @@
         "Ministry of Finance"
       ],
       "hi": [
-        "वित्त मंत्रालय",
         "विदेश मंत्रालय",
+        "भारी उद्योग मंत्रालय",
         "रक्षा मंत्रालय",
-        "भारी उद्योग मंत्रालय"
+        "वित्त मंत्रालय"
       ]
     },
     "correctIndex": 2,
@@ -3281,9 +3281,9 @@
         "Gurindervir Singh"
       ],
       "hi": [
+        "रीगन गणेश",
         "मोहम्मद अफसल",
         "अनिमेष कु जूर",
-        "रीगन गणेश",
         "गुरिंदरवीर सिंह"
       ]
     },
@@ -3317,8 +3317,8 @@
       "hi": [
         "अनुच्छेद 21",
         "अनुच्छेद 19",
-        "अनुच्छेद 32",
-        "अनुच्छेद 25"
+        "अनुच्छेद 25",
+        "अनुच्छेद 32"
       ]
     },
     "correctIndex": 0,
@@ -3349,10 +3349,10 @@
         "IIT Delhi"
       ],
       "hi": [
-        "आईआईटी दिल्ली",
+        "आईआईटी खड़गपुर",
         "आईआईटी मद्रास",
         "आईआईटी मुंबई",
-        "आईआईटी खड़गपुर"
+        "आईआईटी दिल्ली"
       ]
     },
     "correctIndex": 1,
@@ -3383,10 +3383,10 @@
         "Brazil"
       ],
       "hi": [
-        "ब्राज़ील",
         "चीन",
+        "जापान",
         "भारत",
-        "जापान"
+        "ब्राज़ील"
       ]
     },
     "correctIndex": 2,

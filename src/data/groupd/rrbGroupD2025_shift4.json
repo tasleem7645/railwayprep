@@ -17,8 +17,8 @@
         "The nucleus is spread out and uncharged."
       ],
       "hi": [
-        "नाभिक बड़ा , हल्का और ऋणावेशित होता है",
         "नाभिक खोखला और उदासीन होता है",
+        "नाभिक बड़ा , हल्का और ऋणावेशित होता है",
         "नाभिक लघु , सघन और धनावेशित होता है",
         "नाभिक फै ला हुआ और अनावेशित होता है"
       ]
@@ -85,10 +85,10 @@
         "Neutral"
       ],
       "hi": [
-        "प्रोटॉन बनाती है",
+        "धनायन बनाती है",
         "ऋणायन बनाती है",
-        "उदासीन हो जाती है",
-        "धनायन बनाती है"
+        "प्रोटॉन बनाती है",
+        "उदासीन हो जाती है"
       ]
     },
     "correctIndex": 1,
@@ -109,7 +109,7 @@
     "topic": "Circulatory System (Heart, Blood) • RRB Group D Level-1 (04 Aug 2026 Shift 4)",
     "question": {
       "en": "A patient has reduced oxygen saturation despite normal lung volume. Which condition best explains this?",
-      "hi": "एक रोगी के फे फड़ों का आयतन सामान्य होने के बावजूद , ऑक्सीजन संतृप्ति कम है। कौन - सी स्थिति इसकी सर्वोत्तम व्याख्या करती है ? 10:30 AM · Hindi"
+      "hi": "एक रोगी के फे फड़ों का आयतन सामान्य होने के बावजूद , ऑक्सीजन संतृप्ति कम है। कौन - सी स्थिति इसकी सर्वोत्तम व्याख्या करती है ?"
     },
     "options": {
       "en": [
@@ -119,9 +119,9 @@
         "Reduced haemoglobin concentration"
       ],
       "hi": [
-        "के शिका घनत्व में वृद्धि",
         "सांस लेने की दर में वृद्धि",
         "वायु कू पिका की संख्या में कमी",
+        "के शिका घनत्व में वृद्धि",
         "हीमोग्लोबिन सांद्रता में कमी"
       ]
     },
@@ -142,7 +142,7 @@
     "subject": "General Science",
     "topic": "Circulatory System (Heart, Blood) • RRB Group D Level-1 (04 Aug 2026 Shift 4)",
     "question": {
-      "en": "Complete the analogy. Platelets : Clotting :: White Blood Cells : __________. 10:30 AM · English",
+      "en": "Complete the analogy. Platelets : Clotting :: White Blood Cells : __________.",
       "hi": "सादृश्य को पूरा कीजिए। बिम्बाणु : स्कं दन :: श्वेत रुधिर कोशिकाएं : ______ ।"
     },
     "options": {
@@ -153,10 +153,10 @@
         "Storing Minerals"
       ],
       "hi": [
-        "खनिजों का भंडारण",
+        "ऑक्सीजन परिवहन",
         "शोथ से लड़ना",
         "जोड़ों को जोड़ना",
-        "ऑक्सीजन परिवहन"
+        "खनिजों का भंडारण"
       ]
     },
     "correctIndex": 1,
@@ -187,10 +187,10 @@
         "Muscles"
       ],
       "hi": [
-        "पेशियां (Muscles)",
+        "सेप्टा (Septa)",
         "कपाट (Valves)",
         "धमनियां (Arteries)",
-        "सेप्टा (Septa)"
+        "पेशियां (Muscles)"
       ]
     },
     "correctIndex": 1,
@@ -221,9 +221,9 @@
         "They display multiple feeding possibilities"
       ],
       "hi": [
-        "ये पोषी स्तरों के बीच ऊर्जा अंतरण नहीं दर्शाते हैं",
-        "इनमें कोई मांसाहारी नहीं होते हैं",
         "इनमें उत्पादकों की संख्या अधिक होती है",
+        "इनमें कोई मांसाहारी नहीं होते हैं",
+        "ये पोषी स्तरों के बीच ऊर्जा अंतरण नहीं दर्शाते हैं",
         "ये कई खाद्य संभावनाएं प्रदर्शित करते हैं"
       ]
     },
@@ -256,8 +256,8 @@
       ],
       "hi": [
         "इसके सिरों पर एक विभवांतर प्रेरित होता है।",
-        "चालक गर्म हो जाता है।",
         "चालक में प्रकाश उत्पन्न होता है।",
+        "चालक गर्म हो जाता है।",
         "चुंबकीय क्षेत्र की प्रबलता बढ़ जाती है।"
       ]
     },
@@ -289,10 +289,10 @@
         "Neutral"
       ],
       "hi": [
-        "ऑक्सीजनित",
+        "क्षारीय",
         "अम्लीय",
-        "उदासीन",
-        "क्षारीय"
+        "ऑक्सीजनित",
+        "उदासीन"
       ]
     },
     "correctIndex": 1,
@@ -323,10 +323,10 @@
         "Both A and R are true, and R is the correct explanation of A."
       ],
       "hi": [
+        "A और R दोनों सत्य हैं , और R, A की सही व्याख्या नहीं है।",
         "A असत्य है , लेकिन R सत्य है।",
-        "A और R दोनों सत्य हैं , और R, A की सही व्याख्या है।",
         "A सत्य है , लेकिन R असत्य है।",
-        "A और R दोनों सत्य हैं , और R, A की सही व्याख्या नहीं है।"
+        "A और R दोनों सत्य हैं , और R, A की सही व्याख्या है।"
       ]
     },
     "correctIndex": 2,
@@ -357,10 +357,10 @@
         "Only red and violet merge"
       ],
       "hi": [
-        "केवल लाल और वायलेट रंग का विलय होता है",
         "रंग और दूर तक प्रसारित हो जाते हैं",
+        "स्पेक्ट्रम एक तरफ विस्थापित हो जाता है",
         "रंगों का प्रसार पुनः संयोजित होकर श्वेत प्रकाश बनाता है",
-        "स्पेक्ट्रम एक तरफ विस्थापित हो जाता है"
+        "केवल लाल और वायलेट रंग का विलय होता है"
       ]
     },
     "correctIndex": 2,
@@ -391,9 +391,9 @@
         "Electric motor"
       ],
       "hi": [
-        "गैल्वेनोमीटर",
         "सौर सेल",
         "ट्रांसफॉर्मर",
+        "गैल्वेनोमीटर",
         "विद्युत मोटर"
       ]
     },
@@ -425,10 +425,10 @@
         "Only direction"
       ],
       "hi": [
-        "केवल दिशा",
-        "परिमाण और दिशा दोनों",
         "केवल परिमाण",
-        "मूल बिंदु पर स्थिति"
+        "परिमाण और दिशा दोनों",
+        "मूल बिंदु पर स्थिति",
+        "केवल दिशा"
       ]
     },
     "correctIndex": 1,
@@ -459,9 +459,9 @@
         "- 1.5"
       ],
       "hi": [
+        "1.67",
         "-2.5",
         "0.4",
-        "1.67",
         "- 1.5"
       ]
     },
@@ -493,10 +493,10 @@
         "Both Sugar-water mixture & Sand-water mixture"
       ],
       "hi": [
-        "केवल शर्क रा और जल का मिश्रण",
+        "लवण और जल का मिश्रण",
         "केवल बालू और जल का मिश्रण",
-        "शर्क रा - जल का मिश्रण और बालू - जल का मिश्रण दोनों",
-        "लवण और जल का मिश्रण"
+        "केवल शर्क रा और जल का मिश्रण",
+        "शर्क रा - जल का मिश्रण और बालू - जल का मिश्रण दोनों"
       ]
     },
     "correctIndex": 1,
@@ -527,8 +527,8 @@
         "Axon"
       ],
       "hi": [
-        "मूल रोम (Root hair)",
         "सिलिया (Cilia)",
+        "मूल रोम (Root hair)",
         "कशाभ (Flagellum)",
         "अक्षतंतु (Axon)"
       ]
@@ -557,14 +557,14 @@
       "en": [
         "Both skaters move in circles around each other.",
         "One skater moves while the other remains stationary.",
-        "Both skaters move together in the same direction. Both skaters move away from each other in",
-        "opposite directions with equal and opposite forces."
+        "Both skaters move together in the same direction.",
+        "Both skaters move away from each other in opposite directions with equal and opposite forces."
       ],
       "hi": [
-        "एक स्के टर गति करता है , जबकि दूसरा स्के टर स्थिर रहता है।",
-        "दोनों स्के टर एक साथ एक ही दिशा में गति करते हैं।",
-        "दोनों स्के टर एक - दूसरे के परितः वृत्तों में गति करते हैं।",
-        "दोनों स्के टर समान एवं विपरीत बलों के साथ विपरीत दिशाओं में एक - दूसरे से दूर गति करते हैं।"
+        "दोनों स्केटर एक-दूसरे के परितः वृत्तों में गति करते हैं।",
+        "एक स्केटर गति करता है, जबकि दूसरा स्केटर स्थिर रहता है।",
+        "दोनों स्केटर एक साथ एक ही दिशा में गति करते हैं।",
+        "दोनों स्केटर समान एवं विपरीत बलों के साथ विपरीत दिशाओं में एक-दूसरे से दूर गति करते हैं।"
       ]
     },
     "correctIndex": 3,
@@ -573,8 +573,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
       "keyConcept": "General Science • Newton's Laws of Motion",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (opposite directions with equal and opposite forces.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (दोनों स्के टर समान एवं विपरीत बलों के साथ विपरीत दिशाओं में एक - दूसरे से दूर गति करते हैं।) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Both skaters move away from each other in opposite directions with equal and opposite forces.) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (दोनों स्केटर समान एवं विपरीत बलों के साथ विपरीत दिशाओं में एक-दूसरे से दूर गति करते हैं।) सही उत्तर है।"
     }
   },
   {
@@ -629,10 +629,10 @@
         "Methane"
       ],
       "hi": [
-        "मेथेन",
+        "नाइट्रोजन के ऑक्साइड",
         "क्लोरोफ्लोरोकार्बन",
         "सल्फर डाइऑक्साइड",
-        "नाइट्रोजन के ऑक्साइड"
+        "मेथेन"
       ]
     },
     "correctIndex": 1,
@@ -663,10 +663,10 @@
         "Hydrogen gas is released"
       ],
       "hi": [
-        "ऑक्सीजन गैस निर्मुक्त होती है।",
+        "नाइट्रोजन गैस निर्मुक्त होती है।",
         "कार्बन डाइऑक्साइड गैस निर्मुक्त होती है",
-        "हाइड्रोजन गैस निर्मुक्त होती है।",
-        "नाइट्रोजन गैस निर्मुक्त होती है।"
+        "ऑक्सीजन गैस निर्मुक्त होती है।",
+        "हाइड्रोजन गैस निर्मुक्त होती है।"
       ]
     },
     "correctIndex": 1,
@@ -731,10 +731,10 @@
         "A medium changes sound into light energy for travel"
       ],
       "hi": [
-        "माध्यम गमन के लिए ध्वनि को प्रकाश ऊर्जा में परिवर्तित करता है",
-        "माध्यम ऐसे कण प्रदान करता है जो ध्वनि कं पनों को वहन करते हैं",
         "माध्यम ध्वनि को अंतरालों के बीच गति करने से रोकता करता है",
-        "ध्वनि के एक बिंदु से दूसरे बिंदु पर गति करने के लिए माध्यम की आवश्यकता नहीं होती है"
+        "माध्यम ऐसे कण प्रदान करता है जो ध्वनि कं पनों को वहन करते हैं",
+        "ध्वनि के एक बिंदु से दूसरे बिंदु पर गति करने के लिए माध्यम की आवश्यकता नहीं होती है",
+        "माध्यम गमन के लिए ध्वनि को प्रकाश ऊर्जा में परिवर्तित करता है"
       ]
     },
     "correctIndex": 1,
@@ -765,8 +765,8 @@
         "Double displacement precipitation reaction"
       ],
       "hi": [
-        "ऊर्जा निवेश की आवश्यकता वाली अपघटन अभिक्रिया",
         "एकल उत्पाद बनाने वाली संयोजन अभिक्रिया",
+        "ऊर्जा निवेश की आवश्यकता वाली अपघटन अभिक्रिया",
         "धातु विनिमय से संबंधित विस्थापन अभिक्रिया",
         "द्वि विस्थापन अवक्षेपण अभिक्रिया"
       ]
@@ -799,10 +799,10 @@
         "Force and displacement both must be present"
       ],
       "hi": [
-        "बल और विस्थापन दोनों उपस्थित होने चाहिए",
         "बल कार्य करना चाहिए",
+        "विस्थापन होना चाहिए",
         "ऊर्जा संग्रहीत होनी चाहिए",
-        "विस्थापन होना चाहिए"
+        "बल और विस्थापन दोनों उपस्थित होने चाहिए"
       ]
     },
     "correctIndex": 2,
@@ -834,9 +834,9 @@
       ],
       "hi": [
         "200,000 J",
-        "100,000 J",
+        "400,000 J",
         "50,000 J",
-        "400,000 J"
+        "100,000 J"
       ]
     },
     "correctIndex": 0,
@@ -867,9 +867,9 @@
         "₹600"
       ],
       "hi": [
+        "₹640",
         "₹598",
         "₹575",
-        "₹640",
         "₹600"
       ]
     },
@@ -902,9 +902,9 @@
       ],
       "hi": [
         "861",
+        "711",
         "820",
-        "920",
-        "711"
+        "920"
       ]
     },
     "correctIndex": 0,
@@ -935,9 +935,9 @@
         "₹40 loss"
       ],
       "hi": [
-        "₹30 की हानि",
         "₹60 का लाभ",
         "₹15 का लाभ",
+        "₹30 की हानि",
         "₹40 की हानि"
       ]
     },
@@ -969,10 +969,10 @@
         "12"
       ],
       "hi": [
-        "13",
+        "11",
         "14",
-        "12",
-        "11"
+        "13",
+        "12"
       ]
     },
     "correctIndex": 1,
@@ -1005,8 +1005,8 @@
       "hi": [
         "216π cm2",
         "312π cm2",
-        "261π cm2",
-        "226π cm2"
+        "226π cm2",
+        "261π cm2"
       ]
     },
     "correctIndex": 0,
@@ -1039,8 +1039,8 @@
       "hi": [
         "1,500",
         "1,590",
-        "1,530",
-        "1,560"
+        "1,560",
+        "1,530"
       ]
     },
     "correctIndex": 1,
@@ -1106,8 +1106,8 @@
       ],
       "hi": [
         "216",
-        "108",
         "324",
+        "108",
         "432"
       ]
     },
@@ -1139,8 +1139,8 @@
         "48"
       ],
       "hi": [
-        "18",
         "24",
+        "18",
         "36",
         "48"
       ]
@@ -1174,9 +1174,9 @@
       ],
       "hi": [
         "28 दिन",
-        "24 दिन",
+        "18 दिन",
         "21 दिन",
-        "18 दिन"
+        "24 दिन"
       ]
     },
     "correctIndex": 2,
@@ -1207,8 +1207,8 @@
         "14√10"
       ],
       "hi": [
-        "16√5",
         "10√15",
+        "16√5",
         "2√35",
         "14√10"
       ]
@@ -1241,9 +1241,9 @@
         "47.9"
       ],
       "hi": [
-        "46.8",
-        "46.1",
         "46.7",
+        "46.1",
+        "46.8",
         "47.9"
       ]
     },
@@ -1275,10 +1275,10 @@
         "4.35%"
       ],
       "hi": [
-        "4.35%",
         "4.15%",
+        "4.45%",
         "4.55%",
-        "4.45%"
+        "4.35%"
       ]
     },
     "correctIndex": 2,
@@ -1344,9 +1344,9 @@
       ],
       "hi": [
         "7.47 km",
-        "8.18 km",
         "6.42 km",
-        "9.54 km"
+        "9.54 km",
+        "8.18 km"
       ]
     },
     "correctIndex": 0,
@@ -1377,9 +1377,9 @@
         "2"
       ],
       "hi": [
-        "1",
-        "5",
         "10",
+        "5",
+        "1",
         "2"
       ]
     },
@@ -1445,10 +1445,10 @@
         "₹13,800"
       ],
       "hi": [
-        "₹13,800",
+        "₹13,600",
         "₹13,400",
         "₹13,200",
-        "₹13,600"
+        "₹13,800"
       ]
     },
     "correctIndex": 2,
@@ -1479,10 +1479,10 @@
         "₹156"
       ],
       "hi": [
-        "₹156",
-        "₹160",
         "₹164",
-        "₹152"
+        "₹160",
+        "₹152",
+        "₹156"
       ]
     },
     "correctIndex": 1,
@@ -1510,23 +1510,23 @@
         "73",
         "72",
         "75",
-        "70 and a patch having an area of a 2 m 2 are added. If of x and constants, find the positive value of a."
+        "70"
       ],
       "hi": [
+        "73",
         "72",
-        "70",
         "75",
-        "73 और a 2 m 2 क्षेत्रफल वाला एक पैच जोड़ा जाता है। यदि कु ल क्षेत्रफल को अब x है , तो a का धनात्मक मान ज्ञात कीजिए।"
+        "70"
       ]
     },
-    "correctIndex": 3,
-    "correctIndexHi": 3,
+    "correctIndex": 1,
+    "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "Mathematics • Weighted Average",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (70 and a patch having an area of a 2 m 2 are added. If of x and constants, find the positive value of a.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (73 और a 2 m 2 क्षेत्रफल वाला एक पैच जोड़ा जाता है। यदि कु ल क्षेत्रफल को अब x है , तो a का धनात्मक मान ज्ञात कीजिए।) सही उत्तर है।"
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (72) is the verified correct answer.",
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (72) सही उत्तर है।"
     }
   },
   {
@@ -1559,8 +1559,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • (a+b)^2, (a-b)^2",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1593,8 +1593,8 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Basic Trigonometric Ratios",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1615,8 +1615,8 @@
         "30,000"
       ],
       "hi": [
-        "60,000",
         "37,500",
+        "60,000",
         "75,000",
         "30,000"
       ]
@@ -1659,10 +1659,10 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
+      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
       "keyConcept": "Mathematics • Parallel Lines & Transversal",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A.",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A।"
+      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
+      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
     }
   },
   {
@@ -1683,9 +1683,9 @@
         "1"
       ],
       "hi": [
-        "sinA",
-        "secA General Intelligence & Reasoning",
+        "secA",
         "0",
+        "sinA",
         "1"
       ]
     },
@@ -1717,10 +1717,10 @@
         "W"
       ],
       "hi": [
-        "W",
+        "R",
         "Y",
         "U",
-        "R"
+        "W"
       ]
     },
     "correctIndex": 1,
@@ -1751,9 +1751,9 @@
         "Two"
       ],
       "hi": [
+        "एक",
         "तीन",
         "चार",
-        "एक",
         "दो"
       ]
     },
@@ -1785,10 +1785,10 @@
         "Two"
       ],
       "hi": [
+        "तीन",
         "एक भी नहीं",
-        "दो",
         "एक",
-        "तीन"
+        "दो"
       ]
     },
     "correctIndex": 2,
@@ -1821,8 +1821,8 @@
       "hi": [
         "S",
         "Q",
-        "P",
-        "V"
+        "V",
+        "P"
       ]
     },
     "correctIndex": 0,
@@ -1853,10 +1853,10 @@
         "2"
       ],
       "hi": [
-        "2",
-        "1",
         "3",
-        "4"
+        "1",
+        "4",
+        "2"
       ]
     },
     "correctIndex": 1,
@@ -1955,10 +1955,10 @@
         "29"
       ],
       "hi": [
-        "29",
+        "23",
         "27",
         "20",
-        "23"
+        "29"
       ]
     },
     "correctIndex": 1,
@@ -1990,8 +1990,8 @@
       ],
       "hi": [
         "396",
-        "371",
         "368",
+        "371",
         "385"
       ]
     },
@@ -2024,8 +2024,8 @@
       ],
       "hi": [
         "5 km पश्चिम की ओर",
-        "16 km पूर्व की ओर",
         "12 km उत्तर की ओर",
+        "16 km पूर्व की ओर",
         "12 km दक्षिण की ओर"
       ]
     },
@@ -2058,9 +2058,9 @@
       ],
       "hi": [
         "एक",
+        "दो",
         "एक भी नहीं",
-        "तीन",
-        "दो"
+        "तीन"
       ]
     },
     "correctIndex": 0,
@@ -2091,9 +2091,9 @@
         "234"
       ],
       "hi": [
+        "243",
         "221",
         "256",
-        "243",
         "234"
       ]
     },
@@ -2126,9 +2126,9 @@
       ],
       "hi": [
         "2 - 8",
-        "10 - 17",
         "6 - 16",
-        "45 - 59"
+        "45 - 59",
+        "10 - 17"
       ]
     },
     "correctIndex": 0,
@@ -2193,10 +2193,10 @@
         "6"
       ],
       "hi": [
-        "6",
+        "2",
         "5",
         "8",
-        "2"
+        "6"
       ]
     },
     "correctIndex": 2,
@@ -2227,10 +2227,10 @@
         "NRV : XBE"
       ],
       "hi": [
-        "NRV : XBE",
+        "LPT : VYC",
         "SWA : CGK",
         "GLQ : JNR",
-        "LPT : VYC"
+        "NRV : XBE"
       ]
     },
     "correctIndex": 1,
@@ -2261,10 +2261,10 @@
         "# = LMB , % = KMJ"
       ],
       "hi": [
-        "# = LMD , % = KMS",
+        "# = LMH , % = KMP",
         "# = LMP , % = KLO",
-        "# = LMB , % = KMJ",
-        "# = LMH , % = KMP"
+        "# = LMD , % = KMS",
+        "# = LMB , % = KMJ"
       ]
     },
     "correctIndex": 1,
@@ -2296,9 +2296,9 @@
       ],
       "hi": [
         "PUH-ZUM",
-        "UZM-PUC",
+        "POH-UZM",
         "PUH-UZM",
-        "POH-UZM"
+        "UZM-PUC"
       ]
     },
     "correctIndex": 2,
@@ -2330,8 +2330,8 @@
       ],
       "hi": [
         "ML - IK",
-        "SR - ON",
         "ON - KJ",
+        "SR - ON",
         "FE - BA"
       ]
     },
@@ -2363,9 +2363,9 @@
         "IOU"
       ],
       "hi": [
-        "AGL",
-        "SYD",
         "QWB",
+        "SYD",
+        "AGL",
         "IOU"
       ]
     },
@@ -2398,8 +2398,8 @@
       ],
       "hi": [
         "N",
-        "I",
         "T",
+        "I",
         "F"
       ]
     },
@@ -2432,9 +2432,9 @@
       ],
       "hi": [
         "चार",
-        "एक",
+        "दो",
         "तीन",
-        "दो"
+        "एक"
       ]
     },
     "correctIndex": 0,
@@ -2465,9 +2465,9 @@
         "B"
       ],
       "hi": [
-        "D",
         "C",
         "A",
+        "D",
         "B"
       ]
     },
@@ -2499,10 +2499,10 @@
         "Four"
       ],
       "hi": [
-        "चार",
-        "एक",
         "कोई नहीं",
-        "तीन"
+        "एक",
+        "तीन",
+        "चार"
       ]
     },
     "correctIndex": 1,
@@ -2534,9 +2534,9 @@
       ],
       "hi": [
         "भाई की पत्नी का भाई",
+        "पत्नी का भाई",
         "पत्नी का पिता",
-        "भाई की पत्नी का पिता",
-        "पत्नी का भाई"
+        "भाई की पत्नी का पिता"
       ]
     },
     "correctIndex": 0,
@@ -2601,10 +2601,10 @@
         "4"
       ],
       "hi": [
-        "4",
+        "2",
         "3",
         "5",
-        "2"
+        "4"
       ]
     },
     "correctIndex": 1,
@@ -2635,9 +2635,9 @@
         "4"
       ],
       "hi": [
-        "1",
-        "3",
         "2",
+        "3",
+        "1",
         "4"
       ]
     },
@@ -2664,15 +2664,15 @@
     "options": {
       "en": [
         "Data in Statement I alone is sufficient to answer the question while data in Statement II is not",
-        "Both statements I and II together are NOT sufficient to answer the question Both statements I and II together (and not statement I",
-        "alone or statement II alone) are sufficient to answer the question",
-        "Data in Statement II alone is sufficient to answer the question while data in Statement I is not General Awareness"
+        "Both statements I and II together are NOT sufficient to answer the question",
+        "Both statements I and II together (and not statement I alone or statement II alone) are sufficient to answer the question",
+        "Data in Statement II alone is sufficient to answer the question while data in Statement I is not"
       ],
       "hi": [
-        "केवल कथन II का डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि कथन I का डेटा पर्याप्त नहीं है। कथन I और II दोनों एक साथ ( और केवल कथन I या कथन II",
+        "केवल कथन I का डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन II का डेटा पर्याप्त नहीं है।",
         "कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।",
-        "अके ले नहीं ) प्रश्न का उत्तर देने के लिए पर्याप्त हैं। केवल कथन I का डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है , जबकि",
-        "कथन II का डेटा पर्याप्त नहीं है।"
+        "कथन I और II दोनों एक साथ (और केवल कथन I या कथन II अकेले नहीं) प्रश्न का उत्तर देने के लिए पर्याप्त हैं।",
+        "केवल कथन II का डेटा प्रश्न का उत्तर देने के लिए पर्याप्त है, जबकि कथन I का डेटा पर्याप्त नहीं है।"
       ]
     },
     "correctIndex": 1,
@@ -2681,7 +2681,7 @@
     "solution": {
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Intelligence & Reasoning • Two Statement Sufficiency",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Both statements I and II together are NOT sufficient to answer the question Both statements I and II together (and not statement I) is the verified correct answer.",
+      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Both statements I and II together are NOT sufficient to answer the question) is the verified correct answer.",
       "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (कथन I और II दोनों एक साथ प्रश्न का उत्तर देने के लिए पर्याप्त नहीं हैं।) सही उत्तर है।"
     }
   },
@@ -2703,10 +2703,10 @@
         "qr"
       ],
       "hi": [
-        "qr",
+        "lm",
         "su",
         "ka",
-        "lm"
+        "qr"
       ]
     },
     "correctIndex": 1,
@@ -2739,8 +2739,8 @@
       "hi": [
         "रॉयल ऑर्डर ऑफ द गोल्डन स्टार , डिग्री कमांडर ग्रैं ड क्रॉस",
         "रॉयल ऑर्डर ऑफ द पोलर स्टार , डिग्री कमांडर ग्रैं ड क्रॉस",
-        "रॉयल ऑर्डर ऑफ द नॉर्दर्न स्टार , डिग्री कमांडर ग्रैं ड क्रॉस",
-        "रॉयल ऑर्डर ऑफ द सिल्वर स्टार , डिग्री कमांडर ग्रैं ड क्रॉस"
+        "रॉयल ऑर्डर ऑफ द सिल्वर स्टार , डिग्री कमांडर ग्रैं ड क्रॉस",
+        "रॉयल ऑर्डर ऑफ द नॉर्दर्न स्टार , डिग्री कमांडर ग्रैं ड क्रॉस"
       ]
     },
     "correctIndex": 1,
@@ -2773,8 +2773,8 @@
       "hi": [
         "शिरडी",
         "तारापुर",
-        "चाकन",
-        "लासलगांव"
+        "लासलगांव",
+        "चाकन"
       ]
     },
     "correctIndex": 0,
@@ -2975,9 +2975,9 @@
         "Khelo India Mission"
       ],
       "hi": [
-        "स्मार्ट सिटीज मिशन",
         "राष्ट्रीय स्वास्थ्य मिशन",
         "स्वच्छ भारत मिशन",
+        "स्मार्ट सिटीज मिशन",
         "खेलो इंडिया मिशन"
       ]
     },
@@ -3045,8 +3045,8 @@
       "hi": [
         "मेघालय",
         "राजस्थान",
-        "असम",
-        "पंजाब"
+        "पंजाब",
+        "असम"
       ]
     },
     "correctIndex": 0,
@@ -3077,10 +3077,10 @@
         "Balasore Missile Complex, West Bengal"
       ],
       "hi": [
-        "पोखरण फील्ड रेंज , राजस्थान (Pokhran Field Range, Rajasthan)",
-        "Chandipur)",
-        "बालासोर मिसाइल कॉम्प्लेक्स , पश्चिम बंगाल (Balasore Missile Complex, West Bengal) थुम्बा इक्वेटोरियल रॉके ट रेंज , के रल (Thumba Equatorial",
-        "Rocket Range, Kerala)"
+        "थुम्बा इक्वेटोरियल रॉकेट रेंज, केरल (Thumba Equatorial Rocket Range, Kerala)",
+        "एकीकृत परीक्षण रेंज, चांदीपुर (Integrated Test Range, Chandipur)",
+        "पोखरण फील्ड रेंज, राजस्थान (Pokhran Field Range, Rajasthan)",
+        "बालासोर मिसाइल कॉम्प्लेक्स, पश्चिम बंगाल (Balasore Missile Complex, West Bengal)"
       ]
     },
     "correctIndex": 1,
@@ -3090,7 +3090,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
       "keyConcept": "General Awareness & Current Affairs • Missile Tests & Systems",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Integrated Test Range, Chandipur) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (Chandipur)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (एकीकृत परीक्षण रेंज, चांदीपुर (Integrated Test Range, Chandipur)) सही उत्तर है।"
     }
   },
   {
@@ -3112,8 +3112,8 @@
       ],
       "hi": [
         "तेलंगाना",
-        "उत्तराखंड",
         "झारखंड",
+        "उत्तराखंड",
         "छत्तीसगढ़"
       ]
     },
@@ -3145,10 +3145,10 @@
         "20th railway zone"
       ],
       "hi": [
-        "20 वां रेलवे जोन",
+        "14 वां रेलवे जोन",
         "18 वां रेलवे जोन",
         "16 वां रेलवे जोन",
-        "14 वां रेलवे जोन"
+        "20 वां रेलवे जोन"
       ]
     },
     "correctIndex": 1,
@@ -3181,8 +3181,8 @@
       "hi": [
         "राजनाथ सिंह",
         "द्रौपदी मुर्मू",
-        "नरेंद्र मोदी",
-        "अमित शाह"
+        "अमित शाह",
+        "नरेंद्र मोदी"
       ]
     },
     "correctIndex": 0,
@@ -3213,10 +3213,10 @@
         "Chitrangudi Bird Sanctuary"
       ],
       "hi": [
-        "चित्रागुडी पक्षी अभयारण्य (Chitrangudi Bird Sanctuary)",
-        "Sanctuary)",
-        "Sanctuary) वेदान्थंगल पक्षी अभयारण्य (Vedanthangal Bird",
-        "उधवा झील पक्षी अभयारण्य (Udhwa Lake Bird Sanctuary)"
+        "उधवा झील पक्षी अभयारण्य (Udhwa Lake Bird Sanctuary)",
+        "वेदान्थंगल पक्षी अभयारण्य (Vedanthangal Bird Sanctuary)",
+        "शेखा झील पक्षी अभयारण्य (Shekha Jheel Bird Sanctuary)",
+        "चित्रागुडी पक्षी अभयारण्य (Chitrangudi Bird Sanctuary)"
       ]
     },
     "correctIndex": 2,
@@ -3226,7 +3226,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs • New Parks & Reserves",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Shekha Jheel Bird Sanctuary) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (Sanctuary) वेदान्थंगल पक्षी अभयारण्य (Vedanthangal Bird) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (शेखा झील पक्षी अभयारण्य (Shekha Jheel Bird Sanctuary)) सही उत्तर है।"
     }
   },
   {
@@ -3247,10 +3247,10 @@
         "IN-SPACe Seed Capital Fund"
       ],
       "hi": [
-        "Fund)",
-        "नेशनल डीपटेक फं ड ऑफ फं ड् स (National DeepTech Fund of Funds) IN-SPACe सीड कै पिटल फं ड (IN-SPACE Seed Capital",
-        "अंतरिक्ष वेंचर कै पिटल फं ड (Antariksh Venture Capital Fund)",
-        "डिजिटल स्पेस भारत निधि (Digital Space Bharat Nidhi)"
+        "नेशनल डीपटेक फंड ऑफ फंड्स (National DeepTech Fund of Funds)",
+        "डिजिटल स्पेस भारत निधि (Digital Space Bharat Nidhi)",
+        "अंतरिक्ष वेंचर कैपिटल फंड (Antariksh Venture Capital Fund)",
+        "IN-SPACe सीड कैपिटल फंड (IN-SPACe Seed Capital Fund)"
       ]
     },
     "correctIndex": 2,
@@ -3260,7 +3260,7 @@
       "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
       "keyConcept": "General Awareness & Current Affairs • New Schemes & Programs",
       "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Antariksh Venture Capital Fund) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (अंतरिक्ष वेंचर कै पिटल फं ड (Antariksh Venture Capital Fund)) सही उत्तर है।"
+      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (अंतरिक्ष वेंचर कैपिटल फंड (Antariksh Venture Capital Fund)) सही उत्तर है।"
     }
   },
   {
@@ -3281,10 +3281,10 @@
         "Jal Jeevan Mission"
       ],
       "hi": [
-        "PM किसान सम्मान निधि (PM-KISAN)",
+        "PM विश्वकर्मा स्कीम",
         "भारत -VISTAAR",
-        "जल जीवन मिशन",
-        "PM विश्वकर्मा स्कीम"
+        "PM किसान सम्मान निधि (PM-KISAN)",
+        "जल जीवन मिशन"
       ]
     },
     "correctIndex": 1,
@@ -3315,10 +3315,10 @@
         "Nine months"
       ],
       "hi": [
-        "बारह महीने",
+        "तीन महीने",
         "छह महीने",
-        "नौ महीने",
-        "तीन महीने"
+        "बारह महीने",
+        "नौ महीने"
       ]
     },
     "correctIndex": 1,
@@ -3349,9 +3349,9 @@
         "Falcon 9"
       ],
       "hi": [
-        "LVM3-M4",
-        "GSLV-F16",
         "PSLV-C58",
+        "GSLV-F16",
+        "LVM3-M4",
         "फाल्कन 9"
       ]
     },
@@ -3384,8 +3384,8 @@
       ],
       "hi": [
         "सुमित अंतिल",
-        "मरियप्पन थान्गावेलु",
         "सुंदर सिंह गुर्जर",
+        "मरियप्पन थान्गावेलु",
         "देवेंद्र झाझरिया"
       ]
     },

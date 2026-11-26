@@ -32,9 +32,7 @@ export function recordMockTopicStats(questions = [], answers = {}) {
   questions.forEach((q) => {
     const userAns = answers?.[q.id];
     if (userAns === undefined) return;
-    const isCorrect =
-      userAns === q.correctIndex ||
-      (q.correctIndexHi !== undefined && userAns === q.correctIndexHi);
+    const isCorrect = userAns === q.correctIndex;
 
     const subject = String(q.subject || q.section || 'General Science').trim();
     const topic = String(q.topic || 'Mixed Practice').trim();

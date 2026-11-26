@@ -38,7 +38,8 @@ export function OptionContentRenderer({ value = '' }) {
             src={p.src}
             alt={p.alt}
             loading="lazy"
-            className="inline-block max-h-14 sm:max-h-16 max-w-full bg-white px-2 py-1 rounded-lg border border-slate-300/70 shadow-sm object-contain align-middle"
+            style={{ colorScheme: 'light', forcedColorAdjust: 'none' }}
+            className="inline-block max-h-14 sm:max-h-16 max-w-full bg-white text-slate-900 px-2 py-1 rounded-lg border border-slate-300/70 shadow-sm object-contain align-middle"
           />
         )
       )}
@@ -83,13 +84,15 @@ export default function QuestionContentRenderer({ text = '', image = null, class
               type="button"
               onClick={() => setZoomSrc(p.src)}
               title="Tap to zoom diagram/equation"
-              className="inline-flex items-center bg-white px-2.5 py-1.5 rounded-xl border border-slate-300 shadow-sm hover:ring-2 hover:ring-teal-400 cursor-zoom-in"
+              style={{ colorScheme: 'light', forcedColorAdjust: 'none' }}
+              className="inline-flex items-center bg-white text-slate-900 px-2.5 py-1.5 rounded-xl border border-slate-300 shadow-sm hover:ring-2 hover:ring-teal-400 cursor-zoom-in"
             >
               <img
                 src={p.src}
                 alt={p.alt}
                 loading="lazy"
-                className="max-h-40 max-w-full object-contain"
+                style={{ colorScheme: 'light', forcedColorAdjust: 'none' }}
+                className="max-h-40 max-w-full bg-white object-contain"
               />
             </button>
           )
@@ -174,23 +177,26 @@ export default function QuestionContentRenderer({ text = '', image = null, class
           <button
             type="button"
             onClick={() => setZoomSrc(image)}
-            className="group relative p-2.5 rounded-xl bg-white border border-slate-300 inline-block shadow-lg hover:ring-2 hover:ring-teal-400 cursor-zoom-in transition-all"
+            style={{ colorScheme: 'light', forcedColorAdjust: 'none' }}
+            className="group p-2.5 rounded-xl bg-white text-slate-900 border border-slate-300 inline-block shadow-lg hover:ring-2 hover:ring-teal-400 cursor-zoom-in transition-all"
             title="Tap to zoom"
           >
             <img
               src={image}
               alt="Question Figure / Diagram"
-              className="max-h-64 sm:max-h-72 max-w-full rounded-lg object-contain"
+              style={{ colorScheme: 'light', forcedColorAdjust: 'none' }}
+              className="max-h-64 sm:max-h-72 max-w-full rounded-lg bg-white object-contain"
               loading="lazy"
             />
-            <span className="absolute bottom-1.5 right-1.5 px-1.5 py-0.5 rounded bg-slate-900/80 text-white text-[9px] font-bold opacity-80 group-hover:opacity-100 flex items-center gap-1">
-              <ZoomIn className="w-2.5 h-2.5" />
-              <span>Zoom</span>
-            </span>
           </button>
-          <span className="text-[10px] text-slate-400 mt-1 italic">
-            चित्र / आरेख (Official Railway Question Figure • Tap to zoom)
-          </span>
+          <button
+            type="button"
+            onClick={() => setZoomSrc(image)}
+            className="mt-1.5 inline-flex items-center gap-1 text-[10px] text-slate-400 hover:text-teal-300 italic cursor-zoom-in"
+          >
+            <ZoomIn className="w-3 h-3" />
+            <span>चित्र / आरेख (Official Railway Question Figure • Tap to zoom)</span>
+          </button>
         </div>
       )}
 
