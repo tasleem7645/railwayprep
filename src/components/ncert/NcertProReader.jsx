@@ -17,6 +17,7 @@ import {
 import { MotionSimulatorLabSVG } from './MotionInteractiveLabs';
 import { EnergyMachinesLabSVG } from './EnergyMachinesLab';
 import { AtomBuilderLabSVG } from './AtomBuilderLabSVG';
+import { ForcesMotionLabSVG } from './ForcesMotionLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -141,6 +142,7 @@ export default function NcertProReader({
     else if (labKey === 'motion-graph-lab') comp = <MotionSimulatorLabSVG lang={lang} />;
     else if (labKey === 'energy-machines-lab') comp = <EnergyMachinesLabSVG lang={lang} />;
     else if (labKey === 'atom-builder-lab') comp = <AtomBuilderLabSVG lang={lang} />;
+    else if (labKey === 'forces-motion-lab') comp = <ForcesMotionLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (
