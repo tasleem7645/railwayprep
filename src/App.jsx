@@ -1455,8 +1455,7 @@ export default function App() {
               onOpenPassPro={() => setIsPassProOpen(true)} 
               hasPassPro={hasPassPro}
               hideAds={isPaidPro}
-              user={session?.user || null}
-              onOpenAuth={openAuthPrompt}
+              onStartChapterQuiz={(quiz, quizLang) => handleStartMock(quiz, quizLang)}
             />
           )}
 

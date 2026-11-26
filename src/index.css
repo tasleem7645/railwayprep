@@ -56,3 +56,13 @@
 .katex {
   font-size: 1.04em;
 }
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+}
