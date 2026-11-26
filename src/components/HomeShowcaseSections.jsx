@@ -66,8 +66,17 @@ export default function HomeShowcaseSections({
 
   const examSeriesPacks = [
     {
+      key: 'tech3-2024',
+      tag: 'NEW • 23 OFFICIAL SHIFTS',
+      title: 'RRB Technician Grade III 2024 (CEN 02/2024)',
+      totalTests: countByYear((t) => t.examYear === 'tech3-2024' || t.exam?.includes('Technician')),
+      accent: 'from-cyan-500/20 via-slate-900 to-slate-950 border-cyan-500/45',
+      pillClass: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/40',
+      bullets: ['23 Official 100-Q Bilingual Shifts', 'Science 40 • Maths 25 • Reas 25 • GA 10', 'Shift 1 + 4 Sectionals Free'],
+    },
+    {
       key: 'ntpc-ug-2025',
-      tag: 'NEW • 57 OFFICIAL SHIFTS',
+      tag: '57 OFFICIAL SHIFTS',
       title: 'RRB NTPC UG 2024 CBT-1 (All 57 Shifts)',
       totalTests: countByYear((t) => t.examYear === 'ntpc-ug-2025' || t.exam?.includes('NTPC')),
       accent: 'from-sky-500/20 via-slate-900 to-slate-950 border-sky-500/45',
@@ -78,7 +87,7 @@ export default function HomeShowcaseSections({
       key: '2026',
       tag: 'TRENDING • SHIFT 1 FREE',
       title: 'RRB ALP 2026 CBT-1 Complete Test Series',
-      totalTests: countByYear((t) => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025' && t.examYear !== 'ntpc-ug-2025'),
+      totalTests: countByYear((t) => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025' && t.examYear !== 'ntpc-ug-2025' && t.examYear !== 'tech3-2024'),
       accent: 'from-teal-500/20 via-slate-900 to-slate-950 border-teal-500/40',
       pillClass: 'bg-teal-500/20 text-teal-300 border-teal-500/40',
       bullets: ['9 Official Full Shifts (75 Qs)', 'Science, Maths & Reasoning Sectionals', 'English & हिंदी Toggle'],
@@ -131,10 +140,10 @@ export default function HomeShowcaseSections({
     },
   ];
 
-  // Pick 4 representative Free Demo Shift-1 cards for quick 1-click launch on Home
+  // Pick representative Free Demo Shift-1 cards for quick 1-click launch on Home
   const featuredDemos = [
+    railwayTests.find((t) => t.examYear === 'tech3-2024' && t.category !== 'sectional' && isGuestDemoTest(t)),
     railwayTests.find((t) => t.id === 'rrb-alp-shift-1') || railwayTests[0],
-    railwayTests.find((t) => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && t.category !== 'sectional' && isGuestDemoTest(t)),
     railwayTests.find((t) => t.examYear === 'ntpc-ug-2025' && t.category !== 'sectional' && isGuestDemoTest(t)),
     railwayTests.find((t) => t.examYear === 'groupd-2025' && t.category !== 'sectional' && isGuestDemoTest(t)),
   ].filter(Boolean);

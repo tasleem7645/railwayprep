@@ -32,10 +32,12 @@ function renderInlineMarkdownImagesHtml(str, origin = '') {
   while ((m = re.exec(txt)) !== null) {
     if (m.index > lastIdx) out += renderMathTextHtml(txt.slice(lastIdx, m.index));
     const rawUrl = m[2];
-    const absUrl = rawUrl.startsWith('http')
-      ? rawUrl
-      : `${origin}${rawUrl.startsWith('/') ? '' : '/'}${rawUrl}`;
-    out += `<img src="${escapeHtml(absUrl)}" alt="${escapeHtml(m[1] || 'Figure')}" style="max-height:48px;vertical-align:middle;background:#fff;padding:2px 4px;border-radius:4px;border:1px solid #cbd5e1;" />`;
+    const absUrl =
+      rawUrl.startsWith('http') || rawUrl.startsWith('data:')
+        ? rawUrl
+        : `${origin}${rawUrl.startsWith('/') ? '' : '/'}${rawUrl}`;
+    const maxH = m[1] === 'Question' ? '220px' : '48px';
+    out += `<img src="${escapeHtml(absUrl)}" alt="${escapeHtml(m[1] || 'Figure')}" style="max-height:${maxH};max-width:100%;vertical-align:middle;background:#fff;padding:2px 4px;border-radius:4px;border:1px solid #cbd5e1;" />`;
     lastIdx = re.lastIndex;
   }
   if (lastIdx < txt.length) out += renderMathTextHtml(txt.slice(lastIdx));

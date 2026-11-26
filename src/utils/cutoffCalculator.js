@@ -49,6 +49,12 @@ const RATIO_SETS = {
     note: 'Safe CBT-2 shortlisting range (20x vacancies) calibrated across RRB zones.',
     ratios: { UR: 0.71, OBC: 0.67, EWS: 0.64, SC: 0.59, ST: 0.52 },
   },
+  tech3: {
+    label: 'RRB Technician Grade III (CEN 02/2024) Benchmark',
+    mode: 'merit',
+    note: 'Zone-calibrated safe merit range for RRB Technician Grade III CBT (100 Marks).',
+    ratios: { UR: 0.68, OBC: 0.64, EWS: 0.61, SC: 0.56, ST: 0.50 },
+  },
   alpCbt2PartA: {
     label: 'RRB ALP CBT-2 Part A Merit Benchmark',
     mode: 'merit',
@@ -69,6 +75,8 @@ export function getCutoffBenchmark(test, zoneCode = 'ALL') {
 
   if (test?.stage === 'CBT-2 Part B' || test?.category === 'cbt2-part-b') {
     preset = RATIO_SETS.tradeQualifying;
+  } else if (test?.examYear === 'tech3-2024' || test?.exam?.includes('Technician')) {
+    preset = RATIO_SETS.tech3;
   } else if (test?.examYear === 'ntpc-ug-2025' || test?.exam?.includes('NTPC')) {
     preset = RATIO_SETS.ntpcUgCbt1;
   } else if (test?.examYear === 'groupd-2025' || test?.exam?.includes('Group D')) {

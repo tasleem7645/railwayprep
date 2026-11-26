@@ -137,7 +137,7 @@ export default function QuestionContentRenderer({ text = '', image = null, class
                 alt={p.alt}
                 loading="lazy"
                 style={{ colorScheme: 'light', forcedColorAdjust: 'none' }}
-                className="max-h-40 max-w-full bg-white object-contain"
+                className={`${p.alt === 'Question' ? 'max-h-64 sm:max-h-72' : 'max-h-40'} max-w-full bg-white object-contain`}
               />
             </button>
           )

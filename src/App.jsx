@@ -149,8 +149,11 @@ export default function App() {
       setShiftFilter('all');
       setActiveTab('mock-tests');
     } else if (goal.includes('Technician')) {
+      setYearFilter('tech3-2024');
+      setShiftFilter('all');
+      setTradeFilter('all');
       setActiveExamId('tech_02_2026');
-      setActiveTab('syllabus');
+      setActiveTab('mock-tests');
     } else if (goal.includes('NTPC')) {
       setYearFilter('ntpc-ug-2025');
       setShiftFilter('all');
@@ -195,6 +198,7 @@ export default function App() {
   const [testFilter, setTestFilter] = useState('all'); // 'all' | 'official' | 'sectional'
   const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | specific shift
   const [ntpcSectionalFilter, setNtpcSectionalFilter] = useState('all'); // 'all' | 'maths' | 'reasoning' | 'gk' | 'ca' | 'ga'
+  const [tech3SectionalFilter, setTech3SectionalFilter] = useState('all'); // 'all' | 'maths' | 'reasoning' | 'science' | 'ga'
   const [mockSearchQuery, setMockSearchQuery] = useState('');
   const [visibleCatalogCount, setVisibleCatalogCount] = useState(12);
   const [isPassProOpen, setIsPassProOpen] = useState(false);
@@ -444,12 +448,13 @@ export default function App() {
   };
 
   const yearTests = RAILWAY_TESTS.filter(test => {
+    if (yearFilter === 'tech3-2024') return test.examYear === 'tech3-2024' || test.exam?.includes('Technician');
     if (yearFilter === 'ntpc-ug-2025') return test.examYear === 'ntpc-ug-2025' || test.exam?.includes('NTPC');
     if (yearFilter === 'groupd-2025') return test.examYear === 'groupd-2025' || test.exam?.includes('Group D');
     if (yearFilter === 'cbt2-part-b') return test.examYear === 'cbt2-part-b' || test.stage === 'CBT-2 Part B';
     if (yearFilter === 'cbt2') return (test.examYear === 'cbt2' || test.stage === 'CBT-2') && test.stage !== 'CBT-2 Part B';
-    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025' && test.examYear !== 'ntpc-ug-2025';
-    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025' && test.examYear !== 'ntpc-ug-2025';
+    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025' && test.examYear !== 'ntpc-ug-2025' && test.examYear !== 'tech3-2024';
+    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025' && test.examYear !== 'ntpc-ug-2025' && test.examYear !== 'tech3-2024';
     return true; // 'all'
   });
 
@@ -469,9 +474,12 @@ export default function App() {
     const matchesShift = shiftFilter === 'all' || test.shiftName === shiftFilter;
     const matchesTrade = tradeFilter === 'all' || test.tradeKey === tradeFilter;
     const matchesSectionalSub =
-      yearFilter !== 'ntpc-ug-2025' ||
-      ntpcSectionalFilter === 'all' ||
-      test.sectionalSubject === ntpcSectionalFilter;
+      (yearFilter !== 'ntpc-ug-2025' ||
+        ntpcSectionalFilter === 'all' ||
+        test.sectionalSubject === ntpcSectionalFilter) &&
+      (yearFilter !== 'tech3-2024' ||
+        tech3SectionalFilter === 'all' ||
+        test.sectionalSubject === tech3SectionalFilter);
     const q = mockSearchQuery.trim().toLowerCase();
     const matchesSearch =
       !q ||
@@ -483,12 +491,15 @@ export default function App() {
 
   useEffect(() => {
     setVisibleCatalogCount(12);
-  }, [yearFilter, tradeFilter, testFilter, shiftFilter, ntpcSectionalFilter, mockSearchQuery]);
+  }, [yearFilter, tradeFilter, testFilter, shiftFilter, ntpcSectionalFilter, tech3SectionalFilter, mockSearchQuery]);
 
   // Shift 1 / Demo test of EVERY exam & EVERY section is open without login
   const isGuestDemoTest = (test) => {
     if (!test) return false;
     if (test.isFreeDemo) return true;
+    if (test.examYear === 'tech3-2024' || test.exam?.includes('Technician')) {
+      return test.tech3ShiftNo === 1 || test.id?.includes('shift1') || test.id?.includes('-s1-');
+    }
     if (test.examYear === 'ntpc-ug-2025' || test.exam?.includes('NTPC')) {
       return test.ntpcUgShiftNo === 1 || test.id?.includes('shift1') || test.id?.includes('s1-');
     }
@@ -512,6 +523,9 @@ export default function App() {
   // Tier 2: Shifts 2 & 3 of every exam are FREE after login (Lead Capture)
   const isLoginFreeTest = (test) => {
     if (!test) return false;
+    if (test.examYear === 'tech3-2024' || test.exam?.includes('Technician')) {
+      return test.tech3ShiftNo === 2 || test.tech3ShiftNo === 3;
+    }
     if (test.examYear === 'ntpc-ug-2025' || test.exam?.includes('NTPC')) {
       return test.ntpcUgShiftNo === 2 || test.ntpcUgShiftNo === 3;
     }
@@ -1000,7 +1014,7 @@ export default function App() {
                       : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
-                  🎯 RRB ALP 2026 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025' && t.examYear !== 'ntpc-ug-2025').length})
+                  🎯 RRB ALP 2026 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025' && t.examYear !== 'ntpc-ug-2025' && t.examYear !== 'tech3-2024').length})
                 </button>
                 <button
                   onClick={() => { setYearFilter('2025'); setShiftFilter('all'); setTradeFilter('all'); }}
@@ -1051,6 +1065,16 @@ export default function App() {
                   }`}
                 >
                   🚆 Group D ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
+                </button>
+                <button
+                  onClick={() => { setYearFilter('tech3-2024'); setShiftFilter('all'); setTradeFilter('all'); setTech3SectionalFilter('all'); }}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
+                    yearFilter === 'tech3-2024'
+                      ? 'bg-gradient-to-r from-cyan-400 to-sky-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  🔧 Tech Gr-III ({RAILWAY_TESTS.filter(t => t.examYear === 'tech3-2024').length})
                 </button>
               </div>
 
@@ -1226,6 +1250,79 @@ export default function App() {
                 </div>
               )}
 
+              {/* Technician Grade III Sub-filter Tabs on Mock Tests View */}
+              {yearFilter === 'tech3-2024' && (
+                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-cyan-950/40 via-slate-900/90 to-slate-900/80 border border-cyan-500/30 space-y-3">
+                  <div className="flex items-center justify-between flex-wrap gap-2">
+                    <span className="text-xs font-bold text-cyan-300 flex items-center gap-1.5">
+                      <Wrench className="w-4 h-4 text-cyan-400" />
+                      <span>RRB Technician Grade III (CEN 02/2024): 23 Full Shifts + 92 Sectionals (Maths, Reasoning, Science, GA)</span>
+                    </span>
+                    <span className="text-[11px] font-semibold text-cyan-300 bg-cyan-500/10 px-2.5 py-1 rounded-full border border-cyan-500/30">
+                      ⚡ Shift 1 + All 4 Shift-1 Sectionals Free
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap items-center justify-center gap-2">
+                    <button
+                      onClick={() => { setTestFilter('all'); setTech3SectionalFilter('all'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'all' && tech3SectionalFilter === 'all' && shiftFilter === 'all'
+                          ? 'bg-gradient-to-r from-cyan-400 to-sky-400 text-slate-950 font-black shadow-md shadow-cyan-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      All Tech Gr-III ({RAILWAY_TESTS.filter(t => t.examYear === 'tech3-2024').length})
+                    </button>
+                    <button
+                      onClick={() => { setTestFilter('full-shift'); setTech3SectionalFilter('all'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'full-shift'
+                          ? 'bg-gradient-to-r from-cyan-400 to-sky-400 text-slate-950 font-black shadow-md shadow-cyan-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      Full Papers (23 Shifts • 100 Qs)
+                    </button>
+                    <button
+                      onClick={() => { setTestFilter('sectional'); setTech3SectionalFilter('all'); setShiftFilter('all'); }}
+                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                        testFilter === 'sectional' && tech3SectionalFilter === 'all'
+                          ? 'bg-gradient-to-r from-cyan-400 to-sky-400 text-slate-950 font-black shadow-md shadow-cyan-500/20'
+                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
+                      }`}
+                    >
+                      All Sectionals ({RAILWAY_TESTS.filter(t => t.examYear === 'tech3-2024' && t.category === 'sectional').length})
+                    </button>
+                  </div>
+                  <div className="flex flex-wrap items-center justify-center gap-1.5 pt-1 border-t border-cyan-500/20">
+                    {[
+                      { key: 'all', label: 'All Subjects' },
+                      { key: 'maths', label: '📐 Maths (23)' },
+                      { key: 'reasoning', label: '🧠 Reasoning (23)' },
+                      { key: 'science', label: '🔬 Science (23)' },
+                      { key: 'ga', label: '🌍 General Awareness (23)' },
+                    ].map((pill) => (
+                      <button
+                        key={pill.key}
+                        onClick={() => {
+                          setTech3SectionalFilter(pill.key);
+                          if (pill.key !== 'all') {
+                            setTestFilter('sectional');
+                          }
+                        }}
+                        className={`px-3 py-1 rounded-lg text-[11px] font-bold transition-all cursor-pointer ${
+                          tech3SectionalFilter === pill.key && (pill.key === 'all' ? testFilter === 'sectional' : true)
+                            ? 'bg-teal-400 text-slate-950 font-black shadow-sm shadow-teal-400/20'
+                            : 'bg-slate-950/70 border border-slate-800 text-slate-300 hover:text-white hover:border-cyan-400/50'
+                        }`}
+                      >
+                        {pill.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Shift Filter Tabs */}
               <div className="flex items-center justify-start sm:justify-center gap-2 mt-4 overflow-x-auto pb-1 no-scrollbar">
                 {availableShifts.map(s => (
@@ -1284,6 +1381,7 @@ export default function App() {
                     setTradeFilter('all');
                     setTestFilter('all');
                     setNtpcSectionalFilter('all');
+                    setTech3SectionalFilter('all');
                     setMockSearchQuery('');
                   }}
                   className="px-4 py-2 rounded-xl bg-teal-500 text-slate-950 font-black text-xs cursor-pointer"

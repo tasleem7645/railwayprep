@@ -63,6 +63,19 @@ export const EXAM_HIERARCHY = [
       },
     ],
   },
+  {
+    key: 'tech3',
+    label: '🔧 RRB Technician Grade III (CEN 02/2024)',
+    shortLabel: 'RRB Tech Gr-III',
+    years: [
+      {
+        key: 'tech3-2024',
+        label: '2024 Official Answer Keys (23 Shifts • 100 Qs)',
+        shortLabel: 'Tech Gr-III 2024',
+        filter: (t) => t.examYear === 'tech3-2024' && t.category !== 'sectional',
+      },
+    ],
+  },
 ];
 
 export function normalizeSubjectName(section = '') {

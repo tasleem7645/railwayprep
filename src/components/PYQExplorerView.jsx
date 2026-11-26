@@ -484,7 +484,7 @@ export default function PYQExplorerView({
                 onClick={() => setLoadAllShifts(true)}
                 className="px-3 py-1 rounded-lg bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 border border-teal-500/40 font-bold cursor-pointer"
               >
-                Load All {unlockedTests.length} Unlocked Shifts ({unlockedTests.length * (activeExam.key === 'groupd' ? 100 : 75)} Qs)
+                Load All {unlockedTests.length} Unlocked Shifts ({unlockedTests.length * (['groupd', 'ntpc-ug', 'tech3'].includes(activeExam.key) ? 100 : 75)} Qs)
               </button>
             )}
           </div>
