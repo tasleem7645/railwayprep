@@ -194,6 +194,7 @@ export default function App() {
   const [tradeFilter, setTradeFilter] = useState('all'); // 'all' | tradeKey
   const [testFilter, setTestFilter] = useState('all'); // 'all' | 'official' | 'sectional'
   const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | specific shift
+  const [ntpcSectionalFilter, setNtpcSectionalFilter] = useState('all'); // 'all' | 'maths' | 'reasoning' | 'gk' | 'ca' | 'ga'
   const [mockSearchQuery, setMockSearchQuery] = useState('');
   const [visibleCatalogCount, setVisibleCatalogCount] = useState(12);
   const [isPassProOpen, setIsPassProOpen] = useState(false);
@@ -467,18 +468,22 @@ export default function App() {
       (testFilter === 'full-shift' ? test.category !== 'sectional' : test.category === testFilter);
     const matchesShift = shiftFilter === 'all' || test.shiftName === shiftFilter;
     const matchesTrade = tradeFilter === 'all' || test.tradeKey === tradeFilter;
+    const matchesSectionalSub =
+      yearFilter !== 'ntpc-ug-2025' ||
+      ntpcSectionalFilter === 'all' ||
+      test.sectionalSubject === ntpcSectionalFilter;
     const q = mockSearchQuery.trim().toLowerCase();
     const matchesSearch =
       !q ||
       [test.title, test.subTitle, test.shiftName, test.trade, test.exam, test.badge]
         .filter(Boolean)
         .some((v) => String(v).toLowerCase().includes(q));
-    return matchesCategory && matchesShift && matchesTrade && matchesSearch;
+    return matchesCategory && matchesShift && matchesTrade && matchesSectionalSub && matchesSearch;
   });
 
   useEffect(() => {
     setVisibleCatalogCount(12);
-  }, [yearFilter, tradeFilter, testFilter, shiftFilter, mockSearchQuery]);
+  }, [yearFilter, tradeFilter, testFilter, shiftFilter, ntpcSectionalFilter, mockSearchQuery]);
 
   // Shift 1 / Demo test of EVERY exam & EVERY section is open without login
   const isGuestDemoTest = (test) => {
@@ -1146,21 +1151,21 @@ export default function App() {
 
               {/* NTPC UG Sub-filter Tabs on Mock Tests View */}
               {yearFilter === 'ntpc-ug-2025' && (
-                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-amber-950/40 via-slate-900/90 to-slate-900/80 border border-amber-500/30">
-                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-amber-950/40 via-slate-900/90 to-slate-900/80 border border-amber-500/30 space-y-3">
+                  <div className="flex items-center justify-between flex-wrap gap-2">
                     <span className="text-xs font-bold text-amber-300 flex items-center gap-1.5">
                       <BookOpen className="w-4 h-4 text-amber-400" />
-                      <span>RRB NTPC UG CEN 06/2024 CBT-1: 57 Shifts • 100 Qs</span>
+                      <span>RRB NTPC UG CEN 06/2024 CBT-1: 57 Full Shifts + 311 Sectionals (Maths, Reasoning, GK & Science, CA)</span>
                     </span>
                     <span className="text-[11px] font-semibold text-amber-300 bg-amber-500/10 px-2.5 py-1 rounded-full border border-amber-500/30">
-                      ⚡ Shift 1 + 3 Sectionals Free Demo
+                      ⚡ Shift 1 + All Shift-1 Sectionals + CA Set 1 Free
                     </span>
                   </div>
                   <div className="flex flex-wrap items-center justify-center gap-2">
                     <button
-                      onClick={() => { setTestFilter('all'); setShiftFilter('all'); }}
+                      onClick={() => { setTestFilter('all'); setNtpcSectionalFilter('all'); setShiftFilter('all'); }}
                       className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'all' && shiftFilter === 'all'
+                        testFilter === 'all' && ntpcSectionalFilter === 'all' && shiftFilter === 'all'
                           ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
                           : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                       }`}
@@ -1168,7 +1173,7 @@ export default function App() {
                       All NTPC UG ({RAILWAY_TESTS.filter(t => t.examYear === 'ntpc-ug-2025').length})
                     </button>
                     <button
-                      onClick={() => { setTestFilter('full-shift'); setShiftFilter('all'); }}
+                      onClick={() => { setTestFilter('full-shift'); setNtpcSectionalFilter('all'); setShiftFilter('all'); }}
                       className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
                         testFilter === 'full-shift'
                           ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
@@ -1178,15 +1183,45 @@ export default function App() {
                       Full Papers (57 Shifts • 100 Qs)
                     </button>
                     <button
-                      onClick={() => { setTestFilter('sectional'); setShiftFilter('all'); }}
+                      onClick={() => { setTestFilter('sectional'); setNtpcSectionalFilter('all'); setShiftFilter('all'); }}
                       className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'sectional'
+                        testFilter === 'sectional' && ntpcSectionalFilter === 'all'
                           ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
                           : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
                       }`}
                     >
-                      Shift 1 Sectionals (3 Free)
+                      All Sectionals ({RAILWAY_TESTS.filter(t => t.examYear === 'ntpc-ug-2025' && t.category === 'sectional').length})
                     </button>
+                  </div>
+                  <div className="flex flex-wrap items-center justify-center gap-1.5 pt-1 border-t border-amber-500/20">
+                    {[
+                      { key: 'all', label: 'All Subjects' },
+                      { key: 'maths', label: '📐 Maths (57)' },
+                      { key: 'reasoning', label: '🧠 Reasoning (57)' },
+                      { key: 'gk', label: '🏛️ GK & Science (57)' },
+                      { key: 'ca', label: '📰 Current Affairs (83)' },
+                      { key: 'ga', label: '🌐 Combined GA (57)' },
+                    ].map((pill) => (
+                      <button
+                        key={pill.key}
+                        onClick={() => {
+                          setNtpcSectionalFilter(pill.key);
+                          if (pill.key !== 'all') {
+                            setTestFilter('sectional');
+                          }
+                          if (pill.key === 'ca' && shiftFilter === 'all') {
+                            setShiftFilter('all');
+                          }
+                        }}
+                        className={`px-3 py-1 rounded-lg text-[11px] font-bold transition-all cursor-pointer ${
+                          ntpcSectionalFilter === pill.key && (pill.key === 'all' ? testFilter === 'sectional' : true)
+                            ? 'bg-teal-400 text-slate-950 font-black shadow-sm shadow-teal-400/20'
+                            : 'bg-slate-950/70 border border-slate-800 text-slate-300 hover:text-white hover:border-amber-400/50'
+                        }`}
+                      >
+                        {pill.label}
+                      </button>
+                    ))}
                   </div>
                 </div>
               )}
@@ -1248,6 +1283,7 @@ export default function App() {
                     setShiftFilter('all');
                     setTradeFilter('all');
                     setTestFilter('all');
+                    setNtpcSectionalFilter('all');
                     setMockSearchQuery('');
                   }}
                   className="px-4 py-2 rounded-xl bg-teal-500 text-slate-950 font-black text-xs cursor-pointer"

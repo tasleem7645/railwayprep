@@ -41,6 +41,24 @@ async function loadRawShiftFile(file) {
   return promise;
 }
 
+function applySourceFilters(raw, spec, rootOverrideSection = null) {
+  let derived = Array.isArray(raw) ? raw : (raw?.questions || []);
+  if (spec.sectionFilter) {
+    derived = derived.filter((q) => q.section === spec.sectionFilter);
+  }
+  if (spec.subSectionFilter) {
+    derived = derived.filter((q) => q.subSection === spec.subSectionFilter);
+  }
+  if (Array.isArray(spec.slice)) {
+    derived = derived.slice(spec.slice[0], spec.slice[1]);
+  }
+  const secOverride = spec.overrideSection || rootOverrideSection;
+  if (secOverride) {
+    derived = derived.map((q) => ({ ...q, section: secOverride }));
+  }
+  return derived;
+}
+
 export async function loadTestQuestions(test) {
   if (!test) return [];
   if (Array.isArray(test.questions)) {
@@ -51,21 +69,29 @@ export async function loadTestQuestions(test) {
   }
 
   const source = test.questionSource;
-  if (!source?.file) {
+  if (!source?.file && !Array.isArray(source?.files)) {
     throw new Error(`No questionSource configured for test: ${test.id}`);
   }
 
-  const raw = await loadRawShiftFile(source.file);
-  let derived = raw;
-
-  if (source.sectionFilter) {
-    derived = raw.filter((q) => q.section === source.sectionFilter);
-  } else if (Array.isArray(source.slice)) {
-    derived = raw.slice(source.slice[0], source.slice[1]);
+  let derived;
+  if (Array.isArray(source.files)) {
+    const chunks = await Promise.all(
+      source.files.map(async (part) => {
+        const raw = await loadRawShiftFile(part.file);
+        return applySourceFilters(raw, part, source.overrideSection || null);
+      })
+    );
+    derived = chunks.flat();
+    if (Array.isArray(source.slice)) {
+      derived = derived.slice(source.slice[0], source.slice[1]);
+    }
+  } else {
+    const raw = await loadRawShiftFile(source.file);
+    derived = applySourceFilters(raw, source, source.overrideSection || null);
   }
 
-  if (source.reindex) {
-    derived = derived.map((q, idx) => ({ ...q, id: idx + 1, originalId: q.id }));
+  if (source.reindex || Array.isArray(source.files)) {
+    derived = derived.map((q, idx) => ({ ...q, id: idx + 1, shiftQuestionNo: idx + 1, originalId: q.id }));
   }
 
   testQuestionsCache.set(test.id, derived);
