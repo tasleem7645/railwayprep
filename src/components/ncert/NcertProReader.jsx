@@ -28,6 +28,7 @@ import { ChemicalReactionsBalanceLabSVG } from './ChemicalReactionsBalanceLabSVG
 import { LifeProcessesSystemLabSVG } from './LifeProcessesSystemLabSVG';
 import { MetalsReactivityMetallurgyLabSVG } from './MetalsReactivityMetallurgyLabSVG';
 import { ReproductionModesAnatomyLabSVG } from './ReproductionModesAnatomyLabSVG';
+import { MagneticEffectsDomesticLabSVG } from './MagneticEffectsDomesticLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -163,6 +164,7 @@ export default function NcertProReader({
     else if (labKey === 'life-processes-system-lab') comp = <LifeProcessesSystemLabSVG lang={lang} />;
     else if (labKey === 'metals-reactivity-metallurgy-lab') comp = <MetalsReactivityMetallurgyLabSVG lang={lang} />;
     else if (labKey === 'reproduction-modes-anatomy-lab') comp = <ReproductionModesAnatomyLabSVG lang={lang} />;
+    else if (labKey === 'magnetic-effects-domestic-lab') comp = <MagneticEffectsDomesticLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (
