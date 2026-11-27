@@ -20,6 +20,7 @@ import { AtomBuilderLabSVG } from './AtomBuilderLabSVG';
 import { ForcesMotionLabSVG } from './ForcesMotionLabSVG';
 import { AcidsBasesPhLabSVG } from './AcidsBasesPhLabSVG';
 import { OpticsRayLensLabSVG } from './OpticsRayLensLabSVG';
+import { ElectricityCircuitLabSVG } from './ElectricityCircuitLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -147,6 +148,7 @@ export default function NcertProReader({
     else if (labKey === 'forces-motion-lab') comp = <ForcesMotionLabSVG lang={lang} />;
     else if (labKey === 'acids-bases-ph-lab') comp = <AcidsBasesPhLabSVG lang={lang} />;
     else if (labKey === 'optics-ray-lens-lab') comp = <OpticsRayLensLabSVG lang={lang} />;
+    else if (labKey === 'electricity-circuit-lab') comp = <ElectricityCircuitLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (

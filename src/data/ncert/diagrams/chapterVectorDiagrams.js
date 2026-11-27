@@ -11,6 +11,7 @@ import { renderCh8AtomDiagramSvg } from './ch8AtomDiagrams.js';
 import { renderCh6ForcesDiagramSvg } from './ch6ForcesDiagrams.js';
 import { renderC10Ch2AcidsDiagramSvg } from './c10Ch2AcidsDiagrams.js';
 import { renderC10Ch9LightDiagramSvg } from './c10Ch9LightDiagrams.js';
+import { renderC10Ch11ElecDiagramSvg } from './c10Ch11ElecDiagrams.js';
 
 function esc(s) {
   return String(s ?? '')
@@ -410,6 +411,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
 
   const c10Ch9Svg = renderC10Ch9LightDiagramSvg(key, { lang, theme });
   if (c10Ch9Svg) return c10Ch9Svg;
+
+  const c10Ch11Svg = renderC10Ch11ElecDiagramSvg(key, { lang, theme });
+  if (c10Ch11Svg) return c10Ch11Svg;
 
   return '';
 }
