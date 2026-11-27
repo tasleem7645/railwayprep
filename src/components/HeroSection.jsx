@@ -31,7 +31,7 @@ export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro
               </span> &amp; Revision Hub
             </h1>
             <p className="mt-3 sm:mt-4 text-sm sm:text-base lg:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl mx-auto lg:mx-0">
-              Real TCS iON exam simulation, negative marking analysis, high-yield NCERT science notes, and 2-second maths shortcuts — built for RailwayPrep aspirants.
+              Real-exam pattern CBT simulation, negative marking analysis, high-yield NCERT science visual notes, and 2-second maths shortcuts — built for Railway aspirants.
             </p>
 
             {/* Primary Action Buttons */}
@@ -73,7 +73,7 @@ export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro
             <div className="relative rounded-3xl overflow-hidden border border-teal-500/30 bg-[#070B18] shadow-2xl shadow-teal-950/50 group">
               <img
                 src="/hero-cbt-visual.jpg"
-                alt="RailwayPrep PRO TCS iON CBT Exam Simulator"
+                alt="RailwayPrep PRO Computer-Based Test Exam Simulator"
                 className="w-full h-auto object-cover aspect-video group-hover:scale-[1.02] transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#070B18] via-transparent to-transparent pointer-events-none" />

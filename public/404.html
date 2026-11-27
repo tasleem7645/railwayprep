@@ -3,19 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <title>RailwayPrep PRO | Page Redirect</title>
     <script>
-      // Redirect non-asset paths cleanly back to the SPA without poisoning /assets/*.js with 200 text/html
+      // Never poison /assets/*.js with HTML; normalize trailing slashes / unknown paths cleanly
       if (!window.location.pathname.startsWith('/assets/')) {
-        var cleanPath = window.location.pathname.replace(/^\/+|\/+$/g, '');
-        var validTabs = ['home', 'mock-tests', 'pyq-explorer', 'super-coaching', 'syllabus', 'daily-quiz', 'books', 'tools'];
-        var targetHash = validTabs.indexOf(cleanPath) !== -1 ? '#' + cleanPath : '#home';
-        window.location.replace('/' + targetHash + (window.location.search || ''));
+        var cleanPath = window.location.pathname.replace(/\.html$/i, '').replace(/^\/+|\/+$/g, '').toLowerCase();
+        var validRoutes = [
+          'home', 'mock-tests', 'pyq-explorer', 'super-coaching', 'syllabus',
+          'daily-quiz', 'books', 'tools', 'pricing', 'about-us', 'contact-us',
+          'privacy-policy', 'terms-and-conditions', 'refund-policy', 'shipping-policy', 'disclaimer'
+        ];
+        if (validRoutes.indexOf(cleanPath) !== -1 && window.location.pathname !== '/' + cleanPath) {
+          window.location.replace('/' + (cleanPath === 'home' ? '' : cleanPath) + (window.location.search || ''));
+        } else if (validRoutes.indexOf(cleanPath) !== -1) {
+          window.location.replace('/#' + cleanPath + (window.location.search || ''));
+        } else {
+          window.location.replace('/' + (window.location.search || ''));
+        }
       }
     </script>
   </head>
   <body style="background:#070B18;color:#e2e8f0;font-family:sans-serif;text-align:center;padding:48px;">
-    <h2>404 — Asset Not Found</h2>
-    <p><a href="/#home" style="color:#2dd4bf;">Return to RailwayPrep PRO</a></p>
+    <h2>404 — Page Not Found</h2>
+    <p><a href="/" style="color:#2dd4bf;">Return to RailwayPrep PRO</a></p>
   </body>
 </html>

@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
   Sparkles, Crown, Search, Globe, ChevronDown,
-  Menu, X, BookOpen, CheckSquare, Zap, Flame, User, FileText, ShoppingBag,
-  Calculator, Bookmark, LogIn, Send, Home, ChevronRight
+  Menu, X, BookOpen, CheckSquare, Zap, Flame, FileText, ShoppingBag,
+  Calculator, Bookmark, LogIn, Send, Home, ChevronRight, ShieldCheck
 } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
+import { LEGAL_PAGE_KEYS } from '../utils/seoConfig';
 
 export default function Navbar({
   activeTab,
@@ -92,7 +93,9 @@ export default function Navbar({
       heading: 'TOOLS & COMMUNITY',
       items: [
         { label: 'Score & Cutoff Predictor', badge: 'HOT', badgeColor: 'bg-rose-500/20 text-rose-300', icon: Calculator, onClick: () => handleNav('tools'), active: activeTab === 'tools' },
-        { label: 'Pass Pro Membership', badge: hasPassPro ? 'ACTIVE' : `₹${MONETIZATION_CONFIG.payments.passProPrice}`, badgeColor: 'bg-amber-500/20 text-amber-300', icon: Crown, onClick: () => { setDrawerOpen(false); onOpenPassPro(); } },
+        { label: 'Plans & Pricing', badge: hasPassPro ? 'ACTIVE' : `₹${MONETIZATION_CONFIG.payments.passProPrice}`, badgeColor: 'bg-amber-500/20 text-amber-300', icon: Crown, onClick: () => handleNav('pricing'), active: activeTab === 'pricing' },
+        { label: 'Pass Pro Checkout', badge: hasPassPro ? 'VIP' : 'PRO', badgeColor: 'bg-emerald-500/20 text-emerald-300', icon: Sparkles, onClick: () => { setDrawerOpen(false); onOpenPassPro(); } },
+        { label: 'About, Privacy & Policies', icon: ShieldCheck, onClick: () => handleNav('privacy-policy'), active: LEGAL_PAGE_KEYS.includes(activeTab) },
         { label: `Telegram (${MONETIZATION_CONFIG.community.telegramChannelName})`, icon: Send, href: MONETIZATION_CONFIG.community.telegramChannelUrl },
         { label: `Doubt Group (${MONETIZATION_CONFIG.community.telegramGroupName})`, icon: Sparkles, href: MONETIZATION_CONFIG.community.telegramGroupUrl },
       ],
@@ -100,13 +103,14 @@ export default function Navbar({
   ];
 
   const desktopLinks = [
-    { id: 'home', label: 'Home' },
-    { id: 'mock-tests', label: 'Test Series' },
-    { id: 'pyq-explorer', label: 'PYQ Bank' },
-    { id: 'daily-quiz', label: 'Daily Quiz' },
-    { id: 'super-coaching', label: 'Notes' },
-    { id: 'tools', label: 'Tools' },
-    { id: 'books', label: 'Books' },
+    { id: 'home', href: '/', label: 'Home' },
+    { id: 'mock-tests', href: '/mock-tests', label: 'Test Series' },
+    { id: 'pyq-explorer', href: '/pyq-explorer', label: 'PYQ Bank' },
+    { id: 'daily-quiz', href: '/daily-quiz', label: 'Daily Quiz' },
+    { id: 'super-coaching', href: '/super-coaching', label: 'Notes' },
+    { id: 'pricing', href: '/pricing', label: 'Pricing' },
+    { id: 'tools', href: '/tools', label: 'Tools' },
+    { id: 'books', href: '/books', label: 'Books' },
   ];
 
   return (
@@ -183,24 +187,29 @@ export default function Navbar({
               </div>
             </div>
 
-            {/* Center: Desktop Primary Nav */}
+            {/* Center: Desktop Primary Nav (Crawlable Anchor Links + Instant SPA Routing) */}
             <nav aria-label="Main navigation" className="hidden lg:flex items-center gap-0.5 xl:gap-1">
               {desktopLinks.map((lnk) => {
                 const isActive = activeTab === lnk.id;
                 return (
-                  <button
+                  <a
                     key={lnk.id}
-                    type="button"
-                    onClick={() => handleNav(lnk.id)}
+                    href={lnk.href}
+                    onClick={(e) => {
+                      if (!e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey) {
+                        e.preventDefault();
+                        handleNav(lnk.id);
+                      }
+                    }}
                     aria-current={isActive ? 'page' : undefined}
-                    className={`px-2.5 xl:px-3 py-1.5 rounded-xl text-xs xl:text-sm font-semibold transition-colors cursor-pointer whitespace-nowrap ${
+                    className={`px-2 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-sm font-semibold transition-colors cursor-pointer whitespace-nowrap ${
                       isActive
                         ? 'text-teal-300 bg-teal-500/15 font-bold'
                         : 'text-slate-300 hover:text-white hover:bg-slate-800/60'
                     }`}
                   >
                     {lnk.label}
-                  </button>
+                  </a>
                 );
               })}
             </nav>

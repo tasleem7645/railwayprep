@@ -34,7 +34,7 @@ const SUPER_NOTES_PREVIEW = [
   {
     id: 'reasoning',
     subject: 'Reasoning Mind Maps',
-    badge: 'TCS Pattern',
+    badge: 'CBT Pattern',
     desc: 'Syllogism Venn rules, Coding-Decoding, Mirror & Clock tricks.',
     color: 'from-purple-500/15 to-indigo-500/5 border-purple-500/30 text-purple-300',
   },
@@ -108,7 +108,7 @@ export default function HomeShowcaseSections({
       totalTests: countByYear((t) => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && !t.stage?.includes('CBT-2')),
       accent: 'from-indigo-500/20 via-slate-900 to-slate-950 border-indigo-500/40',
       pillClass: 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40',
-      bullets: ['10 TCS Official Shift Papers', 'Pure Maths & Reasoning Boosters', 'Solved A4 PDF Export'],
+      bullets: ['10 Previous Year Shift Papers', 'Pure Maths & Reasoning Boosters', 'Solved A4 PDF Export'],
     },
     {
       key: 'cbt2',
@@ -215,7 +215,7 @@ export default function HomeShowcaseSections({
                 </h3>
 
                 <div className="inline-block text-[10px] font-bold text-teal-300 bg-teal-500/10 border border-teal-500/25 px-2 py-0.5 rounded mb-3">
-                  English + हिंदी • TCS CBT Engine
+                  English + हिंदी • Bilingual CBT Engine
                 </div>
 
                 <ul className="space-y-1.5 text-[11px] text-slate-300 mb-4">

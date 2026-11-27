@@ -22,6 +22,7 @@ import { saveTestSpeedProfile, getTestSpeedProfile } from './utils/speedAnalytic
 import { buildWeakTopicMiniTest } from './utils/weakTopicQuizBuilder';
 import { applySrsBatchFromReTest } from './utils/mistakeSpacedRepetition';
 import { saveLiveMegaAttemptLocal } from './utils/liveMegaMock';
+import { applyDocumentSeo, LEGAL_PAGE_KEYS, resolveRouteFromLocation, routeKeyToLegalTab } from './utils/seoConfig';
 import { lazyWithRetry, forceFreshReload, isChunkLoadError, triggerOneTimeChunkReload } from './utils/chunkRecovery';
 import { 
   Play, CheckCircle2, Clock, Award, Users, BookOpen, 
@@ -42,6 +43,8 @@ const MistakeNotebookModal = lazyWithRetry(() => import('./components/MistakeNot
 const AuthModal = lazyWithRetry(() => import('./components/AuthModal'), lazy);
 const UserDashboardModal = lazyWithRetry(() => import('./components/UserDashboardModal'), lazy);
 const LegalModal = lazyWithRetry(() => import('./components/LegalModal'), lazy);
+const LegalCompliancePage = lazyWithRetry(() => import('./components/LegalCompliancePage'), lazy);
+const PricingPageView = lazyWithRetry(() => import('./components/PricingPageView'), lazy);
 const PYQExplorerView = lazyWithRetry(() => import('./components/PYQExplorerView'), lazy);
 
 class ErrorBoundary extends React.Component {
@@ -97,36 +100,43 @@ class ErrorBoundary extends React.Component {
 }
 
 export default function App() {
-  const [_activeTab, _setActiveTab] = useState('home'); // 'home' | 'mock-tests' | 'super-coaching' | 'syllabus' | 'daily-quiz' | 'books' | 'tools'
+  const [_activeTab, _setActiveTab] = useState(() =>
+    typeof window !== 'undefined'
+      ? resolveRouteFromLocation(window.location.pathname, window.location.hash)
+      : 'home'
+  );
   const activeTab = _activeTab;
 
   const setActiveTab = (tab) => {
-    _setActiveTab(tab);
-    if (window.location.hash !== `#${tab}`) {
-      window.location.hash = tab;
+    const cleanTab = tab || 'home';
+    _setActiveTab(cleanTab);
+    applyDocumentSeo(cleanTab);
+    if (typeof window !== 'undefined') {
+      const targetPath = cleanTab === 'home' ? '/' : `/${cleanTab}`;
+      if (window.location.pathname !== targetPath || window.location.hash) {
+        window.history.pushState({ tab: cleanTab }, '', `${targetPath}${window.location.search || ''}`);
+      }
     }
   };
 
   const [selectedGoal, setSelectedGoal] = useState('RRB ALP (Loco Pilot 2026)');
   const [activeExamId, setActiveExamId] = useState(null);
 
-  // Dynamic Hash Routing
+  // Sync Clean Path Routing + Legacy Hash Compatibility + Dynamic Document SEO
   useEffect(() => {
-    const validTabs = ['home', 'mock-tests', 'pyq-explorer', 'super-coaching', 'syllabus', 'daily-quiz', 'books', 'tools'];
-    const handleHashChange = () => {
-      const hash = window.location.hash.replace('#', '').trim();
-      if (validTabs.includes(hash)) {
-        _setActiveTab(hash);
-      }
+    const syncFromBrowserLocation = () => {
+      const resolved = resolveRouteFromLocation(window.location.pathname, window.location.hash);
+      _setActiveTab(resolved);
+      applyDocumentSeo(resolved);
     };
 
-    const initialHash = window.location.hash.replace('#', '').trim();
-    if (validTabs.includes(initialHash)) {
-      _setActiveTab(initialHash);
-    }
-
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    syncFromBrowserLocation();
+    window.addEventListener('popstate', syncFromBrowserLocation);
+    window.addEventListener('hashchange', syncFromBrowserLocation);
+    return () => {
+      window.removeEventListener('popstate', syncFromBrowserLocation);
+      window.removeEventListener('hashchange', syncFromBrowserLocation);
+    };
   }, []);
 
   const handleSelectGoal = (goal) => {
@@ -1506,6 +1516,23 @@ export default function App() {
               />
             </>
           )}
+
+          {activeTab === 'pricing' && (
+            <PricingPageView
+              hasPassPro={hasPassPro}
+              onOpenPassPro={() => setIsPassProOpen(true)}
+              onStartFreeTest={() => handleStartMock(RAILWAY_TESTS[0])}
+              onNavigateRoute={setActiveTab}
+            />
+          )}
+
+          {LEGAL_PAGE_KEYS.includes(activeTab) && (
+            <LegalCompliancePage
+              activeKey={routeKeyToLegalTab(activeTab)}
+              onNavigateRoute={setActiveTab}
+              onOpenPassPro={() => setIsPassProOpen(true)}
+            />
+          )}
         </Suspense>
       </main>
 
@@ -1594,6 +1621,7 @@ export default function App() {
             onClose={() => setIsPassProOpen(false)} 
             onOpenAuth={(msg) => { setIsPassProOpen(false); openAuthPrompt(msg); }}
             onUnlockSuccess={() => session?.user?.id && fetchUserProfile(session.user.id)}
+            onNavigateRoute={setActiveTab}
           />
         )}
 
@@ -1652,11 +1680,12 @@ export default function App() {
           />
         )}
 
-        {/* Legal & Compliance Modal (AdSense Required) */}
+        {/* Legal & Compliance Modal */}
         {legalModalTab && (
           <LegalModal 
             initialTab={legalModalTab} 
             onClose={() => setLegalModalTab(null)} 
+            onNavigateRoute={setActiveTab}
           />
         )}
       </Suspense>

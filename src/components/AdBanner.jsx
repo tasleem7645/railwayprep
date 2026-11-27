@@ -13,7 +13,7 @@ export default function AdBanner({
 
   if (!adsense.enabled || hideAds) return null;
 
-  const isRealAdSenseActive = adsense.publisherId && !adsense.publisherId.includes('XXXX');
+  const isRealAdSenseActive = adsense.publisherId && adsense.publisherId.startsWith('ca-pub-') && !adsense.publisherId.includes('XXXX');
 
   // If real AdSense publisher ID is provided, render Google AdSense Tag
   if (isRealAdSenseActive) {
@@ -52,7 +52,7 @@ export default function AdBanner({
                 Targeting 80+ in CBT-1? Get RailwayPrep <span className="text-amber-400">PASS PRO</span>
               </h4>
               <p className="text-xs text-slate-400">
-                Unlock all 76+ official shift papers, pure subject sectionals & all-India rank for just ₹{payments.passProPrice}/Yr.
+                Unlock all 225+ CBT mock tests, pure subject sectionals &amp; all-India rank for just ₹{payments.passProPrice}/Yr.
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function AdBanner({
           <div>
             <div className="flex items-center gap-2">
               <span className="text-[9px] font-black uppercase px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 border border-slate-700">
-                Ad / Study Resource
+                Study Resource • Pro Vault
               </span>
               <span className="text-xs text-teal-400 font-bold">RRB ALP 2025 & 2026 Bilingual Solved PDFs</span>
             </div>

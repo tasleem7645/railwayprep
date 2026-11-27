@@ -165,7 +165,7 @@ export default function PaidPdfBundleModal({
             {/* Shift Picker */}
             <div className="pt-2 border-t border-slate-800/80 space-y-1.5">
               <label className="block text-[11px] font-bold text-slate-400">
-                3. Select Official Shift ({shiftsList.length} Available):
+                3. Select Exam Shift ({shiftsList.length} Available):
               </label>
               <select
                 value={selectedTest?.id || ''}
@@ -292,7 +292,7 @@ export default function PaidPdfBundleModal({
               ) : (
                 <div className="space-y-2.5 pt-1">
                   <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-[11px] text-amber-200">
-                    Shift 1 har exam ka PDF **100% Free** hai! Is Shift ka Solved PDF (aur sabhi 99 Official Shift PDFs + Tests) unlock karne ke liye **Pass Pro (₹49)** ya **4 Verified Referrals** complete karein.
+                    Shift 1 har exam ka PDF <strong>100% Free</strong> hai! Is Shift ka Solved PDF (aur sabhi 225+ Mock Tests + Shift PDFs) unlock karne ke liye <strong>Pass Pro (₹49)</strong> ya <strong>4 Verified Referrals</strong> complete karein.
                   </div>
                   <button
                     type="button"
@@ -300,7 +300,7 @@ export default function PaidPdfBundleModal({
                     className="w-full py-3 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-lg cursor-pointer"
                   >
                     <Crown className="w-4 h-4 fill-slate-950" />
-                    <span>Unlock All 99 Shift PDFs + Pass Pro (₹49 / Free Refer)</span>
+                    <span>Unlock All Shift PDFs + Pass Pro (₹49 / Free Refer)</span>
                   </button>
                 </div>
               )}
