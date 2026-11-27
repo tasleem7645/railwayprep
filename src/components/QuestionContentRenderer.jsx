@@ -37,6 +37,47 @@ export function MathText({ text = '', className = '' }) {
 }
 
 /**
+ * Recursively renders Smart-Board rich inline formatting (`==highlight==`, `**bold**`, `` `chip` ``, `$KaTeX$`)
+ * without leaking literal backticks or markdown markers inside nested spans.
+ */
+export function RichFormatText({ text = '', className = '' }) {
+  const raw = String(text ?? '');
+  const parts = raw.split(/(==[^=]+==|\*\*[^*]+\*\*|`[^`]+`)/g);
+  const content = parts.map((part, idx) => {
+    if (!part) return null;
+    if (part.startsWith('==') && part.endsWith('==') && part.length > 4) {
+      return (
+        <mark
+          key={idx}
+          className="px-1.5 py-0.5 mx-0.5 rounded-md bg-amber-400/20 text-amber-200 border border-amber-400/40 font-bold"
+        >
+          <RichFormatText text={part.slice(2, -2)} />
+        </mark>
+      );
+    }
+    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+      return (
+        <strong key={idx} className="font-extrabold text-white">
+          <RichFormatText text={part.slice(2, -2)} />
+        </strong>
+      );
+    }
+    if (part.startsWith('`') && part.endsWith('`') && part.length > 2) {
+      return (
+        <span
+          key={idx}
+          className="px-1.5 py-0.5 mx-0.5 rounded bg-slate-800/90 text-cyan-200 border border-slate-700 font-bold text-[0.92em]"
+        >
+          <MathText text={part.slice(1, -1)} />
+        </span>
+      );
+    }
+    return <MathText key={idx} text={part} />;
+  });
+  return className ? <span className={className}>{content}</span> : <>{content}</>;
+}
+
+/**
  * Renders an option value that may contain plain text, KaTeX math, inline figure/fraction PNGs (`![alt](url)`), or both.
  */
 export function OptionContentRenderer({ value = '' }) {

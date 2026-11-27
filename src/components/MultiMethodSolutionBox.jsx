@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {
   Zap, Layers, Sparkles, AlertTriangle, CheckCircle2, Eye, Clock, BookOpen, Calculator
 } from 'lucide-react';
-import { MathText } from './QuestionContentRenderer';
+import { MathText, RichFormatText } from './QuestionContentRenderer';
 
 const TONE_CLASSES = {
   teal: {
@@ -155,14 +155,14 @@ export default function MultiMethodSolutionBox({
       {solution.approach && (
         <div className="px-3 py-2 rounded-xl bg-slate-900/90 border border-slate-800 text-slate-200 text-xs flex flex-wrap items-center gap-1.5">
           <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-          <MathText text={solution.approach} />
+          <RichFormatText text={solution.approach} />
         </div>
       )}
 
       {solution.keyConcept && (
         <div className="px-3 py-2 rounded-xl bg-slate-900/70 border border-amber-500/30 text-amber-300 font-semibold text-xs">
-          <strong className="text-amber-200 mr-1.5">{isHi ? 'मुख्य नियम:' : 'Core Rule:'}</strong>
-          <MathText text={solution.keyConcept} />
+          <strong className="text-amber-200 mr-1.5">{isHi ? 'Key Rule:' : 'Core Rule:'}</strong>
+          <RichFormatText text={solution.keyConcept} />
         </div>
       )}
 
@@ -171,10 +171,10 @@ export default function MultiMethodSolutionBox({
         <div className="p-3 rounded-xl bg-emerald-950/35 border border-emerald-400/45 text-emerald-100 text-xs space-y-1">
           <div className="font-black text-emerald-300 flex items-center gap-1.5">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>{isHi ? 'एग्जाम हॉल 3–5 सेकंड ऑप्शन ट्रिक:' : 'Exam-Hall 3–5 Sec Option Elimination:'}</span>
+            <span>{isHi ? 'Exam-Hall 3–5 Sec Elimination Trick:' : 'Exam-Hall 3–5 Sec Option Elimination:'}</span>
           </div>
           <div className="whitespace-pre-line leading-relaxed">
-            <MathText text={pickLang(solution.optionTrick)} />
+            <RichFormatText text={pickLang(solution.optionTrick)} />
           </div>
         </div>
       )}
@@ -198,8 +198,8 @@ export default function MultiMethodSolutionBox({
                 }`}
               >
                 <Icon className="w-3.5 h-3.5 shrink-0" />
-                <span>{pickLang(m.title)}</span>
-                {m.timeTag && (
+                <span><MathText text={pickLang(m.title).replace(/`([^`]+)`/g, '$1')} /></span>
+                {m.timeTag && !pickLang(m.title).includes(m.timeTag) && (
                   <span className={`px-1.5 py-0.5 rounded text-[9px] font-bold ${active ? 'bg-black/20 text-slate-950' : 'bg-slate-800 text-slate-400'}`}>
                     {m.timeTag}
                   </span>
@@ -220,7 +220,7 @@ export default function MultiMethodSolutionBox({
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <div className={`text-xs sm:text-[13px] font-black flex items-center gap-1.5 ${tone.heading}`}>
                   <Icon className="w-4 h-4 shrink-0" />
-                  <span>{pickLang(m.title)}</span>
+                  <span><RichFormatText text={pickLang(m.title)} /></span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   {m.audience && (
@@ -228,7 +228,7 @@ export default function MultiMethodSolutionBox({
                       {pickLang(m.audience)}
                     </span>
                   )}
-                  {m.timeTag && (
+                  {m.timeTag && !pickLang(m.title).includes(m.timeTag) && (
                     <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-slate-950/70 border border-slate-700 text-[10px] font-bold text-slate-300">
                       <Clock className="w-2.5 h-2.5" />
                       <span>{m.timeTag}</span>
@@ -243,8 +243,8 @@ export default function MultiMethodSolutionBox({
                 </div>
               )}
 
-              <div className="text-xs sm:text-sm text-slate-200 leading-relaxed whitespace-pre-line">
-                <MathText text={pickLang(m.steps)} />
+              <div className="text-[13px] sm:text-sm text-slate-200 leading-relaxed whitespace-pre-line">
+                <RichFormatText text={pickLang(m.steps)} />
               </div>
             </div>
           );
@@ -257,10 +257,10 @@ export default function MultiMethodSolutionBox({
           <AlertTriangle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
           <div>
             <span className="font-black text-rose-300 block text-[11px] uppercase">
-              {isHi ? '⚠️ RRB सावधानी (सामान्य गलती से बचें)' : '⚠️ RRB Common Trap Alert'}
+              {isHi ? '⚠️ RRB Common Trap Alert' : '⚠️ RRB Common Trap Alert'}
             </span>
             <span className="leading-relaxed">
-              <MathText text={pickLang(solution.trapAlert)} />
+              <RichFormatText text={pickLang(solution.trapAlert)} />
             </span>
           </div>
         </div>

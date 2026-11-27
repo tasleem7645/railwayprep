@@ -509,21 +509,25 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
 
 export function renderPrintableNcertWindow(chapterData, options = {}, preOpenedWindow = null) {
   const html = buildPrintableNcertBookHtml(chapterData, options);
-  const targetWin = preOpenedWindow || window.open('', '_blank');
-  if (!targetWin) {
-    const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `RailwayPrep_${chapterData.id}_${options.langMode || 'hi'}.html`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    setTimeout(() => URL.revokeObjectURL(url), 1500);
-    return false;
+  const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+  const blobUrl = URL.createObjectURL(blob);
+
+  // If caller opened a window (`about:blank`), redirect it to real Blob URL so browser Download works,
+  // AND trigger direct offline download + iframe print sheet cleanly!
+  if (preOpenedWindow) {
+    try {
+      preOpenedWindow.location.replace(blobUrl);
+      setTimeout(() => URL.revokeObjectURL(blobUrl), 60000);
+      return true;
+    } catch {}
   }
-  targetWin.document.open();
-  targetWin.document.write(html);
-  targetWin.document.close();
-  return true;
+
+  const a = document.createElement('a');
+  a.href = blobUrl;
+  a.download = `RailwayPrep_${chapterData.id}_${options.langMode || 'hi'}.html`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(blobUrl), 4000);
+  return false;
 }
