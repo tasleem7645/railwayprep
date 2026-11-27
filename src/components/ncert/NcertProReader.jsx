@@ -32,6 +32,7 @@ import { MagneticEffectsDomesticLabSVG } from './MagneticEffectsDomesticLabSVG';
 import { ControlCoordinationLabSVG } from './ControlCoordinationLabSVG';
 import { MendelGeneticsSexLabSVG } from './MendelGeneticsSexLabSVG';
 import { HumanEyePrismLabSVG } from './HumanEyePrismLabSVG';
+import { ScienceMethodUnitsLabSVG } from './ScienceMethodUnitsLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -171,6 +172,7 @@ export default function NcertProReader({
     else if (labKey === 'control-coordination-lab') comp = <ControlCoordinationLabSVG lang={lang} />;
     else if (labKey === 'mendel-genetics-sex-lab') comp = <MendelGeneticsSexLabSVG lang={lang} />;
     else if (labKey === 'human-eye-prism-lab') comp = <HumanEyePrismLabSVG lang={lang} />;
+    else if (labKey === 'science-method-units-lab') comp = <ScienceMethodUnitsLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (
