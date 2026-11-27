@@ -34,6 +34,7 @@ import { MendelGeneticsSexLabSVG } from './MendelGeneticsSexLabSVG';
 import { HumanEyePrismLabSVG } from './HumanEyePrismLabSVG';
 import { ScienceMethodUnitsLabSVG } from './ScienceMethodUnitsLabSVG';
 import { SoundWavesSonarLabSVG } from './SoundWavesSonarLabSVG';
+import ChemicalFormulaValencyLabSVG from './ChemicalFormulaValencyLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -175,6 +176,7 @@ export default function NcertProReader({
     else if (labKey === 'human-eye-prism-lab') comp = <HumanEyePrismLabSVG lang={lang} />;
     else if (labKey === 'science-method-units-lab') comp = <ScienceMethodUnitsLabSVG lang={lang} />;
     else if (labKey === 'sound-waves-sonar-lab') comp = <SoundWavesSonarLabSVG lang={lang} />;
+    else if (labKey === 'chem-formula-valency-lab') comp = <ChemicalFormulaValencyLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (

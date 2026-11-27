@@ -312,11 +312,24 @@ export const NCERT_CHAPTER_CATALOG = [
     subjectId: 'chemistry',
     chapterNumber: 9,
     code: 'ihsc109',
-    status: 'upcoming',
+    status: 'live',
     title: { en: 'Particulate Nature of Matter', hi: 'द्रव्य का परमाण्विक आधार' },
-    tagline: { en: 'Chemical Formulae, Valency, Polyatomic Ions & Molecular Mass', hi: 'रासायनिक सूत्र, संयोजकता, आयन व अणु द्रव्यमान' },
-    pages: 22,
+    tagline: {
+      en: 'Gold v3 Deep-Dive: Conservation (Lavoisier 1789), Constant Prop (1:8 / Cinnabar), Dalton 1808, Covalent/Ionic Bonds, Criss-Cross Brackets, Conductivity & Mass u',
+      hi: 'संपूर्ण गहराई: द्रव्यमान संरक्षण, स्थिर अनुपात (1:8 / सिनेबार), डाल्टन 1808, आयनिक-सहसंयोजी, तिर्यक सूत्र, चालकता व आण्विक द्रव्यमान',
+    },
+    pages: 23,
+    figuresCount: 4,
+    activitiesCount: 4,
+    tablesCount: 5,
     pyqHits: 33,
+    readTime: { en: 'Gold Standard v3 • Class 9 Chem Complete', hi: 'Gold Standard v3 • कक्षा 9 रसायन पूर्ण' },
+    badges: [
+      { en: 'LIVE • GOLD v3 • 33+ PYQ HITS', hi: 'LIVE • GOLD v3 • 33+ PYQ HITS' },
+      { en: '4 Vector Plates + Interactive 3-in-1 Criss-Cross & Mass Lab + A4 PDF', hi: '4 वेक्टर चित्र + इंटरैक्टिव सूत्र-द्रव्यमान लैब + ब्रांडेड A4 PDF' },
+      { en: '4 Activities • 24 Think Qs • 15 Solved Exercises • 24 PYQs', hi: '4 क्रियाकलाप • 24 सोचिए प्रश्न • 15 हल अभ्यास • 24 PYQ' },
+    ],
+    loader: () => import('./class9/chemistry/c9Ch9ParticulateData.js'),
   },
 
   // ================= CLASS 10 CHEMISTRY =================
