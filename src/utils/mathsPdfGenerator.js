@@ -83,8 +83,8 @@ export function buildPrintableMathsBookHtml(chapterData, options = {}) {
             ? `<div class="ex-box">
                 <div class="ex-title">⚡ ${formatRichHtml(pickStr(exObj.title, langMode))}</div>
                 <div class="two-col">
-                  <div class="col-box"><b>${isHi ? 'Basic Method' : 'Basic Method'}:</b><br/>${formatRichHtml(pickStr(exObj.basic, langMode))}</div>
-                  <div class="col-box smart"><b>${isHi ? 'Smart 5-Sec Trick' : 'Smart Trick'}:</b><br/>${formatRichHtml(pickStr(exObj.smart, langMode))}</div>
+                  <div class="col-box"><b>${isHi ? 'विधि 1 (Basic Step-by-Step)' : 'Basic Method'}:</b><br/>${formatRichHtml(pickStr(exObj.basic, langMode))}</div>
+                  <div class="col-box smart"><b>${isHi ? 'विधि 2 (Smart 5-Sec ट्रिक)' : 'Smart Trick'}:</b><br/>${formatRichHtml(pickStr(exObj.smart, langMode))}</div>
                 </div>
               </div>`
             : '';

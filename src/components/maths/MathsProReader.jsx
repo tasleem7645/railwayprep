@@ -160,10 +160,10 @@ export default function MathsProReader({
             type="button"
             onClick={() => setLang((l) => (l === 'hi' ? 'en' : 'hi'))}
             className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-slate-900 border border-teal-500/40 text-[11px] font-black text-teal-300 cursor-pointer"
-            title="Switch Hinglish / English"
+            title={isHi ? 'English में बदलें' : 'हिन्दी में बदलें'}
           >
             <Globe className="w-3.5 h-3.5" />
-            <span>{isHi ? 'Hinglish' : 'English'}</span>
+            <span>{isHi ? 'हिन्दी' : 'English'}</span>
           </button>
 
           <button
@@ -176,7 +176,7 @@ export default function MathsProReader({
             }`}
           >
             <CheckCircle2 className="w-3.5 h-3.5" />
-            <span>{isRevised ? 'Revised ✓' : 'Mark Done'}</span>
+            <span>{isRevised ? (isHi ? 'पूर्ण ✓' : 'Revised ✓') : (isHi ? 'पूर्ण मार्क करें' : 'Mark Done')}</span>
           </button>
 
           <button
@@ -194,11 +194,11 @@ export default function MathsProReader({
       <div className="space-y-2">
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
           {[
-            { id: 'all', hi: '📋 Full Class Board', en: '📋 Full Board' },
-            { id: 'concepts', hi: '1. Smart Board Rules', en: '1. Rules Board' },
-            { id: 'labs', hi: '2. 5 Interactive Labs', en: '2. SVG Labs' },
-            { id: 'pyqs', hi: `3. Type PYQs (${chapterData.pyqBank.length})`, en: `3. Type PYQs (${chapterData.pyqBank.length})` },
-            { id: 'tables', hi: '4. Tables & Flashcards', en: '4. Tables & Cards' },
+            { id: 'all', hi: '📋 संपूर्ण क्लास बोर्ड', en: '📋 Full Board' },
+            { id: 'concepts', hi: '1. स्मार्ट बोर्ड नियम', en: '1. Rules Board' },
+            { id: 'labs', hi: '2. 5 इंटरैक्टिव लैब्स', en: '2. SVG Labs' },
+            { id: 'pyqs', hi: `3. टाइप-वाइज PYQs (${chapterData.pyqBank.length})`, en: `3. Type PYQs (${chapterData.pyqBank.length})` },
+            { id: 'tables', hi: '4. चार्ट व फ्लैशकार्ड्स', en: '4. Tables & Cards' },
           ].map((tab) => (
             <button
               key={tab.id}
@@ -217,10 +217,10 @@ export default function MathsProReader({
 
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar text-[11px]">
           {[
-            { id: 'all', label: '🎯 All (Basic + Tricks)' },
-            { id: 'basic', label: '🌱 Basic Mode' },
-            { id: 'topper', label: '⚡ Smart Tricks' },
-            { id: 'traps', label: '⚠️ RRB Traps' },
+            { id: 'all', hi: '🎯 सभी स्तर (Basic + Tricks)', en: '🎯 All (Basic + Tricks)' },
+            { id: 'basic', hi: '🌱 बेसिक छात्र (Step 1)', en: '🌱 Basic Mode' },
+            { id: 'topper', hi: '⚡ स्मार्ट ट्रिक्स (Topper)', en: '⚡ Smart Tricks' },
+            { id: 'traps', hi: '⚠️ RRB जाल (Traps)', en: '⚠️ RRB Traps' },
           ].map((m) => (
             <button
               key={m.id}
@@ -232,7 +232,7 @@ export default function MathsProReader({
                   : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
               }`}
             >
-              {m.label}
+              {m[lang]}
             </button>
           ))}
         </div>
@@ -247,7 +247,7 @@ export default function MathsProReader({
                 CHAPTER {chapterData.chapterNumber} • SMART BOARD PRO
               </span>
               <span className="px-2.5 py-0.5 rounded-full bg-amber-500/15 border border-amber-400/35 text-amber-300">
-                Tap any weightage bar below to jump directly!
+                {isHi ? 'सीधे टॉपिक पर जाने हेतु किसी भी Weightage Bar पर टैप करें!' : 'Tap any weightage bar below to jump directly!'}
               </span>
             </div>
 
@@ -310,9 +310,11 @@ export default function MathsProReader({
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-2 text-teal-300 font-black text-sm sm:text-base">
             <Zap className="w-5 h-5" />
-            <span>{isHi ? 'Quick Revision Board (Tap Any Card to Jump)' : '60-Second Formula Board (Tap to Jump)'}</span>
+            <span>{isHi ? '60-सेकंड रिविजन बोर्ड (सीधे जाने हेतु किसी भी कार्ड पर टैप करें)' : '60-Second Formula Board (Tap to Jump)'}</span>
           </div>
-          <span className="text-[11px] text-slate-400 font-semibold">1-Tap Direct Module Navigation</span>
+          <span className="text-[11px] text-slate-400 font-semibold">
+            {isHi ? '1-टैप सीधा मॉड्यूल नेविगेशन' : '1-Tap Direct Module Navigation'}
+          </span>
         </div>
 
         {/* Clickable Quick Jump Chips */}
@@ -340,7 +342,9 @@ export default function MathsProReader({
             >
               <div className="flex items-center justify-between text-xs sm:text-sm font-black text-emerald-300">
                 <span>{card.title[lang]}</span>
-                <span className="text-[11px] text-teal-400 group-hover:translate-x-0.5 transition-transform">Open →</span>
+                <span className="text-[11px] text-teal-400 group-hover:translate-x-0.5 transition-transform">
+                  {isHi ? 'खोलें →' : 'Open →'}
+                </span>
               </div>
               <div className="text-[13px] sm:text-sm text-slate-200 leading-relaxed whitespace-pre-line">
                 <RichFormatText text={card.points[lang]} />
@@ -385,7 +389,7 @@ export default function MathsProReader({
           <div className="lg:col-span-5 rounded-3xl bg-rose-950/15 border border-rose-500/35 p-5 space-y-3">
             <h2 className="text-sm sm:text-base font-black text-rose-300 flex items-center gap-2">
               <AlertTriangle className="w-5 h-5" />
-              <span>{isHi ? '6 Common RRB Silly-Mistake Traps' : '6 Negative-Marking Traps'}</span>
+              <span>{isHi ? '6 सामान्य RRB नेगेटिव-मार्किंग जाल (Traps)' : '6 Negative-Marking Traps'}</span>
             </h2>
             <div className="space-y-2.5">
               {chapterData.trapAlerts.map((tr, i) => (
@@ -408,7 +412,7 @@ export default function MathsProReader({
             <BookOpen className="w-5 h-5" />
             <span>
               {isHi
-                ? `Smart Board Concept Slides (${chapterData.sections.length} Modules)`
+                ? `स्मार्ट बोर्ड कॉन्सेप्ट स्लाइड्स (${chapterData.sections.length} मॉड्यूल)`
                 : `Smart Board Classroom Modules (${chapterData.sections.length})`}
             </span>
           </div>
@@ -453,7 +457,7 @@ export default function MathsProReader({
                       className="px-3.5 py-2 rounded-xl bg-amber-400/15 hover:bg-amber-400/25 border border-amber-400/40 text-amber-300 text-xs font-black cursor-pointer flex items-center gap-1.5 shrink-0"
                     >
                       <Target className="w-3.5 h-3.5" />
-                      <span>Solve PYQs →</span>
+                      <span>{isHi ? 'PYQs हल करें →' : 'Solve PYQs →'}</span>
                     </button>
                   )}
                 </div>
@@ -512,7 +516,7 @@ export default function MathsProReader({
                             {(studentMode === 'all' || studentMode === 'basic') && (
                               <div className="p-3 rounded-xl bg-teal-950/30 border border-teal-500/30 space-y-1">
                                 <div className="font-black text-teal-300 text-xs">
-                                  Method 1: Basic Step-by-Step
+                                  {isHi ? 'विधि 1: Basic स्टेप-बाय-स्टेप' : 'Method 1: Basic Step-by-Step'}
                                 </div>
                                 <div className="text-slate-200 leading-relaxed whitespace-pre-line">
                                   <RichFormatText text={card.example.basic[lang]} />
@@ -522,7 +526,7 @@ export default function MathsProReader({
                             {(studentMode === 'all' || studentMode === 'topper') && (
                               <div className="p-3 rounded-xl bg-emerald-950/30 border border-emerald-500/30 space-y-1">
                                 <div className="font-black text-emerald-300 text-xs">
-                                  Method 2: Smart 5-Sec Trick
+                                  {isHi ? 'विधि 2: Smart 5-Sec ट्रिक' : 'Method 2: Smart 5-Sec Trick'}
                                 </div>
                                 <div className="text-slate-200 leading-relaxed whitespace-pre-line">
                                   <RichFormatText text={card.example.smart[lang]} />
@@ -549,11 +553,11 @@ export default function MathsProReader({
           lang={lang}
           featureTitle={{
             en: '5-in-1 Interactive Animated Maths Lab',
-            hi: '5-in-1 Interactive Animated Maths Simulator Lab',
+            hi: '5-in-1 इंटरैक्टिव एनिमेटेड गणित सिम्युलेटर लैब',
           }}
           featureSubtitle={{
             en: 'Divisibility/C9 X-Ray, Unit Digit Wheel, Bell LCM Animator, VBODMAS Step Peeler & Bar Decimal Converter.',
-            hi: 'Divisibility/C9 X-Ray, Unit Digit Wheel, Bell LCM Animator, VBODMAS Step Peeler & Bar Converter.',
+            hi: 'विभाज्यता/C9 एक्स-रे, इकाई अंक चक्र, घंटी LCM एनिमेटर, VBODMAS स्टेप-पीलर व बार दशमलव कन्वर्टर।',
           }}
         >
           <NumberSystemLabSVG lang={lang} />
@@ -569,12 +573,14 @@ export default function MathsProReader({
                 <Target className="w-5 h-5" />
                 <span>
                   {isHi
-                    ? `Type-Wise Real Railway PYQs (${chapterData.pyqBank.length} Solved • 2–4 Methods)`
+                    ? `टाइप-वाइज सॉल्व्ड रेलवे PYQs (${chapterData.pyqBank.length} प्रश्न • 2–4 विधियाँ)`
                     : `Type-Wise Real Railway PYQs (${chapterData.pyqBank.length} Questions)`}
                 </span>
               </h2>
               <p className="text-xs sm:text-[13px] text-slate-300 mt-0.5">
-                ALP, CBT-2 Part A, NTPC UG, Group D &amp; Tech Gr-III • Basic + Smart + 3-Sec Elimination Tricks
+                {isHi
+                  ? 'ALP, CBT-2 Part A, NTPC UG, Group D व Tech Gr-III • Basic + Smart + 3-Sec ट्रिक्स'
+                  : 'ALP, CBT-2 Part A, NTPC UG, Group D & Tech Gr-III • Basic + Smart + 3-Sec Elimination Tricks'}
               </p>
             </div>
 
@@ -584,20 +590,24 @@ export default function MathsProReader({
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 hover:brightness-105 text-slate-950 font-black text-xs sm:text-sm shadow-lg cursor-pointer"
             >
               {hasPassPro ? <Play className="w-4 h-4 fill-slate-950" /> : <Crown className="w-4 h-4 fill-slate-950" />}
-              <span>Launch {chapterData.pyqBank.length}-Q Chapter CBT</span>
+              <span>
+                {isHi
+                  ? `${chapterData.pyqBank.length}-प्रश्नों का Chapter CBT शुरू करें`
+                  : `Launch ${chapterData.pyqBank.length}-Q Chapter CBT`}
+              </span>
             </button>
           </div>
 
           <div className="space-y-2">
             <div className="flex flex-wrap items-center gap-1.5 text-[11px]">
               <span className="font-black text-slate-400 flex items-center gap-1 mr-1">
-                <Filter className="w-3.5 h-3.5" /> Level:
+                <Filter className="w-3.5 h-3.5" /> {isHi ? 'स्तर:' : 'Level:'}
               </span>
               {[
-                { id: 'all', label: 'All Levels' },
-                { id: 'level1_basic', label: 'Level 1: Basic' },
-                { id: 'level2_mod', label: 'Level 2: Moderate' },
-                { id: 'level3_hard', label: 'Level 3: Hard / CBT-2' },
+                { id: 'all', hi: 'सभी स्तर', en: 'All Levels' },
+                { id: 'level1_basic', hi: 'Level 1: Basic', en: 'Level 1: Basic' },
+                { id: 'level2_mod', hi: 'Level 2: मध्यम', en: 'Level 2: Moderate' },
+                { id: 'level3_hard', hi: 'Level 3: कठिन / CBT-2', en: 'Level 3: Hard / CBT-2' },
               ].map((lv) => (
                 <button
                   key={lv.id}
@@ -609,7 +619,7 @@ export default function MathsProReader({
                       : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-600'
                   }`}
                 >
-                  {lv.label}
+                  {lv[lang]}
                 </button>
               ))}
             </div>
@@ -624,7 +634,7 @@ export default function MathsProReader({
                     : 'bg-slate-950 border-slate-800 text-slate-300'
                 }`}
               >
-                All {chapterData.typeWiseGroups.length} Types
+                {isHi ? `सभी ${chapterData.typeWiseGroups.length} टाइप्स` : `All ${chapterData.typeWiseGroups.length} Types`}
               </button>
               {chapterData.typeWiseGroups.map((tg) => (
                 <button
@@ -646,7 +656,9 @@ export default function MathsProReader({
           {pyqStats.answered > 0 && (
             <div className="p-3 rounded-2xl bg-slate-950/90 border border-slate-800 flex items-center justify-between text-xs sm:text-sm">
               <span className="font-bold text-white">
-                Live Score: {pyqStats.correct} / {pyqStats.answered} Correct
+                {isHi
+                  ? `लाइव स्कोर: ${pyqStats.correct} / ${pyqStats.answered} सही`
+                  : `Live Score: ${pyqStats.correct} / ${pyqStats.answered} Correct`}
               </span>
               <button
                 type="button"
@@ -654,7 +666,7 @@ export default function MathsProReader({
                 className="inline-flex items-center gap-1 text-slate-300 hover:text-white font-bold cursor-pointer"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
-                <span>Reset</span>
+                <span>{isHi ? 'रीसेट' : 'Reset'}</span>
               </button>
             </div>
           )}
@@ -693,8 +705,8 @@ export default function MathsProReader({
                           pq.level === 'level1_basic'
                             ? { cls: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30', txt: 'Level 1 Basic' }
                             : pq.level === 'level2_mod'
-                            ? { cls: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30', txt: 'Level 2 Moderate' }
-                            : { cls: 'bg-rose-500/15 text-rose-300 border-rose-500/30', txt: 'Level 3 Hard' };
+                            ? { cls: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30', txt: isHi ? 'Level 2 मध्यम' : 'Level 2 Moderate' }
+                            : { cls: 'bg-rose-500/15 text-rose-300 border-rose-500/30', txt: isHi ? 'Level 3 कठिन' : 'Level 3 Hard' };
 
                         return (
                           <div key={pq.id} className="p-4 rounded-2xl bg-slate-900/75 border border-slate-800 space-y-3">
@@ -744,8 +756,10 @@ export default function MathsProReader({
                                 <Sparkles className="w-3.5 h-3.5" />
                                 <span>
                                   {solOpen
-                                    ? 'Hide Multi-Method Solution'
-                                    : `View ${pq.solution.methods.length} Methods (Basic + Smart Trick)`}
+                                    ? (isHi ? 'मल्टी-मेथड सॉल्यूशन छुपाएं' : 'Hide Multi-Method Solution')
+                                    : (isHi
+                                        ? `${pq.solution.methods.length} विधियाँ देखें (Basic + Smart ट्रिक)`
+                                        : `View ${pq.solution.methods.length} Methods (Basic + Smart Trick)`)}
                                 </span>
                                 {solOpen ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                               </button>
@@ -777,7 +791,7 @@ export default function MathsProReader({
           <div className="rounded-3xl bg-slate-900/65 border border-cyan-500/30 p-4 sm:p-7 space-y-5">
             <div className="flex items-center gap-2 text-cyan-300 font-black text-base sm:text-lg">
               <Table2 className="w-5 h-5" />
-              <span>{isHi ? 'Master Cheat Tables (5 Reference Charts)' : 'Master Formula & Cheat Tables'}</span>
+              <span>{isHi ? 'मास्टर फॉर्मूला व चीट टेबल्स (5 संदर्भ चार्ट)' : 'Master Formula & Cheat Tables'}</span>
             </div>
             {chapterData.tables.map((tbl) => (
               <div key={tbl.id} className="space-y-2">
@@ -816,7 +830,7 @@ export default function MathsProReader({
           <div className="rounded-3xl bg-slate-900/65 border border-violet-500/30 p-4 sm:p-7 space-y-4">
             <h2 className="text-base sm:text-lg font-black text-violet-300 flex items-center gap-2">
               <Layers className="w-5 h-5" />
-              <span>Active Recall Flashcards (Tap Card to Flip)</span>
+              <span>{isHi ? 'एक्टिव रिकॉल फ्लैशकार्ड्स (पलटने के लिए टैप करें)' : 'Active Recall Flashcards (Tap Card to Flip)'}</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               {chapterData.flashcards.map((card, i) => {
@@ -833,7 +847,7 @@ export default function MathsProReader({
                     }`}
                   >
                     <span className="text-[10px] font-black uppercase text-violet-300">
-                      {flipped ? 'Answer ✓' : `Card #${i + 1} • Tap`}
+                      {flipped ? (isHi ? 'उत्तर ✓' : 'Answer ✓') : (isHi ? `कार्ड #${i + 1} • टैप करें` : `Card #${i + 1} • Tap`)}
                     </span>
                     <div className="text-xs sm:text-sm font-bold leading-relaxed my-1">
                       <RichFormatText text={flipped ? card.back[lang] : card.front[lang]} />
@@ -854,15 +868,19 @@ export default function MathsProReader({
               <div className="w-12 h-12 rounded-2xl bg-teal-500/20 text-teal-300 flex items-center justify-center mx-auto mb-3">
                 <Download className="w-6 h-6" />
               </div>
-              <h3 className="text-lg font-black text-white">Save Chapter 1 Study Booklet</h3>
+              <h3 className="text-lg font-black text-white">
+                {isHi ? 'अध्याय 1 स्टडी बुकलेट सेव करें' : 'Save Chapter 1 Study Booklet'}
+              </h3>
               <p className="text-xs text-slate-300 mt-1">
-                Android Chrome par seedhe <b>Save as PDF</b> ya direct Offline File download karein (no about:blank trap!).
+                {isHi
+                  ? 'Android Chrome पर सीधे Save as PDF या ऑफलाइन फ़ाइल डाउनलोड करें (अब about:blank समस्या नहीं!)।'
+                  : 'Use native Save as PDF dialog or 1-tap offline download (Android Chrome & Desktop friendly!).'}
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-2 text-xs">
               {[
-                { id: 'hi', label: '🇮🇳 Hinglish Mode' },
+                { id: 'hi', label: '🇮🇳 हिन्दी मोड' },
                 { id: 'en', label: '🇬🇧 English Mode' },
               ].map((opt) => (
                 <button
@@ -890,7 +908,7 @@ export default function MathsProReader({
                 className="w-full py-3 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-black text-xs sm:text-sm cursor-pointer flex items-center justify-center gap-2"
               >
                 <Printer className="w-4 h-4" />
-                <span>Save as PDF (Android / Desktop Print Dialog)</span>
+                <span>{isHi ? 'Save as PDF (Android / Desktop प्रिंट डायलॉग)' : 'Save as PDF (Android / Desktop Print Dialog)'}</span>
               </button>
 
               <button
@@ -902,7 +920,7 @@ export default function MathsProReader({
                 className="w-full py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-xs sm:text-sm cursor-pointer flex items-center justify-center gap-2"
               >
                 <Download className="w-4 h-4" />
-                <span>1-Tap Direct Download (.html Offline Booklet)</span>
+                <span>{isHi ? '1-टैप डायरेक्ट डाउनलोड (.html ऑफलाइन बुकलेट)' : '1-Tap Direct Download (.html Offline Booklet)'}</span>
               </button>
 
               <button
@@ -914,7 +932,7 @@ export default function MathsProReader({
                 className="w-full py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-300 font-bold text-xs cursor-pointer flex items-center justify-center gap-1.5"
               >
                 <ExternalLink className="w-3.5 h-3.5" />
-                <span>Preview in Browser Tab</span>
+                <span>{isHi ? 'ब्राउज़र टैब में प्रीव्यू देखें' : 'Preview in Browser Tab'}</span>
               </button>
             </div>
           </div>
