@@ -8,7 +8,7 @@ export const SEO_ROUTES = [
     path: '/',
     title: 'RailwayPrep PRO | Railway Exam CBT Mock Test Simulator & Revision Portal',
     description:
-      'Practice 225+ bilingual RRB ALP, NTPC, Group D, Technician & ITI Trade CBT mock tests with negative marking analytics, topic PYQs, and NCERT Class 9-10 Science visual notes.',
+      'Practice 650+ bilingual RRB ALP, NTPC, Group D, Technician & ITI Trade CBT mock tests with negative marking analytics, topic PYQs, and NCERT Class 9-10 Science visual notes.',
     keywords:
       'RRB ALP mock test, RRB Group D CBT test, Railway CBT simulator, RRB NTPC test series, ALP CBT 2 Part B trade mock test, NCERT science notes railway',
     changefreq: 'daily',
@@ -18,9 +18,9 @@ export const SEO_ROUTES = [
   {
     routeKey: 'mock-tests',
     path: '/mock-tests',
-    title: 'Railway CBT Test Series (225+ Mocks) | ALP, NTPC, Group D & ITI Trades | RailwayPrep PRO',
+    title: 'Railway CBT Test Series (650+ Mocks) | ALP, NTPC, Group D & ITI Trades | RailwayPrep PRO',
     description:
-      'Attempt 225+ bilingual full-length shift pattern papers, pure subject sectionals, and 15 ITI Trade CBT mock tests for RRB ALP, Technician, NTPC UG & Group D.',
+      'Attempt 650+ bilingual full-length shift pattern papers, pure subject sectionals, chapter drills, and 15 ITI Trade CBT mock tests for RRB ALP, Technician, NTPC UG & Group D.',
     keywords: 'RRB ALP test series, RRB Group D mock test online, RRB Technician mock test, ALP CBT 2 trades',
     changefreq: 'daily',
     priority: '0.95',

@@ -77,7 +77,7 @@ export default function PricingPageView({
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
           Start free without credit cards. Upgrade to Pass Pro anytime for{' '}
-          <strong className="text-white">₹{payments.passProPrice}/Year</strong> (less than ₹1/week) to unlock all 225+ bilingual CBT mock tests, NCERT interactive science labs, and printable solved PDFs.
+          <strong className="text-white">₹{payments.passProPrice}/Year</strong> (less than ₹1/week) to unlock all 650+ bilingual CBT mock tests, NCERT interactive science labs, and printable solved PDFs.
         </p>
       </header>
 

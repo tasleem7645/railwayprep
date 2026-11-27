@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Lock, CheckCircle2, Globe } from 'lucide-react';
+import { Play, Lock, CheckCircle2, Globe, BarChart3, RotateCcw } from 'lucide-react';
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 
 export default function TestCard({
@@ -7,20 +7,28 @@ export default function TestCard({
   accessStatus,
   isGuestDemo,
   savedSession,
+  attemptSummary = null,
   loadingTestId,
   onStartMock,
   onResumeTest,
   onDiscardSavedSession,
+  onViewAttemptResult,
   onOpenPassPro,
   compact = false,
 }) {
   const isResumable = savedSession?.testId === test.id;
+  const hasAttempt = Boolean(attemptSummary && !isResumable);
+  const accuracyPct = hasAttempt
+    ? Math.max(0, Math.min(100, Number(attemptSummary.accuracy || 0)))
+    : 0;
 
   return (
     <div
       className={`p-5 sm:p-6 rounded-3xl bg-slate-900/80 border transition-all shadow-xl flex flex-col justify-between group ${
         accessStatus === 'pass_pro_required'
           ? 'border-amber-500/20 hover:border-amber-500/50'
+          : hasAttempt
+          ? 'border-emerald-500/35 hover:border-teal-400/60 hover:bg-slate-900'
           : 'border-slate-800 hover:border-teal-500/50 hover:bg-slate-900'
       }`}
     >
@@ -42,7 +50,7 @@ export default function TestCard({
             </span>
             {accessStatus === 'open' ? (
               <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
-                {isGuestDemo ? 'FREE DEMO' : 'FREE UNLOCKED'}
+                {isGuestDemo ? 'FREE' : 'UNLOCKED'}
               </span>
             ) : accessStatus === 'login_required' ? (
               <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-teal-500/15 text-teal-300 border border-teal-500/40 flex items-center gap-1">
@@ -57,7 +65,7 @@ export default function TestCard({
             )}
           </div>
           <span className="text-[11px] font-semibold text-slate-400 shrink-0">
-            {test.shiftTime || 'TCS iON CBT'}
+            {test.shiftTime || 'CBT Pattern'}
           </span>
         </div>
 
@@ -68,42 +76,65 @@ export default function TestCard({
           <p className="text-xs text-slate-400 mb-3 line-clamp-2">{test.subTitle}</p>
         )}
 
-        {/* Stats Grid */}
-        <div className="grid grid-cols-3 gap-2 py-3 px-2 rounded-xl bg-slate-950/60 border border-slate-800/80 text-center text-xs my-3">
-          <div>
-            <div className="text-slate-400 text-[10px]">Questions</div>
-            <div className="font-extrabold text-white mt-0.5">{test.totalQuestions} Qs</div>
+        {/* Stats Grid or Attempted Score Strip (Testbook Card Style) */}
+        {hasAttempt ? (
+          <div className="p-3 rounded-2xl bg-slate-950/75 border border-emerald-500/30 my-3 space-y-2">
+            <div className="flex items-center justify-between text-xs">
+              <span className="font-black text-emerald-300">
+                Score: {attemptSummary.score} / {attemptSummary.totalMarks || test.maxMarks}
+              </span>
+              <span className="text-[11px] font-bold text-teal-300">
+                {accuracyPct.toFixed(0)}% Accuracy
+              </span>
+            </div>
+            <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
+              <div
+                className="h-full rounded-full bg-gradient-to-r from-teal-400 to-emerald-400 transition-all"
+                style={{ width: `${Math.max(4, accuracyPct)}%` }}
+              />
+            </div>
+            <div className="flex items-center justify-between text-[10px] text-slate-400">
+              <span>
+                ✓ {attemptSummary.correctCount} • ✕ {attemptSummary.wrongCount}
+              </span>
+              {attemptSummary.timestamp && (
+                <span>
+                  Attempted {new Date(attemptSummary.timestamp).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}
+                </span>
+              )}
+            </div>
           </div>
-          <div>
-            <div className="text-slate-400 text-[10px]">Max Marks</div>
-            <div className="font-extrabold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
+        ) : (
+          <div className="grid grid-cols-3 gap-2 py-3 px-2 rounded-xl bg-slate-950/60 border border-slate-800/80 text-center text-xs my-3">
+            <div>
+              <div className="text-slate-400 text-[10px]">Questions</div>
+              <div className="font-extrabold text-white mt-0.5">{test.totalQuestions} Qs</div>
+            </div>
+            <div>
+              <div className="text-slate-400 text-[10px]">Max Marks</div>
+              <div className="font-extrabold text-teal-400 mt-0.5">{test.maxMarks} Marks</div>
+            </div>
+            <div>
+              <div className="text-slate-400 text-[10px]">Duration</div>
+              <div className="font-extrabold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
+            </div>
           </div>
-          <div>
-            <div className="text-slate-400 text-[10px]">Duration</div>
-            <div className="font-extrabold text-amber-400 mt-0.5">{test.durationMinutes} Mins</div>
-          </div>
-        </div>
+        )}
 
         {/* Features list */}
         <div className="text-[11px] text-slate-400 space-y-1.5 mb-4">
           <div className="flex items-center gap-2">
             <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
             <span className="text-teal-300 font-semibold line-clamp-1">
-              {test.sectionSummary || 'Official Railway CBT Pattern'}
+              {test.sectionSummary || 'Real-Exam Railway CBT Pattern'}
             </span>
           </div>
           {!compact && (
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-              <span>Bilingual (English & हिन्दी per-question toggle)</span>
+              <span>English &amp; हिंदी Toggle • Negative -{test.negativeMarks}</span>
             </div>
           )}
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-            <span>
-              Negative: -{test.negativeMarks} • Positive: +{test.positiveMarks}
-            </span>
-          </div>
         </div>
       </div>
 
@@ -153,6 +184,31 @@ export default function TestCard({
               </button>
             </div>
           )}
+        </div>
+      ) : hasAttempt ? (
+        <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
+          <button
+            type="button"
+            disabled={Boolean(loadingTestId)}
+            onClick={() =>
+              onViewAttemptResult
+                ? onViewAttemptResult(test, attemptSummary)
+                : onStartMock(test)
+            }
+            className="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-emerald-300 hover:text-white font-bold text-xs border border-emerald-500/40 transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-60"
+          >
+            <BarChart3 className="w-3.5 h-3.5" />
+            <span>{loadingTestId === test.id ? 'Loading...' : 'View Results'}</span>
+          </button>
+          <button
+            type="button"
+            disabled={Boolean(loadingTestId)}
+            onClick={() => onStartMock(test)}
+            className="py-2.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs shadow-md shadow-teal-950/50 transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-60"
+          >
+            <RotateCcw className="w-3.5 h-3.5" />
+            <span>Reattempt →</span>
+          </button>
         </div>
       ) : compact ? (
         <div className="pt-2 border-t border-slate-800">

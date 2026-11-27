@@ -130,7 +130,7 @@ export default function Footer({
                   className="hover:text-teal-300 text-left transition-colors flex items-center gap-1.5"
                 >
                   <CheckSquare className="w-3.5 h-3.5 text-teal-400" />
-                  <span>225+ Bilingual CBT Mock Tests</span>
+                  <span>650+ Bilingual CBT Mock Tests</span>
                 </a>
               </li>
               <li>

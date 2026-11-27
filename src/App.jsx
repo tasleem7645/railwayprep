@@ -4,14 +4,12 @@ import HeroSection from './components/HeroSection';
 import DailyQuizCard from './components/DailyQuizCard';
 import Footer from './components/Footer';
 import AdBanner from './components/AdBanner';
-import TestCard from './components/TestCard';
 import HomeShowcaseSections from './components/HomeShowcaseSections';
 import MobileBottomNav from './components/MobileBottomNav';
 import LiveMegaBanner from './components/LiveMegaBanner';
 import { supabase } from './lib/supabaseClient';
 import { MONETIZATION_CONFIG } from './config/monetizationConfig';
 import { RAILWAY_TESTS } from './data/mockTestData';
-import { CBT2_PART_B_TRADES } from './data/tradeTestsData';
 import { hydrateTest } from './data/testQuestionLoader';
 import { getStudyStreak, recordStudyActivity } from './utils/studyStreak';
 import { isEphemeralQuizId, normalizeMistakeCategory } from './utils/mistakeTestBuilder';
@@ -22,12 +20,15 @@ import { saveTestSpeedProfile, getTestSpeedProfile } from './utils/speedAnalytic
 import { buildWeakTopicMiniTest } from './utils/weakTopicQuizBuilder';
 import { applySrsBatchFromReTest } from './utils/mistakeSpacedRepetition';
 import { saveLiveMegaAttemptLocal } from './utils/liveMegaMock';
+import { mapTrackKeyToNestedState } from './utils/testSeriesHierarchy';
+import {
+  loadAttemptSummaries,
+  saveAttemptSummary,
+  hydrateAttemptSummariesFromCloud,
+} from './utils/testAttemptTracker';
 import { applyDocumentSeo, LEGAL_PAGE_KEYS, resolveRouteFromLocation, routeKeyToLegalTab } from './utils/seoConfig';
 import { lazyWithRetry, forceFreshReload, isChunkLoadError, triggerOneTimeChunkReload } from './utils/chunkRecovery';
-import { 
-  Play, CheckCircle2, Clock, Award, Users, BookOpen, 
-  ArrowRight, ShieldCheck, Zap, Crown, Flame, Filter, Sparkles, FileText, Lock, Globe, Wrench, Train, Search, X
-} from 'lucide-react';
+import { Play, Zap } from 'lucide-react';
 
 // Lazy-loaded heavy views & modals with automatic stale-chunk retry
 const CBTMockTestModal = lazyWithRetry(() => import('./components/CBTMockTestModal'), lazy);
@@ -45,6 +46,7 @@ const UserDashboardModal = lazyWithRetry(() => import('./components/UserDashboar
 const LegalModal = lazyWithRetry(() => import('./components/LegalModal'), lazy);
 const LegalCompliancePage = lazyWithRetry(() => import('./components/LegalCompliancePage'), lazy);
 const PricingPageView = lazyWithRetry(() => import('./components/PricingPageView'), lazy);
+const TestSeriesExplorer = lazyWithRetry(() => import('./components/TestSeriesExplorer'), lazy);
 const PYQExplorerView = lazyWithRetry(() => import('./components/PYQExplorerView'), lazy);
 
 class ErrorBoundary extends React.Component {
@@ -107,20 +109,60 @@ export default function App() {
   );
   const activeTab = _activeTab;
 
-  const setActiveTab = (tab) => {
+  const setActiveTab = (tab, customSearch = undefined) => {
     const cleanTab = tab || 'home';
     _setActiveTab(cleanTab);
     applyDocumentSeo(cleanTab);
     if (typeof window !== 'undefined') {
       const targetPath = cleanTab === 'home' ? '/' : `/${cleanTab}`;
-      if (window.location.pathname !== targetPath || window.location.hash) {
-        window.history.pushState({ tab: cleanTab }, '', `${targetPath}${window.location.search || ''}`);
+      const nextSearch =
+        customSearch !== undefined
+          ? customSearch
+          : cleanTab === 'mock-tests'
+          ? window.location.search || ''
+          : '';
+      if (window.location.pathname !== targetPath || window.location.hash || (customSearch !== undefined && window.location.search !== nextSearch)) {
+        window.history.pushState({ tab: cleanTab }, '', `${targetPath}${nextSearch}`);
       }
     }
   };
 
-  const [selectedGoal, setSelectedGoal] = useState('RRB ALP (Loco Pilot 2026)');
+  const [selectedGoal, setSelectedGoal] = useState('RRB ALP (Loco Pilot 2025–26)');
   const [activeExamId, setActiveExamId] = useState(null);
+
+  const [nestedTestSelection, setNestedTestSelection] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const sp = new URLSearchParams(window.location.search);
+      const ex = sp.get('exam');
+      if (ex) {
+        return {
+          examKey: ex,
+          yearKey: sp.get('year') || null,
+          cbtKey: sp.get('cbt') || null,
+          modeKey: sp.get('mode') || 'full',
+          sectionKey: sp.get('sec') || 'all',
+          tradeKey: sp.get('trade') || 'all',
+        };
+      }
+    }
+    return mapTrackKeyToNestedState(null);
+  });
+
+  const handleNestedSelectionChange = (nextSel) => {
+    setNestedTestSelection(nextSel);
+    if (typeof window !== 'undefined' && activeTab === 'mock-tests') {
+      const sp = new URLSearchParams();
+      if (nextSel?.examKey) sp.set('exam', nextSel.examKey);
+      if (nextSel?.yearKey) sp.set('year', nextSel.yearKey);
+      if (nextSel?.cbtKey) sp.set('cbt', nextSel.cbtKey);
+      if (nextSel?.modeKey && nextSel.modeKey !== 'full') sp.set('mode', nextSel.modeKey);
+      if (nextSel?.sectionKey && nextSel.sectionKey !== 'all') sp.set('sec', nextSel.sectionKey);
+      if (nextSel?.tradeKey && nextSel.tradeKey !== 'all') sp.set('trade', nextSel.tradeKey);
+      const qStr = sp.toString();
+      const targetUrl = qStr ? `/mock-tests?${qStr}` : '/mock-tests';
+      window.history.replaceState({ tab: 'mock-tests' }, '', targetUrl);
+    }
+  };
 
   // Sync Clean Path Routing + Legacy Hash Compatibility + Dynamic Document SEO
   useEffect(() => {
@@ -128,6 +170,20 @@ export default function App() {
       const resolved = resolveRouteFromLocation(window.location.pathname, window.location.hash);
       _setActiveTab(resolved);
       applyDocumentSeo(resolved);
+      if (resolved === 'mock-tests') {
+        const sp = new URLSearchParams(window.location.search);
+        const ex = sp.get('exam');
+        if (ex) {
+          setNestedTestSelection({
+            examKey: ex,
+            yearKey: sp.get('year') || null,
+            cbtKey: sp.get('cbt') || null,
+            modeKey: sp.get('mode') || 'full',
+            sectionKey: sp.get('sec') || 'all',
+            tradeKey: sp.get('trade') || 'all',
+          });
+        }
+      }
     };
 
     syncFromBrowserLocation();
@@ -142,75 +198,59 @@ export default function App() {
   const handleSelectGoal = (goal) => {
     setSelectedGoal(goal);
     if (goal.includes('Part B')) {
-      setYearFilter('cbt2-part-b');
-      setShiftFilter('all');
-      setTradeFilter('all');
-      setActiveTab('mock-tests');
+      setNestedTestSelection(mapTrackKeyToNestedState('cbt2-part-b'));
+      setActiveTab('mock-tests', '?exam=alp&year=2025&cbt=cbt2-b');
     } else if (goal.includes('2025 (CBT-1)')) {
-      setYearFilter('2025');
-      setShiftFilter('all');
-      setActiveTab('mock-tests');
+      setNestedTestSelection(mapTrackKeyToNestedState('2025'));
+      setActiveTab('mock-tests', '?exam=alp&year=2025&cbt=cbt1');
     } else if (goal.includes('CBT-2')) {
-      setYearFilter('cbt2');
-      setShiftFilter('all');
-      setActiveTab('mock-tests');
-    } else if (goal.includes('ALP') && goal.includes('2026')) {
-      setYearFilter('2026');
-      setShiftFilter('all');
-      setActiveTab('mock-tests');
+      setNestedTestSelection(mapTrackKeyToNestedState('cbt2'));
+      setActiveTab('mock-tests', '?exam=alp&year=2025&cbt=cbt2-a');
+    } else if (goal.includes('ALP')) {
+      setNestedTestSelection(mapTrackKeyToNestedState('alp'));
+      setActiveTab('mock-tests', '?exam=alp&year=2026&cbt=cbt1');
     } else if (goal.includes('Technician')) {
-      setYearFilter('tech3-2024');
-      setShiftFilter('all');
-      setTradeFilter('all');
+      setNestedTestSelection(mapTrackKeyToNestedState('tech3-2024'));
       setActiveExamId('tech_02_2026');
-      setActiveTab('mock-tests');
+      setActiveTab('mock-tests', '?exam=tech3&year=2024&cbt=gr3-cbt');
     } else if (goal.includes('NTPC')) {
-      setYearFilter('ntpc-ug-2025');
-      setShiftFilter('all');
-      setTradeFilter('all');
+      setNestedTestSelection(mapTrackKeyToNestedState('ntpc-ug-2025'));
       setActiveExamId('ntpc_ug_07_2026');
-      setActiveTab('mock-tests');
+      setActiveTab('mock-tests', '?exam=ntpc-ug&year=2024&cbt=cbt1');
     } else if (goal.includes('Group D')) {
-      setYearFilter('groupd-2025');
-      setShiftFilter('all');
-      setTradeFilter('all');
+      setNestedTestSelection(mapTrackKeyToNestedState('groupd-2025'));
       setActiveExamId('groupd_09_2025');
-      setActiveTab('mock-tests');
+      setActiveTab('mock-tests', '?exam=groupd&year=2025&cbt=level1');
     } else if (goal.includes('RPF')) {
       setActiveExamId('rpf_si_constable');
-      setActiveTab('syllabus');
+      setActiveTab('syllabus', '');
     } else if (goal.includes('Station Master')) {
       setActiveExamId('station_master_08_2026');
-      setActiveTab('syllabus');
+      setActiveTab('syllabus', '');
     } else if (goal.includes('JE')) {
       setActiveExamId('je_dms_04_2026');
-      setActiveTab('syllabus');
+      setActiveTab('syllabus', '');
     }
   };
 
   const handleNavigateFromFooter = (tab, opts = {}) => {
-    if (opts.year) {
-      setYearFilter(opts.year);
-      setShiftFilter('all');
-    }
-    if (opts.filter) {
-      setTestFilter(opts.filter);
-    }
     if (opts.examId) {
       setActiveExamId(opts.examId);
+    }
+    if (tab === 'mock-tests') {
+      const nextSel = opts.year ? mapTrackKeyToNestedState(opts.year) : mapTrackKeyToNestedState(null);
+      if (opts.filter === 'sectional' && nextSel.examKey) {
+        nextSel.modeKey = 'sectional';
+      }
+      setNestedTestSelection(nextSel);
+      setActiveTab('mock-tests', nextSel.examKey ? `?exam=${nextSel.examKey}&year=${nextSel.yearKey}&cbt=${nextSel.cbtKey}` : '');
+      return;
     }
     setActiveTab(tab);
   };
 
   const [selectedLang, setSelectedLang] = useState('hi');
-  const [yearFilter, setYearFilter] = useState('all'); // 'all' | '2026' | '2025' | 'cbt2' | 'cbt2-part-b'
-  const [tradeFilter, setTradeFilter] = useState('all'); // 'all' | tradeKey
-  const [testFilter, setTestFilter] = useState('all'); // 'all' | 'official' | 'sectional'
-  const [shiftFilter, setShiftFilter] = useState('all'); // 'all' | specific shift
-  const [ntpcSectionalFilter, setNtpcSectionalFilter] = useState('all'); // 'all' | 'maths' | 'reasoning' | 'gk' | 'ca' | 'ga'
-  const [tech3SectionalFilter, setTech3SectionalFilter] = useState('all'); // 'all' | 'maths' | 'reasoning' | 'science' | 'ga'
-  const [mockSearchQuery, setMockSearchQuery] = useState('');
-  const [visibleCatalogCount, setVisibleCatalogCount] = useState(12);
+  const [attemptSummaries, setAttemptSummaries] = useState(() => loadAttemptSummaries());
   const [isPassProOpen, setIsPassProOpen] = useState(false);
   const [isPdfModalOpen, setIsPdfModalOpen] = useState(false);
   const [isMistakeModalOpen, setIsMistakeModalOpen] = useState(false);
@@ -317,6 +357,21 @@ export default function App() {
       if (cloudSess?.session_data && !isEphemeralQuizId(cloudSess.session_data.testId) && !localStorage.getItem('railwayprep_active_test_session')) {
         localStorage.setItem('railwayprep_active_test_session', JSON.stringify(cloudSess.session_data));
         setSavedSession(cloudSess.session_data);
+      }
+
+      // Hydrate attempted test scores/accuracies for instant TestCard status pills
+      try {
+        const { data: attemptRows } = await supabase
+          .from('test_attempts')
+          .select('id, test_id, score, total_marks, correct_count, wrong_count, accuracy, time_taken_seconds, answers_json, created_at')
+          .eq('user_id', userId)
+          .order('created_at', { ascending: false })
+          .limit(80);
+        if (attemptRows && attemptRows.length > 0) {
+          setAttemptSummaries(hydrateAttemptSummariesFromCloud(attemptRows));
+        }
+      } catch (attErr) {
+        console.warn('Attempt summary sync notice:', attErr);
       }
 
       // Bidirectional Cloud Sync for Mistakes, PYQ Progress, Streaks & Topic Stats
@@ -456,52 +511,6 @@ export default function App() {
       } catch (e) {}
     }
   };
-
-  const yearTests = RAILWAY_TESTS.filter(test => {
-    if (yearFilter === 'tech3-2024') return test.examYear === 'tech3-2024' || test.exam?.includes('Technician');
-    if (yearFilter === 'ntpc-ug-2025') return test.examYear === 'ntpc-ug-2025' || test.exam?.includes('NTPC');
-    if (yearFilter === 'groupd-2025') return test.examYear === 'groupd-2025' || test.exam?.includes('Group D');
-    if (yearFilter === 'cbt2-part-b') return test.examYear === 'cbt2-part-b' || test.stage === 'CBT-2 Part B';
-    if (yearFilter === 'cbt2') return (test.examYear === 'cbt2' || test.stage === 'CBT-2') && test.stage !== 'CBT-2 Part B';
-    if (yearFilter === '2025') return (test.examYear === '2025' || test.exam === 'RRB ALP 2025') && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025' && test.examYear !== 'ntpc-ug-2025' && test.examYear !== 'tech3-2024';
-    if (yearFilter === '2026') return test.examYear !== '2025' && test.exam !== 'RRB ALP 2025' && !test.stage?.includes('CBT-2') && test.examYear !== 'groupd-2025' && test.examYear !== 'ntpc-ug-2025' && test.examYear !== 'tech3-2024';
-    return true; // 'all'
-  });
-
-  const uniqueShifts = Array.from(new Set(yearTests.map(t => t.shiftName).filter(Boolean)));
-  const availableShifts = [
-    { key: 'all', label: `All Shifts (${yearTests.length})` },
-    ...uniqueShifts.map(s => ({
-      key: s,
-      label: `${s} (${yearTests.filter(t => t.shiftName === s).length})`
-    }))
-  ];
-
-  const filteredTests = yearTests.filter(test => {
-    const matchesCategory =
-      testFilter === 'all' ||
-      (testFilter === 'full-shift' ? test.category !== 'sectional' : test.category === testFilter);
-    const matchesShift = shiftFilter === 'all' || test.shiftName === shiftFilter;
-    const matchesTrade = tradeFilter === 'all' || test.tradeKey === tradeFilter;
-    const matchesSectionalSub =
-      (yearFilter !== 'ntpc-ug-2025' ||
-        ntpcSectionalFilter === 'all' ||
-        test.sectionalSubject === ntpcSectionalFilter) &&
-      (yearFilter !== 'tech3-2024' ||
-        tech3SectionalFilter === 'all' ||
-        test.sectionalSubject === tech3SectionalFilter);
-    const q = mockSearchQuery.trim().toLowerCase();
-    const matchesSearch =
-      !q ||
-      [test.title, test.subTitle, test.shiftName, test.trade, test.exam, test.badge]
-        .filter(Boolean)
-        .some((v) => String(v).toLowerCase().includes(q));
-    return matchesCategory && matchesShift && matchesTrade && matchesSectionalSub && matchesSearch;
-  });
-
-  useEffect(() => {
-    setVisibleCatalogCount(12);
-  }, [yearFilter, tradeFilter, testFilter, shiftFilter, ntpcSectionalFilter, tech3SectionalFilter, mockSearchQuery]);
 
   // Shift 1 / Demo test of EVERY exam & EVERY section is open without login
   const isGuestDemoTest = (test) => {
@@ -646,6 +655,22 @@ export default function App() {
       saveTestSpeedProfile(test.id, resultData.questionTimes);
     }
 
+    // Save attempted score & accuracy locally so TestCards update immediately
+    if (!test.isCustomTopicQuiz && !test.isMistakeReTest) {
+      setAttemptSummaries(
+        saveAttemptSummary({
+          testId: test.id,
+          score: rawScore,
+          totalMarks: test.totalMarks || test.maxMarks || test.questions.length * pos,
+          correctCount,
+          wrongCount,
+          accuracy,
+          timeTakenSeconds: timeTakenSeconds || 0,
+          answers,
+        })
+      );
+    }
+
     // Track All-India Live Weekend Mega Mock submission locally for instant rank review
     if (test.isLiveMegaMock) {
       saveLiveMegaAttemptLocal(test.id, {
@@ -756,6 +781,38 @@ export default function App() {
     } finally {
       setReopeningAttemptId(null);
     }
+  };
+
+  const handleViewAttemptResult = async (test, summary) => {
+    if (!test || reopeningAttemptId) return;
+    if (summary?.answers) {
+      await handleReopenAttempt({
+        id: summary.attemptId || `local_${test.id}`,
+        test_id: test.id,
+        test_title: test.title,
+        answers_json: summary.answers,
+        time_taken_seconds: summary.timeTakenSeconds || 0,
+        created_at: summary.timestamp || Date.now(),
+      });
+      return;
+    }
+    if (session?.user?.id) {
+      try {
+        const { data } = await supabase
+          .from('test_attempts')
+          .select('*')
+          .eq('user_id', session.user.id)
+          .eq('test_id', test.id)
+          .order('created_at', { ascending: false })
+          .limit(1)
+          .maybeSingle();
+        if (data?.answers_json) {
+          await handleReopenAttempt(data);
+          return;
+        }
+      } catch (e) {}
+    }
+    handleStartMock(test);
   };
 
   const handleLaunchWeakTopicDrill = (weakItem) => {
@@ -942,496 +999,38 @@ export default function App() {
             <HomeShowcaseSections
               railwayTests={RAILWAY_TESTS}
               onSelectExamTrack={(yearKey) => {
-                setYearFilter(yearKey);
-                setShiftFilter('all');
-                setTradeFilter('all');
-                setTestFilter('all');
-                setActiveTab('mock-tests');
+                const nextSel = mapTrackKeyToNestedState(yearKey);
+                setNestedTestSelection(nextSel);
+                const qs = nextSel.examKey
+                  ? `?exam=${nextSel.examKey}&year=${nextSel.yearKey}&cbt=${nextSel.cbtKey}`
+                  : '';
+                setActiveTab('mock-tests', qs);
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               onOpenTab={(tab) => {
-                setActiveTab(tab);
+                if (tab === 'mock-tests') {
+                  setNestedTestSelection(mapTrackKeyToNestedState(null));
+                }
+                setActiveTab(tab, '');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               onStartMock={handleStartMock}
               onResumeTest={handleResumeTest}
               onDiscardSavedSession={handleDiscardSavedSession}
+              onViewAttemptResult={handleViewAttemptResult}
               onOpenPassPro={() => setIsPassProOpen(true)}
               onOpenPdfModal={() => setIsPdfModalOpen(true)}
               onOpenMistakes={() => setIsMistakeModalOpen(true)}
               getTestAccess={getTestAccess}
               isGuestDemoTest={isGuestDemoTest}
               savedSession={savedSession}
+              attemptSummaries={attemptSummaries}
               loadingTestId={loadingTestId}
             />
 
             {/* Daily Quiz Streak Section */}
             <DailyQuizCard onStartMock={() => setActiveTab('daily-quiz')} studyStreak={studyStreak} />
           </>
-        )}
-
-        {activeTab === 'mock-tests' && (
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
-            <div className="text-center max-w-3xl mx-auto mb-6 sm:mb-8">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-300 font-extrabold text-xs mb-3">
-                <Sparkles className="w-3.5 h-3.5 text-teal-400" />
-                <span>TCS iON CBT Engine • {RAILWAY_TESTS.length} Bilingual Mock Tests</span>
-              </div>
-              <h2 className="text-2xl sm:text-4xl font-black text-white">Railway Exam All-India CBT Test Series</h2>
-              <p className="text-xs sm:text-sm text-slate-400 mt-2">
-                Simulated on authentic TCS iON software layout with bilingual per-question toggle, 1/3rd negative marking, and detailed solutions.
-              </p>
-
-              {/* Search Box inside Catalog */}
-              <div className="relative max-w-xl mx-auto mt-5">
-                <Search className="w-4 h-4 text-teal-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                <input
-                  type="text"
-                  value={mockSearchQuery}
-                  onChange={(e) => setMockSearchQuery(e.target.value)}
-                  placeholder="Search exam, shift date, trade (e.g. 03 Nov, NTPC UG, Group D, Electrician)..."
-                  className="w-full pl-10 pr-9 py-2.5 rounded-xl bg-slate-900 border border-slate-700 focus:border-teal-400 text-xs sm:text-sm text-white focus:outline-none"
-                />
-                {mockSearchQuery && (
-                  <button
-                    type="button"
-                    onClick={() => setMockSearchQuery('')}
-                    aria-label="Clear search"
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white cursor-pointer"
-                  >
-                    <X className="w-4 h-4" />
-                  </button>
-                )}
-              </div>
-
-              {/* Exam Cycle Filter Tabs */}
-              <div className="flex items-center justify-start sm:justify-center gap-2 mt-5 overflow-x-auto pb-1 no-scrollbar">
-                <button
-                  onClick={() => { setYearFilter('all'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
-                    yearFilter === 'all'
-                      ? 'bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 shadow-md shadow-teal-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  All Exams ({RAILWAY_TESTS.length})
-                </button>
-                <button
-                  onClick={() => { setYearFilter('2026'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
-                    yearFilter === '2026'
-                      ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-400/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  🎯 RRB ALP 2026 ({RAILWAY_TESTS.filter(t => t.examYear !== '2025' && t.exam !== 'RRB ALP 2025' && !t.stage?.includes('CBT-2') && t.examYear !== 'groupd-2025' && t.examYear !== 'ntpc-ug-2025' && t.examYear !== 'tech3-2024').length})
-                </button>
-                <button
-                  onClick={() => { setYearFilter('2025'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
-                    yearFilter === '2025'
-                      ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow-md shadow-indigo-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  ⚡ ALP 2025 ({RAILWAY_TESTS.filter(t => (t.examYear === '2025' || t.exam === 'RRB ALP 2025') && !t.stage?.includes('CBT-2')).length})
-                </button>
-                <button
-                  onClick={() => { setYearFilter('cbt2'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
-                    yearFilter === 'cbt2'
-                      ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-slate-950 shadow-md shadow-rose-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  🚀 CBT-2 Part A ({RAILWAY_TESTS.filter(t => (t.examYear === 'cbt2' || t.stage === 'CBT-2') && t.stage !== 'CBT-2 Part B').length})
-                </button>
-                <button
-                  onClick={() => { setYearFilter('cbt2-part-b'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
-                    yearFilter === 'cbt2-part-b'
-                      ? 'bg-gradient-to-r from-blue-500 to-cyan-400 text-slate-950 shadow-md shadow-blue-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  ⚙️ Part B Trades ({RAILWAY_TESTS.filter(t => t.stage === 'CBT-2 Part B').length})
-                </button>
-                <button
-                  onClick={() => { setYearFilter('ntpc-ug-2025'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
-                    yearFilter === 'ntpc-ug-2025'
-                      ? 'bg-gradient-to-r from-amber-500 to-orange-400 text-slate-950 shadow-md shadow-amber-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  🎓 NTPC UG ({RAILWAY_TESTS.filter(t => t.examYear === 'ntpc-ug-2025').length})
-                </button>
-                <button
-                  onClick={() => { setYearFilter('groupd-2025'); setShiftFilter('all'); setTradeFilter('all'); }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
-                    yearFilter === 'groupd-2025'
-                      ? 'bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 shadow-md shadow-emerald-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  🚆 Group D ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
-                </button>
-                <button
-                  onClick={() => { setYearFilter('tech3-2024'); setShiftFilter('all'); setTradeFilter('all'); setTech3SectionalFilter('all'); }}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer shrink-0 ${
-                    yearFilter === 'tech3-2024'
-                      ? 'bg-gradient-to-r from-cyan-400 to-sky-500 text-slate-950 shadow-md shadow-cyan-500/20'
-                      : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                  }`}
-                >
-                  🔧 Tech Gr-III ({RAILWAY_TESTS.filter(t => t.examYear === 'tech3-2024').length})
-                </button>
-              </div>
-
-              {/* Trade Selector Filter on Mock Tests View */}
-              {(yearFilter === 'cbt2-part-b' || (yearFilter === 'all' && tradeFilter !== 'all')) && (
-                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-blue-950/40 via-slate-900/90 to-slate-900/80 border border-blue-500/30">
-                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
-                    <span className="text-xs font-bold text-blue-300 flex items-center gap-1.5">
-                      <Wrench className="w-4 h-4 text-cyan-400" />
-                      <span>Select Technical Trade (Qualifying Paper • 35% Qualifying Marks):</span>
-                    </span>
-                    <span className="text-[11px] font-semibold text-slate-400">
-                      {tradeFilter === 'all' ? 'All 15 Trades' : CBT2_PART_B_TRADES.find(t => t.key === tradeFilter)?.name}
-                    </span>
-                  </div>
-                  <div className="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto pb-1 no-scrollbar">
-                    <button
-                      onClick={() => setTradeFilter('all')}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer shrink-0 ${
-                        tradeFilter === 'all'
-                          ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      All Trades (30)
-                    </button>
-                    {CBT2_PART_B_TRADES.map(t => {
-                      const count = RAILWAY_TESTS.filter(test => test.tradeKey === t.key).length;
-                      return (
-                        <button
-                          key={t.key}
-                          onClick={() => setTradeFilter(t.key)}
-                          className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 shrink-0 ${
-                            tradeFilter === t.key
-                              ? 'bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black shadow-md shadow-cyan-500/20'
-                              : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                          }`}
-                        >
-                          <span>{t.name}</span>
-                          <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
-                            tradeFilter === t.key ? 'bg-slate-950/60 text-white font-extrabold' : 'bg-slate-800 text-slate-400'
-                          }`}>
-                            {count}
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-
-              {/* Group D Sub-filter Tabs on Mock Tests View */}
-              {yearFilter === 'groupd-2025' && (
-                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-emerald-950/40 via-slate-900/90 to-slate-900/80 border border-emerald-500/30">
-                  <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
-                    <span className="text-xs font-bold text-emerald-300 flex items-center gap-1.5">
-                      <Train className="w-4 h-4 text-emerald-400" />
-                      <span>RRB Group D 2025 Level-1: 48 Shifts • 100 Qs</span>
-                    </span>
-                    <span className="text-[11px] font-semibold text-emerald-400/90 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/30">
-                      ⚡ Shift 1 is Free Demo
-                    </span>
-                  </div>
-                  <div className="flex flex-wrap items-center justify-center gap-2">
-                    <button
-                      onClick={() => { setTestFilter('all'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'all' && shiftFilter === 'all'
-                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      All Group D ({RAILWAY_TESTS.filter(t => t.examYear === 'groupd-2025').length})
-                    </button>
-                    <button
-                      onClick={() => { setTestFilter('full-shift'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'full-shift'
-                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      Full Papers (48 Shifts • 100 Qs)
-                    </button>
-                    <button
-                      onClick={() => { setTestFilter('sectional'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'sectional'
-                          ? 'bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black shadow-md shadow-emerald-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      Shift 1 Sectionals
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              {/* NTPC UG Sub-filter Tabs on Mock Tests View */}
-              {yearFilter === 'ntpc-ug-2025' && (
-                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-amber-950/40 via-slate-900/90 to-slate-900/80 border border-amber-500/30 space-y-3">
-                  <div className="flex items-center justify-between flex-wrap gap-2">
-                    <span className="text-xs font-bold text-amber-300 flex items-center gap-1.5">
-                      <BookOpen className="w-4 h-4 text-amber-400" />
-                      <span>RRB NTPC UG CEN 06/2024 CBT-1: 57 Full Shifts + 311 Sectionals (Maths, Reasoning, GK & Science, CA)</span>
-                    </span>
-                    <span className="text-[11px] font-semibold text-amber-300 bg-amber-500/10 px-2.5 py-1 rounded-full border border-amber-500/30">
-                      ⚡ Shift 1 + All Shift-1 Sectionals + CA Set 1 Free
-                    </span>
-                  </div>
-                  <div className="flex flex-wrap items-center justify-center gap-2">
-                    <button
-                      onClick={() => { setTestFilter('all'); setNtpcSectionalFilter('all'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'all' && ntpcSectionalFilter === 'all' && shiftFilter === 'all'
-                          ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      All NTPC UG ({RAILWAY_TESTS.filter(t => t.examYear === 'ntpc-ug-2025').length})
-                    </button>
-                    <button
-                      onClick={() => { setTestFilter('full-shift'); setNtpcSectionalFilter('all'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'full-shift'
-                          ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      Full Papers (57 Shifts • 100 Qs)
-                    </button>
-                    <button
-                      onClick={() => { setTestFilter('sectional'); setNtpcSectionalFilter('all'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'sectional' && ntpcSectionalFilter === 'all'
-                          ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-slate-950 font-black shadow-md shadow-amber-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      All Sectionals ({RAILWAY_TESTS.filter(t => t.examYear === 'ntpc-ug-2025' && t.category === 'sectional').length})
-                    </button>
-                  </div>
-                  <div className="flex flex-wrap items-center justify-center gap-1.5 pt-1 border-t border-amber-500/20">
-                    {[
-                      { key: 'all', label: 'All Subjects' },
-                      { key: 'maths', label: '📐 Maths (57)' },
-                      { key: 'reasoning', label: '🧠 Reasoning (57)' },
-                      { key: 'gk', label: '🏛️ GK & Science (57)' },
-                      { key: 'ca', label: '📰 Current Affairs (83)' },
-                      { key: 'ga', label: '🌐 Combined GA (57)' },
-                    ].map((pill) => (
-                      <button
-                        key={pill.key}
-                        onClick={() => {
-                          setNtpcSectionalFilter(pill.key);
-                          if (pill.key !== 'all') {
-                            setTestFilter('sectional');
-                          }
-                          if (pill.key === 'ca' && shiftFilter === 'all') {
-                            setShiftFilter('all');
-                          }
-                        }}
-                        className={`px-3 py-1 rounded-lg text-[11px] font-bold transition-all cursor-pointer ${
-                          ntpcSectionalFilter === pill.key && (pill.key === 'all' ? testFilter === 'sectional' : true)
-                            ? 'bg-teal-400 text-slate-950 font-black shadow-sm shadow-teal-400/20'
-                            : 'bg-slate-950/70 border border-slate-800 text-slate-300 hover:text-white hover:border-amber-400/50'
-                        }`}
-                      >
-                        {pill.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Technician Grade III Sub-filter Tabs on Mock Tests View */}
-              {yearFilter === 'tech3-2024' && (
-                <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-cyan-950/40 via-slate-900/90 to-slate-900/80 border border-cyan-500/30 space-y-3">
-                  <div className="flex items-center justify-between flex-wrap gap-2">
-                    <span className="text-xs font-bold text-cyan-300 flex items-center gap-1.5">
-                      <Wrench className="w-4 h-4 text-cyan-400" />
-                      <span>RRB Technician Grade III (CEN 02/2024): 23 Full Shifts + 92 Sectionals (Maths, Reasoning, Science, GA)</span>
-                    </span>
-                    <span className="text-[11px] font-semibold text-cyan-300 bg-cyan-500/10 px-2.5 py-1 rounded-full border border-cyan-500/30">
-                      ⚡ Shift 1 + All 4 Shift-1 Sectionals Free
-                    </span>
-                  </div>
-                  <div className="flex flex-wrap items-center justify-center gap-2">
-                    <button
-                      onClick={() => { setTestFilter('all'); setTech3SectionalFilter('all'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'all' && tech3SectionalFilter === 'all' && shiftFilter === 'all'
-                          ? 'bg-gradient-to-r from-cyan-400 to-sky-400 text-slate-950 font-black shadow-md shadow-cyan-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      All Tech Gr-III ({RAILWAY_TESTS.filter(t => t.examYear === 'tech3-2024').length})
-                    </button>
-                    <button
-                      onClick={() => { setTestFilter('full-shift'); setTech3SectionalFilter('all'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'full-shift'
-                          ? 'bg-gradient-to-r from-cyan-400 to-sky-400 text-slate-950 font-black shadow-md shadow-cyan-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      Full Papers (23 Shifts • 100 Qs)
-                    </button>
-                    <button
-                      onClick={() => { setTestFilter('sectional'); setTech3SectionalFilter('all'); setShiftFilter('all'); }}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                        testFilter === 'sectional' && tech3SectionalFilter === 'all'
-                          ? 'bg-gradient-to-r from-cyan-400 to-sky-400 text-slate-950 font-black shadow-md shadow-cyan-500/20'
-                          : 'bg-slate-950/80 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                      }`}
-                    >
-                      All Sectionals ({RAILWAY_TESTS.filter(t => t.examYear === 'tech3-2024' && t.category === 'sectional').length})
-                    </button>
-                  </div>
-                  <div className="flex flex-wrap items-center justify-center gap-1.5 pt-1 border-t border-cyan-500/20">
-                    {[
-                      { key: 'all', label: 'All Subjects' },
-                      { key: 'maths', label: '📐 Maths (23)' },
-                      { key: 'reasoning', label: '🧠 Reasoning (23)' },
-                      { key: 'science', label: '🔬 Science (23)' },
-                      { key: 'ga', label: '🌍 General Awareness (23)' },
-                    ].map((pill) => (
-                      <button
-                        key={pill.key}
-                        onClick={() => {
-                          setTech3SectionalFilter(pill.key);
-                          if (pill.key !== 'all') {
-                            setTestFilter('sectional');
-                          }
-                        }}
-                        className={`px-3 py-1 rounded-lg text-[11px] font-bold transition-all cursor-pointer ${
-                          tech3SectionalFilter === pill.key && (pill.key === 'all' ? testFilter === 'sectional' : true)
-                            ? 'bg-teal-400 text-slate-950 font-black shadow-sm shadow-teal-400/20'
-                            : 'bg-slate-950/70 border border-slate-800 text-slate-300 hover:text-white hover:border-cyan-400/50'
-                        }`}
-                      >
-                        {pill.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Shift Filter Tabs */}
-              <div className="flex items-center justify-start sm:justify-center gap-2 mt-4 overflow-x-auto pb-1 no-scrollbar">
-                {availableShifts.map(s => (
-                  <button
-                    key={s.key}
-                    onClick={() => setShiftFilter(s.key)}
-                    className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer shrink-0 ${
-                      shiftFilter === s.key
-                        ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/20'
-                        : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                    }`}
-                  >
-                    {s.label}
-                  </button>
-                ))}
-              </div>
-
-              {/* Category Filter Tabs */}
-              <div className="flex items-center justify-start sm:justify-center gap-2 mt-3 overflow-x-auto pb-1 no-scrollbar">
-                {[
-                  { key: 'all', label: `All Test Types (${shiftFilter === 'all' ? yearTests.length : yearTests.filter(t => t.shiftName === shiftFilter).length})` },
-                  { key: 'full-shift', label: `Full Shift Papers (${shiftFilter === 'all' ? yearTests.filter(t => t.category !== 'sectional').length : yearTests.filter(t => t.shiftName === shiftFilter && t.category !== 'sectional').length})` },
-                  { key: 'sectional', label: `Sectional Tests (${shiftFilter === 'all' ? yearTests.filter(t => t.category === 'sectional').length : yearTests.filter(t => t.shiftName === shiftFilter && t.category === 'sectional').length})` }
-                ].map(f => (
-                  <button
-                    key={f.key}
-                    onClick={() => setTestFilter(f.key)}
-                    className={`px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer shrink-0 ${
-                      testFilter === f.key
-                        ? 'bg-teal-500 text-slate-950 shadow-lg shadow-teal-500/20'
-                        : 'bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800'
-                    }`}
-                  >
-                    {f.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* High-Impact Monetization Banner */}
-            <AdBanner 
-              slot="header" 
-              onOpenPassPro={() => setIsPassProOpen(true)} 
-              onOpenPdfModal={() => setIsPdfModalOpen(true)}
-              hideAds={isPaidPro}
-            />
-
-            {filteredTests.length === 0 ? (
-              <div className="text-center py-12 rounded-3xl bg-slate-900/50 border border-slate-800 space-y-3">
-                <div className="text-base font-bold text-white">No mock tests matched your search / filter.</div>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setYearFilter('all');
-                    setShiftFilter('all');
-                    setTradeFilter('all');
-                    setTestFilter('all');
-                    setNtpcSectionalFilter('all');
-                    setTech3SectionalFilter('all');
-                    setMockSearchQuery('');
-                  }}
-                  className="px-4 py-2 rounded-xl bg-teal-500 text-slate-950 font-black text-xs cursor-pointer"
-                >
-                  Reset All Filters
-                </button>
-              </div>
-            ) : (
-              <>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-                  {filteredTests.slice(0, visibleCatalogCount).map((test) => (
-                    <TestCard
-                      key={test.id}
-                      test={test}
-                      accessStatus={getTestAccess(test)}
-                      isGuestDemo={isGuestDemoTest(test)}
-                      savedSession={savedSession}
-                      loadingTestId={loadingTestId}
-                      onStartMock={handleStartMock}
-                      onResumeTest={handleResumeTest}
-                      onDiscardSavedSession={handleDiscardSavedSession}
-                      onOpenPassPro={() => setIsPassProOpen(true)}
-                    />
-                  ))}
-                </div>
-
-                {visibleCatalogCount < filteredTests.length && (
-                  <div className="mt-8 text-center">
-                    <button
-                      type="button"
-                      onClick={() => setVisibleCatalogCount((c) => c + 12)}
-                      className="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-teal-500/40 text-teal-300 font-black text-xs cursor-pointer shadow-lg transition-all"
-                    >
-                      Show More Tests ({filteredTests.length - visibleCatalogCount} Remaining) ↓
-                    </button>
-                  </div>
-                )}
-              </>
-            )}
-          </div>
         )}
 
         <Suspense
@@ -1441,6 +1040,44 @@ export default function App() {
             </div>
           }
         >
+          {activeTab === 'mock-tests' && (
+            <TestSeriesExplorer
+              railwayTests={RAILWAY_TESTS}
+              selection={nestedTestSelection}
+              onChangeSelection={handleNestedSelectionChange}
+              getTestAccess={getTestAccess}
+              isGuestDemoTest={isGuestDemoTest}
+              savedSession={savedSession}
+              attemptSummaries={attemptSummaries}
+              loadingTestId={loadingTestId}
+              onStartMock={handleStartMock}
+              onResumeTest={handleResumeTest}
+              onDiscardSavedSession={handleDiscardSavedSession}
+              onViewAttemptResult={handleViewAttemptResult}
+              onOpenPassPro={() => setIsPassProOpen(true)}
+              onOpenPdfModal={() => setIsPdfModalOpen(true)}
+              onOpenCbatSimulator={() => {
+                setActiveTab('tools', '');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              onOpenNcertNotes={() => {
+                setActiveTab('super-coaching', '');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              onOpenSyllabus={(exId) => {
+                if (exId) setActiveExamId(exId);
+                setActiveTab('syllabus', '');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              onStartTopicQuiz={(customQuiz) => {
+                setSavedSession(null);
+                setActiveTest(customQuiz);
+              }}
+              isPaidPro={isPaidPro}
+              lang={selectedLang}
+            />
+          )}
+
           {activeTab === 'pyq-explorer' && (
             <>
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">

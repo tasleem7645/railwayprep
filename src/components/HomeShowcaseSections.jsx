@@ -54,12 +54,14 @@ export default function HomeShowcaseSections({
   onStartMock,
   onResumeTest,
   onDiscardSavedSession,
+  onViewAttemptResult,
   onOpenPassPro,
   onOpenPdfModal,
   onOpenMistakes,
   getTestAccess,
   isGuestDemoTest,
   savedSession,
+  attemptSummaries = {},
   loadingTestId,
 }) {
   const countByYear = (fn) => railwayTests.filter(fn).length;
@@ -324,10 +326,12 @@ export default function HomeShowcaseSections({
                 accessStatus={getTestAccess(test)}
                 isGuestDemo={isGuestDemoTest(test)}
                 savedSession={savedSession}
+                attemptSummary={attemptSummaries[test.id]}
                 loadingTestId={loadingTestId}
                 onStartMock={onStartMock}
                 onResumeTest={onResumeTest}
                 onDiscardSavedSession={onDiscardSavedSession}
+                onViewAttemptResult={onViewAttemptResult}
                 onOpenPassPro={onOpenPassPro}
               />
             </div>

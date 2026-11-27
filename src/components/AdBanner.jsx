@@ -52,7 +52,7 @@ export default function AdBanner({
                 Targeting 80+ in CBT-1? Get RailwayPrep <span className="text-amber-400">PASS PRO</span>
               </h4>
               <p className="text-xs text-slate-400">
-                Unlock all 225+ CBT mock tests, pure subject sectionals &amp; all-India rank for just ₹{payments.passProPrice}/Yr.
+                Unlock all 650+ CBT mock tests, pure subject sectionals &amp; all-India rank for just ₹{payments.passProPrice}/Yr.
               </p>
             </div>
           </div>

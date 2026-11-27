@@ -56,7 +56,7 @@ export function getLegalPolicySections() {
         {
           heading: '3. Accessible & Affordable Learning Model',
           paragraphs: [
-            `Shift 1 of every exam series and full NCERT Science text notes remain open for free student access. Students seeking full test series coverage across 225+ mocks, interactive labs, and printable solved PDFs can unlock Pass Pro via our ₹${meta.passProPrice}/year plan or earn a 90-day trial by inviting verified friends during launch promotions.`,
+            `Shift 1 of every exam series and full NCERT Science text notes remain open for free student access. Students seeking full test series coverage across 650+ mocks, interactive labs, and printable solved PDFs can unlock Pass Pro via our ₹${meta.passProPrice}/year plan or earn a 90-day trial by inviting verified friends during launch promotions.`,
           ],
         },
         {

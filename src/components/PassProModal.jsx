@@ -277,7 +277,7 @@ export default function PassProModal({
             <div className="text-center pb-3">
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-black uppercase mb-2.5">
                 <Crown className="w-3.5 h-3.5 fill-amber-300" />
-                <span>Unlock All 225+ Tests &amp; Pro Notes</span>
+                <span>Unlock All 650+ Tests &amp; Pro Notes</span>
               </div>
               <h2 className="text-2xl font-black text-white tracking-tight">
                 RailwayPrep <span className="text-amber-400">PASS PRO</span>

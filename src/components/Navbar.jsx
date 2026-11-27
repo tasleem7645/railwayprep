@@ -30,15 +30,12 @@ export default function Navbar({
   const closeBtnRef = useRef(null);
 
   const GOALS = [
-    'RRB ALP (Loco Pilot 2026)',
-    'RRB ALP 2025 (CBT-1)',
-    'RRB ALP CBT-2 (Part A)',
-    'RRB ALP CBT-2 (Part B Trades)',
-    'RRB Technician (CEN 02/2026)',
+    'RRB ALP (Loco Pilot 2025–26)',
+    'RRB NTPC Graduate & UG (CEN 06/2024)',
+    'RRB Technician Grade III (CEN 02/2024)',
+    'RRB Group D (Level-1)',
     'RRB JE & DMS (CEN 04/2026)',
     'RRB Station Master (CEN 08/2026)',
-    'RRB NTPC Graduate & UG (2026)',
-    'RRB Group D (Level-1)',
     'RPF SI & Constable',
   ];
 
@@ -82,7 +79,7 @@ export default function Navbar({
     {
       heading: 'TESTS & PRACTICE',
       items: [
-        { label: 'Test Series (225+ Mocks)', badge: 'LIVE', badgeColor: 'bg-teal-500/20 text-teal-300', icon: CheckSquare, onClick: () => handleNav('mock-tests'), active: activeTab === 'mock-tests' },
+        { label: 'Test Series (650+ Mocks)', badge: 'LIVE', badgeColor: 'bg-teal-500/20 text-teal-300', icon: CheckSquare, onClick: () => handleNav('mock-tests'), active: activeTab === 'mock-tests' },
         { label: 'Topic-Wise PYQ Bank', badge: 'NEW', badgeColor: 'bg-cyan-500/20 text-cyan-300', icon: Search, onClick: () => handleNav('pyq-explorer'), active: activeTab === 'pyq-explorer' },
         { label: 'Daily Rapid Quiz', badge: 'STREAK', badgeColor: 'bg-amber-500/20 text-amber-300', icon: Zap, onClick: () => handleNav('daily-quiz'), active: activeTab === 'daily-quiz' },
         { label: 'गलती डायरी (Mistake CBT)', icon: Bookmark, onClick: () => { setDrawerOpen(false); onOpenMistakes?.(); } },
