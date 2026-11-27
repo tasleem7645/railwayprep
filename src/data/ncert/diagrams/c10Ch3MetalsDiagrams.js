@@ -261,9 +261,9 @@ export function renderC10Ch3MetalsDiagramSvg(key, { lang = 'hi', theme = 'dark' 
     </svg>`;
   }
 
-  // Plate 4: Electrolytic Refining of Cu + Activity 3.14 Rusting Tubes + Alloys
-  const title = hi ? 'ताँबा परिष्करण (चित्र 3.12), जंग की शर्तें (चित्र 3.13) एवं प्रमुख मिश्रातु व संक्षारण' : 'Electrolytic Copper Refining (Fig 3.12), Rusting Conditions (Fig 3.13) & Key Alloys';
-  return `<svg viewBox="0 0 820 420" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="background:${p.bg};border-radius:16px">
+  if (key === 'c10-ch3-refining-rust-alloys-diagram') {
+    const title = hi ? 'ताँबा परिष्करण (चित्र 3.12), जंग की शर्तें (चित्र 3.13) एवं प्रमुख मिश्रातु व संक्षारण' : 'Electrolytic Copper Refining (Fig 3.12), Rusting Conditions (Fig 3.13) & Key Alloys';
+    return `<svg viewBox="0 0 820 420" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="background:${p.bg};border-radius:16px">
     <rect x="6" y="6" width="808" height="408" rx="14" fill="${p.card}" stroke="${p.border}" stroke-width="1.5"/>
     <rect x="20" y="14" width="780" height="32" rx="9" fill="${p.cyanBg}" stroke="${p.cyan}" stroke-width="1.2"/>
     <text x="410" y="35" text-anchor="middle" font-size="13.5" font-weight="800" fill="${p.text}">${esc(title)}</text>
@@ -318,4 +318,7 @@ export function renderC10Ch3MetalsDiagramSvg(key, { lang = 'hi', theme = 'dark' 
     <text x="36" y="362" font-size="11" font-weight="700" fill="${p.text}">2) ${esc(hi ? 'सोल्डर (Solder) = Pb + Sn (निम्न गलनांक, विद्युत तार वेल्डिंग हेतु)' : 'Solder = Pb + Sn (low MP for welding electrical wires)')}</text>
     <text x="36" y="382" font-size="11" font-weight="700" fill="${p.text}">3) ${esc(hi ? 'स्टेनलेस इस्पात = Fe + Ni + Cr  |  22K सोना = 22Au + 2Cu/Ag  |  अमलगम = धातु + पारद (Hg)' : 'Stainless Steel = Fe + Ni + Cr  |  22K Gold = 22Au + 2Cu/Ag  |  Amalgam = Metal + Hg')}</text>
   </svg>`;
+  }
+
+  return '';
 }

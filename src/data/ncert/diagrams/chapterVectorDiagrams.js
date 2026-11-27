@@ -18,6 +18,7 @@ import { renderC10Ch13EnvDiagramSvg } from './c10Ch13EnvDiagrams.js';
 import { renderC10Ch1RxnDiagramSvg } from './c10Ch1RxnDiagrams.js';
 import { renderC10Ch5LifeDiagramSvg } from './c10Ch5LifeDiagrams.js';
 import { renderC10Ch3MetalsDiagramSvg } from './c10Ch3MetalsDiagrams.js';
+import { renderC10Ch7ReproDiagramSvg } from './c10Ch7ReproDiagrams.js';
 
 function esc(s) {
   return String(s ?? '')
@@ -438,6 +439,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
 
   const c10Ch3Svg = renderC10Ch3MetalsDiagramSvg(key, { lang, theme });
   if (c10Ch3Svg) return c10Ch3Svg;
+
+  const c10Ch7Svg = renderC10Ch7ReproDiagramSvg(key, { lang, theme });
+  if (c10Ch7Svg) return c10Ch7Svg;
 
   return '';
 }
