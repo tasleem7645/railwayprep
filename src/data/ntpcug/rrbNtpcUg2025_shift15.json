@@ -1881,10 +1881,42 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (70,48,030) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (70,48,030) सही उत्तर है।"
+      "approach": "Verified Answer: Option A (**70,48,030**) is divisible by 5.",
+      "keyConcept": "Divisibility Check for 5: Apply Last-Digit / Digit-Sum / Alternating Rule First",
+      "pyqType": {
+        "en": "Divisibility Rules MCQ",
+        "hi": "विभाज्यता नियम"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check Divisibility by 5",
+            "hi": "विधि 1: 5 से पूर्ण विभाजन जाँच"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "• $7048030 \\div 5 = 1409606$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.",
+            "hi": "• $7048030 \\div 5 = 1409606$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Unit/Digit-Sum Elimination (`3 sec`)",
+            "hi": "विधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=4 (for 3/9). Only **70,48,030** satisfies every condition!",
+            "hi": "सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=4 से गलत विकल्प हटाने पर केवल **70,48,030** बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Check Divisibility by 5: • $7048030 \\div 5 = 1409606$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.\n\nMethod 2: Smart Unit/Digit-Sum Elimination (`3 sec`): Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=4 (for 3/9). Only **70,48,030** satisfies every condition!",
+      "hi": "विधि 1: 5 से पूर्ण विभाजन जाँच: • $7048030 \\div 5 = 1409606$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।\n\nविधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`): सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=4 से गलत विकल्प हटाने पर केवल **70,48,030** बचता है!"
     }
   },
   {

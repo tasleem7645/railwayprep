@@ -1015,10 +1015,38 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (99.9). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (99.9)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**99.9**).",
+      "keyConcept": "Multiply by 100 (`90, 370, 54`) -> Co-prime `37 × 270 = 9990` -> ÷ 100 = 99.9",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Decimal Equalization (`×100`)",
+            "hi": "विधि 1: `×100` से पूर्णांक रूपांतरण"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Write as `0.90, 3.70, 0.54` ⇒ integers `90, 370, 54`.\n2) $\\text{LCM}(90, 54) = \\text{LCM}(9 \\times 10, 27 \\times 2) = 270$.\n3) Since `370 = 37 × 10` (`37` is prime & `10` is already inside `270`), $\\text{LCM} = 270 \\times 37 = 9990$.\n4) Divide by `100` ⇒ **`99.9`**.",
+            "hi": "1) `90, 370, 54`: पहले `(90, 54)` का LCM $= 270$।\n2) `37` अभाज्य है और `10` पहले से `270` में है ⇒ $270 \\times 37 = 9990$ → `÷100` = **`99.9`**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: `9`-Multiple + Decimal Trick (`3 sec`)",
+            "hi": "विधि 2: `9`-विभाज्यता 3-सेकंड चेक"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Result MUST be divisible by `0.9` (`hence digit sum ÷ 9`!). Check options: **`99.9` (`sum=27÷9✓`)**, `106(7✗)`, `105(6✗)`, `100(1✗)`. Instant **Option A**!",
+            "hi": "उत्तर `0.9` (`9`) का गुणज होगा ⇒ केवल **`99.9`** (`9+9+9=27`) ही `9` से विभाज्य है! **3 सेकंड में उत्तर A!**"
+          }
+        }
+      ],
+      "en": "Method 1: Decimal Equalization (`×100`): 1) Write as `0.90, 3.70, 0.54` ⇒ integers `90, 370, 54`.\n2) $\\text{LCM}(90, 54) = \\text{LCM}(9 \\times 10, 27 \\times 2) = 270$.\n3) Since `370 = 37 × 10` (`37` is prime & `10` is already inside `270`), $\\text{LCM} = 270 \\times 37 = 9990$.\n4) Divide by `100` ⇒ **`99.9`**.\n\nMethod 2: `9`-Multiple + Decimal Trick (`3 sec`): Result MUST be divisible by `0.9` (`hence digit sum ÷ 9`!). Check options: **`99.9` (`sum=27÷9✓`)**, `106(7✗)`, `105(6✗)`, `100(1✗)`. Instant **Option A**!",
+      "hi": "विधि 1: `×100` से पूर्णांक रूपांतरण: 1) `90, 370, 54`: पहले `(90, 54)` का LCM $= 270$।\n2) `37` अभाज्य है और `10` पहले से `270` में है ⇒ $270 \\times 37 = 9990$ → `÷100` = **`99.9`**।\n\nविधि 2: `9`-विभाज्यता 3-सेकंड चेक: उत्तर `0.9` (`9`) का गुणज होगा ⇒ केवल **`99.9`** (`9+9+9=27`) ही `9` से विभाज्य है! **3 सेकंड में उत्तर A!**"
     },
     "correctIndexHi": 0
   },

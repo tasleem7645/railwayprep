@@ -751,7 +751,23 @@ export default function TestSeriesExplorer({
           <div className="rounded-3xl bg-[#0B1120] border border-slate-800 divide-y divide-slate-800/80 overflow-hidden shadow-xl">
             <button
               type="button"
-              onClick={onOpenNcertNotes}
+              onClick={() => onOpenNcertNotes('maths')}
+              className="w-full p-5 hover:bg-slate-900/75 flex items-center justify-between gap-4 text-left cursor-pointer group"
+            >
+              <div>
+                <div className="text-xs font-black uppercase text-amber-400">Maths Mastery Pro (Zero-to-Topper)</div>
+                <div className="text-base font-black text-white mt-0.5 group-hover:text-amber-300">
+                  Visual Maths Deep-Dive, 5 SVG Labs &amp; 2–4 Method PYQs (Ch 1 Live!)
+                </div>
+                <div className="text-xs text-slate-400 mt-1">
+                  Number System, Divisibility, HCF–LCM, VBODMAS, Recurring Decimals &amp; Surds.
+                </div>
+              </div>
+              <ChevronRight className="w-5 h-5 text-slate-500 group-hover:text-amber-300 shrink-0" />
+            </button>
+            <button
+              type="button"
+              onClick={() => onOpenNcertNotes('ncert')}
               className="w-full p-5 hover:bg-slate-900/75 flex items-center justify-between gap-4 text-left cursor-pointer group"
             >
               <div>

@@ -1947,10 +1947,42 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (M - N = 7) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (M - N = 7) सही उत्तर है।"
+      "approach": "Verified Answer: **M - N = 7** (Satisfies 11 divisibility alternating sum rule).",
+      "keyConcept": "Rule of 11: Odd Positions Sum − Even Positions Sum = 0, ±11",
+      "pyqType": {
+        "en": "NTPC Divisibility Relation (M & N)",
+        "hi": "NTPC 11-विभाज्यता संबंध (M व N)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Apply 11 Alternating Difference Equation",
+            "hi": "विधि 1: 11 के सम-विषम अंतर समीकरण से"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Number = `N29M11`. Odd positions (N + 9 + 1) minus Even positions (2 + M + 1) $= 7 - M + N$.\nSetting this equal to `0` (or `±11`) gives **M - N = 7**!",
+            "hi": "`N29M11` में (विषम स्थान योग − सम स्थान योग) $= 7 − M + N$ को `0` या `±11` रखने पर तुरंत **M - N = 7** प्राप्त होता है!"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put `N = 1` Dummy Value (`4 sec`)",
+            "hi": "विधि 2: `N = 1` मान रखकर तुरंत चेक (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Put $N = 1$ cleanly and pick smallest digit $M$ so the resulting 6-digit number divides by 11! Compute $M - N$ -> directly matches **M - N = 7**.",
+            "hi": "सीधे $N = 1$ मानकर `11` से कटने वाला $M$ चुनें और $M - N$ जांचें — **M - N = 7** 4 सेकंड में पक्का!"
+          }
+        }
+      ],
+      "en": "Method 1: Apply 11 Alternating Difference Equation: Number = `N29M11`. Odd positions (N + 9 + 1) minus Even positions (2 + M + 1) $= 7 - M + N$.\nSetting this equal to `0` (or `±11`) gives **M - N = 7**!\n\nMethod 2: Put `N = 1` Dummy Value (`4 sec`): Put $N = 1$ cleanly and pick smallest digit $M$ so the resulting 6-digit number divides by 11! Compute $M - N$ -> directly matches **M - N = 7**.",
+      "hi": "विधि 1: 11 के सम-विषम अंतर समीकरण से: `N29M11` में (विषम स्थान योग − सम स्थान योग) $= 7 − M + N$ को `0` या `±11` रखने पर तुरंत **M - N = 7** प्राप्त होता है!\n\nविधि 2: `N = 1` मान रखकर तुरंत चेक (`4 सेकंड`): सीधे $N = 1$ मानकर `11` से कटने वाला $M$ चुनें और $M - N$ जांचें — **M - N = 7** 4 सेकंड में पक्का!"
     }
   },
   {

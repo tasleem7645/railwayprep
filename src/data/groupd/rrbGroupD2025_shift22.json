@@ -1115,10 +1115,46 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (6.62) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (6.62) सही उत्तर है।"
+      "approach": "Verified Answer: **6.62** ($z = 6.6197 \\approx 6.62$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 109! Directly equate exponents: $0.71z = 0.47 \\times 10 = 4.70 \\Rightarrow z = 4.70 / 0.71 \\approx 6.62$.",
+        "hi": "डमी आधार 109 को छोड़ें! सीधे घात बराबर करें: $0.71z = 0.47 \\times 10 \\Rightarrow z \\approx 6.62$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 109^{0.71}$ and $y = 109^{0.47}$ into $x^z = y^{10}$:\n$109^{0.71z} = 109^{0.47 \\times 10} = 109^{4.70}$.\nSince bases are equal, $0.71z = 4.70 \\Rightarrow z = \\frac{4.70}{0.71} = 6.6197 \\approx \\mathbf{6.62}$.",
+            "hi": "$x = 109^{0.71}$ व $y = 109^{0.47}$ को $x^z = y^{10}$ में रखें:\n$109^{0.71z} = 109^{4.70} \\Rightarrow 0.71z = 4.70 \\Rightarrow z \\approx \\mathbf{6.62}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.47 : 0.71 = 47 : 71$ ⇒ $z = \\frac{47 \\times 10}{71} = 6.620 \\approx \\mathbf{6.62}$.",
+            "hi": "सीधा $z = \\frac{0.47 \\times 10}{0.71} \\approx \\mathbf{6.62}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 109^{0.71}$ and $y = 109^{0.47}$ into $x^z = y^{10}$:\n$109^{0.71z} = 109^{0.47 \\times 10} = 109^{4.70}$.\nSince bases are equal, $0.71z = 4.70 \\Rightarrow z = \\frac{4.70}{0.71} = 6.6197 \\approx \\mathbf{6.62}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.47 : 0.71 = 47 : 71$ ⇒ $z = \\frac{47 \\times 10}{71} = 6.620 \\approx \\mathbf{6.62}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 109^{0.71}$ व $y = 109^{0.47}$ को $x^z = y^{10}$ में रखें:\n$109^{0.71z} = 109^{4.70} \\Rightarrow 0.71z = 4.70 \\Rightarrow z \\approx \\mathbf{6.62}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.47 \\times 10}{0.71} \\approx \\mathbf{6.62}$।"
     }
   },
   {

@@ -1650,10 +1650,42 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (-29) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (-29) सही उत्तर है।"
+      "approach": "Verified Answer: **-29** (Evaluated value = `-29`).",
+      "keyConcept": "VBODMAS & Exact Simplification Order: Roots/Brackets -> Of -> ÷ -> × -> +/−",
+      "pyqType": {
+        "en": "VBODMAS / Simplification",
+        "hi": "सरलीकरण (VBODMAS / रूट / भिन्न)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation",
+            "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **-29**.",
+            "hi": "1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **-29**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`)",
+            "hi": "विधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`)"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **-29**!",
+            "hi": "बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **-29** पक्का होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation: 1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **-29**.\n\nMethod 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`): Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **-29**!",
+      "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल: 1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **-29**।\n\nविधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`): बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **-29** पक्का होता है!"
     }
   },
   {
@@ -1716,10 +1748,42 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (60, 24) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (60, 24) सही उत्तर है।"
+      "approach": "Verified Answer: **60, 24** (Sum = 84, LCM = 120).",
+      "keyConcept": "Key Theorem: HCF(A, B) = HCF(Sum A+B, LCM)",
+      "pyqType": {
+        "en": "Sum & LCM Given -> Find Numbers",
+        "hi": "योग व LCM से दोनों संख्याएं निकालना"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find HCF = HCF(Sum, LCM) -> Split Ratios",
+            "hi": "विधि 1: HCF = HCF(योग, LCM) से दोनों संख्याएं"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Remember: $\\text{HCF}(A, B) = \\text{HCF}(84, 120) = \\mathbf{12}$.\n2) Let numbers be $12x$ and $12y$ (co-prime). Then $x + y = 84/12 = 7$ and $xy = 120/12 = 10$.\n3) Solving gives co-prime pair $(5, 2)$ ⇒ Numbers $= \\mathbf{60, 24}$.",
+            "hi": "1) सदैव $\\text{HCF}(A, B) = \\text{HCF}(\\text{योग}, \\text{LCM}) = \\text{HCF}(84, 120) = \\mathbf{12}$।\n2) अतः $x + y = 7$ और $xy = 10$ ⇒ युग्म $(5, 2)$ ⇒ संख्याएं **60, 24**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reverse Option Check (`4 sec`)",
+            "hi": "विधि 2: विकल्प सत्यापन (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Simply check options where Sum = 84 AND 120 is divisible by BOTH numbers: **60 + 24 = 84** and both divide 120 cleanly!",
+            "hi": "सिर्फ यह जांचें कि किस विकल्प का योग 84 है और दोनों संख्याएं 120 को पूरा काटती हैं ⇒ **60, 24**!"
+          }
+        }
+      ],
+      "en": "Method 1: Find HCF = HCF(Sum, LCM) -> Split Ratios: 1) Remember: $\\text{HCF}(A, B) = \\text{HCF}(84, 120) = \\mathbf{12}$.\n2) Let numbers be $12x$ and $12y$ (co-prime). Then $x + y = 84/12 = 7$ and $xy = 120/12 = 10$.\n3) Solving gives co-prime pair $(5, 2)$ ⇒ Numbers $= \\mathbf{60, 24}$.\n\nMethod 2: Reverse Option Check (`4 sec`): Simply check options where Sum = 84 AND 120 is divisible by BOTH numbers: **60 + 24 = 84** and both divide 120 cleanly!",
+      "hi": "विधि 1: HCF = HCF(योग, LCM) से दोनों संख्याएं: 1) सदैव $\\text{HCF}(A, B) = \\text{HCF}(\\text{योग}, \\text{LCM}) = \\text{HCF}(84, 120) = \\mathbf{12}$।\n2) अतः $x + y = 7$ और $xy = 10$ ⇒ युग्म $(5, 2)$ ⇒ संख्याएं **60, 24**।\n\nविधि 2: विकल्प सत्यापन (`4 सेकंड`): सिर्फ यह जांचें कि किस विकल्प का योग 84 है और दोनों संख्याएं 120 को पूरा काटती हैं ⇒ **60, 24**!"
     }
   },
   {
@@ -1782,10 +1846,42 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (77) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (77) सही उत्तर है।"
+      "approach": "Verified Answer: **77** (Evaluated value = `77`).",
+      "keyConcept": "VBODMAS & Exact Simplification Order: Roots/Brackets -> Of -> ÷ -> × -> +/−",
+      "pyqType": {
+        "en": "VBODMAS / Simplification",
+        "hi": "सरलीकरण (VBODMAS / रूट / भिन्न)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation",
+            "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **77**.",
+            "hi": "1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **77**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`)",
+            "hi": "विधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`)"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **77**!",
+            "hi": "बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **77** पक्का होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation: 1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **77**.\n\nMethod 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`): Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **77**!",
+      "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल: 1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **77**।\n\nविधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`): बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **77** पक्का होता है!"
     }
   },
   {
@@ -1947,10 +2043,42 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (25) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (25) सही उत्तर है।"
+      "approach": "Verified Answer: **25** ($24 \\times 25 = 600$).",
+      "keyConcept": "Product of Consecutive n(n+1) = P ⇒ Split Around √P",
+      "pyqType": {
+        "en": "Consecutive Number Product",
+        "hi": "क्रमागत संख्या गुणनफल"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation $x(x+1) = 600$",
+            "hi": "विधि 1: द्विघात समीकरण से हल"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x(x+1) = 600 \\Rightarrow x^2 + x - 600 = 0 \\Rightarrow (x + 25)(x - 24) = 0 \\Rightarrow x = 24, x+1 = 25$. Answer: **25**.",
+            "hi": "$x^2 + x - 600 = 0$ के गुणनखंड करने पर $(24, 25)$ प्राप्त होते हैं ⇒ उत्तर **25**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Square Sandwich $24^2 < 600 < 25^2$ (`3 sec`)",
+            "hi": "विधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $24^2 = 576 < 600 < 25^2 = 625$, the consecutive numbers MUST be **24 & 25**!",
+            "hi": "$576 < 600 < 625$ ($24^2$ व $25^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **24, 25**!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation $x(x+1) = 600$: $x(x+1) = 600 \\Rightarrow x^2 + x - 600 = 0 \\Rightarrow (x + 25)(x - 24) = 0 \\Rightarrow x = 24, x+1 = 25$. Answer: **25**.\n\nMethod 2: Square Sandwich $24^2 < 600 < 25^2$ (`3 sec`): Since $24^2 = 576 < 600 < 25^2 = 625$, the consecutive numbers MUST be **24 & 25**!",
+      "hi": "विधि 1: द्विघात समीकरण से हल: $x^2 + x - 600 = 0$ के गुणनखंड करने पर $(24, 25)$ प्राप्त होते हैं ⇒ उत्तर **25**।\n\nविधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`): $576 < 600 < 625$ ($24^2$ व $25^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **24, 25**!"
     }
   },
   {

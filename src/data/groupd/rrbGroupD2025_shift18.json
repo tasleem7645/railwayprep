@@ -1115,10 +1115,46 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (6.02) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (6.02) सही उत्तर है।"
+      "approach": "Verified Answer: **6.02** ($z = 6.0233 \\approx 6.02$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 140! Directly equate exponents: $0.86z = 0.74 \\times 7 = 5.18 \\Rightarrow z = 5.18 / 0.86 \\approx 6.02$.",
+        "hi": "डमी आधार 140 को छोड़ें! सीधे घात बराबर करें: $0.86z = 0.74 \\times 7 \\Rightarrow z \\approx 6.02$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 140^{0.86}$ and $y = 140^{0.74}$ into $x^z = y^{7}$:\n$140^{0.86z} = 140^{0.74 \\times 7} = 140^{5.18}$.\nSince bases are equal, $0.86z = 5.18 \\Rightarrow z = \\frac{5.18}{0.86} = 6.0233 \\approx \\mathbf{6.02}$.",
+            "hi": "$x = 140^{0.86}$ व $y = 140^{0.74}$ को $x^z = y^{7}$ में रखें:\n$140^{0.86z} = 140^{5.18} \\Rightarrow 0.86z = 5.18 \\Rightarrow z \\approx \\mathbf{6.02}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.74 : 0.86 = 37 : 43$ ⇒ $z = \\frac{37 \\times 7}{43} = 259/43 \\approx \\mathbf{6.02}$.",
+            "hi": "सीधा $z = \\frac{0.74 \\times 7}{0.86} \\approx \\mathbf{6.02}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 140^{0.86}$ and $y = 140^{0.74}$ into $x^z = y^{7}$:\n$140^{0.86z} = 140^{0.74 \\times 7} = 140^{5.18}$.\nSince bases are equal, $0.86z = 5.18 \\Rightarrow z = \\frac{5.18}{0.86} = 6.0233 \\approx \\mathbf{6.02}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.74 : 0.86 = 37 : 43$ ⇒ $z = \\frac{37 \\times 7}{43} = 259/43 \\approx \\mathbf{6.02}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 140^{0.86}$ व $y = 140^{0.74}$ को $x^z = y^{7}$ में रखें:\n$140^{0.86z} = 140^{5.18} \\Rightarrow 0.86z = 5.18 \\Rightarrow z \\approx \\mathbf{6.02}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.74 \\times 7}{0.86} \\approx \\mathbf{6.02}$।"
     }
   },
   {
@@ -1319,10 +1355,75 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Prime & Composite Numbers",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (5402) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (5402) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**5402**). The three primes are **2, 37, and 73**.",
+      "keyConcept": "Only Even Prime = 2 (Odd + Odd + Odd ≠ Even!)",
+      "pyqType": {
+        "en": "Type 1 • Prime Parity Theorem",
+        "hi": "टाइप 1 • अभाज्य सम-विषम प्रमेय"
+      },
+      "optionTrick": {
+        "en": "Sum = `112` (Even) ⇒ one prime is **`2`** (`even`)! Let others be $p$ & $p+36 \\Rightarrow 2p = 74 \\Rightarrow p = 37, p+36 = 73$. Unit digit of $2 \\times 37 \\times 73 \\Rightarrow 2 \\times 7 \\times 3 = \\mathbf{2}$! Among `[5678, 4516, 4826, 5402]`, **ONLY `5402` ends in `2`**!",
+        "hi": "योग `112` (सम) ⇒ एक अभाज्य पक्का **`2`**! अतः $2p + 36 = 110 \\Rightarrow p = 37$, दूसरी `73`। इकाई अंक: $2 \\times 7 \\times 3 = \\mathbf{2}$! चारों विकल्पों में **केवल `5402` के अंत में `2` है**!"
+      },
+      "trapAlert": {
+        "en": "Students waste minutes guessing random odd primes summing to 112 — remember 3 odd primes ALWAYS sum to an ODD number!",
+        "hi": "3 विषम अभाज्यों का योग कभी सम (112) नहीं हो सकता — `2` को लेना अनिवार्य है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Algebra + Prime Parity Logic",
+            "hi": "विधि 1: बेसिक / कॉन्सेप्ट (Step-by-Step)"
+          },
+          "audience": {
+            "en": "Beginners",
+            "hi": "बेसिक छात्रों के लिए"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Let the three primes be $a, b, c$ with $a + b + c = 112$ (even).\n2) All primes except `2` are odd, and Sum(3 odd) = odd ≠ 112. Thus one prime MUST be **$a = 2$**.\n3) Remaining $b + c = 112 - 2 = 110$. Given $c = b + 36 \\Rightarrow 2b + 36 = 110 \\Rightarrow 2b = 74 \\Rightarrow \\mathbf{b = 37}$.\n4) So $c = 37 + 36 = \\mathbf{73}$ (both 37 and 73 are prime!).\n5) Product $= 2 \\times 37 \\times 73 = 74 \\times 73 = \\mathbf{5402}$.",
+            "hi": "1) मान लें तीन अभाज्य संख्याएं $a, b, c$ हैं जिनका योग `112` (सम) है।\n2) `2` के अलावा सभी अभाज्य विषम होते हैं व 3 विषम संख्याओं का योग सम नहीं हो सकता ⇒ अतः पहली संख्या **$a = 2$**।\n3) शेष $b + c = 110$। दिया है $c - b = 36 \\Rightarrow 2b = 74 \\Rightarrow b = 37, c = 73$।\n4) गुणनफल $= 2 \\times 37 \\times 73 = \\mathbf{5402}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Exam-Hall Split ($110 \\div 2 \\pm 18$)",
+            "hi": "विधि 2: स्मार्ट / मध्य-मान विधि"
+          },
+          "audience": {
+            "en": "Smart Solver",
+            "hi": "स्मार्ट मेथड"
+          },
+          "timeTag": "12 sec",
+          "tone": "amber",
+          "steps": {
+            "en": "1) Remove `2` instantly: remaining sum $= 110$, gap $= 36$.\n2) Smaller $= (110 - 36)/2 = 37$, Larger $= 110 - 37 = 73$.\n3) Multiply $74 \\times 73 = 73^2 + 73 = 5329 + 73 = \\mathbf{5402}$.",
+            "hi": "1) `2` अलग करें: शेष `110`, अंतर `36` ⇒ छोटी संख्या $= (110-36)/2 = 37$, बड़ी $= 73$।\n2) $74 \\times 73 = 5329 + 73 = \\mathbf{5402}$।"
+          }
+        },
+        {
+          "id": "trick",
+          "title": {
+            "en": "Method 3: Unit Digit 3-Sec Elimination",
+            "hi": "विधि 3: इकाई अंक 3-सेकंड एलिमिनेशन"
+          },
+          "audience": {
+            "en": "Ranker Speed",
+            "hi": "टॉपर स्पीड"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Once you get `(2, 37, 73)`, do NOT multiply `74 × 73`! Unit digit $= 2 \\times 7 \\times 3 = 42 \\to \\mathbf{2}$. Check `[5678, 4516, 4826, 5402]` — **ONLY Option D (`5402`) ends in `2`**!",
+            "hi": "`(2, 37, 73)` मिलते ही पूरा गुणा न करें! अंतिम अंक $2 \\times 7 \\times 3 = 42 \\to \\mathbf{2}$। केवल **विकल्प D (`5402`)** के अंत में `2` है!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Algebra + Prime Parity Logic: 1) Let the three primes be $a, b, c$ with $a + b + c = 112$ (even).\n2) All primes except `2` are odd, and Sum(3 odd) = odd ≠ 112. Thus one prime MUST be **$a = 2$**.\n3) Remaining $b + c = 112 - 2 = 110$. Given $c = b + 36 \\Rightarrow 2b + 36 = 110 \\Rightarrow 2b = 74 \\Rightarrow \\mathbf{b = 37}$.\n4) So $c = 37 + 36 = \\mathbf{73}$ (both 37 and 73 are prime!).\n5) Product $= 2 \\times 37 \\times 73 = 74 \\times 73 = \\mathbf{5402}$.\n\nMethod 2: Smart Exam-Hall Split ($110 \\div 2 \\pm 18$): 1) Remove `2` instantly: remaining sum $= 110$, gap $= 36$.\n2) Smaller $= (110 - 36)/2 = 37$, Larger $= 110 - 37 = 73$.\n3) Multiply $74 \\times 73 = 73^2 + 73 = 5329 + 73 = \\mathbf{5402}$.\n\nMethod 3: Unit Digit 3-Sec Elimination: Once you get `(2, 37, 73)`, do NOT multiply `74 × 73`! Unit digit $= 2 \\times 7 \\times 3 = 42 \\to \\mathbf{2}$. Check `[5678, 4516, 4826, 5402]` — **ONLY Option D (`5402`) ends in `2`**!",
+      "hi": "विधि 1: बेसिक / कॉन्सेप्ट (Step-by-Step): 1) मान लें तीन अभाज्य संख्याएं $a, b, c$ हैं जिनका योग `112` (सम) है।\n2) `2` के अलावा सभी अभाज्य विषम होते हैं व 3 विषम संख्याओं का योग सम नहीं हो सकता ⇒ अतः पहली संख्या **$a = 2$**।\n3) शेष $b + c = 110$। दिया है $c - b = 36 \\Rightarrow 2b = 74 \\Rightarrow b = 37, c = 73$।\n4) गुणनफल $= 2 \\times 37 \\times 73 = \\mathbf{5402}$।\n\nविधि 2: स्मार्ट / मध्य-मान विधि: 1) `2` अलग करें: शेष `110`, अंतर `36` ⇒ छोटी संख्या $= (110-36)/2 = 37$, बड़ी $= 73$।\n2) $74 \\times 73 = 5329 + 73 = \\mathbf{5402}$।\n\nविधि 3: इकाई अंक 3-सेकंड एलिमिनेशन: `(2, 37, 73)` मिलते ही पूरा गुणा न करें! अंतिम अंक $2 \\times 7 \\times 3 = 42 \\to \\mathbf{2}$। केवल **विकल्प D (`5402`)** के अंत में `2` है!"
     }
   },
   {

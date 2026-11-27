@@ -20,6 +20,7 @@ import { classifyQuestionTaxonomy } from '../utils/pyqTaxonomy';
 import { buildCustomTopicQuiz, getPyqOptions, getPyqCorrectIndex, getQuestionImage } from '../utils/pyqHelper';
 import { loadPyqProgress, savePyqAttempt, clearPyqAttempt } from '../utils/pyqProgress';
 import QuestionContentRenderer, { OptionContentRenderer, MathText } from './QuestionContentRenderer';
+import MultiMethodSolutionBox from './MultiMethodSolutionBox';
 
 const SUBJECT_ICON_MAP = {
   Mathematics: '📐',
@@ -389,10 +390,28 @@ export default function NestedSubjectDrillPanel({
               </div>
               <button
                 type="button"
-                onClick={onOpenNcertNotes}
+                onClick={() => onOpenNcertNotes('ncert')}
                 className="px-3.5 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs shrink-0 cursor-pointer"
               >
                 Open NCERT Pro Notes →
+              </button>
+            </div>
+          )}
+
+          {selectedSubject === 'Mathematics' && onOpenNcertNotes && (
+            <div className="p-3.5 rounded-2xl bg-gradient-to-r from-amber-950/55 via-slate-900 to-emerald-950/45 border border-amber-500/35 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+              <div className="flex items-center gap-2 text-amber-200 font-semibold">
+                <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
+                <span>
+                  Zero-to-Topper Maths Mastery Pro: Concepts, 5 Animated SVG Labs &amp; 2–4 Method PYQ Solutions (Ch 1 Live!)
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={() => onOpenNcertNotes('maths')}
+                className="px-3.5 py-2 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-xs shrink-0 cursor-pointer"
+              >
+                Open Maths Pro Hub →
               </button>
             </div>
           )}
@@ -682,14 +701,8 @@ export default function NestedSubjectDrillPanel({
                     </div>
 
                     {isSolShown && q.solution && (
-                      <div className="p-3 rounded-xl bg-slate-950 border border-teal-500/30 text-xs text-slate-300">
-                        <MathText
-                          text={
-                            lang === 'hi'
-                              ? q.solution.hi || q.solution.en || q.solution.approach
-                              : q.solution.en || q.solution.hi || q.solution.approach
-                          }
-                        />
+                      <div className="p-3 rounded-xl bg-slate-950 border border-teal-500/30">
+                        <MultiMethodSolutionBox solution={q.solution} lang={lang} compact />
                       </div>
                     )}
                   </div>

@@ -159,15 +159,35 @@ export function buildPrintableShiftHtml(test, options = {}) {
       if (layoutMode === 'solved' && q.solution) {
         const approach = q.solution.approach ? `<div><b>Verdict:</b> ${renderMathTextHtml(q.solution.approach)}</div>` : '';
         const concept = q.solution.keyConcept ? `<div class="sol-formula">${renderMathTextHtml(q.solution.keyConcept)}</div>` : '';
-        const expEn = q.solution.en || '';
-        const expHi = q.solution.hi || '';
+        const hasMethods = Array.isArray(q.solution.methods) && q.solution.methods.length > 0;
         let expText = '';
-        if (langMode === 'bilingual') {
-          expText = `${expHi ? `<div><b>व्याख्या:</b> ${renderMathTextHtml(expHi)}</div>` : ''}${expEn ? `<div><b>Explanation:</b> ${renderMathTextHtml(expEn)}</div>` : ''}`;
-        } else if (langMode === 'hi') {
-          expText = renderMathTextHtml(expHi || expEn);
+        if (hasMethods) {
+          expText = q.solution.methods
+            .map((m) => {
+              const titleText = typeof m.title === 'object'
+                ? (langMode === 'hi' ? m.title.hi || m.title.en : m.title.en || m.title.hi)
+                : String(m.title || '');
+              const stepText = typeof m.steps === 'object'
+                ? (langMode === 'bilingual'
+                    ? `${m.steps.hi || ''}${m.steps.en ? `<br/>${m.steps.en}` : ''}`
+                    : langMode === 'hi'
+                    ? m.steps.hi || m.steps.en
+                    : m.steps.en || m.steps.hi)
+                : String(m.steps || '');
+              const tTag = m.timeTag ? ` <span style="font-size:10px;color:#0f766e;">[${escapeHtml(m.timeTag)}]</span>` : '';
+              return `<div style="margin-top:6px;padding:6px 8px;border-left:2px solid #0d9488;background:#f8fafc;"><b>${escapeHtml(titleText)}${tTag}:</b><div style="margin-top:2px;">${renderMathTextHtml(stepText)}</div></div>`;
+            })
+            .join('');
         } else {
-          expText = renderMathTextHtml(expEn || expHi);
+          const expEn = q.solution.en || '';
+          const expHi = q.solution.hi || '';
+          if (langMode === 'bilingual') {
+            expText = `${expHi ? `<div><b>व्याख्या:</b> ${renderMathTextHtml(expHi)}</div>` : ''}${expEn ? `<div><b>Explanation:</b> ${renderMathTextHtml(expEn)}</div>` : ''}`;
+          } else if (langMode === 'hi') {
+            expText = renderMathTextHtml(expHi || expEn);
+          } else {
+            expText = renderMathTextHtml(expEn || expHi);
+          }
         }
         solHtml = `
           <div class="sol-box">

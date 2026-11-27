@@ -129,6 +129,7 @@ export default function App() {
 
   const [selectedGoal, setSelectedGoal] = useState('RRB ALP (Loco Pilot 2025–26)');
   const [activeExamId, setActiveExamId] = useState(null);
+  const [notesInitialHubMode, setNotesInitialHubMode] = useState('maths');
 
   const [nestedTestSelection, setNestedTestSelection] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -932,7 +933,10 @@ export default function App() {
           <>
             <HeroSection
               onStartMock={() => handleStartMock(RAILWAY_TESTS[0])}
-              onExploreNotes={() => setActiveTab('super-coaching')}
+              onExploreNotes={() => {
+                setNotesInitialHubMode('maths');
+                setActiveTab('super-coaching');
+              }}
               onOpenPassPro={() => setIsPassProOpen(true)}
             />
 
@@ -1010,9 +1014,12 @@ export default function App() {
                 setActiveTab('mock-tests', sp.toString() ? `?${sp.toString()}` : '');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              onOpenTab={(tab) => {
+              onOpenTab={(tab, hubHint) => {
                 if (tab === 'mock-tests') {
                   setNestedTestSelection(mapTrackKeyToNestedState(null));
+                }
+                if (tab === 'super-coaching') {
+                  setNotesInitialHubMode(hubHint || 'maths');
                 }
                 setActiveTab(tab, '');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1063,7 +1070,8 @@ export default function App() {
                 setActiveTab('tools', '');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              onOpenNcertNotes={() => {
+              onOpenNcertNotes={(targetHub = 'ncert') => {
+                setNotesInitialHubMode(targetHub === 'maths' ? 'maths' : 'ncert');
                 setActiveTab('super-coaching', '');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
@@ -1105,6 +1113,7 @@ export default function App() {
               onOpenPassPro={() => setIsPassProOpen(true)} 
               hasPassPro={hasPassPro}
               hideAds={isPaidPro}
+              initialHubMode={notesInitialHubMode}
               onStartChapterQuiz={(quiz, quizLang) => handleStartMock(quiz, quizLang)}
             />
           )}
@@ -1187,12 +1196,10 @@ export default function App() {
       {/* Testbook-style Mobile Sticky Bottom Navigation */}
       <MobileBottomNav
         activeTab={activeTab}
-        onSelectTab={setActiveTab}
-        onOpenPassPro={() => setIsPassProOpen(true)}
-        onOpenDashboard={() => setIsDashboardOpen(true)}
-        onOpenAuth={() => openAuthPrompt('')}
-        user={session?.user || null}
-        hasPassPro={hasPassPro}
+        onSelectTab={(tab) => {
+          if (tab === 'super-coaching') setNotesInitialHubMode('maths');
+          setActiveTab(tab);
+        }}
       />
 
       {/* Instant non-blocking CBT shift loader toast */}

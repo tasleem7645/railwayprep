@@ -1183,10 +1183,46 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (11.33) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (11.33) सही उत्तर है।"
+      "approach": "Verified Answer: **11.33** ($z = 11.3333 \\approx 11.33$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 148! Directly equate exponents: $0.27z = 0.51 \\times 6 = 3.06 \\Rightarrow z = 3.06 / 0.27 \\approx 11.33$.",
+        "hi": "डमी आधार 148 को छोड़ें! सीधे घात बराबर करें: $0.27z = 0.51 \\times 6 \\Rightarrow z \\approx 11.33$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 148^{0.27}$ and $y = 148^{0.51}$ into $x^z = y^{6}$:\n$148^{0.27z} = 148^{0.51 \\times 6} = 148^{3.06}$.\nSince bases are equal, $0.27z = 3.06 \\Rightarrow z = \\frac{3.06}{0.27} = 11.3333 \\approx \\mathbf{11.33}$.",
+            "hi": "$x = 148^{0.27}$ व $y = 148^{0.51}$ को $x^z = y^{6}$ में रखें:\n$148^{0.27z} = 148^{3.06} \\Rightarrow 0.27z = 3.06 \\Rightarrow z \\approx \\mathbf{11.33}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.51 : 0.27 = 17 : 9$ ⇒ $z = \\frac{17 \\times 6}{9} = 11.333 \\approx \\mathbf{11.33}$.",
+            "hi": "सीधा $z = \\frac{0.51 \\times 6}{0.27} \\approx \\mathbf{11.33}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 148^{0.27}$ and $y = 148^{0.51}$ into $x^z = y^{6}$:\n$148^{0.27z} = 148^{0.51 \\times 6} = 148^{3.06}$.\nSince bases are equal, $0.27z = 3.06 \\Rightarrow z = \\frac{3.06}{0.27} = 11.3333 \\approx \\mathbf{11.33}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.51 : 0.27 = 17 : 9$ ⇒ $z = \\frac{17 \\times 6}{9} = 11.333 \\approx \\mathbf{11.33}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 148^{0.27}$ व $y = 148^{0.51}$ को $x^z = y^{6}$ में रखें:\n$148^{0.27z} = 148^{3.06} \\Rightarrow 0.27z = 3.06 \\Rightarrow z \\approx \\mathbf{11.33}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.51 \\times 6}{0.27} \\approx \\mathbf{11.33}$।"
     }
   },
   {

@@ -1047,10 +1047,42 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • HCF/LCM Word Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (18 seconds) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (18 सेकं ड) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**18 seconds**).",
+      "keyConcept": "Synchronization (\"Together Again\") = LCM(Intervals)",
+      "trapAlert": {
+        "en": "`3 seconds` is in Option C (`which is HCF!`). Always take **LCM (larger common time)** when events repeat together!",
+        "hi": "ऑप्शन C में **`3` (`HCF`)** जाल के रूप में दिया है — एक साथ टिमटिमाने पर सदैव **LCM** निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Multiples Timeline (`Visual Sync`)",
+            "hi": "विधि 1: गुणज सूची द्वारा मिलान"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "• Blue light blinks at: `6s, 12s, 18s, 24s...`\n• Red light blinks at: `9s, 18s, 27s...`\n• First common time $= \\mathbf{18\\text{ seconds}}$.",
+            "hi": "नीली: `6, 12, 18s`; लाल: `9, 18s` ⇒ पहली बार साथ **`18` सेकंड** पर!"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: LCM of (6, 9) Formula (`2 sec`)",
+            "hi": "विधि 2: सीधा LCM(6, 9) (`2 सेकंड`)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$\\text{LCM}(6, 9) = 18\\text{ seconds}$. Check larger `9` × `2` = `18` (`divides by 6 ✓`).",
+            "hi": "$\\text{LCM}(6, 9) = 18$ सेकंड!"
+          }
+        }
+      ],
+      "en": "Method 1: Multiples Timeline (`Visual Sync`): • Blue light blinks at: `6s, 12s, 18s, 24s...`\n• Red light blinks at: `9s, 18s, 27s...`\n• First common time $= \\mathbf{18\\text{ seconds}}$.\n\nMethod 2: LCM of (6, 9) Formula (`2 sec`): $\\text{LCM}(6, 9) = 18\\text{ seconds}$. Check larger `9` × `2` = `18` (`divides by 6 ✓`).",
+      "hi": "विधि 1: गुणज सूची द्वारा मिलान: नीली: `6, 12, 18s`; लाल: `9, 18s` ⇒ पहली बार साथ **`18` सेकंड** पर!\n\nविधि 2: सीधा LCM(6, 9) (`2 सेकंड`): $\\text{LCM}(6, 9) = 18$ सेकंड!"
     }
   },
   {
@@ -1149,10 +1181,42 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (1.56) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (1.56) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**1.56**). Notice exact value is $14/9 = 1.555\\dots \\approx 1.56$.",
+      "keyConcept": "Same Base Power Equation: B^{p·z} = B^{q·k} ⇒ z = (q·k) / p",
+      "trapAlert": {
+        "en": "Remember Rule: `x^z = y²` is **Approximation** — NEVER use Digital Sum (`C9`) here! Simply ignore base `113` and equate exponents!",
+        "hi": "यह \"निकटतम मान (Approximation)\" का प्रश्न है — यहाँ C9 न लगाएं, सीधे आधार `113` छोड़कर घात बराबर करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Substitute Base 113 & Equate Exponents",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Put $x = 113^{0.99}$ and $y = 113^{0.77}$ into $x^z = y^2$:\n$(113^{0.99})^z = (113^{0.77})^2 \\Rightarrow 113^{0.99z} = 113^{1.54}$.\n2) Equal bases ⇒ $0.99z = 1.54 \\Rightarrow z = \\frac{154}{99} = \\frac{14}{9} = 1.555\\dots \\approx \\mathbf{1.56}$.",
+            "hi": "$(113^{0.99})^z = (113^{0.77})^2 \\Rightarrow 0.99z = 1.54 \\Rightarrow z = \\frac{154}{99} = \\frac{14}{9} \\approx \\mathbf{1.56}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cross-Ratio 11-Cancel (`4 sec`)",
+            "hi": "विधि 2: `11`-कैंसिल + सीधी घात ट्रिक (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Skip `113` (`dummy base!`). Simplify ratio `0.77 : 0.99` = **`7 : 9`** immediately ⇒ $9z = 7 \\times 2 = 14 \\Rightarrow z = 14/9 = \\mathbf{1.555\\dots \\approx 1.56}$!",
+            "hi": "डमी आधार `113` छोड़ें! `0.77 : 0.99 = 7 : 9` ⇒ $z = \\frac{7 \\times 2}{9} = \\frac{14}{9} \\approx \\mathbf{1.56}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Substitute Base 113 & Equate Exponents: 1) Put $x = 113^{0.99}$ and $y = 113^{0.77}$ into $x^z = y^2$:\n$(113^{0.99})^z = (113^{0.77})^2 \\Rightarrow 113^{0.99z} = 113^{1.54}$.\n2) Equal bases ⇒ $0.99z = 1.54 \\Rightarrow z = \\frac{154}{99} = \\frac{14}{9} = 1.555\\dots \\approx \\mathbf{1.56}$.\n\nMethod 2: Cross-Ratio 11-Cancel (`4 sec`): Skip `113` (`dummy base!`). Simplify ratio `0.77 : 0.99` = **`7 : 9`** immediately ⇒ $9z = 7 \\times 2 = 14 \\Rightarrow z = 14/9 = \\mathbf{1.555\\dots \\approx 1.56}$!",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $(113^{0.99})^z = (113^{0.77})^2 \\Rightarrow 0.99z = 1.54 \\Rightarrow z = \\frac{154}{99} = \\frac{14}{9} \\approx \\mathbf{1.56}$।\n\nविधि 2: `11`-कैंसिल + सीधी घात ट्रिक (`4 सेकंड`): डमी आधार `113` छोड़ें! `0.77 : 0.99 = 7 : 9` ⇒ $z = \\frac{7 \\times 2}{9} = \\frac{14}{9} \\approx \\mathbf{1.56}$!"
     }
   },
   {

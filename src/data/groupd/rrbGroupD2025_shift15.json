@@ -1047,10 +1047,46 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (4.5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (4.5) सही उत्तर है।"
+      "approach": "Verified Answer: **4.5** ($z = 4.5 \\approx 4.5$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 43! Directly equate exponents: $0.92z = 0.69 \\times 6 = 4.14 \\Rightarrow z = 4.14 / 0.92 \\approx 4.5$.",
+        "hi": "डमी आधार 43 को छोड़ें! सीधे घात बराबर करें: $0.92z = 0.69 \\times 6 \\Rightarrow z \\approx 4.5$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 43^{0.92}$ and $y = 43^{0.69}$ into $x^z = y^{6}$:\n$43^{0.92z} = 43^{0.69 \\times 6} = 43^{4.14}$.\nSince bases are equal, $0.92z = 4.14 \\Rightarrow z = \\frac{4.14}{0.92} = 4.5000 \\approx \\mathbf{4.5}$.",
+            "hi": "$x = 43^{0.92}$ व $y = 43^{0.69}$ को $x^z = y^{6}$ में रखें:\n$43^{0.92z} = 43^{4.14} \\Rightarrow 0.92z = 4.14 \\Rightarrow z \\approx \\mathbf{4.5}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.69 : 0.92 = 3 : 4$ ⇒ $z = \\frac{3 \\times 6}{4} = 4.500 \\approx \\mathbf{4.5}$.",
+            "hi": "सीधा $z = \\frac{0.69 \\times 6}{0.92} \\approx \\mathbf{4.5}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 43^{0.92}$ and $y = 43^{0.69}$ into $x^z = y^{6}$:\n$43^{0.92z} = 43^{0.69 \\times 6} = 43^{4.14}$.\nSince bases are equal, $0.92z = 4.14 \\Rightarrow z = \\frac{4.14}{0.92} = 4.5000 \\approx \\mathbf{4.5}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.69 : 0.92 = 3 : 4$ ⇒ $z = \\frac{3 \\times 6}{4} = 4.500 \\approx \\mathbf{4.5}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 43^{0.92}$ व $y = 43^{0.69}$ को $x^z = y^{6}$ में रखें:\n$43^{0.92z} = 43^{4.14} \\Rightarrow 0.92z = 4.14 \\Rightarrow z \\approx \\mathbf{4.5}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.69 \\times 6}{0.92} \\approx \\mathbf{4.5}$।"
     }
   },
   {

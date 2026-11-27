@@ -2368,10 +2368,42 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 9)",
-      "en": "Correct Answer: Option D (62238). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (62238)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Verified Answer: Option D (**62238**) is divisible by 46 and 41.",
+      "keyConcept": "Divisibility Check for 46 and 41: Apply Last-Digit / Digit-Sum / Alternating Rule First",
+      "pyqType": {
+        "en": "Divisibility Rules MCQ",
+        "hi": "विभाज्यता नियम"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check Divisibility by 46 and 41",
+            "hi": "विधि 1: 46 and 41 से पूर्ण विभाजन जाँच"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "• $62238 \\div 46 = 1353$ (Remainder `0` ✓)\n• $62238 \\div 41 = 1518$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.",
+            "hi": "• $62238 \\div 46 = 1353$ (शेष `0` ✓)\n• $62238 \\div 41 = 1518$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Unit/Digit-Sum Elimination (`3 sec`)",
+            "hi": "विधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=3 (for 3/9). Only **62238** satisfies every condition!",
+            "hi": "सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=3 से गलत विकल्प हटाने पर केवल **62238** बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Check Divisibility by 46 and 41: • $62238 \\div 46 = 1353$ (Remainder `0` ✓)\n• $62238 \\div 41 = 1518$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.\n\nMethod 2: Smart Unit/Digit-Sum Elimination (`3 sec`): Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=3 (for 3/9). Only **62238** satisfies every condition!",
+      "hi": "विधि 1: 46 and 41 से पूर्ण विभाजन जाँच: • $62238 \\div 46 = 1353$ (शेष `0` ✓)\n• $62238 \\div 41 = 1518$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।\n\nविधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`): सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=3 से गलत विकल्प हटाने पर केवल **62238** बचता है!"
     },
     "correctIndexHi": 3
   },

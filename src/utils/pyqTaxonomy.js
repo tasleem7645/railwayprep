@@ -99,6 +99,7 @@ export function cleanRawTopic(rawTopic, fallbackSection = 'General') {
     'mathematics',
     'general science',
     'general intelligence & reasoning',
+    'logical & analytical reasoning',
     'general awareness',
     'general awareness & current affairs',
     'basic science & engineering',
@@ -113,64 +114,69 @@ export function cleanRawTopic(rawTopic, fallbackSection = 'General') {
 const SUBJECT_CHAPTER_RULES = {
   Mathematics: [
     {
-      chapter: 'Percentage',
-      regex: /percent|%|प्रतिशत|election|voter|population|depreciat/i,
-      defaultTopic: 'Percentage Applications',
-    },
-    {
-      chapter: 'Profit, Loss & Discount',
-      regex: /profit|loss|discount|cost price|selling price|marked price|cp-sp|cp & sp|mp with|laabh|लाभ|हानि|बट्टा|क्रय मूल्य|विक्रय मूल्य/i,
-      defaultTopic: 'CP, SP & Discount',
-    },
-    {
-      chapter: 'Simple & Compound Interest',
-      regex: /simple interest|compound interest|\bsi\b|\bci\b|compounding|annum|per annum|principal.*amount|ब्याज|चक्रवृद्धि|साधारण/i,
-      defaultTopic: 'Simple & Compound Interest',
-    },
-    {
-      chapter: 'Ratio, Proportion & Mixture',
-      regex: /ratio|proportion|mean proportional|third proportional|fourth proportional|mixture|alligation|partnership|ages|present age|अनुपात|मिश्रण|आयु|साझेदारी/i,
-      defaultTopic: 'Ratio & Proportion',
-    },
-    {
-      chapter: 'Time, Speed, Distance & Trains',
-      regex: /speed|distance|train|platform|boat|stream|upstream|downstream|\btsd\b|km\/h|m\/s|रेलगाड़ी|चाल|दूरी|नाव/i,
-      defaultTopic: 'Speed, Time & Trains',
-    },
-    {
-      chapter: 'Time, Work & Pipes',
-      regex: /time.*work|days to complete|alone can do|together.*complete|pipe|cistern|tank|leak|efficiency|कार्य|दिन|पाइप|टंकी/i,
-      defaultTopic: 'Work, Efficiency & Pipes',
-    },
-    {
       chapter: 'Trigonometry & Heights',
-      regex: /sin|cos|tan|cot|sec|cosec|trigonometr|angle of elevation|depression|त्रिकोणमिति|ऊंचाई/i,
-      defaultTopic: 'Trigonometric Ratios & Identities',
-    },
-    {
-      chapter: 'Geometry & Mensuration',
-      regex: /triangle|circle|chord|tangent|radius|diameter|perimeter|area|volume|surface area|cone|cylinder|sphere|cube|cuboid|trapezium|parallelogram|polygon|recasting|melting|त्रिभुज|वृत्त|क्षेत्रफल|आयतन|गोला|बेलन/i,
-      defaultTopic: 'Geometry & 2D/3D Mensuration',
+      regex: /\bsin\b|\bcos\b|\btan\b|\bcot\b|\bsec\b|\bcosec\b|\bcsc\b|\bsin[²2]|\bcos[²2]|\btan[²2]|\bcot[²2]|\bsec[²2]|\bcosec[²2]|trigonometr|angle of elevation|angle of depression|त्रिकोणमिति|उन्नयन कोण|अवनमन कोण/i,
+      defaultTopic: 'Trigonometric Ratios & Heights',
     },
     {
       chapter: 'Statistics & Data Interpretation',
-      regex: /median|mode|mean\b|standard deviation|variance|frequency|histogram|pie chart|bar graph|table|माध्यिका|बहुलक|माध्य|आँकड़े/i,
+      regex: /\bmedian\b|\bmode\b|arithmetic mean\b|\bmean marks\b|\bmean of\b|mean score|standard deviation|variance|frequency distribution|histogram|pie chart|bar graph|cumulative frequency|ogive|class interval|माध्यिका|बहुलक|माध्य|बारंबारता|मानक विचलन|प्रसरण|पाई चार्ट/i,
       defaultTopic: 'Mean, Median, Mode & DI',
     },
     {
-      chapter: 'Algebra & Equations',
-      regex: /algebra|polynomial|quadratic|roots|equation|indices|surds|factor|\bx\s*\+\s*1\/x|\bx²|बीजगणित|समीकरण|घातांक/i,
-      defaultTopic: 'Algebraic Identities & Equations',
+      chapter: 'Simple & Compound Interest',
+      regex: /simple interest|compound interest|\bs\.?i\.?\b|\bc\.?i\.?\b|compounded annually|compounded half-yearly|compounded quarterly|rate of interest|interest.*per annum|\bp\.a\.?\b.*(?:interest|invest|sum|principal|amount)|simple rate|installment|साधारण ब्याज|चक्रवृद्धि ब्याज|ब्याज दर|चक्रवृद्धि|मूलधन/i,
+      defaultTopic: 'Simple & Compound Interest',
     },
     {
-      chapter: 'Average & Averages Problems',
-      regex: /average|mean of \d|औसत/i,
-      defaultTopic: 'Average Word Problems',
+      chapter: 'Profit, Loss & Discount',
+      regex: /profit|loss|discount|cost price|selling price|marked price|list price|\bcp\b|\bsp\b|\bmp\b|gain\s*%|gain percent|dishonest|false weight|markup|successive discount|लाभ|हानि|बट्टा|छूट|क्रय मूल्य|विक्रय मूल्य|अंकित मूल्य/i,
+      defaultTopic: 'CP, SP, Profit, Loss & Discount',
+    },
+    {
+      chapter: 'Geometry',
+      regex: /\btriangle\b|congruen|similar triangles|\bsss\b|\bsas\b|\basa\b|\brhs\b|pythagoras|hypotenuse|altitude|median of triangle|centroid|incentre|orthocentre|circumcentre|\bcircle\b|\bchord\b|\btangent\b|\bsecant\b|cyclic quadrilateral|supplementary angle|complementary angle|transversal|parallel lines|exterior angle|interior angle|angle bisector|bisector of|regular polygon|diagonals of|Δ\s*[A-Z]{2,3}|∠|त्रिभुज|सर्वांगसम|समरूप|वृत्त|जीवा|स्पर्श रेखा|चक्रीय चतुर्भुज|कोण|बहुभुज/i,
+      defaultTopic: 'Triangles, Circles, Tangents & Angles',
+    },
+    {
+      chapter: 'Mensuration 2D & 3D',
+      regex: /\bperimeter\b|\bcircumference\b|\barea\b|\bvolume\b|surface area|\btsa\b|\bcsa\b|\blsa\b|curved surface|total surface|lateral surface|\bcube\b|\bcuboid\b|\bcylinder\b|\bcone\b|\bsphere\b|\bhemisphere\b|\bfrustum\b|\bprism\b|\bpyramid\b|\bsquare\b.*side|\brectangle\b|\brhombus\b|\btrapezium\b|\bparallelogram\b|\bsector\b|\barc length\b|slant height|\bradius\b|\bdiameter\b|recast|melted.*(?:sphere|cone|cube|cylinder)|क्षेत्रफल|परिमाप|परिधि|आयतन|पृष्ठीय क्षेत्रफल|बेलन|शंकु|गोला|अर्धगोला|घन|घनाभ|समचतुर्भुज|समलंब/i,
+      defaultTopic: '2D Area & 3D Volume / Surface Area',
+    },
+    {
+      chapter: 'Time, Work & Pipes',
+      regex: /time.*work|piece of work|complete.*work|work in \d+\s*days|days to complete|alone can do|together.*complete|work.*efficiency|\bpipe\b|\bpipes\b|\bcistern\b|\btank\b.*(?:fill|empty)|leak.*tank|inlet|outlet|men.*days|women.*days|boys.*days|wages.*work|कार्य.*समय|काम.*दिनों में|दिनों में पूरा|कार्यक्षमता|पाइप|टंकी|निकासी|मजदूरी/i,
+      defaultTopic: 'Work, Efficiency & Pipes/Cisterns',
+    },
+    {
+      chapter: 'Time, Speed, Distance & Trains',
+      regex: /\bspeed\b|\bvelocity\b|\bdistance\b|\btrain\b|\btrains\b|\bplatform\b|\bboat\b|\bstream\b|\bupstream\b|\bdownstream\b|\btsd\b|km\/h|m\/s|relative speed|circular track|earlier.*late.*minute|average speed|रेलगाड़ी|चाल|दूरी|प्लेटफार्म|नाव|धारा|अनुप्रवाह|ऊर्ध्वप्रवाह/i,
+      defaultTopic: 'Speed, Trains & Boats/Streams',
+    },
+    {
+      chapter: 'Algebra & Equations',
+      regex: /\balgebra\b|\bpolynomial\b|\bquadratic\b|\bdiscriminant\b|\broots of\b|linear equation|unique solution|no solution|infinitely many|coincident lines|factor(?:s|ize)? of.*x|\b[a-z]\s*\+\s*1\/(?:\(?\d*[a-z]\)?)|[a-z]\s*-\s*1\/(?:\(?\d*[a-z]\)?)|[a-z][²2]\s*[+\-]\s*1\/|a\s*\+\s*b\s*\+\s*c\s*=\s*0|\b[a-z][²³23]\s*[+\-]\s*[a-z][²³23]|\([a-z0-9]+pq|xz\s*=\s*y|बीजगणित|बहुपद|द्विघात समीकरण|मूल|समीकरण|रैखिक समीकरण/i,
+      defaultTopic: 'Polynomials, Equations & Identities',
+    },
+    {
+      chapter: 'Ratio, Proportion & Mixture',
+      regex: /\bratio\b|\bproportion\b|\b[A-Za-z]\s*:\s*[A-Za-z]\b|\d+\s*:\s*\d+\b|mean proportional|third proportional|fourth proportional|\bmixture\b|\balligation\b|\bpartnership\b|invested.*business|present age|\bages\b|father.*son|years ago|years hence|अनुपात|समानुपात|मिश्रण|साझेदारी|आयु|वर्तमान आयु/i,
+      defaultTopic: 'Ratio, Proportion, Partnership & Ages',
+    },
+    {
+      chapter: 'Average & Weighted Mean',
+      regex: /\baverage\b|औसत/i,
+      defaultTopic: 'Average & Deviation Problems',
+    },
+    {
+      chapter: 'Percentage',
+      regex: /percent|%|\bpercentage\b|प्रतिशत|election|voter|population|depreciat|income.*spent|expenditure.*savings|marks.*scored.*passed|failed by|जनसंख्या|चुनाव|मतदाता|मूल्यह्रास/i,
+      defaultTopic: 'Percentage & Successive Applications',
     },
     {
       chapter: 'Number System, HCF/LCM & Simplification',
-      regex: /hcf|lcm|divisible|remainder|prime|unit digit|simplif|bodmas|fraction|decimal|square root|cube root|consecutive|sum of.*number|product of.*number|संख्या|ल\.स\.|म\.स\.|सरलीकरण|शेषफल/i,
-      defaultTopic: 'Number System, HCF/LCM & BODMAS',
+      regex: /\bhcf\b|\blcm\b|\bgcd\b|greatest common|least common|divisible|divisibility|\bremainder\b|unit[’']?s? digit|units['’]? place|\bsimplif|\bbodmas\b|vinculum|\bfraction\b|\brecurring\b|\u0304|overline|repeating decimal|terminating decimal|\bsquare root\b|\bcube root\b|\bsurd|\bindices\b|\bexponent\b|laws of indices|rationali|irrational|\bprime\b|co-?prime|composite number|twin prime|face value|place value|trailing zero|number of factors|prime factors|divisors of|consecutive (?:even|odd|natural|whole|positive|integer|multiple)?\s*numbers?|two-digit number|interchang.*digits|natural number|whole number|sum of squares of|√|∛|∜|evaluate\b|value of.*(?:\[|\{|\÷|\/.*\/|[⁰¹²³⁴⁵⁶⁷⁸⁹]|[\d.]+\s*[×÷*/])|संख्या पद्धति|ल\.स\.|म\.स\.|लघुत्तम|महत्तम|सरलीकरण|मान ज्ञात|शेषफल|इकाई अंक|अभाज्य|सह-अभाज्य|विभाज्य|वर्गमूल|घनमूल|दशमलव|भिन्न|क्रमागत.*संख्या|प्राकृत संख्या|अंकों का योग|गुणनखंड/i,
+      defaultTopic: 'Number System, Divisibility, HCF/LCM & BODMAS',
     },
   ],
 

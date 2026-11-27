@@ -1,17 +1,22 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { SUPER_COACHING_DATA } from '../data/superCoachingData';
 import {
   NCERT_CLASSES,
   SUBJECT_SECTIONS,
   NCERT_CHAPTER_CATALOG,
 } from '../data/ncert/ncertCatalog';
+import {
+  MATHS_TRACKS,
+  MATHS_CHAPTER_CATALOG,
+} from '../data/maths/mathsCatalog';
 import NcertProReader from './ncert/NcertProReader';
+import MathsProReader from './maths/MathsProReader';
 import { MathText } from './QuestionContentRenderer';
 import AdBanner from './AdBanner';
 import {
   BookOpen, Sparkles, Zap, Download, Clock, Search,
   CheckCircle2, Printer, Copy, Check, Crown, X, Lock,
-  Atom, FlaskConical, Dna, ChevronRight, Layers, Globe
+  Atom, FlaskConical, Dna, ChevronRight, Layers, Globe, Calculator
 } from 'lucide-react';
 
 const SUBJECT_ICONS = {
@@ -43,14 +48,17 @@ export default function SuperCoachingView({
   hasPassPro = false,
   hideAds = false,
   onStartChapterQuiz,
+  initialHubMode = 'maths',
 }) {
-  const [hubMode, setHubMode] = useState('ncert'); // 'ncert' | 'shortcuts'
+  const [hubMode, setHubMode] = useState(initialHubMode); // 'maths' | 'ncert' | 'shortcuts'
   const [selectedClass, setSelectedClass] = useState('class9'); // 'class9' | 'class10'
   const [subjectFilter, setSubjectFilter] = useState('all'); // 'all' | 'biology' | 'physics' | 'chemistry'
+  const [mathsTrackFilter, setMathsTrackFilter] = useState('all');
   const [catalogLang, setCatalogLang] = useState('hi'); // 'hi' | 'en'
 
-  // Active NCERT Chapter Reader State
+  // Active NCERT / Maths Chapter Reader State
   const [activeChapterData, setActiveChapterData] = useState(null);
+  const [activeMathsData, setActiveMathsData] = useState(null);
   const [loadingChapterId, setLoadingChapterId] = useState(null);
 
   // Classic Formula / Shortcut Notes State
@@ -61,6 +69,32 @@ export default function SuperCoachingView({
   const [copiedAll, setCopiedAll] = useState(false);
 
   const isPdfUnlocked = hasPassPro;
+
+  useEffect(() => {
+    if (initialHubMode) {
+      setHubMode(initialHubMode);
+    }
+  }, [initialHubMode]);
+
+  const handleOpenMathsChapter = async (chapter) => {
+    if (chapter.status !== 'live' || !chapter.loader) return;
+    setLoadingChapterId(chapter.id);
+    try {
+      const mod = await chapter.loader();
+      const loaded =
+        (mod && mod.sections ? mod : null) ||
+        mod?.CH1_NUMBER_SYSTEM_DATA ||
+        mod?.default ||
+        Object.values(mod || {}).find((v) => v && typeof v === 'object' && Array.isArray(v.sections)) ||
+        Object.values(mod || {})[0];
+      setActiveMathsData(loaded);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } catch (err) {
+      console.error('Failed to load Maths chapter:', err);
+    } finally {
+      setLoadingChapterId(null);
+    }
+  };
 
   const handleOpenNcertChapter = async (chapter) => {
     if (chapter.status !== 'live' || !chapter.loader) return;
@@ -107,6 +141,29 @@ export default function SuperCoachingView({
     }
   }, [activeChapterData]);
 
+  const mathsRevisedMap = useMemo(() => {
+    try {
+      return JSON.parse(localStorage.getItem('railwayprep_maths_revised_v1') || '{}');
+    } catch {
+      return {};
+    }
+  }, [activeMathsData]);
+
+  // If full Maths Mastery Pro Reader is open
+  if (hubMode === 'maths' && activeMathsData) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <MathsProReader
+          chapterData={activeMathsData}
+          onBack={() => setActiveMathsData(null)}
+          hasPassPro={hasPassPro}
+          onOpenPassPro={onOpenPassPro}
+          onStartChapterQuiz={onStartChapterQuiz}
+        />
+      </div>
+    );
+  }
+
   // If a full NCERT Chapter Reader is open, render the immersive reader workspace
   if (hubMode === 'ncert' && activeChapterData) {
     return (
@@ -140,14 +197,22 @@ export default function SuperCoachingView({
             )}
           </div>
           <h2 className="text-2xl sm:text-3xl font-black text-white">
-            {hubMode === 'ncert'
+            {hubMode === 'maths'
+              ? catalogLang === 'hi'
+                ? 'गणित मास्टरी प्रो (Zero-to-Topper) — 13 अध्याय'
+                : 'Railway Maths Mastery Pro (Zero-to-Topper)'
+              : hubMode === 'ncert'
               ? catalogLang === 'hi'
                 ? 'NCERT कक्षा 9 व 10 विज्ञान — Pro Notes'
                 : 'NCERT Class 9 & 10 Science — Pro Notes'
               : 'High-Yield Formula & Shortcut Hub'}
           </h2>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
-            {hubMode === 'ncert'
+            {hubMode === 'maths'
+              ? catalogLang === 'hi'
+                ? 'शून्य से टॉपर संपूर्ण क्लास: सभी नियम, 5-इन-1 एनिमेटेड SVG लैब, टाइप-वाइज PYQs (बेसिक + स्मार्ट + 3-सेकंड ऑप्शन ट्रिक) — बिना किसी कोचिंग के एग्जाम क्रैक करें!'
+                : 'Complete classroom replacement: zero-base theory, animated SVG labs, Decision Matrix, RRB Trap Alerts & Type-wise PYQs solved with 2–4 methods!'
+              : hubMode === 'ncert'
               ? catalogLang === 'hi'
                 ? 'नया 2026–27 पाठ्यक्रम: भौतिकी, रसायन और जीव विज्ञान में प्रत्येक टॉपिक, क्रियाकलाप, तालिका, एनिमेटेड SVG लैब और रेलवे PYQ।'
                 : 'New 2026–27 Syllabus organized cleanly into Biology, Physics & Chemistry with Activities, Tables, SVG Labs & RRB PYQs.'
@@ -180,6 +245,22 @@ export default function SuperCoachingView({
       <div className="flex flex-wrap items-center justify-between gap-3 my-5">
         <div className="flex flex-wrap gap-2">
           <button
+            onClick={() => setHubMode('maths')}
+            className={`px-4 py-2.5 rounded-2xl text-xs font-black flex items-center gap-2 border cursor-pointer transition-all ${
+              hubMode === 'maths'
+                ? 'bg-gradient-to-r from-emerald-400 to-teal-400 text-slate-950 border-emerald-200 shadow-lg shadow-emerald-950/50'
+                : 'bg-slate-900 text-slate-300 border-slate-800 hover:border-slate-700'
+            }`}
+          >
+            <Calculator className="w-4 h-4" />
+            <span>
+              {catalogLang === 'hi'
+                ? '📐 गणित मास्टरी प्रो (Ch 1 LIVE • 2–4 विधियाँ)'
+                : '📐 Maths Mastery Pro (Ch 1 LIVE • Multi-Method)'}
+            </span>
+          </button>
+
+          <button
             onClick={() => setHubMode('ncert')}
             className={`px-4 py-2.5 rounded-2xl text-xs font-black flex items-center gap-2 border cursor-pointer transition-all ${
               hubMode === 'ncert'
@@ -206,7 +287,7 @@ export default function SuperCoachingView({
             <Zap className="w-4 h-4" />
             <span>
               {catalogLang === 'hi'
-                ? '⚡ शॉर्टकट फॉर्मूला (Maths / Reasoning / Quick Science)'
+                ? '⚡ शॉर्टकट फॉर्मूला (Quick Vault)'
                 : '⚡ Formula & Shortcut Vault'}
             </span>
           </button>
@@ -214,6 +295,167 @@ export default function SuperCoachingView({
       </div>
 
       <AdBanner slot="inFeedNative" onOpenPassPro={onOpenPassPro} hideAds={hideAds} />
+
+      {/* ================= MODE 0: MATHS MASTERY PRO (ZERO-TO-TOPPER) ================= */}
+      {hubMode === 'maths' && (
+        <div className="space-y-6 mt-5">
+          {/* Track Filter Pills + Search */}
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+              <button
+                type="button"
+                onClick={() => setMathsTrackFilter('all')}
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold cursor-pointer border transition-colors ${
+                  mathsTrackFilter === 'all'
+                    ? 'bg-white text-slate-950 border-white'
+                    : 'bg-slate-900 text-slate-300 border-slate-800 hover:border-slate-600'
+                }`}
+              >
+                {catalogLang === 'hi' ? 'सभी 13 अध्याय' : 'All 13 Chapters'}
+              </button>
+              {MATHS_TRACKS.map((trk) => (
+                <button
+                  key={trk.id}
+                  type="button"
+                  onClick={() => setMathsTrackFilter(trk.id)}
+                  className={`px-3.5 py-1.5 rounded-xl text-xs font-bold cursor-pointer border transition-colors ${
+                    mathsTrackFilter === trk.id
+                      ? 'bg-emerald-400 text-slate-950 border-emerald-200'
+                      : 'bg-slate-900 text-slate-300 border-slate-800 hover:border-slate-600'
+                  }`}
+                >
+                  {trk.shortLabel[catalogLang]}
+                </button>
+              ))}
+            </div>
+
+            <div className="relative w-full sm:w-72">
+              <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+              <input
+                type="text"
+                placeholder={catalogLang === 'hi' ? 'गणित अध्याय या टॉपिक खोजें...' : 'Search Maths chapter...'}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-200 placeholder:text-slate-500 focus:outline-none focus:border-teal-500"
+              />
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            {MATHS_TRACKS.filter((t) => mathsTrackFilter === 'all' || mathsTrackFilter === t.id).map((trk) => {
+              const sty = SUBJECT_STYLES[trk.accent] || SUBJECT_STYLES.emerald;
+              const chapters = MATHS_CHAPTER_CATALOG.filter((ch) => {
+                if (ch.trackId !== trk.id) return false;
+                if (!searchQuery.trim()) return true;
+                const q = searchQuery.toLowerCase();
+                return (
+                  ch.title.en.toLowerCase().includes(q) ||
+                  ch.title.hi.toLowerCase().includes(q) ||
+                  ch.tagline.en.toLowerCase().includes(q) ||
+                  ch.tagline.hi.toLowerCase().includes(q)
+                );
+              });
+              if (chapters.length === 0) return null;
+
+              return (
+                <div key={trk.id} className={`rounded-3xl bg-slate-900/55 border ${sty.border} p-5 sm:p-6 space-y-4`}>
+                  <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-800/90">
+                    <div className="flex items-center gap-3">
+                      <div className={`w-10 h-10 rounded-2xl flex items-center justify-center ${sty.iconBg}`}>
+                        <Calculator className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <h3 className="text-base sm:text-lg font-black text-white">{trk.label[catalogLang]}</h3>
+                        <p className="text-xs text-slate-400">{trk.description[catalogLang]}</p>
+                      </div>
+                    </div>
+                    <span className={`px-3 py-1 rounded-full border text-[11px] font-black ${sty.badge}`}>
+                      {chapters.length} {catalogLang === 'hi' ? 'अध्याय' : 'Chapters'}
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {chapters.map((ch) => {
+                      const isLive = ch.status === 'live';
+                      const isRev = Boolean(mathsRevisedMap[ch.id]);
+                      return (
+                        <div
+                          key={ch.id}
+                          onClick={() => isLive && handleOpenMathsChapter(ch)}
+                          className={`p-4 sm:p-5 rounded-2xl border transition-all flex flex-col justify-between gap-3 ${
+                            isLive
+                              ? 'bg-[#080E1E] border-emerald-400/65 hover:border-emerald-300 shadow-lg shadow-emerald-950/30 cursor-pointer hover:scale-[1.01]'
+                              : 'bg-slate-950/45 border-slate-800/80 opacity-80'
+                          }`}
+                        >
+                          <div className="space-y-2">
+                            <div className="flex flex-wrap items-center justify-between gap-1.5">
+                              <div className="flex items-center gap-1.5 flex-wrap">
+                                <span className="px-2 py-0.5 rounded-lg bg-slate-800 text-slate-200 text-[10px] font-black">
+                                  Ch {ch.chapterNumber}
+                                </span>
+                                {isLive ? (
+                                  <span className="px-2.5 py-0.5 rounded-full bg-emerald-500 text-slate-950 text-[10px] font-black uppercase animate-pulse">
+                                    ● LIVE • DEEP-DIVE STUDIO
+                                  </span>
+                                ) : (
+                                  <span className="px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 text-[10px] font-bold">
+                                    {catalogLang === 'hi' ? 'क्रमशः अगला अध्याय' : 'Queued 1-by-1'}
+                                  </span>
+                                )}
+                                {isRev && (
+                                  <span className="px-2 py-0.5 rounded-full bg-teal-500/20 text-teal-300 text-[9px] font-black">
+                                    ✓ Revised
+                                  </span>
+                                )}
+                              </div>
+                              <span className="text-[10px] font-bold text-amber-300">
+                                🔥 {ch.pyqHits}+ Shift PYQs
+                              </span>
+                            </div>
+
+                            <h4 className="text-sm sm:text-base font-black text-white">{ch.title[catalogLang]}</h4>
+                            <p className="text-xs text-slate-400 leading-relaxed">{ch.tagline[catalogLang]}</p>
+                          </div>
+
+                          {isLive ? (
+                            <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between gap-2">
+                              <span className="text-[11px] font-bold text-teal-300 flex items-center gap-1.5">
+                                <Layers className="w-3.5 h-3.5" />
+                                <span>
+                                  {ch.typesCount} Types • {ch.methodsPerQuestion} • {ch.svgLabsCount} SVG Labs
+                                </span>
+                              </span>
+                              <span className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-emerald-500 text-slate-950 text-xs font-black">
+                                <span>
+                                  {loadingChapterId === ch.id
+                                    ? 'Loading...'
+                                    : catalogLang === 'hi'
+                                    ? 'क्लास खोलें'
+                                    : 'Open Class'}
+                                </span>
+                                <ChevronRight className="w-3.5 h-3.5" />
+                              </span>
+                            </div>
+                          ) : (
+                            <div className="pt-2 border-t border-slate-800/60 flex items-center justify-between text-[11px] text-slate-500">
+                              <span>{ch.typesCount} Types • {ch.methodsPerQuestion}</span>
+                              <span className="inline-flex items-center gap-1">
+                                <Lock className="w-3 h-3" />
+                                {catalogLang === 'hi' ? 'क्रम से अपडेट होगा' : 'Next Queue'}
+                              </span>
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* ================= MODE 1: NCERT CLASS 9 & 10 PRO HUB ================= */}
       {hubMode === 'ncert' && (

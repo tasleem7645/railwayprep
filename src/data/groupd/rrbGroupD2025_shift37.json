@@ -1285,10 +1285,46 @@
     "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (0.23) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (0.23) सही उत्तर है।"
+      "approach": "Verified Answer: **0.23** ($z = 0.2344 \\approx 0.23$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 24! Directly equate exponents: $0.64z = 0.05 \\times 3 = 0.15 \\Rightarrow z = 0.15 / 0.64 \\approx 0.23$.",
+        "hi": "डमी आधार 24 को छोड़ें! सीधे घात बराबर करें: $0.64z = 0.05 \\times 3 \\Rightarrow z \\approx 0.23$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 24^{0.64}$ and $y = 24^{0.05}$ into $x^z = y^{3}$:\n$24^{0.64z} = 24^{0.05 \\times 3} = 24^{0.15}$.\nSince bases are equal, $0.64z = 0.15 \\Rightarrow z = \\frac{0.15}{0.64} = 0.2344 \\approx \\mathbf{0.23}$.",
+            "hi": "$x = 24^{0.64}$ व $y = 24^{0.05}$ को $x^z = y^{3}$ में रखें:\n$24^{0.64z} = 24^{0.15} \\Rightarrow 0.64z = 0.15 \\Rightarrow z \\approx \\mathbf{0.23}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.05 : 0.64 = 5 : 64$ ⇒ $z = \\frac{5 \\times 3}{64} = 0.234 \\approx \\mathbf{0.23}$.",
+            "hi": "सीधा $z = \\frac{0.05 \\times 3}{0.64} \\approx \\mathbf{0.23}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 24^{0.64}$ and $y = 24^{0.05}$ into $x^z = y^{3}$:\n$24^{0.64z} = 24^{0.05 \\times 3} = 24^{0.15}$.\nSince bases are equal, $0.64z = 0.15 \\Rightarrow z = \\frac{0.15}{0.64} = 0.2344 \\approx \\mathbf{0.23}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.05 : 0.64 = 5 : 64$ ⇒ $z = \\frac{5 \\times 3}{64} = 0.234 \\approx \\mathbf{0.23}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 24^{0.64}$ व $y = 24^{0.05}$ को $x^z = y^{3}$ में रखें:\n$24^{0.64z} = 24^{0.15} \\Rightarrow 0.64z = 0.15 \\Rightarrow z \\approx \\mathbf{0.23}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.05 \\times 3}{0.64} \\approx \\mathbf{0.23}$।"
     }
   },
   {

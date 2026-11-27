@@ -1183,10 +1183,42 @@
     "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • HCF and LCM",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (36) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (36) सही उत्तर है।"
+      "approach": "Verified Answer: **36**.",
+      "keyConcept": "Product of Two Numbers (A × B) = HCF × LCM",
+      "pyqType": {
+        "en": "HCF × LCM = A × B Identity",
+        "hi": "HCF × LCM = A × B सूत्र"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$)",
+            "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$)"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Other Number $= \\frac{1944}{54} = \\mathbf{36}$.",
+            "hi": "दूसरी संख्या $= \\frac{1944}{54} = \\mathbf{36}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit Digit & `C9` Cross-Check (`3 sec`)",
+            "hi": "विधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check last digit & C9 alignment directly against options without heavy division -> **36**!",
+            "hi": "अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **36**!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$): Other Number $= \\frac{1944}{54} = \\mathbf{36}$.\n\nMethod 2: Unit Digit & `C9` Cross-Check (`3 sec`): Check last digit & C9 alignment directly against options without heavy division -> **36**!",
+      "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$): दूसरी संख्या $= \\frac{1944}{54} = \\mathbf{36}$।\n\nविधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`): अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **36**!"
     }
   },
   {
@@ -1251,10 +1283,46 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (8.33) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (8.33) सही उत्तर है।"
+      "approach": "Verified Answer: **8.33** ($z = 8.3333 \\approx 8.33$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 17! Directly equate exponents: $0.3z = 0.5 \\times 5 = 2.50 \\Rightarrow z = 2.50 / 0.3 \\approx 8.33$.",
+        "hi": "डमी आधार 17 को छोड़ें! सीधे घात बराबर करें: $0.3z = 0.5 \\times 5 \\Rightarrow z \\approx 8.33$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 17^{0.3}$ and $y = 17^{0.5}$ into $x^z = y^{5}$:\n$17^{0.3z} = 17^{0.5 \\times 5} = 17^{2.50}$.\nSince bases are equal, $0.3z = 2.50 \\Rightarrow z = \\frac{2.50}{0.3} = 8.3333 \\approx \\mathbf{8.33}$.",
+            "hi": "$x = 17^{0.3}$ व $y = 17^{0.5}$ को $x^z = y^{5}$ में रखें:\n$17^{0.3z} = 17^{2.50} \\Rightarrow 0.3z = 2.50 \\Rightarrow z \\approx \\mathbf{8.33}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.5 : 0.3 = 5 : 3$ ⇒ $z = \\frac{5 \\times 5}{3} = 25/3 \\approx \\mathbf{8.33}$.",
+            "hi": "सीधा $z = \\frac{0.5 \\times 5}{0.3} \\approx \\mathbf{8.33}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 17^{0.3}$ and $y = 17^{0.5}$ into $x^z = y^{5}$:\n$17^{0.3z} = 17^{0.5 \\times 5} = 17^{2.50}$.\nSince bases are equal, $0.3z = 2.50 \\Rightarrow z = \\frac{2.50}{0.3} = 8.3333 \\approx \\mathbf{8.33}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.5 : 0.3 = 5 : 3$ ⇒ $z = \\frac{5 \\times 5}{3} = 25/3 \\approx \\mathbf{8.33}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 17^{0.3}$ व $y = 17^{0.5}$ को $x^z = y^{5}$ में रखें:\n$17^{0.3z} = 17^{2.50} \\Rightarrow 0.3z = 2.50 \\Rightarrow z \\approx \\mathbf{8.33}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.5 \\times 5}{0.3} \\approx \\mathbf{8.33}$।"
     }
   },
   {

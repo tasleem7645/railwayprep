@@ -26,10 +26,10 @@ const SUPER_NOTES_PREVIEW = [
   },
   {
     id: 'maths',
-    subject: '2-Second Maths Tricks',
-    badge: 'Speed Shortcuts',
-    desc: 'Ratio, Percentage, SI/CI Diff, Trains, Trigonometry & Mensuration.',
-    color: 'from-amber-500/15 to-orange-500/5 border-amber-500/30 text-amber-300',
+    subject: 'Maths Mastery Pro (Zero-to-Topper)',
+    badge: 'CH 1 LIVE • 5 LABS',
+    desc: 'Number System, Divisibility, HCF–LCM & VBODMAS • 2–4 Methods per PYQ + Animated SVG Labs.',
+    color: 'from-emerald-500/20 to-teal-500/10 border-emerald-400/45 text-emerald-300',
   },
   {
     id: 'reasoning',
@@ -393,7 +393,12 @@ export default function HomeShowcaseSections({
             <button
               key={n.id}
               type="button"
-              onClick={() => onOpenTab('super-coaching')}
+              onClick={() =>
+                onOpenTab(
+                  'super-coaching',
+                  n.id === 'science' ? 'ncert' : n.id === 'maths' ? 'maths' : 'shortcuts'
+                )
+              }
               className={`p-4 rounded-2xl bg-gradient-to-br ${n.color} border text-left hover:scale-[1.01] transition-all cursor-pointer flex flex-col justify-between`}
             >
               <div>

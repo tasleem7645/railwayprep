@@ -421,10 +421,42 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 7)",
-      "en": "Correct Answer: Option B (144). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (144)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Verified Answer: **144**.",
+      "keyConcept": "Product of Two Numbers (A × B) = HCF × LCM",
+      "pyqType": {
+        "en": "HCF × LCM = A × B Identity",
+        "hi": "HCF × LCM = A × B सूत्र"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$)",
+            "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$)"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Other Number $= \\frac{48 \\times 576}{192} = \\mathbf{144}$.",
+            "hi": "दूसरी संख्या $= \\frac{48 \\times 576}{192} = \\mathbf{144}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit Digit & `C9` Cross-Check (`3 sec`)",
+            "hi": "विधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check last digit & C9 alignment directly against options without heavy division -> **144**!",
+            "hi": "अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **144**!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$): Other Number $= \\frac{48 \\times 576}{192} = \\mathbf{144}$.\n\nMethod 2: Unit Digit & `C9` Cross-Check (`3 sec`): Check last digit & C9 alignment directly against options without heavy division -> **144**!",
+      "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$): दूसरी संख्या $= \\frac{48 \\times 576}{192} = \\mathbf{144}$।\n\nविधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`): अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **144**!"
     },
     "correctIndexHi": 1
   },
@@ -949,10 +981,42 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 7)",
-      "en": "Correct Answer: Option A (48363). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (48363)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Verified Answer: Option A (**48363**) is divisible by 47 and 21.",
+      "keyConcept": "Divisibility Check for 47 and 21: Apply Last-Digit / Digit-Sum / Alternating Rule First",
+      "pyqType": {
+        "en": "Divisibility Rules MCQ",
+        "hi": "विभाज्यता नियम"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check Divisibility by 47 and 21",
+            "hi": "विधि 1: 47 and 21 से पूर्ण विभाजन जाँच"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "• $48363 \\div 47 = 1029$ (Remainder `0` ✓)\n• $48363 \\div 21 = 2303$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.",
+            "hi": "• $48363 \\div 47 = 1029$ (शेष `0` ✓)\n• $48363 \\div 21 = 2303$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Unit/Digit-Sum Elimination (`3 sec`)",
+            "hi": "विधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=6 (for 3/9). Only **48363** satisfies every condition!",
+            "hi": "सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=6 से गलत विकल्प हटाने पर केवल **48363** बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Check Divisibility by 47 and 21: • $48363 \\div 47 = 1029$ (Remainder `0` ✓)\n• $48363 \\div 21 = 2303$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.\n\nMethod 2: Smart Unit/Digit-Sum Elimination (`3 sec`): Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=6 (for 3/9). Only **48363** satisfies every condition!",
+      "hi": "विधि 1: 47 and 21 से पूर्ण विभाजन जाँच: • $48363 \\div 47 = 1029$ (शेष `0` ✓)\n• $48363 \\div 21 = 2303$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।\n\nविधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`): सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=6 से गलत विकल्प हटाने पर केवल **48363** बचता है!"
     },
     "correctIndexHi": 0
   },

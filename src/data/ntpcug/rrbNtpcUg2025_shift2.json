@@ -1584,10 +1584,42 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (15) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (15) सही उत्तर है।"
+      "approach": "Verified Answer: **15** ($14 \\times 15 = 210$).",
+      "keyConcept": "Product of Consecutive n(n+1) = P ⇒ Split Around √P",
+      "pyqType": {
+        "en": "Consecutive Number Product",
+        "hi": "क्रमागत संख्या गुणनफल"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation $x(x+1) = 210$",
+            "hi": "विधि 1: द्विघात समीकरण से हल"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x(x+1) = 210 \\Rightarrow x^2 + x - 210 = 0 \\Rightarrow (x + 15)(x - 14) = 0 \\Rightarrow x = 14, x+1 = 15$. Answer: **15**.",
+            "hi": "$x^2 + x - 210 = 0$ के गुणनखंड करने पर $(14, 15)$ प्राप्त होते हैं ⇒ उत्तर **15**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Square Sandwich $14^2 < 210 < 15^2$ (`3 sec`)",
+            "hi": "विधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $14^2 = 196 < 210 < 15^2 = 225$, the consecutive numbers MUST be **14 & 15**!",
+            "hi": "$196 < 210 < 225$ ($14^2$ व $15^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **14, 15**!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation $x(x+1) = 210$: $x(x+1) = 210 \\Rightarrow x^2 + x - 210 = 0 \\Rightarrow (x + 15)(x - 14) = 0 \\Rightarrow x = 14, x+1 = 15$. Answer: **15**.\n\nMethod 2: Square Sandwich $14^2 < 210 < 15^2$ (`3 sec`): Since $14^2 = 196 < 210 < 15^2 = 225$, the consecutive numbers MUST be **14 & 15**!",
+      "hi": "विधि 1: द्विघात समीकरण से हल: $x^2 + x - 210 = 0$ के गुणनखंड करने पर $(14, 15)$ प्राप्त होते हैं ⇒ उत्तर **15**।\n\nविधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`): $196 < 210 < 225$ ($14^2$ व $15^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **14, 15**!"
     }
   },
   {
@@ -1881,10 +1913,42 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (6830904) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (6830904) सही उत्तर है।"
+      "approach": "Verified Answer: Option D (**6830904**) is divisible by 24.",
+      "keyConcept": "Divisibility Check for 24: Apply Last-Digit / Digit-Sum / Alternating Rule First",
+      "pyqType": {
+        "en": "Divisibility Rules MCQ",
+        "hi": "विभाज्यता नियम"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check Divisibility by 24",
+            "hi": "विधि 1: 24 से पूर्ण विभाजन जाँच"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "• $6830904 \\div 24 = 284621$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.",
+            "hi": "• $6830904 \\div 24 = 284621$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Unit/Digit-Sum Elimination (`3 sec`)",
+            "hi": "विधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=3 (for 3/9). Only **6830904** satisfies every condition!",
+            "hi": "सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=3 से गलत विकल्प हटाने पर केवल **6830904** बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Check Divisibility by 24: • $6830904 \\div 24 = 284621$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.\n\nMethod 2: Smart Unit/Digit-Sum Elimination (`3 sec`): Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=3 (for 3/9). Only **6830904** satisfies every condition!",
+      "hi": "विधि 1: 24 से पूर्ण विभाजन जाँच: • $6830904 \\div 24 = 284621$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।\n\nविधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`): सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=3 से गलत विकल्प हटाने पर केवल **6830904** बचता है!"
     }
   },
   {

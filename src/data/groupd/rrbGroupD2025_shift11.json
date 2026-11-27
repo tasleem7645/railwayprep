@@ -1115,10 +1115,46 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (6.48) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (6.48) सही उत्तर है।"
+      "approach": "Verified Answer: **6.48** ($z = 6.4844 \\approx 6.48$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 109! Directly equate exponents: $0.64z = 0.83 \\times 5 = 4.15 \\Rightarrow z = 4.15 / 0.64 \\approx 6.48$.",
+        "hi": "डमी आधार 109 को छोड़ें! सीधे घात बराबर करें: $0.64z = 0.83 \\times 5 \\Rightarrow z \\approx 6.48$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 109^{0.64}$ and $y = 109^{0.83}$ into $x^z = y^{5}$:\n$109^{0.64z} = 109^{0.83 \\times 5} = 109^{4.15}$.\nSince bases are equal, $0.64z = 4.15 \\Rightarrow z = \\frac{4.15}{0.64} = 6.4844 \\approx \\mathbf{6.48}$.",
+            "hi": "$x = 109^{0.64}$ व $y = 109^{0.83}$ को $x^z = y^{5}$ में रखें:\n$109^{0.64z} = 109^{4.15} \\Rightarrow 0.64z = 4.15 \\Rightarrow z \\approx \\mathbf{6.48}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.83 : 0.64 = 83 : 64$ ⇒ $z = \\frac{83 \\times 5}{64} = 6.484 \\approx \\mathbf{6.48}$.",
+            "hi": "सीधा $z = \\frac{0.83 \\times 5}{0.64} \\approx \\mathbf{6.48}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 109^{0.64}$ and $y = 109^{0.83}$ into $x^z = y^{5}$:\n$109^{0.64z} = 109^{0.83 \\times 5} = 109^{4.15}$.\nSince bases are equal, $0.64z = 4.15 \\Rightarrow z = \\frac{4.15}{0.64} = 6.4844 \\approx \\mathbf{6.48}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.83 : 0.64 = 83 : 64$ ⇒ $z = \\frac{83 \\times 5}{64} = 6.484 \\approx \\mathbf{6.48}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 109^{0.64}$ व $y = 109^{0.83}$ को $x^z = y^{5}$ में रखें:\n$109^{0.64z} = 109^{4.15} \\Rightarrow 0.64z = 4.15 \\Rightarrow z \\approx \\mathbf{6.48}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.83 \\times 5}{0.64} \\approx \\mathbf{6.48}$।"
     }
   },
   {

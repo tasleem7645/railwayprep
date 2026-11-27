@@ -1848,10 +1848,42 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (90, 42) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (90, 42) सही उत्तर है।"
+      "approach": "Verified Answer: **90, 42** (Sum = 132, LCM = 630).",
+      "keyConcept": "Key Theorem: HCF(A, B) = HCF(Sum A+B, LCM)",
+      "pyqType": {
+        "en": "Sum & LCM Given -> Find Numbers",
+        "hi": "योग व LCM से दोनों संख्याएं निकालना"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find HCF = HCF(Sum, LCM) -> Split Ratios",
+            "hi": "विधि 1: HCF = HCF(योग, LCM) से दोनों संख्याएं"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Remember: $\\text{HCF}(A, B) = \\text{HCF}(132, 630) = \\mathbf{6}$.\n2) Let numbers be $6x$ and $6y$ (co-prime). Then $x + y = 132/6 = 22$ and $xy = 630/6 = 105$.\n3) Solving gives co-prime pair $(15, 7)$ ⇒ Numbers $= \\mathbf{90, 42}$.",
+            "hi": "1) सदैव $\\text{HCF}(A, B) = \\text{HCF}(\\text{योग}, \\text{LCM}) = \\text{HCF}(132, 630) = \\mathbf{6}$।\n2) अतः $x + y = 22$ और $xy = 105$ ⇒ युग्म $(15, 7)$ ⇒ संख्याएं **90, 42**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reverse Option Check (`4 sec`)",
+            "hi": "विधि 2: विकल्प सत्यापन (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Simply check options where Sum = 132 AND 630 is divisible by BOTH numbers: **90 + 42 = 132** and both divide 630 cleanly!",
+            "hi": "सिर्फ यह जांचें कि किस विकल्प का योग 132 है और दोनों संख्याएं 630 को पूरा काटती हैं ⇒ **90, 42**!"
+          }
+        }
+      ],
+      "en": "Method 1: Find HCF = HCF(Sum, LCM) -> Split Ratios: 1) Remember: $\\text{HCF}(A, B) = \\text{HCF}(132, 630) = \\mathbf{6}$.\n2) Let numbers be $6x$ and $6y$ (co-prime). Then $x + y = 132/6 = 22$ and $xy = 630/6 = 105$.\n3) Solving gives co-prime pair $(15, 7)$ ⇒ Numbers $= \\mathbf{90, 42}$.\n\nMethod 2: Reverse Option Check (`4 sec`): Simply check options where Sum = 132 AND 630 is divisible by BOTH numbers: **90 + 42 = 132** and both divide 630 cleanly!",
+      "hi": "विधि 1: HCF = HCF(योग, LCM) से दोनों संख्याएं: 1) सदैव $\\text{HCF}(A, B) = \\text{HCF}(\\text{योग}, \\text{LCM}) = \\text{HCF}(132, 630) = \\mathbf{6}$।\n2) अतः $x + y = 22$ और $xy = 105$ ⇒ युग्म $(15, 7)$ ⇒ संख्याएं **90, 42**।\n\nविधि 2: विकल्प सत्यापन (`4 सेकंड`): सिर्फ यह जांचें कि किस विकल्प का योग 132 है और दोनों संख्याएं 630 को पूरा काटती हैं ⇒ **90, 42**!"
     }
   },
   {
@@ -2178,10 +2210,42 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (M - N = 4) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (M - N = 4) सही उत्तर है।"
+      "approach": "Verified Answer: **M - N = 4** (Satisfies 11 divisibility alternating sum rule).",
+      "keyConcept": "Rule of 11: Odd Positions Sum − Even Positions Sum = 0, ±11",
+      "pyqType": {
+        "en": "NTPC Divisibility Relation (M & N)",
+        "hi": "NTPC 11-विभाज्यता संबंध (M व N)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Apply 11 Alternating Difference Equation",
+            "hi": "विधि 1: 11 के सम-विषम अंतर समीकरण से"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Number = `N09M82`. Odd positions (N + 9 + 8) minus Even positions (0 + M + 2) $= 15 - M + N$.\nSetting this equal to `0` (or `±11`) gives **M - N = 4**!",
+            "hi": "`N09M82` में (विषम स्थान योग − सम स्थान योग) $= 15 − M + N$ को `0` या `±11` रखने पर तुरंत **M - N = 4** प्राप्त होता है!"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put `N = 1` Dummy Value (`4 sec`)",
+            "hi": "विधि 2: `N = 1` मान रखकर तुरंत चेक (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Put $N = 1$ cleanly and pick smallest digit $M$ so the resulting 6-digit number divides by 11! Compute $M - N$ -> directly matches **M - N = 4**.",
+            "hi": "सीधे $N = 1$ मानकर `11` से कटने वाला $M$ चुनें और $M - N$ जांचें — **M - N = 4** 4 सेकंड में पक्का!"
+          }
+        }
+      ],
+      "en": "Method 1: Apply 11 Alternating Difference Equation: Number = `N09M82`. Odd positions (N + 9 + 8) minus Even positions (0 + M + 2) $= 15 - M + N$.\nSetting this equal to `0` (or `±11`) gives **M - N = 4**!\n\nMethod 2: Put `N = 1` Dummy Value (`4 sec`): Put $N = 1$ cleanly and pick smallest digit $M$ so the resulting 6-digit number divides by 11! Compute $M - N$ -> directly matches **M - N = 4**.",
+      "hi": "विधि 1: 11 के सम-विषम अंतर समीकरण से: `N09M82` में (विषम स्थान योग − सम स्थान योग) $= 15 − M + N$ को `0` या `±11` रखने पर तुरंत **M - N = 4** प्राप्त होता है!\n\nविधि 2: `N = 1` मान रखकर तुरंत चेक (`4 सेकंड`): सीधे $N = 1$ मानकर `11` से कटने वाला $M$ चुनें और $M - N$ जांचें — **M - N = 4** 4 सेकंड में पक्का!"
     }
   },
   {

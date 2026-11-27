@@ -1217,10 +1217,46 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (15.75) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (15.75) सही उत्तर है।"
+      "approach": "Verified Answer: **15.75** ($z = 15.75 \\approx 15.75$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 86! Directly equate exponents: $0.2z = 0.35 \\times 9 = 3.15 \\Rightarrow z = 3.15 / 0.2 \\approx 15.75$.",
+        "hi": "डमी आधार 86 को छोड़ें! सीधे घात बराबर करें: $0.2z = 0.35 \\times 9 \\Rightarrow z \\approx 15.75$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 86^{0.2}$ and $y = 86^{0.35}$ into $x^z = y^{9}$:\n$86^{0.2z} = 86^{0.35 \\times 9} = 86^{3.15}$.\nSince bases are equal, $0.2z = 3.15 \\Rightarrow z = \\frac{3.15}{0.2} = 15.7500 \\approx \\mathbf{15.75}$.",
+            "hi": "$x = 86^{0.2}$ व $y = 86^{0.35}$ को $x^z = y^{9}$ में रखें:\n$86^{0.2z} = 86^{3.15} \\Rightarrow 0.2z = 3.15 \\Rightarrow z \\approx \\mathbf{15.75}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.35 : 0.2 = 7 : 4$ ⇒ $z = \\frac{7 \\times 9}{4} = 15.750 \\approx \\mathbf{15.75}$.",
+            "hi": "सीधा $z = \\frac{0.35 \\times 9}{0.2} \\approx \\mathbf{15.75}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 86^{0.2}$ and $y = 86^{0.35}$ into $x^z = y^{9}$:\n$86^{0.2z} = 86^{0.35 \\times 9} = 86^{3.15}$.\nSince bases are equal, $0.2z = 3.15 \\Rightarrow z = \\frac{3.15}{0.2} = 15.7500 \\approx \\mathbf{15.75}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.35 : 0.2 = 7 : 4$ ⇒ $z = \\frac{7 \\times 9}{4} = 15.750 \\approx \\mathbf{15.75}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 86^{0.2}$ व $y = 86^{0.35}$ को $x^z = y^{9}$ में रखें:\n$86^{0.2z} = 86^{3.15} \\Rightarrow 0.2z = 3.15 \\Rightarrow z \\approx \\mathbf{15.75}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.35 \\times 9}{0.2} \\approx \\mathbf{15.75}$।"
     }
   },
   {

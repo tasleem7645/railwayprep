@@ -1048,10 +1048,42 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
-      "en": "Correct Answer: Option D (604 / 15). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (604 / 15)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**604 / 15**).",
+      "keyConcept": "Negative × Negative = Positive + Division Precedes Subtraction!",
+      "optionTrick": {
+        "en": "Right denominator block `[5 × (2+1)] = 15`. Numerator `60×15 − (-8)×(-37) = 900 − 296`: just check **last 2 digits** `00 - 96 -> ...04`! Among options `[594, 614, 608, 604]/15`, **ONLY `604/15` ends in `04`**!",
+        "hi": "हर `[5×3] = 15` है; अंश में `60×15 − 8×37 = 900 − 296` -> अंतिम दो अंक `...04` (`900−296` का `04`)! केवल **`604/15`** में `04` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Careful Sign + Bracket Evaluation",
+            "hi": "विधि 1: चिह्न व कोष्ठक चरणबद्ध हल"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Left curly: $(-16 - 19 - 2) = -37$, so $(-8) \\times (-37) = +296$.\n2) Right square: $(-1)(-1) = +1 \\Rightarrow \\{2 + 1\\} = 3 \\Rightarrow [5 \\times 3] = 15$.\n3) Combine: $60 - 296 \\div 15 = \\frac{60 \\times 15 - 296}{15} = \\frac{900 - 296}{15} = \\mathbf{\\frac{604}{15}}$.",
+            "hi": "1) `{(-8)×(-37)} = +296`; `[5×{2+1}] = 15`।\n2) `60 − 296/15 = (900 − 296)/15 = 604/15`।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: `900 - 296` Last-Digit Speed Check (`8 sec`)",
+            "hi": "विधि 2: अंतिम अंक/2-अंक ट्रिक"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $8 \\times 37$ ends in $6$ (`even!`), so $900 - (\\dots 6)$ ends in **`4`** (`594` or `604`). Since $8 \\times 37 \\approx 300$, $900 - 296 = \\mathbf{604}$ (`NOT 594`!) ⇒ **`604 / 15`**!",
+            "hi": "$8 \\times 37 \\approx 300$ (इकाई अंक `6`), तो `900 − 296` सीधे `600` के पास **`604/15`** होगा!"
+          }
+        }
+      ],
+      "en": "Method 1: Careful Sign + Bracket Evaluation: 1) Left curly: $(-16 - 19 - 2) = -37$, so $(-8) \\times (-37) = +296$.\n2) Right square: $(-1)(-1) = +1 \\Rightarrow \\{2 + 1\\} = 3 \\Rightarrow [5 \\times 3] = 15$.\n3) Combine: $60 - 296 \\div 15 = \\frac{60 \\times 15 - 296}{15} = \\frac{900 - 296}{15} = \\mathbf{\\frac{604}{15}}$.\n\nMethod 2: `900 - 296` Last-Digit Speed Check (`8 sec`): Notice $8 \\times 37$ ends in $6$ (`even!`), so $900 - (\\dots 6)$ ends in **`4`** (`594` or `604`). Since $8 \\times 37 \\approx 300$, $900 - 296 = \\mathbf{604}$ (`NOT 594`!) ⇒ **`604 / 15`**!",
+      "hi": "विधि 1: चिह्न व कोष्ठक चरणबद्ध हल: 1) `{(-8)×(-37)} = +296`; `[5×{2+1}] = 15`।\n2) `60 − 296/15 = (900 − 296)/15 = 604/15`।\n\nविधि 2: अंतिम अंक/2-अंक ट्रिक: $8 \\times 37 \\approx 300$ (इकाई अंक `6`), तो `900 − 296` सीधे `600` के पास **`604/15`** होगा!"
     },
     "correctIndexHi": 3
   },

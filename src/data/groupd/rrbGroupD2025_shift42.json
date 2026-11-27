@@ -1149,10 +1149,42 @@
     "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Order of Operations",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (19) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (19) सही उत्तर है।"
+      "approach": "Verified Answer: **19** (Evaluated value = `19`).",
+      "keyConcept": "VBODMAS & Exact Simplification Order: Roots/Brackets -> Of -> ÷ -> × -> +/−",
+      "pyqType": {
+        "en": "VBODMAS / Simplification",
+        "hi": "सरलीकरण (VBODMAS / रूट / भिन्न)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation",
+            "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **19**.",
+            "hi": "1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **19**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`)",
+            "hi": "विधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`)"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **19**!",
+            "hi": "बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **19** पक्का होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation: 1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **19**.\n\nMethod 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`): Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **19**!",
+      "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल: 1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **19**।\n\nविधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`): बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **19** पक्का होता है!"
     }
   },
   {
@@ -1251,10 +1283,42 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (1) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (1) सही उत्तर है।"
+      "approach": "Verified Answer: **A = 1** (Full number: `46911423`).",
+      "keyConcept": "Divisibility by 3: Sum of All Digits must be divisible by 3",
+      "pyqType": {
+        "en": "Missing Digit Divisibility (÷3)",
+        "hi": "लुप्त अंक विभाज्यता (÷3)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Rule of 3",
+            "hi": "विधि 1: 3 के मानक नियम से हल"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Sum of fixed digits $= 29$. Total $= 29 + A$.\nSmallest multiple of 3 $\\ge 29$ is $30$ ⇒ $A = 30 - 29 = \\mathbf{1}$.",
+            "hi": "अन्य अंकों का योग $= 29$। कुल योग $= 29 + A$ जो 3 से कटे ($30$) ⇒ $A = \\mathbf{1}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast Out 9s / 3s Cancellation (`3 sec`)",
+            "hi": "विधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Cancel every digit or pair divisible by 3 from 469A1423: remainder is 2. Add minimum digit **1** to complete 3!",
+            "hi": "अंकों में से 3 के गुणज सीधे काटते जाएं: शेष 2 बचता है ⇒ 3 पूरा करने को **1** जोड़ें!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Rule of 3: Sum of fixed digits $= 29$. Total $= 29 + A$.\nSmallest multiple of 3 $\\ge 29$ is $30$ ⇒ $A = 30 - 29 = \\mathbf{1}$.\n\nMethod 2: Cast Out 9s / 3s Cancellation (`3 sec`): Cancel every digit or pair divisible by 3 from 469A1423: remainder is 2. Add minimum digit **1** to complete 3!",
+      "hi": "विधि 1: 3 के मानक नियम से हल: अन्य अंकों का योग $= 29$। कुल योग $= 29 + A$ जो 3 से कटे ($30$) ⇒ $A = \\mathbf{1}$।\n\nविधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल: अंकों में से 3 के गुणज सीधे काटते जाएं: शेष 2 बचता है ⇒ 3 पूरा करने को **1** जोड़ें!"
     }
   },
   {

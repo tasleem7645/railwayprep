@@ -1115,10 +1115,46 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (3.9) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (3.9) सही उत्तर है।"
+      "approach": "Verified Answer: **3.9** ($z = 3.9 \\approx 3.9$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 81! Directly equate exponents: $0.4z = 0.78 \\times 2 = 1.56 \\Rightarrow z = 1.56 / 0.4 \\approx 3.9$.",
+        "hi": "डमी आधार 81 को छोड़ें! सीधे घात बराबर करें: $0.4z = 0.78 \\times 2 \\Rightarrow z \\approx 3.9$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 81^{0.4}$ and $y = 81^{0.78}$ into $x^z = y^{2}$:\n$81^{0.4z} = 81^{0.78 \\times 2} = 81^{1.56}$.\nSince bases are equal, $0.4z = 1.56 \\Rightarrow z = \\frac{1.56}{0.4} = 3.9000 \\approx \\mathbf{3.9}$.",
+            "hi": "$x = 81^{0.4}$ व $y = 81^{0.78}$ को $x^z = y^{2}$ में रखें:\n$81^{0.4z} = 81^{1.56} \\Rightarrow 0.4z = 1.56 \\Rightarrow z \\approx \\mathbf{3.9}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.78 : 0.4 = 39 : 20$ ⇒ $z = \\frac{39 \\times 2}{20} = 78/20 \\approx \\mathbf{3.9}$.",
+            "hi": "सीधा $z = \\frac{0.78 \\times 2}{0.4} \\approx \\mathbf{3.9}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 81^{0.4}$ and $y = 81^{0.78}$ into $x^z = y^{2}$:\n$81^{0.4z} = 81^{0.78 \\times 2} = 81^{1.56}$.\nSince bases are equal, $0.4z = 1.56 \\Rightarrow z = \\frac{1.56}{0.4} = 3.9000 \\approx \\mathbf{3.9}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.78 : 0.4 = 39 : 20$ ⇒ $z = \\frac{39 \\times 2}{20} = 78/20 \\approx \\mathbf{3.9}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 81^{0.4}$ व $y = 81^{0.78}$ को $x^z = y^{2}$ में रखें:\n$81^{0.4z} = 81^{1.56} \\Rightarrow 0.4z = 1.56 \\Rightarrow z \\approx \\mathbf{3.9}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.78 \\times 2}{0.4} \\approx \\mathbf{3.9}$।"
     }
   },
   {
@@ -1251,10 +1287,46 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Prime & Composite Numbers",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (119, 239) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (119, 239) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**119, 239**). HCF = 1.",
+      "keyConcept": "Co-Prime Definition: HCF(a, b) = 1 (No Common Factor > 1)",
+      "pyqType": {
+        "en": "Type 1 • Co-Prime Recognition",
+        "hi": "टाइप 1 • सह-अभाज्य पहचान"
+      },
+      "optionTrick": {
+        "en": "Spot common `3` or `7` instantly! `(30, 201)` -> both sum `÷3`; `(48, 111)` -> `4+8=12, 1+1+1=3` (`÷3`); `(49, 217)` -> `7 × 7` & `7 × 31` (`÷7`). Only `(119, 239)` left!",
+        "hi": "तुरंत `3` और `7` से कटने वाले जोड़े हटाएं: `(30, 201)` व `(48, 111)` दोनों `3` से कटते हैं; `(49, 217)` दोनों `7` से कटते हैं ⇒ केवल **(119, 239)** बचा!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Prime Factorization Check Each Option",
+            "hi": "विधि 1: प्रत्येक विकल्प के गुणनखंड जांचें"
+          },
+          "timeTag": "35 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "• **(49, 217)**: $49 = 7 \\times 7$, $217 = 7 \\times 31 \\Rightarrow \\text{HCF} = 7 \\neq 1$ (Not Co-prime).\n• **(30, 201)**: $30 = 3 \\times 10$, $201 = 3 \\times 67 \\Rightarrow \\text{HCF} = 3 \\neq 1$.\n• **(48, 111)**: $48 = 3 \\times 16$, $111 = 3 \\times 37 \\Rightarrow \\text{HCF} = 3 \\neq 1$.\n• **(119, 239)**: $119 = 7 \\times 17$; $239$ is neither divisible by `7` ($239 = 7\\times 34 + 1$) nor by `17` ($239 = 17\\times 14 + 1$) ⇒ $\\text{HCF} = \\mathbf{1}$ (**Co-Prime!**).",
+            "hi": "• **(49, 217)**: दोनों `7` से विभाज्य (`HCF = 7`)।\n• **(30, 201)** व **(48, 111)**: अंकों के योग से स्पष्ट है दोनों `3` से विभाज्य हैं (`HCF ≥ 3`)।\n• **(119, 239)**: $119 = 7 \\times 17$, पर `239` न `7` से कटती है न `17` से ⇒ $\\text{HCF} = \\mathbf{1}$ (**सह-अभाज्य**)!"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Difference Check (`2×119 = 238`!)",
+            "hi": "विधि 2: स्मार्ट अंतर विधि (`2×119 + 1 = 239`!)"
+          },
+          "timeTag": "6 sec",
+          "tone": "amber",
+          "steps": {
+            "en": "Notice **$239 = 2 \\times 119 + 1$**! By Euclid’s algorithm, $\\text{HCF}(119, 2 \\times 119 + 1) = \\text{HCF}(119, 1) = \\mathbf{1}$ instantly!",
+            "hi": "सीधे देखें: **$239 = 2 \\times 119 + 1$**! यूक्लिड नियम से $a$ व $ka + 1$ सदैव सह-अभाज्य होते हैं (`HCF = 1`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Prime Factorization Check Each Option: • **(49, 217)**: $49 = 7 \\times 7$, $217 = 7 \\times 31 \\Rightarrow \\text{HCF} = 7 \\neq 1$ (Not Co-prime).\n• **(30, 201)**: $30 = 3 \\times 10$, $201 = 3 \\times 67 \\Rightarrow \\text{HCF} = 3 \\neq 1$.\n• **(48, 111)**: $48 = 3 \\times 16$, $111 = 3 \\times 37 \\Rightarrow \\text{HCF} = 3 \\neq 1$.\n• **(119, 239)**: $119 = 7 \\times 17$; $239$ is neither divisible by `7` ($239 = 7\\times 34 + 1$) nor by `17` ($239 = 17\\times 14 + 1$) ⇒ $\\text{HCF} = \\mathbf{1}$ (**Co-Prime!**).\n\nMethod 2: Smart Difference Check (`2×119 = 238`!): Notice **$239 = 2 \\times 119 + 1$**! By Euclid’s algorithm, $\\text{HCF}(119, 2 \\times 119 + 1) = \\text{HCF}(119, 1) = \\mathbf{1}$ instantly!",
+      "hi": "विधि 1: प्रत्येक विकल्प के गुणनखंड जांचें: • **(49, 217)**: दोनों `7` से विभाज्य (`HCF = 7`)।\n• **(30, 201)** व **(48, 111)**: अंकों के योग से स्पष्ट है दोनों `3` से विभाज्य हैं (`HCF ≥ 3`)।\n• **(119, 239)**: $119 = 7 \\times 17$, पर `239` न `7` से कटती है न `17` से ⇒ $\\text{HCF} = \\mathbf{1}$ (**सह-अभाज्य**)!\n\nविधि 2: स्मार्ट अंतर विधि (`2×119 + 1 = 239`!): सीधे देखें: **$239 = 2 \\times 119 + 1$**! यूक्लिड नियम से $a$ व $ka + 1$ सदैव सह-अभाज्य होते हैं (`HCF = 1`)!"
     }
   },
   {

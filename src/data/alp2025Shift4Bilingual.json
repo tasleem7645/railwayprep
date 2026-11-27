@@ -25,10 +25,38 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option C (3735/900). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (3735/900)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**3735/900**). Note the bar is only over the last digit `1`!",
+      "keyConcept": "Identical Infinite Tails Cancel Completely: 6.84111... − 2.69111... = 4.15",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: `900` Denominator Conversion Each",
+            "hi": "विधि 1: दोनों को `900` हर में बदलकर घटाना"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $6.84\\overline{1} = 6 + \\frac{841 - 84}{900} = 6 + \\frac{757}{900} = \\frac{6157}{900}$.\n2) $2.69\\overline{1} = 2 + \\frac{691 - 69}{900} = 2 + \\frac{622}{900} = \\frac{2422}{900}$.\n3) Subtract: $\\frac{6157 - 2422}{900} = \\mathbf{\\frac{3735}{900}}$.",
+            "hi": "1) $6.84\\overline{1} = \\frac{6157}{900}$ तथा $2.69\\overline{1} = \\frac{2422}{900}$।\n2) अंतर $= \\frac{6157 - 2422}{900} = \\mathbf{\\frac{3735}{900}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Infinite Tail Cancellation (`3 sec`)",
+            "hi": "विधि 2: अनंत `111...` टेल कैंसिल ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice BOTH numbers end in `.001111...`! Subtracting kills the repeating tail completely: $6.84 - 2.69 = \\mathbf{4.15}$! Convert to `/900`: $4.15 \\times 900 = 3600 + 135 = \\mathbf{3735/900}$!",
+            "hi": "दोनों के अंत में समान `.00111...` है — घटाते ही कट जाएगा! बचा $6.84 - 2.69 = \\mathbf{4.15}$ → `900 × 4.15 = 3735/900`!"
+          }
+        }
+      ],
+      "en": "Method 1: `900` Denominator Conversion Each: 1) $6.84\\overline{1} = 6 + \\frac{841 - 84}{900} = 6 + \\frac{757}{900} = \\frac{6157}{900}$.\n2) $2.69\\overline{1} = 2 + \\frac{691 - 69}{900} = 2 + \\frac{622}{900} = \\frac{2422}{900}$.\n3) Subtract: $\\frac{6157 - 2422}{900} = \\mathbf{\\frac{3735}{900}}$.\n\nMethod 2: Infinite Tail Cancellation (`3 sec`): Notice BOTH numbers end in `.001111...`! Subtracting kills the repeating tail completely: $6.84 - 2.69 = \\mathbf{4.15}$! Convert to `/900`: $4.15 \\times 900 = 3600 + 135 = \\mathbf{3735/900}$!",
+      "hi": "विधि 1: दोनों को `900` हर में बदलकर घटाना: 1) $6.84\\overline{1} = \\frac{6157}{900}$ तथा $2.69\\overline{1} = \\frac{2422}{900}$।\n2) अंतर $= \\frac{6157 - 2422}{900} = \\mathbf{\\frac{3735}{900}}$।\n\nविधि 2: अनंत `111...` टेल कैंसिल ट्रिक (`3 सेकंड`): दोनों के अंत में समान `.00111...` है — घटाते ही कट जाएगा! बचा $6.84 - 2.69 = \\mathbf{4.15}$ → `900 × 4.15 = 3735/900`!"
     },
     "correctIndexHi": 2
   },
@@ -1576,10 +1604,42 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option C (132). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (132)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**132**).",
+      "keyConcept": "Product of 2 Numbers = HCF × LCM",
+      "optionTrick": {
+        "en": "`84 × B = 12 × 924` ⇒ Divide by 12 (`84/12 = 7`): `7 × B = 924`! Unit digit check: `7 × ? ends in 4` ⇒ `7 × 2 = 14`, so **Unit Digit MUST be `2`**, wait `[96, 72, 132, 180]` has `72` (`72×7=504 ≠ 924`) & **`132` (`924÷7 = 132`)**! Also `924` ÷ `11` (`9+4-2=11`), so `B` ÷ `11` -> only **`132`**!",
+        "hi": "`7 × B = 924` ⇒ इकाई अंक `2` (`72` या `132`)! साथ ही `924` में `11` है (`9+4-2=11`), `7` में नहीं ⇒ उत्तर `11` से कटेगा → केवल **`132`**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Identity ($A \\times B = \\text{HCF} \\times \\text{LCM}$)",
+            "hi": "विधि 1: मानक सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$)"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$84 \\times B = 12 \\times 924 \\Rightarrow B = \\frac{12 \\times 924}{84} = \\frac{924}{7} = \\mathbf{132}$.",
+            "hi": "$B = \\frac{12 \\times 924}{84} = \\frac{924}{7} = \\mathbf{132}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: `C9` / `11`-Factor Check",
+            "hi": "विधि 2: `11`-विभाज्यता से तुरंत जाँच"
+          },
+          "timeTag": "5 sec",
+          "tone": "amber",
+          "steps": {
+            "en": "Notice `924 = 12 × 77 = 12 × 7 × 11` and `84 = 12 × 7` ⇒ cancelling `12 × 7` leaves $12 \\times 11 = \\mathbf{132}$ mentally!",
+            "hi": "मन में तोड़ें: `924 = 84 × 11` ⇒ दूसरी संख्या `12 × 11 = 132`!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Identity ($A \\times B = \\text{HCF} \\times \\text{LCM}$): $84 \\times B = 12 \\times 924 \\Rightarrow B = \\frac{12 \\times 924}{84} = \\frac{924}{7} = \\mathbf{132}$.\n\nMethod 2: `C9` / `11`-Factor Check: Notice `924 = 12 × 77 = 12 × 7 × 11` and `84 = 12 × 7` ⇒ cancelling `12 × 7` leaves $12 \\times 11 = \\mathbf{132}$ mentally!",
+      "hi": "विधि 1: मानक सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$): $B = \\frac{12 \\times 924}{84} = \\frac{924}{7} = \\mathbf{132}$।\n\nविधि 2: `11`-विभाज्यता से तुरंत जाँच: मन में तोड़ें: `924 = 84 × 11` ⇒ दूसरी संख्या `12 × 11 = 132`!"
     },
     "correctIndexHi": 2
   },

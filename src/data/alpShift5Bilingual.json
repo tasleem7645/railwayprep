@@ -72,7 +72,7 @@
     "subject": "Mathematics",
     "topic": "Mathematics (04 Nov 2026 Shift 5)",
     "question": {
-      "en": "en Which of the following numbers is divisible by both 19 and 46?",
+      "en": "Which of the following numbers is divisible by both 19 and 46?",
       "hi": "निम्नलिखित में से कौन-सी संख्या 19 और 46, दोनों से विभाज्य है?"
     },
     "options": {
@@ -91,10 +91,46 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 5)",
-      "en": "Correct Answer: Option D (16606). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (16606)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**16606**). Notice `46 = 2 × 23` (Even)!",
+      "keyConcept": "Always Check Even/Odd (`2`) BEFORE Doing Any 19 or 23 Division!",
+      "pyqType": {
+        "en": "Type 2 • Prime Divisor Elimination (`19 × 46`)",
+        "hi": "टाइप 2 • अभाज्य गुणनफल (`19 × 46`) ट्रिक"
+      },
+      "optionTrick": {
+        "en": "`46 = 2 × 23` is **EVEN**! Look at the options: `17039` (Odd✗), `17849` (Odd✗), `15005` (Odd✗), **`16606` (ONLY EVEN OPTION ✓)**! **Solved in 1 SECOND without touching `19` or `23`!**",
+        "hi": "`46` एक **सम (Even) संख्या** है! विकल्प देखें: `17039`, `17849`, `15005` तीनों **विषम** हैं — केवल **`16606` ही सम है! `19` या `46` से भाग देने की भी जरूरत नहीं — 1 सेकंड में उत्तर!**"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Divide Check by 19 and 46",
+            "hi": "विधि 1: 46 व 19 से विभाजन जाँच"
+          },
+          "timeTag": "45 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Since `46` is an even number (`2 × 23`), any multiple of `46` must be even (`last digit even`). Only `16606` is even.\nVerify: $16606 \\div 46 = 361$, and $361 = 19 \\times 19 \\Rightarrow 16606 = 46 \\times 19^2$. Divisible by both `19` and `46` ✓!",
+            "hi": "`46 = 2 × 23` सम है, अतः उत्तर भी सम होगा। `16606 ÷ 46 = 361` और `361 ÷ 19 = 19` (`16606 = 46 × 19²`)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Parity (`÷ 2`) 1-Sec Knockout",
+            "hi": "विधि 2: सम-संख्या (`÷2`) 1-सेकंड नॉकआउट"
+          },
+          "timeTag": "1 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`46` is EVEN -> Answer MUST end in `{0, 2, 4, 6, 8}`. Options A (`9`), B (`9`), C (`5`) die instantly. **Option D (`16606`)** wins in `1` second!",
+            "hi": "`46` सम है तो उत्तर के अंत में सम अंक होगा! A(`9`), B(`9`), C(`5`) तुरंत बाहर → **विकल्प D (`16606`)**!"
+          }
+        }
+      ],
+      "en": "Method 1: Divide Check by 19 and 46: Since `46` is an even number (`2 × 23`), any multiple of `46` must be even (`last digit even`). Only `16606` is even.\nVerify: $16606 \\div 46 = 361$, and $361 = 19 \\times 19 \\Rightarrow 16606 = 46 \\times 19^2$. Divisible by both `19` and `46` ✓!\n\nMethod 2: Parity (`÷ 2`) 1-Sec Knockout: `46` is EVEN -> Answer MUST end in `{0, 2, 4, 6, 8}`. Options A (`9`), B (`9`), C (`5`) die instantly. **Option D (`16606`)** wins in `1` second!",
+      "hi": "विधि 1: 46 व 19 से विभाजन जाँच: `46 = 2 × 23` सम है, अतः उत्तर भी सम होगा। `16606 ÷ 46 = 361` और `361 ÷ 19 = 19` (`16606 = 46 × 19²`)।\n\nविधि 2: सम-संख्या (`÷2`) 1-सेकंड नॉकआउट: `46` सम है तो उत्तर के अंत में सम अंक होगा! A(`9`), B(`9`), C(`5`) तुरंत बाहर → **विकल्प D (`16606`)**!"
     },
     "correctIndexHi": 3
   },
@@ -1675,10 +1711,42 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 5)",
-      "en": "Correct Answer: Option B (1088pq2). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (1088pq2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**1088pq²**).",
+      "keyConcept": "Identity: (a + b)² − (a − b)² = 4ab",
+      "optionTrick": {
+        "en": "Only variables `pq × q = pq²` (`eliminate p²q² & p²q`). And coeff $= 4 \\times 17 \\times 16$ (`double of 544`!): $4 \\times 16 = 64$, $64 \\times 17 > 1000 \\Rightarrow \\mathbf{1088pq^2}$!",
+        "hi": "`p` की घात `1`, `q` की घात `2` (`pq²`) व गुणांक `4 × 17 × 16 = 64 × 17 > 1000` ⇒ तुरंत **`1088pq²`**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Expand Both Binomial Squares",
+            "hi": "विधि 1: दोनों वर्ग खोलकर घटाएं"
+          },
+          "timeTag": "35 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$(289p^2q^2 + 544pq^2 + 256q^2) - (289p^2q^2 - 544pq^2 + 256q^2) = 2 \\times 544pq^2 = \\mathbf{1088pq^2}$.",
+            "hi": "दोनों में $289p^2q^2$ और $256q^2$ कट जाएंगे; बचेगा $544pq^2 + 544pq^2 = \\mathbf{1088pq^2}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: `4ab` Identity (`4 sec`)",
+            "hi": "विधि 2: `(a+b)² - (a-b)² = 4ab` सूत्र"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Put $a = 17pq$, $b = 16q$: Answer $= 4ab = 4(17pq)(16q) = 68 \\times 16\\,pq^2 = \\mathbf{1088pq^2}$.",
+            "hi": "$4ab = 4 \\times 17pq \\times 16q = 64 \\times 17\\,pq^2 = \\mathbf{1088pq^2}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Expand Both Binomial Squares: $(289p^2q^2 + 544pq^2 + 256q^2) - (289p^2q^2 - 544pq^2 + 256q^2) = 2 \\times 544pq^2 = \\mathbf{1088pq^2}$.\n\nMethod 2: `4ab` Identity (`4 sec`): Put $a = 17pq$, $b = 16q$: Answer $= 4ab = 4(17pq)(16q) = 68 \\times 16\\,pq^2 = \\mathbf{1088pq^2}$.",
+      "hi": "विधि 1: दोनों वर्ग खोलकर घटाएं: दोनों में $289p^2q^2$ और $256q^2$ कट जाएंगे; बचेगा $544pq^2 + 544pq^2 = \\mathbf{1088pq^2}$।\n\nविधि 2: `(a+b)² - (a-b)² = 4ab` सूत्र: $4ab = 4 \\times 17pq \\times 16q = 64 \\times 17\\,pq^2 = \\mathbf{1088pq^2}$!"
     },
     "correctIndexHi": 1
   },

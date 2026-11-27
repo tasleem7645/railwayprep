@@ -1319,10 +1319,42 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (2) सही उत्तर है।"
+      "approach": "Verified Answer: **A = 2** (Full number: `79626351`).",
+      "keyConcept": "Divisibility by 3: Sum of All Digits must be divisible by 3",
+      "pyqType": {
+        "en": "Missing Digit Divisibility (÷3)",
+        "hi": "लुप्त अंक विभाज्यता (÷3)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Rule of 3",
+            "hi": "विधि 1: 3 के मानक नियम से हल"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Sum of fixed digits $= 37$. Total $= 37 + A$.\nSmallest multiple of 3 $\\ge 37$ is $39$ ⇒ $A = 39 - 37 = \\mathbf{2}$.",
+            "hi": "अन्य अंकों का योग $= 37$। कुल योग $= 37 + A$ जो 3 से कटे ($39$) ⇒ $A = \\mathbf{2}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast Out 9s / 3s Cancellation (`3 sec`)",
+            "hi": "विधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Cancel every digit or pair divisible by 3 from 796A6351: remainder is 1. Add minimum digit **2** to complete 3!",
+            "hi": "अंकों में से 3 के गुणज सीधे काटते जाएं: शेष 1 बचता है ⇒ 3 पूरा करने को **2** जोड़ें!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Rule of 3: Sum of fixed digits $= 37$. Total $= 37 + A$.\nSmallest multiple of 3 $\\ge 37$ is $39$ ⇒ $A = 39 - 37 = \\mathbf{2}$.\n\nMethod 2: Cast Out 9s / 3s Cancellation (`3 sec`): Cancel every digit or pair divisible by 3 from 796A6351: remainder is 1. Add minimum digit **2** to complete 3!",
+      "hi": "विधि 1: 3 के मानक नियम से हल: अन्य अंकों का योग $= 37$। कुल योग $= 37 + A$ जो 3 से कटे ($39$) ⇒ $A = \\mathbf{2}$।\n\nविधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल: अंकों में से 3 के गुणज सीधे काटते जाएं: शेष 1 बचता है ⇒ 3 पूरा करने को **2** जोड़ें!"
     }
   },
   {

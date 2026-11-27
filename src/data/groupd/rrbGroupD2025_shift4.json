@@ -1149,10 +1149,42 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • HCF/LCM Word Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (36) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (36) सही उत्तर है।"
+      "approach": "Verified Answer: **36**.",
+      "keyConcept": "Product of Two Numbers (A × B) = HCF × LCM",
+      "pyqType": {
+        "en": "HCF × LCM = A × B Identity",
+        "hi": "HCF × LCM = A × B सूत्र"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$)",
+            "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$)"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Other Number $= \\frac{4 \\times 288}{32} = \\mathbf{36}$.",
+            "hi": "दूसरी संख्या $= \\frac{4 \\times 288}{32} = \\mathbf{36}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit Digit & `C9` Cross-Check (`3 sec`)",
+            "hi": "विधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check last digit & C9 alignment directly against options without heavy division -> **36**!",
+            "hi": "अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **36**!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$): Other Number $= \\frac{4 \\times 288}{32} = \\mathbf{36}$.\n\nMethod 2: Unit Digit & `C9` Cross-Check (`3 sec`): Check last digit & C9 alignment directly against options without heavy division -> **36**!",
+      "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$): दूसरी संख्या $= \\frac{4 \\times 288}{32} = \\mathbf{36}$।\n\nविधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`): अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **36**!"
     }
   },
   {

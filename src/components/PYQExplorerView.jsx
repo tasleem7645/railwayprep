@@ -5,6 +5,7 @@ import {
   Star, FolderTree, Flag, CheckCircle2, Printer
 } from 'lucide-react';
 import QuestionContentRenderer, { OptionContentRenderer, MathText } from './QuestionContentRenderer';
+import MultiMethodSolutionBox from './MultiMethodSolutionBox';
 import ReportQuestionModal from './ReportQuestionModal';
 import { loadTestQuestions } from '../data/testQuestionLoader';
 import { EXAM_HIERARCHY, classifyQuestionTaxonomy } from '../utils/pyqTaxonomy';
@@ -987,27 +988,8 @@ export default function PYQExplorerView({
                 </div>
 
                 {isSolShown && q.solution && (
-                  <div className="p-4 rounded-2xl bg-slate-950/90 border border-teal-500/30 text-xs text-slate-300 space-y-2 leading-relaxed">
-                    {q.solution.approach && (
-                      <div>
-                        <strong className="text-teal-300">Verdict: </strong>
-                        <MathText text={q.solution.approach} />
-                      </div>
-                    )}
-                    {q.solution.keyConcept && (
-                      <div className="px-3 py-2 rounded-lg bg-slate-900 border border-slate-800 font-mono text-amber-300">
-                        <MathText text={q.solution.keyConcept} />
-                      </div>
-                    )}
-                    <div className="text-slate-400">
-                      <MathText
-                        text={
-                          lang === 'hi'
-                            ? q.solution.hi || q.solution.en
-                            : q.solution.en || q.solution.hi
-                        }
-                      />
-                    </div>
+                  <div className="p-4 rounded-2xl bg-slate-950/90 border border-teal-500/30">
+                    <MultiMethodSolutionBox solution={q.solution} lang={lang} compact />
                   </div>
                 )}
               </div>

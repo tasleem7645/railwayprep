@@ -1716,10 +1716,42 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (14.06) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (14.06) सही उत्तर है।"
+      "approach": "Verified Answer: **14.06** (Evaluated value = `14.06`).",
+      "keyConcept": "VBODMAS & Exact Simplification Order: Roots/Brackets -> Of -> ÷ -> × -> +/−",
+      "pyqType": {
+        "en": "VBODMAS / Simplification",
+        "hi": "सरलीकरण (VBODMAS / रूट / भिन्न)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation",
+            "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **14.06**.",
+            "hi": "1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **14.06**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`)",
+            "hi": "विधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`)"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **14.06**!",
+            "hi": "बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **14.06** पक्का होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation: 1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **14.06**.\n\nMethod 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`): Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **14.06**!",
+      "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल: 1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **14.06**।\n\nविधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`): बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **14.06** पक्का होता है!"
     }
   },
   {
@@ -2079,10 +2111,42 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (7048048) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (7048048) सही उत्तर है।"
+      "approach": "Verified Answer: Option B (**7048048**) is divisible by 14.",
+      "keyConcept": "Divisibility Check for 14: Apply Last-Digit / Digit-Sum / Alternating Rule First",
+      "pyqType": {
+        "en": "Divisibility Rules MCQ",
+        "hi": "विभाज्यता नियम"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check Divisibility by 14",
+            "hi": "विधि 1: 14 से पूर्ण विभाजन जाँच"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "• $7048048 \\div 14 = 503432$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.",
+            "hi": "• $7048048 \\div 14 = 503432$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Unit/Digit-Sum Elimination (`3 sec`)",
+            "hi": "विधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=4 (for 3/9). Only **7048048** satisfies every condition!",
+            "hi": "सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=4 से गलत विकल्प हटाने पर केवल **7048048** बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Check Divisibility by 14: • $7048048 \\div 14 = 503432$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.\n\nMethod 2: Smart Unit/Digit-Sum Elimination (`3 sec`): Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=4 (for 3/9). Only **7048048** satisfies every condition!",
+      "hi": "विधि 1: 14 से पूर्ण विभाजन जाँच: • $7048048 \\div 14 = 503432$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।\n\nविधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`): सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=4 से गलत विकल्प हटाने पर केवल **7048048** बचता है!"
     }
   },
   {
@@ -2178,10 +2242,42 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (29) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (29) सही उत्तर है।"
+      "approach": "Verified Answer: **29** ($28 \\times 29 = 812$).",
+      "keyConcept": "Product of Consecutive n(n+1) = P ⇒ Split Around √P",
+      "pyqType": {
+        "en": "Consecutive Number Product",
+        "hi": "क्रमागत संख्या गुणनफल"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation $x(x+1) = 812$",
+            "hi": "विधि 1: द्विघात समीकरण से हल"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x(x+1) = 812 \\Rightarrow x^2 + x - 812 = 0 \\Rightarrow (x + 29)(x - 28) = 0 \\Rightarrow x = 28, x+1 = 29$. Answer: **29**.",
+            "hi": "$x^2 + x - 812 = 0$ के गुणनखंड करने पर $(28, 29)$ प्राप्त होते हैं ⇒ उत्तर **29**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Square Sandwich $28^2 < 812 < 29^2$ (`3 sec`)",
+            "hi": "विधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $28^2 = 784 < 812 < 29^2 = 841$, the consecutive numbers MUST be **28 & 29**!",
+            "hi": "$784 < 812 < 841$ ($28^2$ व $29^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **28, 29**!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation $x(x+1) = 812$: $x(x+1) = 812 \\Rightarrow x^2 + x - 812 = 0 \\Rightarrow (x + 29)(x - 28) = 0 \\Rightarrow x = 28, x+1 = 29$. Answer: **29**.\n\nMethod 2: Square Sandwich $28^2 < 812 < 29^2$ (`3 sec`): Since $28^2 = 784 < 812 < 29^2 = 841$, the consecutive numbers MUST be **28 & 29**!",
+      "hi": "विधि 1: द्विघात समीकरण से हल: $x^2 + x - 812 = 0$ के गुणनखंड करने पर $(28, 29)$ प्राप्त होते हैं ⇒ उत्तर **29**।\n\nविधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`): $784 < 812 < 841$ ($28^2$ व $29^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **28, 29**!"
     }
   },
   {

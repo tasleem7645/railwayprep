@@ -4,6 +4,7 @@ import {
   RefreshCw, BookOpen, ChevronRight, Sparkles, Filter, Check, Zap
 } from 'lucide-react';
 import QuestionContentRenderer, { OptionContentRenderer, MathText } from './QuestionContentRenderer';
+import MultiMethodSolutionBox from './MultiMethodSolutionBox';
 import { getQuestionImage } from '../utils/pyqHelper';
 import {
   MISTAKE_SUBJECT_FILTERS,
@@ -393,10 +394,14 @@ export default function MistakeNotebookModal({ onClose, onStartCustomTest, initi
 
                   {/* Detailed Solution Box */}
                   <div className="p-3.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
-                    <span className="font-bold text-amber-300 block mb-1">💡 सही समाधान व व्याख्या (Explanation):</span>
-                    <div className="text-slate-300 leading-relaxed">
-                      <MathText text={sol || 'Official Railway Answer Key solution.'} />
-                    </div>
+                    <span className="font-bold text-amber-300 block mb-2">💡 सही समाधान व व्याख्या (Explanation):</span>
+                    {typeof q.solution === 'object' && q.solution !== null ? (
+                      <MultiMethodSolutionBox solution={q.solution} lang={lang} compact />
+                    ) : (
+                      <div className="text-slate-300 leading-relaxed">
+                        <MathText text={sol || 'Official Railway Answer Key solution.'} />
+                      </div>
+                    )}
                   </div>
                 </div>
               );

@@ -1047,10 +1047,42 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • HCF/LCM Word Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (32) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (32) सही उत्तर है।"
+      "approach": "Verified Answer: **32**.",
+      "keyConcept": "Product of Two Numbers (A × B) = HCF × LCM",
+      "pyqType": {
+        "en": "HCF × LCM = A × B Identity",
+        "hi": "HCF × LCM = A × B सूत्र"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$)",
+            "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$)"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Other Number $= \\frac{16 \\times 96}{48} = \\mathbf{32}$.",
+            "hi": "दूसरी संख्या $= \\frac{16 \\times 96}{48} = \\mathbf{32}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit Digit & `C9` Cross-Check (`3 sec`)",
+            "hi": "विधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check last digit & C9 alignment directly against options without heavy division -> **32**!",
+            "hi": "अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **32**!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$): Other Number $= \\frac{16 \\times 96}{48} = \\mathbf{32}$.\n\nMethod 2: Unit Digit & `C9` Cross-Check (`3 sec`): Check last digit & C9 alignment directly against options without heavy division -> **32**!",
+      "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$): दूसरी संख्या $= \\frac{16 \\times 96}{48} = \\mathbf{32}$।\n\nविधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`): अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **32**!"
     }
   },
   {
@@ -1115,10 +1147,46 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (0.69) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (0.69) सही उत्तर है।"
+      "approach": "Verified Answer: **0.69** ($z = 0.697 \\approx 0.69$).",
+      "keyConcept": "Same Base Power Law: B^{p·z} = B^{q·k} ⇒ z = (q × k) / p",
+      "pyqType": {
+        "en": "Laws of Indices",
+        "hi": "घातांक नियम (Indices)"
+      },
+      "optionTrick": {
+        "en": "Ignore dummy base 39! Directly equate exponents: $0.66z = 0.23 \\times 2 = 0.46 \\Rightarrow z = 0.46 / 0.66 \\approx 0.69$.",
+        "hi": "डमी आधार 39 को छोड़ें! सीधे घात बराबर करें: $0.66z = 0.23 \\times 2 \\Rightarrow z \\approx 0.69$।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Substitution & Exponent Equating",
+            "hi": "विधि 1: आधार समान कर घातों की तुलना"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Substitute $x = 39^{0.66}$ and $y = 39^{0.23}$ into $x^z = y^{2}$:\n$39^{0.66z} = 39^{0.23 \\times 2} = 39^{0.46}$.\nSince bases are equal, $0.66z = 0.46 \\Rightarrow z = \\frac{0.46}{0.66} = 0.6970 \\approx \\mathbf{0.69}$.",
+            "hi": "$x = 39^{0.66}$ व $y = 39^{0.23}$ को $x^z = y^{2}$ में रखें:\n$39^{0.66z} = 39^{0.46} \\Rightarrow 0.66z = 0.46 \\Rightarrow z \\approx \\mathbf{0.69}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio Exponent Formula (`4 sec`)",
+            "hi": "विधि 2: सीधा अनुपात सूत्र (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio of exponents $0.23 : 0.66 = 23 : 66$ ⇒ $z = \\frac{23 \\times 2}{66} = 46/66 \\approx \\mathbf{0.69}$.",
+            "hi": "सीधा $z = \\frac{0.23 \\times 2}{0.66} \\approx \\mathbf{0.69}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base Substitution & Exponent Equating: Substitute $x = 39^{0.66}$ and $y = 39^{0.23}$ into $x^z = y^{2}$:\n$39^{0.66z} = 39^{0.23 \\times 2} = 39^{0.46}$.\nSince bases are equal, $0.66z = 0.46 \\Rightarrow z = \\frac{0.46}{0.66} = 0.6970 \\approx \\mathbf{0.69}$.\n\nMethod 2: Direct Ratio Exponent Formula (`4 sec`): Ratio of exponents $0.23 : 0.66 = 23 : 66$ ⇒ $z = \\frac{23 \\times 2}{66} = 46/66 \\approx \\mathbf{0.69}$.",
+      "hi": "विधि 1: आधार समान कर घातों की तुलना: $x = 39^{0.66}$ व $y = 39^{0.23}$ को $x^z = y^{2}$ में रखें:\n$39^{0.66z} = 39^{0.46} \\Rightarrow 0.66z = 0.46 \\Rightarrow z \\approx \\mathbf{0.69}$।\n\nविधि 2: सीधा अनुपात सूत्र (`4 सेकंड`): सीधा $z = \\frac{0.23 \\times 2}{0.66} \\approx \\mathbf{0.69}$।"
     }
   },
   {

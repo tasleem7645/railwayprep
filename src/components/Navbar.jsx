@@ -71,7 +71,7 @@ export default function Navbar({
       heading: 'LEARN',
       items: [
         { label: 'Home', icon: Home, onClick: () => handleNav('home'), active: activeTab === 'home' },
-        { label: 'SuperCoaching Notes', badge: 'FREE', badgeColor: 'bg-emerald-500/20 text-emerald-300', icon: BookOpen, onClick: () => handleNav('super-coaching'), active: activeTab === 'super-coaching' },
+        { label: 'Maths & Science Pro Studio', badge: 'CH 1 LIVE', badgeColor: 'bg-emerald-500/20 text-emerald-300', icon: BookOpen, onClick: () => handleNav('super-coaching'), active: activeTab === 'super-coaching' },
         { label: 'Syllabus & Vacancies', icon: FileText, onClick: () => handleNav('syllabus'), active: activeTab === 'syllabus' },
         { label: 'Recommended Books', icon: ShoppingBag, onClick: () => handleNav('books'), active: activeTab === 'books' },
       ],
@@ -104,7 +104,7 @@ export default function Navbar({
     { id: 'mock-tests', href: '/mock-tests', label: 'Test Series' },
     { id: 'pyq-explorer', href: '/pyq-explorer', label: 'PYQ Bank' },
     { id: 'daily-quiz', href: '/daily-quiz', label: 'Daily Quiz' },
-    { id: 'super-coaching', href: '/super-coaching', label: 'Notes' },
+    { id: 'super-coaching', href: '/super-coaching', label: 'Maths & Notes' },
     { id: 'pricing', href: '/pricing', label: 'Pricing' },
     { id: 'tools', href: '/tools', label: 'Tools' },
     { id: 'books', href: '/books', label: 'Books' },

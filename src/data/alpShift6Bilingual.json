@@ -1840,10 +1840,38 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 6)",
-      "en": "Correct Answer: Option C (37.86). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (37.86)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**37.86**).",
+      "keyConcept": "Convert Small Continued Fractions to Exact Decimals Before Final Subtraction",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Rational Fraction Conversion",
+            "hi": "विधि 1: भिन्न हल से मान निकालना"
+          },
+          "timeTag": "35 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $7 + \\frac{1}{7} = \\frac{50}{7} \\Rightarrow \\text{Bracket 1} = 7 + \\frac{7}{50} = 7.14$.\n2) $3 + \\frac{1}{3} = \\frac{10}{3} \\Rightarrow \\text{Bracket 2} = 3 + \\frac{3}{10} = 3.30$.\n3) $48.30 - 7.14 - 3.30 = 48.30 - 10.44 = \\mathbf{37.86}$.",
+            "hi": "1) `7 + 7/50 = 7.14` (क्योंकि `7/50 = 14/100`)।\n2) `3 + 3/10 = 3.30`।\n3) `48.30 − (7.14 + 3.30) = 48.30 − 10.44 = 37.86`।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: `.30` Cancellation + Approx Bracket (`5 sec`)",
+            "hi": "विधि 2: `.3` दशमलव समाप्ति + `7/50` ट्रिक"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice `3.3` cancels the `.3` in `48.3` leaving `48.3 − 3.3 = 45`! Now subtract slightly more than `7` (`7.14`): $45 - 7.14 = \\mathbf{37.86}$ (`just under 38` -> Option C)!",
+            "hi": "`3 + 3/10 = 3.3` सीधे `48.3` का `.3` खत्म कर `45` बनाता है! अब `45 − 7.14 = 37.86` सीधे निकल आया!"
+          }
+        }
+      ],
+      "en": "Method 1: Rational Fraction Conversion: 1) $7 + \\frac{1}{7} = \\frac{50}{7} \\Rightarrow \\text{Bracket 1} = 7 + \\frac{7}{50} = 7.14$.\n2) $3 + \\frac{1}{3} = \\frac{10}{3} \\Rightarrow \\text{Bracket 2} = 3 + \\frac{3}{10} = 3.30$.\n3) $48.30 - 7.14 - 3.30 = 48.30 - 10.44 = \\mathbf{37.86}$.\n\nMethod 2: `.30` Cancellation + Approx Bracket (`5 sec`): Notice `3.3` cancels the `.3` in `48.3` leaving `48.3 − 3.3 = 45`! Now subtract slightly more than `7` (`7.14`): $45 - 7.14 = \\mathbf{37.86}$ (`just under 38` -> Option C)!",
+      "hi": "विधि 1: भिन्न हल से मान निकालना: 1) `7 + 7/50 = 7.14` (क्योंकि `7/50 = 14/100`)।\n2) `3 + 3/10 = 3.30`।\n3) `48.30 − (7.14 + 3.30) = 48.30 − 10.44 = 37.86`।\n\nविधि 2: `.3` दशमलव समाप्ति + `7/50` ट्रिक: `3 + 3/10 = 3.3` सीधे `48.3` का `.3` खत्म कर `45` बनाता है! अब `45 − 7.14 = 37.86` सीधे निकल आया!"
     },
     "correctIndexHi": 2
   },
@@ -1939,10 +1967,46 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 6)",
-      "en": "Correct Answer: Option B (17688). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (17688)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**17688**).",
+      "keyConcept": "Split 24 = 8 × 3 (Co-Prime) + Check 3 First for Instant Elimination!",
+      "pyqType": {
+        "en": "Type 2 • Composite 11 & 24",
+        "hi": "टाइप 2 • 11 व 24 विभाज्यता"
+      },
+      "optionTrick": {
+        "en": "Test **divisibility by `3`** (`part of 24 = 8×3`) on digit sums: `16811 -> 17✗`; `17688 -> 30✓`; `19640 -> 20✗`; `19408 -> 22✗`. **ONLY `17688` divides by `3`!** (Also `16811` isn’t even!).",
+        "hi": "`24 = 8 × 3` में पहले **`3`** का नियम लगाएं: `16811(17✗)`, `17688(30✓)`, `19640(20✗)`, `19408(22✗)`। **केवल `17688` ही `3` से कटती है — 3 सेकंड में हल!**"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check 8, 3 and 11 Systematically",
+            "hi": "विधि 1: 8, 3 व 11 की क्रमिक जाँच"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Since $24 = 8 \\times 3$, any valid number must satisfy `8`, `3`, and `11`:\n• `16811`: Ends in odd `1` -> fails `8` (`✗`).\n• `19640`: Digit sum `20` -> fails `3` (`✗`).\n• `19408`: Digit sum `22` -> fails `3` (`✗`).\n• **`17688`**: Last 3 digits `688 ÷ 8 = 86 ✓`; Sum `1+7+6+8+8 = 30 ÷ 3 ✓`; Alternating sum `(1+6+8)−(7+8) = 15−15 = 0 ÷ 11 ✓`!",
+            "hi": "$24 = 8 \\times 3$, अतः संख्या `8, 3, 11` तीनों से कटनी चाहिए:\n• `16811` विषम है (`✗`), `19640` का योग `20` व `19408` का योग `22` (`3` से नहीं कटते `✗`)।\n• **`17688`**: अंतिम 3 अंक `688 ÷ 8 = 86 ✓`, योग `30 ÷ 3 ✓`, तथा `(1+6+8)−(7+8) = 0 ÷ 11 ✓`!"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out-3 3-Sec Elimination",
+            "hi": "विधि 2: अंकों के योग (`÷3`) से 3-सेकंड उन्मूलन"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check ONLY digit sum mod `3`: `16811(2)`, `17688(0 ✓)`, `19640(2)`, `19408(1)`. Only ONE option matches `0` -> **Option B (`17688`)**!",
+            "hi": "सिर्फ अंक योग में `3` का भाग देखें: `16811(✗)`, **`17688(✓)`**, `19640(✗)`, `19408(✗)` — तुरंत उत्तर B!"
+          }
+        }
+      ],
+      "en": "Method 1: Check 8, 3 and 11 Systematically: Since $24 = 8 \\times 3$, any valid number must satisfy `8`, `3`, and `11`:\n• `16811`: Ends in odd `1` -> fails `8` (`✗`).\n• `19640`: Digit sum `20` -> fails `3` (`✗`).\n• `19408`: Digit sum `22` -> fails `3` (`✗`).\n• **`17688`**: Last 3 digits `688 ÷ 8 = 86 ✓`; Sum `1+7+6+8+8 = 30 ÷ 3 ✓`; Alternating sum `(1+6+8)−(7+8) = 15−15 = 0 ÷ 11 ✓`!\n\nMethod 2: Cast-Out-3 3-Sec Elimination: Check ONLY digit sum mod `3`: `16811(2)`, `17688(0 ✓)`, `19640(2)`, `19408(1)`. Only ONE option matches `0` -> **Option B (`17688`)**!",
+      "hi": "विधि 1: 8, 3 व 11 की क्रमिक जाँच: $24 = 8 \\times 3$, अतः संख्या `8, 3, 11` तीनों से कटनी चाहिए:\n• `16811` विषम है (`✗`), `19640` का योग `20` व `19408` का योग `22` (`3` से नहीं कटते `✗`)।\n• **`17688`**: अंतिम 3 अंक `688 ÷ 8 = 86 ✓`, योग `30 ÷ 3 ✓`, तथा `(1+6+8)−(7+8) = 0 ÷ 11 ✓`!\n\nविधि 2: अंकों के योग (`÷3`) से 3-सेकंड उन्मूलन: सिर्फ अंक योग में `3` का भाग देखें: `16811(✗)`, **`17688(✓)`**, `19640(✗)`, `19408(✗)` — तुरंत उत्तर B!"
     },
     "correctIndexHi": 1
   },

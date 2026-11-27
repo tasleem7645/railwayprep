@@ -1551,10 +1551,42 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (11) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (11) सही उत्तर है।"
+      "approach": "Verified Answer: Add **11** (4519 + 11 = 4530 = 30 × 151).",
+      "keyConcept": "Number to Add = Divisor − Remainder (when Remainder > 0)",
+      "pyqType": {
+        "en": "Divisibility Addition/Subtraction",
+        "hi": "विभाज्यता हेतु न्यूनतम जोड़"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Divide & Subtract Remainder from Divisor",
+            "hi": "विधि 1: भाग देकर शेषफल को भाजक से घटाना"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Divide 4519 by 30: Remainder $= 19$.\nTo reach next exact multiple of 30, add: $30 - 19 = \\mathbf{11}$.",
+            "hi": "4519 को 30 से भाग देने पर शेषफल $= 19$।\nअतः जोड़ी जाने वाली न्यूनतम संख्या $= 30 - 19 = \\mathbf{11}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Rule-of-30 Direct Option Add (`3 sec`)",
+            "hi": "विधि 2: सीधे 30 के नियम में जोड़ चेक"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Add each option directly to 4519 and apply the quick divisibility test for 30: only `4519 + 11 = 4530` is divisible by 30!",
+            "hi": "4519 में सीधे विकल्प जोड़कर 30 से जांचें: केवल `4519 + 11 = 4530` विभाज्य है!"
+          }
+        }
+      ],
+      "en": "Method 1: Divide & Subtract Remainder from Divisor: Divide 4519 by 30: Remainder $= 19$.\nTo reach next exact multiple of 30, add: $30 - 19 = \\mathbf{11}$.\n\nMethod 2: Rule-of-30 Direct Option Add (`3 sec`): Add each option directly to 4519 and apply the quick divisibility test for 30: only `4519 + 11 = 4530` is divisible by 30!",
+      "hi": "विधि 1: भाग देकर शेषफल को भाजक से घटाना: 4519 को 30 से भाग देने पर शेषफल $= 19$।\nअतः जोड़ी जाने वाली न्यूनतम संख्या $= 30 - 19 = \\mathbf{11}$।\n\nविधि 2: सीधे 30 के नियम में जोड़ चेक: 4519 में सीधे विकल्प जोड़कर 30 से जांचें: केवल `4519 + 11 = 4530` विभाज्य है!"
     }
   },
   {

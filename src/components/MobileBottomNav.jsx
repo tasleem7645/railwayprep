@@ -1,18 +1,14 @@
 import React from 'react';
-import { Home, CheckSquare, Search, Zap, Crown, User } from 'lucide-react';
+import { Home, CheckSquare, Search, Zap, BookOpen } from 'lucide-react';
 
 export default function MobileBottomNav({
   activeTab,
   onSelectTab,
-  onOpenPassPro,
-  onOpenDashboard,
-  onOpenAuth,
-  user = null,
-  hasPassPro = false,
 }) {
   const navItems = [
     { id: 'home', label: 'Home', icon: Home },
     { id: 'mock-tests', label: 'Tests', icon: CheckSquare },
+    { id: 'super-coaching', label: 'Maths & Notes', icon: BookOpen, hot: true },
     { id: 'pyq-explorer', label: 'PYQs', icon: Search },
     { id: 'daily-quiz', label: 'Quiz', icon: Zap },
   ];
@@ -34,41 +30,25 @@ export default function MobileBottomNav({
                 onSelectTab(item.id);
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className={`flex flex-col items-center justify-center py-1 rounded-xl transition-colors cursor-pointer touch-manipulation ${
-                active ? 'text-teal-400 font-black' : 'text-slate-400 hover:text-slate-200 font-semibold'
+              className={`relative flex flex-col items-center justify-center py-1 rounded-xl transition-colors cursor-pointer touch-manipulation ${
+                active
+                  ? 'text-teal-400 font-black'
+                  : item.hot
+                  ? 'text-emerald-300 hover:text-emerald-200 font-extrabold'
+                  : 'text-slate-400 hover:text-slate-200 font-semibold'
               }`}
               aria-current={active ? 'page' : undefined}
             >
+              {item.hot && (
+                <span className="absolute -top-0.5 right-2 px-1 py-0 rounded-full bg-emerald-500 text-slate-950 text-[8px] font-black leading-tight">
+                  CH 1
+                </span>
+              )}
               <Icon className={`w-5 h-5 ${active ? 'stroke-[2.5]' : 'stroke-[1.9]'}`} />
-              <span className="text-[10px] mt-0.5 leading-none">{item.label}</span>
+              <span className="text-[10px] mt-0.5 leading-none truncate max-w-full">{item.label}</span>
             </button>
           );
         })}
-
-        <button
-          type="button"
-          onClick={() => {
-            if (!user) onOpenAuth();
-            else if (hasPassPro) onOpenDashboard();
-            else onOpenPassPro();
-          }}
-          className={`flex flex-col items-center justify-center py-1 rounded-xl transition-colors cursor-pointer touch-manipulation ${
-            user
-              ? hasPassPro
-                ? 'text-amber-400 font-black'
-                : 'text-emerald-400 font-bold'
-              : 'text-amber-300 font-bold'
-          }`}
-        >
-          {user && !hasPassPro ? (
-            <User className="w-5 h-5" />
-          ) : (
-            <Crown className={`w-5 h-5 ${hasPassPro ? 'fill-amber-400' : ''}`} />
-          )}
-          <span className="text-[10px] mt-0.5 leading-none">
-            {!user ? 'Login' : hasPassPro ? 'Pro' : 'Account'}
-          </span>
-        </button>
       </div>
     </nav>
   );

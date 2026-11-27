@@ -47,10 +47,10 @@ export default function HeroSection({ onStartMock, onExploreNotes, onOpenPassPro
 
               <button
                 onClick={onExploreNotes}
-                className="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-teal-500/60 text-slate-200 font-bold text-sm sm:text-base hover:bg-slate-800 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                className="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-slate-900/90 border border-emerald-500/50 hover:border-teal-400 text-emerald-200 font-bold text-sm sm:text-base hover:bg-slate-800 transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
-                <span>Explore Study Notes</span>
-                <ArrowRight className="w-4 h-4 text-teal-400" />
+                <span>Maths Mastery &amp; Pro Notes (Ch 1 LIVE)</span>
+                <ArrowRight className="w-4 h-4 text-emerald-400" />
               </button>
             </div>
 

@@ -1848,10 +1848,42 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (18) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (18) सही उत्तर है।"
+      "approach": "Verified Answer: **18** ($17 \\times 18 = 306$).",
+      "keyConcept": "Product of Consecutive n(n+1) = P ⇒ Split Around √P",
+      "pyqType": {
+        "en": "Consecutive Number Product",
+        "hi": "क्रमागत संख्या गुणनफल"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation $x(x+1) = 306$",
+            "hi": "विधि 1: द्विघात समीकरण से हल"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x(x+1) = 306 \\Rightarrow x^2 + x - 306 = 0 \\Rightarrow (x + 18)(x - 17) = 0 \\Rightarrow x = 17, x+1 = 18$. Answer: **18**.",
+            "hi": "$x^2 + x - 306 = 0$ के गुणनखंड करने पर $(17, 18)$ प्राप्त होते हैं ⇒ उत्तर **18**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Square Sandwich $17^2 < 306 < 18^2$ (`3 sec`)",
+            "hi": "विधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $17^2 = 289 < 306 < 18^2 = 324$, the consecutive numbers MUST be **17 & 18**!",
+            "hi": "$289 < 306 < 324$ ($17^2$ व $18^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **17, 18**!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation $x(x+1) = 306$: $x(x+1) = 306 \\Rightarrow x^2 + x - 306 = 0 \\Rightarrow (x + 18)(x - 17) = 0 \\Rightarrow x = 17, x+1 = 18$. Answer: **18**.\n\nMethod 2: Square Sandwich $17^2 < 306 < 18^2$ (`3 sec`): Since $17^2 = 289 < 306 < 18^2 = 324$, the consecutive numbers MUST be **17 & 18**!",
+      "hi": "विधि 1: द्विघात समीकरण से हल: $x^2 + x - 306 = 0$ के गुणनखंड करने पर $(17, 18)$ प्राप्त होते हैं ⇒ उत्तर **18**।\n\nविधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`): $289 < 306 < 324$ ($17^2$ व $18^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **17, 18**!"
     }
   },
   {

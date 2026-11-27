@@ -2310,10 +2310,42 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (27, 17) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (27, 17) सही उत्तर है।"
+      "approach": "Verified Answer: **27, 17** (Sum = 44, LCM = 459).",
+      "keyConcept": "Key Theorem: HCF(A, B) = HCF(Sum A+B, LCM)",
+      "pyqType": {
+        "en": "Sum & LCM Given -> Find Numbers",
+        "hi": "योग व LCM से दोनों संख्याएं निकालना"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find HCF = HCF(Sum, LCM) -> Split Ratios",
+            "hi": "विधि 1: HCF = HCF(योग, LCM) से दोनों संख्याएं"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Remember: $\\text{HCF}(A, B) = \\text{HCF}(44, 459) = \\mathbf{1}$.\n2) Let numbers be $1x$ and $1y$ (co-prime). Then $x + y = 44/1 = 44$ and $xy = 459/1 = 459$.\n3) Solving gives co-prime pair $(27, 17)$ ⇒ Numbers $= \\mathbf{27, 17}$.",
+            "hi": "1) सदैव $\\text{HCF}(A, B) = \\text{HCF}(\\text{योग}, \\text{LCM}) = \\text{HCF}(44, 459) = \\mathbf{1}$।\n2) अतः $x + y = 44$ और $xy = 459$ ⇒ युग्म $(27, 17)$ ⇒ संख्याएं **27, 17**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reverse Option Check (`4 sec`)",
+            "hi": "विधि 2: विकल्प सत्यापन (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Simply check options where Sum = 44 AND 459 is divisible by BOTH numbers: **27 + 17 = 44** and both divide 459 cleanly!",
+            "hi": "सिर्फ यह जांचें कि किस विकल्प का योग 44 है और दोनों संख्याएं 459 को पूरा काटती हैं ⇒ **27, 17**!"
+          }
+        }
+      ],
+      "en": "Method 1: Find HCF = HCF(Sum, LCM) -> Split Ratios: 1) Remember: $\\text{HCF}(A, B) = \\text{HCF}(44, 459) = \\mathbf{1}$.\n2) Let numbers be $1x$ and $1y$ (co-prime). Then $x + y = 44/1 = 44$ and $xy = 459/1 = 459$.\n3) Solving gives co-prime pair $(27, 17)$ ⇒ Numbers $= \\mathbf{27, 17}$.\n\nMethod 2: Reverse Option Check (`4 sec`): Simply check options where Sum = 44 AND 459 is divisible by BOTH numbers: **27 + 17 = 44** and both divide 459 cleanly!",
+      "hi": "विधि 1: HCF = HCF(योग, LCM) से दोनों संख्याएं: 1) सदैव $\\text{HCF}(A, B) = \\text{HCF}(\\text{योग}, \\text{LCM}) = \\text{HCF}(44, 459) = \\mathbf{1}$।\n2) अतः $x + y = 44$ और $xy = 459$ ⇒ युग्म $(27, 17)$ ⇒ संख्याएं **27, 17**।\n\nविधि 2: विकल्प सत्यापन (`4 सेकंड`): सिर्फ यह जांचें कि किस विकल्प का योग 44 है और दोनों संख्याएं 459 को पूरा काटती हैं ⇒ **27, 17**!"
     }
   },
   {

@@ -190,10 +190,46 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option B (5). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**5**). Number `285219` divides cleanly by both `9` and `11`.",
+      "keyConcept": "Rule of 9 (Digit Sum ÷ 9) + Rule of 11 (|Odd − Even Pos| = 0 or 11k)",
+      "pyqType": {
+        "en": "Type 2 • Missing Digit for 9 & 11",
+        "hi": "टाइप 2 • 9 व 11 हेतु लुप्त अंक x"
+      },
+      "optionTrick": {
+        "en": "Use **Rule of 9 first**! Ignore `9` and `8+1=9`. Left: `2 + x + 2 = 4 + x`. To divide by `9`, only digit **`x = 5`** (`4+5=9`) works! **Done in 3 sec without even checking 11!**",
+        "hi": "पहले **9 का नियम** लगाएं (`9` और `8+1` काटें): बचा `2 + x + 2 = 4 + x` ⇒ केवल **`x = 5`** रखने पर `9` से कटता है! **11 चेक करने की भी जरूरत नहीं!**"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Verify BOTH 9 & 11 Rules Step-by-Step",
+            "hi": "विधि 1: 9 व 11 दोनों नियमों से पूर्ण जांच"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) **Divisibility by 9**: Sum of digits $= 2 + 8 + x + 2 + 1 + 9 = 22 + x$. Nearest multiple of `9` above `22` is `27` ⇒ $x = 27 - 22 = \\mathbf{5}$.\n2) **Verify by 11** (`285219`): Odd pos $(2 + 5 + 1 = 8)$, Even pos $(8 + 2 + 9 = 19)$. Difference $= |8 - 19| = 11$, divisible by `11` ✓.",
+            "hi": "1) **9 का नियम**: अंक योग $= 2 + 8 + x + 2 + 1 + 9 = 22 + x$ ⇒ `27` बनाने के लिए **$x = 5$**।\n2) **11 से पुष्टि** (`285219`): $(2+5+1) - (8+2+9) = 8 - 19 = -11$, जो `11` से विभाज्य है ✓।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast Out 9s Instant Lock",
+            "hi": "विधि 2: 9-कैंसलेशन 3-सेकंड ट्रिक"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "In `28x219`, cross out `(9)` and `(8+1=9)`. Remaining sum $= 2 + x + 2 = 4 + x$. For single digit $x \\in [0, 9]$, **ONLY $x = 5$** makes $4+x = 9$!",
+            "hi": "`28x219` में `9` तथा `8+1=9` काटें → बचा `2 + x + 2 = 4 + x` ⇒ एकल अंक **`x = 5`** एकमात्र संभव मान है!"
+          }
+        }
+      ],
+      "en": "Method 1: Verify BOTH 9 & 11 Rules Step-by-Step: 1) **Divisibility by 9**: Sum of digits $= 2 + 8 + x + 2 + 1 + 9 = 22 + x$. Nearest multiple of `9` above `22` is `27` ⇒ $x = 27 - 22 = \\mathbf{5}$.\n2) **Verify by 11** (`285219`): Odd pos $(2 + 5 + 1 = 8)$, Even pos $(8 + 2 + 9 = 19)$. Difference $= |8 - 19| = 11$, divisible by `11` ✓.\n\nMethod 2: Cast Out 9s Instant Lock: In `28x219`, cross out `(9)` and `(8+1=9)`. Remaining sum $= 2 + x + 2 = 4 + x$. For single digit $x \\in [0, 9]$, **ONLY $x = 5$** makes $4+x = 9$!",
+      "hi": "विधि 1: 9 व 11 दोनों नियमों से पूर्ण जांच: 1) **9 का नियम**: अंक योग $= 2 + 8 + x + 2 + 1 + 9 = 22 + x$ ⇒ `27` बनाने के लिए **$x = 5$**।\n2) **11 से पुष्टि** (`285219`): $(2+5+1) - (8+2+9) = 8 - 19 = -11$, जो `11` से विभाज्य है ✓।\n\nविधि 2: 9-कैंसलेशन 3-सेकंड ट्रिक: `28x219` में `9` तथा `8+1=9` काटें → बचा `2 + x + 2 = 4 + x` ⇒ एकल अंक **`x = 5`** एकमात्र संभव मान है!"
     },
     "correctIndexHi": 1
   },

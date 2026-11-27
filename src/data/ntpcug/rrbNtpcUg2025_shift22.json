@@ -1881,10 +1881,42 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Number System, Algebra & Percentage",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (999808) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (999808) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**999808**).",
+      "keyConcept": "Constant Gap k = 3−1 = 5−3 = 7−5 = 9−7 = 2 ⇒ Multiple of LCM − 2",
+      "optionTrick": {
+        "en": "Divided by `5` leaves `3` ⇒ **last digit MUST be `3` or `8`**. Divided by `9` leaves `7` ⇒ **Digital Sum `C9` MUST be `7`**! Check options: **`999808` (`8+8=16 -> 7✓`, ends in `8✓`)**, `999998` (`8≠7✗`), `999685` (`ends 5✗`), `999893` (`8+3=11->2≠7✗`) — **ONLY `999808` survives in 3 seconds!**",
+        "hi": "`5` से भाग पर `3` शेष ⇒ **अंतिम अंक `3` या `8`**; `9` से भाग पर `7` शेष ⇒ **`C9 = 7`**! `999808` का C9 = `8+8 = 7 ✓` व अंत `8 ✓` (बाकी तीनों फेल!) — **3 सेकंड में उत्तर A!**"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: LCM + Largest 6-Digit Division Method",
+            "hi": "विधि 1: LCM व बड़ी संख्या भाग विधि"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Common difference $k = 3-1 = 5-3 = 7-5 = 9-7 = 2$.\n2) $\\text{LCM}(3, 5, 7, 9) = 9 \\times 5 \\times 7 = 315$.\n3) Divide `999999` by `315`: $999999 = 315 \\times 3174 + 189 \\Rightarrow$ Largest multiple $= 999999 - 189 = 999810$.\n4) Subtract $k = 2$: $999810 - 2 = \\mathbf{999808}$.",
+            "hi": "1) समान अंतर $k = 2$; $\\text{LCM}(3,5,7,9) = 315$।\n2) `999999 ÷ 315` करने पर शेष `189` ⇒ सबसे बड़ा गुणज `999810`।\n3) $999810 - 2 = \\mathbf{999808}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: `Mod 5` + `C9` Double Option Elimination (`3 sec`)",
+            "hi": "विधि 2: `÷5` व `C9` डबल उन्मूलन (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Need `N mod 5 = 3` (ends `3` or `8`) AND `N mod 9 = 7` (`C9 = 7`): `999685` fails `mod 5`; `999998` has `C9=8`; `999893` has `C9=2`; **ONLY `999808` has `C9=7` and ends in `8`**!",
+            "hi": "अंतिम अंक `3/8` व `C9 = 7` मिलाकर देखने पर बिना `315` से भाग दिए केवल **`999808`** सही मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: LCM + Largest 6-Digit Division Method: 1) Common difference $k = 3-1 = 5-3 = 7-5 = 9-7 = 2$.\n2) $\\text{LCM}(3, 5, 7, 9) = 9 \\times 5 \\times 7 = 315$.\n3) Divide `999999` by `315`: $999999 = 315 \\times 3174 + 189 \\Rightarrow$ Largest multiple $= 999999 - 189 = 999810$.\n4) Subtract $k = 2$: $999810 - 2 = \\mathbf{999808}$.\n\nMethod 2: `Mod 5` + `C9` Double Option Elimination (`3 sec`): Need `N mod 5 = 3` (ends `3` or `8`) AND `N mod 9 = 7` (`C9 = 7`): `999685` fails `mod 5`; `999998` has `C9=8`; `999893` has `C9=2`; **ONLY `999808` has `C9=7` and ends in `8`**!",
+      "hi": "विधि 1: LCM व बड़ी संख्या भाग विधि: 1) समान अंतर $k = 2$; $\\text{LCM}(3,5,7,9) = 315$।\n2) `999999 ÷ 315` करने पर शेष `189` ⇒ सबसे बड़ा गुणज `999810`।\n3) $999810 - 2 = \\mathbf{999808}$।\n\nविधि 2: `÷5` व `C9` डबल उन्मूलन (`3 सेकंड`): अंतिम अंक `3/8` व `C9 = 7` मिलाकर देखने पर बिना `315` से भाग दिए केवल **`999808`** सही मिलता है!"
     }
   },
   {

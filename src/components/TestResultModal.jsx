@@ -9,6 +9,7 @@ import {
 import { MONETIZATION_CONFIG } from '../config/monetizationConfig';
 import AdBanner from './AdBanner';
 import QuestionContentRenderer, { OptionContentRenderer, MathText } from './QuestionContentRenderer';
+import MultiMethodSolutionBox from './MultiMethodSolutionBox';
 import ExpectedCutoffCard from './ExpectedCutoffCard';
 import ShiftLeaderboardTab from './ShiftLeaderboardTab';
 import ShareScoreCardModal from './ShareScoreCardModal';
@@ -907,36 +908,7 @@ export default function TestResultModal({
                     </div>
 
                     {activeReviewQ.solution && (
-                      <div className="space-y-2.5 text-xs sm:text-sm text-slate-300 leading-relaxed">
-                        {/* Approach / Quick Key */}
-                        <div className="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-slate-200">
-                          <strong className="text-teal-300">Answer Key Verdict: </strong>
-                          <MathText text={activeReviewQ.solution.approach} />
-                        </div>
-
-                        {/* Key Concept / Formula */}
-                        {activeReviewQ.solution.keyConcept && (
-                          <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-slate-300 font-mono text-xs">
-                            <span className="text-amber-400 font-bold"><MathText text={activeReviewQ.solution.keyConcept} /></span>
-                          </div>
-                        )}
-
-                        {/* Bilingual Explanation */}
-                        <div className="pt-1 text-slate-300">
-                          <p className="font-semibold text-slate-200 mb-1">
-                            {reviewLang === 'hi' ? 'विस्तृत व्याख्या:' : 'Step-by-Step Explanation:'}
-                          </p>
-                          <div className="text-slate-400">
-                            <MathText
-                              text={
-                                reviewLang === 'hi'
-                                  ? activeReviewQ.solution.hi || activeReviewQ.solution.en
-                                  : activeReviewQ.solution.en || activeReviewQ.solution.hi
-                              }
-                            />
-                          </div>
-                        </div>
-                      </div>
+                      <MultiMethodSolutionBox solution={activeReviewQ.solution} lang={reviewLang} />
                     )}
                   </div>
 

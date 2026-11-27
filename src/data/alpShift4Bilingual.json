@@ -718,10 +718,38 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option B (3 + √3). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (3 + √3)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**3 + √3**).",
+      "keyConcept": "Combine Identical Denominators BEFORE Rationalising!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Combine Identical Terms + Rationalise",
+            "hi": "विधि 1: समान पद जोड़कर परिमेयीकरण"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Merge last two terms: $\\frac{1}{\\sqrt{5}-\\sqrt{3}} + \\frac{1}{\\sqrt{5}-\\sqrt{3}} = \\frac{2}{\\sqrt{5}-\\sqrt{3}}$.\n2) Rationalise multiplying by $(\\sqrt{5}+\\sqrt{3})$: $\\frac{2(\\sqrt{5}+\\sqrt{3})}{5 - 3} = \\frac{2(\\sqrt{5}+\\sqrt{3})}{2} = \\sqrt{5} + \\sqrt{3}$.\n3) Combine with $3 - \\sqrt{5}$: $3 - \\sqrt{5} + \\sqrt{5} + \\sqrt{3} = \\mathbf{3 + \\sqrt{3}}$.",
+            "hi": "1) अंतिम दोनों पद जुड़कर $\\frac{2}{\\sqrt{5}-\\sqrt{3}}$ बने।\n2) संयुग्मी $(\\sqrt{5}+\\sqrt{3})$ से परिमेयीकरण: हर $5-3=2$ कट गया ⇒ $\\sqrt{5} + \\sqrt{3}$।\n3) $(3 - \\sqrt{5}) + (\\sqrt{5} + \\sqrt{3}) = \\mathbf{3 + \\sqrt{3}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Gap `5 − 3 = 2` Instant Cancel (`4 sec`)",
+            "hi": "विधि 2: अंतर `5 − 3 = 2` सीधा कैंसिल ट्रिक"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Denominator gap $5 - 3 = 2$ cancels the `2` from adding the two fractions ⇒ directly flips to $+\\sqrt{5} + \\sqrt{3}$ ⇒ $-\\sqrt{5}$ cancels `+√5` leaving **`3 + √3`**!",
+            "hi": "दो समान भिन्न जुड़कर ऊपर `2` बनाएं और अंतर `5−3=2` उसे काट दे ⇒ सीधे `+√5 + √3` जोड़ें = **`3 + √3`**!"
+          }
+        }
+      ],
+      "en": "Method 1: Combine Identical Terms + Rationalise: 1) Merge last two terms: $\\frac{1}{\\sqrt{5}-\\sqrt{3}} + \\frac{1}{\\sqrt{5}-\\sqrt{3}} = \\frac{2}{\\sqrt{5}-\\sqrt{3}}$.\n2) Rationalise multiplying by $(\\sqrt{5}+\\sqrt{3})$: $\\frac{2(\\sqrt{5}+\\sqrt{3})}{5 - 3} = \\frac{2(\\sqrt{5}+\\sqrt{3})}{2} = \\sqrt{5} + \\sqrt{3}$.\n3) Combine with $3 - \\sqrt{5}$: $3 - \\sqrt{5} + \\sqrt{5} + \\sqrt{3} = \\mathbf{3 + \\sqrt{3}}$.\n\nMethod 2: Gap `5 − 3 = 2` Instant Cancel (`4 sec`): Denominator gap $5 - 3 = 2$ cancels the `2` from adding the two fractions ⇒ directly flips to $+\\sqrt{5} + \\sqrt{3}$ ⇒ $-\\sqrt{5}$ cancels `+√5` leaving **`3 + √3`**!",
+      "hi": "विधि 1: समान पद जोड़कर परिमेयीकरण: 1) अंतिम दोनों पद जुड़कर $\\frac{2}{\\sqrt{5}-\\sqrt{3}}$ बने।\n2) संयुग्मी $(\\sqrt{5}+\\sqrt{3})$ से परिमेयीकरण: हर $5-3=2$ कट गया ⇒ $\\sqrt{5} + \\sqrt{3}$।\n3) $(3 - \\sqrt{5}) + (\\sqrt{5} + \\sqrt{3}) = \\mathbf{3 + \\sqrt{3}}$।\n\nविधि 2: अंतर `5 − 3 = 2` सीधा कैंसिल ट्रिक: दो समान भिन्न जुड़कर ऊपर `2` बनाएं और अंतर `5−3=2` उसे काट दे ⇒ सीधे `+√5 + √3` जोड़ें = **`3 + √3`**!"
     },
     "correctIndexHi": 1
   },
@@ -2005,10 +2033,55 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option B (61). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (61)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**61**).",
+      "keyConcept": "Direct Cube/Square Recall OR Factor Common 16 Before Dividing!",
+      "optionTrick": {
+        "en": "`C9`: $52 \\to 7^2 = 49 \\to 4$; $12^3 \\to 0$; Den $= 64 - 48 = 16 \\to 7$. So `C9(Ans) = 4 ÷ 7 = 4 × 4 = 7`! Options `[72(9), 61(7✓), 57(3), 66(3)]` -> **ONLY `61` gives `7`!**",
+        "hi": "**C9 से 3 सेकंड में**: अंश `(7)² − 0 = 4`, हर `16 -> 7`; `4 ÷ 7` को ऊपर `×4` करने पर `16 -> 7`! केवल **`61`** का C9 = `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compute Squares & Cubes Directly",
+            "hi": "विधि 1: वर्ग व घन मान रखकर हल"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$52^2 = 2704$, $12^3 = 1728$, $4^3 = 64$.\n$\\frac{2704 - 1728}{64 - 48} = \\frac{976}{16} = \\mathbf{61}$.",
+            "hi": "$\\frac{2704 - 1728}{64 - 48} = \\frac{976}{16} = \\mathbf{61}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel `16` Factor FIRST (`No Big Division!`)",
+            "hi": "विधि 2: पहले `16` कॉमन काटकर आसान गुणा"
+          },
+          "timeTag": "8 sec",
+          "tone": "amber",
+          "steps": {
+            "en": "Notice $52 = 4 \\times 13 \\Rightarrow 52^2 = 16 \\times 169$; $12^3 = 16 \\times 108$; Den $= 16(4 - 3) = 16$.\nCancel `16` cleanly: $169 - 108 = \\mathbf{61}$!",
+            "hi": "अंश से `16` (`4²`) बाहर निकालें: $52^2 = 16\\times 13^2 = 16\\times 169$, $12^3 = 16\\times 108$, हर = `16` ⇒ $169 - 108 = \\mathbf{61}$!"
+          }
+        },
+        {
+          "id": "trick",
+          "title": {
+            "en": "Method 3: C9 Digital Sum (`3 sec`)",
+            "hi": "विधि 3: C9 नवांक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Num C9 $= 7^2 - 0 = 4$; Den C9 $= 7$. `4 ÷ 7 ≡ 4 × 4 = 16 -> 7`. Only **`61`** has digit sum `7`!",
+            "hi": "`C9 = 4 ÷ 7 -> 4×4 -> 7` ⇒ केवल विकल्प B (**`61`**)!"
+          }
+        }
+      ],
+      "en": "Method 1: Compute Squares & Cubes Directly: $52^2 = 2704$, $12^3 = 1728$, $4^3 = 64$.\n$\\frac{2704 - 1728}{64 - 48} = \\frac{976}{16} = \\mathbf{61}$.\n\nMethod 2: Cancel `16` Factor FIRST (`No Big Division!`): Notice $52 = 4 \\times 13 \\Rightarrow 52^2 = 16 \\times 169$; $12^3 = 16 \\times 108$; Den $= 16(4 - 3) = 16$.\nCancel `16` cleanly: $169 - 108 = \\mathbf{61}$!\n\nMethod 3: C9 Digital Sum (`3 sec`): Num C9 $= 7^2 - 0 = 4$; Den C9 $= 7$. `4 ÷ 7 ≡ 4 × 4 = 16 -> 7`. Only **`61`** has digit sum `7`!",
+      "hi": "विधि 1: वर्ग व घन मान रखकर हल: $\\frac{2704 - 1728}{64 - 48} = \\frac{976}{16} = \\mathbf{61}$।\n\nविधि 2: पहले `16` कॉमन काटकर आसान गुणा: अंश से `16` (`4²`) बाहर निकालें: $52^2 = 16\\times 13^2 = 16\\times 169$, $12^3 = 16\\times 108$, हर = `16` ⇒ $169 - 108 = \\mathbf{61}$!\n\nविधि 3: C9 नवांक (`3 सेकंड`): `C9 = 4 ÷ 7 -> 4×4 -> 7` ⇒ केवल विकल्प B (**`61`**)!"
     },
     "correctIndexHi": 1
   },

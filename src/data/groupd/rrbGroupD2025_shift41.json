@@ -1285,10 +1285,42 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Rules for 7,8,9,11",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (3) सही उत्तर है।"
+      "approach": "Verified Answer: **A = 3** (Full number: `39136922`).",
+      "keyConcept": "Divisibility by 11: |Odd Sum − Even Sum| = 0 or 11k",
+      "pyqType": {
+        "en": "Missing Digit Divisibility (÷11)",
+        "hi": "लुप्त अंक विभाज्यता (÷11)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Rule of 11",
+            "hi": "विधि 1: 11 के मानक नियम से हल"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "For `391A6922`, apply alternating sum so $|\\text{Odd Sum} - \\text{Even Sum}|$ is a multiple of 11. Valid digit is $A = \\mathbf{3}$.",
+            "hi": "`391A6922` में सम व विषम स्थानों के अंकों के योग का अंतर 0 या 11 रखने पर $A = \\mathbf{3}$ मिलता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast Out 9s / 3s Cancellation (`3 sec`)",
+            "hi": "विधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Plug each option mentally and check alternating difference mod 11 -> **3** hits 0/11 directly!",
+            "hi": "ऑप्शन सीधे रखकर सम-विषम अंतर जांचने पर **3** तुरंत 0/11 देता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Rule of 11: For `391A6922`, apply alternating sum so $|\\text{Odd Sum} - \\text{Even Sum}|$ is a multiple of 11. Valid digit is $A = \\mathbf{3}$.\n\nMethod 2: Cast Out 9s / 3s Cancellation (`3 sec`): Plug each option mentally and check alternating difference mod 11 -> **3** hits 0/11 directly!",
+      "hi": "विधि 1: 11 के मानक नियम से हल: `391A6922` में सम व विषम स्थानों के अंकों के योग का अंतर 0 या 11 रखने पर $A = \\mathbf{3}$ मिलता है।\n\nविधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल: ऑप्शन सीधे रखकर सम-विषम अंतर जांचने पर **3** तुरंत 0/11 देता है!"
     }
   },
   {

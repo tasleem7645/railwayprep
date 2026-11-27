@@ -1149,10 +1149,42 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Finding LCM",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (816) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (816) सही उत्तर है।"
+      "approach": "Verified Answer: **816**.",
+      "keyConcept": "LCM Prime Power / Difference Method",
+      "pyqType": {
+        "en": "Direct HCF/LCM",
+        "hi": "सीधा HCF/LCM"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Factorization Method",
+            "hi": "विधि 1: गुणनखंड विधि"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Compute LCM of (48, 68) = **816**.",
+            "hi": "(48, 68) का LCM = **816**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Option Multiple/Factor Filter (`4 sec`)",
+            "hi": "विधि 2: विकल्प गुणज/गुणनखंड जाँच (`4 सेकंड`)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check divisibility of options by given factors (like 9, 11, or co-primes). Only **816** is divisible by all!",
+            "hi": "दिए गए अंकों के गुणकों से ऑप्शन काटने पर केवल **816** बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Factorization Method: Compute LCM of (48, 68) = **816**.\n\nMethod 2: Option Multiple/Factor Filter (`4 sec`): Check divisibility of options by given factors (like 9, 11, or co-primes). Only **816** is divisible by all!",
+      "hi": "विधि 1: गुणनखंड विधि: (48, 68) का LCM = **816**।\n\nविधि 2: विकल्प गुणज/गुणनखंड जाँच (`4 सेकंड`): दिए गए अंकों के गुणकों से ऑप्शन काटने पर केवल **816** बचता है!"
     }
   },
   {
@@ -1285,10 +1317,42 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (0) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (0) सही उत्तर है।"
+      "approach": "Verified Answer: **A = 0** (Full number: `50602404`).",
+      "keyConcept": "Divisibility by 3: Sum of All Digits must be divisible by 3",
+      "pyqType": {
+        "en": "Missing Digit Divisibility (÷3)",
+        "hi": "लुप्त अंक विभाज्यता (÷3)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Rule of 3",
+            "hi": "विधि 1: 3 के मानक नियम से हल"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Sum of fixed digits $= 21$. Total $= 21 + A$.\nSmallest multiple of 3 $\\ge 21$ is $21$ ⇒ $A = 21 - 21 = \\mathbf{0}$.",
+            "hi": "अन्य अंकों का योग $= 21$। कुल योग $= 21 + A$ जो 3 से कटे ($21$) ⇒ $A = \\mathbf{0}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast Out 9s / 3s Cancellation (`3 sec`)",
+            "hi": "विधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Cancel every digit or pair divisible by 3 from 506A2404: remainder is 0. Add minimum digit **0** to complete 3!",
+            "hi": "अंकों में से 3 के गुणज सीधे काटते जाएं: शेष 0 बचता है ⇒ 3 पूरा करने को **0** जोड़ें!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Rule of 3: Sum of fixed digits $= 21$. Total $= 21 + A$.\nSmallest multiple of 3 $\\ge 21$ is $21$ ⇒ $A = 21 - 21 = \\mathbf{0}$.\n\nMethod 2: Cast Out 9s / 3s Cancellation (`3 sec`): Cancel every digit or pair divisible by 3 from 506A2404: remainder is 0. Add minimum digit **0** to complete 3!",
+      "hi": "विधि 1: 3 के मानक नियम से हल: अन्य अंकों का योग $= 21$। कुल योग $= 21 + A$ जो 3 से कटे ($21$) ⇒ $A = \\mathbf{0}$।\n\nविधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल: अंकों में से 3 के गुणज सीधे काटते जाएं: शेष 0 बचता है ⇒ 3 पूरा करने को **0** जोड़ें!"
     }
   },
   {

@@ -1115,10 +1115,42 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • HCF/LCM Word Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (108) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (108) सही उत्तर है।"
+      "approach": "Verified Answer: **108**.",
+      "keyConcept": "Product of Two Numbers (A × B) = HCF × LCM",
+      "pyqType": {
+        "en": "HCF × LCM = A × B Identity",
+        "hi": "HCF × LCM = A × B सूत्र"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$)",
+            "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$)"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Other Number $= \\frac{18 \\times 540}{90} = \\mathbf{108}$.",
+            "hi": "दूसरी संख्या $= \\frac{18 \\times 540}{90} = \\mathbf{108}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit Digit & `C9` Cross-Check (`3 sec`)",
+            "hi": "विधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check last digit & C9 alignment directly against options without heavy division -> **108**!",
+            "hi": "अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **108**!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Formula ($A \\times B = \\text{HCF} \\times \\text{LCM}$): Other Number $= \\frac{18 \\times 540}{90} = \\mathbf{108}$.\n\nMethod 2: Unit Digit & `C9` Cross-Check (`3 sec`): Check last digit & C9 alignment directly against options without heavy division -> **108**!",
+      "hi": "विधि 1: सीधा सूत्र ($A \\times B = \\text{HCF} \\times \\text{LCM}$): दूसरी संख्या $= \\frac{18 \\times 540}{90} = \\mathbf{108}$।\n\nविधि 2: इकाई अंक व `C9` जाँच (`3 सेकंड`): अंतिम अंक और डिजिटल सम C9 मिलाकर 3 सेकंड में सही उत्तर **108**!"
     }
   },
   {
@@ -1353,10 +1385,42 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Rules for 7,8,9,11",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (7) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (7) सही उत्तर है।"
+      "approach": "Verified Answer: **A = 7** (Full number: `54174888`).",
+      "keyConcept": "Divisibility by 9: Sum of All Digits must be divisible by 9",
+      "pyqType": {
+        "en": "Missing Digit Divisibility (÷9)",
+        "hi": "लुप्त अंक विभाज्यता (÷9)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Rule of 9",
+            "hi": "विधि 1: 9 के मानक नियम से हल"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Sum of fixed digits $= 38$. Total $= 38 + A$.\nSmallest multiple of 9 $\\ge 38$ is $45$ ⇒ $A = 45 - 38 = \\mathbf{7}$.",
+            "hi": "अन्य अंकों का योग $= 38$। कुल योग $= 38 + A$ जो 9 से कटे ($45$) ⇒ $A = \\mathbf{7}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast Out 9s / 3s Cancellation (`3 sec`)",
+            "hi": "विधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Cancel every digit or pair divisible by 9 from 541A4888: remainder is 2. Add minimum digit **7** to complete 9!",
+            "hi": "अंकों में से 9 के गुणज सीधे काटते जाएं: शेष 2 बचता है ⇒ 9 पूरा करने को **7** जोड़ें!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Rule of 9: Sum of fixed digits $= 38$. Total $= 38 + A$.\nSmallest multiple of 9 $\\ge 38$ is $45$ ⇒ $A = 45 - 38 = \\mathbf{7}$.\n\nMethod 2: Cast Out 9s / 3s Cancellation (`3 sec`): Cancel every digit or pair divisible by 9 from 541A4888: remainder is 2. Add minimum digit **7** to complete 9!",
+      "hi": "विधि 1: 9 के मानक नियम से हल: अन्य अंकों का योग $= 38$। कुल योग $= 38 + A$ जो 9 से कटे ($45$) ⇒ $A = \\mathbf{7}$।\n\nविधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल: अंकों में से 9 के गुणज सीधे काटते जाएं: शेष 2 बचता है ⇒ 9 पूरा करने को **7** जोड़ें!"
     }
   },
   {

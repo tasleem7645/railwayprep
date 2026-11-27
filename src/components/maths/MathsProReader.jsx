@@ -1,0 +1,824 @@
+import React, { useState, useMemo } from 'react';
+import {
+  ArrowLeft, Crown, Sparkles, BookOpen, Calculator, Table2,
+  Zap, CheckCircle2, Printer, Layers, Globe, AlertTriangle, Play,
+  RotateCcw, ChevronDown, ChevronUp, Compass, Filter, Target
+} from 'lucide-react';
+import { MathText } from '../QuestionContentRenderer';
+import MultiMethodSolutionBox from '../MultiMethodSolutionBox';
+import NumberSystemLabSVG from './NumberSystemLabSVG';
+import ProFeatureGate from '../ncert/ProFeatureGate';
+import { renderMathsCh1DiagramSvg } from '../../data/maths/diagrams/ch1NumberSystemDiagrams';
+import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
+import { renderPrintableMathsWindow } from '../../utils/mathsPdfGenerator';
+
+const STORAGE_KEY_REVISED = 'railwayprep_maths_revised_v1';
+
+function loadRevisedMap() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY_REVISED) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+/**
+ * Renders **bold**, ==highlighted==, `chips`, and $KaTeX$ cleanly at mobile & desktop readable sizes.
+ */
+function RichMathsText({ text = '', className = '' }) {
+  const raw = String(text ?? '');
+  const parts = raw.split(/(==[^=]+==|\*\*[^*]+\*\*|`[^`]+`)/g);
+  return (
+    <span className={className}>
+      {parts.map((part, idx) => {
+        if (!part) return null;
+        if (part.startsWith('==') && part.endsWith('==') && part.length > 4) {
+          return (
+            <mark
+              key={idx}
+              className="px-1.5 py-0.5 mx-0.5 rounded-md bg-amber-400/20 text-amber-200 border border-amber-400/40 font-bold"
+            >
+              <MathText text={part.slice(2, -2)} />
+            </mark>
+          );
+        }
+        if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+          return (
+            <strong key={idx} className="font-extrabold text-white">
+              <MathText text={part.slice(2, -2)} />
+            </strong>
+          );
+        }
+        if (part.startsWith('`') && part.endsWith('`') && part.length > 2) {
+          return (
+            <span
+              key={idx}
+              className="px-1.5 py-0.5 mx-0.5 rounded bg-slate-800 text-teal-300 border border-slate-700 font-bold text-[12px]"
+            >
+              <MathText text={part.slice(1, -1)} />
+            </span>
+          );
+        }
+        return <MathText key={idx} text={part} />;
+      })}
+    </span>
+  );
+}
+
+export default function MathsProReader({
+  chapterData,
+  onBack,
+  hasPassPro = false,
+  onOpenPassPro,
+  onStartChapterQuiz,
+}) {
+  const [lang, setLang] = useState('hi'); // 'hi' | 'en'
+  const [studentMode, setStudentMode] = useState('all'); // 'all' | 'basic' | 'topper' | 'traps'
+  const [activeSubTab, setActiveSubTab] = useState('all'); // 'all' | 'concepts' | 'labs' | 'pyqs' | 'tables'
+  const [levelFilter, setLevelFilter] = useState('all'); // 'all' | 'level1_basic' | 'level2_mod' | 'level3_hard'
+  const [selectedTypeId, setSelectedTypeId] = useState('all');
+  const [pyqAnswers, setPyqAnswers] = useState({});
+  const [openSolutions, setOpenSolutions] = useState({});
+  const [flippedCards, setFlippedCards] = useState({});
+  const [showPdfModal, setShowPdfModal] = useState(false);
+  const [revisedMap, setRevisedMap] = useState(loadRevisedMap);
+
+  const isHi = lang !== 'en';
+  const isRevised = Boolean(revisedMap[chapterData.id]);
+
+  const pyqMap = useMemo(
+    () => new Map((chapterData.pyqBank || []).map((q) => [q.id, q])),
+    [chapterData.pyqBank]
+  );
+
+  const pyqStats = useMemo(() => {
+    const answered = Object.keys(pyqAnswers).length;
+    const correct = Object.entries(pyqAnswers).filter(
+      ([qid, optIdx]) => pyqMap.get(qid)?.correctIndex === optIdx
+    ).length;
+    return { answered, correct };
+  }, [pyqAnswers, pyqMap]);
+
+  const toggleRevised = () => {
+    const next = { ...revisedMap, [chapterData.id]: !isRevised };
+    setRevisedMap(next);
+    try {
+      localStorage.setItem(STORAGE_KEY_REVISED, JSON.stringify(next));
+    } catch {}
+  };
+
+  const handleLaunchChapterPyqCbt = () => {
+    if (!hasPassPro) {
+      onOpenPassPro();
+      return;
+    }
+    if (!onStartChapterQuiz || !chapterData.pyqBank?.length) return;
+    const formattedQuestions = chapterData.pyqBank.map((pq, idx) => ({
+      id: idx + 1,
+      shiftQuestionNo: idx + 1,
+      section: 'Mathematics',
+      subject: 'Mathematics',
+      topic: `${chapterData.taxonomyChapterName || chapterData.title.en} • ${pq.examTag}`,
+      question: pq.question,
+      options: pq.options,
+      correctIndex: pq.correctIndex,
+      correctIndexHi: pq.correctIndex,
+      solution: pq.solution,
+    }));
+
+    const quiz = buildCustomTopicQuiz({
+      examLabel: 'Maths Mastery Pro CBT',
+      subjectLabel: 'Mathematics',
+      chapterLabel: chapterData.title[lang],
+      topicLabel: `Ch ${chapterData.chapterNumber}: All ${formattedQuestions.length} Type-Wise PYQs`,
+      questions: formattedQuestions,
+      maxQuestions: formattedQuestions.length,
+    });
+    onStartChapterQuiz(quiz, lang);
+  };
+
+  const handleOpenPdfOption = (pdfLangMode) => {
+    const win = window.open('', '_blank');
+    renderPrintableMathsWindow(chapterData, { langMode: pdfLangMode }, win);
+    setShowPdfModal(false);
+  };
+
+  const showConcepts = activeSubTab === 'all' || activeSubTab === 'concepts';
+  const showLabs = activeSubTab === 'all' || activeSubTab === 'labs';
+  const showPyqs = activeSubTab === 'all' || activeSubTab === 'pyqs';
+  const showTables = activeSubTab === 'all' || activeSubTab === 'tables';
+
+  const blueprintSvgHtml = useMemo(
+    () =>
+      chapterData.blueprintSvgKey
+        ? renderMathsCh1DiagramSvg(chapterData.blueprintSvgKey, { lang, theme: 'dark' })
+        : '',
+    [chapterData.blueprintSvgKey, lang]
+  );
+
+  return (
+    <div className="space-y-6 pb-14 print:hidden">
+      {/* Sticky Mastery Toolbar */}
+      <div className="sticky top-14 sm:top-16 z-30 -mx-2 px-3 sm:px-4 py-3 rounded-2xl bg-[#070B18]/95 backdrop-blur-md border border-slate-800/90 shadow-xl space-y-2.5">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2 min-w-0">
+            <button
+              type="button"
+              onClick={onBack}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs font-bold text-slate-200 cursor-pointer shrink-0"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" />
+              <span>{isHi ? 'अध्याय' : 'Chapters'}</span>
+            </button>
+            <span className="text-sm sm:text-base font-black text-white truncate">
+              {chapterData.title[lang]}
+            </span>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-1.5">
+            <button
+              type="button"
+              onClick={() => setLang((l) => (l === 'hi' ? 'en' : 'hi'))}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 border border-teal-500/40 text-xs font-black text-teal-300 cursor-pointer"
+            >
+              <Globe className="w-3.5 h-3.5" />
+              <span>{isHi ? '🇮🇳 हिन्दी' : '🇬🇧 English'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={toggleRevised}
+              className={`inline-flex items-center gap-1 px-3 py-1.5 rounded-xl border text-xs font-black cursor-pointer transition-all ${
+                isRevised
+                  ? 'bg-emerald-500 text-slate-950 border-emerald-300'
+                  : 'bg-slate-900 border-slate-700 text-slate-300 hover:border-emerald-400'
+              }`}
+            >
+              <CheckCircle2 className="w-3.5 h-3.5" />
+              <span>{isRevised ? (isHi ? 'रिवाइज़्ड ✓' : 'Revised ✓') : isHi ? 'पूर्ण मार्क करें' : 'Mark Revised'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => (hasPassPro ? setShowPdfModal(true) : onOpenPassPro())}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-400 to-yellow-400 text-slate-950 text-xs font-black cursor-pointer shadow"
+            >
+              {hasPassPro ? <Printer className="w-3.5 h-3.5" /> : <Crown className="w-3.5 h-3.5" />}
+              <span>{isHi ? 'A4 Booklet PDF' : 'A4 Pro PDF'}</span>
+            </button>
+          </div>
+        </div>
+
+        {/* Navigation + Student Level Selector */}
+        <div className="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-slate-800/80">
+          <div className="flex flex-wrap gap-1.5">
+            {[
+              { id: 'all', hi: 'संपूर्ण अध्याय', en: 'Full Studio' },
+              { id: 'concepts', hi: '1. नियम व सिद्धांत', en: '1. Rules & Theory' },
+              { id: 'labs', hi: '2. SVG लैब व चार्ट', en: '2. SVG Labs & Plates' },
+              { id: 'pyqs', hi: `3. टाइप-वाइज PYQs (${chapterData.pyqBank.length})`, en: `3. Type PYQs (${chapterData.pyqBank.length})` },
+              { id: 'tables', hi: '4. चार्ट व फ्लैशकार्ड्स', en: '4. Tables & Cards' },
+            ].map((tab) => (
+              <button
+                key={tab.id}
+                type="button"
+                onClick={() => setActiveSubTab(tab.id)}
+                className={`px-3 py-1 rounded-lg text-[11px] font-bold border cursor-pointer transition-all ${
+                  activeSubTab === tab.id
+                    ? 'bg-teal-500 text-slate-950 border-teal-300'
+                    : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-600'
+                }`}
+              >
+                {tab[lang]}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-1 text-[10px]">
+            {[
+              { id: 'all', hi: '🎯 सभी स्तर', en: '🎯 All Modes' },
+              { id: 'basic', hi: '🌱 बेसिक छात्र (Step 1)', en: '🌱 Basic Mode' },
+              { id: 'topper', hi: '⚡ टॉपर स्पीड (Tricks)', en: '⚡ Topper Tricks' },
+              { id: 'traps', hi: '⚠️ RRB जाल व नियम', en: '⚠️ Traps & Matrix' },
+            ].map((m) => (
+              <button
+                key={m.id}
+                type="button"
+                onClick={() => setStudentMode(m.id)}
+                className={`px-2.5 py-1 rounded-lg font-black border cursor-pointer ${
+                  studentMode === m.id
+                    ? 'bg-amber-400 text-slate-950 border-amber-200'
+                    : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
+                }`}
+              >
+                {m[lang]}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* HERO BANNER */}
+      <div className="rounded-3xl bg-gradient-to-br from-[#091224] via-[#0B162C] to-[#081F26] border border-teal-500/35 overflow-hidden shadow-2xl">
+        <div className="grid grid-cols-1 lg:grid-cols-12">
+          <div className="lg:col-span-7 p-5 sm:p-7 space-y-4">
+            <div className="flex flex-wrap items-center gap-2 text-[11px] font-black">
+              <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300">
+                CHAPTER {chapterData.chapterNumber} • GOLD MASTER v1
+              </span>
+              <span className="px-2.5 py-0.5 rounded-full bg-amber-500/15 border border-amber-400/35 text-amber-300">
+                {chapterData.metrics.modules} Modules • {chapterData.metrics.typesCount} PYQ Types • 2–4 Methods Each
+              </span>
+            </div>
+
+            <h1 className="text-xl sm:text-2xl font-black text-white leading-snug">
+              {chapterData.title[lang]}
+            </h1>
+            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+              {chapterData.subtitle[lang]}
+            </p>
+
+            {/* RRB Weightage Bars */}
+            <div className="space-y-2 pt-1">
+              {chapterData.weightageBars.map((wb, i) => (
+                <div key={i} className="space-y-1">
+                  <div className="flex justify-between text-[11px] font-bold text-slate-200">
+                    <span>{wb.label[lang]}</span>
+                    <span className="text-teal-300">{wb.pct}%</span>
+                  </div>
+                  <div className="h-1.5 rounded-full bg-slate-900 overflow-hidden">
+                    <div
+                      className="h-full rounded-full bg-gradient-to-r from-teal-400 to-emerald-400"
+                      style={{ width: `${wb.pct}%` }}
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {chapterData.hero?.imageUrl && (
+            <div className="lg:col-span-5 relative bg-slate-950 min-h-[200px]">
+              <img
+                src={chapterData.hero.imageUrl}
+                alt={chapterData.title[lang]}
+                className="w-full h-full object-cover max-h-80 lg:max-h-full"
+              />
+              <div className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-black/90 via-black/60 to-transparent">
+                <p className="text-[11px] text-slate-200 leading-snug">{chapterData.hero.caption[lang]}</p>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* 60-SEC REVISION CARDS + BLUEPRINT MINDMAP */}
+      <div className="rounded-3xl bg-slate-900/65 border border-teal-500/30 p-5 sm:p-6 space-y-4">
+        <div className="flex items-center gap-2 text-teal-300 font-black text-base">
+          <Zap className="w-5 h-5" />
+          <span>{isHi ? '60-सेकंड संपूर्ण अध्याय सूत्र व तथ्य सारांश' : '60-Second Complete Formula & Theorem Snapshot'}</span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {chapterData.quickRevision60Sec.map((item, idx) => (
+            <div
+              key={idx}
+              className="p-3.5 rounded-2xl bg-[#070E1D] border border-slate-800 text-xs sm:text-[13px] text-slate-200 leading-relaxed"
+            >
+              <RichMathsText text={item[lang]} />
+            </div>
+          ))}
+        </div>
+
+        {blueprintSvgHtml && (
+          <div
+            className="pt-2 overflow-hidden rounded-2xl border border-slate-800"
+            dangerouslySetInnerHTML={{ __html: blueprintSvgHtml }}
+          />
+        )}
+      </div>
+
+      {/* EXAM-HALL DECISION MATRIX + TRAP ALERTS (Always shown in Traps / All) */}
+      {(studentMode === 'all' || studentMode === 'topper' || studentMode === 'traps') && (
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
+          <div className="lg:col-span-7 rounded-3xl bg-slate-900/65 border border-cyan-500/30 p-5 space-y-3">
+            <h2 className="text-sm sm:text-base font-black text-cyan-300 flex items-center gap-2">
+              <Compass className="w-5 h-5" />
+              <span>{chapterData.decisionMatrix.title[lang]}</span>
+            </h2>
+            <div className="space-y-2">
+              {chapterData.decisionMatrix.rows.map((row, i) => (
+                <div key={i} className="p-3 rounded-2xl bg-[#070E1D] border border-slate-800 space-y-1 text-xs">
+                  <div className="font-black text-white">
+                    <RichMathsText text={row.trigger[lang]} />
+                  </div>
+                  <div className="text-emerald-300 font-bold">
+                    ✓ {isHi ? 'पहले क्या लगाएं: ' : 'First Move: '}
+                    <RichMathsText text={row.firstCheck[lang]} />
+                  </div>
+                  <div className="text-rose-300/90 text-[11px]">
+                    ✕ {row.avoid[lang]}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="lg:col-span-5 rounded-3xl bg-rose-950/15 border border-rose-500/35 p-5 space-y-3">
+            <h2 className="text-sm sm:text-base font-black text-rose-300 flex items-center gap-2">
+              <AlertTriangle className="w-5 h-5" />
+              <span>{isHi ? '8 खतरनाक RRB सिलि-मिस्टेक जाल (Traps)' : 'Top 8 Negative-Marking Trap Alerts'}</span>
+            </h2>
+            <div className="space-y-2 max-h-[420px] overflow-y-auto pr-1">
+              {chapterData.trapAlerts.map((tr, i) => (
+                <div key={i} className="p-3 rounded-xl bg-slate-950/90 border border-rose-500/25 text-xs space-y-1">
+                  <div className="font-black text-rose-200">{tr.title[lang]}</div>
+                  <div className="text-slate-300 leading-relaxed">
+                    <RichMathsText text={tr.detail[lang]} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 1. CONCEPTS & RULES MODULES */}
+      {showConcepts && studentMode !== 'traps' && (
+        <div className="space-y-6">
+          <div className="flex items-center gap-2 text-emerald-300 font-black text-lg">
+            <BookOpen className="w-5 h-5" />
+            <span>
+              {isHi
+                ? `संपूर्ण कक्षा सिद्धांत — सभी ${chapterData.sections.length} मॉड्यूल (शून्य से एडवांस तक)`
+                : `Complete Classroom Modules — All ${chapterData.sections.length} Zero-to-Pro Units`}
+            </span>
+          </div>
+
+          {chapterData.sections.map((sec) => {
+            const plateHtml = sec.diagramKey
+              ? renderMathsCh1DiagramSvg(sec.diagramKey, { lang, theme: 'dark' })
+              : '';
+            return (
+              <div
+                key={sec.id}
+                className="rounded-3xl bg-slate-900/65 border border-slate-800 p-5 sm:p-7 space-y-5"
+              >
+                <div className="border-b border-slate-800 pb-3">
+                  <span className="px-2.5 py-0.5 rounded-full bg-teal-500/20 border border-teal-500/35 text-teal-300 text-[11px] font-black">
+                    MODULE {sec.number}
+                  </span>
+                  <h3 className="text-base sm:text-xl font-black text-white mt-2">{sec.title[lang]}</h3>
+                  <p className="text-xs text-slate-400 mt-1">{sec.summaryTag[lang]}</p>
+                </div>
+
+                {plateHtml && (
+                  <div
+                    className="rounded-2xl overflow-hidden border border-slate-800"
+                    dangerouslySetInnerHTML={{ __html: plateHtml }}
+                  />
+                )}
+
+                <div className="space-y-4">
+                  {sec.blocks.map((blk, bIdx) => (
+                    <div
+                      key={bIdx}
+                      className="p-4 sm:p-5 rounded-2xl bg-[#070E1D] border border-slate-800/90 space-y-3"
+                    >
+                      <h4 className="text-sm sm:text-base font-black text-teal-300">
+                        <MathText text={blk.heading[lang]} />
+                      </h4>
+                      <div className="text-xs sm:text-sm text-slate-200 leading-relaxed whitespace-pre-line">
+                        <RichMathsText text={blk.body[lang]} />
+                      </div>
+
+                      {blk.illustration && (
+                        <div className="mt-3 p-3.5 rounded-2xl bg-slate-900/90 border border-amber-500/30 space-y-2.5">
+                          <div className="text-xs font-black text-amber-300">
+                            💡 {blk.illustration.title[lang]}
+                          </div>
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                            {(studentMode === 'all' || studentMode === 'basic') && (
+                              <div className="p-3 rounded-xl bg-teal-950/30 border border-teal-500/30 space-y-1">
+                                <div className="font-black text-teal-300">
+                                  {isHi ? 'विधि 1: बेसिक / स्टेप-बाय-स्टेप' : 'Basic / Concept Approach'}
+                                </div>
+                                <div className="text-slate-200 leading-relaxed whitespace-pre-line">
+                                  <RichMathsText text={blk.illustration.basic[lang]} />
+                                </div>
+                              </div>
+                            )}
+                            {(studentMode === 'all' || studentMode === 'topper') && (
+                              <div className="p-3 rounded-xl bg-emerald-950/30 border border-emerald-500/30 space-y-1">
+                                <div className="font-black text-emerald-300">
+                                  {isHi ? 'विधि 2: स्मार्ट / 5-सेकंड ट्रिक' : 'Smart / 5-Sec Exam Trick'}
+                                </div>
+                                <div className="text-slate-200 leading-relaxed whitespace-pre-line">
+                                  <RichMathsText text={blk.illustration.smart[lang]} />
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {/* 2. INTERACTIVE ANIMATED SVG CONCEPTS LABS */}
+      {showLabs && (
+        <ProFeatureGate
+          hasPassPro={hasPassPro}
+          onOpenPassPro={onOpenPassPro}
+          lang={lang}
+          featureTitle={{
+            en: '5-in-1 Interactive Animated Maths Simulator Lab',
+            hi: '5-इन-1 इंटरैक्टिव एनिमेटेड मैथ्स लैब अनलॉक करें',
+          }}
+          featureSubtitle={{
+            en: 'Divisibility/C9 X-Ray, Unit Digit Wheel, Bell LCM Animator, VBODMAS Step Peeler & Bar Decimal Converter.',
+            hi: 'विभाज्यता/C9 एक्स-रे, इकाई अंक चक्र, घंटी LCM एनिमेटर, VBODMAS पीलर एवं बार दशमलव कन्वर्टर।',
+          }}
+        >
+          <NumberSystemLabSVG lang={lang} />
+        </ProFeatureGate>
+      )}
+
+      {/* 3. TYPE-WISE SOLVED RAILWAY PYQs (2–4 METHODS EACH) */}
+      {showPyqs && (
+        <div className="rounded-3xl bg-slate-900/65 border border-amber-500/35 p-5 sm:p-7 space-y-5">
+          <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-800">
+            <div>
+              <h2 className="text-base sm:text-xl font-black text-amber-300 flex items-center gap-2">
+                <Target className="w-5 h-5" />
+                <span>
+                  {isHi
+                    ? `टाइप-वाइज रियल रेलवे PYQs (${chapterData.pyqBank.length} प्रश्न • प्रत्येक 2–4 विधियों से हल)`
+                    : `Type-Wise Real Railway PYQs (${chapterData.pyqBank.length} Questions • 2–4 Methods Each)`}
+                </span>
+              </h2>
+              <p className="text-xs text-slate-300 mt-0.5">
+                {isHi
+                  ? 'ALP, CBT-2 Part A, NTPC UG, Group D & Tech Gr-III से सत्यापित — पहले खुद हल करें, फिर बेसिक, स्मार्ट व 3-सेकंड ट्रिक देखें!'
+                  : 'Verified from ALP, CBT-2 Part A, NTPC UG, Group D & Tech Gr-III — practice inline or launch CBT mode.'}
+              </p>
+            </div>
+
+            <button
+              type="button"
+              onClick={handleLaunchChapterPyqCbt}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 hover:brightness-105 text-slate-950 font-black text-xs sm:text-sm shadow-lg cursor-pointer"
+            >
+              {hasPassPro ? <Play className="w-4 h-4 fill-slate-950" /> : <Crown className="w-4 h-4 fill-slate-950" />}
+              <span>
+                {isHi
+                  ? `लाइव ${chapterData.pyqBank.length}-Q Chapter CBT शुरू करें`
+                  : `Launch ${chapterData.pyqBank.length}-Q Chapter CBT`}
+              </span>
+            </button>
+          </div>
+
+          {/* Type + Difficulty Filters */}
+          <div className="space-y-2">
+            <div className="flex flex-wrap items-center gap-1.5 text-[11px]">
+              <span className="font-black text-slate-400 flex items-center gap-1 mr-1">
+                <Filter className="w-3.5 h-3.5" /> {isHi ? 'स्तर:' : 'Level:'}
+              </span>
+              {[
+                { id: 'all', hi: 'सभी प्रश्न', en: 'All Levels' },
+                { id: 'level1_basic', hi: 'Level 1: बेसिक', en: 'Level 1: Basic' },
+                { id: 'level2_mod', hi: 'Level 2: मध्यम', en: 'Level 2: Moderate' },
+                { id: 'level3_hard', hi: 'Level 3: कठिन / CBT-2', en: 'Level 3: Hard / CBT-2' },
+              ].map((lv) => (
+                <button
+                  key={lv.id}
+                  type="button"
+                  onClick={() => setLevelFilter(lv.id)}
+                  className={`px-2.5 py-1 rounded-lg border font-bold cursor-pointer ${
+                    levelFilter === lv.id
+                      ? 'bg-teal-500 text-slate-950 border-teal-300'
+                      : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-600'
+                  }`}
+                >
+                  {lv[lang]}
+                </button>
+              ))}
+            </div>
+
+            <div className="flex flex-wrap gap-1.5">
+              <button
+                type="button"
+                onClick={() => setSelectedTypeId('all')}
+                className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border cursor-pointer ${
+                  selectedTypeId === 'all'
+                    ? 'bg-amber-400 text-slate-950 border-amber-200'
+                    : 'bg-slate-950 border-slate-800 text-slate-300'
+                }`}
+              >
+                {isHi ? `सभी ${chapterData.typeWiseGroups.length} टाइप` : `All ${chapterData.typeWiseGroups.length} Types`}
+              </button>
+              {chapterData.typeWiseGroups.map((tg) => (
+                <button
+                  key={tg.typeId}
+                  type="button"
+                  onClick={() => setSelectedTypeId(tg.typeId)}
+                  className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border cursor-pointer ${
+                    selectedTypeId === tg.typeId
+                      ? 'bg-amber-400 text-slate-950 border-amber-200'
+                      : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-amber-500/40'
+                  }`}
+                >
+                  Type {tg.typeNumber}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {pyqStats.answered > 0 && (
+            <div className="p-3 rounded-2xl bg-slate-950/90 border border-slate-800 flex items-center justify-between text-xs sm:text-sm">
+              <span className="font-bold text-white">
+                {isHi ? `लाइव स्कोर: ${pyqStats.correct} / ${pyqStats.answered} सही` : `Score: ${pyqStats.correct} / ${pyqStats.answered} Correct`}
+              </span>
+              <button
+                type="button"
+                onClick={() => setPyqAnswers({})}
+                className="inline-flex items-center gap-1 text-slate-300 hover:text-white font-bold cursor-pointer"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>{isHi ? 'रीसेट' : 'Reset'}</span>
+              </button>
+            </div>
+          )}
+
+          {/* Grouped Type Sections */}
+          <div className="space-y-6">
+            {chapterData.typeWiseGroups
+              .filter((tg) => selectedTypeId === 'all' || selectedTypeId === tg.typeId)
+              .map((tg) => {
+                const items = tg.questionIds
+                  .map((qid) => pyqMap.get(qid))
+                  .filter((pq) => pq && (levelFilter === 'all' || pq.level === levelFilter));
+                if (items.length === 0) return null;
+
+                return (
+                  <div key={tg.typeId} className="rounded-2xl bg-[#070D1C] border border-slate-800 p-4 sm:p-5 space-y-4">
+                    <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-slate-800">
+                      <div>
+                        <span className="text-[10px] font-black uppercase text-amber-300 bg-amber-500/15 border border-amber-500/35 px-2.5 py-0.5 rounded-full">
+                          TYPE {tg.typeNumber} • {items.length} PYQs
+                        </span>
+                        <h3 className="text-sm sm:text-base font-black text-white mt-1.5">
+                          <MathText text={tg.title[lang]} />
+                        </h3>
+                      </div>
+                      <div className="px-3 py-1.5 rounded-xl bg-teal-950/30 border border-teal-500/30 text-[11px] font-bold text-teal-200 max-w-md">
+                        💡 <MathText text={tg.conceptHint[lang]} />
+                      </div>
+                    </div>
+
+                    <div className="space-y-4">
+                      {items.map((pq) => {
+                        const picked = pyqAnswers[pq.id];
+                        const isAnswered = picked !== undefined;
+                        const solOpen = openSolutions[pq.id] ?? isAnswered;
+                        const levelBadge =
+                          pq.level === 'level1_basic'
+                            ? { cls: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30', txt: 'Level 1 Basic' }
+                            : pq.level === 'level2_mod'
+                            ? { cls: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30', txt: 'Level 2 Moderate' }
+                            : { cls: 'bg-rose-500/15 text-rose-300 border-rose-500/30', txt: 'Level 3 Hard' };
+
+                        return (
+                          <div key={pq.id} className="p-4 rounded-2xl bg-slate-900/75 border border-slate-800 space-y-3">
+                            <div className="flex flex-wrap items-center justify-between gap-2">
+                              <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                                {pq.examTag}
+                              </span>
+                              <span className={`text-[10px] font-black px-2 py-0.5 rounded-full border ${levelBadge.cls}`}>
+                                {levelBadge.txt}
+                              </span>
+                            </div>
+
+                            <div className="text-sm sm:text-base font-bold text-white leading-relaxed">
+                              <MathText text={pq.question[lang]} />
+                            </div>
+
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                              {pq.options[lang].map((opt, oIdx) => {
+                                const isCorr = oIdx === pq.correctIndex;
+                                const isPicked = picked === oIdx;
+                                let cls = 'bg-slate-950 border-slate-700 text-slate-200 hover:border-teal-400/60';
+                                if (isAnswered) {
+                                  if (isCorr) cls = 'bg-emerald-500/20 border-emerald-400 text-emerald-200 font-bold';
+                                  else if (isPicked) cls = 'bg-rose-500/20 border-rose-400 text-rose-200';
+                                  else cls = 'bg-slate-950/40 border-slate-800 text-slate-400';
+                                }
+                                return (
+                                  <button
+                                    key={oIdx}
+                                    type="button"
+                                    onClick={() => setPyqAnswers((prev) => ({ ...prev, [pq.id]: oIdx }))}
+                                    className={`px-3.5 py-2.5 rounded-xl border text-left text-xs sm:text-sm transition-all cursor-pointer ${cls}`}
+                                  >
+                                    <span className="font-black mr-1.5">{String.fromCharCode(65 + oIdx)}.</span>
+                                    <MathText text={opt} />
+                                  </button>
+                                );
+                              })}
+                            </div>
+
+                            <div className="flex items-center justify-between pt-1">
+                              <button
+                                type="button"
+                                onClick={() => setOpenSolutions((p) => ({ ...p, [pq.id]: !solOpen }))}
+                                className="inline-flex items-center gap-1.5 text-xs font-black text-teal-300 hover:text-teal-200 cursor-pointer"
+                              >
+                                <Sparkles className="w-3.5 h-3.5" />
+                                <span>
+                                  {solOpen
+                                    ? isHi
+                                      ? 'सभी विधियाँ छुपाएं'
+                                      : 'Hide Multi-Method Solution'
+                                    : isHi
+                                    ? `देखें: ${pq.solution.methods.length} विधियाँ (Basic + Smart + 3-Sec Trick)`
+                                    : `View ${pq.solution.methods.length} Solving Methods`}
+                                </span>
+                                {solOpen ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+                              </button>
+                            </div>
+
+                            {solOpen && (
+                              <div className="pt-2 border-t border-slate-800">
+                                <MultiMethodSolutionBox
+                                  solution={pq.solution}
+                                  lang={lang}
+                                  defaultShowAll={studentMode === 'basic' || studentMode === 'topper'}
+                                />
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+      )}
+
+      {/* 4. MASTER CHEAT TABLES & ACTIVE RECALL FLASHCARDS */}
+      {showTables && (
+        <div className="space-y-6">
+          <div className="rounded-3xl bg-slate-900/65 border border-cyan-500/30 p-5 sm:p-7 space-y-5">
+            <div className="flex items-center gap-2 text-cyan-300 font-black text-base sm:text-lg">
+              <Table2 className="w-5 h-5" />
+              <span>{isHi ? 'मास्टर फॉर्मूला व शॉर्टकट तुलना तालिकाएँ (5 सारणी)' : 'Master Formula & Cheat Reference Tables'}</span>
+            </div>
+            {chapterData.tables.map((tbl) => (
+              <div key={tbl.id} className="space-y-2">
+                <h3 className="text-sm sm:text-base font-black text-white">{tbl.title[lang]}</h3>
+                <div className="overflow-x-auto rounded-2xl border border-slate-800">
+                  <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                    <thead>
+                      <tr className="bg-slate-900 border-b border-slate-800">
+                        {tbl.headers[lang].map((h, i) => (
+                          <th key={i} className="px-3.5 py-3 font-black text-cyan-300 whitespace-nowrap">{h}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-800/80 bg-[#080D1A]">
+                      {tbl.rows.map((row, rIdx) => (
+                        <tr key={rIdx} className="hover:bg-slate-900/60">
+                          {row.map((cell, cIdx) => (
+                            <td
+                              key={cIdx}
+                              className={`px-3.5 py-3 leading-relaxed ${
+                                cIdx === 0 ? 'font-bold text-white' : 'text-slate-200'
+                              }`}
+                            >
+                              <RichMathsText text={typeof cell === 'object' ? cell[lang] : String(cell)} />
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="rounded-3xl bg-slate-900/65 border border-violet-500/30 p-5 sm:p-7 space-y-4">
+            <h2 className="text-base sm:text-lg font-black text-violet-300 flex items-center gap-2">
+              <Layers className="w-5 h-5" />
+              <span>{isHi ? 'एक्टिव रिकॉल फ्लैशकार्ड्स (टैप करके नियम याद करें)' : 'Active Recall Formula Flashcards (Tap to Flip)'}</span>
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+              {chapterData.flashcards.map((card, i) => {
+                const flipped = Boolean(flippedCards[i]);
+                return (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => setFlippedCards((prev) => ({ ...prev, [i]: !prev[i] }))}
+                    className={`text-left p-4 rounded-2xl border min-h-[120px] flex flex-col justify-between transition-all cursor-pointer ${
+                      flipped
+                        ? 'bg-emerald-950/35 border-emerald-500/50 text-emerald-100'
+                        : 'bg-[#080D1B] border-slate-800 hover:border-violet-400/50 text-white'
+                    }`}
+                  >
+                    <span className="text-[10px] font-black uppercase text-violet-300">
+                      {flipped ? (isHi ? 'उत्तर ✓' : 'Answer ✓') : isHi ? `कार्ड #${i + 1} • टैप करें` : `Card #${i + 1} • Tap`}
+                    </span>
+                    <div className="text-xs sm:text-sm font-bold leading-relaxed my-1">
+                      <RichMathsText text={flipped ? card.back[lang] : card.front[lang]} />
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* A4 Pro PDF Modal */}
+      {showPdfModal && (
+        <div onClick={() => setShowPdfModal(false)} className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+          <div onClick={(e) => e.stopPropagation()} className="max-w-md w-full rounded-3xl bg-[#090D1A] border border-teal-500/40 p-6 shadow-2xl space-y-4">
+            <div className="text-center">
+              <div className="w-12 h-12 rounded-2xl bg-teal-500/20 text-teal-300 flex items-center justify-center mx-auto mb-3">
+                <Printer className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-black text-white">RailwayPrep PRO • Maths A4 Booklet</h3>
+              <p className="text-xs text-slate-300 mt-1">
+                Clean printable white A4 PDF containing all concepts, vector charts, formulas &amp; 30 Multi-Method PYQs.
+              </p>
+            </div>
+            <div className="space-y-2.5">
+              <button
+                type="button"
+                onClick={() => handleOpenPdfOption('hi')}
+                className="w-full py-3 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-black text-xs sm:text-sm cursor-pointer"
+              >
+                🇮🇳 हिन्दी Maths Mastery A4 Booklet प्रिंट / Save PDF
+              </button>
+              <button
+                type="button"
+                onClick={() => handleOpenPdfOption('en')}
+                className="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-bold text-xs sm:text-sm cursor-pointer"
+              >
+                🇬🇧 English Maths Mastery A4 Booklet Save PDF
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

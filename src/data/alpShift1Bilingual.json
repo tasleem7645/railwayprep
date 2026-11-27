@@ -1180,10 +1180,42 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option B (5544). Verified by official Railway Recruitment Board answer key.",
-      "hi": "सही उत्तर: विकल्प B (5544)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**5544**).",
+      "keyConcept": "22 = 2 × 11 + Check 9 (Digit Sum = 9k) First!",
+      "optionTrick": {
+        "en": "Check **`9`** on digit sums: `6+4+6+4=20✗`, `5+5+4+4=18✓`, `5+1+5+2=13✗`, `4+6+4+2=16✗`. Notice double-digit palindromes like `5544` (`5+4 = 5+4`) are ALWAYS divisible by `11` too!",
+        "hi": "`9` के नियम से: `6464(20✗)`, `5544(18✓)`, `5152(13✗)`, `4642(16✗)` — तुरंत **`5544`**! `5544` सम भी है और `(5+4)-(5+4)=0` से `11` से भी कटता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check 9, 2 and 11",
+            "hi": "विधि 1: 9, 2 व 11 जाँच"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$22 = 2 \\times 11$. Check `9` (`sum = 9k`): `5+5+4+4 = 18` (`only 5544 works!`). Also `5544` is even (`÷2`) and `(5+4)−(5+4)=0` (`÷11`).",
+            "hi": "अंकों का योग: केवल `5544` (`18`) `9` से कटता है; यह सम (`÷2`) भी है व `(5+4)−(5+4)=0` (`÷11`) भी।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: `aabb` Palindrome Shortcut",
+            "hi": "विधि 2: `aabb` रूप व `C9=0` ट्रिक"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Any `aabb` number (`5544`) equals $11(100a + b)$ so it is ALWAYS a multiple of `11`; check `9`: $5+5+4+4=18$ ✓!",
+            "hi": "`aabb` (`5544`) हमेशा `11` का गुणज होता है; बस `9` चेक किया `18✓`!"
+          }
+        }
+      ],
+      "en": "Method 1: Check 9, 2 and 11: $22 = 2 \\times 11$. Check `9` (`sum = 9k`): `5+5+4+4 = 18` (`only 5544 works!`). Also `5544` is even (`÷2`) and `(5+4)−(5+4)=0` (`÷11`).\n\nMethod 2: `aabb` Palindrome Shortcut: Any `aabb` number (`5544`) equals $11(100a + b)$ so it is ALWAYS a multiple of `11`; check `9`: $5+5+4+4=18$ ✓!",
+      "hi": "विधि 1: 9, 2 व 11 जाँच: अंकों का योग: केवल `5544` (`18`) `9` से कटता है; यह सम (`÷2`) भी है व `(5+4)−(5+4)=0` (`÷11`) भी।\n\nविधि 2: `aabb` रूप व `C9=0` ट्रिक: `aabb` (`5544`) हमेशा `11` का गुणज होता है; बस `9` चेक किया `18✓`!"
     },
     "correctIndexHi": 1
   },

@@ -1353,10 +1353,42 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (2) सही उत्तर है।"
+      "approach": "Verified Answer: **A = 2** (Full number: `71720280`).",
+      "keyConcept": "Divisibility by 3: Sum of All Digits must be divisible by 3",
+      "pyqType": {
+        "en": "Missing Digit Divisibility (÷3)",
+        "hi": "लुप्त अंक विभाज्यता (÷3)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Rule of 3",
+            "hi": "विधि 1: 3 के मानक नियम से हल"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Sum of fixed digits $= 25$. Total $= 25 + A$.\nSmallest multiple of 3 $\\ge 25$ is $27$ ⇒ $A = 27 - 25 = \\mathbf{2}$.",
+            "hi": "अन्य अंकों का योग $= 25$। कुल योग $= 25 + A$ जो 3 से कटे ($27$) ⇒ $A = \\mathbf{2}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast Out 9s / 3s Cancellation (`3 sec`)",
+            "hi": "विधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Cancel every digit or pair divisible by 3 from 717A0280: remainder is 1. Add minimum digit **2** to complete 3!",
+            "hi": "अंकों में से 3 के गुणज सीधे काटते जाएं: शेष 1 बचता है ⇒ 3 पूरा करने को **2** जोड़ें!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Rule of 3: Sum of fixed digits $= 25$. Total $= 25 + A$.\nSmallest multiple of 3 $\\ge 25$ is $27$ ⇒ $A = 27 - 25 = \\mathbf{2}$.\n\nMethod 2: Cast Out 9s / 3s Cancellation (`3 sec`): Cancel every digit or pair divisible by 3 from 717A0280: remainder is 1. Add minimum digit **2** to complete 3!",
+      "hi": "विधि 1: 3 के मानक नियम से हल: अन्य अंकों का योग $= 25$। कुल योग $= 25 + A$ जो 3 से कटे ($27$) ⇒ $A = \\mathbf{2}$।\n\nविधि 2: `3/9` के जोड़े काटकर 3-सेकंड हल: अंकों में से 3 के गुणज सीधे काटते जाएं: शेष 1 बचता है ⇒ 3 पूरा करने को **2** जोड़ें!"
     }
   },
   {
@@ -1421,10 +1453,42 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Rules for 7,8,9,11",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (5,328) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (5,328) सही उत्तर है।"
+      "approach": "Verified Answer: Option B (**5,328**) is divisible by 9.",
+      "keyConcept": "Divisibility Check for 9: Apply Last-Digit / Digit-Sum / Alternating Rule First",
+      "pyqType": {
+        "en": "Divisibility Rules MCQ",
+        "hi": "विभाज्यता नियम"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check Divisibility by 9",
+            "hi": "विधि 1: 9 से पूर्ण विभाजन जाँच"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "• $5328 \\div 9 = 592$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.",
+            "hi": "• $5328 \\div 9 = 592$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Unit/Digit-Sum Elimination (`3 sec`)",
+            "hi": "विधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=9 (for 3/9). Only **5,328** satisfies every condition!",
+            "hi": "सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=9 से गलत विकल्प हटाने पर केवल **5,328** बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Check Divisibility by 9: • $5328 \\div 9 = 592$ (Remainder `0` ✓)\nNone of the remaining options satisfies all divisors.\n\nMethod 2: Smart Unit/Digit-Sum Elimination (`3 sec`): Eliminate wrong choices quickly using parity (even/odd), last digits (for 4/5/8), or digit sum C9=9 (for 3/9). Only **5,328** satisfies every condition!",
+      "hi": "विधि 1: 9 से पूर्ण विभाजन जाँच: • $5328 \\div 9 = 592$ (शेष `0` ✓)\nअन्य तीनों विकल्प सभी शर्तों को पूरा नहीं करते।\n\nविधि 2: अंतिम अंक / अंक योग ट्रिक (`3 सेकंड`): सम-विषम, अंतिम अंक (2/4/5/8) या अंक योग C9=9 से गलत विकल्प हटाने पर केवल **5,328** बचता है!"
     }
   },
   {

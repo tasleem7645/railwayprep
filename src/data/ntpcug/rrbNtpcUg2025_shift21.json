@@ -1485,10 +1485,42 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (30) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (30) सही उत्तर है।"
+      "approach": "Verified Answer: **30** ($29 \\times 30 = 870$).",
+      "keyConcept": "Product of Consecutive n(n+1) = P ⇒ Split Around √P",
+      "pyqType": {
+        "en": "Consecutive Number Product",
+        "hi": "क्रमागत संख्या गुणनफल"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation $x(x+1) = 870$",
+            "hi": "विधि 1: द्विघात समीकरण से हल"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x(x+1) = 870 \\Rightarrow x^2 + x - 870 = 0 \\Rightarrow (x + 30)(x - 29) = 0 \\Rightarrow x = 29, x+1 = 30$. Answer: **30**.",
+            "hi": "$x^2 + x - 870 = 0$ के गुणनखंड करने पर $(29, 30)$ प्राप्त होते हैं ⇒ उत्तर **30**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Square Sandwich $29^2 < 870 < 30^2$ (`3 sec`)",
+            "hi": "विधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $29^2 = 841 < 870 < 30^2 = 900$, the consecutive numbers MUST be **29 & 30**!",
+            "hi": "$841 < 870 < 900$ ($29^2$ व $30^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **29, 30**!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation $x(x+1) = 870$: $x(x+1) = 870 \\Rightarrow x^2 + x - 870 = 0 \\Rightarrow (x + 30)(x - 29) = 0 \\Rightarrow x = 29, x+1 = 30$. Answer: **30**.\n\nMethod 2: Square Sandwich $29^2 < 870 < 30^2$ (`3 sec`): Since $29^2 = 841 < 870 < 30^2 = 900$, the consecutive numbers MUST be **29 & 30**!",
+      "hi": "विधि 1: द्विघात समीकरण से हल: $x^2 + x - 870 = 0$ के गुणनखंड करने पर $(29, 30)$ प्राप्त होते हैं ⇒ उत्तर **30**।\n\nविधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`): $841 < 870 < 900$ ($29^2$ व $30^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **29, 30**!"
     }
   },
   {
@@ -1584,10 +1616,42 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−43) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−43) सही उत्तर है।"
+      "approach": "Verified Answer: **−43** (Evaluated value = `-43`).",
+      "keyConcept": "VBODMAS & Exact Simplification Order: Roots/Brackets -> Of -> ÷ -> × -> +/−",
+      "pyqType": {
+        "en": "VBODMAS / Simplification",
+        "hi": "सरलीकरण (VBODMAS / रूट / भिन्न)"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation",
+            "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **−43**.",
+            "hi": "1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **−43**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`)",
+            "hi": "विधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`)"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **−43**!",
+            "hi": "बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **−43** पक्का होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step VBODMAS / Bracket Evaluation: 1) Evaluate square/cube roots and innermost brackets ( ) first, keeping negative signs (−) intact.\n2) Execute division ÷ and multiplication × left-to-right before final addition/subtraction.\n3) Exact simplified result = **−43**.\n\nMethod 2: Parallel Chunking & C9 / Sign-Check Trick (`8 sec`): Split expression at top-level `+` / `−` signs into independent blocks, verify positive/negative magnitude and decimal places against choices -> **−43**!",
+      "hi": "विधि 1: चरणबद्ध VBODMAS / मान रखकर हल: 1) सबसे पहले वर्गमूल/कोष्ठक ( ) हल करें और ऋणात्मक चिह्नों (− × − = +) का ध्यान रखें।\n2) अंत में भाग ÷ व गुणा × के बाद जोड़-घटाव करें।\n3) सटीक मान = **−43**।\n\nविधि 2: समानांतर खंड + अंतिम-अंक / C9 जाँच (`8 सेकंड`): बाहरी `+` / `−` चिह्नों से छोटे स्वतंत्र ब्लॉक बनाकर दशमलव/अंतिम अंक मिलाने पर तुरंत **−43** पक्का होता है!"
     }
   },
   {
@@ -1947,10 +2011,42 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Number System, Algebra & Percentage",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (9583) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (9583) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**9583**).",
+      "keyConcept": "Product = HCF × LCM = 7 × (HCF)²",
+      "optionTrick": {
+        "en": "`6 × H = 222 => H = 37`, `L = 259`. Product unit digit $= 7 \\times 9 = 63 \\to \\mathbf{3}$! Only **`9583`** ends in `3`! Also Product $= 7 H^2$ has `C9`: `H=37->1`, `7 × 1² = 7` -> `C9(9583) = 5+8+3 = 16 -> 7 ✓`!",
+        "hi": "`H = 222/6 = 37`, `L = 7×37 = 259`। गुणनफल का इकाई अंक $= 7 \\times 9 \\to \\mathbf{3}$! चारों में **केवल `9583` के अंत में `3` है**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Solve HCF & LCM Equations",
+            "hi": "विधि 1: समीकरण बनाकर पूर्ण हल"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Let $\\text{HCF} = H \\Rightarrow \\text{LCM} = 7H$.\n2) Difference: $7H - H = 222 \\Rightarrow 6H = 222 \\Rightarrow \\mathbf{H = 37}$.\n3) $\\text{LCM} = 7 \\times 37 = 259$.\n4) Product $= H \\times L = 37 \\times 259 = \\mathbf{9583}$.",
+            "hi": "1) $\\text{HCF} = H, \\text{LCM} = 7H \\Rightarrow 6H = 222 \\Rightarrow H = 37, L = 259$।\n2) गुणनफल $= 37 \\times 259 = \\mathbf{9583}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit Digit + $7H^2$ Shortcut",
+            "hi": "विधि 2: $7H^2$ + इकाई अंक ट्रिक"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$H = 222/6 = 37$. Product $= 7 \\times 37^2$. Unit digit $= 7 \\times 9 \\to \\mathbf{3}$. Only **`9583`** ends in `3`!",
+            "hi": "गुणनफल $= 7 \\times 37^2$ जिसका अंतिम अंक `7 × 9 -> 3` होगा ⇒ **विकल्प D (`9583`)**!"
+          }
+        }
+      ],
+      "en": "Method 1: Solve HCF & LCM Equations: 1) Let $\\text{HCF} = H \\Rightarrow \\text{LCM} = 7H$.\n2) Difference: $7H - H = 222 \\Rightarrow 6H = 222 \\Rightarrow \\mathbf{H = 37}$.\n3) $\\text{LCM} = 7 \\times 37 = 259$.\n4) Product $= H \\times L = 37 \\times 259 = \\mathbf{9583}$.\n\nMethod 2: Unit Digit + $7H^2$ Shortcut: $H = 222/6 = 37$. Product $= 7 \\times 37^2$. Unit digit $= 7 \\times 9 \\to \\mathbf{3}$. Only **`9583`** ends in `3`!",
+      "hi": "विधि 1: समीकरण बनाकर पूर्ण हल: 1) $\\text{HCF} = H, \\text{LCM} = 7H \\Rightarrow 6H = 222 \\Rightarrow H = 37, L = 259$।\n2) गुणनफल $= 37 \\times 259 = \\mathbf{9583}$।\n\nविधि 2: $7H^2$ + इकाई अंक ट्रिक: गुणनफल $= 7 \\times 37^2$ जिसका अंतिम अंक `7 × 9 -> 3` होगा ⇒ **विकल्प D (`9583`)**!"
     }
   },
   {

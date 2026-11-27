@@ -1285,10 +1285,42 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (2) सही उत्तर है।"
+      "approach": "Verified Answer: Add **2** (97306 + 2 = 97308 = 6 × 16218).",
+      "keyConcept": "Number to Add = Divisor − Remainder (when Remainder > 0)",
+      "pyqType": {
+        "en": "Divisibility Addition/Subtraction",
+        "hi": "विभाज्यता हेतु न्यूनतम जोड़"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Divide & Subtract Remainder from Divisor",
+            "hi": "विधि 1: भाग देकर शेषफल को भाजक से घटाना"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Divide 97306 by 6: Remainder $= 4$.\nTo reach next exact multiple of 6, add: $6 - 4 = \\mathbf{2}$.",
+            "hi": "97306 को 6 से भाग देने पर शेषफल $= 4$।\nअतः जोड़ी जाने वाली न्यूनतम संख्या $= 6 - 4 = \\mathbf{2}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Rule-of-6 Direct Option Add (`3 sec`)",
+            "hi": "विधि 2: सीधे 6 के नियम में जोड़ चेक"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Add each option directly to 97306 and apply the quick divisibility test for 6: only `97306 + 2 = 97308` is divisible by 6!",
+            "hi": "97306 में सीधे विकल्प जोड़कर 6 से जांचें: केवल `97306 + 2 = 97308` विभाज्य है!"
+          }
+        }
+      ],
+      "en": "Method 1: Divide & Subtract Remainder from Divisor: Divide 97306 by 6: Remainder $= 4$.\nTo reach next exact multiple of 6, add: $6 - 4 = \\mathbf{2}$.\n\nMethod 2: Rule-of-6 Direct Option Add (`3 sec`): Add each option directly to 97306 and apply the quick divisibility test for 6: only `97306 + 2 = 97308` is divisible by 6!",
+      "hi": "विधि 1: भाग देकर शेषफल को भाजक से घटाना: 97306 को 6 से भाग देने पर शेषफल $= 4$।\nअतः जोड़ी जाने वाली न्यूनतम संख्या $= 6 - 4 = \\mathbf{2}$।\n\nविधि 2: सीधे 6 के नियम में जोड़ चेक: 97306 में सीधे विकल्प जोड़कर 6 से जांचें: केवल `97306 + 2 = 97308` विभाज्य है!"
     }
   },
   {

@@ -1411,10 +1411,38 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option D (28). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (28)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**28**).",
+      "keyConcept": "∛4913 = 17 (17³) and ⁴√1296 = 6 (6⁴)",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Evaluate Roots & Cross-Cancel",
+            "hi": "विधि 1: मूल निकालकर क्रॉस कैंसिलेशन"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $17^3 = 4913 \\Rightarrow \\sqrt[3]{4913} = 17$.\n2) $6^4 = 1296 \\Rightarrow \\sqrt[4]{1296} = 6$ (since $6^2 = 36, 36^2 = 1296$).\n3) $\\frac{17}{6} \\times \\frac{3}{51} \\times 168 = \\frac{1}{2} \\times \\frac{1}{3} \\times 168 = \\frac{168}{6} = \\mathbf{28}$.",
+            "hi": "1) $\\sqrt[3]{4913} = 17$ तथा $\\sqrt[4]{1296} = 6$।\n2) $\\frac{17}{6} \\times \\frac{3}{51} \\times 168 = \\frac{168}{6} = \\mathbf{28}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cube-Root Unit Digit Shortcut (`4 sec`)",
+            "hi": "विधि 2: अंतिम अंक से घनमूल ट्रिक"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`4913` ends in `3` ⇒ cube root ends in `7` (`7³=343`); `1³ < 4 < 2³` ⇒ `17`! And `17/51 = 1/3`, `3/6 = 1/2` ⇒ `168 ÷ 6 = 28` (`ends in 8`, `38×6 > 168` -> **`28`**)!",
+            "hi": "`4913` के अंत में `3` ⇒ घनमूल `17`; `17×3 = 51` कटा! केवल **`168/6 = 28`**!"
+          }
+        }
+      ],
+      "en": "Method 1: Evaluate Roots & Cross-Cancel: 1) $17^3 = 4913 \\Rightarrow \\sqrt[3]{4913} = 17$.\n2) $6^4 = 1296 \\Rightarrow \\sqrt[4]{1296} = 6$ (since $6^2 = 36, 36^2 = 1296$).\n3) $\\frac{17}{6} \\times \\frac{3}{51} \\times 168 = \\frac{1}{2} \\times \\frac{1}{3} \\times 168 = \\frac{168}{6} = \\mathbf{28}$.\n\nMethod 2: Cube-Root Unit Digit Shortcut (`4 sec`): `4913` ends in `3` ⇒ cube root ends in `7` (`7³=343`); `1³ < 4 < 2³` ⇒ `17`! And `17/51 = 1/3`, `3/6 = 1/2` ⇒ `168 ÷ 6 = 28` (`ends in 8`, `38×6 > 168` -> **`28`**)!",
+      "hi": "विधि 1: मूल निकालकर क्रॉस कैंसिलेशन: 1) $\\sqrt[3]{4913} = 17$ तथा $\\sqrt[4]{1296} = 6$।\n2) $\\frac{17}{6} \\times \\frac{3}{51} \\times 168 = \\frac{168}{6} = \\mathbf{28}$।\n\nविधि 2: अंतिम अंक से घनमूल ट्रिक: `4913` के अंत में `3` ⇒ घनमूल `17`; `17×3 = 51` कटा! केवल **`168/6 = 28`**!"
     },
     "correctIndexHi": 3
   },

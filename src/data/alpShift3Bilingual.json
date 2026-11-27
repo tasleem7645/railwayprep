@@ -2236,10 +2236,38 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
-      "en": "Correct Answer: Option D (58). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (58)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**58**).",
+      "keyConcept": "VBODMAS Order: ( ) -> ÷ -> × inside { } -> Add/Subtract Chunks",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Line-by-Line Bracket Peeling",
+            "hi": "विधि 1: क्रमिक कोष्ठक हल"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Innermost `(4 + 2) = 6`.\n2) Inside `{ }`: $18 \\div 3 \\times 6 - 5 \\times 3 = 6 \\times 6 - 15 = 36 - 15 = 21$.\n3) Outside division: $28 \\div 7 = 4$.\n4) Combine: $75 - 21 + 4 = \\mathbf{58}$.",
+            "hi": "1) `(4+2) = 6` → मझले में `18÷3×6 − 15 = 36 − 15 = 21`।\n2) `28÷7 = 4` → `75 − 21 + 4 = 58`।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Chunk-Block Parallel Method (`10 sec`)",
+            "hi": "विधि 2: समानांतर खंड (Chunk) विधि"
+          },
+          "timeTag": "10 sec",
+          "tone": "amber",
+          "steps": {
+            "en": "Split at outer signs into 3 independent blocks: `[75] − [{6×6 − 15}] + [4]` $= 79 - 21 = \\mathbf{58}$.",
+            "hi": "बाहरी `+`/`−` से 3 भाग बनाएं: `75 − (36−15) + 4 = 79 − 21 = 58`।"
+          }
+        }
+      ],
+      "en": "Method 1: Line-by-Line Bracket Peeling: 1) Innermost `(4 + 2) = 6`.\n2) Inside `{ }`: $18 \\div 3 \\times 6 - 5 \\times 3 = 6 \\times 6 - 15 = 36 - 15 = 21$.\n3) Outside division: $28 \\div 7 = 4$.\n4) Combine: $75 - 21 + 4 = \\mathbf{58}$.\n\nMethod 2: Chunk-Block Parallel Method (`10 sec`): Split at outer signs into 3 independent blocks: `[75] − [{6×6 − 15}] + [4]` $= 79 - 21 = \\mathbf{58}$.",
+      "hi": "विधि 1: क्रमिक कोष्ठक हल: 1) `(4+2) = 6` → मझले में `18÷3×6 − 15 = 36 − 15 = 21`।\n2) `28÷7 = 4` → `75 − 21 + 4 = 58`।\n\nविधि 2: समानांतर खंड (Chunk) विधि: बाहरी `+`/`−` से 3 भाग बनाएं: `75 − (36−15) + 4 = 79 − 21 = 58`।"
     },
     "correctIndexHi": 3
   },

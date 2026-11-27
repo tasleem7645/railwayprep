@@ -718,10 +718,42 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (13 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option C (98.8). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (98.8)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**98.8**).",
+      "keyConcept": "Decimal LCM Rule: Equalize Decimal Digits (×100) -> Solve Integer LCM -> ÷100",
+      "trapAlert": {
+        "en": "Do NOT compute LCM(13, 76, 13) = 988 and divide by 10 thinking \"1.3 has 1 decimal\"! Equalize BOTH `1.30` and `7.60` to 2 decimal places FIRST.",
+        "hi": "`1.30` व `7.60` में भी दो अंक बराबर करें! गलत `×10` करने से उत्तर 10 गुना बड़ा आ जाएगा।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equalize Decimal Places (`×100`)",
+            "hi": "विधि 1: दशमलव बराबर कर पूर्णांक विधि"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Write with equal 2 decimals: `1.30, 7.60, 0.13`.\n2) Multiply by `100` ⇒ integers `130, 760, 13`.\n3) Factorize: $130 = 13 \\times 10$, $760 = 76 \\times 10 = 19 \\times 4 \\times 10$, $13 = 13$.\n4) $\\text{LCM}(130, 760, 13) = 13 \\times 76 \\times 10 = 9880$.\n5) Divide by `100` ⇒ $9880 / 100 = \\mathbf{98.8}$.",
+            "hi": "1) `1.30, 7.60, 0.13` को `×100` से `130, 760, 13` बनाएं।\n2) `130 = 13 × 10` व `760 = 76 × 10` (सह-अभाज्य `13` व `76`) ⇒ $\\text{LCM} = 13 \\times 760 = 9880$।\n3) वापस `÷100` करें ⇒ **`98.8`**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart `13 × 7.6` Direct Scaling + Multiple Check",
+            "hi": "विधि 2: दशमलव गुणज 5-सेकंड चेक"
+          },
+          "timeTag": "6 sec",
+          "tone": "amber",
+          "steps": {
+            "en": "`1.3` = $10 \\times 0.13$ (absorbs `0.13` completely). Notice `1.3` and `7.6` share only `0.1` (`13` & `76` are co-prime): $\\text{LCM} = 1.3 \\times 76 = \\mathbf{98.8}$ (`3 × 6 ends in .8` -> ONLY Option C has `.8`!).",
+            "hi": "`0.13` सीधे `1.3` को काटता है, और `13, 76` सह-अभाज्य हैं ⇒ सीधा $1.3 \\times 76 = \\mathbf{98.8}$ (अंत में `.8` केवल विकल्प C में है!)।"
+          }
+        }
+      ],
+      "en": "Method 1: Equalize Decimal Places (`×100`): 1) Write with equal 2 decimals: `1.30, 7.60, 0.13`.\n2) Multiply by `100` ⇒ integers `130, 760, 13`.\n3) Factorize: $130 = 13 \\times 10$, $760 = 76 \\times 10 = 19 \\times 4 \\times 10$, $13 = 13$.\n4) $\\text{LCM}(130, 760, 13) = 13 \\times 76 \\times 10 = 9880$.\n5) Divide by `100` ⇒ $9880 / 100 = \\mathbf{98.8}$.\n\nMethod 2: Smart `13 × 7.6` Direct Scaling + Multiple Check: `1.3` = $10 \\times 0.13$ (absorbs `0.13` completely). Notice `1.3` and `7.6` share only `0.1` (`13` & `76` are co-prime): $\\text{LCM} = 1.3 \\times 76 = \\mathbf{98.8}$ (`3 × 6 ends in .8` -> ONLY Option C has `.8`!).",
+      "hi": "विधि 1: दशमलव बराबर कर पूर्णांक विधि: 1) `1.30, 7.60, 0.13` को `×100` से `130, 760, 13` बनाएं।\n2) `130 = 13 × 10` व `760 = 76 × 10` (सह-अभाज्य `13` व `76`) ⇒ $\\text{LCM} = 13 \\times 760 = 9880$।\n3) वापस `÷100` करें ⇒ **`98.8`**।\n\nविधि 2: दशमलव गुणज 5-सेकंड चेक: `0.13` सीधे `1.3` को काटता है, और `13, 76` सह-अभाज्य हैं ⇒ सीधा $1.3 \\times 76 = \\mathbf{98.8}$ (अंत में `.8` केवल विकल्प C में है!)।"
     },
     "correctIndexHi": 2
   },

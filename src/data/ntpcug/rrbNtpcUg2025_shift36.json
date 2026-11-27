@@ -1749,10 +1749,42 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (11) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (11) सही उत्तर है।"
+      "approach": "Verified Answer: **11** ($10 \\times 11 = 110$).",
+      "keyConcept": "Product of Consecutive n(n+1) = P ⇒ Split Around √P",
+      "pyqType": {
+        "en": "Consecutive Number Product",
+        "hi": "क्रमागत संख्या गुणनफल"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation $x(x+1) = 110$",
+            "hi": "विधि 1: द्विघात समीकरण से हल"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x(x+1) = 110 \\Rightarrow x^2 + x - 110 = 0 \\Rightarrow (x + 11)(x - 10) = 0 \\Rightarrow x = 10, x+1 = 11$. Answer: **11**.",
+            "hi": "$x^2 + x - 110 = 0$ के गुणनखंड करने पर $(10, 11)$ प्राप्त होते हैं ⇒ उत्तर **11**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Square Sandwich $10^2 < 110 < 11^2$ (`3 sec`)",
+            "hi": "विधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $10^2 = 100 < 110 < 11^2 = 121$, the consecutive numbers MUST be **10 & 11**!",
+            "hi": "$100 < 110 < 121$ ($10^2$ व $11^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **10, 11**!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation $x(x+1) = 110$: $x(x+1) = 110 \\Rightarrow x^2 + x - 110 = 0 \\Rightarrow (x + 11)(x - 10) = 0 \\Rightarrow x = 10, x+1 = 11$. Answer: **11**.\n\nMethod 2: Square Sandwich $10^2 < 110 < 11^2$ (`3 sec`): Since $10^2 = 100 < 110 < 11^2 = 121$, the consecutive numbers MUST be **10 & 11**!",
+      "hi": "विधि 1: द्विघात समीकरण से हल: $x^2 + x - 110 = 0$ के गुणनखंड करने पर $(10, 11)$ प्राप्त होते हैं ⇒ उत्तर **11**।\n\nविधि 2: निकटतम वर्ग ट्रिक (`3 सेकंड`): $100 < 110 < 121$ ($10^2$ व $11^2$ के बीच) ⇒ क्रमागत संख्याएं तुरंत **10, 11**!"
     }
   },
   {
