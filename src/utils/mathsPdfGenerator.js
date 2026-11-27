@@ -4,7 +4,7 @@
  * + real Blob E-Book download — NEVER stuck on about:blank!) and Desktop browsers.
  */
 import { parseMathSegments } from './mathParser.js';
-import { renderMathsCh1DiagramSvg } from '../data/maths/diagrams/ch1NumberSystemDiagrams.js';
+import { renderMathsDiagramSvg } from '../data/maths/diagrams/mathsDiagramRegistry.js';
 
 function escapeHtml(str) {
   return String(str ?? '')
@@ -57,13 +57,13 @@ export function buildPrintableMathsBookHtml(chapterData, options = {}) {
   const isHi = langMode !== 'en';
 
   const blueprintSvg = chapterData.blueprintSvgKey
-    ? `<div class="svg-wrap">${renderMathsCh1DiagramSvg(chapterData.blueprintSvgKey, { lang: langMode, theme: 'light' })}</div>`
+    ? `<div class="svg-wrap">${renderMathsDiagramSvg(chapterData.blueprintSvgKey, { lang: langMode, theme: 'light' })}</div>`
     : '';
 
   const sectionsHtml = (chapterData.sections || [])
     .map((sec) => {
       const svgPlate = sec.diagramKey
-        ? `<div class="svg-wrap">${renderMathsCh1DiagramSvg(sec.diagramKey, { lang: langMode, theme: 'light' })}</div>`
+        ? `<div class="svg-wrap">${renderMathsDiagramSvg(sec.diagramKey, { lang: langMode, theme: 'light' })}</div>`
         : '';
 
       const cards = sec.boardCards || sec.blocks || [];

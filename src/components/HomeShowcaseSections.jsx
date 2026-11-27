@@ -27,8 +27,8 @@ const SUPER_NOTES_PREVIEW = [
   {
     id: 'maths',
     subject: 'Maths Mastery Pro (Zero-to-Topper)',
-    badge: 'CH 1 LIVE • 5 LABS',
-    desc: 'Number System, Divisibility, HCF–LCM & VBODMAS • 2–4 Methods per PYQ + Animated SVG Labs.',
+    badge: 'CH 1–2 LIVE • 10 LABS',
+    desc: 'Ch 1 (Number System & VBODMAS) + Ch 2 (Percentage % & Alligation) • 2–4 Methods per PYQ + Animated SVG Labs.',
     color: 'from-emerald-500/20 to-teal-500/10 border-emerald-400/45 text-emerald-300',
   },
   {

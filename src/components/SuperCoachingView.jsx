@@ -255,8 +255,8 @@ export default function SuperCoachingView({
             <Calculator className="w-4 h-4" />
             <span>
               {catalogLang === 'hi'
-                ? '📐 गणित मास्टरी प्रो (Ch 1 LIVE • 2–4 विधियाँ)'
-                : '📐 Maths Mastery Pro (Ch 1 LIVE • Multi-Method)'}
+                ? '📐 गणित मास्टरी प्रो (Ch 1–2 LIVE • 2–4 विधियाँ)'
+                : '📐 Maths Mastery Pro (Ch 1–2 LIVE • Multi-Method)'}
             </span>
           </button>
 

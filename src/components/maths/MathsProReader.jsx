@@ -7,8 +7,9 @@ import {
 import { MathText, RichFormatText } from '../QuestionContentRenderer';
 import MultiMethodSolutionBox from '../MultiMethodSolutionBox';
 import NumberSystemLabSVG from './NumberSystemLabSVG';
+import PercentageLabSVG from './PercentageLabSVG';
 import ProFeatureGate from '../ncert/ProFeatureGate';
-import { renderMathsCh1DiagramSvg } from '../../data/maths/diagrams/ch1NumberSystemDiagrams';
+import { renderMathsDiagramSvg } from '../../data/maths/diagrams/mathsDiagramRegistry';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import {
   triggerMathsSavePdfDialog,
@@ -18,15 +19,15 @@ import {
 
 const STORAGE_KEY_REVISED = 'railwayprep_maths_revised_v1';
 
-const MODULE_QUICK_PILLS = [
-  { id: 'mod-1-classification', label: '1.1 Number Tree', typeId: 'type-1-primes-parity' },
-  { id: 'mod-2-divisibility', label: '1.2 Divisibility', typeId: 'type-2-composite-divisibility' },
-  { id: 'mod-3-unit-c9', label: '1.3 Unit Digit & C9', typeId: 'type-7-unit-digit-perfect-sq' },
-  { id: 'mod-4-factors-remainders', label: '1.4 Factors & Rem', typeId: 'type-8-remainder-consecutive' },
-  { id: 'mod-5-hcf-lcm', label: '1.5 HCF & LCM', typeId: 'type-3-hcf-lcm-basics-decimals' },
-  { id: 'mod-6-vbodmas-simplification', label: '1.6 VBODMAS & 4ab', typeId: 'type-9-vbodmas-brackets' },
-  { id: 'mod-7-recurring-surds-indices', label: '1.7 Bar p/q & Surds', typeId: 'type-11-recurring-decimals' },
-];
+const CH1_PILL_META = {
+  'mod-1-classification': { label: '1.1 Number Tree', typeId: 'type-1-primes-parity' },
+  'mod-2-divisibility': { label: '1.2 Divisibility', typeId: 'type-2-composite-divisibility' },
+  'mod-3-unit-c9': { label: '1.3 Unit Digit & C9', typeId: 'type-7-unit-digit-perfect-sq' },
+  'mod-4-factors-remainders': { label: '1.4 Factors & Rem', typeId: 'type-8-remainder-consecutive' },
+  'mod-5-hcf-lcm': { label: '1.5 HCF & LCM', typeId: 'type-3-hcf-lcm-basics-decimals' },
+  'mod-6-vbodmas-simplification': { label: '1.6 VBODMAS & 4ab', typeId: 'type-9-vbodmas-brackets' },
+  'mod-7-recurring-surds-indices': { label: '1.7 Bar p/q & Surds', typeId: 'type-11-recurring-decimals' },
+};
 
 function loadRevisedMap() {
   try {
@@ -129,10 +130,23 @@ export default function MathsProReader({
   const showPyqs = activeSubTab === 'all' || activeSubTab === 'pyqs';
   const showTables = activeSubTab === 'all' || activeSubTab === 'tables';
 
+  const moduleQuickPills = useMemo(
+    () =>
+      (chapterData.sections || []).map((sec) => {
+        const fallback = CH1_PILL_META[sec.id];
+        return {
+          id: sec.id,
+          label: sec.shortLabel || fallback?.label || `${sec.number} Slide`,
+          typeId: sec.pyqTypeId || fallback?.typeId || chapterData.typeWiseGroups?.[0]?.typeId || 'all',
+        };
+      }),
+    [chapterData.sections, chapterData.typeWiseGroups]
+  );
+
   const blueprintSvgHtml = useMemo(
     () =>
       chapterData.blueprintSvgKey
-        ? renderMathsCh1DiagramSvg(chapterData.blueprintSvgKey, { lang, theme: 'dark' })
+        ? renderMathsDiagramSvg(chapterData.blueprintSvgKey, { lang, theme: 'dark' })
         : '',
     [chapterData.blueprintSvgKey, lang]
   );
@@ -319,7 +333,7 @@ export default function MathsProReader({
 
         {/* Clickable Quick Jump Chips */}
         <div className="flex flex-wrap gap-1.5">
-          {MODULE_QUICK_PILLS.map((m) => (
+          {moduleQuickPills.map((m) => (
             <button
               key={m.id}
               type="button"
@@ -419,9 +433,9 @@ export default function MathsProReader({
 
           {chapterData.sections.map((sec, sIdx) => {
             const plateHtml = sec.diagramKey
-              ? renderMathsCh1DiagramSvg(sec.diagramKey, { lang, theme: 'dark' })
+              ? renderMathsDiagramSvg(sec.diagramKey, { lang, theme: 'dark' })
               : '';
-            const matchingPill = MODULE_QUICK_PILLS[sIdx];
+            const matchingPill = moduleQuickPills[sIdx];
             const isHiLight = highlightedId === sec.id;
 
             return (
@@ -551,16 +565,24 @@ export default function MathsProReader({
           hasPassPro={hasPassPro}
           onOpenPassPro={onOpenPassPro}
           lang={lang}
-          featureTitle={{
-            en: '5-in-1 Interactive Animated Maths Lab',
-            hi: '5-in-1 इंटरैक्टिव एनिमेटेड गणित सिम्युलेटर लैब',
-          }}
-          featureSubtitle={{
-            en: 'Divisibility/C9 X-Ray, Unit Digit Wheel, Bell LCM Animator, VBODMAS Step Peeler & Bar Decimal Converter.',
-            hi: 'विभाज्यता/C9 एक्स-रे, इकाई अंक चक्र, घंटी LCM एनिमेटर, VBODMAS स्टेप-पीलर व बार दशमलव कन्वर्टर।',
-          }}
+          featureTitle={
+            chapterData.labMeta?.featureTitle || {
+              en: '5-in-1 Interactive Animated Maths Lab',
+              hi: '5-in-1 इंटरैक्टिव एनिमेटेड गणित सिम्युलेटर लैब',
+            }
+          }
+          featureSubtitle={
+            chapterData.labMeta?.featureSubtitle || {
+              en: 'Divisibility/C9 X-Ray, Unit Digit Wheel, Bell LCM Animator, VBODMAS Step Peeler & Bar Decimal Converter.',
+              hi: 'विभाज्यता/C9 एक्स-रे, इकाई अंक चक्र, घंटी LCM एनिमेटर, VBODMAS स्टेप-पीलर व बार दशमलव कन्वर्टर।',
+            }
+          }
         >
-          <NumberSystemLabSVG lang={lang} />
+          {chapterData.labKey === 'ch2-percentage' ? (
+            <PercentageLabSVG lang={lang} />
+          ) : (
+            <NumberSystemLabSVG lang={lang} />
+          )}
         </ProFeatureGate>
       )}
 
@@ -869,7 +891,9 @@ export default function MathsProReader({
                 <Download className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-black text-white">
-                {isHi ? 'अध्याय 1 स्टडी बुकलेट सेव करें' : 'Save Chapter 1 Study Booklet'}
+                {isHi
+                  ? `अध्याय ${chapterData.chapterNumber} स्टडी बुकलेट सेव करें`
+                  : `Save Chapter ${chapterData.chapterNumber} Study Booklet`}
               </h3>
               <p className="text-xs text-slate-300 mt-1">
                 {isHi

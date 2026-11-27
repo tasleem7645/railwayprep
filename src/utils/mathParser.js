@@ -2,7 +2,7 @@ import katex from 'katex';
 
 const MATH_TOKEN_RE = /(\$\$[\s\S]+?\$\$|\$(?!\s)([^$\n]*?\S)\$)/g;
 const LATEX_SIGNAL_RE =
-  /\\(?:frac|dfrac|tfrac|sqrt|times|div|theta|pi|alpha|beta|gamma|delta|sin|cos|tan|sec|csc|cosec|cot|text|textbf|mathrm|mathbf|mathbb|cdot|pm|mp|le|ge|leq|geq|neq|approx|angle|triangle|circ|infty|degree|overline|underline|binom|lfloor|rfloor|lceil|rceil|bmod|pmod|equiv|dots|cdots|ldots|implies|Rightarrow|leftrightarrow|to|rightarrow|leftarrow|gcd)|[\^_{}]/;
+  /\\(?:frac|dfrac|tfrac|sqrt|times|div|theta|pi|alpha|beta|gamma|delta|Delta|Sigma|Omega|sin|cos|tan|sec|csc|cosec|cot|text|textbf|mathrm|mathbf|mathbb|cdot|pm|mp|le|ge|leq|geq|neq|approx|angle|triangle|circ|infty|degree|overline|underline|binom|lfloor|rfloor|lceil|rceil|bmod|pmod|equiv|dots|cdots|ldots|implies|Rightarrow|leftrightarrow|to|rightarrow|leftarrow|gcd|%)|[\^_{}]/;
 const CURRENCY_OR_SERIES_WORD_RE =
   /\b(billion|million|trillion|lakh|crore|thousand|usd|means|coded)\b|[@#&©£€'‘’]/i;
 
@@ -35,7 +35,7 @@ export function parseMathSegments(str) {
       } else if (
         inner.length <= 80 &&
         !CURRENCY_OR_SERIES_WORD_RE.test(inner) &&
-        /^[0-9a-zA-Z+\-*/=<>().,!?\s%°|]+$/.test(inner) &&
+        /^[0-9a-zA-Z+\-*/=<>().,!?:;\s%°|]+$/.test(inner) &&
         /[+\-*/=<>!|]/.test(inner)
       ) {
         isMath = true;
