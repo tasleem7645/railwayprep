@@ -81,15 +81,29 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
     ? `<div class="svg-wrap">${renderNcertDiagramSvg(chapterData.blueprintSvgKey, { lang: svgLang, theme: 'light' })}</div>`
     : '';
 
+  const renderRealImageHtml = (img) => {
+    if (!img || (!img.url && !img.imageUrl)) return '';
+    const src = escapeHtml(origin) + (img.url || img.imageUrl);
+    return `<div class="img-strip">
+      <figure><img src="${src}" alt="Figure" /></figure>
+      ${img.secondaryUrl ? `<figure><img src="${escapeHtml(origin)}${img.secondaryUrl}" alt="Figure 2" /></figure>` : ''}
+      <div class="img-cap">${img.title ? `<strong>${renderSingleText(img.title, langMode)}</strong>` : ''}<div>${renderSingleText(img.caption, langMode)}</div></div>
+    </div>`;
+  };
+
   const secHtml = (chapterData.sections || [])
     .map((sec) => {
       const flowSvg = sec.flowDiagramKey
         ? `<div class="svg-wrap">${renderNcertDiagramSvg(sec.flowDiagramKey, { lang: svgLang, theme: 'light' })}</div>`
         : '';
+      const secImgHtml = renderRealImageHtml(sec.realImage);
 
       const blocksHtml = (sec.blocks || [])
         .map((blk) => {
-          const conceptBody = blk.conceptStory || blk.desiIntuition;
+          const blkHeading = blk.heading || blk.title || '';
+          const isMnemonicBlk = blk.type === 'mnemonic' || blk.type === 'viralTrick';
+          const conceptBody = !isMnemonicBlk ? (blk.conceptStory || blk.desiIntuition || blk.content) : null;
+          const mnemonicBody = blk.viralTrick || (isMnemonicBlk ? (blk.content || blk.conceptStory || blk.desiIntuition) : null);
           const blkSvg = blk.diagramKey
             ? `<div class="svg-wrap">${renderNcertDiagramSvg(blk.diagramKey, { lang: svgLang, theme: 'light' })}</div>`
             : '';
@@ -110,22 +124,16 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
             })
             .join('');
 
-          const realImgHtml = blk.realImage
-            ? `<div class="img-strip">
-                <figure><img src="${escapeHtml(origin)}${blk.realImage.url}" alt="Figure" /></figure>
-                ${blk.realImage.secondaryUrl ? `<figure><img src="${escapeHtml(origin)}${blk.realImage.secondaryUrl}" alt="Figure 2" /></figure>` : ''}
-                <div class="img-cap"><strong>${renderSingleText(blk.realImage.title, langMode)}</strong><div>${renderSingleText(blk.realImage.caption, langMode)}</div></div>
-              </div>`
-            : '';
+          const realImgHtml = renderRealImageHtml(blk.realImage);
 
           return `
             <div class="block-card">
-              <h3>${renderSingleText(blk.heading, langMode)}</h3>
+              <h3>${renderSingleText(blkHeading, langMode)}</h3>
               ${conceptBody ? `<div class="box-intuition"><span class="pill pill-green">${langMode === 'en' ? 'Concept Explanation' : '📘 शिक्षक व्याख्या'}</span>${renderSingleText(conceptBody, langMode)}</div>` : ''}
               ${Array.isArray(blk.bullets) ? `<ul class="bullet-list">${blk.bullets.map((b) => `<li>${renderSingleText(b, langMode)}</li>`).join('')}</ul>` : ''}
               ${blkSvg}
               ${realImgHtml}
-              ${blk.viralTrick ? `<div class="box-trick"><span class="pill pill-amber">${langMode === 'en' ? '🧠 Memory Key / Mnemonic' : '🧠 परीक्षा स्मृति सूत्र'}</span>${renderSingleText(blk.viralTrick, langMode)}</div>` : ''}
+              ${mnemonicBody ? `<div class="box-trick"><span class="pill pill-amber">${langMode === 'en' ? '🧠 Memory Key / Mnemonic' : '🧠 परीक्षा स्मृति सूत्र'}</span>${renderSingleText(mnemonicBody, langMode)}</div>` : ''}
               ${blk.topperEdge ? `<div class="box-topper"><span class="pill pill-purple">${langMode === 'en' ? '🎯 NCERT+ CBT Exam Edge' : '🎯 NCERT+ एवं CBT उच्च बिंदु'}</span>${renderSingleText(blk.topperEdge, langMode)}</div>` : ''}
               ${blk.trapAlert ? `<div class="box-trap"><span class="pill pill-rose">${langMode === 'en' ? '⚠️ Exam Trap (-0.33)' : '⚠️ -0.33 Trap Alert'}</span>${renderSingleText(blk.trapAlert, langMode)}</div>` : ''}
               ${pyqsHtml}
@@ -140,6 +148,7 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
             <h2>${renderSingleText(sec.title, langMode)}</h2>
           </div>
           ${flowSvg}
+          ${secImgHtml}
           ${blocksHtml}
         </section>`;
     })
@@ -185,15 +194,18 @@ export function buildPrintableNcertBookHtml(chapterData, options = {}) {
     ? `<section class="chapter-sec">
         <div class="sec-head"><span class="sec-num">LAB</span><h2>${langMode === 'en' ? `All ${actCount} NCERT Activities Summary` : `सभी ${actCount} NCERT क्रियाकलाप (प्रयोग सारांश)`}</h2></div>
         ${chapterData.activities
-          .map(
-            (a) => `
+          .map((a, idx) => {
+            const aNum = a.num ?? (typeof a.id === 'string' ? a.id.replace(/^act-/i, '').replace(/-/g, '.') : String(idx + 1));
+            const aSteps = a.steps || a.setup;
+            const aTakeaway = a.examTakeaway || a.observation;
+            return `
           <div class="block-card">
-            <h3>Activity ${a.num}: ${renderSingleText(a.title, langMode)}</h3>
-            <div class="act-meta"><strong>Materials:</strong> ${renderSingleText(a.materials, langMode)}</div>
-            <div class="act-steps">${renderSingleText(a.steps, langMode)}</div>
-            <div class="box-intuition"><span class="pill pill-green">🎯 Exam Takeaway</span>${renderSingleText(a.examTakeaway, langMode)}</div>
-          </div>`
-          )
+            <h3>Activity ${escapeHtml(String(aNum))}: ${renderSingleText(a.title, langMode)}</h3>
+            ${a.materials ? `<div class="act-meta"><strong>Materials:</strong> ${renderSingleText(a.materials, langMode)}</div>` : ''}
+            ${aSteps ? `<div class="act-steps">${renderSingleText(aSteps, langMode)}</div>` : ''}
+            ${aTakeaway ? `<div class="box-intuition"><span class="pill pill-green">🎯 Exam Takeaway</span>${renderSingleText(aTakeaway, langMode)}</div>` : ''}
+          </div>`;
+          })
           .join('')}
       </section>`
     : '';

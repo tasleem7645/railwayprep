@@ -67,7 +67,12 @@ export default function SuperCoachingView({
     setLoadingChapterId(chapter.id);
     try {
       const mod = await chapter.loader();
-      const loaded = mod?.CH2_CELL_DATA || mod?.default || Object.values(mod)[0];
+      const loaded =
+        (mod && mod.sections ? mod : null) ||
+        mod?.CH2_CELL_DATA ||
+        mod?.default ||
+        Object.values(mod || {}).find((v) => v && typeof v === 'object' && Array.isArray(v.sections)) ||
+        Object.values(mod || {})[0];
       setActiveChapterData(loaded);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch (err) {

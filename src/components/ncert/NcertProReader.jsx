@@ -25,6 +25,7 @@ import { MixturesSeparationLabSVG } from './MixturesSeparationLabSVG';
 import { CarbonAllotropeIupacLabSVG } from './CarbonAllotropeIupacLabSVG';
 import { EcosystemEnergyOzoneLabSVG } from './EcosystemEnergyOzoneLabSVG';
 import { ChemicalReactionsBalanceLabSVG } from './ChemicalReactionsBalanceLabSVG';
+import { LifeProcessesSystemLabSVG } from './LifeProcessesSystemLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -157,6 +158,7 @@ export default function NcertProReader({
     else if (labKey === 'carbon-allotrope-iupac-lab') comp = <CarbonAllotropeIupacLabSVG lang={lang} />;
     else if (labKey === 'ecosystem-energy-ozone-lab') comp = <EcosystemEnergyOzoneLabSVG lang={lang} />;
     else if (labKey === 'chemical-reactions-balance-lab') comp = <ChemicalReactionsBalanceLabSVG lang={lang} />;
+    else if (labKey === 'life-processes-system-lab') comp = <LifeProcessesSystemLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (
@@ -429,12 +431,50 @@ export default function NcertProReader({
 
               {sec.flowDiagramKey && <SectionFlowDiagramSVG flowKey={sec.flowDiagramKey} lang={lang} />}
 
+              {sec.realImage && (sec.realImage.url || sec.realImage.imageUrl) && (
+                <ProFeatureGate
+                  hasPassPro={hasPassPro}
+                  onOpenPassPro={onOpenPassPro}
+                  lang={lang}
+                  featureTitle={sec.realImage.title || sec.title}
+                  featureSubtitle={{
+                    en: 'Unlock crisp authentic laboratory micrographs & scientific archival visual plates.',
+                    hi: 'असली प्रयोगशाला माइक्रोस्कोप चित्र और ऐतिहासिक वैज्ञानिक फोटो अनलॉक करें।',
+                  }}
+                >
+                  <div className="p-3.5 sm:p-4 rounded-2xl bg-[#080D1B] border border-slate-700/80 space-y-2.5">
+                    {sec.realImage.title?.[lang] && (
+                      <div className="text-xs sm:text-sm font-black text-amber-300">{sec.realImage.title[lang]}</div>
+                    )}
+                    <img
+                      src={sec.realImage.url || sec.realImage.imageUrl}
+                      alt={sec.realImage.title?.[lang] || sec.title[lang]}
+                      onClick={() =>
+                        setZoomedVisual({
+                          imageUrl: sec.realImage.url || sec.realImage.imageUrl,
+                          title: sec.realImage.title || sec.title,
+                          figRef: { en: `NCERT Sec ${sec.number}`, hi: `NCERT भाग ${sec.number}` },
+                          hotspots: sec.realImage.caption ? [{ en: sec.realImage.caption.en, hi: sec.realImage.caption.hi }] : [],
+                        })
+                      }
+                      className="w-full max-h-72 object-contain rounded-xl bg-black/50 border border-slate-800 cursor-pointer hover:brightness-110"
+                    />
+                    {sec.realImage.caption?.[lang] && (
+                      <p className="text-xs sm:text-[13px] text-slate-300 leading-relaxed">{sec.realImage.caption[lang]}</p>
+                    )}
+                  </div>
+                </ProFeatureGate>
+              )}
+
               <div className="space-y-6">
                 {sec.blocks.map((blk, bIdx) => {
                   const blockId = `${sec.id}_${bIdx}`;
                   const isBlkDone = Boolean(chapterMastery.done?.[blockId]);
                   const isBlkPinned = Boolean(chapterMastery.pinned?.[blockId]);
-                  const conceptBody = blk.conceptStory || blk.desiIntuition;
+                  const blkHeading = blk.heading || blk.title || { en: '', hi: '' };
+                  const isMnemonicBlk = blk.type === 'mnemonic' || blk.type === 'viralTrick';
+                  const conceptBody = !isMnemonicBlk ? (blk.conceptStory || blk.desiIntuition || blk.content) : null;
+                  const mnemonicBody = blk.viralTrick || (isMnemonicBlk ? (blk.content || blk.conceptStory || blk.desiIntuition) : null);
 
                   return (
                     <div
@@ -444,9 +484,9 @@ export default function NcertProReader({
                       }`}
                     >
                       <div className="flex flex-wrap items-start justify-between gap-2">
-                        <h3 className="text-base sm:text-lg font-black text-emerald-300 flex items-center gap-2">
-                          <BookOpen className="w-5 h-5 shrink-0" />
-                          <span>{blk.heading[lang]}</span>
+                        <h3 className={`text-base sm:text-lg font-black flex items-center gap-2 ${isMnemonicBlk ? 'text-amber-300' : 'text-emerald-300'}`}>
+                          {isMnemonicBlk ? <Lightbulb className="w-5 h-5 shrink-0" /> : <BookOpen className="w-5 h-5 shrink-0" />}
+                          <span>{blkHeading[lang]}</span>
                         </h3>
 
                         <div className="flex items-center gap-1.5 shrink-0">
@@ -543,14 +583,14 @@ export default function NcertProReader({
                       )}
 
                       {/* Exam Memory Key Card */}
-                      {blk.viralTrick && (
+                      {mnemonicBody && (
                         <div className="p-3.5 sm:p-4 rounded-2xl bg-amber-500/10 border border-amber-400/40 text-[14.5px] sm:text-[15px] text-amber-100 leading-relaxed whitespace-pre-line">
                           <span className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 mb-1.5">
                             <Lightbulb className="w-3.5 h-3.5" />
                             <span>{lang === 'hi' ? '🧠 परीक्षा स्मृति सूत्र (Exam Memory Key)' : '🧠 Exam Memory Key / Mnemonic'}</span>
                           </span>
                           <div>
-                            <RichHighlightText text={blk.viralTrick[lang]} />
+                            <RichHighlightText text={mnemonicBody[lang]} />
                           </div>
                         </div>
                       )}
@@ -674,68 +714,87 @@ export default function NcertProReader({
           <div className="rounded-3xl bg-slate-900/65 border border-emerald-500/30 p-5 sm:p-7 space-y-4">
             <div className="flex items-center gap-2 text-emerald-300 font-black text-base sm:text-lg">
               <FlaskConical className="w-5 h-5" />
-              <span>{lang === 'hi' ? 'सभी NCERT क्रियाकलाप (Activities 2.1 – 2.5)' : 'All 5 NCERT Activities Lab Manual'}</span>
+              <span>
+                {lang === 'hi'
+                  ? `सभी ${chapterData.activities.length} NCERT क्रियाकलाप (प्रयोग सारांश)`
+                  : `All ${chapterData.activities.length} NCERT Activities Lab Manual`}
+              </span>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-              {chapterData.activities.map((act) => (
-                <div key={act.num} className="p-4 sm:p-5 rounded-2xl bg-[#080F1D] border border-slate-800 space-y-3">
-                  <span className="inline-block px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-black">
-                    {lang === 'hi' ? `क्रियाकलाप ${act.num}` : `Activity ${act.num}`}
-                  </span>
-                  <h3 className="text-base font-black text-white">{act.title[lang]}</h3>
-                  <div className="text-xs sm:text-sm text-amber-300 font-semibold">
-                    {lang === 'hi' ? 'सामग्री: ' : 'Materials: '}
-                    {act.materials[lang]}
-                  </div>
-                  <div className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">
-                    <RichHighlightText text={act.steps[lang]} />
-                  </div>
-                  <div className="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-sm text-emerald-100 leading-relaxed">
-                    <span className="font-black text-emerald-300 block text-xs uppercase mb-0.5">
-                      {lang === 'hi' ? '🎯 परीक्षा निष्कर्ष' : '🎯 Exam Takeaway'}
-                    </span>
-                    <RichHighlightText text={act.examTakeaway[lang]} />
-                  </div>
+              {chapterData.activities.map((act, actIdx) => {
+                const actNum = act.num ?? (typeof act.id === 'string' ? act.id.replace(/^act-/i, '').replace(/-/g, '.') : String(actIdx + 1));
+                const actKey = act.num ?? act.id ?? actIdx;
+                const actSteps = act.steps || act.setup;
+                const actTakeaway = act.examTakeaway || act.observation;
+                const pred = act.predictQuestion;
+                const predPrompt = pred?.prompt || pred?.question;
 
-                  {/* Interactive 1-Tap Activity Observation Predictor */}
-                  {act.predictQuestion && (
-                    <div className="p-3 rounded-xl bg-cyan-950/25 border border-cyan-500/30 space-y-2">
-                      <div className="text-[11px] font-black text-cyan-300 uppercase">
-                        {lang === 'hi' ? '🔬 प्रयोग पूर्वानुमान (बताइए आगे क्या होगा?)' : '🔬 Lab Observation Predictor'}
+                return (
+                  <div key={actKey} className="p-4 sm:p-5 rounded-2xl bg-[#080F1D] border border-slate-800 space-y-3">
+                    <span className="inline-block px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-black">
+                      {lang === 'hi' ? `क्रियाकलाप ${actNum}` : `Activity ${actNum}`}
+                    </span>
+                    <h3 className="text-base font-black text-white">{act.title[lang]}</h3>
+                    {act.materials?.[lang] && (
+                      <div className="text-xs sm:text-sm text-amber-300 font-semibold">
+                        {lang === 'hi' ? 'सामग्री: ' : 'Materials: '}
+                        {act.materials[lang]}
                       </div>
-                      <div className="text-xs font-bold text-white">{act.predictQuestion.prompt[lang]}</div>
-                      <div className="flex flex-wrap gap-1.5">
-                        {act.predictQuestion.options[lang].map((opt, oIdx) => {
-                          const picked = activityPredictions[act.num];
-                          const isDone = picked !== undefined;
-                          const isCorr = oIdx === act.predictQuestion.correctIndex;
-                          let bCls = 'bg-slate-900 border-slate-700 text-slate-300 hover:border-cyan-400';
-                          if (isDone) {
-                            if (isCorr) bCls = 'bg-emerald-500/25 border-emerald-400 text-emerald-200 font-bold';
-                            else if (picked === oIdx) bCls = 'bg-rose-500/25 border-rose-400 text-rose-200';
-                          }
-                          return (
-                            <button
-                              key={oIdx}
-                              type="button"
-                              onClick={() => setActivityPredictions((p) => ({ ...p, [act.num]: oIdx }))}
-                              className={`px-2.5 py-1 rounded-lg border text-[11px] cursor-pointer transition-all ${bCls}`}
-                            >
-                              {opt}
-                            </button>
-                          );
-                        })}
+                    )}
+                    {actSteps?.[lang] && (
+                      <div className="text-sm text-slate-200 leading-relaxed whitespace-pre-line">
+                        <RichHighlightText text={actSteps[lang]} />
                       </div>
-                      {activityPredictions[act.num] !== undefined && (
-                        <p className="text-[11px] text-emerald-200 leading-snug pt-0.5">
-                          <RichHighlightText text={act.predictQuestion.reason[lang]} />
-                        </p>
-                      )}
-                    </div>
-                  )}
-                </div>
-              ))}
+                    )}
+                    {actTakeaway?.[lang] && (
+                      <div className="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-sm text-emerald-100 leading-relaxed">
+                        <span className="font-black text-emerald-300 block text-xs uppercase mb-0.5">
+                          {lang === 'hi' ? '🎯 परीक्षा निष्कर्ष' : '🎯 Exam Takeaway'}
+                        </span>
+                        <RichHighlightText text={actTakeaway[lang]} />
+                      </div>
+                    )}
+
+                    {/* Interactive 1-Tap Activity Observation Predictor */}
+                    {pred && predPrompt && (
+                      <div className="p-3 rounded-xl bg-cyan-950/25 border border-cyan-500/30 space-y-2">
+                        <div className="text-[11px] font-black text-cyan-300 uppercase">
+                          {lang === 'hi' ? '🔬 प्रयोग पूर्वानुमान (बताइए आगे क्या होगा?)' : '🔬 Lab Observation Predictor'}
+                        </div>
+                        <div className="text-xs font-bold text-white">{predPrompt[lang]}</div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {pred.options[lang].map((opt, oIdx) => {
+                            const picked = activityPredictions[actKey];
+                            const isDone = picked !== undefined;
+                            const isCorr = oIdx === pred.correctIndex;
+                            let bCls = 'bg-slate-900 border-slate-700 text-slate-300 hover:border-cyan-400';
+                            if (isDone) {
+                              if (isCorr) bCls = 'bg-emerald-500/25 border-emerald-400 text-emerald-200 font-bold';
+                              else if (picked === oIdx) bCls = 'bg-rose-500/25 border-rose-400 text-rose-200';
+                            }
+                            return (
+                              <button
+                                key={oIdx}
+                                type="button"
+                                onClick={() => setActivityPredictions((p) => ({ ...p, [actKey]: oIdx }))}
+                                className={`px-2.5 py-1 rounded-lg border text-[11px] cursor-pointer transition-all ${bCls}`}
+                              >
+                                {opt}
+                              </button>
+                            );
+                          })}
+                        </div>
+                        {activityPredictions[actKey] !== undefined && pred.reason?.[lang] && (
+                          <p className="text-[11px] text-emerald-200 leading-snug pt-0.5">
+                            <RichHighlightText text={pred.reason[lang]} />
+                          </p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
 
