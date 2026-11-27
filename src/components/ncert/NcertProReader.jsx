@@ -37,6 +37,7 @@ import { SoundWavesSonarLabSVG } from './SoundWavesSonarLabSVG';
 import ChemicalFormulaValencyLabSVG from './ChemicalFormulaValencyLabSVG';
 import ReproductionPollinationCycleLabSVG from './ReproductionPollinationCycleLabSVG';
 import DiversityTaxonomyHierarchyLabSVG from './DiversityTaxonomyHierarchyLabSVG';
+import EarthEnergyCarbonLabSVG from './EarthEnergyCarbonLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -181,6 +182,7 @@ export default function NcertProReader({
     else if (labKey === 'chem-formula-valency-lab') comp = <ChemicalFormulaValencyLabSVG lang={lang} />;
     else if (labKey === 'reproduction-pollination-cycle-lab') comp = <ReproductionPollinationCycleLabSVG lang={lang} />;
     else if (labKey === 'diversity-taxonomy-hierarchy-lab') comp = <DiversityTaxonomyHierarchyLabSVG lang={lang} />;
+    else if (labKey === 'earth-energy-carbon-lab') comp = <EarthEnergyCarbonLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (

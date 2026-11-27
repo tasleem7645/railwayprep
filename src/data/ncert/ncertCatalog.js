@@ -162,12 +162,25 @@ export const NCERT_CHAPTER_CATALOG = [
     subjectId: 'biology',
     chapterNumber: 13,
     code: 'ihsc113',
-    status: 'upcoming',
+    status: 'live',
     isNew2026Topic: true,
     title: { en: 'Earth as a System — Energy, Matter & Life', hi: 'पृथ्वी एक तंत्र — ऊर्जा, द्रव्य और जीवन' },
-    tagline: { en: 'Monsoon, Glaciers, Carbon Cycle & Biosphere Interactions', hi: 'मानसून, हिमानियाँ, कार्बन चक्र और जैवमंडल' },
+    tagline: {
+      en: 'Gold v3 Deep-Dive: 5 Coupled Spheres, Solar Constant (1.4 kWm⁻² / Anna Mani), Albedo, Layers, Winds/Gulf Stream, Carbon (Keeling) & Nitrogen Cycles + 24 PYQs',
+      hi: 'संपूर्ण गहराई: 5 मंडल, सौर स्थिरांक (अन्ना मणि), एल्बिडो, परतें, पवन-भंवर, कार्बन-नाइट्रोजन चक्र, सुपोषण, मिशन LiFE व 24 PYQ',
+    },
     pages: 19,
+    figuresCount: 4,
+    activitiesCount: 4,
+    tablesCount: 5,
     pyqHits: 32,
+    readTime: { en: 'Gold Standard v3 • Class 9 Capstone Complete', hi: 'Gold Standard v3 • कक्षा 9 संपूर्ण पूर्ण' },
+    badges: [
+      { en: 'LIVE • GOLD v3 • NEW 2026–27 CAPSTONE • 32+ PYQs', hi: 'LIVE • GOLD v3 • नया 2026–27 अंतिम अध्याय • 32+ PYQ' },
+      { en: '4 Vector Plates + Interactive Albedo/Wind/Cycle Lab + A4 PDF', hi: '4 वेक्टर चित्र + इंटरैक्टिव पृथ्वी-चक्र लैब + ब्रांडेड A4 PDF' },
+      { en: '4 Activities • 6 Think Qs • 15 Solved Exercises • 24 PYQs', hi: '4 क्रियाकलाप • 6 सोचिए प्रश्न • 15 हल अभ्यास • 24 PYQ' },
+    ],
+    loader: () => import('./class9/biology/c9Ch13EarthSystemData.js'),
   },
 
   // ================= CLASS 9 PHYSICS =================
