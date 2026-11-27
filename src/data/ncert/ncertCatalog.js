@@ -249,11 +249,23 @@ export const NCERT_CHAPTER_CATALOG = [
     subjectId: 'physics',
     chapterNumber: 10,
     code: 'ihsc110',
-    status: 'upcoming',
+    status: 'live',
     title: { en: 'Sound Waves — Characteristics & Applications', hi: 'ध्वनि तरंगें — अभिलक्षण एवं अनुप्रयोग' },
-    tagline: { en: 'Frequency, Pitch, Ultrasound, SONAR & Audible Range', hi: 'आवृत्ति, तरंगदैर्ध्य, पराध्वनि, सोनार व अनुप्रयोग' },
+    tagline: {
+      en: 'Gold v3 Deep-Dive: Longitudinal C/R, v=λν, Speed (Steel>Water>Air), Echo (≥17m), Reverberation, C.V. Raman, Human Ear & SONAR (d=vt/2)',
+      hi: 'संपूर्ण गहराई: अनुदैर्ध्य C/R, v=λν, चाल (स्टील>जल>वायु), प्रतिध्वनि (≥17m), अनुरणन, मानव कर्ण व SONAR',
+    },
     pages: 24,
-    pyqHits: 30,
+    figuresCount: 34,
+    activitiesCount: 8,
+    tablesCount: 5,
+    pyqHits: 55,
+    readTime: { en: 'Gold Standard v3 • All 9th Physics Done!', hi: 'Gold Standard v3 • कक्षा 9 भौतिकी पूर्ण!' },
+    badges: [
+      { en: 'LIVE • GOLD v3 • SOUND & SONAR', hi: 'LIVE • GOLD v3 • ध्वनि एवं SONAR लैब' },
+      { en: '4 Vector Plates + 3-Tab Wave/Echo/SONAR Lab + Branded A4 PDF', hi: '4 वेक्टर चित्र + 3-टैब तरंग/प्रतिध्वनि/SONAR लैब + ब्रांडेड A4 PDF' },
+    ],
+    loader: () => import('./class9/physics/c9Ch10SoundData.js'),
   },
 
   // ================= CLASS 9 CHEMISTRY =================
