@@ -26,6 +26,7 @@ import { CarbonAllotropeIupacLabSVG } from './CarbonAllotropeIupacLabSVG';
 import { EcosystemEnergyOzoneLabSVG } from './EcosystemEnergyOzoneLabSVG';
 import { ChemicalReactionsBalanceLabSVG } from './ChemicalReactionsBalanceLabSVG';
 import { LifeProcessesSystemLabSVG } from './LifeProcessesSystemLabSVG';
+import { MetalsReactivityMetallurgyLabSVG } from './MetalsReactivityMetallurgyLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -159,6 +160,7 @@ export default function NcertProReader({
     else if (labKey === 'ecosystem-energy-ozone-lab') comp = <EcosystemEnergyOzoneLabSVG lang={lang} />;
     else if (labKey === 'chemical-reactions-balance-lab') comp = <ChemicalReactionsBalanceLabSVG lang={lang} />;
     else if (labKey === 'life-processes-system-lab') comp = <LifeProcessesSystemLabSVG lang={lang} />;
+    else if (labKey === 'metals-reactivity-metallurgy-lab') comp = <MetalsReactivityMetallurgyLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (

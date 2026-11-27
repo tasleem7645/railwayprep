@@ -17,6 +17,7 @@ import { renderC10Ch4CarbonDiagramSvg } from './c10Ch4CarbonDiagrams.js';
 import { renderC10Ch13EnvDiagramSvg } from './c10Ch13EnvDiagrams.js';
 import { renderC10Ch1RxnDiagramSvg } from './c10Ch1RxnDiagrams.js';
 import { renderC10Ch5LifeDiagramSvg } from './c10Ch5LifeDiagrams.js';
+import { renderC10Ch3MetalsDiagramSvg } from './c10Ch3MetalsDiagrams.js';
 
 function esc(s) {
   return String(s ?? '')
@@ -434,6 +435,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
 
   const c10Ch5Svg = renderC10Ch5LifeDiagramSvg(key, { lang, theme });
   if (c10Ch5Svg) return c10Ch5Svg;
+
+  const c10Ch3Svg = renderC10Ch3MetalsDiagramSvg(key, { lang, theme });
+  if (c10Ch3Svg) return c10Ch3Svg;
 
   return '';
 }
