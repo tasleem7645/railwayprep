@@ -294,43 +294,43 @@ export function mapTrackKeyToNestedState(trackKey) {
   switch (trackKey) {
     case '2026':
     case 'alp-2026':
-      return { examKey: 'alp', yearKey: '2026', cbtKey: 'cbt1', modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: 'alp', yearKey: '2026', cbtKey: 'cbt1', modeKey: null, sectionKey: null, tradeKey: null };
     case '2025':
     case 'alp-2025':
-      return { examKey: 'alp', yearKey: '2025', cbtKey: 'cbt1', modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: 'alp', yearKey: '2025', cbtKey: 'cbt1', modeKey: null, sectionKey: null, tradeKey: null };
     case 'cbt2':
-      return { examKey: 'alp', yearKey: '2025', cbtKey: 'cbt2-a', modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: 'alp', yearKey: '2025', cbtKey: 'cbt2-a', modeKey: null, sectionKey: null, tradeKey: null };
     case 'cbt2-part-b':
-      return { examKey: 'alp', yearKey: '2025', cbtKey: 'cbt2-b', modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: 'alp', yearKey: '2025', cbtKey: 'cbt2-b', modeKey: 'full', sectionKey: null, tradeKey: null };
     case 'alp-cbat':
-      return { examKey: 'alp', yearKey: '2026', cbtKey: 'cbat', modeKey: 'cbat', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: 'alp', yearKey: '2026', cbtKey: 'cbat', modeKey: 'cbat', sectionKey: null, tradeKey: null };
     case 'ntpc-ug-2025':
-    case 'ntpc-ug':
-      return { examKey: 'ntpc-ug', yearKey: '2024', cbtKey: 'cbt1', modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: 'ntpc-ug', yearKey: '2024', cbtKey: 'cbt1', modeKey: null, sectionKey: null, tradeKey: null };
     case 'groupd-2025':
-    case 'groupd':
-      return { examKey: 'groupd', yearKey: '2025', cbtKey: 'level1', modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: 'groupd', yearKey: '2025', cbtKey: 'level1', modeKey: null, sectionKey: null, tradeKey: null };
     case 'tech3-2024':
-    case 'tech3':
-      return { examKey: 'tech3', yearKey: '2024', cbtKey: 'gr3-cbt', modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: 'tech3', yearKey: '2024', cbtKey: 'gr3-cbt', modeKey: null, sectionKey: null, tradeKey: null };
     case 'alp':
-      return { examKey: 'alp', yearKey: '2026', cbtKey: 'cbt1', modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+    case 'ntpc-ug':
+    case 'groupd':
+    case 'tech3':
+      return getInitialSelectionForExam(trackKey);
     default:
-      return { examKey: null, yearKey: null, cbtKey: null, modeKey: 'full', sectionKey: 'all', tradeKey: 'all' };
+      return { examKey: null, yearKey: null, cbtKey: null, modeKey: null, sectionKey: null, tradeKey: null };
   }
 }
 
 export function getInitialSelectionForExam(examKey) {
   const def = EXAM_CATALOG_DEFS.find((e) => e.key === examKey);
-  if (!def) return mapTrackKeyToNestedState(null);
-  const firstYear = def.years[0];
-  const firstCbt = firstYear?.cbts[0];
+  if (!def) {
+    return { examKey: null, yearKey: null, cbtKey: null, modeKey: null, sectionKey: null, tradeKey: null };
+  }
   return {
     examKey: def.key,
-    yearKey: firstYear?.key || null,
-    cbtKey: firstCbt?.key || null,
-    modeKey: firstCbt?.isCbatSimulator ? 'cbat' : 'full',
-    sectionKey: 'all',
-    tradeKey: 'all',
+    yearKey: null,
+    cbtKey: null,
+    modeKey: null,
+    sectionKey: null,
+    tradeKey: null,
   };
 }

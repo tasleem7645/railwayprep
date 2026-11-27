@@ -139,9 +139,9 @@ export default function App() {
           examKey: ex,
           yearKey: sp.get('year') || null,
           cbtKey: sp.get('cbt') || null,
-          modeKey: sp.get('mode') || 'full',
-          sectionKey: sp.get('sec') || 'all',
-          tradeKey: sp.get('trade') || 'all',
+          modeKey: sp.get('mode') || null,
+          sectionKey: sp.get('sec') || null,
+          tradeKey: sp.get('trade') || null,
         };
       }
     }
@@ -155,12 +155,15 @@ export default function App() {
       if (nextSel?.examKey) sp.set('exam', nextSel.examKey);
       if (nextSel?.yearKey) sp.set('year', nextSel.yearKey);
       if (nextSel?.cbtKey) sp.set('cbt', nextSel.cbtKey);
-      if (nextSel?.modeKey && nextSel.modeKey !== 'full') sp.set('mode', nextSel.modeKey);
-      if (nextSel?.sectionKey && nextSel.sectionKey !== 'all') sp.set('sec', nextSel.sectionKey);
-      if (nextSel?.tradeKey && nextSel.tradeKey !== 'all') sp.set('trade', nextSel.tradeKey);
+      if (nextSel?.modeKey) sp.set('mode', nextSel.modeKey);
+      if (nextSel?.sectionKey) sp.set('sec', nextSel.sectionKey);
+      if (nextSel?.tradeKey) sp.set('trade', nextSel.tradeKey);
       const qStr = sp.toString();
       const targetUrl = qStr ? `/mock-tests?${qStr}` : '/mock-tests';
-      window.history.replaceState({ tab: 'mock-tests' }, '', targetUrl);
+      const currentUrl = `${window.location.pathname}${window.location.search || ''}`;
+      if (currentUrl !== targetUrl) {
+        window.history.pushState({ tab: 'mock-tests' }, '', targetUrl);
+      }
     }
   };
 
@@ -178,10 +181,12 @@ export default function App() {
             examKey: ex,
             yearKey: sp.get('year') || null,
             cbtKey: sp.get('cbt') || null,
-            modeKey: sp.get('mode') || 'full',
-            sectionKey: sp.get('sec') || 'all',
-            tradeKey: sp.get('trade') || 'all',
+            modeKey: sp.get('mode') || null,
+            sectionKey: sp.get('sec') || null,
+            tradeKey: sp.get('trade') || null,
           });
+        } else {
+          setNestedTestSelection(mapTrackKeyToNestedState(null));
         }
       }
     };
@@ -197,30 +202,21 @@ export default function App() {
 
   const handleSelectGoal = (goal) => {
     setSelectedGoal(goal);
-    if (goal.includes('Part B')) {
-      setNestedTestSelection(mapTrackKeyToNestedState('cbt2-part-b'));
-      setActiveTab('mock-tests', '?exam=alp&year=2025&cbt=cbt2-b');
-    } else if (goal.includes('2025 (CBT-1)')) {
-      setNestedTestSelection(mapTrackKeyToNestedState('2025'));
-      setActiveTab('mock-tests', '?exam=alp&year=2025&cbt=cbt1');
-    } else if (goal.includes('CBT-2')) {
-      setNestedTestSelection(mapTrackKeyToNestedState('cbt2'));
-      setActiveTab('mock-tests', '?exam=alp&year=2025&cbt=cbt2-a');
-    } else if (goal.includes('ALP')) {
+    if (goal.includes('ALP')) {
       setNestedTestSelection(mapTrackKeyToNestedState('alp'));
-      setActiveTab('mock-tests', '?exam=alp&year=2026&cbt=cbt1');
+      setActiveTab('mock-tests', '?exam=alp');
     } else if (goal.includes('Technician')) {
-      setNestedTestSelection(mapTrackKeyToNestedState('tech3-2024'));
+      setNestedTestSelection(mapTrackKeyToNestedState('tech3'));
       setActiveExamId('tech_02_2026');
-      setActiveTab('mock-tests', '?exam=tech3&year=2024&cbt=gr3-cbt');
+      setActiveTab('mock-tests', '?exam=tech3');
     } else if (goal.includes('NTPC')) {
-      setNestedTestSelection(mapTrackKeyToNestedState('ntpc-ug-2025'));
+      setNestedTestSelection(mapTrackKeyToNestedState('ntpc-ug'));
       setActiveExamId('ntpc_ug_07_2026');
-      setActiveTab('mock-tests', '?exam=ntpc-ug&year=2024&cbt=cbt1');
+      setActiveTab('mock-tests', '?exam=ntpc-ug');
     } else if (goal.includes('Group D')) {
-      setNestedTestSelection(mapTrackKeyToNestedState('groupd-2025'));
+      setNestedTestSelection(mapTrackKeyToNestedState('groupd'));
       setActiveExamId('groupd_09_2025');
-      setActiveTab('mock-tests', '?exam=groupd&year=2025&cbt=level1');
+      setActiveTab('mock-tests', '?exam=groupd');
     } else if (goal.includes('RPF')) {
       setActiveExamId('rpf_si_constable');
       setActiveTab('syllabus', '');
@@ -239,11 +235,16 @@ export default function App() {
     }
     if (tab === 'mock-tests') {
       const nextSel = opts.year ? mapTrackKeyToNestedState(opts.year) : mapTrackKeyToNestedState(null);
-      if (opts.filter === 'sectional' && nextSel.examKey) {
+      if (opts.filter === 'sectional' && nextSel.cbtKey) {
         nextSel.modeKey = 'sectional';
       }
       setNestedTestSelection(nextSel);
-      setActiveTab('mock-tests', nextSel.examKey ? `?exam=${nextSel.examKey}&year=${nextSel.yearKey}&cbt=${nextSel.cbtKey}` : '');
+      const sp = new URLSearchParams();
+      if (nextSel.examKey) sp.set('exam', nextSel.examKey);
+      if (nextSel.yearKey) sp.set('year', nextSel.yearKey);
+      if (nextSel.cbtKey) sp.set('cbt', nextSel.cbtKey);
+      if (nextSel.modeKey) sp.set('mode', nextSel.modeKey);
+      setActiveTab('mock-tests', sp.toString() ? `?${sp.toString()}` : '');
       return;
     }
     setActiveTab(tab);
@@ -1001,10 +1002,12 @@ export default function App() {
               onSelectExamTrack={(yearKey) => {
                 const nextSel = mapTrackKeyToNestedState(yearKey);
                 setNestedTestSelection(nextSel);
-                const qs = nextSel.examKey
-                  ? `?exam=${nextSel.examKey}&year=${nextSel.yearKey}&cbt=${nextSel.cbtKey}`
-                  : '';
-                setActiveTab('mock-tests', qs);
+                const sp = new URLSearchParams();
+                if (nextSel.examKey) sp.set('exam', nextSel.examKey);
+                if (nextSel.yearKey) sp.set('year', nextSel.yearKey);
+                if (nextSel.cbtKey) sp.set('cbt', nextSel.cbtKey);
+                if (nextSel.modeKey) sp.set('mode', nextSel.modeKey);
+                setActiveTab('mock-tests', sp.toString() ? `?${sp.toString()}` : '');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               onOpenTab={(tab) => {
