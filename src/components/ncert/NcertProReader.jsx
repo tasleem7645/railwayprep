@@ -22,6 +22,7 @@ import { AcidsBasesPhLabSVG } from './AcidsBasesPhLabSVG';
 import { OpticsRayLensLabSVG } from './OpticsRayLensLabSVG';
 import { ElectricityCircuitLabSVG } from './ElectricityCircuitLabSVG';
 import { MixturesSeparationLabSVG } from './MixturesSeparationLabSVG';
+import { CarbonAllotropeIupacLabSVG } from './CarbonAllotropeIupacLabSVG';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
 import { renderPrintableNcertWindow } from '../../utils/ncertPdfGenerator';
 
@@ -151,6 +152,7 @@ export default function NcertProReader({
     else if (labKey === 'optics-ray-lens-lab') comp = <OpticsRayLensLabSVG lang={lang} />;
     else if (labKey === 'electricity-circuit-lab') comp = <ElectricityCircuitLabSVG lang={lang} />;
     else if (labKey === 'mixtures-separation-lab') comp = <MixturesSeparationLabSVG lang={lang} />;
+    else if (labKey === 'carbon-allotrope-iupac-lab') comp = <CarbonAllotropeIupacLabSVG lang={lang} />;
     if (!comp) return null;
 
     return (

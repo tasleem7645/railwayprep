@@ -350,11 +350,23 @@ export const NCERT_CHAPTER_CATALOG = [
     subjectId: 'chemistry',
     chapterNumber: 4,
     code: 'jhsc104',
-    status: 'upcoming',
+    status: 'live',
     title: { en: 'Carbon & Its Compounds', hi: 'कार्बन एवं उसके यौगिक' },
-    tagline: { en: 'Allotropes, IUPAC Functional Groups, Ethanol, Ethanoic Acid & Soaps', hi: 'अपररूप, प्रकार्यात्मक समूह, एथेनॉल, एथेनॉइक अम्ल व साबुन' },
+    tagline: {
+      en: 'Gold v3 Deep-Dive (#5 PYQ): Allotropes, IUPAC Functional Groups, 4 Reactions, Ethanol/Ester, Micelles & 24 PYQs',
+      hi: 'शिक्षक व्याख्या सहित गहराई: अपररूप (हीरा/ग्रेफाइट/C₆₀), IUPAC, 4 अभिक्रियाएँ, एथेनॉल-एस्टर, मिसेल व 24 रेलवे PYQ',
+    },
     pages: 24,
+    figuresCount: 24,
+    activitiesCount: 12,
+    tablesCount: 5,
     pyqHits: 64,
+    readTime: { en: 'Gold Standard v3 • Deep Dive', hi: 'Gold Standard v3 • गहन नोट्स' },
+    badges: [
+      { en: 'LIVE • GOLD v3', hi: 'LIVE • GOLD v3' },
+      { en: '4 Vector Plates + Allotrope/IUPAC Lab + 5 HD Photos', hi: '4 वेक्टर चित्र + अपररूप/IUPAC लैब + 5 असली फोटो' },
+    ],
+    loader: () => import('./class10/chemistry/c10Ch4CarbonData.js'),
   },
 
   // ================= CLASS 10 BIOLOGY =================

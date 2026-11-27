@@ -13,6 +13,7 @@ import { renderC10Ch2AcidsDiagramSvg } from './c10Ch2AcidsDiagrams.js';
 import { renderC10Ch9LightDiagramSvg } from './c10Ch9LightDiagrams.js';
 import { renderC10Ch11ElecDiagramSvg } from './c10Ch11ElecDiagrams.js';
 import { renderCh5MixDiagramSvg } from './ch5MixturesDiagrams.js';
+import { renderC10Ch4CarbonDiagramSvg } from './c10Ch4CarbonDiagrams.js';
 
 function esc(s) {
   return String(s ?? '')
@@ -418,6 +419,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
 
   const ch5Svg = renderCh5MixDiagramSvg(key, { lang, theme });
   if (ch5Svg) return ch5Svg;
+
+  const c10Ch4Svg = renderC10Ch4CarbonDiagramSvg(key, { lang, theme });
+  if (c10Ch4Svg) return c10Ch4Svg;
 
   return '';
 }
