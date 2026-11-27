@@ -22,6 +22,7 @@ import { renderC10Ch7ReproDiagramSvg } from './c10Ch7ReproDiagrams.js';
 import { renderC10Ch12MagnetDiagramSvg } from './c10Ch12MagnetDiagrams.js';
 import { renderC10Ch6ControlDiagramSvg } from './c10Ch6ControlDiagrams.js';
 import { renderC10Ch8HeredityDiagramSvg } from './c10Ch8HeredityDiagrams.js';
+import { renderC10Ch10EyeDiagramSvg } from './c10Ch10EyeDiagrams.js';
 
 function esc(s) {
   return String(s ?? '')
@@ -454,6 +455,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
 
   const c10Ch8Svg = renderC10Ch8HeredityDiagramSvg(key, { lang, theme });
   if (c10Ch8Svg) return c10Ch8Svg;
+
+  const c10Ch10Svg = renderC10Ch10EyeDiagramSvg(key, { lang, theme });
+  if (c10Ch10Svg) return c10Ch10Svg;
 
   return '';
 }
