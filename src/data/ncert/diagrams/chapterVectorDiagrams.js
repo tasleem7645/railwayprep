@@ -9,6 +9,7 @@ import { renderCh4MotionDiagramSvg } from './ch4MotionDiagrams.js';
 import { renderCh7WorkDiagramSvg } from './ch7WorkDiagrams.js';
 import { renderCh8AtomDiagramSvg } from './ch8AtomDiagrams.js';
 import { renderCh6ForcesDiagramSvg } from './ch6ForcesDiagrams.js';
+import { renderC10Ch2AcidsDiagramSvg } from './c10Ch2AcidsDiagrams.js';
 
 function esc(s) {
   return String(s ?? '')
@@ -402,6 +403,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
 
   const ch6Svg = renderCh6ForcesDiagramSvg(key, { lang, theme });
   if (ch6Svg) return ch6Svg;
+
+  const c10Ch2Svg = renderC10Ch2AcidsDiagramSvg(key, { lang, theme });
+  if (c10Ch2Svg) return c10Ch2Svg;
 
   return '';
 }
