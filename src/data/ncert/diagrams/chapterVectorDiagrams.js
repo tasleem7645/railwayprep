@@ -14,6 +14,7 @@ import { renderC10Ch9LightDiagramSvg } from './c10Ch9LightDiagrams.js';
 import { renderC10Ch11ElecDiagramSvg } from './c10Ch11ElecDiagrams.js';
 import { renderCh5MixDiagramSvg } from './ch5MixturesDiagrams.js';
 import { renderC10Ch4CarbonDiagramSvg } from './c10Ch4CarbonDiagrams.js';
+import { renderC10Ch13EnvDiagramSvg } from './c10Ch13EnvDiagrams.js';
 
 function esc(s) {
   return String(s ?? '')
@@ -422,6 +423,9 @@ export function renderNcertDiagramSvg(key, { lang = 'hi', theme = 'dark' } = {})
 
   const c10Ch4Svg = renderC10Ch4CarbonDiagramSvg(key, { lang, theme });
   if (c10Ch4Svg) return c10Ch4Svg;
+
+  const c10Ch13Svg = renderC10Ch13EnvDiagramSvg(key, { lang, theme });
+  if (c10Ch13Svg) return c10Ch13Svg;
 
   return '';
 }

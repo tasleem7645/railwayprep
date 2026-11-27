@@ -424,11 +424,24 @@ export const NCERT_CHAPTER_CATALOG = [
     subjectId: 'biology',
     chapterNumber: 13,
     code: 'jhsc113',
-    status: 'upcoming',
+    status: 'live',
     title: { en: 'Our Environment', hi: 'हमारा पर्यावरण' },
-    tagline: { en: 'Food Chains, 10% Energy Law, Biomagnification & Ozone Layer', hi: 'आहार श्रृंखला, 10% ऊर्जा नियम, जैव आवर्धन व ओजोन परत' },
+    tagline: {
+      en: 'Gold v3 Deep-Dive (#6 PYQ Chapter): Biotic/Abiotic, Artificial vs Natural, 1%/10% Energy Law, Biomagnification, Ozone/CFCs & 24 PYQs',
+      hi: 'संपूर्ण गहराई (#6 सर्वाधिक PYQ अध्याय): पारितंत्र, 1% सौर व 10% ऊर्जा नियम, जैव-आवर्धन, ओजोन/CFC 1987, रेल कप व 24 PYQ',
+    },
     pages: 10,
+    figuresCount: 4,
+    activitiesCount: 9,
+    tablesCount: 5,
     pyqHits: 62,
+    readTime: { en: 'Gold Standard v3 • #6 Highest PYQ', hi: 'Gold Standard v3 • #6 सर्वाधिक PYQ अध्याय' },
+    badges: [
+      { en: 'LIVE • GOLD v3 • #6 PYQ', hi: 'LIVE • GOLD v3 • #6 PYQ' },
+      { en: '4 Vector Plates + 3-Tab 10%-Law/Food-Web/Ozone Lab + A4 PDF', hi: '4 वेक्टर चित्र + 3-टैब 10% नियम/ओजोन लैब + ब्रांडेड A4 PDF' },
+      { en: '9 Activities • 9 Solved Exercises • 24 RRB PYQs', hi: '9 क्रियाकलाप • 9 हल अभ्यास • 24 रेलवे PYQ' },
+    ],
+    loader: () => import('./class10/biology/c10Ch13EnvData.js').then((m) => m.C10_CH13_ENV_DATA),
   },
 
   // ================= CLASS 10 PHYSICS =================
