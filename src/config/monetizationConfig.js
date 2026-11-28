@@ -131,6 +131,8 @@ export const MONETIZATION_CONFIG = {
   community: {
     telegramChannelUrl: 'https://t.me/RailwayPrep_Official',
     telegramChannelName: '@RailwayPrep_Official',
+    telegramAlertsChannelUrl: 'https://t.me/RRB_Alerts_Official',
+    telegramAlertsChannelName: '@RRB_Alerts_Official',
     telegramGroupUrl: 'https://t.me/RailwayPrepDiscuss',
     telegramGroupName: '@RailwayPrepDiscuss',
     telegramBotUrl: 'https://t.me/RailwayPrepOfficialBot',

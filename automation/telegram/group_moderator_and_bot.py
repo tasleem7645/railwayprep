@@ -22,6 +22,7 @@ LINK_RE = re.compile(r'(https?://\S+|t\.me/\S+|telegram\.me/\S+|wa\.me/\S+)', re
 ALLOWED_DOMAINS = (
     'railwayprep.com',
     't.me/railwayprep',
+    't.me/rrb_alerts_official',
     'indianrailways.gov.in',
     'rrb.indianrailways.gov.in',
     'rrbcdg.gov.in',
@@ -73,12 +74,26 @@ def handle_command(chat_id, text, reply_to=None):
         msg = (
             "🚂 <b>RailwayPrep PRO Bot (@RailwayPrepOfficialBot)</b>\n\n"
             "Available Commands:\n"
+            "• <code>/alerts</code> — Fastest 21-RRB Official Notices & PDFs (@RRB_Alerts_Official)\n"
             "• <code>/mock</code> — Free Official RRB ALP & Group D CBT Mocks\n"
             "• <code>/pyq Ohm</code> — Kisi bhi topic ke Official PYQs search karein\n"
             "• <code>/cutoff</code> — Expected Cutoff Meter & Shift Rank\n"
             "• <code>/pdf</code> — Bilingual Solved Shift PDFs"
         )
         send_message(chat_id, msg, reply_to=reply_to)
+    elif cmd == '/alerts':
+        send_message(
+            chat_id,
+            "🔔 <b>Fastest 21-RRB Real-Time Official Notices & Direct PDFs</b>\n"
+            "Admit Card, Exam City, Answer Key, Result & Official Notice PDF (Page-1 Preview सहित) बिना किसी शोर के तुरंत पाएँ:",
+            reply_markup={
+                'inline_keyboard': [
+                    [{'text': '🚨 Join @RRB_Alerts_Official', 'url': 'https://t.me/RRB_Alerts_Official'}],
+                    [{'text': '📚 Daily Study & Polls (@RailwayPrep_Official)', 'url': 'https://t.me/RailwayPrep_Official'}],
+                ]
+            },
+            reply_to=reply_to,
+        )
     elif cmd == '/mock':
         send_message(
             chat_id,
