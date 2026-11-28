@@ -19,7 +19,15 @@ from tg_client import (
 )
 
 LINK_RE = re.compile(r'(https?://\S+|t\.me/\S+|telegram\.me/\S+|wa\.me/\S+)', re.IGNORECASE)
-ALLOWED_DOMAINS = ('railwayprep.com', 't.me/railwayprep', 'indianrailways.gov.in', 'rrbapply.gov.in')
+ALLOWED_DOMAINS = (
+    'railwayprep.com',
+    't.me/railwayprep',
+    'indianrailways.gov.in',
+    'rrb.indianrailways.gov.in',
+    'rrbcdg.gov.in',
+    'rrbapply.gov.in',
+    'rrb.digialm.com',
+)
 SPAM_WORDS = ('crypto airdrop', 'betting', '1win', 'aviator', 'earn money fast', 'paid promo', 'dm for leaks', 'paper leak')
 
 
