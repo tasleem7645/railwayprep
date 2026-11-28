@@ -71,7 +71,7 @@ export default function Navbar({
       heading: 'LEARN',
       items: [
         { label: 'Home', icon: Home, onClick: () => handleNav('home'), active: activeTab === 'home' },
-        { label: 'Maths & Science Pro Studio', badge: 'CH 1–2 LIVE', badgeColor: 'bg-emerald-500/20 text-emerald-300', icon: BookOpen, onClick: () => handleNav('super-coaching'), active: activeTab === 'super-coaching' },
+        { label: 'Maths & Science Pro Studio', badge: 'CH 1–3 LIVE', badgeColor: 'bg-emerald-500/20 text-emerald-300', icon: BookOpen, onClick: () => handleNav('super-coaching'), active: activeTab === 'super-coaching' },
         { label: 'Syllabus & Vacancies', icon: FileText, onClick: () => handleNav('syllabus'), active: activeTab === 'syllabus' },
         { label: 'Recommended Books', icon: ShoppingBag, onClick: () => handleNav('books'), active: activeTab === 'books' },
       ],

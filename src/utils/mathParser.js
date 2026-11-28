@@ -36,7 +36,7 @@ export function parseMathSegments(str) {
         inner.length <= 80 &&
         !CURRENCY_OR_SERIES_WORD_RE.test(inner) &&
         /^[0-9a-zA-Z+\-*/=<>().,!?:;\s%°|]+$/.test(inner) &&
-        /[+\-*/=<>!|]/.test(inner)
+        /[+\-*/=<>!|:]/ .test(inner)
       ) {
         isMath = true;
       }

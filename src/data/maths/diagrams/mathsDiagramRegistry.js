@@ -1,14 +1,14 @@
-/**
- * Central Maths Smart-Board SVG Diagram Router
- * Delegates `ch1-*` diagrams to Chapter 1 and `ch2-*` diagrams to Chapter 2 cleanly.
- */
 import { renderMathsCh1DiagramSvg } from './ch1NumberSystemDiagrams.js';
 import { renderMathsCh2DiagramSvg } from './ch2PercentageDiagrams.js';
+import { renderMathsCh3DiagramSvg } from './ch3ProfitLossDiagrams.js';
 
-export function renderMathsDiagramSvg(key, options = {}) {
+export function renderMathsDiagramSvg(key, opts = {}) {
   if (!key) return '';
-  if (key.startsWith('ch2-')) {
-    return renderMathsCh2DiagramSvg(key, options);
+  if (key.startsWith('ch3-')) {
+    return renderMathsCh3DiagramSvg(key, opts);
   }
-  return renderMathsCh1DiagramSvg(key, options);
+  if (key.startsWith('ch2-')) {
+    return renderMathsCh2DiagramSvg(key, opts);
+  }
+  return renderMathsCh1DiagramSvg(key, opts);
 }
