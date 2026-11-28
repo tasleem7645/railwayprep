@@ -9,6 +9,7 @@ import MultiMethodSolutionBox from '../MultiMethodSolutionBox';
 import NumberSystemLabSVG from './NumberSystemLabSVG';
 import PercentageLabSVG from './PercentageLabSVG';
 import ProfitLossLabSVG from './ProfitLossLabSVG';
+import SiCiLabSVG from './SiCiLabSVG';
 import ProFeatureGate from '../ncert/ProFeatureGate';
 import { renderMathsDiagramSvg } from '../../data/maths/diagrams/mathsDiagramRegistry';
 import { buildCustomTopicQuiz } from '../../utils/pyqHelper';
@@ -579,7 +580,9 @@ export default function MathsProReader({
             }
           }
         >
-          {chapterData.labKey === 'ch3-profit-loss' ? (
+          {chapterData.labKey === 'ch4-si-ci' ? (
+            <SiCiLabSVG lang={lang} />
+          ) : chapterData.labKey === 'ch3-profit-loss' ? (
             <ProfitLossLabSVG lang={lang} />
           ) : chapterData.labKey === 'ch2-percentage' ? (
             <PercentageLabSVG lang={lang} />

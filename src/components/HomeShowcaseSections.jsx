@@ -27,8 +27,8 @@ const SUPER_NOTES_PREVIEW = [
   {
     id: 'maths',
     subject: 'Maths Mastery Pro (Zero-to-Topper)',
-    badge: 'CH 1–3 LIVE • 15 LABS',
-    desc: 'Ch 1 (Number System), Ch 2 (Percentage %) & Ch 3 (Profit, Loss & Discount) • 2–4 Methods per PYQ + SVG Labs.',
+    badge: 'CH 1–4 LIVE • 20 LABS',
+    desc: 'Ch 1–4 LIVE (Number System, Percentage, Profit/Loss & SI/CI) • 2–4 Methods per PYQ + SVG Labs.',
     color: 'from-emerald-500/20 to-teal-500/10 border-emerald-400/45 text-emerald-300',
   },
   {

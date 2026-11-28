@@ -41,7 +41,7 @@ export default function MobileBottomNav({
             >
               {item.hot && (
                 <span className="absolute -top-0.5 right-1 px-1 py-0 rounded-full bg-emerald-500 text-slate-950 text-[8px] font-black leading-tight">
-                  CH 1–3
+                  CH 1–4
                 </span>
               )}
               <Icon className={`w-5 h-5 ${active ? 'stroke-[2.5]' : 'stroke-[1.9]'}`} />

@@ -1,9 +1,13 @@
 import { renderMathsCh1DiagramSvg } from './ch1NumberSystemDiagrams.js';
 import { renderMathsCh2DiagramSvg } from './ch2PercentageDiagrams.js';
 import { renderMathsCh3DiagramSvg } from './ch3ProfitLossDiagrams.js';
+import { renderMathsCh4DiagramSvg } from './ch4SiCiDiagrams.js';
 
 export function renderMathsDiagramSvg(key, opts = {}) {
   if (!key) return '';
+  if (key.startsWith('ch4-')) {
+    return renderMathsCh4DiagramSvg(key, opts);
+  }
   if (key.startsWith('ch3-')) {
     return renderMathsCh3DiagramSvg(key, opts);
   }
