@@ -1979,10 +1979,55 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (−74x + 138) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (−74x + 138) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**−74x + 138**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($6x^2 - 6x^2 = 0$), check signs directly: $x$ term $= -44 - 30 = -74x$ (negative!) and constant $= +30 + 108 = +138$ (**positive!**). Sign pair `(−, +)` uniquely locks Option A!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-74x$) व अचर पद धनात्मक ($+138$) होना तुरंत `(−, +)` चिह्न वाला विकल्प A पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-6 \\times (-18) = +108$ (NOT $-108$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-6 \\times (-18) = +108$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $6x^2 - 44x + 30$.\n2) Expand second bracket: $-6x^2 - 30x + 108$.\n3) Combine like terms: $(6 - 6)x^2 + (-44 - 30)x + (30 + 108) = \\mathbf{-74x + 138}$.",
+            "hi": "1) पहला कोष्ठक: $6x^2 - 44x + 30$।\n2) दूसरा कोष्ठक: $-6x^2 - 30x + 108$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-74x + 138}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $2(15) - 6(-18) = 30 + 108 = +138$. Since both $x$ terms are negative ($-44x - 30x$), only `−74x + 138` has `(−x, +138)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +30 + 108 = +138$ व दोनों $x$-पद ऋणात्मक ($-44x - 30x = -74x$) $\\Rightarrow$ तुरंत **−74x + 138**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $6x^2 - 44x + 30$.\n2) Expand second bracket: $-6x^2 - 30x + 108$.\n3) Combine like terms: $(6 - 6)x^2 + (-44 - 30)x + (30 + 108) = \\mathbf{-74x + 138}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $2(15) - 6(-18) = 30 + 108 = +138$. Since both $x$ terms are negative ($-44x - 30x$), only `−74x + 138` has `(−x, +138)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $6x^2 - 44x + 30$।\n2) दूसरा कोष्ठक: $-6x^2 - 30x + 108$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-74x + 138}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +30 + 108 = +138$ व दोनों $x$-पद ऋणात्मक ($-44x - 30x = -74x$) $\\Rightarrow$ तुरंत **−74x + 138**!"
     }
   },
   {
@@ -2387,10 +2432,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (97) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (97) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**97**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 97",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **97**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **97** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 97)",
+            "hi": "विधि 1: 97 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 541096943 by **97** yields quotient **5578319** with remainder **0**.\n2) Eliminating others: 87 (rem 8), 103 (rem 39), 107 (rem 83) — none divides evenly.",
+            "hi": "1) 541096943 को **97** से भाग देने पर सटीक भागफल **5578319** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 87 (rem 8), 103 (rem 39), 107 (rem 83) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 97",
+            "hi": "विधि 2: 97 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Option test or prime division on last/whole block confirms 541096943 = 97 × 5578319 (zero remainder!).",
+            "hi": "विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 541096943 = 97 × 5578319 (शेषफल 0) सत्यापित होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 97): 1) Dividing 541096943 by **97** yields quotient **5578319** with remainder **0**.\n2) Eliminating others: 87 (rem 8), 103 (rem 39), 107 (rem 83) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 97: Option test or prime division on last/whole block confirms 541096943 = 97 × 5578319 (zero remainder!).",
+      "hi": "विधि 1: 97 से प्रत्यक्ष विभाजन सत्यापन: 1) 541096943 को **97** से भाग देने पर सटीक भागफल **5578319** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 87 (rem 8), 103 (rem 39), 107 (rem 83) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 97 का स्मार्ट विभाज्यता नियम: विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 541096943 = 97 × 5578319 (शेषफल 0) सत्यापित होता है!"
     }
   },
   {

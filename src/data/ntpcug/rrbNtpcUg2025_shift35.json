@@ -1978,10 +1978,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (39) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (39) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**39**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 9$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $8^2 = 64$, $\\sqrt{9^2} = 9$, and $4\\sqrt{25} = 4 \\times 5 = 20$.\n2) Combine left to right: $64 + 9 - 20 - 14 = \\mathbf{39}$.",
+            "hi": "1) $8^2 = 64$, $\\sqrt{9^2} = 9$ तथा $4\\sqrt{25} = 4 \\times 5 = 20$।\n2) गणना: $64 + 9 - 20 - 14 = \\mathbf{39}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(64 + 9 = 73)$ minus sum of negatives $(20 + 14 = 34) = \\mathbf{39}$.",
+            "hi": "धनात्मक योग (73) में से ऋणात्मक योग (34) घटाएँ $\\Rightarrow \\mathbf{39}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $8^2 = 64$, $\\sqrt{9^2} = 9$, and $4\\sqrt{25} = 4 \\times 5 = 20$.\n2) Combine left to right: $64 + 9 - 20 - 14 = \\mathbf{39}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(64 + 9 = 73)$ minus sum of negatives $(20 + 14 = 34) = \\mathbf{39}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $8^2 = 64$, $\\sqrt{9^2} = 9$ तथा $4\\sqrt{25} = 4 \\times 5 = 20$।\n2) गणना: $64 + 9 - 20 - 14 = \\mathbf{39}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (73) में से ऋणात्मक योग (34) घटाएँ $\\Rightarrow \\mathbf{39}$।"
     }
   },
   {

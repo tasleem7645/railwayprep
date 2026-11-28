@@ -1748,10 +1748,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (153) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (153) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**153**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `6`; test which option × `2` ends in `6` -> **153**!",
+        "hi": "इकाई अंक नियम: $(51 \\times 306)$ का इकाई अंक `6` है; विकल्प × `2` करने पर `6` केवल **153** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{51 \\times 306}{102} = \\mathbf{153}$.",
+            "hi": "दूसरी संख्या $= \\frac{51 \\times 306}{102} = \\mathbf{153}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 2$ directly: $\\frac{306}{2} = \\mathbf{153}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 102/51 = 2$ निकालें, फिर $\\frac{306}{2} = \\mathbf{153}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{51 \\times 306}{102} = \\mathbf{153}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 2$ directly: $\\frac{306}{2} = \\mathbf{153}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{51 \\times 306}{102} = \\mathbf{153}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 102/51 = 2$ निकालें, फिर $\\frac{306}{2} = \\mathbf{153}$!"
     }
   },
   {

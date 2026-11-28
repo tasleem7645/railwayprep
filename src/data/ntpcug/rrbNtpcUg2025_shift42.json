@@ -1465,10 +1465,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (5) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**5**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 5",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **5**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **5** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 5)",
+            "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 481355 by **5** yields quotient **96271** with remainder **0**.\n2) Eliminating others: 3 (rem 2), 15 (rem 5), 6 (rem 5) — none divides evenly.",
+            "hi": "1) 481355 को **5** से भाग देने पर सटीक भागफल **96271** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 3 (rem 2), 15 (rem 5), 6 (rem 5) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 5",
+            "hi": "विधि 2: 5 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+            "hi": "इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 5): 1) Dividing 481355 by **5** yields quotient **96271** with remainder **0**.\n2) Eliminating others: 3 (rem 2), 15 (rem 5), 6 (rem 5) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 5: Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+      "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन: 1) 481355 को **5** से भाग देने पर सटीक भागफल **96271** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 3 (rem 2), 15 (rem 5), 6 (rem 5) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 5 का स्मार्ट विभाज्यता नियम: इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
     }
   },
   {
@@ -1597,10 +1637,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (44) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (44) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**44**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 3$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $8^2 = 64$, $\\sqrt{3^2} = 3$, and $2\\sqrt{36} = 2 \\times 6 = 12$.\n2) Combine left to right: $64 + 3 - 12 - 11 = \\mathbf{44}$.",
+            "hi": "1) $8^2 = 64$, $\\sqrt{3^2} = 3$ तथा $2\\sqrt{36} = 2 \\times 6 = 12$।\n2) गणना: $64 + 3 - 12 - 11 = \\mathbf{44}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(64 + 3 = 67)$ minus sum of negatives $(12 + 11 = 23) = \\mathbf{44}$.",
+            "hi": "धनात्मक योग (67) में से ऋणात्मक योग (23) घटाएँ $\\Rightarrow \\mathbf{44}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $8^2 = 64$, $\\sqrt{3^2} = 3$, and $2\\sqrt{36} = 2 \\times 6 = 12$.\n2) Combine left to right: $64 + 3 - 12 - 11 = \\mathbf{44}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(64 + 3 = 67)$ minus sum of negatives $(12 + 11 = 23) = \\mathbf{44}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $8^2 = 64$, $\\sqrt{3^2} = 3$ तथा $2\\sqrt{36} = 2 \\times 6 = 12$।\n2) गणना: $64 + 3 - 12 - 11 = \\mathbf{44}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (67) में से ऋणात्मक योग (23) घटाएँ $\\Rightarrow \\mathbf{44}$।"
     }
   },
   {
@@ -2257,10 +2337,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{16}{9}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{16}{9}$) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**$\\frac{16}{9}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{7}{9}$ and combine outer terms ($\\frac{5}{3} - \\frac{2}{3} = \\frac{1}{1}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{7}{9}$ लिखें व बाहरी भिन्न ($\\frac{5}{3} - \\frac{2}{3} = \\frac{1}{1}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{2}{7} = \\frac{9}{7}$, so reciprocal $= \\frac{7}{9}$.\n2) Expression $= \\frac{5}{3} - \\frac{2}{3} + \\frac{7}{9} = \\frac{1}{1} + \\frac{7}{9} = \\mathbf{\\frac{16}{9}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{2}{7}} = \\frac{7}{9}$।\n2) शेष गणना: $\\frac{1}{1} + \\frac{7}{9} = \\mathbf{\\frac{16}{9}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{5}{3} - \\frac{2}{3}\\right) = \\frac{1}{1}$, then cross-multiply $+ \\frac{7}{9}$ = $\\mathbf{\\frac{16}{9}}$!",
+            "hi": "पहले बाहरी $\\frac{1}{1}$ में $\\frac{7}{9}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{16}{9}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{2}{7} = \\frac{9}{7}$, so reciprocal $= \\frac{7}{9}$.\n2) Expression $= \\frac{5}{3} - \\frac{2}{3} + \\frac{7}{9} = \\frac{1}{1} + \\frac{7}{9} = \\mathbf{\\frac{16}{9}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{5}{3} - \\frac{2}{3}\\right) = \\frac{1}{1}$, then cross-multiply $+ \\frac{7}{9}$ = $\\mathbf{\\frac{16}{9}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{2}{7}} = \\frac{7}{9}$।\n2) शेष गणना: $\\frac{1}{1} + \\frac{7}{9} = \\mathbf{\\frac{16}{9}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{1}{1}$ में $\\frac{7}{9}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{16}{9}}$!"
     }
   },
   {

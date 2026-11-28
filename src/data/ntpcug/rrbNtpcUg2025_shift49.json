@@ -1748,10 +1748,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (-16) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (-16) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**-16**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 5$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $2^2 = 4$, $\\sqrt{5^2} = 5$, and $3\\sqrt{25} = 3 \\times 5 = 15$.\n2) Combine left to right: $4 + 5 - 15 - 10 = \\mathbf{-16}$.",
+            "hi": "1) $2^2 = 4$, $\\sqrt{5^2} = 5$ तथा $3\\sqrt{25} = 3 \\times 5 = 15$।\n2) गणना: $4 + 5 - 15 - 10 = \\mathbf{-16}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(4 + 5 = 9)$ minus sum of negatives $(15 + 10 = 25) = \\mathbf{-16}$.",
+            "hi": "धनात्मक योग (9) में से ऋणात्मक योग (25) घटाएँ $\\Rightarrow \\mathbf{-16}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $2^2 = 4$, $\\sqrt{5^2} = 5$, and $3\\sqrt{25} = 3 \\times 5 = 15$.\n2) Combine left to right: $4 + 5 - 15 - 10 = \\mathbf{-16}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(4 + 5 = 9)$ minus sum of negatives $(15 + 10 = 25) = \\mathbf{-16}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $2^2 = 4$, $\\sqrt{5^2} = 5$ तथा $3\\sqrt{25} = 3 \\times 5 = 15$।\n2) गणना: $4 + 5 - 15 - 10 = \\mathbf{-16}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (9) में से ऋणात्मक योग (25) घटाएँ $\\Rightarrow \\mathbf{-16}$।"
     }
   },
   {
@@ -1979,10 +2019,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−86x + 124) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−86x + 124) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**−86x + 124**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($5x^2 - 5x^2 = 0$), check signs directly: $x$ term $= -56 - 30 = -86x$ (negative!) and constant $= +34 + 90 = +124$ (**positive!**). Sign pair `(−, +)` uniquely locks Option D!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-86x$) व अचर पद धनात्मक ($+124$) होना तुरंत `(−, +)` चिह्न वाला विकल्प D पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-5 \\times (-18) = +90$ (NOT $-90$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-5 \\times (-18) = +90$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $5x^2 - 56x + 34$.\n2) Expand second bracket: $-5x^2 - 30x + 90$.\n3) Combine like terms: $(5 - 5)x^2 + (-56 - 30)x + (34 + 90) = \\mathbf{-86x + 124}$.",
+            "hi": "1) पहला कोष्ठक: $5x^2 - 56x + 34$।\n2) दूसरा कोष्ठक: $-5x^2 - 30x + 90$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-86x + 124}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $2(17) - 5(-18) = 34 + 90 = +124$. Since both $x$ terms are negative ($-56x - 30x$), only `−86x + 124` has `(−x, +124)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +34 + 90 = +124$ व दोनों $x$-पद ऋणात्मक ($-56x - 30x = -86x$) $\\Rightarrow$ तुरंत **−86x + 124**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $5x^2 - 56x + 34$.\n2) Expand second bracket: $-5x^2 - 30x + 90$.\n3) Combine like terms: $(5 - 5)x^2 + (-56 - 30)x + (34 + 90) = \\mathbf{-86x + 124}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $2(17) - 5(-18) = 34 + 90 = +124$. Since both $x$ terms are negative ($-56x - 30x$), only `−86x + 124` has `(−x, +124)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $5x^2 - 56x + 34$।\n2) दूसरा कोष्ठक: $-5x^2 - 30x + 90$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-86x + 124}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +34 + 90 = +124$ व दोनों $x$-पद ऋणात्मक ($-56x - 30x = -86x$) $\\Rightarrow$ तुरंत **−86x + 124**!"
     }
   },
   {
@@ -2045,10 +2130,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (31) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (31) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**31**).",
+      "keyConcept": "Curly Brace Cancellation: 16 − 8(1)×2 = 0!",
+      "optionTrick": {
+        "en": "Inside curly brace `{16 − 8(1)×2} = {16 − 16} = 0`! Whole `÷32` block vanishes -> `67 − 9×4 = 67 − 36` = **31**!",
+        "hi": "मँझला कोष्ठक `{16 − 8(1)×2} = 0` बन जाता है! पूरा भाग शून्य होने पर सीधे `67 − 9×4 = 67 − 36` = **31**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Inside-Out Bracket BODMAS",
+            "hi": "विधि 1: अंदर से बाहर BODMAS"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Curly brace: $16 - 8(1)\\times 2 = 16 - 16 = 0$.\n2) Square bracket: $[4 + 3 \\times 0 \\div 32] = 4$.\n3) Final: $67 - 9 \\times 4 = 67 - 36 = \\mathbf{31}$.",
+            "hi": "1) `{16 − 8(1)×2} = 0`।\n2) `[4 + 0] = 4`।\n3) `67 − 9 × 4 = 67 − 36 = 31`।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Brace Collapsing Trick (4 sec)",
+            "hi": "विधि 2: शून्य-कोष्ठक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice `16 − 16 = 0` knocks out `3 × 0 ÷ 32`; only $67 - 36 = \\mathbf{31}$ stays.",
+            "hi": "अंदर `16 − 16 = 0` दिखते ही केवल `67 − 36 = 31` बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Inside-Out Bracket BODMAS: 1) Curly brace: $16 - 8(1)\\times 2 = 16 - 16 = 0$.\n2) Square bracket: $[4 + 3 \\times 0 \\div 32] = 4$.\n3) Final: $67 - 9 \\times 4 = 67 - 36 = \\mathbf{31}$.\n\nMethod 2: Zero-Brace Collapsing Trick (4 sec): Notice `16 − 16 = 0` knocks out `3 × 0 ÷ 32`; only $67 - 36 = \\mathbf{31}$ stays.",
+      "hi": "विधि 1: अंदर से बाहर BODMAS: 1) `{16 − 8(1)×2} = 0`।\n2) `[4 + 0] = 4`।\n3) `67 − 9 × 4 = 67 − 36 = 31`।\n\nविधि 2: शून्य-कोष्ठक ट्रिक: अंदर `16 − 16 = 0` दिखते ही केवल `67 − 36 = 31` बचता है!"
     }
   },
   {
@@ -2190,10 +2315,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (88) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (88) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**88**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `0`; test which option × `5` ends in `0` -> **88**!",
+        "hi": "इकाई अंक नियम: $(11 \\times 440)$ का इकाई अंक `0` है; विकल्प × `5` करने पर `0` केवल **88** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{11 \\times 440}{55} = \\mathbf{88}$.",
+            "hi": "दूसरी संख्या $= \\frac{11 \\times 440}{55} = \\mathbf{88}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 5$ directly: $\\frac{440}{5} = \\mathbf{88}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 55/11 = 5$ निकालें, फिर $\\frac{440}{5} = \\mathbf{88}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{11 \\times 440}{55} = \\mathbf{88}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 5$ directly: $\\frac{440}{5} = \\mathbf{88}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{11 \\times 440}{55} = \\mathbf{88}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 55/11 = 5$ निकालें, फिर $\\frac{440}{5} = \\mathbf{88}$!"
     }
   },
   {
@@ -2355,10 +2521,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (26) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (26) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**26**).",
+      "keyConcept": "Term-by-Term Exponents & BODMAS Priority",
+      "optionTrick": {
+        "en": "`8 − 9 + 1 − 2 + 28`: notice `8 − 9 + 1 = 0` cancels completely -> `28 − 2` = **26**!",
+        "hi": "प्रथम तीन पद `8 − 9 + 1 = 0` पूरे कट गए $\\Rightarrow$ केवल `−2 + 28` = **26**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Powers + Multiply",
+            "hi": "विधि 1: घात व गुणा क्रम से"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$8 - 9 + 1^2 - 2 + 28 = 8 - 9 + 1 - 2 + 28 = \\mathbf{26}$.",
+            "hi": "$8 - 9 + 1 - 2 + 28 = \\mathbf{26}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Triplet Cancellation (3 sec)",
+            "hi": "विधि 2: शून्य-समूह निरसन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$(8 - 9 + 1) = 0$, leaving $28 - 2 = \\mathbf{26}$.",
+            "hi": "`8 − 9 + 1 = 0` हटाने पर शेष `28 − 2` = **26**!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Powers + Multiply: $8 - 9 + 1^2 - 2 + 28 = 8 - 9 + 1 - 2 + 28 = \\mathbf{26}$.\n\nMethod 2: Zero-Triplet Cancellation (3 sec): $(8 - 9 + 1) = 0$, leaving $28 - 2 = \\mathbf{26}$.",
+      "hi": "विधि 1: घात व गुणा क्रम से: $8 - 9 + 1 - 2 + 28 = \\mathbf{26}$।\n\nविधि 2: शून्य-समूह निरसन ट्रिक: `8 − 9 + 1 = 0` हटाने पर शेष `28 − 2` = **26**!"
     }
   },
   {

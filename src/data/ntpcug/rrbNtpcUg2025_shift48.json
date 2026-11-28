@@ -1452,10 +1452,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−729) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−729) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**−729**).",
+      "keyConcept": "Reverse Factoring & Negation Sign in (1 − x/3) vs (x/3 − 1)",
+      "optionTrick": {
+        "en": "Put $x = 0$: Numerator $= (-9)(-1)\\times 9 = +81$, Denominator $= (-1/3)(1)(1/3)(1) = -1/9 \\Rightarrow \\frac{81}{-1/9} = \\mathbf{-729}$ (in 6 sec)!",
+        "hi": "$x = 0$ रखें: अंश $= (-9)(-1)\\times 9 = 81$, हर $= (-\\frac{1}{3})(1)(\\frac{1}{3})(1) = -\\frac{1}{9} \\Rightarrow \\frac{81}{-1/9} = \\mathbf{-729}$ (6 सेकंड में)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Denominator Factorization",
+            "hi": "विधि 1: हर का सर्वसमिका गुणनखंडन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Pair factors in denominator: $(x - \\frac{1}{3})(x + \\frac{1}{3}) = \\frac{9x^2 - 1}{9}$.\n2) $(1 - \\frac{x}{3})(1 + \\frac{x}{3}) = 1 - \\frac{x^2}{9} = -\\frac{x^2 - 9}{9}$.\n3) Substitute back: $\\frac{(x^2 - 9)(9x^2 - 1)}{-\\frac{(x^2-9)(9x^2-1)}{81}} \\times 9 = -81 \\times 9 = \\mathbf{-729}$.",
+            "hi": "1) हर में $(x-\\frac{1}{3})(x+\\frac{1}{3}) = \\frac{9x^2-1}{9}$ तथा $(1-\\frac{x}{3})(1+\\frac{x}{3}) = -\\frac{x^2-9}{9}$।\n2) सब कटने पर $9 \\times (-81) = \\mathbf{-729}$ प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Value Trick x = 0 (5 sec)",
+            "hi": "विधि 2: x = 0 मान रखो ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Set $x = 0$: $\\frac{(-9)(-1)}{(-1/3)(1)} \\times \\frac{9}{(1/3)(1)} = \\frac{9}{-1/3} \\times 27 = (-27) \\times 27 = \\mathbf{-729}$!",
+            "hi": "$x = 0$ रखते ही: $\\frac{(-9)(-1)}{-1/3} \\times \\frac{9}{1/3} = (-27) \\times 27 = \\mathbf{-729}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Denominator Factorization: 1) Pair factors in denominator: $(x - \\frac{1}{3})(x + \\frac{1}{3}) = \\frac{9x^2 - 1}{9}$.\n2) $(1 - \\frac{x}{3})(1 + \\frac{x}{3}) = 1 - \\frac{x^2}{9} = -\\frac{x^2 - 9}{9}$.\n3) Substitute back: $\\frac{(x^2 - 9)(9x^2 - 1)}{-\\frac{(x^2-9)(9x^2-1)}{81}} \\times 9 = -81 \\times 9 = \\mathbf{-729}$.\n\nMethod 2: Zero-Value Trick x = 0 (5 sec): Set $x = 0$: $\\frac{(-9)(-1)}{(-1/3)(1)} \\times \\frac{9}{(1/3)(1)} = \\frac{9}{-1/3} \\times 27 = (-27) \\times 27 = \\mathbf{-729}$!",
+      "hi": "विधि 1: हर का सर्वसमिका गुणनखंडन: 1) हर में $(x-\\frac{1}{3})(x+\\frac{1}{3}) = \\frac{9x^2-1}{9}$ तथा $(1-\\frac{x}{3})(1+\\frac{x}{3}) = -\\frac{x^2-9}{9}$।\n2) सब कटने पर $9 \\times (-81) = \\mathbf{-729}$ प्राप्त होता है।\n\nविधि 2: x = 0 मान रखो ट्रिक: $x = 0$ रखते ही: $\\frac{(-9)(-1)}{-1/3} \\times \\frac{9}{1/3} = (-27) \\times 27 = \\mathbf{-729}$!"
     }
   },
   {
@@ -1716,10 +1756,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (23) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (23) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**23**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 23",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **23**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **23** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 23)",
+            "hi": "विधि 1: 23 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 726179 by **23** yields quotient **31573** with remainder **0**.\n2) Eliminating others: 29 (rem 19), 20 (rem 19), 28 (rem 27) — none divides evenly.",
+            "hi": "1) 726179 को **23** से भाग देने पर सटीक भागफल **31573** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 29 (rem 19), 20 (rem 19), 28 (rem 27) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 23",
+            "hi": "विधि 2: 23 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Option test or prime division on last/whole block confirms 726179 = 23 × 31573 (zero remainder!).",
+            "hi": "विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 726179 = 23 × 31573 (शेषफल 0) सत्यापित होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 23): 1) Dividing 726179 by **23** yields quotient **31573** with remainder **0**.\n2) Eliminating others: 29 (rem 19), 20 (rem 19), 28 (rem 27) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 23: Option test or prime division on last/whole block confirms 726179 = 23 × 31573 (zero remainder!).",
+      "hi": "विधि 1: 23 से प्रत्यक्ष विभाजन सत्यापन: 1) 726179 को **23** से भाग देने पर सटीक भागफल **31573** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 29 (rem 19), 20 (rem 19), 28 (rem 27) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 23 का स्मार्ट विभाज्यता नियम: विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 726179 = 23 × 31573 (शेषफल 0) सत्यापित होता है!"
     }
   },
   {
@@ -1815,10 +1895,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (200) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (200) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**200**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `0`; test which option × `8` ends in `0` -> **200**!",
+        "hi": "इकाई अंक नियम: $(8 \\times 4200)$ का इकाई अंक `0` है; विकल्प × `8` करने पर `0` केवल **200** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{8 \\times 4200}{168} = \\mathbf{200}$.",
+            "hi": "दूसरी संख्या $= \\frac{8 \\times 4200}{168} = \\mathbf{200}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 21$ directly: $\\frac{4200}{21} = \\mathbf{200}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 168/8 = 21$ निकालें, फिर $\\frac{4200}{21} = \\mathbf{200}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{8 \\times 4200}{168} = \\mathbf{200}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 21$ directly: $\\frac{4200}{21} = \\mathbf{200}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{8 \\times 4200}{168} = \\mathbf{200}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 168/8 = 21$ निकालें, फिर $\\frac{4200}{21} = \\mathbf{200}$!"
     }
   },
   {
@@ -1881,10 +2002,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (-39) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (-39) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**-39**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 10$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $2^2 = 4$, $\\sqrt{10^2} = 10$, and $9\\sqrt{16} = 9 \\times 4 = 36$.\n2) Combine left to right: $4 + 10 - 36 - 17 = \\mathbf{-39}$.",
+            "hi": "1) $2^2 = 4$, $\\sqrt{10^2} = 10$ तथा $9\\sqrt{16} = 9 \\times 4 = 36$।\n2) गणना: $4 + 10 - 36 - 17 = \\mathbf{-39}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(4 + 10 = 14)$ minus sum of negatives $(36 + 17 = 53) = \\mathbf{-39}$.",
+            "hi": "धनात्मक योग (14) में से ऋणात्मक योग (53) घटाएँ $\\Rightarrow \\mathbf{-39}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $2^2 = 4$, $\\sqrt{10^2} = 10$, and $9\\sqrt{16} = 9 \\times 4 = 36$.\n2) Combine left to right: $4 + 10 - 36 - 17 = \\mathbf{-39}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(4 + 10 = 14)$ minus sum of negatives $(36 + 17 = 53) = \\mathbf{-39}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $2^2 = 4$, $\\sqrt{10^2} = 10$ तथा $9\\sqrt{16} = 9 \\times 4 = 36$।\n2) गणना: $4 + 10 - 36 - 17 = \\mathbf{-39}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (14) में से ऋणात्मक योग (53) घटाएँ $\\Rightarrow \\mathbf{-39}$।"
     }
   },
   {

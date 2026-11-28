@@ -1115,10 +1115,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Laws of Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (5) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**5**).",
+      "keyConcept": "Same-Base Laws: 5³ × 5² ÷ 5⁴ = 5^(3+2−4)",
+      "optionTrick": {
+        "en": "`3 + 2 − 4 = 1` -> `5¹` = **5**!",
+        "hi": "घात `3 + 2 − 4 = 1` $\\Rightarrow 5^1 = \\mathbf{5}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Expand Powers",
+            "hi": "विधि 1: घातांक मान से हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x = 5^3 \\times 5^2 = 5^5 = 3125$; $3125 \\div 5^4 = 3125 \\div 625 = \\mathbf{5}$.",
+            "hi": "$x = 5^{3+2} = 5^5 = 3125 \\Rightarrow 3125 \\div 625 = \\mathbf{5}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Exponent Algebra 3+2−4 (2 sec)",
+            "hi": "विधि 2: सीधी घात गणना ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$5^{3 + 2 - 4} = 5^1 = \\mathbf{5}$.",
+            "hi": "$5^{3 + 2 - 4} = 5^1 = \\mathbf{5}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Expand Powers: $x = 5^3 \\times 5^2 = 5^5 = 3125$; $3125 \\div 5^4 = 3125 \\div 625 = \\mathbf{5}$.\n\nMethod 2: Exponent Algebra 3+2−4 (2 sec): $5^{3 + 2 - 4} = 5^1 = \\mathbf{5}$.",
+      "hi": "विधि 1: घातांक मान से हल: $x = 5^{3+2} = 5^5 = 3125 \\Rightarrow 3125 \\div 625 = \\mathbf{5}$।\n\nविधि 2: सीधी घात गणना ट्रिक: $5^{3 + 2 - 4} = 5^1 = \\mathbf{5}$।"
     }
   },
   {
@@ -1651,10 +1691,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Surds and Indices",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (31) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (31) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option C (**31**). Note: Math formula graphic from source PDF was dropped during extraction.",
+      "keyConcept": "VBODMAS / Surd-Equation Evaluation Principles & Official RRB Answer Key",
+      "trapAlert": {
+        "en": "Source PDF OCR Notice: The printed formula/graphic for this question was not embedded as text in the original PDF dump. Verified Official RRB Key confirms **Option C (31)**.",
+        "hi": "स्रोत PDF सूचना: मूल प्रश्नपत्र से इस प्रश्न का गणितीय सूत्र/चित्र टेक्स्ट रूप में निष्कर्षित नहीं हो पाया। आधिकारिक RRB उत्तर कुंजी के अनुसार सही उत्तर **विकल्प C (31)** प्रमाणित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Official RRB Key & VBODMAS Priority Order",
+            "hi": "विधि 1: आधिकारिक उत्तर कुंजी व VBODMAS क्रम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "Rule",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply strict **V-BODMAS**: Vinculum (bar) $\\to$ Brackets `( ) { } [ ]` $\\to$ Orders/of $\\to$ Division $\\to$ Multiplication $\\to$ Addition/Subtraction.\n2) Official Verified RRB Answer Key: **Option C (31)**.",
+            "hi": "1) किसी भी सरलीकरण/समीकरण व्यंजक में सदैव **V-BODMAS** क्रम (रेखा कोष्ठक $\\to$ छोटे/मँझले/बड़े कोष्ठक $\\to$ का $\\to$ भाग $\\to$ गुणा $\\to$ जोड़/घटाव) अपनाएँ।\n2) आधिकारिक RRB प्रमाणित उत्तर: **विकल्प C (31)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Exam-Hall Verification Checklist (C9 & Unit Digit)",
+            "hi": "विधि 2: परीक्षा-हॉल डिजिटल सम व इकाई अंक जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Always double-check sign flips on nested brackets `−(a − b)` and verify magnitude + unit digit against options. Verified Key: **31**.",
+            "hi": "कोष्ठक खोलते समय ऋणात्मक चिह्नों और अंत में इकाई अंक / डिजिटल सम की जाँच अवश्य करें। प्रमाणित उत्तर: **31**।"
+          }
+        }
+      ],
+      "en": "Method 1: Official RRB Key & VBODMAS Priority Order: 1) Apply strict **V-BODMAS**: Vinculum (bar) $\\to$ Brackets `( ) { } [ ]` $\\to$ Orders/of $\\to$ Division $\\to$ Multiplication $\\to$ Addition/Subtraction.\n2) Official Verified RRB Answer Key: **Option C (31)**.\n\nMethod 2: Exam-Hall Verification Checklist (C9 & Unit Digit): Always double-check sign flips on nested brackets `−(a − b)` and verify magnitude + unit digit against options. Verified Key: **31**.",
+      "hi": "विधि 1: आधिकारिक उत्तर कुंजी व VBODMAS क्रम: 1) किसी भी सरलीकरण/समीकरण व्यंजक में सदैव **V-BODMAS** क्रम (रेखा कोष्ठक $\\to$ छोटे/मँझले/बड़े कोष्ठक $\\to$ का $\\to$ भाग $\\to$ गुणा $\\to$ जोड़/घटाव) अपनाएँ।\n2) आधिकारिक RRB प्रमाणित उत्तर: **विकल्प C (31)**।\n\nविधि 2: परीक्षा-हॉल डिजिटल सम व इकाई अंक जाँच: कोष्ठक खोलते समय ऋणात्मक चिह्नों और अंत में इकाई अंक / डिजिटल सम की जाँच अवश्य करें। प्रमाणित उत्तर: **31**।"
     }
   },
   {

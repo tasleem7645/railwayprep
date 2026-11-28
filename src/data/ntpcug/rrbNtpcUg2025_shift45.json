@@ -2078,10 +2078,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{61}{84}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{61}{84}$) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**$\\frac{61}{84}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{9}{14}$ and combine outer terms ($\\frac{3}{4} - \\frac{2}{3} = \\frac{1}{12}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{9}{14}$ लिखें व बाहरी भिन्न ($\\frac{3}{4} - \\frac{2}{3} = \\frac{1}{12}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{5}{9} = \\frac{14}{9}$, so reciprocal $= \\frac{9}{14}$.\n2) Expression $= \\frac{3}{4} - \\frac{2}{3} + \\frac{9}{14} = \\frac{1}{12} + \\frac{9}{14} = \\mathbf{\\frac{61}{84}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{5}{9}} = \\frac{9}{14}$।\n2) शेष गणना: $\\frac{1}{12} + \\frac{9}{14} = \\mathbf{\\frac{61}{84}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{3}{4} - \\frac{2}{3}\\right) = \\frac{1}{12}$, then cross-multiply $+ \\frac{9}{14}$ = $\\mathbf{\\frac{61}{84}}$!",
+            "hi": "पहले बाहरी $\\frac{1}{12}$ में $\\frac{9}{14}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{61}{84}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{5}{9} = \\frac{14}{9}$, so reciprocal $= \\frac{9}{14}$.\n2) Expression $= \\frac{3}{4} - \\frac{2}{3} + \\frac{9}{14} = \\frac{1}{12} + \\frac{9}{14} = \\mathbf{\\frac{61}{84}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{3}{4} - \\frac{2}{3}\\right) = \\frac{1}{12}$, then cross-multiply $+ \\frac{9}{14}$ = $\\mathbf{\\frac{61}{84}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{5}{9}} = \\frac{9}{14}$।\n2) शेष गणना: $\\frac{1}{12} + \\frac{9}{14} = \\mathbf{\\frac{61}{84}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{1}{12}$ में $\\frac{9}{14}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{61}{84}}$!"
     }
   },
   {

@@ -886,10 +886,50 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 5)",
-      "en": "Correct Answer: Option A (5). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (5)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Mathematical Answer: 9 (Option D); Official Stored Key marks Option A (5).",
+      "keyConcept": "Product Index Law: a^m × a^n = a^(m + n) and 6561 = 9⁴",
+      "trapAlert": {
+        "en": "Calculation Discrepancy Alert: $(6561)^{0.18 + 0.07} = (6561)^{0.25} = (6561)^{1/4} = (9^4)^{1/4} = \\mathbf{9}$ (Option D). Stored answer key shows Option A (5) — clearly verified as 9.",
+        "hi": "गणितीय त्रुटि सूचना: $(6561)^{0.18 + 0.07} = 6561^{0.25} = (9^4)^{1/4} = \\mathbf{9}$ (विकल्प D) सटीक उत्तर है; संग्रहीत कुंजी में विकल्प A (5) अंकित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Add Exponents First",
+            "hi": "विधि 1: घातांक योग नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $6561^{0.18 + 0.07} = 6561^{0.25} = 6561^{1/4}$.\n2) Factor $6561 = 81^2 = 9^4 \\Rightarrow (9^4)^{1/4} = \\mathbf{9}$ (Option D; key stored Option A: 5).",
+            "hi": "1) $6561^{0.18+0.07} = 6561^{0.25} = 6561^{1/4}$।\n2) $6561 = 81^2 = 9^4 \\Rightarrow (9^4)^{1/4} = \\mathbf{9}$ (विकल्प D; संग्रहीत कुंजी 5 दर्शाती है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit Digit & Divisibility Check (3 sec)",
+            "hi": "विधि 2: अभाज्य गुणनखंड जांच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "6561 ends in 1 (`NOT divisible by 5` or `even 4/6`!), while sum of digits $6+5+6+1=18$ ($\\div 9\\checkmark$) $\\Rightarrow$ **9**!",
+            "hi": "6561 में 5 व सम गुणनखंड असंभव हैं और अंकों का योग 18 (9 से विभाज्य) है $\\Rightarrow$ निश्चित उत्तर **9**!"
+          }
+        }
+      ],
+      "en": "Method 1: Add Exponents First: 1) $6561^{0.18 + 0.07} = 6561^{0.25} = 6561^{1/4}$.\n2) Factor $6561 = 81^2 = 9^4 \\Rightarrow (9^4)^{1/4} = \\mathbf{9}$ (Option D; key stored Option A: 5).\n\nMethod 2: Unit Digit & Divisibility Check (3 sec): 6561 ends in 1 (`NOT divisible by 5` or `even 4/6`!), while sum of digits $6+5+6+1=18$ ($\\div 9\\checkmark$) $\\Rightarrow$ **9**!",
+      "hi": "विधि 1: घातांक योग नियम: 1) $6561^{0.18+0.07} = 6561^{0.25} = 6561^{1/4}$।\n2) $6561 = 81^2 = 9^4 \\Rightarrow (9^4)^{1/4} = \\mathbf{9}$ (विकल्प D; संग्रहीत कुंजी 5 दर्शाती है)।\n\nविधि 2: अभाज्य गुणनखंड जांच: 6561 में 5 व सम गुणनखंड असंभव हैं और अंकों का योग 18 (9 से विभाज्य) है $\\Rightarrow$ निश्चित उत्तर **9**!"
     },
     "correctIndexHi": 0
   },
@@ -2048,10 +2088,50 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 5)",
-      "en": "Correct Answer: Option B (10xy). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (10xy)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**10xy**).",
+      "keyConcept": "Split Quadratic + Multiply by Negated Difference of Squares",
+      "optionTrick": {
+        "en": "Put $x = 1, y = 1$: $((9-68+64)/(-5) - 3 + 8 + 10/(-5)) \\times ((64-9)/11) = (-1 + 5 - 2) \\times 5 = +10$ -> ONLY `10xy` ($= +10$) matches!",
+        "hi": "$x = 1, y = 1$ रखें: $(-1 + 5 - 2) \\times 5 = +10$! केवल `10xy` का मान $+10$ है (`−10xy = −10`)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Algebraic Fraction Combining",
+            "hi": "विधि 1: बीजीय भिन्न सरलीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Combine the fractions over $(3x - 8y)$: $\\frac{9x^2 - 68xy + 64y^2 - (3x - 8y)^2 + 10xy}{3x - 8y} = \\frac{-10xy}{3x - 8y}$.\n2) Note $\\frac{64y^2 - 9x^2}{3x + 8y} = \\frac{-(3x - 8y)(3x + 8y)}{3x + 8y} = -(3x - 8y)$.\n3) Multiply: $\\frac{-10xy}{3x - 8y} \\times (-(3x - 8y)) = \\mathbf{10xy}$.",
+            "hi": "1) पहले कोष्ठक का हर $(3x - 8y)$ समान करने पर अंश $= -10xy$ बचता है।\n2) $\\frac{64y^2 - 9x^2}{3x + 8y} = -(3x - 8y)$।\n3) गुणा: $\\frac{-10xy}{3x - 8y} \\times (-(3x - 8y)) = \\mathbf{10xy}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Value Putting x=1, y=1 (6 sec)",
+            "hi": "विधि 2: मान रखकर x=1, y=1 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Set $x=1, y=1$: First factor $= \\frac{5}{-5} - 3 + 8 + \\frac{10}{-5} = -1 + 5 - 2 = 2$; Second factor $= \\frac{55}{11} = 5 \\Rightarrow 2 \\times 5 = \\mathbf{10} \\Rightarrow \\mathbf{10xy}$.",
+            "hi": "$x=1, y=1$ रखने पर पहला भाग $= 2$ तथा दूसरा भाग $= 5$; गुणनफल $= \\mathbf{10}$, जो केवल **10xy** से मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Algebraic Fraction Combining: 1) Combine the fractions over $(3x - 8y)$: $\\frac{9x^2 - 68xy + 64y^2 - (3x - 8y)^2 + 10xy}{3x - 8y} = \\frac{-10xy}{3x - 8y}$.\n2) Note $\\frac{64y^2 - 9x^2}{3x + 8y} = \\frac{-(3x - 8y)(3x + 8y)}{3x + 8y} = -(3x - 8y)$.\n3) Multiply: $\\frac{-10xy}{3x - 8y} \\times (-(3x - 8y)) = \\mathbf{10xy}$.\n\nMethod 2: Value Putting x=1, y=1 (6 sec): Set $x=1, y=1$: First factor $= \\frac{5}{-5} - 3 + 8 + \\frac{10}{-5} = -1 + 5 - 2 = 2$; Second factor $= \\frac{55}{11} = 5 \\Rightarrow 2 \\times 5 = \\mathbf{10} \\Rightarrow \\mathbf{10xy}$.",
+      "hi": "विधि 1: बीजीय भिन्न सरलीकरण: 1) पहले कोष्ठक का हर $(3x - 8y)$ समान करने पर अंश $= -10xy$ बचता है।\n2) $\\frac{64y^2 - 9x^2}{3x + 8y} = -(3x - 8y)$।\n3) गुणा: $\\frac{-10xy}{3x - 8y} \\times (-(3x - 8y)) = \\mathbf{10xy}$।\n\nविधि 2: मान रखकर x=1, y=1 ट्रिक: $x=1, y=1$ रखने पर पहला भाग $= 2$ तथा दूसरा भाग $= 5$; गुणनफल $= \\mathbf{10}$, जो केवल **10xy** से मिलता है!"
     },
     "correctIndexHi": 1
   },

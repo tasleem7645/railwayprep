@@ -92,10 +92,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**1**).",
+      "keyConcept": "Common Denominator Match: 4/5 = 8/10",
+      "optionTrick": {
+        "en": "`4/5 + 1/10 = 8/10 + 1/10 = 9/10`; dividing `9/10` by itself = **1**!",
+        "hi": "`4/5 + 1/10 = 9/10` — दोनों समान राशियाँ हैं, अतः `9/10 ÷ 9/10` = **1**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Bracket Fraction Addition First",
+            "hi": "विधि 1: पहले कोष्ठक भिन्न जोड़"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $\\frac{4}{5} + \\frac{1}{10} = \\frac{8 + 1}{10} = \\frac{9}{10}$.\n2) $\\frac{9}{10} \\div \\frac{9}{10} = \\mathbf{1}$.",
+            "hi": "1) $\\frac{4}{5} + \\frac{1}{10} = \\frac{9}{10}$।\n2) $\\frac{9}{10} \\div \\frac{9}{10} = \\mathbf{1}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Decimal Check (0.9 ÷ 0.9) (3 sec)",
+            "hi": "विधि 2: दशमलव 0.9 ÷ 0.9 विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$0.9 \\div (0.8 + 0.1) = 0.9 \\div 0.9 = \\mathbf{1}$.",
+            "hi": "$0.9 \\div (0.8 + 0.1) = 0.9 \\div 0.9 = \\mathbf{1}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Bracket Fraction Addition First: 1) $\\frac{4}{5} + \\frac{1}{10} = \\frac{8 + 1}{10} = \\frac{9}{10}$.\n2) $\\frac{9}{10} \\div \\frac{9}{10} = \\mathbf{1}$.\n\nMethod 2: Decimal Check (0.9 ÷ 0.9) (3 sec): $0.9 \\div (0.8 + 0.1) = 0.9 \\div 0.9 = \\mathbf{1}$.",
+      "hi": "विधि 1: पहले कोष्ठक भिन्न जोड़: 1) $\\frac{4}{5} + \\frac{1}{10} = \\frac{9}{10}$।\n2) $\\frac{9}{10} \\div \\frac{9}{10} = \\mathbf{1}$।\n\nविधि 2: दशमलव 0.9 ÷ 0.9 विधि: $0.9 \\div (0.8 + 0.1) = 0.9 \\div 0.9 = \\mathbf{1}$।"
     }
   },
   {
@@ -2992,10 +3032,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**9964**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) makes a+b = 10,000!",
+      "optionTrick": {
+        "en": "`9982 + 18 = 10000` cancels `10000x` immediately -> `x = 9982 − 18` = **9964** (Zero Multiply)!",
+        "hi": "`9982 + 18 = 10000` दोनों ओर से कट जाता है $\\Rightarrow x = 9982 - 18 = \\mathbf{9964}$ (बिना वर्ग किए)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: (a − b)(a + b) Identity",
+            "hi": "विधि 1: (a−b)(a+b) सर्वसमिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $10000x = (9982 - 18)(9982 + 18) = 9964 \\times 10000$.\n2) Cancel $10000 \\Rightarrow x = \\mathbf{9964}$.",
+            "hi": "1) $10000x = (9982 - 18)(9982 + 18) = 9964 \\times 10000$।\n2) 10000 काटने पर $x = \\mathbf{9964}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Step Subtraction 9982 − 18 (3 sec)",
+            "hi": "विधि 2: सीधी घटाव 9982 − 18 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Spot $9982 + 18 = 10^4 \\Rightarrow x = 9982 - 18 = \\mathbf{9964}$.",
+            "hi": "देखते ही $9982 + 18 = 10000$ कटता है $\\Rightarrow x = 9982 - 18 = \\mathbf{9964}$।"
+          }
+        }
+      ],
+      "en": "Method 1: (a − b)(a + b) Identity: 1) $10000x = (9982 - 18)(9982 + 18) = 9964 \\times 10000$.\n2) Cancel $10000 \\Rightarrow x = \\mathbf{9964}$.\n\nMethod 2: Zero-Step Subtraction 9982 − 18 (3 sec): Spot $9982 + 18 = 10^4 \\Rightarrow x = 9982 - 18 = \\mathbf{9964}$.",
+      "hi": "विधि 1: (a−b)(a+b) सर्वसमिका: 1) $10000x = (9982 - 18)(9982 + 18) = 9964 \\times 10000$।\n2) 10000 काटने पर $x = \\mathbf{9964}$।\n\nविधि 2: सीधी घटाव 9982 − 18 ट्रिक: देखते ही $9982 + 18 = 10000$ कटता है $\\Rightarrow x = 9982 - 18 = \\mathbf{9964}$।"
     }
   },
   {

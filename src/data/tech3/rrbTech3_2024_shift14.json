@@ -851,10 +851,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**16**).",
+      "keyConcept": "BODMAS: Parenthesis Division Inside First",
+      "optionTrick": {
+        "en": "`24 ÷ 3 = 8`, then `8 × 2` = **16**!",
+        "hi": "`24 ÷ 3 = 8`, फिर `8 × 2` = **16**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Bracket First BODMAS",
+            "hi": "विधि 1: कोष्ठक पहले BODMAS"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "5 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$(24 \\div 3) \\times 2 = 8 \\times 2 = \\mathbf{16}$.",
+            "hi": "$(24 \\div 3) \\times 2 = 8 \\times 2 = \\mathbf{16}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Mental Evaluation (2 sec)",
+            "hi": "विधि 2: मौखिक गणना"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide inside parentheses to get 8, double it $\\Rightarrow \\mathbf{16}$.",
+            "hi": "कोष्ठक मान 8 का दोगुना $= \\mathbf{16}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Bracket First BODMAS: $(24 \\div 3) \\times 2 = 8 \\times 2 = \\mathbf{16}$.\n\nMethod 2: Direct Mental Evaluation (2 sec): Divide inside parentheses to get 8, double it $\\Rightarrow \\mathbf{16}$.",
+      "hi": "विधि 1: कोष्ठक पहले BODMAS: $(24 \\div 3) \\times 2 = 8 \\times 2 = \\mathbf{16}$।\n\nविधि 2: मौखिक गणना: कोष्ठक मान 8 का दोगुना $= \\mathbf{16}$।"
     }
   },
   {

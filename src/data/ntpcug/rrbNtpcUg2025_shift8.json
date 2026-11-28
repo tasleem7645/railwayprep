@@ -1650,10 +1650,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (-3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (-3) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**-3**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 8$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $2^2 = 4$, $\\sqrt{8^2} = 8$, and $2\\sqrt{4} = 2 \\times 2 = 4$.\n2) Combine left to right: $4 + 8 - 4 - 11 = \\mathbf{-3}$.",
+            "hi": "1) $2^2 = 4$, $\\sqrt{8^2} = 8$ तथा $2\\sqrt{4} = 2 \\times 2 = 4$।\n2) गणना: $4 + 8 - 4 - 11 = \\mathbf{-3}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(4 + 8 = 12)$ minus sum of negatives $(4 + 11 = 15) = \\mathbf{-3}$.",
+            "hi": "धनात्मक योग (12) में से ऋणात्मक योग (15) घटाएँ $\\Rightarrow \\mathbf{-3}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $2^2 = 4$, $\\sqrt{8^2} = 8$, and $2\\sqrt{4} = 2 \\times 2 = 4$.\n2) Combine left to right: $4 + 8 - 4 - 11 = \\mathbf{-3}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(4 + 8 = 12)$ minus sum of negatives $(4 + 11 = 15) = \\mathbf{-3}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $2^2 = 4$, $\\sqrt{8^2} = 8$ तथा $2\\sqrt{4} = 2 \\times 2 = 4$।\n2) गणना: $4 + 8 - 4 - 11 = \\mathbf{-3}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (12) में से ऋणात्मक योग (15) घटाएँ $\\Rightarrow \\mathbf{-3}$।"
     }
   },
   {

@@ -2457,10 +2457,50 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
-      "en": "Correct Answer: Option D (1333). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (1333)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**1333**).",
+      "keyConcept": "Cube Shift Logic: n -> n³ + 2",
+      "optionTrick": {
+        "en": "`12³ + 2 = 1730`, `13³ + 2 = 2199` -> `11³ + 2 = 1331 + 2` = **1333**!",
+        "hi": "`11³ + 2 = 1331 + 2` = **1333** (`12³+2=1730` व `13³+2=2199`)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Identify n³ + 2 Pattern",
+            "hi": "विधि 1: n³ + 2 पैटर्न पहचान"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $12^3 + 2 = 1728 + 2 = 1730$; $13^3 + 2 = 2197 + 2 = 2199$.\n2) So $11^3 + 2 = 1331 + 2 = \\mathbf{1333}$.",
+            "hi": "1) $12^3 + 2 = 1730$ तथा $13^3 + 2 = 2199$।\n2) अतः $11^3 + 2 = 1331 + 2 = \\mathbf{1333}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Memorized Cube +2 (3 sec)",
+            "hi": "विधि 2: 11³ घन स्मृति ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Recall $11^3 = 1331 \\xrightarrow{+2} \\mathbf{1333}$ (unit digit $1 + 2 = 3$).",
+            "hi": "$11^3 = 1331$ में `+2` जोड़ने पर सीधे **1333**।"
+          }
+        }
+      ],
+      "en": "Method 1: Identify n³ + 2 Pattern: 1) $12^3 + 2 = 1728 + 2 = 1730$; $13^3 + 2 = 2197 + 2 = 2199$.\n2) So $11^3 + 2 = 1331 + 2 = \\mathbf{1333}$.\n\nMethod 2: Memorized Cube +2 (3 sec): Recall $11^3 = 1331 \\xrightarrow{+2} \\mathbf{1333}$ (unit digit $1 + 2 = 3$).",
+      "hi": "विधि 1: n³ + 2 पैटर्न पहचान: 1) $12^3 + 2 = 1730$ तथा $13^3 + 2 = 2199$।\n2) अतः $11^3 + 2 = 1331 + 2 = \\mathbf{1333}$।\n\nविधि 2: 11³ घन स्मृति ट्रिक: $11^3 = 1331$ में `+2` जोड़ने पर सीधे **1333**।"
     },
     "correctIndexHi": 3
   },
@@ -3145,10 +3185,50 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
-      "en": "Correct Answer: Option D (12 – 34 – 41 – 50). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (12 – 34 – 41 – 50)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**12 – 34 – 41 – 50**).",
+      "keyConcept": "Operation Sequence: ×3 − 2, then +7, then +9",
+      "optionTrick": {
+        "en": "Check middle differences (`+7`, `+9`): `34 + 7 = 41` and `41 + 9 = 50` AND `12 × 3 − 2 = 34` -> **12 – 34 – 41 – 50**!",
+        "hi": "अंतिम दो अंतर (`+7`, `+9`) केवल **12 – 34 – 41 – 50** और `4 – 14 – 21 – 30` में हैं; `12×3 − 2 = 34` नियम पास करता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Verify Rule on Both Sets",
+            "hi": "विधि 1: दोनों समुच्चयों पर नियम जाँच"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $6 \\xrightarrow{\\times 3 - 2} 16 \\xrightarrow{+7} 23 \\xrightarrow{+9} 32$ and $7 \\xrightarrow{\\times 3 - 2} 19 \\xrightarrow{+7} 26 \\xrightarrow{+9} 35$.\n2) Option D: $12 \\times 3 - 2 = 34 \\xrightarrow{+7} 41 \\xrightarrow{+9} 50$ ✓.",
+            "hi": "1) नियम: $\\times 3 - 2$, फिर $+7$, फिर $+9$।\n2) विकल्प D: $12 \\times 3 - 2 = 34$, $34+7 = 41$, $41+9 = 50$ ✓।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Tail Difference (+7, +9) Filter (5 sec)",
+            "hi": "विधि 2: अंतिम अंतर (+7, +9) फ़िल्टर"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Eliminate options not ending in `+7, +9`; among remaining two, `4×3−2 = 10 ≠ 14`, so **12 – 34 – 41 – 50** wins!",
+            "hi": "अंत में `+7, +9` न वाले विकल्प हटाएँ; बचे दो में `12×3−2 = 34` सही बैठता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Verify Rule on Both Sets: 1) $6 \\xrightarrow{\\times 3 - 2} 16 \\xrightarrow{+7} 23 \\xrightarrow{+9} 32$ and $7 \\xrightarrow{\\times 3 - 2} 19 \\xrightarrow{+7} 26 \\xrightarrow{+9} 35$.\n2) Option D: $12 \\times 3 - 2 = 34 \\xrightarrow{+7} 41 \\xrightarrow{+9} 50$ ✓.\n\nMethod 2: Tail Difference (+7, +9) Filter (5 sec): Eliminate options not ending in `+7, +9`; among remaining two, `4×3−2 = 10 ≠ 14`, so **12 – 34 – 41 – 50** wins!",
+      "hi": "विधि 1: दोनों समुच्चयों पर नियम जाँच: 1) नियम: $\\times 3 - 2$, फिर $+7$, फिर $+9$।\n2) विकल्प D: $12 \\times 3 - 2 = 34$, $34+7 = 41$, $41+9 = 50$ ✓।\n\nविधि 2: अंतिम अंतर (+7, +9) फ़िल्टर: अंत में `+7, +9` न वाले विकल्प हटाएँ; बचे दो में `12×3−2 = 34` सही बैठता है!"
     },
     "correctIndexHi": 3
   },

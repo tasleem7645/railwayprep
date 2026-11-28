@@ -1896,10 +1896,50 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (322431). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (322431)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Mathematical Answer: 232144 (Option D); Official Stored Key marks Option A (322431).",
+      "keyConcept": "Divisibility by 11: |(Sum of Odd Places) − (Sum of Even Places)| = 0 or 11k",
+      "trapAlert": {
+        "en": "Calculation Discrepancy Alert: For 322431 (Option A), `(3+2+3) − (2+4+1) = 8 − 7 = 1 ≠ 0` (`322431 ÷ 11` leaves remainder `10`). **232144** (Option D) gives `(2+2+4) − (3+1+4) = 8 − 8 = 0` (`232144 ÷ 11 = 21,104`).",
+        "hi": "गणितीय त्रुटि सूचना: `322431` (विकल्प A) में एकांतर योग का अंतर `8 − 7 = 1` आता है (अविभाज्य)। वास्तविक 11 से विभाज्य संख्या **232144** (`8 − 8 = 0`, विकल्प D) है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Check All 4 Options by Rule of 11",
+            "hi": "विधि 1: चारों विकल्पों पर 11 का नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) A `322431`: $(3+2+3)-(2+4+1) = 1$ (no).\n2) B `231243`: $(2+1+4)-(3+2+3) = -1$ (no).\n3) C `432321`: $(4+2+2)-(3+3+1) = 1$ (no).\n4) D `232144`: $(2+2+4)-(3+1+4) = 0$ (divisible! Stored key shows Option A: 322431).",
+            "hi": "1) A `322431`: $8 - 7 = 1$ (नहीं)।\n2) B `231243`: $7 - 8 = -1$ (नहीं)।\n3) C `432321`: $8 - 7 = 1$ (नहीं)।\n4) D `232144`: $8 - 8 = \\mathbf{0}$ (11 से पूर्णतः विभाज्य!; संग्रहीत कुंजी A दिखाती है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Pair-Wise Cancellation (6 sec)",
+            "hi": "विधि 2: युग्म-अंतर ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "On `232144`: $(2-3) + (2-1) + (4-4) = -1 + 1 + 0 = 0 \\Rightarrow$ divisible by 11!",
+            "hi": "युग्म अंतर `(2−3)+(2−1)+(4−4) = -1+1+0 = 0` सीधे 11 से विभाज्यता प्रमाणित करता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Check All 4 Options by Rule of 11: 1) A `322431`: $(3+2+3)-(2+4+1) = 1$ (no).\n2) B `231243`: $(2+1+4)-(3+2+3) = -1$ (no).\n3) C `432321`: $(4+2+2)-(3+3+1) = 1$ (no).\n4) D `232144`: $(2+2+4)-(3+1+4) = 0$ (divisible! Stored key shows Option A: 322431).\n\nMethod 2: Pair-Wise Cancellation (6 sec): On `232144`: $(2-3) + (2-1) + (4-4) = -1 + 1 + 0 = 0 \\Rightarrow$ divisible by 11!",
+      "hi": "विधि 1: चारों विकल्पों पर 11 का नियम: 1) A `322431`: $8 - 7 = 1$ (नहीं)।\n2) B `231243`: $7 - 8 = -1$ (नहीं)।\n3) C `432321`: $8 - 7 = 1$ (नहीं)।\n4) D `232144`: $8 - 8 = \\mathbf{0}$ (11 से पूर्णतः विभाज्य!; संग्रहीत कुंजी A दिखाती है)।\n\nविधि 2: युग्म-अंतर ट्रिक: युग्म अंतर `(2−3)+(2−1)+(4−4) = -1+1+0 = 0` सीधे 11 से विभाज्यता प्रमाणित करता है!"
     },
     "correctIndexHi": 0
   },

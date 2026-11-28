@@ -1714,10 +1714,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−103x + 108) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−103x + 108) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**−103x + 108**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($4x^2 - 4x^2 = 0$), check signs directly: $x$ term $= -75 - 28 = -103x$ (negative!) and constant $= +36 + 72 = +108$ (**positive!**). Sign pair `(−, +)` uniquely locks Option B!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-103x$) व अचर पद धनात्मक ($+108$) होना तुरंत `(−, +)` चिह्न वाला विकल्प B पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-4 \\times (-18) = +72$ (NOT $-72$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-4 \\times (-18) = +72$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $4x^2 - 75x + 36$.\n2) Expand second bracket: $-4x^2 - 28x + 72$.\n3) Combine like terms: $(4 - 4)x^2 + (-75 - 28)x + (36 + 72) = \\mathbf{-103x + 108}$.",
+            "hi": "1) पहला कोष्ठक: $4x^2 - 75x + 36$।\n2) दूसरा कोष्ठक: $-4x^2 - 28x + 72$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-103x + 108}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(12) - 4(-18) = 36 + 72 = +108$. Since both $x$ terms are negative ($-75x - 28x$), only `−103x + 108` has `(−x, +108)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +36 + 72 = +108$ व दोनों $x$-पद ऋणात्मक ($-75x - 28x = -103x$) $\\Rightarrow$ तुरंत **−103x + 108**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $4x^2 - 75x + 36$.\n2) Expand second bracket: $-4x^2 - 28x + 72$.\n3) Combine like terms: $(4 - 4)x^2 + (-75 - 28)x + (36 + 72) = \\mathbf{-103x + 108}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(12) - 4(-18) = 36 + 72 = +108$. Since both $x$ terms are negative ($-75x - 28x$), only `−103x + 108` has `(−x, +108)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $4x^2 - 75x + 36$।\n2) दूसरा कोष्ठक: $-4x^2 - 28x + 72$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-103x + 108}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +36 + 72 = +108$ व दोनों $x$-पद ऋणात्मक ($-75x - 28x = -103x$) $\\Rightarrow$ तुरंत **−103x + 108**!"
     }
   },
   {
@@ -1846,10 +1891,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (37) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (37) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**37**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 10$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $7^2 = 49$, $\\sqrt{10^2} = 10$, and $2\\sqrt{64} = 2 \\times 8 = 16$.\n2) Combine left to right: $49 + 10 - 16 - 6 = \\mathbf{37}$.",
+            "hi": "1) $7^2 = 49$, $\\sqrt{10^2} = 10$ तथा $2\\sqrt{64} = 2 \\times 8 = 16$।\n2) गणना: $49 + 10 - 16 - 6 = \\mathbf{37}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(49 + 10 = 59)$ minus sum of negatives $(16 + 6 = 22) = \\mathbf{37}$.",
+            "hi": "धनात्मक योग (59) में से ऋणात्मक योग (22) घटाएँ $\\Rightarrow \\mathbf{37}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $7^2 = 49$, $\\sqrt{10^2} = 10$, and $2\\sqrt{64} = 2 \\times 8 = 16$.\n2) Combine left to right: $49 + 10 - 16 - 6 = \\mathbf{37}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(49 + 10 = 59)$ minus sum of negatives $(16 + 6 = 22) = \\mathbf{37}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $7^2 = 49$, $\\sqrt{10^2} = 10$ तथा $2\\sqrt{64} = 2 \\times 8 = 16$।\n2) गणना: $49 + 10 - 16 - 6 = \\mathbf{37}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (59) में से ऋणात्मक योग (22) घटाएँ $\\Rightarrow \\mathbf{37}$।"
     }
   },
   {
@@ -1912,10 +1997,54 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (11.78) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (11.78) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**11.78**).",
+      "keyConcept": "Decimal Square Root Shift: Half the Decimal Places in Answer",
+      "optionTrick": {
+        "en": "Last decimal place check: 0.18 ends at `8` (2 dec places) and 2.4 has 1 dec places $\\Rightarrow$ answer MUST end in `.78`!",
+        "hi": "दशमलव स्थान नियम: वर्गमूल में दशमलव अंक आधे हो जाते हैं — इसलिए अंत में **.78** अनिवार्य है!"
+      },
+      "trapAlert": {
+        "en": "0.0324 has 4 decimal places -> square root 0.18 MUST have 2 decimal places (e.g. 0.0225 -> 0.15, NOT 0.015!).",
+        "hi": "दशमलव जाल से बचें: 0.0324 में 4 अंक हैं, अतः वर्गमूल 0.18 में ठीक **2** दशमलव स्थान होंगे।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Decimal Digit Pairing Rule",
+            "hi": "विधि 1: दशमलव स्थान युग्म नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $\\sqrt{196} = 14$.\n2) $\\sqrt{0.0324} = 0.18$ (2 decimal places).\n3) $\\sqrt{5.76} = 2.4$ (1 decimal place).\n4) $14 + 0.18 - 2.4 = \\mathbf{11.78}$.",
+            "hi": "1) $\\sqrt{196} = 14$।\n2) $\\sqrt{0.0324} = 0.18$ तथा $\\sqrt{5.76} = 2.4$।\n3) गणना: $14 + 0.18 - 2.4 = \\mathbf{11.78}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Integer-Part + Hundredths Suffix (5 sec)",
+            "hi": "विधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $+0.18$ supplies hundredths digit `8` while integer estimate $\\approx 14 - 2 = 12$ $\\Rightarrow$ **11.78**!",
+            "hi": "अनुमानित मान $\\approx 14 + 0.18 - 2.4$ तथा अंतिम दशमलव अंक `8` सीधे **11.78** तय करता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Decimal Digit Pairing Rule: 1) $\\sqrt{196} = 14$.\n2) $\\sqrt{0.0324} = 0.18$ (2 decimal places).\n3) $\\sqrt{5.76} = 2.4$ (1 decimal place).\n4) $14 + 0.18 - 2.4 = \\mathbf{11.78}$.\n\nMethod 2: Integer-Part + Hundredths Suffix (5 sec): Notice $+0.18$ supplies hundredths digit `8` while integer estimate $\\approx 14 - 2 = 12$ $\\Rightarrow$ **11.78**!",
+      "hi": "विधि 1: दशमलव स्थान युग्म नियम: 1) $\\sqrt{196} = 14$।\n2) $\\sqrt{0.0324} = 0.18$ तथा $\\sqrt{5.76} = 2.4$।\n3) गणना: $14 + 0.18 - 2.4 = \\mathbf{11.78}$।\n\nविधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान: अनुमानित मान $\\approx 14 + 0.18 - 2.4$ तथा अंतिम दशमलव अंक `8` सीधे **11.78** तय करता है!"
     }
   },
   {

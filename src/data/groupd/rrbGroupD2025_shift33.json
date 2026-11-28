@@ -1013,10 +1013,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Divisibility Rules",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (0) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (0) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**0**).",
+      "keyConcept": "Last 4 digits (`7760`) ÷ 16",
+      "optionTrick": {
+        "en": "Last 4 digits (`7760`) ÷ 16: locks A = 0 $\\Rightarrow$ Least value $= \\mathbf{0}$!",
+        "hi": "अंतिम 4 अंक (`7760`) 16 से पूर्णतः विभाज्य हों: सीधे A=0 मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{0}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 16",
+            "hi": "विधि 1: 16 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **16** on `109A7760`: Last 4 digits (`7760`) ÷ 16.\n2) Known digits sum $= 30$. Testing valid digits gives **A = 0** (number `10907760`).",
+            "hi": "1) `109A7760` पर **16** का नियम लागू करें (अंतिम 4 अंक (`7760`) 16 से पूर्णतः विभाज्य हों)।\n2) ज्ञात अंकों का योग $= 30$। वैध अंक जाँच से **A = 0** (`10907760`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first, then cast out multiples of 16 from digits $\\Rightarrow \\mathbf{0}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **0** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 16: 1) Apply divisibility conditions for **16** on `109A7760`: Last 4 digits (`7760`) ÷ 16.\n2) Known digits sum $= 30$. Testing valid digits gives **A = 0** (number `10907760`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first, then cast out multiples of 16 from digits $\\Rightarrow \\mathbf{0}$.",
+      "hi": "विधि 1: 16 का विभाज्यता नियम: 1) `109A7760` पर **16** का नियम लागू करें (अंतिम 4 अंक (`7760`) 16 से पूर्णतः विभाज्य हों)।\n2) ज्ञात अंकों का योग $= 30$। वैध अंक जाँच से **A = 0** (`10907760`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **0** पाएँ!"
     }
   },
   {

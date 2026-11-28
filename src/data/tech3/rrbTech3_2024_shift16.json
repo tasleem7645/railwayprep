@@ -1082,10 +1082,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**12.55**).",
+      "keyConcept": "Multiply All Terms or Evaluate 0.5× = Half",
+      "optionTrick": {
+        "en": "`0.5 × 10.6 = 5.3`; `0.2 × 1.4 = 0.28`; `(5.3 − 0.28) = 5.02`; `5.02 ÷ 0.4 = 50.2 ÷ 4` = **12.55**!",
+        "hi": "`5.3 − 0.28 = 5.02`, फिर `50.2 ÷ 4` = **12.55** (5 के थोड़ा ऊपर × 2.5 ≈ 12.55)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Numerator & Divide by 0.4",
+            "hi": "विधि 1: अंश गणना व 0.4 से भाग"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $0.5 \\times 10.6 = 5.3$ and $0.2 \\times 1.4 = 0.28$.\n2) Numerator $= 5.3 - 0.28 = 5.02$.\n3) Divide: $\\frac{5.02}{0.4} = \\frac{50.2}{4} = \\mathbf{12.55}$.",
+            "hi": "1) $0.5 \\times 10.6 = 5.3$ तथा $0.2 \\times 1.4 = 0.28$।\n2) $\\frac{5.3 - 0.28}{0.4} = \\frac{5.02}{0.4} = \\frac{50.2}{4} = \\mathbf{12.55}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Scale Fraction ×2.5 / Decimal Order (5 sec)",
+            "hi": "विधि 2: दशमलव अनुमान व ×2.5 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Options test decimal scale (`125.5`, `1.255`, `12.55`, `12.25`). Since $5.02 / 0.4 = 5.02 \\times 2.5$: `5 × 2.5 = 12.5` plus `0.02 × 2.5 = 0.05` $= \\mathbf{12.55}$!",
+            "hi": "चार से भाग के स्थान पर `2.5` से गुणा करें: $5.02 \\times 2.5 = (5 \\times 2.5) + (0.02 \\times 2.5) = 12.5 + 0.05 = \\mathbf{12.55}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Numerator & Divide by 0.4: 1) $0.5 \\times 10.6 = 5.3$ and $0.2 \\times 1.4 = 0.28$.\n2) Numerator $= 5.3 - 0.28 = 5.02$.\n3) Divide: $\\frac{5.02}{0.4} = \\frac{50.2}{4} = \\mathbf{12.55}$.\n\nMethod 2: Scale Fraction ×2.5 / Decimal Order (5 sec): Options test decimal scale (`125.5`, `1.255`, `12.55`, `12.25`). Since $5.02 / 0.4 = 5.02 \\times 2.5$: `5 × 2.5 = 12.5` plus `0.02 × 2.5 = 0.05` $= \\mathbf{12.55}$!",
+      "hi": "विधि 1: अंश गणना व 0.4 से भाग: 1) $0.5 \\times 10.6 = 5.3$ तथा $0.2 \\times 1.4 = 0.28$।\n2) $\\frac{5.3 - 0.28}{0.4} = \\frac{5.02}{0.4} = \\frac{50.2}{4} = \\mathbf{12.55}$।\n\nविधि 2: दशमलव अनुमान व ×2.5 ट्रिक: चार से भाग के स्थान पर `2.5` से गुणा करें: $5.02 \\times 2.5 = (5 \\times 2.5) + (0.02 \\times 2.5) = 12.5 + 0.05 = \\mathbf{12.55}$!"
     }
   },
   {
@@ -1440,10 +1480,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**160**).",
+      "keyConcept": "x² + y² = (x + y)² − 2xy (Or Factor 48 = 12 × 4)",
+      "optionTrick": {
+        "en": "`12 × 4 = 48` and `12 + 4 = 16`! Sum of squares `144 + 16` = **160**!",
+        "hi": "युग्म `12` व `4` ($12+4=16$, $12\\times 4=48$): $12^2 + 4^2 = 144 + 16 = \\mathbf{160}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Algebraic Identity",
+            "hi": "विधि 1: सर्वसमिका (x+y)² − 2xy"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x^2 + y^2 = 16^2 - 2(48) = 256 - 96 = \\mathbf{160}$.",
+            "hi": "$x^2 + y^2 = 16^2 - 2(48) = 256 - 96 = \\mathbf{160}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Factor Pair (12, 4) (3 sec)",
+            "hi": "विधि 2: युग्म (12, 4) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Split $48 = 12 \\times 4$ ($12+4=16$): $144 + 16 = \\mathbf{160}$.",
+            "hi": "$12^2 + 4^2 = 144 + 16 = \\mathbf{160}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Algebraic Identity: $x^2 + y^2 = 16^2 - 2(48) = 256 - 96 = \\mathbf{160}$.\n\nMethod 2: Factor Pair (12, 4) (3 sec): Split $48 = 12 \\times 4$ ($12+4=16$): $144 + 16 = \\mathbf{160}$.",
+      "hi": "विधि 1: सर्वसमिका (x+y)² − 2xy: $x^2 + y^2 = 16^2 - 2(48) = 256 - 96 = \\mathbf{160}$।\n\nविधि 2: युग्म (12, 4) ट्रिक: $12^2 + 4^2 = 144 + 16 = \\mathbf{160}$।"
     }
   },
   {

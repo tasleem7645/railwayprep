@@ -1485,10 +1485,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($\\frac{37}{30}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($\\frac{37}{30}$) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**$\\frac{37}{30}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{7}{12}$ and combine outer terms ($\\frac{5}{4} - \\frac{3}{5} = \\frac{13}{20}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{7}{12}$ लिखें व बाहरी भिन्न ($\\frac{5}{4} - \\frac{3}{5} = \\frac{13}{20}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{5}{7} = \\frac{12}{7}$, so reciprocal $= \\frac{7}{12}$.\n2) Expression $= \\frac{5}{4} - \\frac{3}{5} + \\frac{7}{12} = \\frac{13}{20} + \\frac{7}{12} = \\mathbf{\\frac{37}{30}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{5}{7}} = \\frac{7}{12}$।\n2) शेष गणना: $\\frac{13}{20} + \\frac{7}{12} = \\mathbf{\\frac{37}{30}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{5}{4} - \\frac{3}{5}\\right) = \\frac{13}{20}$, then cross-multiply $+ \\frac{7}{12}$ = $\\mathbf{\\frac{37}{30}}$!",
+            "hi": "पहले बाहरी $\\frac{13}{20}$ में $\\frac{7}{12}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{37}{30}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{5}{7} = \\frac{12}{7}$, so reciprocal $= \\frac{7}{12}$.\n2) Expression $= \\frac{5}{4} - \\frac{3}{5} + \\frac{7}{12} = \\frac{13}{20} + \\frac{7}{12} = \\mathbf{\\frac{37}{30}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{5}{4} - \\frac{3}{5}\\right) = \\frac{13}{20}$, then cross-multiply $+ \\frac{7}{12}$ = $\\mathbf{\\frac{37}{30}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{5}{7}} = \\frac{7}{12}$।\n2) शेष गणना: $\\frac{13}{20} + \\frac{7}{12} = \\mathbf{\\frac{37}{30}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{13}{20}$ में $\\frac{7}{12}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{37}{30}}$!"
     }
   },
   {
@@ -1749,10 +1790,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−79x + 92) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−79x + 92) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**−79x + 92**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($4x^2 - 4x^2 = 0$), check signs directly: $x$ term $= -63 - 16 = -79x$ (negative!) and constant $= +36 + 56 = +92$ (**positive!**). Sign pair `(−, +)` uniquely locks Option D!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-79x$) व अचर पद धनात्मक ($+92$) होना तुरंत `(−, +)` चिह्न वाला विकल्प D पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-4 \\times (-14) = +56$ (NOT $-56$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-4 \\times (-14) = +56$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $4x^2 - 63x + 36$.\n2) Expand second bracket: $-4x^2 - 16x + 56$.\n3) Combine like terms: $(4 - 4)x^2 + (-63 - 16)x + (36 + 56) = \\mathbf{-79x + 92}$.",
+            "hi": "1) पहला कोष्ठक: $4x^2 - 63x + 36$।\n2) दूसरा कोष्ठक: $-4x^2 - 16x + 56$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-79x + 92}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(12) - 4(-14) = 36 + 56 = +92$. Since both $x$ terms are negative ($-63x - 16x$), only `−79x + 92` has `(−x, +92)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +36 + 56 = +92$ व दोनों $x$-पद ऋणात्मक ($-63x - 16x = -79x$) $\\Rightarrow$ तुरंत **−79x + 92**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $4x^2 - 63x + 36$.\n2) Expand second bracket: $-4x^2 - 16x + 56$.\n3) Combine like terms: $(4 - 4)x^2 + (-63 - 16)x + (36 + 56) = \\mathbf{-79x + 92}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(12) - 4(-14) = 36 + 56 = +92$. Since both $x$ terms are negative ($-63x - 16x$), only `−79x + 92` has `(−x, +92)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $4x^2 - 63x + 36$।\n2) दूसरा कोष्ठक: $-4x^2 - 16x + 56$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-79x + 92}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +36 + 56 = +92$ व दोनों $x$-पद ऋणात्मक ($-63x - 16x = -79x$) $\\Rightarrow$ तुरंत **−79x + 92**!"
     }
   },
   {
@@ -2013,10 +2099,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (-36) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (-36) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**-36**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 4$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $3^2 = 9$, $\\sqrt{4^2} = 4$, and $5\\sqrt{81} = 5 \\times 9 = 45$.\n2) Combine left to right: $9 + 4 - 45 - 4 = \\mathbf{-36}$.",
+            "hi": "1) $3^2 = 9$, $\\sqrt{4^2} = 4$ तथा $5\\sqrt{81} = 5 \\times 9 = 45$।\n2) गणना: $9 + 4 - 45 - 4 = \\mathbf{-36}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(9 + 4 = 13)$ minus sum of negatives $(45 + 4 = 49) = \\mathbf{-36}$.",
+            "hi": "धनात्मक योग (13) में से ऋणात्मक योग (49) घटाएँ $\\Rightarrow \\mathbf{-36}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $3^2 = 9$, $\\sqrt{4^2} = 4$, and $5\\sqrt{81} = 5 \\times 9 = 45$.\n2) Combine left to right: $9 + 4 - 45 - 4 = \\mathbf{-36}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(9 + 4 = 13)$ minus sum of negatives $(45 + 4 = 49) = \\mathbf{-36}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $3^2 = 9$, $\\sqrt{4^2} = 4$ तथा $5\\sqrt{81} = 5 \\times 9 = 45$।\n2) गणना: $9 + 4 - 45 - 4 = \\mathbf{-36}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (13) में से ऋणात्मक योग (49) घटाएँ $\\Rightarrow \\mathbf{-36}$।"
     }
   },
   {

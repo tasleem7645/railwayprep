@@ -1749,10 +1749,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−114x + 120) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−114x + 120) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**−114x + 120**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($5x^2 - 5x^2 = 0$), check signs directly: $x$ term $= -84 - 30 = -114x$ (negative!) and constant $= +45 + 75 = +120$ (**positive!**). Sign pair `(−, +)` uniquely locks Option D!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-114x$) व अचर पद धनात्मक ($+120$) होना तुरंत `(−, +)` चिह्न वाला विकल्प D पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-5 \\times (-15) = +75$ (NOT $-75$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-5 \\times (-15) = +75$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $5x^2 - 84x + 45$.\n2) Expand second bracket: $-5x^2 - 30x + 75$.\n3) Combine like terms: $(5 - 5)x^2 + (-84 - 30)x + (45 + 75) = \\mathbf{-114x + 120}$.",
+            "hi": "1) पहला कोष्ठक: $5x^2 - 84x + 45$।\n2) दूसरा कोष्ठक: $-5x^2 - 30x + 75$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-114x + 120}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(15) - 5(-15) = 45 + 75 = +120$. Since both $x$ terms are negative ($-84x - 30x$), only `−114x + 120` has `(−x, +120)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +45 + 75 = +120$ व दोनों $x$-पद ऋणात्मक ($-84x - 30x = -114x$) $\\Rightarrow$ तुरंत **−114x + 120**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $5x^2 - 84x + 45$.\n2) Expand second bracket: $-5x^2 - 30x + 75$.\n3) Combine like terms: $(5 - 5)x^2 + (-84 - 30)x + (45 + 75) = \\mathbf{-114x + 120}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(15) - 5(-15) = 45 + 75 = +120$. Since both $x$ terms are negative ($-84x - 30x$), only `−114x + 120` has `(−x, +120)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $5x^2 - 84x + 45$।\n2) दूसरा कोष्ठक: $-5x^2 - 30x + 75$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-114x + 120}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +45 + 75 = +120$ व दोनों $x$-पद ऋणात्मक ($-84x - 30x = -114x$) $\\Rightarrow$ तुरंत **−114x + 120**!"
     }
   },
   {
@@ -1980,10 +2025,55 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (57−43) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (57−43) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**57−43**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-8 - (17) + (-18) = -43 \\Rightarrow \\mathbf{57^{-43}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-8 - (17) + (-18) = -43 \\Rightarrow \\mathbf{57^{-43}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $57^{-8 - (17)} = 57^{-25}$.\n2) Combine third term: $57^{-25 + (-18)} = \\mathbf{57^{-43}}$.",
+            "hi": "1) पहले दो पद: $57^{-8 - (17)} = 57^{-25}$।\n2) तीसरा पद जोड़ने पर: $57^{-25 + (-18)} = \\mathbf{57^{-43}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 57: $-8 - (17) + (-18) = -43 \\Rightarrow \\mathbf{57^{-43}}$.",
+            "hi": "आधार 57 की सभी घातें एक पंक्ति में हल करें: $-8 - (17) + (-18) = -43 \\Rightarrow \\mathbf{57^{-43}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $57^{-8 - (17)} = 57^{-25}$.\n2) Combine third term: $57^{-25 + (-18)} = \\mathbf{57^{-43}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 57: $-8 - (17) + (-18) = -43 \\Rightarrow \\mathbf{57^{-43}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $57^{-8 - (17)} = 57^{-25}$।\n2) तीसरा पद जोड़ने पर: $57^{-25 + (-18)} = \\mathbf{57^{-43}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 57 की सभी घातें एक पंक्ति में हल करें: $-8 - (17) + (-18) = -43 \\Rightarrow \\mathbf{57^{-43}}$।"
     }
   },
   {
@@ -2290,10 +2380,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (45) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (45) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**45**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `5`; test which option × `5` ends in `5` -> **45**!",
+        "hi": "इकाई अंक नियम: $(5 \\times 495)$ का इकाई अंक `5` है; विकल्प × `5` करने पर `5` केवल **45** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{5 \\times 495}{55} = \\mathbf{45}$.",
+            "hi": "दूसरी संख्या $= \\frac{5 \\times 495}{55} = \\mathbf{45}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 11$ directly: $\\frac{495}{11} = \\mathbf{45}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 55/5 = 11$ निकालें, फिर $\\frac{495}{11} = \\mathbf{45}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{5 \\times 495}{55} = \\mathbf{45}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 11$ directly: $\\frac{495}{11} = \\mathbf{45}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{5 \\times 495}{55} = \\mathbf{45}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 55/5 = 11$ निकालें, फिर $\\frac{495}{11} = \\mathbf{45}$!"
     }
   },
   {

@@ -1427,10 +1427,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Bracket Simplification",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {
@@ -1706,10 +1747,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Standard Angle Values",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {
@@ -1740,10 +1822,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Surds",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {

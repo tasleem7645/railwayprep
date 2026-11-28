@@ -1389,10 +1389,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (10) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (10) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**10**).",
+      "keyConcept": "6 = 2 × 3: Even Last Digit + Minimum Digit Sum Multiple of 3",
+      "optionTrick": {
+        "en": "Last digit is `8` (always even). Sum `28 + K` -> least $K = 2 \\Rightarrow 3(2^2) - 2 = \\mathbf{10}$!",
+        "hi": "अंतिम अंक `8` (सम) है। योग `28 + K` को 3 से काटने हेतु न्यूनतम $K = 2 \\Rightarrow 3(4) - 2 = \\mathbf{10}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Rule of 6",
+            "hi": "विधि 1: 6 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Since last digit is 8 (even), number is always divisible by 2.\n2) Sum of digits $= 7 + K + 8 + 5 + 0 + 8 = 28 + K$. Least $K \\ge 0$ for multiple of 3 is $K = 2$ (30).\n3) Substitute $K = 2$: $3(2^2) - 2 = 12 - 2 = \\mathbf{10}$.",
+            "hi": "1) अंतिम अंक `8` (सम) होने से 2 से विभाज्य।\n2) अंकों का योग $= 28 + K$; 3 से काटने को न्यूनतम $K = 2$ (योग 30)।\n3) $3K^2 - 2 = 3(2)^2 - 2 = \\mathbf{10}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out-3s Shortcut (5 sec)",
+            "hi": "विधि 2: 3 के गुणज काटकर न्यूनतम K"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Pair multiples of 3 (`7+8=15`, `5+8=13 -> 1`): remainder $= 1 + K \\Rightarrow K = 2 \\Rightarrow 3(4)-2 = \\mathbf{10}$.",
+            "hi": "अंकों से 3 के जोड़े हटाएँ (`7+8=15` कटा, `5+8=13` का शेष `1`): `1 + K` को 3 बनाने $K=2 \\Rightarrow \\mathbf{10}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Rule of 6: 1) Since last digit is 8 (even), number is always divisible by 2.\n2) Sum of digits $= 7 + K + 8 + 5 + 0 + 8 = 28 + K$. Least $K \\ge 0$ for multiple of 3 is $K = 2$ (30).\n3) Substitute $K = 2$: $3(2^2) - 2 = 12 - 2 = \\mathbf{10}$.\n\nMethod 2: Cast-Out-3s Shortcut (5 sec): Pair multiples of 3 (`7+8=15`, `5+8=13 -> 1`): remainder $= 1 + K \\Rightarrow K = 2 \\Rightarrow 3(4)-2 = \\mathbf{10}$.",
+      "hi": "विधि 1: 6 का विभाज्यता नियम: 1) अंतिम अंक `8` (सम) होने से 2 से विभाज्य।\n2) अंकों का योग $= 28 + K$; 3 से काटने को न्यूनतम $K = 2$ (योग 30)।\n3) $3K^2 - 2 = 3(2)^2 - 2 = \\mathbf{10}$।\n\nविधि 2: 3 के गुणज काटकर न्यूनतम K: अंकों से 3 के जोड़े हटाएँ (`7+8=15` कटा, `5+8=13` का शेष `1`): `1 + K` को 3 बनाने $K=2 \\Rightarrow \\mathbf{10}$!"
     }
   },
   {
@@ -1423,10 +1463,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (1) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (1) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**1**).",
+      "keyConcept": "Digit sum ÷ 3",
+      "optionTrick": {
+        "en": "Digit sum ÷ 3: locks (0, 1) $\\Rightarrow$ Least value $= \\mathbf{1}$!",
+        "hi": "अंकों का योग 3 से कटे: सीधे (A=0, B=1) मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{1}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 3",
+            "hi": "विधि 1: 3 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **3** on `36A836B`: Digit sum ÷ 3.\n2) Known digits sum $= 26$. Testing valid digits gives **A = 0, B = 1 ⇒ A + B = 1** (number `3608361`).",
+            "hi": "1) `36A836B` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 26$। वैध अंक जाँच से **A = 0, B = 1 ⇒ A + B = 1** (`3608361`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first (for min sum, pick smallest valid $B=1$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{1}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 1$), फिर शेषफल शून्य बनाकर तुरंत **1** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 3: 1) Apply divisibility conditions for **3** on `36A836B`: Digit sum ÷ 3.\n2) Known digits sum $= 26$. Testing valid digits gives **A = 0, B = 1 ⇒ A + B = 1** (number `3608361`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first (for min sum, pick smallest valid $B=1$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{1}$.",
+      "hi": "विधि 1: 3 का विभाज्यता नियम: 1) `36A836B` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 26$। वैध अंक जाँच से **A = 0, B = 1 ⇒ A + B = 1** (`3608361`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 1$), फिर शेषफल शून्य बनाकर तुरंत **1** पाएँ!"
     }
   },
   {
@@ -1729,10 +1809,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Simple Mean",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {

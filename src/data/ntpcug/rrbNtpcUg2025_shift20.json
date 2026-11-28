@@ -1683,10 +1683,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (3) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**3**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 3",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **3**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **3** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 3)",
+            "hi": "विधि 1: 3 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 476643 by **3** yields quotient **158881** with remainder **0**.\n2) Eliminating others: 2 (rem 1), 8 (rem 3), 4 (rem 3) — none divides evenly.",
+            "hi": "1) 476643 को **3** से भाग देने पर सटीक भागफल **158881** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 2 (rem 1), 8 (rem 3), 4 (rem 3) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 3",
+            "hi": "विधि 2: 3 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum of digits $= 4+7+6+6+4+3$ $= 30$ (or cast out 3s/6s/9s: remainder $= 0$). Divisible by 3!",
+            "hi": "अंकों का योग $= 4+7+6+6+4+3 = 30$ है (3 के गुणज काटने पर शेषफल 0) $\\Rightarrow$ 3 से पूर्णतः विभाज्य!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 3): 1) Dividing 476643 by **3** yields quotient **158881** with remainder **0**.\n2) Eliminating others: 2 (rem 1), 8 (rem 3), 4 (rem 3) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 3: Sum of digits $= 4+7+6+6+4+3$ $= 30$ (or cast out 3s/6s/9s: remainder $= 0$). Divisible by 3!",
+      "hi": "विधि 1: 3 से प्रत्यक्ष विभाजन सत्यापन: 1) 476643 को **3** से भाग देने पर सटीक भागफल **158881** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 2 (rem 1), 8 (rem 3), 4 (rem 3) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 3 का स्मार्ट विभाज्यता नियम: अंकों का योग $= 4+7+6+6+4+3 = 30$ है (3 के गुणज काटने पर शेषफल 0) $\\Rightarrow$ 3 से पूर्णतः विभाज्य!"
     }
   },
   {
@@ -1782,10 +1822,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (−131x + 148) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (−131x + 148) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**−131x + 148**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($7x^2 - 7x^2 = 0$), check signs directly: $x$ term $= -75 - 56 = -131x$ (negative!) and constant $= +36 + 112 = +148$ (**positive!**). Sign pair `(−, +)` uniquely locks Option C!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-131x$) व अचर पद धनात्मक ($+148$) होना तुरंत `(−, +)` चिह्न वाला विकल्प C पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-7 \\times (-16) = +112$ (NOT $-112$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-7 \\times (-16) = +112$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $7x^2 - 75x + 36$.\n2) Expand second bracket: $-7x^2 - 56x + 112$.\n3) Combine like terms: $(7 - 7)x^2 + (-75 - 56)x + (36 + 112) = \\mathbf{-131x + 148}$.",
+            "hi": "1) पहला कोष्ठक: $7x^2 - 75x + 36$।\n2) दूसरा कोष्ठक: $-7x^2 - 56x + 112$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-131x + 148}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(12) - 7(-16) = 36 + 112 = +148$. Since both $x$ terms are negative ($-75x - 56x$), only `−131x + 148` has `(−x, +148)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +36 + 112 = +148$ व दोनों $x$-पद ऋणात्मक ($-75x - 56x = -131x$) $\\Rightarrow$ तुरंत **−131x + 148**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $7x^2 - 75x + 36$.\n2) Expand second bracket: $-7x^2 - 56x + 112$.\n3) Combine like terms: $(7 - 7)x^2 + (-75 - 56)x + (36 + 112) = \\mathbf{-131x + 148}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(12) - 7(-16) = 36 + 112 = +148$. Since both $x$ terms are negative ($-75x - 56x$), only `−131x + 148` has `(−x, +148)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $7x^2 - 75x + 36$।\n2) दूसरा कोष्ठक: $-7x^2 - 56x + 112$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-131x + 148}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +36 + 112 = +148$ व दोनों $x$-पद ऋणात्मक ($-75x - 56x = -131x$) $\\Rightarrow$ तुरंत **−131x + 148**!"
     }
   },
   {
@@ -1815,10 +1900,55 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (55−19) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (55−19) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**55−19**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-6 - (5) + (-8) = -19 \\Rightarrow \\mathbf{55^{-19}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-6 - (5) + (-8) = -19 \\Rightarrow \\mathbf{55^{-19}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $55^{-6 - (5)} = 55^{-11}$.\n2) Combine third term: $55^{-11 + (-8)} = \\mathbf{55^{-19}}$.",
+            "hi": "1) पहले दो पद: $55^{-6 - (5)} = 55^{-11}$।\n2) तीसरा पद जोड़ने पर: $55^{-11 + (-8)} = \\mathbf{55^{-19}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 55: $-6 - (5) + (-8) = -19 \\Rightarrow \\mathbf{55^{-19}}$.",
+            "hi": "आधार 55 की सभी घातें एक पंक्ति में हल करें: $-6 - (5) + (-8) = -19 \\Rightarrow \\mathbf{55^{-19}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $55^{-6 - (5)} = 55^{-11}$.\n2) Combine third term: $55^{-11 + (-8)} = \\mathbf{55^{-19}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 55: $-6 - (5) + (-8) = -19 \\Rightarrow \\mathbf{55^{-19}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $55^{-6 - (5)} = 55^{-11}$।\n2) तीसरा पद जोड़ने पर: $55^{-11 + (-8)} = \\mathbf{55^{-19}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 55 की सभी घातें एक पंक्ति में हल करें: $-6 - (5) + (-8) = -19 \\Rightarrow \\mathbf{55^{-19}}$।"
     }
   },
   {

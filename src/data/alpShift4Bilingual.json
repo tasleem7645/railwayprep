@@ -2309,10 +2309,50 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option B (1). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (1)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**1**).",
+      "keyConcept": "Last 2 digits (`2B`) ÷ 4✓ (min B=0) + Sum ÷ 3✓",
+      "optionTrick": {
+        "en": "Last 2 digits (`2B`) ÷ 4✓ (min B=0) + Sum ÷ 3✓: locks (1, 0) $\\Rightarrow$ Least value $= \\mathbf{1}$!",
+        "hi": "अंतिम 2 अंक (`2B`) 4 से कटें + अंक योग 3 से कटे: सीधे (A=1, B=0) मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{1}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 12",
+            "hi": "विधि 1: 12 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **12** on `49A952B`: Last 2 digits (`2B`) ÷ 4✓ (min B=0) + Sum ÷ 3✓.\n2) Known digits sum $= 29$. Testing valid digits gives **A = 1, B = 0 ⇒ A + B = 1** (number `4919520`).",
+            "hi": "1) `49A952B` पर **12** का नियम लागू करें (अंतिम 2 अंक (`2B`) 4 से कटें + अंक योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 29$। वैध अंक जाँच से **A = 1, B = 0 ⇒ A + B = 1** (`4919520`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first (for min sum, pick smallest valid $B=0$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{1}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 0$), फिर शेषफल शून्य बनाकर तुरंत **1** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 12: 1) Apply divisibility conditions for **12** on `49A952B`: Last 2 digits (`2B`) ÷ 4✓ (min B=0) + Sum ÷ 3✓.\n2) Known digits sum $= 29$. Testing valid digits gives **A = 1, B = 0 ⇒ A + B = 1** (number `4919520`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first (for min sum, pick smallest valid $B=0$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{1}$.",
+      "hi": "विधि 1: 12 का विभाज्यता नियम: 1) `49A952B` पर **12** का नियम लागू करें (अंतिम 2 अंक (`2B`) 4 से कटें + अंक योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 29$। वैध अंक जाँच से **A = 1, B = 0 ⇒ A + B = 1** (`4919520`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 0$), फिर शेषफल शून्य बनाकर तुरंत **1** पाएँ!"
     },
     "correctIndexHi": 1
   },

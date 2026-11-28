@@ -92,10 +92,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**32**).",
+      "keyConcept": "Exponent Quotient Law: 36² ÷ 9² = (36 / 9)² = 4²",
+      "optionTrick": {
+        "en": "Never compute `36² = 1296`! Use `(36 ÷ 9)² + 4² = 4² + 4² = 16 + 16` = **32**!",
+        "hi": "`36²` निकालने की आवश्यकता नहीं! सीधे `(36 ÷ 9)² + 4² = 4² + 4² = 16 + 16` = **32**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Group Equal Exponent (a/b)²",
+            "hi": "विधि 1: समान घात (36/9)² नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$\\left(\\frac{36}{9}\\right)^2 + 4^2 = 4^2 + 4^2 = 16 + 16 = \\mathbf{32}$.",
+            "hi": "$(\\frac{36}{9})^2 + 4^2 = 16 + 16 = \\mathbf{32}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Squaring (36÷9)²×2 (2 sec)",
+            "hi": "विधि 2: 2 × 4² मानसिक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$2 \\times 4^2 = 2 \\times 16 = \\mathbf{32}$.",
+            "hi": "$2 \\times 16 = \\mathbf{32}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Group Equal Exponent (a/b)²: $\\left(\\frac{36}{9}\\right)^2 + 4^2 = 4^2 + 4^2 = 16 + 16 = \\mathbf{32}$.\n\nMethod 2: Zero-Squaring (36÷9)²×2 (2 sec): $2 \\times 4^2 = 2 \\times 16 = \\mathbf{32}$.",
+      "hi": "विधि 1: समान घात (36/9)² नियम: $(\\frac{36}{9})^2 + 4^2 = 16 + 16 = \\mathbf{32}$।\n\nविधि 2: 2 × 4² मानसिक ट्रिक: $2 \\times 16 = \\mathbf{32}$।"
     }
   },
   {
@@ -2312,10 +2352,54 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**16**).",
+      "keyConcept": "Factor Cancel 15 × 5 = 75 Against ÷ 75!",
+      "optionTrick": {
+        "en": "`15 × 5 = 75` cancels `÷ 75` completely! Only `32 ÷ 2` = **16** remains!",
+        "hi": "भीतर `15 × 5 = 75` बाहर के `÷ 75` से पूरा कट जाता है — केवल `32 ÷ 2` = **16** बचता है!"
+      },
+      "trapAlert": {
+        "en": "Strictly go Left-to-Right inside `{15 × 32 ÷ 2 × 5}`: `÷ 2` applies ONLY to `32` (so `5` multiplies in numerator, NOT denominator `2×5`!).",
+        "hi": "सावधान: `32 ÷ 2 × 5` को `32 ÷ (2×5)` न समझें — बाएँ से दाएँ `÷ 2` के बाद `× 5` अंश में ही रहेगा!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Left-to-Right BODMAS",
+            "hi": "विधि 1: बाएँ से दाएँ BODMAS हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Inside brace left-to-right: $15 \\times 16 \\times 5 = 1200$.\n2) Divide by 75: $1200 \\div 75 = \\mathbf{16}$.",
+            "hi": "1) कोष्ठक मान $= 15 \\times 16 \\times 5 = 1200$।\n2) $1200 \\div 75 = \\mathbf{16}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel 15×5 = 75 Immediately (3 sec)",
+            "hi": "विधि 2: 15×5 = 75 काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$\\frac{15 \\times (32/2) \\times 5}{75} = \\frac{75 \\times 16}{75} = \\mathbf{16}$!",
+            "hi": "$\\frac{15 \\times 5 \\times 16}{75} = \\mathbf{16}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Left-to-Right BODMAS: 1) Inside brace left-to-right: $15 \\times 16 \\times 5 = 1200$.\n2) Divide by 75: $1200 \\div 75 = \\mathbf{16}$.\n\nMethod 2: Cancel 15×5 = 75 Immediately (3 sec): $\\frac{15 \\times (32/2) \\times 5}{75} = \\frac{75 \\times 16}{75} = \\mathbf{16}$!",
+      "hi": "विधि 1: बाएँ से दाएँ BODMAS हल: 1) कोष्ठक मान $= 15 \\times 16 \\times 5 = 1200$।\n2) $1200 \\div 75 = \\mathbf{16}$।\n\nविधि 2: 15×5 = 75 काट ट्रिक: $\\frac{15 \\times 5 \\times 16}{75} = \\mathbf{16}$!"
     }
   },
   {

@@ -1386,10 +1386,55 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (−98x + 111) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (−98x + 111) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**−98x + 111**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($7x^2 - 7x^2 = 0$), check signs directly: $x$ term $= -56 - 42 = -98x$ (negative!) and constant $= +34 + 77 = +111$ (**positive!**). Sign pair `(−, +)` uniquely locks Option A!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-98x$) व अचर पद धनात्मक ($+111$) होना तुरंत `(−, +)` चिह्न वाला विकल्प A पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-7 \\times (-11) = +77$ (NOT $-77$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-7 \\times (-11) = +77$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $7x^2 - 56x + 34$.\n2) Expand second bracket: $-7x^2 - 42x + 77$.\n3) Combine like terms: $(7 - 7)x^2 + (-56 - 42)x + (34 + 77) = \\mathbf{-98x + 111}$.",
+            "hi": "1) पहला कोष्ठक: $7x^2 - 56x + 34$।\n2) दूसरा कोष्ठक: $-7x^2 - 42x + 77$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-98x + 111}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $2(17) - 7(-11) = 34 + 77 = +111$. Since both $x$ terms are negative ($-56x - 42x$), only `−98x + 111` has `(−x, +111)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +34 + 77 = +111$ व दोनों $x$-पद ऋणात्मक ($-56x - 42x = -98x$) $\\Rightarrow$ तुरंत **−98x + 111**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $7x^2 - 56x + 34$.\n2) Expand second bracket: $-7x^2 - 42x + 77$.\n3) Combine like terms: $(7 - 7)x^2 + (-56 - 42)x + (34 + 77) = \\mathbf{-98x + 111}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $2(17) - 7(-11) = 34 + 77 = +111$. Since both $x$ terms are negative ($-56x - 42x$), only `−98x + 111` has `(−x, +111)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $7x^2 - 56x + 34$।\n2) दूसरा कोष्ठक: $-7x^2 - 42x + 77$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-98x + 111}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +34 + 77 = +111$ व दोनों $x$-पद ऋणात्मक ($-56x - 42x = -98x$) $\\Rightarrow$ तुरंत **−98x + 111**!"
     }
   },
   {
@@ -2109,10 +2154,52 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (30) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (30) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**30**).",
+      "keyConcept": "Middle Number Identity: (m−1)² + (m+1)² = 2(m² + 1) => Sum = 2m",
+      "optionTrick": {
+        "en": "Take $\\sqrt{(S/2) - 1} = \\sqrt{226 - 1} = \\sqrt{225} = 15$, then double it: $2 \\times 15 = \\mathbf{30}$!",
+        "hi": "सीधा सूत्र: मध्य संख्या $m = \\sqrt{\\frac{452}{2} - 1} = \\sqrt{225} = 15$, अतः योग $= 2m = \\mathbf{30}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation Method",
+            "hi": "विधि 1: द्विघात समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$n^2 + (n + 2)^2 = S$",
+          "steps": {
+            "en": "1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 452 \\Rightarrow n^2 + 2n = 224 \\Rightarrow n(n+2) = 14 \\times 16$.\n3) Numbers $= 14$ & 16; Sum $= 14 + 16 = \\mathbf{30}$.",
+            "hi": "1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 452$।\n2) हल करने पर संख्याएँ $= 14$ व 16 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 14 + 16 = \\mathbf{30}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Mid-Number √(S/2 − 1) Shortcut (6 sec)",
+            "hi": "विधि 2: मध्य संख्या √(S/2 − 1) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$m = \\sqrt{\\frac{S}{2} - 1},\\; \\text{Sum} = 2m$",
+          "steps": {
+            "en": "Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 452 \\Rightarrow m^2 = 226 - 1 = 225 \\Rightarrow m = 15 \\Rightarrow \\text{Sum} = 2(15) = \\mathbf{30}$.",
+            "hi": "संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 452 \\Rightarrow m^2 = 225 \\Rightarrow m = 15$। अतः योग $= 2 \\times 15 = \\mathbf{30}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation Method: 1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 452 \\Rightarrow n^2 + 2n = 224 \\Rightarrow n(n+2) = 14 \\times 16$.\n3) Numbers $= 14$ & 16; Sum $= 14 + 16 = \\mathbf{30}$.\n\nMethod 2: Mid-Number √(S/2 − 1) Shortcut (6 sec): Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 452 \\Rightarrow m^2 = 226 - 1 = 225 \\Rightarrow m = 15 \\Rightarrow \\text{Sum} = 2(15) = \\mathbf{30}$.",
+      "hi": "विधि 1: द्विघात समीकरण विधि: 1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 452$।\n2) हल करने पर संख्याएँ $= 14$ व 16 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 14 + 16 = \\mathbf{30}$।\n\nविधि 2: मध्य संख्या √(S/2 − 1) ट्रिक: संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 452 \\Rightarrow m^2 = 225 \\Rightarrow m = 15$। अतः योग $= 2 \\times 15 = \\mathbf{30}$!"
     }
   },
   {

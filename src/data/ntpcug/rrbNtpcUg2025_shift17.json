@@ -2405,10 +2405,52 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (74) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (74) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**74**).",
+      "keyConcept": "Middle Number Identity: (m−1)² + (m+1)² = 2(m² + 1) => Sum = 2m",
+      "optionTrick": {
+        "en": "Take $\\sqrt{(S/2) - 1} = \\sqrt{1370 - 1} = \\sqrt{1369} = 37$, then double it: $2 \\times 37 = \\mathbf{74}$!",
+        "hi": "सीधा सूत्र: मध्य संख्या $m = \\sqrt{\\frac{2740}{2} - 1} = \\sqrt{1369} = 37$, अतः योग $= 2m = \\mathbf{74}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation Method",
+            "hi": "विधि 1: द्विघात समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$n^2 + (n + 2)^2 = S$",
+          "steps": {
+            "en": "1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 2740 \\Rightarrow n^2 + 2n = 1368 \\Rightarrow n(n+2) = 36 \\times 38$.\n3) Numbers $= 36$ & 38; Sum $= 36 + 38 = \\mathbf{74}$.",
+            "hi": "1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 2740$।\n2) हल करने पर संख्याएँ $= 36$ व 38 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 36 + 38 = \\mathbf{74}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Mid-Number √(S/2 − 1) Shortcut (6 sec)",
+            "hi": "विधि 2: मध्य संख्या √(S/2 − 1) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$m = \\sqrt{\\frac{S}{2} - 1},\\; \\text{Sum} = 2m$",
+          "steps": {
+            "en": "Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 2740 \\Rightarrow m^2 = 1370 - 1 = 1369 \\Rightarrow m = 37 \\Rightarrow \\text{Sum} = 2(37) = \\mathbf{74}$.",
+            "hi": "संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 2740 \\Rightarrow m^2 = 1369 \\Rightarrow m = 37$। अतः योग $= 2 \\times 37 = \\mathbf{74}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation Method: 1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 2740 \\Rightarrow n^2 + 2n = 1368 \\Rightarrow n(n+2) = 36 \\times 38$.\n3) Numbers $= 36$ & 38; Sum $= 36 + 38 = \\mathbf{74}$.\n\nMethod 2: Mid-Number √(S/2 − 1) Shortcut (6 sec): Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 2740 \\Rightarrow m^2 = 1370 - 1 = 1369 \\Rightarrow m = 37 \\Rightarrow \\text{Sum} = 2(37) = \\mathbf{74}$.",
+      "hi": "विधि 1: द्विघात समीकरण विधि: 1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 2740$।\n2) हल करने पर संख्याएँ $= 36$ व 38 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 36 + 38 = \\mathbf{74}$।\n\nविधि 2: मध्य संख्या √(S/2 − 1) ट्रिक: संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 2740 \\Rightarrow m^2 = 1369 \\Rightarrow m = 37$। अतः योग $= 2 \\times 37 = \\mathbf{74}$!"
     }
   },
   {
@@ -2471,10 +2513,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (97) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (97) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 97",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **97**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **97** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 97)",
+            "hi": "विधि 1: 97 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 769501 by **97** yields quotient **7933** with remainder **0**.\n2) Eliminating others: 96 (rem 61), 90 (rem 1), 105 (rem 61) — none divides evenly.",
+            "hi": "1) 769501 को **97** से भाग देने पर सटीक भागफल **7933** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 96 (rem 61), 90 (rem 1), 105 (rem 61) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 97",
+            "hi": "विधि 2: 97 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Option test or prime division on last/whole block confirms 769501 = 97 × 7933 (zero remainder!).",
+            "hi": "विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 769501 = 97 × 7933 (शेषफल 0) सत्यापित होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 97): 1) Dividing 769501 by **97** yields quotient **7933** with remainder **0**.\n2) Eliminating others: 96 (rem 61), 90 (rem 1), 105 (rem 61) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 97: Option test or prime division on last/whole block confirms 769501 = 97 × 7933 (zero remainder!).",
+      "hi": "विधि 1: 97 से प्रत्यक्ष विभाजन सत्यापन: 1) 769501 को **97** से भाग देने पर सटीक भागफल **7933** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 96 (rem 61), 90 (rem 1), 105 (rem 61) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 97 का स्मार्ट विभाज्यता नियम: विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 769501 = 97 × 7933 (शेषफल 0) सत्यापित होता है!"
     }
   },
   {

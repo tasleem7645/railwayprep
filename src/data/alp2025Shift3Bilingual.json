@@ -1637,10 +1637,50 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
-      "en": "Correct Answer: Option C (6). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (6)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**6**).",
+      "keyConcept": "HCF Cannot Exceed Smallest Number or Difference Between Two Numbers",
+      "optionTrick": {
+        "en": "`36 − 24 = 12`, test `12` on `102`: `102 ÷ 12` fails, next factor of 12 is **6** (`102 = 6×17`) ✓!",
+        "hi": "`36 − 24 = 12`; `12` से `102` नहीं कटता, अतः अगला गुणनखंड **6** (`6×17 = 102`) पक्का म.स. है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Prime Factorization",
+            "hi": "विधि 1: अभाज्य गुणनखंड विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$24 = 2^3 \\times 3$, $36 = 2^2 \\times 3^2$, $102 = 2 \\times 3 \\times 17 \\Rightarrow \\text{HCF} = 2^1 \\times 3^1 = \\mathbf{6}$.",
+            "hi": "$24 = 2^3 \\times 3$, $36 = 2^2 \\times 3^2$, $102 = 2 \\times 3 \\times 17 \\Rightarrow \\text{म.स.} = 2 \\times 3 = \\mathbf{6}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Difference Method + Largest Option Check (4 sec)",
+            "hi": "विधि 2: अंतर विधि व बड़ा विकल्प जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Smallest difference $36 - 24 = 12$. Factors of 12 in options: `12` fails (`102 ÷ 12`), **6** divides 24, 36, 102 cleanly!",
+            "hi": "अंतर $36 - 24 = 12$; `12` से `102` विभाज्य नहीं, अतः **6** सही उत्तर है!"
+          }
+        }
+      ],
+      "en": "Method 1: Prime Factorization: $24 = 2^3 \\times 3$, $36 = 2^2 \\times 3^2$, $102 = 2 \\times 3 \\times 17 \\Rightarrow \\text{HCF} = 2^1 \\times 3^1 = \\mathbf{6}$.\n\nMethod 2: Difference Method + Largest Option Check (4 sec): Smallest difference $36 - 24 = 12$. Factors of 12 in options: `12` fails (`102 ÷ 12`), **6** divides 24, 36, 102 cleanly!",
+      "hi": "विधि 1: अभाज्य गुणनखंड विधि: $24 = 2^3 \\times 3$, $36 = 2^2 \\times 3^2$, $102 = 2 \\times 3 \\times 17 \\Rightarrow \\text{म.स.} = 2 \\times 3 = \\mathbf{6}$।\n\nविधि 2: अंतर विधि व बड़ा विकल्प जाँच: अंतर $36 - 24 = 12$; `12` से `102` विभाज्य नहीं, अतः **6** सही उत्तर है!"
     },
     "correctIndexHi": 2
   },

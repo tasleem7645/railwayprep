@@ -1419,10 +1419,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{153}{220}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{153}{220}$) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**$\\frac{153}{220}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{6}{11}$ and combine outer terms ($\\frac{3}{4} - \\frac{3}{5} = \\frac{3}{20}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{6}{11}$ लिखें व बाहरी भिन्न ($\\frac{3}{4} - \\frac{3}{5} = \\frac{3}{20}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{5}{6} = \\frac{11}{6}$, so reciprocal $= \\frac{6}{11}$.\n2) Expression $= \\frac{3}{4} - \\frac{3}{5} + \\frac{6}{11} = \\frac{3}{20} + \\frac{6}{11} = \\mathbf{\\frac{153}{220}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{5}{6}} = \\frac{6}{11}$।\n2) शेष गणना: $\\frac{3}{20} + \\frac{6}{11} = \\mathbf{\\frac{153}{220}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{3}{4} - \\frac{3}{5}\\right) = \\frac{3}{20}$, then cross-multiply $+ \\frac{6}{11}$ = $\\mathbf{\\frac{153}{220}}$!",
+            "hi": "पहले बाहरी $\\frac{3}{20}$ में $\\frac{6}{11}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{153}{220}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{5}{6} = \\frac{11}{6}$, so reciprocal $= \\frac{6}{11}$.\n2) Expression $= \\frac{3}{4} - \\frac{3}{5} + \\frac{6}{11} = \\frac{3}{20} + \\frac{6}{11} = \\mathbf{\\frac{153}{220}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{3}{4} - \\frac{3}{5}\\right) = \\frac{3}{20}$, then cross-multiply $+ \\frac{6}{11}$ = $\\mathbf{\\frac{153}{220}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{5}{6}} = \\frac{6}{11}$।\n2) शेष गणना: $\\frac{3}{20} + \\frac{6}{11} = \\mathbf{\\frac{153}{220}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{3}{20}$ में $\\frac{6}{11}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{153}{220}}$!"
     }
   },
   {
@@ -1826,10 +1867,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−117x + 120) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−117x + 120) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**−117x + 120**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($6x^2 - 6x^2 = 0$), check signs directly: $x$ term $= -87 - 30 = -117x$ (negative!) and constant $= +42 + 78 = +120$ (**positive!**). Sign pair `(−, +)` uniquely locks Option D!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-117x$) व अचर पद धनात्मक ($+120$) होना तुरंत `(−, +)` चिह्न वाला विकल्प D पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-6 \\times (-13) = +78$ (NOT $-78$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-6 \\times (-13) = +78$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $6x^2 - 87x + 42$.\n2) Expand second bracket: $-6x^2 - 30x + 78$.\n3) Combine like terms: $(6 - 6)x^2 + (-87 - 30)x + (42 + 78) = \\mathbf{-117x + 120}$.",
+            "hi": "1) पहला कोष्ठक: $6x^2 - 87x + 42$।\n2) दूसरा कोष्ठक: $-6x^2 - 30x + 78$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-117x + 120}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(14) - 6(-13) = 42 + 78 = +120$. Since both $x$ terms are negative ($-87x - 30x$), only `−117x + 120` has `(−x, +120)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +42 + 78 = +120$ व दोनों $x$-पद ऋणात्मक ($-87x - 30x = -117x$) $\\Rightarrow$ तुरंत **−117x + 120**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $6x^2 - 87x + 42$.\n2) Expand second bracket: $-6x^2 - 30x + 78$.\n3) Combine like terms: $(6 - 6)x^2 + (-87 - 30)x + (42 + 78) = \\mathbf{-117x + 120}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(14) - 6(-13) = 42 + 78 = +120$. Since both $x$ terms are negative ($-87x - 30x$), only `−117x + 120` has `(−x, +120)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $6x^2 - 87x + 42$।\n2) दूसरा कोष्ठक: $-6x^2 - 30x + 78$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-117x + 120}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +42 + 78 = +120$ व दोनों $x$-पद ऋणात्मक ($-87x - 30x = -117x$) $\\Rightarrow$ तुरंत **−117x + 120**!"
     }
   },
   {
@@ -1859,10 +1945,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (140) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (140) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**140**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `0`; test which option × `6` ends in `0` -> **140**!",
+        "hi": "इकाई अंक नियम: $(4 \\times 3360)$ का इकाई अंक `0` है; विकल्प × `6` करने पर `0` केवल **140** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{4 \\times 3360}{96} = \\mathbf{140}$.",
+            "hi": "दूसरी संख्या $= \\frac{4 \\times 3360}{96} = \\mathbf{140}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 24$ directly: $\\frac{3360}{24} = \\mathbf{140}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 96/4 = 24$ निकालें, फिर $\\frac{3360}{24} = \\mathbf{140}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{4 \\times 3360}{96} = \\mathbf{140}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 24$ directly: $\\frac{3360}{24} = \\mathbf{140}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{4 \\times 3360}{96} = \\mathbf{140}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 96/4 = 24$ निकालें, फिर $\\frac{3360}{24} = \\mathbf{140}$!"
     }
   },
   {
@@ -2189,10 +2316,54 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (17.37) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (17.37) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**17.37**).",
+      "keyConcept": "Decimal Square Root Shift: Half the Decimal Places in Answer",
+      "optionTrick": {
+        "en": "Last decimal place check: 0.17 ends at `7` (2 dec places) and 2.8 has 1 dec places $\\Rightarrow$ answer MUST end in `.37`!",
+        "hi": "दशमलव स्थान नियम: वर्गमूल में दशमलव अंक आधे हो जाते हैं — इसलिए अंत में **.37** अनिवार्य है!"
+      },
+      "trapAlert": {
+        "en": "0.0289 has 4 decimal places -> square root 0.17 MUST have 2 decimal places (e.g. 0.0225 -> 0.15, NOT 0.015!).",
+        "hi": "दशमलव जाल से बचें: 0.0289 में 4 अंक हैं, अतः वर्गमूल 0.17 में ठीक **2** दशमलव स्थान होंगे।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Decimal Digit Pairing Rule",
+            "hi": "विधि 1: दशमलव स्थान युग्म नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $\\sqrt{400} = 20$.\n2) $\\sqrt{0.0289} = 0.17$ (2 decimal places).\n3) $\\sqrt{7.84} = 2.8$ (1 decimal place).\n4) $20 + 0.17 - 2.8 = \\mathbf{17.37}$.",
+            "hi": "1) $\\sqrt{400} = 20$।\n2) $\\sqrt{0.0289} = 0.17$ तथा $\\sqrt{7.84} = 2.8$।\n3) गणना: $20 + 0.17 - 2.8 = \\mathbf{17.37}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Integer-Part + Hundredths Suffix (5 sec)",
+            "hi": "विधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $+0.17$ supplies hundredths digit `7` while integer estimate $\\approx 20 - 3 = 17$ $\\Rightarrow$ **17.37**!",
+            "hi": "अनुमानित मान $\\approx 20 + 0.17 - 2.8$ तथा अंतिम दशमलव अंक `7` सीधे **17.37** तय करता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Decimal Digit Pairing Rule: 1) $\\sqrt{400} = 20$.\n2) $\\sqrt{0.0289} = 0.17$ (2 decimal places).\n3) $\\sqrt{7.84} = 2.8$ (1 decimal place).\n4) $20 + 0.17 - 2.8 = \\mathbf{17.37}$.\n\nMethod 2: Integer-Part + Hundredths Suffix (5 sec): Notice $+0.17$ supplies hundredths digit `7` while integer estimate $\\approx 20 - 3 = 17$ $\\Rightarrow$ **17.37**!",
+      "hi": "विधि 1: दशमलव स्थान युग्म नियम: 1) $\\sqrt{400} = 20$।\n2) $\\sqrt{0.0289} = 0.17$ तथा $\\sqrt{7.84} = 2.8$।\n3) गणना: $20 + 0.17 - 2.8 = \\mathbf{17.37}$।\n\nविधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान: अनुमानित मान $\\approx 20 + 0.17 - 2.8$ तथा अंतिम दशमलव अंक `7` सीधे **17.37** तय करता है!"
     }
   },
   {
@@ -2354,10 +2525,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (H.C.F. = 0.24; L.C.M. = 16.8) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (H.C.F. = 0.24; L.C.M. = 16.8) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**H.C.F. = 0.24; L.C.M. = 16.8**).",
+      "keyConcept": "Decimal HCF/LCM: Scale All Numbers by 100 to Remove Decimals!",
+      "optionTrick": {
+        "en": "`× 100`: find HCF/LCM of `(48, 120, 168)`: `HCF(48, 120, 168) = 24 -> 0.24`; `LCM` must be div by `48 & 7 (168=24×7) -> 1680 -> 16.8`!",
+        "hi": "`× 100` कर `(48, 120, 168)` का हल निकालें: `HCF = 24 -> 0.24`, `LCM = 1680 -> 16.8`!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Scale by ×100, Compute, Divide ÷100",
+            "hi": "विधि 1: ×100 पूर्णांक बनाकर पुनः ÷100"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Multiply by 100: $(48, 120, 168) = 24 \\times (2, 5, 7)$.\n2) Since (2, 5, 7) are pairwise coprime: $\\text{HCF} = 24 \\to \\mathbf{0.24}$; $\\text{LCM} = 24 \\times 2 \\times 5 \\times 7 = 1680 \\to \\mathbf{16.8}$.",
+            "hi": "1) सभी को 100 से गुणा करें: $48, 120, 168 = 24 \\times (2, 5, 7)$।\n2) $\\text{HCF} = \\frac{24}{100} = \\mathbf{0.24}$; $\\text{LCM} = \\frac{24 \\times 70}{100} = \\mathbf{16.8}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Check Divisibility of LCM by 7 (5 sec)",
+            "hi": "विधि 2: 7 के गुणज से विकल्प उन्मूलन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "0.48 divides 0.24? Yes (`÷0.24 = 2`); $1.68 = 0.24 \\times 7$ needs factor `7` in LCM! Neither `2.40` nor `4.80` divides by `7`; ONLY **16.8** divides by `1.68` ($= 10\\times$)!",
+            "hi": "LCM में `1.68` (अर्थात `7` का गुणज) होना आवश्यक है — विकल्पों में केवल **16.8** ही `1.68` का `10` गुना है!"
+          }
+        }
+      ],
+      "en": "Method 1: Scale by ×100, Compute, Divide ÷100: 1) Multiply by 100: $(48, 120, 168) = 24 \\times (2, 5, 7)$.\n2) Since (2, 5, 7) are pairwise coprime: $\\text{HCF} = 24 \\to \\mathbf{0.24}$; $\\text{LCM} = 24 \\times 2 \\times 5 \\times 7 = 1680 \\to \\mathbf{16.8}$.\n\nMethod 2: Check Divisibility of LCM by 7 (5 sec): 0.48 divides 0.24? Yes (`÷0.24 = 2`); $1.68 = 0.24 \\times 7$ needs factor `7` in LCM! Neither `2.40` nor `4.80` divides by `7`; ONLY **16.8** divides by `1.68` ($= 10\\times$)!",
+      "hi": "विधि 1: ×100 पूर्णांक बनाकर पुनः ÷100: 1) सभी को 100 से गुणा करें: $48, 120, 168 = 24 \\times (2, 5, 7)$।\n2) $\\text{HCF} = \\frac{24}{100} = \\mathbf{0.24}$; $\\text{LCM} = \\frac{24 \\times 70}{100} = \\mathbf{16.8}$।\n\nविधि 2: 7 के गुणज से विकल्प उन्मूलन: LCM में `1.68` (अर्थात `7` का गुणज) होना आवश्यक है — विकल्पों में केवल **16.8** ही `1.68` का `10` गुना है!"
     }
   },
   {

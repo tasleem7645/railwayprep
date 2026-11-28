@@ -1419,10 +1419,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (24 −33) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (24 −33) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**24 −33**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-10 - (16) + (-7) = -33 \\Rightarrow \\mathbf{24^{-33}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-10 - (16) + (-7) = -33 \\Rightarrow \\mathbf{24^{-33}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $24^{-10 - (16)} = 24^{-26}$.\n2) Combine third term: $24^{-26 + (-7)} = \\mathbf{24^{-33}}$.",
+            "hi": "1) पहले दो पद: $24^{-10 - (16)} = 24^{-26}$।\n2) तीसरा पद जोड़ने पर: $24^{-26 + (-7)} = \\mathbf{24^{-33}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 24: $-10 - (16) + (-7) = -33 \\Rightarrow \\mathbf{24^{-33}}$.",
+            "hi": "आधार 24 की सभी घातें एक पंक्ति में हल करें: $-10 - (16) + (-7) = -33 \\Rightarrow \\mathbf{24^{-33}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $24^{-10 - (16)} = 24^{-26}$.\n2) Combine third term: $24^{-26 + (-7)} = \\mathbf{24^{-33}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 24: $-10 - (16) + (-7) = -33 \\Rightarrow \\mathbf{24^{-33}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $24^{-10 - (16)} = 24^{-26}$।\n2) तीसरा पद जोड़ने पर: $24^{-26 + (-7)} = \\mathbf{24^{-33}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 24 की सभी घातें एक पंक्ति में हल करें: $-10 - (16) + (-7) = -33 \\Rightarrow \\mathbf{24^{-33}}$।"
     }
   },
   {
@@ -2043,10 +2088,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−93x + 162) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−93x + 162) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**−93x + 162**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($6x^2 - 6x^2 = 0$), check signs directly: $x$ term $= -63 - 30 = -93x$ (negative!) and constant $= +54 + 108 = +162$ (**positive!**). Sign pair `(−, +)` uniquely locks Option D!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-93x$) व अचर पद धनात्मक ($+162$) होना तुरंत `(−, +)` चिह्न वाला विकल्प D पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-6 \\times (-18) = +108$ (NOT $-108$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-6 \\times (-18) = +108$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $6x^2 - 63x + 54$.\n2) Expand second bracket: $-6x^2 - 30x + 108$.\n3) Combine like terms: $(6 - 6)x^2 + (-63 - 30)x + (54 + 108) = \\mathbf{-93x + 162}$.",
+            "hi": "1) पहला कोष्ठक: $6x^2 - 63x + 54$।\n2) दूसरा कोष्ठक: $-6x^2 - 30x + 108$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-93x + 162}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(18) - 6(-18) = 54 + 108 = +162$. Since both $x$ terms are negative ($-63x - 30x$), only `−93x + 162` has `(−x, +162)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +54 + 108 = +162$ व दोनों $x$-पद ऋणात्मक ($-63x - 30x = -93x$) $\\Rightarrow$ तुरंत **−93x + 162**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $6x^2 - 63x + 54$.\n2) Expand second bracket: $-6x^2 - 30x + 108$.\n3) Combine like terms: $(6 - 6)x^2 + (-63 - 30)x + (54 + 108) = \\mathbf{-93x + 162}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(18) - 6(-18) = 54 + 108 = +162$. Since both $x$ terms are negative ($-63x - 30x$), only `−93x + 162` has `(−x, +162)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $6x^2 - 63x + 54$।\n2) दूसरा कोष्ठक: $-6x^2 - 30x + 108$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-93x + 162}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +54 + 108 = +162$ व दोनों $x$-पद ऋणात्मक ($-63x - 30x = -93x$) $\\Rightarrow$ तुरंत **−93x + 162**!"
     }
   },
   {
@@ -2372,10 +2462,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (12) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (12) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**12**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `8`; test which option × `9` ends in `8` -> **12**!",
+        "hi": "इकाई अंक नियम: $(3 \\times 276)$ का इकाई अंक `8` है; विकल्प × `9` करने पर `8` केवल **12** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{3 \\times 276}{69} = \\mathbf{12}$.",
+            "hi": "दूसरी संख्या $= \\frac{3 \\times 276}{69} = \\mathbf{12}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 23$ directly: $\\frac{276}{23} = \\mathbf{12}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 69/3 = 23$ निकालें, फिर $\\frac{276}{23} = \\mathbf{12}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{3 \\times 276}{69} = \\mathbf{12}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 23$ directly: $\\frac{276}{23} = \\mathbf{12}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{3 \\times 276}{69} = \\mathbf{12}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 69/3 = 23$ निकालें, फिर $\\frac{276}{23} = \\mathbf{12}$!"
     }
   },
   {

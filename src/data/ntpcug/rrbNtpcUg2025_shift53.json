@@ -1452,10 +1452,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (66−28) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (66−28) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**66−28**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-5 - (11) + (-12) = -28 \\Rightarrow \\mathbf{66^{-28}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-5 - (11) + (-12) = -28 \\Rightarrow \\mathbf{66^{-28}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $66^{-5 - (11)} = 66^{-16}$.\n2) Combine third term: $66^{-16 + (-12)} = \\mathbf{66^{-28}}$.",
+            "hi": "1) पहले दो पद: $66^{-5 - (11)} = 66^{-16}$।\n2) तीसरा पद जोड़ने पर: $66^{-16 + (-12)} = \\mathbf{66^{-28}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 66: $-5 - (11) + (-12) = -28 \\Rightarrow \\mathbf{66^{-28}}$.",
+            "hi": "आधार 66 की सभी घातें एक पंक्ति में हल करें: $-5 - (11) + (-12) = -28 \\Rightarrow \\mathbf{66^{-28}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $66^{-5 - (11)} = 66^{-16}$.\n2) Combine third term: $66^{-16 + (-12)} = \\mathbf{66^{-28}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 66: $-5 - (11) + (-12) = -28 \\Rightarrow \\mathbf{66^{-28}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $66^{-5 - (11)} = 66^{-16}$।\n2) तीसरा पद जोड़ने पर: $66^{-16 + (-12)} = \\mathbf{66^{-28}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 66 की सभी घातें एक पंक्ति में हल करें: $-5 - (11) + (-12) = -28 \\Rightarrow \\mathbf{66^{-28}}$।"
     }
   },
   {
@@ -1748,10 +1793,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (125) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (125) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**125**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `0`; test which option × `0` ends in `0` -> **125**!",
+        "hi": "इकाई अंक नियम: $(25 \\times 250)$ का इकाई अंक `0` है; विकल्प × `0` करने पर `0` केवल **125** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{25 \\times 250}{50} = \\mathbf{125}$.",
+            "hi": "दूसरी संख्या $= \\frac{25 \\times 250}{50} = \\mathbf{125}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 2$ directly: $\\frac{250}{2} = \\mathbf{125}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 50/25 = 2$ निकालें, फिर $\\frac{250}{2} = \\mathbf{125}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{25 \\times 250}{50} = \\mathbf{125}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 2$ directly: $\\frac{250}{2} = \\mathbf{125}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{25 \\times 250}{50} = \\mathbf{125}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 50/25 = 2$ निकालें, फिर $\\frac{250}{2} = \\mathbf{125}$!"
     }
   },
   {
@@ -2243,10 +2329,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (−112x + 140) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (−112x + 140) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**−112x + 140**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($7x^2 - 7x^2 = 0$), check signs directly: $x$ term $= -84 - 28 = -112x$ (negative!) and constant $= +42 + 98 = +140$ (**positive!**). Sign pair `(−, +)` uniquely locks Option C!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-112x$) व अचर पद धनात्मक ($+140$) होना तुरंत `(−, +)` चिह्न वाला विकल्प C पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-7 \\times (-14) = +98$ (NOT $-98$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-7 \\times (-14) = +98$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $7x^2 - 84x + 42$.\n2) Expand second bracket: $-7x^2 - 28x + 98$.\n3) Combine like terms: $(7 - 7)x^2 + (-84 - 28)x + (42 + 98) = \\mathbf{-112x + 140}$.",
+            "hi": "1) पहला कोष्ठक: $7x^2 - 84x + 42$।\n2) दूसरा कोष्ठक: $-7x^2 - 28x + 98$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-112x + 140}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(14) - 7(-14) = 42 + 98 = +140$. Since both $x$ terms are negative ($-84x - 28x$), only `−112x + 140` has `(−x, +140)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +42 + 98 = +140$ व दोनों $x$-पद ऋणात्मक ($-84x - 28x = -112x$) $\\Rightarrow$ तुरंत **−112x + 140**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $7x^2 - 84x + 42$.\n2) Expand second bracket: $-7x^2 - 28x + 98$.\n3) Combine like terms: $(7 - 7)x^2 + (-84 - 28)x + (42 + 98) = \\mathbf{-112x + 140}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(14) - 7(-14) = 42 + 98 = +140$. Since both $x$ terms are negative ($-84x - 28x$), only `−112x + 140` has `(−x, +140)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $7x^2 - 84x + 42$।\n2) दूसरा कोष्ठक: $-7x^2 - 28x + 98$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-112x + 140}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +42 + 98 = +140$ व दोनों $x$-पद ऋणात्मक ($-84x - 28x = -112x$) $\\Rightarrow$ तुरंत **−112x + 140**!"
     }
   },
   {

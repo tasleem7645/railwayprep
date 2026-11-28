@@ -1682,10 +1682,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−61x + 79) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−61x + 79) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**−61x + 79**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($3x^2 - 3x^2 = 0$), check signs directly: $x$ term $= -40 - 21 = -61x$ (negative!) and constant $= +34 + 45 = +79$ (**positive!**). Sign pair `(−, +)` uniquely locks Option B!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-61x$) व अचर पद धनात्मक ($+79$) होना तुरंत `(−, +)` चिह्न वाला विकल्प B पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-3 \\times (-15) = +45$ (NOT $-45$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-3 \\times (-15) = +45$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $3x^2 - 40x + 34$.\n2) Expand second bracket: $-3x^2 - 21x + 45$.\n3) Combine like terms: $(3 - 3)x^2 + (-40 - 21)x + (34 + 45) = \\mathbf{-61x + 79}$.",
+            "hi": "1) पहला कोष्ठक: $3x^2 - 40x + 34$।\n2) दूसरा कोष्ठक: $-3x^2 - 21x + 45$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-61x + 79}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $2(17) - 3(-15) = 34 + 45 = +79$. Since both $x$ terms are negative ($-40x - 21x$), only `−61x + 79` has `(−x, +79)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +34 + 45 = +79$ व दोनों $x$-पद ऋणात्मक ($-40x - 21x = -61x$) $\\Rightarrow$ तुरंत **−61x + 79**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $3x^2 - 40x + 34$.\n2) Expand second bracket: $-3x^2 - 21x + 45$.\n3) Combine like terms: $(3 - 3)x^2 + (-40 - 21)x + (34 + 45) = \\mathbf{-61x + 79}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $2(17) - 3(-15) = 34 + 45 = +79$. Since both $x$ terms are negative ($-40x - 21x$), only `−61x + 79` has `(−x, +79)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $3x^2 - 40x + 34$।\n2) दूसरा कोष्ठक: $-3x^2 - 21x + 45$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-61x + 79}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +34 + 45 = +79$ व दोनों $x$-पद ऋणात्मक ($-40x - 21x = -61x$) $\\Rightarrow$ तुरंत **−61x + 79**!"
     }
   },
   {
@@ -1715,10 +1760,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{13}{9}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{13}{9}$) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**$\\frac{13}{9}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{7}{9}$ and combine outer terms ($\\frac{4}{3} - \\frac{2}{3} = \\frac{2}{3}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{7}{9}$ लिखें व बाहरी भिन्न ($\\frac{4}{3} - \\frac{2}{3} = \\frac{2}{3}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{2}{7} = \\frac{9}{7}$, so reciprocal $= \\frac{7}{9}$.\n2) Expression $= \\frac{4}{3} - \\frac{2}{3} + \\frac{7}{9} = \\frac{2}{3} + \\frac{7}{9} = \\mathbf{\\frac{13}{9}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{2}{7}} = \\frac{7}{9}$।\n2) शेष गणना: $\\frac{2}{3} + \\frac{7}{9} = \\mathbf{\\frac{13}{9}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{4}{3} - \\frac{2}{3}\\right) = \\frac{2}{3}$, then cross-multiply $+ \\frac{7}{9}$ = $\\mathbf{\\frac{13}{9}}$!",
+            "hi": "पहले बाहरी $\\frac{2}{3}$ में $\\frac{7}{9}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{13}{9}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{2}{7} = \\frac{9}{7}$, so reciprocal $= \\frac{7}{9}$.\n2) Expression $= \\frac{4}{3} - \\frac{2}{3} + \\frac{7}{9} = \\frac{2}{3} + \\frac{7}{9} = \\mathbf{\\frac{13}{9}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{4}{3} - \\frac{2}{3}\\right) = \\frac{2}{3}$, then cross-multiply $+ \\frac{7}{9}$ = $\\mathbf{\\frac{13}{9}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{2}{7}} = \\frac{7}{9}$।\n2) शेष गणना: $\\frac{2}{3} + \\frac{7}{9} = \\mathbf{\\frac{13}{9}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{2}{3}$ में $\\frac{7}{9}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{13}{9}}$!"
     }
   },
   {

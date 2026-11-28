@@ -1513,10 +1513,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • a^3+b^3+c^3-3abc",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (14) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (14) सही उत्तर है।"
+      "approach": "Mathematical Answer: −7 (Option B); Official Stored Key marks Option D (14).",
+      "keyConcept": "Three-Variable Cubic Identity: a³+b³+c³−3abc = (a+b+c)[(a+b+c)² − 3(ab+bc+ca)]",
+      "trapAlert": {
+        "en": "Calculation Discrepancy Alert: $162 - 3(-60) = 342 = 6[36 - 3(ab+bc+ca)] \\Rightarrow 57 = 36 - 3S \\Rightarrow S = \\mathbf{-7}$ (Option B). Stored official answer key marks Option D (`14`).",
+        "hi": "गणितीय त्रुटि सूचना: सूत्र $a^3+b^3+c^3 - 3abc = (a+b+c)[(a+b+c)^2 - 3S]$ से $342 = 6(36 - 3S) \\Rightarrow S = \\mathbf{-7}$ (विकल्प B) आता है; आधिकारिक कुंजी में `14` (विकल्प D) दर्ज है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Cubic Triple Identity",
+            "hi": "विधि 1: त्रि-चर घन सर्वसमिका विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$a^3+b^3+c^3-3abc = (a+b+c)[(a+b+c)^2 - 3(ab+bc+ca)]$",
+          "steps": {
+            "en": "1) Left side $= 162 - 3(-60) = 162 + 180 = 342$.\n2) Divide by $(a+b+c)=6$: $\\frac{342}{6} = 57$.\n3) $36 - 3(ab+bc+ca) = 57 \\Rightarrow 3(ab+bc+ca) = -21 \\Rightarrow ab+bc+ca = \\mathbf{-7}$ (Option B; stored key records Option D: 14).",
+            "hi": "1) बायाँ पक्ष $= 162 - 3(-60) = 342$।\n2) $342 \\div 6 = 57 = 6^2 - 3(ab+bc+ca)$।\n3) $3(ab+bc+ca) = 36 - 57 = -21 \\Rightarrow \\mathbf{-7}$ (विकल्प B; कुंजी में 14 दर्ज है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Sign & Parity Check (8 sec)",
+            "hi": "विधि 2: सम-विषम व चिह्न जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $\\frac{162 + 180}{6} = 27 + 30 = 57 > 36$. Because $36 - 3S = 57 > 36$, $S$ MUST be **negative** ($\\mathbf{-7}$)!",
+            "hi": "तुरंत देखें $\\frac{162+180}{6} = 57 > 6^2\\;(36)$ है, इसलिए $36 - 3S = 57$ होने हेतु $S$ निश्चित ऋणात्मक (**−7**) होगा!"
+          }
+        }
+      ],
+      "en": "Method 1: Cubic Triple Identity: 1) Left side $= 162 - 3(-60) = 162 + 180 = 342$.\n2) Divide by $(a+b+c)=6$: $\\frac{342}{6} = 57$.\n3) $36 - 3(ab+bc+ca) = 57 \\Rightarrow 3(ab+bc+ca) = -21 \\Rightarrow ab+bc+ca = \\mathbf{-7}$ (Option B; stored key records Option D: 14).\n\nMethod 2: Sign & Parity Check (8 sec): Notice $\\frac{162 + 180}{6} = 27 + 30 = 57 > 36$. Because $36 - 3S = 57 > 36$, $S$ MUST be **negative** ($\\mathbf{-7}$)!",
+      "hi": "विधि 1: त्रि-चर घन सर्वसमिका विधि: 1) बायाँ पक्ष $= 162 - 3(-60) = 342$।\n2) $342 \\div 6 = 57 = 6^2 - 3(ab+bc+ca)$।\n3) $3(ab+bc+ca) = 36 - 57 = -21 \\Rightarrow \\mathbf{-7}$ (विकल्प B; कुंजी में 14 दर्ज है)।\n\nविधि 2: सम-विषम व चिह्न जाँच: तुरंत देखें $\\frac{162+180}{6} = 57 > 6^2\\;(36)$ है, इसलिए $36 - 3S = 57$ होने हेतु $S$ निश्चित ऋणात्मक (**−7**) होगा!"
     }
   },
   {
@@ -1547,10 +1588,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Fraction Operations",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {

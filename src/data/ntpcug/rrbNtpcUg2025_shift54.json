@@ -1419,10 +1419,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−89x + 77) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−89x + 77) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**−89x + 77**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($5x^2 - 5x^2 = 0$), check signs directly: $x$ term $= -44 - 45 = -89x$ (negative!) and constant $= +22 + 55 = +77$ (**positive!**). Sign pair `(−, +)` uniquely locks Option B!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-89x$) व अचर पद धनात्मक ($+77$) होना तुरंत `(−, +)` चिह्न वाला विकल्प B पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-5 \\times (-11) = +55$ (NOT $-55$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-5 \\times (-11) = +55$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $5x^2 - 44x + 22$.\n2) Expand second bracket: $-5x^2 - 45x + 55$.\n3) Combine like terms: $(5 - 5)x^2 + (-44 - 45)x + (22 + 55) = \\mathbf{-89x + 77}$.",
+            "hi": "1) पहला कोष्ठक: $5x^2 - 44x + 22$।\n2) दूसरा कोष्ठक: $-5x^2 - 45x + 55$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-89x + 77}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $2(11) - 5(-11) = 22 + 55 = +77$. Since both $x$ terms are negative ($-44x - 45x$), only `−89x + 77` has `(−x, +77)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +22 + 55 = +77$ व दोनों $x$-पद ऋणात्मक ($-44x - 45x = -89x$) $\\Rightarrow$ तुरंत **−89x + 77**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $5x^2 - 44x + 22$.\n2) Expand second bracket: $-5x^2 - 45x + 55$.\n3) Combine like terms: $(5 - 5)x^2 + (-44 - 45)x + (22 + 55) = \\mathbf{-89x + 77}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $2(11) - 5(-11) = 22 + 55 = +77$. Since both $x$ terms are negative ($-44x - 45x$), only `−89x + 77` has `(−x, +77)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $5x^2 - 44x + 22$।\n2) दूसरा कोष्ठक: $-5x^2 - 45x + 55$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-89x + 77}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +22 + 55 = +77$ व दोनों $x$-पद ऋणात्मक ($-44x - 45x = -89x$) $\\Rightarrow$ तुरंत **−89x + 77**!"
     }
   },
   {
@@ -1846,10 +1891,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (11) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (11) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**11**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 11",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **11**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **11** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 11)",
+            "hi": "विधि 1: 11 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 877217 by **11** yields quotient **79747** with remainder **0**.\n2) Eliminating others: 16 (rem 1), 12 (rem 5), 2 (rem 1) — none divides evenly.",
+            "hi": "1) 877217 को **11** से भाग देने पर सटीक भागफल **79747** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 16 (rem 1), 12 (rem 5), 2 (rem 1) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 11",
+            "hi": "विधि 2: 11 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Alternating digit sums: Odd positions sum $= 16$, Even positions sum $= 16$; Difference $= |16 - 16| = 0$ (multiple of 11!).",
+            "hi": "विषम स्थान योग $= 16$ तथा सम स्थान योग $= 16$; अंतर $= |16 - 16| = 0$ जो 11 का गुणज है!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 11): 1) Dividing 877217 by **11** yields quotient **79747** with remainder **0**.\n2) Eliminating others: 16 (rem 1), 12 (rem 5), 2 (rem 1) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 11: Alternating digit sums: Odd positions sum $= 16$, Even positions sum $= 16$; Difference $= |16 - 16| = 0$ (multiple of 11!).",
+      "hi": "विधि 1: 11 से प्रत्यक्ष विभाजन सत्यापन: 1) 877217 को **11** से भाग देने पर सटीक भागफल **79747** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 16 (rem 1), 12 (rem 5), 2 (rem 1) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 11 का स्मार्ट विभाज्यता नियम: विषम स्थान योग $= 16$ तथा सम स्थान योग $= 16$; अंतर $= |16 - 16| = 0$ जो 11 का गुणज है!"
     }
   },
   {
@@ -2077,10 +2162,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (-28) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (-28) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**-28**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 2$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $7^2 = 49$, $\\sqrt{2^2} = 2$, and $8\\sqrt{81} = 8 \\times 9 = 72$.\n2) Combine left to right: $49 + 2 - 72 - 7 = \\mathbf{-28}$.",
+            "hi": "1) $7^2 = 49$, $\\sqrt{2^2} = 2$ तथा $8\\sqrt{81} = 8 \\times 9 = 72$।\n2) गणना: $49 + 2 - 72 - 7 = \\mathbf{-28}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(49 + 2 = 51)$ minus sum of negatives $(72 + 7 = 79) = \\mathbf{-28}$.",
+            "hi": "धनात्मक योग (51) में से ऋणात्मक योग (79) घटाएँ $\\Rightarrow \\mathbf{-28}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $7^2 = 49$, $\\sqrt{2^2} = 2$, and $8\\sqrt{81} = 8 \\times 9 = 72$.\n2) Combine left to right: $49 + 2 - 72 - 7 = \\mathbf{-28}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(49 + 2 = 51)$ minus sum of negatives $(72 + 7 = 79) = \\mathbf{-28}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $7^2 = 49$, $\\sqrt{2^2} = 2$ तथा $8\\sqrt{81} = 8 \\times 9 = 72$।\n2) गणना: $49 + 2 - 72 - 7 = \\mathbf{-28}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (51) में से ऋणात्मक योग (79) घटाएँ $\\Rightarrow \\mathbf{-28}$।"
     }
   },
   {

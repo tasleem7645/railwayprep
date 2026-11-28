@@ -2141,10 +2141,52 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (28) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (28) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**28**).",
+      "keyConcept": "Middle Number Identity: (m−1)² + (m+1)² = 2(m² + 1) => Sum = 2m",
+      "optionTrick": {
+        "en": "Take $\\sqrt{(S/2) - 1} = \\sqrt{197 - 1} = \\sqrt{196} = 14$, then double it: $2 \\times 14 = \\mathbf{28}$!",
+        "hi": "सीधा सूत्र: मध्य संख्या $m = \\sqrt{\\frac{394}{2} - 1} = \\sqrt{196} = 14$, अतः योग $= 2m = \\mathbf{28}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation Method",
+            "hi": "विधि 1: द्विघात समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$n^2 + (n + 2)^2 = S$",
+          "steps": {
+            "en": "1) Let consecutive odd numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 394 \\Rightarrow n^2 + 2n = 195 \\Rightarrow n(n+2) = 13 \\times 15$.\n3) Numbers $= 13$ & 15; Sum $= 13 + 15 = \\mathbf{28}$.",
+            "hi": "1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 394$।\n2) हल करने पर संख्याएँ $= 13$ व 15 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 13 + 15 = \\mathbf{28}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Mid-Number √(S/2 − 1) Shortcut (6 sec)",
+            "hi": "विधि 2: मध्य संख्या √(S/2 − 1) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$m = \\sqrt{\\frac{S}{2} - 1},\\; \\text{Sum} = 2m$",
+          "steps": {
+            "en": "Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 394 \\Rightarrow m^2 = 197 - 1 = 196 \\Rightarrow m = 14 \\Rightarrow \\text{Sum} = 2(14) = \\mathbf{28}$.",
+            "hi": "संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 394 \\Rightarrow m^2 = 196 \\Rightarrow m = 14$। अतः योग $= 2 \\times 14 = \\mathbf{28}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation Method: 1) Let consecutive odd numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 394 \\Rightarrow n^2 + 2n = 195 \\Rightarrow n(n+2) = 13 \\times 15$.\n3) Numbers $= 13$ & 15; Sum $= 13 + 15 = \\mathbf{28}$.\n\nMethod 2: Mid-Number √(S/2 − 1) Shortcut (6 sec): Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 394 \\Rightarrow m^2 = 197 - 1 = 196 \\Rightarrow m = 14 \\Rightarrow \\text{Sum} = 2(14) = \\mathbf{28}$.",
+      "hi": "विधि 1: द्विघात समीकरण विधि: 1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 394$।\n2) हल करने पर संख्याएँ $= 13$ व 15 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 13 + 15 = \\mathbf{28}$।\n\nविधि 2: मध्य संख्या √(S/2 − 1) ट्रिक: संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 394 \\Rightarrow m^2 = 196 \\Rightarrow m = 14$। अतः योग $= 2 \\times 14 = \\mathbf{28}$!"
     }
   },
   {

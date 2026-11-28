@@ -1419,10 +1419,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (5) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**5**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 5",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **5**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **5** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 5)",
+            "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 242425 by **5** yields quotient **48485** with remainder **0**.\n2) Eliminating others: 13 (rem 1), 6 (rem 1), 9 (rem 1) — none divides evenly.",
+            "hi": "1) 242425 को **5** से भाग देने पर सटीक भागफल **48485** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 13 (rem 1), 6 (rem 1), 9 (rem 1) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 5",
+            "hi": "विधि 2: 5 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+            "hi": "इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 5): 1) Dividing 242425 by **5** yields quotient **48485** with remainder **0**.\n2) Eliminating others: 13 (rem 1), 6 (rem 1), 9 (rem 1) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 5: Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+      "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन: 1) 242425 को **5** से भाग देने पर सटीक भागफल **48485** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 13 (rem 1), 6 (rem 1), 9 (rem 1) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 5 का स्मार्ट विभाज्यता नियम: इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
     }
   },
   {
@@ -2321,10 +2361,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (69−28) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (69−28) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**69−28**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-4 - (15) + (-9) = -28 \\Rightarrow \\mathbf{69^{-28}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-4 - (15) + (-9) = -28 \\Rightarrow \\mathbf{69^{-28}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $69^{-4 - (15)} = 69^{-19}$.\n2) Combine third term: $69^{-19 + (-9)} = \\mathbf{69^{-28}}$.",
+            "hi": "1) पहले दो पद: $69^{-4 - (15)} = 69^{-19}$।\n2) तीसरा पद जोड़ने पर: $69^{-19 + (-9)} = \\mathbf{69^{-28}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 69: $-4 - (15) + (-9) = -28 \\Rightarrow \\mathbf{69^{-28}}$.",
+            "hi": "आधार 69 की सभी घातें एक पंक्ति में हल करें: $-4 - (15) + (-9) = -28 \\Rightarrow \\mathbf{69^{-28}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $69^{-4 - (15)} = 69^{-19}$.\n2) Combine third term: $69^{-19 + (-9)} = \\mathbf{69^{-28}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 69: $-4 - (15) + (-9) = -28 \\Rightarrow \\mathbf{69^{-28}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $69^{-4 - (15)} = 69^{-19}$।\n2) तीसरा पद जोड़ने पर: $69^{-19 + (-9)} = \\mathbf{69^{-28}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 69 की सभी घातें एक पंक्ति में हल करें: $-4 - (15) + (-9) = -28 \\Rightarrow \\mathbf{69^{-28}}$।"
     }
   },
   {

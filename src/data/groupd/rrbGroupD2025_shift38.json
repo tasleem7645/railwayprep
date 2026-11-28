@@ -1047,10 +1047,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Divisibility Rules",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (22) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (22) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**22**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 22",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **22**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **22** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 22)",
+            "hi": "विधि 1: 22 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 1408 by **22** yields quotient **64** with remainder **0**.\n2) Eliminating others: 13 (rem 4), 24 (rem 16), 21 (rem 1) — none divides evenly.",
+            "hi": "1) 1408 को **22** से भाग देने पर सटीक भागफल **64** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 13 (rem 4), 24 (rem 16), 21 (rem 1) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 22",
+            "hi": "विधि 2: 22 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "22 = 2 × 11 (co-prime). Unit digit `8` is even (÷2✓) and alternating sum difference is 0/11 (÷11✓).",
+            "hi": "22 = 2 × 11 (सह-अभाज्य नियम): अंतिम अंक `8` सम है (÷2✓) और एकांतर अंक योग अंतर 11 से कटता है (÷11✓)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 22): 1) Dividing 1408 by **22** yields quotient **64** with remainder **0**.\n2) Eliminating others: 13 (rem 4), 24 (rem 16), 21 (rem 1) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 22: 22 = 2 × 11 (co-prime). Unit digit `8` is even (÷2✓) and alternating sum difference is 0/11 (÷11✓).",
+      "hi": "विधि 1: 22 से प्रत्यक्ष विभाजन सत्यापन: 1) 1408 को **22** से भाग देने पर सटीक भागफल **64** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 13 (rem 4), 24 (rem 16), 21 (rem 1) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 22 का स्मार्ट विभाज्यता नियम: 22 = 2 × 11 (सह-अभाज्य नियम): अंतिम अंक `8` सम है (÷2✓) और एकांतर अंक योग अंतर 11 से कटता है (÷11✓)!"
     }
   },
   {

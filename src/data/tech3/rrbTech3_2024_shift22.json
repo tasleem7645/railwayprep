@@ -224,10 +224,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**104**).",
+      "keyConcept": "Mean Proportional: x = √(64 × 169) = 8 × 13",
+      "optionTrick": {
+        "en": "Split roots cleanly: `√64 × √169 = 8 × 13` = **104** (unit digit `8×3 = 4`)!",
+        "hi": "अलग-अलग वर्गमूल लें: `√64 × √169 = 8 × 13` = **104** (इकाई अंक `4`)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Proportion Product Rule",
+            "hi": "विधि 1: मध्यानुपात नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$x^2 = 64 \\times 169 \\Rightarrow x = \\sqrt{64} \\times \\sqrt{169} = 8 \\times 13 = \\mathbf{104}$.",
+            "hi": "$x = \\sqrt{64 \\times 169} = 8 \\times 13 = \\mathbf{104}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit Digit 8×3 = 4 (3 sec)",
+            "hi": "विधि 2: इकाई अंक 8×3 = 4 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "From $\\sqrt{64}=8$ and $\\sqrt{169}=13$, last digit `8×3=4` narrows strictly to **104**!",
+            "hi": "$8 \\times 13$: अंतिम अंक `8×3 = 4` केवल **104** में है!"
+          }
+        }
+      ],
+      "en": "Method 1: Proportion Product Rule: $x^2 = 64 \\times 169 \\Rightarrow x = \\sqrt{64} \\times \\sqrt{169} = 8 \\times 13 = \\mathbf{104}$.\n\nMethod 2: Unit Digit 8×3 = 4 (3 sec): From $\\sqrt{64}=8$ and $\\sqrt{169}=13$, last digit `8×3=4` narrows strictly to **104**!",
+      "hi": "विधि 1: मध्यानुपात नियम: $x = \\sqrt{64 \\times 169} = 8 \\times 13 = \\mathbf{104}$।\n\nविधि 2: इकाई अंक 8×3 = 4 ट्रिक: $8 \\times 13$: अंतिम अंक `8×3 = 4` केवल **104** में है!"
     }
   },
   {

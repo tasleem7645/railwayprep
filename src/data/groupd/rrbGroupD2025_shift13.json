@@ -1013,10 +1013,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Finding HCF",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (3) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**3**).",
+      "keyConcept": "HCF Cannot Exceed Smallest Number (6) & Must Divide Odd-Factor 33",
+      "optionTrick": {
+        "en": "Factors of smallest number `6` are `1, 2, 3, 6`. `33` is odd (so 6 & 2 fail!) $\\Rightarrow$ **3** (test: `33=3×11, 42=3×14, 114=3×38, 210=3×70`)!",
+        "hi": "सबसे छोटी संख्या `6` के गुणनखंड `1, 2, 3, 6` हैं। `33` विषम है (6 व 2 बाहर!), अतः **3** सभी को काटता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Factors of Smallest Number (6)",
+            "hi": "विधि 1: सबसे छोटी संख्या (6) के गुणनखंड"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Divisors of smallest term 6 are 6, 3, 2, 1. Since 33 is odd, 6 and 2 cannot divide it. Digit sums of 6, 33, 42, 114, 210 are all multiples of $3 \\Rightarrow \\text{HCF} = \\mathbf{3}$.",
+            "hi": "सबसे छोटी संख्या 6 का बड़ा गुणनखंड `6`, `33` को नहीं काटता। सभी के अंकों का योग 3 से विभाज्य है $\\Rightarrow \\text{म.स.} = \\mathbf{3}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Odd-Number Elimination (3 sec)",
+            "hi": "विधि 2: विषम संख्या से 2-सेकंड जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "From smallest 6: even divisors eliminated by 33; digits sum check passes 3 everywhere (`7` & `2` out) $\\Rightarrow \\mathbf{3}$.",
+            "hi": "`6` में केवल सम और विषम विकल्प देखें — `33` होने से 2 व `114` आदि से **3** सीधे पक्का है!"
+          }
+        }
+      ],
+      "en": "Method 1: Factors of Smallest Number (6): Divisors of smallest term 6 are 6, 3, 2, 1. Since 33 is odd, 6 and 2 cannot divide it. Digit sums of 6, 33, 42, 114, 210 are all multiples of $3 \\Rightarrow \\text{HCF} = \\mathbf{3}$.\n\nMethod 2: Odd-Number Elimination (3 sec): From smallest 6: even divisors eliminated by 33; digits sum check passes 3 everywhere (`7` & `2` out) $\\Rightarrow \\mathbf{3}$.",
+      "hi": "विधि 1: सबसे छोटी संख्या (6) के गुणनखंड: सबसे छोटी संख्या 6 का बड़ा गुणनखंड `6`, `33` को नहीं काटता। सभी के अंकों का योग 3 से विभाज्य है $\\Rightarrow \\text{म.स.} = \\mathbf{3}$।\n\nविधि 2: विषम संख्या से 2-सेकंड जाँच: `6` में केवल सम और विषम विकल्प देखें — `33` होने से 2 व `114` आदि से **3** सीधे पक्का है!"
     }
   },
   {

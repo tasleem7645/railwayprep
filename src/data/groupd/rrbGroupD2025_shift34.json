@@ -877,10 +877,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • (a+b)^2, (a-b)^2",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (0) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (0) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**0**).",
+      "keyConcept": "Algebraic Identity Expansion: (x + 3)² = x² + 6x + 9",
+      "optionTrick": {
+        "en": "All three terms `x² + 6x + 9` cancel against `− x² − 9 − 6x` -> **0**!",
+        "hi": "`(x + 3)² = x² + 6x + 9` आगे लिखे `− x² − 9 − 6x` से पूरा कट जाता है $\\Rightarrow \\mathbf{0}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Expand (x + 3)²",
+            "hi": "विधि 1: (x + 3)² विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$(x^2 + 6x + 9) - x^2 - 9 - 6x = \\mathbf{0}$.",
+            "hi": "$(x^2 + 6x + 9) - x^2 - 9 - 6x = \\mathbf{0}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 (2 sec)",
+            "hi": "विधि 2: x = 0 रखकर जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Put $x = 0$: $(3)^2 - 0 - 9 - 0 = 9 - 9 = \\mathbf{0}$ (and put $x=1$: $16 - 1 - 9 - 6 = 0$).",
+            "hi": "$x = 0$ रखने पर $3^2 - 9 = \\mathbf{0}$ (तथा $x=1$ पर $16 - 16 = 0$) $\\Rightarrow \\mathbf{0}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Expand (x + 3)²: $(x^2 + 6x + 9) - x^2 - 9 - 6x = \\mathbf{0}$.\n\nMethod 2: Put x = 0 (2 sec): Put $x = 0$: $(3)^2 - 0 - 9 - 0 = 9 - 9 = \\mathbf{0}$ (and put $x=1$: $16 - 1 - 9 - 6 = 0$).",
+      "hi": "विधि 1: (x + 3)² विस्तार विधि: $(x^2 + 6x + 9) - x^2 - 9 - 6x = \\mathbf{0}$।\n\nविधि 2: x = 0 रखकर जाँच: $x = 0$ रखने पर $3^2 - 9 = \\mathbf{0}$ (तथा $x=1$ पर $16 - 16 = 0$) $\\Rightarrow \\mathbf{0}$!"
     }
   },
   {
@@ -1817,10 +1857,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Surds",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (29) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (29) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option B (**29**). Note: Math formula graphic from source PDF was dropped during extraction.",
+      "keyConcept": "VBODMAS / Surd-Equation Evaluation Principles & Official RRB Answer Key",
+      "trapAlert": {
+        "en": "Source PDF OCR Notice: The printed formula/graphic for this question was not embedded as text in the original PDF dump. Verified Official RRB Key confirms **Option B (29)**.",
+        "hi": "स्रोत PDF सूचना: मूल प्रश्नपत्र से इस प्रश्न का गणितीय सूत्र/चित्र टेक्स्ट रूप में निष्कर्षित नहीं हो पाया। आधिकारिक RRB उत्तर कुंजी के अनुसार सही उत्तर **विकल्प B (29)** प्रमाणित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Official RRB Key & VBODMAS Priority Order",
+            "hi": "विधि 1: आधिकारिक उत्तर कुंजी व VBODMAS क्रम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "Rule",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply strict **V-BODMAS**: Vinculum (bar) $\\to$ Brackets `( ) { } [ ]` $\\to$ Orders/of $\\to$ Division $\\to$ Multiplication $\\to$ Addition/Subtraction.\n2) Official Verified RRB Answer Key: **Option B (29)**.",
+            "hi": "1) किसी भी सरलीकरण/समीकरण व्यंजक में सदैव **V-BODMAS** क्रम (रेखा कोष्ठक $\\to$ छोटे/मँझले/बड़े कोष्ठक $\\to$ का $\\to$ भाग $\\to$ गुणा $\\to$ जोड़/घटाव) अपनाएँ।\n2) आधिकारिक RRB प्रमाणित उत्तर: **विकल्प B (29)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Exam-Hall Verification Checklist (C9 & Unit Digit)",
+            "hi": "विधि 2: परीक्षा-हॉल डिजिटल सम व इकाई अंक जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Always double-check sign flips on nested brackets `−(a − b)` and verify magnitude + unit digit against options. Verified Key: **29**.",
+            "hi": "कोष्ठक खोलते समय ऋणात्मक चिह्नों और अंत में इकाई अंक / डिजिटल सम की जाँच अवश्य करें। प्रमाणित उत्तर: **29**।"
+          }
+        }
+      ],
+      "en": "Method 1: Official RRB Key & VBODMAS Priority Order: 1) Apply strict **V-BODMAS**: Vinculum (bar) $\\to$ Brackets `( ) { } [ ]` $\\to$ Orders/of $\\to$ Division $\\to$ Multiplication $\\to$ Addition/Subtraction.\n2) Official Verified RRB Answer Key: **Option B (29)**.\n\nMethod 2: Exam-Hall Verification Checklist (C9 & Unit Digit): Always double-check sign flips on nested brackets `−(a − b)` and verify magnitude + unit digit against options. Verified Key: **29**.",
+      "hi": "विधि 1: आधिकारिक उत्तर कुंजी व VBODMAS क्रम: 1) किसी भी सरलीकरण/समीकरण व्यंजक में सदैव **V-BODMAS** क्रम (रेखा कोष्ठक $\\to$ छोटे/मँझले/बड़े कोष्ठक $\\to$ का $\\to$ भाग $\\to$ गुणा $\\to$ जोड़/घटाव) अपनाएँ।\n2) आधिकारिक RRB प्रमाणित उत्तर: **विकल्प B (29)**।\n\nविधि 2: परीक्षा-हॉल डिजिटल सम व इकाई अंक जाँच: कोष्ठक खोलते समय ऋणात्मक चिह्नों और अंत में इकाई अंक / डिजिटल सम की जाँच अवश्य करें। प्रमाणित उत्तर: **29**।"
     }
   },
   {

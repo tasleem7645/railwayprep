@@ -1475,10 +1475,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**$\\frac{1}{100}$**).",
+      "keyConcept": "Count Total Decimal Places in Product: 1 + 3 + 4 = 8",
+      "optionTrick": {
+        "en": "`10⁻¹ × 10⁻³ × 10⁻⁴ × 10⁶ = 10^(−8 + 6) = 10⁻²` = **1/100**!",
+        "hi": "दशमलव स्थान जोड़ें: `1 + 3 + 4 = 8` अर्थात् `10⁻⁸ × 10⁶ = 10⁻²` = **1/100**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Powers of 10 Conversion",
+            "hi": "विधि 1: 10 की घात रूपांतरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$10^{-1} \\times 10^{-3} \\times 10^{-4} \\times 10^6 = 10^{-1 - 3 - 4 + 6} = 10^{-2} = \\mathbf{\\frac{1}{100}}$.",
+            "hi": "$10^{-1-3-4+6} = 10^{-2} = \\mathbf{\\frac{1}{100}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Count Decimal Zeros (3 sec)",
+            "hi": "विधि 2: दशमलव अंक गिनती"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total decimal places $= 1 + 3 + 4 = 8$. Multiplying by $10^6$ leaves $8 - 6 = 2$ decimals $\\Rightarrow \\mathbf{\\frac{1}{100}}$.",
+            "hi": "कुल `8` दशमलव स्थानों में से $10^6$ के `6` कटे, शेष `2` बचे $\\Rightarrow \\mathbf{\\frac{1}{100}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Powers of 10 Conversion: $10^{-1} \\times 10^{-3} \\times 10^{-4} \\times 10^6 = 10^{-1 - 3 - 4 + 6} = 10^{-2} = \\mathbf{\\frac{1}{100}}$.\n\nMethod 2: Count Decimal Zeros (3 sec): Total decimal places $= 1 + 3 + 4 = 8$. Multiplying by $10^6$ leaves $8 - 6 = 2$ decimals $\\Rightarrow \\mathbf{\\frac{1}{100}}$.",
+      "hi": "विधि 1: 10 की घात रूपांतरण: $10^{-1-3-4+6} = 10^{-2} = \\mathbf{\\frac{1}{100}}$।\n\nविधि 2: दशमलव अंक गिनती: कुल `8` दशमलव स्थानों में से $10^6$ के `6` कटे, शेष `2` बचे $\\Rightarrow \\mathbf{\\frac{1}{100}}$।"
     }
   },
   {

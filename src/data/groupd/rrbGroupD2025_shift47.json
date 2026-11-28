@@ -1081,10 +1081,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Divisibility Rules",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (63) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (63) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**63**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 63",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **63**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **63** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 63)",
+            "hi": "विधि 1: 63 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 13167 by **63** yields quotient **209** with remainder **0**.\n2) Eliminating others: 69 (rem 57), 61 (rem 52), 67 (rem 35) — none divides evenly.",
+            "hi": "1) 13167 को **63** से भाग देने पर सटीक भागफल **209** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 69 (rem 57), 61 (rem 52), 67 (rem 35) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 63",
+            "hi": "विधि 2: 63 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "63 = 7 × 9 (co-prime). Check sum of digits $= 18$ (÷9✓!), then divide by 7 ($13167 \\div 63 = 209$).",
+            "hi": "63 = 7 × 9 (सह-अभाज्य गुणनखंड): पहले 9 जाँच (योग $= 18$, ÷9✓!) और फिर 7 से भागफल $= 209$!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 63): 1) Dividing 13167 by **63** yields quotient **209** with remainder **0**.\n2) Eliminating others: 69 (rem 57), 61 (rem 52), 67 (rem 35) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 63: 63 = 7 × 9 (co-prime). Check sum of digits $= 18$ (÷9✓!), then divide by 7 ($13167 \\div 63 = 209$).",
+      "hi": "विधि 1: 63 से प्रत्यक्ष विभाजन सत्यापन: 1) 13167 को **63** से भाग देने पर सटीक भागफल **209** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 69 (rem 57), 61 (rem 52), 67 (rem 35) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 63 का स्मार्ट विभाज्यता नियम: 63 = 7 × 9 (सह-अभाज्य गुणनखंड): पहले 9 जाँच (योग $= 18$, ÷9✓!) और फिर 7 से भागफल $= 209$!"
     }
   },
   {
@@ -1535,10 +1575,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (15) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (15) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**15**).",
+      "keyConcept": "Last 2 digits (`0B`) ÷ 4✓ (min B=8) + Sum ÷ 3✓",
+      "optionTrick": {
+        "en": "Last 2 digits (`0B`) ÷ 4✓ (min B=8) + Sum ÷ 3✓: locks (7, 8) $\\Rightarrow$ Maximum value $= \\mathbf{15}$!",
+        "hi": "अंतिम 2 अंक (`0B`) 4 से कटें + अंक योग 3 से कटे: सीधे (A=7, B=8) मिलता है $\\Rightarrow$ अधिकतम मान $= \\mathbf{15}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 12",
+            "hi": "विधि 1: 12 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **12** on `69A840B`: Last 2 digits (`0B`) ÷ 4✓ (min B=8) + Sum ÷ 3✓.\n2) Known digits sum $= 27$. Testing valid digits gives **A = 7, B = 8 ⇒ A + B = 15** (number `6978408`).",
+            "hi": "1) `69A840B` पर **12** का नियम लागू करें (अंतिम 2 अंक (`0B`) 4 से कटें + अंक योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 27$। वैध अंक जाँच से **A = 7, B = 8 ⇒ A + B = 15** (`6978408`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first (for max sum, pick largest valid $B=8$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{15}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 8$), फिर शेषफल शून्य बनाकर तुरंत **15** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 12: 1) Apply divisibility conditions for **12** on `69A840B`: Last 2 digits (`0B`) ÷ 4✓ (min B=8) + Sum ÷ 3✓.\n2) Known digits sum $= 27$. Testing valid digits gives **A = 7, B = 8 ⇒ A + B = 15** (number `6978408`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first (for max sum, pick largest valid $B=8$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{15}$.",
+      "hi": "विधि 1: 12 का विभाज्यता नियम: 1) `69A840B` पर **12** का नियम लागू करें (अंतिम 2 अंक (`0B`) 4 से कटें + अंक योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 27$। वैध अंक जाँच से **A = 7, B = 8 ⇒ A + B = 15** (`6978408`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 8$), फिर शेषफल शून्य बनाकर तुरंत **15** पाएँ!"
     }
   },
   {

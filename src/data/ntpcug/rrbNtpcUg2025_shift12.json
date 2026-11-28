@@ -1748,10 +1748,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (21025) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (21025) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**21025**).",
+      "keyConcept": "Ekadhikena Purvena for Ending-in-5 Squares: prefix×(prefix+1) | 25",
+      "optionTrick": {
+        "en": "Ends in `5` -> answer ends in `25`, prefix $= 14 \\times 15 = 210 \\Rightarrow \\mathbf{21025}$!",
+        "hi": "अंत में `5` होने पर: पहले $14 \\times 15 = 210$ और अंत में `25` $\\Rightarrow \\mathbf{21025}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Multiplication / (a+b)² Split",
+            "hi": "विधि 1: बेसिक गुणन / (a+b)² विस्तार"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$145 \\times 145 = (140 + 5)^2 = 19600 + 2(140)(5) + 25 = \\mathbf{21025}$.",
+            "hi": "$(140 + 5)^2 = 19600 + 1400 + 25 = \\mathbf{21025}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ending-in-5 Vedic Trick (3 sec)",
+            "hi": "विधि 2: एकाधिकेन पूर्वेण (5 वाली) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$14 \\times (14 + 1) = 210$ followed by `25` $= \\mathbf{21025}$.",
+            "hi": "$14 \\times 15 = 210$ के पीछे `25` लगाएँ $= \\mathbf{21025}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Multiplication / (a+b)² Split: $145 \\times 145 = (140 + 5)^2 = 19600 + 2(140)(5) + 25 = \\mathbf{21025}$.\n\nMethod 2: Ending-in-5 Vedic Trick (3 sec): $14 \\times (14 + 1) = 210$ followed by `25` $= \\mathbf{21025}$.",
+      "hi": "विधि 1: बेसिक गुणन / (a+b)² विस्तार: $(140 + 5)^2 = 19600 + 1400 + 25 = \\mathbf{21025}$।\n\nविधि 2: एकाधिकेन पूर्वेण (5 वाली) ट्रिक: $14 \\times 15 = 210$ के पीछे `25` लगाएँ $= \\mathbf{21025}$!"
     }
   },
   {
@@ -1945,10 +1985,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−130x + 126) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−130x + 126) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**−130x + 126**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($6x^2 - 6x^2 = 0$), check signs directly: $x$ term $= -100 - 30 = -130x$ (negative!) and constant $= +48 + 78 = +126$ (**positive!**). Sign pair `(−, +)` uniquely locks Option B!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-130x$) व अचर पद धनात्मक ($+126$) होना तुरंत `(−, +)` चिह्न वाला विकल्प B पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-6 \\times (-13) = +78$ (NOT $-78$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-6 \\times (-13) = +78$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $6x^2 - 100x + 48$.\n2) Expand second bracket: $-6x^2 - 30x + 78$.\n3) Combine like terms: $(6 - 6)x^2 + (-100 - 30)x + (48 + 78) = \\mathbf{-130x + 126}$.",
+            "hi": "1) पहला कोष्ठक: $6x^2 - 100x + 48$।\n2) दूसरा कोष्ठक: $-6x^2 - 30x + 78$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-130x + 126}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $4(12) - 6(-13) = 48 + 78 = +126$. Since both $x$ terms are negative ($-100x - 30x$), only `−130x + 126` has `(−x, +126)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +48 + 78 = +126$ व दोनों $x$-पद ऋणात्मक ($-100x - 30x = -130x$) $\\Rightarrow$ तुरंत **−130x + 126**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $6x^2 - 100x + 48$.\n2) Expand second bracket: $-6x^2 - 30x + 78$.\n3) Combine like terms: $(6 - 6)x^2 + (-100 - 30)x + (48 + 78) = \\mathbf{-130x + 126}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $4(12) - 6(-13) = 48 + 78 = +126$. Since both $x$ terms are negative ($-100x - 30x$), only `−130x + 126` has `(−x, +126)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $6x^2 - 100x + 48$।\n2) दूसरा कोष्ठक: $-6x^2 - 30x + 78$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-130x + 126}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +48 + 78 = +126$ व दोनों $x$-पद ऋणात्मक ($-100x - 30x = -130x$) $\\Rightarrow$ तुरंत **−130x + 126**!"
     }
   },
   {

@@ -2135,10 +2135,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**$\\frac{19}{54}$**).",
+      "keyConcept": "Negative Denominator Normalization + LCM Addition",
+      "optionTrick": {
+        "en": "`LCM(18, 27) = 54`, and `33 − 14 = +19` (**positive**!) -> ONLY **19/54** matches!",
+        "hi": "`LCM(18, 27) = 54` तथा `33 − 14 = +19` (धनात्मक!) $\\Rightarrow$ **19/54**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Denominator LCM = 54",
+            "hi": "विधि 1: हर का ल.स. 54 विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Write $\\frac{7}{-27} = -\\frac{7}{27}$. $\\text{LCM}(18, 27) = 54$.\n2) $\\frac{11 \\times 3 - 7 \\times 2}{54} = \\frac{33 - 14}{54} = \\mathbf{\\frac{19}{54}}$.",
+            "hi": "1) $\\frac{11}{18} - \\frac{7}{27}$ में हरों का $\\text{LCM} = 54$।\n2) $\\frac{33 - 14}{54} = \\mathbf{\\frac{19}{54}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Sign + Magnitude Check (4 sec)",
+            "hi": "विधि 2: चिह्न व मान तुलना ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$11/18 > 0.6$ while $7/27 < 0.3 \\Rightarrow$ difference is positive around 0.35, and denominator 54 cannot reduce 19 $\\Rightarrow \\mathbf{\\frac{19}{54}}$.",
+            "hi": "$\\frac{11}{18} > \\frac{1}{2}$ और $\\frac{7}{27} < \\frac{1}{3}$ होने से मान धनात्मक रहेगा और `54` अभाज्य `19` से नहीं कटता $\\Rightarrow \\mathbf{\\frac{19}{54}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Denominator LCM = 54: 1) Write $\\frac{7}{-27} = -\\frac{7}{27}$. $\\text{LCM}(18, 27) = 54$.\n2) $\\frac{11 \\times 3 - 7 \\times 2}{54} = \\frac{33 - 14}{54} = \\mathbf{\\frac{19}{54}}$.\n\nMethod 2: Sign + Magnitude Check (4 sec): $11/18 > 0.6$ while $7/27 < 0.3 \\Rightarrow$ difference is positive around 0.35, and denominator 54 cannot reduce 19 $\\Rightarrow \\mathbf{\\frac{19}{54}}$.",
+      "hi": "विधि 1: हर का ल.स. 54 विधि: 1) $\\frac{11}{18} - \\frac{7}{27}$ में हरों का $\\text{LCM} = 54$।\n2) $\\frac{33 - 14}{54} = \\mathbf{\\frac{19}{54}}$।\n\nविधि 2: चिह्न व मान तुलना ट्रिक: $\\frac{11}{18} > \\frac{1}{2}$ और $\\frac{7}{27} < \\frac{1}{3}$ होने से मान धनात्मक रहेगा और `54` अभाज्य `19` से नहीं कटता $\\Rightarrow \\mathbf{\\frac{19}{54}}$!"
     }
   },
   {

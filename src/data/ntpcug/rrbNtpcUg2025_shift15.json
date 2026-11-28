@@ -1485,10 +1485,54 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (11.58) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (11.58) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**11.58**).",
+      "keyConcept": "Decimal Square Root Shift: Half the Decimal Places in Answer",
+      "optionTrick": {
+        "en": "Last decimal place check: 0.18 ends at `8` (2 dec places) and 2.6 has 1 dec places $\\Rightarrow$ answer MUST end in `.58`!",
+        "hi": "दशमलव स्थान नियम: वर्गमूल में दशमलव अंक आधे हो जाते हैं — इसलिए अंत में **.58** अनिवार्य है!"
+      },
+      "trapAlert": {
+        "en": "0.0324 has 4 decimal places -> square root 0.18 MUST have 2 decimal places (e.g. 0.0225 -> 0.15, NOT 0.015!).",
+        "hi": "दशमलव जाल से बचें: 0.0324 में 4 अंक हैं, अतः वर्गमूल 0.18 में ठीक **2** दशमलव स्थान होंगे।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Decimal Digit Pairing Rule",
+            "hi": "विधि 1: दशमलव स्थान युग्म नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $\\sqrt{196} = 14$.\n2) $\\sqrt{0.0324} = 0.18$ (2 decimal places).\n3) $\\sqrt{6.76} = 2.6$ (1 decimal place).\n4) $14 + 0.18 - 2.6 = \\mathbf{11.58}$.",
+            "hi": "1) $\\sqrt{196} = 14$।\n2) $\\sqrt{0.0324} = 0.18$ तथा $\\sqrt{6.76} = 2.6$।\n3) गणना: $14 + 0.18 - 2.6 = \\mathbf{11.58}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Integer-Part + Hundredths Suffix (5 sec)",
+            "hi": "विधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $+0.18$ supplies hundredths digit `8` while integer estimate $\\approx 14 - 3 = 11$ $\\Rightarrow$ **11.58**!",
+            "hi": "अनुमानित मान $\\approx 14 + 0.18 - 2.6$ तथा अंतिम दशमलव अंक `8` सीधे **11.58** तय करता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Decimal Digit Pairing Rule: 1) $\\sqrt{196} = 14$.\n2) $\\sqrt{0.0324} = 0.18$ (2 decimal places).\n3) $\\sqrt{6.76} = 2.6$ (1 decimal place).\n4) $14 + 0.18 - 2.6 = \\mathbf{11.58}$.\n\nMethod 2: Integer-Part + Hundredths Suffix (5 sec): Notice $+0.18$ supplies hundredths digit `8` while integer estimate $\\approx 14 - 3 = 11$ $\\Rightarrow$ **11.58**!",
+      "hi": "विधि 1: दशमलव स्थान युग्म नियम: 1) $\\sqrt{196} = 14$।\n2) $\\sqrt{0.0324} = 0.18$ तथा $\\sqrt{6.76} = 2.6$।\n3) गणना: $14 + 0.18 - 2.6 = \\mathbf{11.58}$।\n\nविधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान: अनुमानित मान $\\approx 14 + 0.18 - 2.6$ तथा अंतिम दशमलव अंक `8` सीधे **11.58** तय करता है!"
     }
   },
   {
@@ -2045,10 +2089,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (−62x + 67) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (−62x + 67) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**−62x + 67**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($3x^2 - 3x^2 = 0$), check signs directly: $x$ term $= -50 - 12 = -62x$ (negative!) and constant $= +28 + 39 = +67$ (**positive!**). Sign pair `(−, +)` uniquely locks Option C!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-62x$) व अचर पद धनात्मक ($+67$) होना तुरंत `(−, +)` चिह्न वाला विकल्प C पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-3 \\times (-13) = +39$ (NOT $-39$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-3 \\times (-13) = +39$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $3x^2 - 50x + 28$.\n2) Expand second bracket: $-3x^2 - 12x + 39$.\n3) Combine like terms: $(3 - 3)x^2 + (-50 - 12)x + (28 + 39) = \\mathbf{-62x + 67}$.",
+            "hi": "1) पहला कोष्ठक: $3x^2 - 50x + 28$।\n2) दूसरा कोष्ठक: $-3x^2 - 12x + 39$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-62x + 67}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $2(14) - 3(-13) = 28 + 39 = +67$. Since both $x$ terms are negative ($-50x - 12x$), only `−62x + 67` has `(−x, +67)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +28 + 39 = +67$ व दोनों $x$-पद ऋणात्मक ($-50x - 12x = -62x$) $\\Rightarrow$ तुरंत **−62x + 67**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $3x^2 - 50x + 28$.\n2) Expand second bracket: $-3x^2 - 12x + 39$.\n3) Combine like terms: $(3 - 3)x^2 + (-50 - 12)x + (28 + 39) = \\mathbf{-62x + 67}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $2(14) - 3(-13) = 28 + 39 = +67$. Since both $x$ terms are negative ($-50x - 12x$), only `−62x + 67` has `(−x, +67)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $3x^2 - 50x + 28$।\n2) दूसरा कोष्ठक: $-3x^2 - 12x + 39$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-62x + 67}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +28 + 39 = +67$ व दोनों $x$-पद ऋणात्मक ($-50x - 12x = -62x$) $\\Rightarrow$ तुरंत **−62x + 67**!"
     }
   },
   {
@@ -2144,10 +2233,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (7) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (7) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**7**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 7",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **7**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **7** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 7)",
+            "hi": "विधि 1: 7 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 814242541 by **7** yields quotient **116320363** with remainder **0**.\n2) Eliminating others: 15 (rem 1), 12 (rem 1), 8 (rem 5) — none divides evenly.",
+            "hi": "1) 814242541 को **7** से भाग देने पर सटीक भागफल **116320363** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 15 (rem 1), 12 (rem 1), 8 (rem 5) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 7",
+            "hi": "विधि 2: 7 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check using alternating 3-digit block difference (right-to-left groups of 3) or Ekadhika −2×unit step; exact quotient $= 116320363$.",
+            "hi": "दाएँ से 3-3 अंकों के ब्लॉक का अंतर अथवा इकाई अंक $\\times 2$ घटाने के ऑस्कुलेटर नियम से 7 से भागफल $= 116320363$ (शेष 0)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 7): 1) Dividing 814242541 by **7** yields quotient **116320363** with remainder **0**.\n2) Eliminating others: 15 (rem 1), 12 (rem 1), 8 (rem 5) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 7: Check using alternating 3-digit block difference (right-to-left groups of 3) or Ekadhika −2×unit step; exact quotient $= 116320363$.",
+      "hi": "विधि 1: 7 से प्रत्यक्ष विभाजन सत्यापन: 1) 814242541 को **7** से भाग देने पर सटीक भागफल **116320363** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 15 (rem 1), 12 (rem 1), 8 (rem 5) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 7 का स्मार्ट विभाज्यता नियम: दाएँ से 3-3 अंकों के ब्लॉक का अंतर अथवा इकाई अंक $\\times 2$ घटाने के ऑस्कुलेटर नियम से 7 से भागफल $= 116320363$ (शेष 0)!"
     }
   },
   {
@@ -2177,10 +2306,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($\\frac{1}{1680^{23}}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($\\frac{1}{1680^{23}}$) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**$\\frac{1}{1680^{23}}$**).",
+      "keyConcept": "Same-Exponent Product Rule: a^(−n) × b^(−n) × c^(−n) = 1 / (abc)^n",
+      "optionTrick": {
+        "en": "Check unit digit / last two digits of $5 \\times 16 \\times 21$: 1680 (`16×5=80` / `25×14=350`) -> $\\mathbf{\\frac{1}{1680^{23}}}$!",
+        "hi": "गुणनफल $5 \\times 16 \\times 21 = 1680$ निकालते ही उत्तर $\\mathbf{\\frac{1}{1680^{23}}}$ पक्का हो जाता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Negative Exponent + Base Product",
+            "hi": "विधि 1: ऋणात्मक घातांक व आधार गुणन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$a^{-n} \\cdot b^{-n} \\cdot c^{-n} = (abc)^{-n} = \\frac{1}{(abc)^n}$",
+          "steps": {
+            "en": "1) Common exponent $= -23 \\Rightarrow (5 \\times 16 \\times 21)^{-23}$.\n2) Base product $= 1680 \\Rightarrow \\mathbf{\\frac{1}{1680^{23}}}$.",
+            "hi": "1) समान घात $-23$ उभयनिष्ठ लेने पर $= (5 \\times 16 \\times 21)^{-23}$।\n2) गुणनफल $= 1680 \\Rightarrow \\mathbf{\\frac{1}{1680^{23}}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Pair Mental Multiply (5 sec)",
+            "hi": "विधि 2: शून्य-युग्म मानसिक गुणा ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Spot even × multiple-of-5 zero pair ($5\\times 16 = 80$), multiply by 21 $\\Rightarrow 1680$, flip negative power $\\Rightarrow \\mathbf{\\frac{1}{1680^{23}}}$.",
+            "hi": "पहले 5-गुणज व सम संख्या की गुणा से शून्य बनाएँ: $5 \\times 16 \\times 21 = 1680 \\Rightarrow \\mathbf{\\frac{1}{1680^{23}}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Negative Exponent + Base Product: 1) Common exponent $= -23 \\Rightarrow (5 \\times 16 \\times 21)^{-23}$.\n2) Base product $= 1680 \\Rightarrow \\mathbf{\\frac{1}{1680^{23}}}$.\n\nMethod 2: Zero-Pair Mental Multiply (5 sec): Spot even × multiple-of-5 zero pair ($5\\times 16 = 80$), multiply by 21 $\\Rightarrow 1680$, flip negative power $\\Rightarrow \\mathbf{\\frac{1}{1680^{23}}}$.",
+      "hi": "विधि 1: ऋणात्मक घातांक व आधार गुणन: 1) समान घात $-23$ उभयनिष्ठ लेने पर $= (5 \\times 16 \\times 21)^{-23}$।\n2) गुणनफल $= 1680 \\Rightarrow \\mathbf{\\frac{1}{1680^{23}}}$।\n\nविधि 2: शून्य-युग्म मानसिक गुणा ट्रिक: पहले 5-गुणज व सम संख्या की गुणा से शून्य बनाएँ: $5 \\times 16 \\times 21 = 1680 \\Rightarrow \\mathbf{\\frac{1}{1680^{23}}}$।"
     }
   },
   {
@@ -2210,10 +2380,52 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (66) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (66) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**66**).",
+      "keyConcept": "Middle Number Identity: (m−1)² + (m+1)² = 2(m² + 1) => Sum = 2m",
+      "optionTrick": {
+        "en": "Take $\\sqrt{(S/2) - 1} = \\sqrt{1090 - 1} = \\sqrt{1089} = 33$, then double it: $2 \\times 33 = \\mathbf{66}$!",
+        "hi": "सीधा सूत्र: मध्य संख्या $m = \\sqrt{\\frac{2180}{2} - 1} = \\sqrt{1089} = 33$, अतः योग $= 2m = \\mathbf{66}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation Method",
+            "hi": "विधि 1: द्विघात समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$n^2 + (n + 2)^2 = S$",
+          "steps": {
+            "en": "1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 2180 \\Rightarrow n^2 + 2n = 1088 \\Rightarrow n(n+2) = 32 \\times 34$.\n3) Numbers $= 32$ & 34; Sum $= 32 + 34 = \\mathbf{66}$.",
+            "hi": "1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 2180$।\n2) हल करने पर संख्याएँ $= 32$ व 34 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 32 + 34 = \\mathbf{66}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Mid-Number √(S/2 − 1) Shortcut (6 sec)",
+            "hi": "विधि 2: मध्य संख्या √(S/2 − 1) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$m = \\sqrt{\\frac{S}{2} - 1},\\; \\text{Sum} = 2m$",
+          "steps": {
+            "en": "Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 2180 \\Rightarrow m^2 = 1090 - 1 = 1089 \\Rightarrow m = 33 \\Rightarrow \\text{Sum} = 2(33) = \\mathbf{66}$.",
+            "hi": "संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 2180 \\Rightarrow m^2 = 1089 \\Rightarrow m = 33$। अतः योग $= 2 \\times 33 = \\mathbf{66}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation Method: 1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 2180 \\Rightarrow n^2 + 2n = 1088 \\Rightarrow n(n+2) = 32 \\times 34$.\n3) Numbers $= 32$ & 34; Sum $= 32 + 34 = \\mathbf{66}$.\n\nMethod 2: Mid-Number √(S/2 − 1) Shortcut (6 sec): Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 2180 \\Rightarrow m^2 = 1090 - 1 = 1089 \\Rightarrow m = 33 \\Rightarrow \\text{Sum} = 2(33) = \\mathbf{66}$.",
+      "hi": "विधि 1: द्विघात समीकरण विधि: 1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 2180$।\n2) हल करने पर संख्याएँ $= 32$ व 34 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 32 + 34 = \\mathbf{66}$।\n\nविधि 2: मध्य संख्या √(S/2 − 1) ट्रिक: संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 2180 \\Rightarrow m^2 = 1089 \\Rightarrow m = 33$। अतः योग $= 2 \\times 33 = \\mathbf{66}$!"
     }
   },
   {
@@ -2375,10 +2587,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{25}{22}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{25}{22}$) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**$\\frac{25}{22}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{7}{11}$ and combine outer terms ($\\frac{5}{4} - \\frac{3}{4} = \\frac{1}{2}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{7}{11}$ लिखें व बाहरी भिन्न ($\\frac{5}{4} - \\frac{3}{4} = \\frac{1}{2}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{4}{7} = \\frac{11}{7}$, so reciprocal $= \\frac{7}{11}$.\n2) Expression $= \\frac{5}{4} - \\frac{3}{4} + \\frac{7}{11} = \\frac{1}{2} + \\frac{7}{11} = \\mathbf{\\frac{25}{22}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{4}{7}} = \\frac{7}{11}$।\n2) शेष गणना: $\\frac{1}{2} + \\frac{7}{11} = \\mathbf{\\frac{25}{22}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{5}{4} - \\frac{3}{4}\\right) = \\frac{1}{2}$, then cross-multiply $+ \\frac{7}{11}$ = $\\mathbf{\\frac{25}{22}}$!",
+            "hi": "पहले बाहरी $\\frac{1}{2}$ में $\\frac{7}{11}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{25}{22}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{4}{7} = \\frac{11}{7}$, so reciprocal $= \\frac{7}{11}$.\n2) Expression $= \\frac{5}{4} - \\frac{3}{4} + \\frac{7}{11} = \\frac{1}{2} + \\frac{7}{11} = \\mathbf{\\frac{25}{22}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{5}{4} - \\frac{3}{4}\\right) = \\frac{1}{2}$, then cross-multiply $+ \\frac{7}{11}$ = $\\mathbf{\\frac{25}{22}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{4}{7}} = \\frac{7}{11}$।\n2) शेष गणना: $\\frac{1}{2} + \\frac{7}{11} = \\mathbf{\\frac{25}{22}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{1}{2}$ में $\\frac{7}{11}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{25}{22}}$!"
     }
   },
   {

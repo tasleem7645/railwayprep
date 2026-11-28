@@ -356,10 +356,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**1.04**).",
+      "keyConcept": "Square Near 1: (1 + 0.04)² = 1 + 0.08 + 0.0016 = 1.0816",
+      "optionTrick": {
+        "en": "`1.04² = (1 + 0.04)² = 1 + 2(0.04) + 0.0016 = 1.0816` — exact! Also 4 decimal digits in `1.0816` require **2** decimal digits (`1.04`)!",
+        "hi": "`1.0816` में `4` दशमलव स्थान हैं अतः वर्गमूल में `2` दशमलव स्थान होंगे (`1.04² = 1.0816`, क्योंकि `04×2=08` व `4²=16`)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Fraction √(10816 / 10000)",
+            "hi": "विधि 1: भिन्न √(10816/10000) विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $10816 = 104^2$ (since $100^2=10000$ and $(100+4)^2 = 10000 + 800 + 16 = 10816$).\n2) $\\sqrt{\\frac{10816}{10000}} = \\frac{104}{100} = \\mathbf{1.04}$.",
+            "hi": "1) $10816 = (100+4)^2 = 104^2$।\n2) $\\sqrt{1.0816} = \\frac{104}{100} = \\mathbf{1.04}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Base-100 Square Check (100 + 4)² (3 sec)",
+            "hi": "विधि 2: Base-100 वर्ग मिलान (100+4)²"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check `1.0816`: `08` is `2×4` and `16` is `4²` -> instantly **1.04**!",
+            "hi": "`1.0816` को देखते ही समझें: बीच में `4×2=08` और अंत में `4²=16` $\\Rightarrow \\mathbf{1.04}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Fraction √(10816 / 10000): 1) $10816 = 104^2$ (since $100^2=10000$ and $(100+4)^2 = 10000 + 800 + 16 = 10816$).\n2) $\\sqrt{\\frac{10816}{10000}} = \\frac{104}{100} = \\mathbf{1.04}$.\n\nMethod 2: Base-100 Square Check (100 + 4)² (3 sec): Check `1.0816`: `08` is `2×4` and `16` is `4²` -> instantly **1.04**!",
+      "hi": "विधि 1: भिन्न √(10816/10000) विधि: 1) $10816 = (100+4)^2 = 104^2$।\n2) $\\sqrt{1.0816} = \\frac{104}{100} = \\mathbf{1.04}$।\n\nविधि 2: Base-100 वर्ग मिलान (100+4)²: `1.0816` को देखते ही समझें: बीच में `4×2=08` और अंत में `4²=16` $\\Rightarrow \\mathbf{1.04}$!"
     }
   },
   {

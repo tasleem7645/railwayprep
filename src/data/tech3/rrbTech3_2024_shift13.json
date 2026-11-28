@@ -883,10 +883,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**232**).",
+      "keyConcept": "Sum-of-Squares Formula: x² + y² = (x + y)² − 2xy (Plus Factor Guess 14, 6)",
+      "optionTrick": {
+        "en": "Split `84 = 14 × 6` with sum `14 + 6 = 20`! Thus `14² + 6² = 196 + 36` = **232**!",
+        "hi": "तुरंत जोड़ी सोचें: `14 × 6 = 84` और `14 + 6 = 20`! अतः `14² + 6² = 196 + 36` = **232**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Algebraic Identity",
+            "hi": "विधि 1: (x+y)² सर्वसमिका विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$x^2 + y^2 = (x + y)^2 - 2xy$",
+          "steps": {
+            "en": "$x^2 + y^2 = 20^2 - 2(84) = 400 - 168 = \\mathbf{232}$.",
+            "hi": "$x^2 + y^2 = 20^2 - 2(84) = 400 - 168 = \\mathbf{232}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Value Guessing (14, 6) + Unit Digit (4 sec)",
+            "hi": "विधि 2: मान अनुमान (14, 6) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "From $xy = 84, x+y = 20$, numbers are (14, 6) or check unit digit `0 − 8 -> 2`; `$400 - 168 = 232$`!",
+            "hi": "संख्याएँ (14, 6) हैं क्योंकि $14+6=20, 14\\times 6=84$ $\\Rightarrow 196+36 = \\mathbf{232}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Algebraic Identity: $x^2 + y^2 = 20^2 - 2(84) = 400 - 168 = \\mathbf{232}$.\n\nMethod 2: Value Guessing (14, 6) + Unit Digit (4 sec): From $xy = 84, x+y = 20$, numbers are (14, 6) or check unit digit `0 − 8 -> 2`; `$400 - 168 = 232$`!",
+      "hi": "विधि 1: (x+y)² सर्वसमिका विधि: $x^2 + y^2 = 20^2 - 2(84) = 400 - 168 = \\mathbf{232}$।\n\nविधि 2: मान अनुमान (14, 6) ट्रिक: संख्याएँ (14, 6) हैं क्योंकि $14+6=20, 14\\times 6=84$ $\\Rightarrow 196+36 = \\mathbf{232}$।"
     }
   },
   {
@@ -3263,10 +3304,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**6**).",
+      "keyConcept": "Combine Different Bases With Same Power: 2³ × 3³ = 6³",
+      "optionTrick": {
+        "en": "`2³ × 3³ = 6³`, so `6³ × 6³ = 6⁶` -> `M` = **6**!",
+        "hi": "`2³ × 3³ = 6³`, फिर `6³ × 6³ = 6^(3+3) = 6⁶` $\\Rightarrow M = \\mathbf{6}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Combine Base 2 & Base 3",
+            "hi": "विधि 1: समान घात आधार गुणन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$(2 \\times 3)^3 \\times 6^3 = 6^3 \\times 6^3 = 6^{3+3} = 6^6 \\Rightarrow M = \\mathbf{6}$.",
+            "hi": "$(2 \\times 3)^3 \\times 6^3 = 6^3 \\times 6^3 = 6^6 \\Rightarrow M = \\mathbf{6}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Mental Index Match (2 sec)",
+            "hi": "विधि 2: मौखिक घातांक मिलान"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$6^3 \\times 6^3 = 6^{3+3} \\Rightarrow M = \\mathbf{6}$.",
+            "hi": "$6^3 \\times 6^3 = 6^6 \\Rightarrow M = \\mathbf{6}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Combine Base 2 & Base 3: $(2 \\times 3)^3 \\times 6^3 = 6^3 \\times 6^3 = 6^{3+3} = 6^6 \\Rightarrow M = \\mathbf{6}$.\n\nMethod 2: Mental Index Match (2 sec): $6^3 \\times 6^3 = 6^{3+3} \\Rightarrow M = \\mathbf{6}$.",
+      "hi": "विधि 1: समान घात आधार गुणन: $(2 \\times 3)^3 \\times 6^3 = 6^3 \\times 6^3 = 6^6 \\Rightarrow M = \\mathbf{6}$।\n\nविधि 2: मौखिक घातांक मिलान: $6^3 \\times 6^3 = 6^6 \\Rightarrow M = \\mathbf{6}$।"
     }
   },
   {

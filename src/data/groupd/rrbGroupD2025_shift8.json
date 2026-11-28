@@ -1155,10 +1155,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • HCF/LCM Word Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (24 days) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (24 दिन) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**24 days**).",
+      "keyConcept": "Simultaneous Next Meeting = LCM(6, 8, 12)",
+      "optionTrick": {
+        "en": "Multiples of largest (`12`): `12 ÷ 8` fails, next multiple **24** divides by `6, 8, 12` -> **24 days**!",
+        "hi": "सबसे बड़ी संख्या `12` का अगला गुणज **24** तीनों (`6, 8, 12`) से कटता है $\\Rightarrow$ **24 दिन**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: LCM of Cycle Days",
+            "hi": "विधि 1: ल.स. (LCM) विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$\\text{LCM}(6, 8, 12) = 2^3 \\times 3 = \\mathbf{24\\text{ days}}$.",
+            "hi": "$\\text{LCM}(6, 8, 12) = 8 \\times 3 = \\mathbf{24\\text{ दिन}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Largest-Multiple Check (2 sec)",
+            "hi": "विधि 2: बड़ा गुणज ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check multiples of 12: $12, \\mathbf{24}$ (divisible by 8!) $\\Rightarrow \\mathbf{24\\text{ days}}$.",
+            "hi": "12 का गुणज `24` तुरंत `8` और `6` दोनों से विभाज्य है $\\Rightarrow \\mathbf{24\\text{ दिन}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: LCM of Cycle Days: $\\text{LCM}(6, 8, 12) = 2^3 \\times 3 = \\mathbf{24\\text{ days}}$.\n\nMethod 2: Largest-Multiple Check (2 sec): Check multiples of 12: $12, \\mathbf{24}$ (divisible by 8!) $\\Rightarrow \\mathbf{24\\text{ days}}$.",
+      "hi": "विधि 1: ल.स. (LCM) विधि: $\\text{LCM}(6, 8, 12) = 8 \\times 3 = \\mathbf{24\\text{ दिन}}$।\n\nविधि 2: बड़ा गुणज ट्रिक: 12 का गुणज `24` तुरंत `8` और `6` दोनों से विभाज्य है $\\Rightarrow \\mathbf{24\\text{ दिन}}$।"
     }
   },
   {
@@ -1189,10 +1229,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Indices/Exponents",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (512> 166> 274) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (512> 166> 274) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**512> 166> 274**).",
+      "keyConcept": "Equalize Exponents to HCF(6, 4, 12) or Base-12 Exponent Form",
+      "optionTrick": {
+        "en": "Rewrite bases with power `12`: $16^6 = (2^4)^6 = 4^{12}$, $27^4 = (3^3)^4 = 3^{12}$, $5^{12} = 5^{12}$ -> **$5^{12} > 16^6 > 27^4$**!",
+        "hi": "तीनों को समान घात `12` में बदलें: $16^6 = 4^{12}$, $27^4 = 3^{12}$, $5^{12} = 5^{12}$ $\\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert All to Common Exponent 12",
+            "hi": "विधि 1: समान घातांक 12 विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $16^6 = (2^4)^6 = 2^{24} = (2^2)^{12} = 4^{12}$.\n2) $27^4 = (3^3)^4 = 3^{12}$.\n3) Comparing bases with power 12: $5 > 4 > 3 \\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$.",
+            "hi": "1) $16^6 = 2^{24} = 4^{12}$ तथा $27^4 = (3^3)^4 = 3^{12}$।\n2) आधार तुलना ($5 > 4 > 3$) $\\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Compare via HCF(6,4,12)=2 (6 sec)",
+            "hi": "विधि 2: घात म.स. 2 से तुलना"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide exponents by `12`: compare $16^{1/2} = 4$, $27^{1/3} = 3$, and $5^1 = 5 \\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$!",
+            "hi": "घातों को 12 से भाग देकर तुलना करें: $16^{1/2}=4$, $27^{1/3}=3$, $5^1=5 \\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert All to Common Exponent 12: 1) $16^6 = (2^4)^6 = 2^{24} = (2^2)^{12} = 4^{12}$.\n2) $27^4 = (3^3)^4 = 3^{12}$.\n3) Comparing bases with power 12: $5 > 4 > 3 \\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$.\n\nMethod 2: Compare via HCF(6,4,12)=2 (6 sec): Divide exponents by `12`: compare $16^{1/2} = 4$, $27^{1/3} = 3$, and $5^1 = 5 \\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$!",
+      "hi": "विधि 1: समान घातांक 12 विधि: 1) $16^6 = 2^{24} = 4^{12}$ तथा $27^4 = (3^3)^4 = 3^{12}$।\n2) आधार तुलना ($5 > 4 > 3$) $\\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$।\n\nविधि 2: घात म.स. 2 से तुलना: घातों को 12 से भाग देकर तुलना करें: $16^{1/2}=4$, $27^{1/3}=3$, $5^1=5 \\Rightarrow \\mathbf{5^{12} > 16^6 > 27^4}$!"
     }
   },
   {

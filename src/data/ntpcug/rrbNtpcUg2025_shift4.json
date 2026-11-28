@@ -1551,10 +1551,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (26−34) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (26−34) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**26−34**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-19 - (18) + (3) = -34 \\Rightarrow \\mathbf{26^{-34}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-19 - (18) + (3) = -34 \\Rightarrow \\mathbf{26^{-34}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $26^{-19 - (18)} = 26^{-37}$.\n2) Combine third term: $26^{-37 + (3)} = \\mathbf{26^{-34}}$.",
+            "hi": "1) पहले दो पद: $26^{-19 - (18)} = 26^{-37}$।\n2) तीसरा पद जोड़ने पर: $26^{-37 + (3)} = \\mathbf{26^{-34}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 26: $-19 - (18) + (3) = -34 \\Rightarrow \\mathbf{26^{-34}}$.",
+            "hi": "आधार 26 की सभी घातें एक पंक्ति में हल करें: $-19 - (18) + (3) = -34 \\Rightarrow \\mathbf{26^{-34}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $26^{-19 - (18)} = 26^{-37}$.\n2) Combine third term: $26^{-37 + (3)} = \\mathbf{26^{-34}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 26: $-19 - (18) + (3) = -34 \\Rightarrow \\mathbf{26^{-34}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $26^{-19 - (18)} = 26^{-37}$।\n2) तीसरा पद जोड़ने पर: $26^{-37 + (3)} = \\mathbf{26^{-34}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 26 की सभी घातें एक पंक्ति में हल करें: $-19 - (18) + (3) = -34 \\Rightarrow \\mathbf{26^{-34}}$।"
     }
   },
   {
@@ -2386,10 +2431,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{289}{110}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{289}{110}$) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**$\\frac{289}{110}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{8}{11}$ and combine outer terms ($\\frac{5}{2} - \\frac{3}{5} = \\frac{19}{10}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{8}{11}$ लिखें व बाहरी भिन्न ($\\frac{5}{2} - \\frac{3}{5} = \\frac{19}{10}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{3}{8} = \\frac{11}{8}$, so reciprocal $= \\frac{8}{11}$.\n2) Expression $= \\frac{5}{2} - \\frac{3}{5} + \\frac{8}{11} = \\frac{19}{10} + \\frac{8}{11} = \\mathbf{\\frac{289}{110}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{3}{8}} = \\frac{8}{11}$।\n2) शेष गणना: $\\frac{19}{10} + \\frac{8}{11} = \\mathbf{\\frac{289}{110}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{5}{2} - \\frac{3}{5}\\right) = \\frac{19}{10}$, then cross-multiply $+ \\frac{8}{11}$ = $\\mathbf{\\frac{289}{110}}$!",
+            "hi": "पहले बाहरी $\\frac{19}{10}$ में $\\frac{8}{11}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{289}{110}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{3}{8} = \\frac{11}{8}$, so reciprocal $= \\frac{8}{11}$.\n2) Expression $= \\frac{5}{2} - \\frac{3}{5} + \\frac{8}{11} = \\frac{19}{10} + \\frac{8}{11} = \\mathbf{\\frac{289}{110}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{5}{2} - \\frac{3}{5}\\right) = \\frac{19}{10}$, then cross-multiply $+ \\frac{8}{11}$ = $\\mathbf{\\frac{289}{110}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{3}{8}} = \\frac{8}{11}$।\n2) शेष गणना: $\\frac{19}{10} + \\frac{8}{11} = \\mathbf{\\frac{289}{110}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{19}{10}$ में $\\frac{8}{11}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{289}{110}}$!"
     }
   },
   {

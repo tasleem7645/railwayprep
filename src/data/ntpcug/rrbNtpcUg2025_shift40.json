@@ -1990,10 +1990,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{103}{66}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{103}{66}$) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**$\\frac{103}{66}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{8}{11}$ and combine outer terms ($\\frac{5}{2} - \\frac{5}{3} = \\frac{5}{6}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{8}{11}$ लिखें व बाहरी भिन्न ($\\frac{5}{2} - \\frac{5}{3} = \\frac{5}{6}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{3}{8} = \\frac{11}{8}$, so reciprocal $= \\frac{8}{11}$.\n2) Expression $= \\frac{5}{2} - \\frac{5}{3} + \\frac{8}{11} = \\frac{5}{6} + \\frac{8}{11} = \\mathbf{\\frac{103}{66}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{3}{8}} = \\frac{8}{11}$।\n2) शेष गणना: $\\frac{5}{6} + \\frac{8}{11} = \\mathbf{\\frac{103}{66}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{5}{2} - \\frac{5}{3}\\right) = \\frac{5}{6}$, then cross-multiply $+ \\frac{8}{11}$ = $\\mathbf{\\frac{103}{66}}$!",
+            "hi": "पहले बाहरी $\\frac{5}{6}$ में $\\frac{8}{11}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{103}{66}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{3}{8} = \\frac{11}{8}$, so reciprocal $= \\frac{8}{11}$.\n2) Expression $= \\frac{5}{2} - \\frac{5}{3} + \\frac{8}{11} = \\frac{5}{6} + \\frac{8}{11} = \\mathbf{\\frac{103}{66}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{5}{2} - \\frac{5}{3}\\right) = \\frac{5}{6}$, then cross-multiply $+ \\frac{8}{11}$ = $\\mathbf{\\frac{103}{66}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{3}{8}} = \\frac{8}{11}$।\n2) शेष गणना: $\\frac{5}{6} + \\frac{8}{11} = \\mathbf{\\frac{103}{66}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{5}{6}$ में $\\frac{8}{11}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{103}{66}}$!"
     }
   },
   {
@@ -2319,10 +2360,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−100x + 126) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−100x + 126) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**−100x + 126**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($4x^2 - 4x^2 = 0$), check signs directly: $x$ term $= -72 - 28 = -100x$ (negative!) and constant $= +54 + 72 = +126$ (**positive!**). Sign pair `(−, +)` uniquely locks Option B!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-100x$) व अचर पद धनात्मक ($+126$) होना तुरंत `(−, +)` चिह्न वाला विकल्प B पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-4 \\times (-18) = +72$ (NOT $-72$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-4 \\times (-18) = +72$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $4x^2 - 72x + 54$.\n2) Expand second bracket: $-4x^2 - 28x + 72$.\n3) Combine like terms: $(4 - 4)x^2 + (-72 - 28)x + (54 + 72) = \\mathbf{-100x + 126}$.",
+            "hi": "1) पहला कोष्ठक: $4x^2 - 72x + 54$।\n2) दूसरा कोष्ठक: $-4x^2 - 28x + 72$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-100x + 126}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(18) - 4(-18) = 54 + 72 = +126$. Since both $x$ terms are negative ($-72x - 28x$), only `−100x + 126` has `(−x, +126)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +54 + 72 = +126$ व दोनों $x$-पद ऋणात्मक ($-72x - 28x = -100x$) $\\Rightarrow$ तुरंत **−100x + 126**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $4x^2 - 72x + 54$.\n2) Expand second bracket: $-4x^2 - 28x + 72$.\n3) Combine like terms: $(4 - 4)x^2 + (-72 - 28)x + (54 + 72) = \\mathbf{-100x + 126}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(18) - 4(-18) = 54 + 72 = +126$. Since both $x$ terms are negative ($-72x - 28x$), only `−100x + 126` has `(−x, +126)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $4x^2 - 72x + 54$।\n2) दूसरा कोष्ठक: $-4x^2 - 28x + 72$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-100x + 126}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +54 + 72 = +126$ व दोनों $x$-पद ऋणात्मक ($-72x - 28x = -100x$) $\\Rightarrow$ तुरंत **−100x + 126**!"
     }
   },
   {

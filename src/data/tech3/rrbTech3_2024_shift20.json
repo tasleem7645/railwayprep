@@ -153,10 +153,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**$\\frac{1}{3}$**).",
+      "keyConcept": "Pure Repeating Decimal: 0.3̅ = 3/9 = 1/3",
+      "optionTrick": {
+        "en": "Remember `0.333...` = **1/3** (and `3/9` reduces to `1/3`, NOT `1/33`!)!",
+        "hi": "`0.333... = 3/9` जो सरल होकर **1/3** बनता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Algebra x = 0.333...",
+            "hi": "विधि 1: बीजीय समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Let $x = 0.333\\dots$, then $10x = 3.333\\dots \\Rightarrow 9x = 3 \\Rightarrow x = \\frac{3}{9} = \\mathbf{\\frac{1}{3}}$.",
+            "hi": "मानें $x = 0.333\\dots$, अतः $10x - x = 3 \\Rightarrow 9x = 3 \\Rightarrow x = \\mathbf{\\frac{1}{3}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Bar Rule 3/9 (2 sec)",
+            "hi": "विधि 2: सीधी बार-नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$0.\\overline{3} = \\frac{3}{9} = \\mathbf{\\frac{1}{3}}$.",
+            "hi": "$0.\\overline{3} = \\frac{3}{9} = \\mathbf{\\frac{1}{3}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Algebra x = 0.333...: Let $x = 0.333\\dots$, then $10x = 3.333\\dots \\Rightarrow 9x = 3 \\Rightarrow x = \\frac{3}{9} = \\mathbf{\\frac{1}{3}}$.\n\nMethod 2: Direct Bar Rule 3/9 (2 sec): $0.\\overline{3} = \\frac{3}{9} = \\mathbf{\\frac{1}{3}}$.",
+      "hi": "विधि 1: बीजीय समीकरण विधि: मानें $x = 0.333\\dots$, अतः $10x - x = 3 \\Rightarrow 9x = 3 \\Rightarrow x = \\mathbf{\\frac{1}{3}}$।\n\nविधि 2: सीधी बार-नियम ट्रिक: $0.\\overline{3} = \\frac{3}{9} = \\mathbf{\\frac{1}{3}}$।"
     }
   },
   {
@@ -846,10 +886,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**22**).",
+      "keyConcept": "Negative × Negative = Positive + Division Priority",
+      "optionTrick": {
+        "en": "`(-20) × (-1) = +20` and `14 ÷ 7 = +2` -> `20 + 2` = **22**!",
+        "hi": "`(-20) × (-1) = +20` और `14 ÷ 7 = +2` $\\Rightarrow 20 + 2 = \\mathbf{22}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: BODMAS Sign Care",
+            "hi": "विधि 1: BODMAS व चिह्न नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "6 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$(-20)\\times(-1) + (14 \\div 7) = 20 + 2 = \\mathbf{22}$.",
+            "hi": "$20 + 2 = \\mathbf{22}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Positive Sum Mental Check (2 sec)",
+            "hi": "विधि 2: चिह्न जांच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Minus × Minus yields `+20`; `+20 + 2` MUST be $> 20 \\Rightarrow \\mathbf{22}$.",
+            "hi": "दोनों पद धनात्मक हैं (`20 + 2`) $\\Rightarrow \\mathbf{22}$।"
+          }
+        }
+      ],
+      "en": "Method 1: BODMAS Sign Care: $(-20)\\times(-1) + (14 \\div 7) = 20 + 2 = \\mathbf{22}$.\n\nMethod 2: Positive Sum Mental Check (2 sec): Minus × Minus yields `+20`; `+20 + 2` MUST be $> 20 \\Rightarrow \\mathbf{22}$.",
+      "hi": "विधि 1: BODMAS व चिह्न नियम: $20 + 2 = \\mathbf{22}$।\n\nविधि 2: चिह्न जांच: दोनों पद धनात्मक हैं (`20 + 2`) $\\Rightarrow \\mathbf{22}$।"
     }
   },
   {
@@ -1567,10 +1647,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**4**).",
+      "keyConcept": "Fractional Exponents: x^(1/2) = √x, Y⁻¹ = 1/Y, z^(2/3) = (∛z)²",
+      "optionTrick": {
+        "en": "`9^{1/2} = 3` cancels `Y⁻¹ = 1/3` directly!! Only `8^{2/3} = 2²` = **4** remains!",
+        "hi": "`9^(1/2) = 3` और `Y⁻¹ = 1/3` आपस में तुरंत कट गए! केवल `8^(2/3) = 2²` = **4** बचा!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Evaluate Each Power",
+            "hi": "विधि 1: प्रत्येक घात का मान निकालना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $9^{1/2} = 3$, $3^{-1} = \\frac{1}{3}$, $8^{2/3} = (2^3)^{2/3} = 2^2 = 4$.\n2) Multiply: $3 \\times \\frac{1}{3} \\times 4 = \\mathbf{4}$.",
+            "hi": "1) $9^{1/2} = 3$, $3^{-1} = \\frac{1}{3}$, $8^{2/3} = 2^2 = 4$।\n2) गुणनफल: $3 \\times \\frac{1}{3} \\times 4 = \\mathbf{4}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √9 × 1/3 = 1 First (3 sec)",
+            "hi": "विधि 2: √9 × 1/3 = 1 निरसन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "First two factors cancel ($3 \\cdot 3^{-1} = 1$); simply evaluate $8^{2/3} = 2^2 = \\mathbf{4}$!",
+            "hi": "प्रथम दो पद $3 \\times \\frac{1}{3} = 1$ कट जाते हैं, सीधे $8^{2/3} = \\mathbf{4}$ उत्तर!"
+          }
+        }
+      ],
+      "en": "Method 1: Evaluate Each Power: 1) $9^{1/2} = 3$, $3^{-1} = \\frac{1}{3}$, $8^{2/3} = (2^3)^{2/3} = 2^2 = 4$.\n2) Multiply: $3 \\times \\frac{1}{3} \\times 4 = \\mathbf{4}$.\n\nMethod 2: Cancel √9 × 1/3 = 1 First (3 sec): First two factors cancel ($3 \\cdot 3^{-1} = 1$); simply evaluate $8^{2/3} = 2^2 = \\mathbf{4}$!",
+      "hi": "विधि 1: प्रत्येक घात का मान निकालना: 1) $9^{1/2} = 3$, $3^{-1} = \\frac{1}{3}$, $8^{2/3} = 2^2 = 4$।\n2) गुणनफल: $3 \\times \\frac{1}{3} \\times 4 = \\mathbf{4}$।\n\nविधि 2: √9 × 1/3 = 1 निरसन ट्रिक: प्रथम दो पद $3 \\times \\frac{1}{3} = 1$ कट जाते हैं, सीधे $8^{2/3} = \\mathbf{4}$ उत्तर!"
     }
   },
   {

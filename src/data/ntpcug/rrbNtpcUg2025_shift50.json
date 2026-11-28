@@ -1748,10 +1748,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (1156) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (1156) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**1156**).",
+      "keyConcept": "Duplex / Algebraic (a + b)² Split for Fast Squaring",
+      "optionTrick": {
+        "en": "Last 2 digits check ($34^2 \\bmod 100 = 56$) narrows instantly to **1156**!",
+        "hi": "अंतिम दो अंक (56) व निकटतम वर्ग अनुमान सीधे **1156** तय करते हैं!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Multiplication / (a+b)² Split",
+            "hi": "विधि 1: बेसिक गुणन / (a+b)² विस्तार"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$34 \\times 34 = (30 + 4)^2 = 900 + 2(30)(4) + 16 = \\mathbf{1156}$.",
+            "hi": "$(30 + 4)^2 = 900 + 240 + 16 = \\mathbf{1156}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Base/Duplex Square Method (6 sec)",
+            "hi": "विधि 2: आधार व डुप्लेक्स वर्ग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Using $N^2 = (N - d)(N + d) + d^2$ or Duplex method yields exact last 2 digits `56` and total $\\mathbf{1156}$.",
+            "hi": "सर्वसमिका $(N-d)(N+d)+d^2$ व अंतिम दो अंकों (`56`) से त्वरित उत्तर $\\mathbf{1156}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Multiplication / (a+b)² Split: $34 \\times 34 = (30 + 4)^2 = 900 + 2(30)(4) + 16 = \\mathbf{1156}$.\n\nMethod 2: Base/Duplex Square Method (6 sec): Using $N^2 = (N - d)(N + d) + d^2$ or Duplex method yields exact last 2 digits `56` and total $\\mathbf{1156}$.",
+      "hi": "विधि 1: बेसिक गुणन / (a+b)² विस्तार: $(30 + 4)^2 = 900 + 240 + 16 = \\mathbf{1156}$।\n\nविधि 2: आधार व डुप्लेक्स वर्ग ट्रिक: सर्वसमिका $(N-d)(N+d)+d^2$ व अंतिम दो अंकों (`56`) से त्वरित उत्तर $\\mathbf{1156}$!"
     }
   },
   {
@@ -2076,10 +2116,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (140) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (140) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**140**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `0`; test which option × `8` ends in `0` -> **140**!",
+        "hi": "इकाई अंक नियम: $(28 \\times 840)$ का इकाई अंक `0` है; विकल्प × `8` करने पर `0` केवल **140** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{28 \\times 840}{168} = \\mathbf{140}$.",
+            "hi": "दूसरी संख्या $= \\frac{28 \\times 840}{168} = \\mathbf{140}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 6$ directly: $\\frac{840}{6} = \\mathbf{140}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 168/28 = 6$ निकालें, फिर $\\frac{840}{6} = \\mathbf{140}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{28 \\times 840}{168} = \\mathbf{140}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 6$ directly: $\\frac{840}{6} = \\mathbf{140}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{28 \\times 840}{168} = \\mathbf{140}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 168/28 = 6$ निकालें, फिर $\\frac{840}{6} = \\mathbf{140}$!"
     }
   },
   {
@@ -2320,10 +2401,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (10) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (10) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**10**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `0`; test which option × `2` ends in `0` -> **10**!",
+        "hi": "इकाई अंक नियम: $(2 \\times 410)$ का इकाई अंक `0` है; विकल्प × `2` करने पर `0` केवल **10** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{2 \\times 410}{82} = \\mathbf{10}$.",
+            "hi": "दूसरी संख्या $= \\frac{2 \\times 410}{82} = \\mathbf{10}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 41$ directly: $\\frac{410}{41} = \\mathbf{10}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 82/2 = 41$ निकालें, फिर $\\frac{410}{41} = \\mathbf{10}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{2 \\times 410}{82} = \\mathbf{10}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 41$ directly: $\\frac{410}{41} = \\mathbf{10}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{2 \\times 410}{82} = \\mathbf{10}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 82/2 = 41$ निकालें, फिर $\\frac{410}{41} = \\mathbf{10}$!"
     }
   },
   {

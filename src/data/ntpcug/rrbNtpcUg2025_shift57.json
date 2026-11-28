@@ -1551,10 +1551,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (5) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**5**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 5",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **5**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **5** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 5)",
+            "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 869671195 by **5** yields quotient **173934239** with remainder **0**.\n2) Eliminating others: 13 (rem 3), 15 (rem 10), 12 (rem 7) — none divides evenly.",
+            "hi": "1) 869671195 को **5** से भाग देने पर सटीक भागफल **173934239** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 13 (rem 3), 15 (rem 10), 12 (rem 7) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 5",
+            "hi": "विधि 2: 5 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+            "hi": "इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 5): 1) Dividing 869671195 by **5** yields quotient **173934239** with remainder **0**.\n2) Eliminating others: 13 (rem 3), 15 (rem 10), 12 (rem 7) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 5: Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+      "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन: 1) 869671195 को **5** से भाग देने पर सटीक भागफल **173934239** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 13 (rem 3), 15 (rem 10), 12 (rem 7) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 5 का स्मार्ट विभाज्यता नियम: इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
     }
   },
   {
@@ -1946,10 +1986,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−93x + 144) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−93x + 144) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**−93x + 144**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($6x^2 - 6x^2 = 0$), check signs directly: $x$ term $= -69 - 24 = -93x$ (negative!) and constant $= +54 + 90 = +144$ (**positive!**). Sign pair `(−, +)` uniquely locks Option D!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-93x$) व अचर पद धनात्मक ($+144$) होना तुरंत `(−, +)` चिह्न वाला विकल्प D पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-6 \\times (-15) = +90$ (NOT $-90$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-6 \\times (-15) = +90$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $6x^2 - 69x + 54$.\n2) Expand second bracket: $-6x^2 - 24x + 90$.\n3) Combine like terms: $(6 - 6)x^2 + (-69 - 24)x + (54 + 90) = \\mathbf{-93x + 144}$.",
+            "hi": "1) पहला कोष्ठक: $6x^2 - 69x + 54$।\n2) दूसरा कोष्ठक: $-6x^2 - 24x + 90$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-93x + 144}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(18) - 6(-15) = 54 + 90 = +144$. Since both $x$ terms are negative ($-69x - 24x$), only `−93x + 144` has `(−x, +144)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +54 + 90 = +144$ व दोनों $x$-पद ऋणात्मक ($-69x - 24x = -93x$) $\\Rightarrow$ तुरंत **−93x + 144**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $6x^2 - 69x + 54$.\n2) Expand second bracket: $-6x^2 - 24x + 90$.\n3) Combine like terms: $(6 - 6)x^2 + (-69 - 24)x + (54 + 90) = \\mathbf{-93x + 144}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(18) - 6(-15) = 54 + 90 = +144$. Since both $x$ terms are negative ($-69x - 24x$), only `−93x + 144` has `(−x, +144)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $6x^2 - 69x + 54$।\n2) दूसरा कोष्ठक: $-6x^2 - 24x + 90$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-93x + 144}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +54 + 90 = +144$ व दोनों $x$-पद ऋणात्मक ($-69x - 24x = -93x$) $\\Rightarrow$ तुरंत **−93x + 144**!"
     }
   },
   {
@@ -2111,10 +2196,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C ($\\frac{19}{65}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C ($\\frac{19}{65}$) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**$\\frac{19}{65}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{9}{13}$ and combine outer terms ($\\frac{2}{5} - \\frac{4}{5} = \\frac{-2}{5}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{9}{13}$ लिखें व बाहरी भिन्न ($\\frac{2}{5} - \\frac{4}{5} = \\frac{-2}{5}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{4}{9} = \\frac{13}{9}$, so reciprocal $= \\frac{9}{13}$.\n2) Expression $= \\frac{2}{5} - \\frac{4}{5} + \\frac{9}{13} = \\frac{-2}{5} + \\frac{9}{13} = \\mathbf{\\frac{19}{65}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{4}{9}} = \\frac{9}{13}$।\n2) शेष गणना: $\\frac{-2}{5} + \\frac{9}{13} = \\mathbf{\\frac{19}{65}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{2}{5} - \\frac{4}{5}\\right) = \\frac{-2}{5}$, then cross-multiply $+ \\frac{9}{13}$ = $\\mathbf{\\frac{19}{65}}$!",
+            "hi": "पहले बाहरी $\\frac{-2}{5}$ में $\\frac{9}{13}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{19}{65}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{4}{9} = \\frac{13}{9}$, so reciprocal $= \\frac{9}{13}$.\n2) Expression $= \\frac{2}{5} - \\frac{4}{5} + \\frac{9}{13} = \\frac{-2}{5} + \\frac{9}{13} = \\mathbf{\\frac{19}{65}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{2}{5} - \\frac{4}{5}\\right) = \\frac{-2}{5}$, then cross-multiply $+ \\frac{9}{13}$ = $\\mathbf{\\frac{19}{65}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{4}{9}} = \\frac{9}{13}$।\n2) शेष गणना: $\\frac{-2}{5} + \\frac{9}{13} = \\mathbf{\\frac{19}{65}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{-2}{5}$ में $\\frac{9}{13}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{19}{65}}$!"
     }
   },
   {
@@ -2276,10 +2402,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B ($\\frac{1}{5250^{23}}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B ($\\frac{1}{5250^{23}}$) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**$\\frac{1}{5250^{23}}$**).",
+      "keyConcept": "Same-Exponent Product Rule: a^(−n) × b^(−n) × c^(−n) = 1 / (abc)^n",
+      "optionTrick": {
+        "en": "Check unit digit / last two digits of $14 \\times 25 \\times 15$: 5250 (`16×5=80` / `25×14=350`) -> $\\mathbf{\\frac{1}{5250^{23}}}$!",
+        "hi": "गुणनफल $14 \\times 25 \\times 15 = 5250$ निकालते ही उत्तर $\\mathbf{\\frac{1}{5250^{23}}}$ पक्का हो जाता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Negative Exponent + Base Product",
+            "hi": "विधि 1: ऋणात्मक घातांक व आधार गुणन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$a^{-n} \\cdot b^{-n} \\cdot c^{-n} = (abc)^{-n} = \\frac{1}{(abc)^n}$",
+          "steps": {
+            "en": "1) Common exponent $= -23 \\Rightarrow (14 \\times 25 \\times 15)^{-23}$.\n2) Base product $= 5250 \\Rightarrow \\mathbf{\\frac{1}{5250^{23}}}$.",
+            "hi": "1) समान घात $-23$ उभयनिष्ठ लेने पर $= (14 \\times 25 \\times 15)^{-23}$।\n2) गुणनफल $= 5250 \\Rightarrow \\mathbf{\\frac{1}{5250^{23}}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Pair Mental Multiply (5 sec)",
+            "hi": "विधि 2: शून्य-युग्म मानसिक गुणा ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Spot even × multiple-of-5 zero pair ($14\\times 25 = 350$), multiply by 15 $\\Rightarrow 5250$, flip negative power $\\Rightarrow \\mathbf{\\frac{1}{5250^{23}}}$.",
+            "hi": "पहले 5-गुणज व सम संख्या की गुणा से शून्य बनाएँ: $14 \\times 25 \\times 15 = 5250 \\Rightarrow \\mathbf{\\frac{1}{5250^{23}}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Negative Exponent + Base Product: 1) Common exponent $= -23 \\Rightarrow (14 \\times 25 \\times 15)^{-23}$.\n2) Base product $= 5250 \\Rightarrow \\mathbf{\\frac{1}{5250^{23}}}$.\n\nMethod 2: Zero-Pair Mental Multiply (5 sec): Spot even × multiple-of-5 zero pair ($14\\times 25 = 350$), multiply by 15 $\\Rightarrow 5250$, flip negative power $\\Rightarrow \\mathbf{\\frac{1}{5250^{23}}}$.",
+      "hi": "विधि 1: ऋणात्मक घातांक व आधार गुणन: 1) समान घात $-23$ उभयनिष्ठ लेने पर $= (14 \\times 25 \\times 15)^{-23}$।\n2) गुणनफल $= 5250 \\Rightarrow \\mathbf{\\frac{1}{5250^{23}}}$।\n\nविधि 2: शून्य-युग्म मानसिक गुणा ट्रिक: पहले 5-गुणज व सम संख्या की गुणा से शून्य बनाएँ: $14 \\times 25 \\times 15 = 5250 \\Rightarrow \\mathbf{\\frac{1}{5250^{23}}}$।"
     }
   },
   {

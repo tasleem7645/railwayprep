@@ -587,10 +587,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**$\\frac{-7}{48}$**).",
+      "keyConcept": "Double Negative Cancellation: (−5)/(−12) = +5/12",
+      "trapAlert": {
+        "en": "Careful! Two minus signs in $\\frac{-5}{-12}$ cancel to $+\\frac{5}{12}$, while $\\frac{9}{-16} = -\\frac{9}{16}$ stays negative!",
+        "hi": "सावधान चिह्न जाल: $\\frac{-5}{-12} = +\\frac{5}{12}$ (धनात्मक!) बनता है, जबकि $\\frac{9}{-16} = -\\frac{9}{16}$ ऋणात्मक रहेगा!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Normalize Signs + LCM = 48",
+            "hi": "विधि 1: चिह्न सुधार व ल.स. 48"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $-\\frac{9}{16} + \\frac{5}{12}$ (since $(-5)/(-12) = +5/12$).\n2) $\\text{LCM}(16, 12) = 48 \\Rightarrow \\frac{-27 + 20}{48} = \\mathbf{\\frac{-7}{48}}$.",
+            "hi": "1) $-\\frac{9}{16} + \\frac{5}{12}$ (ल.स. $= 48$)।\n2) $\\frac{-27 + 20}{48} = \\mathbf{\\frac{-7}{48}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cross-Multiply Over 48 (4 sec)",
+            "hi": "विधि 2: वज्र-गुणन (हर 48) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$\\frac{-27 + 20}{48} = \\mathbf{\\frac{-7}{48}}$ (only option with valid prime numerator 7 & denominator 48).",
+            "hi": "हर `48` केवल विकल्प C में वैध रूप से मेल खाता है ($\\frac{-27+20}{48} = \\mathbf{\\frac{-7}{48}}$)!"
+          }
+        }
+      ],
+      "en": "Method 1: Normalize Signs + LCM = 48: 1) $-\\frac{9}{16} + \\frac{5}{12}$ (since $(-5)/(-12) = +5/12$).\n2) $\\text{LCM}(16, 12) = 48 \\Rightarrow \\frac{-27 + 20}{48} = \\mathbf{\\frac{-7}{48}}$.\n\nMethod 2: Cross-Multiply Over 48 (4 sec): $\\frac{-27 + 20}{48} = \\mathbf{\\frac{-7}{48}}$ (only option with valid prime numerator 7 & denominator 48).",
+      "hi": "विधि 1: चिह्न सुधार व ल.स. 48: 1) $-\\frac{9}{16} + \\frac{5}{12}$ (ल.स. $= 48$)।\n2) $\\frac{-27 + 20}{48} = \\mathbf{\\frac{-7}{48}}$।\n\nविधि 2: वज्र-गुणन (हर 48) ट्रिक: हर `48` केवल विकल्प C में वैध रूप से मेल खाता है ($\\frac{-27+20}{48} = \\mathbf{\\frac{-7}{48}}$)!"
     }
   },
   {
@@ -3269,10 +3309,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**2**).",
+      "keyConcept": "Negative Half Exponent: (1/4)^(−1/2) = 4^(1/2) = √4",
+      "optionTrick": {
+        "en": "Flip `1/4 -> 4`, take square root `√4` = **2**!",
+        "hi": "`1/4` पलटें $\\to 4$, वर्गमूल `√4` = **2**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Invert Base + Square Root",
+            "hi": "विधि 1: व्युत्क्रम व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "6 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$\\left(\\frac{1}{4}\\right)^{-1/2} = 4^{1/2} = \\sqrt{4} = \\mathbf{2}$.",
+            "hi": "$(4)^{1/2} = \\sqrt{4} = \\mathbf{2}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Power Rule (2⁻²)⁻¹/² = 2¹ (2 sec)",
+            "hi": "विधि 2: घात गुणा नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$(2^{-2})^{-1/2} = 2^{(-2)(-1/2)} = 2^1 = \\mathbf{2}$.",
+            "hi": "$(2^{-2})^{-1/2} = 2^1 = \\mathbf{2}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Invert Base + Square Root: $\\left(\\frac{1}{4}\\right)^{-1/2} = 4^{1/2} = \\sqrt{4} = \\mathbf{2}$.\n\nMethod 2: Power Rule (2⁻²)⁻¹/² = 2¹ (2 sec): $(2^{-2})^{-1/2} = 2^{(-2)(-1/2)} = 2^1 = \\mathbf{2}$.",
+      "hi": "विधि 1: व्युत्क्रम व वर्गमूल विधि: $(4)^{1/2} = \\sqrt{4} = \\mathbf{2}$।\n\nविधि 2: घात गुणा नियम: $(2^{-2})^{-1/2} = 2^1 = \\mathbf{2}$।"
     }
   },
   {

@@ -1283,10 +1283,54 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Prime & Composite Numbers",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (160) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (160) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**160**).",
+      "keyConcept": "Prime Count Benchmark: Sum(Primes <= 29) = 129, plus 31 = 160",
+      "optionTrick": {
+        "en": "Memorize: First 10 primes (`2..29`) sum to **129**; add `31` $\\Rightarrow 129 + 31 = \\mathbf{160}$ (watch `161` trap from forgetting `2` is prime or adding `1`)!",
+        "hi": "याद रखें: प्रथम 10 अभाज्य (`2..29`) का योग = **129**, इसमें `31` जोड़ने पर $129 + 31 = \\mathbf{160}$ (`1` अभाज्य नहीं है, पर `2` अभाज्य है)!"
+      },
+      "trapAlert": {
+        "en": "Never skip `2` (`even prime`) or wrongly include `1` (1 is neither prime nor composite)!",
+        "hi": "`2` एकमात्र सम अभाज्य संख्या है (इसे न छोड़ें) तथा `1` अभाज्य नहीं है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: List & Add Primes Between 0 & 32",
+            "hi": "विधि 1: 0 से 32 की सभी अभाज्य संख्याओं का योग"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Primes between 0 and 32: $2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 + 31 = \\mathbf{160}$.",
+            "hi": "अभाज्य संख्याएँ: $2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 + 31 = \\mathbf{160}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Pair Sums to 30/40 + Parity Check (6 sec)",
+            "hi": "विधि 2: दस-दस युग्म जोड़ व सम-विषम जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Group pairs: $2 + (3+17) + (7+13) + (11+29) + (19+31) + (5+23) = 2 + 20 + 20 + 40 + 50 + 28 = \\mathbf{160}$ (10 odd primes + 1 even `2` MUST give **EVEN** sum `160` -> eliminates `131` & `161`!).",
+            "hi": "दस विषम अभाज्य का योग सम होगा और उसमें `2` जोड़ने पर भी **सम संख्या** (`160`) ही आएगी (`131, 161` बाहर)!"
+          }
+        }
+      ],
+      "en": "Method 1: List & Add Primes Between 0 & 32: Primes between 0 and 32: $2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 + 31 = \\mathbf{160}$.\n\nMethod 2: Pair Sums to 30/40 + Parity Check (6 sec): Group pairs: $2 + (3+17) + (7+13) + (11+29) + (19+31) + (5+23) = 2 + 20 + 20 + 40 + 50 + 28 = \\mathbf{160}$ (10 odd primes + 1 even `2` MUST give **EVEN** sum `160` -> eliminates `131` & `161`!).",
+      "hi": "विधि 1: 0 से 32 की सभी अभाज्य संख्याओं का योग: अभाज्य संख्याएँ: $2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 + 23 + 29 + 31 = \\mathbf{160}$।\n\nविधि 2: दस-दस युग्म जोड़ व सम-विषम जाँच: दस विषम अभाज्य का योग सम होगा और उसमें `2` जोड़ने पर भी **सम संख्या** (`160`) ही आएगी (`131, 161` बाहर)!"
     }
   },
   {

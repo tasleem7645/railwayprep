@@ -1214,10 +1214,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**4**).",
+      "keyConcept": "Collinear Segment Condition: B lies on AC <=> AB + BC = AC",
+      "optionTrick": {
+        "en": "`(k+3) + 2k = 5k − 5` -> `3k + 3 = 5k − 5` -> `2k = 8` -> `k` = **4**!",
+        "hi": "सरेखता समीकरण $3k + 3 = 5k - 5 \\Rightarrow 2k = 8 \\Rightarrow k = \\mathbf{4}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Segment Addition Formula",
+            "hi": "विधि 1: रेखाखंड योग नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$(k + 3) + 2k = 5k - 5 \\Rightarrow 3k + 3 = 5k - 5 \\Rightarrow 2k = 8 \\Rightarrow k = \\mathbf{4}$.",
+            "hi": "$(k + 3) + 2k = 5k - 5 \\Rightarrow 2k = 8 \\Rightarrow k = \\mathbf{4}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Coefficient Jump (3 sec)",
+            "hi": "विधि 2: गुणांक अंतर ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$(5k - 3k) = 3 + 5 \\Rightarrow 2k = 8 \\Rightarrow k = \\mathbf{4}$.",
+            "hi": "$(5k - 3k) = 3 + 5 \\Rightarrow k = \\mathbf{4}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Segment Addition Formula: $(k + 3) + 2k = 5k - 5 \\Rightarrow 3k + 3 = 5k - 5 \\Rightarrow 2k = 8 \\Rightarrow k = \\mathbf{4}$.\n\nMethod 2: Direct Coefficient Jump (3 sec): $(5k - 3k) = 3 + 5 \\Rightarrow 2k = 8 \\Rightarrow k = \\mathbf{4}$.",
+      "hi": "विधि 1: रेखाखंड योग नियम: $(k + 3) + 2k = 5k - 5 \\Rightarrow 2k = 8 \\Rightarrow k = \\mathbf{4}$।\n\nविधि 2: गुणांक अंतर ट्रिक: $(5k - 3k) = 3 + 5 \\Rightarrow k = \\mathbf{4}$!"
     }
   },
   {
@@ -3024,10 +3064,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Geometry & Mensuration",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**12**).",
+      "keyConcept": "Next Square After 6072: Bracket Near 75² = 5625 and 80² = 6400",
+      "optionTrick": {
+        "en": "A perfect square ends in `0, 1, 4, 5, 6, 9` (`NEVER 2, 3, 7, 8`)! Add options to `6072`: `+16 -> 8`, `+12 -> 4`, `+10 -> 2`, `+6 -> 8`!! **ONLY `+12` (`6084`) avoids forbidden unit digits `2` & `8`!**",
+        "hi": "पूर्ण वर्ग के अंत में कभी `2, 3, 7, 8` नहीं आते! `6072` में विकल्प जोड़ें: `+16→8`, `+12→4✓`, `+10→2`, `+6→8`! केवल **+12** (`6084 = 78²`) वैध इकाई अंक देता है — बिना वर्गमूल निकाले!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Locate Next Perfect Square (78²)",
+            "hi": "विधि 1: निकटतम अगला पूर्ण वर्ग (78²)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $77^2 = 5929 < 6072 < 78^2$.\n2) Compute $78^2 = (80 - 2)^2 = 6400 - 320 + 4 = 6084$.\n3) Least number to add $= 6084 - 6072 = \\mathbf{12}$.",
+            "hi": "1) $77^2 = 5929 < 6072 < 78^2$।\n2) $78^2 = 6084$।\n3) जोड़ी जाने वाली न्यूनतम संख्या $= 6084 - 6072 = \\mathbf{12}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Forbidden Square Unit Digit Trick (3 sec)",
+            "hi": "विधि 2: वर्जित इकाई अंक (2,3,7,8) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "No perfect square ever ends in `2, 3, 7, 8`! Test last digit of `6072 + option`: `2+16=..8✗`, `2+12=..4✓`, `2+10=..2✗`, `2+6=..8✗` $\\Rightarrow$ **12** in 3 seconds!",
+            "hi": "पूर्ण वर्ग का इकाई अंक कभी `2, 3, 7, 8` नहीं होता — `6072` में `16(→8)`, `10(→2)`, `6(→8)` कटते हैं, केवल **12** (`6084`, अंत `4✓`) बचता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Locate Next Perfect Square (78²): 1) $77^2 = 5929 < 6072 < 78^2$.\n2) Compute $78^2 = (80 - 2)^2 = 6400 - 320 + 4 = 6084$.\n3) Least number to add $= 6084 - 6072 = \\mathbf{12}$.\n\nMethod 2: Forbidden Square Unit Digit Trick (3 sec): No perfect square ever ends in `2, 3, 7, 8`! Test last digit of `6072 + option`: `2+16=..8✗`, `2+12=..4✓`, `2+10=..2✗`, `2+6=..8✗` $\\Rightarrow$ **12** in 3 seconds!",
+      "hi": "विधि 1: निकटतम अगला पूर्ण वर्ग (78²): 1) $77^2 = 5929 < 6072 < 78^2$।\n2) $78^2 = 6084$।\n3) जोड़ी जाने वाली न्यूनतम संख्या $= 6084 - 6072 = \\mathbf{12}$।\n\nविधि 2: वर्जित इकाई अंक (2,3,7,8) ट्रिक: पूर्ण वर्ग का इकाई अंक कभी `2, 3, 7, 8` नहीं होता — `6072` में `16(→8)`, `10(→2)`, `6(→8)` कटते हैं, केवल **12** (`6084`, अंत `4✓`) बचता है!"
     }
   },
   {

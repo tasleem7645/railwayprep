@@ -1758,10 +1758,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Order of Operations",
-      "en": "Numerator: (7/2 ÷ 3/2 × 5/2) = (7/3 × 5/2) = 35/6. Denominator: 8 ÷ (5/2 × 1/2) = 8 ÷ 5/4 = 32/5. Expression = (35/6)/(32/5) ÷ 25/8 = (175/192) × (8/25) = 7/24. Correct Answer: Option D (7/24).",
-      "hi": "अंश: (7/2 ÷ 3/2 × 5/2) = (7/3 × 5/2) = 35/6। हर: 8 ÷ (5/2 × 1/2) = 8 ÷ 5/4 = 32/5। व्यंजक = (35/6)/(32/5) ÷ 25/8 = (175/192) × (8/25) = 7/24। सही उत्तर: विकल्प D (7/24)।"
+      "approach": "Official Answer: Option D (**7/24**).",
+      "keyConcept": "VBODMAS Rule: \"of\" Strictly Precedes \"÷\" and \"×\"",
+      "trapAlert": {
+        "en": "Trap in Denominator: Calculate `(5/2 of 1/2) = 5/4` BEFORE dividing `8 ÷ 5/4 = 32/5`! Doing `8 ÷ 5/2` first gives a wrong option.",
+        "hi": "सबसे बड़ा परीक्षा जाल: हर में `8 ÷ 5/2` से पहले `5/2 of 1/2 = 5/4` हल करें, वरना उत्तर गलत आएगा!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Numerator & Denominator Separately",
+            "hi": "विधि 1: अंश व हर अलग-अलग हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Numerator: $\\frac{7}{2} \\times \\frac{2}{3} \\times \\frac{5}{2} = \\frac{35}{6}$.\n2) Denominator: $\\frac{5}{2} \\text{ of } \\frac{1}{2} = \\frac{5}{4} \\Rightarrow 8 \\div \\frac{5}{4} = \\frac{32}{5}$.\n3) Combine: $\\frac{35}{6} \\times \\frac{5}{32} \\times \\frac{8}{25} = \\frac{7 \\times 5 \\times 5 \\times 8}{6 \\times 32 \\times 25} = \\mathbf{\\frac{7}{24}}$.",
+            "hi": "1) अंश $= \\frac{7}{2} \\times \\frac{2}{3} \\times \\frac{5}{2} = \\frac{35}{6}$।\n2) हर $= 8 \\div \\frac{5}{4} = \\frac{32}{5}$।\n3) अंतिम हल: $\\frac{35}{6} \\times \\frac{5}{32} \\times \\frac{8}{25} = \\mathbf{\\frac{7}{24}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Prime 7 Survival Trick (6 sec)",
+            "hi": "विधि 2: अभाज्य गुणनखंड 7 संरक्षण ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Look at numerator: factor `7` appears ONCE and denominator (`6, 32, 25`) contains zero multiples of `7`! Among `[11/24, 5/24, 13/24, 7/24]`, ONLY **7/24** has numerator divisible by `7`!",
+            "hi": "अंश का `7` किसी भी हर (`6, 32, 25`) से नहीं कट सकता — चारों विकल्पों में केवल **7/24** का अंश 7 का गुणज है!"
+          }
+        }
+      ],
+      "en": "Method 1: Numerator & Denominator Separately: 1) Numerator: $\\frac{7}{2} \\times \\frac{2}{3} \\times \\frac{5}{2} = \\frac{35}{6}$.\n2) Denominator: $\\frac{5}{2} \\text{ of } \\frac{1}{2} = \\frac{5}{4} \\Rightarrow 8 \\div \\frac{5}{4} = \\frac{32}{5}$.\n3) Combine: $\\frac{35}{6} \\times \\frac{5}{32} \\times \\frac{8}{25} = \\frac{7 \\times 5 \\times 5 \\times 8}{6 \\times 32 \\times 25} = \\mathbf{\\frac{7}{24}}$.\n\nMethod 2: Cancel Prime 7 Survival Trick (6 sec): Look at numerator: factor `7` appears ONCE and denominator (`6, 32, 25`) contains zero multiples of `7`! Among `[11/24, 5/24, 13/24, 7/24]`, ONLY **7/24** has numerator divisible by `7`!",
+      "hi": "विधि 1: अंश व हर अलग-अलग हल: 1) अंश $= \\frac{7}{2} \\times \\frac{2}{3} \\times \\frac{5}{2} = \\frac{35}{6}$।\n2) हर $= 8 \\div \\frac{5}{4} = \\frac{32}{5}$।\n3) अंतिम हल: $\\frac{35}{6} \\times \\frac{5}{32} \\times \\frac{8}{25} = \\mathbf{\\frac{7}{24}}$।\n\nविधि 2: अभाज्य गुणनखंड 7 संरक्षण ट्रिक: अंश का `7` किसी भी हर (`6, 32, 25`) से नहीं कट सकता — चारों विकल्पों में केवल **7/24** का अंश 7 का गुणज है!"
     }
   },
   {

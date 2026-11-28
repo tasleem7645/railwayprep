@@ -3132,10 +3132,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**71**).",
+      "keyConcept": "Mean Proportional: k = √(ab) AND Read Target (k − 1)!",
+      "trapAlert": {
+        "en": "Final-Step Trap: `k = 72` IS in Option C! Question asks for `k − 1 = 72 − 1 = 71` (Option A)!",
+        "hi": "जाल चेतावनी: `k = 72` विकल्प C में मौजूद है, परंतु प्रश्न में **`k − 1 = 71`** (विकल्प A) पूछा गया है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Mean Proportional Root",
+            "hi": "विधि 1: मध्यानुपाती वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $k^2 = 144 \\times 36 \\Rightarrow k = \\sqrt{144} \\times \\sqrt{36} = 12 \\times 6 = 72$.\n2) Required $k - 1 = 72 - 1 = \\mathbf{71}$.",
+            "hi": "1) $k = \\sqrt{144 \\times 36} = 12 \\times 6 = 72$।\n2) अभीष्ट $k - 1 = 72 - 1 = \\mathbf{71}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Mental Roots (12×6 − 1) (3 sec)",
+            "hi": "विधि 2: मानसिक वर्गमूल (12×6 − 1)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Take square roots separately: $12 \\times 6 = 72$, then minus $1 \\Rightarrow \\mathbf{71}$.",
+            "hi": "बिना गुणा किए अलग-अलग वर्गमूल लें: $12 \\times 6 = 72$, एक घटाएँ $\\Rightarrow \\mathbf{71}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Mean Proportional Root: 1) $k^2 = 144 \\times 36 \\Rightarrow k = \\sqrt{144} \\times \\sqrt{36} = 12 \\times 6 = 72$.\n2) Required $k - 1 = 72 - 1 = \\mathbf{71}$.\n\nMethod 2: Mental Roots (12×6 − 1) (3 sec): Take square roots separately: $12 \\times 6 = 72$, then minus $1 \\Rightarrow \\mathbf{71}$.",
+      "hi": "विधि 1: मध्यानुपाती वर्गमूल विधि: 1) $k = \\sqrt{144 \\times 36} = 12 \\times 6 = 72$।\n2) अभीष्ट $k - 1 = 72 - 1 = \\mathbf{71}$।\n\nविधि 2: मानसिक वर्गमूल (12×6 − 1): बिना गुणा किए अलग-अलग वर्गमूल लें: $12 \\times 6 = 72$, एक घटाएँ $\\Rightarrow \\mathbf{71}$।"
     }
   },
   {

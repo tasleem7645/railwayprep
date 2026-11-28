@@ -1551,10 +1551,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (83−19) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (83−19) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**83−19**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-2 - (7) + (-10) = -19 \\Rightarrow \\mathbf{83^{-19}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-2 - (7) + (-10) = -19 \\Rightarrow \\mathbf{83^{-19}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $83^{-2 - (7)} = 83^{-9}$.\n2) Combine third term: $83^{-9 + (-10)} = \\mathbf{83^{-19}}$.",
+            "hi": "1) पहले दो पद: $83^{-2 - (7)} = 83^{-9}$।\n2) तीसरा पद जोड़ने पर: $83^{-9 + (-10)} = \\mathbf{83^{-19}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 83: $-2 - (7) + (-10) = -19 \\Rightarrow \\mathbf{83^{-19}}$.",
+            "hi": "आधार 83 की सभी घातें एक पंक्ति में हल करें: $-2 - (7) + (-10) = -19 \\Rightarrow \\mathbf{83^{-19}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $83^{-2 - (7)} = 83^{-9}$.\n2) Combine third term: $83^{-9 + (-10)} = \\mathbf{83^{-19}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 83: $-2 - (7) + (-10) = -19 \\Rightarrow \\mathbf{83^{-19}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $83^{-2 - (7)} = 83^{-9}$।\n2) तीसरा पद जोड़ने पर: $83^{-9 + (-10)} = \\mathbf{83^{-19}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 83 की सभी घातें एक पंक्ति में हल करें: $-2 - (7) + (-10) = -19 \\Rightarrow \\mathbf{83^{-19}}$।"
     }
   },
   {
@@ -2243,10 +2288,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (99) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (99) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**99**).",
+      "keyConcept": "Fundamental Property: First Number × Second Number = HCF × LCM",
+      "optionTrick": {
+        "en": "Unit digit check: HCF×LCM ends in `5`; test which option × `5` ends in `5` -> **99**!",
+        "hi": "इकाई अंक नियम: $(11 \\times 495)$ का इकाई अंक `5` है; विकल्प × `5` करने पर `5` केवल **99** में मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Product Formula",
+            "hi": "विधि 1: बेसिक गुणनफल सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$N_2 = \\frac{\\text{HCF} \\times \\text{LCM}}{N_1}$",
+          "steps": {
+            "en": "$N_2 = \\frac{11 \\times 495}{55} = \\mathbf{99}$.",
+            "hi": "दूसरी संख्या $= \\frac{11 \\times 495}{55} = \\mathbf{99}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel Factor Ratio (4 sec)",
+            "hi": "विधि 2: गुणनखंड काट ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide LCM by $(N_1 / \\text{HCF}) = 5$ directly: $\\frac{495}{5} = \\mathbf{99}$!",
+            "hi": "पहले अनुपात $N_1/\\text{HCF} = 55/11 = 5$ निकालें, फिर $\\frac{495}{5} = \\mathbf{99}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Product Formula: $N_2 = \\frac{11 \\times 495}{55} = \\mathbf{99}$.\n\nMethod 2: Cancel Factor Ratio (4 sec): Divide LCM by $(N_1 / \\text{HCF}) = 5$ directly: $\\frac{495}{5} = \\mathbf{99}$!",
+      "hi": "विधि 1: बेसिक गुणनफल सूत्र: दूसरी संख्या $= \\frac{11 \\times 495}{55} = \\mathbf{99}$।\n\nविधि 2: गुणनखंड काट ट्रिक: पहले अनुपात $N_1/\\text{HCF} = 55/11 = 5$ निकालें, फिर $\\frac{495}{5} = \\mathbf{99}$!"
     }
   },
   {

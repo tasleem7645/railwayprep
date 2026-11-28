@@ -1696,10 +1696,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D ($\\frac{382}{195}$) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D ($\\frac{382}{195}$) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**$\\frac{382}{195}$**).",
+      "keyConcept": "Invert Nested Denominator: 1 / (1 + p/q) = q / (p + q)",
+      "optionTrick": {
+        "en": "Flip middle term directly to $\\frac{9}{13}$ and combine outer terms ($\\frac{5}{3} - \\frac{2}{5} = \\frac{19}{15}$) first — often simplifying the LCM!",
+        "hi": "मध्य पद तुरंत पलटकर $\\frac{9}{13}$ लिखें व बाहरी भिन्न ($\\frac{5}{3} - \\frac{2}{5} = \\frac{19}{15}$) पहले हल करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify Bracket First (BODMAS)",
+            "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Middle bracket: $1 + \\frac{4}{9} = \\frac{13}{9}$, so reciprocal $= \\frac{9}{13}$.\n2) Expression $= \\frac{5}{3} - \\frac{2}{5} + \\frac{9}{13} = \\frac{19}{15} + \\frac{9}{13} = \\mathbf{\\frac{382}{195}}$.",
+            "hi": "1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{4}{9}} = \\frac{9}{13}$।\n2) शेष गणना: $\\frac{19}{15} + \\frac{9}{13} = \\mathbf{\\frac{382}{195}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reciprocal + Outer Pair First (8 sec)",
+            "hi": "विधि 2: व्युत्क्रम व बाहरी युग्म पहले"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{1}{1 + p/q} = \\frac{q}{p+q}$",
+          "steps": {
+            "en": "Group $\\left(\\frac{5}{3} - \\frac{2}{5}\\right) = \\frac{19}{15}$, then cross-multiply $+ \\frac{9}{13}$ = $\\mathbf{\\frac{382}{195}}$!",
+            "hi": "पहले बाहरी $\\frac{19}{15}$ में $\\frac{9}{13}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{382}{195}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify Bracket First (BODMAS): 1) Middle bracket: $1 + \\frac{4}{9} = \\frac{13}{9}$, so reciprocal $= \\frac{9}{13}$.\n2) Expression $= \\frac{5}{3} - \\frac{2}{5} + \\frac{9}{13} = \\frac{19}{15} + \\frac{9}{13} = \\mathbf{\\frac{382}{195}}$.\n\nMethod 2: Reciprocal + Outer Pair First (8 sec): Group $\\left(\\frac{5}{3} - \\frac{2}{5}\\right) = \\frac{19}{15}$, then cross-multiply $+ \\frac{9}{13}$ = $\\mathbf{\\frac{382}{195}}$!",
+      "hi": "विधि 1: पहले कोष्ठक सरलीकरण विधि: 1) मध्य कोष्ठक: $\\frac{1}{1 + \\frac{4}{9}} = \\frac{9}{13}$।\n2) शेष गणना: $\\frac{19}{15} + \\frac{9}{13} = \\mathbf{\\frac{382}{195}}$।\n\nविधि 2: व्युत्क्रम व बाहरी युग्म पहले: पहले बाहरी $\\frac{19}{15}$ में $\\frac{9}{13}$ वज्र-गुणन से जोड़ें $\\Rightarrow \\mathbf{\\frac{382}{195}}$!"
     }
   },
   {
@@ -2025,10 +2066,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (23) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (23) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**23**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 8$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $7^2 = 49$, $\\sqrt{8^2} = 8$, and $5\\sqrt{16} = 5 \\times 4 = 20$.\n2) Combine left to right: $49 + 8 - 20 - 14 = \\mathbf{23}$.",
+            "hi": "1) $7^2 = 49$, $\\sqrt{8^2} = 8$ तथा $5\\sqrt{16} = 5 \\times 4 = 20$।\n2) गणना: $49 + 8 - 20 - 14 = \\mathbf{23}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(49 + 8 = 57)$ minus sum of negatives $(20 + 14 = 34) = \\mathbf{23}$.",
+            "hi": "धनात्मक योग (57) में से ऋणात्मक योग (34) घटाएँ $\\Rightarrow \\mathbf{23}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $7^2 = 49$, $\\sqrt{8^2} = 8$, and $5\\sqrt{16} = 5 \\times 4 = 20$.\n2) Combine left to right: $49 + 8 - 20 - 14 = \\mathbf{23}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(49 + 8 = 57)$ minus sum of negatives $(20 + 14 = 34) = \\mathbf{23}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $7^2 = 49$, $\\sqrt{8^2} = 8$ तथा $5\\sqrt{16} = 5 \\times 4 = 20$।\n2) गणना: $49 + 8 - 20 - 14 = \\mathbf{23}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (57) में से ऋणात्मक योग (34) घटाएँ $\\Rightarrow \\mathbf{23}$।"
     }
   },
   {
@@ -2091,10 +2172,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (13) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (13) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**13**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 13",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **13**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **13** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 13)",
+            "hi": "विधि 1: 13 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 716710501 by **13** yields quotient **55131577** with remainder **0**.\n2) Eliminating others: 20 (rem 1), 19 (rem 6), 16 (rem 5) — none divides evenly.",
+            "hi": "1) 716710501 को **13** से भाग देने पर सटीक भागफल **55131577** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 20 (rem 1), 19 (rem 6), 16 (rem 5) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 13",
+            "hi": "विधि 2: 13 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1001 = 7×11×13 block rule (group 3 digits from right) or +4×unit osculator: exact quotient $= 55131577$.",
+            "hi": "1001 (= 7×11×13) के 3-3 अंक ब्लॉक नियम या इकाई $\\times 4$ जोड़ने के ऑस्कुलेटर नियम से 13 का पूर्ण भागफल $= 55131577$!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 13): 1) Dividing 716710501 by **13** yields quotient **55131577** with remainder **0**.\n2) Eliminating others: 20 (rem 1), 19 (rem 6), 16 (rem 5) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 13: 1001 = 7×11×13 block rule (group 3 digits from right) or +4×unit osculator: exact quotient $= 55131577$.",
+      "hi": "विधि 1: 13 से प्रत्यक्ष विभाजन सत्यापन: 1) 716710501 को **13** से भाग देने पर सटीक भागफल **55131577** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 20 (rem 1), 19 (rem 6), 16 (rem 5) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 13 का स्मार्ट विभाज्यता नियम: 1001 (= 7×11×13) के 3-3 अंक ब्लॉक नियम या इकाई $\\times 4$ जोड़ने के ऑस्कुलेटर नियम से 13 का पूर्ण भागफल $= 55131577$!"
     }
   },
   {
@@ -2157,10 +2278,54 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (8.75) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (8.75) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**8.75**).",
+      "keyConcept": "Decimal Square Root Shift: Half the Decimal Places in Answer",
+      "optionTrick": {
+        "en": "Last decimal place check: 0.15 ends at `5` (2 dec places) and 2.4 has 1 dec places $\\Rightarrow$ answer MUST end in `.75`!",
+        "hi": "दशमलव स्थान नियम: वर्गमूल में दशमलव अंक आधे हो जाते हैं — इसलिए अंत में **.75** अनिवार्य है!"
+      },
+      "trapAlert": {
+        "en": "0.0225 has 4 decimal places -> square root 0.15 MUST have 2 decimal places (e.g. 0.0225 -> 0.15, NOT 0.015!).",
+        "hi": "दशमलव जाल से बचें: 0.0225 में 4 अंक हैं, अतः वर्गमूल 0.15 में ठीक **2** दशमलव स्थान होंगे।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Decimal Digit Pairing Rule",
+            "hi": "विधि 1: दशमलव स्थान युग्म नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $\\sqrt{121} = 11$.\n2) $\\sqrt{0.0225} = 0.15$ (2 decimal places).\n3) $\\sqrt{5.76} = 2.4$ (1 decimal place).\n4) $11 + 0.15 - 2.4 = \\mathbf{8.75}$.",
+            "hi": "1) $\\sqrt{121} = 11$।\n2) $\\sqrt{0.0225} = 0.15$ तथा $\\sqrt{5.76} = 2.4$।\n3) गणना: $11 + 0.15 - 2.4 = \\mathbf{8.75}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Integer-Part + Hundredths Suffix (5 sec)",
+            "hi": "विधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $+0.15$ supplies hundredths digit `5` while integer estimate $\\approx 11 - 2 = 9$ $\\Rightarrow$ **8.75**!",
+            "hi": "अनुमानित मान $\\approx 11 + 0.15 - 2.4$ तथा अंतिम दशमलव अंक `5` सीधे **8.75** तय करता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Decimal Digit Pairing Rule: 1) $\\sqrt{121} = 11$.\n2) $\\sqrt{0.0225} = 0.15$ (2 decimal places).\n3) $\\sqrt{5.76} = 2.4$ (1 decimal place).\n4) $11 + 0.15 - 2.4 = \\mathbf{8.75}$.\n\nMethod 2: Integer-Part + Hundredths Suffix (5 sec): Notice $+0.15$ supplies hundredths digit `5` while integer estimate $\\approx 11 - 2 = 9$ $\\Rightarrow$ **8.75**!",
+      "hi": "विधि 1: दशमलव स्थान युग्म नियम: 1) $\\sqrt{121} = 11$।\n2) $\\sqrt{0.0225} = 0.15$ तथा $\\sqrt{5.76} = 2.4$।\n3) गणना: $11 + 0.15 - 2.4 = \\mathbf{8.75}$।\n\nविधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान: अनुमानित मान $\\approx 11 + 0.15 - 2.4$ तथा अंतिम दशमलव अंक `5` सीधे **8.75** तय करता है!"
     }
   },
   {

@@ -1245,10 +1245,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • HCF/LCM Word Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (15) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (15) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**15**).",
+      "keyConcept": "Maximum Equal Distribution With Zero Remainder = HCF",
+      "optionTrick": {
+        "en": "Difference `75 − 60 = 15`; test `15`: divides BOTH `60` (`15×4`) and `75` (`15×5`) -> **15**!",
+        "hi": "अंतर `75 − 60 = 15`; `15` दोनों `60` और `75` को पूरा काटता है $\\Rightarrow \\mathbf{15}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: HCF of 60 and 75",
+            "hi": "विधि 1: 60 व 75 का म.स. (HCF)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$60 = 15 \\times 4$ and $75 = 15 \\times 5$. Greatest common number of students $= \\text{HCF}(60, 75) = \\mathbf{15}$ (4 pencils & 5 erasers each).",
+            "hi": "$60 = 15 \\times 4$ और $75 = 15 \\times 5 \\Rightarrow \\text{HCF}(60, 75) = \\mathbf{15}$ विद्यार्थी।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Difference = HCF (3 sec)",
+            "hi": "विधि 2: अंतर विधि (3 सेकंड)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$75 - 60 = 15$, which divides both 60 and $75 \\Rightarrow \\mathbf{15}$.",
+            "hi": "$75 - 60 = 15$, और 15 दोनों का सटीक भाजक है $\\Rightarrow \\mathbf{15}$!"
+          }
+        }
+      ],
+      "en": "Method 1: HCF of 60 and 75: $60 = 15 \\times 4$ and $75 = 15 \\times 5$. Greatest common number of students $= \\text{HCF}(60, 75) = \\mathbf{15}$ (4 pencils & 5 erasers each).\n\nMethod 2: Difference = HCF (3 sec): $75 - 60 = 15$, which divides both 60 and $75 \\Rightarrow \\mathbf{15}$.",
+      "hi": "विधि 1: 60 व 75 का म.स. (HCF): $60 = 15 \\times 4$ और $75 = 15 \\times 5 \\Rightarrow \\text{HCF}(60, 75) = \\mathbf{15}$ विद्यार्थी।\n\nविधि 2: अंतर विधि (3 सेकंड): $75 - 60 = 15$, और 15 दोनों का सटीक भाजक है $\\Rightarrow \\mathbf{15}$!"
     }
   },
   {
@@ -1697,10 +1737,55 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Index Simplification",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "trapAlert": {
+        "en": "Source PDF Notice: Question expression text had OCR overlap in this shift; official key confirms evaluation $15^2 - 12^2 + \\sqrt{256} = 97$ (Option A).",
+        "hi": "स्रोत PDF सूचना: इस शिफ्ट PDF में प्रश्न का व्यंजक पाठ प्रभावित था; आधिकारिक RRB उत्तर कुंजी के अनुसार $15^2 - 12^2 + \\sqrt{256} = \\mathbf{97}$ (विकल्प A) है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {

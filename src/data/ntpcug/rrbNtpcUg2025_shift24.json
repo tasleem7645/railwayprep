@@ -2417,10 +2417,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (5) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**5**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 5",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **5**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **5** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 5)",
+            "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 630605 by **5** yields quotient **126121** with remainder **0**.\n2) Eliminating others: 3 (rem 2), 7 (rem 3), 14 (rem 3) — none divides evenly.",
+            "hi": "1) 630605 को **5** से भाग देने पर सटीक भागफल **126121** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 3 (rem 2), 7 (rem 3), 14 (rem 3) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 5",
+            "hi": "विधि 2: 5 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+            "hi": "इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 5): 1) Dividing 630605 by **5** yields quotient **126121** with remainder **0**.\n2) Eliminating others: 3 (rem 2), 7 (rem 3), 14 (rem 3) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 5: Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+      "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन: 1) 630605 को **5** से भाग देने पर सटीक भागफल **126121** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 3 (rem 2), 7 (rem 3), 14 (rem 3) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 5 का स्मार्ट विभाज्यता नियम: इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
     }
   },
   {

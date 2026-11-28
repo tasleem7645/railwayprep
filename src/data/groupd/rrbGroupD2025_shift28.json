@@ -1253,10 +1253,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Order of Operations",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (33) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (33) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**33**).",
+      "keyConcept": "BODMAS Order: Bracket -> \"of\" -> Divide -> Multiply -> Add/Subtract",
+      "optionTrick": {
+        "en": "Compute chunks independently: `32`, `−5(5)=−25`, `+28`, `−2` -> `32 − 25 + 26` = **33**!",
+        "hi": "`+` व `−` से अलग चारों खंड जोड़ें: `32 − 25 + 28 − 2` = **33**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Strict BODMAS Sequence",
+            "hi": "विधि 1: सटीक BODMAS क्रम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Bracket & \"of\": $5 \\text{ of } (17 - 12) = 5 \\times 5 = 25$.\n2) Division & Multiplication: $6 \\div 3 = 2$ and $4 \\times 7 = 28$.\n3) Combine: $32 - 25 + 28 - 2 = 7 + 26 = \\mathbf{33}$.",
+            "hi": "1) कोष्ठक व \"का\": $5 \\times (17 - 12) = 25$।\n2) भाग व गुणा: $6 \\div 3 = 2$ व $4 \\times 7 = 28$।\n3) जोड़-घटाव: $32 - 25 + 28 - 2 = \\mathbf{33}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Split Across +/− Operators (6 sec)",
+            "hi": "विधि 2: + व − चिह्नों से खंड विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Terms separated by `+`/`−`: `[32] − [25] + [28] − [2]`. Pair `28 − 25 = +3` and `32 − 2 = 30` $\\Rightarrow 30 + 3 = \\mathbf{33}$!",
+            "hi": "`[32] − [25] + [28] − [2]` में `28 − 25 = +3` व `32 − 2 = 30` जोड़ें $\\Rightarrow \\mathbf{33}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Strict BODMAS Sequence: 1) Bracket & \"of\": $5 \\text{ of } (17 - 12) = 5 \\times 5 = 25$.\n2) Division & Multiplication: $6 \\div 3 = 2$ and $4 \\times 7 = 28$.\n3) Combine: $32 - 25 + 28 - 2 = 7 + 26 = \\mathbf{33}$.\n\nMethod 2: Split Across +/− Operators (6 sec): Terms separated by `+`/`−`: `[32] − [25] + [28] − [2]`. Pair `28 − 25 = +3` and `32 − 2 = 30` $\\Rightarrow 30 + 3 = \\mathbf{33}$!",
+      "hi": "विधि 1: सटीक BODMAS क्रम: 1) कोष्ठक व \"का\": $5 \\times (17 - 12) = 25$।\n2) भाग व गुणा: $6 \\div 3 = 2$ व $4 \\times 7 = 28$।\n3) जोड़-घटाव: $32 - 25 + 28 - 2 = \\mathbf{33}$।\n\nविधि 2: + व − चिह्नों से खंड विभाजन ट्रिक: `[32] − [25] + [28] − [2]` में `28 − 25 = +3` व `32 − 2 = 30` जोड़ें $\\Rightarrow \\mathbf{33}$!"
     }
   },
   {
@@ -1367,10 +1407,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Primality Testing",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (53) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (53) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**53**).",
+      "keyConcept": "Primality Filter in Range (50, 58)",
+      "optionTrick": {
+        "en": "Among `51..57`: evens out, `51` (`5+1=6`, ÷3), `55` (÷5), `57` (`5+7=12`, ÷3) -> ONLY **53** is prime!",
+        "hi": "`50` से `58` के बीच `52` (सम), `55` (÷5), `57` (`5+7=12`, ÷3) कटते हैं — केवल **53** अभाज्य है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: List Odd Candidates (51, 53, 55, 57)",
+            "hi": "विधि 1: 50–58 के बीच विषम संख्या जाँच"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $51 = 3 \\times 17$ (composite), $55 = 5 \\times 11$ (composite), $57 = 3 \\times 19$ (composite).\n2) Only **53** has no divisor $\\le \\sqrt{53} \\approx 7.2$ (`2, 3, 5, 7`).",
+            "hi": "1) $51 = 3 \\times 17$, $55 = 5 \\times 11$ तथा $57 = 3 \\times 19$ भाज्य हैं।\n2) केवल **53** अभाज्य संख्या है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out-3s on Options (3 sec)",
+            "hi": "विधि 2: विकल्प उन्मूलन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Options: `52` even, `55` ends in 5, `57` sum `12` (÷3) -> only **53** remains!",
+            "hi": "`52` (सम), `55` (÷5), `57` (`5+7=12`, ÷3) तुरंत बाहर $\\Rightarrow$ **53**!"
+          }
+        }
+      ],
+      "en": "Method 1: List Odd Candidates (51, 53, 55, 57): 1) $51 = 3 \\times 17$ (composite), $55 = 5 \\times 11$ (composite), $57 = 3 \\times 19$ (composite).\n2) Only **53** has no divisor $\\le \\sqrt{53} \\approx 7.2$ (`2, 3, 5, 7`).\n\nMethod 2: Cast-Out-3s on Options (3 sec): Options: `52` even, `55` ends in 5, `57` sum `12` (÷3) -> only **53** remains!",
+      "hi": "विधि 1: 50–58 के बीच विषम संख्या जाँच: 1) $51 = 3 \\times 17$, $55 = 5 \\times 11$ तथा $57 = 3 \\times 19$ भाज्य हैं।\n2) केवल **53** अभाज्य संख्या है।\n\nविधि 2: विकल्प उन्मूलन ट्रिक: `52` (सम), `55` (÷5), `57` (`5+7=12`, ÷3) तुरंत बाहर $\\Rightarrow$ **53**!"
     }
   },
   {
@@ -1605,10 +1685,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Common Tangents",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {

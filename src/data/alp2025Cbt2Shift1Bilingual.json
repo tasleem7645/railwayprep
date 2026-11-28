@@ -2484,10 +2484,51 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
-      "en": "Correct Answer: Option B (84). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (84)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**84**).",
+      "keyConcept": "Number Pattern Logic: n -> n² + √n",
+      "optionTrick": {
+        "en": "`16² + √16 = 256 + 4 = 260`; `25² + √25 = 625 + 5 = 630` -> `9² + √9 = 81 + 3` = **84**!",
+        "hi": "नियम $n \\to n^2 + \\sqrt{n}$: $16^2+4=260$, $25^2+5=630 \\Rightarrow 9^2+3 = \\mathbf{84}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Identify n² + √n Rule",
+            "hi": "विधि 1: n² + √n पैटर्न पहचान"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$f(n) = n^2 + \\sqrt{n}$",
+          "steps": {
+            "en": "1) $16 \\to 16^2 + \\sqrt{16} = 256 + 4 = 260$.\n2) $25 \\to 25^2 + \\sqrt{25} = 625 + 5 = 630$.\n3) Therefore $9 \\to 9^2 + \\sqrt{9} = 81 + 3 = \\mathbf{84}$.",
+            "hi": "1) $16 \\to 16^2 + 4 = 260$ व $25 \\to 25^2 + 5 = 630$।\n2) इसी तर्क से $9 \\to 9^2 + \\sqrt{9} = 81 + 3 = \\mathbf{84}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Proximity to Perfect Squares (4 sec)",
+            "hi": "विधि 2: निकटतम वर्ग अंतर ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Both `260` ($>256$) & `630` ($>625$) sit just $+\\sqrt{n}$ above $n^2 \\Rightarrow 9^2 + 3 = \\mathbf{84}$ (between 78 and 729).",
+            "hi": "दोनों संख्याएँ $n^2$ से ठीक $\\sqrt{n}$ अधिक हैं, अतः $81 + 3 = \\mathbf{84}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Identify n² + √n Rule: 1) $16 \\to 16^2 + \\sqrt{16} = 256 + 4 = 260$.\n2) $25 \\to 25^2 + \\sqrt{25} = 625 + 5 = 630$.\n3) Therefore $9 \\to 9^2 + \\sqrt{9} = 81 + 3 = \\mathbf{84}$.\n\nMethod 2: Proximity to Perfect Squares (4 sec): Both `260` ($>256$) & `630` ($>625$) sit just $+\\sqrt{n}$ above $n^2 \\Rightarrow 9^2 + 3 = \\mathbf{84}$ (between 78 and 729).",
+      "hi": "विधि 1: n² + √n पैटर्न पहचान: 1) $16 \\to 16^2 + 4 = 260$ व $25 \\to 25^2 + 5 = 630$।\n2) इसी तर्क से $9 \\to 9^2 + \\sqrt{9} = 81 + 3 = \\mathbf{84}$।\n\nविधि 2: निकटतम वर्ग अंतर ट्रिक: दोनों संख्याएँ $n^2$ से ठीक $\\sqrt{n}$ अधिक हैं, अतः $81 + 3 = \\mathbf{84}$!"
     },
     "correctIndexHi": 1
   },
@@ -2682,10 +2723,50 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
-      "en": "Correct Answer: Option B (4 - 16 - 8 - 4). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प B (4 - 16 - 8 - 4)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**4 - 16 - 8 - 4**).",
+      "keyConcept": "Set Pattern Rule: x -> x² -> ÷2 -> ÷2",
+      "optionTrick": {
+        "en": "Notice 3rd & 4th step (`÷2, ÷2`): only `4 - 16 - 8 - 4` satisfies BOTH $4^2 = 16$ AND `16 ÷ 2 = 8`, `8 ÷ 2 = 4`!",
+        "hi": "नियम ($n \\to n^2 \\to \\div 2 \\to \\div 2$) केवल **4 - 16 - 8 - 4** पर पूरा लागू होता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Verify Chain Operations",
+            "hi": "विधि 1: शृंखला संक्रिया सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Given sets: $(10)^2 = 100 \\xrightarrow{\\div 2} 50 \\xrightarrow{\\div 2} 25$ and $(2)^2 = 4 \\xrightarrow{\\div 2} 2 \\xrightarrow{\\div 2} 1$.\n2) Check Option B: $4^2 = 16 \\xrightarrow{\\div 2} 8 \\xrightarrow{\\div 2} 4$ ✓.",
+            "hi": "1) नियम: पहला पद² = दूसरा पद, फिर दो बार `÷ 2`।\n2) विकल्प B जाँचें: $4^2 = 16 \\xrightarrow{\\div 2} 8 \\xrightarrow{\\div 2} 4$ ✓।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Tail Double Check (4 sec)",
+            "hi": "विधि 2: अंतिम दो पद जाँच ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Last number × 4 MUST equal second number (`4×4=16`, `31×4≠144`, `14×4≠64`, `7×4≠25`) $\\Rightarrow$ **4 - 16 - 8 - 4**!",
+            "hi": "चौथा पद × 4 = दूसरा पद होना अनिवार्य है (`4×4 = 16`) $\\Rightarrow$ तुरंत **4 - 16 - 8 - 4**!"
+          }
+        }
+      ],
+      "en": "Method 1: Verify Chain Operations: 1) Given sets: $(10)^2 = 100 \\xrightarrow{\\div 2} 50 \\xrightarrow{\\div 2} 25$ and $(2)^2 = 4 \\xrightarrow{\\div 2} 2 \\xrightarrow{\\div 2} 1$.\n2) Check Option B: $4^2 = 16 \\xrightarrow{\\div 2} 8 \\xrightarrow{\\div 2} 4$ ✓.\n\nMethod 2: Tail Double Check (4 sec): Last number × 4 MUST equal second number (`4×4=16`, `31×4≠144`, `14×4≠64`, `7×4≠25`) $\\Rightarrow$ **4 - 16 - 8 - 4**!",
+      "hi": "विधि 1: शृंखला संक्रिया सत्यापन: 1) नियम: पहला पद² = दूसरा पद, फिर दो बार `÷ 2`।\n2) विकल्प B जाँचें: $4^2 = 16 \\xrightarrow{\\div 2} 8 \\xrightarrow{\\div 2} 4$ ✓।\n\nविधि 2: अंतिम दो पद जाँच ट्रिक: चौथा पद × 4 = दूसरा पद होना अनिवार्य है (`4×4 = 16`) $\\Rightarrow$ तुरंत **4 - 16 - 8 - 4**!"
     },
     "correctIndexHi": 1
   },

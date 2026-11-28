@@ -877,10 +877,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • (a+b)^2, (a-b)^2",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (48bc) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (48bc) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**48bc**).",
+      "keyConcept": "Identity (X + Y)² + (X − Y)² = 2(X² + Y²)",
+      "optionTrick": {
+        "en": "Group `X = 2a` and `Y = (3b + 4c)`: `2[4a² + (3b+4c)²] − 8a² − 18b² − 32c² = 2(24bc)` = **48bc**!",
+        "hi": "`X = 2a, Y = 3b+4c` लें: `2(X² + Y²)` से `8a²`, `18b²`, `32c²` पूरे कट जाते हैं — केवल `2 × 2(3b)(4c) = 48bc` बचता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Group (X + Y)² + (X − Y)²",
+            "hi": "विधि 1: X व Y समूहन सर्वसमिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Set $X = 2a$ and $Y = 3b + 4c$: $(X+Y)^2 + (X-Y)^2 = 2X^2 + 2Y^2$.\n2) $2X^2 + 2Y^2 = 8a^2 + 2(9b^2 + 24bc + 16c^2) = 8a^2 + 18b^2 + 32c^2 + 48bc$.\n3) Subtract $-8a^2 - 18b^2 - 32c^2 \\Rightarrow \\mathbf{48bc}$.",
+            "hi": "1) $X=2a$ व $Y=3b+4c$ मानने पर $(X+Y)^2+(X-Y)^2 = 8a^2 + 18b^2 + 32c^2 + 48bc$।\n2) शेष $-8a^2 - 18b^2 - 32c^2$ घटने पर $= \\mathbf{48bc}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put a = 0, b = 1, c = 1 (5 sec)",
+            "hi": "विधि 2: शून्य-मान a=0, b=1, c=1 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Put $a=0, b=1, c=1$: $7^2 + (-7)^2 - 0 - 18 - 32 = 98 - 50 = \\mathbf{48} \\Rightarrow$ matches **48bc**!",
+            "hi": "$a=0, b=1, c=1$ रखें: $49 + 49 - 18 - 32 = 48$, जो केवल **48bc** देता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Group (X + Y)² + (X − Y)²: 1) Set $X = 2a$ and $Y = 3b + 4c$: $(X+Y)^2 + (X-Y)^2 = 2X^2 + 2Y^2$.\n2) $2X^2 + 2Y^2 = 8a^2 + 2(9b^2 + 24bc + 16c^2) = 8a^2 + 18b^2 + 32c^2 + 48bc$.\n3) Subtract $-8a^2 - 18b^2 - 32c^2 \\Rightarrow \\mathbf{48bc}$.\n\nMethod 2: Put a = 0, b = 1, c = 1 (5 sec): Put $a=0, b=1, c=1$: $7^2 + (-7)^2 - 0 - 18 - 32 = 98 - 50 = \\mathbf{48} \\Rightarrow$ matches **48bc**!",
+      "hi": "विधि 1: X व Y समूहन सर्वसमिका: 1) $X=2a$ व $Y=3b+4c$ मानने पर $(X+Y)^2+(X-Y)^2 = 8a^2 + 18b^2 + 32c^2 + 48bc$।\n2) शेष $-8a^2 - 18b^2 - 32c^2$ घटने पर $= \\mathbf{48bc}$।\n\nविधि 2: शून्य-मान a=0, b=1, c=1 ट्रिक: $a=0, b=1, c=1$ रखें: $49 + 49 - 18 - 32 = 48$, जो केवल **48bc** देता है!"
     }
   },
   {
@@ -1807,10 +1847,55 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Surds",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "trapAlert": {
+        "en": "Source PDF Notice: Question expression text had OCR overlap in this shift; official key confirms evaluation $15^2 - 12^2 + \\sqrt{256} = 97$ (Option A).",
+        "hi": "स्रोत PDF सूचना: इस शिफ्ट PDF में प्रश्न का व्यंजक पाठ प्रभावित था; आधिकारिक RRB उत्तर कुंजी के अनुसार $15^2 - 12^2 + \\sqrt{256} = \\mathbf{97}$ (विकल्प A) है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {

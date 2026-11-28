@@ -1978,10 +1978,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (55−38) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (55−38) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**55−38**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-13 - (14) + (-11) = -38 \\Rightarrow \\mathbf{55^{-38}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-13 - (14) + (-11) = -38 \\Rightarrow \\mathbf{55^{-38}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $55^{-13 - (14)} = 55^{-27}$.\n2) Combine third term: $55^{-27 + (-11)} = \\mathbf{55^{-38}}$.",
+            "hi": "1) पहले दो पद: $55^{-13 - (14)} = 55^{-27}$।\n2) तीसरा पद जोड़ने पर: $55^{-27 + (-11)} = \\mathbf{55^{-38}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 55: $-13 - (14) + (-11) = -38 \\Rightarrow \\mathbf{55^{-38}}$.",
+            "hi": "आधार 55 की सभी घातें एक पंक्ति में हल करें: $-13 - (14) + (-11) = -38 \\Rightarrow \\mathbf{55^{-38}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $55^{-13 - (14)} = 55^{-27}$.\n2) Combine third term: $55^{-27 + (-11)} = \\mathbf{55^{-38}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 55: $-13 - (14) + (-11) = -38 \\Rightarrow \\mathbf{55^{-38}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $55^{-13 - (14)} = 55^{-27}$।\n2) तीसरा पद जोड़ने पर: $55^{-27 + (-11)} = \\mathbf{55^{-38}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 55 की सभी घातें एक पंक्ति में हल करें: $-13 - (14) + (-11) = -38 \\Rightarrow \\mathbf{55^{-38}}$।"
     }
   },
   {

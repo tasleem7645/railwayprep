@@ -1649,10 +1649,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−171x + 174) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−171x + 174) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**−171x + 174**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($7x^2 - 7x^2 = 0$), check signs directly: $x$ term $= -108 - 63 = -171x$ (negative!) and constant $= +76 + 98 = +174$ (**positive!**). Sign pair `(−, +)` uniquely locks Option D!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-171x$) व अचर पद धनात्मक ($+174$) होना तुरंत `(−, +)` चिह्न वाला विकल्प D पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-7 \\times (-14) = +98$ (NOT $-98$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-7 \\times (-14) = +98$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $7x^2 - 108x + 76$.\n2) Expand second bracket: $-7x^2 - 63x + 98$.\n3) Combine like terms: $(7 - 7)x^2 + (-108 - 63)x + (76 + 98) = \\mathbf{-171x + 174}$.",
+            "hi": "1) पहला कोष्ठक: $7x^2 - 108x + 76$।\n2) दूसरा कोष्ठक: $-7x^2 - 63x + 98$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-171x + 174}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $4(19) - 7(-14) = 76 + 98 = +174$. Since both $x$ terms are negative ($-108x - 63x$), only `−171x + 174` has `(−x, +174)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +76 + 98 = +174$ व दोनों $x$-पद ऋणात्मक ($-108x - 63x = -171x$) $\\Rightarrow$ तुरंत **−171x + 174**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $7x^2 - 108x + 76$.\n2) Expand second bracket: $-7x^2 - 63x + 98$.\n3) Combine like terms: $(7 - 7)x^2 + (-108 - 63)x + (76 + 98) = \\mathbf{-171x + 174}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $4(19) - 7(-14) = 76 + 98 = +174$. Since both $x$ terms are negative ($-108x - 63x$), only `−171x + 174` has `(−x, +174)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $7x^2 - 108x + 76$।\n2) दूसरा कोष्ठक: $-7x^2 - 63x + 98$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-171x + 174}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +76 + 98 = +174$ व दोनों $x$-पद ऋणात्मक ($-108x - 63x = -171x$) $\\Rightarrow$ तुरंत **−171x + 174**!"
     }
   },
   {

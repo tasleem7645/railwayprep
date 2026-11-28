@@ -1327,10 +1327,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Prime & Composite Numbers",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Two consecutive integers are always coprime.) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (दो क्रमागत पूर्णांक सदैव सहअभाज्य होते हैं।) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**Two consecutive integers are always coprime.**).",
+      "keyConcept": "HCF(n, n + 1) = 1 Always (Consecutive Integers)",
+      "optionTrick": {
+        "en": "Any factor dividing both `n` and `n+1` must divide `(n+1)−n = 1`, so HCF is ALWAYS `1` (**coprime**)!",
+        "hi": "दो क्रमागत संख्याओं `n` व `n+1` का अंतर `1` होता है, अतः उनका म.स. सदैव `1` (**सह-अभाज्य**) रहता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Elimination with Counterexamples",
+            "hi": "विधि 1: उदाहरण से विकल्प जाँच"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Two primes (`2, 3`) ARE coprime (eliminates A).\n2) Two evens (`2, 4`) share factor `2` (eliminates B).\n3) Multiples of `k` (`3, 6`) share `3` (eliminates C).\n4) Any `(n, n+1)` like `(8, 9)` has `HCF = 1` $\\Rightarrow$ **Option D** is ALWAYS true!",
+            "hi": "1) दो अभाज्य संख्याएँ सह-अभाज्य होती हैं (A असत्य)।\n2) सम संख्याओं का उभयनिष्ठ गुणनखंड 2 होता है (B असत्य)।\n3) समान गुणजों में उभयनिष्ठ भाजक होता है (C असत्य)।\n4) दो क्रमागत पूर्णांक जैसे `(8, 9)` सदैव सह-अभाज्य होते हैं $\\Rightarrow$ **विकल्प D**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Euclid Difference Property (3 sec)",
+            "hi": "विधि 2: यूक्लिड अंतर नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$\\text{HCF}(n, n+1) = \\text{HCF}(n, 1) = 1 \\Rightarrow$ **Two consecutive integers are always coprime**.",
+            "hi": "$\\text{HCF}(n, n+1) = \\text{HCF}(n, 1) = 1$ — अतः क्रमागत पूर्णांक सदैव सह-अभाज्य होते हैं!"
+          }
+        }
+      ],
+      "en": "Method 1: Elimination with Counterexamples: 1) Two primes (`2, 3`) ARE coprime (eliminates A).\n2) Two evens (`2, 4`) share factor `2` (eliminates B).\n3) Multiples of `k` (`3, 6`) share `3` (eliminates C).\n4) Any `(n, n+1)` like `(8, 9)` has `HCF = 1` $\\Rightarrow$ **Option D** is ALWAYS true!\n\nMethod 2: Euclid Difference Property (3 sec): $\\text{HCF}(n, n+1) = \\text{HCF}(n, 1) = 1 \\Rightarrow$ **Two consecutive integers are always coprime**.",
+      "hi": "विधि 1: उदाहरण से विकल्प जाँच: 1) दो अभाज्य संख्याएँ सह-अभाज्य होती हैं (A असत्य)।\n2) सम संख्याओं का उभयनिष्ठ गुणनखंड 2 होता है (B असत्य)।\n3) समान गुणजों में उभयनिष्ठ भाजक होता है (C असत्य)।\n4) दो क्रमागत पूर्णांक जैसे `(8, 9)` सदैव सह-अभाज्य होते हैं $\\Rightarrow$ **विकल्प D**।\n\nविधि 2: यूक्लिड अंतर नियम: $\\text{HCF}(n, n+1) = \\text{HCF}(n, 1) = 1$ — अतः क्रमागत पूर्णांक सदैव सह-अभाज्य होते हैं!"
     }
   },
   {
@@ -1429,10 +1469,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (2) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**2**).",
+      "keyConcept": "Digit sum ÷ 3",
+      "optionTrick": {
+        "en": "Digit sum ÷ 3: locks (0, 2) $\\Rightarrow$ Least value $= \\mathbf{2}$!",
+        "hi": "अंकों का योग 3 से कटे: सीधे (A=0, B=2) मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{2}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 3",
+            "hi": "विधि 1: 3 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **3** on `22A675B`: Digit sum ÷ 3.\n2) Known digits sum $= 22$. Testing valid digits gives **A = 0, B = 2 ⇒ A + B = 2** (number `2206752`).",
+            "hi": "1) `22A675B` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 22$। वैध अंक जाँच से **A = 0, B = 2 ⇒ A + B = 2** (`2206752`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first (for min sum, pick smallest valid $B=2$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{2}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 2$), फिर शेषफल शून्य बनाकर तुरंत **2** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 3: 1) Apply divisibility conditions for **3** on `22A675B`: Digit sum ÷ 3.\n2) Known digits sum $= 22$. Testing valid digits gives **A = 0, B = 2 ⇒ A + B = 2** (number `2206752`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first (for min sum, pick smallest valid $B=2$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{2}$.",
+      "hi": "विधि 1: 3 का विभाज्यता नियम: 1) `22A675B` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 22$। वैध अंक जाँच से **A = 0, B = 2 ⇒ A + B = 2** (`2206752`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 2$), फिर शेषफल शून्य बनाकर तुरंत **2** पाएँ!"
     }
   },
   {
@@ -1633,10 +1713,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • a^3 + b^3, a^3 - b^3",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (1,060) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (1,060) सही उत्तर है।"
+      "approach": "Mathematical Answer: 1,080 (Option A); Official Stored Key marks Option D (1,060).",
+      "keyConcept": "Cubic Difference Identity: a³ − b³ = (a − b)³ + 3ab(a − b)",
+      "trapAlert": {
+        "en": "Calculation Discrepancy Alert: Exact formula gives $9^3 + 3(13)(9) = 729 + 351 = \\mathbf{1{,}080}$ (Option A). Official Group D stored key shows Option D (`1,060`).",
+        "hi": "गणितीय त्रुटि सूचना: सटीक सूत्र से $a^3 - b^3 = 9^3 + 3(13)(9) = 729 + 351 = \\mathbf{1,080}$ (विकल्प A) आता है; आधिकारिक कुंजी में `1,060` (विकल्प D) अंकित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: (a − b)³ Expansion Identity",
+            "hi": "विधि 1: (a − b)³ सर्वसमिका विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$a^3 - b^3 = (a - b)^3 + 3ab(a - b)$",
+          "steps": {
+            "en": "1) $(a - b)^3 = 9^3 = 729$.\n2) $3ab(a - b) = 3 \\times 13 \\times 9 = 351$.\n3) $a^3 - b^3 = 729 + 351 = \\mathbf{1{,}080}$ (Option A; stored key records Option D: 1,060).",
+            "hi": "1) $9^3 = 729$ तथा $3 \\times 13 \\times 9 = 351$।\n2) योग $= 729 + 351 = \\mathbf{1,080}$ (विकल्प A; आधिकारिक शीट कुंजी में 1,060 है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Factor (a−b)[(a−b)² + 3ab] (6 sec)",
+            "hi": "विधि 2: गुणनखंड 9(81 + 39) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$a^3 - b^3 = (a - b)[(a - b)^2 + 3ab] = 9 \\times (81 + 39) = 9 \\times 120 = \\mathbf{1{,}080}$ (note multiple of 9!).",
+            "hi": "$9 \\times (9^2 + 3\\times 13) = 9 \\times (81 + 39) = 9 \\times 120 = \\mathbf{1,080}$ (9 का गुणज)!"
+          }
+        }
+      ],
+      "en": "Method 1: (a − b)³ Expansion Identity: 1) $(a - b)^3 = 9^3 = 729$.\n2) $3ab(a - b) = 3 \\times 13 \\times 9 = 351$.\n3) $a^3 - b^3 = 729 + 351 = \\mathbf{1{,}080}$ (Option A; stored key records Option D: 1,060).\n\nMethod 2: Factor (a−b)[(a−b)² + 3ab] (6 sec): $a^3 - b^3 = (a - b)[(a - b)^2 + 3ab] = 9 \\times (81 + 39) = 9 \\times 120 = \\mathbf{1{,}080}$ (note multiple of 9!).",
+      "hi": "विधि 1: (a − b)³ सर्वसमिका विधि: 1) $9^3 = 729$ तथा $3 \\times 13 \\times 9 = 351$।\n2) योग $= 729 + 351 = \\mathbf{1,080}$ (विकल्प A; आधिकारिक शीट कुंजी में 1,060 है)।\n\nविधि 2: गुणनखंड 9(81 + 39) ट्रिक: $9 \\times (9^2 + 3\\times 13) = 9 \\times (81 + 39) = 9 \\times 120 = \\mathbf{1,080}$ (9 का गुणज)!"
     }
   },
   {
@@ -1810,10 +1931,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Standard Angle Values",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {

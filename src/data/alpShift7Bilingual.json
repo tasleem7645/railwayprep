@@ -519,10 +519,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 7)",
-      "en": "Correct Answer: Option A (8). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (8)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**8**).",
+      "keyConcept": "Identity Shortcut: (A + B)² − (A − B)² = 4AB",
+      "optionTrick": {
+        "en": "`2x = (18+2)/2 = 10` (`x=5`), `5y = (18−2)/2 = 8` (`y=1.6`) -> Wait simpler: `4(2x)(5y) = 40xy = 18² − 2² = 320` -> `xy = 320 ÷ 40` = **8**!",
+        "hi": "सर्वसमिका `4AB = (A+B)² − (A−B)²` से `40xy = 18² − 2² = 320 ⇒ xy = 8`!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Solve Linear System for x & y",
+            "hi": "विधि 1: रैखिक समीकरण से x व y ज्ञात करना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Add equations: $4x = 20 \\Rightarrow x = 5$.\n2) Subtract: $10y = 16 \\Rightarrow y = 1.6$.\n3) Product $xy = 5 \\times 1.6 = \\mathbf{8}$.",
+            "hi": "1) दोनों समीकरण जोड़ने पर $4x = 20 \\Rightarrow x = 5$।\n2) घटाने पर $10y = 16 \\Rightarrow y = 1.6$।\n3) $xy = 5 \\times 1.6 = \\mathbf{8}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Formula (A+B)²−(A−B)² = 4AB (5 sec)",
+            "hi": "विधि 2: सर्वसमिका 4AB ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$4(2x)(5y) = (2x + 5y)^2 - (2x - 5y)^2$",
+          "steps": {
+            "en": "$40xy = 18^2 - 2^2 = 324 - 4 = 320 \\Rightarrow xy = \\frac{320}{40} = \\mathbf{8}$.",
+            "hi": "$40xy = 18^2 - 2^2 = 324 - 4 = 320 \\Rightarrow xy = \\mathbf{8}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Solve Linear System for x & y: 1) Add equations: $4x = 20 \\Rightarrow x = 5$.\n2) Subtract: $10y = 16 \\Rightarrow y = 1.6$.\n3) Product $xy = 5 \\times 1.6 = \\mathbf{8}$.\n\nMethod 2: Formula (A+B)²−(A−B)² = 4AB (5 sec): $40xy = 18^2 - 2^2 = 324 - 4 = 320 \\Rightarrow xy = \\frac{320}{40} = \\mathbf{8}$.",
+      "hi": "विधि 1: रैखिक समीकरण से x व y ज्ञात करना: 1) दोनों समीकरण जोड़ने पर $4x = 20 \\Rightarrow x = 5$।\n2) घटाने पर $10y = 16 \\Rightarrow y = 1.6$।\n3) $xy = 5 \\times 1.6 = \\mathbf{8}$।\n\nविधि 2: सर्वसमिका 4AB ट्रिक: $40xy = 18^2 - 2^2 = 324 - 4 = 320 \\Rightarrow xy = \\mathbf{8}$।"
     },
     "correctIndexHi": 0
   },

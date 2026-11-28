@@ -520,10 +520,50 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (03 Nov 2026 Shift 2)",
-      "en": "Correct Answer: Option A (228). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (228)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**228**).",
+      "keyConcept": "Ratio Substitution + Difference of Squares: y² − x² = (y − x)(y + x)",
+      "optionTrick": {
+        "en": "`3x/(2y) = 12/11 => x : y = 8 : 11`. Notice `y² − x²` = (11² − 8²)k² = 57k² (a multiple of `57 = 3×19`!) — ONLY **228** (`57×4`) is divisible by `19` & `3`!",
+        "hi": "`x : y = 8 : 11` से `y² − x² = 57k²`; विकल्पों में केवल **228** (`57 × 4`) ही `19` (व `57`) से विभाज्य है — 4 सेकंड में उत्तर!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find k, x, y Step-by-Step",
+            "hi": "विधि 1: अनुपात नियतांक k से हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $\\frac{3x}{2y} = \\frac{12}{11} \\Rightarrow \\frac{x}{y} = \\frac{12 \\times 2}{11 \\times 3} = \\frac{8}{11}$. Let $x = 8k, y = 11k$.\n2) $4(8k) + 5(11k) = 174 \\Rightarrow 32k + 55k = 87k = 174 \\Rightarrow k = 2$.\n3) $x = 16, y = 22 \\Rightarrow y^2 - x^2 = (22 - 16)(22 + 16) = 6 \\times 38 = \\mathbf{228}$.",
+            "hi": "1) $\\frac{x}{y} = \\frac{8}{11}$ अर्थात $x = 8k, y = 11k$।\n2) $4(8k) + 5(11k) = 87k = 174 \\Rightarrow k = 2$।\n3) $x=16, y=22 \\Rightarrow y^2 - x^2 = (22-16)(22+16) = 6 \\times 38 = \\mathbf{228}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiple of (11²−8²)=57 Filter (5 sec)",
+            "hi": "विधि 2: 57 के गुणज से विकल्प काटें"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "From $\\frac{x}{y} = \\frac{8}{11}$, target $y^2 - x^2 = (121 - 64)k^2 = 57k^2$. Only **228** ($= 57 \\times 4$) is a multiple of 57 ($k=2$)!",
+            "hi": "$y^2 - x^2 = (11^2 - 8^2)k^2 = 57k^2$ होना चाहिए — विकल्पों में केवल **228** ($57 \\times 4$) `57` का गुणज है!"
+          }
+        }
+      ],
+      "en": "Method 1: Find k, x, y Step-by-Step: 1) $\\frac{3x}{2y} = \\frac{12}{11} \\Rightarrow \\frac{x}{y} = \\frac{12 \\times 2}{11 \\times 3} = \\frac{8}{11}$. Let $x = 8k, y = 11k$.\n2) $4(8k) + 5(11k) = 174 \\Rightarrow 32k + 55k = 87k = 174 \\Rightarrow k = 2$.\n3) $x = 16, y = 22 \\Rightarrow y^2 - x^2 = (22 - 16)(22 + 16) = 6 \\times 38 = \\mathbf{228}$.\n\nMethod 2: Multiple of (11²−8²)=57 Filter (5 sec): From $\\frac{x}{y} = \\frac{8}{11}$, target $y^2 - x^2 = (121 - 64)k^2 = 57k^2$. Only **228** ($= 57 \\times 4$) is a multiple of 57 ($k=2$)!",
+      "hi": "विधि 1: अनुपात नियतांक k से हल: 1) $\\frac{x}{y} = \\frac{8}{11}$ अर्थात $x = 8k, y = 11k$।\n2) $4(8k) + 5(11k) = 87k = 174 \\Rightarrow k = 2$।\n3) $x=16, y=22 \\Rightarrow y^2 - x^2 = (22-16)(22+16) = 6 \\times 38 = \\mathbf{228}$।\n\nविधि 2: 57 के गुणज से विकल्प काटें: $y^2 - x^2 = (11^2 - 8^2)k^2 = 57k^2$ होना चाहिए — विकल्पों में केवल **228** ($57 \\times 4$) `57` का गुणज है!"
     },
     "correctIndexHi": 0
   },
@@ -2113,10 +2153,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (03 Nov 2026 Shift 2)",
-      "en": "Correct Answer: Option A (-9.57). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (-9.57)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**-9.57**).",
+      "keyConcept": "Factor (a⁴ − b⁴)/(a² + b²) = a² − b² = (a − b)(a + b)",
+      "optionTrick": {
+        "en": "`3.8 − 4.9 = −1.1`, sum `= 8.7` -> `−1.1 × 8.7 = −9.57` (ending digit `1×7 = 7`, negative sign)!",
+        "hi": "सीधे `3.8² − 4.9² = (3.8 − 4.9)(3.8 + 4.9) = (−1.1)(8.7) = −9.57` (इकाई दशमलव `7` व ऋणात्मक चिह्न)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Algebraic Factorization",
+            "hi": "विधि 1: बीजीय गुणनखंड विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$\\frac{a^4 - b^4}{a^2 + b^2} = a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "1) $\\frac{(3.8^2 - 4.9^2)(3.8^2 + 4.9^2)}{3.8^2 + 4.9^2} = 3.8^2 - 4.9^2$.\n2) $(3.8 - 4.9)(3.8 + 4.9) = (-1.1) \\times 8.7 = \\mathbf{-9.57}$.",
+            "hi": "1) अंश का $a^4 - b^4 = (a^2 - b^2)(a^2 + b^2)$ तोड़ने पर $3.8^2 - 4.9^2$ बचता है।\n2) $(3.8 - 4.9)(3.8 + 4.9) = (-1.1)(8.7) = \\mathbf{-9.57}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: ×11 Mental Trick (−1.1 × 8.7) (4 sec)",
+            "hi": "विधि 2: ×11 मानसिक गुणा ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $3.8 < 4.9$, result is negative. Multiply $11 \\times 87$: $8 | 8+7 | 7 \\to 957 \\Rightarrow \\mathbf{-9.57}$!",
+            "hi": "दशमलव बाद में लगाएँ: $11 \\times 87 = 957$ व चिह्न ऋणात्मक $\\Rightarrow \\mathbf{-9.57}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Algebraic Factorization: 1) $\\frac{(3.8^2 - 4.9^2)(3.8^2 + 4.9^2)}{3.8^2 + 4.9^2} = 3.8^2 - 4.9^2$.\n2) $(3.8 - 4.9)(3.8 + 4.9) = (-1.1) \\times 8.7 = \\mathbf{-9.57}$.\n\nMethod 2: ×11 Mental Trick (−1.1 × 8.7) (4 sec): Since $3.8 < 4.9$, result is negative. Multiply $11 \\times 87$: $8 | 8+7 | 7 \\to 957 \\Rightarrow \\mathbf{-9.57}$!",
+      "hi": "विधि 1: बीजीय गुणनखंड विधि: 1) अंश का $a^4 - b^4 = (a^2 - b^2)(a^2 + b^2)$ तोड़ने पर $3.8^2 - 4.9^2$ बचता है।\n2) $(3.8 - 4.9)(3.8 + 4.9) = (-1.1)(8.7) = \\mathbf{-9.57}$।\n\nविधि 2: ×11 मानसिक गुणा ट्रिक: दशमलव बाद में लगाएँ: $11 \\times 87 = 957$ व चिह्न ऋणात्मक $\\Rightarrow \\mathbf{-9.57}$!"
     },
     "correctIndexHi": 0
   },
@@ -2410,10 +2491,50 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (03 Nov 2026 Shift 2)",
-      "en": "Correct Answer: Option C (49). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (49)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**49**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 49",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **49**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **49** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 49)",
+            "hi": "विधि 1: 49 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 16611 by **49** yields quotient **339** with remainder **0**.\n2) Eliminating others: 54 (rem 33), 55 (rem 1), 42 (rem 21) — none divides evenly.",
+            "hi": "1) 16611 को **49** से भाग देने पर सटीक भागफल **339** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 54 (rem 33), 55 (rem 1), 42 (rem 21) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 49",
+            "hi": "विधि 2: 49 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide by 7 first (16611 ÷ 7 = 2373), then check quotient ÷ 7 = 339 (exact integer!).",
+            "hi": "49 = 7² नियम: पहले 7 से भाग दें (2373), पुनः 7 से भाग देने पर सटीक पूर्णांक 339 प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 49): 1) Dividing 16611 by **49** yields quotient **339** with remainder **0**.\n2) Eliminating others: 54 (rem 33), 55 (rem 1), 42 (rem 21) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 49: Divide by 7 first (16611 ÷ 7 = 2373), then check quotient ÷ 7 = 339 (exact integer!).",
+      "hi": "विधि 1: 49 से प्रत्यक्ष विभाजन सत्यापन: 1) 16611 को **49** से भाग देने पर सटीक भागफल **339** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 54 (rem 33), 55 (rem 1), 42 (rem 21) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 49 का स्मार्ट विभाज्यता नियम: 49 = 7² नियम: पहले 7 से भाग दें (2373), पुनः 7 से भाग देने पर सटीक पूर्णांक 339 प्राप्त होता है!"
     },
     "correctIndexHi": 2
   },

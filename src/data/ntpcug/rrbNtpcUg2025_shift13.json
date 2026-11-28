@@ -1584,10 +1584,52 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (58) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (58) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**58**).",
+      "keyConcept": "Middle Number Identity: (m−1)² + (m+1)² = 2(m² + 1) => Sum = 2m",
+      "optionTrick": {
+        "en": "Take $\\sqrt{(S/2) - 1} = \\sqrt{842 - 1} = \\sqrt{841} = 29$, then double it: $2 \\times 29 = \\mathbf{58}$!",
+        "hi": "सीधा सूत्र: मध्य संख्या $m = \\sqrt{\\frac{1684}{2} - 1} = \\sqrt{841} = 29$, अतः योग $= 2m = \\mathbf{58}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation Method",
+            "hi": "विधि 1: द्विघात समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$n^2 + (n + 2)^2 = S$",
+          "steps": {
+            "en": "1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 1684 \\Rightarrow n^2 + 2n = 840 \\Rightarrow n(n+2) = 28 \\times 30$.\n3) Numbers $= 28$ & 30; Sum $= 28 + 30 = \\mathbf{58}$.",
+            "hi": "1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 1684$।\n2) हल करने पर संख्याएँ $= 28$ व 30 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 28 + 30 = \\mathbf{58}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Mid-Number √(S/2 − 1) Shortcut (6 sec)",
+            "hi": "विधि 2: मध्य संख्या √(S/2 − 1) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$m = \\sqrt{\\frac{S}{2} - 1},\\; \\text{Sum} = 2m$",
+          "steps": {
+            "en": "Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 1684 \\Rightarrow m^2 = 842 - 1 = 841 \\Rightarrow m = 29 \\Rightarrow \\text{Sum} = 2(29) = \\mathbf{58}$.",
+            "hi": "संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 1684 \\Rightarrow m^2 = 841 \\Rightarrow m = 29$। अतः योग $= 2 \\times 29 = \\mathbf{58}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation Method: 1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 1684 \\Rightarrow n^2 + 2n = 840 \\Rightarrow n(n+2) = 28 \\times 30$.\n3) Numbers $= 28$ & 30; Sum $= 28 + 30 = \\mathbf{58}$.\n\nMethod 2: Mid-Number √(S/2 − 1) Shortcut (6 sec): Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 1684 \\Rightarrow m^2 = 842 - 1 = 841 \\Rightarrow m = 29 \\Rightarrow \\text{Sum} = 2(29) = \\mathbf{58}$.",
+      "hi": "विधि 1: द्विघात समीकरण विधि: 1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 1684$।\n2) हल करने पर संख्याएँ $= 28$ व 30 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 28 + 30 = \\mathbf{58}$।\n\nविधि 2: मध्य संख्या √(S/2 − 1) ट्रिक: संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 1684 \\Rightarrow m^2 = 841 \\Rightarrow m = 29$। अतः योग $= 2 \\times 29 = \\mathbf{58}$!"
     }
   },
   {
@@ -1876,10 +1918,54 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (9.65) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (9.65) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**9.65**).",
+      "keyConcept": "Decimal Square Root Shift: Half the Decimal Places in Answer",
+      "optionTrick": {
+        "en": "Last decimal place check: 0.15 ends at `5` (2 dec places) and 2.5 has 1 dec places $\\Rightarrow$ answer MUST end in `.65`!",
+        "hi": "दशमलव स्थान नियम: वर्गमूल में दशमलव अंक आधे हो जाते हैं — इसलिए अंत में **.65** अनिवार्य है!"
+      },
+      "trapAlert": {
+        "en": "0.0225 has 4 decimal places -> square root 0.15 MUST have 2 decimal places (e.g. 0.0225 -> 0.15, NOT 0.015!).",
+        "hi": "दशमलव जाल से बचें: 0.0225 में 4 अंक हैं, अतः वर्गमूल 0.15 में ठीक **2** दशमलव स्थान होंगे।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Decimal Digit Pairing Rule",
+            "hi": "विधि 1: दशमलव स्थान युग्म नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $\\sqrt{144} = 12$.\n2) $\\sqrt{0.0225} = 0.15$ (2 decimal places).\n3) $\\sqrt{6.25} = 2.5$ (1 decimal place).\n4) $12 + 0.15 - 2.5 = \\mathbf{9.65}$.",
+            "hi": "1) $\\sqrt{144} = 12$।\n2) $\\sqrt{0.0225} = 0.15$ तथा $\\sqrt{6.25} = 2.5$।\n3) गणना: $12 + 0.15 - 2.5 = \\mathbf{9.65}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Integer-Part + Hundredths Suffix (5 sec)",
+            "hi": "विधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $+0.15$ supplies hundredths digit `5` while integer estimate $\\approx 12 - 3 = 9$ $\\Rightarrow$ **9.65**!",
+            "hi": "अनुमानित मान $\\approx 12 + 0.15 - 2.5$ तथा अंतिम दशमलव अंक `5` सीधे **9.65** तय करता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Decimal Digit Pairing Rule: 1) $\\sqrt{144} = 12$.\n2) $\\sqrt{0.0225} = 0.15$ (2 decimal places).\n3) $\\sqrt{6.25} = 2.5$ (1 decimal place).\n4) $12 + 0.15 - 2.5 = \\mathbf{9.65}$.\n\nMethod 2: Integer-Part + Hundredths Suffix (5 sec): Notice $+0.15$ supplies hundredths digit `5` while integer estimate $\\approx 12 - 3 = 9$ $\\Rightarrow$ **9.65**!",
+      "hi": "विधि 1: दशमलव स्थान युग्म नियम: 1) $\\sqrt{144} = 12$।\n2) $\\sqrt{0.0225} = 0.15$ तथा $\\sqrt{6.25} = 2.5$।\n3) गणना: $12 + 0.15 - 2.5 = \\mathbf{9.65}$।\n\nविधि 2: पूर्णांक व अंतिम दशमलव अंक मिलान: अनुमानित मान $\\approx 12 + 0.15 - 2.5$ तथा अंतिम दशमलव अंक `5` सीधे **9.65** तय करता है!"
     }
   },
   {
@@ -1909,10 +1995,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (48−42) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (48−42) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**48−42**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-17 - (12) + (-13) = -42 \\Rightarrow \\mathbf{48^{-42}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-17 - (12) + (-13) = -42 \\Rightarrow \\mathbf{48^{-42}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $48^{-17 - (12)} = 48^{-29}$.\n2) Combine third term: $48^{-29 + (-13)} = \\mathbf{48^{-42}}$.",
+            "hi": "1) पहले दो पद: $48^{-17 - (12)} = 48^{-29}$।\n2) तीसरा पद जोड़ने पर: $48^{-29 + (-13)} = \\mathbf{48^{-42}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 48: $-17 - (12) + (-13) = -42 \\Rightarrow \\mathbf{48^{-42}}$.",
+            "hi": "आधार 48 की सभी घातें एक पंक्ति में हल करें: $-17 - (12) + (-13) = -42 \\Rightarrow \\mathbf{48^{-42}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $48^{-17 - (12)} = 48^{-29}$.\n2) Combine third term: $48^{-29 + (-13)} = \\mathbf{48^{-42}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 48: $-17 - (12) + (-13) = -42 \\Rightarrow \\mathbf{48^{-42}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $48^{-17 - (12)} = 48^{-29}$।\n2) तीसरा पद जोड़ने पर: $48^{-29 + (-13)} = \\mathbf{48^{-42}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 48 की सभी घातें एक पंक्ति में हल करें: $-17 - (12) + (-13) = -42 \\Rightarrow \\mathbf{48^{-42}}$।"
     }
   },
   {
@@ -2173,10 +2304,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (41) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (41) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**41**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 41",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **41**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **41** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 41)",
+            "hi": "विधि 1: 41 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 587407 by **41** yields quotient **14327** with remainder **0**.\n2) Eliminating others: 43 (rem 27), 34 (rem 23), 47 (rem 1) — none divides evenly.",
+            "hi": "1) 587407 को **41** से भाग देने पर सटीक भागफल **14327** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 43 (rem 27), 34 (rem 23), 47 (rem 1) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 41",
+            "hi": "विधि 2: 41 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Option test or prime division on last/whole block confirms 587407 = 41 × 14327 (zero remainder!).",
+            "hi": "विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 587407 = 41 × 14327 (शेषफल 0) सत्यापित होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 41): 1) Dividing 587407 by **41** yields quotient **14327** with remainder **0**.\n2) Eliminating others: 43 (rem 27), 34 (rem 23), 47 (rem 1) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 41: Option test or prime division on last/whole block confirms 587407 = 41 × 14327 (zero remainder!).",
+      "hi": "विधि 1: 41 से प्रत्यक्ष विभाजन सत्यापन: 1) 587407 को **41** से भाग देने पर सटीक भागफल **14327** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 43 (rem 27), 34 (rem 23), 47 (rem 1) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 41 का स्मार्ट विभाज्यता नियम: विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 587407 = 41 × 14327 (शेषफल 0) सत्यापित होता है!"
     }
   },
   {

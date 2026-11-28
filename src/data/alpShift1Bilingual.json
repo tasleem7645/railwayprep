@@ -1081,10 +1081,50 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option A (2). Verified by official Railway Recruitment Board answer key.",
-      "hi": "सही उत्तर: विकल्प A (2)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**2**).",
+      "keyConcept": "Last 2 digits (`2B`) ÷ 4✓ (min B=0) + Sum ÷ 3✓",
+      "optionTrick": {
+        "en": "Last 2 digits (`2B`) ÷ 4✓ (min B=0) + Sum ÷ 3✓: locks (2, 0) $\\Rightarrow$ Least value $= \\mathbf{2}$!",
+        "hi": "अंतिम 2 अंक (`2B`) 4 से कटें + अंक योग 3 से कटे: सीधे (A=2, B=0) मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{2}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 12",
+            "hi": "विधि 1: 12 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **12** on `33A292B`: Last 2 digits (`2B`) ÷ 4✓ (min B=0) + Sum ÷ 3✓.\n2) Known digits sum $= 19$. Testing valid digits gives **A = 2, B = 0 ⇒ A + B = 2** (number `3322920`).",
+            "hi": "1) `33A292B` पर **12** का नियम लागू करें (अंतिम 2 अंक (`2B`) 4 से कटें + अंक योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 19$। वैध अंक जाँच से **A = 2, B = 0 ⇒ A + B = 2** (`3322920`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first (for min sum, pick smallest valid $B=0$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{2}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 0$), फिर शेषफल शून्य बनाकर तुरंत **2** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 12: 1) Apply divisibility conditions for **12** on `33A292B`: Last 2 digits (`2B`) ÷ 4✓ (min B=0) + Sum ÷ 3✓.\n2) Known digits sum $= 19$. Testing valid digits gives **A = 2, B = 0 ⇒ A + B = 2** (number `3322920`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first (for min sum, pick smallest valid $B=0$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{2}$.",
+      "hi": "विधि 1: 12 का विभाज्यता नियम: 1) `33A292B` पर **12** का नियम लागू करें (अंतिम 2 अंक (`2B`) 4 से कटें + अंक योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 19$। वैध अंक जाँच से **A = 2, B = 0 ⇒ A + B = 2** (`3322920`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 0$), फिर शेषफल शून्य बनाकर तुरंत **2** पाएँ!"
     },
     "correctIndexHi": 0
   },
@@ -2164,10 +2204,50 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Key Concept: Arithmetic & Numerical Ability (Mathematics)",
-      "en": "Correct Answer: Option B (69). Verified by official Railway Recruitment Board answer key.",
-      "hi": "सही उत्तर: विकल्प B (69)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official RRB Answer Key: Option B (**69**). Note: Math formula graphic from source PDF was dropped during extraction.",
+      "keyConcept": "VBODMAS / Surd-Equation Evaluation Principles & Official RRB Answer Key",
+      "trapAlert": {
+        "en": "Source PDF OCR Notice: The printed formula/graphic for this question was not embedded as text in the original PDF dump. Verified Official RRB Key confirms **Option B (69)**.",
+        "hi": "स्रोत PDF सूचना: मूल प्रश्नपत्र से इस प्रश्न का गणितीय सूत्र/चित्र टेक्स्ट रूप में निष्कर्षित नहीं हो पाया। आधिकारिक RRB उत्तर कुंजी के अनुसार सही उत्तर **विकल्प B (69)** प्रमाणित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Official RRB Key & VBODMAS Priority Order",
+            "hi": "विधि 1: आधिकारिक उत्तर कुंजी व VBODMAS क्रम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "Rule",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply strict **V-BODMAS**: Vinculum (bar) $\\to$ Brackets `( ) { } [ ]` $\\to$ Orders/of $\\to$ Division $\\to$ Multiplication $\\to$ Addition/Subtraction.\n2) Official Verified RRB Answer Key: **Option B (69)**.",
+            "hi": "1) किसी भी सरलीकरण/समीकरण व्यंजक में सदैव **V-BODMAS** क्रम (रेखा कोष्ठक $\\to$ छोटे/मँझले/बड़े कोष्ठक $\\to$ का $\\to$ भाग $\\to$ गुणा $\\to$ जोड़/घटाव) अपनाएँ।\n2) आधिकारिक RRB प्रमाणित उत्तर: **विकल्प B (69)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Exam-Hall Verification Checklist (C9 & Unit Digit)",
+            "hi": "विधि 2: परीक्षा-हॉल डिजिटल सम व इकाई अंक जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Always double-check sign flips on nested brackets `−(a − b)` and verify magnitude + unit digit against options. Verified Key: **69**.",
+            "hi": "कोष्ठक खोलते समय ऋणात्मक चिह्नों और अंत में इकाई अंक / डिजिटल सम की जाँच अवश्य करें। प्रमाणित उत्तर: **69**।"
+          }
+        }
+      ],
+      "en": "Method 1: Official RRB Key & VBODMAS Priority Order: 1) Apply strict **V-BODMAS**: Vinculum (bar) $\\to$ Brackets `( ) { } [ ]` $\\to$ Orders/of $\\to$ Division $\\to$ Multiplication $\\to$ Addition/Subtraction.\n2) Official Verified RRB Answer Key: **Option B (69)**.\n\nMethod 2: Exam-Hall Verification Checklist (C9 & Unit Digit): Always double-check sign flips on nested brackets `−(a − b)` and verify magnitude + unit digit against options. Verified Key: **69**.",
+      "hi": "विधि 1: आधिकारिक उत्तर कुंजी व VBODMAS क्रम: 1) किसी भी सरलीकरण/समीकरण व्यंजक में सदैव **V-BODMAS** क्रम (रेखा कोष्ठक $\\to$ छोटे/मँझले/बड़े कोष्ठक $\\to$ का $\\to$ भाग $\\to$ गुणा $\\to$ जोड़/घटाव) अपनाएँ।\n2) आधिकारिक RRB प्रमाणित उत्तर: **विकल्प B (69)**।\n\nविधि 2: परीक्षा-हॉल डिजिटल सम व इकाई अंक जाँच: कोष्ठक खोलते समय ऋणात्मक चिह्नों और अंत में इकाई अंक / डिजिटल सम की जाँच अवश्य करें। प्रमाणित उत्तर: **69**।"
     },
     "correctIndexHi": 1
   },

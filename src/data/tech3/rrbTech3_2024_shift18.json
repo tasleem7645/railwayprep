@@ -191,10 +191,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**10000**).",
+      "keyConcept": "Division Power Rule: 10^150 ÷ 10^146 = 10^(150−146) = 10⁴",
+      "optionTrick": {
+        "en": "`150 − 146 = 4` -> `10⁴` = `1` with `4` zeros = **10000**!",
+        "hi": "`10^(150 − 146) = 10⁴` = **10000** (4 शून्य)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quotient Law a^m ÷ a^n",
+            "hi": "विधि 1: घातांक भाग नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "6 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$10^{150 - 146} = 10^4 = \\mathbf{10000}$.",
+            "hi": "$10^{150 - 146} = 10^4 = \\mathbf{10000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero Count Check (2 sec)",
+            "hi": "विधि 2: शून्य संख्या गिनती"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Exponent difference is 4, so answer has 4 zeros (`NOT 10^5 or 1000`) $\\Rightarrow \\mathbf{10000}$.",
+            "hi": "घात अंतर 4 होने से चार शून्य वाली संख्या **10000** सही है।"
+          }
+        }
+      ],
+      "en": "Method 1: Quotient Law a^m ÷ a^n: $10^{150 - 146} = 10^4 = \\mathbf{10000}$.\n\nMethod 2: Zero Count Check (2 sec): Exponent difference is 4, so answer has 4 zeros (`NOT 10^5 or 1000`) $\\Rightarrow \\mathbf{10000}$.",
+      "hi": "विधि 1: घातांक भाग नियम: $10^{150 - 146} = 10^4 = \\mathbf{10000}$।\n\nविधि 2: शून्य संख्या गिनती: घात अंतर 4 होने से चार शून्य वाली संख्या **10000** सही है।"
     }
   },
   {
@@ -3332,10 +3372,50 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**-11**).",
+      "keyConcept": "BODMAS: Evaluate 6 ÷ 3 = 2 Before Adding Left-to-Right",
+      "optionTrick": {
+        "en": "`6 ÷ 3 = 2`, so `−18 + 2 + 5 = −18 + 7` = **−11**!",
+        "hi": "`6 ÷ 3 = 2`, अतः `−18 + 2 + 5 = −18 + 7` = **−11**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: BODMAS Division First",
+            "hi": "विधि 1: BODMAS पहले भाग विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "6 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$-18 + (6 \\div 3) + 5 = -18 + 2 + 5 = -18 + 7 = \\mathbf{-11}$.",
+            "hi": "$-18 + 2 + 5 = -18 + 7 = \\mathbf{-11}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Chunk Sum (3 sec)",
+            "hi": "विधि 2: चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Combine $+2+5 = +7$ against $-18 \\Rightarrow \\mathbf{-11}$ (negative larger).",
+            "hi": "धनात्मक योग `2 + 5 = 7` को `-18` के साथ जोड़ें $\\Rightarrow \\mathbf{-11}$।"
+          }
+        }
+      ],
+      "en": "Method 1: BODMAS Division First: $-18 + (6 \\div 3) + 5 = -18 + 2 + 5 = -18 + 7 = \\mathbf{-11}$.\n\nMethod 2: Chunk Sum (3 sec): Combine $+2+5 = +7$ against $-18 \\Rightarrow \\mathbf{-11}$ (negative larger).",
+      "hi": "विधि 1: BODMAS पहले भाग विधि: $-18 + 2 + 5 = -18 + 7 = \\mathbf{-11}$।\n\nविधि 2: चिह्न समूहन: धनात्मक योग `2 + 5 = 7` को `-18` के साथ जोड़ें $\\Rightarrow \\mathbf{-11}$।"
     }
   },
   {

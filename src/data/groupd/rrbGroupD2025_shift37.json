@@ -877,10 +877,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • (a+b)^2, (a-b)^2",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (0) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (0) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**0**).",
+      "keyConcept": "Identity (A + B)² + (A − B)² = 2(A² + B²)",
+      "optionTrick": {
+        "en": "First two brackets equal `2(9a² + 4b²)`; subtracting `2(9a² + 4b²)` leaves **0**!",
+        "hi": "पहले दो कोष्ठक `(A+B)² + (A−B)² = 2(9a² + 4b²)` बनाते हैं — पूरा घटकर **0** बचा!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Use (A+B)² + (A−B)² = 2(A²+B²)",
+            "hi": "विधि 1: मानक सर्वसमिका उपयोग"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $(3a+2b)^2 + (3a-2b)^2 = 2((3a)^2 + (2b)^2) = 2(9a^2 + 4b^2)$.\n2) Subtract $2(9a^2 + 4b^2) = \\mathbf{0}$.",
+            "hi": "1) $(3a+2b)^2 + (3a-2b)^2 = 2(9a^2 + 4b^2)$।\n2) $2(9a^2 + 4b^2) - 2(9a^2 + 4b^2) = \\mathbf{0}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Second Identity Recognition (2 sec)",
+            "hi": "विधि 2: सीधी सर्वसमिका पहचान"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "It is literally $2(A^2+B^2) - 2(A^2+B^2) = \\mathbf{0}$ (verify with $a=1, b=0 \\Rightarrow 9+9-18 = 0$).",
+            "hi": "$a=1, b=0$ रखने पर भी $9 + 9 - 18 = \\mathbf{0}$ तुरंत मिलता है।"
+          }
+        }
+      ],
+      "en": "Method 1: Use (A+B)² + (A−B)² = 2(A²+B²): 1) $(3a+2b)^2 + (3a-2b)^2 = 2((3a)^2 + (2b)^2) = 2(9a^2 + 4b^2)$.\n2) Subtract $2(9a^2 + 4b^2) = \\mathbf{0}$.\n\nMethod 2: Zero-Second Identity Recognition (2 sec): It is literally $2(A^2+B^2) - 2(A^2+B^2) = \\mathbf{0}$ (verify with $a=1, b=0 \\Rightarrow 9+9-18 = 0$).",
+      "hi": "विधि 1: मानक सर्वसमिका उपयोग: 1) $(3a+2b)^2 + (3a-2b)^2 = 2(9a^2 + 4b^2)$।\n2) $2(9a^2 + 4b^2) - 2(9a^2 + 4b^2) = \\mathbf{0}$।\n\nविधि 2: सीधी सर्वसमिका पहचान: $a=1, b=0$ रखने पर भी $9 + 9 - 18 = \\mathbf{0}$ तुरंत मिलता है।"
     }
   },
   {
@@ -1115,10 +1155,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Finding HCF",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (68) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (68) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**68**).",
+      "keyConcept": "Same Remainder Rule: HCF(|a − b|, |b − c|, |c − a|)",
+      "optionTrick": {
+        "en": "Equal differences: `153 − 85 = 68` and `221 − 153 = 68` -> HCF is **68** (zero extra steps; remainder = `17`)!",
+        "hi": "दोनों अंतर `153 − 85 = 68` व `221 − 153 = 68` समान हैं — सीधे म.स. $= \\mathbf{68}$ (प्रत्येक दशा में शेष `17`)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Pairwise Differences HCF",
+            "hi": "विधि 1: संख्या अंतर का म.स. (HCF)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$\\text{HCF}(b - a, c - b)$",
+          "steps": {
+            "en": "1) Take differences: $153 - 85 = 68$ and $221 - 153 = 68$.\n2) $\\text{HCF}(68, 68) = \\mathbf{68}$ (check: $85=68+17$, $153=136+17$, $221=204+17$).",
+            "hi": "1) युग्म अंतर: $153 - 85 = 68$ तथा $221 - 153 = 68$।\n2) $\\text{HCF}(68, 68) = \\mathbf{68}$ (तीनों में समान शेष 17 बचता है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Arithmetic Difference (4 sec)",
+            "hi": "विधि 2: समानांतर अंतर ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice 85, 153, 221 have common step $+68$! Therefore greatest divisor leaving equal remainder is the step itself $= \\mathbf{68}$.",
+            "hi": "तीनों संख्याएँ $+68$ की समांतर श्रेणी में हैं, अतः सबसे बड़ा भाजक स्वयं अंतर **68** ही होगा!"
+          }
+        }
+      ],
+      "en": "Method 1: Pairwise Differences HCF: 1) Take differences: $153 - 85 = 68$ and $221 - 153 = 68$.\n2) $\\text{HCF}(68, 68) = \\mathbf{68}$ (check: $85=68+17$, $153=136+17$, $221=204+17$).\n\nMethod 2: Arithmetic Difference (4 sec): Notice 85, 153, 221 have common step $+68$! Therefore greatest divisor leaving equal remainder is the step itself $= \\mathbf{68}$.",
+      "hi": "विधि 1: संख्या अंतर का म.स. (HCF): 1) युग्म अंतर: $153 - 85 = 68$ तथा $221 - 153 = 68$।\n2) $\\text{HCF}(68, 68) = \\mathbf{68}$ (तीनों में समान शेष 17 बचता है)।\n\nविधि 2: समानांतर अंतर ट्रिक: तीनों संख्याएँ $+68$ की समांतर श्रेणी में हैं, अतः सबसे बड़ा भाजक स्वयं अंतर **68** ही होगा!"
     }
   },
   {
@@ -1245,10 +1326,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • HCF/LCM Word Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (20) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (20) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**20**).",
+      "keyConcept": "Largest Square Tile Side = HCF(Length, Breadth)",
+      "optionTrick": {
+        "en": "`4m × 3.2m = 400cm × 320cm` -> ratio `5 : 4` (after ÷80)! Tiles $= 5 \\times 4 = \\mathbf{20}$!",
+        "hi": "`400 cm : 320 cm = 5 : 4` (सरलतम अनुपात में काटें); न्यूनतम वर्गाकार टाइलें $= 5 \\times 4 = \\mathbf{20}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert to cm + HCF Tile Side",
+            "hi": "विधि 1: सेमी में बदलकर HCF टाइल भुजा"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Room $= 400\\text{ cm} \\times 320\\text{ cm}$. Largest square tile side $= \\text{HCF}(400, 320) = 80\\text{ cm}$.\n2) Number of tiles $= \\frac{400 \\times 320}{80 \\times 80} = 5 \\times 4 = \\mathbf{20}$.",
+            "hi": "1) कमरा $= 400\\text{ cm} \\times 320\\text{ cm}$। अधिकतम टाइल भुजा $= \\text{HCF}(400, 320) = 80\\text{ cm}$।\n2) टाइलों की संख्या $= \\frac{400}{80} \\times \\frac{320}{80} = 5 \\times 4 = \\mathbf{20}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Coprime Ratio Multiplication (5 sec)",
+            "hi": "विधि 2: सह-अभाज्य अनुपात गुणन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$L : B = a : b \\text{ (coprime)} \\Rightarrow \\text{Min Tiles} = a \\times b$",
+          "steps": {
+            "en": "Reduce $4.0 : 3.2 = 40 : 32 = 5 : 4$. Minimum tiles needed is simply $5 \\times 4 = \\mathbf{20}$!",
+            "hi": "केवल अनुपात सरल करें: $4.0 : 3.2 = 5 : 4 \\Rightarrow$ न्यूनतम टाइलें $= 5 \\times 4 = \\mathbf{20}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert to cm + HCF Tile Side: 1) Room $= 400\\text{ cm} \\times 320\\text{ cm}$. Largest square tile side $= \\text{HCF}(400, 320) = 80\\text{ cm}$.\n2) Number of tiles $= \\frac{400 \\times 320}{80 \\times 80} = 5 \\times 4 = \\mathbf{20}$.\n\nMethod 2: Coprime Ratio Multiplication (5 sec): Reduce $4.0 : 3.2 = 40 : 32 = 5 : 4$. Minimum tiles needed is simply $5 \\times 4 = \\mathbf{20}$!",
+      "hi": "विधि 1: सेमी में बदलकर HCF टाइल भुजा: 1) कमरा $= 400\\text{ cm} \\times 320\\text{ cm}$। अधिकतम टाइल भुजा $= \\text{HCF}(400, 320) = 80\\text{ cm}$।\n2) टाइलों की संख्या $= \\frac{400}{80} \\times \\frac{320}{80} = 5 \\times 4 = \\mathbf{20}$।\n\nविधि 2: सह-अभाज्य अनुपात गुणन ट्रिक: केवल अनुपात सरल करें: $4.0 : 3.2 = 5 : 4 \\Rightarrow$ न्यूनतम टाइलें $= 5 \\times 4 = \\mathbf{20}$!"
     }
   },
   {

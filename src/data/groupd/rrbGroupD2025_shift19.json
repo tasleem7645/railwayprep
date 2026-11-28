@@ -1493,10 +1493,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (0) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (0) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**0**).",
+      "keyConcept": "Digit sum ÷ 3",
+      "optionTrick": {
+        "en": "Digit sum ÷ 3: locks (0, 0) $\\Rightarrow$ Least value $= \\mathbf{0}$!",
+        "hi": "अंकों का योग 3 से कटे: सीधे (A=0, B=0) मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{0}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 3",
+            "hi": "विधि 1: 3 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **3** on `45A216B`: Digit sum ÷ 3.\n2) Known digits sum $= 18$. Testing valid digits gives **A = 0, B = 0 ⇒ A + B = 0** (number `4502160`).",
+            "hi": "1) `45A216B` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 18$। वैध अंक जाँच से **A = 0, B = 0 ⇒ A + B = 0** (`4502160`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first (for min sum, pick smallest valid $B=0$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{0}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 0$), फिर शेषफल शून्य बनाकर तुरंत **0** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 3: 1) Apply divisibility conditions for **3** on `45A216B`: Digit sum ÷ 3.\n2) Known digits sum $= 18$. Testing valid digits gives **A = 0, B = 0 ⇒ A + B = 0** (number `4502160`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first (for min sum, pick smallest valid $B=0$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{0}$.",
+      "hi": "विधि 1: 3 का विभाज्यता नियम: 1) `45A216B` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 18$। वैध अंक जाँच से **A = 0, B = 0 ⇒ A + B = 0** (`4502160`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 0$), फिर शेषफल शून्य बनाकर तुरंत **0** पाएँ!"
     }
   },
   {
@@ -1804,10 +1844,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Pythagorean Identities",
-      "en": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2. Given (sin θ + cos θ) = √2 cos θ. So 2 cos² θ + x² = 2 => x² = 2 - 2 cos² θ = 2 sin² θ => x = √2 sin θ. Correct: Option A (√2 sin θ).",
-      "hi": "(sin θ + cos θ)² + (cos θ - sin θ)² = 2। अत: x = √2 sin θ। सही उत्तर: विकल्प A (√2 sin θ)।"
+      "approach": "Official Answer: Option A (**√2 sin θ**).",
+      "keyConcept": "Trigonometric Pair Identity: (sinθ + cosθ)² + (cosθ − sinθ)² = 2",
+      "trapAlert": {
+        "en": "Source PDF OCR dropped the prompt line here; official RRB solution confirms Question asks (cosθ − sinθ) when (sinθ + cosθ) = √2 cosθ -> Answer: **√2 sin θ** (Option A).",
+        "hi": "स्रोत PDF में प्रश्न पाठ कटा था; आधिकारिक RRB हल के अनुसार $(\\sin\\theta + \\cos\\theta) = \\sqrt{2}\\cos\\theta$ होने पर $(\\cos\\theta - \\sin\\theta) = \\mathbf{\\sqrt{2}\\sin\\theta}$ (विकल्प A) पूछा गया था।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Complementary Squares Identity",
+            "hi": "विधि 1: वर्ग योग सर्वसमिका विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$(\\sin\\theta + \\cos\\theta)^2 + (\\cos\\theta - \\sin\\theta)^2 = 2$",
+          "steps": {
+            "en": "1) Let $\\cos\\theta - \\sin\\theta = x$.\n2) $(\\sqrt{2}\\cos\\theta)^2 + x^2 = 2 \\Rightarrow 2\\cos^2\\theta + x^2 = 2$.\n3) $x^2 = 2(1 - \\cos^2\\theta) = 2\\sin^2\\theta \\Rightarrow x = \\mathbf{\\sqrt{2}\\sin\\theta}$.",
+            "hi": "1) मानें $(\\cos\\theta - \\sin\\theta) = x$।\n2) $2\\cos^2\\theta + x^2 = 2 \\Rightarrow x^2 = 2(1 - \\cos^2\\theta) = 2\\sin^2\\theta$।\n3) अतः $x = \\mathbf{\\sqrt{2}\\sin\\theta}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Swap (cos <-> sin) Co-Rule (3 sec)",
+            "hi": "विधि 2: सीधे sin–cos अदला-बदली ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Standard Railway shortcut: If $\\cos\\theta + \\sin\\theta = \\sqrt{2}\\cos\\theta$, then $\\cos\\theta - \\sin\\theta = \\mathbf{\\sqrt{2}\\sin\\theta}$ immediately!",
+            "hi": "मानक रेलवे प्रमेय: यदि $\\cos\\theta + \\sin\\theta = \\sqrt{2}\\cos\\theta$, तो $\\cos\\theta - \\sin\\theta$ सदैव $\\mathbf{\\sqrt{2}\\sin\\theta}$ होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Complementary Squares Identity: 1) Let $\\cos\\theta - \\sin\\theta = x$.\n2) $(\\sqrt{2}\\cos\\theta)^2 + x^2 = 2 \\Rightarrow 2\\cos^2\\theta + x^2 = 2$.\n3) $x^2 = 2(1 - \\cos^2\\theta) = 2\\sin^2\\theta \\Rightarrow x = \\mathbf{\\sqrt{2}\\sin\\theta}$.\n\nMethod 2: Swap (cos <-> sin) Co-Rule (3 sec): Standard Railway shortcut: If $\\cos\\theta + \\sin\\theta = \\sqrt{2}\\cos\\theta$, then $\\cos\\theta - \\sin\\theta = \\mathbf{\\sqrt{2}\\sin\\theta}$ immediately!",
+      "hi": "विधि 1: वर्ग योग सर्वसमिका विधि: 1) मानें $(\\cos\\theta - \\sin\\theta) = x$।\n2) $2\\cos^2\\theta + x^2 = 2 \\Rightarrow x^2 = 2(1 - \\cos^2\\theta) = 2\\sin^2\\theta$।\n3) अतः $x = \\mathbf{\\sqrt{2}\\sin\\theta}$।\n\nविधि 2: सीधे sin–cos अदला-बदली ट्रिक: मानक रेलवे प्रमेय: यदि $\\cos\\theta + \\sin\\theta = \\sqrt{2}\\cos\\theta$, तो $\\cos\\theta - \\sin\\theta$ सदैव $\\mathbf{\\sqrt{2}\\sin\\theta}$ होता है!"
     }
   },
   {

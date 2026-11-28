@@ -1431,10 +1431,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • (a+b)^2, (a-b)^2",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {
@@ -1567,10 +1608,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Order of Operations",
-      "en": "6 - 9 ÷ 3 = 6 - 3 = 3. 60 ÷ 3 - 3 = 20 - 3 = 17. 38 - 17 = 21. 45 - 21 = 24. Correct: Option A (24).",
-      "hi": "45 - 21 = 24। सही उत्तर: विकल्प A (24)।"
+      "approach": "Official Answer: Option A (**24**).",
+      "keyConcept": "Nested Bracket Unpacking (Innermost Paren -> Curly -> Square)",
+      "optionTrick": {
+        "en": "Inside out: `(6 − 3) = 3` -> `{20 − 3} = 17` -> `[38 − 17] = 21` -> `45 − 21` = **24**!",
+        "hi": "अंदर से बाहर खुलें: `(3)` $\\to$ `{17}` $\\to$ `[21]` $\\to 45 - 21 = \\mathbf{24}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Inside-Out Bracket BODMAS",
+            "hi": "विधि 1: अंदर से बाहर कोष्ठक हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Inner paren: $(6 - 9 \\div 3) = 6 - 3 = 3$.\n2) Curly brace: $\\{60 \\div 3 - 3\\} = 20 - 3 = 17$.\n3) Square bracket: $[38 - 17] = 21 \\Rightarrow 45 - 21 = \\mathbf{24}$.",
+            "hi": "1) छोटा कोष्ठक $= 6 - 3 = 3$।\n2) मँझला कोष्ठक $= 20 - 3 = 17$।\n3) बड़ा कोष्ठक $= 38 - 17 = 21 \\Rightarrow 45 - 21 = \\mathbf{24}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Alternating Sign Flip (6 sec)",
+            "hi": "विधि 2: वैकल्पिक चिह्न खोल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Track nested minus flips directly: $45 - 38 + 20 - 3 = 7 + 17 = \\mathbf{24}$!",
+            "hi": "चिह्न पलटकर सीधे जोड़ें: $45 - 38 + 20 - 3 = \\mathbf{24}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Inside-Out Bracket BODMAS: 1) Inner paren: $(6 - 9 \\div 3) = 6 - 3 = 3$.\n2) Curly brace: $\\{60 \\div 3 - 3\\} = 20 - 3 = 17$.\n3) Square bracket: $[38 - 17] = 21 \\Rightarrow 45 - 21 = \\mathbf{24}$.\n\nMethod 2: Alternating Sign Flip (6 sec): Track nested minus flips directly: $45 - 38 + 20 - 3 = 7 + 17 = \\mathbf{24}$!",
+      "hi": "विधि 1: अंदर से बाहर कोष्ठक हल: 1) छोटा कोष्ठक $= 6 - 3 = 3$।\n2) मँझला कोष्ठक $= 20 - 3 = 17$।\n3) बड़ा कोष्ठक $= 38 - 17 = 21 \\Rightarrow 45 - 21 = \\mathbf{24}$।\n\nविधि 2: वैकल्पिक चिह्न खोल ट्रिक: चिह्न पलटकर सीधे जोड़ें: $45 - 38 + 20 - 3 = \\mathbf{24}$!"
     }
   },
   {

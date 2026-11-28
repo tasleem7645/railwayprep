@@ -1419,10 +1419,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (1) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (1) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**1**).",
+      "keyConcept": "Digit sum ÷ 3",
+      "optionTrick": {
+        "en": "Digit sum ÷ 3: locks A = 1 $\\Rightarrow$ Least value $= \\mathbf{1}$!",
+        "hi": "अंकों का योग 3 से कटे: सीधे A=1 मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{1}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 3",
+            "hi": "विधि 1: 3 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **3** on `48085A7`: Digit sum ÷ 3.\n2) Known digits sum $= 32$. Testing valid digits gives **A = 1** (number `4808517`).",
+            "hi": "1) `48085A7` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 32$। वैध अंक जाँच से **A = 1** (`4808517`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first, then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{1}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **1** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 3: 1) Apply divisibility conditions for **3** on `48085A7`: Digit sum ÷ 3.\n2) Known digits sum $= 32$. Testing valid digits gives **A = 1** (number `4808517`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first, then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{1}$.",
+      "hi": "विधि 1: 3 का विभाज्यता नियम: 1) `48085A7` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 32$। वैध अंक जाँच से **A = 1** (`4808517`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **1** पाएँ!"
     }
   },
   {

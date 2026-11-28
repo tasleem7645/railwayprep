@@ -1325,10 +1325,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (1) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (1) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**1**).",
+      "keyConcept": "Digit sum ÷ 3",
+      "optionTrick": {
+        "en": "Digit sum ÷ 3: locks (0, 1) $\\Rightarrow$ Least value $= \\mathbf{1}$!",
+        "hi": "अंकों का योग 3 से कटे: सीधे (A=0, B=1) मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{1}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 3",
+            "hi": "विधि 1: 3 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **3** on `84A614B`: Digit sum ÷ 3.\n2) Known digits sum $= 23$. Testing valid digits gives **A = 0, B = 1 ⇒ A + B = 1** (number `8406141`).",
+            "hi": "1) `84A614B` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 23$। वैध अंक जाँच से **A = 0, B = 1 ⇒ A + B = 1** (`8406141`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first (for min sum, pick smallest valid $B=1$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{1}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 1$), फिर शेषफल शून्य बनाकर तुरंत **1** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 3: 1) Apply divisibility conditions for **3** on `84A614B`: Digit sum ÷ 3.\n2) Known digits sum $= 23$. Testing valid digits gives **A = 0, B = 1 ⇒ A + B = 1** (number `8406141`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first (for min sum, pick smallest valid $B=1$), then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{1}$.",
+      "hi": "विधि 1: 3 का विभाज्यता नियम: 1) `84A614B` पर **3** का नियम लागू करें (अंकों का योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 23$। वैध अंक जाँच से **A = 0, B = 1 ⇒ A + B = 1** (`8406141`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें (यहाँ $B = 1$), फिर शेषफल शून्य बनाकर तुरंत **1** पाएँ!"
     }
   },
   {
@@ -1359,10 +1399,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Rules for 2,3,4,5,6",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (0) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (0) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**0**).",
+      "keyConcept": "Last 2 digits (`64`) ÷ 4✓ (max B=0) + Sum ÷ 3✓",
+      "optionTrick": {
+        "en": "Last 2 digits (`64`) ÷ 4✓ (max B=0) + Sum ÷ 3✓: locks A = 0 $\\Rightarrow$ Least value $= \\mathbf{0}$!",
+        "hi": "अंतिम 2 अंक (`64`) 4 से कटें + अंक योग 3 से कटे: सीधे A=0 मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{0}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 12",
+            "hi": "विधि 1: 12 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **12** on `456A3264`: Last 2 digits (`64`) ÷ 4✓ (max B=0) + Sum ÷ 3✓.\n2) Known digits sum $= 30$. Testing valid digits gives **A = 0** (number `45603264`).",
+            "hi": "1) `456A3264` पर **12** का नियम लागू करें (अंतिम 2 अंक (`64`) 4 से कटें + अंक योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 30$। वैध अंक जाँच से **A = 0** (`45603264`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first, then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{0}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **0** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 12: 1) Apply divisibility conditions for **12** on `456A3264`: Last 2 digits (`64`) ÷ 4✓ (max B=0) + Sum ÷ 3✓.\n2) Known digits sum $= 30$. Testing valid digits gives **A = 0** (number `45603264`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first, then cast out multiples of 3 from digits $\\Rightarrow \\mathbf{0}$.",
+      "hi": "विधि 1: 12 का विभाज्यता नियम: 1) `456A3264` पर **12** का नियम लागू करें (अंतिम 2 अंक (`64`) 4 से कटें + अंक योग 3 से कटे)।\n2) ज्ञात अंकों का योग $= 30$। वैध अंक जाँच से **A = 0** (`45603264`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **0** पाएँ!"
     }
   },
   {
@@ -1591,10 +1671,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • 0, 30, 45, 60, 90 degrees",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {

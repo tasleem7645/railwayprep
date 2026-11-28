@@ -2236,10 +2236,50 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 8)",
-      "en": "Correct Answer: Option C (72981). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (72981)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**72981**).",
+      "keyConcept": "Casting Out 9s & Smallest Distance from 72979",
+      "optionTrick": {
+        "en": "In `72979`: `7+2=9`, `9`, `9` cancel out! Leftover `7` needs `+2` (`72979 + 2`) = **72981**!",
+        "hi": "`72979` में `7+2=9`, `9`, `9` कट जाते हैं! केवल बचा `7`, इसे `9` बनाने `+2` जोड़ें $\\Rightarrow \\mathbf{72981}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Digit Sum Multiple of 9",
+            "hi": "विधि 1: अंक योग 9 का गुणज"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Digit sum of $72979 = 7+2+9+7+9 = 34$.\n2) Nearest multiple of 9 to 34 is 36 ($+2$ away vs 27 which is $-7$ away).\n3) Nearest integer $= 72979 + 2 = \\mathbf{72981}$.",
+            "hi": "1) 72979 के अंकों का योग $= 34$।\n2) निकटतम 9 का गुणज $= 36$ (अंतर $+2$, जबकि 27 से दूरी 7 है)।\n3) अतः निकटतम संख्या $= 72979 + 2 = \\mathbf{72981}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out-9s Shortcut (3 sec)",
+            "hi": "विधि 2: 9 के जोड़े काटना"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Cross out `(7+2)`, `9`, `9` $\\to$ remainder $= 7$. Closest jump to multiple of 9 is $+2$ (`NOT -7`) $\\Rightarrow \\mathbf{72981}$.",
+            "hi": "`7+2=9`, `9`, `9` काटने पर शेषफल `7` बचा — `9` तक पहुँचने में केवल `+2` जोड़ना सबसे निकट है $\\Rightarrow \\mathbf{72981}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Digit Sum Multiple of 9: 1) Digit sum of $72979 = 7+2+9+7+9 = 34$.\n2) Nearest multiple of 9 to 34 is 36 ($+2$ away vs 27 which is $-7$ away).\n3) Nearest integer $= 72979 + 2 = \\mathbf{72981}$.\n\nMethod 2: Cast-Out-9s Shortcut (3 sec): Cross out `(7+2)`, `9`, `9` $\\to$ remainder $= 7$. Closest jump to multiple of 9 is $+2$ (`NOT -7`) $\\Rightarrow \\mathbf{72981}$.",
+      "hi": "विधि 1: अंक योग 9 का गुणज: 1) 72979 के अंकों का योग $= 34$।\n2) निकटतम 9 का गुणज $= 36$ (अंतर $+2$, जबकि 27 से दूरी 7 है)।\n3) अतः निकटतम संख्या $= 72979 + 2 = \\mathbf{72981}$।\n\nविधि 2: 9 के जोड़े काटना: `7+2=9`, `9`, `9` काटने पर शेषफल `7` बचा — `9` तक पहुँचने में केवल `+2` जोड़ना सबसे निकट है $\\Rightarrow \\mathbf{72981}$!"
     },
     "correctIndexHi": 2
   },

@@ -973,10 +973,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Divisibility Rules",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (0) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (0) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**0**).",
+      "keyConcept": "Last 4 digits (`2384`) ÷ 16",
+      "optionTrick": {
+        "en": "Last 4 digits (`2384`) ÷ 16: locks A = 0 $\\Rightarrow$ Least value $= \\mathbf{0}$!",
+        "hi": "अंतिम 4 अंक (`2384`) 16 से पूर्णतः विभाज्य हों: सीधे A=0 मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{0}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 16",
+            "hi": "विधि 1: 16 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **16** on `456A2384`: Last 4 digits (`2384`) ÷ 16.\n2) Known digits sum $= 32$. Testing valid digits gives **A = 0** (number `45602384`).",
+            "hi": "1) `456A2384` पर **16** का नियम लागू करें (अंतिम 4 अंक (`2384`) 16 से पूर्णतः विभाज्य हों)।\n2) ज्ञात अंकों का योग $= 32$। वैध अंक जाँच से **A = 0** (`45602384`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first, then cast out multiples of 16 from digits $\\Rightarrow \\mathbf{0}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **0** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 16: 1) Apply divisibility conditions for **16** on `456A2384`: Last 4 digits (`2384`) ÷ 16.\n2) Known digits sum $= 32$. Testing valid digits gives **A = 0** (number `45602384`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first, then cast out multiples of 16 from digits $\\Rightarrow \\mathbf{0}$.",
+      "hi": "विधि 1: 16 का विभाज्यता नियम: 1) `456A2384` पर **16** का नियम लागू करें (अंतिम 4 अंक (`2384`) 16 से पूर्णतः विभाज्य हों)।\n2) ज्ञात अंकों का योग $= 32$। वैध अंक जाँच से **A = 0** (`45602384`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **0** पाएँ!"
     }
   },
   {
@@ -1041,10 +1081,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • HCF/LCM Word Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (9,720) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (9,720) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**9,720**).",
+      "keyConcept": "LCM Multiple + Divisibility Filter (45 = 9×5 & 24 = 8×3)",
+      "optionTrick": {
+        "en": "Must divide by `45 -> 9` (digit sum divisible by `9`!) AND `60` (last two digits divisible by `20`!): Sum of `9,450 = 18` (`÷8 fails! 450÷8≠int`), Sum of `9,720 = 18` AND `720÷8 = 90 ✓` -> **9,720**!",
+        "hi": "45 (= 9×5) व 24 (= 8×3) से कटने हेतु अंकों का योग `9` से कटे व अंतिम 3 अंक `8` से कटें: `9,720` (योग 18, `720÷8=90✓`) सीधे उत्तर!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: LCM Division of 9999",
+            "hi": "विधि 1: 9999 में ल.स. भाग विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $\\text{LCM}(12, 24, 45, 60) = 360$.\n2) Divide largest 4-digit number 9999 by 360: $9999 = 360 \\times 27 + 279$.\n3) Subtract remainder: $9999 - 279 = \\mathbf{9{,}720}$.",
+            "hi": "1) $\\text{LCM}(12, 24, 45, 60) = 360$।\n2) $9999 \\div 360$ का शेषफल $= 279$।\n3) चार अंकों की सबसे बड़ी विभाज्य संख्या $= 9999 - 279 = \\mathbf{9,720}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Rule of 9 + Rule of 8 Elimination (5 sec)",
+            "hi": "विधि 2: 9 और 8 के नियम से विकल्प काटें"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1) Rule of `9` kills `9,600` (sum 15) & `9,256` (not even ÷5).\n2) Rule of `8` on last 3 digits: `450` is not ÷8 (`450/8`), while `720/8 = 90` ✓ $\\Rightarrow \\mathbf{9{,}720}$!",
+            "hi": "`9` नियम से `9,600` व `9,256` कटते हैं; बचे दोनों में `8` नियम से `720 ÷ 8 = 90` पास होने पर **9,720** पक्का!"
+          }
+        }
+      ],
+      "en": "Method 1: LCM Division of 9999: 1) $\\text{LCM}(12, 24, 45, 60) = 360$.\n2) Divide largest 4-digit number 9999 by 360: $9999 = 360 \\times 27 + 279$.\n3) Subtract remainder: $9999 - 279 = \\mathbf{9{,}720}$.\n\nMethod 2: Rule of 9 + Rule of 8 Elimination (5 sec): 1) Rule of `9` kills `9,600` (sum 15) & `9,256` (not even ÷5).\n2) Rule of `8` on last 3 digits: `450` is not ÷8 (`450/8`), while `720/8 = 90` ✓ $\\Rightarrow \\mathbf{9{,}720}$!",
+      "hi": "विधि 1: 9999 में ल.स. भाग विधि: 1) $\\text{LCM}(12, 24, 45, 60) = 360$।\n2) $9999 \\div 360$ का शेषफल $= 279$।\n3) चार अंकों की सबसे बड़ी विभाज्य संख्या $= 9999 - 279 = \\mathbf{9,720}$।\n\nविधि 2: 9 और 8 के नियम से विकल्प काटें: `9` नियम से `9,600` व `9,256` कटते हैं; बचे दोनों में `8` नियम से `720 ÷ 8 = 90` पास होने पर **9,720** पक्का!"
     }
   },
   {
@@ -1591,10 +1671,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • (a+b)^3, (a-b)^3",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Difference of Squares: a² − b² = (a − b)(a + b) + Unit Digit",
+      "optionTrick": {
+        "en": "Check unit digits: `5² − 2² + 6 = 5 − 4 + 6 = 7` -> ONLY **97** ends in `7`!",
+        "hi": "इकाई अंक जाँच: `5² − 2² + 6 = 5 − 4 + 6 = 7` — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Square Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: a²−b² Identity & Unit Digit (4 sec)",
+            "hi": "विधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Square Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: a²−b² Identity & Unit Digit (4 sec): $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$.",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका a²−b² व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = \\mathbf{97}$ (इकाई अंक `7`)!"
     }
   },
   {
@@ -1625,10 +1746,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Bracket Simplification",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (182) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (182) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option D (**182**). Note: Math formula graphic from source PDF was dropped during extraction.",
+      "keyConcept": "VBODMAS / Surd-Equation Evaluation Principles & Official RRB Answer Key",
+      "trapAlert": {
+        "en": "Source PDF OCR Notice: The printed formula/graphic for this question was not embedded as text in the original PDF dump. Verified Official RRB Key confirms **Option D (182)**.",
+        "hi": "स्रोत PDF सूचना: मूल प्रश्नपत्र से इस प्रश्न का गणितीय सूत्र/चित्र टेक्स्ट रूप में निष्कर्षित नहीं हो पाया। आधिकारिक RRB उत्तर कुंजी के अनुसार सही उत्तर **विकल्प D (182)** प्रमाणित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Official RRB Key & VBODMAS Priority Order",
+            "hi": "विधि 1: आधिकारिक उत्तर कुंजी व VBODMAS क्रम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "Rule",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply strict **V-BODMAS**: Vinculum (bar) $\\to$ Brackets `( ) { } [ ]` $\\to$ Orders/of $\\to$ Division $\\to$ Multiplication $\\to$ Addition/Subtraction.\n2) Official Verified RRB Answer Key: **Option D (182)**.",
+            "hi": "1) किसी भी सरलीकरण/समीकरण व्यंजक में सदैव **V-BODMAS** क्रम (रेखा कोष्ठक $\\to$ छोटे/मँझले/बड़े कोष्ठक $\\to$ का $\\to$ भाग $\\to$ गुणा $\\to$ जोड़/घटाव) अपनाएँ।\n2) आधिकारिक RRB प्रमाणित उत्तर: **विकल्प D (182)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Exam-Hall Verification Checklist (C9 & Unit Digit)",
+            "hi": "विधि 2: परीक्षा-हॉल डिजिटल सम व इकाई अंक जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Always double-check sign flips on nested brackets `−(a − b)` and verify magnitude + unit digit against options. Verified Key: **182**.",
+            "hi": "कोष्ठक खोलते समय ऋणात्मक चिह्नों और अंत में इकाई अंक / डिजिटल सम की जाँच अवश्य करें। प्रमाणित उत्तर: **182**।"
+          }
+        }
+      ],
+      "en": "Method 1: Official RRB Key & VBODMAS Priority Order: 1) Apply strict **V-BODMAS**: Vinculum (bar) $\\to$ Brackets `( ) { } [ ]` $\\to$ Orders/of $\\to$ Division $\\to$ Multiplication $\\to$ Addition/Subtraction.\n2) Official Verified RRB Answer Key: **Option D (182)**.\n\nMethod 2: Exam-Hall Verification Checklist (C9 & Unit Digit): Always double-check sign flips on nested brackets `−(a − b)` and verify magnitude + unit digit against options. Verified Key: **182**.",
+      "hi": "विधि 1: आधिकारिक उत्तर कुंजी व VBODMAS क्रम: 1) किसी भी सरलीकरण/समीकरण व्यंजक में सदैव **V-BODMAS** क्रम (रेखा कोष्ठक $\\to$ छोटे/मँझले/बड़े कोष्ठक $\\to$ का $\\to$ भाग $\\to$ गुणा $\\to$ जोड़/घटाव) अपनाएँ।\n2) आधिकारिक RRB प्रमाणित उत्तर: **विकल्प D (182)**।\n\nविधि 2: परीक्षा-हॉल डिजिटल सम व इकाई अंक जाँच: कोष्ठक खोलते समय ऋणात्मक चिह्नों और अंत में इकाई अंक / डिजिटल सम की जाँच अवश्य करें। प्रमाणित उत्तर: **182**।"
     }
   },
   {

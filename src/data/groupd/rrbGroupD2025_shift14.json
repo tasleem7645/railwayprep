@@ -1115,10 +1115,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Divisibility Rules",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (5) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**5**).",
+      "keyConcept": "Last digit `0` is even (÷2✓) + Digit sum ÷ 9✓",
+      "optionTrick": {
+        "en": "Last digit `0` is even (÷2✓) + Digit sum ÷ 9✓: locks A = 5 $\\Rightarrow$ Least value $= \\mathbf{5}$!",
+        "hi": "सम अंतिम अंक (`0`) + अंकों का योग 9 से कटे: सीधे A=5 मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{5}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 18",
+            "hi": "विधि 1: 18 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **18** on `378A6070`: Last digit `0` is even (÷2✓) + Digit sum ÷ 9✓.\n2) Known digits sum $= 31$. Testing valid digits gives **A = 5** (number `37856070`).",
+            "hi": "1) `378A6070` पर **18** का नियम लागू करें (सम अंतिम अंक (`0`) + अंकों का योग 9 से कटे)।\n2) ज्ञात अंकों का योग $= 31$। वैध अंक जाँच से **A = 5** (`37856070`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first, then cast out multiples of 9 from digits $\\Rightarrow \\mathbf{5}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **5** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 18: 1) Apply divisibility conditions for **18** on `378A6070`: Last digit `0` is even (÷2✓) + Digit sum ÷ 9✓.\n2) Known digits sum $= 31$. Testing valid digits gives **A = 5** (number `37856070`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first, then cast out multiples of 9 from digits $\\Rightarrow \\mathbf{5}$.",
+      "hi": "विधि 1: 18 का विभाज्यता नियम: 1) `378A6070` पर **18** का नियम लागू करें (सम अंतिम अंक (`0`) + अंकों का योग 9 से कटे)।\n2) ज्ञात अंकों का योग $= 31$। वैध अंक जाँच से **A = 5** (`37856070`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **5** पाएँ!"
     }
   },
   {
@@ -1567,10 +1607,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • a^2 - b^2",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (4x2− 9y2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (4x2− 9y2) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**4x2− 9y2**).",
+      "keyConcept": "Difference of Squares Identity: (A + B)(A − B) = A² − B²",
+      "optionTrick": {
+        "en": "`A = 2x, B = 3y` -> `(2x)² − (3y)² = 4x² − 9y²` directly!",
+        "hi": "`A = 2x, B = 3y` रखने पर `(2x)² − (3y)² = 4x² − 9y²` सीधे मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Multiplication",
+            "hi": "विधि 1: पद-दर-पद गुणन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$2x(2x - 3y) + 3y(2x - 3y) = 4x^2 - 6xy + 6xy - 9y^2 = \\mathbf{4x^2 - 9y^2}$.",
+            "hi": "$4x^2 - 6xy + 6xy - 9y^2 = \\mathbf{4x^2 - 9y^2}$ (मध्य पद कट जाते हैं)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: (A+B)(A−B) = A²−B² Formula (2 sec)",
+            "hi": "विधि 2: सर्वसमिका A² − B² सूत्र"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "formula": "$(A + B)(A - B) = A^2 - B^2$",
+          "steps": {
+            "en": "$(2x)^2 - (3y)^2 = \\mathbf{4x^2 - 9y^2}$.",
+            "hi": "सीधे $(2x)^2 - (3y)^2 = \\mathbf{4x^2 - 9y^2}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Multiplication: $2x(2x - 3y) + 3y(2x - 3y) = 4x^2 - 6xy + 6xy - 9y^2 = \\mathbf{4x^2 - 9y^2}$.\n\nMethod 2: (A+B)(A−B) = A²−B² Formula (2 sec): $(2x)^2 - (3y)^2 = \\mathbf{4x^2 - 9y^2}$.",
+      "hi": "विधि 1: पद-दर-पद गुणन: $4x^2 - 6xy + 6xy - 9y^2 = \\mathbf{4x^2 - 9y^2}$ (मध्य पद कट जाते हैं)।\n\nविधि 2: सर्वसमिका A² − B² सूत्र: सीधे $(2x)^2 - (3y)^2 = \\mathbf{4x^2 - 9y^2}$।"
     }
   },
   {

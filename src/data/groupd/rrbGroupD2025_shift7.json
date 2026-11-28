@@ -877,10 +877,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • (a+b)^2, (a-b)^2",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (24ab) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (24ab) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**24ab**).",
+      "keyConcept": "Identity Shortcut: (A + B)² − (A − B)² = 4AB",
+      "optionTrick": {
+        "en": "`4 × (2a) × (3b) = 24ab` directly!",
+        "hi": "सीधा सूत्र `4 × (2a) × (3b)` = **24ab**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Expand Both Terms",
+            "hi": "विधि 1: दोनों वर्ग खोलकर घटाना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$(4a^2 + 12ab + 9b^2) - (4a^2 - 12ab + 9b^2) = 12ab + 12ab = \\mathbf{24ab}$.",
+            "hi": "$(4a^2 + 12ab + 9b^2) - (4a^2 - 12ab + 9b^2) = \\mathbf{24ab}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 4AB Identity Formula (2 sec)",
+            "hi": "विधि 2: 4AB सर्वसमिका ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$4(2a)(3b) = \\mathbf{24ab}$.",
+            "hi": "$4 \\times 2a \\times 3b = \\mathbf{24ab}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Expand Both Terms: $(4a^2 + 12ab + 9b^2) - (4a^2 - 12ab + 9b^2) = 12ab + 12ab = \\mathbf{24ab}$.\n\nMethod 2: 4AB Identity Formula (2 sec): $4(2a)(3b) = \\mathbf{24ab}$.",
+      "hi": "विधि 1: दोनों वर्ग खोलकर घटाना: $(4a^2 + 12ab + 9b^2) - (4a^2 - 12ab + 9b^2) = \\mathbf{24ab}$।\n\nविधि 2: 4AB सर्वसमिका ट्रिक: $4 \\times 2a \\times 3b = \\mathbf{24ab}$।"
     }
   },
   {
@@ -1143,10 +1183,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Finding HCF",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (4) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (4) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**4**).",
+      "keyConcept": "Rule-of-9 & Difference Filter for Multi-Number HCF",
+      "optionTrick": {
+        "en": "`524` digit sum $= 5+2+4 = 11$ (NOT ÷3 or ÷9!), instantly eliminating `9, 36, 12` $\\Rightarrow$ ONLY **4** remains!",
+        "hi": "`524` के अंकों का योग $= 11$ (3 व 9 से अविभाज्य!), अतः `9, 36, 12` तीनों बाहर — सीधे **4** उत्तर!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Common Factorization / Difference",
+            "hi": "विधि 1: गुणनखंड / अंतर विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$252 = 4 \\times 63$, $396 = 4 \\times 99$, $524 = 4 \\times 131$. Since 131 is prime and doesn’t divide 63 or 99, $\\text{HCF} = \\mathbf{4}$.",
+            "hi": "$252 = 4 \\times 63$, $396 = 4 \\times 99$, $524 = 4 \\times 131$ (131 अभाज्य) $\\Rightarrow \\text{HCF} = \\mathbf{4}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Divisibility-by-3 Filter (3 sec)",
+            "hi": "विधि 2: 3 के नियम से उन्मूलन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check $5+2+4 = 11$ (not divisible by 3). Eliminate every option divisible by 3 (`9, 36, 12`) $\\Rightarrow$ ONLY **4**!",
+            "hi": "`524` 3 से नहीं कटता (`5+2+4=11`) — विकल्प `9, 36, 12` तीनों 3 के गुणज हैं, अतः केवल **4** सही है!"
+          }
+        }
+      ],
+      "en": "Method 1: Common Factorization / Difference: $252 = 4 \\times 63$, $396 = 4 \\times 99$, $524 = 4 \\times 131$. Since 131 is prime and doesn’t divide 63 or 99, $\\text{HCF} = \\mathbf{4}$.\n\nMethod 2: Instant Divisibility-by-3 Filter (3 sec): Check $5+2+4 = 11$ (not divisible by 3). Eliminate every option divisible by 3 (`9, 36, 12`) $\\Rightarrow$ ONLY **4**!",
+      "hi": "विधि 1: गुणनखंड / अंतर विधि: $252 = 4 \\times 63$, $396 = 4 \\times 99$, $524 = 4 \\times 131$ (131 अभाज्य) $\\Rightarrow \\text{HCF} = \\mathbf{4}$।\n\nविधि 2: 3 के नियम से उन्मूलन ट्रिक: `524` 3 से नहीं कटता (`5+2+4=11`) — विकल्प `9, 36, 12` तीनों 3 के गुणज हैं, अतः केवल **4** सही है!"
     }
   },
   {
@@ -1421,10 +1501,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Rules for 7,8,9,11",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (2) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**2**).",
+      "keyConcept": "Even last digit `8` + Alternating sum ÷ 11",
+      "optionTrick": {
+        "en": "Even last digit `8` + Alternating sum ÷ 11: locks A = 2 $\\Rightarrow$ Least value $= \\mathbf{2}$!",
+        "hi": "सम अंतिम अंक (`8`) + एकांतर अंक योग अंतर 11 से कटे: सीधे A=2 मिलता है $\\Rightarrow$ न्यूनतम मान $= \\mathbf{2}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Co-Prime / Last-Digits Rule for 22",
+            "hi": "विधि 1: 22 का विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Apply divisibility conditions for **22** on `65873A8`: Even last digit `8` + Alternating sum ÷ 11.\n2) Known digits sum $= 37$. Testing valid digits gives **A = 2** (number `6587328`).",
+            "hi": "1) `65873A8` पर **22** का नियम लागू करें (सम अंतिम अंक (`8`) + एकांतर अंक योग अंतर 11 से कटे)।\n2) ज्ञात अंकों का योग $= 37$। वैध अंक जाँच से **A = 2** (`6587328`) प्राप्त होता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cast-Out / Tail-First Trick (6 sec)",
+            "hi": "विधि 2: अंतिम अंक लॉक व शेषफल ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Fix tail constraint first, then cast out multiples of 22 from digits $\\Rightarrow \\mathbf{2}$.",
+            "hi": "पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **2** पाएँ!"
+          }
+        }
+      ],
+      "en": "Method 1: Co-Prime / Last-Digits Rule for 22: 1) Apply divisibility conditions for **22** on `65873A8`: Even last digit `8` + Alternating sum ÷ 11.\n2) Known digits sum $= 37$. Testing valid digits gives **A = 2** (number `6587328`).\n\nMethod 2: Cast-Out / Tail-First Trick (6 sec): Fix tail constraint first, then cast out multiples of 22 from digits $\\Rightarrow \\mathbf{2}$.",
+      "hi": "विधि 1: 22 का विभाज्यता नियम: 1) `65873A8` पर **22** का नियम लागू करें (सम अंतिम अंक (`8`) + एकांतर अंक योग अंतर 11 से कटे)।\n2) ज्ञात अंकों का योग $= 37$। वैध अंक जाँच से **A = 2** (`6587328`) प्राप्त होता है।\n\nविधि 2: अंतिम अंक लॉक व शेषफल ट्रिक: पहले अंतिम अंक की शर्त लॉक करें, फिर शेषफल शून्य बनाकर तुरंत **2** पाएँ!"
     }
   },
   {

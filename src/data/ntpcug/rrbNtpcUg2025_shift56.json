@@ -1649,10 +1649,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (-37) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (-37) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**-37**).",
+      "keyConcept": "Simplify √(b²) = b Directly Without Squaring + BODMAS Order",
+      "optionTrick": {
+        "en": "Never waste time computing $b^2$! Use $\\sqrt{b^2} = b$ immediately (`1-sec cancel`).",
+        "hi": "$b^2$ निकालने में समय बर्बाद न करें — सीधे $\\sqrt{b^2} = 8$ लिखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Term-by-Term Evaluation",
+            "hi": "विधि 1: पद-दर-पद मूल्यांकन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $2^2 = 4$, $\\sqrt{8^2} = 8$, and $3\\sqrt{100} = 3 \\times 10 = 30$.\n2) Combine left to right: $4 + 8 - 30 - 19 = \\mathbf{-37}$.",
+            "hi": "1) $2^2 = 4$, $\\sqrt{8^2} = 8$ तथा $3\\sqrt{100} = 3 \\times 10 = 30$।\n2) गणना: $4 + 8 - 30 - 19 = \\mathbf{-37}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel √(b²) + Group Positives & Negatives (5 sec)",
+            "hi": "विधि 2: वर्गमूल निरसन व चिह्न समूहन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum positives $(4 + 8 = 12)$ minus sum of negatives $(30 + 19 = 49) = \\mathbf{-37}$.",
+            "hi": "धनात्मक योग (12) में से ऋणात्मक योग (49) घटाएँ $\\Rightarrow \\mathbf{-37}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Term-by-Term Evaluation: 1) $2^2 = 4$, $\\sqrt{8^2} = 8$, and $3\\sqrt{100} = 3 \\times 10 = 30$.\n2) Combine left to right: $4 + 8 - 30 - 19 = \\mathbf{-37}$.\n\nMethod 2: Cancel √(b²) + Group Positives & Negatives (5 sec): Sum positives $(4 + 8 = 12)$ minus sum of negatives $(30 + 19 = 49) = \\mathbf{-37}$.",
+      "hi": "विधि 1: पद-दर-पद मूल्यांकन: 1) $2^2 = 4$, $\\sqrt{8^2} = 8$ तथा $3\\sqrt{100} = 3 \\times 10 = 30$।\n2) गणना: $4 + 8 - 30 - 19 = \\mathbf{-37}$।\n\nविधि 2: वर्गमूल निरसन व चिह्न समूहन: धनात्मक योग (12) में से ऋणात्मक योग (49) घटाएँ $\\Rightarrow \\mathbf{-37}$।"
     }
   },
   {
@@ -1780,10 +1820,54 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (39) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (39) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**39**).",
+      "keyConcept": "Negative Exponent Distribution Over Addition: Multiply 27 Directly!",
+      "optionTrick": {
+        "en": "Multiply `27 (= 3³)` inside directly instead of fractions: `3⁰×3³ + 3⁻²×3³ + 3⁻¹×3³ = 27 + 3 + 9` = **39**!",
+        "hi": "भिन्न न बनाएँ! सीधे `27 (= 3³)` से अंदर गुणा करें: `27 + 3 + 9` = **39**!"
+      },
+      "trapAlert": {
+        "en": "Careful! In PDF display `30` represents $3^0 = 1$ (any non-zero number raised to power 0 equals 1, NOT 0 or 30!).",
+        "hi": "सावधान: `3⁰ = 1` होता है (0 अथवा 30 नहीं)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert Negative Powers to Fractions",
+            "hi": "विधि 1: ऋणात्मक घात को भिन्न में बदलना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $3^0 = 1$, $3^{-2} = \\frac{1}{9}$, $3^{-1} = \\frac{1}{3}$.\n2) $(1 + \\frac{1}{9} + \\frac{1}{3}) \\times 27 = \\frac{13}{9} \\times 27 = 13 \\times 3 = \\mathbf{39}$.",
+            "hi": "1) $(1 + \\frac{1}{9} + \\frac{1}{3}) \\times 27 = \\frac{9+1+3}{9} \\times 27 = 13 \\times 3 = \\mathbf{39}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Distribute 3³ Inside (4 sec)",
+            "hi": "विधि 2: 27 (= 3³) वितरण ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Multiply $3^3$ directly: $3^3 + 3^1 + 3^2 = 27 + 3 + 9 = \\mathbf{39}$!",
+            "hi": "सीधे $3^3$ का गुणा करें: $27 + 3 + 9 = \\mathbf{39}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert Negative Powers to Fractions: 1) $3^0 = 1$, $3^{-2} = \\frac{1}{9}$, $3^{-1} = \\frac{1}{3}$.\n2) $(1 + \\frac{1}{9} + \\frac{1}{3}) \\times 27 = \\frac{13}{9} \\times 27 = 13 \\times 3 = \\mathbf{39}$.\n\nMethod 2: Distribute 3³ Inside (4 sec): Multiply $3^3$ directly: $3^3 + 3^1 + 3^2 = 27 + 3 + 9 = \\mathbf{39}$!",
+      "hi": "विधि 1: ऋणात्मक घात को भिन्न में बदलना: 1) $(1 + \\frac{1}{9} + \\frac{1}{3}) \\times 27 = \\frac{9+1+3}{9} \\times 27 = 13 \\times 3 = \\mathbf{39}$।\n\nविधि 2: 27 (= 3³) वितरण ट्रिक: सीधे $3^3$ का गुणा करें: $27 + 3 + 9 = \\mathbf{39}$!"
     }
   },
   {
@@ -2374,10 +2458,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (−125x + 146) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (−125x + 146) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**−125x + 146**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($5x^2 - 5x^2 = 0$), check signs directly: $x$ term $= -100 - 25 = -125x$ (negative!) and constant $= +76 + 70 = +146$ (**positive!**). Sign pair `(−, +)` uniquely locks Option D!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-125x$) व अचर पद धनात्मक ($+146$) होना तुरंत `(−, +)` चिह्न वाला विकल्प D पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-5 \\times (-14) = +70$ (NOT $-70$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-5 \\times (-14) = +70$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $5x^2 - 100x + 76$.\n2) Expand second bracket: $-5x^2 - 25x + 70$.\n3) Combine like terms: $(5 - 5)x^2 + (-100 - 25)x + (76 + 70) = \\mathbf{-125x + 146}$.",
+            "hi": "1) पहला कोष्ठक: $5x^2 - 100x + 76$।\n2) दूसरा कोष्ठक: $-5x^2 - 25x + 70$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-125x + 146}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $4(19) - 5(-14) = 76 + 70 = +146$. Since both $x$ terms are negative ($-100x - 25x$), only `−125x + 146` has `(−x, +146)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +76 + 70 = +146$ व दोनों $x$-पद ऋणात्मक ($-100x - 25x = -125x$) $\\Rightarrow$ तुरंत **−125x + 146**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $5x^2 - 100x + 76$.\n2) Expand second bracket: $-5x^2 - 25x + 70$.\n3) Combine like terms: $(5 - 5)x^2 + (-100 - 25)x + (76 + 70) = \\mathbf{-125x + 146}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $4(19) - 5(-14) = 76 + 70 = +146$. Since both $x$ terms are negative ($-100x - 25x$), only `−125x + 146` has `(−x, +146)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $5x^2 - 100x + 76$।\n2) दूसरा कोष्ठक: $-5x^2 - 25x + 70$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-125x + 146}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +76 + 70 = +146$ व दोनों $x$-पद ऋणात्मक ($-100x - 25x = -125x$) $\\Rightarrow$ तुरंत **−125x + 146**!"
     }
   },
   {

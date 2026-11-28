@@ -1605,10 +1605,50 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**6**).",
+      "keyConcept": "Mean Proportion Relation: x : 6 :: 6 : y => xy = 36",
+      "optionTrick": {
+        "en": "Product of means `= 6 × 6`, so `√(xy)` = **6**!",
+        "hi": "मध्य पदों का गुणन `xy = 6 × 6`, अतः `√(xy)` = **6**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Proportion Product Rule",
+            "hi": "विधि 1: समानुपात गुणनफल नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "6 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$xy = 6 \\times 6 = 36 \\Rightarrow \\sqrt{xy} = \\sqrt{36} = \\mathbf{6}$.",
+            "hi": "$xy = 6 \\times 6 = 36 \\Rightarrow \\sqrt{xy} = \\mathbf{6}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Geometric Mean Identity (2 sec)",
+            "hi": "विधि 2: गुणोत्तर माध्य पहचान"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $\\sqrt{xy}$ IS the middle proportional term $= \\mathbf{6}$!",
+            "hi": "समानुपात में $\\sqrt{xy}$ ही मध्य पद ($= \\mathbf{6}$) होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Proportion Product Rule: $xy = 6 \\times 6 = 36 \\Rightarrow \\sqrt{xy} = \\sqrt{36} = \\mathbf{6}$.\n\nMethod 2: Geometric Mean Identity (2 sec): Notice $\\sqrt{xy}$ IS the middle proportional term $= \\mathbf{6}$!",
+      "hi": "विधि 1: समानुपात गुणनफल नियम: $xy = 6 \\times 6 = 36 \\Rightarrow \\sqrt{xy} = \\mathbf{6}$।\n\nविधि 2: गुणोत्तर माध्य पहचान: समानुपात में $\\sqrt{xy}$ ही मध्य पद ($= \\mathbf{6}$) होता है!"
     }
   },
   {

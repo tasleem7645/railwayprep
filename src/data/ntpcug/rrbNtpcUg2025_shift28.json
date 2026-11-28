@@ -1386,10 +1386,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (59) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (59) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**59**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 59",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **59**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **59** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 59)",
+            "hi": "विधि 1: 59 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 889897 by **59** yields quotient **15083** with remainder **0**.\n2) Eliminating others: 52 (rem 21), 69 (rem 4), 64 (rem 41) — none divides evenly.",
+            "hi": "1) 889897 को **59** से भाग देने पर सटीक भागफल **15083** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 52 (rem 21), 69 (rem 4), 64 (rem 41) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 59",
+            "hi": "विधि 2: 59 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Option test or prime division on last/whole block confirms 889897 = 59 × 15083 (zero remainder!).",
+            "hi": "विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 889897 = 59 × 15083 (शेषफल 0) सत्यापित होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 59): 1) Dividing 889897 by **59** yields quotient **15083** with remainder **0**.\n2) Eliminating others: 52 (rem 21), 69 (rem 4), 64 (rem 41) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 59: Option test or prime division on last/whole block confirms 889897 = 59 × 15083 (zero remainder!).",
+      "hi": "विधि 1: 59 से प्रत्यक्ष विभाजन सत्यापन: 1) 889897 को **59** से भाग देने पर सटीक भागफल **15083** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 52 (rem 21), 69 (rem 4), 64 (rem 41) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 59 का स्मार्ट विभाज्यता नियम: विकल्प विभाजन या ऑस्कुलेटर नियम जाँच से 889897 = 59 × 15083 (शेषफल 0) सत्यापित होता है!"
     }
   },
   {
@@ -1992,10 +2032,52 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (18) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (18) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**18**).",
+      "keyConcept": "Middle Number Identity: (m−1)² + (m+1)² = 2(m² + 1) => Sum = 2m",
+      "optionTrick": {
+        "en": "Take $\\sqrt{(S/2) - 1} = \\sqrt{82 - 1} = \\sqrt{81} = 9$, then double it: $2 \\times 9 = \\mathbf{18}$!",
+        "hi": "सीधा सूत्र: मध्य संख्या $m = \\sqrt{\\frac{164}{2} - 1} = \\sqrt{81} = 9$, अतः योग $= 2m = \\mathbf{18}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quadratic Equation Method",
+            "hi": "विधि 1: द्विघात समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$n^2 + (n + 2)^2 = S$",
+          "steps": {
+            "en": "1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 164 \\Rightarrow n^2 + 2n = 80 \\Rightarrow n(n+2) = 8 \\times 10$.\n3) Numbers $= 8$ & 10; Sum $= 8 + 10 = \\mathbf{18}$.",
+            "hi": "1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 164$।\n2) हल करने पर संख्याएँ $= 8$ व 10 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 8 + 10 = \\mathbf{18}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Mid-Number √(S/2 − 1) Shortcut (6 sec)",
+            "hi": "विधि 2: मध्य संख्या √(S/2 − 1) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$m = \\sqrt{\\frac{S}{2} - 1},\\; \\text{Sum} = 2m$",
+          "steps": {
+            "en": "Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 164 \\Rightarrow m^2 = 82 - 1 = 81 \\Rightarrow m = 9 \\Rightarrow \\text{Sum} = 2(9) = \\mathbf{18}$.",
+            "hi": "संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 164 \\Rightarrow m^2 = 81 \\Rightarrow m = 9$। अतः योग $= 2 \\times 9 = \\mathbf{18}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Quadratic Equation Method: 1) Let consecutive even numbers be $n$ and $n+2$.\n2) $2n^2 + 4n + 4 = 164 \\Rightarrow n^2 + 2n = 80 \\Rightarrow n(n+2) = 8 \\times 10$.\n3) Numbers $= 8$ & 10; Sum $= 8 + 10 = \\mathbf{18}$.\n\nMethod 2: Mid-Number √(S/2 − 1) Shortcut (6 sec): Express as $(m-1)$ and $(m+1)$: $2m^2 + 2 = 164 \\Rightarrow m^2 = 82 - 1 = 81 \\Rightarrow m = 9 \\Rightarrow \\text{Sum} = 2(9) = \\mathbf{18}$.",
+      "hi": "विधि 1: द्विघात समीकरण विधि: 1) क्रमागत संख्याएँ $n$ व $n+2$ मानें: $n^2 + (n+2)^2 = 164$।\n2) हल करने पर संख्याएँ $= 8$ व 10 प्राप्त होती हैं।\n3) दोनों संख्याओं का योग $= 8 + 10 = \\mathbf{18}$।\n\nविधि 2: मध्य संख्या √(S/2 − 1) ट्रिक: संख्याओं को $(m-1)$ व $(m+1)$ मानें: $2(m^2+1) = 164 \\Rightarrow m^2 = 81 \\Rightarrow m = 9$। अतः योग $= 2 \\times 9 = \\mathbf{18}$!"
     }
   },
   {

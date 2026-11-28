@@ -1485,10 +1485,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (50−39) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (50−39) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**50−39**).",
+      "keyConcept": "Same-Base Index Law: a^m ÷ a^n = a^(m−n) and a^m × a^n = a^(m+n)",
+      "optionTrick": {
+        "en": "Subtract exponent after `÷`, add exponent after `×`: $-13 - (15) + (-11) = -39 \\Rightarrow \\mathbf{50^{-39}}$!",
+        "hi": "`÷` वाली घात घटाएँ व `×` वाली घात जोड़ें: $-13 - (15) + (-11) = -39 \\Rightarrow \\mathbf{50^{-39}}$!"
+      },
+      "trapAlert": {
+        "en": "Work strictly Left-to-Right for ÷ and × (`a^m ÷ a^n × a^k = a^(m − n + k)`), NOT multiplying right-hand terms before dividing!",
+        "hi": "BODMAS में `÷` और `×` की प्राथमिकता बराबर है — सदैव बाएँ से दाएँ हल करें ($m - n + k$), पहले गुणा न करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Laws of Indices",
+            "hi": "विधि 1: चरणबद्ध घातांक नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$a^m \\div a^n = a^{m-n},\\; a^p \\times a^q = a^{p+q}$",
+          "steps": {
+            "en": "1) First two terms: $50^{-13 - (15)} = 50^{-28}$.\n2) Combine third term: $50^{-28 + (-11)} = \\mathbf{50^{-39}}$.",
+            "hi": "1) पहले दो पद: $50^{-13 - (15)} = 50^{-28}$।\n2) तीसरा पद जोड़ने पर: $50^{-28 + (-11)} = \\mathbf{50^{-39}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single-Line Exponent Sum (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति घात योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sum signed exponents directly on base 50: $-13 - (15) + (-11) = -39 \\Rightarrow \\mathbf{50^{-39}}$.",
+            "hi": "आधार 50 की सभी घातें एक पंक्ति में हल करें: $-13 - (15) + (-11) = -39 \\Rightarrow \\mathbf{50^{-39}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Laws of Indices: 1) First two terms: $50^{-13 - (15)} = 50^{-28}$.\n2) Combine third term: $50^{-28 + (-11)} = \\mathbf{50^{-39}}$.\n\nMethod 2: Single-Line Exponent Sum (4 sec): Sum signed exponents directly on base 50: $-13 - (15) + (-11) = -39 \\Rightarrow \\mathbf{50^{-39}}$.",
+      "hi": "विधि 1: चरणबद्ध घातांक नियम: 1) पहले दो पद: $50^{-13 - (15)} = 50^{-28}$।\n2) तीसरा पद जोड़ने पर: $50^{-28 + (-11)} = \\mathbf{50^{-39}}$।\n\nविधि 2: एक-पंक्ति घात योग ट्रिक: आधार 50 की सभी घातें एक पंक्ति में हल करें: $-13 - (15) + (-11) = -39 \\Rightarrow \\mathbf{50^{-39}}$।"
     }
   },
   {
@@ -2177,10 +2222,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (−122x + 110) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (−122x + 110) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**−122x + 110**).",
+      "keyConcept": "x² Term Cancellation + Sign Trap on −(−d)",
+      "optionTrick": {
+        "en": "Since $x^2$ terms cancel ($4x^2 - 4x^2 = 0$), check signs directly: $x$ term $= -90 - 32 = -122x$ (negative!) and constant $= +54 + 56 = +110$ (**positive!**). Sign pair `(−, +)` uniquely locks Option B!",
+        "hi": "$x^2$ पद कटते हैं; $x$ गुणांक ऋणात्मक ($-122x$) व अचर पद धनात्मक ($+110$) होना तुरंत `(−, +)` चिह्न वाला विकल्प B पक्का करता है!"
+      },
+      "trapAlert": {
+        "en": "Beware double negative at the end: $-4 \\times (-14) = +56$ (NOT $-56$!).",
+        "hi": "अंतिम पद का चिह्न जाल: $-4 \\times (-14) = +56$ (धनात्मक!) होता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Full Bracket Expansion",
+            "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Expand first bracket: $4x^2 - 90x + 54$.\n2) Expand second bracket: $-4x^2 - 32x + 56$.\n3) Combine like terms: $(4 - 4)x^2 + (-90 - 32)x + (54 + 56) = \\mathbf{-122x + 110}$.",
+            "hi": "1) पहला कोष्ठक: $4x^2 - 90x + 54$।\n2) दूसरा कोष्ठक: $-4x^2 - 32x + 56$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-122x + 110}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Put x = 0 & Sign Check (5 sec)",
+            "hi": "विधि 2: x = 0 व चिह्न नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$f(0) = \\text{Constant Term} = kb + md$",
+          "steps": {
+            "en": "Put $x = 0$: $3(18) - 4(-14) = 54 + 56 = +110$. Since both $x$ terms are negative ($-90x - 32x$), only `−122x + 110` has `(−x, +110)`!",
+            "hi": "$x = 0$ रखने पर अचर $= +54 + 56 = +110$ व दोनों $x$-पद ऋणात्मक ($-90x - 32x = -122x$) $\\Rightarrow$ तुरंत **−122x + 110**!"
+          }
+        }
+      ],
+      "en": "Method 1: Full Bracket Expansion: 1) Expand first bracket: $4x^2 - 90x + 54$.\n2) Expand second bracket: $-4x^2 - 32x + 56$.\n3) Combine like terms: $(4 - 4)x^2 + (-90 - 32)x + (54 + 56) = \\mathbf{-122x + 110}$.\n\nMethod 2: Put x = 0 & Sign Check (5 sec): Put $x = 0$: $3(18) - 4(-14) = 54 + 56 = +110$. Since both $x$ terms are negative ($-90x - 32x$), only `−122x + 110` has `(−x, +110)`!",
+      "hi": "विधि 1: पूर्ण कोष्ठक विस्तार विधि: 1) पहला कोष्ठक: $4x^2 - 90x + 54$।\n2) दूसरा कोष्ठक: $-4x^2 - 32x + 56$।\n3) सजातीय पद मिलाने पर $= \\mathbf{-122x + 110}$।\n\nविधि 2: x = 0 व चिह्न नियम ट्रिक: $x = 0$ रखने पर अचर $= +54 + 56 = +110$ व दोनों $x$-पद ऋणात्मक ($-90x - 32x = -122x$) $\\Rightarrow$ तुरंत **−122x + 110**!"
     }
   },
   {
@@ -2342,10 +2432,50 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (5) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (5) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**5**).",
+      "keyConcept": "Divisibility Rule & Quick Remainder Test for 5",
+      "optionTrick": {
+        "en": "Check easy divisors (`2, 3, 5, 9, 11`) first to eliminate in 3 seconds, then apply exact rule for **5**!",
+        "hi": "पहले आसान भाजक (`2, 3, 5, 9, 11`) से विकल्प काटें, फिर **5** का नियम सत्यापित करें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Division Verification (÷ 5)",
+            "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Dividing 245015 by **5** yields quotient **49003** with remainder **0**.\n2) Eliminating others: 15 (rem 5), 2 (rem 1), 11 (rem 1) — none divides evenly.",
+            "hi": "1) 245015 को **5** से भाग देने पर सटीक भागफल **49003** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 15 (rem 5), 2 (rem 1), 11 (rem 1) — सभी से अशून्य शेष बचता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart Divisibility Rule for 5",
+            "hi": "विधि 2: 5 का स्मार्ट विभाज्यता नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+            "hi": "इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Division Verification (÷ 5): 1) Dividing 245015 by **5** yields quotient **49003** with remainder **0**.\n2) Eliminating others: 15 (rem 5), 2 (rem 1), 11 (rem 1) — none divides evenly.\n\nMethod 2: Smart Divisibility Rule for 5: Unit digit is `5` (0 or 5), hence instantly divisible by 5!",
+      "hi": "विधि 1: 5 से प्रत्यक्ष विभाजन सत्यापन: 1) 245015 को **5** से भाग देने पर सटीक भागफल **49003** व शेषफल **0** प्राप्त होता है।\n2) अन्य विकल्प काटें: 15 (rem 5), 2 (rem 1), 11 (rem 1) — सभी से अशून्य शेष बचता है।\n\nविधि 2: 5 का स्मार्ट विभाज्यता नियम: इकाई अंक `5` (0 अथवा 5) है $\\Rightarrow$ तुरंत 5 से विभाज्य!"
     }
   },
   {
