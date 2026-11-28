@@ -197,66 +197,101 @@ def compute_event_fingerprint(title, dt_utc):
     return f"{exam}:{ev}:{day_bucket}"
 
 
-def fetch_board_recent_rows(slug, board_name, max_age_hours, now_utc):
-    """Fetch recent notices for one official RRB board via session + getdata."""
-    s = requests.Session()
-    s.headers.update({**UA_HEADERS, 'Referer': f'{RRB_BASE}/{slug}'})
-    s.verify = False
-    found = []
+def _curl_fetch_bytes(url, referer, cookie_jar, max_time=14):
+    """Fallback HTTP/1.1 fetch via system curl + shared cookie jar (when urllib3 fails)."""
+    if not shutil.which('curl'):
+        return None
     try:
-        r0 = s.get(f'{RRB_BASE}/{slug}', timeout=8)
-        if r0.status_code != 200 or 'notificationsCollectData' not in r0.text:
-            return found
+        res = subprocess.run(
+            [
+                'curl', '-skL', '--http1.1',
+                '--connect-timeout', '6', '--max-time', str(max_time),
+                '-A', UA_HEADERS['User-Agent'],
+                '-H', f'Accept-Language: {UA_HEADERS["Accept-Language"]}',
+                '-H', f'Referer: {referer}',
+                '-c', str(cookie_jar), '-b', str(cookie_jar),
+                url,
+            ],
+            capture_output=True,
+            timeout=max_time + 3,
+        )
+        if res.returncode == 0 and res.stdout:
+            return res.stdout
+    except Exception:
+        pass
+    return None
 
-        # Collect distinct /getdata?... links on homepage whose date badge is within max_age_hours
-        cat_links = {}
-        for href, inner in re.findall(r'<a[^>]+href="(/getdata\?[^"]+)"[^>]*>(.*?)</a>', r0.text, re.S | re.I):
-            dt_m = re.search(r'\((\d{2}-\d{2}-20\d{2})\)', inner)
-            if not dt_m:
-                continue
-            dt_utc = parse_dd_mm_yyyy_ist(dt_m.group(1))
-            if not is_within_age(dt_utc, max_age_hours, now_utc):
-                continue
-            cat_links[html.unescape(href)] = dt_utc
 
-        for rel_href in list(cat_links.keys())[:6]:
-            # Safely encode spaces while keeping valid query separators
-            q_part = rel_href.replace(' ', '%20')
-            r = s.get(f'{RRB_BASE}{q_part}', timeout=10)
-            if r.status_code != 200 or 'Request Rejected' in r.text:
-                continue
-            for row_html in re.findall(r'<tr[^>]*>(.*?)</tr>', r.text, re.S | re.I)[1:]:
-                tds = [clean_text(td) for td in re.findall(r'<td[^>]*>(.*?)</td>', row_html, re.S | re.I)]
-                if len(tds) < 5:
+def fetch_board_recent_rows(slug, board_name, max_age_hours, now_utc, use_curl=False):
+    """Fetch recent notices for one official RRB board via warm session + getdata."""
+    portal_url = f'{RRB_BASE}/{slug}'
+    found = []
+
+    def get_text_with_mode(url, s=None, cookie_jar=None):
+        if use_curl and cookie_jar is not None:
+            raw = _curl_fetch_bytes(url, portal_url, cookie_jar, max_time=12)
+            return raw.decode('utf-8', errors='replace') if raw else ''
+        r = s.get(url, timeout=(6, 11))
+        return r.text if r.status_code == 200 else ''
+
+    s = requests.Session()
+    s.headers.update({**UA_HEADERS, 'Referer': portal_url, 'Connection': 'keep-alive'})
+    s.verify = False
+    try:
+        with tempfile.TemporaryDirectory() as jar_dir:
+            cookie_jar = Path(jar_dir) / 'cookies.txt'
+            html0 = get_text_with_mode(portal_url, s=s, cookie_jar=cookie_jar)
+            if 'notificationsCollectData' not in html0:
+                return found
+
+            # Collect distinct /getdata?... links on homepage whose date badge is within max_age_hours
+            cat_links = {}
+            for href, inner in re.findall(r'<a[^>]+href="(/getdata\?[^"]+)"[^>]*>(.*?)</a>', html0, re.S | re.I):
+                dt_m = re.search(r'\((\d{2}-\d{2}-20\d{2})\)', inner)
+                if not dt_m:
                     continue
-                cen, category, title, pub_str = tds[1], tds[2], tds[3], tds[4]
-                dt_utc = parse_dd_mm_yyyy_ist(pub_str)
+                dt_utc = parse_dd_mm_yyyy_ist(dt_m.group(1))
                 if not is_within_age(dt_utc, max_age_hours, now_utc):
                     continue
+                cat_links[html.unescape(href)] = dt_utc
 
-                pdfs = []
-                for opt_val, opt_lbl in re.findall(r'<option[^>]+value="([^"]+)"[^>]*>(.*?)</option>', row_html, re.S | re.I):
-                    if '.pdf' in opt_val.lower() or '/-/image/' in opt_val.lower():
-                        full_pdf = opt_val if opt_val.startswith('http') else f'{RRB_BASE}{quote(opt_val, safe="/:-_.()~")}'
-                        lbl = clean_text(opt_lbl) or 'Notice PDF'
-                        pdfs.append((lbl, full_pdf))
+            for rel_href in list(cat_links.keys())[:6]:
+                q_part = rel_href.replace(' ', '%20')
+                tab_html = get_text_with_mode(f'{RRB_BASE}{q_part}', s=s, cookie_jar=cookie_jar)
+                if not tab_html or 'Request Rejected' in tab_html:
+                    continue
+                for row_html in re.findall(r'<tr[^>]*>(.*?)</tr>', tab_html, re.S | re.I)[1:]:
+                    tds = [clean_text(td) for td in re.findall(r'<td[^>]*>(.*?)</td>', row_html, re.S | re.I)]
+                    if len(tds) < 5:
+                        continue
+                    cen, category, title, pub_str = tds[1], tds[2], tds[3], tds[4]
+                    dt_utc = parse_dd_mm_yyyy_ist(pub_str)
+                    if not is_within_age(dt_utc, max_age_hours, now_utc):
+                        continue
 
-                ext_links = re.findall(r"confirmAndOpen\(['\"]([^'\"]+)['\"]\)", row_html)
-                ext_links = [u.replace('//EForms', '/EForms') for u in ext_links]
+                    pdfs = []
+                    for opt_val, opt_lbl in re.findall(r'<option[^>]+value="([^"]+)"[^>]*>(.*?)</option>', row_html, re.S | re.I):
+                        if '.pdf' in opt_val.lower() or '/-/image/' in opt_val.lower():
+                            full_pdf = opt_val if opt_val.startswith('http') else f'{RRB_BASE}{quote(opt_val, safe="/:-_.()~")}'
+                            lbl = clean_text(opt_lbl) or 'Notice PDF'
+                            pdfs.append((lbl, full_pdf))
 
-                found.append({
-                    'kind': 'official_rrb',
-                    'slug': slug,
-                    'board': board_name,
-                    'cen': cen,
-                    'category': category,
-                    'title': title,
-                    'pub_str': pub_str,
-                    'dt_utc': dt_utc,
-                    'portal_url': f'{RRB_BASE}/{slug}',
-                    'pdfs': pdfs,
-                    'ext_links': ext_links,
-                })
+                    ext_links = re.findall(r"confirmAndOpen\(['\"]([^'\"]+)['\"]\)", row_html)
+                    ext_links = [u.replace('//EForms', '/EForms') for u in ext_links]
+
+                    found.append({
+                        'kind': 'official_rrb',
+                        'slug': slug,
+                        'board': board_name,
+                        'cen': cen,
+                        'category': category,
+                        'title': title,
+                        'pub_str': pub_str,
+                        'dt_utc': dt_utc,
+                        'portal_url': portal_url,
+                        'pdfs': pdfs,
+                        'ext_links': ext_links,
+                    })
     except Exception as e:
         print(f'RRB board warn ({slug}): {type(e).__name__}')
     return found
@@ -265,10 +300,34 @@ def fetch_board_recent_rows(slug, board_name, max_age_hours, now_utc):
 def fetch_all_official_rrb(max_age_hours=48):
     now_utc = datetime.now(timezone.utc)
     raw_rows = []
-    with ThreadPoolExecutor(max_workers=8) as pool:
-        futs = [pool.submit(fetch_board_recent_rows, slug, name, max_age_hours, now_utc) for slug, name in RRB_BOARDS]
-        for f in as_completed(futs):
-            raw_rows.extend(f.result())
+    # Quick single-board connectivity probe (avoids multi-minute hang if runner IP is blocked)
+    use_curl = False
+    probe_ok = False
+    try:
+        r_chk = requests.get(f'{RRB_BASE}/chandigarh', headers=UA_HEADERS, timeout=(6, 10), verify=False)
+        probe_ok = r_chk.status_code == 200 and 'notificationsCollectData' in r_chk.text
+    except Exception:
+        pass
+    if not probe_ok:
+        with tempfile.TemporaryDirectory() as td:
+            raw_chk = _curl_fetch_bytes(f'{RRB_BASE}/chandigarh', f'{RRB_BASE}/chandigarh', Path(td) / 'c.txt', max_time=10)
+            if raw_chk and b'notificationsCollectData' in raw_chk:
+                probe_ok = True
+                use_curl = True
+    if not probe_ok:
+        print('Official RRB portal unreachable from current runner IP — using fresh news/FreeJobAlert/PIB feeds.')
+        return []
+
+    pool = ThreadPoolExecutor(max_workers=4)
+    try:
+        futs = [pool.submit(fetch_board_recent_rows, slug, name, max_age_hours, now_utc, use_curl) for slug, name in RRB_BOARDS]
+        try:
+            for f in as_completed(futs, timeout=28):
+                raw_rows.extend(f.result())
+        except TimeoutError:
+            print('Official RRB scan hit 28s time budget; continuing with boards already fetched.')
+    finally:
+        pool.shutdown(wait=False, cancel_futures=True)
 
     # Deduplicate central notices posted identically across 21 zones while preserving zone-specific Result/Cut-Off PDFs
     grouped = {}
@@ -478,17 +537,19 @@ def render_pdf_preview_png(pdf_path, out_png_path, badge_title):
 
 
 def download_official_pdfs(pdfs_map, tmp_dir, portal_url=f'{RRB_BASE}/chandigarh'):
-    """Download valid official PDF files (max 15 MB each) using a warm RRB session cookie."""
+    """Download valid official PDF files (max 15 MB each) using a warm RRB session cookie + curl fallback."""
     downloaded = []
     if not pdfs_map:
         return downloaded
     s = requests.Session()
-    s.headers.update({**UA_HEADERS, 'Referer': portal_url})
+    s.headers.update({**UA_HEADERS, 'Referer': portal_url, 'Connection': 'keep-alive'})
     s.verify = False
+    jar_path = Path(tmp_dir) / 'dl_cookies.txt'
+    use_curl = False
     try:
-        s.get(portal_url, timeout=8)
+        s.get(portal_url, timeout=12)
     except Exception:
-        pass
+        use_curl = bool(_curl_fetch_bytes(portal_url, portal_url, jar_path, max_time=15))
 
     # Order cleanly: English first (best crisp PNG preview), then Hindi
     ordered = sorted(
@@ -497,13 +558,24 @@ def download_official_pdfs(pdfs_map, tmp_dir, portal_url=f'{RRB_BASE}/chandigarh
     )
     for lbl, url in ordered[:2]:
         try:
-            r = s.get(url, timeout=20)
-            if r.status_code == 200 and r.content[:4] == b'%PDF' and len(r.content) <= 15 * 1024 * 1024:
+            content = b''
+            if not use_curl:
+                try:
+                    r = s.get(url, timeout=22)
+                    if r.status_code == 200:
+                        content = r.content
+                except Exception:
+                    use_curl = True
+            if use_curl or not content:
+                if not jar_path.exists():
+                    _curl_fetch_bytes(portal_url, portal_url, jar_path, max_time=15)
+                content = _curl_fetch_bytes(url, portal_url, jar_path, max_time=25) or b''
+            if content[:4] == b'%PDF' and len(content) <= 15 * 1024 * 1024:
                 safe_name = re.sub(r'[^A-Za-z0-9._-]+', '_', url.split('/')[-2] if '/examsDocuments' in url else lbl)[:80]
                 if not safe_name.lower().endswith('.pdf'):
                     safe_name += '.pdf'
                 out_p = Path(tmp_dir) / safe_name
-                out_p.write_bytes(r.content)
+                out_p.write_bytes(content)
                 downloaded.append((lbl, out_p, url))
         except Exception as e:
             print('PDF fetch warn:', url[:60], e)
