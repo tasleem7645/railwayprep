@@ -2023,10 +2023,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹1,900) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹1,900) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹1,900**).",
+      "keyConcept": "Principal from SI Amount: A = (100 + R×T)% of P",
+      "optionTrick": {
+        "en": "Amount $= 120\\%$ of $P = 2,280 \\Rightarrow P = \\frac{2,280 \\times 100}{120} = \\mathbf{1,900}$!",
+        "hi": "कुल मिश्रधन $= (100 + 20) = 120\\% = 2,280$। अतः $P = \\frac{2,280 \\times 100}{120} = \\mathbf{1,900}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Percentage Equation",
+            "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{A \\times 100}{100 + R \\times T}$",
+          "steps": {
+            "en": "1) Total interest $= 5\\% \\times 4 = 20\\% \\Rightarrow$ Amount $= 120\\%$ of $P$.\n2) $P = \\frac{2280 \\times 100}{120} = \\mathbf{1,900}$.",
+            "hi": "1) कुल ब्याज $= 5\\% \\times 4 = 20\\% \\Rightarrow$ मिश्रधन $= 120\\%$।\n2) $P = \\frac{2280 \\times 100}{120} = \\mathbf{1,900}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Multiplier Trick",
+            "hi": "विधि 2: अनुपात भाग विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$R \\times T = 20\\% = \\frac{1}{5} \\Rightarrow P : A = 5 : 6$. Since 6 parts $= 2,280$, $P = 5 \\times 380 = \\mathbf{1,900}$.",
+            "hi": "$20\\% = \\frac{1}{5} \\Rightarrow P : A = 5 : 6$। अतः $P = 5 \\times 380 = \\mathbf{1,900}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Percentage Equation: 1) Total interest $= 5\\% \\times 4 = 20\\% \\Rightarrow$ Amount $= 120\\%$ of $P$.\n2) $P = \\frac{2280 \\times 100}{120} = \\mathbf{1,900}$.\n\nMethod 2: Ratio Multiplier Trick: $R \\times T = 20\\% = \\frac{1}{5} \\Rightarrow P : A = 5 : 6$. Since 6 parts $= 2,280$, $P = 5 \\times 380 = \\mathbf{1,900}$.",
+      "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण: 1) कुल ब्याज $= 5\\% \\times 4 = 20\\% \\Rightarrow$ मिश्रधन $= 120\\%$।\n2) $P = \\frac{2280 \\times 100}{120} = \\mathbf{1,900}$ रुपये।\n\nविधि 2: अनुपात भाग विधि: $20\\% = \\frac{1}{5} \\Rightarrow P : A = 5 : 6$। अतः $P = 5 \\times 380 = \\mathbf{1,900}$।"
     }
   },
   {
@@ -2155,10 +2196,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (3 years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (3 वर्ष) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**3 years**).",
+      "keyConcept": "Time Period n in Compound Interest via Base Power Comparison",
+      "optionTrick": {
+        "en": "$\\frac{A}{P} = \\frac{1367631}{1000000} = \\left(\\frac{111}{100}\\right)^n \\Rightarrow$ Check numerator power of 111 (or decimal places / last digit): **$n = 3$ years**!",
+        "hi": "$\\frac{A}{P} = \\left(\\frac{111}{100}\\right)^n$: 111 की घात से तुलना करने पर तुरंत **$n = 3$ वर्ष** मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate A/P to (1 + R/100)^n",
+            "hi": "विधि 1: घात तुलना (A/P = (1 + R/100)ⁿ)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^n = \\frac{A}{P}$",
+          "steps": {
+            "en": "1) $\\left(\\frac{111}{100}\\right)^n = \\frac{1367631}{1000000} = 1.367631 = \\left(1.11\\right)^{3}$.\n2) Comparing exponents: **$n = 3$** (3 years).",
+            "hi": "1) $\\left(\\frac{111}{100}\\right)^n = \\frac{1367631}{1000000} = 1.367631 = \\left(1.11\\right)^{3}$।\n2) घातों की तुलना करने पर **$n = 3$** (3 वर्ष)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Simple Interest Lower-Bound Estimate",
+            "hi": "विधि 2: साधारण ब्याज से त्वरित समय अनुमान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total % growth $= 36.76\\%$. Since 11% × 3 = 33% is just below 36.76%, integer **$n = 3$** fits immediately!",
+            "hi": "कुल ब्याज लगभग 36.76% है जो $R \\times n = 33\\%$ के ठीक ऊपर है $\\Rightarrow$ बिना घात निकाले **$n = 3$** तय है!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate A/P to (1 + R/100)^n: 1) $\\left(\\frac{111}{100}\\right)^n = \\frac{1367631}{1000000} = 1.367631 = \\left(1.11\\right)^{3}$.\n2) Comparing exponents: **$n = 3$** (3 years).\n\nMethod 2: Simple Interest Lower-Bound Estimate: Total % growth $= 36.76\\%$. Since 11% × 3 = 33% is just below 36.76%, integer **$n = 3$** fits immediately!",
+      "hi": "विधि 1: घात तुलना (A/P = (1 + R/100)ⁿ): 1) $\\left(\\frac{111}{100}\\right)^n = \\frac{1367631}{1000000} = 1.367631 = \\left(1.11\\right)^{3}$।\n2) घातों की तुलना करने पर **$n = 3$** (3 वर्ष)।\n\nविधि 2: साधारण ब्याज से त्वरित समय अनुमान ट्रिक: कुल ब्याज लगभग 36.76% है जो $R \\times n = 33\\%$ के ठीक ऊपर है $\\Rightarrow$ बिना घात निकाले **$n = 3$** तय है!"
     }
   },
   {

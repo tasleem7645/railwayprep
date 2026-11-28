@@ -824,10 +824,55 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹441**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 9\\%$ of 700 $= 63$. For 7 months: $63 \\times 7 = \\mathbf{441}$!",
+        "hi": "1 माह का ब्याज $= 700$ का 9% $= 63$। अतः 7 माह का ब्याज $= 63 \\times 7 = \\mathbf{441}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 700$, monthly rate $R = 9\\%$, $T = 7$ months.\n2) $SI = \\frac{700 \\times 9 \\times 7}{100} = 7 \\times 63 = \\mathbf{441}$.",
+            "hi": "1) $P = 700$, मासिक दर $= 9\\%$, समय $= 7$ माह।\n2) $SI = \\frac{700 \\times 9 \\times 7}{100} = \\mathbf{441}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 9\\%$ of $700 = 63$. For 7 months: $63 \\times 7 = \\mathbf{441}$.",
+            "hi": "1 माह का ब्याज $= 63$ रुपये $\\Rightarrow$ 7 माह के लिए $\\times 7 = \\mathbf{441}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 700$, monthly rate $R = 9\\%$, $T = 7$ months.\n2) $SI = \\frac{700 \\times 9 \\times 7}{100} = 7 \\times 63 = \\mathbf{441}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 9\\%$ of $700 = 63$. For 7 months: $63 \\times 7 = \\mathbf{441}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 700$, मासिक दर $= 9\\%$, समय $= 7$ माह।\n2) $SI = \\frac{700 \\times 9 \\times 7}{100} = \\mathbf{441}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 63$ रुपये $\\Rightarrow$ 7 माह के लिए $\\times 7 = \\mathbf{441}$!"
     }
   },
   {
@@ -2985,10 +3030,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**6 years**).",
+      "keyConcept": "Simple Interest Time Formula: T = SI / (1-Year SI)",
+      "optionTrick": {
+        "en": "1 year SI $= 6\\%$ of $1,500 = 90$. Time $= \\frac{540}{90} = \\mathbf{6\\text{ years}}$!",
+        "hi": "1 वर्ष का ब्याज $= 1,500$ का 6% $= 90$। अतः समय $= \\frac{540}{90} = \\mathbf{6}$ वर्ष!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Time Formula",
+            "hi": "विधि 1: समय सूत्र T = (SI × 100)/(P × R)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$T = \\frac{SI \\times 100}{P \\times R}$",
+          "steps": {
+            "en": "$SI = 540 \\Rightarrow T = \\frac{540 \\times 100}{1500 \\times 6} = \\mathbf{6\\text{ years}}$.",
+            "hi": "$SI = 540 \\Rightarrow T = \\frac{540 \\times 100}{1500 \\times 6} = \\mathbf{6}$ वर्ष।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Divide Total SI by 1-Year SI",
+            "hi": "विधि 2: कुल ब्याज ÷ 1-वर्ष ब्याज ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Yearly SI $= 90 \\Rightarrow \\frac{540}{90} = \\mathbf{6\\text{ years}}$.",
+            "hi": "वार्षिक ब्याज $= 90 \\Rightarrow \\frac{540}{90} = \\mathbf{6}$ वर्ष।"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Time Formula: $SI = 540 \\Rightarrow T = \\frac{540 \\times 100}{1500 \\times 6} = \\mathbf{6\\text{ years}}$.\n\nMethod 2: Divide Total SI by 1-Year SI: Yearly SI $= 90 \\Rightarrow \\frac{540}{90} = \\mathbf{6\\text{ years}}$.",
+      "hi": "विधि 1: समय सूत्र T = (SI × 100)/(P × R): $SI = 540 \\Rightarrow T = \\frac{540 \\times 100}{1500 \\times 6} = \\mathbf{6}$ वर्ष।\n\nविधि 2: कुल ब्याज ÷ 1-वर्ष ब्याज ट्रिक: वार्षिक ब्याज $= 90 \\Rightarrow \\frac{540}{90} = \\mathbf{6}$ वर्ष।"
     }
   },
   {

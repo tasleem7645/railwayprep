@@ -883,10 +883,55 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (1300). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (1300)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Mathematical Answer: **1150** (Option D); Official Stored Key marks Option A (`1300`).",
+      "keyConcept": "Principal from Simple Interest Formula P = (SI × 100)/(R × T) & Key Discrepancy",
+      "optionTrick": {
+        "en": "Total interest $= 10\\% \\times 4 = 40\\%$ of $P = 460 \\Rightarrow P = \\frac{460 \\times 100}{40} = \\mathbf{1150}$ (Option D).",
+        "hi": "कुल ब्याज $= 10\\% \\times 4 = 40\\% = 460 \\Rightarrow P = \\frac{460 \\times 100}{40} = \\mathbf{1150}$ (विकल्प D)।"
+      },
+      "trapAlert": {
+        "en": "Official Key Discrepancy: Exact formula gives $P = \\frac{460 \\times 100}{4 \\times 10} = \\mathbf{1150}$ (**Option D**), whereas stored ALP answer key records **Option A (1300)** (which would yield ₹520 SI).",
+        "hi": "उत्तर कुंजी विसंगति: सटीक गणित से $P = \\frac{460 \\times 100}{4 \\times 10} = \\mathbf{1150}$ (**विकल्प D**) आता है, जबकि संग्रहीत कुंजी में **विकल्प A (1300)** दर्ज है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मानक मूलधन सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) $P = \\frac{460 \\times 100}{10 \\times 4} = \\frac{4600}{4} = \\mathbf{1150}$ (**Option D**; stored key records Option A: 1300).",
+            "hi": "1) $P = \\frac{460 \\times 100}{10 \\times 4} = \\mathbf{1150}$ (**विकल्प D**; संग्रहीत कुंजी में विकल्प A दर्ज है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (40% = 460)",
+            "hi": "विधि 2: 40% = 460 ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$40\\% = 460 \\Rightarrow 20\\% = 230 \\Rightarrow 100\\% = 230 \\times 5 = \\mathbf{1150}$!",
+            "hi": "$40\\% = 460 \\Rightarrow 20\\% = 230 \\Rightarrow 100\\% = 230 \\times 5 = \\mathbf{1150}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) $P = \\frac{460 \\times 100}{10 \\times 4} = \\frac{4600}{4} = \\mathbf{1150}$ (**Option D**; stored key records Option A: 1300).\n\nMethod 2: Percentage Unitary Method (40% = 460): $40\\% = 460 \\Rightarrow 20\\% = 230 \\Rightarrow 100\\% = 230 \\times 5 = \\mathbf{1150}$!",
+      "hi": "विधि 1: मानक मूलधन सूत्र: 1) $P = \\frac{460 \\times 100}{10 \\times 4} = \\mathbf{1150}$ (**विकल्प D**; संग्रहीत कुंजी में विकल्प A दर्ज है)।\n\nविधि 2: 40% = 460 ऐकिक नियम ट्रिक: $40\\% = 460 \\Rightarrow 20\\% = 230 \\Rightarrow 100\\% = 230 \\times 5 = \\mathbf{1150}$!"
     },
     "correctIndexHi": 0
   },

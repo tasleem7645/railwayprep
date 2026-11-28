@@ -877,10 +877,55 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (861) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (861) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**861**).",
+      "keyConcept": "Equal CI Maturity Split ⇒ Ratio = (1 + R/100)^ΔT : 1 (Less Time Gets More!)",
+      "optionTrick": {
+        "en": "Time difference $\\Delta T = 1$ yr(s) at 5% ($\\frac{21}{20}$). Share ratio $= 21 : 20$ ($\\text{Sum} = 41$ parts $= 1,681 \\Rightarrow 1\\text{ part} = 41$). Shorter-duration person gets larger share $= 21 \\times 41 = \\mathbf{861}$!",
+        "hi": "दोनों के समय में केवल $\\Delta T = 1$ वर्ष का अंतर है! 5% ($\\frac{21}{20}$) के साथ अनुपात $= 21 : 20$ (योग $= 41$ भाग $= 1,681$)। कम समय वाले को बड़ा भाग $= 21 \\times 41 = \\mathbf{861}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT use `14, 15, 17, 18` years to expand powers — **only the difference `ΔT` between their investment durations matters**!",
+        "hi": "कभी भी 16 व 17 या 12 व 13 की बड़ी घात न निकालें — **केवल दोनों समयावधियों के अंतर $\\Delta T = 1$** का अनुपात लें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers",
+            "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$S_1\\left(1+\\frac{R}{100}\\right)^{T_1} = S_2\\left(1+\\frac{R}{100}\\right)^{T_2} \\implies \\frac{S_1}{S_2} = \\left(1+\\frac{R}{100}\\right)^{T_2 - T_1}$",
+          "steps": {
+            "en": "1) Investment periods are 17 yrs and 18 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (Sum $= 41$ parts).\n3) 1 part $= \\frac{1681}{41} = 41 \\Rightarrow$ Asked share $= 21 \\times 41 = \\mathbf{861}$.",
+            "hi": "1) दोनों की निवेश अवधि 17 वर्ष व 18 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (कुल $= 41$ भाग)।\n3) 1 भाग $= \\frac{1681}{41} = 41 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{861}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Fraction Split (10-Sec Shortcut)",
+            "hi": "विधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since 1681 divides cleanly by 41 ($= 41$), pick **21 × 41** (the larger share goes to the person compounding for fewer years) $= \\mathbf{861}$.",
+            "hi": "1681, 41 से ठीक 41 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 21 \\times 41 = \\mathbf{861}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers: 1) Investment periods are 17 yrs and 18 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (Sum $= 41$ parts).\n3) 1 part $= \\frac{1681}{41} = 41 \\Rightarrow$ Asked share $= 21 \\times 41 = \\mathbf{861}$.\n\nMethod 2: Instant Fraction Split (10-Sec Shortcut): Since 1681 divides cleanly by 41 ($= 41$), pick **21 × 41** (the larger share goes to the person compounding for fewer years) $= \\mathbf{861}$.",
+      "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना: 1) दोनों की निवेश अवधि 17 वर्ष व 18 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (कुल $= 41$ भाग)।\n3) 1 भाग $= \\frac{1681}{41} = 41 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{861}$।\n\nविधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक: 1681, 41 से ठीक 41 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 21 \\times 41 = \\mathbf{861}$!"
     }
   },
   {
@@ -1047,10 +1092,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Find Principal",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (3000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (3000) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**3000**).",
+      "keyConcept": "Principal Extraction from Total R×T% Simple Interest",
+      "optionTrick": {
+        "en": "Total interest $= 8\\% \\times 4 = 32\\%$ of $P = 960 \\Rightarrow P = \\frac{960 \\times 100}{32} = \\mathbf{3,000}$!",
+        "hi": "कुल ब्याज $= 8\\% \\times 4 = 32\\% = 960 \\Rightarrow P = \\frac{960 \\times 100}{32} = \\mathbf{3,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मूलधन सूत्र द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) Given $SI = 960$, $T = 4$ years, $R = 8\\%$.\n2) $P = \\frac{960 \\times 100}{8 \\times 4} = \\frac{96,000}{32} = \\mathbf{3,000}$.",
+            "hi": "1) दिया है $SI = 960$, समय $T = 4$ वर्ष, दर $R = 8\\%$।\n2) $P = \\frac{960 \\times 100}{8 \\times 4} = \\mathbf{3,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (R×T%)",
+            "hi": "विधि 2: कुल R×T% ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$32\\% = 960 \\Rightarrow 1\\% = 30 \\Rightarrow 100\\% = \\mathbf{3,000}$ (3000).",
+            "hi": "$32\\% = 960$ तो $1\\% = 30$, इसलिए $100\\% = \\mathbf{3,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) Given $SI = 960$, $T = 4$ years, $R = 8\\%$.\n2) $P = \\frac{960 \\times 100}{8 \\times 4} = \\frac{96,000}{32} = \\mathbf{3,000}$.\n\nMethod 2: Percentage Unitary Method (R×T%): $32\\% = 960 \\Rightarrow 1\\% = 30 \\Rightarrow 100\\% = \\mathbf{3,000}$ (3000).",
+      "hi": "विधि 1: मूलधन सूत्र द्वारा हल: 1) दिया है $SI = 960$, समय $T = 4$ वर्ष, दर $R = 8\\%$।\n2) $P = \\frac{960 \\times 100}{8 \\times 4} = \\mathbf{3,000}$ रुपये।\n\nविधि 2: कुल R×T% ऐकिक नियम ट्रिक: $32\\% = 960$ तो $1\\% = 30$, इसलिए $100\\% = \\mathbf{3,000}$।"
     }
   },
   {
@@ -1355,10 +1441,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Value Decrease Over Time",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (1,98,550) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (1,98,550) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**1,98,550**).",
+      "keyConcept": "Successive Depreciation Factor Over 2 Years",
+      "optionTrick": {
+        "en": "Fraction factor $= \\frac{19}{20}$ (2 yrs $= \\frac{361}{400}$), or net 2-yr change $= -9.75\\%$ $\\Rightarrow \\mathbf{1,98,550}$!",
+        "hi": "भिन्न गुणक $= \\frac{19}{20}$ के 2 वर्ष ($\\frac{361}{400}$) अथवा शुद्ध ह्रास 9.75% से सीधा उत्तर **1,98,550**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 2-Year Growth/Depreciation Formula",
+            "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$V_{\\text{after}} = V_0\\left(1 - \\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) Annual factor $= 1 - 5\\% = \\frac{19}{20}$.\n2) After 2 years: $V = 220000 \\times \\frac{19}{20} \\times \\frac{19}{20} = \\mathbf{1,98,550}$ (1,98,550).",
+            "hi": "1) वार्षिक गुणक $= \\frac{19}{20}$।\n2) 2 वर्ष बाद मान $= 220000 \\times \\frac{19}{20} \\times \\frac{19}{20} = \\mathbf{1,98,550}$ (1,98,550)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Successive % / Unit-Digit Check",
+            "hi": "विधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr change $= -9.75\\%$. Apply directly to 220000 gives **1,98,550**!",
+            "hi": "2 वर्ष का शुद्ध परिवर्तन $= -9.75\\%$ लगाने पर सीधा **1,98,550** आता है!"
+          }
+        }
+      ],
+      "en": "Method 1: 2-Year Growth/Depreciation Formula: 1) Annual factor $= 1 - 5\\% = \\frac{19}{20}$.\n2) After 2 years: $V = 220000 \\times \\frac{19}{20} \\times \\frac{19}{20} = \\mathbf{1,98,550}$ (1,98,550).\n\nMethod 2: Net Successive % / Unit-Digit Check: Net 2-yr change $= -9.75\\%$. Apply directly to 220000 gives **1,98,550**!",
+      "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र: 1) वार्षिक गुणक $= \\frac{19}{20}$।\n2) 2 वर्ष बाद मान $= 220000 \\times \\frac{19}{20} \\times \\frac{19}{20} = \\mathbf{1,98,550}$ (1,98,550)।\n\nविधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक: 2 वर्ष का शुद्ध परिवर्तन $= -9.75\\%$ लगाने पर सीधा **1,98,550** आता है!"
     }
   },
   {

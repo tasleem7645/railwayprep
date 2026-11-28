@@ -1419,10 +1419,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (₹36,690) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (₹36,690) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹36,690**).",
+      "keyConcept": "Two-Stage Simple Interest (Fractional Years + Final Amount)",
+      "optionTrick": {
+        "en": "Stage 1 % $= \\frac{22}{5} \\times 7.6\\% = 33.44\\% = 8,778 \\Rightarrow 1\\% = 262.5$ (P = 26,250). Stage 2 % $= \\frac{58}{7} \\times 4.8\\% = 39.7714\\%$. Amount $= 139.7714\\%$ of $P = \\mathbf{36,690}$!",
+        "hi": "प्रथम चरण ब्याज % $= \\frac{22}{5} \\times 7.6 = 33.44\\% = 8,778 \\Rightarrow P = 26,250$। द्वितीय चरण % $= \\frac{58}{7} \\times 4.8 = 39.7714\\%$ $\\Rightarrow$ मिश्रधन $= 26,250$ का 139.7714% $= \\mathbf{36,690}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert Mixed Fractions & Solve P First",
+            "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI_1 \\times 100}{R_1 \\times T_1},\\quad A_2 = P\\left(1 + \\frac{R_2 T_2}{100}\\right)$",
+          "steps": {
+            "en": "1) $T_1 = 4\\frac{2}{5} = \\frac{22}{5}$ yrs $\\Rightarrow R_1 T_1 = 7.6 \\times \\frac{22}{5} = 33.44\\%$.\n2) $P = \\frac{8778 \\times 100}{33.44} = 26,250$.\n3) $T_2 = 8\\frac{2}{7} = \\frac{58}{7}$ yrs $\\Rightarrow R_2 T_2 = 4.8 \\times \\frac{58}{7} = 39.7714\\%$.\n4) $SI_2 = 26,250 \\times 39.7714\\% = 10,440 \\Rightarrow A_2 = 26,250 + 10,440 = \\mathbf{36,690}$.",
+            "hi": "1) $T_1 = 4\\frac{2}{5} = \\frac{22}{5}$ वर्ष $\\Rightarrow R_1 T_1 = 33.44\\%$।\n2) $P = \\frac{8778 \\times 100}{33.44} = 26,250$ रुपये।\n3) $T_2 = 8\\frac{2}{7} = \\frac{58}{7}$ वर्ष $\\Rightarrow R_2 T_2 = 39.7714\\%$।\n4) $SI_2 = 10,440 \\Rightarrow$ देय राशि $A_2 = 26,250 + 10,440 = \\mathbf{36,690}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Factor Ratio",
+            "hi": "विधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of $P = \\frac{8778}{33.44} = 262.5$. Since Amount $= 139.7714\\%$, directly compute $262.5 \\times 139.7714 = \\mathbf{36,690}$.",
+            "hi": "$P$ का $1\\% = \\frac{8778}{33.44} = 262.5$। अतः देय राशि $= 139.7714 \\times 262.5 = \\mathbf{36,690}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert Mixed Fractions & Solve P First: 1) $T_1 = 4\\frac{2}{5} = \\frac{22}{5}$ yrs $\\Rightarrow R_1 T_1 = 7.6 \\times \\frac{22}{5} = 33.44\\%$.\n2) $P = \\frac{8778 \\times 100}{33.44} = 26,250$.\n3) $T_2 = 8\\frac{2}{7} = \\frac{58}{7}$ yrs $\\Rightarrow R_2 T_2 = 4.8 \\times \\frac{58}{7} = 39.7714\\%$.\n4) $SI_2 = 26,250 \\times 39.7714\\% = 10,440 \\Rightarrow A_2 = 26,250 + 10,440 = \\mathbf{36,690}$.\n\nMethod 2: Direct Multiplier Factor Ratio: $1\\%$ of $P = \\frac{8778}{33.44} = 262.5$. Since Amount $= 139.7714\\%$, directly compute $262.5 \\times 139.7714 = \\mathbf{36,690}$.",
+      "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें: 1) $T_1 = 4\\frac{2}{5} = \\frac{22}{5}$ वर्ष $\\Rightarrow R_1 T_1 = 33.44\\%$।\n2) $P = \\frac{8778 \\times 100}{33.44} = 26,250$ रुपये।\n3) $T_2 = 8\\frac{2}{7} = \\frac{58}{7}$ वर्ष $\\Rightarrow R_2 T_2 = 39.7714\\%$।\n4) $SI_2 = 10,440 \\Rightarrow$ देय राशि $A_2 = 26,250 + 10,440 = \\mathbf{36,690}$ रुपये।\n\nविधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक: $P$ का $1\\% = \\frac{8778}{33.44} = 262.5$। अतः देय राशि $= 139.7714 \\times 262.5 = \\mathbf{36,690}$!"
     }
   },
   {
@@ -2141,10 +2182,55 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (₹240) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (₹240) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹240**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 4\\%$ of 1,200 $= 48$. For 5 months: $48 \\times 5 = \\mathbf{240}$!",
+        "hi": "1 माह का ब्याज $= 1,200$ का 4% $= 48$। अतः 5 माह का ब्याज $= 48 \\times 5 = \\mathbf{240}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,200$, monthly rate $R = 4\\%$, $T = 5$ months.\n2) $SI = \\frac{1200 \\times 4 \\times 5}{100} = 12 \\times 20 = \\mathbf{240}$.",
+            "hi": "1) $P = 1,200$, मासिक दर $= 4\\%$, समय $= 5$ माह।\n2) $SI = \\frac{1200 \\times 4 \\times 5}{100} = \\mathbf{240}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 4\\%$ of $1200 = 48$. For 5 months: $48 \\times 5 = \\mathbf{240}$.",
+            "hi": "1 माह का ब्याज $= 48$ रुपये $\\Rightarrow$ 5 माह के लिए $\\times 5 = \\mathbf{240}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,200$, monthly rate $R = 4\\%$, $T = 5$ months.\n2) $SI = \\frac{1200 \\times 4 \\times 5}{100} = 12 \\times 20 = \\mathbf{240}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 4\\%$ of $1200 = 48$. For 5 months: $48 \\times 5 = \\mathbf{240}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,200$, मासिक दर $= 4\\%$, समय $= 5$ माह।\n2) $SI = \\frac{1200 \\times 4 \\times 5}{100} = \\mathbf{240}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 48$ रुपये $\\Rightarrow$ 5 माह के लिए $\\times 5 = \\mathbf{240}$!"
     }
   },
   {

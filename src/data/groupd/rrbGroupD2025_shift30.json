@@ -877,10 +877,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (578.2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (578.2) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**578.2**).",
+      "keyConcept": "2-Year Compound Growth Rate: R = (√K − 1) × 100%",
+      "optionTrick": {
+        "en": "Formula is simply **$(\\sqrt{46} - 1) \\times 100$**! Estimate $\\sqrt{46}$ near $6^2=36$ (≈ 6.782) $\\Rightarrow \\mathbf{578.2}$!",
+        "hi": "सीधा सूत्र **$(\\sqrt{46} - 1) \\times 100$** लगाएँ! $\\sqrt{46} \\approx 6.782$ से $(\\sqrt{46} - 1) \\times 100 \\approx \\mathbf{578.2}$ तुरंत मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compound Amount Equation (1 + r)^2 = K",
+            "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P\\left(1 + \\frac{R}{100}\\right)^2 = 46P \\implies R = (\\sqrt{46} - 1) \\times 100$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 46 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{46} \\approx 6.7823$.\n2) $R = (6.7823 - 1) \\times 100 \\approx \\mathbf{578.2}$.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 46 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{46} \\approx 6.7823$।\n2) $R = (6.7823 - 1) \\times 100 \\approx \\mathbf{578.2}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fast Square-Root Approximation",
+            "hi": "विधि 2: वर्गमूल सन्निकटन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Using $\\sqrt{a^2 + b} \\approx a + \\frac{b}{2a}$: subtract 1 and multiply by 100 gives **578.2** (Option C).",
+            "hi": "निकटतम पूर्ण वर्ग के उपयोग से $\\sqrt{46} \\approx 6.782 \\Rightarrow R \\approx \\mathbf{578.2}$ (विकल्प C)।"
+          }
+        }
+      ],
+      "en": "Method 1: Compound Amount Equation (1 + r)^2 = K: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 46 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{46} \\approx 6.7823$.\n2) $R = (6.7823 - 1) \\times 100 \\approx \\mathbf{578.2}$.\n\nMethod 2: Fast Square-Root Approximation: Using $\\sqrt{a^2 + b} \\approx a + \\frac{b}{2a}$: subtract 1 and multiply by 100 gives **578.2** (Option C).",
+      "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 46 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{46} \\approx 6.7823$।\n2) $R = (6.7823 - 1) \\times 100 \\approx \\mathbf{578.2}$।\n\nविधि 2: वर्गमूल सन्निकटन ट्रिक: निकटतम पूर्ण वर्ग के उपयोग से $\\sqrt{46} \\approx 6.782 \\Rightarrow R \\approx \\mathbf{578.2}$ (विकल्प C)।"
     }
   },
   {
@@ -911,10 +952,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (210) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (210) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**210**).",
+      "keyConcept": "Annual Compound Interest over 2 Years (10% = 1/10)",
+      "optionTrick": {
+        "en": "Use 2-yr factor $\\frac{121}{100}$ or effective rate **21%** of 1,000 $\\Rightarrow \\mathbf{210}$!",
+        "hi": "प्रभावी दर **21%** या भिन्न गुणक $\\frac{121}{100}$ लगाने पर सीधा उत्तर **210** आता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (11/10)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (11/10)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{100}\\right)^T - 1\\right]$",
+          "steps": {
+            "en": "1) 10% annual factor $= \\frac{11}{10}$ over 2 years $\\Rightarrow \\frac{121}{100}$.\n2) $A = 1000 \\times \\frac{121}{100} = 1,210.00$.\n3) $CI = 1,210.00 - 1,000 = 210.00$ (**210**).",
+            "hi": "1) 10% दर का 2-वर्ष गुणक $= \\frac{121}{100}$।\n2) मिश्रधन $A = 1000 \\times \\frac{121}{100} = 1,210.00$ रुपये।\n3) $CI = 1,210.00 - 1,000 = 210.00$ (**210**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr CI rate $= 21\\%$. Multiply 0.21 by 1,000 $\\Rightarrow \\mathbf{210}$!",
+            "hi": "2 वर्ष की कुल ब्याज दर 21% से सीधा उत्तर **210** मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (11/10): 1) 10% annual factor $= \\frac{11}{10}$ over 2 years $\\Rightarrow \\frac{121}{100}$.\n2) $A = 1000 \\times \\frac{121}{100} = 1,210.00$.\n3) $CI = 1,210.00 - 1,000 = 210.00$ (**210**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Net 2-yr CI rate $= 21\\%$. Multiply 0.21 by 1,000 $\\Rightarrow \\mathbf{210}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (11/10): 1) 10% दर का 2-वर्ष गुणक $= \\frac{121}{100}$।\n2) मिश्रधन $A = 1000 \\times \\frac{121}{100} = 1,210.00$ रुपये।\n3) $CI = 1,210.00 - 1,000 = 210.00$ (**210**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: 2 वर्ष की कुल ब्याज दर 21% से सीधा उत्तर **210** मिलता है!"
     }
   },
   {
@@ -1081,10 +1163,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (180) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (180) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**180**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 12\\% \\times 2.5 = 30\\%$. Just take $30\\%$ of 600 $= \\mathbf{180}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 12\\% \\times 2.5 = 30\\%$। सीधा 600 का $30\\% = \\mathbf{180}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 600$, $R = 12\\%$, $T = 2.5$ year(s).\n2) $SI = \\frac{600 \\times 12 \\times 2.5}{100} = 6 \\times 30 = \\mathbf{180}$.",
+            "hi": "1) $P = 600$, दर $R = 12\\%$, समय $T = 2.5$ वर्ष।\n2) $SI = \\frac{600 \\times 12 \\times 2.5}{100} = \\mathbf{180}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 6$. Multiply by $R \\times T = 30$: $6 \\times 30 = \\mathbf{180}$.",
+            "hi": "मूलधन का $1\\% = 6$। इसे $R \\times T = 30$ से गुणा करें $= \\mathbf{180}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 600$, $R = 12\\%$, $T = 2.5$ year(s).\n2) $SI = \\frac{600 \\times 12 \\times 2.5}{100} = 6 \\times 30 = \\mathbf{180}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 6$. Multiply by $R \\times T = 30$: $6 \\times 30 = \\mathbf{180}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 600$, दर $R = 12\\%$, समय $T = 2.5$ वर्ष।\n2) $SI = \\frac{600 \\times 12 \\times 2.5}{100} = \\mathbf{180}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 6$। इसे $R \\times T = 30$ से गुणा करें $= \\mathbf{180}$!"
     }
   },
   {

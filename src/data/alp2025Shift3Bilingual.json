@@ -619,10 +619,52 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
-      "en": "Correct Answer: Option A (363). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (363)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**363**).",
+      "keyConcept": "Gold Ratio Formula: Principal = (1-Year SI)² / (CI − SI)",
+      "optionTrick": {
+        "en": "No need to compute Rate separately! 1-yr SI $= \\frac{66}{2} = 33$, Diff $= 69 - 66 = 3$. Simply $P = \\frac{33^2}{3} = \\mathbf{363}$!",
+        "hi": "दर निकालने की ज़रूरत नहीं! 1 वर्ष का ब्याज $= \\frac{66}{2} = 33$ तथा अंतर $= 3$। सीधा सूत्र $P = \\frac{33^2}{3} = \\mathbf{363}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find Rate from Difference, Then Principal",
+            "hi": "विधि 1: पहले अंतर से दर (R) फिर मूलधन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$R = \\frac{CI - SI}{SI_1} \\times 100$",
+          "steps": {
+            "en": "1) 1-year SI $= \\frac{66}{2} = 33$; extra CI $= 69 - 66 = 3$.\n2) Rate $R = \\frac{3}{33} \\times 100 = 9.0909\\%$.\n3) $P = \\frac{33 \\times 100}{9.0909} = \\mathbf{363}$.",
+            "hi": "1) 1 वर्ष का $SI = \\frac{66}{2} = 33$ और ब्याज अंतर $= 69 - 66 = 3$।\n2) दर $R = \\frac{3}{33} \\times 100 = 9.0909\\%$।\n3) मूलधन $P = \\frac{33 \\times 100}{9.0909} = \\mathbf{363}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Square-Divide Formula P = SI₁² / Δ (4 sec)",
+            "hi": "विधि 2: सीधा वर्ग-विभाजन सूत्र P = SI₁² / Δ"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$P = \\frac{SI_1^2}{CI_2 - SI_2}$",
+          "steps": {
+            "en": "$P = \\frac{33 \\times 33}{3} = \\mathbf{363}$ (Option A)!",
+            "hi": "$P = \\frac{33 \\times 33}{3} = \\mathbf{363}$ (विकल्प A)!"
+          }
+        }
+      ],
+      "en": "Method 1: Find Rate from Difference, Then Principal: 1) 1-year SI $= \\frac{66}{2} = 33$; extra CI $= 69 - 66 = 3$.\n2) Rate $R = \\frac{3}{33} \\times 100 = 9.0909\\%$.\n3) $P = \\frac{33 \\times 100}{9.0909} = \\mathbf{363}$.\n\nMethod 2: Direct Square-Divide Formula P = SI₁² / Δ (4 sec): $P = \\frac{33 \\times 33}{3} = \\mathbf{363}$ (Option A)!",
+      "hi": "विधि 1: पहले अंतर से दर (R) फिर मूलधन: 1) 1 वर्ष का $SI = \\frac{66}{2} = 33$ और ब्याज अंतर $= 69 - 66 = 3$।\n2) दर $R = \\frac{3}{33} \\times 100 = 9.0909\\%$।\n3) मूलधन $P = \\frac{33 \\times 100}{9.0909} = \\mathbf{363}$।\n\nविधि 2: सीधा वर्ग-विभाजन सूत्र P = SI₁² / Δ: $P = \\frac{33 \\times 33}{3} = \\mathbf{363}$ (विकल्प A)!"
     },
     "correctIndexHi": 0
   },
@@ -1274,10 +1316,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
-      "en": "Correct Answer: Option A (4800). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (4800)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**4800**).",
+      "keyConcept": "Principal Extraction from Total R×T% Simple Interest",
+      "optionTrick": {
+        "en": "Total interest $= 5\\% \\times 2 = 10\\%$ of $P = 480 \\Rightarrow P = \\frac{480 \\times 100}{10} = \\mathbf{4,800}$!",
+        "hi": "कुल ब्याज $= 5\\% \\times 2 = 10\\% = 480 \\Rightarrow P = \\frac{480 \\times 100}{10} = \\mathbf{4,800}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मूलधन सूत्र द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) Given $SI = 480$, $T = 2$ years, $R = 5\\%$.\n2) $P = \\frac{480 \\times 100}{5 \\times 2} = \\frac{48,000}{10} = \\mathbf{4,800}$.",
+            "hi": "1) दिया है $SI = 480$, समय $T = 2$ वर्ष, दर $R = 5\\%$।\n2) $P = \\frac{480 \\times 100}{5 \\times 2} = \\mathbf{4,800}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (R×T%)",
+            "hi": "विधि 2: कुल R×T% ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$10\\% = 480 \\Rightarrow 1\\% = 48 \\Rightarrow 100\\% = \\mathbf{4,800}$ (4800).",
+            "hi": "$10\\% = 480$ तो $1\\% = 48$, इसलिए $100\\% = \\mathbf{4,800}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) Given $SI = 480$, $T = 2$ years, $R = 5\\%$.\n2) $P = \\frac{480 \\times 100}{5 \\times 2} = \\frac{48,000}{10} = \\mathbf{4,800}$.\n\nMethod 2: Percentage Unitary Method (R×T%): $10\\% = 480 \\Rightarrow 1\\% = 48 \\Rightarrow 100\\% = \\mathbf{4,800}$ (4800).",
+      "hi": "विधि 1: मूलधन सूत्र द्वारा हल: 1) दिया है $SI = 480$, समय $T = 2$ वर्ष, दर $R = 5\\%$।\n2) $P = \\frac{480 \\times 100}{5 \\times 2} = \\mathbf{4,800}$ रुपये।\n\nविधि 2: कुल R×T% ऐकिक नियम ट्रिक: $10\\% = 480$ तो $1\\% = 48$, इसलिए $100\\% = \\mathbf{4,800}$।"
     },
     "correctIndexHi": 0
   },

@@ -1781,10 +1781,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹48) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹48) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹48**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 4\\%$ of 1,200 $= 48$. For 1 months: $48 \\times 1 = \\mathbf{48}$!",
+        "hi": "1 माह का ब्याज $= 1,200$ का 4% $= 48$। अतः 1 माह का ब्याज $= 48 \\times 1 = \\mathbf{48}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,200$, monthly rate $R = 4\\%$, $T = 1$ months.\n2) $SI = \\frac{1200 \\times 4 \\times 1}{100} = 12 \\times 4 = \\mathbf{48}$.",
+            "hi": "1) $P = 1,200$, मासिक दर $= 4\\%$, समय $= 1$ माह।\n2) $SI = \\frac{1200 \\times 4 \\times 1}{100} = \\mathbf{48}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 4\\%$ of $1200 = 48$. For 1 months: $48 \\times 1 = \\mathbf{48}$.",
+            "hi": "1 माह का ब्याज $= 48$ रुपये $\\Rightarrow$ 1 माह के लिए $\\times 1 = \\mathbf{48}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,200$, monthly rate $R = 4\\%$, $T = 1$ months.\n2) $SI = \\frac{1200 \\times 4 \\times 1}{100} = 12 \\times 4 = \\mathbf{48}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 4\\%$ of $1200 = 48$. For 1 months: $48 \\times 1 = \\mathbf{48}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,200$, मासिक दर $= 4\\%$, समय $= 1$ माह।\n2) $SI = \\frac{1200 \\times 4 \\times 1}{100} = \\mathbf{48}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 48$ रुपये $\\Rightarrow$ 1 माह के लिए $\\times 1 = \\mathbf{48}$!"
     }
   },
   {
@@ -1946,10 +1991,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹47,400) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹47,400) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹47,400**).",
+      "keyConcept": "Only 2nd-Year Compound Interest = R(1 + R/100)% (11% of P)",
+      "optionTrick": {
+        "en": "At 10% rate, **2nd year alone** earns $10\\% \\times 1.1 = \\mathbf{11\\%}$ of $P$! So $P = \\frac{5214 \\times 100}{11} = \\mathbf{47,400}$!",
+        "hi": "10% दर पर केवल दूसरे वर्ष का ब्याज $= 10\\% \\times 1.1 = \\mathbf{11\\%}$! अतः $P = \\frac{5214 \\times 100}{11} = \\mathbf{47,400}$!"
+      },
+      "trapAlert": {
+        "en": "Question specifies interest earned **during the 2nd year only** (11%), NOT cumulative 2-year CI (21%)!",
+        "hi": "ध्यान दें: यहाँ 2 वर्षों का कुल ब्याज नहीं बल्कि **केवल दूसरे वर्ष** में अर्जित ब्याज (11%) दिया गया है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-Back from 2nd Year to 1st Year CI",
+            "hi": "विधि 1: दूसरे वर्ष से पहले वर्ष का ब्याज निकालकर मूलधन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$CI_{\\text{1st yr}} = \\frac{CI_{\\text{2nd yr}}}{1 + R/100},\\quad P = \\frac{CI_{\\text{1st yr}} \\times 100}{R}$",
+          "steps": {
+            "en": "1) Year-1 interest $= \\frac{5214}{1.1} = 4,740$.\n2) Since $10\\%$ of $P = 4,740$, $P = \\frac{4740 \\times 100}{10} = \\mathbf{47,400}$.",
+            "hi": "1) पहले वर्ष का ब्याज $= \\frac{5214}{1.1} = 4,740$ रुपये।\n2) $P$ का $10\\% = 4,740 \\Rightarrow P = \\frac{4740 \\times 100}{10} = \\mathbf{47,400}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Single Divisor (Effective 2nd-Year %)",
+            "hi": "विधि 2: एकल प्रभावी % विभाजक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct share $= 11\\%$ of $P = 5,214 \\Rightarrow P = \\frac{5214 \\times 100}{11} = \\mathbf{47,400}$.",
+            "hi": "सीधा दूसरे वर्ष का भाग $= 11\\% = 5,214 \\Rightarrow P = \\frac{5214 \\times 100}{11} = \\mathbf{47,400}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-Back from 2nd Year to 1st Year CI: 1) Year-1 interest $= \\frac{5214}{1.1} = 4,740$.\n2) Since $10\\%$ of $P = 4,740$, $P = \\frac{4740 \\times 100}{10} = \\mathbf{47,400}$.\n\nMethod 2: Direct Single Divisor (Effective 2nd-Year %): Direct share $= 11\\%$ of $P = 5,214 \\Rightarrow P = \\frac{5214 \\times 100}{11} = \\mathbf{47,400}$.",
+      "hi": "विधि 1: दूसरे वर्ष से पहले वर्ष का ब्याज निकालकर मूलधन: 1) पहले वर्ष का ब्याज $= \\frac{5214}{1.1} = 4,740$ रुपये।\n2) $P$ का $10\\% = 4,740 \\Rightarrow P = \\frac{4740 \\times 100}{10} = \\mathbf{47,400}$ रुपये।\n\nविधि 2: एकल प्रभावी % विभाजक ट्रिक: सीधा दूसरे वर्ष का भाग $= 11\\% = 5,214 \\Rightarrow P = \\frac{5214 \\times 100}{11} = \\mathbf{47,400}$!"
     }
   },
   {

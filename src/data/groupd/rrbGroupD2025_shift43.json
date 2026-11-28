@@ -877,10 +877,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹1,261) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹1,261) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹1,261**).",
+      "keyConcept": "SI-to-CI Conversion Over 3 Years via Annual Tree Layers",
+      "optionTrick": {
+        "en": "1-yr SI $= 1200 \\div 3 = 400$. Add interest-on-interest: Year 2 gives $+5\\%(400)=+20$; Year 3 gives $+5\\%(400+400+20)=+41 \\Rightarrow CI = 1200 + 20 + 41 = \\mathbf{Rs.1,261}$!",
+        "hi": "1 वर्ष का $SI = 400$। दूसरे वर्ष ब्याज पर $5\\% = +20$ व तीसरे वर्ष $(400+400+20)$ पर $5\\% = +41$ जोड़ें $\\Rightarrow CI = 1200 + 20 + 41 = \\mathbf{Rs.1,261}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find Principal Then 3-Year CI Ratio",
+            "hi": "विधि 1: मूलधन (8,000) व 21/20 अनुपात से"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15\\%$ of $P = 1200 \\Rightarrow P = 8{,}000$.\n2) $A = 8000 \\times \\left(\\frac{21}{20}\\right)^3 = 9261 \\Rightarrow CI = 9261 - 8000 = \\mathbf{Rs.1,261}$.",
+            "hi": "1) $15\\% = 1200 \\Rightarrow P = 8{,}000$ रुपये।\n2) $A = 8000 \\times \\frac{9261}{8000} = 9261 \\Rightarrow CI = \\mathbf{Rs.1,261}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Recognition (5% × 3 yrs ⇒ P=8000, CI=1261)",
+            "hi": "विधि 2: 5% घन (20³ = 8000 ⇒ 9261) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Standard 5% 3-year tree on $P = 8000$: SI $= 400 \\times 3 = 1200$, and $21^3 - 20^3 = 9261 - 8000 = \\mathbf{Rs.1,261}$ instantly!",
+            "hi": "5% पर 3 वर्ष का मानक मान: $20^3 = 8000$ पर $SI = 1200$ और $CI = 21^3 - 20^3 = \\mathbf{Rs.1,261}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Find Principal Then 3-Year CI Ratio: 1) $15\\%$ of $P = 1200 \\Rightarrow P = 8{,}000$.\n2) $A = 8000 \\times \\left(\\frac{21}{20}\\right)^3 = 9261 \\Rightarrow CI = 9261 - 8000 = \\mathbf{Rs.1,261}$.\n\nMethod 2: Ratio Recognition (5% × 3 yrs ⇒ P=8000, CI=1261): Standard 5% 3-year tree on $P = 8000$: SI $= 400 \\times 3 = 1200$, and $21^3 - 20^3 = 9261 - 8000 = \\mathbf{Rs.1,261}$ instantly!",
+      "hi": "विधि 1: मूलधन (8,000) व 21/20 अनुपात से: 1) $15\\% = 1200 \\Rightarrow P = 8{,}000$ रुपये।\n2) $A = 8000 \\times \\frac{9261}{8000} = 9261 \\Rightarrow CI = \\mathbf{Rs.1,261}$।\n\nविधि 2: 5% घन (20³ = 8000 ⇒ 9261) ट्रिक: 5% पर 3 वर्ष का मानक मान: $20^3 = 8000$ पर $SI = 1200$ और $CI = 21^3 - 20^3 = \\mathbf{Rs.1,261}$!"
     }
   },
   {
@@ -1081,10 +1121,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (69,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (69,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**69,000**).",
+      "keyConcept": "Difference of Two Equal-Principal Simple Interests = P × |R₂ − R₁| × T / 100",
+      "optionTrick": {
+        "en": "Never calculate Bank A and Bank B separately! Rate gap $= |8.5 - 3.5| = 5\\%$ per yr $\\times 3 = 15\\%$ of $4,60,000 = \\mathbf{69,000}$!",
+        "hi": "दोनों बैंकों का ब्याज अलग-अलग न निकालें! दर अंतर $= 5\\% \\times 3 = 15\\%$। सीधा 4,60,000 का 15% $= \\mathbf{69,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Difference of Individual SI Values",
+            "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $SI_A = \\frac{460000 \\times 3.5 \\times 3}{100} = 48,300$.\n2) $SI_B = \\frac{460000 \\times 8.5 \\times 3}{100} = 1,17,300$.\n3) Difference $= 1,17,300 - 48,300 = \\mathbf{69,000}$.",
+            "hi": "1) बैंक A का ब्याज $= 48,300$ रुपये।\n2) बैंक B का ब्याज $= 1,17,300$ रुपये।\n3) अंतर $= 1,17,300 - 48,300 = \\mathbf{69,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Rate-Difference % Shortcut (3 sec)",
+            "hi": "विधि 2: शुद्ध दर-अंतर % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta SI = \\frac{P \\times |R_2 - R_1| \\times T}{100}$",
+          "steps": {
+            "en": "$\\Delta SI = 5\\% \\times 3 \\text{ of } 4,60,000 = 15\\% \\times 4,60,000 = \\mathbf{69,000}$.",
+            "hi": "$\\Delta SI = (8.5 - 3.5)\\% \\times 3$ वर्ष $= 15\\%$ of $4,60,000 = \\mathbf{69,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Difference of Individual SI Values: 1) $SI_A = \\frac{460000 \\times 3.5 \\times 3}{100} = 48,300$.\n2) $SI_B = \\frac{460000 \\times 8.5 \\times 3}{100} = 1,17,300$.\n3) Difference $= 1,17,300 - 48,300 = \\mathbf{69,000}$.\n\nMethod 2: Net Rate-Difference % Shortcut (3 sec): $\\Delta SI = 5\\% \\times 3 \\text{ of } 4,60,000 = 15\\% \\times 4,60,000 = \\mathbf{69,000}$.",
+      "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर: 1) बैंक A का ब्याज $= 48,300$ रुपये।\n2) बैंक B का ब्याज $= 1,17,300$ रुपये।\n3) अंतर $= 1,17,300 - 48,300 = \\mathbf{69,000}$ रुपये।\n\nविधि 2: शुद्ध दर-अंतर % ट्रिक: $\\Delta SI = (8.5 - 3.5)\\% \\times 3$ वर्ष $= 15\\%$ of $4,60,000 = \\mathbf{69,000}$!"
     }
   },
   {
@@ -1223,10 +1304,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹2,880) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹2,880) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹2,880**).",
+      "keyConcept": "Recover Annual CI Rate from 1-Yr Half-Yearly Growth (25000 → 29160)",
+      "optionTrick": {
+        "en": "$\\frac{29160}{25000} = \\frac{729}{625} = \\left(\\frac{27}{25}\\right)^2$ (`+8%` half-yearly $\\Rightarrow \\mathbf{16\\%}$ annual)! Interest on 18,000 for 1 yr $= 180 \\times 16 =$ **₹2,880**!",
+        "hi": "$\\frac{29160}{25000} = \\frac{729}{625} = \\left(\\frac{27}{25}\\right)^2$ अर्थात छमाही दर `8%` $\\Rightarrow$ वार्षिक दर **16%**! 18,000 रुपये पर 1 वर्ष का ब्याज $= 180 \\times 16 =$ **₹2,880**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find Half-Yearly Rate r, Double to R, Compute 1-Yr Interest",
+            "hi": "विधि 1: अर्धवार्षिक दर से वार्षिक दर R = 16% निकालना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) For 1 yr half-yearly ($n=2$): $\\left(1 + \\frac{r}{100}\\right)^2 = \\frac{29160}{25000} = \\frac{729}{625} = \\left(\\frac{27}{25}\\right)^2 \\Rightarrow r = \\frac{2}{25} = 8\\%$.\n2) Annual rate $R = 2 \\times 8 = 16\\%$.\n3) 1-year annual CI on 18,000 $= 16\\%$ of $18{,}000 =$ **₹2,880**.",
+            "hi": "1) 1 वर्ष अर्धवार्षिक ($n=2$): $\\left(1+\\frac{r}{100}\\right)^2 = \\frac{29160}{25000} = \\left(\\frac{27}{25}\\right)^2 \\Rightarrow r = 8\\%$।\n2) वार्षिक दर $R = 16\\%$।\n3) 1 वर्ष वार्षिक संयोजन पर ब्याज $= 18{,}000$ का $16\\% =$ **₹2,880**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Square-Root Ratio 25 → 27 (+8%) Shortcut",
+            "hi": "विधि 2: वर्गमूल अनुपात 25 : 27 (+8%) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $25000 \\to 29160$ divides by 40 to `625 → 729` $= 25^2 \\to 27^2$ ($+8\\%$ per 6 months $= 16\\%$ p.a.). $16\\% \\times 18000 = \\mathbf{Rs.2,880}$!",
+            "hi": "`25000 : 29160 = 625 : 729 = 25² : 27²` (छमाही 8% = वार्षिक 16%)। अतः $180 \\times 16 = \\mathbf{Rs.2,880}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Find Half-Yearly Rate r, Double to R, Compute 1-Yr Interest: 1) For 1 yr half-yearly ($n=2$): $\\left(1 + \\frac{r}{100}\\right)^2 = \\frac{29160}{25000} = \\frac{729}{625} = \\left(\\frac{27}{25}\\right)^2 \\Rightarrow r = \\frac{2}{25} = 8\\%$.\n2) Annual rate $R = 2 \\times 8 = 16\\%$.\n3) 1-year annual CI on 18,000 $= 16\\%$ of $18{,}000 =$ **₹2,880**.\n\nMethod 2: Square-Root Ratio 25 → 27 (+8%) Shortcut: Notice $25000 \\to 29160$ divides by 40 to `625 → 729` $= 25^2 \\to 27^2$ ($+8\\%$ per 6 months $= 16\\%$ p.a.). $16\\% \\times 18000 = \\mathbf{Rs.2,880}$!",
+      "hi": "विधि 1: अर्धवार्षिक दर से वार्षिक दर R = 16% निकालना: 1) 1 वर्ष अर्धवार्षिक ($n=2$): $\\left(1+\\frac{r}{100}\\right)^2 = \\frac{29160}{25000} = \\left(\\frac{27}{25}\\right)^2 \\Rightarrow r = 8\\%$।\n2) वार्षिक दर $R = 16\\%$।\n3) 1 वर्ष वार्षिक संयोजन पर ब्याज $= 18{,}000$ का $16\\% =$ **₹2,880**।\n\nविधि 2: वर्गमूल अनुपात 25 : 27 (+8%) ट्रिक: `25000 : 29160 = 625 : 729 = 25² : 27²` (छमाही 8% = वार्षिक 16%)। अतः $180 \\times 16 = \\mathbf{Rs.2,880}$!"
     }
   },
   {

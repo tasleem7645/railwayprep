@@ -973,10 +973,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (2624.77) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (2624.77) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**2624.77**).",
+      "keyConcept": "Extract Original CI Rate (12%) First, Then Apply Halved Rate (6%) & Doubled Time (4 yrs)",
+      "optionTrick": {
+        "en": "2544 / 10000 = `25.44%` $\\Rightarrow$ `1.2544 = 1.12²` ($R = 12\\%$). New parameters: $r = 6\\%, n = 4$: $10000(1.06^4 - 1) \\approx \\mathbf{2624.77}$!",
+        "hi": "`2544 / 10000 = 25.44%` से `1.2544 = 1.12²` ($R = 12\\%$) मिलता है। आधी दर (6%) व दोगुने समय (4 वर्ष) से $10000(1.06^4 - 1) \\approx \\mathbf{2624.77}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Recover R = 12%, Then Compute 4-Yr CI at 6%",
+            "hi": "विधि 1: पहले दर R = 12% निकालें फिर 6% पर 4-वर्ष CI"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $A_1 = 10000 + 2544 = 12544 \\Rightarrow \\left(1+\\frac{R}{100}\\right)^2 = 1.2544 = 1.12^2 \\Rightarrow R = 12\\%$.\n2) New rate $= 6\\%$, new time $= 4$ years.\n3) $A_2 = 10000 \\times (1.06)^4 = 10000 \\times 1.26247696 \\approx 12624.77 \\Rightarrow CI = \\mathbf{2624.77}$.",
+            "hi": "1) $1 + \\frac{R}{100} = \\sqrt{1.2544} = 1.12 \\Rightarrow R = 12\\%$।\n2) नई दर $= 6\\%$, नया समय $= 4$ वर्ष।\n3) $CI = 10000(1.06^4 - 1) = 10000 \\times 0.26247696 \\approx \\mathbf{2624.77}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Successive Squaring (6% → 12.36% → 26.2477%)",
+            "hi": "विधि 2: दोहरा क्रमिक वर्ग (6% → 12.36% → 26.2477%) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "2 yrs at 6% $= 12.36\\%$. Combine two 2-yr blocks: $12.36 + 12.36 + \\frac{12.36^2}{100} = 24.72 + 1.5277 = 26.2477\\%$ of `10000` $= \\mathbf{2624.77}$!",
+            "hi": "2 वर्ष का $6\\% = 12.36\\%$। दो बार जोड़ने पर $24.72 + \\frac{12.36^2}{100} = 26.2477\\% \\times 10000 = \\mathbf{2624.77}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Recover R = 12%, Then Compute 4-Yr CI at 6%: 1) $A_1 = 10000 + 2544 = 12544 \\Rightarrow \\left(1+\\frac{R}{100}\\right)^2 = 1.2544 = 1.12^2 \\Rightarrow R = 12\\%$.\n2) New rate $= 6\\%$, new time $= 4$ years.\n3) $A_2 = 10000 \\times (1.06)^4 = 10000 \\times 1.26247696 \\approx 12624.77 \\Rightarrow CI = \\mathbf{2624.77}$.\n\nMethod 2: Successive Squaring (6% → 12.36% → 26.2477%): 2 yrs at 6% $= 12.36\\%$. Combine two 2-yr blocks: $12.36 + 12.36 + \\frac{12.36^2}{100} = 24.72 + 1.5277 = 26.2477\\%$ of `10000` $= \\mathbf{2624.77}$!",
+      "hi": "विधि 1: पहले दर R = 12% निकालें फिर 6% पर 4-वर्ष CI: 1) $1 + \\frac{R}{100} = \\sqrt{1.2544} = 1.12 \\Rightarrow R = 12\\%$।\n2) नई दर $= 6\\%$, नया समय $= 4$ वर्ष।\n3) $CI = 10000(1.06^4 - 1) = 10000 \\times 0.26247696 \\approx \\mathbf{2624.77}$ रुपये।\n\nविधि 2: दोहरा क्रमिक वर्ग (6% → 12.36% → 26.2477%) ट्रिक: 2 वर्ष का $6\\% = 12.36\\%$। दो बार जोड़ने पर $24.72 + \\frac{12.36^2}{100} = 26.2477\\% \\times 10000 = \\mathbf{2624.77}$!"
     }
   },
   {
@@ -1109,10 +1149,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (1000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (1000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**1000**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 5\\% \\times 1 = 5\\%$. Just take $5\\%$ of 20,000 $= \\mathbf{1,000}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 5\\% \\times 1 = 5\\%$। सीधा 20,000 का $5\\% = \\mathbf{1,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 20,000$, $R = 5\\%$, $T = 1$ year(s).\n2) $SI = \\frac{20000 \\times 5 \\times 1}{100} = 200 \\times 5 = \\mathbf{1,000}$.",
+            "hi": "1) $P = 20,000$, दर $R = 5\\%$, समय $T = 1$ वर्ष।\n2) $SI = \\frac{20000 \\times 5 \\times 1}{100} = \\mathbf{1,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 200$. Multiply by $R \\times T = 5$: $200 \\times 5 = \\mathbf{1,000}$.",
+            "hi": "मूलधन का $1\\% = 200$। इसे $R \\times T = 5$ से गुणा करें $= \\mathbf{1,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 20,000$, $R = 5\\%$, $T = 1$ year(s).\n2) $SI = \\frac{20000 \\times 5 \\times 1}{100} = 200 \\times 5 = \\mathbf{1,000}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 200$. Multiply by $R \\times T = 5$: $200 \\times 5 = \\mathbf{1,000}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 20,000$, दर $R = 5\\%$, समय $T = 1$ वर्ष।\n2) $SI = \\frac{20000 \\times 5 \\times 1}{100} = \\mathbf{1,000}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 200$। इसे $R \\times T = 5$ से गुणा करें $= \\mathbf{1,000}$!"
     }
   },
   {

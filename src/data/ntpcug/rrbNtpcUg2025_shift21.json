@@ -1452,10 +1452,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹33,335) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹33,335) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹33,335**).",
+      "keyConcept": "Two-Stage Simple Interest (Fractional Years + Final Amount)",
+      "optionTrick": {
+        "en": "Stage 1 % $= \\frac{13}{2} \\times 6.4\\% = 41.6\\% = 9,204 \\Rightarrow 1\\% = 221.25$ (P = 22,125). Stage 2 % $= \\frac{20}{3} \\times 7.6\\% = 50.6667\\%$. Amount $= 150.6667\\%$ of $P = \\mathbf{33,335}$!",
+        "hi": "प्रथम चरण ब्याज % $= \\frac{13}{2} \\times 6.4 = 41.6\\% = 9,204 \\Rightarrow P = 22,125$। द्वितीय चरण % $= \\frac{20}{3} \\times 7.6 = 50.6667\\%$ $\\Rightarrow$ मिश्रधन $= 22,125$ का 150.6667% $= \\mathbf{33,335}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert Mixed Fractions & Solve P First",
+            "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI_1 \\times 100}{R_1 \\times T_1},\\quad A_2 = P\\left(1 + \\frac{R_2 T_2}{100}\\right)$",
+          "steps": {
+            "en": "1) $T_1 = 6\\frac{1}{2} = \\frac{13}{2}$ yrs $\\Rightarrow R_1 T_1 = 6.4 \\times \\frac{13}{2} = 41.6\\%$.\n2) $P = \\frac{9204 \\times 100}{41.6} = 22,125$.\n3) $T_2 = 6\\frac{2}{3} = \\frac{20}{3}$ yrs $\\Rightarrow R_2 T_2 = 7.6 \\times \\frac{20}{3} = 50.6667\\%$.\n4) $SI_2 = 22,125 \\times 50.6667\\% = 11,210 \\Rightarrow A_2 = 22,125 + 11,210 = \\mathbf{33,335}$.",
+            "hi": "1) $T_1 = 6\\frac{1}{2} = \\frac{13}{2}$ वर्ष $\\Rightarrow R_1 T_1 = 41.6\\%$।\n2) $P = \\frac{9204 \\times 100}{41.6} = 22,125$ रुपये।\n3) $T_2 = 6\\frac{2}{3} = \\frac{20}{3}$ वर्ष $\\Rightarrow R_2 T_2 = 50.6667\\%$।\n4) $SI_2 = 11,210 \\Rightarrow$ देय राशि $A_2 = 22,125 + 11,210 = \\mathbf{33,335}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Factor Ratio",
+            "hi": "विधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of $P = \\frac{9204}{41.6} = 221.25$. Since Amount $= 150.6667\\%$, directly compute $221.25 \\times 150.6667 = \\mathbf{33,335}$.",
+            "hi": "$P$ का $1\\% = \\frac{9204}{41.6} = 221.25$। अतः देय राशि $= 150.6667 \\times 221.25 = \\mathbf{33,335}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert Mixed Fractions & Solve P First: 1) $T_1 = 6\\frac{1}{2} = \\frac{13}{2}$ yrs $\\Rightarrow R_1 T_1 = 6.4 \\times \\frac{13}{2} = 41.6\\%$.\n2) $P = \\frac{9204 \\times 100}{41.6} = 22,125$.\n3) $T_2 = 6\\frac{2}{3} = \\frac{20}{3}$ yrs $\\Rightarrow R_2 T_2 = 7.6 \\times \\frac{20}{3} = 50.6667\\%$.\n4) $SI_2 = 22,125 \\times 50.6667\\% = 11,210 \\Rightarrow A_2 = 22,125 + 11,210 = \\mathbf{33,335}$.\n\nMethod 2: Direct Multiplier Factor Ratio: $1\\%$ of $P = \\frac{9204}{41.6} = 221.25$. Since Amount $= 150.6667\\%$, directly compute $221.25 \\times 150.6667 = \\mathbf{33,335}$.",
+      "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें: 1) $T_1 = 6\\frac{1}{2} = \\frac{13}{2}$ वर्ष $\\Rightarrow R_1 T_1 = 41.6\\%$।\n2) $P = \\frac{9204 \\times 100}{41.6} = 22,125$ रुपये।\n3) $T_2 = 6\\frac{2}{3} = \\frac{20}{3}$ वर्ष $\\Rightarrow R_2 T_2 = 50.6667\\%$।\n4) $SI_2 = 11,210 \\Rightarrow$ देय राशि $A_2 = 22,125 + 11,210 = \\mathbf{33,335}$ रुपये।\n\nविधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक: $P$ का $1\\% = \\frac{9204}{41.6} = 221.25$। अतः देय राशि $= 150.6667 \\times 221.25 = \\mathbf{33,335}$!"
     }
   },
   {
@@ -2196,10 +2237,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹32) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹32) सही उत्तर है।"
+      "approach": "Official RRB Key: Option C (**₹32** — treated rate as 4% p.a. over 8/12 yr); Literal \"per month\" text yields ₹**384**.",
+      "keyConcept": "Monthly vs Per-Annum Rate Unit Discrepancy (RRB NTPC UG Official Key Note)",
+      "trapAlert": {
+        "en": "Exam Translation Discrepancy: Printed question says \"4% per month\" (which equals ₹384), whereas Official RRB NTPC Key **Option C (₹32)** evaluated it using **4% per annum** over $\\frac{8}{12}$ years ($1200 \\times 4\\% \\times \\frac{8}{12} = 32$).",
+        "hi": "परीक्षा प्रश्न अनुवाद विसंगति: मुद्रित प्रश्न में \"4% मासिक\" लिखा है जिससे ₹384 आता है, लेकिन आधिकारिक RRB NTPC कुंजी (**विकल्प C: ₹32**) ने इसे **4% वार्षिक** मानते हुए $\\frac{8}{12}$ वर्ष ($1200 \\times 4\\% \\times \\frac{8}{12} = 32$) पर हल किया है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Official RRB Key Interpretation (Per Annum × M/12)",
+            "hi": "विधि 1: आधिकारिक RRB कुंजी व्याख्या (वार्षिक दर × M/12)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI_{\\text{official}} = \\frac{P \\times R_{\\text{p.a.}} \\times (M/12)}{100}$",
+          "steps": {
+            "en": "1) Official evaluation treats rate as **4% p.a.** for $T = \\frac{8}{12}$ years.\n2) $SI = \\frac{1200 \\times 4 \\times 8}{100 \\times 12} = 4 \\times 8 = \\mathbf{32}$ (**Option C**).\n3) Strict literal \"per month\" calculation $= \\frac{1200 \\times 4 \\times 8}{100} = 384$.",
+            "hi": "1) आधिकारिक कुंजी में दर को **4% वार्षिक** और समय को $\\frac{8}{12}$ वर्ष माना गया।\n2) $SI = \\frac{1200 \\times 4 \\times 8}{100 \\times 12} = 4 \\times 8 = \\mathbf{32}$ (**विकल्प C**)।\n3) शब्दशः \"मासिक दर\" से मान ₹384 बनता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel 1200 ÷ (100 × 12) = 1 Instantly",
+            "hi": "विधि 2: 1200 और 12 कटने की त्वरित जाँच ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Whenever $P = 1200$ cancels with 12 months in denominator, $SI = R \\times M = 4 \\times 8 = \\mathbf{32}$ (matches Option C: ₹32)!",
+            "hi": "जब मूलधन 1200 व हर में 12 माह कटते हैं, तो कुंजी अनुसार सीधा $R \\times M = 4 \\times 8 = \\mathbf{32}$ प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Official RRB Key Interpretation (Per Annum × M/12): 1) Official evaluation treats rate as **4% p.a.** for $T = \\frac{8}{12}$ years.\n2) $SI = \\frac{1200 \\times 4 \\times 8}{100 \\times 12} = 4 \\times 8 = \\mathbf{32}$ (**Option C**).\n3) Strict literal \"per month\" calculation $= \\frac{1200 \\times 4 \\times 8}{100} = 384$.\n\nMethod 2: Cancel 1200 ÷ (100 × 12) = 1 Instantly: Whenever $P = 1200$ cancels with 12 months in denominator, $SI = R \\times M = 4 \\times 8 = \\mathbf{32}$ (matches Option C: ₹32)!",
+      "hi": "विधि 1: आधिकारिक RRB कुंजी व्याख्या (वार्षिक दर × M/12): 1) आधिकारिक कुंजी में दर को **4% वार्षिक** और समय को $\\frac{8}{12}$ वर्ष माना गया।\n2) $SI = \\frac{1200 \\times 4 \\times 8}{100 \\times 12} = 4 \\times 8 = \\mathbf{32}$ (**विकल्प C**)।\n3) शब्दशः \"मासिक दर\" से मान ₹384 बनता है।\n\nविधि 2: 1200 और 12 कटने की त्वरित जाँच ट्रिक: जब मूलधन 1200 व हर में 12 माह कटते हैं, तो कुंजी अनुसार सीधा $R \\times M = 4 \\times 8 = \\mathbf{32}$ प्राप्त होता है!"
     }
   },
   {

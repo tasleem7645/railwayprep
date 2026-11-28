@@ -911,10 +911,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (3) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**3**).",
+      "keyConcept": "Time Period n in Compound Interest via Base Power Comparison",
+      "optionTrick": {
+        "en": "$\\frac{A}{P} = \\frac{6048}{3500} = \\left(\\frac{6}{5}\\right)^n \\Rightarrow$ Check numerator power of 6 (or decimal places / last digit): **$n = 3$ years**!",
+        "hi": "$\\frac{A}{P} = \\left(\\frac{6}{5}\\right)^n$: 6 की घात से तुलना करने पर तुरंत **$n = 3$ वर्ष** मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate A/P to (1 + R/100)^n",
+            "hi": "विधि 1: घात तुलना (A/P = (1 + R/100)ⁿ)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^n = \\frac{A}{P}$",
+          "steps": {
+            "en": "1) $\\left(\\frac{6}{5}\\right)^n = \\frac{6048}{3500} = 1.728 = \\left(1.2\\right)^{3}$.\n2) Comparing exponents: **$n = 3$** (3).",
+            "hi": "1) $\\left(\\frac{6}{5}\\right)^n = \\frac{6048}{3500} = 1.728 = \\left(1.2\\right)^{3}$।\n2) घातों की तुलना करने पर **$n = 3$** (3)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Simple Interest Lower-Bound Estimate",
+            "hi": "विधि 2: साधारण ब्याज से त्वरित समय अनुमान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total % growth $= 72.8\\%$. Since 20% × 3 = 60% is just below 72.8%, integer **$n = 3$** fits immediately!",
+            "hi": "कुल ब्याज लगभग 72.8% है जो $R \\times n = 60\\%$ के ठीक ऊपर है $\\Rightarrow$ बिना घात निकाले **$n = 3$** तय है!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate A/P to (1 + R/100)^n: 1) $\\left(\\frac{6}{5}\\right)^n = \\frac{6048}{3500} = 1.728 = \\left(1.2\\right)^{3}$.\n2) Comparing exponents: **$n = 3$** (3).\n\nMethod 2: Simple Interest Lower-Bound Estimate: Total % growth $= 72.8\\%$. Since 20% × 3 = 60% is just below 72.8%, integer **$n = 3$** fits immediately!",
+      "hi": "विधि 1: घात तुलना (A/P = (1 + R/100)ⁿ): 1) $\\left(\\frac{6}{5}\\right)^n = \\frac{6048}{3500} = 1.728 = \\left(1.2\\right)^{3}$।\n2) घातों की तुलना करने पर **$n = 3$** (3)।\n\nविधि 2: साधारण ब्याज से त्वरित समय अनुमान ट्रिक: कुल ब्याज लगभग 72.8% है जो $R \\times n = 60\\%$ के ठीक ऊपर है $\\Rightarrow$ बिना घात निकाले **$n = 3$** तय है!"
     }
   },
   {
@@ -1121,10 +1162,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (27,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (27,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**27,000**).",
+      "keyConcept": "Difference of Two Equal-Principal Simple Interests = P × |R₂ − R₁| × T / 100",
+      "optionTrick": {
+        "en": "Never calculate Bank A and Bank B separately! Rate gap $= |8 - 3.5| = 4.5\\%$ per yr $\\times 2 = 9\\%$ of $3,00,000 = \\mathbf{27,000}$!",
+        "hi": "दोनों बैंकों का ब्याज अलग-अलग न निकालें! दर अंतर $= 4.5\\% \\times 2 = 9\\%$। सीधा 3,00,000 का 9% $= \\mathbf{27,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Difference of Individual SI Values",
+            "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $SI_A = \\frac{300000 \\times 3.5 \\times 2}{100} = 21,000$.\n2) $SI_B = \\frac{300000 \\times 8 \\times 2}{100} = 48,000$.\n3) Difference $= 48,000 - 21,000 = \\mathbf{27,000}$.",
+            "hi": "1) बैंक A का ब्याज $= 21,000$ रुपये।\n2) बैंक B का ब्याज $= 48,000$ रुपये।\n3) अंतर $= 48,000 - 21,000 = \\mathbf{27,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Rate-Difference % Shortcut (3 sec)",
+            "hi": "विधि 2: शुद्ध दर-अंतर % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta SI = \\frac{P \\times |R_2 - R_1| \\times T}{100}$",
+          "steps": {
+            "en": "$\\Delta SI = 4.5\\% \\times 2 \\text{ of } 3,00,000 = 9\\% \\times 3,00,000 = \\mathbf{27,000}$.",
+            "hi": "$\\Delta SI = (8 - 3.5)\\% \\times 2$ वर्ष $= 9\\%$ of $3,00,000 = \\mathbf{27,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Difference of Individual SI Values: 1) $SI_A = \\frac{300000 \\times 3.5 \\times 2}{100} = 21,000$.\n2) $SI_B = \\frac{300000 \\times 8 \\times 2}{100} = 48,000$.\n3) Difference $= 48,000 - 21,000 = \\mathbf{27,000}$.\n\nMethod 2: Net Rate-Difference % Shortcut (3 sec): $\\Delta SI = 4.5\\% \\times 2 \\text{ of } 3,00,000 = 9\\% \\times 3,00,000 = \\mathbf{27,000}$.",
+      "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर: 1) बैंक A का ब्याज $= 21,000$ रुपये।\n2) बैंक B का ब्याज $= 48,000$ रुपये।\n3) अंतर $= 48,000 - 21,000 = \\mathbf{27,000}$ रुपये।\n\nविधि 2: शुद्ध दर-अंतर % ट्रिक: $\\Delta SI = (8 - 3.5)\\% \\times 2$ वर्ष $= 9\\%$ of $3,00,000 = \\mathbf{27,000}$!"
     }
   },
   {

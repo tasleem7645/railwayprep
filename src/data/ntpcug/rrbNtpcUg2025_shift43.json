@@ -1830,10 +1830,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (15%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (15%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**15%**).",
+      "keyConcept": "Compound Interest Rate via T-th Root: (1 + R/100) = (A / P)^(1/2)",
+      "optionTrick": {
+        "en": "Ratio $\\frac{A}{P} = 1.3225 = \\left(1.15\\right)^2$ $\\Rightarrow R = \\mathbf{15\\%}$!",
+        "hi": "अनुपात $\\frac{A}{P} = 1.3225 = \\left(1.15\\right)^2$ $\\Rightarrow R = \\mathbf{15\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify P : A Ratio to Perfect Power",
+            "hi": "विधि 1: P व A का अनुपात सरल कर मूल निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$\\frac{A}{P} = \\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{529}{400} = 1.3225$.\n2) Taking 2-th root: $1 + \\frac{R}{100} = 1.15 \\Rightarrow R = \\mathbf{15\\%}$.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{529}{400} = 1.3225$।\n2) 2वाँ मूल लेने पर $1 + \\frac{R}{100} = 1.15 \\Rightarrow R = \\mathbf{15\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Successive % Benchmark Option Test (4 sec)",
+            "hi": "विधि 2: प्रभावी % व इकाई अंक परीक्षण"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total % gain $= \\frac{129}{400} \\times 100 = 32.25\\%$, matching 2-year compounding of **15%** (15+15+2.25)!",
+            "hi": "कुल % वृद्धि $= 32.25\\%$, जो 2 वर्षों में केवल **15%** से संभव है!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify P : A Ratio to Perfect Power: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{529}{400} = 1.3225$.\n2) Taking 2-th root: $1 + \\frac{R}{100} = 1.15 \\Rightarrow R = \\mathbf{15\\%}$.\n\nMethod 2: Successive % Benchmark Option Test (4 sec): Total % gain $= \\frac{129}{400} \\times 100 = 32.25\\%$, matching 2-year compounding of **15%** (15+15+2.25)!",
+      "hi": "विधि 1: P व A का अनुपात सरल कर मूल निकालें: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{529}{400} = 1.3225$।\n2) 2वाँ मूल लेने पर $1 + \\frac{R}{100} = 1.15 \\Rightarrow R = \\mathbf{15\\%}$।\n\nविधि 2: प्रभावी % व इकाई अंक परीक्षण: कुल % वृद्धि $= 32.25\\%$, जो 2 वर्षों में केवल **15%** से संभव है!"
     }
   },
   {
@@ -2152,10 +2193,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (224) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (224) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**224**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 16\\% \\times 3.5 = 56\\%$. Just take $56\\%$ of 400 $= \\mathbf{224}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 16\\% \\times 3.5 = 56\\%$। सीधा 400 का $56\\% = \\mathbf{224}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 400$, $R = 16\\%$, $T = 3.5$ year(s).\n2) $SI = \\frac{400 \\times 16 \\times 3.5}{100} = 4 \\times 56 = \\mathbf{224}$.",
+            "hi": "1) $P = 400$, दर $R = 16\\%$, समय $T = 3.5$ वर्ष।\n2) $SI = \\frac{400 \\times 16 \\times 3.5}{100} = \\mathbf{224}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 4$. Multiply by $R \\times T = 56$: $4 \\times 56 = \\mathbf{224}$.",
+            "hi": "मूलधन का $1\\% = 4$। इसे $R \\times T = 56$ से गुणा करें $= \\mathbf{224}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 400$, $R = 16\\%$, $T = 3.5$ year(s).\n2) $SI = \\frac{400 \\times 16 \\times 3.5}{100} = 4 \\times 56 = \\mathbf{224}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 4$. Multiply by $R \\times T = 56$: $4 \\times 56 = \\mathbf{224}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 400$, दर $R = 16\\%$, समय $T = 3.5$ वर्ष।\n2) $SI = \\frac{400 \\times 16 \\times 3.5}{100} = \\mathbf{224}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 4$। इसे $R \\times T = 56$ से गुणा करें $= \\mathbf{224}$!"
     }
   },
   {

@@ -877,10 +877,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (655%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (655%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**655%**).",
+      "keyConcept": "2-Year Compound Growth Rate: R = (√K − 1) × 100%",
+      "optionTrick": {
+        "en": "Formula is simply **$(\\sqrt{57} - 1) \\times 100$**! Estimate $\\sqrt{57}$ near $7^2=49$ (≈ 7.550) \\Rightarrow \\mathbf{655%}!",
+        "hi": "सीधा सूत्र **$(\\sqrt{57} - 1) \\times 100$** लगाएँ! $\\sqrt{57} \\approx 7.550$ से (\\sqrt{57} - 1) \\times 100 \\approx \\mathbf{655%} तुरंत मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compound Amount Equation (1 + r)^2 = K",
+            "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P\\left(1 + \\frac{R}{100}\\right)^2 = 57P \\implies R = (\\sqrt{57} - 1) \\times 100$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 57 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{57} \\approx 7.5498$.\n2) R = (7.5498 - 1) \\times 100 \\approx \\mathbf{655%}.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 57 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{57} \\approx 7.5498$।\n2) R = (7.5498 - 1) \\times 100 \\approx \\mathbf{655%}।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fast Square-Root Approximation",
+            "hi": "विधि 2: वर्गमूल सन्निकटन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Using $\\sqrt{a^2 + b} \\approx a + \\frac{b}{2a}$: subtract 1 and multiply by 100 gives **655%** (Option C).",
+            "hi": "निकटतम पूर्ण वर्ग के उपयोग से \\sqrt{57} \\approx 7.550 \\Rightarrow R \\approx \\mathbf{655%} (विकल्प C)।"
+          }
+        }
+      ],
+      "en": "Method 1: Compound Amount Equation (1 + r)^2 = K: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 57 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{57} \\approx 7.5498$.\n2) R = (7.5498 - 1) \\times 100 \\approx \\mathbf{655%}.\n\nMethod 2: Fast Square-Root Approximation: Using $\\sqrt{a^2 + b} \\approx a + \\frac{b}{2a}$: subtract 1 and multiply by 100 gives **655%** (Option C).",
+      "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 57 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{57} \\approx 7.5498$।\n2) R = (7.5498 - 1) \\times 100 \\approx \\mathbf{655%}।\n\nविधि 2: वर्गमूल सन्निकटन ट्रिक: निकटतम पूर्ण वर्ग के उपयोग से \\sqrt{57} \\approx 7.550 \\Rightarrow R \\approx \\mathbf{655%} (विकल्प C)।"
     }
   },
   {
@@ -1013,10 +1054,55 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (135) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (135) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**135**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,500 $= 45$. For 3 months: $45 \\times 3 = \\mathbf{135}$!",
+        "hi": "1 माह का ब्याज $= 1,500$ का 3% $= 45$। अतः 3 माह का ब्याज $= 45 \\times 3 = \\mathbf{135}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 3$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 3}{100} = 15 \\times 9 = \\mathbf{135}$.",
+            "hi": "1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 3$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 3}{100} = \\mathbf{135}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1500 = 45$. For 3 months: $45 \\times 3 = \\mathbf{135}$.",
+            "hi": "1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 3 माह के लिए $\\times 3 = \\mathbf{135}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 3$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 3}{100} = 15 \\times 9 = \\mathbf{135}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1500 = 45$. For 3 months: $45 \\times 3 = \\mathbf{135}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 3$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 3}{100} = \\mathbf{135}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 3 माह के लिए $\\times 3 = \\mathbf{135}$!"
     }
   },
   {

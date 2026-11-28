@@ -323,10 +323,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹2,080**).",
+      "keyConcept": "Convert 2-Year Simple Interest Directly to Compound Interest",
+      "optionTrick": {
+        "en": "1-yr SI $= 2000 \\div 2 = 1000$. On 2nd year you earn $8\\%$ interest on Year-1 interest: $8\\%$ of $1000 = 80 \\Rightarrow CI = 2000 + 80 = \\mathbf{2{,}080}$!",
+        "hi": "1 वर्ष का $SI = 1000$। दूसरे वर्ष ब्याज पर ब्याज (1000 का $8\\% = 80$) जोड़ें $\\Rightarrow CI = 2000 + 80 = \\mathbf{2{,}080}$ (मूलधन निकालने की ज़रूरत नहीं)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find Principal Then Compute 2-Yr CI",
+            "hi": "विधि 1: मूलधन निकालकर चक्रवृद्धि ब्याज"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $16\\%$ of $P = 2000 \\Rightarrow P = \\frac{200000}{16} = 12{,}500$.\n2) Effective 2-yr CI $= 8 + 8 + 0.64 = 16.64\\%$ of $12500 = \\mathbf{2{,}080}$.",
+            "hi": "1) 2 वर्ष का $16\\% = 2000 \\Rightarrow P = 12{,}500$ रुपये।\n2) 2 वर्ष का CI ($16.64\\%$) $= 12500 \\times 0.1664 = \\mathbf{2{,}080}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Interest-on-Interest Tree Shortcut (Skip P!)",
+            "hi": "विधि 2: ब्याज-पर-ब्याज ट्री ट्रिक (बिना मूलधन निकाले!)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "formula": "$CI_2 = SI_2 + \\left(\\frac{R}{100} \\times \\frac{SI_2}{2}\\right)$",
+          "steps": {
+            "en": "Year-1 interest $= 1000$; Year-2 adds $8\\%$ of $1000 = 80$. Total $CI = 2000 + 80 = \\mathbf{2{,}080}$!",
+            "hi": "पहले वर्ष का ब्याज $= 1000$; दूसरे वर्ष अतिरिक्त ब्याज $= 1000$ का $8\\% = 80$। कुल $CI = 2000 + 80 = \\mathbf{2{,}080}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Find Principal Then Compute 2-Yr CI: 1) $16\\%$ of $P = 2000 \\Rightarrow P = \\frac{200000}{16} = 12{,}500$.\n2) Effective 2-yr CI $= 8 + 8 + 0.64 = 16.64\\%$ of $12500 = \\mathbf{2{,}080}$.\n\nMethod 2: Interest-on-Interest Tree Shortcut (Skip P!): Year-1 interest $= 1000$; Year-2 adds $8\\%$ of $1000 = 80$. Total $CI = 2000 + 80 = \\mathbf{2{,}080}$!",
+      "hi": "विधि 1: मूलधन निकालकर चक्रवृद्धि ब्याज: 1) 2 वर्ष का $16\\% = 2000 \\Rightarrow P = 12{,}500$ रुपये।\n2) 2 वर्ष का CI ($16.64\\%$) $= 12500 \\times 0.1664 = \\mathbf{2{,}080}$ रुपये।\n\nविधि 2: ब्याज-पर-ब्याज ट्री ट्रिक (बिना मूलधन निकाले!): पहले वर्ष का ब्याज $= 1000$; दूसरे वर्ष अतिरिक्त ब्याज $= 1000$ का $8\\% = 80$। कुल $CI = 2000 + 80 = \\mathbf{2{,}080}$!"
     }
   },
   {
@@ -1883,10 +1924,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹1,416.80**).",
+      "keyConcept": "Final Amount Under Simple Interest: A = P × (1 + RT/100)",
+      "optionTrick": {
+        "en": "Total interest $= 5\\% \\times 3 = 15\\%$. Amount $= 115\\%$ of 1,232 $= \\mathbf{1,416.8}$!",
+        "hi": "कुल ब्याज $= 5\\% \\times 3 = 15\\%$। मिश्रधन $= 1,232$ का 115% $= \\mathbf{1,416.8}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find SI First, Then Add to Principal",
+            "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100},\\quad A = P + SI$",
+          "steps": {
+            "en": "1) $R = 5\\% = 5\\%$, $T = 3$ years $\\Rightarrow R \\times T = 15\\%$.\n2) $SI = \\frac{1232 \\times 15}{100} = 184.8$.\n3) Amount $A = 1,232 + 184.8 = \\mathbf{1,416.8}$.",
+            "hi": "1) दर $R = 5\\% = 5\\%$, समय $T = 3$ वर्ष $\\Rightarrow R \\times T = 15\\%$।\n2) $SI = \\frac{1232 \\times 15}{100} = 184.8$ रुपये।\n3) मिश्रधन $A = 1,232 + 184.8 = \\mathbf{1,416.8}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Amount Factor (100 + R×T)%",
+            "hi": "विधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct Amount factor $= 1 + \\frac{15}{100} = 1.15$. Compute $1,232 \\times 1.15 = \\mathbf{1,416.8}$.",
+            "hi": "सीधा मिश्रधन $= 1,232 \\times 1.15 = \\mathbf{1,416.8}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Find SI First, Then Add to Principal: 1) $R = 5\\% = 5\\%$, $T = 3$ years $\\Rightarrow R \\times T = 15\\%$.\n2) $SI = \\frac{1232 \\times 15}{100} = 184.8$.\n3) Amount $A = 1,232 + 184.8 = \\mathbf{1,416.8}$.\n\nMethod 2: Direct Amount Factor (100 + R×T)%: Direct Amount factor $= 1 + \\frac{15}{100} = 1.15$. Compute $1,232 \\times 1.15 = \\mathbf{1,416.8}$.",
+      "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें: 1) दर $R = 5\\% = 5\\%$, समय $T = 3$ वर्ष $\\Rightarrow R \\times T = 15\\%$।\n2) $SI = \\frac{1232 \\times 15}{100} = 184.8$ रुपये।\n3) मिश्रधन $A = 1,232 + 184.8 = \\mathbf{1,416.8}$ रुपये।\n\nविधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक: सीधा मिश्रधन $= 1,232 \\times 1.15 = \\mathbf{1,416.8}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
     }
   },
   {

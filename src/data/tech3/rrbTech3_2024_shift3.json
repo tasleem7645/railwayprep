@@ -2802,10 +2802,50 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹3,500**).",
+      "keyConcept": "Extract Simple Interest Directly from Final Amount (12.5% × 2 = 25%)",
+      "optionTrick": {
+        "en": "2 yrs at $12.5\\% = 25\\% = \\frac{1}{4}$ SI! So Principal $= 4$, Amount $= 5$ parts ($17{,}500$). Thus SI (1 part) $= 17500 \\div 5 = \\mathbf{3{,}500}$!",
+        "hi": "2 वर्ष $\\times 12.5\\% = 25\\% = \\frac{1}{4}$ ब्याज $\\Rightarrow$ मूलधन `4`, ब्याज `1`, मिश्रधन `5` भाग ($= 17{,}500$) $\\Rightarrow$ ब्याज $= \\frac{17500}{5} = \\mathbf{3{,}500}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Percentage Amount Equation",
+            "hi": "विधि 1: मिश्रधन प्रतिशत समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "14 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Total SI rate $= 12.5\\% \\times 2 = 25\\%$, so Amount $= 125\\%$ of $P = 17{,}500$.\n2) Find $25\\%$ directly (one-fifth of $125\\%$): $SI = \\frac{17500}{5} = \\mathbf{3{,}500}$.",
+            "hi": "1) कुल ब्याज $= 12.5\\% \\times 2 = 25\\% \\Rightarrow$ मिश्रधन $= P$ का $125\\% = 17{,}500$।\n2) सीधा $25\\%$ ($= \\frac{1}{5}$ भाग) निकालें: $SI = \\frac{17500}{5} = \\mathbf{3{,}500}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio 4 : 5 Direct Division (4 sec)",
+            "hi": "विधि 2: अनुपात 4 : 5 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$SI = \\frac{1}{5} \\times \\text{Amount} = \\frac{17500}{5} = \\mathbf{3{,}500}$ (Option B)!",
+            "hi": "मिश्रधन के `5` भागों में से `1` भाग ब्याज है $\\Rightarrow \\frac{17500}{5} = \\mathbf{3{,}500}$ (विकल्प B)!"
+          }
+        }
+      ],
+      "en": "Method 1: Percentage Amount Equation: 1) Total SI rate $= 12.5\\% \\times 2 = 25\\%$, so Amount $= 125\\%$ of $P = 17{,}500$.\n2) Find $25\\%$ directly (one-fifth of $125\\%$): $SI = \\frac{17500}{5} = \\mathbf{3{,}500}$.\n\nMethod 2: Ratio 4 : 5 Direct Division (4 sec): $SI = \\frac{1}{5} \\times \\text{Amount} = \\frac{17500}{5} = \\mathbf{3{,}500}$ (Option B)!",
+      "hi": "विधि 1: मिश्रधन प्रतिशत समीकरण: 1) कुल ब्याज $= 12.5\\% \\times 2 = 25\\% \\Rightarrow$ मिश्रधन $= P$ का $125\\% = 17{,}500$।\n2) सीधा $25\\%$ ($= \\frac{1}{5}$ भाग) निकालें: $SI = \\frac{17500}{5} = \\mathbf{3{,}500}$।\n\nविधि 2: अनुपात 4 : 5 ट्रिक: मिश्रधन के `5` भागों में से `1` भाग ब्याज है $\\Rightarrow \\frac{17500}{5} = \\mathbf{3{,}500}$ (विकल्प B)!"
     }
   },
   {

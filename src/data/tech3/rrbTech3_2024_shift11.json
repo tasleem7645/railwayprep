@@ -660,10 +660,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**10%**).",
+      "keyConcept": "Simple Interest Rate Formula: R = (SI × 100)/(P × T)",
+      "optionTrick": {
+        "en": "1-year SI $= \\frac{2000}{2} = 1000$, which is **10%** of 10,000!",
+        "hi": "1 वर्ष का $SI = \\frac{2000}{2} = 1000$, जो 10,000 का **10%** है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Rate Formula",
+            "hi": "विधि 1: वार्षिक ब्याज दर सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$R = \\frac{SI \\times 100}{P \\times T}$",
+          "steps": {
+            "en": "$R = \\frac{2000 \\times 100}{10000 \\times 2} = \\mathbf{10\\%}$.",
+            "hi": "$R = \\frac{2000 \\times 100}{10000 \\times 2} = \\mathbf{10\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Annual Interest ÷ 1% Principal",
+            "hi": "विधि 2: प्रति-वर्ष ब्याज ÷ 1% मूलधन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Yearly SI $= 1000$ and $1\\%$ of 10000 $= 100 \\Rightarrow R = \\frac{1000}{100} = \\mathbf{10\\%}$.",
+            "hi": "वार्षिक ब्याज $= 1000$ व $P$ का $1\\% = 100 \\Rightarrow R = \\mathbf{10\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Rate Formula: $R = \\frac{2000 \\times 100}{10000 \\times 2} = \\mathbf{10\\%}$.\n\nMethod 2: Annual Interest ÷ 1% Principal: Yearly SI $= 1000$ and $1\\%$ of 10000 $= 100 \\Rightarrow R = \\frac{1000}{100} = \\mathbf{10\\%}$.",
+      "hi": "विधि 1: वार्षिक ब्याज दर सूत्र: $R = \\frac{2000 \\times 100}{10000 \\times 2} = \\mathbf{10\\%}$।\n\nविधि 2: प्रति-वर्ष ब्याज ÷ 1% मूलधन ट्रिक: वार्षिक ब्याज $= 1000$ व $P$ का $1\\% = 100 \\Rightarrow R = \\mathbf{10\\%}$।"
     }
   },
   {

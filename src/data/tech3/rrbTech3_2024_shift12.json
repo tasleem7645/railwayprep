@@ -2986,10 +2986,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**5 years**).",
+      "keyConcept": "Simple Interest Time Formula: T = SI / (1-Year SI)",
+      "optionTrick": {
+        "en": "1 year SI $= 10\\%$ of $2,100 = 210$. Time $= \\frac{1,050}{210} = \\mathbf{5\\text{ years}}$!",
+        "hi": "1 वर्ष का ब्याज $= 2,100$ का 10% $= 210$। अतः समय $= \\frac{1,050}{210} = \\mathbf{5}$ वर्ष!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Time Formula",
+            "hi": "विधि 1: समय सूत्र T = (SI × 100)/(P × R)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$T = \\frac{SI \\times 100}{P \\times R}$",
+          "steps": {
+            "en": "$SI = 1,050 \\Rightarrow T = \\frac{1050 \\times 100}{2100 \\times 10} = \\mathbf{5\\text{ years}}$.",
+            "hi": "$SI = 1,050 \\Rightarrow T = \\frac{1050 \\times 100}{2100 \\times 10} = \\mathbf{5}$ वर्ष।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Divide Total SI by 1-Year SI",
+            "hi": "विधि 2: कुल ब्याज ÷ 1-वर्ष ब्याज ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Yearly SI $= 210 \\Rightarrow \\frac{1050}{210} = \\mathbf{5\\text{ years}}$.",
+            "hi": "वार्षिक ब्याज $= 210 \\Rightarrow \\frac{1050}{210} = \\mathbf{5}$ वर्ष।"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Time Formula: $SI = 1,050 \\Rightarrow T = \\frac{1050 \\times 100}{2100 \\times 10} = \\mathbf{5\\text{ years}}$.\n\nMethod 2: Divide Total SI by 1-Year SI: Yearly SI $= 210 \\Rightarrow \\frac{1050}{210} = \\mathbf{5\\text{ years}}$.",
+      "hi": "विधि 1: समय सूत्र T = (SI × 100)/(P × R): $SI = 1,050 \\Rightarrow T = \\frac{1050 \\times 100}{2100 \\times 10} = \\mathbf{5}$ वर्ष।\n\nविधि 2: कुल ब्याज ÷ 1-वर्ष ब्याज ट्रिक: वार्षिक ब्याज $= 210 \\Rightarrow \\frac{1050}{210} = \\mathbf{5}$ वर्ष।"
     }
   },
   {

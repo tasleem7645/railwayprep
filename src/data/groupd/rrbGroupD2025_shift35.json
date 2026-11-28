@@ -1013,10 +1013,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (72,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (72,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**72,000**).",
+      "keyConcept": "Difference of Two Equal-Principal Simple Interests = P × |R₂ − R₁| × T / 100",
+      "optionTrick": {
+        "en": "Never calculate Bank A and Bank B separately! Rate gap $= |8.5 - 3.5| = 5\\%$ per yr $\\times 3 = 15\\%$ of $4,80,000 = \\mathbf{72,000}$!",
+        "hi": "दोनों बैंकों का ब्याज अलग-अलग न निकालें! दर अंतर $= 5\\% \\times 3 = 15\\%$। सीधा 4,80,000 का 15% $= \\mathbf{72,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Difference of Individual SI Values",
+            "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $SI_A = \\frac{480000 \\times 3.5 \\times 3}{100} = 50,400$.\n2) $SI_B = \\frac{480000 \\times 8.5 \\times 3}{100} = 1,22,400$.\n3) Difference $= 1,22,400 - 50,400 = \\mathbf{72,000}$.",
+            "hi": "1) बैंक A का ब्याज $= 50,400$ रुपये।\n2) बैंक B का ब्याज $= 1,22,400$ रुपये।\n3) अंतर $= 1,22,400 - 50,400 = \\mathbf{72,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Rate-Difference % Shortcut (3 sec)",
+            "hi": "विधि 2: शुद्ध दर-अंतर % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta SI = \\frac{P \\times |R_2 - R_1| \\times T}{100}$",
+          "steps": {
+            "en": "$\\Delta SI = 5\\% \\times 3 \\text{ of } 4,80,000 = 15\\% \\times 4,80,000 = \\mathbf{72,000}$.",
+            "hi": "$\\Delta SI = (8.5 - 3.5)\\% \\times 3$ वर्ष $= 15\\%$ of $4,80,000 = \\mathbf{72,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Difference of Individual SI Values: 1) $SI_A = \\frac{480000 \\times 3.5 \\times 3}{100} = 50,400$.\n2) $SI_B = \\frac{480000 \\times 8.5 \\times 3}{100} = 1,22,400$.\n3) Difference $= 1,22,400 - 50,400 = \\mathbf{72,000}$.\n\nMethod 2: Net Rate-Difference % Shortcut (3 sec): $\\Delta SI = 5\\% \\times 3 \\text{ of } 4,80,000 = 15\\% \\times 4,80,000 = \\mathbf{72,000}$.",
+      "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर: 1) बैंक A का ब्याज $= 50,400$ रुपये।\n2) बैंक B का ब्याज $= 1,22,400$ रुपये।\n3) अंतर $= 1,22,400 - 50,400 = \\mathbf{72,000}$ रुपये।\n\nविधि 2: शुद्ध दर-अंतर % ट्रिक: $\\Delta SI = (8.5 - 3.5)\\% \\times 3$ वर्ष $= 15\\%$ of $4,80,000 = \\mathbf{72,000}$!"
     }
   },
   {
@@ -1189,10 +1230,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹12,462) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹12,462) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹12,462**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 1%), Cycles Doubled (n = 2)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{1\\%}$, $n = \\mathbf{2}$ cycles! Effective factor $= (1.01)^2 \\approx 1.0201$ $\\Rightarrow$ **₹12,462**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (1%)** व **समय दोगुना (2 छमाही)** करें! सीधा गुणक $(1.01)^2 \\approx 1.0201$ से उत्तर **₹12,462**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 1%, n = 2)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 1%, n = 2)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{2\\%}{2} = 1\\% = \\frac{1}{100}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 620000 \\times (1.01)^2 \\approx 632462$.\n3) Compound Interest $= A - P $= 12,462$ (**₹12,462**).",
+            "hi": "1) छमाही दर $r = \\frac{2\\%}{2} = 1\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 620000 \\times (1.01)^2 \\approx 6,32,462.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 12,462$ (**₹12,462**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 2-Cycle Successive % Formula (2r + r²/100)",
+            "hi": "विधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "2 cycles at 1% give effective CI rate $= 1+1+\\frac{1^2}{100} = 2.01\\%$ of 6,20,000 $= \\mathbf{Rs.12,462}$!",
+            "hi": "2 छमाही के लिए कुल ब्याज दर $= 1+1+0.01\\% = 2.01\\%$ $\\Rightarrow$ **₹12,462**!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 1%, n = 2): 1) Half-yearly rate $r = \\frac{2\\%}{2} = 1\\% = \\frac{1}{100}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 620000 \\times (1.01)^2 \\approx 632462$.\n3) Compound Interest $= A - P $= 12,462$ (**₹12,462**).\n\nMethod 2: 2-Cycle Successive % Formula (2r + r²/100): 2 cycles at 1% give effective CI rate $= 1+1+\\frac{1^2}{100} = 2.01\\%$ of 6,20,000 $= \\mathbf{Rs.12,462}$!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 1%, n = 2): 1) छमाही दर $r = \\frac{2\\%}{2} = 1\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 620000 \\times (1.01)^2 \\approx 6,32,462.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 12,462$ (**₹12,462**)।\n\nविधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100): 2 छमाही के लिए कुल ब्याज दर $= 1+1+0.01\\% = 2.01\\%$ $\\Rightarrow$ **₹12,462**!"
     }
   },
   {

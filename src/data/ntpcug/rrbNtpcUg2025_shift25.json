@@ -1591,10 +1591,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (2 years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (2 वर्ष) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**2 years**).",
+      "keyConcept": "Time Period n in Compound Interest via Base Power Comparison",
+      "optionTrick": {
+        "en": "$\\frac{A}{P} = \\frac{2601}{2500} = \\left(\\frac{51}{50}\\right)^n \\Rightarrow$ Check numerator power of 51 (or decimal places / last digit): **$n = 2$ years**!",
+        "hi": "$\\frac{A}{P} = \\left(\\frac{51}{50}\\right)^n$: 51 की घात से तुलना करने पर तुरंत **$n = 2$ वर्ष** मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate A/P to (1 + R/100)^n",
+            "hi": "विधि 1: घात तुलना (A/P = (1 + R/100)ⁿ)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^n = \\frac{A}{P}$",
+          "steps": {
+            "en": "1) $\\left(\\frac{51}{50}\\right)^n = \\frac{2601}{2500} = 1.0404 = \\left(1.02\\right)^{2}$.\n2) Comparing exponents: **$n = 2$** (2 years).",
+            "hi": "1) $\\left(\\frac{51}{50}\\right)^n = \\frac{2601}{2500} = 1.0404 = \\left(1.02\\right)^{2}$।\n2) घातों की तुलना करने पर **$n = 2$** (2 वर्ष)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Simple Interest Lower-Bound Estimate",
+            "hi": "विधि 2: साधारण ब्याज से त्वरित समय अनुमान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total % growth $= 4.04\\%$. Since 2% × 2 = 4% is just below 4.04%, integer **$n = 2$** fits immediately!",
+            "hi": "कुल ब्याज लगभग 4.04% है जो $R \\times n = 4\\%$ के ठीक ऊपर है $\\Rightarrow$ बिना घात निकाले **$n = 2$** तय है!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate A/P to (1 + R/100)^n: 1) $\\left(\\frac{51}{50}\\right)^n = \\frac{2601}{2500} = 1.0404 = \\left(1.02\\right)^{2}$.\n2) Comparing exponents: **$n = 2$** (2 years).\n\nMethod 2: Simple Interest Lower-Bound Estimate: Total % growth $= 4.04\\%$. Since 2% × 2 = 4% is just below 4.04%, integer **$n = 2$** fits immediately!",
+      "hi": "विधि 1: घात तुलना (A/P = (1 + R/100)ⁿ): 1) $\\left(\\frac{51}{50}\\right)^n = \\frac{2601}{2500} = 1.0404 = \\left(1.02\\right)^{2}$।\n2) घातों की तुलना करने पर **$n = 2$** (2 वर्ष)।\n\nविधि 2: साधारण ब्याज से त्वरित समय अनुमान ट्रिक: कुल ब्याज लगभग 4.04% है जो $R \\times n = 4\\%$ के ठीक ऊपर है $\\Rightarrow$ बिना घात निकाले **$n = 2$** तय है!"
     }
   },
   {
@@ -2469,10 +2510,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (144) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (144) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**144**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 8\\% \\times 4.5 = 36\\%$. Just take $36\\%$ of 400 $= \\mathbf{144}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 8\\% \\times 4.5 = 36\\%$। सीधा 400 का $36\\% = \\mathbf{144}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 400$, $R = 8\\%$, $T = 4.5$ year(s).\n2) $SI = \\frac{400 \\times 8 \\times 4.5}{100} = 4 \\times 36 = \\mathbf{144}$.",
+            "hi": "1) $P = 400$, दर $R = 8\\%$, समय $T = 4.5$ वर्ष।\n2) $SI = \\frac{400 \\times 8 \\times 4.5}{100} = \\mathbf{144}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 4$. Multiply by $R \\times T = 36$: $4 \\times 36 = \\mathbf{144}$.",
+            "hi": "मूलधन का $1\\% = 4$। इसे $R \\times T = 36$ से गुणा करें $= \\mathbf{144}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 400$, $R = 8\\%$, $T = 4.5$ year(s).\n2) $SI = \\frac{400 \\times 8 \\times 4.5}{100} = 4 \\times 36 = \\mathbf{144}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 4$. Multiply by $R \\times T = 36$: $4 \\times 36 = \\mathbf{144}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 400$, दर $R = 8\\%$, समय $T = 4.5$ वर्ष।\n2) $SI = \\frac{400 \\times 8 \\times 4.5}{100} = \\mathbf{144}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 4$। इसे $R \\times T = 36$ से गुणा करें $= \\mathbf{144}$!"
     }
   },
   {

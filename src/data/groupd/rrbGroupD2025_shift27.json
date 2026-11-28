@@ -877,10 +877,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • 2-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (2,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (2,000) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**2,000**).",
+      "keyConcept": "Principal from 2-Yr CI−SI Diff: P = D × (100/R)²",
+      "optionTrick": {
+        "en": "$D = \\frac{25}{100}\\%$ of $P = 5 \\Rightarrow P = \\frac{5 \\times 10000}{25} = \\mathbf{2,000}$!",
+        "hi": "2 वर्ष अंतर $= \\frac{25}{100}\\%$ है, अतः $P = \\frac{5 \\times 10000}{25} = \\mathbf{2,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse 2-Year Difference Formula",
+            "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र द्वारा"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$D_2 = P\\left(\\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) $5 = P \\times \\left(\\frac{5}{100}\\right)^2 = P \\times \\frac{25}{10000}$.\n2) $P = \\frac{5 \\times 10000}{25} = \\mathbf{2,000}$.",
+            "hi": "1) $5 = P \\times \\frac{25}{10000}$।\n2) $P = \\frac{5 \\times 10000}{25} = \\mathbf{2,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective % Unitary Shortcut",
+            "hi": "विधि 2: प्रभावी अंतर प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Diff is 0.25% of $P$, so $100\\% = 5 \\div 0.0025 = \\mathbf{2,000}$.",
+            "hi": "$0.25\\% = 5$ से $100\\% = \\mathbf{2,000}$ सीधे प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse 2-Year Difference Formula: 1) $5 = P \\times \\left(\\frac{5}{100}\\right)^2 = P \\times \\frac{25}{10000}$.\n2) $P = \\frac{5 \\times 10000}{25} = \\mathbf{2,000}$.\n\nMethod 2: Effective % Unitary Shortcut: Diff is 0.25% of $P$, so $100\\% = 5 \\div 0.0025 = \\mathbf{2,000}$.",
+      "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र द्वारा: 1) $5 = P \\times \\frac{25}{10000}$।\n2) $P = \\frac{5 \\times 10000}{25} = \\mathbf{2,000}$ रुपये।\n\nविधि 2: प्रभावी अंतर प्रतिशत ट्रिक: $0.25\\% = 5$ से $100\\% = \\mathbf{2,000}$ सीधे प्राप्त होता है!"
     }
   },
   {
@@ -1013,10 +1054,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (154) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (154) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**154**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 8\\% \\times 3.5 = 28\\%$. Just take $28\\%$ of 550 $= \\mathbf{154}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 8\\% \\times 3.5 = 28\\%$। सीधा 550 का $28\\% = \\mathbf{154}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 550$, $R = 8\\%$, $T = 3.5$ year(s).\n2) $SI = \\frac{550 \\times 8 \\times 3.5}{100} = 5.5 \\times 28 = \\mathbf{154}$.",
+            "hi": "1) $P = 550$, दर $R = 8\\%$, समय $T = 3.5$ वर्ष।\n2) $SI = \\frac{550 \\times 8 \\times 3.5}{100} = \\mathbf{154}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 5.5$. Multiply by $R \\times T = 28$: $5.5 \\times 28 = \\mathbf{154}$.",
+            "hi": "मूलधन का $1\\% = 5.5$। इसे $R \\times T = 28$ से गुणा करें $= \\mathbf{154}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 550$, $R = 8\\%$, $T = 3.5$ year(s).\n2) $SI = \\frac{550 \\times 8 \\times 3.5}{100} = 5.5 \\times 28 = \\mathbf{154}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 5.5$. Multiply by $R \\times T = 28$: $5.5 \\times 28 = \\mathbf{154}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 550$, दर $R = 8\\%$, समय $T = 3.5$ वर्ष।\n2) $SI = \\frac{550 \\times 8 \\times 3.5}{100} = \\mathbf{154}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 5.5$। इसे $R \\times T = 28$ से गुणा करें $= \\mathbf{154}$!"
     }
   },
   {
@@ -1047,10 +1129,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹2,130) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹2,130) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹2,130**).",
+      "keyConcept": "Two Staggered Half-Yearly Deposits (Jan 1 Earns 2 Cycles; Jul 1 Earns 1 Cycle)",
+      "optionTrick": {
+        "en": "Half-yearly rate $r_h = 10\\%$: Jan deposit gets $21\\%$ (1,680) and Jul deposit gets $10\\%$ (450) $\\Rightarrow \\mathbf{2,130}$!",
+        "hi": "छमाही दर $r_h = 10\\%$: 1 जनवरी को $21\\%$ (1,680) तथा 1 जुलाई को $10\\%$ (450) $\\Rightarrow \\mathbf{2,130}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year)",
+            "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI_{\\text{total}} = P_1[(1+r_h)^2 - 1] + P_2 r_h$",
+          "steps": {
+            "en": "1) Half-yearly rate $r_h = \\frac{20\\%}{2} = 10\\%$.\n2) Jan 1 deposit (8,000) earns 2 cycles ($21\\%$): 1680.\n3) Jul 1 deposit (4,500) earns 1 cycle ($10\\%$): 450.\n4) Total interest $= 1680 + 450 = \\mathbf{2,130}$ (₹2,130).",
+            "hi": "1) छमाही दर $r_h = \\frac{20\\%}{2} = 10\\%$।\n2) 1 जनवरी जमा (8,000) पर 2 छमाही ब्याज ($21\\%$) $= 1680$।\n3) 1 जुलाई जमा (4,500) पर 1 छमाही ब्याज ($10\\%$) $= 450$।\n4) कुल ब्याज $= 1680 + 450 = \\mathbf{2,130}$ (₹2,130)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unified Rate-Factor Trick",
+            "hi": "विधि 2: एकीकृत प्रतिशत गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $r_h = 10\\% = 0.1$, add $10\\%$ of $(12,500) = 1250$ plus half-year interest-on-interest on 8,000 (80) $= \\mathbf{2,130}$!",
+            "hi": "कुल जमा (12,500) पर पहली छमाही व दूसरी छमाही जोड़ें $= 1250 + 880 \\dots = \\mathbf{2,130}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year): 1) Half-yearly rate $r_h = \\frac{20\\%}{2} = 10\\%$.\n2) Jan 1 deposit (8,000) earns 2 cycles ($21\\%$): 1680.\n3) Jul 1 deposit (4,500) earns 1 cycle ($10\\%$): 450.\n4) Total interest $= 1680 + 450 = \\mathbf{2,130}$ (₹2,130).\n\nMethod 2: Unified Rate-Factor Trick: Since $r_h = 10\\% = 0.1$, add $10\\%$ of $(12,500) = 1250$ plus half-year interest-on-interest on 8,000 (80) $= \\mathbf{2,130}$!",
+      "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज: 1) छमाही दर $r_h = \\frac{20\\%}{2} = 10\\%$।\n2) 1 जनवरी जमा (8,000) पर 2 छमाही ब्याज ($21\\%$) $= 1680$।\n3) 1 जुलाई जमा (4,500) पर 1 छमाही ब्याज ($10\\%$) $= 450$।\n4) कुल ब्याज $= 1680 + 450 = \\mathbf{2,130}$ (₹2,130)।\n\nविधि 2: एकीकृत प्रतिशत गुणक ट्रिक: कुल जमा (12,500) पर पहली छमाही व दूसरी छमाही जोड़ें $= 1250 + 880 \\dots = \\mathbf{2,130}$!"
     }
   },
   {

@@ -1081,10 +1081,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (350) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (350) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**350** — using 20% rate; printed stem `29%` is a typographical digit error giving 507.50).",
+      "keyConcept": "Direct Simple Interest Formula & Exam Typo Alert (29% vs 20%)",
+      "trapAlert": {
+        "en": "Exam Paper Typo Alert: Using literally printed `29%` gives $500 \\times 3.5 \\times 29\\% = 507.50$ (not in options). Official RRB key (`350`, Option D) corresponds cleanly to **$R = 20\\%$** ($500 \\times 3.5 \\times 20\\% = 350$).",
+        "hi": "प्रश्नपत्र मुद्रण त्रुटि सूचना: छपे हुए `29%` से $500 \\times 3.5 \\times 29\\% = 507.50$ आता है जो विकल्पों में नहीं है; आधिकारिक RRB कुंजी (`350`, विकल्प D) वास्तविक दर **20%** से ($500 \\times 3.5 \\times 20\\% = 350$) मेल खाती है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Formula Verification (R = 20% Intended vs 29% Printed)",
+            "hi": "विधि 1: साधारण ब्याज सूत्र (20% अभिप्रेत बनाम 29% मुद्रित)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) Exact literal rate $29\\%$: $\\frac{500 \\times 29 \\times 3.5}{100} = 5 \\times 101.5 = 507.50$ (absent from options).\n2) Intended exam rate $R = 20\\%$: $\\frac{500 \\times 20 \\times 3.5}{100} = 100 \\times 3.5 = \\mathbf{350}$ (Option D).",
+            "hi": "1) छपे हुए `29%` से $SI = \\frac{500 \\times 29 \\times 3.5}{100} = 507.50$ आता है (विकल्प में नहीं)।\n2) वास्तविक पेपर दर $R = 20\\%$ से $SI = \\frac{500 \\times 20 \\times 3.5}{100} = \\mathbf{350}$ (विकल्प D)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiple-of-5×3.5 Quick Check",
+            "hi": "विधि 2: प्रति-वर्ष ₹100 (R = 20%) अनुमान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $350 \\div (500 \\times 3.5) = \\frac{350}{1750} = 0.20 = 20\\%$, confirming `29%` was a keyboard misprint of `20%` and Option D (`350`) is official.",
+            "hi": "विकल्प `350` के लिए दर $\\frac{350 \\times 100}{500 \\times 3.5} = 20\\%$ निकलती है — स्पष्ट है कि `29%` असल में `20%` की टाइपिंग त्रुटि है।"
+          }
+        }
+      ],
+      "en": "Method 1: Formula Verification (R = 20% Intended vs 29% Printed): 1) Exact literal rate $29\\%$: $\\frac{500 \\times 29 \\times 3.5}{100} = 5 \\times 101.5 = 507.50$ (absent from options).\n2) Intended exam rate $R = 20\\%$: $\\frac{500 \\times 20 \\times 3.5}{100} = 100 \\times 3.5 = \\mathbf{350}$ (Option D).\n\nMethod 2: Multiple-of-5×3.5 Quick Check: Notice $350 \\div (500 \\times 3.5) = \\frac{350}{1750} = 0.20 = 20\\%$, confirming `29%` was a keyboard misprint of `20%` and Option D (`350`) is official.",
+      "hi": "विधि 1: साधारण ब्याज सूत्र (20% अभिप्रेत बनाम 29% मुद्रित): 1) छपे हुए `29%` से $SI = \\frac{500 \\times 29 \\times 3.5}{100} = 507.50$ आता है (विकल्प में नहीं)।\n2) वास्तविक पेपर दर $R = 20\\%$ से $SI = \\frac{500 \\times 20 \\times 3.5}{100} = \\mathbf{350}$ (विकल्प D)।\n\nविधि 2: प्रति-वर्ष ₹100 (R = 20%) अनुमान ट्रिक: विकल्प `350` के लिए दर $\\frac{350 \\times 100}{500 \\times 3.5} = 20\\%$ निकलती है — स्पष्ट है कि `29%` असल में `20%` की टाइपिंग त्रुटि है।"
     }
   },
   {
@@ -1149,10 +1190,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (₹553.43) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹553.43) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹553.43**).",
+      "keyConcept": "Two Staggered Half-Yearly Deposits (Jan 1 Earns 2 Cycles; Jul 1 Earns 1 Cycle)",
+      "optionTrick": {
+        "en": "Half-yearly rate $r_h = 2.25\\%$. Equal deposits $P$ earn $P \\times (3r_h + r_h^2)$ $= 8,138 \\times 6.8006\\% = \\mathbf{553.43}$!",
+        "hi": "छमाही दर $r_h = 2.25\\%$। दोनों समान जमा पर कुल ब्याज $= P(3r_h + r_h^2) = 8,138 \\times 6.8006\\% = \\mathbf{553.43}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year)",
+            "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI_{\\text{total}} = P_1[(1+r_h)^2 - 1] + P_2 r_h$",
+          "steps": {
+            "en": "1) Half-yearly rate $r_h = \\frac{4.5\\%}{2} = 2.25\\%$.\n2) Jan 1 deposit (8,138) earns 2 cycles ($4.5506\\%$): 370.3299.\n3) Jul 1 deposit (8,138) earns 1 cycle ($2.25\\%$): 183.105.\n4) Total interest $= 370.3299 + 183.105 = \\mathbf{553.43}$ (₹553.43).",
+            "hi": "1) छमाही दर $r_h = \\frac{4.5\\%}{2} = 2.25\\%$।\n2) 1 जनवरी जमा (8,138) पर 2 छमाही ब्याज ($4.5506\\%$) $= 370.3299$।\n3) 1 जुलाई जमा (8,138) पर 1 छमाही ब्याज ($2.25\\%$) $= 183.105$।\n4) कुल ब्याज $= 370.3299 + 183.105 = \\mathbf{553.43}$ (₹553.43)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unified Rate-Factor Trick",
+            "hi": "विधि 2: एकीकृत प्रतिशत गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "With equal deposits, combine cycles into one rate: $2r_h + r_h^2 + r_h = 6.8006\\%$ of $8,138 = \\mathbf{553.43}$.",
+            "hi": "समान जमा पर सीधे 8,138 का $6.8006\\% = \\mathbf{553.43}$ निकालें!"
+          }
+        }
+      ],
+      "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year): 1) Half-yearly rate $r_h = \\frac{4.5\\%}{2} = 2.25\\%$.\n2) Jan 1 deposit (8,138) earns 2 cycles ($4.5506\\%$): 370.3299.\n3) Jul 1 deposit (8,138) earns 1 cycle ($2.25\\%$): 183.105.\n4) Total interest $= 370.3299 + 183.105 = \\mathbf{553.43}$ (₹553.43).\n\nMethod 2: Unified Rate-Factor Trick: With equal deposits, combine cycles into one rate: $2r_h + r_h^2 + r_h = 6.8006\\%$ of $8,138 = \\mathbf{553.43}$.",
+      "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज: 1) छमाही दर $r_h = \\frac{4.5\\%}{2} = 2.25\\%$।\n2) 1 जनवरी जमा (8,138) पर 2 छमाही ब्याज ($4.5506\\%$) $= 370.3299$।\n3) 1 जुलाई जमा (8,138) पर 1 छमाही ब्याज ($2.25\\%$) $= 183.105$।\n4) कुल ब्याज $= 370.3299 + 183.105 = \\mathbf{553.43}$ (₹553.43)।\n\nविधि 2: एकीकृत प्रतिशत गुणक ट्रिक: समान जमा पर सीधे 8,138 का $6.8006\\% = \\mathbf{553.43}$ निकालें!"
     }
   },
   {

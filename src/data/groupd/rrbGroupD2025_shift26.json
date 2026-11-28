@@ -877,10 +877,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹607) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹607) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹607**).",
+      "keyConcept": "Annual Compound Interest over 3 Years (12% = 3/25)",
+      "optionTrick": {
+        "en": "Use 3-yr factor $\\frac{21952}{15625}$ or effective rate **40.4928%** of 1,500 $\\Rightarrow \\mathbf{Rs.607}$!",
+        "hi": "प्रभावी दर **40.4928%** या भिन्न गुणक $\\frac{21952}{15625}$ लगाने पर सीधा उत्तर **₹607** आता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (28/25)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (28/25)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{100}\\right)^T - 1\\right]$",
+          "steps": {
+            "en": "1) 12% annual factor $= \\frac{28}{25}$ over 3 years $\\Rightarrow \\frac{21952}{15625}$.\n2) $A = 1500 \\times \\frac{21952}{15625} = 2,107.39$.\n3) $CI = 2,107.39 - 1,500 = 607.39$ $\\approx$ **₹607**.",
+            "hi": "1) 12% दर का 3-वर्ष गुणक $= \\frac{21952}{15625}$।\n2) मिश्रधन $A = 1500 \\times \\frac{21952}{15625} = 2,107.39$ रुपये।\n3) $CI = 2,107.39 - 1,500 = 607.39$ $\\approx$ **₹607**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: CI Tree / Effective Rate Shortcut",
+            "hi": "विधि 2: ट्री / प्रभावी प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 3-yr CI rate $= 40.4928\\%$. Multiply 0.404928 by 1,500 $\\Rightarrow \\mathbf{Rs.607}$!",
+            "hi": "3 वर्ष की कुल ब्याज दर 40.4928% से सीधा उत्तर **₹607** मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (28/25): 1) 12% annual factor $= \\frac{28}{25}$ over 3 years $\\Rightarrow \\frac{21952}{15625}$.\n2) $A = 1500 \\times \\frac{21952}{15625} = 2,107.39$.\n3) $CI = 2,107.39 - 1,500 = 607.39$ $\\approx$ **₹607**.\n\nMethod 2: CI Tree / Effective Rate Shortcut: Net 3-yr CI rate $= 40.4928\\%$. Multiply 0.404928 by 1,500 $\\Rightarrow \\mathbf{Rs.607}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (28/25): 1) 12% दर का 3-वर्ष गुणक $= \\frac{21952}{15625}$।\n2) मिश्रधन $A = 1500 \\times \\frac{21952}{15625} = 2,107.39$ रुपये।\n3) $CI = 2,107.39 - 1,500 = 607.39$ $\\approx$ **₹607**।\n\nविधि 2: ट्री / प्रभावी प्रतिशत ट्रिक: 3 वर्ष की कुल ब्याज दर 40.4928% से सीधा उत्तर **₹607** मिलता है!"
     }
   },
   {
@@ -1047,10 +1088,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (385) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (385) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**385**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 20\\% \\times 3.5 = 70\\%$. Just take $70\\%$ of 550 $= \\mathbf{385}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 20\\% \\times 3.5 = 70\\%$। सीधा 550 का $70\\% = \\mathbf{385}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 550$, $R = 20\\%$, $T = 3.5$ year(s).\n2) $SI = \\frac{550 \\times 20 \\times 3.5}{100} = 5.5 \\times 70 = \\mathbf{385}$.",
+            "hi": "1) $P = 550$, दर $R = 20\\%$, समय $T = 3.5$ वर्ष।\n2) $SI = \\frac{550 \\times 20 \\times 3.5}{100} = \\mathbf{385}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 5.5$. Multiply by $R \\times T = 70$: $5.5 \\times 70 = \\mathbf{385}$.",
+            "hi": "मूलधन का $1\\% = 5.5$। इसे $R \\times T = 70$ से गुणा करें $= \\mathbf{385}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 550$, $R = 20\\%$, $T = 3.5$ year(s).\n2) $SI = \\frac{550 \\times 20 \\times 3.5}{100} = 5.5 \\times 70 = \\mathbf{385}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 5.5$. Multiply by $R \\times T = 70$: $5.5 \\times 70 = \\mathbf{385}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 550$, दर $R = 20\\%$, समय $T = 3.5$ वर्ष।\n2) $SI = \\frac{550 \\times 20 \\times 3.5}{100} = \\mathbf{385}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 5.5$। इसे $R \\times T = 70$ से गुणा करें $= \\mathbf{385}$!"
     }
   },
   {
@@ -1215,10 +1297,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹763.49) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹763.49) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹763.49**).",
+      "keyConcept": "Two Staggered Half-Yearly Deposits (Jan 1 Earns 2 Cycles; Jul 1 Earns 1 Cycle)",
+      "optionTrick": {
+        "en": "Half-yearly rate $r_h = 4.6\\%$. Equal deposits $P$ earn $P \\times (3r_h + r_h^2)$ $= 5,449 \\times 14.0116\\% = \\mathbf{763.49}$!",
+        "hi": "छमाही दर $r_h = 4.6\\%$। दोनों समान जमा पर कुल ब्याज $= P(3r_h + r_h^2) = 5,449 \\times 14.0116\\% = \\mathbf{763.49}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year)",
+            "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI_{\\text{total}} = P_1[(1+r_h)^2 - 1] + P_2 r_h$",
+          "steps": {
+            "en": "1) Half-yearly rate $r_h = \\frac{9.2\\%}{2} = 4.6\\%$.\n2) Jan 1 deposit (5,449) earns 2 cycles ($9.4116\\%$): 512.8381.\n3) Jul 1 deposit (5,449) earns 1 cycle ($4.6\\%$): 250.654.\n4) Total interest $= 512.8381 + 250.654 = \\mathbf{763.49}$ (₹763.49).",
+            "hi": "1) छमाही दर $r_h = \\frac{9.2\\%}{2} = 4.6\\%$।\n2) 1 जनवरी जमा (5,449) पर 2 छमाही ब्याज ($9.4116\\%$) $= 512.8381$।\n3) 1 जुलाई जमा (5,449) पर 1 छमाही ब्याज ($4.6\\%$) $= 250.654$।\n4) कुल ब्याज $= 512.8381 + 250.654 = \\mathbf{763.49}$ (₹763.49)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unified Rate-Factor Trick",
+            "hi": "विधि 2: एकीकृत प्रतिशत गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "With equal deposits, combine cycles into one rate: $2r_h + r_h^2 + r_h = 14.0116\\%$ of $5,449 = \\mathbf{763.49}$.",
+            "hi": "समान जमा पर सीधे 5,449 का $14.0116\\% = \\mathbf{763.49}$ निकालें!"
+          }
+        }
+      ],
+      "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year): 1) Half-yearly rate $r_h = \\frac{9.2\\%}{2} = 4.6\\%$.\n2) Jan 1 deposit (5,449) earns 2 cycles ($9.4116\\%$): 512.8381.\n3) Jul 1 deposit (5,449) earns 1 cycle ($4.6\\%$): 250.654.\n4) Total interest $= 512.8381 + 250.654 = \\mathbf{763.49}$ (₹763.49).\n\nMethod 2: Unified Rate-Factor Trick: With equal deposits, combine cycles into one rate: $2r_h + r_h^2 + r_h = 14.0116\\%$ of $5,449 = \\mathbf{763.49}$.",
+      "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज: 1) छमाही दर $r_h = \\frac{9.2\\%}{2} = 4.6\\%$।\n2) 1 जनवरी जमा (5,449) पर 2 छमाही ब्याज ($9.4116\\%$) $= 512.8381$।\n3) 1 जुलाई जमा (5,449) पर 1 छमाही ब्याज ($4.6\\%$) $= 250.654$।\n4) कुल ब्याज $= 512.8381 + 250.654 = \\mathbf{763.49}$ (₹763.49)।\n\nविधि 2: एकीकृत प्रतिशत गुणक ट्रिक: समान जमा पर सीधे 5,449 का $14.0116\\% = \\mathbf{763.49}$ निकालें!"
     }
   },
   {

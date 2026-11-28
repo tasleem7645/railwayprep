@@ -1019,10 +1019,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • CI-SI Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹7,401) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹7,401) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹7,401**).",
+      "keyConcept": "3-Half-Year CI − SI Difference = P[(1+r)³ − (1+3r)] = P(3r² + r³)",
+      "optionTrick": {
+        "en": "Half-yearly rate $r = 4\\%$ (3 cycles): $D = P(3r^2 + r^3) = P(3(0.0016) + 0.000064) = 0.004864 P = 36 \\Rightarrow P = \\frac{36}{0.004864} \\approx \\mathbf{Rs.7,401}$!",
+        "hi": "अर्धवार्षिक दर $r = 4\\%$ (3 छमाही): अंतर $= P(3r^2 + r^3) = 0.4864\\% P = 36 \\Rightarrow P = \\frac{360000}{48.64} \\approx \\mathbf{Rs.7,401}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 3-Cycle CI Factor vs 3-Cycle SI Factor",
+            "hi": "विधि 1: 3-छमाही CI व SI प्रभावी दर का अंतर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$D_3 = P \\cdot \\frac{r^2(300 + r)}{100^3}\\quad (r = 4\\%)$",
+          "steps": {
+            "en": "1) $r = 4\\%$ per half-year, $n = 3$ half-years ($1\\frac{1}{2}$ yrs).\n2) $D_3 = P \\times \\frac{16 \\times 304}{10^6} = 0.004864 P = 36$.\n3) $P = \\frac{36}{0.004864} = 7401.32 \\approx \\mathbf{Rs.7,401}$.",
+            "hi": "1) छमाही दर $r = 4\\%$, चक्र $n = 3$।\n2) $D_3 = P \\times \\frac{16 \\times 304}{1000000} = 0.004864 P = 36$।\n3) $P = \\frac{36}{0.004864} = 7401.32 \\approx \\mathbf{Rs.7,401}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Memorised 4% 3-Cycle Diff (0.4864%)",
+            "hi": "विधि 2: 3-चक्र अंतर सूत्र (3r² + r³)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Take $0.48\\% P \\approx 36 \\Rightarrow P \\approx 7500$; adjust slightly upward for extra $+0.0064\\%$ gives **₹7,401** (Option A)!",
+            "hi": "लगभग मान $0.4864\\% \\approx 0.5\\%$ से $P < 7500$ होगा; सटीक भाग देने पर निकटतम पूर्णांक **₹7,401** (विकल्प A) आता है।"
+          }
+        }
+      ],
+      "en": "Method 1: 3-Cycle CI Factor vs 3-Cycle SI Factor: 1) $r = 4\\%$ per half-year, $n = 3$ half-years ($1\\frac{1}{2}$ yrs).\n2) $D_3 = P \\times \\frac{16 \\times 304}{10^6} = 0.004864 P = 36$.\n3) $P = \\frac{36}{0.004864} = 7401.32 \\approx \\mathbf{Rs.7,401}$.\n\nMethod 2: Memorised 4% 3-Cycle Diff (0.4864%): Take $0.48\\% P \\approx 36 \\Rightarrow P \\approx 7500$; adjust slightly upward for extra $+0.0064\\%$ gives **₹7,401** (Option A)!",
+      "hi": "विधि 1: 3-छमाही CI व SI प्रभावी दर का अंतर: 1) छमाही दर $r = 4\\%$, चक्र $n = 3$।\n2) $D_3 = P \\times \\frac{16 \\times 304}{1000000} = 0.004864 P = 36$।\n3) $P = \\frac{36}{0.004864} = 7401.32 \\approx \\mathbf{Rs.7,401}$।\n\nविधि 2: 3-चक्र अंतर सूत्र (3r² + r³)% ट्रिक: लगभग मान $0.4864\\% \\approx 0.5\\%$ से $P < 7500$ होगा; सटीक भाग देने पर निकटतम पूर्णांक **₹7,401** (विकल्प A) आता है।"
     }
   },
   {
@@ -1121,10 +1162,55 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (45) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (45) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**45**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,500 $= 45$. For 1 months: $45 \\times 1 = \\mathbf{45}$!",
+        "hi": "1 माह का ब्याज $= 1,500$ का 3% $= 45$। अतः 1 माह का ब्याज $= 45 \\times 1 = \\mathbf{45}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 1$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 1}{100} = 15 \\times 3 = \\mathbf{45}$.",
+            "hi": "1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 1$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 1}{100} = \\mathbf{45}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1500 = 45$. For 1 months: $45 \\times 1 = \\mathbf{45}$.",
+            "hi": "1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 1 माह के लिए $\\times 1 = \\mathbf{45}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 1$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 1}{100} = 15 \\times 3 = \\mathbf{45}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1500 = 45$. For 1 months: $45 \\times 1 = \\mathbf{45}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 1$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 1}{100} = \\mathbf{45}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 1 माह के लिए $\\times 1 = \\mathbf{45}$!"
     }
   },
   {
@@ -1401,10 +1487,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (₹2,424) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹2,424) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹2,424**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 2%), Cycles Doubled (n = 2)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{2\\%}$, $n = \\mathbf{2}$ cycles! Effective factor $= (1.02)^2 \\approx 1.0404$ $\\Rightarrow$ **₹2,424**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (2%)** व **समय दोगुना (2 छमाही)** करें! सीधा गुणक $(1.02)^2 \\approx 1.0404$ से उत्तर **₹2,424**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 2%, n = 2)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 2%, n = 2)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{4\\%}{2} = 2\\% = \\frac{1}{50}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 60000 \\times (1.02)^2 \\approx 62424$.\n3) Compound Interest $= A - P $= 2,424$ (**₹2,424**).",
+            "hi": "1) छमाही दर $r = \\frac{4\\%}{2} = 2\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 60000 \\times (1.02)^2 \\approx 62,424.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 2,424$ (**₹2,424**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 2-Cycle Successive % Formula (2r + r²/100)",
+            "hi": "विधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "2 cycles at 2% give effective CI rate $= 2+2+\\frac{2^2}{100} = 4.04\\%$ of 60,000 $= \\mathbf{Rs.2,424}$!",
+            "hi": "2 छमाही के लिए कुल ब्याज दर $= 2+2+0.04\\% = 4.04\\%$ $\\Rightarrow$ **₹2,424**!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 2%, n = 2): 1) Half-yearly rate $r = \\frac{4\\%}{2} = 2\\% = \\frac{1}{50}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 60000 \\times (1.02)^2 \\approx 62424$.\n3) Compound Interest $= A - P $= 2,424$ (**₹2,424**).\n\nMethod 2: 2-Cycle Successive % Formula (2r + r²/100): 2 cycles at 2% give effective CI rate $= 2+2+\\frac{2^2}{100} = 4.04\\%$ of 60,000 $= \\mathbf{Rs.2,424}$!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 2%, n = 2): 1) छमाही दर $r = \\frac{4\\%}{2} = 2\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 60000 \\times (1.02)^2 \\approx 62,424.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 2,424$ (**₹2,424**)।\n\nविधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100): 2 छमाही के लिए कुल ब्याज दर $= 2+2+0.04\\% = 4.04\\%$ $\\Rightarrow$ **₹2,424**!"
     }
   },
   {

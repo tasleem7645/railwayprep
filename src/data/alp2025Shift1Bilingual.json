@@ -463,10 +463,51 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (13 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option C (2400). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (2400)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**2400**).",
+      "keyConcept": "Principal Extraction from Total R×T% Simple Interest",
+      "optionTrick": {
+        "en": "Total interest $= 10\\% \\times 2 = 20\\%$ of $P = 480 \\Rightarrow P = \\frac{480 \\times 100}{20} = \\mathbf{2,400}$!",
+        "hi": "कुल ब्याज $= 10\\% \\times 2 = 20\\% = 480 \\Rightarrow P = \\frac{480 \\times 100}{20} = \\mathbf{2,400}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मूलधन सूत्र द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) Given $SI = 480$, $T = 2$ years, $R = 10\\%$.\n2) $P = \\frac{480 \\times 100}{10 \\times 2} = \\frac{48,000}{20} = \\mathbf{2,400}$.",
+            "hi": "1) दिया है $SI = 480$, समय $T = 2$ वर्ष, दर $R = 10\\%$।\n2) $P = \\frac{480 \\times 100}{10 \\times 2} = \\mathbf{2,400}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (R×T%)",
+            "hi": "विधि 2: कुल R×T% ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$20\\% = 480 \\Rightarrow 1\\% = 24 \\Rightarrow 100\\% = \\mathbf{2,400}$ (2400).",
+            "hi": "$20\\% = 480$ तो $1\\% = 24$, इसलिए $100\\% = \\mathbf{2,400}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) Given $SI = 480$, $T = 2$ years, $R = 10\\%$.\n2) $P = \\frac{480 \\times 100}{10 \\times 2} = \\frac{48,000}{20} = \\mathbf{2,400}$.\n\nMethod 2: Percentage Unitary Method (R×T%): $20\\% = 480 \\Rightarrow 1\\% = 24 \\Rightarrow 100\\% = \\mathbf{2,400}$ (2400).",
+      "hi": "विधि 1: मूलधन सूत्र द्वारा हल: 1) दिया है $SI = 480$, समय $T = 2$ वर्ष, दर $R = 10\\%$।\n2) $P = \\frac{480 \\times 100}{10 \\times 2} = \\mathbf{2,400}$ रुपये।\n\nविधि 2: कुल R×T% ऐकिक नियम ट्रिक: $20\\% = 480$ तो $1\\% = 24$, इसलिए $100\\% = \\mathbf{2,400}$।"
     },
     "correctIndexHi": 2
   },
@@ -1117,10 +1158,55 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (13 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (₹12055). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (₹12055)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Mathematical Answer: **₹12,800** (Option C); Official Stored Key marks Option A (₹12055).",
+      "keyConcept": "2nd-Year Compound Interest Rate = R × (1 + R/100)% (24% at R=20%)",
+      "optionTrick": {
+        "en": "2nd-year CI percentage at $20\\%$ $= 20\\% \\times 1.20 = \\mathbf{24\\%}$ of $P$! So $P = \\frac{3072}{0.24} = \\mathbf{Rs.12,800}$ (Option C).",
+        "hi": "20% दर पर केवल दूसरे वर्ष का ब्याज $= 20\\% \\times 1.20 = \\mathbf{24\\%}$ है $\\Rightarrow P = \\frac{3072 \\times 100}{24} = \\mathbf{Rs.12,800}$ (विकल्प C)!"
+      },
+      "trapAlert": {
+        "en": "Official Key Discrepancy: Exact math confirms $0.24 P = 3072 \\Rightarrow P = \\mathbf{Rs.12,800}$ (**Option C**), whereas stored ALP answer key records **Option A (₹12,055)**.",
+        "hi": "उत्तर कुंजी विसंगति: सटीक गणना से दूसरे वर्ष का ब्याज $24\\% = 3072 \\Rightarrow P = \\mathbf{Rs.12,800}$ (**विकल्प C**) आता है, जबकि संग्रहीत कुंजी में **विकल्प A (₹12,055)** दर्ज है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Only 2nd-Year Interest Formula",
+            "hi": "विधि 1: केवल दूसरे वर्ष के ब्याज का सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$CI_{2\\text{nd yr}} = P \\cdot \\frac{R}{100}\\left(1 + \\frac{R}{100}\\right)$",
+          "steps": {
+            "en": "1) Year-1 interest $= 20\\%$ of $P$. Year-2 interest adds $20\\%$ on $20\\%$, becoming $24\\%$ of $P$.\n2) $24\\%$ of $P = 3072 \\Rightarrow P = \\frac{3072 \\times 100}{24} = \\mathbf{Rs.12,800}$ (Option C; stored key records Option A: ₹12,055).",
+            "hi": "1) पहले वर्ष का ब्याज $= 20\\%$; दूसरे वर्ष इस पर $20\\%$ बढ़कर कुल $24\\%$ हो जाता है।\n2) $P$ का $24\\% = 3072 \\Rightarrow P = \\frac{3072 \\times 100}{24} = \\mathbf{Rs.12,800}$ (विकल्प C; संग्रहीत कुंजी में विकल्प A दर्ज है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reverse 20% Step + Scale by 5 (4 sec)",
+            "hi": "विधि 2: पहले वर्ष का ब्याज निकालकर ×5 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Year-1 interest $= \\frac{3072}{1.2} = 2560$. Since $20\\% = \\frac{1}{5}$ of $P$, $P = 2560 \\times 5 = \\mathbf{Rs.12,800}$!",
+            "hi": "पहले वर्ष का ब्याज $= \\frac{3072}{1.2} = 2560$। चूँकि $20\\% = \\frac{1}{5}$, अतः $P = 2560 \\times 5 = \\mathbf{Rs.12,800}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Only 2nd-Year Interest Formula: 1) Year-1 interest $= 20\\%$ of $P$. Year-2 interest adds $20\\%$ on $20\\%$, becoming $24\\%$ of $P$.\n2) $24\\%$ of $P = 3072 \\Rightarrow P = \\frac{3072 \\times 100}{24} = \\mathbf{Rs.12,800}$ (Option C; stored key records Option A: ₹12,055).\n\nMethod 2: Reverse 20% Step + Scale by 5 (4 sec): Year-1 interest $= \\frac{3072}{1.2} = 2560$. Since $20\\% = \\frac{1}{5}$ of $P$, $P = 2560 \\times 5 = \\mathbf{Rs.12,800}$!",
+      "hi": "विधि 1: केवल दूसरे वर्ष के ब्याज का सूत्र: 1) पहले वर्ष का ब्याज $= 20\\%$; दूसरे वर्ष इस पर $20\\%$ बढ़कर कुल $24\\%$ हो जाता है।\n2) $P$ का $24\\% = 3072 \\Rightarrow P = \\frac{3072 \\times 100}{24} = \\mathbf{Rs.12,800}$ (विकल्प C; संग्रहीत कुंजी में विकल्प A दर्ज है)।\n\nविधि 2: पहले वर्ष का ब्याज निकालकर ×5 ट्रिक: पहले वर्ष का ब्याज $= \\frac{3072}{1.2} = 2560$। चूँकि $20\\% = \\frac{1}{5}$, अतः $P = 2560 \\times 5 = \\mathbf{Rs.12,800}$!"
     },
     "correctIndexHi": 0
   },

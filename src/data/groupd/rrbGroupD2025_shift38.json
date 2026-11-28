@@ -911,10 +911,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Basic CI Calculation",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (1,02,900) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (1,02,900) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**1,02,900**).",
+      "keyConcept": "Compare Half-Yearly vs Annual Amount Ratio Over Same 2-Year Tenure",
+      "optionTrick": {
+        "en": "Half-yearly (20%, 4 cycles): factor $(1.2)^4 = \\frac{1296}{625}$; Annual (40%, 2 cycles): $(1.4)^2 = \\frac{49}{25}$. Directly scale $108864 \\times \\frac{49 \\times 25}{1296} = \\mathbf{1,02,900}$!",
+        "hi": "अर्धवार्षिक (20%, 4 चक्र) गुणक $(6/5)^4 = \\frac{1296}{625}$ से $P = 52{,}500$, फिर वार्षिक (40%, 2 वर्ष) गुणक $(7/5)^2 = \\frac{49}{25}$ से $\\mathbf{1,02,900}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Recover Principal via (6/5)^4 Then Apply (7/5)^2",
+            "hi": "विधि 1: पहले मूलधन (52,500) फिर वार्षिक मिश्रधन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Half-yearly: $r = 20\\%$ ($\\frac{6}{5}$), $n = 4$ cycles $\\Rightarrow P \\times \\frac{1296}{625} = 108864 \\Rightarrow P = 84 \\times 625 = 52{,}500$.\n2) Annually (40%, 2 yrs): $A = 52500 \\times \\left(\\frac{7}{5}\\right)^2 = 2100 \\times 49 = \\mathbf{1,02,900}$.",
+            "hi": "1) छमाही दर $= 20\\%$ व $n = 4$: $P = 108864 \\times \\frac{625}{1296} = 52{,}500$ रुपये।\n2) वार्षिक 40% पर 2 वर्ष बाद: $A = 52500 \\times \\frac{49}{25} = \\mathbf{1,02,900}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Factor Ratio (1.4² / 1.2⁴)",
+            "hi": "विधि 2: सीधा गुणक अनुपात (1.4² / 1.2⁴) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$A_{\\text{annual}} = 108864 \\times \\frac{1.96}{2.0736} = \\frac{108864}{1296} \\times 1225 = 84 \\times 1225 = \\mathbf{1,02,900}$!",
+            "hi": "$A_{\\text{annual}} = \\frac{108864}{1296} \\times 1225 = 84 \\times 1225 = \\mathbf{1,02,900}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Recover Principal via (6/5)^4 Then Apply (7/5)^2: 1) Half-yearly: $r = 20\\%$ ($\\frac{6}{5}$), $n = 4$ cycles $\\Rightarrow P \\times \\frac{1296}{625} = 108864 \\Rightarrow P = 84 \\times 625 = 52{,}500$.\n2) Annually (40%, 2 yrs): $A = 52500 \\times \\left(\\frac{7}{5}\\right)^2 = 2100 \\times 49 = \\mathbf{1,02,900}$.\n\nMethod 2: Direct Multiplier Factor Ratio (1.4² / 1.2⁴): $A_{\\text{annual}} = 108864 \\times \\frac{1.96}{2.0736} = \\frac{108864}{1296} \\times 1225 = 84 \\times 1225 = \\mathbf{1,02,900}$!",
+      "hi": "विधि 1: पहले मूलधन (52,500) फिर वार्षिक मिश्रधन: 1) छमाही दर $= 20\\%$ व $n = 4$: $P = 108864 \\times \\frac{625}{1296} = 52{,}500$ रुपये।\n2) वार्षिक 40% पर 2 वर्ष बाद: $A = 52500 \\times \\frac{49}{25} = \\mathbf{1,02,900}$ रुपये।\n\nविधि 2: सीधा गुणक अनुपात (1.4² / 1.2⁴) ट्रिक: $A_{\\text{annual}} = \\frac{108864}{1296} \\times 1225 = 84 \\times 1225 = \\mathbf{1,02,900}$!"
     }
   },
   {
@@ -1121,10 +1161,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (48,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (48,000) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**48,000**).",
+      "keyConcept": "Difference of Two Equal-Principal Simple Interests = P × |R₂ − R₁| × T / 100",
+      "optionTrick": {
+        "en": "Never calculate Bank A and Bank B separately! Rate gap $= |8.5 - 3.5| = 5\\%$ per yr $\\times 4 = 20\\%$ of $2,40,000 = \\mathbf{48,000}$!",
+        "hi": "दोनों बैंकों का ब्याज अलग-अलग न निकालें! दर अंतर $= 5\\% \\times 4 = 20\\%$। सीधा 2,40,000 का 20% $= \\mathbf{48,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Difference of Individual SI Values",
+            "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $SI_A = \\frac{240000 \\times 3.5 \\times 4}{100} = 33,600$.\n2) $SI_B = \\frac{240000 \\times 8.5 \\times 4}{100} = 81,600$.\n3) Difference $= 81,600 - 33,600 = \\mathbf{48,000}$.",
+            "hi": "1) बैंक A का ब्याज $= 33,600$ रुपये।\n2) बैंक B का ब्याज $= 81,600$ रुपये।\n3) अंतर $= 81,600 - 33,600 = \\mathbf{48,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Rate-Difference % Shortcut (3 sec)",
+            "hi": "विधि 2: शुद्ध दर-अंतर % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta SI = \\frac{P \\times |R_2 - R_1| \\times T}{100}$",
+          "steps": {
+            "en": "$\\Delta SI = 5\\% \\times 4 \\text{ of } 2,40,000 = 20\\% \\times 2,40,000 = \\mathbf{48,000}$.",
+            "hi": "$\\Delta SI = (8.5 - 3.5)\\% \\times 4$ वर्ष $= 20\\%$ of $2,40,000 = \\mathbf{48,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Difference of Individual SI Values: 1) $SI_A = \\frac{240000 \\times 3.5 \\times 4}{100} = 33,600$.\n2) $SI_B = \\frac{240000 \\times 8.5 \\times 4}{100} = 81,600$.\n3) Difference $= 81,600 - 33,600 = \\mathbf{48,000}$.\n\nMethod 2: Net Rate-Difference % Shortcut (3 sec): $\\Delta SI = 5\\% \\times 4 \\text{ of } 2,40,000 = 20\\% \\times 2,40,000 = \\mathbf{48,000}$.",
+      "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर: 1) बैंक A का ब्याज $= 33,600$ रुपये।\n2) बैंक B का ब्याज $= 81,600$ रुपये।\n3) अंतर $= 81,600 - 33,600 = \\mathbf{48,000}$ रुपये।\n\nविधि 2: शुद्ध दर-अंतर % ट्रिक: $\\Delta SI = (8.5 - 3.5)\\% \\times 4$ वर्ष $= 20\\%$ of $2,40,000 = \\mathbf{48,000}$!"
     }
   },
   {
@@ -1264,10 +1345,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹27,675) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹27,675) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹27,675**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 5%), Cycles Doubled (n = 2)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{5\\%}$, $n = \\mathbf{2}$ cycles! Effective factor $= (1.05)^2 \\approx 1.1025$ $\\Rightarrow$ **₹27,675**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (5%)** व **समय दोगुना (2 छमाही)** करें! सीधा गुणक $(1.05)^2 \\approx 1.1025$ से उत्तर **₹27,675**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 5%, n = 2)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 5%, n = 2)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{10\\%}{2} = 5\\% = \\frac{1}{20}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 270000 \\times (1.05)^2 \\approx 297675$.\n3) Compound Interest $= A - P $= 27,675$ (**₹27,675**).",
+            "hi": "1) छमाही दर $r = \\frac{10\\%}{2} = 5\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 270000 \\times (1.05)^2 \\approx 2,97,675.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 27,675$ (**₹27,675**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 2-Cycle Successive % Formula (2r + r²/100)",
+            "hi": "विधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "2 cycles at 5% give effective CI rate $= 5+5+\\frac{5^2}{100} = 10.25\\%$ of 2,70,000 $= \\mathbf{Rs.27,675}$!",
+            "hi": "2 छमाही के लिए कुल ब्याज दर $= 5+5+0.25\\% = 10.25\\%$ $\\Rightarrow$ **₹27,675**!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 5%, n = 2): 1) Half-yearly rate $r = \\frac{10\\%}{2} = 5\\% = \\frac{1}{20}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 270000 \\times (1.05)^2 \\approx 297675$.\n3) Compound Interest $= A - P $= 27,675$ (**₹27,675**).\n\nMethod 2: 2-Cycle Successive % Formula (2r + r²/100): 2 cycles at 5% give effective CI rate $= 5+5+\\frac{5^2}{100} = 10.25\\%$ of 2,70,000 $= \\mathbf{Rs.27,675}$!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 5%, n = 2): 1) छमाही दर $r = \\frac{10\\%}{2} = 5\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 270000 \\times (1.05)^2 \\approx 2,97,675.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 27,675$ (**₹27,675**)।\n\nविधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100): 2 छमाही के लिए कुल ब्याज दर $= 5+5+0.25\\% = 10.25\\%$ $\\Rightarrow$ **₹27,675**!"
     }
   },
   {

@@ -877,10 +877,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • 2-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (10) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (10) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**10**).",
+      "keyConcept": "2-Year CI − SI Difference Formula: D = P(R/100)²",
+      "optionTrick": {
+        "en": "Direct shortcut $D_2 = \\frac{R^2}{100}\\%$ of $P = 1\\%$ of $1,000 = \\mathbf{10}$!",
+        "hi": "सीधा सूत्र $D_2 = P$ का $\\frac{R^2}{100}\\%$ $= 1,000$ का $1\\% = \\mathbf{10}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 2-Year Difference Formula",
+            "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$D_2 = P\\left(\\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) $P = 1,000$, $R = 10\\%$.\n2) $D_2 = 1000 \\times \\frac{10}{100} \\times \\frac{10}{100} = \\mathbf{10}$.",
+            "hi": "1) $P = 1,000$, $R = 10\\%$।\n2) $D_2 = 1000 \\times \\frac{10^2}{10000} = \\mathbf{10}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Interest-on-Interest Tree (Zero Formula)",
+            "hi": "विधि 2: केवल ब्याज-पर-ब्याज ट्री विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Diff is simply $R\\%$ of 1st year's SI: Year-1 SI $= 10\\%$ of $1,000 = 100$, and $10\\%$ of $100 = \\mathbf{10}$!",
+            "hi": "प्रथम वर्ष ब्याज $= 100$; इसी का $10\\% = \\mathbf{10}$ ही अंतर है!"
+          }
+        }
+      ],
+      "en": "Method 1: 2-Year Difference Formula: 1) $P = 1,000$, $R = 10\\%$.\n2) $D_2 = 1000 \\times \\frac{10}{100} \\times \\frac{10}{100} = \\mathbf{10}$.\n\nMethod 2: Interest-on-Interest Tree (Zero Formula): Diff is simply $R\\%$ of 1st year's SI: Year-1 SI $= 10\\%$ of $1,000 = 100$, and $10\\%$ of $100 = \\mathbf{10}$!",
+      "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र: 1) $P = 1,000$, $R = 10\\%$।\n2) $D_2 = 1000 \\times \\frac{10^2}{10000} = \\mathbf{10}$ रुपये।\n\nविधि 2: केवल ब्याज-पर-ब्याज ट्री विधि: प्रथम वर्ष ब्याज $= 100$; इसी का $10\\% = \\mathbf{10}$ ही अंतर है!"
     }
   },
   {
@@ -911,10 +952,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (532.5%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (532.5%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**532.5%**).",
+      "keyConcept": "2-Year Compound Growth Rate: R = (√K − 1) × 100%",
+      "optionTrick": {
+        "en": "Formula is simply **$(\\sqrt{40} - 1) \\times 100$**! Estimate $\\sqrt{40}$ near $6^2=36$ (≈ 6.325) \\Rightarrow \\mathbf{532.5%}!",
+        "hi": "सीधा सूत्र **$(\\sqrt{40} - 1) \\times 100$** लगाएँ! $\\sqrt{40} \\approx 6.325$ से (\\sqrt{40} - 1) \\times 100 \\approx \\mathbf{532.5%} तुरंत मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compound Amount Equation (1 + r)^2 = K",
+            "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P\\left(1 + \\frac{R}{100}\\right)^2 = 40P \\implies R = (\\sqrt{40} - 1) \\times 100$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 40 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{40} \\approx 6.3246$.\n2) R = (6.3246 - 1) \\times 100 \\approx \\mathbf{532.5%}.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 40 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{40} \\approx 6.3246$।\n2) R = (6.3246 - 1) \\times 100 \\approx \\mathbf{532.5%}।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fast Square-Root Approximation",
+            "hi": "विधि 2: वर्गमूल सन्निकटन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Using $\\sqrt{a^2 + b} \\approx a + \\frac{b}{2a}$: subtract 1 and multiply by 100 gives **532.5%** (Option A).",
+            "hi": "निकटतम पूर्ण वर्ग के उपयोग से \\sqrt{40} \\approx 6.325 \\Rightarrow R \\approx \\mathbf{532.5%} (विकल्प A)।"
+          }
+        }
+      ],
+      "en": "Method 1: Compound Amount Equation (1 + r)^2 = K: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 40 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{40} \\approx 6.3246$.\n2) R = (6.3246 - 1) \\times 100 \\approx \\mathbf{532.5%}.\n\nMethod 2: Fast Square-Root Approximation: Using $\\sqrt{a^2 + b} \\approx a + \\frac{b}{2a}$: subtract 1 and multiply by 100 gives **532.5%** (Option A).",
+      "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 40 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{40} \\approx 6.3246$।\n2) R = (6.3246 - 1) \\times 100 \\approx \\mathbf{532.5%}।\n\nविधि 2: वर्गमूल सन्निकटन ट्रिक: निकटतम पूर्ण वर्ग के उपयोग से \\sqrt{40} \\approx 6.325 \\Rightarrow R \\approx \\mathbf{532.5%} (विकल्प A)।"
     }
   },
   {
@@ -1115,10 +1197,55 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (180) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (180) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**180**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,500 $= 45$. For 4 months: $45 \\times 4 = \\mathbf{180}$!",
+        "hi": "1 माह का ब्याज $= 1,500$ का 3% $= 45$। अतः 4 माह का ब्याज $= 45 \\times 4 = \\mathbf{180}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 4$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 4}{100} = 15 \\times 12 = \\mathbf{180}$.",
+            "hi": "1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 4$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 4}{100} = \\mathbf{180}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1500 = 45$. For 4 months: $45 \\times 4 = \\mathbf{180}$.",
+            "hi": "1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 4 माह के लिए $\\times 4 = \\mathbf{180}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 4$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 4}{100} = 15 \\times 12 = \\mathbf{180}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1500 = 45$. For 4 months: $45 \\times 4 = \\mathbf{180}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 4$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 4}{100} = \\mathbf{180}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 4 माह के लिए $\\times 4 = \\mathbf{180}$!"
     }
   },
   {

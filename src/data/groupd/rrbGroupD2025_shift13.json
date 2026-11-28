@@ -877,10 +877,55 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (891) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (891) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**891**).",
+      "keyConcept": "Equal CI Maturity Split ⇒ Ratio = (1 + R/100)^ΔT : 1 (Less Time Gets More!)",
+      "optionTrick": {
+        "en": "Time difference $\\Delta T = 1$ yr(s) at 10% ($\\frac{11}{10}$). Share ratio $= 11 : 10$ ($\\text{Sum} = 21$ parts $= 1,701 \\Rightarrow 1\\text{ part} = 81$). Shorter-duration person gets larger share $= 11 \\times 81 = \\mathbf{891}$!",
+        "hi": "दोनों के समय में केवल $\\Delta T = 1$ वर्ष का अंतर है! 10% ($\\frac{11}{10}$) के साथ अनुपात $= 11 : 10$ (योग $= 21$ भाग $= 1,701$)। कम समय वाले को बड़ा भाग $= 11 \\times 81 = \\mathbf{891}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT use `14, 15, 17, 18` years to expand powers — **only the difference `ΔT` between their investment durations matters**!",
+        "hi": "कभी भी 16 व 17 या 12 व 13 की बड़ी घात न निकालें — **केवल दोनों समयावधियों के अंतर $\\Delta T = 1$** का अनुपात लें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers",
+            "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$S_1\\left(1+\\frac{R}{100}\\right)^{T_1} = S_2\\left(1+\\frac{R}{100}\\right)^{T_2} \\implies \\frac{S_1}{S_2} = \\left(1+\\frac{R}{100}\\right)^{T_2 - T_1}$",
+          "steps": {
+            "en": "1) Investment periods are 17 yrs and 18 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{11}{10}\\right)^{1} : 1 = 11 : 10$ (Sum $= 21$ parts).\n3) 1 part $= \\frac{1701}{21} = 81 \\Rightarrow$ Asked share $= 11 \\times 81 = \\mathbf{891}$.",
+            "hi": "1) दोनों की निवेश अवधि 17 वर्ष व 18 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{11}{10}\\right)^{1} : 1 = 11 : 10$ (कुल $= 21$ भाग)।\n3) 1 भाग $= \\frac{1701}{21} = 81 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{891}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Fraction Split (10-Sec Shortcut)",
+            "hi": "विधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since 1701 divides cleanly by 21 ($= 81$), pick **11 × 81** (the larger share goes to the person compounding for fewer years) $= \\mathbf{891}$.",
+            "hi": "1701, 21 से ठीक 81 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 11 \\times 81 = \\mathbf{891}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers: 1) Investment periods are 17 yrs and 18 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{11}{10}\\right)^{1} : 1 = 11 : 10$ (Sum $= 21$ parts).\n3) 1 part $= \\frac{1701}{21} = 81 \\Rightarrow$ Asked share $= 11 \\times 81 = \\mathbf{891}$.\n\nMethod 2: Instant Fraction Split (10-Sec Shortcut): Since 1701 divides cleanly by 21 ($= 81$), pick **11 × 81** (the larger share goes to the person compounding for fewer years) $= \\mathbf{891}$.",
+      "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना: 1) दोनों की निवेश अवधि 17 वर्ष व 18 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{11}{10}\\right)^{1} : 1 = 11 : 10$ (कुल $= 21$ भाग)।\n3) 1 भाग $= \\frac{1701}{21} = 81 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{891}$।\n\nविधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक: 1701, 21 से ठीक 81 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 11 \\times 81 = \\mathbf{891}$!"
     }
   },
   {
@@ -979,10 +1024,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find Principal",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (28,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (28,000) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**28,000**).",
+      "keyConcept": "Principal from SI Amount: A = (100 + R×T)% of P",
+      "optionTrick": {
+        "en": "Amount $= 200\\%$ of $P = 56,000 \\Rightarrow P = \\frac{56,000 \\times 100}{200} = \\mathbf{28,000}$!",
+        "hi": "कुल मिश्रधन $= (100 + 100) = 200\\% = 56,000$। अतः $P = \\frac{56,000 \\times 100}{200} = \\mathbf{28,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Percentage Equation",
+            "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{A \\times 100}{100 + R \\times T}$",
+          "steps": {
+            "en": "1) Total interest $= 20\\% \\times 5 = 100\\% \\Rightarrow$ Amount $= 200\\%$ of $P$.\n2) $P = \\frac{56000 \\times 100}{200} = \\mathbf{28,000}$.",
+            "hi": "1) कुल ब्याज $= 20\\% \\times 5 = 100\\% \\Rightarrow$ मिश्रधन $= 200\\%$।\n2) $P = \\frac{56000 \\times 100}{200} = \\mathbf{28,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Multiplier Trick",
+            "hi": "विधि 2: अनुपात भाग विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$R \\times T = 100\\% = \\frac{1}{1} \\Rightarrow P : A = 1 : 2$. Since 2 parts $= 56,000$, $P = 1 \\times 28000 = \\mathbf{28,000}$.",
+            "hi": "$100\\% = \\frac{1}{1} \\Rightarrow P : A = 1 : 2$। अतः $P = 1 \\times 28000 = \\mathbf{28,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Percentage Equation: 1) Total interest $= 20\\% \\times 5 = 100\\% \\Rightarrow$ Amount $= 200\\%$ of $P$.\n2) $P = \\frac{56000 \\times 100}{200} = \\mathbf{28,000}$.\n\nMethod 2: Ratio Multiplier Trick: $R \\times T = 100\\% = \\frac{1}{1} \\Rightarrow P : A = 1 : 2$. Since 2 parts $= 56,000$, $P = 1 \\times 28000 = \\mathbf{28,000}$.",
+      "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण: 1) कुल ब्याज $= 20\\% \\times 5 = 100\\% \\Rightarrow$ मिश्रधन $= 200\\%$।\n2) $P = \\frac{56000 \\times 100}{200} = \\mathbf{28,000}$ रुपये।\n\nविधि 2: अनुपात भाग विधि: $100\\% = \\frac{1}{1} \\Rightarrow P : A = 1 : 2$। अतः $P = 1 \\times 28000 = \\mathbf{28,000}$।"
     }
   },
   {
@@ -1153,10 +1239,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (₹10,145.20) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹10,145.20) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹10,145.20**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 4%), Cycles Doubled (n = 3)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{4\\%}$, $n = \\mathbf{3}$ cycles! Effective factor $= (1.04)^3 \\approx 1.1249$ $\\Rightarrow$ **₹10,145.20**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (4%)** व **समय दोगुना (3 छमाही)** करें! सीधा गुणक $(1.04)^3 \\approx 1.1249$ से उत्तर **₹10,145.20**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 4%, n = 3)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 4%, n = 3)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{8\\%}{2} = 4\\% = \\frac{1}{25}$; cycles $n = 2 \\times 1.5 = 3$.\n2) Amount $= 81250 \\times (1.04)^3 \\approx 91395.2$.\n3) Compound Interest $= A - P $= 10,145.2$ (**₹10,145.20**).",
+            "hi": "1) छमाही दर $r = \\frac{8\\%}{2} = 4\\%$ व छमाही चक्र $n = 2 \\times 1.5 = 3$।\n2) मिश्रधन $A = 81250 \\times (1.04)^3 \\approx 91,395.20$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 10,145.2$ (**₹10,145.20**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Pascal / Effective CI % Trick",
+            "hi": "विधि 2: पास्कल गुणांक / प्रभावी % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total effective CI $= 12.4864\\%$ of 81,250 $\\Rightarrow$ **₹10,145.20**!",
+            "hi": "3 चक्रों की कुल प्रभावी ब्याज दर $= 12.4864\\%$ से तुरंत **₹10,145.20** प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 4%, n = 3): 1) Half-yearly rate $r = \\frac{8\\%}{2} = 4\\% = \\frac{1}{25}$; cycles $n = 2 \\times 1.5 = 3$.\n2) Amount $= 81250 \\times (1.04)^3 \\approx 91395.2$.\n3) Compound Interest $= A - P $= 10,145.2$ (**₹10,145.20**).\n\nMethod 2: Pascal / Effective CI % Trick: Total effective CI $= 12.4864\\%$ of 81,250 $\\Rightarrow$ **₹10,145.20**!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 4%, n = 3): 1) छमाही दर $r = \\frac{8\\%}{2} = 4\\%$ व छमाही चक्र $n = 2 \\times 1.5 = 3$।\n2) मिश्रधन $A = 81250 \\times (1.04)^3 \\approx 91,395.20$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 10,145.2$ (**₹10,145.20**)।\n\nविधि 2: पास्कल गुणांक / प्रभावी % ट्रिक: 3 चक्रों की कुल प्रभावी ब्याज दर $= 12.4864\\%$ से तुरंत **₹10,145.20** प्राप्त होता है!"
     }
   },
   {

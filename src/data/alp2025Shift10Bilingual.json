@@ -58,10 +58,51 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option D (6 years). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (6 वर्ष)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**6 years**).",
+      "keyConcept": "Compound Interest Power-Cycle Rule: If ×m in T yrs ⇒ ×mᵏ in k·T yrs",
+      "optionTrick": {
+        "en": "Notice $9 = 3^{2}$, so it takes **2 equal cycles** $= 2 \\times 3 = 6$ total years!",
+        "hi": "$9 = 3^{2}$ अर्थात 2 समान चक्र लगेंगे: कुल समय $= 2 \\times 3 = 6$ वर्ष!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Exponential Growth Equation P(1+R/100)^T",
+            "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^{T_1} = 3\\implies \\left(1 + \\frac{R}{100}\\right)^{2T_1} = 3^{2} = 9$",
+          "steps": {
+            "en": "1) Every **3 years**, money multiplies by **3**.\n2) Since $9 = 3^{2}$, total time $= 2 \\times 3 = 6$ years.",
+            "hi": "1) प्रत्येक **3 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $9 = 3^{2}$, कुल समय $= 2 \\times 3 = 6$ वर्ष।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiplier Timeline Ladder (2 sec)",
+            "hi": "विधि 2: समय-गुणज सीढ़ी ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Timeline: $1 \\xrightarrow{+3\\text{y}} 3 \\xrightarrow{+3\\text{y}} 9\\Rightarrow$ **6 years**!",
+            "hi": "सीधा चक्र: $1 \\xrightarrow{+3\\text{ व}} 3 \\xrightarrow{+3\\text{ व}} 9\\Rightarrow$ **6 वर्ष**!"
+          }
+        }
+      ],
+      "en": "Method 1: Exponential Growth Equation P(1+R/100)^T: 1) Every **3 years**, money multiplies by **3**.\n2) Since $9 = 3^{2}$, total time $= 2 \\times 3 = 6$ years.\n\nMethod 2: Multiplier Timeline Ladder (2 sec): Timeline: $1 \\xrightarrow{+3\\text{y}} 3 \\xrightarrow{+3\\text{y}} 9\\Rightarrow$ **6 years**!",
+      "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल: 1) प्रत्येक **3 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $9 = 3^{2}$, कुल समय $= 2 \\times 3 = 6$ वर्ष।\n\nविधि 2: समय-गुणज सीढ़ी ट्रिक: सीधा चक्र: $1 \\xrightarrow{+3\\text{ व}} 3 \\xrightarrow{+3\\text{ व}} 9\\Rightarrow$ **6 वर्ष**!"
     },
     "correctIndexHi": 3
   },
@@ -1442,10 +1483,51 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option D (1600). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (1600)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**1600**).",
+      "keyConcept": "Principal Extraction from Total R×T% Simple Interest",
+      "optionTrick": {
+        "en": "Total interest $= 15\\% \\times 2 = 30\\%$ of $P = 480 \\Rightarrow P = \\frac{480 \\times 100}{30} = \\mathbf{1,600}$!",
+        "hi": "कुल ब्याज $= 15\\% \\times 2 = 30\\% = 480 \\Rightarrow P = \\frac{480 \\times 100}{30} = \\mathbf{1,600}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मूलधन सूत्र द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) Given $SI = 480$, $T = 2$ years, $R = 15\\%$.\n2) $P = \\frac{480 \\times 100}{15 \\times 2} = \\frac{48,000}{30} = \\mathbf{1,600}$.",
+            "hi": "1) दिया है $SI = 480$, समय $T = 2$ वर्ष, दर $R = 15\\%$।\n2) $P = \\frac{480 \\times 100}{15 \\times 2} = \\mathbf{1,600}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (R×T%)",
+            "hi": "विधि 2: कुल R×T% ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$30\\% = 480 \\Rightarrow 1\\% = 16 \\Rightarrow 100\\% = \\mathbf{1,600}$ (1600).",
+            "hi": "$30\\% = 480$ तो $1\\% = 16$, इसलिए $100\\% = \\mathbf{1,600}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) Given $SI = 480$, $T = 2$ years, $R = 15\\%$.\n2) $P = \\frac{480 \\times 100}{15 \\times 2} = \\frac{48,000}{30} = \\mathbf{1,600}$.\n\nMethod 2: Percentage Unitary Method (R×T%): $30\\% = 480 \\Rightarrow 1\\% = 16 \\Rightarrow 100\\% = \\mathbf{1,600}$ (1600).",
+      "hi": "विधि 1: मूलधन सूत्र द्वारा हल: 1) दिया है $SI = 480$, समय $T = 2$ वर्ष, दर $R = 15\\%$।\n2) $P = \\frac{480 \\times 100}{15 \\times 2} = \\mathbf{1,600}$ रुपये।\n\nविधि 2: कुल R×T% ऐकिक नियम ट्रिक: $30\\% = 480$ तो $1\\% = 16$, इसलिए $100\\% = \\mathbf{1,600}$।"
     },
     "correctIndexHi": 3
   },

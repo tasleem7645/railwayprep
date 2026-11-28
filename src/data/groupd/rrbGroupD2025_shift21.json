@@ -1047,10 +1047,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (165) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (165) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**165**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 12\\% \\times 2.5 = 30\\%$. Just take $30\\%$ of 550 $= \\mathbf{165}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 12\\% \\times 2.5 = 30\\%$। सीधा 550 का $30\\% = \\mathbf{165}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 550$, $R = 12\\%$, $T = 2.5$ year(s).\n2) $SI = \\frac{550 \\times 12 \\times 2.5}{100} = 5.5 \\times 30 = \\mathbf{165}$.",
+            "hi": "1) $P = 550$, दर $R = 12\\%$, समय $T = 2.5$ वर्ष।\n2) $SI = \\frac{550 \\times 12 \\times 2.5}{100} = \\mathbf{165}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 5.5$. Multiply by $R \\times T = 30$: $5.5 \\times 30 = \\mathbf{165}$.",
+            "hi": "मूलधन का $1\\% = 5.5$। इसे $R \\times T = 30$ से गुणा करें $= \\mathbf{165}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 550$, $R = 12\\%$, $T = 2.5$ year(s).\n2) $SI = \\frac{550 \\times 12 \\times 2.5}{100} = 5.5 \\times 30 = \\mathbf{165}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 5.5$. Multiply by $R \\times T = 30$: $5.5 \\times 30 = \\mathbf{165}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 550$, दर $R = 12\\%$, समय $T = 2.5$ वर्ष।\n2) $SI = \\frac{550 \\times 12 \\times 2.5}{100} = \\mathbf{165}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 5.5$। इसे $R \\times T = 30$ से गुणा करें $= \\mathbf{165}$!"
     }
   },
   {
@@ -1155,10 +1196,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹2,635) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹2,635) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹2,635**).",
+      "keyConcept": "Two Staggered Half-Yearly Deposits (Jan 1 Earns 2 Cycles; Jul 1 Earns 1 Cycle)",
+      "optionTrick": {
+        "en": "Half-yearly rate $r_h = 10\\%$. Equal deposits $P$ earn $P \\times (3r_h + r_h^2)$ $= 8,500 \\times 31\\% = \\mathbf{2,635.00}$!",
+        "hi": "छमाही दर $r_h = 10\\%$। दोनों समान जमा पर कुल ब्याज $= P(3r_h + r_h^2) = 8,500 \\times 31\\% = \\mathbf{2,635.00}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year)",
+            "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI_{\\text{total}} = P_1[(1+r_h)^2 - 1] + P_2 r_h$",
+          "steps": {
+            "en": "1) Half-yearly rate $r_h = \\frac{20\\%}{2} = 10\\%$.\n2) Jan 1 deposit (8,500) earns 2 cycles ($21\\%$): 1785.\n3) Jul 1 deposit (8,500) earns 1 cycle ($10\\%$): 850.\n4) Total interest $= 1785 + 850 = \\mathbf{2,635}$ (₹2,635).",
+            "hi": "1) छमाही दर $r_h = \\frac{20\\%}{2} = 10\\%$।\n2) 1 जनवरी जमा (8,500) पर 2 छमाही ब्याज ($21\\%$) $= 1785$।\n3) 1 जुलाई जमा (8,500) पर 1 छमाही ब्याज ($10\\%$) $= 850$।\n4) कुल ब्याज $= 1785 + 850 = \\mathbf{2,635}$ (₹2,635)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unified Rate-Factor Trick",
+            "hi": "विधि 2: एकीकृत प्रतिशत गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "With equal deposits, combine cycles into one rate: $2r_h + r_h^2 + r_h = 31\\%$ of $8,500 = \\mathbf{2,635}$.",
+            "hi": "समान जमा पर सीधे 8,500 का $31\\% = \\mathbf{2,635}$ निकालें!"
+          }
+        }
+      ],
+      "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year): 1) Half-yearly rate $r_h = \\frac{20\\%}{2} = 10\\%$.\n2) Jan 1 deposit (8,500) earns 2 cycles ($21\\%$): 1785.\n3) Jul 1 deposit (8,500) earns 1 cycle ($10\\%$): 850.\n4) Total interest $= 1785 + 850 = \\mathbf{2,635}$ (₹2,635).\n\nMethod 2: Unified Rate-Factor Trick: With equal deposits, combine cycles into one rate: $2r_h + r_h^2 + r_h = 31\\%$ of $8,500 = \\mathbf{2,635}$.",
+      "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज: 1) छमाही दर $r_h = \\frac{20\\%}{2} = 10\\%$।\n2) 1 जनवरी जमा (8,500) पर 2 छमाही ब्याज ($21\\%$) $= 1785$।\n3) 1 जुलाई जमा (8,500) पर 1 छमाही ब्याज ($10\\%$) $= 850$।\n4) कुल ब्याज $= 1785 + 850 = \\mathbf{2,635}$ (₹2,635)।\n\nविधि 2: एकीकृत प्रतिशत गुणक ट्रिक: समान जमा पर सीधे 8,500 का $31\\% = \\mathbf{2,635}$ निकालें!"
     }
   },
   {

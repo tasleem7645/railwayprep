@@ -877,10 +877,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • 2-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹53.50) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹53.50) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹53.50**).",
+      "keyConcept": "2-Year CI − SI Difference Formula: D = P(R/100)²",
+      "optionTrick": {
+        "en": "Direct shortcut $D_2 = \\frac{R^2}{100}\\%$ of $P = 0.25\\%$ of $21,400 = \\mathbf{53.5}$!",
+        "hi": "सीधा सूत्र $D_2 = P$ का $\\frac{R^2}{100}\\%$ $= 21,400$ का $0.25\\% = \\mathbf{53.5}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 2-Year Difference Formula",
+            "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$D_2 = P\\left(\\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) $P = 21,400$, $R = 5\\%$.\n2) $D_2 = 21400 \\times \\frac{5}{100} \\times \\frac{5}{100} = \\mathbf{53.5}$.",
+            "hi": "1) $P = 21,400$, $R = 5\\%$।\n2) $D_2 = 21400 \\times \\frac{5^2}{10000} = \\mathbf{53.5}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Interest-on-Interest Tree (Zero Formula)",
+            "hi": "विधि 2: केवल ब्याज-पर-ब्याज ट्री विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Diff is simply $R\\%$ of 1st year's SI: Year-1 SI $= 5\\%$ of $21,400 = 1070$, and $5\\%$ of $1070 = \\mathbf{53.5}$!",
+            "hi": "प्रथम वर्ष ब्याज $= 1070$; इसी का $5\\% = \\mathbf{53.5}$ ही अंतर है!"
+          }
+        }
+      ],
+      "en": "Method 1: 2-Year Difference Formula: 1) $P = 21,400$, $R = 5\\%$.\n2) $D_2 = 21400 \\times \\frac{5}{100} \\times \\frac{5}{100} = \\mathbf{53.5}$.\n\nMethod 2: Interest-on-Interest Tree (Zero Formula): Diff is simply $R\\%$ of 1st year's SI: Year-1 SI $= 5\\%$ of $21,400 = 1070$, and $5\\%$ of $1070 = \\mathbf{53.5}$!",
+      "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र: 1) $P = 21,400$, $R = 5\\%$।\n2) $D_2 = 21400 \\times \\frac{5^2}{10000} = \\mathbf{53.5}$ रुपये।\n\nविधि 2: केवल ब्याज-पर-ब्याज ट्री विधि: प्रथम वर्ष ब्याज $= 1070$; इसी का $5\\% = \\mathbf{53.5}$ ही अंतर है!"
     }
   },
   {
@@ -1047,10 +1088,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find Rate",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (100 : 75 : 72) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (100 : 75 : 72) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**100 : 75 : 72**).",
+      "keyConcept": "Rate Ratio from SI, Principal & Time Ratios (R = SI / (P × T))",
+      "optionTrick": {
+        "en": "Compute $\\frac{5}{10\\times 3} : \\frac{7}{14\\times 4} : \\frac{9}{15\\times 5} = \\frac{1}{6} : \\frac{1}{8} : \\frac{3}{25}$. First two ratio is $\\frac{1}{6} : \\frac{1}{8} = 4 : 3 = 100 : 75$, locking **100 : 75 : 72**!",
+        "hi": "$\\frac{5}{10\\times 3} : \\frac{7}{14\\times 4} : \\frac{9}{15\\times 5} = \\frac{1}{6} : \\frac{1}{8} : \\frac{3}{25}$। केवल प्रथम दो भाग $\\frac{1}{6} : \\frac{1}{8} = 4:3$ और अंतिम $\\frac{3}{25}$ से LCM `600` गुणा करने पर **100 : 75 : 72** मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio Formula R = SI / (P × T)",
+            "hi": "विधि 1: अनुपात सूत्र R = SI / (P × T)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "formula": "$R_1 : R_2 : R_3 = \\frac{SI_1}{P_1 T_1} : \\frac{SI_2}{P_2 T_2} : \\frac{SI_3}{P_3 T_3}$",
+          "steps": {
+            "en": "1) $R_1 : R_2 : R_3 = \\frac{5}{10 \\times 3} : \\frac{7}{14 \\times 4} : \\frac{9}{15 \\times 5} = \\frac{1}{6} : \\frac{1}{8} : \\frac{3}{25}$.\n2) Multiply by $\\text{LCM}(6, 8, 25) = 600$: $100 : 75 : 72$.",
+            "hi": "1) $R_1 : R_2 : R_3 = \\frac{5}{30} : \\frac{7}{56} : \\frac{9}{75} = \\frac{1}{6} : \\frac{1}{8} : \\frac{3}{25}$।\n2) हरों के $\\text{LCM}(6, 8, 25) = 600$ से गुणा करने पर **100 : 75 : 72**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Two-Ratio Elimination (1/6 : 1/8 = 100 : 75)",
+            "hi": "विधि 2: प्रथम दो अनुपात + सटीक अंतिम पद ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "From $\\frac{1}{6} : \\frac{1}{8} = 4 : 3$, eliminate `100 : 78 : ...` immediately; compare 2nd vs 3rd: $\\frac{1}{8} : \\frac{3}{25} = 25 : 24 = 75 : 72 \\Rightarrow$ **100 : 75 : 72**!",
+            "hi": "$\\frac{1}{6} : \\frac{1}{8} = 100 : 75$ से विकल्प B/D हटते हैं; अंतिम दो पद $\\frac{1}{8} : \\frac{3}{25} = 25 : 24 = 75 : 72 \\Rightarrow$ **100 : 75 : 72**!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio Formula R = SI / (P × T): 1) $R_1 : R_2 : R_3 = \\frac{5}{10 \\times 3} : \\frac{7}{14 \\times 4} : \\frac{9}{15 \\times 5} = \\frac{1}{6} : \\frac{1}{8} : \\frac{3}{25}$.\n2) Multiply by $\\text{LCM}(6, 8, 25) = 600$: $100 : 75 : 72$.\n\nMethod 2: Two-Ratio Elimination (1/6 : 1/8 = 100 : 75): From $\\frac{1}{6} : \\frac{1}{8} = 4 : 3$, eliminate `100 : 78 : ...` immediately; compare 2nd vs 3rd: $\\frac{1}{8} : \\frac{3}{25} = 25 : 24 = 75 : 72 \\Rightarrow$ **100 : 75 : 72**!",
+      "hi": "विधि 1: अनुपात सूत्र R = SI / (P × T): 1) $R_1 : R_2 : R_3 = \\frac{5}{30} : \\frac{7}{56} : \\frac{9}{75} = \\frac{1}{6} : \\frac{1}{8} : \\frac{3}{25}$।\n2) हरों के $\\text{LCM}(6, 8, 25) = 600$ से गुणा करने पर **100 : 75 : 72**।\n\nविधि 2: प्रथम दो अनुपात + सटीक अंतिम पद ट्रिक: $\\frac{1}{6} : \\frac{1}{8} = 100 : 75$ से विकल्प B/D हटते हैं; अंतिम दो पद $\\frac{1}{8} : \\frac{3}{25} = 25 : 24 = 75 : 72 \\Rightarrow$ **100 : 75 : 72**!"
     }
   },
   {
@@ -1081,10 +1163,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (46,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (46,000) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**46,000**).",
+      "keyConcept": "Difference of Two Equal-Principal Simple Interests = P × |R₂ − R₁| × T / 100",
+      "optionTrick": {
+        "en": "Never calculate Bank A and Bank B separately! Rate gap $= |8.5 - 3.5| = 5\\%$ per yr $\\times 2 = 10\\%$ of $4,60,000 = \\mathbf{46,000}$!",
+        "hi": "दोनों बैंकों का ब्याज अलग-अलग न निकालें! दर अंतर $= 5\\% \\times 2 = 10\\%$। सीधा 4,60,000 का 10% $= \\mathbf{46,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Difference of Individual SI Values",
+            "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $SI_A = \\frac{460000 \\times 3.5 \\times 2}{100} = 32,200$.\n2) $SI_B = \\frac{460000 \\times 8.5 \\times 2}{100} = 78,200$.\n3) Difference $= 78,200 - 32,200 = \\mathbf{46,000}$.",
+            "hi": "1) बैंक A का ब्याज $= 32,200$ रुपये।\n2) बैंक B का ब्याज $= 78,200$ रुपये।\n3) अंतर $= 78,200 - 32,200 = \\mathbf{46,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Rate-Difference % Shortcut (3 sec)",
+            "hi": "विधि 2: शुद्ध दर-अंतर % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta SI = \\frac{P \\times |R_2 - R_1| \\times T}{100}$",
+          "steps": {
+            "en": "$\\Delta SI = 5\\% \\times 2 \\text{ of } 4,60,000 = 10\\% \\times 4,60,000 = \\mathbf{46,000}$.",
+            "hi": "$\\Delta SI = (8.5 - 3.5)\\% \\times 2$ वर्ष $= 10\\%$ of $4,60,000 = \\mathbf{46,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Difference of Individual SI Values: 1) $SI_A = \\frac{460000 \\times 3.5 \\times 2}{100} = 32,200$.\n2) $SI_B = \\frac{460000 \\times 8.5 \\times 2}{100} = 78,200$.\n3) Difference $= 78,200 - 32,200 = \\mathbf{46,000}$.\n\nMethod 2: Net Rate-Difference % Shortcut (3 sec): $\\Delta SI = 5\\% \\times 2 \\text{ of } 4,60,000 = 10\\% \\times 4,60,000 = \\mathbf{46,000}$.",
+      "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर: 1) बैंक A का ब्याज $= 32,200$ रुपये।\n2) बैंक B का ब्याज $= 78,200$ रुपये।\n3) अंतर $= 78,200 - 32,200 = \\mathbf{46,000}$ रुपये।\n\nविधि 2: शुद्ध दर-अंतर % ट्रिक: $\\Delta SI = (8.5 - 3.5)\\% \\times 2$ वर्ष $= 10\\%$ of $4,60,000 = \\mathbf{46,000}$!"
     }
   },
   {

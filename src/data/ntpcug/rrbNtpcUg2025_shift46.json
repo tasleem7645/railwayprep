@@ -1683,10 +1683,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (1,440) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (1,440) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**1,440**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 8\\% \\times 6 = 48\\%$. Just take $48\\%$ of 3,000 $= \\mathbf{1,440}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 8\\% \\times 6 = 48\\%$। सीधा 3,000 का $48\\% = \\mathbf{1,440}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 3,000$, $R = 8\\%$, $T = 6$ year(s).\n2) $SI = \\frac{3000 \\times 8 \\times 6}{100} = 30 \\times 48 = \\mathbf{1,440}$.",
+            "hi": "1) $P = 3,000$, दर $R = 8\\%$, समय $T = 6$ वर्ष।\n2) $SI = \\frac{3000 \\times 8 \\times 6}{100} = \\mathbf{1,440}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 30$. Multiply by $R \\times T = 48$: $30 \\times 48 = \\mathbf{1,440}$.",
+            "hi": "मूलधन का $1\\% = 30$। इसे $R \\times T = 48$ से गुणा करें $= \\mathbf{1,440}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 3,000$, $R = 8\\%$, $T = 6$ year(s).\n2) $SI = \\frac{3000 \\times 8 \\times 6}{100} = 30 \\times 48 = \\mathbf{1,440}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 30$. Multiply by $R \\times T = 48$: $30 \\times 48 = \\mathbf{1,440}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 3,000$, दर $R = 8\\%$, समय $T = 6$ वर्ष।\n2) $SI = \\frac{3000 \\times 8 \\times 6}{100} = \\mathbf{1,440}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 30$। इसे $R \\times T = 48$ से गुणा करें $= \\mathbf{1,440}$!"
     }
   },
   {
@@ -1921,10 +1962,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹14,595) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹14,595) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹14,595**).",
+      "keyConcept": "Two-Stage Simple Interest (Fractional Years + Final Amount)",
+      "optionTrick": {
+        "en": "Stage 1 % $= \\frac{17}{2} \\times 3.2\\% = 27.2\\% = 2,550 \\Rightarrow 1\\% = 93.75$ (P = 9,375). Stage 2 % $= \\frac{29}{5} \\times 9.6\\% = 55.68\\%$. Amount $= 155.68\\%$ of $P = \\mathbf{14,595}$!",
+        "hi": "प्रथम चरण ब्याज % $= \\frac{17}{2} \\times 3.2 = 27.2\\% = 2,550 \\Rightarrow P = 9,375$। द्वितीय चरण % $= \\frac{29}{5} \\times 9.6 = 55.68\\%$ $\\Rightarrow$ मिश्रधन $= 9,375$ का 155.68% $= \\mathbf{14,595}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert Mixed Fractions & Solve P First",
+            "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI_1 \\times 100}{R_1 \\times T_1},\\quad A_2 = P\\left(1 + \\frac{R_2 T_2}{100}\\right)$",
+          "steps": {
+            "en": "1) $T_1 = 8\\frac{1}{2} = \\frac{17}{2}$ yrs $\\Rightarrow R_1 T_1 = 3.2 \\times \\frac{17}{2} = 27.2\\%$.\n2) $P = \\frac{2550 \\times 100}{27.2} = 9,375$.\n3) $T_2 = 5\\frac{4}{5} = \\frac{29}{5}$ yrs $\\Rightarrow R_2 T_2 = 9.6 \\times \\frac{29}{5} = 55.68\\%$.\n4) $SI_2 = 9,375 \\times 55.68\\% = 5,220 \\Rightarrow A_2 = 9,375 + 5,220 = \\mathbf{14,595}$.",
+            "hi": "1) $T_1 = 8\\frac{1}{2} = \\frac{17}{2}$ वर्ष $\\Rightarrow R_1 T_1 = 27.2\\%$।\n2) $P = \\frac{2550 \\times 100}{27.2} = 9,375$ रुपये।\n3) $T_2 = 5\\frac{4}{5} = \\frac{29}{5}$ वर्ष $\\Rightarrow R_2 T_2 = 55.68\\%$।\n4) $SI_2 = 5,220 \\Rightarrow$ देय राशि $A_2 = 9,375 + 5,220 = \\mathbf{14,595}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Factor Ratio",
+            "hi": "विधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of $P = \\frac{2550}{27.2} = 93.75$. Since Amount $= 155.68\\%$, directly compute $93.75 \\times 155.68 = \\mathbf{14,595}$.",
+            "hi": "$P$ का $1\\% = \\frac{2550}{27.2} = 93.75$। अतः देय राशि $= 155.68 \\times 93.75 = \\mathbf{14,595}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert Mixed Fractions & Solve P First: 1) $T_1 = 8\\frac{1}{2} = \\frac{17}{2}$ yrs $\\Rightarrow R_1 T_1 = 3.2 \\times \\frac{17}{2} = 27.2\\%$.\n2) $P = \\frac{2550 \\times 100}{27.2} = 9,375$.\n3) $T_2 = 5\\frac{4}{5} = \\frac{29}{5}$ yrs $\\Rightarrow R_2 T_2 = 9.6 \\times \\frac{29}{5} = 55.68\\%$.\n4) $SI_2 = 9,375 \\times 55.68\\% = 5,220 \\Rightarrow A_2 = 9,375 + 5,220 = \\mathbf{14,595}$.\n\nMethod 2: Direct Multiplier Factor Ratio: $1\\%$ of $P = \\frac{2550}{27.2} = 93.75$. Since Amount $= 155.68\\%$, directly compute $93.75 \\times 155.68 = \\mathbf{14,595}$.",
+      "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें: 1) $T_1 = 8\\frac{1}{2} = \\frac{17}{2}$ वर्ष $\\Rightarrow R_1 T_1 = 27.2\\%$।\n2) $P = \\frac{2550 \\times 100}{27.2} = 9,375$ रुपये।\n3) $T_2 = 5\\frac{4}{5} = \\frac{29}{5}$ वर्ष $\\Rightarrow R_2 T_2 = 55.68\\%$।\n4) $SI_2 = 5,220 \\Rightarrow$ देय राशि $A_2 = 9,375 + 5,220 = \\mathbf{14,595}$ रुपये।\n\nविधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक: $P$ का $1\\% = \\frac{2550}{27.2} = 93.75$। अतः देय राशि $= 155.68 \\times 93.75 = \\mathbf{14,595}$!"
     }
   },
   {

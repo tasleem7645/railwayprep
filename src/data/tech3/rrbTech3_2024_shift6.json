@@ -2660,10 +2660,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹1,453.76**).",
+      "keyConcept": "Final Amount Under Simple Interest: A = P × (1 + RT/100)",
+      "optionTrick": {
+        "en": "Total interest $= 6\\% \\times 3 = 18\\%$. Amount $= 118\\%$ of 1,232 $= \\mathbf{1,453.76}$!",
+        "hi": "कुल ब्याज $= 6\\% \\times 3 = 18\\%$। मिश्रधन $= 1,232$ का 118% $= \\mathbf{1,453.76}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find SI First, Then Add to Principal",
+            "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100},\\quad A = P + SI$",
+          "steps": {
+            "en": "1) $R = 6\\% = 6\\%$, $T = 3$ years $\\Rightarrow R \\times T = 18\\%$.\n2) $SI = \\frac{1232 \\times 18}{100} = 221.76$.\n3) Amount $A = 1,232 + 221.76 = \\mathbf{1,453.76}$.",
+            "hi": "1) दर $R = 6\\% = 6\\%$, समय $T = 3$ वर्ष $\\Rightarrow R \\times T = 18\\%$।\n2) $SI = \\frac{1232 \\times 18}{100} = 221.76$ रुपये।\n3) मिश्रधन $A = 1,232 + 221.76 = \\mathbf{1,453.76}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Amount Factor (100 + R×T)%",
+            "hi": "विधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct Amount factor $= 1 + \\frac{18}{100} = 1.18$. Compute $1,232 \\times 1.18 = \\mathbf{1,453.76}$.",
+            "hi": "सीधा मिश्रधन $= 1,232 \\times 1.18 = \\mathbf{1,453.76}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Find SI First, Then Add to Principal: 1) $R = 6\\% = 6\\%$, $T = 3$ years $\\Rightarrow R \\times T = 18\\%$.\n2) $SI = \\frac{1232 \\times 18}{100} = 221.76$.\n3) Amount $A = 1,232 + 221.76 = \\mathbf{1,453.76}$.\n\nMethod 2: Direct Amount Factor (100 + R×T)%: Direct Amount factor $= 1 + \\frac{18}{100} = 1.18$. Compute $1,232 \\times 1.18 = \\mathbf{1,453.76}$.",
+      "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें: 1) दर $R = 6\\% = 6\\%$, समय $T = 3$ वर्ष $\\Rightarrow R \\times T = 18\\%$।\n2) $SI = \\frac{1232 \\times 18}{100} = 221.76$ रुपये।\n3) मिश्रधन $A = 1,232 + 221.76 = \\mathbf{1,453.76}$ रुपये।\n\nविधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक: सीधा मिश्रधन $= 1,232 \\times 1.18 = \\mathbf{1,453.76}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
     }
   },
   {
@@ -3155,10 +3196,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹900**).",
+      "keyConcept": "Principal from SI Amount: A = (100 + R×T)% of P",
+      "optionTrick": {
+        "en": "Amount $= 124\\%$ of $P = 1,116 \\Rightarrow P = \\frac{1,116 \\times 100}{124} = \\mathbf{900}$!",
+        "hi": "कुल मिश्रधन $= (100 + 24) = 124\\% = 1,116$। अतः $P = \\frac{1,116 \\times 100}{124} = \\mathbf{900}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Percentage Equation",
+            "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{A \\times 100}{100 + R \\times T}$",
+          "steps": {
+            "en": "1) Total interest $= 4\\% \\times 6 = 24\\% \\Rightarrow$ Amount $= 124\\%$ of $P$.\n2) $P = \\frac{1116 \\times 100}{124} = \\mathbf{900}$.",
+            "hi": "1) कुल ब्याज $= 4\\% \\times 6 = 24\\% \\Rightarrow$ मिश्रधन $= 124\\%$।\n2) $P = \\frac{1116 \\times 100}{124} = \\mathbf{900}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Multiplier Trick",
+            "hi": "विधि 2: अनुपात भाग विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$R \\times T = 24\\% = \\frac{6}{25} \\Rightarrow P : A = 25 : 31$. Since 31 parts $= 1,116$, $P = 25 \\times 36 = \\mathbf{900}$.",
+            "hi": "$24\\% = \\frac{6}{25} \\Rightarrow P : A = 25 : 31$। अतः $P = 25 \\times 36 = \\mathbf{900}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Percentage Equation: 1) Total interest $= 4\\% \\times 6 = 24\\% \\Rightarrow$ Amount $= 124\\%$ of $P$.\n2) $P = \\frac{1116 \\times 100}{124} = \\mathbf{900}$.\n\nMethod 2: Ratio Multiplier Trick: $R \\times T = 24\\% = \\frac{6}{25} \\Rightarrow P : A = 25 : 31$. Since 31 parts $= 1,116$, $P = 25 \\times 36 = \\mathbf{900}$.",
+      "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण: 1) कुल ब्याज $= 4\\% \\times 6 = 24\\% \\Rightarrow$ मिश्रधन $= 124\\%$।\n2) $P = \\frac{1116 \\times 100}{124} = \\mathbf{900}$ रुपये।\n\nविधि 2: अनुपात भाग विधि: $24\\% = \\frac{6}{25} \\Rightarrow P : A = 25 : 31$। अतः $P = 25 \\times 36 = \\mathbf{900}$।"
     }
   },
   {

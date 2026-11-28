@@ -1876,10 +1876,51 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option B (1500). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (1500)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**1500**).",
+      "keyConcept": "Principal Extraction from Total R×T% Simple Interest",
+      "optionTrick": {
+        "en": "Total interest $= 16\\% \\times 2 = 32\\%$ of $P = 480 \\Rightarrow P = \\frac{480 \\times 100}{32} = \\mathbf{1,500}$!",
+        "hi": "कुल ब्याज $= 16\\% \\times 2 = 32\\% = 480 \\Rightarrow P = \\frac{480 \\times 100}{32} = \\mathbf{1,500}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मूलधन सूत्र द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) Given $SI = 480$, $T = 2$ years, $R = 16\\%$.\n2) $P = \\frac{480 \\times 100}{16 \\times 2} = \\frac{48,000}{32} = \\mathbf{1,500}$.",
+            "hi": "1) दिया है $SI = 480$, समय $T = 2$ वर्ष, दर $R = 16\\%$।\n2) $P = \\frac{480 \\times 100}{16 \\times 2} = \\mathbf{1,500}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (R×T%)",
+            "hi": "विधि 2: कुल R×T% ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$32\\% = 480 \\Rightarrow 1\\% = 15 \\Rightarrow 100\\% = \\mathbf{1,500}$ (1500).",
+            "hi": "$32\\% = 480$ तो $1\\% = 15$, इसलिए $100\\% = \\mathbf{1,500}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) Given $SI = 480$, $T = 2$ years, $R = 16\\%$.\n2) $P = \\frac{480 \\times 100}{16 \\times 2} = \\frac{48,000}{32} = \\mathbf{1,500}$.\n\nMethod 2: Percentage Unitary Method (R×T%): $32\\% = 480 \\Rightarrow 1\\% = 15 \\Rightarrow 100\\% = \\mathbf{1,500}$ (1500).",
+      "hi": "विधि 1: मूलधन सूत्र द्वारा हल: 1) दिया है $SI = 480$, समय $T = 2$ वर्ष, दर $R = 16\\%$।\n2) $P = \\frac{480 \\times 100}{16 \\times 2} = \\mathbf{1,500}$ रुपये।\n\nविधि 2: कुल R×T% ऐकिक नियम ट्रिक: $32\\% = 480$ तो $1\\% = 15$, इसलिए $100\\% = \\mathbf{1,500}$।"
     },
     "correctIndexHi": 1
   },
@@ -2041,10 +2082,55 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (12150). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (12150)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**12150**).",
+      "keyConcept": "Equal CI Maturity Split ⇒ Ratio = (1 + R/100)^ΔT : 1 (Less Time Gets More!)",
+      "optionTrick": {
+        "en": "Time difference $\\Delta T = 1$ yr(s) at 8% ($\\frac{27}{25}$). Share ratio $= 27 : 25$ ($\\text{Sum} = 52$ parts $= 23,400 \\Rightarrow 1\\text{ part} = 450$). Shorter-duration person gets larger share $= 27 \\times 450 = \\mathbf{12,150}$!",
+        "hi": "दोनों के समय में केवल $\\Delta T = 1$ वर्ष का अंतर है! 8% ($\\frac{27}{25}$) के साथ अनुपात $= 27 : 25$ (योग $= 52$ भाग $= 23,400$)। कम समय वाले को बड़ा भाग $= 27 \\times 450 = \\mathbf{12,150}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT use `14, 15, 17, 18` years to expand powers — **only the difference `ΔT` between their investment durations matters**!",
+        "hi": "कभी भी 16 व 17 या 12 व 13 की बड़ी घात न निकालें — **केवल दोनों समयावधियों के अंतर $\\Delta T = 1$** का अनुपात लें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers",
+            "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$S_1\\left(1+\\frac{R}{100}\\right)^{T_1} = S_2\\left(1+\\frac{R}{100}\\right)^{T_2} \\implies \\frac{S_1}{S_2} = \\left(1+\\frac{R}{100}\\right)^{T_2 - T_1}$",
+          "steps": {
+            "en": "1) Investment periods are 9 yrs and 8 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{27}{25}\\right)^{1} : 1 = 27 : 25$ (Sum $= 52$ parts).\n3) 1 part $= \\frac{23400}{52} = 450 \\Rightarrow$ Asked share $= 27 \\times 450 = \\mathbf{12,150}$.",
+            "hi": "1) दोनों की निवेश अवधि 9 वर्ष व 8 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{27}{25}\\right)^{1} : 1 = 27 : 25$ (कुल $= 52$ भाग)।\n3) 1 भाग $= \\frac{23400}{52} = 450 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{12,150}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Fraction Split (10-Sec Shortcut)",
+            "hi": "विधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since 23400 divides cleanly by 52 ($= 450$), pick **27 × 450** (the larger share goes to the person compounding for fewer years) $= \\mathbf{12,150}$.",
+            "hi": "23400, 52 से ठीक 450 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 27 \\times 450 = \\mathbf{12,150}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers: 1) Investment periods are 9 yrs and 8 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{27}{25}\\right)^{1} : 1 = 27 : 25$ (Sum $= 52$ parts).\n3) 1 part $= \\frac{23400}{52} = 450 \\Rightarrow$ Asked share $= 27 \\times 450 = \\mathbf{12,150}$.\n\nMethod 2: Instant Fraction Split (10-Sec Shortcut): Since 23400 divides cleanly by 52 ($= 450$), pick **27 × 450** (the larger share goes to the person compounding for fewer years) $= \\mathbf{12,150}$.",
+      "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना: 1) दोनों की निवेश अवधि 9 वर्ष व 8 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{27}{25}\\right)^{1} : 1 = 27 : 25$ (कुल $= 52$ भाग)।\n3) 1 भाग $= \\frac{23400}{52} = 450 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{12,150}$।\n\nविधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक: 23400, 52 से ठीक 450 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 27 \\times 450 = \\mathbf{12,150}$!"
     },
     "correctIndexHi": 0
   },

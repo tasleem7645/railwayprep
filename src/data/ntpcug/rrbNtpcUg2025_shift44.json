@@ -1595,10 +1595,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (9,375) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (9,375) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**9,375**).",
+      "keyConcept": "Equal Simple Interest Split ⇒ Inverse Rate Ratio (P₁ : P₂ = R₂ : R₁)",
+      "optionTrick": {
+        "en": "Time (3 yrs) cancels out completely! When $SI_1 = SI_2$, $P_1 : P_2 = R_2 : R_1 = 5 : 7$ (5 : 7). Sum $= 22,500 \\times \\frac{5}{12} = \\mathbf{9,375}$!",
+        "hi": "दोनों निवेश समान समय (3 वर्ष) के लिए हैं अतः समय कट जाता है! $P_1 : P_2 = R_2 : R_1 = 5 : 7 = 5 : 7$। 7% पर राशि $= 22,500 \\times \\frac{5}{12} = \\mathbf{9,375}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT waste time multiplying by T = 3 years, and keep the ratio **inverse** ($R_2 : R_1$, NOT $R_1 : R_2$)!",
+        "hi": "समान समय ($T = 3$ वर्ष) से गुणा करने में समय न गँवाएँ और अनुपात **उल्टा** ($P_1 : P_2 = R_2 : R_1$) लेना याद रखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate SI₁ = SI₂ Equation",
+            "hi": "विधि 1: दोनों भागों के ब्याज बराबर रखकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$\\frac{P_1 \\times R_1 \\times T}{100} = \\frac{P_2 \\times R_2 \\times T}{100} \\implies \\frac{P_1}{P_2} = \\frac{R_2}{R_1}$",
+          "steps": {
+            "en": "1) $\\frac{P_1 \\times 7 \\times 3}{100} = \\frac{(22500 - P_1) \\times 5 \\times 3}{100} \\Rightarrow 7 P_1 = 5(22500 - P_1)$.\n2) $(7 + 5) P_1 = 5 \\times 22500 \\Rightarrow P_1 = \\frac{5 \\times 22500}{12} = 9,375$.\n3) Sum at $7\\%$ $= \\mathbf{9,375}$.",
+            "hi": "1) $\\frac{P_1 \\times 7 \\times 3}{100} = \\frac{(22500 - P_1) \\times 5 \\times 3}{100} \\Rightarrow 7 P_1 = 5(22500 - P_1)$।\n2) $P_1 : P_2 = 5 : 7$ ($= 5 : 7$), कुल $= 12$ भाग।\n3) 7% दर वाला भाग $= 22,500 \\times \\frac{5}{12} = \\mathbf{9,375}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Inverse-Rate Ratio Trick (4 sec)",
+            "hi": "विधि 2: सीधा व्युत्क्रम दर अनुपात ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 part $= \\frac{22,500}{12} = 1875$. Sum at $7\\%$ gets **5 parts** $= 5 \\times 1875 = \\mathbf{9,375}$.",
+            "hi": "1 भाग $= \\frac{22,500}{12} = 1875$। 7% पर निवेशित भाग (**5** भाग) $= \\mathbf{9,375}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate SI₁ = SI₂ Equation: 1) $\\frac{P_1 \\times 7 \\times 3}{100} = \\frac{(22500 - P_1) \\times 5 \\times 3}{100} \\Rightarrow 7 P_1 = 5(22500 - P_1)$.\n2) $(7 + 5) P_1 = 5 \\times 22500 \\Rightarrow P_1 = \\frac{5 \\times 22500}{12} = 9,375$.\n3) Sum at $7\\%$ $= \\mathbf{9,375}$.\n\nMethod 2: Direct Inverse-Rate Ratio Trick (4 sec): 1 part $= \\frac{22,500}{12} = 1875$. Sum at $7\\%$ gets **5 parts** $= 5 \\times 1875 = \\mathbf{9,375}$.",
+      "hi": "विधि 1: दोनों भागों के ब्याज बराबर रखकर हल: 1) $\\frac{P_1 \\times 7 \\times 3}{100} = \\frac{(22500 - P_1) \\times 5 \\times 3}{100} \\Rightarrow 7 P_1 = 5(22500 - P_1)$।\n2) $P_1 : P_2 = 5 : 7$ ($= 5 : 7$), कुल $= 12$ भाग।\n3) 7% दर वाला भाग $= 22,500 \\times \\frac{5}{12} = \\mathbf{9,375}$।\n\nविधि 2: सीधा व्युत्क्रम दर अनुपात ट्रिक: 1 भाग $= \\frac{22,500}{12} = 1875$। 7% पर निवेशित भाग (**5** भाग) $= \\mathbf{9,375}$!"
     }
   },
   {
@@ -2298,10 +2343,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹14,280) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹14,280) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹14,280**).",
+      "keyConcept": "Two-Stage Simple Interest (Fractional Years + Final Amount)",
+      "optionTrick": {
+        "en": "Stage 1 % $= \\frac{23}{3} \\times 5.4\\% = 41.4\\% = 4,347 \\Rightarrow 1\\% = 105$ (P = 10,500). Stage 2 % $= \\frac{24}{5} \\times 7.5\\% = 36\\%$. Amount $= 136\\%$ of $P = \\mathbf{14,280}$!",
+        "hi": "प्रथम चरण ब्याज % $= \\frac{23}{3} \\times 5.4 = 41.4\\% = 4,347 \\Rightarrow P = 10,500$। द्वितीय चरण % $= \\frac{24}{5} \\times 7.5 = 36\\%$ $\\Rightarrow$ मिश्रधन $= 10,500$ का 136% $= \\mathbf{14,280}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert Mixed Fractions & Solve P First",
+            "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI_1 \\times 100}{R_1 \\times T_1},\\quad A_2 = P\\left(1 + \\frac{R_2 T_2}{100}\\right)$",
+          "steps": {
+            "en": "1) $T_1 = 7\\frac{2}{3} = \\frac{23}{3}$ yrs $\\Rightarrow R_1 T_1 = 5.4 \\times \\frac{23}{3} = 41.4\\%$.\n2) $P = \\frac{4347 \\times 100}{41.4} = 10,500$.\n3) $T_2 = 4\\frac{4}{5} = \\frac{24}{5}$ yrs $\\Rightarrow R_2 T_2 = 7.5 \\times \\frac{24}{5} = 36\\%$.\n4) $SI_2 = 10,500 \\times 36\\% = 3,780 \\Rightarrow A_2 = 10,500 + 3,780 = \\mathbf{14,280}$.",
+            "hi": "1) $T_1 = 7\\frac{2}{3} = \\frac{23}{3}$ वर्ष $\\Rightarrow R_1 T_1 = 41.4\\%$।\n2) $P = \\frac{4347 \\times 100}{41.4} = 10,500$ रुपये।\n3) $T_2 = 4\\frac{4}{5} = \\frac{24}{5}$ वर्ष $\\Rightarrow R_2 T_2 = 36\\%$।\n4) $SI_2 = 3,780 \\Rightarrow$ देय राशि $A_2 = 10,500 + 3,780 = \\mathbf{14,280}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Factor Ratio",
+            "hi": "विधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of $P = \\frac{4347}{41.4} = 105$. Since Amount $= 136\\%$, directly compute $105 \\times 136 = \\mathbf{14,280}$.",
+            "hi": "$P$ का $1\\% = \\frac{4347}{41.4} = 105$। अतः देय राशि $= 136 \\times 105 = \\mathbf{14,280}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert Mixed Fractions & Solve P First: 1) $T_1 = 7\\frac{2}{3} = \\frac{23}{3}$ yrs $\\Rightarrow R_1 T_1 = 5.4 \\times \\frac{23}{3} = 41.4\\%$.\n2) $P = \\frac{4347 \\times 100}{41.4} = 10,500$.\n3) $T_2 = 4\\frac{4}{5} = \\frac{24}{5}$ yrs $\\Rightarrow R_2 T_2 = 7.5 \\times \\frac{24}{5} = 36\\%$.\n4) $SI_2 = 10,500 \\times 36\\% = 3,780 \\Rightarrow A_2 = 10,500 + 3,780 = \\mathbf{14,280}$.\n\nMethod 2: Direct Multiplier Factor Ratio: $1\\%$ of $P = \\frac{4347}{41.4} = 105$. Since Amount $= 136\\%$, directly compute $105 \\times 136 = \\mathbf{14,280}$.",
+      "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें: 1) $T_1 = 7\\frac{2}{3} = \\frac{23}{3}$ वर्ष $\\Rightarrow R_1 T_1 = 41.4\\%$।\n2) $P = \\frac{4347 \\times 100}{41.4} = 10,500$ रुपये।\n3) $T_2 = 4\\frac{4}{5} = \\frac{24}{5}$ वर्ष $\\Rightarrow R_2 T_2 = 36\\%$।\n4) $SI_2 = 3,780 \\Rightarrow$ देय राशि $A_2 = 10,500 + 3,780 = \\mathbf{14,280}$ रुपये।\n\nविधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक: $P$ का $1\\% = \\frac{4347}{41.4} = 105$। अतः देय राशि $= 136 \\times 105 = \\mathbf{14,280}$!"
     }
   },
   {

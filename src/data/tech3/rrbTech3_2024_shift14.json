@@ -1056,10 +1056,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**1,94,481**).",
+      "keyConcept": "Compound Population / Growth Factor Over 2 Years",
+      "optionTrick": {
+        "en": "Fraction factor $= \\frac{21}{20}$ (2 yrs $= \\frac{441}{400}$), or net 2-yr change $= +10.25\\%$ $\\Rightarrow \\mathbf{1,94,481}$!",
+        "hi": "भिन्न गुणक $= \\frac{21}{20}$ के 2 वर्ष ($\\frac{441}{400}$) अथवा शुद्ध वृद्धि 10.25% से सीधा उत्तर **1,94,481**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 2-Year Growth/Depreciation Formula",
+            "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$V_{\\text{after}} = V_0\\left(1 + \\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) Annual factor $= 1 + 5\\% = \\frac{21}{20}$.\n2) After 2 years: $V = 176400 \\times \\frac{21}{20} \\times \\frac{21}{20} = \\mathbf{1,94,481}$ (1,94,481).",
+            "hi": "1) वार्षिक गुणक $= \\frac{21}{20}$।\n2) 2 वर्ष बाद मान $= 176400 \\times \\frac{21}{20} \\times \\frac{21}{20} = \\mathbf{1,94,481}$ (1,94,481)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Successive % / Unit-Digit Check",
+            "hi": "विधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr change $= +10.25\\%$. Apply directly to 176400 gives **1,94,481**!",
+            "hi": "2 वर्ष का शुद्ध परिवर्तन $= +10.25\\%$ लगाने पर सीधा **1,94,481** आता है!"
+          }
+        }
+      ],
+      "en": "Method 1: 2-Year Growth/Depreciation Formula: 1) Annual factor $= 1 + 5\\% = \\frac{21}{20}$.\n2) After 2 years: $V = 176400 \\times \\frac{21}{20} \\times \\frac{21}{20} = \\mathbf{1,94,481}$ (1,94,481).\n\nMethod 2: Net Successive % / Unit-Digit Check: Net 2-yr change $= +10.25\\%$. Apply directly to 176400 gives **1,94,481**!",
+      "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र: 1) वार्षिक गुणक $= \\frac{21}{20}$।\n2) 2 वर्ष बाद मान $= 176400 \\times \\frac{21}{20} \\times \\frac{21}{20} = \\mathbf{1,94,481}$ (1,94,481)।\n\nविधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक: 2 वर्ष का शुद्ध परिवर्तन $= +10.25\\%$ लगाने पर सीधा **1,94,481** आता है!"
     }
   },
   {

@@ -355,10 +355,51 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 8)",
-      "en": "Correct Answer: Option C (₹205). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹205)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**₹205**).",
+      "keyConcept": "Annual Compound Interest over 2 Years (5% = 1/20)",
+      "optionTrick": {
+        "en": "Use 2-yr factor $\\frac{441}{400}$ or effective rate **10.25%** of 2,000 $\\Rightarrow \\mathbf{Rs.205}$!",
+        "hi": "प्रभावी दर **10.25%** या भिन्न गुणक $\\frac{441}{400}$ लगाने पर सीधा उत्तर **₹205** आता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (21/20)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (21/20)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{100}\\right)^T - 1\\right]$",
+          "steps": {
+            "en": "1) 5% annual factor $= \\frac{21}{20}$ over 2 years $\\Rightarrow \\frac{441}{400}$.\n2) $A = 2000 \\times \\frac{441}{400} = 2,205.00$.\n3) $CI = 2,205.00 - 2,000 = 205.00$ (**₹205**).",
+            "hi": "1) 5% दर का 2-वर्ष गुणक $= \\frac{441}{400}$।\n2) मिश्रधन $A = 2000 \\times \\frac{441}{400} = 2,205.00$ रुपये।\n3) $CI = 2,205.00 - 2,000 = 205.00$ (**₹205**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr CI rate $= 10.25\\%$. Multiply 0.1025 by 2,000 $\\Rightarrow \\mathbf{Rs.205}$!",
+            "hi": "2 वर्ष की कुल ब्याज दर 10.25% से सीधा उत्तर **₹205** मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (21/20): 1) 5% annual factor $= \\frac{21}{20}$ over 2 years $\\Rightarrow \\frac{441}{400}$.\n2) $A = 2000 \\times \\frac{441}{400} = 2,205.00$.\n3) $CI = 2,205.00 - 2,000 = 205.00$ (**₹205**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Net 2-yr CI rate $= 10.25\\%$. Multiply 0.1025 by 2,000 $\\Rightarrow \\mathbf{Rs.205}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (21/20): 1) 5% दर का 2-वर्ष गुणक $= \\frac{441}{400}$।\n2) मिश्रधन $A = 2000 \\times \\frac{441}{400} = 2,205.00$ रुपये।\n3) $CI = 2,205.00 - 2,000 = 205.00$ (**₹205**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: 2 वर्ष की कुल ब्याज दर 10.25% से सीधा उत्तर **₹205** मिलता है!"
     },
     "correctIndexHi": 2
   },
@@ -1543,10 +1584,51 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 8)",
-      "en": "Correct Answer: Option C (69,440). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (69,440)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**69,440**).",
+      "keyConcept": "Final Amount Under Simple Interest: A = P × (1 + RT/100)",
+      "optionTrick": {
+        "en": "Total interest $= 12\\% \\times 2 = 24\\%$. Amount $= 124\\%$ of 56,000 $= \\mathbf{69,440}$!",
+        "hi": "कुल ब्याज $= 12\\% \\times 2 = 24\\%$। मिश्रधन $= 56,000$ का 124% $= \\mathbf{69,440}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find SI First, Then Add to Principal",
+            "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100},\\quad A = P + SI$",
+          "steps": {
+            "en": "1) $R = 12\\% = 12\\%$, $T = 2$ years $\\Rightarrow R \\times T = 24\\%$.\n2) $SI = \\frac{56000 \\times 24}{100} = 13,440$.\n3) Amount $A = 56,000 + 13,440 = \\mathbf{69,440}$.",
+            "hi": "1) दर $R = 12\\% = 12\\%$, समय $T = 2$ वर्ष $\\Rightarrow R \\times T = 24\\%$।\n2) $SI = \\frac{56000 \\times 24}{100} = 13,440$ रुपये।\n3) मिश्रधन $A = 56,000 + 13,440 = \\mathbf{69,440}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Amount Factor (100 + R×T)%",
+            "hi": "विधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct Amount factor $= 1 + \\frac{24}{100} = 1.24$. Compute $56,000 \\times 1.24 = \\mathbf{69,440}$.",
+            "hi": "सीधा मिश्रधन $= 56,000 \\times 1.24 = \\mathbf{69,440}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Find SI First, Then Add to Principal: 1) $R = 12\\% = 12\\%$, $T = 2$ years $\\Rightarrow R \\times T = 24\\%$.\n2) $SI = \\frac{56000 \\times 24}{100} = 13,440$.\n3) Amount $A = 56,000 + 13,440 = \\mathbf{69,440}$.\n\nMethod 2: Direct Amount Factor (100 + R×T)%: Direct Amount factor $= 1 + \\frac{24}{100} = 1.24$. Compute $56,000 \\times 1.24 = \\mathbf{69,440}$.",
+      "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें: 1) दर $R = 12\\% = 12\\%$, समय $T = 2$ वर्ष $\\Rightarrow R \\times T = 24\\%$।\n2) $SI = \\frac{56000 \\times 24}{100} = 13,440$ रुपये।\n3) मिश्रधन $A = 56,000 + 13,440 = \\mathbf{69,440}$ रुपये।\n\nविधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक: सीधा मिश्रधन $= 56,000 \\times 1.24 = \\mathbf{69,440}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
     },
     "correctIndexHi": 2
   },

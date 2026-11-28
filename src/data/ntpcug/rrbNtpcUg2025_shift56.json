@@ -1518,10 +1518,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (₹1,728) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (₹1,728) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹1,728**).",
+      "keyConcept": "Principal from SI Amount: A = (100 + R×T)% of P",
+      "optionTrick": {
+        "en": "Amount $= 125\\%$ of $P = 2,160 \\Rightarrow P = \\frac{2,160 \\times 100}{125} = \\mathbf{1,728}$!",
+        "hi": "कुल मिश्रधन $= (100 + 25) = 125\\% = 2,160$। अतः $P = \\frac{2,160 \\times 100}{125} = \\mathbf{1,728}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Percentage Equation",
+            "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{A \\times 100}{100 + R \\times T}$",
+          "steps": {
+            "en": "1) Total interest $= 5\\% \\times 5 = 25\\% \\Rightarrow$ Amount $= 125\\%$ of $P$.\n2) $P = \\frac{2160 \\times 100}{125} = \\mathbf{1,728}$.",
+            "hi": "1) कुल ब्याज $= 5\\% \\times 5 = 25\\% \\Rightarrow$ मिश्रधन $= 125\\%$।\n2) $P = \\frac{2160 \\times 100}{125} = \\mathbf{1,728}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Multiplier Trick",
+            "hi": "विधि 2: अनुपात भाग विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$R \\times T = 25\\% = \\frac{1}{4} \\Rightarrow P : A = 4 : 5$. Since 5 parts $= 2,160$, $P = 4 \\times 432 = \\mathbf{1,728}$.",
+            "hi": "$25\\% = \\frac{1}{4} \\Rightarrow P : A = 4 : 5$। अतः $P = 4 \\times 432 = \\mathbf{1,728}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Percentage Equation: 1) Total interest $= 5\\% \\times 5 = 25\\% \\Rightarrow$ Amount $= 125\\%$ of $P$.\n2) $P = \\frac{2160 \\times 100}{125} = \\mathbf{1,728}$.\n\nMethod 2: Ratio Multiplier Trick: $R \\times T = 25\\% = \\frac{1}{4} \\Rightarrow P : A = 4 : 5$. Since 5 parts $= 2,160$, $P = 4 \\times 432 = \\mathbf{1,728}$.",
+      "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण: 1) कुल ब्याज $= 5\\% \\times 5 = 25\\% \\Rightarrow$ मिश्रधन $= 125\\%$।\n2) $P = \\frac{2160 \\times 100}{125} = \\mathbf{1,728}$ रुपये।\n\nविधि 2: अनुपात भाग विधि: $25\\% = \\frac{1}{4} \\Rightarrow P : A = 4 : 5$। अतः $P = 4 \\times 432 = \\mathbf{1,728}$।"
     }
   },
   {
@@ -2029,10 +2070,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (36 years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (36 वर्ष) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**36 years**).",
+      "keyConcept": "Compound Interest Power-Cycle Rule: If ×m in T yrs ⇒ ×mᵏ in k·T yrs",
+      "optionTrick": {
+        "en": "Notice $27 = 3^{3}$, so it takes **3 equal cycles** $= 3 \\times 12 = 36$ total years!",
+        "hi": "$27 = 3^{3}$ अर्थात 3 समान चक्र लगेंगे: कुल समय $= 3 \\times 12 = 36$ वर्ष!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Exponential Growth Equation P(1+R/100)^T",
+            "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^{T_1} = 3\\implies \\left(1 + \\frac{R}{100}\\right)^{3T_1} = 3^{3} = 27$",
+          "steps": {
+            "en": "1) Every **12 years**, money multiplies by **3**.\n2) Since $27 = 3^{3}$, total time $= 3 \\times 12 = 36$ years.",
+            "hi": "1) प्रत्येक **12 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $27 = 3^{3}$, कुल समय $= 3 \\times 12 = 36$ वर्ष।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiplier Timeline Ladder (2 sec)",
+            "hi": "विधि 2: समय-गुणज सीढ़ी ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Timeline: $1 \\xrightarrow{+12\\text{y}} 3 \\xrightarrow{+12\\text{y}} 9 \\xrightarrow{+12\\text{y}} 27\\Rightarrow$ **36 years**!",
+            "hi": "सीधा चक्र: $1 \\xrightarrow{+12\\text{ व}} 3 \\xrightarrow{+12\\text{ व}} 9 \\xrightarrow{+12\\text{ व}} 27\\Rightarrow$ **36 वर्ष**!"
+          }
+        }
+      ],
+      "en": "Method 1: Exponential Growth Equation P(1+R/100)^T: 1) Every **12 years**, money multiplies by **3**.\n2) Since $27 = 3^{3}$, total time $= 3 \\times 12 = 36$ years.\n\nMethod 2: Multiplier Timeline Ladder (2 sec): Timeline: $1 \\xrightarrow{+12\\text{y}} 3 \\xrightarrow{+12\\text{y}} 9 \\xrightarrow{+12\\text{y}} 27\\Rightarrow$ **36 years**!",
+      "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल: 1) प्रत्येक **12 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $27 = 3^{3}$, कुल समय $= 3 \\times 12 = 36$ वर्ष।\n\nविधि 2: समय-गुणज सीढ़ी ट्रिक: सीधा चक्र: $1 \\xrightarrow{+12\\text{ व}} 3 \\xrightarrow{+12\\text{ व}} 9 \\xrightarrow{+12\\text{ व}} 27\\Rightarrow$ **36 वर्ष**!"
     }
   },
   {

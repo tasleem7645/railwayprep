@@ -877,10 +877,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • 3-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹8,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹8,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹8,000**).",
+      "keyConcept": "Principal from 3-Yr CI−SI Diff: P = D × 100³ / [R²(300+R)]",
+      "optionTrick": {
+        "en": "Notice fraction $\\frac{1}{20}$ gives $3\\text{-yr diff factor} = \\frac{3(20) + 1}{(20)^3} = \\frac{61}{8000}$. Scale 61 to get $\\mathbf{8,000}$!",
+        "hi": "भिन्न $5\\% = \\frac{1}{20}$ से 3 वर्ष का अंतर $\\frac{61}{8000}$ भाग $= 61 \\Rightarrow P = \\mathbf{8,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse 3-Year Difference Formula",
+            "hi": "विधि 1: 3-वर्ष CI−SI अंतर सूत्र द्वारा"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$D_3 = P\\left(\\frac{R}{100}\\right)^2\\left(3 + \\frac{R}{100}\\right)$",
+          "steps": {
+            "en": "1) $61 = P \\times \\frac{25}{10000} \\times \\frac{305}{100}$.\n2) $P = \\frac{61 \\times 1000000}{7625} = \\mathbf{8,000}$.",
+            "hi": "1) $61 = P \\times \\frac{25 \\times 305}{10^6}$।\n2) $P = \\mathbf{8,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective % Unitary Shortcut",
+            "hi": "विधि 2: प्रभावी अंतर प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "At 5%, 3-yr CI is 15.763% vs SI 15%, so diff $= 0.763\\% = 61 \\Rightarrow P = \\mathbf{8,000}$.",
+            "hi": "3 वर्ष में अंतर प्रतिशत $= 0.763\\% = 61 \\Rightarrow P = \\mathbf{8,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse 3-Year Difference Formula: 1) $61 = P \\times \\frac{25}{10000} \\times \\frac{305}{100}$.\n2) $P = \\frac{61 \\times 1000000}{7625} = \\mathbf{8,000}$.\n\nMethod 2: Effective % Unitary Shortcut: At 5%, 3-yr CI is 15.763% vs SI 15%, so diff $= 0.763\\% = 61 \\Rightarrow P = \\mathbf{8,000}$.",
+      "hi": "विधि 1: 3-वर्ष CI−SI अंतर सूत्र द्वारा: 1) $61 = P \\times \\frac{25 \\times 305}{10^6}$।\n2) $P = \\mathbf{8,000}$ रुपये।\n\nविधि 2: प्रभावी अंतर प्रतिशत ट्रिक: 3 वर्ष में अंतर प्रतिशत $= 0.763\\% = 61 \\Rightarrow P = \\mathbf{8,000}$!"
     }
   },
   {
@@ -945,10 +986,55 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (861) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (861) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**861**).",
+      "keyConcept": "Equal CI Maturity Split ⇒ Ratio = (1 + R/100)^ΔT : 1 (Less Time Gets More!)",
+      "optionTrick": {
+        "en": "Time difference $\\Delta T = 1$ yr(s) at 5% ($\\frac{21}{20}$). Share ratio $= 21 : 20$ ($\\text{Sum} = 41$ parts $= 1,681 \\Rightarrow 1\\text{ part} = 41$). Shorter-duration person gets larger share $= 21 \\times 41 = \\mathbf{861}$!",
+        "hi": "दोनों के समय में केवल $\\Delta T = 1$ वर्ष का अंतर है! 5% ($\\frac{21}{20}$) के साथ अनुपात $= 21 : 20$ (योग $= 41$ भाग $= 1,681$)। कम समय वाले को बड़ा भाग $= 21 \\times 41 = \\mathbf{861}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT use `14, 15, 17, 18` years to expand powers — **only the difference `ΔT` between their investment durations matters**!",
+        "hi": "कभी भी 16 व 17 या 12 व 13 की बड़ी घात न निकालें — **केवल दोनों समयावधियों के अंतर $\\Delta T = 1$** का अनुपात लें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers",
+            "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$S_1\\left(1+\\frac{R}{100}\\right)^{T_1} = S_2\\left(1+\\frac{R}{100}\\right)^{T_2} \\implies \\frac{S_1}{S_2} = \\left(1+\\frac{R}{100}\\right)^{T_2 - T_1}$",
+          "steps": {
+            "en": "1) Investment periods are 12 yrs and 13 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (Sum $= 41$ parts).\n3) 1 part $= \\frac{1681}{41} = 41 \\Rightarrow$ Asked share $= 21 \\times 41 = \\mathbf{861}$.",
+            "hi": "1) दोनों की निवेश अवधि 12 वर्ष व 13 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (कुल $= 41$ भाग)।\n3) 1 भाग $= \\frac{1681}{41} = 41 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{861}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Fraction Split (10-Sec Shortcut)",
+            "hi": "विधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since 1681 divides cleanly by 41 ($= 41$), pick **21 × 41** (the larger share goes to the person compounding for fewer years) $= \\mathbf{861}$.",
+            "hi": "1681, 41 से ठीक 41 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 21 \\times 41 = \\mathbf{861}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers: 1) Investment periods are 12 yrs and 13 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (Sum $= 41$ parts).\n3) 1 part $= \\frac{1681}{41} = 41 \\Rightarrow$ Asked share $= 21 \\times 41 = \\mathbf{861}$.\n\nMethod 2: Instant Fraction Split (10-Sec Shortcut): Since 1681 divides cleanly by 41 ($= 41$), pick **21 × 41** (the larger share goes to the person compounding for fewer years) $= \\mathbf{861}$.",
+      "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना: 1) दोनों की निवेश अवधि 12 वर्ष व 13 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (कुल $= 41$ भाग)।\n3) 1 भाग $= \\frac{1681}{41} = 41 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{861}$।\n\nविधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक: 1681, 41 से ठीक 41 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 21 \\times 41 = \\mathbf{861}$!"
     }
   },
   {
@@ -1115,10 +1201,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find Principal",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹16,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹16,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹16,000**).",
+      "keyConcept": "Principal from SI Amount: A = (100 + R×T)% of P",
+      "optionTrick": {
+        "en": "Amount $= 150\\%$ of $P = 24,000 \\Rightarrow P = \\frac{24,000 \\times 100}{150} = \\mathbf{16,000}$!",
+        "hi": "कुल मिश्रधन $= (100 + 50) = 150\\% = 24,000$। अतः $P = \\frac{24,000 \\times 100}{150} = \\mathbf{16,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Percentage Equation",
+            "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{A \\times 100}{100 + R \\times T}$",
+          "steps": {
+            "en": "1) Total interest $= 10\\% \\times 5 = 50\\% \\Rightarrow$ Amount $= 150\\%$ of $P$.\n2) $P = \\frac{24000 \\times 100}{150} = \\mathbf{16,000}$.",
+            "hi": "1) कुल ब्याज $= 10\\% \\times 5 = 50\\% \\Rightarrow$ मिश्रधन $= 150\\%$।\n2) $P = \\frac{24000 \\times 100}{150} = \\mathbf{16,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Multiplier Trick",
+            "hi": "विधि 2: अनुपात भाग विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$R \\times T = 50\\% = \\frac{1}{2} \\Rightarrow P : A = 2 : 3$. Since 3 parts $= 24,000$, $P = 2 \\times 8000 = \\mathbf{16,000}$.",
+            "hi": "$50\\% = \\frac{1}{2} \\Rightarrow P : A = 2 : 3$। अतः $P = 2 \\times 8000 = \\mathbf{16,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Percentage Equation: 1) Total interest $= 10\\% \\times 5 = 50\\% \\Rightarrow$ Amount $= 150\\%$ of $P$.\n2) $P = \\frac{24000 \\times 100}{150} = \\mathbf{16,000}$.\n\nMethod 2: Ratio Multiplier Trick: $R \\times T = 50\\% = \\frac{1}{2} \\Rightarrow P : A = 2 : 3$. Since 3 parts $= 24,000$, $P = 2 \\times 8000 = \\mathbf{16,000}$.",
+      "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण: 1) कुल ब्याज $= 10\\% \\times 5 = 50\\% \\Rightarrow$ मिश्रधन $= 150\\%$।\n2) $P = \\frac{24000 \\times 100}{150} = \\mathbf{16,000}$ रुपये।\n\nविधि 2: अनुपात भाग विधि: $50\\% = \\frac{1}{2} \\Rightarrow P : A = 2 : 3$। अतः $P = 2 \\times 8000 = \\mathbf{16,000}$।"
     }
   },
   {

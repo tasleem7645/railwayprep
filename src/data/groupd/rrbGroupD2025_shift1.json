@@ -1690,10 +1690,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Value Decrease Over Time",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹14,742) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹14,742) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹14,742**).",
+      "keyConcept": "Successive Depreciation Factor Over 2 Years",
+      "optionTrick": {
+        "en": "Fraction factor $= \\frac{9}{10}$ (2 yrs $= \\frac{81}{100}$), or net 2-yr change $= -19\\%$ $\\Rightarrow \\mathbf{Rs.14,742}$!",
+        "hi": "भिन्न गुणक $= \\frac{9}{10}$ के 2 वर्ष ($\\frac{81}{100}$) अथवा शुद्ध ह्रास 19% से सीधा उत्तर **₹14,742**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 2-Year Growth/Depreciation Formula",
+            "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$V_{\\text{after}} = V_0\\left(1 - \\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) Annual factor $= 1 - 10\\% = \\frac{9}{10}$.\n2) After 2 years: $V = 18200 \\times \\frac{9}{10} \\times \\frac{9}{10} = \\mathbf{14,742}$ (₹14,742).",
+            "hi": "1) वार्षिक गुणक $= \\frac{9}{10}$।\n2) 2 वर्ष बाद मान $= 18200 \\times \\frac{9}{10} \\times \\frac{9}{10} = \\mathbf{14,742}$ (₹14,742)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Successive % / Unit-Digit Check",
+            "hi": "विधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr change $= -19\\%$. Apply directly to 18200 gives **₹14,742**!",
+            "hi": "2 वर्ष का शुद्ध परिवर्तन $= -19\\%$ लगाने पर सीधा **₹14,742** आता है!"
+          }
+        }
+      ],
+      "en": "Method 1: 2-Year Growth/Depreciation Formula: 1) Annual factor $= 1 - 10\\% = \\frac{9}{10}$.\n2) After 2 years: $V = 18200 \\times \\frac{9}{10} \\times \\frac{9}{10} = \\mathbf{14,742}$ (₹14,742).\n\nMethod 2: Net Successive % / Unit-Digit Check: Net 2-yr change $= -19\\%$. Apply directly to 18200 gives **₹14,742**!",
+      "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र: 1) वार्षिक गुणक $= \\frac{9}{10}$।\n2) 2 वर्ष बाद मान $= 18200 \\times \\frac{9}{10} \\times \\frac{9}{10} = \\mathbf{14,742}$ (₹14,742)।\n\nविधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक: 2 वर्ष का शुद्ध परिवर्तन $= -19\\%$ लगाने पर सीधा **₹14,742** आता है!"
     }
   },
   {

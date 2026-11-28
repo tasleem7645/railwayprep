@@ -553,10 +553,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option A (₹ 890). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (₹890)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**₹ 890**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 5%), Cycles Doubled (n = 2)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{5\\%}$, $n = \\mathbf{2}$ cycles! Effective factor $= (1.05)^2 \\approx 1.1025$ $\\Rightarrow$ **₹ 890**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (5%)** व **समय दोगुना (2 छमाही)** करें! सीधा गुणक $(1.05)^2 \\approx 1.1025$ से उत्तर **₹890**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 5%, n = 2)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 5%, n = 2)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{10\\%}{2} = 5\\% = \\frac{1}{20}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 8680 \\times (1.05)^2 \\approx 9569.7$.\n3) Compound Interest $= A - P $= 889.7$ $\\approx$ **₹ 890**.",
+            "hi": "1) छमाही दर $r = \\frac{10\\%}{2} = 5\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 8680 \\times (1.05)^2 \\approx 9,569.70$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 889.7$ $\\approx$ **₹890**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 2-Cycle Successive % Formula (2r + r²/100)",
+            "hi": "विधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "2 cycles at 5% give effective CI rate $= 5+5+\\frac{5^2}{100} = 10.25\\%$ of 8,680 $= \\mathbf{Rs. 890}$!",
+            "hi": "2 छमाही के लिए कुल ब्याज दर $= 5+5+0.25\\% = 10.25\\%$ $\\Rightarrow$ **₹890**!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 5%, n = 2): 1) Half-yearly rate $r = \\frac{10\\%}{2} = 5\\% = \\frac{1}{20}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 8680 \\times (1.05)^2 \\approx 9569.7$.\n3) Compound Interest $= A - P $= 889.7$ $\\approx$ **₹ 890**.\n\nMethod 2: 2-Cycle Successive % Formula (2r + r²/100): 2 cycles at 5% give effective CI rate $= 5+5+\\frac{5^2}{100} = 10.25\\%$ of 8,680 $= \\mathbf{Rs. 890}$!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 5%, n = 2): 1) छमाही दर $r = \\frac{10\\%}{2} = 5\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 8680 \\times (1.05)^2 \\approx 9,569.70$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 889.7$ $\\approx$ **₹890**।\n\nविधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100): 2 छमाही के लिए कुल ब्याज दर $= 5+5+0.25\\% = 10.25\\%$ $\\Rightarrow$ **₹890**!"
     },
     "correctIndexHi": 0
   },
@@ -779,10 +820,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option A (₹ 7,066.67). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (₹7,066.67)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**₹ 7,066.67**).",
+      "keyConcept": "Principal from 2-Yr CI−SI Diff: P = D × (100/R)²",
+      "optionTrick": {
+        "en": "$D = \\frac{144}{100}\\%$ of $P = 101.76 \\Rightarrow P = \\frac{101.76 \\times 10000}{144} = \\mathbf{7,066.67}$!",
+        "hi": "2 वर्ष अंतर $= \\frac{144}{100}\\%$ है, अतः $P = \\frac{101.76 \\times 10000}{144} = \\mathbf{7,066.67}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse 2-Year Difference Formula",
+            "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र द्वारा"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$D_2 = P\\left(\\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) $101.76 = P \\times \\left(\\frac{12}{100}\\right)^2 = P \\times \\frac{144}{10000}$.\n2) $P = \\frac{101.76 \\times 10000}{144} = \\mathbf{7,066.67}$.",
+            "hi": "1) $101.76 = P \\times \\frac{144}{10000}$।\n2) $P = \\frac{101.76 \\times 10000}{144} = \\mathbf{7,066.67}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective % Unitary Shortcut",
+            "hi": "विधि 2: प्रभावी अंतर प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Diff is 1.44% of $P$, so $100\\% = 101.76 \\div 0.0144 = \\mathbf{7,066.67}$.",
+            "hi": "$1.44\\% = 101.76$ से $100\\% = \\mathbf{7,066.67}$ सीधे प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse 2-Year Difference Formula: 1) $101.76 = P \\times \\left(\\frac{12}{100}\\right)^2 = P \\times \\frac{144}{10000}$.\n2) $P = \\frac{101.76 \\times 10000}{144} = \\mathbf{7,066.67}$.\n\nMethod 2: Effective % Unitary Shortcut: Diff is 1.44% of $P$, so $100\\% = 101.76 \\div 0.0144 = \\mathbf{7,066.67}$.",
+      "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र द्वारा: 1) $101.76 = P \\times \\frac{144}{10000}$।\n2) $P = \\frac{101.76 \\times 10000}{144} = \\mathbf{7,066.67}$ रुपये।\n\nविधि 2: प्रभावी अंतर प्रतिशत ट्रिक: $1.44\\% = 101.76$ से $100\\% = \\mathbf{7,066.67}$ सीधे प्राप्त होता है!"
     },
     "correctIndexHi": 0
   },
@@ -2000,10 +2082,51 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 4)",
-      "en": "Correct Answer: Option C (65,540). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (65,540)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**65,540**).",
+      "keyConcept": "Final Amount Under Simple Interest: A = P × (1 + RT/100)",
+      "optionTrick": {
+        "en": "Total interest $= 8\\% \\times 2 = 16\\%$. Amount $= 116\\%$ of 56,500 $= \\mathbf{65,540}$!",
+        "hi": "कुल ब्याज $= 8\\% \\times 2 = 16\\%$। मिश्रधन $= 56,500$ का 116% $= \\mathbf{65,540}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find SI First, Then Add to Principal",
+            "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100},\\quad A = P + SI$",
+          "steps": {
+            "en": "1) $R = 8\\% = 8\\%$, $T = 2$ years $\\Rightarrow R \\times T = 16\\%$.\n2) $SI = \\frac{56500 \\times 16}{100} = 9,040$.\n3) Amount $A = 56,500 + 9,040 = \\mathbf{65,540}$.",
+            "hi": "1) दर $R = 8\\% = 8\\%$, समय $T = 2$ वर्ष $\\Rightarrow R \\times T = 16\\%$।\n2) $SI = \\frac{56500 \\times 16}{100} = 9,040$ रुपये।\n3) मिश्रधन $A = 56,500 + 9,040 = \\mathbf{65,540}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Amount Factor (100 + R×T)%",
+            "hi": "विधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct Amount factor $= 1 + \\frac{16}{100} = 1.16$. Compute $56,500 \\times 1.16 = \\mathbf{65,540}$.",
+            "hi": "सीधा मिश्रधन $= 56,500 \\times 1.16 = \\mathbf{65,540}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Find SI First, Then Add to Principal: 1) $R = 8\\% = 8\\%$, $T = 2$ years $\\Rightarrow R \\times T = 16\\%$.\n2) $SI = \\frac{56500 \\times 16}{100} = 9,040$.\n3) Amount $A = 56,500 + 9,040 = \\mathbf{65,540}$.\n\nMethod 2: Direct Amount Factor (100 + R×T)%: Direct Amount factor $= 1 + \\frac{16}{100} = 1.16$. Compute $56,500 \\times 1.16 = \\mathbf{65,540}$.",
+      "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें: 1) दर $R = 8\\% = 8\\%$, समय $T = 2$ वर्ष $\\Rightarrow R \\times T = 16\\%$।\n2) $SI = \\frac{56500 \\times 16}{100} = 9,040$ रुपये।\n3) मिश्रधन $A = 56,500 + 9,040 = \\mathbf{65,540}$ रुपये।\n\nविधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक: सीधा मिश्रधन $= 56,500 \\times 1.16 = \\mathbf{65,540}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
     },
     "correctIndexHi": 2
   },

@@ -877,10 +877,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (8 years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (8 वर्ष) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**8 years**).",
+      "keyConcept": "Compound Interest Power-Cycle Rule: If ×m in T yrs ⇒ ×mᵏ in k·T yrs",
+      "optionTrick": {
+        "en": "Notice $9 = 3^{2}$, so it takes **2 equal cycles** $= 2 \\times 4 = 8$ total years!",
+        "hi": "$9 = 3^{2}$ अर्थात 2 समान चक्र लगेंगे: कुल समय $= 2 \\times 4 = 8$ वर्ष!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Exponential Growth Equation P(1+R/100)^T",
+            "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^{T_1} = 3\\implies \\left(1 + \\frac{R}{100}\\right)^{2T_1} = 3^{2} = 9$",
+          "steps": {
+            "en": "1) Every **4 years**, money multiplies by **3**.\n2) Since $9 = 3^{2}$, total time $= 2 \\times 4 = 8$ years.",
+            "hi": "1) प्रत्येक **4 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $9 = 3^{2}$, कुल समय $= 2 \\times 4 = 8$ वर्ष।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiplier Timeline Ladder (2 sec)",
+            "hi": "विधि 2: समय-गुणज सीढ़ी ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Timeline: $1 \\xrightarrow{+4\\text{y}} 3 \\xrightarrow{+4\\text{y}} 9\\Rightarrow$ **8 years**!",
+            "hi": "सीधा चक्र: $1 \\xrightarrow{+4\\text{ व}} 3 \\xrightarrow{+4\\text{ व}} 9\\Rightarrow$ **8 वर्ष**!"
+          }
+        }
+      ],
+      "en": "Method 1: Exponential Growth Equation P(1+R/100)^T: 1) Every **4 years**, money multiplies by **3**.\n2) Since $9 = 3^{2}$, total time $= 2 \\times 4 = 8$ years.\n\nMethod 2: Multiplier Timeline Ladder (2 sec): Timeline: $1 \\xrightarrow{+4\\text{y}} 3 \\xrightarrow{+4\\text{y}} 9\\Rightarrow$ **8 years**!",
+      "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल: 1) प्रत्येक **4 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $9 = 3^{2}$, कुल समय $= 2 \\times 4 = 8$ वर्ष।\n\nविधि 2: समय-गुणज सीढ़ी ट्रिक: सीधा चक्र: $1 \\xrightarrow{+4\\text{ व}} 3 \\xrightarrow{+4\\text{ व}} 9\\Rightarrow$ **8 वर्ष**!"
     }
   },
   {
@@ -1081,10 +1122,55 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (90) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (90) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**90**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,500 $= 45$. For 2 months: $45 \\times 2 = \\mathbf{90}$!",
+        "hi": "1 माह का ब्याज $= 1,500$ का 3% $= 45$। अतः 2 माह का ब्याज $= 45 \\times 2 = \\mathbf{90}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 2$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 2}{100} = 15 \\times 6 = \\mathbf{90}$.",
+            "hi": "1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 2$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 2}{100} = \\mathbf{90}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1500 = 45$. For 2 months: $45 \\times 2 = \\mathbf{90}$.",
+            "hi": "1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 2 माह के लिए $\\times 2 = \\mathbf{90}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 2$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 2}{100} = 15 \\times 6 = \\mathbf{90}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1500 = 45$. For 2 months: $45 \\times 2 = \\mathbf{90}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 2$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 2}{100} = \\mathbf{90}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 2 माह के लिए $\\times 2 = \\mathbf{90}$!"
     }
   },
   {
@@ -1183,10 +1269,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹8,888) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹8,888) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹8,888**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 2%), Cycles Doubled (n = 2)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{2\\%}$, $n = \\mathbf{2}$ cycles! Effective factor $= (1.02)^2 \\approx 1.0404$ $\\Rightarrow$ **₹8,888**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (2%)** व **समय दोगुना (2 छमाही)** करें! सीधा गुणक $(1.02)^2 \\approx 1.0404$ से उत्तर **₹8,888**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 2%, n = 2)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 2%, n = 2)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{4\\%}{2} = 2\\% = \\frac{1}{50}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 220000 \\times (1.02)^2 \\approx 228888$.\n3) Compound Interest $= A - P $= 8,888$ (**₹8,888**).",
+            "hi": "1) छमाही दर $r = \\frac{4\\%}{2} = 2\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 220000 \\times (1.02)^2 \\approx 2,28,888.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 8,888$ (**₹8,888**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 2-Cycle Successive % Formula (2r + r²/100)",
+            "hi": "विधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "2 cycles at 2% give effective CI rate $= 2+2+\\frac{2^2}{100} = 4.04\\%$ of 2,20,000 $= \\mathbf{Rs.8,888}$!",
+            "hi": "2 छमाही के लिए कुल ब्याज दर $= 2+2+0.04\\% = 4.04\\%$ $\\Rightarrow$ **₹8,888**!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 2%, n = 2): 1) Half-yearly rate $r = \\frac{4\\%}{2} = 2\\% = \\frac{1}{50}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 220000 \\times (1.02)^2 \\approx 228888$.\n3) Compound Interest $= A - P $= 8,888$ (**₹8,888**).\n\nMethod 2: 2-Cycle Successive % Formula (2r + r²/100): 2 cycles at 2% give effective CI rate $= 2+2+\\frac{2^2}{100} = 4.04\\%$ of 2,20,000 $= \\mathbf{Rs.8,888}$!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 2%, n = 2): 1) छमाही दर $r = \\frac{4\\%}{2} = 2\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 220000 \\times (1.02)^2 \\approx 2,28,888.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 8,888$ (**₹8,888**)।\n\nविधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100): 2 छमाही के लिए कुल ब्याज दर $= 2+2+0.04\\% = 4.04\\%$ $\\Rightarrow$ **₹8,888**!"
     }
   },
   {

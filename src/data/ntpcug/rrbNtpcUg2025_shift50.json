@@ -1485,10 +1485,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹38,836) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹38,836) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹38,836**).",
+      "keyConcept": "Two-Stage Simple Interest (Fractional Years + Final Amount)",
+      "optionTrick": {
+        "en": "Stage 1 % $= \\frac{41}{9} \\times 3.6\\% = 16.4\\% = 5,453 \\Rightarrow 1\\% = 332.5$ (P = 33,250). Stage 2 % $= \\frac{56}{9} \\times 2.7\\% = 16.8\\%$. Amount $= 116.8\\%$ of $P = \\mathbf{38,836}$!",
+        "hi": "प्रथम चरण ब्याज % $= \\frac{41}{9} \\times 3.6 = 16.4\\% = 5,453 \\Rightarrow P = 33,250$। द्वितीय चरण % $= \\frac{56}{9} \\times 2.7 = 16.8\\%$ $\\Rightarrow$ मिश्रधन $= 33,250$ का 116.8% $= \\mathbf{38,836}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert Mixed Fractions & Solve P First",
+            "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI_1 \\times 100}{R_1 \\times T_1},\\quad A_2 = P\\left(1 + \\frac{R_2 T_2}{100}\\right)$",
+          "steps": {
+            "en": "1) $T_1 = 4\\frac{5}{9} = \\frac{41}{9}$ yrs $\\Rightarrow R_1 T_1 = 3.6 \\times \\frac{41}{9} = 16.4\\%$.\n2) $P = \\frac{5453 \\times 100}{16.4} = 33,250$.\n3) $T_2 = 6\\frac{2}{9} = \\frac{56}{9}$ yrs $\\Rightarrow R_2 T_2 = 2.7 \\times \\frac{56}{9} = 16.8\\%$.\n4) $SI_2 = 33,250 \\times 16.8\\% = 5,586 \\Rightarrow A_2 = 33,250 + 5,586 = \\mathbf{38,836}$.",
+            "hi": "1) $T_1 = 4\\frac{5}{9} = \\frac{41}{9}$ वर्ष $\\Rightarrow R_1 T_1 = 16.4\\%$।\n2) $P = \\frac{5453 \\times 100}{16.4} = 33,250$ रुपये।\n3) $T_2 = 6\\frac{2}{9} = \\frac{56}{9}$ वर्ष $\\Rightarrow R_2 T_2 = 16.8\\%$।\n4) $SI_2 = 5,586 \\Rightarrow$ देय राशि $A_2 = 33,250 + 5,586 = \\mathbf{38,836}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Factor Ratio",
+            "hi": "विधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of $P = \\frac{5453}{16.4} = 332.5$. Since Amount $= 116.8\\%$, directly compute $332.5 \\times 116.8 = \\mathbf{38,836}$.",
+            "hi": "$P$ का $1\\% = \\frac{5453}{16.4} = 332.5$। अतः देय राशि $= 116.8 \\times 332.5 = \\mathbf{38,836}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert Mixed Fractions & Solve P First: 1) $T_1 = 4\\frac{5}{9} = \\frac{41}{9}$ yrs $\\Rightarrow R_1 T_1 = 3.6 \\times \\frac{41}{9} = 16.4\\%$.\n2) $P = \\frac{5453 \\times 100}{16.4} = 33,250$.\n3) $T_2 = 6\\frac{2}{9} = \\frac{56}{9}$ yrs $\\Rightarrow R_2 T_2 = 2.7 \\times \\frac{56}{9} = 16.8\\%$.\n4) $SI_2 = 33,250 \\times 16.8\\% = 5,586 \\Rightarrow A_2 = 33,250 + 5,586 = \\mathbf{38,836}$.\n\nMethod 2: Direct Multiplier Factor Ratio: $1\\%$ of $P = \\frac{5453}{16.4} = 332.5$. Since Amount $= 116.8\\%$, directly compute $332.5 \\times 116.8 = \\mathbf{38,836}$.",
+      "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें: 1) $T_1 = 4\\frac{5}{9} = \\frac{41}{9}$ वर्ष $\\Rightarrow R_1 T_1 = 16.4\\%$।\n2) $P = \\frac{5453 \\times 100}{16.4} = 33,250$ रुपये।\n3) $T_2 = 6\\frac{2}{9} = \\frac{56}{9}$ वर्ष $\\Rightarrow R_2 T_2 = 16.8\\%$।\n4) $SI_2 = 5,586 \\Rightarrow$ देय राशि $A_2 = 33,250 + 5,586 = \\mathbf{38,836}$ रुपये।\n\nविधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक: $P$ का $1\\% = \\frac{5453}{16.4} = 332.5$। अतः देय राशि $= 116.8 \\times 332.5 = \\mathbf{38,836}$!"
     }
   },
   {
@@ -1920,10 +1961,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (176) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (176) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**176**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 8\\% \\times 5.5 = 44\\%$. Just take $44\\%$ of 400 $= \\mathbf{176}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 8\\% \\times 5.5 = 44\\%$। सीधा 400 का $44\\% = \\mathbf{176}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 400$, $R = 8\\%$, $T = 5.5$ year(s).\n2) $SI = \\frac{400 \\times 8 \\times 5.5}{100} = 4 \\times 44 = \\mathbf{176}$.",
+            "hi": "1) $P = 400$, दर $R = 8\\%$, समय $T = 5.5$ वर्ष।\n2) $SI = \\frac{400 \\times 8 \\times 5.5}{100} = \\mathbf{176}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 4$. Multiply by $R \\times T = 44$: $4 \\times 44 = \\mathbf{176}$.",
+            "hi": "मूलधन का $1\\% = 4$। इसे $R \\times T = 44$ से गुणा करें $= \\mathbf{176}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 400$, $R = 8\\%$, $T = 5.5$ year(s).\n2) $SI = \\frac{400 \\times 8 \\times 5.5}{100} = 4 \\times 44 = \\mathbf{176}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 4$. Multiply by $R \\times T = 44$: $4 \\times 44 = \\mathbf{176}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 400$, दर $R = 8\\%$, समय $T = 5.5$ वर्ष।\n2) $SI = \\frac{400 \\times 8 \\times 5.5}{100} = \\mathbf{176}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 4$। इसे $R \\times T = 44$ से गुणा करें $= \\mathbf{176}$!"
     }
   },
   {

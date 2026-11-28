@@ -1939,10 +1939,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹94,250**).",
+      "keyConcept": "Final Amount Under Simple Interest: A = P × (1 + RT/100)",
+      "optionTrick": {
+        "en": "Total interest $= 7.5\\% \\times 6 = 45\\%$. Amount $= 145\\%$ of 65,000 $= \\mathbf{94,250}$!",
+        "hi": "कुल ब्याज $= 7.5\\% \\times 6 = 45\\%$। मिश्रधन $= 65,000$ का 145% $= \\mathbf{94,250}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find SI First, Then Add to Principal",
+            "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100},\\quad A = P + SI$",
+          "steps": {
+            "en": "1) $R = 7\\frac{1}{2}\\% = 7.5\\%$, $T = 6$ years $\\Rightarrow R \\times T = 45\\%$.\n2) $SI = \\frac{65000 \\times 45}{100} = 29,250$.\n3) Amount $A = 65,000 + 29,250 = \\mathbf{94,250}$.",
+            "hi": "1) दर $R = 7\\frac{1}{2}\\% = 7.5\\%$, समय $T = 6$ वर्ष $\\Rightarrow R \\times T = 45\\%$।\n2) $SI = \\frac{65000 \\times 45}{100} = 29,250$ रुपये।\n3) मिश्रधन $A = 65,000 + 29,250 = \\mathbf{94,250}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Amount Factor (100 + R×T)%",
+            "hi": "विधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct Amount factor $= 1 + \\frac{45}{100} = 1.45$. Compute $65,000 \\times 1.45 = \\mathbf{94,250}$.",
+            "hi": "सीधा मिश्रधन $= 65,000 \\times 1.45 = \\mathbf{94,250}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Find SI First, Then Add to Principal: 1) $R = 7\\frac{1}{2}\\% = 7.5\\%$, $T = 6$ years $\\Rightarrow R \\times T = 45\\%$.\n2) $SI = \\frac{65000 \\times 45}{100} = 29,250$.\n3) Amount $A = 65,000 + 29,250 = \\mathbf{94,250}$.\n\nMethod 2: Direct Amount Factor (100 + R×T)%: Direct Amount factor $= 1 + \\frac{45}{100} = 1.45$. Compute $65,000 \\times 1.45 = \\mathbf{94,250}$.",
+      "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें: 1) दर $R = 7\\frac{1}{2}\\% = 7.5\\%$, समय $T = 6$ वर्ष $\\Rightarrow R \\times T = 45\\%$।\n2) $SI = \\frac{65000 \\times 45}{100} = 29,250$ रुपये।\n3) मिश्रधन $A = 65,000 + 29,250 = \\mathbf{94,250}$ रुपये।\n\nविधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक: सीधा मिश्रधन $= 65,000 \\times 1.45 = \\mathbf{94,250}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
     }
   },
   {

@@ -1115,10 +1115,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (92,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (92,000) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**92,000**).",
+      "keyConcept": "Difference of Two Equal-Principal Simple Interests = P × |R₂ − R₁| × T / 100",
+      "optionTrick": {
+        "en": "Never calculate Bank A and Bank B separately! Rate gap $= |8.5 - 3.5| = 5\\%$ per yr $\\times 4 = 20\\%$ of $4,60,000 = \\mathbf{92,000}$!",
+        "hi": "दोनों बैंकों का ब्याज अलग-अलग न निकालें! दर अंतर $= 5\\% \\times 4 = 20\\%$। सीधा 4,60,000 का 20% $= \\mathbf{92,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Difference of Individual SI Values",
+            "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $SI_A = \\frac{460000 \\times 3.5 \\times 4}{100} = 64,400$.\n2) $SI_B = \\frac{460000 \\times 8.5 \\times 4}{100} = 1,56,400$.\n3) Difference $= 1,56,400 - 64,400 = \\mathbf{92,000}$.",
+            "hi": "1) बैंक A का ब्याज $= 64,400$ रुपये।\n2) बैंक B का ब्याज $= 1,56,400$ रुपये।\n3) अंतर $= 1,56,400 - 64,400 = \\mathbf{92,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Rate-Difference % Shortcut (3 sec)",
+            "hi": "विधि 2: शुद्ध दर-अंतर % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta SI = \\frac{P \\times |R_2 - R_1| \\times T}{100}$",
+          "steps": {
+            "en": "$\\Delta SI = 5\\% \\times 4 \\text{ of } 4,60,000 = 20\\% \\times 4,60,000 = \\mathbf{92,000}$.",
+            "hi": "$\\Delta SI = (8.5 - 3.5)\\% \\times 4$ वर्ष $= 20\\%$ of $4,60,000 = \\mathbf{92,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Difference of Individual SI Values: 1) $SI_A = \\frac{460000 \\times 3.5 \\times 4}{100} = 64,400$.\n2) $SI_B = \\frac{460000 \\times 8.5 \\times 4}{100} = 1,56,400$.\n3) Difference $= 1,56,400 - 64,400 = \\mathbf{92,000}$.\n\nMethod 2: Net Rate-Difference % Shortcut (3 sec): $\\Delta SI = 5\\% \\times 4 \\text{ of } 4,60,000 = 20\\% \\times 4,60,000 = \\mathbf{92,000}$.",
+      "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर: 1) बैंक A का ब्याज $= 64,400$ रुपये।\n2) बैंक B का ब्याज $= 1,56,400$ रुपये।\n3) अंतर $= 1,56,400 - 64,400 = \\mathbf{92,000}$ रुपये।\n\nविधि 2: शुद्ध दर-अंतर % ट्रिक: $\\Delta SI = (8.5 - 3.5)\\% \\times 4$ वर्ष $= 20\\%$ of $4,60,000 = \\mathbf{92,000}$!"
     }
   },
   {
@@ -1279,10 +1320,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹723) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹723) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹723**).",
+      "keyConcept": "Difference Between Annual & Half-Yearly Compounding (2 Years)",
+      "optionTrick": {
+        "en": "2 yrs annual 20% = $+44\\%$; 2 yrs half-yearly (4 cycles of 10%) = $+46.41\\%$. Difference $= 2.41\\%$ of `30,000` $= 300 \\times 2.41 = \\mathbf{723}$!",
+        "hi": "वार्षिक दर (2 वर्ष @ 20% = `44%`) व अर्धवार्षिक (4 छमाही @ 10% = `46.41%`) का अंतर $= 2.41\\%$। सीधा $300 \\times 2.41 = \\mathbf{723}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compare Amount Factors (1.44 vs 1.4641)",
+            "hi": "विधि 1: दोनों संयोजन मिश्रधन की तुलना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$A_{\\text{annual}} = P(1.2)^2,\\quad A_{\\text{hy}} = P(1.1)^4$",
+          "steps": {
+            "en": "1) Annual (20%, 2 yrs): $30000 \\times 1.2^2 = 30000 \\times 1.44 = 43{,}200$.\n2) Half-yearly (10%, 4 cycles): $30000 \\times 1.1^4 = 30000 \\times 1.4641 = 43{,}923$.\n3) Difference $= 43923 - 43200 = \\mathbf{723}$ (₹723).",
+            "hi": "1) वार्षिक संयोजन: $30000 \\times 1.44 = 43{,}200$ रुपये।\n2) अर्धवार्षिक संयोजन (4 छमाही, 10% दर): $30000 \\times 1.4641 = 43{,}923$ रुपये।\n3) अंतर $= 43923 - 43200 = \\mathbf{723}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective Rate Gap (46.41% − 44% = 2.41%)",
+            "hi": "विधि 2: प्रभावी ब्याज अंतर (2.41%) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Only remember $10\\%$ for 4 cycles $= 46.41\\%$! Gap $= 46.41\\% - 44\\% = 2.41\\% \\Rightarrow 30000 \\times 0.0241 = \\mathbf{723}$.",
+            "hi": "10% के 4 चक्र $= 46.41\\%$ और 20% के 2 वर्ष $= 44\\%$। सीधा $2.41\\% \\times 30000 = \\mathbf{723}$ रुपये!"
+          }
+        }
+      ],
+      "en": "Method 1: Compare Amount Factors (1.44 vs 1.4641): 1) Annual (20%, 2 yrs): $30000 \\times 1.2^2 = 30000 \\times 1.44 = 43{,}200$.\n2) Half-yearly (10%, 4 cycles): $30000 \\times 1.1^4 = 30000 \\times 1.4641 = 43{,}923$.\n3) Difference $= 43923 - 43200 = \\mathbf{723}$ (₹723).\n\nMethod 2: Effective Rate Gap (46.41% − 44% = 2.41%): Only remember $10\\%$ for 4 cycles $= 46.41\\%$! Gap $= 46.41\\% - 44\\% = 2.41\\% \\Rightarrow 30000 \\times 0.0241 = \\mathbf{723}$.",
+      "hi": "विधि 1: दोनों संयोजन मिश्रधन की तुलना: 1) वार्षिक संयोजन: $30000 \\times 1.44 = 43{,}200$ रुपये।\n2) अर्धवार्षिक संयोजन (4 छमाही, 10% दर): $30000 \\times 1.4641 = 43{,}923$ रुपये।\n3) अंतर $= 43923 - 43200 = \\mathbf{723}$ रुपये।\n\nविधि 2: प्रभावी ब्याज अंतर (2.41%) ट्रिक: 10% के 4 चक्र $= 46.41\\%$ और 20% के 2 वर्ष $= 44\\%$। सीधा $2.41\\% \\times 30000 = \\mathbf{723}$ रुपये!"
     }
   },
   {

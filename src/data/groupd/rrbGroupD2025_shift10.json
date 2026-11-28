@@ -877,10 +877,55 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (861) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (861) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**861**).",
+      "keyConcept": "Equal CI Maturity Split ⇒ Ratio = (1 + R/100)^ΔT : 1 (Less Time Gets More!)",
+      "optionTrick": {
+        "en": "Time difference $\\Delta T = 1$ yr(s) at 5% ($\\frac{21}{20}$). Share ratio $= 21 : 20$ ($\\text{Sum} = 41$ parts $= 1,681 \\Rightarrow 1\\text{ part} = 41$). Shorter-duration person gets larger share $= 21 \\times 41 = \\mathbf{861}$!",
+        "hi": "दोनों के समय में केवल $\\Delta T = 1$ वर्ष का अंतर है! 5% ($\\frac{21}{20}$) के साथ अनुपात $= 21 : 20$ (योग $= 41$ भाग $= 1,681$)। कम समय वाले को बड़ा भाग $= 21 \\times 41 = \\mathbf{861}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT use `14, 15, 17, 18` years to expand powers — **only the difference `ΔT` between their investment durations matters**!",
+        "hi": "कभी भी 16 व 17 या 12 व 13 की बड़ी घात न निकालें — **केवल दोनों समयावधियों के अंतर $\\Delta T = 1$** का अनुपात लें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers",
+            "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$S_1\\left(1+\\frac{R}{100}\\right)^{T_1} = S_2\\left(1+\\frac{R}{100}\\right)^{T_2} \\implies \\frac{S_1}{S_2} = \\left(1+\\frac{R}{100}\\right)^{T_2 - T_1}$",
+          "steps": {
+            "en": "1) Investment periods are 16 yrs and 17 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (Sum $= 41$ parts).\n3) 1 part $= \\frac{1681}{41} = 41 \\Rightarrow$ Asked share $= 21 \\times 41 = \\mathbf{861}$.",
+            "hi": "1) दोनों की निवेश अवधि 16 वर्ष व 17 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (कुल $= 41$ भाग)।\n3) 1 भाग $= \\frac{1681}{41} = 41 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{861}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Fraction Split (10-Sec Shortcut)",
+            "hi": "विधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since 1681 divides cleanly by 41 ($= 41$), pick **21 × 41** (the larger share goes to the person compounding for fewer years) $= \\mathbf{861}$.",
+            "hi": "1681, 41 से ठीक 41 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 21 \\times 41 = \\mathbf{861}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers: 1) Investment periods are 16 yrs and 17 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (Sum $= 41$ parts).\n3) 1 part $= \\frac{1681}{41} = 41 \\Rightarrow$ Asked share $= 21 \\times 41 = \\mathbf{861}$.\n\nMethod 2: Instant Fraction Split (10-Sec Shortcut): Since 1681 divides cleanly by 41 ($= 41$), pick **21 × 41** (the larger share goes to the person compounding for fewer years) $= \\mathbf{861}$.",
+      "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना: 1) दोनों की निवेश अवधि 16 वर्ष व 17 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (कुल $= 41$ भाग)।\n3) 1 भाग $= \\frac{1681}{41} = 41 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{861}$।\n\nविधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक: 1681, 41 से ठीक 41 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 21 \\times 41 = \\mathbf{861}$!"
     }
   },
   {
@@ -1731,10 +1776,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find Rate",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Mathematical Answer: **6.25% p.a.** (Official PDF option-bleed stored Option A `97`).",
+      "keyConcept": "Simple Interest Rate with PDF Option-Bleed Transparency",
+      "trapAlert": {
+        "en": "Source PDF Notice: Question stem (also mixed with adjacent geometry/table OCR lines) gives ₹800 amounting to ₹1,200 in 8 years $\\Rightarrow R = \\mathbf{6.25\\%}$ p.a. Stored options (`97, 89, 95, 101`) bled from the arithmetic question of Shift 10; official key index points to Option A (`97`).",
+        "hi": "स्रोत PDF सूचना: मूल प्रश्न में ₹800 की राशि 8 वर्षों में ₹1,200 होती है जिससे सटीक ब्याज दर **6.25%** वार्षिक आती है, परंतु PDF में अन्य प्रश्न के विकल्प (`97, 89, 95, 101`) छप गए थे और कुंजी विकल्प A (`97`) पर अंकित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Exact SI Rate Formula (P = 800, A = 1200, T = 8)",
+            "hi": "विधि 1: सटीक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$R = \\frac{SI \\times 100}{P \\times T}$",
+          "steps": {
+            "en": "1) $SI = 1200 - 800 = 400$.\n2) $R = \\frac{400 \\times 100}{800 \\times 8} = \\frac{50}{8} = \\mathbf{6.25\\%}$ per annum.",
+            "hi": "1) साधारण ब्याज $SI = 1200 - 800 = 400$ रुपये।\n2) वार्षिक दर $R = \\frac{400 \\times 100}{800 \\times 8} = \\frac{50}{8} = \\mathbf{6.25\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Percentage Gain per Year",
+            "hi": "विधि 2: कुल ब्याज प्रतिशत ÷ समय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "800 becomes 1200 ($+50\\%$ gain in 8 years) $\\Rightarrow R = \\frac{50\\%}{8} = \\mathbf{6.25\\%}$ (PDF key records Option A: `97` due to option bleed).",
+            "hi": "₹800 पर 8 वर्षों में $50\\%$ वृद्धि $\\Rightarrow R = \\frac{50}{8} = \\mathbf{6.25\\%}$ (PDF विकल्प त्रुटि के कारण कुंजी में `97` दर्ज है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Exact SI Rate Formula (P = 800, A = 1200, T = 8): 1) $SI = 1200 - 800 = 400$.\n2) $R = \\frac{400 \\times 100}{800 \\times 8} = \\frac{50}{8} = \\mathbf{6.25\\%}$ per annum.\n\nMethod 2: Net Percentage Gain per Year: 800 becomes 1200 ($+50\\%$ gain in 8 years) $\\Rightarrow R = \\frac{50\\%}{8} = \\mathbf{6.25\\%}$ (PDF key records Option A: `97` due to option bleed).",
+      "hi": "विधि 1: सटीक साधारण ब्याज सूत्र: 1) साधारण ब्याज $SI = 1200 - 800 = 400$ रुपये।\n2) वार्षिक दर $R = \\frac{400 \\times 100}{800 \\times 8} = \\frac{50}{8} = \\mathbf{6.25\\%}$।\n\nविधि 2: कुल ब्याज प्रतिशत ÷ समय ट्रिक: ₹800 पर 8 वर्षों में $50\\%$ वृद्धि $\\Rightarrow R = \\frac{50}{8} = \\mathbf{6.25\\%}$ (PDF विकल्प त्रुटि के कारण कुंजी में `97` दर्ज है)।"
     }
   },
   {
@@ -1833,10 +1919,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Two Variables (Simultaneous)",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Source PDF OCR Equation: **3m = 10n** (Official PDF option-bleed stored Option A `97`).",
+      "keyConcept": "Linear Equation Framing & PDF OCR Column Bleed Notice",
+      "trapAlert": {
+        "en": "Source PDF Notice: In Hindi stem (`\"m का एक-पाँचवाँ भाग, n के एक-तिहाई भाग का दोगुना है\"`), exact relation is $\\frac{m}{5} = \\frac{2n}{3} \\Rightarrow \\mathbf{3m = 10n}$. English prompt truncated and PDF options (`97, 89, 95, 101`) bled from Q46 (`97` Option A).",
+        "hi": "स्रोत PDF सूचना: हिंदी कथन के अनुसार समीकरण $\\frac{m}{5} = \\frac{2n}{3} \\Rightarrow \\mathbf{3m = 10n}$ बनता है; अंग्रेज़ी पाठ अधूरा कटा है व विकल्प (`97, 89, 95, 101`) दूसरे प्रश्न से जुड़ गए हैं।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Translate Statement Step-by-Step",
+            "hi": "विधि 1: कथन से रैखिक समीकरण निर्माण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$\\frac{m}{5} = 2 \\times \\frac{n}{3}$",
+          "steps": {
+            "en": "1) One-fifth of $m = \\frac{m}{5}$; double of one-third of $n = \\frac{2n}{3}$.\n2) Cross-multiply: $\\mathbf{3m = 10n}$ (stored key marks Option A: `97` from PDF option bleed).",
+            "hi": "1) $m$ का पाँचवाँ भाग $= \\frac{m}{5}$ तथा $n$ के तिहाई का दोगुना $= \\frac{2n}{3}$।\n2) तिर्यक गुणा से $\\mathbf{3m = 10n}$ (PDF विकल्प विसंगति के कारण कुंजी में `97` दर्ज है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Cross-Check Trick",
+            "hi": "विधि 2: अनुपात से तुरंत सत्यापन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Check $m : n = 10 : 3 \\Rightarrow \\frac{10}{5} = 2$ equals $2 \\times \\frac{3}{3} = 2$ (verified equation $3m - 10n = 0$).",
+            "hi": "$m = 10, n = 3$ रखने पर $\\frac{10}{5} = 2$ और $2 \\times \\frac{3}{3} = 2$ संतुष्ट होता है $\\Rightarrow \\mathbf{3m = 10n}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Translate Statement Step-by-Step: 1) One-fifth of $m = \\frac{m}{5}$; double of one-third of $n = \\frac{2n}{3}$.\n2) Cross-multiply: $\\mathbf{3m = 10n}$ (stored key marks Option A: `97` from PDF option bleed).\n\nMethod 2: Ratio Cross-Check Trick: Check $m : n = 10 : 3 \\Rightarrow \\frac{10}{5} = 2$ equals $2 \\times \\frac{3}{3} = 2$ (verified equation $3m - 10n = 0$).",
+      "hi": "विधि 1: कथन से रैखिक समीकरण निर्माण: 1) $m$ का पाँचवाँ भाग $= \\frac{m}{5}$ तथा $n$ के तिहाई का दोगुना $= \\frac{2n}{3}$।\n2) तिर्यक गुणा से $\\mathbf{3m = 10n}$ (PDF विकल्प विसंगति के कारण कुंजी में `97` दर्ज है)।\n\nविधि 2: अनुपात से तुरंत सत्यापन: $m = 10, n = 3$ रखने पर $\\frac{10}{5} = 2$ और $2 \\times \\frac{3}{3} = 2$ संतुष्ट होता है $\\Rightarrow \\mathbf{3m = 10n}$।"
     }
   },
   {

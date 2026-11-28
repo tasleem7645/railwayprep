@@ -685,10 +685,51 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (17 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option B (3200). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (3200)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**3200**).",
+      "keyConcept": "Principal Extraction from Total R×T% Simple Interest",
+      "optionTrick": {
+        "en": "Total interest $= 5\\% \\times 3 = 15\\%$ of $P = 480 \\Rightarrow P = \\frac{480 \\times 100}{15} = \\mathbf{3,200}$!",
+        "hi": "कुल ब्याज $= 5\\% \\times 3 = 15\\% = 480 \\Rightarrow P = \\frac{480 \\times 100}{15} = \\mathbf{3,200}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मूलधन सूत्र द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) Given $SI = 480$, $T = 3$ years, $R = 5\\%$.\n2) $P = \\frac{480 \\times 100}{5 \\times 3} = \\frac{48,000}{15} = \\mathbf{3,200}$.",
+            "hi": "1) दिया है $SI = 480$, समय $T = 3$ वर्ष, दर $R = 5\\%$।\n2) $P = \\frac{480 \\times 100}{5 \\times 3} = \\mathbf{3,200}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (R×T%)",
+            "hi": "विधि 2: कुल R×T% ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$15\\% = 480 \\Rightarrow 1\\% = 32 \\Rightarrow 100\\% = \\mathbf{3,200}$ (3200).",
+            "hi": "$15\\% = 480$ तो $1\\% = 32$, इसलिए $100\\% = \\mathbf{3,200}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) Given $SI = 480$, $T = 3$ years, $R = 5\\%$.\n2) $P = \\frac{480 \\times 100}{5 \\times 3} = \\frac{48,000}{15} = \\mathbf{3,200}$.\n\nMethod 2: Percentage Unitary Method (R×T%): $15\\% = 480 \\Rightarrow 1\\% = 32 \\Rightarrow 100\\% = \\mathbf{3,200}$ (3200).",
+      "hi": "विधि 1: मूलधन सूत्र द्वारा हल: 1) दिया है $SI = 480$, समय $T = 3$ वर्ष, दर $R = 5\\%$।\n2) $P = \\frac{480 \\times 100}{5 \\times 3} = \\mathbf{3,200}$ रुपये।\n\nविधि 2: कुल R×T% ऐकिक नियम ट्रिक: $15\\% = 480$ तो $1\\% = 32$, इसलिए $100\\% = \\mathbf{3,200}$।"
     },
     "correctIndexHi": 1
   },

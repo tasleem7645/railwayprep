@@ -877,10 +877,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹1284) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹1284) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹1284**).",
+      "keyConcept": "Difference of Two 2-Year CI Schemes via Effective % Gap",
+      "optionTrick": {
+        "en": "2-yr CI rates: 8% -> 16.64%, 6% -> 12.36%. Gap $= 4.28\\%$ of 30,000 $= 300 \\times 4.28 = \\mathbf{Rs.1284}$!",
+        "hi": "2 वर्ष की प्रभावी दरें: $8\\% \\to 16.64\\%$ व $6\\% \\to 12.36\\%$। अंतर $= 4.28\\% \\times 30{,}000 = \\mathbf{Rs.1284}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compare Effective 2-Year CI Percentages",
+            "hi": "विधि 1: दोनों योजनाओं की प्रभावी 2-वर्ष दर से"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Scheme 1 (8%): $8 + 8 + 0.64 = 16.64\\%$.\n2) Scheme 2 (6%): $6 + 6 + 0.36 = 12.36\\%$.\n3) Difference $= (16.64 - 12.36)\\%$ of $30{,}000 = 4.28\\% \\times 30000 = \\mathbf{Rs.1284}$.",
+            "hi": "1) योजना 1 (8%): $8 + 8 + 0.64 = 16.64\\%$।\n2) योजना 2 (6%): $6 + 6 + 0.36 = 12.36\\%$।\n3) अंतर $= 30{,}000$ का $4.28\\% = \\mathbf{Rs.1284}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Principal Factor Difference",
+            "hi": "विधि 2: त्वरित अंतर गुणन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Gap $= 2(8-6) + \\frac{8^2 - 6^2}{100} = 4 + 0.28 = 4.28\\%$. Multiply $4.28 \\times 300 = \\mathbf{Rs.1284}$.",
+            "hi": "सीधा अंतर $= 2(8-6) + \\frac{64-36}{100} = 4.28\\%$। $300 \\times 4.28 = \\mathbf{Rs.1284}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Compare Effective 2-Year CI Percentages: 1) Scheme 1 (8%): $8 + 8 + 0.64 = 16.64\\%$.\n2) Scheme 2 (6%): $6 + 6 + 0.36 = 12.36\\%$.\n3) Difference $= (16.64 - 12.36)\\%$ of $30{,}000 = 4.28\\% \\times 30000 = \\mathbf{Rs.1284}$.\n\nMethod 2: Zero-Principal Factor Difference: Gap $= 2(8-6) + \\frac{8^2 - 6^2}{100} = 4 + 0.28 = 4.28\\%$. Multiply $4.28 \\times 300 = \\mathbf{Rs.1284}$.",
+      "hi": "विधि 1: दोनों योजनाओं की प्रभावी 2-वर्ष दर से: 1) योजना 1 (8%): $8 + 8 + 0.64 = 16.64\\%$।\n2) योजना 2 (6%): $6 + 6 + 0.36 = 12.36\\%$।\n3) अंतर $= 30{,}000$ का $4.28\\% = \\mathbf{Rs.1284}$।\n\nविधि 2: त्वरित अंतर गुणन ट्रिक: सीधा अंतर $= 2(8-6) + \\frac{64-36}{100} = 4.28\\%$। $300 \\times 4.28 = \\mathbf{Rs.1284}$!"
     }
   },
   {
@@ -911,10 +951,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (200) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (200) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**200**).",
+      "keyConcept": "2-Year Compound Growth Rate: R = (√K − 1) × 100%",
+      "optionTrick": {
+        "en": "Formula is simply **$(\\sqrt{9} - 1) \\times 100$**! Estimate $\\sqrt{9}$ near $3^2=9$ (≈ 3.000) $\\Rightarrow \\mathbf{200}$!",
+        "hi": "सीधा सूत्र **$(\\sqrt{9} - 1) \\times 100$** लगाएँ! $\\sqrt{9} \\approx 3.000$ से $(\\sqrt{9} - 1) \\times 100 \\approx \\mathbf{200}$ तुरंत मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compound Amount Equation (1 + r)^2 = K",
+            "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P\\left(1 + \\frac{R}{100}\\right)^2 = 9P \\implies R = (\\sqrt{9} - 1) \\times 100$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 9 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{9} = 3$.\n2) $R = (3 - 1) \\times 100 = \\mathbf{200}$.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 9 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{9} = 3$।\n2) $R = (3 - 1) \\times 100 = \\mathbf{200}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fast Square-Root Approximation",
+            "hi": "विधि 2: वर्गमूल सन्निकटन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$K = 9 = 3^2$, so $R = (3 - 1) \\times 100 = \\mathbf{200}$ in 2 seconds!",
+            "hi": "$\\sqrt{9} = 3$ होने से $R = (3 - 1) \\times 100 = \\mathbf{200}$ तुरंत मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Compound Amount Equation (1 + r)^2 = K: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 9 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{9} = 3$.\n2) $R = (3 - 1) \\times 100 = \\mathbf{200}$.\n\nMethod 2: Fast Square-Root Approximation: $K = 9 = 3^2$, so $R = (3 - 1) \\times 100 = \\mathbf{200}$ in 2 seconds!",
+      "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 9 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{9} = 3$।\n2) $R = (3 - 1) \\times 100 = \\mathbf{200}$।\n\nविधि 2: वर्गमूल सन्निकटन ट्रिक: $\\sqrt{9} = 3$ होने से $R = (3 - 1) \\times 100 = \\mathbf{200}$ तुरंत मिलता है!"
     }
   },
   {
@@ -1081,10 +1162,55 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (270) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (270) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**270**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,500 $= 45$. For 6 months: $45 \\times 6 = \\mathbf{270}$!",
+        "hi": "1 माह का ब्याज $= 1,500$ का 3% $= 45$। अतः 6 माह का ब्याज $= 45 \\times 6 = \\mathbf{270}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 6$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 6}{100} = 15 \\times 18 = \\mathbf{270}$.",
+            "hi": "1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 6$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 6}{100} = \\mathbf{270}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1500 = 45$. For 6 months: $45 \\times 6 = \\mathbf{270}$.",
+            "hi": "1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 6 माह के लिए $\\times 6 = \\mathbf{270}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 6$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 6}{100} = 15 \\times 18 = \\mathbf{270}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1500 = 45$. For 6 months: $45 \\times 6 = \\mathbf{270}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 6$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 6}{100} = \\mathbf{270}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 6 माह के लिए $\\times 6 = \\mathbf{270}$!"
     }
   },
   {

@@ -877,10 +877,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹5,694.75) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹5,694.75) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹5,694.75**).",
+      "keyConcept": "Annual Compound Interest over 2 Years (25% = 1/4)",
+      "optionTrick": {
+        "en": "Use 2-yr factor $\\frac{25}{16}$ or effective rate **56.25%** of 10,124 $\\Rightarrow \\mathbf{Rs.5,694.75}$!",
+        "hi": "प्रभावी दर **56.25%** या भिन्न गुणक $\\frac{25}{16}$ लगाने पर सीधा उत्तर **₹5,694.75** आता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (5/4)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (5/4)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{100}\\right)^T - 1\\right]$",
+          "steps": {
+            "en": "1) 25% annual factor $= \\frac{5}{4}$ over 2 years $\\Rightarrow \\frac{25}{16}$.\n2) $A = 10124 \\times \\frac{25}{16} = 15,818.75$.\n3) $CI = 15,818.75 - 10,124 = 5,694.75$ (**₹5,694.75**).",
+            "hi": "1) 25% दर का 2-वर्ष गुणक $= \\frac{25}{16}$।\n2) मिश्रधन $A = 10124 \\times \\frac{25}{16} = 15,818.75$ रुपये।\n3) $CI = 15,818.75 - 10,124 = 5,694.75$ (**₹5,694.75**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr CI rate $= 56.25\\%$. Multiply 0.5625 by 10,124 $\\Rightarrow \\mathbf{Rs.5,694.75}$!",
+            "hi": "2 वर्ष की कुल ब्याज दर 56.25% से सीधा उत्तर **₹5,694.75** मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (5/4): 1) 25% annual factor $= \\frac{5}{4}$ over 2 years $\\Rightarrow \\frac{25}{16}$.\n2) $A = 10124 \\times \\frac{25}{16} = 15,818.75$.\n3) $CI = 15,818.75 - 10,124 = 5,694.75$ (**₹5,694.75**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Net 2-yr CI rate $= 56.25\\%$. Multiply 0.5625 by 10,124 $\\Rightarrow \\mathbf{Rs.5,694.75}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (5/4): 1) 25% दर का 2-वर्ष गुणक $= \\frac{25}{16}$।\n2) मिश्रधन $A = 10124 \\times \\frac{25}{16} = 15,818.75$ रुपये।\n3) $CI = 15,818.75 - 10,124 = 5,694.75$ (**₹5,694.75**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: 2 वर्ष की कुल ब्याज दर 56.25% से सीधा उत्तर **₹5,694.75** मिलता है!"
     }
   },
   {
@@ -911,10 +952,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (347.2) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (347.2) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**347.2**).",
+      "keyConcept": "2-Year Compound Growth Rate: R = (√K − 1) × 100%",
+      "optionTrick": {
+        "en": "Formula is simply **$(\\sqrt{20} - 1) \\times 100$**! Estimate $\\sqrt{20}$ near $4^2=16$ (≈ 4.472) $\\Rightarrow \\mathbf{347.2}$!",
+        "hi": "सीधा सूत्र **$(\\sqrt{20} - 1) \\times 100$** लगाएँ! $\\sqrt{20} \\approx 4.472$ से $(\\sqrt{20} - 1) \\times 100 \\approx \\mathbf{347.2}$ तुरंत मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compound Amount Equation (1 + r)^2 = K",
+            "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P\\left(1 + \\frac{R}{100}\\right)^2 = 20P \\implies R = (\\sqrt{20} - 1) \\times 100$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 20 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{20} \\approx 4.4721$.\n2) $R = (4.4721 - 1) \\times 100 \\approx \\mathbf{347.2}$.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 20 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{20} \\approx 4.4721$।\n2) $R = (4.4721 - 1) \\times 100 \\approx \\mathbf{347.2}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fast Square-Root Approximation",
+            "hi": "विधि 2: वर्गमूल सन्निकटन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Using $\\sqrt{a^2 + b} \\approx a + \\frac{b}{2a}$: subtract 1 and multiply by 100 gives **347.2** (Option B).",
+            "hi": "निकटतम पूर्ण वर्ग के उपयोग से $\\sqrt{20} \\approx 4.472 \\Rightarrow R \\approx \\mathbf{347.2}$ (विकल्प B)।"
+          }
+        }
+      ],
+      "en": "Method 1: Compound Amount Equation (1 + r)^2 = K: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 20 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{20} \\approx 4.4721$.\n2) $R = (4.4721 - 1) \\times 100 \\approx \\mathbf{347.2}$.\n\nMethod 2: Fast Square-Root Approximation: Using $\\sqrt{a^2 + b} \\approx a + \\frac{b}{2a}$: subtract 1 and multiply by 100 gives **347.2** (Option B).",
+      "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 20 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{20} \\approx 4.4721$।\n2) $R = (4.4721 - 1) \\times 100 \\approx \\mathbf{347.2}$।\n\nविधि 2: वर्गमूल सन्निकटन ट्रिक: निकटतम पूर्ण वर्ग के उपयोग से $\\sqrt{20} \\approx 4.472 \\Rightarrow R \\approx \\mathbf{347.2}$ (विकल्प B)।"
     }
   },
   {
@@ -1081,10 +1163,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (48,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (48,000) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**48,000**).",
+      "keyConcept": "Difference of Two Equal-Principal Simple Interests = P × |R₂ − R₁| × T / 100",
+      "optionTrick": {
+        "en": "Never calculate Bank A and Bank B separately! Rate gap $= |8.5 - 3.5| = 5\\%$ per yr $\\times 2 = 10\\%$ of $4,80,000 = \\mathbf{48,000}$!",
+        "hi": "दोनों बैंकों का ब्याज अलग-अलग न निकालें! दर अंतर $= 5\\% \\times 2 = 10\\%$। सीधा 4,80,000 का 10% $= \\mathbf{48,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Difference of Individual SI Values",
+            "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $SI_A = \\frac{480000 \\times 3.5 \\times 2}{100} = 33,600$.\n2) $SI_B = \\frac{480000 \\times 8.5 \\times 2}{100} = 81,600$.\n3) Difference $= 81,600 - 33,600 = \\mathbf{48,000}$.",
+            "hi": "1) बैंक A का ब्याज $= 33,600$ रुपये।\n2) बैंक B का ब्याज $= 81,600$ रुपये।\n3) अंतर $= 81,600 - 33,600 = \\mathbf{48,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Rate-Difference % Shortcut (3 sec)",
+            "hi": "विधि 2: शुद्ध दर-अंतर % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta SI = \\frac{P \\times |R_2 - R_1| \\times T}{100}$",
+          "steps": {
+            "en": "$\\Delta SI = 5\\% \\times 2 \\text{ of } 4,80,000 = 10\\% \\times 4,80,000 = \\mathbf{48,000}$.",
+            "hi": "$\\Delta SI = (8.5 - 3.5)\\% \\times 2$ वर्ष $= 10\\%$ of $4,80,000 = \\mathbf{48,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Difference of Individual SI Values: 1) $SI_A = \\frac{480000 \\times 3.5 \\times 2}{100} = 33,600$.\n2) $SI_B = \\frac{480000 \\times 8.5 \\times 2}{100} = 81,600$.\n3) Difference $= 81,600 - 33,600 = \\mathbf{48,000}$.\n\nMethod 2: Net Rate-Difference % Shortcut (3 sec): $\\Delta SI = 5\\% \\times 2 \\text{ of } 4,80,000 = 10\\% \\times 4,80,000 = \\mathbf{48,000}$.",
+      "hi": "विधि 1: दोनों बैंकों के ब्याज अलग निकालकर अंतर: 1) बैंक A का ब्याज $= 33,600$ रुपये।\n2) बैंक B का ब्याज $= 81,600$ रुपये।\n3) अंतर $= 81,600 - 33,600 = \\mathbf{48,000}$ रुपये।\n\nविधि 2: शुद्ध दर-अंतर % ट्रिक: $\\Delta SI = (8.5 - 3.5)\\% \\times 2$ वर्ष $= 10\\%$ of $4,80,000 = \\mathbf{48,000}$!"
     }
   },
   {

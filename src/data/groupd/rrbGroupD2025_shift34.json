@@ -951,10 +951,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (5%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (5%) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**5%**).",
+      "keyConcept": "Compound Interest Rate via T-th Root: (1 + R/100) = (A / P)^(1/2)",
+      "optionTrick": {
+        "en": "Ratio $\\frac{A}{P} = 1.1025 = \\left(1.05\\right)^2$ $\\Rightarrow R = \\mathbf{5\\%}$!",
+        "hi": "अनुपात $\\frac{A}{P} = 1.1025 = \\left(1.05\\right)^2$ $\\Rightarrow R = \\mathbf{5\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify P : A Ratio to Perfect Power",
+            "hi": "विधि 1: P व A का अनुपात सरल कर मूल निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$\\frac{A}{P} = \\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{6394.5}{5800} = 1.1025$.\n2) Taking 2-th root: $1 + \\frac{R}{100} = 1.05 \\Rightarrow R = \\mathbf{5\\%}$.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{6394.5}{5800} = 1.1025$।\n2) 2वाँ मूल लेने पर $1 + \\frac{R}{100} = 1.05 \\Rightarrow R = \\mathbf{5\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Successive % Benchmark Option Test (4 sec)",
+            "hi": "विधि 2: प्रभावी % व इकाई अंक परीक्षण"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total % gain $= \\frac{594.5}{5800} \\times 100 = 10.25\\%$, matching 2-year compounding of **5%** (5+5+0.25)!",
+            "hi": "कुल % वृद्धि $= 10.25\\%$, जो 2 वर्षों में केवल **5%** से संभव है!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify P : A Ratio to Perfect Power: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{6394.5}{5800} = 1.1025$.\n2) Taking 2-th root: $1 + \\frac{R}{100} = 1.05 \\Rightarrow R = \\mathbf{5\\%}$.\n\nMethod 2: Successive % Benchmark Option Test (4 sec): Total % gain $= \\frac{594.5}{5800} \\times 100 = 10.25\\%$, matching 2-year compounding of **5%** (5+5+0.25)!",
+      "hi": "विधि 1: P व A का अनुपात सरल कर मूल निकालें: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{6394.5}{5800} = 1.1025$।\n2) 2वाँ मूल लेने पर $1 + \\frac{R}{100} = 1.05 \\Rightarrow R = \\mathbf{5\\%}$।\n\nविधि 2: प्रभावी % व इकाई अंक परीक्षण: कुल % वृद्धि $= 10.25\\%$, जो 2 वर्षों में केवल **5%** से संभव है!"
     }
   },
   {
@@ -1087,10 +1128,55 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (792) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (792) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**792**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 6\\%$ of 1,200 $= 72$. For 11 months: $72 \\times 11 = \\mathbf{792}$!",
+        "hi": "1 माह का ब्याज $= 1,200$ का 6% $= 72$। अतः 11 माह का ब्याज $= 72 \\times 11 = \\mathbf{792}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,200$, monthly rate $R = 6\\%$, $T = 11$ months.\n2) $SI = \\frac{1200 \\times 6 \\times 11}{100} = 12 \\times 66 = \\mathbf{792}$.",
+            "hi": "1) $P = 1,200$, मासिक दर $= 6\\%$, समय $= 11$ माह।\n2) $SI = \\frac{1200 \\times 6 \\times 11}{100} = \\mathbf{792}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 6\\%$ of $1200 = 72$. For 11 months: $72 \\times 11 = \\mathbf{792}$.",
+            "hi": "1 माह का ब्याज $= 72$ रुपये $\\Rightarrow$ 11 माह के लिए $\\times 11 = \\mathbf{792}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,200$, monthly rate $R = 6\\%$, $T = 11$ months.\n2) $SI = \\frac{1200 \\times 6 \\times 11}{100} = 12 \\times 66 = \\mathbf{792}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 6\\%$ of $1200 = 72$. For 11 months: $72 \\times 11 = \\mathbf{792}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,200$, मासिक दर $= 6\\%$, समय $= 11$ माह।\n2) $SI = \\frac{1200 \\times 6 \\times 11}{100} = \\mathbf{792}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 72$ रुपये $\\Rightarrow$ 11 माह के लिए $\\times 11 = \\mathbf{792}$!"
     }
   },
   {
@@ -1121,10 +1207,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (₹1,014.24) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹1,014.24) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹1,014.24**).",
+      "keyConcept": "Two Staggered Half-Yearly Deposits (Jan 1 Earns 2 Cycles; Jul 1 Earns 1 Cycle)",
+      "optionTrick": {
+        "en": "Half-yearly rate $r_h = 3.45\\%$. Equal deposits $P$ earn $P \\times (3r_h + r_h^2)$ $= 9,688 \\times 10.469\\% = \\mathbf{1,014.24}$!",
+        "hi": "छमाही दर $r_h = 3.45\\%$। दोनों समान जमा पर कुल ब्याज $= P(3r_h + r_h^2) = 9,688 \\times 10.469\\% = \\mathbf{1,014.24}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year)",
+            "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI_{\\text{total}} = P_1[(1+r_h)^2 - 1] + P_2 r_h$",
+          "steps": {
+            "en": "1) Half-yearly rate $r_h = \\frac{6.9\\%}{2} = 3.45\\%$.\n2) Jan 1 deposit (9,688) earns 2 cycles ($7.019\\%$): 680.0031.\n3) Jul 1 deposit (9,688) earns 1 cycle ($3.45\\%$): 334.236.\n4) Total interest $= 680.0031 + 334.236 = \\mathbf{1,014.24}$ (₹1,014.24).",
+            "hi": "1) छमाही दर $r_h = \\frac{6.9\\%}{2} = 3.45\\%$।\n2) 1 जनवरी जमा (9,688) पर 2 छमाही ब्याज ($7.019\\%$) $= 680.0031$।\n3) 1 जुलाई जमा (9,688) पर 1 छमाही ब्याज ($3.45\\%$) $= 334.236$।\n4) कुल ब्याज $= 680.0031 + 334.236 = \\mathbf{1,014.24}$ (₹1,014.24)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unified Rate-Factor Trick",
+            "hi": "विधि 2: एकीकृत प्रतिशत गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "With equal deposits, combine cycles into one rate: $2r_h + r_h^2 + r_h = 10.469\\%$ of $9,688 = \\mathbf{1,014.24}$.",
+            "hi": "समान जमा पर सीधे 9,688 का $10.469\\% = \\mathbf{1,014.24}$ निकालें!"
+          }
+        }
+      ],
+      "en": "Method 1: Separate Cycle Interests (2 Half-Years + 1 Half-Year): 1) Half-yearly rate $r_h = \\frac{6.9\\%}{2} = 3.45\\%$.\n2) Jan 1 deposit (9,688) earns 2 cycles ($7.019\\%$): 680.0031.\n3) Jul 1 deposit (9,688) earns 1 cycle ($3.45\\%$): 334.236.\n4) Total interest $= 680.0031 + 334.236 = \\mathbf{1,014.24}$ (₹1,014.24).\n\nMethod 2: Unified Rate-Factor Trick: With equal deposits, combine cycles into one rate: $2r_h + r_h^2 + r_h = 10.469\\%$ of $9,688 = \\mathbf{1,014.24}$.",
+      "hi": "विधि 1: दोनों जमा राशियों का अलग-अलग ब्याज: 1) छमाही दर $r_h = \\frac{6.9\\%}{2} = 3.45\\%$।\n2) 1 जनवरी जमा (9,688) पर 2 छमाही ब्याज ($7.019\\%$) $= 680.0031$।\n3) 1 जुलाई जमा (9,688) पर 1 छमाही ब्याज ($3.45\\%$) $= 334.236$।\n4) कुल ब्याज $= 680.0031 + 334.236 = \\mathbf{1,014.24}$ (₹1,014.24)।\n\nविधि 2: एकीकृत प्रतिशत गुणक ट्रिक: समान जमा पर सीधे 9,688 का $10.469\\% = \\mathbf{1,014.24}$ निकालें!"
     }
   },
   {

@@ -877,10 +877,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹2,508.80) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹2,508.80) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹2,508.80**).",
+      "keyConcept": "Annual Compound Interest over 2 Years (12% = 3/25)",
+      "optionTrick": {
+        "en": "Use 2-yr factor $\\frac{784}{625}$ or effective rate **25.44%** of 2,000 $\\Rightarrow \\mathbf{Rs.2,508.80}$!",
+        "hi": "प्रभावी दर **25.44%** या भिन्न गुणक $\\frac{784}{625}$ लगाने पर सीधा उत्तर **₹2,508.80** आता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (28/25)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (28/25)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$A = P\\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) 12% annual factor $= \\frac{28}{25}$ over 2 years $\\Rightarrow \\frac{784}{625}$.\n2) $A = 2000 \\times \\frac{784}{625} = 2,508.80$. (**₹2,508.80**).",
+            "hi": "1) 12% दर का 2-वर्ष गुणक $= \\frac{784}{625}$।\n2) मिश्रधन $A = 2000 \\times \\frac{784}{625} = 2,508.80$ रुपये। (**₹2,508.80**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr CI rate $= 25.44\\%$. Multiply 1.2544 by 2,000 $\\Rightarrow \\mathbf{Rs.2,508.80}$!",
+            "hi": "2 वर्ष की कुल ब्याज दर 25.44% से सीधा उत्तर **₹2,508.80** मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (28/25): 1) 12% annual factor $= \\frac{28}{25}$ over 2 years $\\Rightarrow \\frac{784}{625}$.\n2) $A = 2000 \\times \\frac{784}{625} = 2,508.80$. (**₹2,508.80**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Net 2-yr CI rate $= 25.44\\%$. Multiply 1.2544 by 2,000 $\\Rightarrow \\mathbf{Rs.2,508.80}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (28/25): 1) 12% दर का 2-वर्ष गुणक $= \\frac{784}{625}$।\n2) मिश्रधन $A = 2000 \\times \\frac{784}{625} = 2,508.80$ रुपये। (**₹2,508.80**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: 2 वर्ष की कुल ब्याज दर 25.44% से सीधा उत्तर **₹2,508.80** मिलता है!"
     }
   },
   {
@@ -911,10 +952,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹20,916) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹20,916) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹20,916**).",
+      "keyConcept": "Annual Compound Interest over 2 Years (20% = 1/5)",
+      "optionTrick": {
+        "en": "Use 2-yr factor $\\frac{36}{25}$ or effective rate **44%** of 14,525 $\\Rightarrow \\mathbf{Rs.20,916}$!",
+        "hi": "प्रभावी दर **44%** या भिन्न गुणक $\\frac{36}{25}$ लगाने पर सीधा उत्तर **₹20,916** आता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (6/5)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (6/5)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$A = P\\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) 20% annual factor $= \\frac{6}{5}$ over 2 years $\\Rightarrow \\frac{36}{25}$.\n2) $A = 14525 \\times \\frac{36}{25} = 20,916.00$. (**₹20,916**).",
+            "hi": "1) 20% दर का 2-वर्ष गुणक $= \\frac{36}{25}$।\n2) मिश्रधन $A = 14525 \\times \\frac{36}{25} = 20,916.00$ रुपये। (**₹20,916**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr CI rate $= 44\\%$. Multiply 1.44 by 14,525 $\\Rightarrow \\mathbf{Rs.20,916}$!",
+            "hi": "2 वर्ष की कुल ब्याज दर 44% से सीधा उत्तर **₹20,916** मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (6/5): 1) 20% annual factor $= \\frac{6}{5}$ over 2 years $\\Rightarrow \\frac{36}{25}$.\n2) $A = 14525 \\times \\frac{36}{25} = 20,916.00$. (**₹20,916**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Net 2-yr CI rate $= 44\\%$. Multiply 1.44 by 14,525 $\\Rightarrow \\mathbf{Rs.20,916}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (6/5): 1) 20% दर का 2-वर्ष गुणक $= \\frac{36}{25}$।\n2) मिश्रधन $A = 14525 \\times \\frac{36}{25} = 20,916.00$ रुपये। (**₹20,916**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: 2 वर्ष की कुल ब्याज दर 44% से सीधा उत्तर **₹20,916** मिलता है!"
     }
   },
   {
@@ -1149,10 +1231,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (270) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (270) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**270**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 12\\% \\times 4.5 = 54\\%$. Just take $54\\%$ of 500 $= \\mathbf{270}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 12\\% \\times 4.5 = 54\\%$। सीधा 500 का $54\\% = \\mathbf{270}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 500$, $R = 12\\%$, $T = 4.5$ year(s).\n2) $SI = \\frac{500 \\times 12 \\times 4.5}{100} = 5 \\times 54 = \\mathbf{270}$.",
+            "hi": "1) $P = 500$, दर $R = 12\\%$, समय $T = 4.5$ वर्ष।\n2) $SI = \\frac{500 \\times 12 \\times 4.5}{100} = \\mathbf{270}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 5$. Multiply by $R \\times T = 54$: $5 \\times 54 = \\mathbf{270}$.",
+            "hi": "मूलधन का $1\\% = 5$। इसे $R \\times T = 54$ से गुणा करें $= \\mathbf{270}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 500$, $R = 12\\%$, $T = 4.5$ year(s).\n2) $SI = \\frac{500 \\times 12 \\times 4.5}{100} = 5 \\times 54 = \\mathbf{270}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 5$. Multiply by $R \\times T = 54$: $5 \\times 54 = \\mathbf{270}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 500$, दर $R = 12\\%$, समय $T = 4.5$ वर्ष।\n2) $SI = \\frac{500 \\times 12 \\times 4.5}{100} = \\mathbf{270}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 5$। इसे $R \\times T = 54$ से गुणा करें $= \\mathbf{270}$!"
     }
   },
   {

@@ -2074,10 +2074,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (9 years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (9 वर्ष) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**9 years**).",
+      "keyConcept": "Compound Interest Power-Cycle Rule: If ×m in T yrs ⇒ ×mᵏ in k·T yrs",
+      "optionTrick": {
+        "en": "Notice $27 = 3^{3}$, so it takes **3 equal cycles** $= 3 \\times 3 = 9$ total years!",
+        "hi": "$27 = 3^{3}$ अर्थात 3 समान चक्र लगेंगे: कुल समय $= 3 \\times 3 = 9$ वर्ष!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Exponential Growth Equation P(1+R/100)^T",
+            "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^{T_1} = 3\\implies \\left(1 + \\frac{R}{100}\\right)^{3T_1} = 3^{3} = 27$",
+          "steps": {
+            "en": "1) Every **3 years**, money multiplies by **3**.\n2) Since $27 = 3^{3}$, total time $= 3 \\times 3 = 9$ years.",
+            "hi": "1) प्रत्येक **3 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $27 = 3^{3}$, कुल समय $= 3 \\times 3 = 9$ वर्ष।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiplier Timeline Ladder (2 sec)",
+            "hi": "विधि 2: समय-गुणज सीढ़ी ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Timeline: $1 \\xrightarrow{+3\\text{y}} 3 \\xrightarrow{+3\\text{y}} 9 \\xrightarrow{+3\\text{y}} 27\\Rightarrow$ **9 years**!",
+            "hi": "सीधा चक्र: $1 \\xrightarrow{+3\\text{ व}} 3 \\xrightarrow{+3\\text{ व}} 9 \\xrightarrow{+3\\text{ व}} 27\\Rightarrow$ **9 वर्ष**!"
+          }
+        }
+      ],
+      "en": "Method 1: Exponential Growth Equation P(1+R/100)^T: 1) Every **3 years**, money multiplies by **3**.\n2) Since $27 = 3^{3}$, total time $= 3 \\times 3 = 9$ years.\n\nMethod 2: Multiplier Timeline Ladder (2 sec): Timeline: $1 \\xrightarrow{+3\\text{y}} 3 \\xrightarrow{+3\\text{y}} 9 \\xrightarrow{+3\\text{y}} 27\\Rightarrow$ **9 years**!",
+      "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल: 1) प्रत्येक **3 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $27 = 3^{3}$, कुल समय $= 3 \\times 3 = 9$ वर्ष।\n\nविधि 2: समय-गुणज सीढ़ी ट्रिक: सीधा चक्र: $1 \\xrightarrow{+3\\text{ व}} 3 \\xrightarrow{+3\\text{ व}} 9 \\xrightarrow{+3\\text{ व}} 27\\Rightarrow$ **9 वर्ष**!"
     }
   },
   {
@@ -2304,10 +2345,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (180) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (180) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**180**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,200 $= 36$. For 5 months: $36 \\times 5 = \\mathbf{180}$!",
+        "hi": "1 माह का ब्याज $= 1,200$ का 3% $= 36$। अतः 5 माह का ब्याज $= 36 \\times 5 = \\mathbf{180}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,200$, monthly rate $R = 3\\%$, $T = 5$ months.\n2) $SI = \\frac{1200 \\times 3 \\times 5}{100} = 12 \\times 15 = \\mathbf{180}$.",
+            "hi": "1) $P = 1,200$, मासिक दर $= 3\\%$, समय $= 5$ माह।\n2) $SI = \\frac{1200 \\times 3 \\times 5}{100} = \\mathbf{180}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1200 = 36$. For 5 months: $36 \\times 5 = \\mathbf{180}$.",
+            "hi": "1 माह का ब्याज $= 36$ रुपये $\\Rightarrow$ 5 माह के लिए $\\times 5 = \\mathbf{180}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,200$, monthly rate $R = 3\\%$, $T = 5$ months.\n2) $SI = \\frac{1200 \\times 3 \\times 5}{100} = 12 \\times 15 = \\mathbf{180}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1200 = 36$. For 5 months: $36 \\times 5 = \\mathbf{180}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,200$, मासिक दर $= 3\\%$, समय $= 5$ माह।\n2) $SI = \\frac{1200 \\times 3 \\times 5}{100} = \\mathbf{180}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 36$ रुपये $\\Rightarrow$ 5 माह के लिए $\\times 5 = \\mathbf{180}$!"
     }
   },
   {

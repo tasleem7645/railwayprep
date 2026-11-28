@@ -2975,10 +2975,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹14,520**).",
+      "keyConcept": "Annual Compound Interest over 2 Years (10% = 1/10)",
+      "optionTrick": {
+        "en": "Use 2-yr factor $\\frac{121}{100}$ or effective rate **21%** of 12,000 $\\Rightarrow \\mathbf{Rs.14,520}$!",
+        "hi": "प्रभावी दर **21%** या भिन्न गुणक $\\frac{121}{100}$ लगाने पर सीधा उत्तर **₹14,520** आता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (11/10)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (11/10)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$A = P\\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) 10% annual factor $= \\frac{11}{10}$ over 2 years $\\Rightarrow \\frac{121}{100}$.\n2) $A = 12000 \\times \\frac{121}{100} = 14,520.00$. (**₹14,520**).",
+            "hi": "1) 10% दर का 2-वर्ष गुणक $= \\frac{121}{100}$।\n2) मिश्रधन $A = 12000 \\times \\frac{121}{100} = 14,520.00$ रुपये। (**₹14,520**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr CI rate $= 21\\%$. Multiply 1.21 by 12,000 $\\Rightarrow \\mathbf{Rs.14,520}$!",
+            "hi": "2 वर्ष की कुल ब्याज दर 21% से सीधा उत्तर **₹14,520** मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (11/10): 1) 10% annual factor $= \\frac{11}{10}$ over 2 years $\\Rightarrow \\frac{121}{100}$.\n2) $A = 12000 \\times \\frac{121}{100} = 14,520.00$. (**₹14,520**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Net 2-yr CI rate $= 21\\%$. Multiply 1.21 by 12,000 $\\Rightarrow \\mathbf{Rs.14,520}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (11/10): 1) 10% दर का 2-वर्ष गुणक $= \\frac{121}{100}$।\n2) मिश्रधन $A = 12000 \\times \\frac{121}{100} = 14,520.00$ रुपये। (**₹14,520**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: 2 वर्ष की कुल ब्याज दर 21% से सीधा उत्तर **₹14,520** मिलता है!"
     }
   },
   {

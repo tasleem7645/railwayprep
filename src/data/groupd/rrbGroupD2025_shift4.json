@@ -877,10 +877,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹600) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹600) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹600**).",
+      "keyConcept": "Compound Interest Equal Time-Gap Geometric Scaling: P = A₁² / A₂",
+      "optionTrick": {
+        "en": "Equal 4-year gaps! From $t=4$ to $t=8$, money multiplies by $\\frac{2400}{1200} = \\mathbf{2}$. Work backwards 1 step: $P = \\frac{1200}{2} = \\mathbf{Rs.600}$!",
+        "hi": "समान समय अंतराल (4 वर्ष) में राशि सदैव समान गुणज ($\\frac{2400}{1200} = 2$ गुना) बढ़ती है! पीछे जाने पर $P = \\frac{1200}{2} = \\mathbf{Rs.600}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Geometric Ratio Formula P : A₁ = A₁ : A₂",
+            "hi": "विधि 1: गुणोत्तर अनुपात सूत्र (P = A₁² / A₂)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{A_1^2}{A_2}$ (when $t_2 = 2t_1$)",
+          "steps": {
+            "en": "1) Because intervals [0, 4] and [4, 8] are equal, scaling factor is identical: $\\frac{A_1}{P} = \\frac{A_2}{A_1}$.\n2) $P = \\frac{1200 \\times 1200}{2400} = \\mathbf{Rs.600}$.",
+            "hi": "1) [0, 4] व [4, 8] दोनों 4 वर्ष के समान अंतराल हैं, अतः $\\frac{A_1}{P} = \\frac{A_2}{A_1}$।\n2) $P = \\frac{1200 \\times 1200}{2400} = \\mathbf{Rs.600}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reverse 2× Growth Multiplier (2 sec)",
+            "hi": "विधि 2: 2 गुना गुणक से उल्टा भाग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Every 4 years money becomes **2×**, so divide 1200 by 2 $\\Rightarrow \\mathbf{Rs.600}$!",
+            "hi": "हर 4 वर्ष में राशि **2 गुना** होती है $\\Rightarrow P = \\frac{1200}{2} = \\mathbf{Rs.600}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Geometric Ratio Formula P : A₁ = A₁ : A₂: 1) Because intervals [0, 4] and [4, 8] are equal, scaling factor is identical: $\\frac{A_1}{P} = \\frac{A_2}{A_1}$.\n2) $P = \\frac{1200 \\times 1200}{2400} = \\mathbf{Rs.600}$.\n\nMethod 2: Reverse 2× Growth Multiplier (2 sec): Every 4 years money becomes **2×**, so divide 1200 by 2 $\\Rightarrow \\mathbf{Rs.600}$!",
+      "hi": "विधि 1: गुणोत्तर अनुपात सूत्र (P = A₁² / A₂): 1) [0, 4] व [4, 8] दोनों 4 वर्ष के समान अंतराल हैं, अतः $\\frac{A_1}{P} = \\frac{A_2}{A_1}$।\n2) $P = \\frac{1200 \\times 1200}{2400} = \\mathbf{Rs.600}$।\n\nविधि 2: 2 गुना गुणक से उल्टा भाग ट्रिक: हर 4 वर्ष में राशि **2 गुना** होती है $\\Rightarrow P = \\frac{1200}{2} = \\mathbf{Rs.600}$!"
     }
   },
   {
@@ -911,10 +952,55 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (861) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (861) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**861**).",
+      "keyConcept": "Equal CI Maturity Split ⇒ Ratio = (1 + R/100)^ΔT : 1 (Less Time Gets More!)",
+      "optionTrick": {
+        "en": "Time difference $\\Delta T = 1$ yr(s) at 5% ($\\frac{21}{20}$). Share ratio $= 21 : 20$ ($\\text{Sum} = 41$ parts $= 1,681 \\Rightarrow 1\\text{ part} = 41$). Shorter-duration person gets larger share $= 21 \\times 41 = \\mathbf{861}$!",
+        "hi": "दोनों के समय में केवल $\\Delta T = 1$ वर्ष का अंतर है! 5% ($\\frac{21}{20}$) के साथ अनुपात $= 21 : 20$ (योग $= 41$ भाग $= 1,681$)। कम समय वाले को बड़ा भाग $= 21 \\times 41 = \\mathbf{861}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT use `14, 15, 17, 18` years to expand powers — **only the difference `ΔT` between their investment durations matters**!",
+        "hi": "कभी भी 16 व 17 या 12 व 13 की बड़ी घात न निकालें — **केवल दोनों समयावधियों के अंतर $\\Delta T = 1$** का अनुपात लें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers",
+            "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$S_1\\left(1+\\frac{R}{100}\\right)^{T_1} = S_2\\left(1+\\frac{R}{100}\\right)^{T_2} \\implies \\frac{S_1}{S_2} = \\left(1+\\frac{R}{100}\\right)^{T_2 - T_1}$",
+          "steps": {
+            "en": "1) Investment periods are 14 yrs and 15 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (Sum $= 41$ parts).\n3) 1 part $= \\frac{1681}{41} = 41 \\Rightarrow$ Asked share $= 21 \\times 41 = \\mathbf{861}$.",
+            "hi": "1) दोनों की निवेश अवधि 14 वर्ष व 15 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (कुल $= 41$ भाग)।\n3) 1 भाग $= \\frac{1681}{41} = 41 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{861}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Fraction Split (10-Sec Shortcut)",
+            "hi": "विधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since 1681 divides cleanly by 41 ($= 41$), pick **21 × 41** (the larger share goes to the person compounding for fewer years) $= \\mathbf{861}$.",
+            "hi": "1681, 41 से ठीक 41 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 21 \\times 41 = \\mathbf{861}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers: 1) Investment periods are 14 yrs and 15 yrs ($\\Delta T = 1$).\n2) Ratio of shares $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (Sum $= 41$ parts).\n3) 1 part $= \\frac{1681}{41} = 41 \\Rightarrow$ Asked share $= 21 \\times 41 = \\mathbf{861}$.\n\nMethod 2: Instant Fraction Split (10-Sec Shortcut): Since 1681 divides cleanly by 41 ($= 41$), pick **21 × 41** (the larger share goes to the person compounding for fewer years) $= \\mathbf{861}$.",
+      "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना: 1) दोनों की निवेश अवधि 14 वर्ष व 15 वर्ष है (अंतर $\\Delta T = 1$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{21}{20}\\right)^{1} : 1 = 21 : 20$ (कुल $= 41$ भाग)।\n3) 1 भाग $= \\frac{1681}{41} = 41 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{861}$।\n\nविधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक: 1681, 41 से ठीक 41 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 21 \\times 41 = \\mathbf{861}$!"
     }
   },
   {
@@ -1109,10 +1195,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find Principal",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹10,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹10,000) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹10,000**).",
+      "keyConcept": "Principal Extraction from Total R×T% Simple Interest",
+      "optionTrick": {
+        "en": "Total interest $= 5\\% \\times 3 = 15\\%$ of $P = 1,500 \\Rightarrow P = \\frac{1,500 \\times 100}{15} = \\mathbf{10,000}$!",
+        "hi": "कुल ब्याज $= 5\\% \\times 3 = 15\\% = 1,500 \\Rightarrow P = \\frac{1,500 \\times 100}{15} = \\mathbf{10,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मूलधन सूत्र द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) Given $SI = 1,500$, $T = 3$ years, $R = 5\\%$.\n2) $P = \\frac{1500 \\times 100}{5 \\times 3} = \\frac{1,50,000}{15} = \\mathbf{10,000}$.",
+            "hi": "1) दिया है $SI = 1,500$, समय $T = 3$ वर्ष, दर $R = 5\\%$।\n2) $P = \\frac{1500 \\times 100}{5 \\times 3} = \\mathbf{10,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (R×T%)",
+            "hi": "विधि 2: कुल R×T% ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$15\\% = 1,500 \\Rightarrow 1\\% = 100 \\Rightarrow 100\\% = \\mathbf{10,000}$ (₹10,000).",
+            "hi": "$15\\% = 1,500$ तो $1\\% = 100$, इसलिए $100\\% = \\mathbf{10,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) Given $SI = 1,500$, $T = 3$ years, $R = 5\\%$.\n2) $P = \\frac{1500 \\times 100}{5 \\times 3} = \\frac{1,50,000}{15} = \\mathbf{10,000}$.\n\nMethod 2: Percentage Unitary Method (R×T%): $15\\% = 1,500 \\Rightarrow 1\\% = 100 \\Rightarrow 100\\% = \\mathbf{10,000}$ (₹10,000).",
+      "hi": "विधि 1: मूलधन सूत्र द्वारा हल: 1) दिया है $SI = 1,500$, समय $T = 3$ वर्ष, दर $R = 5\\%$।\n2) $P = \\frac{1500 \\times 100}{5 \\times 3} = \\mathbf{10,000}$ रुपये।\n\nविधि 2: कुल R×T% ऐकिक नियम ट्रिक: $15\\% = 1,500$ तो $1\\% = 100$, इसलिए $100\\% = \\mathbf{10,000}$।"
     }
   },
   {

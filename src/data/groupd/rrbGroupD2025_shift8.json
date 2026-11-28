@@ -877,10 +877,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • 2-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹2434.80) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹2434.80) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹2434.80**).",
+      "keyConcept": "Compound Interest Tree: 3rd-Year Interest = (2nd-Year Interest) × (1 + R/100)",
+      "optionTrick": {
+        "en": "Year-1 $= 750$, Year-2 $= 810$ ($+\\frac{60}{750} = +8\\%$). Year-3 $= 810 \\times 1.08 = 874.8 \\Rightarrow CI_3 = 1560 + 874.8 = \\mathbf{2,434.80}$!",
+        "hi": "प्रथम वर्ष $= 750$, द्वितीय वर्ष $= 810$ ($+8\\%$) $\\Rightarrow$ तृतीय वर्ष $= 810 \\times 1.08 = 874.8$। कुल 3 वर्ष $CI = 1560 + 874.8 = \\mathbf{2,434.80}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Rate + 3-Year CI Tree",
+            "hi": "विधि 1: दर निकालकर तीसरे वर्ष का ब्याज जोड़ना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) 1-yr SI $= 750$; extra interest in Year 2 $= 60 \\Rightarrow R = \\frac{60}{750} \\times 100 = 8\\%$.\n2) Year-2 interest $= 810$, so Year-3 interest $= 810 + 8\\% = 874.8$.\n3) Total 3-yr CI $= 1560 + 874.8 = \\mathbf{2,434.80}$.",
+            "hi": "1) 1 वर्ष का ब्याज $= 750$ तथा दूसरे वर्ष अतिरिक्त $= 60 \\Rightarrow$ दर $R = \\frac{60}{750} \\times 100 = 8\\%$।\n2) तीसरे वर्ष का ब्याज $= 810 \\times (1 + 0.08) = 874.8$ रुपये।\n3) कुल 3 वर्ष का $CI = 1560 + 874.8 = \\mathbf{2,434.80}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Growth-Multiplier Chain (Skip Principal!)",
+            "hi": "विधि 2: बिना मूलधन निकाले गुणक श्रृंखला ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice each year multiplies the previous year's interest by $\\frac{810}{750} = 1.08$. So $CI_3 = 1560 + 810(1.08) = \\mathbf{2,434.80}$.",
+            "hi": "प्रत्येक वर्ष का ब्याज पिछले वर्ष का $\\frac{810}{750} = 1.08$ गुना होता है $\\Rightarrow CI_3 = 1560 + 874.8 = \\mathbf{2,434.80}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Rate + 3-Year CI Tree: 1) 1-yr SI $= 750$; extra interest in Year 2 $= 60 \\Rightarrow R = \\frac{60}{750} \\times 100 = 8\\%$.\n2) Year-2 interest $= 810$, so Year-3 interest $= 810 + 8\\% = 874.8$.\n3) Total 3-yr CI $= 1560 + 874.8 = \\mathbf{2,434.80}$.\n\nMethod 2: Growth-Multiplier Chain (Skip Principal!): Notice each year multiplies the previous year's interest by $\\frac{810}{750} = 1.08$. So $CI_3 = 1560 + 810(1.08) = \\mathbf{2,434.80}$.",
+      "hi": "विधि 1: दर निकालकर तीसरे वर्ष का ब्याज जोड़ना: 1) 1 वर्ष का ब्याज $= 750$ तथा दूसरे वर्ष अतिरिक्त $= 60 \\Rightarrow$ दर $R = \\frac{60}{750} \\times 100 = 8\\%$।\n2) तीसरे वर्ष का ब्याज $= 810 \\times (1 + 0.08) = 874.8$ रुपये।\n3) कुल 3 वर्ष का $CI = 1560 + 874.8 = \\mathbf{2,434.80}$ रुपये।\n\nविधि 2: बिना मूलधन निकाले गुणक श्रृंखला ट्रिक: प्रत्येक वर्ष का ब्याज पिछले वर्ष का $\\frac{810}{750} = 1.08$ गुना होता है $\\Rightarrow CI_3 = 1560 + 874.8 = \\mathbf{2,434.80}$!"
     }
   },
   {
@@ -945,10 +985,55 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹9540) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹9540) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹9540**).",
+      "keyConcept": "Equal CI Maturity Split ⇒ Ratio = (1 + R/100)^ΔT : 1 (Less Time Gets More!)",
+      "optionTrick": {
+        "en": "Time difference $\\Delta T = 2$ yr(s) at 20% ($\\frac{6}{5}$). Share ratio $= 36 : 25$ ($\\text{Sum} = 61$ parts $= 16,165 \\Rightarrow 1\\text{ part} = 265$). Shorter-duration person gets larger share $= 36 \\times 265 = \\mathbf{9,540}$!",
+        "hi": "दोनों के समय में केवल $\\Delta T = 2$ वर्ष का अंतर है! 20% ($\\frac{6}{5}$) के साथ अनुपात $= 36 : 25$ (योग $= 61$ भाग $= 16,165$)। कम समय वाले को बड़ा भाग $= 36 \\times 265 = \\mathbf{9,540}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT use `14, 15, 17, 18` years to expand powers — **only the difference `ΔT` between their investment durations matters**!",
+        "hi": "कभी भी 16 व 17 या 12 व 13 की बड़ी घात न निकालें — **केवल दोनों समयावधियों के अंतर $\\Delta T = 2$** का अनुपात लें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers",
+            "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$S_1\\left(1+\\frac{R}{100}\\right)^{T_1} = S_2\\left(1+\\frac{R}{100}\\right)^{T_2} \\implies \\frac{S_1}{S_2} = \\left(1+\\frac{R}{100}\\right)^{T_2 - T_1}$",
+          "steps": {
+            "en": "1) Investment periods are 3 yrs and 5 yrs ($\\Delta T = 2$).\n2) Ratio of shares $= \\left(\\frac{6}{5}\\right)^{2} : 1 = 36 : 25$ (Sum $= 61$ parts).\n3) 1 part $= \\frac{16165}{61} = 265 \\Rightarrow$ Asked share $= 36 \\times 265 = \\mathbf{9,540}$.",
+            "hi": "1) दोनों की निवेश अवधि 3 वर्ष व 5 वर्ष है (अंतर $\\Delta T = 2$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{6}{5}\\right)^{2} : 1 = 36 : 25$ (कुल $= 61$ भाग)।\n3) 1 भाग $= \\frac{16165}{61} = 265 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{9,540}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Fraction Split (10-Sec Shortcut)",
+            "hi": "विधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since 16165 divides cleanly by 61 ($= 265$), pick **36 × 265** (the larger share goes to the person compounding for fewer years) $= \\mathbf{9,540}$.",
+            "hi": "16165, 61 से ठीक 265 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 36 \\times 265 = \\mathbf{9,540}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate Maturity A₁ = A₂ & Cancel Common Powers: 1) Investment periods are 3 yrs and 5 yrs ($\\Delta T = 2$).\n2) Ratio of shares $= \\left(\\frac{6}{5}\\right)^{2} : 1 = 36 : 25$ (Sum $= 61$ parts).\n3) 1 part $= \\frac{16165}{61} = 265 \\Rightarrow$ Asked share $= 36 \\times 265 = \\mathbf{9,540}$.\n\nMethod 2: Instant Fraction Split (10-Sec Shortcut): Since 16165 divides cleanly by 61 ($= 265$), pick **36 × 265** (the larger share goes to the person compounding for fewer years) $= \\mathbf{9,540}$.",
+      "hi": "विधि 1: दोनों के अंतिम मिश्रधन बराबर रखकर घात काटना: 1) दोनों की निवेश अवधि 3 वर्ष व 5 वर्ष है (अंतर $\\Delta T = 2$ वर्ष)।\n2) प्रारंभिक हिस्सों का अनुपात $= \\left(\\frac{6}{5}\\right)^{2} : 1 = 36 : 25$ (कुल $= 61$ भाग)।\n3) 1 भाग $= \\frac{16165}{61} = 265 \\Rightarrow$ अभीष्ट हिस्सा $= \\mathbf{9,540}$।\n\nविधि 2: सीधे भिन्न अनुपात विभाजन ट्रिक: 16165, 61 से ठीक 265 बार कटता है — कम समय वाले का बड़ा हिस्सा $= 36 \\times 265 = \\mathbf{9,540}$!"
     }
   },
   {
@@ -1781,10 +1866,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find Rate",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Mathematical Answer: **8% p.a.** (Official PDF option-bleed stored Option A `97`).",
+      "keyConcept": "Simple Interest Rate Formula (SI = P × R × T / 100)",
+      "trapAlert": {
+        "en": "Source PDF Notice: Exact rate on ₹4,000 earning ₹960 in 3 years is **8% p.a.** (`320 / 4000`). Stored options (`97, 89, 95, 101`) bled from another question during PDF extraction; key index marks Option A (`97`).",
+        "hi": "स्रोत PDF सूचना: ₹4,000 पर 3 वर्षों में ₹960 ब्याज से सटीक दर **8%** वार्षिक आती है, परंतु PDF निष्कर्षण में विकल्प (`97, 89, 95, 101`) अन्य प्रश्न के आ गए हैं और कुंजी विकल्प A (`97`) पर दर्ज है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Rate Formula",
+            "hi": "विधि 1: वार्षिक ब्याज दर सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$R = \\frac{SI \\times 100}{P \\times T}$",
+          "steps": {
+            "en": "1) $P = 4000$, $T = 3$ years, $SI = 960$.\n2) $R = \\frac{960 \\times 100}{4000 \\times 3} = \\frac{96}{12} = \\mathbf{8\\%}$ p.a.",
+            "hi": "1) $P = 4000$, $T = 3$ वर्ष, $SI = 960$।\n2) $R = \\frac{960 \\times 100}{4000 \\times 3} = \\frac{96}{12} = \\mathbf{8\\%}$ वार्षिक।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Year Interest / 1% Value",
+            "hi": "विधि 2: 1 वर्ष का ब्याज व 1% मान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1-year SI $= 960 \\div 3 = 320$. Since $1\\%$ of $4000 = 40$, Rate $= 320 \\div 40 = \\mathbf{8\\%}$ (PDF stored option: Option A `97`).",
+            "hi": "1 वर्ष का ब्याज $= \\frac{960}{3} = 320$। 4000 का $1\\% = 40 \\Rightarrow \\text{दर} = \\frac{320}{40} = \\mathbf{8\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Rate Formula: 1) $P = 4000$, $T = 3$ years, $SI = 960$.\n2) $R = \\frac{960 \\times 100}{4000 \\times 3} = \\frac{96}{12} = \\mathbf{8\\%}$ p.a.\n\nMethod 2: 1-Year Interest / 1% Value: 1-year SI $= 960 \\div 3 = 320$. Since $1\\%$ of $4000 = 40$, Rate $= 320 \\div 40 = \\mathbf{8\\%}$ (PDF stored option: Option A `97`).",
+      "hi": "विधि 1: वार्षिक ब्याज दर सूत्र: 1) $P = 4000$, $T = 3$ वर्ष, $SI = 960$।\n2) $R = \\frac{960 \\times 100}{4000 \\times 3} = \\frac{96}{12} = \\mathbf{8\\%}$ वार्षिक।\n\nविधि 2: 1 वर्ष का ब्याज व 1% मान ट्रिक: 1 वर्ष का ब्याज $= \\frac{960}{3} = 320$। 4000 का $1\\% = 40 \\Rightarrow \\text{दर} = \\frac{320}{40} = \\mathbf{8\\%}$।"
     }
   },
   {
@@ -1849,10 +1975,54 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Trend Analysis",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Thursday) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (गुरुवार) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**Thursday**).",
+      "keyConcept": "Data Interpretation: Ordered Values from Line Graph (Temperatures)",
+      "optionTrick": {
+        "en": "Rank extracted temperatures descending: `40, 30, 28, 18, 15, 10` — second highest is **`30°C` (Thursday)**.",
+        "hi": "दिए गए तापमानों को अवरोही क्रम में रखें: `40, 30, 28, 18, 15, 10` — दूसरा उच्चतम मान **`30°C` (Thursday)** है।"
+      },
+      "trapAlert": {
+        "en": "Source PDF stem had stray words (\"of interest per annum?\") merged from Q48; official line-graph question asks day of second-highest temperature (`Thursday`).",
+        "hi": "स्रोत PDF में प्रश्न 48 का अंश मिला हुआ है; वास्तविक लाइन ग्राफ प्रश्न सप्ताह का दूसरा सर्वाधिक तापमान वाला दिन (**Thursday**) पूछता है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Sort Recorded Temperatures",
+            "hi": "विधि 1: दर्ज तापमानों को क्रमबद्ध करें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Recorded temperatures in descending order: `40°C > 30°C > 28°C > 18°C > 15°C > 10°C`.\n2) The second highest temperature is `30°C`, recorded on **Thursday** (Option D).",
+            "hi": "1) तापमान का घटता क्रम: `40°C > 30°C > 28°C > 18°C > 15°C > 10°C`।\n2) दूसरा सबसे अधिक तापमान `30°C` **Thursday** (विकल्प D) को दर्ज किया गया।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Top-Two Elimination Scan",
+            "hi": "विधि 2: शीर्ष-2 मान स्कैन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Skip highest (`40°C`) and pick the next peak below `40°C`, which is `30°C` on **Thursday**.",
+            "hi": "सप्ताह के अधिकतम मान `40°C` को छोड़कर ठीक अगला मान `30°C` देखें जो **Thursday** को दर्शाता है।"
+          }
+        }
+      ],
+      "en": "Method 1: Sort Recorded Temperatures: 1) Recorded temperatures in descending order: `40°C > 30°C > 28°C > 18°C > 15°C > 10°C`.\n2) The second highest temperature is `30°C`, recorded on **Thursday** (Option D).\n\nMethod 2: Top-Two Elimination Scan: Skip highest (`40°C`) and pick the next peak below `40°C`, which is `30°C` on **Thursday**.",
+      "hi": "विधि 1: दर्ज तापमानों को क्रमबद्ध करें: 1) तापमान का घटता क्रम: `40°C > 30°C > 28°C > 18°C > 15°C > 10°C`।\n2) दूसरा सबसे अधिक तापमान `30°C` **Thursday** (विकल्प D) को दर्ज किया गया।\n\nविधि 2: शीर्ष-2 मान स्कैन ट्रिक: सप्ताह के अधिकतम मान `40°C` को छोड़कर ठीक अगला मान `30°C` देखें जो **Thursday** को दर्शाता है।"
     }
   },
   {

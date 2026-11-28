@@ -911,10 +911,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (100) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (100) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**100**).",
+      "keyConcept": "2-Year Compound Growth Rate: R = (√K − 1) × 100%",
+      "optionTrick": {
+        "en": "Formula is simply **$(\\sqrt{4} - 1) \\times 100$**! Estimate $\\sqrt{4}$ near $2^2=4$ (≈ 2.000) $\\Rightarrow \\mathbf{100}$!",
+        "hi": "सीधा सूत्र **$(\\sqrt{4} - 1) \\times 100$** लगाएँ! $\\sqrt{4} \\approx 2.000$ से $(\\sqrt{4} - 1) \\times 100 \\approx \\mathbf{100}$ तुरंत मिलता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compound Amount Equation (1 + r)^2 = K",
+            "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P\\left(1 + \\frac{R}{100}\\right)^2 = 4P \\implies R = (\\sqrt{4} - 1) \\times 100$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 4 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{4} = 2$.\n2) $R = (2 - 1) \\times 100 = \\mathbf{100}$.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = 4 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{4} = 2$।\n2) $R = (2 - 1) \\times 100 = \\mathbf{100}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fast Square-Root Approximation",
+            "hi": "विधि 2: वर्गमूल सन्निकटन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$K = 4 = 2^2$, so $R = (2 - 1) \\times 100 = \\mathbf{100}$ in 2 seconds!",
+            "hi": "$\\sqrt{4} = 2$ होने से $R = (2 - 1) \\times 100 = \\mathbf{100}$ तुरंत मिलता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Compound Amount Equation (1 + r)^2 = K: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 4 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{4} = 2$.\n2) $R = (2 - 1) \\times 100 = \\mathbf{100}$.\n\nMethod 2: Fast Square-Root Approximation: $K = 4 = 2^2$, so $R = (2 - 1) \\times 100 = \\mathbf{100}$ in 2 seconds!",
+      "hi": "विधि 1: चक्रवृद्धि मिश्रधन समीकरण: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = 4 \\Rightarrow 1 + \\frac{R}{100} = \\sqrt{4} = 2$।\n2) $R = (2 - 1) \\times 100 = \\mathbf{100}$।\n\nविधि 2: वर्गमूल सन्निकटन ट्रिक: $\\sqrt{4} = 2$ होने से $R = (2 - 1) \\times 100 = \\mathbf{100}$ तुरंत मिलता है!"
     }
   },
   {
@@ -945,10 +986,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Basic CI Calculation",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹3,594) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹3,594) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹3,594**).",
+      "keyConcept": "Combined Interest Evaluation (CI Effective 21% + SI 26%) × Fraction",
+      "optionTrick": {
+        "en": "CI $= 21\\%$ of $12{,}500 = 2{,}625$; SI $= 26\\%$ of $47{,}500 = 12{,}350$. Total $= 14{,}975 \\Rightarrow 24\\% \\times 14{,}975 = \\mathbf{Rs.3,594}$!",
+        "hi": "CI $= 12{,}500$ का $21\\% = 2{,}625$; SI $= 47{,}500$ का $26\\% = 12{,}350$। कुल $= 14{,}975$ का $24\\% = \\mathbf{Rs.3,594}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compute CI & SI Separately, Then Take 24%",
+            "hi": "विधि 1: CI व SI अलग निकालकर 24%"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) CI ($21\\%$ of $12{,}500$) $= 2{,}625$.\n2) SI ($26\\%$ of $47{,}500$) $= 12{,}350$.\n3) Sum $= 14{,}975 \\Rightarrow 24\\%$ of $14{,}975 = 0.24 \\times 14975 = \\mathbf{Rs.3,594}$.",
+            "hi": "1) CI ($21\\%$) $= 2{,}625$ रुपये तथा SI ($26\\%$) $= 12{,}350$ रुपये।\n2) योग $= 14{,}975 \\Rightarrow 24\\% \\times 14{,}975 = \\mathbf{Rs.3,594}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fraction Cancellation (24% = 6/25)",
+            "hi": "विधि 2: 24% = 6/25 त्वरित विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Convert $24\\% = \\frac{6}{25}$ and compute $\\frac{6}{25}(2625 + 12350) = 6 \\times (105 + 494) = 6 \\times 599 = \\mathbf{Rs.3,594}$!",
+            "hi": "दोनों ब्याज को अलग 25 से काटकर 6 से गुणा करें: $6 \\times (105 + 494) = 6 \\times 599 = \\mathbf{Rs.3,594}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Compute CI & SI Separately, Then Take 24%: 1) CI ($21\\%$ of $12{,}500$) $= 2{,}625$.\n2) SI ($26\\%$ of $47{,}500$) $= 12{,}350$.\n3) Sum $= 14{,}975 \\Rightarrow 24\\%$ of $14{,}975 = 0.24 \\times 14975 = \\mathbf{Rs.3,594}$.\n\nMethod 2: Fraction Cancellation (24% = 6/25): Convert $24\\% = \\frac{6}{25}$ and compute $\\frac{6}{25}(2625 + 12350) = 6 \\times (105 + 494) = 6 \\times 599 = \\mathbf{Rs.3,594}$!",
+      "hi": "विधि 1: CI व SI अलग निकालकर 24%: 1) CI ($21\\%$) $= 2{,}625$ रुपये तथा SI ($26\\%$) $= 12{,}350$ रुपये।\n2) योग $= 14{,}975 \\Rightarrow 24\\% \\times 14{,}975 = \\mathbf{Rs.3,594}$।\n\nविधि 2: 24% = 6/25 त्वरित विभाजन ट्रिक: दोनों ब्याज को अलग 25 से काटकर 6 से गुणा करें: $6 \\times (105 + 494) = 6 \\times 599 = \\mathbf{Rs.3,594}$!"
     }
   },
   {
@@ -1115,10 +1196,55 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (315) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (315) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**315**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,500 $= 45$. For 7 months: $45 \\times 7 = \\mathbf{315}$!",
+        "hi": "1 माह का ब्याज $= 1,500$ का 3% $= 45$। अतः 7 माह का ब्याज $= 45 \\times 7 = \\mathbf{315}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 7$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 7}{100} = 15 \\times 21 = \\mathbf{315}$.",
+            "hi": "1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 7$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 7}{100} = \\mathbf{315}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1500 = 45$. For 7 months: $45 \\times 7 = \\mathbf{315}$.",
+            "hi": "1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 7 माह के लिए $\\times 7 = \\mathbf{315}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 7$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 7}{100} = 15 \\times 21 = \\mathbf{315}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1500 = 45$. For 7 months: $45 \\times 7 = \\mathbf{315}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 7$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 7}{100} = \\mathbf{315}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 7 माह के लिए $\\times 7 = \\mathbf{315}$!"
     }
   },
   {

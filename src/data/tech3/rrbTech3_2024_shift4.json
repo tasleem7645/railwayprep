@@ -417,10 +417,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**6.25%**).",
+      "keyConcept": "Simple Interest Doubling Rule: R × T = 100 (100% Interest Earned)",
+      "optionTrick": {
+        "en": "To double at SI means $100\\%$ interest! Instantly compute \\frac{100}{16} = \\mathbf{6.25%}!",
+        "hi": "साधारण ब्याज पर राशि दोगुनी होने का अर्थ सीधा **100% ब्याज** है! तुरंत \\frac{100}{16} = \\mathbf{6.25%} निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Let Principal P = 100 ⇒ SI = 100",
+            "hi": "विधि 1: P = 100 मानकर (SI = 100)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$R \\times T = 100$",
+          "steps": {
+            "en": "1) $P = 100$ doubles to $A = 200 \\Rightarrow SI = 100$.\n2) Rate $R = \\frac{100}{16} = \\mathbf{6.25\\%}$.",
+            "hi": "1) $P = 100$ दोगुना होकर 200 होता है, अतः $SI = 100$।\n2) दर $R = \\frac{100}{16} = \\mathbf{6.25\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct (n−1)×100 Formula (2 sec)",
+            "hi": "विधि 2: सीधा (n−1)×100 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "For $n = 2$ times, (2 - 1) \\times 100 = 100 \\Rightarrow \\frac{100}{16} = \\mathbf{6.25%}!",
+            "hi": "दोगुना ($n=2$) हेतु \\frac{(2-1) \\times 100}{16} = \\frac{100}{16} = \\mathbf{6.25%}!"
+          }
+        }
+      ],
+      "en": "Method 1: Let Principal P = 100 ⇒ SI = 100: 1) $P = 100$ doubles to $A = 200 \\Rightarrow SI = 100$.\n2) Rate $R = \\frac{100}{16} = \\mathbf{6.25\\%}$.\n\nMethod 2: Direct (n−1)×100 Formula (2 sec): For $n = 2$ times, (2 - 1) \\times 100 = 100 \\Rightarrow \\frac{100}{16} = \\mathbf{6.25%}!",
+      "hi": "विधि 1: P = 100 मानकर (SI = 100): 1) $P = 100$ दोगुना होकर 200 होता है, अतः $SI = 100$।\n2) दर $R = \\frac{100}{16} = \\mathbf{6.25\\%}$।\n\nविधि 2: सीधा (n−1)×100 ट्रिक: दोगुना ($n=2$) हेतु \\frac{(2-1) \\times 100}{16} = \\frac{100}{16} = \\mathbf{6.25%}!"
     }
   },
   {
@@ -2599,10 +2640,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**12.5%**).",
+      "keyConcept": "Simple Interest Doubling Rule: R × T = 100 (100% Interest Earned)",
+      "optionTrick": {
+        "en": "To double at SI means $100\\%$ interest! Instantly compute \\frac{100}{8} = \\mathbf{12.5%}!",
+        "hi": "साधारण ब्याज पर राशि दोगुनी होने का अर्थ सीधा **100% ब्याज** है! तुरंत \\frac{100}{8} = \\mathbf{12.5%} निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Let Principal P = 100 ⇒ SI = 100",
+            "hi": "विधि 1: P = 100 मानकर (SI = 100)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$R \\times T = 100$",
+          "steps": {
+            "en": "1) $P = 100$ doubles to $A = 200 \\Rightarrow SI = 100$.\n2) Rate $R = \\frac{100}{8} = \\mathbf{12.5\\%}$.",
+            "hi": "1) $P = 100$ दोगुना होकर 200 होता है, अतः $SI = 100$।\n2) दर $R = \\frac{100}{8} = \\mathbf{12.5\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct (n−1)×100 Formula (2 sec)",
+            "hi": "विधि 2: सीधा (n−1)×100 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "For $n = 2$ times, (2 - 1) \\times 100 = 100 \\Rightarrow \\frac{100}{8} = \\mathbf{12.5%}!",
+            "hi": "दोगुना ($n=2$) हेतु \\frac{(2-1) \\times 100}{8} = \\frac{100}{8} = \\mathbf{12.5%}!"
+          }
+        }
+      ],
+      "en": "Method 1: Let Principal P = 100 ⇒ SI = 100: 1) $P = 100$ doubles to $A = 200 \\Rightarrow SI = 100$.\n2) Rate $R = \\frac{100}{8} = \\mathbf{12.5\\%}$.\n\nMethod 2: Direct (n−1)×100 Formula (2 sec): For $n = 2$ times, (2 - 1) \\times 100 = 100 \\Rightarrow \\frac{100}{8} = \\mathbf{12.5%}!",
+      "hi": "विधि 1: P = 100 मानकर (SI = 100): 1) $P = 100$ दोगुना होकर 200 होता है, अतः $SI = 100$।\n2) दर $R = \\frac{100}{8} = \\mathbf{12.5\\%}$।\n\nविधि 2: सीधा (n−1)×100 ट्रिक: दोगुना ($n=2$) हेतु \\frac{(2-1) \\times 100}{8} = \\frac{100}{8} = \\mathbf{12.5%}!"
     }
   },
   {

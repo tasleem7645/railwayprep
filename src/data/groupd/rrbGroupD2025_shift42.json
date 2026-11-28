@@ -877,10 +877,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (950%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (950%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**950%**).",
+      "keyConcept": "Consecutive-Year CI Amounts: Rate = (A₂ − A₁) / A₁ × 100%",
+      "optionTrick": {
+        "en": "Consecutive years 20 & 21: ignore 20 entirely! Just compute $\\frac{7896 - 752}{752} \\times 100 = \\frac{7144}{752} \\times 100 = \\mathbf{950\\%}$!",
+        "hi": "क्रमिक वर्षों (20 व 21) में पिछले वर्ष का मिश्रधन ही अगले वर्ष का मूलधन होता है! सीधा दर $= \\frac{7144}{752} \\times 100 = \\mathbf{950\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Consecutive-Year Ratio A₂ / A₁ = 1 + R/100",
+            "hi": "विधि 1: क्रमिक वर्ष अनुपात द्वारा दर"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Year-21 interest $= 7896 - 752 = 7144$ earned on base 752.\n2) $R = \\frac{7144}{752} \\times 100 = 9.5 \\times 100 = \\mathbf{950\\%}$.",
+            "hi": "1) 21वें वर्ष का ब्याज $= 7896 - 752 = 7144$ रुपये जो 752 पर मिला।\n2) दर $R = \\frac{7144}{752} \\times 100 = \\mathbf{950\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Quotient (3 sec)",
+            "hi": "विधि 2: सीधा गुणज (A₂ / A₁) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$\\frac{7896}{752} = 10.5 = 1 + 9.5 \\Rightarrow R = \\mathbf{950\\%}$!",
+            "hi": "$\\frac{7896}{752} = 10.5 = 1 + \\frac{950}{100} \\Rightarrow R = \\mathbf{950\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Consecutive-Year Ratio A₂ / A₁ = 1 + R/100: 1) Year-21 interest $= 7896 - 752 = 7144$ earned on base 752.\n2) $R = \\frac{7144}{752} \\times 100 = 9.5 \\times 100 = \\mathbf{950\\%}$.\n\nMethod 2: Direct Multiplier Quotient (3 sec): $\\frac{7896}{752} = 10.5 = 1 + 9.5 \\Rightarrow R = \\mathbf{950\\%}$!",
+      "hi": "विधि 1: क्रमिक वर्ष अनुपात द्वारा दर: 1) 21वें वर्ष का ब्याज $= 7896 - 752 = 7144$ रुपये जो 752 पर मिला।\n2) दर $R = \\frac{7144}{752} \\times 100 = \\mathbf{950\\%}$।\n\nविधि 2: सीधा गुणज (A₂ / A₁) ट्रिक: $\\frac{7896}{752} = 10.5 = 1 + \\frac{950}{100} \\Rightarrow R = \\mathbf{950\\%}$!"
     }
   },
   {
@@ -1081,10 +1121,55 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (225) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (225) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**225**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,500 $= 45$. For 5 months: $45 \\times 5 = \\mathbf{225}$!",
+        "hi": "1 माह का ब्याज $= 1,500$ का 3% $= 45$। अतः 5 माह का ब्याज $= 45 \\times 5 = \\mathbf{225}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 5$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 5}{100} = 15 \\times 15 = \\mathbf{225}$.",
+            "hi": "1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 5$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 5}{100} = \\mathbf{225}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1500 = 45$. For 5 months: $45 \\times 5 = \\mathbf{225}$.",
+            "hi": "1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 5 माह के लिए $\\times 5 = \\mathbf{225}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,500$, monthly rate $R = 3\\%$, $T = 5$ months.\n2) $SI = \\frac{1500 \\times 3 \\times 5}{100} = 15 \\times 15 = \\mathbf{225}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1500 = 45$. For 5 months: $45 \\times 5 = \\mathbf{225}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,500$, मासिक दर $= 3\\%$, समय $= 5$ माह।\n2) $SI = \\frac{1500 \\times 3 \\times 5}{100} = \\mathbf{225}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 45$ रुपये $\\Rightarrow$ 5 माह के लिए $\\times 5 = \\mathbf{225}$!"
     }
   },
   {

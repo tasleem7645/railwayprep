@@ -877,10 +877,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • 2-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹37.50) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹37.50) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹37.50**).",
+      "keyConcept": "2-Year CI − SI Difference Formula: D = P(R/100)²",
+      "optionTrick": {
+        "en": "Direct shortcut $D_2 = \\frac{R^2}{100}\\%$ of $P = 0.25\\%$ of $15,000 = \\mathbf{37.5}$!",
+        "hi": "सीधा सूत्र $D_2 = P$ का $\\frac{R^2}{100}\\%$ $= 15,000$ का $0.25\\% = \\mathbf{37.5}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 2-Year Difference Formula",
+            "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$D_2 = P\\left(\\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) $P = 15,000$, $R = 5\\%$.\n2) $D_2 = 15000 \\times \\frac{5}{100} \\times \\frac{5}{100} = \\mathbf{37.5}$.",
+            "hi": "1) $P = 15,000$, $R = 5\\%$।\n2) $D_2 = 15000 \\times \\frac{5^2}{10000} = \\mathbf{37.5}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Interest-on-Interest Tree (Zero Formula)",
+            "hi": "विधि 2: केवल ब्याज-पर-ब्याज ट्री विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Diff is simply $R\\%$ of 1st year's SI: Year-1 SI $= 5\\%$ of $15,000 = 750$, and $5\\%$ of $750 = \\mathbf{37.5}$!",
+            "hi": "प्रथम वर्ष ब्याज $= 750$; इसी का $5\\% = \\mathbf{37.5}$ ही अंतर है!"
+          }
+        }
+      ],
+      "en": "Method 1: 2-Year Difference Formula: 1) $P = 15,000$, $R = 5\\%$.\n2) $D_2 = 15000 \\times \\frac{5}{100} \\times \\frac{5}{100} = \\mathbf{37.5}$.\n\nMethod 2: Interest-on-Interest Tree (Zero Formula): Diff is simply $R\\%$ of 1st year's SI: Year-1 SI $= 5\\%$ of $15,000 = 750$, and $5\\%$ of $750 = \\mathbf{37.5}$!",
+      "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र: 1) $P = 15,000$, $R = 5\\%$।\n2) $D_2 = 15000 \\times \\frac{5^2}{10000} = \\mathbf{37.5}$ रुपये।\n\nविधि 2: केवल ब्याज-पर-ब्याज ट्री विधि: प्रथम वर्ष ब्याज $= 750$; इसी का $5\\% = \\mathbf{37.5}$ ही अंतर है!"
     }
   },
   {
@@ -1149,10 +1190,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find Time",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (3 years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (3 वर्ष) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**3 years**).",
+      "keyConcept": "Simple Interest Time Formula: T = SI / (1-Year SI)",
+      "optionTrick": {
+        "en": "1 year SI $= 6\\%$ of $12,000 = 720$. Time $= \\frac{2,160}{720} = \\mathbf{3\\text{ years}}$!",
+        "hi": "1 वर्ष का ब्याज $= 12,000$ का 6% $= 720$। अतः समय $= \\frac{2,160}{720} = \\mathbf{3}$ वर्ष!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Time Formula",
+            "hi": "विधि 1: समय सूत्र T = (SI × 100)/(P × R)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$T = \\frac{SI \\times 100}{P \\times R}$",
+          "steps": {
+            "en": "$SI = 2,160 \\Rightarrow T = \\frac{2160 \\times 100}{12000 \\times 6} = \\mathbf{3\\text{ years}}$.",
+            "hi": "$SI = 2,160 \\Rightarrow T = \\frac{2160 \\times 100}{12000 \\times 6} = \\mathbf{3}$ वर्ष।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Divide Total SI by 1-Year SI",
+            "hi": "विधि 2: कुल ब्याज ÷ 1-वर्ष ब्याज ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Yearly SI $= 720 \\Rightarrow \\frac{2160}{720} = \\mathbf{3\\text{ years}}$.",
+            "hi": "वार्षिक ब्याज $= 720 \\Rightarrow \\frac{2160}{720} = \\mathbf{3}$ वर्ष।"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Time Formula: $SI = 2,160 \\Rightarrow T = \\frac{2160 \\times 100}{12000 \\times 6} = \\mathbf{3\\text{ years}}$.\n\nMethod 2: Divide Total SI by 1-Year SI: Yearly SI $= 720 \\Rightarrow \\frac{2160}{720} = \\mathbf{3\\text{ years}}$.",
+      "hi": "विधि 1: समय सूत्र T = (SI × 100)/(P × R): $SI = 2,160 \\Rightarrow T = \\frac{2160 \\times 100}{12000 \\times 6} = \\mathbf{3}$ वर्ष।\n\nविधि 2: कुल ब्याज ÷ 1-वर्ष ब्याज ट्रिक: वार्षिक ब्याज $= 720 \\Rightarrow \\frac{2160}{720} = \\mathbf{3}$ वर्ष।"
     }
   },
   {
@@ -1249,10 +1331,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (1,250) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (1,250) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**1,250**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 4%), Cycles Doubled (n = 3)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{4\\%}$, $n = \\mathbf{3}$ cycles! Effective factor $= (1.04)^3 \\approx 1.1249$ $\\Rightarrow$ **1,250**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (4%)** व **समय दोगुना (3 छमाही)** करें! सीधा गुणक $(1.04)^3 \\approx 1.1249$ से उत्तर **1,250**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 4%, n = 3)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 4%, n = 3)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{8\\%}{2} = 4\\% = \\frac{1}{25}$; cycles $n = 2 \\times 1.5 = 3$.\n2) Amount $= 10000 \\times (1.04)^3 \\approx 11248.64$.\n3) Compound Interest $= A - P $= 1,248.64$ $\\approx$ **1,250**.",
+            "hi": "1) छमाही दर $r = \\frac{8\\%}{2} = 4\\%$ व छमाही चक्र $n = 2 \\times 1.5 = 3$।\n2) मिश्रधन $A = 10000 \\times (1.04)^3 \\approx 11,248.64$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 1,248.64$ $\\approx$ **1,250**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Pascal / Effective CI % Trick",
+            "hi": "विधि 2: पास्कल गुणांक / प्रभावी % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total effective CI $= 12.4864\\%$ of 10,000 $\\Rightarrow$ **1,250**!",
+            "hi": "3 चक्रों की कुल प्रभावी ब्याज दर $= 12.4864\\%$ से तुरंत **1,250** प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 4%, n = 3): 1) Half-yearly rate $r = \\frac{8\\%}{2} = 4\\% = \\frac{1}{25}$; cycles $n = 2 \\times 1.5 = 3$.\n2) Amount $= 10000 \\times (1.04)^3 \\approx 11248.64$.\n3) Compound Interest $= A - P $= 1,248.64$ $\\approx$ **1,250**.\n\nMethod 2: Pascal / Effective CI % Trick: Total effective CI $= 12.4864\\%$ of 10,000 $\\Rightarrow$ **1,250**!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 4%, n = 3): 1) छमाही दर $r = \\frac{8\\%}{2} = 4\\%$ व छमाही चक्र $n = 2 \\times 1.5 = 3$।\n2) मिश्रधन $A = 10000 \\times (1.04)^3 \\approx 11,248.64$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 1,248.64$ $\\approx$ **1,250**।\n\nविधि 2: पास्कल गुणांक / प्रभावी % ट्रिक: 3 चक्रों की कुल प्रभावी ब्याज दर $= 12.4864\\%$ से तुरंत **1,250** प्राप्त होता है!"
     }
   },
   {
@@ -1433,10 +1556,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Profit/Loss Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (18% profit) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (18% का लाभ) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**18% profit**).",
+      "keyConcept": "Multi-Year Sequential Profit/Loss + Additional Asset Receipt",
+      "optionTrick": {
+        "en": "Net return factor $20\\%\\uparrow$ then $15\\%\\downarrow$ is $1.20 \\times 0.85 = 1.02$ ($+2\\%$), plus goodwill `8,000 / 50,000 = +16%` $\\Rightarrow +2\\% + 16\\% = \\mathbf{18\\%\\text{ profit}}$!",
+        "hi": "क्रमिक प्रभाव $1.20 \\times 0.85 = 1.02$ ($+2\\%$ लाभ) और अतिरिक्त सद्भावना `8,000` (50,000 का $+16\\%$) $\\Rightarrow 2\\% + 16\\% = \\mathbf{18\\%}$ लाभ!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Year-by-Year Rupee Tracking",
+            "hi": "विधि 1: वर्ष-दर-वर्ष राशि गणना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Year 1 (+20%): $50000 \\times 1.20 = 60{,}000$.\n2) Year 2 (-15%): $60000 \\times 0.85 = 51{,}000$.\n3) Add ₹8,000 goodwill $= 59{,}000$. Profit $= 59000 - 50000 = 9{,}000 \\Rightarrow \\frac{9000}{50000} \\times 100 = \\mathbf{18\\%\\text{ profit}}$.",
+            "hi": "1) पहले वर्ष (+20%): $50000 \\times 1.2 = 60{,}000$ रुपये।\n2) दूसरे वर्ष (-15%): $60000 \\times 0.85 = 51{,}000$ रुपये।\n3) ₹8,000 सद्भावना जोड़ने पर कुल $= 59{,}000$। लाभ $= \\frac{9000}{50000} \\times 100 = \\mathbf{18\\%\\text{ profit}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Successive % + Goodwill % Shortcut",
+            "hi": "विधि 2: क्रमिक प्रतिशत + अतिरिक्त % योग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$20 - 15 - \\frac{20 \\times 15}{100} = +2\\%$",
+          "steps": {
+            "en": "Successive net $= 20 - 15 - 3 = +2\\%$. Extra receipt $= \\frac{8000}{50000} \\times 100 = +16\\%$. Total $= 2\\% + 16\\% = \\mathbf{18\\%\\text{ profit}}$.",
+            "hi": "व्यापार से शुद्ध लाभ $= 20 - 15 - 3 = 2\\%$ और 8,000 रुपये ($+16\\%$) $\\Rightarrow$ कुल लाभ $= 2 + 16 = \\mathbf{18\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Year-by-Year Rupee Tracking: 1) Year 1 (+20%): $50000 \\times 1.20 = 60{,}000$.\n2) Year 2 (-15%): $60000 \\times 0.85 = 51{,}000$.\n3) Add ₹8,000 goodwill $= 59{,}000$. Profit $= 59000 - 50000 = 9{,}000 \\Rightarrow \\frac{9000}{50000} \\times 100 = \\mathbf{18\\%\\text{ profit}}$.\n\nMethod 2: Successive % + Goodwill % Shortcut: Successive net $= 20 - 15 - 3 = +2\\%$. Extra receipt $= \\frac{8000}{50000} \\times 100 = +16\\%$. Total $= 2\\% + 16\\% = \\mathbf{18\\%\\text{ profit}}$.",
+      "hi": "विधि 1: वर्ष-दर-वर्ष राशि गणना: 1) पहले वर्ष (+20%): $50000 \\times 1.2 = 60{,}000$ रुपये।\n2) दूसरे वर्ष (-15%): $60000 \\times 0.85 = 51{,}000$ रुपये।\n3) ₹8,000 सद्भावना जोड़ने पर कुल $= 59{,}000$। लाभ $= \\frac{9000}{50000} \\times 100 = \\mathbf{18\\%\\text{ profit}}$।\n\nविधि 2: क्रमिक प्रतिशत + अतिरिक्त % योग ट्रिक: व्यापार से शुद्ध लाभ $= 20 - 15 - 3 = 2\\%$ और 8,000 रुपये ($+16\\%$) $\\Rightarrow$ कुल लाभ $= 2 + 16 = \\mathbf{18\\%}$।"
     }
   },
   {

@@ -1080,10 +1080,51 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
-      "en": "Correct Answer: Option C (5,000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (5,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**5,000**).",
+      "keyConcept": "Principal from 2-Yr CI−SI Diff: P = D × (100/R)²",
+      "optionTrick": {
+        "en": "$D = \\frac{100}{100}\\%$ of $P = 50 \\Rightarrow P = \\frac{50 \\times 10000}{100} = \\mathbf{5,000}$!",
+        "hi": "2 वर्ष अंतर $= \\frac{100}{100}\\%$ है, अतः $P = \\frac{50 \\times 10000}{100} = \\mathbf{5,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse 2-Year Difference Formula",
+            "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र द्वारा"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$D_2 = P\\left(\\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) $50 = P \\times \\left(\\frac{10}{100}\\right)^2 = P \\times \\frac{100}{10000}$.\n2) $P = \\frac{50 \\times 10000}{100} = \\mathbf{5,000}$.",
+            "hi": "1) $50 = P \\times \\frac{100}{10000}$।\n2) $P = \\frac{50 \\times 10000}{100} = \\mathbf{5,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective % Unitary Shortcut",
+            "hi": "विधि 2: प्रभावी अंतर प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Diff is 1% of $P$, so $100\\% = 50 \\div 0.01 = \\mathbf{5,000}$.",
+            "hi": "$1\\% = 50$ से $100\\% = \\mathbf{5,000}$ सीधे प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse 2-Year Difference Formula: 1) $50 = P \\times \\left(\\frac{10}{100}\\right)^2 = P \\times \\frac{100}{10000}$.\n2) $P = \\frac{50 \\times 10000}{100} = \\mathbf{5,000}$.\n\nMethod 2: Effective % Unitary Shortcut: Diff is 1% of $P$, so $100\\% = 50 \\div 0.01 = \\mathbf{5,000}$.",
+      "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र द्वारा: 1) $50 = P \\times \\frac{100}{10000}$।\n2) $P = \\frac{50 \\times 10000}{100} = \\mathbf{5,000}$ रुपये।\n\nविधि 2: प्रभावी अंतर प्रतिशत ट्रिक: $1\\% = 50$ से $100\\% = \\mathbf{5,000}$ सीधे प्राप्त होता है!"
     },
     "correctIndexHi": 2
   },
@@ -2435,10 +2476,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
-      "en": "Correct Answer: Option A (67,800). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (67,800)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**67,800**).",
+      "keyConcept": "Final Amount Under Simple Interest: A = P × (1 + RT/100)",
+      "optionTrick": {
+        "en": "Total interest $= 10\\% \\times 2 = 20\\%$. Amount $= 120\\%$ of 56,500 $= \\mathbf{67,800}$!",
+        "hi": "कुल ब्याज $= 10\\% \\times 2 = 20\\%$। मिश्रधन $= 56,500$ का 120% $= \\mathbf{67,800}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find SI First, Then Add to Principal",
+            "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100},\\quad A = P + SI$",
+          "steps": {
+            "en": "1) $R = 10\\% = 10\\%$, $T = 2$ years $\\Rightarrow R \\times T = 20\\%$.\n2) $SI = \\frac{56500 \\times 20}{100} = 11,300$.\n3) Amount $A = 56,500 + 11,300 = \\mathbf{67,800}$.",
+            "hi": "1) दर $R = 10\\% = 10\\%$, समय $T = 2$ वर्ष $\\Rightarrow R \\times T = 20\\%$।\n2) $SI = \\frac{56500 \\times 20}{100} = 11,300$ रुपये।\n3) मिश्रधन $A = 56,500 + 11,300 = \\mathbf{67,800}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Amount Factor (100 + R×T)%",
+            "hi": "विधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct Amount factor $= 1 + \\frac{20}{100} = 1.2$. Compute $56,500 \\times 1.2 = \\mathbf{67,800}$.",
+            "hi": "सीधा मिश्रधन $= 56,500 \\times 1.2 = \\mathbf{67,800}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Find SI First, Then Add to Principal: 1) $R = 10\\% = 10\\%$, $T = 2$ years $\\Rightarrow R \\times T = 20\\%$.\n2) $SI = \\frac{56500 \\times 20}{100} = 11,300$.\n3) Amount $A = 56,500 + 11,300 = \\mathbf{67,800}$.\n\nMethod 2: Direct Amount Factor (100 + R×T)%: Direct Amount factor $= 1 + \\frac{20}{100} = 1.2$. Compute $56,500 \\times 1.2 = \\mathbf{67,800}$.",
+      "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें: 1) दर $R = 10\\% = 10\\%$, समय $T = 2$ वर्ष $\\Rightarrow R \\times T = 20\\%$।\n2) $SI = \\frac{56500 \\times 20}{100} = 11,300$ रुपये।\n3) मिश्रधन $A = 56,500 + 11,300 = \\mathbf{67,800}$ रुपये।\n\nविधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक: सीधा मिश्रधन $= 56,500 \\times 1.2 = \\mathbf{67,800}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
     },
     "correctIndexHi": 0
   },

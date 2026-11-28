@@ -1530,10 +1530,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (₹36) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (₹36) सही उत्तर है।"
+      "approach": "Official RRB Key: Option B (**₹36** — treated rate as 4% p.a. over 9/12 yr); Literal \"per month\" text yields ₹**432**.",
+      "keyConcept": "Monthly vs Per-Annum Rate Unit Discrepancy (RRB NTPC UG Official Key Note)",
+      "trapAlert": {
+        "en": "Exam Translation Discrepancy: Printed question says \"4% per month\" (which equals ₹432), whereas Official RRB NTPC Key **Option B (₹36)** evaluated it using **4% per annum** over $\\frac{9}{12}$ years ($1200 \\times 4\\% \\times \\frac{9}{12} = 36$).",
+        "hi": "परीक्षा प्रश्न अनुवाद विसंगति: मुद्रित प्रश्न में \"4% मासिक\" लिखा है जिससे ₹432 आता है, लेकिन आधिकारिक RRB NTPC कुंजी (**विकल्प B: ₹36**) ने इसे **4% वार्षिक** मानते हुए $\\frac{9}{12}$ वर्ष ($1200 \\times 4\\% \\times \\frac{9}{12} = 36$) पर हल किया है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Official RRB Key Interpretation (Per Annum × M/12)",
+            "hi": "विधि 1: आधिकारिक RRB कुंजी व्याख्या (वार्षिक दर × M/12)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI_{\\text{official}} = \\frac{P \\times R_{\\text{p.a.}} \\times (M/12)}{100}$",
+          "steps": {
+            "en": "1) Official evaluation treats rate as **4% p.a.** for $T = \\frac{9}{12}$ years.\n2) $SI = \\frac{1200 \\times 4 \\times 9}{100 \\times 12} = 4 \\times 9 = \\mathbf{36}$ (**Option B**).\n3) Strict literal \"per month\" calculation $= \\frac{1200 \\times 4 \\times 9}{100} = 432$.",
+            "hi": "1) आधिकारिक कुंजी में दर को **4% वार्षिक** और समय को $\\frac{9}{12}$ वर्ष माना गया।\n2) $SI = \\frac{1200 \\times 4 \\times 9}{100 \\times 12} = 4 \\times 9 = \\mathbf{36}$ (**विकल्प B**)।\n3) शब्दशः \"मासिक दर\" से मान ₹432 बनता है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel 1200 ÷ (100 × 12) = 1 Instantly",
+            "hi": "विधि 2: 1200 और 12 कटने की त्वरित जाँच ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Whenever $P = 1200$ cancels with 12 months in denominator, $SI = R \\times M = 4 \\times 9 = \\mathbf{36}$ (matches Option B: ₹36)!",
+            "hi": "जब मूलधन 1200 व हर में 12 माह कटते हैं, तो कुंजी अनुसार सीधा $R \\times M = 4 \\times 9 = \\mathbf{36}$ प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Official RRB Key Interpretation (Per Annum × M/12): 1) Official evaluation treats rate as **4% p.a.** for $T = \\frac{9}{12}$ years.\n2) $SI = \\frac{1200 \\times 4 \\times 9}{100 \\times 12} = 4 \\times 9 = \\mathbf{36}$ (**Option B**).\n3) Strict literal \"per month\" calculation $= \\frac{1200 \\times 4 \\times 9}{100} = 432$.\n\nMethod 2: Cancel 1200 ÷ (100 × 12) = 1 Instantly: Whenever $P = 1200$ cancels with 12 months in denominator, $SI = R \\times M = 4 \\times 9 = \\mathbf{36}$ (matches Option B: ₹36)!",
+      "hi": "विधि 1: आधिकारिक RRB कुंजी व्याख्या (वार्षिक दर × M/12): 1) आधिकारिक कुंजी में दर को **4% वार्षिक** और समय को $\\frac{9}{12}$ वर्ष माना गया।\n2) $SI = \\frac{1200 \\times 4 \\times 9}{100 \\times 12} = 4 \\times 9 = \\mathbf{36}$ (**विकल्प B**)।\n3) शब्दशः \"मासिक दर\" से मान ₹432 बनता है।\n\nविधि 2: 1200 और 12 कटने की त्वरित जाँच ट्रिक: जब मूलधन 1200 व हर में 12 माह कटते हैं, तो कुंजी अनुसार सीधा $R \\times M = 4 \\times 9 = \\mathbf{36}$ प्राप्त होता है!"
     }
   },
   {
@@ -2486,10 +2527,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹44,800) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹44,800) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹44,800**).",
+      "keyConcept": "Only 2nd-Year Compound Interest = R(1 + R/100)% (5.25% of P)",
+      "optionTrick": {
+        "en": "At 5% rate, **2nd year alone** earns $5\\% \\times 1.05 = \\mathbf{5.25\\%}$ of $P$! So $P = \\frac{2352 \\times 100}{5.25} = \\mathbf{44,800}$!",
+        "hi": "5% दर पर केवल दूसरे वर्ष का ब्याज $= 5\\% \\times 1.05 = \\mathbf{5.25\\%}$! अतः $P = \\frac{2352 \\times 100}{5.25} = \\mathbf{44,800}$!"
+      },
+      "trapAlert": {
+        "en": "Question specifies interest earned **during the 2nd year only** (5.25%), NOT cumulative 2-year CI (10.25%)!",
+        "hi": "ध्यान दें: यहाँ 2 वर्षों का कुल ब्याज नहीं बल्कि **केवल दूसरे वर्ष** में अर्जित ब्याज (5.25%) दिया गया है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-Back from 2nd Year to 1st Year CI",
+            "hi": "विधि 1: दूसरे वर्ष से पहले वर्ष का ब्याज निकालकर मूलधन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$CI_{\\text{1st yr}} = \\frac{CI_{\\text{2nd yr}}}{1 + R/100},\\quad P = \\frac{CI_{\\text{1st yr}} \\times 100}{R}$",
+          "steps": {
+            "en": "1) Year-1 interest $= \\frac{2352}{1.05} = 2,240$.\n2) Since $5\\%$ of $P = 2,240$, $P = \\frac{2240 \\times 100}{5} = \\mathbf{44,800}$.",
+            "hi": "1) पहले वर्ष का ब्याज $= \\frac{2352}{1.05} = 2,240$ रुपये।\n2) $P$ का $5\\% = 2,240 \\Rightarrow P = \\frac{2240 \\times 100}{5} = \\mathbf{44,800}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Single Divisor (Effective 2nd-Year %)",
+            "hi": "विधि 2: एकल प्रभावी % विभाजक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct share $= 5.25\\%$ of $P = 2,352 \\Rightarrow P = \\frac{2352 \\times 100}{5.25} = \\mathbf{44,800}$.",
+            "hi": "सीधा दूसरे वर्ष का भाग $= 5.25\\% = 2,352 \\Rightarrow P = \\frac{2352 \\times 100}{5.25} = \\mathbf{44,800}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-Back from 2nd Year to 1st Year CI: 1) Year-1 interest $= \\frac{2352}{1.05} = 2,240$.\n2) Since $5\\%$ of $P = 2,240$, $P = \\frac{2240 \\times 100}{5} = \\mathbf{44,800}$.\n\nMethod 2: Direct Single Divisor (Effective 2nd-Year %): Direct share $= 5.25\\%$ of $P = 2,352 \\Rightarrow P = \\frac{2352 \\times 100}{5.25} = \\mathbf{44,800}$.",
+      "hi": "विधि 1: दूसरे वर्ष से पहले वर्ष का ब्याज निकालकर मूलधन: 1) पहले वर्ष का ब्याज $= \\frac{2352}{1.05} = 2,240$ रुपये।\n2) $P$ का $5\\% = 2,240 \\Rightarrow P = \\frac{2240 \\times 100}{5} = \\mathbf{44,800}$ रुपये।\n\nविधि 2: एकल प्रभावी % विभाजक ट्रिक: सीधा दूसरे वर्ष का भाग $= 5.25\\% = 2,352 \\Rightarrow P = \\frac{2352 \\times 100}{5.25} = \\mathbf{44,800}$!"
     }
   },
   {

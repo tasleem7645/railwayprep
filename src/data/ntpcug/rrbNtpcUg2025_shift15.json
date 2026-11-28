@@ -1386,10 +1386,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (16%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (16%) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**16%**).",
+      "keyConcept": "Compound Interest Rate via T-th Root: (1 + R/100) = (A / P)^(1/2)",
+      "optionTrick": {
+        "en": "Ratio $\\frac{A}{P} = 1.3456 = \\left(1.16\\right)^2$ $\\Rightarrow R = \\mathbf{16\\%}$!",
+        "hi": "अनुपात $\\frac{A}{P} = 1.3456 = \\left(1.16\\right)^2$ $\\Rightarrow R = \\mathbf{16\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Simplify P : A Ratio to Perfect Power",
+            "hi": "विधि 1: P व A का अनुपात सरल कर मूल निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$\\frac{A}{P} = \\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{841}{625} = 1.3456$.\n2) Taking 2-th root: $1 + \\frac{R}{100} = 1.16 \\Rightarrow R = \\mathbf{16\\%}$.",
+            "hi": "1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{841}{625} = 1.3456$।\n2) 2वाँ मूल लेने पर $1 + \\frac{R}{100} = 1.16 \\Rightarrow R = \\mathbf{16\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Successive % Benchmark Option Test (4 sec)",
+            "hi": "विधि 2: प्रभावी % व इकाई अंक परीक्षण"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total % gain $= \\frac{216}{625} \\times 100 = 34.56\\%$, matching 2-year compounding of **16%** (16+16+2.56)!",
+            "hi": "कुल % वृद्धि $= 34.56\\%$, जो 2 वर्षों में केवल **16%** से संभव है!"
+          }
+        }
+      ],
+      "en": "Method 1: Simplify P : A Ratio to Perfect Power: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{841}{625} = 1.3456$.\n2) Taking 2-th root: $1 + \\frac{R}{100} = 1.16 \\Rightarrow R = \\mathbf{16\\%}$.\n\nMethod 2: Successive % Benchmark Option Test (4 sec): Total % gain $= \\frac{216}{625} \\times 100 = 34.56\\%$, matching 2-year compounding of **16%** (16+16+2.56)!",
+      "hi": "विधि 1: P व A का अनुपात सरल कर मूल निकालें: 1) $\\left(1 + \\frac{R}{100}\\right)^2 = \\frac{841}{625} = 1.3456$।\n2) 2वाँ मूल लेने पर $1 + \\frac{R}{100} = 1.16 \\Rightarrow R = \\mathbf{16\\%}$।\n\nविधि 2: प्रभावी % व इकाई अंक परीक्षण: कुल % वृद्धि $= 34.56\\%$, जो 2 वर्षों में केवल **16%** से संभव है!"
     }
   },
   {
@@ -1694,10 +1735,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (4,200) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (4,200) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**4,200**).",
+      "keyConcept": "Equal Simple Interest Split ⇒ Inverse Rate Ratio (P₁ : P₂ = R₂ : R₁)",
+      "optionTrick": {
+        "en": "Time (7 yrs) cancels out completely! When $SI_1 = SI_2$, $P_1 : P_2 = R_2 : R_1 = 3 : 13$ (3 : 13). Sum $= 22,400 \\times \\frac{3}{16} = \\mathbf{4,200}$!",
+        "hi": "दोनों निवेश समान समय (7 वर्ष) के लिए हैं अतः समय कट जाता है! $P_1 : P_2 = R_2 : R_1 = 3 : 13 = 3 : 13$। 13% पर राशि $= 22,400 \\times \\frac{3}{16} = \\mathbf{4,200}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT waste time multiplying by T = 7 years, and keep the ratio **inverse** ($R_2 : R_1$, NOT $R_1 : R_2$)!",
+        "hi": "समान समय ($T = 7$ वर्ष) से गुणा करने में समय न गँवाएँ और अनुपात **उल्टा** ($P_1 : P_2 = R_2 : R_1$) लेना याद रखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate SI₁ = SI₂ Equation",
+            "hi": "विधि 1: दोनों भागों के ब्याज बराबर रखकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$\\frac{P_1 \\times R_1 \\times T}{100} = \\frac{P_2 \\times R_2 \\times T}{100} \\implies \\frac{P_1}{P_2} = \\frac{R_2}{R_1}$",
+          "steps": {
+            "en": "1) $\\frac{P_1 \\times 13 \\times 7}{100} = \\frac{(22400 - P_1) \\times 3 \\times 7}{100} \\Rightarrow 13 P_1 = 3(22400 - P_1)$.\n2) $(13 + 3) P_1 = 3 \\times 22400 \\Rightarrow P_1 = \\frac{3 \\times 22400}{16} = 4,200$.\n3) Sum at $13\\%$ $= \\mathbf{4,200}$.",
+            "hi": "1) $\\frac{P_1 \\times 13 \\times 7}{100} = \\frac{(22400 - P_1) \\times 3 \\times 7}{100} \\Rightarrow 13 P_1 = 3(22400 - P_1)$।\n2) $P_1 : P_2 = 3 : 13$ ($= 3 : 13$), कुल $= 16$ भाग।\n3) 13% दर वाला भाग $= 22,400 \\times \\frac{3}{16} = \\mathbf{4,200}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Inverse-Rate Ratio Trick (4 sec)",
+            "hi": "विधि 2: सीधा व्युत्क्रम दर अनुपात ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 part $= \\frac{22,400}{16} = 1400$. Sum at $13\\%$ gets **3 parts** $= 3 \\times 1400 = \\mathbf{4,200}$.",
+            "hi": "1 भाग $= \\frac{22,400}{16} = 1400$। 13% पर निवेशित भाग (**3** भाग) $= \\mathbf{4,200}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate SI₁ = SI₂ Equation: 1) $\\frac{P_1 \\times 13 \\times 7}{100} = \\frac{(22400 - P_1) \\times 3 \\times 7}{100} \\Rightarrow 13 P_1 = 3(22400 - P_1)$.\n2) $(13 + 3) P_1 = 3 \\times 22400 \\Rightarrow P_1 = \\frac{3 \\times 22400}{16} = 4,200$.\n3) Sum at $13\\%$ $= \\mathbf{4,200}$.\n\nMethod 2: Direct Inverse-Rate Ratio Trick (4 sec): 1 part $= \\frac{22,400}{16} = 1400$. Sum at $13\\%$ gets **3 parts** $= 3 \\times 1400 = \\mathbf{4,200}$.",
+      "hi": "विधि 1: दोनों भागों के ब्याज बराबर रखकर हल: 1) $\\frac{P_1 \\times 13 \\times 7}{100} = \\frac{(22400 - P_1) \\times 3 \\times 7}{100} \\Rightarrow 13 P_1 = 3(22400 - P_1)$।\n2) $P_1 : P_2 = 3 : 13$ ($= 3 : 13$), कुल $= 16$ भाग।\n3) 13% दर वाला भाग $= 22,400 \\times \\frac{3}{16} = \\mathbf{4,200}$।\n\nविधि 2: सीधा व्युत्क्रम दर अनुपात ट्रिक: 1 भाग $= \\frac{22,400}{16} = 1400$। 13% पर निवेशित भाग (**3** भाग) $= \\mathbf{4,200}$!"
     }
   },
   {

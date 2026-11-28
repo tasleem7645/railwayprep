@@ -58,10 +58,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 9)",
-      "en": "Correct Answer: Option A (76,160). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (76,160)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**76,160**).",
+      "keyConcept": "Final Amount Under Simple Interest: A = P × (1 + RT/100)",
+      "optionTrick": {
+        "en": "Total interest $= 12\\% \\times 3 = 36\\%$. Amount $= 136\\%$ of 56,000 $= \\mathbf{76,160}$!",
+        "hi": "कुल ब्याज $= 12\\% \\times 3 = 36\\%$। मिश्रधन $= 56,000$ का 136% $= \\mathbf{76,160}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find SI First, Then Add to Principal",
+            "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100},\\quad A = P + SI$",
+          "steps": {
+            "en": "1) $R = 12\\% = 12\\%$, $T = 3$ years $\\Rightarrow R \\times T = 36\\%$.\n2) $SI = \\frac{56000 \\times 36}{100} = 20,160$.\n3) Amount $A = 56,000 + 20,160 = \\mathbf{76,160}$.",
+            "hi": "1) दर $R = 12\\% = 12\\%$, समय $T = 3$ वर्ष $\\Rightarrow R \\times T = 36\\%$।\n2) $SI = \\frac{56000 \\times 36}{100} = 20,160$ रुपये।\n3) मिश्रधन $A = 56,000 + 20,160 = \\mathbf{76,160}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Amount Factor (100 + R×T)%",
+            "hi": "विधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct Amount factor $= 1 + \\frac{36}{100} = 1.36$. Compute $56,000 \\times 1.36 = \\mathbf{76,160}$.",
+            "hi": "सीधा मिश्रधन $= 56,000 \\times 1.36 = \\mathbf{76,160}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Find SI First, Then Add to Principal: 1) $R = 12\\% = 12\\%$, $T = 3$ years $\\Rightarrow R \\times T = 36\\%$.\n2) $SI = \\frac{56000 \\times 36}{100} = 20,160$.\n3) Amount $A = 56,000 + 20,160 = \\mathbf{76,160}$.\n\nMethod 2: Direct Amount Factor (100 + R×T)%: Direct Amount factor $= 1 + \\frac{36}{100} = 1.36$. Compute $56,000 \\times 1.36 = \\mathbf{76,160}$.",
+      "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें: 1) दर $R = 12\\% = 12\\%$, समय $T = 3$ वर्ष $\\Rightarrow R \\times T = 36\\%$।\n2) $SI = \\frac{56000 \\times 36}{100} = 20,160$ रुपये।\n3) मिश्रधन $A = 56,000 + 20,160 = \\mathbf{76,160}$ रुपये।\n\nविधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक: सीधा मिश्रधन $= 56,000 \\times 1.36 = \\mathbf{76,160}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
     },
     "correctIndexHi": 0
   },

@@ -951,10 +951,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹12,500) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹12,500) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹12,500**).",
+      "keyConcept": "Reverse Annual Compounding: P = A / (1 + R/100)^2",
+      "optionTrick": {
+        "en": "Ratio factor over 2 yrs is $\\left(\\frac{6}{5}\\right)^2 = \\frac{36}{25}$. Divide 18,000 by 36 and multiply by 25 $= \\mathbf{Rs.12,500}$!",
+        "hi": "भिन्न गुणक $\\left(\\frac{6}{5}\\right)^2 = \\frac{36}{25}$ से $P = 18,000 \\times \\frac{25}{36} = \\mathbf{Rs.12,500}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (6/5)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (6/5)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$P = A \\div \\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) 20% $= \\frac{1}{5} \\Rightarrow$ 1-yr factor $= \\frac{6}{5}$, 2-yr factor $= \\frac{36}{25}$.\n2) $P = 18000 \\times \\frac{25}{36} = \\mathbf{12,500}$ (**₹12,500**).",
+            "hi": "1) 20% $= \\frac{1}{5} \\Rightarrow$ 2 वर्ष का अनुपात $= 25 : 36$।\n2) $P = 18000 \\times \\frac{25}{36} = \\mathbf{12,500}$ (**₹12,500**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $A$ corresponds to $144\\%$ of $P$, so $P = \\frac{18000}{1.44} = \\mathbf{Rs.12,500}$!",
+            "hi": "मिश्रधन $P$ का 144% है $\\Rightarrow P = \\mathbf{Rs.12,500}$ सीधे प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (6/5): 1) 20% $= \\frac{1}{5} \\Rightarrow$ 1-yr factor $= \\frac{6}{5}$, 2-yr factor $= \\frac{36}{25}$.\n2) $P = 18000 \\times \\frac{25}{36} = \\mathbf{12,500}$ (**₹12,500**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Notice $A$ corresponds to $144\\%$ of $P$, so $P = \\frac{18000}{1.44} = \\mathbf{Rs.12,500}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (6/5): 1) 20% $= \\frac{1}{5} \\Rightarrow$ 2 वर्ष का अनुपात $= 25 : 36$।\n2) $P = 18000 \\times \\frac{25}{36} = \\mathbf{12,500}$ (**₹12,500**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: मिश्रधन $P$ का 144% है $\\Rightarrow P = \\mathbf{Rs.12,500}$ सीधे प्राप्त होता है!"
     }
   },
   {
@@ -1155,10 +1196,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (120) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (120) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**120**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 8\\% \\times 2.5 = 20\\%$. Just take $20\\%$ of 600 $= \\mathbf{120}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 8\\% \\times 2.5 = 20\\%$। सीधा 600 का $20\\% = \\mathbf{120}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 600$, $R = 8\\%$, $T = 2.5$ year(s).\n2) $SI = \\frac{600 \\times 8 \\times 2.5}{100} = 6 \\times 20 = \\mathbf{120}$.",
+            "hi": "1) $P = 600$, दर $R = 8\\%$, समय $T = 2.5$ वर्ष।\n2) $SI = \\frac{600 \\times 8 \\times 2.5}{100} = \\mathbf{120}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 6$. Multiply by $R \\times T = 20$: $6 \\times 20 = \\mathbf{120}$.",
+            "hi": "मूलधन का $1\\% = 6$। इसे $R \\times T = 20$ से गुणा करें $= \\mathbf{120}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 600$, $R = 8\\%$, $T = 2.5$ year(s).\n2) $SI = \\frac{600 \\times 8 \\times 2.5}{100} = 6 \\times 20 = \\mathbf{120}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 6$. Multiply by $R \\times T = 20$: $6 \\times 20 = \\mathbf{120}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 600$, दर $R = 8\\%$, समय $T = 2.5$ वर्ष।\n2) $SI = \\frac{600 \\times 8 \\times 2.5}{100} = \\mathbf{120}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 6$। इसे $R \\times T = 20$ से गुणा करें $= \\mathbf{120}$!"
     }
   },
   {

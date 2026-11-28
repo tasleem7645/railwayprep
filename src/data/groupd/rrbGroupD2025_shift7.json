@@ -951,10 +951,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹15,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹15,000) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹15,000**).",
+      "keyConcept": "Reverse Annual Compounding: P = A / (1 + R/100)^2",
+      "optionTrick": {
+        "en": "Ratio factor over 2 yrs is $\\left(\\frac{23}{20}\\right)^2 = \\frac{529}{400}$. Divide 19,837.5 by 529 and multiply by 400 $= \\mathbf{Rs.15,000}$!",
+        "hi": "भिन्न गुणक $\\left(\\frac{23}{20}\\right)^2 = \\frac{529}{400}$ से $P = 19,837.5 \\times \\frac{400}{529} = \\mathbf{Rs.15,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (23/20)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (23/20)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$P = A \\div \\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) 15% $= \\frac{3}{20} \\Rightarrow$ 1-yr factor $= \\frac{23}{20}$, 2-yr factor $= \\frac{529}{400}$.\n2) $P = 19837.500000000007 \\times \\frac{400}{529} = \\mathbf{15,000}$ (**₹15,000**).",
+            "hi": "1) 15% $= \\frac{3}{20} \\Rightarrow$ 2 वर्ष का अनुपात $= 400 : 529$।\n2) $P = 19837.500000000007 \\times \\frac{400}{529} = \\mathbf{15,000}$ (**₹15,000**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $A$ corresponds to $132.25\\%$ of $P$, so $P = \\frac{19837.500000000007}{1.3225} = \\mathbf{Rs.15,000}$!",
+            "hi": "मिश्रधन $P$ का 132.25% है $\\Rightarrow P = \\mathbf{Rs.15,000}$ सीधे प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (23/20): 1) 15% $= \\frac{3}{20} \\Rightarrow$ 1-yr factor $= \\frac{23}{20}$, 2-yr factor $= \\frac{529}{400}$.\n2) $P = 19837.500000000007 \\times \\frac{400}{529} = \\mathbf{15,000}$ (**₹15,000**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Notice $A$ corresponds to $132.25\\%$ of $P$, so $P = \\frac{19837.500000000007}{1.3225} = \\mathbf{Rs.15,000}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (23/20): 1) 15% $= \\frac{3}{20} \\Rightarrow$ 2 वर्ष का अनुपात $= 400 : 529$।\n2) $P = 19837.500000000007 \\times \\frac{400}{529} = \\mathbf{15,000}$ (**₹15,000**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: मिश्रधन $P$ का 132.25% है $\\Rightarrow P = \\mathbf{Rs.15,000}$ सीधे प्राप्त होता है!"
     }
   },
   {
@@ -1149,10 +1190,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹1,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹1,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹1,000**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 5\\% \\times 2 = 10\\%$. Just take $10\\%$ of 10,000 $= \\mathbf{1,000}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 5\\% \\times 2 = 10\\%$। सीधा 10,000 का $10\\% = \\mathbf{1,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 10,000$, $R = 5\\%$, $T = 2$ year(s).\n2) $SI = \\frac{10000 \\times 5 \\times 2}{100} = 100 \\times 10 = \\mathbf{1,000}$.",
+            "hi": "1) $P = 10,000$, दर $R = 5\\%$, समय $T = 2$ वर्ष।\n2) $SI = \\frac{10000 \\times 5 \\times 2}{100} = \\mathbf{1,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 100$. Multiply by $R \\times T = 10$: $100 \\times 10 = \\mathbf{1,000}$.",
+            "hi": "मूलधन का $1\\% = 100$। इसे $R \\times T = 10$ से गुणा करें $= \\mathbf{1,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 10,000$, $R = 5\\%$, $T = 2$ year(s).\n2) $SI = \\frac{10000 \\times 5 \\times 2}{100} = 100 \\times 10 = \\mathbf{1,000}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 100$. Multiply by $R \\times T = 10$: $100 \\times 10 = \\mathbf{1,000}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 10,000$, दर $R = 5\\%$, समय $T = 2$ वर्ष।\n2) $SI = \\frac{10000 \\times 5 \\times 2}{100} = \\mathbf{1,000}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 100$। इसे $R \\times T = 10$ से गुणा करें $= \\mathbf{1,000}$!"
     }
   },
   {

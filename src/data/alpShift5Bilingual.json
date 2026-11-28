@@ -358,10 +358,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 5)",
-      "en": "Correct Answer: Option A (70,060). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (70,060)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**70,060**).",
+      "keyConcept": "Final Amount Under Simple Interest: A = P × (1 + RT/100)",
+      "optionTrick": {
+        "en": "Total interest $= 8\\% \\times 3 = 24\\%$. Amount $= 124\\%$ of 56,500 $= \\mathbf{70,060}$!",
+        "hi": "कुल ब्याज $= 8\\% \\times 3 = 24\\%$। मिश्रधन $= 56,500$ का 124% $= \\mathbf{70,060}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find SI First, Then Add to Principal",
+            "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100},\\quad A = P + SI$",
+          "steps": {
+            "en": "1) $R = 8\\% = 8\\%$, $T = 3$ years $\\Rightarrow R \\times T = 24\\%$.\n2) $SI = \\frac{56500 \\times 24}{100} = 13,560$.\n3) Amount $A = 56,500 + 13,560 = \\mathbf{70,060}$.",
+            "hi": "1) दर $R = 8\\% = 8\\%$, समय $T = 3$ वर्ष $\\Rightarrow R \\times T = 24\\%$।\n2) $SI = \\frac{56500 \\times 24}{100} = 13,560$ रुपये।\n3) मिश्रधन $A = 56,500 + 13,560 = \\mathbf{70,060}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Amount Factor (100 + R×T)%",
+            "hi": "विधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Direct Amount factor $= 1 + \\frac{24}{100} = 1.24$. Compute $56,500 \\times 1.24 = \\mathbf{70,060}$.",
+            "hi": "सीधा मिश्रधन $= 56,500 \\times 1.24 = \\mathbf{70,060}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
+          }
+        }
+      ],
+      "en": "Method 1: Find SI First, Then Add to Principal: 1) $R = 8\\% = 8\\%$, $T = 3$ years $\\Rightarrow R \\times T = 24\\%$.\n2) $SI = \\frac{56500 \\times 24}{100} = 13,560$.\n3) Amount $A = 56,500 + 13,560 = \\mathbf{70,060}$.\n\nMethod 2: Direct Amount Factor (100 + R×T)%: Direct Amount factor $= 1 + \\frac{24}{100} = 1.24$. Compute $56,500 \\times 1.24 = \\mathbf{70,060}$.",
+      "hi": "विधि 1: पहले साधारण ब्याज निकालें फिर मूलधन में जोड़ें: 1) दर $R = 8\\% = 8\\%$, समय $T = 3$ वर्ष $\\Rightarrow R \\times T = 24\\%$।\n2) $SI = \\frac{56500 \\times 24}{100} = 13,560$ रुपये।\n3) मिश्रधन $A = 56,500 + 13,560 = \\mathbf{70,060}$ रुपये।\n\nविधि 2: सीधा मिश्रधन गुणक (100 + R×T)% ट्रिक: सीधा मिश्रधन $= 56,500 \\times 1.24 = \\mathbf{70,060}$ (उदा. 10% जोड़ना और 1% अंक जाँच 5 सेकंड में पूरा उत्तर देती है)।"
     },
     "correctIndexHi": 0
   },
@@ -424,10 +465,51 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 5)",
-      "en": "Correct Answer: Option B (₹20,000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (₹20,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**₹20,000**).",
+      "keyConcept": "Reverse Annual Compounding: P = A / (1 + R/100)^2",
+      "optionTrick": {
+        "en": "Ratio factor over 2 yrs is $\\left(\\frac{28}{25}\\right)^2 = \\frac{784}{625}$. Divide 25,088 by 784 and multiply by 625 $= \\mathbf{Rs.20,000}$!",
+        "hi": "भिन्न गुणक $\\left(\\frac{28}{25}\\right)^2 = \\frac{784}{625}$ से $P = 25,088 \\times \\frac{625}{784} = \\mathbf{Rs.20,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio-Multiplier Method (28/25)",
+            "hi": "विधि 1: भिन्न गुणक अनुपात (28/25)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$P = A \\div \\left(1 + \\frac{R}{100}\\right)^T$",
+          "steps": {
+            "en": "1) 12% $= \\frac{3}{25} \\Rightarrow$ 1-yr factor $= \\frac{28}{25}$, 2-yr factor $= \\frac{784}{625}$.\n2) $P = 25088 \\times \\frac{625}{784} = \\mathbf{20,000}$ (**₹20,000**).",
+            "hi": "1) 12% $= \\frac{3}{25} \\Rightarrow$ 2 वर्ष का अनुपात $= 625 : 784$।\n2) $P = 25088 \\times \\frac{625}{784} = \\mathbf{20,000}$ (**₹20,000**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective 2-Yr Rate (2R + R²/100)",
+            "hi": "विधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $A$ corresponds to $125.44\\%$ of $P$, so $P = \\frac{25088}{1.2544} = \\mathbf{Rs.20,000}$!",
+            "hi": "मिश्रधन $P$ का 125.44% है $\\Rightarrow P = \\mathbf{Rs.20,000}$ सीधे प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio-Multiplier Method (28/25): 1) 12% $= \\frac{3}{25} \\Rightarrow$ 1-yr factor $= \\frac{28}{25}$, 2-yr factor $= \\frac{784}{625}$.\n2) $P = 25088 \\times \\frac{625}{784} = \\mathbf{20,000}$ (**₹20,000**).\n\nMethod 2: Effective 2-Yr Rate (2R + R²/100): Notice $A$ corresponds to $125.44\\%$ of $P$, so $P = \\frac{25088}{1.2544} = \\mathbf{Rs.20,000}$!",
+      "hi": "विधि 1: भिन्न गुणक अनुपात (28/25): 1) 12% $= \\frac{3}{25} \\Rightarrow$ 2 वर्ष का अनुपात $= 625 : 784$।\n2) $P = 25088 \\times \\frac{625}{784} = \\mathbf{20,000}$ (**₹20,000**)।\n\nविधि 2: प्रभावी 2-वर्ष दर (2R + R²/100) ट्रिक: मिश्रधन $P$ का 125.44% है $\\Rightarrow P = \\mathbf{Rs.20,000}$ सीधे प्राप्त होता है!"
     },
     "correctIndexHi": 1
   },

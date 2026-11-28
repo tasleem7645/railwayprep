@@ -1715,10 +1715,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (₹432) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (₹432) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹432**).",
+      "keyConcept": "Monthly Simple Interest Rate (No Division by 12 When Rate Is Per Month!)",
+      "optionTrick": {
+        "en": "Monthly interest $= 3\\%$ of 1,200 $= 36$. For 12 months: $36 \\times 12 = \\mathbf{432}$!",
+        "hi": "1 माह का ब्याज $= 1,200$ का 3% $= 36$। अतः 12 माह का ब्याज $= 36 \\times 12 = \\mathbf{432}$!"
+      },
+      "trapAlert": {
+        "en": "Rate is given **per month** and time is in **months** — do NOT divide by 12! (Only divide by 12 when rate is per annum).",
+        "hi": "दर **प्रति माह** है व समय भी **माह** में है — गलती से 12 से भाग न दें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Matching Rate & Time Unit Formula",
+            "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R_{\\text{monthly}} \\times M}{100}$",
+          "steps": {
+            "en": "1) $P = 1,200$, monthly rate $R = 3\\%$, $T = 12$ months.\n2) $SI = \\frac{1200 \\times 3 \\times 12}{100} = 12 \\times 36 = \\mathbf{432}$.",
+            "hi": "1) $P = 1,200$, मासिक दर $= 3\\%$, समय $= 12$ माह।\n2) $SI = \\frac{1200 \\times 3 \\times 12}{100} = \\mathbf{432}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1-Month SI × Number of Months",
+            "hi": "विधि 2: 1 माह का ब्याज × कुल माह ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 month SI $= 3\\%$ of $1200 = 36$. For 12 months: $36 \\times 12 = \\mathbf{432}$.",
+            "hi": "1 माह का ब्याज $= 36$ रुपये $\\Rightarrow$ 12 माह के लिए $\\times 12 = \\mathbf{432}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Matching Rate & Time Unit Formula: 1) $P = 1,200$, monthly rate $R = 3\\%$, $T = 12$ months.\n2) $SI = \\frac{1200 \\times 3 \\times 12}{100} = 12 \\times 36 = \\mathbf{432}$.\n\nMethod 2: 1-Month SI × Number of Months: 1 month SI $= 3\\%$ of $1200 = 36$. For 12 months: $36 \\times 12 = \\mathbf{432}$.",
+      "hi": "विधि 1: समान इकाई (माह) साधारण ब्याज सूत्र: 1) $P = 1,200$, मासिक दर $= 3\\%$, समय $= 12$ माह।\n2) $SI = \\frac{1200 \\times 3 \\times 12}{100} = \\mathbf{432}$ रुपये।\n\nविधि 2: 1 माह का ब्याज × कुल माह ट्रिक: 1 माह का ब्याज $= 36$ रुपये $\\Rightarrow$ 12 माह के लिए $\\times 12 = \\mathbf{432}$!"
     }
   },
   {
@@ -2085,10 +2130,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (50) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (50) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**50**).",
+      "keyConcept": "Exact Day-Count in Leap Year 2024 (Feb = 29 Days, Total Year = 366 Days)",
+      "optionTrick": {
+        "en": "2024 is a leap year (366 days). Exact days $= 61$, and $\\frac{61}{366} = \\frac{1}{6}$ year! Annual SI $= 300 \\Rightarrow$ Divide by 6: $\\mathbf{50}$!",
+        "hi": "2024 लीप वर्ष (366 दिन) है। कुल दिन $= 61$ और $\\frac{61}{366} = \\frac{1}{6}$ वर्ष! वार्षिक ब्याज 300 को 6 से भाग दें $= \\mathbf{50}$!"
+      },
+      "trapAlert": {
+        "en": "Two classic mistakes: taking Feb = 28 / Year = 365 in 2024 (divisible by 4), or counting BOTH deposit and withdrawal dates!",
+        "hi": "दो आम गलतियाँ: 2024 को साधारण वर्ष (365 दिन) मानना, या जमा और निकासी दोनों दिन गिन लेना (केवल एक छोर गिनते हैं)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Leap Year Day Count ÷ 366 Formula",
+            "hi": "विधि 1: लीप वर्ष (366 दिन) दिन-गणना सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times \\text{Days}}{100 \\times 366}$",
+          "steps": {
+            "en": "1) **2024 is a leap year** $\\Rightarrow$ February has 29 days, Year $= 366$ days.\n2) Days held: $(29 - 7)\\text{ [February]} + 31\\text{ [Mar]} + 8\\text{ [April]} = 22 + 31 + 8 = 61$ days ($= \\frac{61}{366} = \\frac{1}{6}$ yr).\n3) $SI = \\frac{4000 \\times 7.5}{100} \\times \\frac{1}{6} = \\frac{300}{6} = \\mathbf{50}$.",
+            "hi": "1) **2024 लीप वर्ष** है $\\Rightarrow$ फ़रवरी 29 दिन व कुल वर्ष $= 366$ दिन।\n2) दिन गणना: $(29 - 7)$ [फ़रवरी] $+ 31$ [मार्च] $+ 8$ [अप्रैल] $= 22 + 31 + 8 = 61$ दिन ($= \\frac{61}{366} = \\frac{1}{6}$ वर्ष)।\n3) $SI = \\frac{4000 \\times 7.5}{100} \\times \\frac{1}{6} = \\frac{300}{6} = \\mathbf{50}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant 61/366 = 1/6 Year Recognition",
+            "hi": "विधि 2: 61/366 = 1/6 वर्ष त्वरित पहचान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice **366 ÷ 61 = 6**! Once you verify 61 days $= \\frac{1}{6}$ yr, simply compute $\\frac{300}{6} = \\mathbf{50}$.",
+            "hi": "रेलवे परीक्षा में **61/366 = 1/6** मानक गुणनखंड है! वार्षिक ब्याज 300 का छठा भाग $= \\mathbf{50}$ सीधे उत्तर देता है।"
+          }
+        }
+      ],
+      "en": "Method 1: Leap Year Day Count ÷ 366 Formula: 1) **2024 is a leap year** $\\Rightarrow$ February has 29 days, Year $= 366$ days.\n2) Days held: $(29 - 7)\\text{ [February]} + 31\\text{ [Mar]} + 8\\text{ [April]} = 22 + 31 + 8 = 61$ days ($= \\frac{61}{366} = \\frac{1}{6}$ yr).\n3) $SI = \\frac{4000 \\times 7.5}{100} \\times \\frac{1}{6} = \\frac{300}{6} = \\mathbf{50}$.\n\nMethod 2: Instant 61/366 = 1/6 Year Recognition: Notice **366 ÷ 61 = 6**! Once you verify 61 days $= \\frac{1}{6}$ yr, simply compute $\\frac{300}{6} = \\mathbf{50}$.",
+      "hi": "विधि 1: लीप वर्ष (366 दिन) दिन-गणना सूत्र: 1) **2024 लीप वर्ष** है $\\Rightarrow$ फ़रवरी 29 दिन व कुल वर्ष $= 366$ दिन।\n2) दिन गणना: $(29 - 7)$ [फ़रवरी] $+ 31$ [मार्च] $+ 8$ [अप्रैल] $= 22 + 31 + 8 = 61$ दिन ($= \\frac{61}{366} = \\frac{1}{6}$ वर्ष)।\n3) $SI = \\frac{4000 \\times 7.5}{100} \\times \\frac{1}{6} = \\frac{300}{6} = \\mathbf{50}$।\n\nविधि 2: 61/366 = 1/6 वर्ष त्वरित पहचान ट्रिक: रेलवे परीक्षा में **61/366 = 1/6** मानक गुणनखंड है! वार्षिक ब्याज 300 का छठा भाग $= \\mathbf{50}$ सीधे उत्तर देता है।"
     }
   },
   {

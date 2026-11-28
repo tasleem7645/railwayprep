@@ -2011,10 +2011,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹53,097) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹53,097) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹53,097**).",
+      "keyConcept": "Two-Stage Simple Interest (Fractional Years + Final Amount)",
+      "optionTrick": {
+        "en": "Stage 1 % $= \\frac{38}{9} \\times 4.5\\% = 19\\% = 8,778 \\Rightarrow 1\\% = 462$ (P = 46,200). Stage 2 % $= \\frac{19}{7} \\times 5.5\\% = 14.9286\\%$. Amount $= 114.9286\\%$ of $P = \\mathbf{53,097}$!",
+        "hi": "प्रथम चरण ब्याज % $= \\frac{38}{9} \\times 4.5 = 19\\% = 8,778 \\Rightarrow P = 46,200$। द्वितीय चरण % $= \\frac{19}{7} \\times 5.5 = 14.9286\\%$ $\\Rightarrow$ मिश्रधन $= 46,200$ का 114.9286% $= \\mathbf{53,097}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Convert Mixed Fractions & Solve P First",
+            "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI_1 \\times 100}{R_1 \\times T_1},\\quad A_2 = P\\left(1 + \\frac{R_2 T_2}{100}\\right)$",
+          "steps": {
+            "en": "1) $T_1 = 4\\frac{2}{9} = \\frac{38}{9}$ yrs $\\Rightarrow R_1 T_1 = 4.5 \\times \\frac{38}{9} = 19\\%$.\n2) $P = \\frac{8778 \\times 100}{19} = 46,200$.\n3) $T_2 = 2\\frac{5}{7} = \\frac{19}{7}$ yrs $\\Rightarrow R_2 T_2 = 5.5 \\times \\frac{19}{7} = 14.9286\\%$.\n4) $SI_2 = 46,200 \\times 14.9286\\% = 6,897 \\Rightarrow A_2 = 46,200 + 6,897 = \\mathbf{53,097}$.",
+            "hi": "1) $T_1 = 4\\frac{2}{9} = \\frac{38}{9}$ वर्ष $\\Rightarrow R_1 T_1 = 19\\%$।\n2) $P = \\frac{8778 \\times 100}{19} = 46,200$ रुपये।\n3) $T_2 = 2\\frac{5}{7} = \\frac{19}{7}$ वर्ष $\\Rightarrow R_2 T_2 = 14.9286\\%$।\n4) $SI_2 = 6,897 \\Rightarrow$ देय राशि $A_2 = 46,200 + 6,897 = \\mathbf{53,097}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Factor Ratio",
+            "hi": "विधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of $P = \\frac{8778}{19} = 462$. Since Amount $= 114.9286\\%$, directly compute $462 \\times 114.9286 = \\mathbf{53,097}$.",
+            "hi": "$P$ का $1\\% = \\frac{8778}{19} = 462$। अतः देय राशि $= 114.9286 \\times 462 = \\mathbf{53,097}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Convert Mixed Fractions & Solve P First: 1) $T_1 = 4\\frac{2}{9} = \\frac{38}{9}$ yrs $\\Rightarrow R_1 T_1 = 4.5 \\times \\frac{38}{9} = 19\\%$.\n2) $P = \\frac{8778 \\times 100}{19} = 46,200$.\n3) $T_2 = 2\\frac{5}{7} = \\frac{19}{7}$ yrs $\\Rightarrow R_2 T_2 = 5.5 \\times \\frac{19}{7} = 14.9286\\%$.\n4) $SI_2 = 46,200 \\times 14.9286\\% = 6,897 \\Rightarrow A_2 = 46,200 + 6,897 = \\mathbf{53,097}$.\n\nMethod 2: Direct Multiplier Factor Ratio: $1\\%$ of $P = \\frac{8778}{19} = 462$. Since Amount $= 114.9286\\%$, directly compute $462 \\times 114.9286 = \\mathbf{53,097}$.",
+      "hi": "विधि 1: मिश्र भिन्न बदलकर मूलधन P व नया मिश्रधन निकालें: 1) $T_1 = 4\\frac{2}{9} = \\frac{38}{9}$ वर्ष $\\Rightarrow R_1 T_1 = 19\\%$।\n2) $P = \\frac{8778 \\times 100}{19} = 46,200$ रुपये।\n3) $T_2 = 2\\frac{5}{7} = \\frac{19}{7}$ वर्ष $\\Rightarrow R_2 T_2 = 14.9286\\%$।\n4) $SI_2 = 6,897 \\Rightarrow$ देय राशि $A_2 = 46,200 + 6,897 = \\mathbf{53,097}$ रुपये।\n\nविधि 2: प्रतिशत अनुपात सीधा गुणक ट्रिक: $P$ का $1\\% = \\frac{8778}{19} = 462$। अतः देय राशि $= 114.9286 \\times 462 = \\mathbf{53,097}$!"
     }
   },
   {
@@ -2537,10 +2578,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹1,824) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹1,824) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹1,824**).",
+      "keyConcept": "Principal from SI Amount: A = (100 + R×T)% of P",
+      "optionTrick": {
+        "en": "Amount $= 125\\%$ of $P = 2,280 \\Rightarrow P = \\frac{2,280 \\times 100}{125} = \\mathbf{1,824}$!",
+        "hi": "कुल मिश्रधन $= (100 + 25) = 125\\% = 2,280$। अतः $P = \\frac{2,280 \\times 100}{125} = \\mathbf{1,824}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Percentage Equation",
+            "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{A \\times 100}{100 + R \\times T}$",
+          "steps": {
+            "en": "1) Total interest $= 5\\% \\times 5 = 25\\% \\Rightarrow$ Amount $= 125\\%$ of $P$.\n2) $P = \\frac{2280 \\times 100}{125} = \\mathbf{1,824}$.",
+            "hi": "1) कुल ब्याज $= 5\\% \\times 5 = 25\\% \\Rightarrow$ मिश्रधन $= 125\\%$।\n2) $P = \\frac{2280 \\times 100}{125} = \\mathbf{1,824}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Multiplier Trick",
+            "hi": "विधि 2: अनुपात भाग विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$R \\times T = 25\\% = \\frac{1}{4} \\Rightarrow P : A = 4 : 5$. Since 5 parts $= 2,280$, $P = 4 \\times 456 = \\mathbf{1,824}$.",
+            "hi": "$25\\% = \\frac{1}{4} \\Rightarrow P : A = 4 : 5$। अतः $P = 4 \\times 456 = \\mathbf{1,824}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Percentage Equation: 1) Total interest $= 5\\% \\times 5 = 25\\% \\Rightarrow$ Amount $= 125\\%$ of $P$.\n2) $P = \\frac{2280 \\times 100}{125} = \\mathbf{1,824}$.\n\nMethod 2: Ratio Multiplier Trick: $R \\times T = 25\\% = \\frac{1}{4} \\Rightarrow P : A = 4 : 5$. Since 5 parts $= 2,280$, $P = 4 \\times 456 = \\mathbf{1,824}$.",
+      "hi": "विधि 1: 100 + R×T% प्रतिशत समीकरण: 1) कुल ब्याज $= 5\\% \\times 5 = 25\\% \\Rightarrow$ मिश्रधन $= 125\\%$।\n2) $P = \\frac{2280 \\times 100}{125} = \\mathbf{1,824}$ रुपये।\n\nविधि 2: अनुपात भाग विधि: $25\\% = \\frac{1}{4} \\Rightarrow P : A = 4 : 5$। अतः $P = 4 \\times 456 = \\mathbf{1,824}$।"
     }
   },
   {

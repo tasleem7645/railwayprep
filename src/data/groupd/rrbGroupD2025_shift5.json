@@ -1007,10 +1007,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Find Principal",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹4,120) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹4,120) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹4,120**).",
+      "keyConcept": "Equating Simple Interest Total Percentage (9%) to Half of 2-Year CI",
+      "optionTrick": {
+        "en": "2-yr CI at 6% $= 12.36\\%$ of `6,000` $= 741.60$. Half $= 370.80 = 9\\%$ of $P \\Rightarrow P = \\frac{370.80}{0.09} = \\mathbf{Rs.4,120}$!",
+        "hi": "6% से 2 वर्ष का CI $= 12.36\\%$ of $6{,}000 = 741.60$। इसका आधा `370.80` $= P$ का `9%` $\\Rightarrow P = \\frac{370.80 \\times 100}{9} = \\mathbf{Rs.4,120}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compute 2-Yr CI, Halve It, Then Solve 9% of P",
+            "hi": "विधि 1: 2-वर्ष CI का आधा कर 9% के बराबर रखें"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Effective 2-yr CI rate at 6% $= 6 + 6 + 0.36 = 12.36\\%$.\n2) $CI = 6000 \\times 12.36\\% = 741.60$; half $= 370.80$.\n3) $P \\times \\frac{3 \\times 3}{100} = 370.80 \\Rightarrow P = \\frac{37080}{9} = \\mathbf{Rs.4,120}$.",
+            "hi": "1) 6% से 2 वर्ष का $CI = 6000 \\times 12.36\\% = 741.60$ रुपये।\n2) इसका आधा $SI = 370.80$ रुपये जो $P$ का $3 \\times 3 = 9\\%$ है।\n3) $P = \\frac{370.80 \\times 100}{9} = \\mathbf{Rs.4,120}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cancel 6,000 × 6.18% Directly ÷ 9%",
+            "hi": "विधि 2: सीधा प्रतिशत अनुपात (6000 × 6.18 ÷ 9) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Half of $12.36\\%$ is $6.18\\%$: $P = \\frac{6000 \\times 6.18}{9} = 2000 \\times 2.06 = \\mathbf{Rs.4,120}$!",
+            "hi": "सीधा $P = \\frac{6000 \\times 6.18}{9} = 2000 \\times 2.06 = \\mathbf{Rs.4,120}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Compute 2-Yr CI, Halve It, Then Solve 9% of P: 1) Effective 2-yr CI rate at 6% $= 6 + 6 + 0.36 = 12.36\\%$.\n2) $CI = 6000 \\times 12.36\\% = 741.60$; half $= 370.80$.\n3) $P \\times \\frac{3 \\times 3}{100} = 370.80 \\Rightarrow P = \\frac{37080}{9} = \\mathbf{Rs.4,120}$.\n\nMethod 2: Cancel 6,000 × 6.18% Directly ÷ 9%: Half of $12.36\\%$ is $6.18\\%$: $P = \\frac{6000 \\times 6.18}{9} = 2000 \\times 2.06 = \\mathbf{Rs.4,120}$!",
+      "hi": "विधि 1: 2-वर्ष CI का आधा कर 9% के बराबर रखें: 1) 6% से 2 वर्ष का $CI = 6000 \\times 12.36\\% = 741.60$ रुपये।\n2) इसका आधा $SI = 370.80$ रुपये जो $P$ का $3 \\times 3 = 9\\%$ है।\n3) $P = \\frac{370.80 \\times 100}{9} = \\mathbf{Rs.4,120}$।\n\nविधि 2: सीधा प्रतिशत अनुपात (6000 × 6.18 ÷ 9) ट्रिक: सीधा $P = \\frac{6000 \\times 6.18}{9} = 2000 \\times 2.06 = \\mathbf{Rs.4,120}$!"
     }
   },
   {
@@ -1075,10 +1115,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (1,890) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (1,890) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**1,890**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 5%), Cycles Doubled (n = 3)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{5\\%}$, $n = \\mathbf{3}$ cycles! Effective factor $= (1.05)^3 \\approx 1.1576$ $\\Rightarrow$ **1,890**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (5%)** व **समय दोगुना (3 छमाही)** करें! सीधा गुणक $(1.05)^3 \\approx 1.1576$ से उत्तर **1,890**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 5%, n = 3)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 5%, n = 3)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{10\\%}{2} = 5\\% = \\frac{1}{20}$; cycles $n = 2 \\times 1.5 = 3$.\n2) Amount $= 12000 \\times (1.05)^3 \\approx 13891.5$.\n3) Compound Interest $= A - P $= 1,891.5$ $\\approx$ **1,890**.",
+            "hi": "1) छमाही दर $r = \\frac{10\\%}{2} = 5\\%$ व छमाही चक्र $n = 2 \\times 1.5 = 3$।\n2) मिश्रधन $A = 12000 \\times (1.05)^3 \\approx 13,891.50$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 1,891.5$ $\\approx$ **1,890**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Pascal / Effective CI % Trick",
+            "hi": "विधि 2: पास्कल गुणांक / प्रभावी % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total effective CI $= 15.7625\\%$ of 12,000 $\\Rightarrow$ **1,890**!",
+            "hi": "3 चक्रों की कुल प्रभावी ब्याज दर $= 15.7625\\%$ से तुरंत **1,890** प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 5%, n = 3): 1) Half-yearly rate $r = \\frac{10\\%}{2} = 5\\% = \\frac{1}{20}$; cycles $n = 2 \\times 1.5 = 3$.\n2) Amount $= 12000 \\times (1.05)^3 \\approx 13891.5$.\n3) Compound Interest $= A - P $= 1,891.5$ $\\approx$ **1,890**.\n\nMethod 2: Pascal / Effective CI % Trick: Total effective CI $= 15.7625\\%$ of 12,000 $\\Rightarrow$ **1,890**!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 5%, n = 3): 1) छमाही दर $r = \\frac{10\\%}{2} = 5\\%$ व छमाही चक्र $n = 2 \\times 1.5 = 3$।\n2) मिश्रधन $A = 12000 \\times (1.05)^3 \\approx 13,891.50$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 1,891.5$ $\\approx$ **1,890**।\n\nविधि 2: पास्कल गुणांक / प्रभावी % ट्रिक: 3 चक्रों की कुल प्रभावी ब्याज दर $= 15.7625\\%$ से तुरंत **1,890** प्राप्त होता है!"
     }
   },
   {

@@ -1386,10 +1386,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (₹45) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (₹45) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹45**).",
+      "keyConcept": "Exact Day-Count in Leap Year 2024 (Feb = 29 Days, Total Year = 366 Days)",
+      "optionTrick": {
+        "en": "2024 is a leap year (366 days). Exact days $= 61$, and $\\frac{61}{366} = \\frac{1}{6}$ year! Annual SI $= 270 \\Rightarrow$ Divide by 6: $\\mathbf{45}$!",
+        "hi": "2024 लीप वर्ष (366 दिन) है। कुल दिन $= 61$ और $\\frac{61}{366} = \\frac{1}{6}$ वर्ष! वार्षिक ब्याज 270 को 6 से भाग दें $= \\mathbf{45}$!"
+      },
+      "trapAlert": {
+        "en": "Two classic mistakes: taking Feb = 28 / Year = 365 in 2024 (divisible by 4), or counting BOTH deposit and withdrawal dates!",
+        "hi": "दो आम गलतियाँ: 2024 को साधारण वर्ष (365 दिन) मानना, या जमा और निकासी दोनों दिन गिन लेना (केवल एक छोर गिनते हैं)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Leap Year Day Count ÷ 366 Formula",
+            "hi": "विधि 1: लीप वर्ष (366 दिन) दिन-गणना सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times \\text{Days}}{100 \\times 366}$",
+          "steps": {
+            "en": "1) **2024 is a leap year** $\\Rightarrow$ February has 29 days, Year $= 366$ days.\n2) Days held: $(29 - 21)\\text{ [February]} + 31\\text{ [Mar]} + 22\\text{ [April]} = 8 + 31 + 22 = 61$ days ($= \\frac{61}{366} = \\frac{1}{6}$ yr).\n3) $SI = \\frac{4000 \\times 6.75}{100} \\times \\frac{1}{6} = \\frac{270}{6} = \\mathbf{45}$.",
+            "hi": "1) **2024 लीप वर्ष** है $\\Rightarrow$ फ़रवरी 29 दिन व कुल वर्ष $= 366$ दिन।\n2) दिन गणना: $(29 - 21)$ [फ़रवरी] $+ 31$ [मार्च] $+ 22$ [अप्रैल] $= 8 + 31 + 22 = 61$ दिन ($= \\frac{61}{366} = \\frac{1}{6}$ वर्ष)।\n3) $SI = \\frac{4000 \\times 6.75}{100} \\times \\frac{1}{6} = \\frac{270}{6} = \\mathbf{45}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant 61/366 = 1/6 Year Recognition",
+            "hi": "विधि 2: 61/366 = 1/6 वर्ष त्वरित पहचान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice **366 ÷ 61 = 6**! Once you verify 61 days $= \\frac{1}{6}$ yr, simply compute $\\frac{270}{6} = \\mathbf{45}$.",
+            "hi": "रेलवे परीक्षा में **61/366 = 1/6** मानक गुणनखंड है! वार्षिक ब्याज 270 का छठा भाग $= \\mathbf{45}$ सीधे उत्तर देता है।"
+          }
+        }
+      ],
+      "en": "Method 1: Leap Year Day Count ÷ 366 Formula: 1) **2024 is a leap year** $\\Rightarrow$ February has 29 days, Year $= 366$ days.\n2) Days held: $(29 - 21)\\text{ [February]} + 31\\text{ [Mar]} + 22\\text{ [April]} = 8 + 31 + 22 = 61$ days ($= \\frac{61}{366} = \\frac{1}{6}$ yr).\n3) $SI = \\frac{4000 \\times 6.75}{100} \\times \\frac{1}{6} = \\frac{270}{6} = \\mathbf{45}$.\n\nMethod 2: Instant 61/366 = 1/6 Year Recognition: Notice **366 ÷ 61 = 6**! Once you verify 61 days $= \\frac{1}{6}$ yr, simply compute $\\frac{270}{6} = \\mathbf{45}$.",
+      "hi": "विधि 1: लीप वर्ष (366 दिन) दिन-गणना सूत्र: 1) **2024 लीप वर्ष** है $\\Rightarrow$ फ़रवरी 29 दिन व कुल वर्ष $= 366$ दिन।\n2) दिन गणना: $(29 - 21)$ [फ़रवरी] $+ 31$ [मार्च] $+ 22$ [अप्रैल] $= 8 + 31 + 22 = 61$ दिन ($= \\frac{61}{366} = \\frac{1}{6}$ वर्ष)।\n3) $SI = \\frac{4000 \\times 6.75}{100} \\times \\frac{1}{6} = \\frac{270}{6} = \\mathbf{45}$।\n\nविधि 2: 61/366 = 1/6 वर्ष त्वरित पहचान ट्रिक: रेलवे परीक्षा में **61/366 = 1/6** मानक गुणनखंड है! वार्षिक ब्याज 270 का छठा भाग $= \\mathbf{45}$ सीधे उत्तर देता है।"
     }
   },
   {
@@ -1419,10 +1464,55 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (9,125) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (9,125) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**9,125**).",
+      "keyConcept": "Equal Simple Interest Split ⇒ Inverse Rate Ratio (P₁ : P₂ = R₂ : R₁)",
+      "optionTrick": {
+        "en": "Time (2 yrs) cancels out completely! When $SI_1 = SI_2$, $P_1 : P_2 = R_2 : R_1 = 10 : 14$ (5 : 7). Sum $= 21,900 \\times \\frac{5}{12} = \\mathbf{9,125}$!",
+        "hi": "दोनों निवेश समान समय (2 वर्ष) के लिए हैं अतः समय कट जाता है! $P_1 : P_2 = R_2 : R_1 = 10 : 14 = 5 : 7$। 14% पर राशि $= 21,900 \\times \\frac{5}{12} = \\mathbf{9,125}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT waste time multiplying by T = 2 years, and keep the ratio **inverse** ($R_2 : R_1$, NOT $R_1 : R_2$)!",
+        "hi": "समान समय ($T = 2$ वर्ष) से गुणा करने में समय न गँवाएँ और अनुपात **उल्टा** ($P_1 : P_2 = R_2 : R_1$) लेना याद रखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate SI₁ = SI₂ Equation",
+            "hi": "विधि 1: दोनों भागों के ब्याज बराबर रखकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$\\frac{P_1 \\times R_1 \\times T}{100} = \\frac{P_2 \\times R_2 \\times T}{100} \\implies \\frac{P_1}{P_2} = \\frac{R_2}{R_1}$",
+          "steps": {
+            "en": "1) $\\frac{P_1 \\times 14 \\times 2}{100} = \\frac{(21900 - P_1) \\times 10 \\times 2}{100} \\Rightarrow 14 P_1 = 10(21900 - P_1)$.\n2) $(14 + 10) P_1 = 10 \\times 21900 \\Rightarrow P_1 = \\frac{10 \\times 21900}{24} = 9,125$.\n3) Sum at $14\\%$ $= \\mathbf{9,125}$.",
+            "hi": "1) $\\frac{P_1 \\times 14 \\times 2}{100} = \\frac{(21900 - P_1) \\times 10 \\times 2}{100} \\Rightarrow 14 P_1 = 10(21900 - P_1)$।\n2) $P_1 : P_2 = 10 : 14$ ($= 5 : 7$), कुल $= 12$ भाग।\n3) 14% दर वाला भाग $= 21,900 \\times \\frac{5}{12} = \\mathbf{9,125}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Inverse-Rate Ratio Trick (4 sec)",
+            "hi": "विधि 2: सीधा व्युत्क्रम दर अनुपात ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 part $= \\frac{21,900}{12} = 1825$. Sum at $14\\%$ gets **5 parts** $= 5 \\times 1825 = \\mathbf{9,125}$.",
+            "hi": "1 भाग $= \\frac{21,900}{12} = 1825$। 14% पर निवेशित भाग (**5** भाग) $= \\mathbf{9,125}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate SI₁ = SI₂ Equation: 1) $\\frac{P_1 \\times 14 \\times 2}{100} = \\frac{(21900 - P_1) \\times 10 \\times 2}{100} \\Rightarrow 14 P_1 = 10(21900 - P_1)$.\n2) $(14 + 10) P_1 = 10 \\times 21900 \\Rightarrow P_1 = \\frac{10 \\times 21900}{24} = 9,125$.\n3) Sum at $14\\%$ $= \\mathbf{9,125}$.\n\nMethod 2: Direct Inverse-Rate Ratio Trick (4 sec): 1 part $= \\frac{21,900}{12} = 1825$. Sum at $14\\%$ gets **5 parts** $= 5 \\times 1825 = \\mathbf{9,125}$.",
+      "hi": "विधि 1: दोनों भागों के ब्याज बराबर रखकर हल: 1) $\\frac{P_1 \\times 14 \\times 2}{100} = \\frac{(21900 - P_1) \\times 10 \\times 2}{100} \\Rightarrow 14 P_1 = 10(21900 - P_1)$।\n2) $P_1 : P_2 = 10 : 14$ ($= 5 : 7$), कुल $= 12$ भाग।\n3) 14% दर वाला भाग $= 21,900 \\times \\frac{5}{12} = \\mathbf{9,125}$।\n\nविधि 2: सीधा व्युत्क्रम दर अनुपात ट्रिक: 1 भाग $= \\frac{21,900}{12} = 1825$। 14% पर निवेशित भाग (**5** भाग) $= \\mathbf{9,125}$!"
     }
   },
   {

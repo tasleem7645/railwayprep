@@ -890,10 +890,55 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 7)",
-      "en": "Correct Answer: Option A (79,400). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (79,400)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Mathematical Answer: **78,400** (Option D); Official Stored Key marks Option A (79,400).",
+      "keyConcept": "Simple Interest Final Amount A = P(1 + RT/100) & Stored Key Discrepancy",
+      "optionTrick": {
+        "en": "10% for 4 yrs $= 40\\%$ of $56{,}000 = 22,400 \\Rightarrow A = 56{,}000 + 22,400 = \\mathbf{78,400}$ (Option D).",
+        "hi": "10% दर से 4 वर्ष का ब्याज $= 56{,}000$ का 40% $= 22,400 \\Rightarrow A = \\mathbf{78,400}$ (विकल्प D)!"
+      },
+      "trapAlert": {
+        "en": "Official Key Discrepancy: Exact arithmetic confirms $56{,}000 \\times 1.4 = \\mathbf{78,400}$ (**Option D**), whereas stored ALP answer key records **Option A (79,400)**.",
+        "hi": "उत्तर कुंजी विसंगति: सटीक गणना से $56{,}000 \\times 1.4 = \\mathbf{78,400}$ (**विकल्प D**) आता है, जबकि संग्रहीत कुंजी में **विकल्प A (79,400)** दर्ज है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: SI + Principal Verification",
+            "hi": "विधि 1: साधारण ब्याज + मूलधन सत्यापन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$A = P + \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $SI = \\frac{56000 \\times 10 \\times 4}{100} = 22,400$.\n2) $A = 56{,}000 + 22,400 = \\mathbf{78,400}$ (**Option D**; stored key records Option A: 79,400).",
+            "hi": "1) $SI = \\frac{56000 \\times 10 \\times 4}{100} = 22,400$ रुपये।\n2) $A = 56{,}000 + 22,400 = \\mathbf{78,400}$ (**विकल्प D**; कुंजी में 79,400 दर्ज है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier (140%)",
+            "hi": "विधि 2: सीधा गुणक (140%) ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$560 \\times 140 = \\mathbf{78,400}$!",
+            "hi": "$560 \\times 140 = \\mathbf{78,400}$!"
+          }
+        }
+      ],
+      "en": "Method 1: SI + Principal Verification: 1) $SI = \\frac{56000 \\times 10 \\times 4}{100} = 22,400$.\n2) $A = 56{,}000 + 22,400 = \\mathbf{78,400}$ (**Option D**; stored key records Option A: 79,400).\n\nMethod 2: Direct Multiplier (140%): $560 \\times 140 = \\mathbf{78,400}$!",
+      "hi": "विधि 1: साधारण ब्याज + मूलधन सत्यापन: 1) $SI = \\frac{56000 \\times 10 \\times 4}{100} = 22,400$ रुपये।\n2) $A = 56{,}000 + 22,400 = \\mathbf{78,400}$ (**विकल्प D**; कुंजी में 79,400 दर्ज है)।\n\nविधि 2: सीधा गुणक (140%) ट्रिक: $560 \\times 140 = \\mathbf{78,400}$!"
     },
     "correctIndexHi": 0
   },
@@ -2100,10 +2145,51 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 7)",
-      "en": "Correct Answer: Option D (₹2,100). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (₹2,100)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**₹2,100**).",
+      "keyConcept": "Principal from 2-Yr CI−SI Diff: P = D × (100/R)²",
+      "optionTrick": {
+        "en": "$D = \\frac{100}{100}\\%$ of $P = 21 \\Rightarrow P = \\frac{21 \\times 10000}{100} = \\mathbf{2,100}$!",
+        "hi": "2 वर्ष अंतर $= \\frac{100}{100}\\%$ है, अतः $P = \\frac{21 \\times 10000}{100} = \\mathbf{2,100}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse 2-Year Difference Formula",
+            "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र द्वारा"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$D_2 = P\\left(\\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) $21 = P \\times \\left(\\frac{10}{100}\\right)^2 = P \\times \\frac{100}{10000}$.\n2) $P = \\frac{21 \\times 10000}{100} = \\mathbf{2,100}$.",
+            "hi": "1) $21 = P \\times \\frac{100}{10000}$।\n2) $P = \\frac{21 \\times 10000}{100} = \\mathbf{2,100}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Effective % Unitary Shortcut",
+            "hi": "विधि 2: प्रभावी अंतर प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Diff is 1% of $P$, so $100\\% = 21 \\div 0.01 = \\mathbf{2,100}$.",
+            "hi": "$1\\% = 21$ से $100\\% = \\mathbf{2,100}$ सीधे प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse 2-Year Difference Formula: 1) $21 = P \\times \\left(\\frac{10}{100}\\right)^2 = P \\times \\frac{100}{10000}$.\n2) $P = \\frac{21 \\times 10000}{100} = \\mathbf{2,100}$.\n\nMethod 2: Effective % Unitary Shortcut: Diff is 1% of $P$, so $100\\% = 21 \\div 0.01 = \\mathbf{2,100}$.",
+      "hi": "विधि 1: 2-वर्ष CI−SI अंतर सूत्र द्वारा: 1) $21 = P \\times \\frac{100}{10000}$।\n2) $P = \\frac{21 \\times 10000}{100} = \\mathbf{2,100}$ रुपये।\n\nविधि 2: प्रभावी अंतर प्रतिशत ट्रिक: $1\\% = 21$ से $100\\% = \\mathbf{2,100}$ सीधे प्राप्त होता है!"
     },
     "correctIndexHi": 3
   },

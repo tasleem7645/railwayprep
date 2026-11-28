@@ -877,10 +877,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (81 cm) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (81 cm) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**81 cm**).",
+      "keyConcept": "Compound Population / Growth Factor Over 2 Years",
+      "optionTrick": {
+        "en": "Fraction factor $= \\frac{9}{8}$ (2 yrs $= \\frac{81}{64}$), or net 2-yr change $= +26.5625\\%$ $\\Rightarrow \\mathbf{81 cm}$!",
+        "hi": "भिन्न गुणक $= \\frac{9}{8}$ के 2 वर्ष ($\\frac{81}{64}$) अथवा शुद्ध वृद्धि 26.5625% से सीधा उत्तर **81 cm**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 2-Year Growth/Depreciation Formula",
+            "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$V_{\\text{after}} = V_0\\left(1 + \\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) Annual factor $= 1 + 12.5\\% = \\frac{9}{8}$.\n2) After 2 years: $V = 64 \\times \\frac{9}{8} \\times \\frac{9}{8} = \\mathbf{81}$ (81 cm).",
+            "hi": "1) वार्षिक गुणक $= \\frac{9}{8}$।\n2) 2 वर्ष बाद मान $= 64 \\times \\frac{9}{8} \\times \\frac{9}{8} = \\mathbf{81}$ (81 cm)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Successive % / Unit-Digit Check",
+            "hi": "विधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr change $= +26.5625\\%$. Apply directly to 64 gives **81 cm**!",
+            "hi": "2 वर्ष का शुद्ध परिवर्तन $= +26.5625\\%$ लगाने पर सीधा **81 cm** आता है!"
+          }
+        }
+      ],
+      "en": "Method 1: 2-Year Growth/Depreciation Formula: 1) Annual factor $= 1 + 12.5\\% = \\frac{9}{8}$.\n2) After 2 years: $V = 64 \\times \\frac{9}{8} \\times \\frac{9}{8} = \\mathbf{81}$ (81 cm).\n\nMethod 2: Net Successive % / Unit-Digit Check: Net 2-yr change $= +26.5625\\%$. Apply directly to 64 gives **81 cm**!",
+      "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र: 1) वार्षिक गुणक $= \\frac{9}{8}$।\n2) 2 वर्ष बाद मान $= 64 \\times \\frac{9}{8} \\times \\frac{9}{8} = \\mathbf{81}$ (81 cm)।\n\nविधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक: 2 वर्ष का शुद्ध परिवर्तन $= +26.5625\\%$ लगाने पर सीधा **81 cm** आता है!"
     }
   },
   {
@@ -1075,10 +1116,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (₹400) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹400) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹400**).",
+      "keyConcept": "Compound Interest Equal Time-Gap Geometric Scaling: P = A₁² / A₂",
+      "optionTrick": {
+        "en": "Equal 3-year gaps! From $t=3$ to $t=6$, money multiplies by $\\frac{6400}{1600} = \\mathbf{4}$. Work backwards 1 step: $P = \\frac{1600}{4} = \\mathbf{Rs.400}$!",
+        "hi": "समान समय अंतराल (3 वर्ष) में राशि सदैव समान गुणज ($\\frac{6400}{1600} = 4$ गुना) बढ़ती है! पीछे जाने पर $P = \\frac{1600}{4} = \\mathbf{Rs.400}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Geometric Ratio Formula P : A₁ = A₁ : A₂",
+            "hi": "विधि 1: गुणोत्तर अनुपात सूत्र (P = A₁² / A₂)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{A_1^2}{A_2}$ (when $t_2 = 2t_1$)",
+          "steps": {
+            "en": "1) Because intervals [0, 3] and [3, 6] are equal, scaling factor is identical: $\\frac{A_1}{P} = \\frac{A_2}{A_1}$.\n2) $P = \\frac{1600 \\times 1600}{6400} = \\mathbf{Rs.400}$.",
+            "hi": "1) [0, 3] व [3, 6] दोनों 3 वर्ष के समान अंतराल हैं, अतः $\\frac{A_1}{P} = \\frac{A_2}{A_1}$।\n2) $P = \\frac{1600 \\times 1600}{6400} = \\mathbf{Rs.400}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reverse 4× Growth Multiplier (2 sec)",
+            "hi": "विधि 2: 4 गुना गुणक से उल्टा भाग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Every 3 years money becomes **4×**, so divide 1600 by 4 $\\Rightarrow \\mathbf{Rs.400}$!",
+            "hi": "हर 3 वर्ष में राशि **4 गुना** होती है $\\Rightarrow P = \\frac{1600}{4} = \\mathbf{Rs.400}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Geometric Ratio Formula P : A₁ = A₁ : A₂: 1) Because intervals [0, 3] and [3, 6] are equal, scaling factor is identical: $\\frac{A_1}{P} = \\frac{A_2}{A_1}$.\n2) $P = \\frac{1600 \\times 1600}{6400} = \\mathbf{Rs.400}$.\n\nMethod 2: Reverse 4× Growth Multiplier (2 sec): Every 3 years money becomes **4×**, so divide 1600 by 4 $\\Rightarrow \\mathbf{Rs.400}$!",
+      "hi": "विधि 1: गुणोत्तर अनुपात सूत्र (P = A₁² / A₂): 1) [0, 3] व [3, 6] दोनों 3 वर्ष के समान अंतराल हैं, अतः $\\frac{A_1}{P} = \\frac{A_2}{A_1}$।\n2) $P = \\frac{1600 \\times 1600}{6400} = \\mathbf{Rs.400}$।\n\nविधि 2: 4 गुना गुणक से उल्टा भाग ट्रिक: हर 3 वर्ष में राशि **4 गुना** होती है $\\Rightarrow P = \\frac{1600}{4} = \\mathbf{Rs.400}$!"
     }
   },
   {

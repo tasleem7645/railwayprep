@@ -1149,10 +1149,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Find Principal",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (2000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (2000) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**2000**).",
+      "keyConcept": "Principal Extraction from Total R×T% Simple Interest",
+      "optionTrick": {
+        "en": "Total interest $= 12\\% \\times 4 = 48\\%$ of $P = 960 \\Rightarrow P = \\frac{960 \\times 100}{48} = \\mathbf{2,000}$!",
+        "hi": "कुल ब्याज $= 12\\% \\times 4 = 48\\% = 960 \\Rightarrow P = \\frac{960 \\times 100}{48} = \\mathbf{2,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Principal Formula P = (SI × 100)/(R × T)",
+            "hi": "विधि 1: मूलधन सूत्र द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$P = \\frac{SI \\times 100}{R \\times T}$",
+          "steps": {
+            "en": "1) Given $SI = 960$, $T = 4$ years, $R = 12\\%$.\n2) $P = \\frac{960 \\times 100}{12 \\times 4} = \\frac{96,000}{48} = \\mathbf{2,000}$.",
+            "hi": "1) दिया है $SI = 960$, समय $T = 4$ वर्ष, दर $R = 12\\%$।\n2) $P = \\frac{960 \\times 100}{12 \\times 4} = \\mathbf{2,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Percentage Unitary Method (R×T%)",
+            "hi": "विधि 2: कुल R×T% ऐकिक नियम ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$48\\% = 960 \\Rightarrow 1\\% = 20 \\Rightarrow 100\\% = \\mathbf{2,000}$ (2000).",
+            "hi": "$48\\% = 960$ तो $1\\% = 20$, इसलिए $100\\% = \\mathbf{2,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Principal Formula P = (SI × 100)/(R × T): 1) Given $SI = 960$, $T = 4$ years, $R = 12\\%$.\n2) $P = \\frac{960 \\times 100}{12 \\times 4} = \\frac{96,000}{48} = \\mathbf{2,000}$.\n\nMethod 2: Percentage Unitary Method (R×T%): $48\\% = 960 \\Rightarrow 1\\% = 20 \\Rightarrow 100\\% = \\mathbf{2,000}$ (2000).",
+      "hi": "विधि 1: मूलधन सूत्र द्वारा हल: 1) दिया है $SI = 960$, समय $T = 4$ वर्ष, दर $R = 12\\%$।\n2) $P = \\frac{960 \\times 100}{12 \\times 4} = \\mathbf{2,000}$ रुपये।\n\nविधि 2: कुल R×T% ऐकिक नियम ट्रिक: $48\\% = 960$ तो $1\\% = 20$, इसलिए $100\\% = \\mathbf{2,000}$।"
     }
   },
   {
@@ -1183,10 +1224,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (69615) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (69615) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**69615**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 10%), Cycles Doubled (n = 4)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{10\\%}$, $n = \\mathbf{4}$ cycles! Effective factor $= (1.1)^4 \\approx 1.4641$ $\\Rightarrow$ **69615**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (10%)** व **समय दोगुना (4 छमाही)** करें! सीधा गुणक $(1.1)^4 \\approx 1.4641$ से उत्तर **69615**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 10%, n = 4)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 10%, n = 4)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{20\\%}{2} = 10\\% = \\frac{1}{10}$; cycles $n = 2 \\times 2 = 4$.\n2) Amount $= 150000 \\times (1.1)^4 \\approx 219615$.\n3) Compound Interest $= A - P $= 69,615$ (**69615**).",
+            "hi": "1) छमाही दर $r = \\frac{20\\%}{2} = 10\\%$ व छमाही चक्र $n = 2 \\times 2 = 4$।\n2) मिश्रधन $A = 150000 \\times (1.1)^4 \\approx 2,19,615.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 69,615$ (**69615**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Pascal / Effective CI % Trick",
+            "hi": "विधि 2: पास्कल गुणांक / प्रभावी % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total effective CI $= 46.41\\%$ of 1,50,000 $\\Rightarrow$ **69615**!",
+            "hi": "4 चक्रों की कुल प्रभावी ब्याज दर $= 46.41\\%$ से तुरंत **69615** प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 10%, n = 4): 1) Half-yearly rate $r = \\frac{20\\%}{2} = 10\\% = \\frac{1}{10}$; cycles $n = 2 \\times 2 = 4$.\n2) Amount $= 150000 \\times (1.1)^4 \\approx 219615$.\n3) Compound Interest $= A - P $= 69,615$ (**69615**).\n\nMethod 2: Pascal / Effective CI % Trick: Total effective CI $= 46.41\\%$ of 1,50,000 $\\Rightarrow$ **69615**!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 10%, n = 4): 1) छमाही दर $r = \\frac{20\\%}{2} = 10\\%$ व छमाही चक्र $n = 2 \\times 2 = 4$।\n2) मिश्रधन $A = 150000 \\times (1.1)^4 \\approx 2,19,615.00$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 69,615$ (**69615**)।\n\nविधि 2: पास्कल गुणांक / प्रभावी % ट्रिक: 4 चक्रों की कुल प्रभावी ब्याज दर $= 46.41\\%$ से तुरंत **69615** प्राप्त होता है!"
     }
   },
   {

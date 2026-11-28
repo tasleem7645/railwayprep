@@ -891,10 +891,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option A is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प A सही उत्तर है।"
+      "approach": "Official Answer: Option A (**5%**).",
+      "keyConcept": "Simple Interest Rate Formula: R = (SI × 100)/(P × T)",
+      "optionTrick": {
+        "en": "1-year SI $= \\frac{520}{8} = 65$, which is **5%** of 1,300!",
+        "hi": "1 वर्ष का $SI = \\frac{520}{8} = 65$, जो 1,300 का **5%** है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Rate Formula",
+            "hi": "विधि 1: वार्षिक ब्याज दर सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$R = \\frac{SI \\times 100}{P \\times T}$",
+          "steps": {
+            "en": "$R = \\frac{520 \\times 100}{1300 \\times 8} = \\mathbf{5\\%}$.",
+            "hi": "$R = \\frac{520 \\times 100}{1300 \\times 8} = \\mathbf{5\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Annual Interest ÷ 1% Principal",
+            "hi": "विधि 2: प्रति-वर्ष ब्याज ÷ 1% मूलधन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Yearly SI $= 65$ and $1\\%$ of 1300 $= 13 \\Rightarrow R = \\frac{65}{13} = \\mathbf{5\\%}$.",
+            "hi": "वार्षिक ब्याज $= 65$ व $P$ का $1\\% = 13 \\Rightarrow R = \\mathbf{5\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Rate Formula: $R = \\frac{520 \\times 100}{1300 \\times 8} = \\mathbf{5\\%}$.\n\nMethod 2: Annual Interest ÷ 1% Principal: Yearly SI $= 65$ and $1\\%$ of 1300 $= 13 \\Rightarrow R = \\frac{65}{13} = \\mathbf{5\\%}$.",
+      "hi": "विधि 1: वार्षिक ब्याज दर सूत्र: $R = \\frac{520 \\times 100}{1300 \\times 8} = \\mathbf{5\\%}$।\n\nविधि 2: प्रति-वर्ष ब्याज ÷ 1% मूलधन ट्रिक: वार्षिक ब्याज $= 65$ व $P$ का $1\\% = 13 \\Rightarrow R = \\mathbf{5\\%}$।"
     }
   },
   {
@@ -1188,10 +1229,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹44,000**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 11\\% \\times 2 = 22\\%$. Just take $22\\%$ of 2,00,000 $= \\mathbf{44,000}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 11\\% \\times 2 = 22\\%$। सीधा 2,00,000 का $22\\% = \\mathbf{44,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 2,00,000$, $R = 11\\%$, $T = 2$ year(s).\n2) $SI = \\frac{200000 \\times 11 \\times 2}{100} = 2000 \\times 22 = \\mathbf{44,000}$.",
+            "hi": "1) $P = 2,00,000$, दर $R = 11\\%$, समय $T = 2$ वर्ष।\n2) $SI = \\frac{200000 \\times 11 \\times 2}{100} = \\mathbf{44,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 2000$. Multiply by $R \\times T = 22$: $2000 \\times 22 = \\mathbf{44,000}$.",
+            "hi": "मूलधन का $1\\% = 2000$। इसे $R \\times T = 22$ से गुणा करें $= \\mathbf{44,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 2,00,000$, $R = 11\\%$, $T = 2$ year(s).\n2) $SI = \\frac{200000 \\times 11 \\times 2}{100} = 2000 \\times 22 = \\mathbf{44,000}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 2000$. Multiply by $R \\times T = 22$: $2000 \\times 22 = \\mathbf{44,000}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 2,00,000$, दर $R = 11\\%$, समय $T = 2$ वर्ष।\n2) $SI = \\frac{200000 \\times 11 \\times 2}{100} = \\mathbf{44,000}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 2000$। इसे $R \\times T = 22$ से गुणा करें $= \\mathbf{44,000}$!"
     }
   },
   {

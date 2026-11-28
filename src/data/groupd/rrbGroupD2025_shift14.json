@@ -877,10 +877,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (44,217) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (44,217) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**44,217**).",
+      "keyConcept": "Compound Population / Growth Factor Over 2 Years",
+      "optionTrick": {
+        "en": "Fraction factor $= \\frac{51}{50}$ (2 yrs $= \\frac{2601}{2500}$), or net 2-yr change $= +4.04\\%$ $\\Rightarrow \\mathbf{44,217}$!",
+        "hi": "भिन्न गुणक $= \\frac{51}{50}$ के 2 वर्ष ($\\frac{2601}{2500}$) अथवा शुद्ध वृद्धि 4.04% से सीधा उत्तर **44,217**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 2-Year Growth/Depreciation Formula",
+            "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$V_{\\text{after}} = V_0\\left(1 + \\frac{R}{100}\\right)^2$",
+          "steps": {
+            "en": "1) Annual factor $= 1 + 2\\% = \\frac{51}{50}$.\n2) After 2 years: $V = 42500 \\times \\frac{51}{50} \\times \\frac{51}{50} = \\mathbf{44,217}$ (44,217).",
+            "hi": "1) वार्षिक गुणक $= \\frac{51}{50}$।\n2) 2 वर्ष बाद मान $= 42500 \\times \\frac{51}{50} \\times \\frac{51}{50} = \\mathbf{44,217}$ (44,217)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Successive % / Unit-Digit Check",
+            "hi": "विधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net 2-yr change $= +4.04\\%$. Apply directly to 42500 gives **44,217**!",
+            "hi": "2 वर्ष का शुद्ध परिवर्तन $= +4.04\\%$ लगाने पर सीधा **44,217** आता है!"
+          }
+        }
+      ],
+      "en": "Method 1: 2-Year Growth/Depreciation Formula: 1) Annual factor $= 1 + 2\\% = \\frac{51}{50}$.\n2) After 2 years: $V = 42500 \\times \\frac{51}{50} \\times \\frac{51}{50} = \\mathbf{44,217}$ (44,217).\n\nMethod 2: Net Successive % / Unit-Digit Check: Net 2-yr change $= +4.04\\%$. Apply directly to 42500 gives **44,217**!",
+      "hi": "विधि 1: 2-वर्ष चक्रवृद्धि सूत्र: 1) वार्षिक गुणक $= \\frac{51}{50}$।\n2) 2 वर्ष बाद मान $= 42500 \\times \\frac{51}{50} \\times \\frac{51}{50} = \\mathbf{44,217}$ (44,217)।\n\nविधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक: 2 वर्ष का शुद्ध परिवर्तन $= +4.04\\%$ लगाने पर सीधा **44,217** आता है!"
     }
   },
   {
@@ -911,10 +952,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Basic CI Calculation",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (31,740) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (31,740) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**31,740**).",
+      "keyConcept": "Non-Standard Compounding Period (Every 8 Months) to Annual Ratio",
+      "optionTrick": {
+        "en": "No need to find Principal completely in decimal! 8-monthly rate $= 10\\%$ (3 cycles $\\Rightarrow \\frac{11^3}{10^3} = 1.331$). Yearly rate $= 15\\%$ (2 cycles $\\Rightarrow \\frac{23^2}{20^2}$). Ratio keeps `23² = 529` so last non-zero digit gives **31,740** (`24,000 × 1.3225`)!",
+        "hi": "8-मासिक दर $= 10\\%$ (3 चक्र $\\Rightarrow 1.331$) से $P = \\frac{31944}{1.331} = 24{,}000$, फिर वार्षिक 15% ($\\frac{23^2}{20^2}$) लगाने पर $60 \\times 529 = \\mathbf{31{,}740}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find Principal via 8-Month Cycle Then Apply Annual Rate",
+            "hi": "विधि 1: 8-मासिक चक्र से मूलधन निकालकर वार्षिक मिश्रधन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "formula": "$r_{8m} = 15\\% \\times \\frac{8}{12} = 10\\%,\\quad n = \\frac{24}{8} = 3$",
+          "steps": {
+            "en": "1) 8-month rate $= 15\\% \\times \\frac{8}{12} = 10\\%$, number of 8-month cycles in 24 months $= 3$.\n2) $P \\times \\left(\\frac{11}{10}\\right)^3 = 31944 \\Rightarrow P = \\frac{31944 \\times 1000}{1331} = 24 \\times 1000 = 24{,}000$.\n3) Annual amount (2 yrs at 15%): $24000 \\times \\left(\\frac{23}{20}\\right)^2 = 60 \\times 529 = \\mathbf{31{,}740}$.",
+            "hi": "1) 8-मासिक दर $= 15\\% \\times \\frac{8}{12} = 10\\%$ तथा 24 माह में चक्र $n = \\frac{24}{8} = 3$।\n2) $P \\times (1.1)^3 = 31944 \\Rightarrow P = \\frac{31944}{1.331} = 24{,}000$।\n3) वार्षिक संयोजन पर 2 वर्ष बाद मिश्रधन $= 24000 \\times \\left(\\frac{23}{20}\\right)^2 = 60 \\times 529 = \\mathbf{31{,}740}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Multiplier Ratio (1.15² / 1.1³)",
+            "hi": "विधि 2: सीधा गुणक अनुपात ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$A_{\\text{annual}} = 31944 \\times \\frac{(23/20)^2}{(11/10)^3} = \\frac{31944}{1331} \\times \\frac{5290}{4} = 24 \\times \\frac{5290}{4} = 6 \\times 5290 = \\mathbf{31{,}740}$.",
+            "hi": "सीधा अनुपात: $31944 \\times \\frac{(23/20)^2}{(11/10)^3} = \\frac{31944}{1331} \\times 1322.5 = 24 \\times 1322.5 = \\mathbf{31{,}740}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Find Principal via 8-Month Cycle Then Apply Annual Rate: 1) 8-month rate $= 15\\% \\times \\frac{8}{12} = 10\\%$, number of 8-month cycles in 24 months $= 3$.\n2) $P \\times \\left(\\frac{11}{10}\\right)^3 = 31944 \\Rightarrow P = \\frac{31944 \\times 1000}{1331} = 24 \\times 1000 = 24{,}000$.\n3) Annual amount (2 yrs at 15%): $24000 \\times \\left(\\frac{23}{20}\\right)^2 = 60 \\times 529 = \\mathbf{31{,}740}$.\n\nMethod 2: Direct Multiplier Ratio (1.15² / 1.1³): $A_{\\text{annual}} = 31944 \\times \\frac{(23/20)^2}{(11/10)^3} = \\frac{31944}{1331} \\times \\frac{5290}{4} = 24 \\times \\frac{5290}{4} = 6 \\times 5290 = \\mathbf{31{,}740}$.",
+      "hi": "विधि 1: 8-मासिक चक्र से मूलधन निकालकर वार्षिक मिश्रधन: 1) 8-मासिक दर $= 15\\% \\times \\frac{8}{12} = 10\\%$ तथा 24 माह में चक्र $n = \\frac{24}{8} = 3$।\n2) $P \\times (1.1)^3 = 31944 \\Rightarrow P = \\frac{31944}{1.331} = 24{,}000$।\n3) वार्षिक संयोजन पर 2 वर्ष बाद मिश्रधन $= 24000 \\times \\left(\\frac{23}{20}\\right)^2 = 60 \\times 529 = \\mathbf{31{,}740}$।\n\nविधि 2: सीधा गुणक अनुपात ट्रिक: सीधा अनुपात: $31944 \\times \\frac{(23/20)^2}{(11/10)^3} = \\frac{31944}{1331} \\times 1322.5 = 24 \\times 1322.5 = \\mathbf{31{,}740}$।"
     }
   },
   {
@@ -1189,10 +1271,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Find SI",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (280) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (280) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**280**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 16\\% \\times 3.5 = 56\\%$. Just take $56\\%$ of 500 $= \\mathbf{280}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 16\\% \\times 3.5 = 56\\%$। सीधा 500 का $56\\% = \\mathbf{280}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 500$, $R = 16\\%$, $T = 3.5$ year(s).\n2) $SI = \\frac{500 \\times 16 \\times 3.5}{100} = 5 \\times 56 = \\mathbf{280}$.",
+            "hi": "1) $P = 500$, दर $R = 16\\%$, समय $T = 3.5$ वर्ष।\n2) $SI = \\frac{500 \\times 16 \\times 3.5}{100} = \\mathbf{280}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 5$. Multiply by $R \\times T = 56$: $5 \\times 56 = \\mathbf{280}$.",
+            "hi": "मूलधन का $1\\% = 5$। इसे $R \\times T = 56$ से गुणा करें $= \\mathbf{280}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 500$, $R = 16\\%$, $T = 3.5$ year(s).\n2) $SI = \\frac{500 \\times 16 \\times 3.5}{100} = 5 \\times 56 = \\mathbf{280}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 5$. Multiply by $R \\times T = 56$: $5 \\times 56 = \\mathbf{280}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 500$, दर $R = 16\\%$, समय $T = 3.5$ वर्ष।\n2) $SI = \\frac{500 \\times 16 \\times 3.5}{100} = \\mathbf{280}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 5$। इसे $R \\times T = 56$ से गुणा करें $= \\mathbf{280}$!"
     }
   },
   {

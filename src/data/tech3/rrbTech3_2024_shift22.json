@@ -1786,10 +1786,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**24**).",
+      "keyConcept": "CI Exponential Multiplication (Notice \"How Many MORE Years\"!)",
+      "optionTrick": {
+        "en": "Notice $8 = 2^{3}$, so it takes **3 equal cycles** $= 3 \\times 12 = 36$ total years, i.e., **36 − 12 = 24 MORE years**!",
+        "hi": "$8 = 2^{3}$ अर्थात 3 समान चक्र लगेंगे: कुल समय $= 3 \\times 12 = 36$ वर्ष। चूँकि **कितने और वर्ष** पूछे हैं $\\Rightarrow 36 - 12 = \\mathbf{24}$ वर्ष!"
+      },
+      "trapAlert": {
+        "en": "HUGE EXAM TRAP: Question asks **\"In how many MORE years\"** ($36 - 12 = \\mathbf{24}$), NOT total years (36)!",
+        "hi": "बड़ा परीक्षा जाल: यहाँ कुल वर्ष (36) नहीं बल्कि **\"कितने और वर्षों में\"** (36 − 12 = **24**) पूछा गया है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Exponential Growth Equation P(1+R/100)^T",
+            "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^{T_1} = 2\\implies \\left(1 + \\frac{R}{100}\\right)^{3T_1} = 2^{3} = 8$",
+          "steps": {
+            "en": "1) Every **12 years**, money multiplies by **2**.\n2) Since $8 = 2^{3}$, total time $= 3 \\times 12 = 36$ years.\n3) Additional years after the first 12 years $= 36 - 12 = \\mathbf{24}$.",
+            "hi": "1) प्रत्येक **12 वर्षों** में राशि **2 गुना** होती है।\n2) चूँकि $8 = 2^{3}$, कुल समय $= 3 \\times 12 = 36$ वर्ष।\n3) पहले 12 वर्षों के बाद अतिरिक्त वर्ष $= 36 - 12 = \\mathbf{24}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiplier Timeline Ladder (2 sec)",
+            "hi": "विधि 2: समय-गुणज सीढ़ी ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Timeline: $1 \\xrightarrow{+12\\text{y}} 2 \\xrightarrow{+12\\text{y}} 4 \\xrightarrow{+12\\text{y}} 8\\Rightarrow$ **24 more**!",
+            "hi": "सीधा चक्र: $1 \\xrightarrow{+12\\text{ व}} 2 \\xrightarrow{+12\\text{ व}} 4 \\xrightarrow{+12\\text{ व}} 8\\Rightarrow$ **24 और वर्ष**!"
+          }
+        }
+      ],
+      "en": "Method 1: Exponential Growth Equation P(1+R/100)^T: 1) Every **12 years**, money multiplies by **2**.\n2) Since $8 = 2^{3}$, total time $= 3 \\times 12 = 36$ years.\n3) Additional years after the first 12 years $= 36 - 12 = \\mathbf{24}$.\n\nMethod 2: Multiplier Timeline Ladder (2 sec): Timeline: $1 \\xrightarrow{+12\\text{y}} 2 \\xrightarrow{+12\\text{y}} 4 \\xrightarrow{+12\\text{y}} 8\\Rightarrow$ **24 more**!",
+      "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल: 1) प्रत्येक **12 वर्षों** में राशि **2 गुना** होती है।\n2) चूँकि $8 = 2^{3}$, कुल समय $= 3 \\times 12 = 36$ वर्ष।\n3) पहले 12 वर्षों के बाद अतिरिक्त वर्ष $= 36 - 12 = \\mathbf{24}$।\n\nविधि 2: समय-गुणज सीढ़ी ट्रिक: सीधा चक्र: $1 \\xrightarrow{+12\\text{ व}} 2 \\xrightarrow{+12\\text{ व}} 4 \\xrightarrow{+12\\text{ व}} 8\\Rightarrow$ **24 और वर्ष**!"
     }
   },
   {
@@ -1885,10 +1930,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹1,000**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 4\\% \\times 5 = 20\\%$. Just take $20\\%$ of 5,000 $= \\mathbf{1,000}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 4\\% \\times 5 = 20\\%$। सीधा 5,000 का $20\\% = \\mathbf{1,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 5,000$, $R = 4\\%$, $T = 5$ year(s).\n2) $SI = \\frac{5000 \\times 4 \\times 5}{100} = 50 \\times 20 = \\mathbf{1,000}$.",
+            "hi": "1) $P = 5,000$, दर $R = 4\\%$, समय $T = 5$ वर्ष।\n2) $SI = \\frac{5000 \\times 4 \\times 5}{100} = \\mathbf{1,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 50$. Multiply by $R \\times T = 20$: $50 \\times 20 = \\mathbf{1,000}$.",
+            "hi": "मूलधन का $1\\% = 50$। इसे $R \\times T = 20$ से गुणा करें $= \\mathbf{1,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 5,000$, $R = 4\\%$, $T = 5$ year(s).\n2) $SI = \\frac{5000 \\times 4 \\times 5}{100} = 50 \\times 20 = \\mathbf{1,000}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 50$. Multiply by $R \\times T = 20$: $50 \\times 20 = \\mathbf{1,000}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 5,000$, दर $R = 4\\%$, समय $T = 5$ वर्ष।\n2) $SI = \\frac{5000 \\times 4 \\times 5}{100} = \\mathbf{1,000}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 50$। इसे $R \\times T = 20$ से गुणा करें $= \\mathbf{1,000}$!"
     }
   },
   {

@@ -850,10 +850,51 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option B is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प B सही उत्तर है।"
+      "approach": "Official Answer: Option B (**10%**).",
+      "keyConcept": "Simple Interest Rate Formula: R = (SI × 100)/(P × T)",
+      "optionTrick": {
+        "en": "1-year SI $= \\frac{4000}{2} = 2000$, which is **10%** of 20,000!",
+        "hi": "1 वर्ष का $SI = \\frac{4000}{2} = 2000$, जो 20,000 का **10%** है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Rate Formula",
+            "hi": "विधि 1: वार्षिक ब्याज दर सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$R = \\frac{SI \\times 100}{P \\times T}$",
+          "steps": {
+            "en": "$R = \\frac{4000 \\times 100}{20000 \\times 2} = \\mathbf{10\\%}$.",
+            "hi": "$R = \\frac{4000 \\times 100}{20000 \\times 2} = \\mathbf{10\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Annual Interest ÷ 1% Principal",
+            "hi": "विधि 2: प्रति-वर्ष ब्याज ÷ 1% मूलधन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Yearly SI $= 2000$ and $1\\%$ of 20000 $= 200 \\Rightarrow R = \\frac{2000}{200} = \\mathbf{10\\%}$.",
+            "hi": "वार्षिक ब्याज $= 2000$ व $P$ का $1\\% = 200 \\Rightarrow R = \\mathbf{10\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Rate Formula: $R = \\frac{4000 \\times 100}{20000 \\times 2} = \\mathbf{10\\%}$.\n\nMethod 2: Annual Interest ÷ 1% Principal: Yearly SI $= 2000$ and $1\\%$ of 20000 $= 200 \\Rightarrow R = \\frac{2000}{200} = \\mathbf{10\\%}$.",
+      "hi": "विधि 1: वार्षिक ब्याज दर सूत्र: $R = \\frac{4000 \\times 100}{20000 \\times 2} = \\mathbf{10\\%}$।\n\nविधि 2: प्रति-वर्ष ब्याज ÷ 1% मूलधन ट्रिक: वार्षिक ब्याज $= 2000$ व $P$ का $1\\% = 200 \\Rightarrow R = \\mathbf{10\\%}$।"
     }
   },
   {
@@ -2731,10 +2772,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option C is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प C सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹16,224**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 4%), Cycles Doubled (n = 2)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{4\\%}$, $n = \\mathbf{2}$ cycles! Effective factor $= (1.04)^2 \\approx 1.0816$ $\\Rightarrow$ **₹16,224**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (4%)** व **समय दोगुना (2 छमाही)** करें! सीधा गुणक $(1.04)^2 \\approx 1.0816$ से उत्तर **₹16,224**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 4%, n = 2)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 4%, n = 2)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$A = P\\left(1 + \\frac{R}{200}\\right)^{2T}$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{8\\%}{2} = 4\\% = \\frac{1}{25}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 15000 \\times (1.04)^2 \\approx 16224$.\n3) Maturity Amount $= 16,224$ (**₹16,224**).",
+            "hi": "1) छमाही दर $r = \\frac{8\\%}{2} = 4\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 15000 \\times (1.04)^2 \\approx 16,224.00$ रुपये।\n3) अंतिम मिश्रधन $= 16,224$ (**₹16,224**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 2-Cycle Successive % Formula (2r + r²/100)",
+            "hi": "विधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100)"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "2 cycles at 4% give effective CI rate $= 4+4+\\frac{4^2}{100} = 8.16\\%$ of 15,000 $= \\mathbf{Rs.16,224}$!",
+            "hi": "2 छमाही के लिए कुल ब्याज दर $= 4+4+0.16\\% = 8.16\\%$ $\\Rightarrow$ **₹16,224**!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 4%, n = 2): 1) Half-yearly rate $r = \\frac{8\\%}{2} = 4\\% = \\frac{1}{25}$; cycles $n = 2 \\times 1 = 2$.\n2) Amount $= 15000 \\times (1.04)^2 \\approx 16224$.\n3) Maturity Amount $= 16,224$ (**₹16,224**).\n\nMethod 2: 2-Cycle Successive % Formula (2r + r²/100): 2 cycles at 4% give effective CI rate $= 4+4+\\frac{4^2}{100} = 8.16\\%$ of 15,000 $= \\mathbf{Rs.16,224}$!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 4%, n = 2): 1) छमाही दर $r = \\frac{8\\%}{2} = 4\\%$ व छमाही चक्र $n = 2 \\times 1 = 2$।\n2) मिश्रधन $A = 15000 \\times (1.04)^2 \\approx 16,224.00$ रुपये।\n3) अंतिम मिश्रधन $= 16,224$ (**₹16,224**)।\n\nविधि 2: 2-छमाही क्रमिक % सूत्र (2r + r²/100): 2 छमाही के लिए कुल ब्याज दर $= 4+4+0.16\\% = 8.16\\%$ $\\Rightarrow$ **₹16,224**!"
     }
   },
   {

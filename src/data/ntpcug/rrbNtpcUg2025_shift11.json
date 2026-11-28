@@ -2087,10 +2087,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (264) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (264) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**264**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 12\\% \\times 5.5 = 66\\%$. Just take $66\\%$ of 400 $= \\mathbf{264}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 12\\% \\times 5.5 = 66\\%$। सीधा 400 का $66\\% = \\mathbf{264}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 400$, $R = 12\\%$, $T = 5.5$ year(s).\n2) $SI = \\frac{400 \\times 12 \\times 5.5}{100} = 4 \\times 66 = \\mathbf{264}$.",
+            "hi": "1) $P = 400$, दर $R = 12\\%$, समय $T = 5.5$ वर्ष।\n2) $SI = \\frac{400 \\times 12 \\times 5.5}{100} = \\mathbf{264}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 4$. Multiply by $R \\times T = 66$: $4 \\times 66 = \\mathbf{264}$.",
+            "hi": "मूलधन का $1\\% = 4$। इसे $R \\times T = 66$ से गुणा करें $= \\mathbf{264}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 400$, $R = 12\\%$, $T = 5.5$ year(s).\n2) $SI = \\frac{400 \\times 12 \\times 5.5}{100} = 4 \\times 66 = \\mathbf{264}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 4$. Multiply by $R \\times T = 66$: $4 \\times 66 = \\mathbf{264}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 400$, दर $R = 12\\%$, समय $T = 5.5$ वर्ष।\n2) $SI = \\frac{400 \\times 12 \\times 5.5}{100} = \\mathbf{264}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 4$। इसे $R \\times T = 66$ से गुणा करें $= \\mathbf{264}$!"
     }
   },
   {

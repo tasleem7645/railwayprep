@@ -264,10 +264,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹2,00,000**).",
+      "keyConcept": "Successive Depreciation Factor Over 2 Years",
+      "optionTrick": {
+        "en": "Going **backward** divides by $\\left(\\frac{9}{10}\\right)^2$: $V_{\\text{old}} = 1,62,000 \\times \\frac{100}{81} = \\mathbf{Rs.2,00,000}$!",
+        "hi": "**2 वर्ष पूर्व** का मान निकालने हेतु भाग दें: $V_{\\text{पूर्व}} = 1,62,000 \\times \\frac{100}{81} = \\mathbf{Rs.2,00,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse Compound Factor (Divide)",
+            "hi": "विधि 1: 2 वर्ष पूर्व मान (प्रतिलोम सूत्र)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$V_{\\text{ago}} = \\frac{V_{\\text{now}}}{\\left(1 - \\frac{R}{100}\\right)^2}$",
+          "steps": {
+            "en": "1) Each year value multiplies by $\\frac{9}{10}$ (0.9).\n2) 2 years ago: $V = 162000 \\times \\frac{10}{9} \\times \\frac{10}{9} = \\mathbf{2,00,000}$ (₹2,00,000).",
+            "hi": "1) वार्षिक गुणक $= \\frac{9}{10}$।\n2) 2 वर्ष पहले का मूल्य $= 162000 \\times \\frac{10}{9} \\times \\frac{10}{9} = \\mathbf{2,00,000}$ (₹2,00,000)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Successive % / Unit-Digit Check",
+            "hi": "विधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Going back at $-10\\%$ is NOT $+10\\%$! Divide by $0.81 = \\frac{81}{100}$: $\\frac{162000}{81} \\times 100 = 2000 \\times 100 = \\mathbf{Rs.2,00,000}$.",
+            "hi": "सावधान: 10% कमी के बाद पीछे लौटने पर 0.81 से भाग देते हैं ($\\frac{162000}{81} \\times 100 = \\mathbf{Rs.2,00,000}$)!"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse Compound Factor (Divide): 1) Each year value multiplies by $\\frac{9}{10}$ (0.9).\n2) 2 years ago: $V = 162000 \\times \\frac{10}{9} \\times \\frac{10}{9} = \\mathbf{2,00,000}$ (₹2,00,000).\n\nMethod 2: Net Successive % / Unit-Digit Check: Going back at $-10\\%$ is NOT $+10\\%$! Divide by $0.81 = \\frac{81}{100}$: $\\frac{162000}{81} \\times 100 = 2000 \\times 100 = \\mathbf{Rs.2,00,000}$.",
+      "hi": "विधि 1: 2 वर्ष पूर्व मान (प्रतिलोम सूत्र): 1) वार्षिक गुणक $= \\frac{9}{10}$।\n2) 2 वर्ष पहले का मूल्य $= 162000 \\times \\frac{10}{9} \\times \\frac{10}{9} = \\mathbf{2,00,000}$ (₹2,00,000)।\n\nविधि 2: शुद्ध क्रमिक प्रतिशत / इकाई अंक ट्रिक: सावधान: 10% कमी के बाद पीछे लौटने पर 0.81 से भाग देते हैं ($\\frac{162000}{81} \\times 100 = \\mathbf{Rs.2,00,000}$)!"
     }
   },
   {
@@ -796,10 +837,51 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official Technician Grade III (CEN 02/2024) Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB Technician Grade III (CEN 02/2024) Answer Key: Option D is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) Technician Grade III (CEN 02/2024) आधिकारिक उत्तर कुंजी: विकल्प D सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹28,000**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 7\\% \\times 2 = 14\\%$. Just take $14\\%$ of 2,00,000 $= \\mathbf{28,000}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 7\\% \\times 2 = 14\\%$। सीधा 2,00,000 का $14\\% = \\mathbf{28,000}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 2,00,000$, $R = 7\\%$, $T = 2$ year(s).\n2) $SI = \\frac{200000 \\times 7 \\times 2}{100} = 2000 \\times 14 = \\mathbf{28,000}$.",
+            "hi": "1) $P = 2,00,000$, दर $R = 7\\%$, समय $T = 2$ वर्ष।\n2) $SI = \\frac{200000 \\times 7 \\times 2}{100} = \\mathbf{28,000}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 2000$. Multiply by $R \\times T = 14$: $2000 \\times 14 = \\mathbf{28,000}$.",
+            "hi": "मूलधन का $1\\% = 2000$। इसे $R \\times T = 14$ से गुणा करें $= \\mathbf{28,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 2,00,000$, $R = 7\\%$, $T = 2$ year(s).\n2) $SI = \\frac{200000 \\times 7 \\times 2}{100} = 2000 \\times 14 = \\mathbf{28,000}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 2000$. Multiply by $R \\times T = 14$: $2000 \\times 14 = \\mathbf{28,000}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 2,00,000$, दर $R = 7\\%$, समय $T = 2$ वर्ष।\n2) $SI = \\frac{200000 \\times 7 \\times 2}{100} = \\mathbf{28,000}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 2000$। इसे $R \\times T = 14$ से गुणा करें $= \\mathbf{28,000}$!"
     }
   },
   {

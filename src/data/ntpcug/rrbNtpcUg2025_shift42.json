@@ -1875,10 +1875,51 @@
     "correctIndex": 0,
     "correctIndexHi": 0,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option A is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option A (288) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प A (288) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**288**).",
+      "keyConcept": "Direct Simple Interest (SI = P × R × T / 100)",
+      "optionTrick": {
+        "en": "Effective interest rate $= 16\\% \\times 4.5 = 72\\%$. Just take $72\\%$ of 400 $= \\mathbf{288}$!",
+        "hi": "कुल ब्याज प्रतिशत $= 16\\% \\times 4.5 = 72\\%$। सीधा 400 का $72\\% = \\mathbf{288}$ निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard SI Formula",
+            "hi": "विधि 1: मानक साधारण ब्याज सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times T}{100}$",
+          "steps": {
+            "en": "1) $P = 400$, $R = 16\\%$, $T = 4.5$ year(s).\n2) $SI = \\frac{400 \\times 16 \\times 4.5}{100} = 4 \\times 72 = \\mathbf{288}$.",
+            "hi": "1) $P = 400$, दर $R = 16\\%$, समय $T = 4.5$ वर्ष।\n2) $SI = \\frac{400 \\times 16 \\times 4.5}{100} = \\mathbf{288}$ रुपये।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 1% Base × (R × T) Mental Trick",
+            "hi": "विधि 2: 1% मान × कुल प्रतिशत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1\\%$ of Principal $= 4$. Multiply by $R \\times T = 72$: $4 \\times 72 = \\mathbf{288}$.",
+            "hi": "मूलधन का $1\\% = 4$। इसे $R \\times T = 72$ से गुणा करें $= \\mathbf{288}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard SI Formula: 1) $P = 400$, $R = 16\\%$, $T = 4.5$ year(s).\n2) $SI = \\frac{400 \\times 16 \\times 4.5}{100} = 4 \\times 72 = \\mathbf{288}$.\n\nMethod 2: 1% Base × (R × T) Mental Trick: $1\\%$ of Principal $= 4$. Multiply by $R \\times T = 72$: $4 \\times 72 = \\mathbf{288}$.",
+      "hi": "विधि 1: मानक साधारण ब्याज सूत्र: 1) $P = 400$, दर $R = 16\\%$, समय $T = 4.5$ वर्ष।\n2) $SI = \\frac{400 \\times 16 \\times 4.5}{100} = \\mathbf{288}$ रुपये।\n\nविधि 2: 1% मान × कुल प्रतिशत ट्रिक: मूलधन का $1\\% = 4$। इसे $R \\times T = 72$ से गुणा करें $= \\mathbf{288}$!"
     }
   },
   {
@@ -2238,10 +2279,51 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (68 years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (68 वर्ष) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**68 years**).",
+      "keyConcept": "Compound Interest Power-Cycle Rule: If ×m in T yrs ⇒ ×mᵏ in k·T yrs",
+      "optionTrick": {
+        "en": "Notice $81 = 3^{4}$, so it takes **4 equal cycles** $= 4 \\times 17 = 68$ total years!",
+        "hi": "$81 = 3^{4}$ अर्थात 4 समान चक्र लगेंगे: कुल समय $= 4 \\times 17 = 68$ वर्ष!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Exponential Growth Equation P(1+R/100)^T",
+            "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$\\left(1 + \\frac{R}{100}\\right)^{T_1} = 3\\implies \\left(1 + \\frac{R}{100}\\right)^{4T_1} = 3^{4} = 81$",
+          "steps": {
+            "en": "1) Every **17 years**, money multiplies by **3**.\n2) Since $81 = 3^{4}$, total time $= 4 \\times 17 = 68$ years.",
+            "hi": "1) प्रत्येक **17 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $81 = 3^{4}$, कुल समय $= 4 \\times 17 = 68$ वर्ष।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiplier Timeline Ladder (2 sec)",
+            "hi": "विधि 2: समय-गुणज सीढ़ी ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Timeline: $1 \\xrightarrow{+17\\text{y}} 3 \\xrightarrow{+17\\text{y}} 9 \\xrightarrow{+17\\text{y}} 27 \\xrightarrow{+17\\text{y}} 81\\Rightarrow$ **68 years**!",
+            "hi": "सीधा चक्र: $1 \\xrightarrow{+17\\text{ व}} 3 \\xrightarrow{+17\\text{ व}} 9 \\xrightarrow{+17\\text{ व}} 27 \\xrightarrow{+17\\text{ व}} 81\\Rightarrow$ **68 वर्ष**!"
+          }
+        }
+      ],
+      "en": "Method 1: Exponential Growth Equation P(1+R/100)^T: 1) Every **17 years**, money multiplies by **3**.\n2) Since $81 = 3^{4}$, total time $= 4 \\times 17 = 68$ years.\n\nMethod 2: Multiplier Timeline Ladder (2 sec): Timeline: $1 \\xrightarrow{+17\\text{y}} 3 \\xrightarrow{+17\\text{y}} 9 \\xrightarrow{+17\\text{y}} 27 \\xrightarrow{+17\\text{y}} 81\\Rightarrow$ **68 years**!",
+      "hi": "विधि 1: चक्रवृद्धि घात समीकरण द्वारा हल: 1) प्रत्येक **17 वर्षों** में राशि **3 गुना** होती है।\n2) चूँकि $81 = 3^{4}$, कुल समय $= 4 \\times 17 = 68$ वर्ष।\n\nविधि 2: समय-गुणज सीढ़ी ट्रिक: सीधा चक्र: $1 \\xrightarrow{+17\\text{ व}} 3 \\xrightarrow{+17\\text{ व}} 9 \\xrightarrow{+17\\text{ व}} 27 \\xrightarrow{+17\\text{ व}} 81\\Rightarrow$ **68 वर्ष**!"
     }
   },
   {

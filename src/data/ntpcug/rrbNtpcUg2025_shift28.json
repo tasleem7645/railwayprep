@@ -1459,10 +1459,55 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (4,350) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (4,350) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**4,350**).",
+      "keyConcept": "Equal Simple Interest Split ⇒ Inverse Rate Ratio (P₁ : P₂ = R₂ : R₁)",
+      "optionTrick": {
+        "en": "Time (5 yrs) cancels out completely! When $SI_1 = SI_2$, $P_1 : P_2 = R_2 : R_1 = 3 : 11$ (3 : 11). Sum $= 20,300 \\times \\frac{3}{14} = \\mathbf{4,350}$!",
+        "hi": "दोनों निवेश समान समय (5 वर्ष) के लिए हैं अतः समय कट जाता है! $P_1 : P_2 = R_2 : R_1 = 3 : 11 = 3 : 11$। 11% पर राशि $= 20,300 \\times \\frac{3}{14} = \\mathbf{4,350}$!"
+      },
+      "trapAlert": {
+        "en": "Do NOT waste time multiplying by T = 5 years, and keep the ratio **inverse** ($R_2 : R_1$, NOT $R_1 : R_2$)!",
+        "hi": "समान समय ($T = 5$ वर्ष) से गुणा करने में समय न गँवाएँ और अनुपात **उल्टा** ($P_1 : P_2 = R_2 : R_1$) लेना याद रखें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate SI₁ = SI₂ Equation",
+            "hi": "विधि 1: दोनों भागों के ब्याज बराबर रखकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "formula": "$\\frac{P_1 \\times R_1 \\times T}{100} = \\frac{P_2 \\times R_2 \\times T}{100} \\implies \\frac{P_1}{P_2} = \\frac{R_2}{R_1}$",
+          "steps": {
+            "en": "1) $\\frac{P_1 \\times 11 \\times 5}{100} = \\frac{(20300 - P_1) \\times 3 \\times 5}{100} \\Rightarrow 11 P_1 = 3(20300 - P_1)$.\n2) $(11 + 3) P_1 = 3 \\times 20300 \\Rightarrow P_1 = \\frac{3 \\times 20300}{14} = 4,350$.\n3) Sum at $11\\%$ $= \\mathbf{4,350}$.",
+            "hi": "1) $\\frac{P_1 \\times 11 \\times 5}{100} = \\frac{(20300 - P_1) \\times 3 \\times 5}{100} \\Rightarrow 11 P_1 = 3(20300 - P_1)$।\n2) $P_1 : P_2 = 3 : 11$ ($= 3 : 11$), कुल $= 14$ भाग।\n3) 11% दर वाला भाग $= 20,300 \\times \\frac{3}{14} = \\mathbf{4,350}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Inverse-Rate Ratio Trick (4 sec)",
+            "hi": "विधि 2: सीधा व्युत्क्रम दर अनुपात ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "1 part $= \\frac{20,300}{14} = 1450$. Sum at $11\\%$ gets **3 parts** $= 3 \\times 1450 = \\mathbf{4,350}$.",
+            "hi": "1 भाग $= \\frac{20,300}{14} = 1450$। 11% पर निवेशित भाग (**3** भाग) $= \\mathbf{4,350}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate SI₁ = SI₂ Equation: 1) $\\frac{P_1 \\times 11 \\times 5}{100} = \\frac{(20300 - P_1) \\times 3 \\times 5}{100} \\Rightarrow 11 P_1 = 3(20300 - P_1)$.\n2) $(11 + 3) P_1 = 3 \\times 20300 \\Rightarrow P_1 = \\frac{3 \\times 20300}{14} = 4,350$.\n3) Sum at $11\\%$ $= \\mathbf{4,350}$.\n\nMethod 2: Direct Inverse-Rate Ratio Trick (4 sec): 1 part $= \\frac{20,300}{14} = 1450$. Sum at $11\\%$ gets **3 parts** $= 3 \\times 1450 = \\mathbf{4,350}$.",
+      "hi": "विधि 1: दोनों भागों के ब्याज बराबर रखकर हल: 1) $\\frac{P_1 \\times 11 \\times 5}{100} = \\frac{(20300 - P_1) \\times 3 \\times 5}{100} \\Rightarrow 11 P_1 = 3(20300 - P_1)$।\n2) $P_1 : P_2 = 3 : 11$ ($= 3 : 11$), कुल $= 14$ भाग।\n3) 11% दर वाला भाग $= 20,300 \\times \\frac{3}{14} = \\mathbf{4,350}$।\n\nविधि 2: सीधा व्युत्क्रम दर अनुपात ट्रिक: 1 भाग $= \\frac{20,300}{14} = 1450$। 11% पर निवेशित भाग (**3** भाग) $= \\mathbf{4,350}$!"
     }
   },
   {
@@ -1723,10 +1768,55 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (₹50) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (₹50) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹50**).",
+      "keyConcept": "Exact Day-Count in Leap Year 2024 (Feb = 29 Days, Total Year = 366 Days)",
+      "optionTrick": {
+        "en": "2024 is a leap year (366 days). Exact days $= 61$, and $\\frac{61}{366} = \\frac{1}{6}$ year! Annual SI $= 300 \\Rightarrow$ Divide by 6: $\\mathbf{50}$!",
+        "hi": "2024 लीप वर्ष (366 दिन) है। कुल दिन $= 61$ और $\\frac{61}{366} = \\frac{1}{6}$ वर्ष! वार्षिक ब्याज 300 को 6 से भाग दें $= \\mathbf{50}$!"
+      },
+      "trapAlert": {
+        "en": "Two classic mistakes: taking Feb = 28 / Year = 365 in 2024 (divisible by 4), or counting BOTH deposit and withdrawal dates!",
+        "hi": "दो आम गलतियाँ: 2024 को साधारण वर्ष (365 दिन) मानना, या जमा और निकासी दोनों दिन गिन लेना (केवल एक छोर गिनते हैं)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Leap Year Day Count ÷ 366 Formula",
+            "hi": "विधि 1: लीप वर्ष (366 दिन) दिन-गणना सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "formula": "$SI = \\frac{P \\times R \\times \\text{Days}}{100 \\times 366}$",
+          "steps": {
+            "en": "1) **2024 is a leap year** $\\Rightarrow$ February has 29 days, Year $= 366$ days.\n2) Days held: $(29 - 9)\\text{ [February]} + 31\\text{ [Mar]} + 10\\text{ [April]} = 20 + 31 + 10 = 61$ days ($= \\frac{61}{366} = \\frac{1}{6}$ yr).\n3) $SI = \\frac{4000 \\times 7.5}{100} \\times \\frac{1}{6} = \\frac{300}{6} = \\mathbf{50}$.",
+            "hi": "1) **2024 लीप वर्ष** है $\\Rightarrow$ फ़रवरी 29 दिन व कुल वर्ष $= 366$ दिन।\n2) दिन गणना: $(29 - 9)$ [फ़रवरी] $+ 31$ [मार्च] $+ 10$ [अप्रैल] $= 20 + 31 + 10 = 61$ दिन ($= \\frac{61}{366} = \\frac{1}{6}$ वर्ष)।\n3) $SI = \\frac{4000 \\times 7.5}{100} \\times \\frac{1}{6} = \\frac{300}{6} = \\mathbf{50}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant 61/366 = 1/6 Year Recognition",
+            "hi": "विधि 2: 61/366 = 1/6 वर्ष त्वरित पहचान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice **366 ÷ 61 = 6**! Once you verify 61 days $= \\frac{1}{6}$ yr, simply compute $\\frac{300}{6} = \\mathbf{50}$.",
+            "hi": "रेलवे परीक्षा में **61/366 = 1/6** मानक गुणनखंड है! वार्षिक ब्याज 300 का छठा भाग $= \\mathbf{50}$ सीधे उत्तर देता है।"
+          }
+        }
+      ],
+      "en": "Method 1: Leap Year Day Count ÷ 366 Formula: 1) **2024 is a leap year** $\\Rightarrow$ February has 29 days, Year $= 366$ days.\n2) Days held: $(29 - 9)\\text{ [February]} + 31\\text{ [Mar]} + 10\\text{ [April]} = 20 + 31 + 10 = 61$ days ($= \\frac{61}{366} = \\frac{1}{6}$ yr).\n3) $SI = \\frac{4000 \\times 7.5}{100} \\times \\frac{1}{6} = \\frac{300}{6} = \\mathbf{50}$.\n\nMethod 2: Instant 61/366 = 1/6 Year Recognition: Notice **366 ÷ 61 = 6**! Once you verify 61 days $= \\frac{1}{6}$ yr, simply compute $\\frac{300}{6} = \\mathbf{50}$.",
+      "hi": "विधि 1: लीप वर्ष (366 दिन) दिन-गणना सूत्र: 1) **2024 लीप वर्ष** है $\\Rightarrow$ फ़रवरी 29 दिन व कुल वर्ष $= 366$ दिन।\n2) दिन गणना: $(29 - 9)$ [फ़रवरी] $+ 31$ [मार्च] $+ 10$ [अप्रैल] $= 20 + 31 + 10 = 61$ दिन ($= \\frac{61}{366} = \\frac{1}{6}$ वर्ष)।\n3) $SI = \\frac{4000 \\times 7.5}{100} \\times \\frac{1}{6} = \\frac{300}{6} = \\mathbf{50}$।\n\nविधि 2: 61/366 = 1/6 वर्ष त्वरित पहचान ट्रिक: रेलवे परीक्षा में **61/366 = 1/6** मानक गुणनखंड है! वार्षिक ब्याज 300 का छठा भाग $= \\mathbf{50}$ सीधे उत्तर देता है।"
     }
   },
   {

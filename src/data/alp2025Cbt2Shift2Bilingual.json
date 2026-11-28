@@ -1109,10 +1109,51 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
-      "en": "Correct Answer: Option D (9000 square meters). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (9000 वर्ग मीटर)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**9000 square meters**).",
+      "keyConcept": "Mensuration (Area of Rectangle in SI Units: m²)",
+      "optionTrick": {
+        "en": "Compute $120 \\times 75 = (120 \\div 4) \\times (75 \\times 4) = 30 \\times 300 = \\mathbf{9000\\text{ m}^2}$ in 2 seconds!",
+        "hi": "$120 \\times 75 = 30 \\times 300 = \\mathbf{9000}$ वर्ग मीटर तुरंत निकालें!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Area Formula (Length × Breadth)",
+            "hi": "विधि 1: आयत का क्षेत्रफल सूत्र (लंबाई × चौड़ाई)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "formula": "$\\text{Area} = L \\times B$",
+          "steps": {
+            "en": "1) Given length $= 120\\text{ m}$, width $= 75\\text{ m}$ (already in SI unit metre).\n2) Area $= 120 \\times 75 = \\mathbf{9000\\text{ square meters}}$.",
+            "hi": "1) लंबाई $= 120$ मीटर तथा चौड़ाई $= 75$ मीटर (पहले से SI मात्रक में है)।\n2) क्षेत्रफल $= 120 \\times 75 = \\mathbf{9000}$ वर्ग मीटर।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Factor Halving-Doubling Mental Trick",
+            "hi": "विधि 2: गुणनखंड दोहराने की त्वरित ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Rewrite $75 = \\frac{300}{4}$, so $120 \\times \\frac{300}{4} = 30 \\times 300 = \\mathbf{9000\\text{ m}^2}$ (Option D).",
+            "hi": "$75 = \\frac{300}{4}$ लिखने पर $120 \\times \\frac{300}{4} = 30 \\times 300 = \\mathbf{9000}$ वर्ग मीटर (विकल्प D)।"
+          }
+        }
+      ],
+      "en": "Method 1: Area Formula (Length × Breadth): 1) Given length $= 120\\text{ m}$, width $= 75\\text{ m}$ (already in SI unit metre).\n2) Area $= 120 \\times 75 = \\mathbf{9000\\text{ square meters}}$.\n\nMethod 2: Factor Halving-Doubling Mental Trick: Rewrite $75 = \\frac{300}{4}$, so $120 \\times \\frac{300}{4} = 30 \\times 300 = \\mathbf{9000\\text{ m}^2}$ (Option D).",
+      "hi": "विधि 1: आयत का क्षेत्रफल सूत्र (लंबाई × चौड़ाई): 1) लंबाई $= 120$ मीटर तथा चौड़ाई $= 75$ मीटर (पहले से SI मात्रक में है)।\n2) क्षेत्रफल $= 120 \\times 75 = \\mathbf{9000}$ वर्ग मीटर।\n\nविधि 2: गुणनखंड दोहराने की त्वरित ट्रिक: $75 = \\frac{300}{4}$ लिखने पर $120 \\times \\frac{300}{4} = 30 \\times 300 = \\mathbf{9000}$ वर्ग मीटर (विकल्प D)।"
     },
     "correctIndexHi": 3
   },
@@ -2596,10 +2637,51 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
-      "en": "Correct Answer: Option C (₹89,846.25). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹89,846.25)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**₹89,846.25**).",
+      "keyConcept": "Half-Yearly Compounding: Rate Halved (r = 5%), Cycles Doubled (n = 3)",
+      "optionTrick": {
+        "en": "Convert annually $\\to$ half-yearly: $r = \\mathbf{5\\%}$, $n = \\mathbf{3}$ cycles! Effective factor $= (1.05)^3 \\approx 1.1576$ $\\Rightarrow$ **₹89,846.25**!",
+        "hi": "अर्धवार्षिक संयोजन में **दर आधी (5%)** व **समय दोगुना (3 छमाही)** करें! सीधा गुणक $(1.05)^3 \\approx 1.1576$ से उत्तर **₹89,846.25**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Half-Yearly Rule (r = 5%, n = 3)",
+            "hi": "विधि 1: अर्धवार्षिक नियम (r = 5%, n = 3)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$CI = P\\left[\\left(1 + \\frac{R}{200}\\right)^{2T} - 1\\right]$",
+          "steps": {
+            "en": "1) Half-yearly rate $r = \\frac{10\\%}{2} = 5\\% = \\frac{1}{20}$; cycles $n = 2 \\times 1.5 = 3$.\n2) Amount $= 570000 \\times (1.05)^3 \\approx 659846.25$.\n3) Compound Interest $= A - P $= 89,846.25$ (**₹89,846.25**).",
+            "hi": "1) छमाही दर $r = \\frac{10\\%}{2} = 5\\%$ व छमाही चक्र $n = 2 \\times 1.5 = 3$।\n2) मिश्रधन $A = 570000 \\times (1.05)^3 \\approx 6,59,846.25$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 89,846.25$ (**₹89,846.25**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Pascal / Effective CI % Trick",
+            "hi": "विधि 2: पास्कल गुणांक / प्रभावी % ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total effective CI $= 15.7625\\%$ of 5,70,000 $\\Rightarrow$ **₹89,846.25**!",
+            "hi": "3 चक्रों की कुल प्रभावी ब्याज दर $= 15.7625\\%$ से तुरंत **₹89,846.25** प्राप्त होता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Half-Yearly Rule (r = 5%, n = 3): 1) Half-yearly rate $r = \\frac{10\\%}{2} = 5\\% = \\frac{1}{20}$; cycles $n = 2 \\times 1.5 = 3$.\n2) Amount $= 570000 \\times (1.05)^3 \\approx 659846.25$.\n3) Compound Interest $= A - P $= 89,846.25$ (**₹89,846.25**).\n\nMethod 2: Pascal / Effective CI % Trick: Total effective CI $= 15.7625\\%$ of 5,70,000 $\\Rightarrow$ **₹89,846.25**!",
+      "hi": "विधि 1: अर्धवार्षिक नियम (r = 5%, n = 3): 1) छमाही दर $r = \\frac{10\\%}{2} = 5\\%$ व छमाही चक्र $n = 2 \\times 1.5 = 3$।\n2) मिश्रधन $A = 570000 \\times (1.05)^3 \\approx 6,59,846.25$ रुपये।\n3) चक्रवृद्धि ब्याज $CI = A - P $= 89,846.25$ (**₹89,846.25**)।\n\nविधि 2: पास्कल गुणांक / प्रभावी % ट्रिक: 3 चक्रों की कुल प्रभावी ब्याज दर $= 15.7625\\%$ से तुरंत **₹89,846.25** प्राप्त होता है!"
     },
     "correctIndexHi": 2
   },
