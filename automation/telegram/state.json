@@ -23,11 +23,22 @@
     "d1f7200d18ef2155",
     "6355ca0551478765",
     "362d33cfbaf8a33d",
-    "bd97deda1fab8d3e"
+    "bd97deda1fab8d3e",
+    "61751dcc68fb967b",
+    "66adb68b5a81f131",
+    "528ca7c0544884a9",
+    "57971bfb8b790786"
   ],
   "capsule_index": 4,
   "card_index": 3,
   "last_update_id": 563323214,
   "notified_payment_ids": [],
-  "notified_report_ids": []
+  "notified_report_ids": [],
+  "seen_notice_fps": [
+    "ntpc:app_status:2026-11-28",
+    "ntpc:exam_date:2026-11-28",
+    "ntpc:quota_update:2026-11-28",
+    "paramedical:answer_key:2026-11-28"
+  ],
+  "zone_trackers": {}
 }
