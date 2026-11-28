@@ -1589,10 +1589,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Reduction % = [r / (100 + r)] * 100 = [25 / 125] * 100 = 20%. Correct: Option A (20%).",
-      "hi": "खपत में कमी = [25 / 125] × 100 = 20%। सही उत्तर: विकल्प A (20%)।"
+      "approach": "Official Answer: Option A (**20%**).",
+      "keyConcept": "AB Rule: +1/4 Price ⇒ −1/(4+1) = −1/5 Consumption = −20%",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base 100 Comparison",
+            "hi": "विधि 1: 100 आधार तुलना"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Price $100 \\to 125$. Reduction needed $= \\frac{125 - 100}{125} \\times 100 = \\mathbf{20\\%}$.",
+            "hi": "कीमत $100 \\to 125$। कमी $= \\frac{25}{125} \\times 100 = \\mathbf{20\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: AB Rule (+1/4 → −1/5) (1 sec)",
+            "hi": "विधि 2: AB नियम (+1/4 → −1/5) (1 sec)"
+          },
+          "timeTag": "1 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$+25\\% = +\\frac{1}{4} \\implies \\text{Drop} = \\frac{1}{4+1} = \\frac{1}{5} = \\mathbf{20\\%}$!",
+            "hi": "$+25\\% = +\\frac{1}{4} \\implies$ कमी $= \\frac{1}{4+1} = \\frac{1}{5} = \\mathbf{20\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Base 100 Comparison: Price $100 \\to 125$. Reduction needed $= \\frac{125 - 100}{125} \\times 100 = \\mathbf{20\\%}$.\n\nMethod 2: AB Rule (+1/4 → −1/5) (1 sec): $+25\\% = +\\frac{1}{4} \\implies \\text{Drop} = \\frac{1}{4+1} = \\frac{1}{5} = \\mathbf{20\\%}$!",
+      "hi": "विधि 1: 100 आधार तुलना: कीमत $100 \\to 125$। कमी $= \\frac{25}{125} \\times 100 = \\mathbf{20\\%}$।\n\nविधि 2: AB नियम (+1/4 → −1/5) (1 sec): $+25\\% = +\\frac{1}{4} \\implies$ कमी $= \\frac{1}{4+1} = \\frac{1}{5} = \\mathbf{20\\%}$!"
     }
   },
   {

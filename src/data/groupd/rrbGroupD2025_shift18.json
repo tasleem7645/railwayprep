@@ -1321,10 +1321,56 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (increase by ₹9,555) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹9,555 की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**increase by ₹9,555**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+34\\%$, while expenditure change on whole income = $-\\frac{72.5}{100} \\times 20\\%$. That gives direct Net Factor $= 19.5\\%$ of ₹49,000 $= \\mathbf{Rs.9,555}$!",
+        "hi": "आय वृद्धि $= +34\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 72.5\\% \\times 20\\% = 14.5\\%$ — दोनों का अंतर ही ₹49,000 पर सीधी वृद्धि ($\\mathbf{Rs.9,555}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 27.5\\%$ of ₹49,000 = **₹13,475**; Old Expenditure $= 72.5\\%$ of ₹49,000 = **₹35,525**.\n2) New Income ($+34\\%$) = **₹65,660**; New Expenditure ($+20\\%$) = **₹42,630**.\n3) New Savings $= Rs.65,660 - Rs.42,630 = Rs.23,030$.\n4) Change $= Rs.23,030 - Rs.13,475 \\Rightarrow$ **Increase of ₹9,555**.",
+            "hi": "1) पुरानी बचत $= Rs.49,000$ का $27.5\\% = \\mathbf{Rs.13,475}$ तथा पुराना व्यय $= \\mathbf{Rs.35,525}$।\n2) नई आय ($+34\\%$) $= Rs.65,660$ तथा नया व्यय ($+20\\%$) $= Rs.42,630$।\n3) नई बचत $= Rs.65,660 - Rs.42,630 = Rs.23,030$।\n4) बचत में अंतर $\\Rightarrow$ **₹9,555 की वृद्धि**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +34\\%$ of ₹49,000 = **+₹16,660**.\n2) $E = 72.5\\% \\times Rs.49,000 = Rs.35,525$, so $\\Delta E = +20\\% \\times Rs.35,525 = +Rs.7,105$.\n3) $\\Delta S = Rs.16,660 - Rs.7,105 = +Rs.9,555 \\Rightarrow$ **Increase by ₹9,555**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.49,000$ का $+34\\% = +Rs.16,660$।\n2) व्यय ₹35,525 का $\\Delta \\text{व्यय} = +20\\% = +Rs.7,105$।\n3) $\\Delta \\text{बचत} = Rs.16,660 - Rs.7,105 = \\mathbf{Rs.9,555}$ की **वृद्धि**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 27.5\\%$ of ₹49,000 = **₹13,475**; Old Expenditure $= 72.5\\%$ of ₹49,000 = **₹35,525**.\n2) New Income ($+34\\%$) = **₹65,660**; New Expenditure ($+20\\%$) = **₹42,630**.\n3) New Savings $= Rs.65,660 - Rs.42,630 = Rs.23,030$.\n4) Change $= Rs.23,030 - Rs.13,475 \\Rightarrow$ **Increase of ₹9,555**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +34\\%$ of ₹49,000 = **+₹16,660**.\n2) $E = 72.5\\% \\times Rs.49,000 = Rs.35,525$, so $\\Delta E = +20\\% \\times Rs.35,525 = +Rs.7,105$.\n3) $\\Delta S = Rs.16,660 - Rs.7,105 = +Rs.9,555 \\Rightarrow$ **Increase by ₹9,555**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.49,000$ का $27.5\\% = \\mathbf{Rs.13,475}$ तथा पुराना व्यय $= \\mathbf{Rs.35,525}$।\n2) नई आय ($+34\\%$) $= Rs.65,660$ तथा नया व्यय ($+20\\%$) $= Rs.42,630$।\n3) नई बचत $= Rs.65,660 - Rs.42,630 = Rs.23,030$।\n4) बचत में अंतर $\\Rightarrow$ **₹9,555 की वृद्धि**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.49,000$ का $+34\\% = +Rs.16,660$।\n2) व्यय ₹35,525 का $\\Delta \\text{व्यय} = +20\\% = +Rs.7,105$।\n3) $\\Delta \\text{बचत} = Rs.16,660 - Rs.7,105 = \\mathbf{Rs.9,555}$ की **वृद्धि**।"
     }
   },
   {
@@ -1556,10 +1602,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (5.6% increase) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (5.6% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**5.6% increase**).",
+      "keyConcept": "Net % Change = +a − b − (ab)/100",
+      "optionTrick": {
+        "en": "$20 - 12 = +8$ and $-2.4 \\Rightarrow \\mathbf{+5.6\\%\\text{ increase}}$!",
+        "hi": "$+20 - 12 = +8$; गुणनफल $\\frac{240}{100} = 2.4$ घटाएँ $\\Rightarrow \\mathbf{5.6\\%}$ की वृद्धि!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption",
+            "hi": "विधि 1: Base-100 मानकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Let number $= 100$. After $+20\\% = 120$.\n2) After $-12\\%$: $120 - 12\\% \\text{ of } 120 = 120 - 14.4 = 105.6$.\n3) Net change $= \\mathbf{5.6\\%\\text{ increase}}$.",
+            "hi": "1) मानें संख्या $= 100$। $20\\%$ वृद्धि के पश्चात् $= 120$।\n2) $12\\%$ कमी: $120 - 14.4 = 105.6$।\n3) निवल वृद्धि $= \\mathbf{5.6\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: AB Successive Formula (5 sec)",
+            "hi": "विधि 2: क्रमिक AB सूत्र"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$\\text{Net }\\% = x + y + \\frac{xy}{100}$",
+          "steps": {
+            "en": "$+20 - 12 - \\frac{20 \\times 12}{100} = 8 - 2.4 = \\mathbf{+5.6\\%\\text{ increase}}$.",
+            "hi": "$+20 - 12 - \\frac{20 \\times 12}{100} = 8 - 2.4 = \\mathbf{5.6\\%\\text{ की वृद्धि}}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption: 1) Let number $= 100$. After $+20\\% = 120$.\n2) After $-12\\%$: $120 - 12\\% \\text{ of } 120 = 120 - 14.4 = 105.6$.\n3) Net change $= \\mathbf{5.6\\%\\text{ increase}}$.\n\nMethod 2: AB Successive Formula (5 sec): $+20 - 12 - \\frac{20 \\times 12}{100} = 8 - 2.4 = \\mathbf{+5.6\\%\\text{ increase}}$.",
+      "hi": "विधि 1: Base-100 मानकर हल: 1) मानें संख्या $= 100$। $20\\%$ वृद्धि के पश्चात् $= 120$।\n2) $12\\%$ कमी: $120 - 14.4 = 105.6$।\n3) निवल वृद्धि $= \\mathbf{5.6\\%}$।\n\nविधि 2: क्रमिक AB सूत्र: $+20 - 12 - \\frac{20 \\times 12}{100} = 8 - 2.4 = \\mathbf{5.6\\%\\text{ की वृद्धि}}$।"
     }
   },
   {

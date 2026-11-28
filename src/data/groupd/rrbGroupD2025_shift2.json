@@ -1353,10 +1353,56 @@
     "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (decrease by ₹910) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹910 की कमी होगी) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**decrease by ₹910**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+32\\%$, while expenditure change on whole income = $-\\frac{74}{100} \\times 45\\%$. That gives direct Net Factor $= -1.3\\%$ of ₹70,000 $= \\mathbf{Rs.910}$!",
+        "hi": "आय वृद्धि $= +32\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 74\\% \\times 45\\% = 33.3\\%$ — दोनों का अंतर ही ₹70,000 पर सीधी कमी ($\\mathbf{Rs.910}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 26\\%$ of ₹70,000 = **₹18,200**; Old Expenditure $= 74\\%$ of ₹70,000 = **₹51,800**.\n2) New Income ($+32\\%$) = **₹92,400**; New Expenditure ($+45\\%$) = **₹75,110**.\n3) New Savings $= Rs.92,400 - Rs.75,110 = Rs.17,290$.\n4) Change $= Rs.17,290 - Rs.18,200 \\Rightarrow$ **Decrease of ₹910**.",
+            "hi": "1) पुरानी बचत $= Rs.70,000$ का $26\\% = \\mathbf{Rs.18,200}$ तथा पुराना व्यय $= \\mathbf{Rs.51,800}$।\n2) नई आय ($+32\\%$) $= Rs.92,400$ तथा नया व्यय ($+45\\%$) $= Rs.75,110$।\n3) नई बचत $= Rs.92,400 - Rs.75,110 = Rs.17,290$।\n4) बचत में अंतर $\\Rightarrow$ **₹910 की कमी**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +32\\%$ of ₹70,000 = **+₹22,400**.\n2) $E = 74\\% \\times Rs.70,000 = Rs.51,800$, so $\\Delta E = +45\\% \\times Rs.51,800 = +Rs.23,310$.\n3) $\\Delta S = Rs.22,400 - Rs.23,310 = -Rs.910 \\Rightarrow$ **Decrease by ₹910**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.70,000$ का $+32\\% = +Rs.22,400$।\n2) व्यय ₹51,800 का $\\Delta \\text{व्यय} = +45\\% = +Rs.23,310$।\n3) $\\Delta \\text{बचत} = Rs.22,400 - Rs.23,310 = \\mathbf{Rs.910}$ की **कमी**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 26\\%$ of ₹70,000 = **₹18,200**; Old Expenditure $= 74\\%$ of ₹70,000 = **₹51,800**.\n2) New Income ($+32\\%$) = **₹92,400**; New Expenditure ($+45\\%$) = **₹75,110**.\n3) New Savings $= Rs.92,400 - Rs.75,110 = Rs.17,290$.\n4) Change $= Rs.17,290 - Rs.18,200 \\Rightarrow$ **Decrease of ₹910**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +32\\%$ of ₹70,000 = **+₹22,400**.\n2) $E = 74\\% \\times Rs.70,000 = Rs.51,800$, so $\\Delta E = +45\\% \\times Rs.51,800 = +Rs.23,310$.\n3) $\\Delta S = Rs.22,400 - Rs.23,310 = -Rs.910 \\Rightarrow$ **Decrease by ₹910**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.70,000$ का $26\\% = \\mathbf{Rs.18,200}$ तथा पुराना व्यय $= \\mathbf{Rs.51,800}$।\n2) नई आय ($+32\\%$) $= Rs.92,400$ तथा नया व्यय ($+45\\%$) $= Rs.75,110$।\n3) नई बचत $= Rs.92,400 - Rs.75,110 = Rs.17,290$।\n4) बचत में अंतर $\\Rightarrow$ **₹910 की कमी**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.70,000$ का $+32\\% = +Rs.22,400$।\n2) व्यय ₹51,800 का $\\Delta \\text{व्यय} = +45\\% = +Rs.23,310$।\n3) $\\Delta \\text{बचत} = Rs.22,400 - Rs.23,310 = \\mathbf{Rs.910}$ की **कमी**।"
     }
   },
   {
@@ -1421,10 +1467,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (25%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (25%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**25%**).",
+      "keyConcept": "Fraction 300/1200 = 1/4 = 25%",
+      "optionTrick": {
+        "en": "$1200 \\to 1500$ simplifies to $4 \\to 5$ ($+1$ on $4 = \\frac{1}{4} = \\mathbf{25\\%}$)!",
+        "hi": "अनुपात $1200 : 1500 = 4 : 5$ (4 पर $+1 = \\frac{1}{4} = \\mathbf{25\\%}$)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Percentage Formula",
+            "hi": "विधि 1: बेसिक प्रतिशत सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Increase $= 1,500 - 1,200 = 300$ units.\n2) $\\%$ Increase $= \\frac{300}{1{,}200} \\times 100 = \\mathbf{25\\%}$.",
+            "hi": "1) उत्पादन वृद्धि $= 1,500 - 1,200 = 300$ यूनिट।\n2) प्रतिशत वृद्धि $= \\frac{300}{1{,}200} \\times 100 = \\mathbf{25\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Simplified Ratio 4 : 5 (3 sec)",
+            "hi": "विधि 2: सरल अनुपात 4 : 5 ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide both by 300: $1,200 : 1,500 = 4 : 5$. Gain of 1 on $4 = \\frac{1}{4} = \\mathbf{25\\%}$.",
+            "hi": "300 से काटें: $1,200 : 1,500 = 4 : 5$। 4 पर 1 की वृद्धि $= \\frac{1}{4} = \\mathbf{25\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Percentage Formula: 1) Increase $= 1,500 - 1,200 = 300$ units.\n2) $\\%$ Increase $= \\frac{300}{1{,}200} \\times 100 = \\mathbf{25\\%}$.\n\nMethod 2: Simplified Ratio 4 : 5 (3 sec): Divide both by 300: $1,200 : 1,500 = 4 : 5$. Gain of 1 on $4 = \\frac{1}{4} = \\mathbf{25\\%}$.",
+      "hi": "विधि 1: बेसिक प्रतिशत सूत्र: 1) उत्पादन वृद्धि $= 1,500 - 1,200 = 300$ यूनिट।\n2) प्रतिशत वृद्धि $= \\frac{300}{1{,}200} \\times 100 = \\mathbf{25\\%}$।\n\nविधि 2: सरल अनुपात 4 : 5 ट्रिक: 300 से काटें: $1,200 : 1,500 = 4 : 5$। 4 पर 1 की वृद्धि $= \\frac{1}{4} = \\mathbf{25\\%}$।"
     }
   },
   {

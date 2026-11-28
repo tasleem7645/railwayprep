@@ -1149,10 +1149,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (31%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (31%) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**31%**).",
+      "keyConcept": "Weighted Average Identity: If Overall Avg = Group 1 Avg ⇒ Group 2 Avg MUST Equal Both!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Explicit Counts",
+            "hi": "विधि 1: संख्यात्मक गणना विधि"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Females $= 335000 - 214000 = 121000$.\n$0.31(335000) - 0.31(214000) = 0.31(121000) \\implies \\mathbf{31\\%}$.",
+            "hi": "महिलाएँ $= 1,21,000$।\nसाक्षर महिलाएँ $= 0.31(335000 - 214000) = 0.31 \\times 121000 \\implies \\mathbf{31\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Calculation Average Law (0 sec)",
+            "hi": "विधि 2: शून्य-गणना औसत नियम (0 sec)"
+          },
+          "timeTag": "1 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total Average (`31%`) = Male Average (`31%`) ⇒ Female Average MUST also be **31%** without multiplying ANY number!",
+            "hi": "जब समग्र साक्षरता (`31%`) = पुरुष साक्षरता (`31%`), तो महिला साक्षरता भी बिना किसी गणना के पक्का **31%** होगी!"
+          }
+        }
+      ],
+      "en": "Method 1: Explicit Counts: Females $= 335000 - 214000 = 121000$.\n$0.31(335000) - 0.31(214000) = 0.31(121000) \\implies \\mathbf{31\\%}$.\n\nMethod 2: Zero-Calculation Average Law (0 sec): Total Average (`31%`) = Male Average (`31%`) ⇒ Female Average MUST also be **31%** without multiplying ANY number!",
+      "hi": "विधि 1: संख्यात्मक गणना विधि: महिलाएँ $= 1,21,000$।\nसाक्षर महिलाएँ $= 0.31(335000 - 214000) = 0.31 \\times 121000 \\implies \\mathbf{31\\%}$।\n\nविधि 2: शून्य-गणना औसत नियम (0 sec): जब समग्र साक्षरता (`31%`) = पुरुष साक्षरता (`31%`), तो महिला साक्षरता भी बिना किसी गणना के पक्का **31%** होगी!"
     }
   },
   {
@@ -1559,10 +1587,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (12.5%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (12.5%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**12.5%**).",
+      "keyConcept": "Fraction Chain: +25% = 5/4, −10% = 9/10",
+      "optionTrick": {
+        "en": "$25 - 10 - 2.5 = \\mathbf{12.5\\%}$ directly!",
+        "hi": "$+25 - 10 - \\frac{25 \\times 10}{100} = 15 - 2.5 = \\mathbf{12.5\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Step-by-Step",
+            "hi": "विधि 1: Base-100 चरणबद्ध विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$100 \\xrightarrow{+25\\%} 125 \\xrightarrow{-10\\%} 125 - 12.5 = 112.5 \\Rightarrow \\mathbf{12.5\\%}$ increase.",
+            "hi": "$100 \\xrightarrow{+25\\%} 125 \\xrightarrow{-10\\%} 125 - 12.5 = 112.5 \\Rightarrow \\mathbf{12.5\\%}$ वृद्धि।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Successive Formula / Ratio (4 sec)",
+            "hi": "विधि 2: क्रमिक सूत्र व अनुपात विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$+25 - 10 - \\frac{250}{100} = 15 - 2.5 = \\mathbf{12.5\\%}$ (or ratio $\\frac{5}{4}\\times\\frac{9}{10} = \\frac{9}{8} = 1 + \\frac{1}{8} = +12.5\\%$).",
+            "hi": "अनुपात $\\frac{5}{4} \\times \\frac{9}{10} = \\frac{9}{8}$ अर्थात 8 से 9 ($\\frac{1}{8} = \\mathbf{12.5\\%}$ वृद्धि)।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Step-by-Step: $100 \\xrightarrow{+25\\%} 125 \\xrightarrow{-10\\%} 125 - 12.5 = 112.5 \\Rightarrow \\mathbf{12.5\\%}$ increase.\n\nMethod 2: Successive Formula / Ratio (4 sec): $+25 - 10 - \\frac{250}{100} = 15 - 2.5 = \\mathbf{12.5\\%}$ (or ratio $\\frac{5}{4}\\times\\frac{9}{10} = \\frac{9}{8} = 1 + \\frac{1}{8} = +12.5\\%$).",
+      "hi": "विधि 1: Base-100 चरणबद्ध विधि: $100 \\xrightarrow{+25\\%} 125 \\xrightarrow{-10\\%} 125 - 12.5 = 112.5 \\Rightarrow \\mathbf{12.5\\%}$ वृद्धि।\n\nविधि 2: क्रमिक सूत्र व अनुपात विधि: अनुपात $\\frac{5}{4} \\times \\frac{9}{10} = \\frac{9}{8}$ अर्थात 8 से 9 ($\\frac{1}{8} = \\mathbf{12.5\\%}$ वृद्धि)।"
     }
   },
   {

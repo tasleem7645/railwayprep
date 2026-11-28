@@ -1219,10 +1219,56 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (1%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (1%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**1%**).",
+      "keyConcept": "Weighted Ratio-Weighted Average: E : S = 5 : 2",
+      "optionTrick": {
+        "en": "Since $E : S = 5 : 2$ ($I = 7$ parts), weighted change $= \\frac{5(-7\\%) + 2(+21\\%)}{7} = \\frac{7}{7}\\% = \\mathbf{1\\%}$!",
+        "hi": "अनुपात $E : S = 5 : 2$ ($I = 7$) लेकर सीधा भारित मान: $\\frac{5(-7) + 2(+21)}{7} = \\mathbf{1\\%}$!"
+      },
+      "trapAlert": {
+        "en": "\"150% more than savings\" means Expenditure = 100 + 150 = 250 (NOT 150!) when Savings = 100.",
+        "hi": "\"बचत से 150% अधिक\" का अर्थ व्यय $= 100 + 150 = 250$ है (न कि 150!) — यह परीक्षा का सबसे बड़ा जाल है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption",
+            "hi": "विधि 1: Base-100 मानकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$E = 100 + k\\%,\\; I = E + S$",
+          "steps": {
+            "en": "1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 150 = 250 \\Rightarrow$ Income $I = 350$.\n2) Change in $E = -7\\%$ of $250 = -17.5$; Change in $S = +21\\%$ of $100 = +21$.\n3) Net change in Income $= 3.5$ on $350 \\Rightarrow \\frac{3.5}{350} \\times 100 = \\mathbf{1\\%}$.",
+            "hi": "1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 250$ तथा आय $I = 350$।\n2) व्यय में परिवर्तन $= -7\\%$ of $250 = -17.5$; बचत में परिवर्तन $= +21$।\n3) आय में निवल वृद्धि $= 3.5$ पर कुल $350 \\Rightarrow \\frac{3.5}{350} \\times 100 = \\mathbf{1\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Average Ratio Trick",
+            "hi": "विधि 2: अनुपात-भारित औसत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta I = \\frac{5(-d) + 2(+g)}{5 + 2}$",
+          "steps": {
+            "en": "Ratio $E : S = 250 : 100 = 5 : 2$ (Total $= 7$ parts).\n$$\\text{Net }\\% = \\frac{5 \\times (-7) + 2 \\times (+21)}{7} = \\frac{-35 + 42}{7} = \\frac{7}{7} = \\mathbf{1\\%}.$$",
+            "hi": "सरल अनुपात $E : S = 5 : 2$ (योग $= 7$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{5(- 7) + 2(+21)}{7} = \\frac{7}{7} = \\mathbf{1\\%}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption: 1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 150 = 250 \\Rightarrow$ Income $I = 350$.\n2) Change in $E = -7\\%$ of $250 = -17.5$; Change in $S = +21\\%$ of $100 = +21$.\n3) Net change in Income $= 3.5$ on $350 \\Rightarrow \\frac{3.5}{350} \\times 100 = \\mathbf{1\\%}$.\n\nMethod 2: Weighted Average Ratio Trick: Ratio $E : S = 250 : 100 = 5 : 2$ (Total $= 7$ parts).\n$$\\text{Net }\\% = \\frac{5 \\times (-7) + 2 \\times (+21)}{7} = \\frac{-35 + 42}{7} = \\frac{7}{7} = \\mathbf{1\\%}.$$",
+      "hi": "विधि 1: Base-100 मानकर हल: 1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 250$ तथा आय $I = 350$।\n2) व्यय में परिवर्तन $= -7\\%$ of $250 = -17.5$; बचत में परिवर्तन $= +21$।\n3) आय में निवल वृद्धि $= 3.5$ पर कुल $350 \\Rightarrow \\frac{3.5}{350} \\times 100 = \\mathbf{1\\%}$।\n\nविधि 2: अनुपात-भारित औसत ट्रिक: सरल अनुपात $E : S = 5 : 2$ (योग $= 7$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{5(- 7) + 2(+21)}{7} = \\frac{7}{7} = \\mathbf{1\\%}.$$"
     }
   },
   {
@@ -1253,10 +1299,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Population Based Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (46.09%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (46.09%) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**46.09%**).",
+      "keyConcept": "Fraction Reduction: Divide common zeros & powers of 2",
+      "optionTrick": {
+        "en": "$295 \\div 6.4 = \\frac{2950}{64}$: $64 \\times 46 = 2944$, remainder 6 -> $\\frac{6}{64} = \\frac{3}{32} \\approx 0.09375 \\Rightarrow \\mathbf{46.09\\%}$!",
+        "hi": "भागफल $2950 \\div 64$ में $64 \\times 46 = 2944$, शेष $6 \\Rightarrow \\frac{6}{64} \\approx 0.09 \\Rightarrow \\mathbf{46.09\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic % Increase Division",
+            "hi": "विधि 1: बेसिक प्रतिशत भाग विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Population increase $= 93,500 - 64,000 = 29,500$.\n2) $\\%$ Increase $= \\frac{29{,}500}{64{,}000} \\times 100 = \\frac{2{,}950}{64} = 46.09375\\% \\approx \\mathbf{46.09\\%}$.",
+            "hi": "1) जनसंख्या वृद्धि $= 93,500 - 64,000 = 29,500$।\n2) प्रतिशत वृद्धि $= \\frac{29{,}500}{64{,}000} \\times 100 = 46.09375\\% \\approx \\mathbf{46.09\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Chunk + Decimal Match (10 sec)",
+            "hi": "विधि 2: 46% निकटतम सटीक भाग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "All options share `46._%`! Check $46\\%$ of $640 = 294.4$; excess $= 295 - 294.4 = 0.6 \\Rightarrow \\frac{0.6}{6.4} = \\frac{3}{32} = 0.09375 \\Rightarrow \\mathbf{46.09\\%}$.",
+            "hi": "सभी विकल्प `46._%` में हैं! 640 का $46\\% = 294.4$, शेष 0.6 का $\\frac{0.6}{6.4} = \\frac{3}{32} = 0.093\\dots \\Rightarrow \\mathbf{46.09\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic % Increase Division: 1) Population increase $= 93,500 - 64,000 = 29,500$.\n2) $\\%$ Increase $= \\frac{29{,}500}{64{,}000} \\times 100 = \\frac{2{,}950}{64} = 46.09375\\% \\approx \\mathbf{46.09\\%}$.\n\nMethod 2: Chunk + Decimal Match (10 sec): All options share `46._%`! Check $46\\%$ of $640 = 294.4$; excess $= 295 - 294.4 = 0.6 \\Rightarrow \\frac{0.6}{6.4} = \\frac{3}{32} = 0.09375 \\Rightarrow \\mathbf{46.09\\%}$.",
+      "hi": "विधि 1: बेसिक प्रतिशत भाग विधि: 1) जनसंख्या वृद्धि $= 93,500 - 64,000 = 29,500$।\n2) प्रतिशत वृद्धि $= \\frac{29{,}500}{64{,}000} \\times 100 = 46.09375\\% \\approx \\mathbf{46.09\\%}$।\n\nविधि 2: 46% निकटतम सटीक भाग ट्रिक: सभी विकल्प `46._%` में हैं! 640 का $46\\% = 294.4$, शेष 0.6 का $\\frac{0.6}{6.4} = \\frac{3}{32} = 0.093\\dots \\Rightarrow \\mathbf{46.09\\%}$।"
     }
   },
   {

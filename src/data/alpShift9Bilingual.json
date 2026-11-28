@@ -1774,10 +1774,42 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 9)",
-      "en": "Correct Answer: Option A (12000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (12000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**12000**).",
+      "keyConcept": "Backward Value: 110% = 13,200 ⇒ Never Subtract 10% of 13,200!",
+      "trapAlert": {
+        "en": "Option D (`11,880`) is a TRAP from computing `13,200 − 10% of 13,200`! Previous base was 100%, new is 110%.",
+        "hi": "सावधान जाल: `13,200` का सीधे 10% घटाने से गलत विकल्प **11,880** आता है! वर्तमान मान 110% के बराबर है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 110% = 13,200",
+            "hi": "विधि 1: 110% से 100% निकालें"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$110\\% = 13200 \\implies 100\\% = \\frac{13200 \\times 100}{110} = \\mathbf{12,000}$.",
+            "hi": "$110\\% = 13200 \\implies 100\\% = 1200 \\times 10 = \\mathbf{12,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Divide by 11 (10 → 11) (2 sec)",
+            "hi": "विधि 2: अनुपात 11 → 10 (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`11 parts = 132` (`×12`) ⇒ `10 parts` = **12,000** orally!",
+            "hi": "`11 = 13,200` (`×1200`) ⇒ `10` = **12,000** केवल 2 सेकंड में!"
+          }
+        }
+      ],
+      "en": "Method 1: 110% = 13,200: $110\\% = 13200 \\implies 100\\% = \\frac{13200 \\times 100}{110} = \\mathbf{12,000}$.\n\nMethod 2: Divide by 11 (10 → 11) (2 sec): `11 parts = 132` (`×12`) ⇒ `10 parts` = **12,000** orally!",
+      "hi": "विधि 1: 110% से 100% निकालें: $110\\% = 13200 \\implies 100\\% = 1200 \\times 10 = \\mathbf{12,000}$।\n\nविधि 2: अनुपात 11 → 10 (2 sec): `11 = 13,200` (`×1200`) ⇒ `10` = **12,000** केवल 2 सेकंड में!"
     },
     "correctIndexHi": 0
   },

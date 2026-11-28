@@ -877,10 +877,38 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • 3-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹4,875) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹4,875) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹4,875**).",
+      "keyConcept": "Let P = 5³ = 125 (for 20% = 1/5) ⇒ 3-Yr Diff = 3(5) + 1 = 16 Units!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Effective Rate Gap (72.8% − 60%)",
+            "hi": "विधि 1: प्रभावी अंतर 12.8% = ₹624"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "3-yr CI at `20% = 72.8%`; 3-yr SI `= 60%` ⇒ Diff $= 12.8\\% = 624$.\n$P = 624 \\times \\frac{1000}{128} =$ **₹4,875**.",
+            "hi": "अंतर `72.8% − 60% = 12.8% = 624` ⇒ $P = 624 \\times \\frac{1000}{128} =$ **₹4,875**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Cube Ratio Trick 125 : 16 (4 sec)",
+            "hi": "विधि 2: घन रेश्यो P = 125, अंतर = 16 (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`r = 1/5` ⇒ Take `P = 125`, `Diff₃ = 3(5) + 1 = 16 units = 624` (`÷16 = ×39`).\n$P = 125 \\times 39 = 5000 - 125 =$ **₹4,875**!",
+            "hi": "`r = 1/5` ⇒ `P = 125`, अंतर `16 = 624 (×39)` ⇒ `125 × 39 = 5000 − 125 =` **₹4,875**!"
+          }
+        }
+      ],
+      "en": "Method 1: Effective Rate Gap (72.8% − 60%): 3-yr CI at `20% = 72.8%`; 3-yr SI `= 60%` ⇒ Diff $= 12.8\\% = 624$.\n$P = 624 \\times \\frac{1000}{128} =$ **₹4,875**.\n\nMethod 2: Cube Ratio Trick 125 : 16 (4 sec): `r = 1/5` ⇒ Take `P = 125`, `Diff₃ = 3(5) + 1 = 16 units = 624` (`÷16 = ×39`).\n$P = 125 \\times 39 = 5000 - 125 =$ **₹4,875**!",
+      "hi": "विधि 1: प्रभावी अंतर 12.8% = ₹624: अंतर `72.8% − 60% = 12.8% = 624` ⇒ $P = 624 \\times \\frac{1000}{128} =$ **₹4,875**।\n\nविधि 2: घन रेश्यो P = 125, अंतर = 16 (4 sec): `r = 1/5` ⇒ `P = 125`, अंतर `16 = 624 (×39)` ⇒ `125 × 39 = 5000 − 125 =` **₹4,875**!"
     }
   },
   {
@@ -1149,10 +1177,56 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Increase by 22.5%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (22.5% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**Increase by 22.5%**).",
+      "keyConcept": "Base-100 Unit Cost × Quantity Weighted Percentage Change",
+      "optionTrick": {
+        "en": "Set TV = `100` -> Machine = `50`. Total Weight $= 400 + 400 = 800$, Change $= +332 - 152 = +180 \\Rightarrow \\mathbf{22.5\\%}$ Increase!",
+        "hi": "TV = `100`, मशीन = `50` लेने से कुल प्रारंभिक मूल्य $= 800$ तथा निवल बदलाव $= +180$ — सीधे **22.5% वृद्धि** प्राप्त होती है!"
+      },
+      "trapAlert": {
+        "en": "Remember to weight each unit cost by quantity (8 machines & 4 TVs) before computing net % change.",
+        "hi": "केवल 1 इकाई का प्रतिशत नहीं बदलना है — क्रमशः `nW` मशीनों और `nT` टीवी की संख्या से गुणा करके भारित कुल निकालें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Initial vs Net Change",
+            "hi": "विधि 1: Base-100 कुल मूल्य विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$\\%\\Delta = \\frac{n_W \\cdot \\Delta W + n_T \\cdot \\Delta T}{n_W W + n_T T} \\times 100$",
+          "steps": {
+            "en": "1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 50 = 50$.\n2) Old Cost of 8 Machines $+ 4$ TVs $= (8 \\times 50) + (4 \\times 100) = 400 + 400 = 800$.\n3) Net change $= (+83\\% \\text{ of } 400) - (38\\% \\text{ of } 400) = 332 - 152 = +180$.\n4) Percentage change $= \\frac{180}{800} \\times 100 = \\mathbf{22.5\\%\\text{ Increase}}$.",
+            "hi": "1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 50 = 50$।\n2) 8 मशीनों + 4 TV का प्रारंभिक कुल $= 400 + 400 = 800$।\n3) निवल परिवर्तन $= (400 \\times 83\\%) - (400 \\times 38\\%) = 332 - 152 = +180$।\n4) प्रतिशत परिवर्तन $= \\frac{180}{800} \\times 100 = \\mathbf{22.5\\%\\text{ की वृद्धि}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Deviation Shortcut",
+            "hi": "विधि 2: भारित प्रतिशत शॉर्टकट"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta = \\frac{400(+83\\%) + 400(-38\\%)}{800}$",
+          "steps": {
+            "en": "Directly divide weighted percentage product sum by total base weights:\n$$\\frac{400(+83) - 400(38)}{800}\\% = \\frac{18000}{800}\\% = \\mathbf{22.5\\%\\text{ Increase}}.$$",
+            "hi": "कुल आधार भार 800 से सीधे भारित योग को भाग दें:\n$$\\frac{400(+83) - 400(38)}{800}\\% = \\frac{18000}{800}\\% = \\mathbf{22.5\\%\\text{ की वृद्धि}}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Initial vs Net Change: 1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 50 = 50$.\n2) Old Cost of 8 Machines $+ 4$ TVs $= (8 \\times 50) + (4 \\times 100) = 400 + 400 = 800$.\n3) Net change $= (+83\\% \\text{ of } 400) - (38\\% \\text{ of } 400) = 332 - 152 = +180$.\n4) Percentage change $= \\frac{180}{800} \\times 100 = \\mathbf{22.5\\%\\text{ Increase}}$.\n\nMethod 2: Weighted Deviation Shortcut: Directly divide weighted percentage product sum by total base weights:\n$$\\frac{400(+83) - 400(38)}{800}\\% = \\frac{18000}{800}\\% = \\mathbf{22.5\\%\\text{ Increase}}.$$",
+      "hi": "विधि 1: Base-100 कुल मूल्य विधि: 1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 50 = 50$।\n2) 8 मशीनों + 4 TV का प्रारंभिक कुल $= 400 + 400 = 800$।\n3) निवल परिवर्तन $= (400 \\times 83\\%) - (400 \\times 38\\%) = 332 - 152 = +180$।\n4) प्रतिशत परिवर्तन $= \\frac{180}{800} \\times 100 = \\mathbf{22.5\\%\\text{ की वृद्धि}}$।\n\nविधि 2: भारित प्रतिशत शॉर्टकट: कुल आधार भार 800 से सीधे भारित योग को भाग दें:\n$$\\frac{400(+83) - 400(38)}{800}\\% = \\frac{18000}{800}\\% = \\mathbf{22.5\\%\\text{ की वृद्धि}}.$$"
     }
   },
   {
@@ -1353,10 +1427,38 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (25.44%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (25.44%) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**25.44%**).",
+      "keyConcept": "Equal +r% Twice = 2r + r²/100",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Successive Formula",
+            "hi": "विधि 1: क्रमिक सूत्र विधि"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$12 + 12 + \\frac{12 \\times 12}{100} = 24 + 1.44 = \\mathbf{25.44\\%}$.",
+            "hi": "$12 + 12 + \\frac{144}{100} = 24 + 1.44 = \\mathbf{25.44\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral (2a | a²) Pattern (2 sec)",
+            "hi": "विधि 2: मौखिक (2a . a²) पैटर्न (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`2×12` before decimal, `12² = 144` after decimal (carry 1) ⇒ `24 + 1.44` = **25.44%**!",
+            "hi": "दशमलव से पहले `2×12=24` व बाद में `12²=144` (हासिल 1 जोड़ें) ⇒ **25.44%**!"
+          }
+        }
+      ],
+      "en": "Method 1: Successive Formula: $12 + 12 + \\frac{12 \\times 12}{100} = 24 + 1.44 = \\mathbf{25.44\\%}$.\n\nMethod 2: Oral (2a | a²) Pattern (2 sec): `2×12` before decimal, `12² = 144` after decimal (carry 1) ⇒ `24 + 1.44` = **25.44%**!",
+      "hi": "विधि 1: क्रमिक सूत्र विधि: $12 + 12 + \\frac{144}{100} = 24 + 1.44 = \\mathbf{25.44\\%}$।\n\nविधि 2: मौखिक (2a . a²) पैटर्न (2 sec): दशमलव से पहले `2×12=24` व बाद में `12²=144` (हासिल 1 जोड़ें) ⇒ **25.44%**!"
     }
   },
   {

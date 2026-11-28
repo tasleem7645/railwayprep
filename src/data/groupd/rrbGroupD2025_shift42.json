@@ -1655,10 +1655,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official RRB Answer Key: Option A (97). Note: PDF OCR mixed Half-Yearly CI text with $15^2 - 12^2 + \\sqrt{256}$ options.",
+      "keyConcept": "OCR-Merged Question Verification (15² − 12² + √256 = 97 vs Half-Yearly CI 1.5 Years)",
+      "trapAlert": {
+        "en": "Source PDF Overlap Notice: Question stem contains half-yearly CI text (`₹64,000 -> ₹74,088 at 10% p.a.`), whereas the options (`97, 89, 95, 101`) and official solution match $15^2 - 12^2 + \\sqrt{256} = 97$!",
+        "hi": "स्रोत PDF सूचना: इस प्रश्न के पाठ में अर्ध-वार्षिक CI (`₹64,000 -> ₹74,088`) और रोलर का अंश आ गया है, जबकि इसके चारों विकल्प (`97, 89, 95, 101`) व आधिकारिक हल $15^2 - 12^2 + \\sqrt{256} = \\mathbf{97}$ के हैं।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Official Options Evaluation (15² − 12² + √256)",
+            "hi": "विधि 1: आधिकारिक विकल्प गणना (15² − 12² + √256)"
+          },
+          "audience": {
+            "en": "Official Key",
+            "hi": "आधिकारिक कुंजी"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Matching official solution key: $15^2 - 12^2 + \\sqrt{256} = 225 - 144 + 16 = 81 + 16 = \\mathbf{97}$ (**Option A**).",
+            "hi": "आधिकारिक हल के अनुसार: $15^2 - 12^2 + \\sqrt{256} = 225 - 144 + 16 = \\mathbf{97}$ (**विकल्प A**)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Half-Yearly CI Concept (₹64,000 -> ₹74,088)",
+            "hi": "विधि 2: अर्ध-वार्षिक CI सिद्धांत (₹64,000 -> ₹74,088)"
+          },
+          "audience": {
+            "en": "Concept Clarity",
+            "hi": "कांसेप्ट स्पष्टता"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$\\frac{74{,}088}{64{,}000} = \\frac{9261}{8000} = \\left(\\frac{21}{20}\\right)^3$",
+          "steps": {
+            "en": "For the CI stem shown: Half-yearly rate $= 10\\% / 2 = 5\\% = \\frac{1}{20}$. Ratio $\\frac{74{,}088}{64{,}000} = \\left(\\frac{21}{20}\\right)^3 \\Rightarrow 3$ half-years $= 1.5$ years!",
+            "hi": "प्रश्न में दिए CI भाग हेतु: अर्ध-वार्षिक दर $= 5\\% = \\frac{1}{20}$। अनुपात $\\frac{74{,}088}{64{,}000} = \\frac{9261}{8000} = (\\frac{21}{20})^3 \\Rightarrow 3$ छमाही $= 1.5$ वर्ष!"
+          }
+        }
+      ],
+      "en": "Method 1: Official Options Evaluation (15² − 12² + √256): Matching official solution key: $15^2 - 12^2 + \\sqrt{256} = 225 - 144 + 16 = 81 + 16 = \\mathbf{97}$ (**Option A**).\n\nMethod 2: Half-Yearly CI Concept (₹64,000 -> ₹74,088): For the CI stem shown: Half-yearly rate $= 10\\% / 2 = 5\\% = \\frac{1}{20}$. Ratio $\\frac{74{,}088}{64{,}000} = \\left(\\frac{21}{20}\\right)^3 \\Rightarrow 3$ half-years $= 1.5$ years!",
+      "hi": "विधि 1: आधिकारिक विकल्प गणना (15² − 12² + √256): आधिकारिक हल के अनुसार: $15^2 - 12^2 + \\sqrt{256} = 225 - 144 + 16 = \\mathbf{97}$ (**विकल्प A**)।\n\nविधि 2: अर्ध-वार्षिक CI सिद्धांत (₹64,000 -> ₹74,088): प्रश्न में दिए CI भाग हेतु: अर्ध-वार्षिक दर $= 5\\% = \\frac{1}{20}$। अनुपात $\\frac{74{,}088}{64{,}000} = \\frac{9261}{8000} = (\\frac{21}{20})^3 \\Rightarrow 3$ छमाही $= 1.5$ वर्ष!"
     }
   },
   {
@@ -1757,10 +1798,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Reduction % = [r / (100 + r)] * 100 = [25 / 125] * 100 = 20%. Correct: Option A (20%).",
-      "hi": "खपत में कमी = [25 / 125] × 100 = 20%। सही उत्तर: विकल्प A (20%)।"
+      "approach": "Official Answer: Option A (**20%**).",
+      "keyConcept": "AB Rule: +1/4 Price ⇒ −1/(4+1) = −1/5 Consumption = −20%",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base 100 Comparison",
+            "hi": "विधि 1: 100 आधार तुलना"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Price $100 \\to 125$. Reduction needed $= \\frac{125 - 100}{125} \\times 100 = \\mathbf{20\\%}$.",
+            "hi": "कीमत $100 \\to 125$। कमी $= \\frac{25}{125} \\times 100 = \\mathbf{20\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: AB Rule (+1/4 → −1/5) (1 sec)",
+            "hi": "विधि 2: AB नियम (+1/4 → −1/5) (1 sec)"
+          },
+          "timeTag": "1 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$+25\\% = +\\frac{1}{4} \\implies \\text{Drop} = \\frac{1}{4+1} = \\frac{1}{5} = \\mathbf{20\\%}$!",
+            "hi": "$+25\\% = +\\frac{1}{4} \\implies$ कमी $= \\frac{1}{4+1} = \\frac{1}{5} = \\mathbf{20\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Base 100 Comparison: Price $100 \\to 125$. Reduction needed $= \\frac{125 - 100}{125} \\times 100 = \\mathbf{20\\%}$.\n\nMethod 2: AB Rule (+1/4 → −1/5) (1 sec): $+25\\% = +\\frac{1}{4} \\implies \\text{Drop} = \\frac{1}{4+1} = \\frac{1}{5} = \\mathbf{20\\%}$!",
+      "hi": "विधि 1: 100 आधार तुलना: कीमत $100 \\to 125$। कमी $= \\frac{25}{125} \\times 100 = \\mathbf{20\\%}$।\n\nविधि 2: AB नियम (+1/4 → −1/5) (1 sec): $+25\\% = +\\frac{1}{4} \\implies$ कमी $= \\frac{1}{4+1} = \\frac{1}{5} = \\mathbf{20\\%}$!"
     }
   },
   {

@@ -1081,10 +1081,51 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option D (100%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (100%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**100%**).",
+      "keyConcept": "Any non-zero quantity A is always 100% of itself (A)",
+      "optionTrick": {
+        "en": "Numerator and denominator (`5% of x`) are IDENTICAL -> ratio `1` -> **100%** instantly!",
+        "hi": "अंश व हर (`संख्या का 5%`) बिल्कुल समान हैं — कोई भी राशि स्वयं का **100%** होती है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Algebraic Ratio Method",
+            "hi": "विधि 1: बीजीय अनुपात विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$\\frac{5\\% \\text{ of } N}{5\\% \\text{ of } N} \\times 100\\%$",
+          "steps": {
+            "en": "Let number be $N = 100$. Both $5\\%$ of $100 = 5$. Required percentage $= \\frac{5}{5} \\times 100\\% = \\mathbf{100\\%}$.",
+            "hi": "मानें संख्या $= 100$। दोनों ही 100 का $5\\% = 5$ हैं। अतः अभीष्ट प्रतिशत $= \\frac{5}{5} \\times 100\\% = \\mathbf{100\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Pen Identity (2 sec)",
+            "hi": "विधि 2: बिना पेन सीधे नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Both clauses refer to the exact same value (0.05N). Any quantity compared against itself is $\\mathbf{100\\%}$ (do not confuse with $25\\%$).",
+            "hi": "दोनों भाग ठीक एक ही मान (0.05N) को दर्शाते हैं — समान राशि स्वयं के **100%** बराबर होती है (25% वाले जाल से बचें)।"
+          }
+        }
+      ],
+      "en": "Method 1: Algebraic Ratio Method: Let number be $N = 100$. Both $5\\%$ of $100 = 5$. Required percentage $= \\frac{5}{5} \\times 100\\% = \\mathbf{100\\%}$.\n\nMethod 2: Zero-Pen Identity (2 sec): Both clauses refer to the exact same value (0.05N). Any quantity compared against itself is $\\mathbf{100\\%}$ (do not confuse with $25\\%$).",
+      "hi": "विधि 1: बीजीय अनुपात विधि: मानें संख्या $= 100$। दोनों ही 100 का $5\\% = 5$ हैं। अतः अभीष्ट प्रतिशत $= \\frac{5}{5} \\times 100\\% = \\mathbf{100\\%}$।\n\nविधि 2: बिना पेन सीधे नियम: दोनों भाग ठीक एक ही मान (0.05N) को दर्शाते हैं — समान राशि स्वयं के **100%** बराबर होती है (25% वाले जाल से बचें)।"
     },
     "correctIndexHi": 3
   },
@@ -2099,10 +2140,38 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (4,900). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (4,900)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**4,900**).",
+      "keyConcept": "Fraction Cross (`5:7` & `8:11`) OR 1-Line Formula `0.025x = 122.5`!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Clean Linear Shift Equation",
+            "hi": "विधि 1: रैखिक समीकरण विधि"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Old `CP = x`, `SP = 1.4x`. Condition: $1.4x - 84 = 1.375(x + 28) = 1.375x + 38.5$.\n$0.025x = 122.5 \\implies x = 122.5 \\times 40 =$ **4,900**.",
+            "hi": "$1.4x - 84 = 1.375(x + 28) = 1.375x + 38.5 \\implies 0.025x = 122.5 \\implies x = 122.5 \\times 40 =$ **4,900**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Cross Multiplication (5:7 vs 8:11) (6 sec)",
+            "hi": "विधि 2: अनुपात क्रॉस गुणन 5:7 व 8:11 (6 sec)"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Write `5 : 7` (`40%`) above `8 : 11` (`37.5% = 3/8`) with shifts `+28`, `−84`.\nTop cross gap `|5×11 − 7×8| = 1 unit`.\nBottom cross gap `|11(+28) − 8(−84)| = 308 + 672 = 980`.\nOrig `CP = 5 units = 5 × 980 =` **4,900**!",
+            "hi": "अनुपात `5 : 7` व `8 : 11` के नीचे `+28, −84` लिखें।\nऊपरी क्रॉस `|55 − 56| = 1 इकाई`; निचला क्रॉस `308 + 672 = 980` ⇒ `CP = 5 × 980 =` **4,900**!"
+          }
+        }
+      ],
+      "en": "Method 1: Clean Linear Shift Equation: Old `CP = x`, `SP = 1.4x`. Condition: $1.4x - 84 = 1.375(x + 28) = 1.375x + 38.5$.\n$0.025x = 122.5 \\implies x = 122.5 \\times 40 =$ **4,900**.\n\nMethod 2: Ratio Cross Multiplication (5:7 vs 8:11) (6 sec): Write `5 : 7` (`40%`) above `8 : 11` (`37.5% = 3/8`) with shifts `+28`, `−84`.\nTop cross gap `|5×11 − 7×8| = 1 unit`.\nBottom cross gap `|11(+28) − 8(−84)| = 308 + 672 = 980`.\nOrig `CP = 5 units = 5 × 980 =` **4,900**!",
+      "hi": "विधि 1: रैखिक समीकरण विधि: $1.4x - 84 = 1.375(x + 28) = 1.375x + 38.5 \\implies 0.025x = 122.5 \\implies x = 122.5 \\times 40 =$ **4,900**।\n\nविधि 2: अनुपात क्रॉस गुणन 5:7 व 8:11 (6 sec): अनुपात `5 : 7` व `8 : 11` के नीचे `+28, −84` लिखें।\nऊपरी क्रॉस `|55 − 56| = 1 इकाई`; निचला क्रॉस `308 + 672 = 980` ⇒ `CP = 5 × 980 =` **4,900**!"
     },
     "correctIndexHi": 0
   },

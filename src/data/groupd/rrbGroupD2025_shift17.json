@@ -1321,10 +1321,38 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Increase by 8.2%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (8.2% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**Increase by 8.2%**).",
+      "keyConcept": "Weighted Asset Ratio: Let TV = 100 (or 2), WM = 50 (or 1)",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base 100 & 50 Cost Table",
+            "hi": "विधि 1: 100 व 50 कीमत मानकर गणना"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Let $TV = 100, WM = 50$. Old Total $= 4(50) + 3(100) = 200 + 300 = 500$.\nNet Change $= 200(+0.76) + 300(-0.37) = +152 - 111 = +41$.\n$\\%\\Delta = \\frac{+41}{500} \\times 100 = \\mathbf{+8.2\\%}$ (**Increase by 8.2%**).",
+            "hi": "माना $TV = 100, WM = 50$। कुल लागत $= 4(50) + 3(100) = 500$।\nबदलाव $= 200(+76\\%) + 300(-37\\%) = +152 - 111 = +41$।\n$\\frac{+41}{500} \\times 100 = \\mathbf{8.2\\%\\text{ की वृद्धि}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Minimal Ratio Weight 2 : 3 (5 sec)",
+            "hi": "विधि 2: न्यूनतम लागत अनुपात 2 : 3 (5 sec)"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Spend Share `WM(4×1) : TV(3×2) = 4 : 6 = 2 : 3`! Weighted `% = (2×76 − 3×37) / 5 = (152 − 111)/5 = 41/5 =` **+8.2%**!",
+            "hi": "कुल हिस्सा `WM(4×1) : TV(3×2) = 2 : 3`! औसत बदलाव $= \\frac{2(76) - 3(37)}{5} = \\frac{41}{5} = \\mathbf{+8.2\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Base 100 & 50 Cost Table: Let $TV = 100, WM = 50$. Old Total $= 4(50) + 3(100) = 200 + 300 = 500$.\nNet Change $= 200(+0.76) + 300(-0.37) = +152 - 111 = +41$.\n$\\%\\Delta = \\frac{+41}{500} \\times 100 = \\mathbf{+8.2\\%}$ (**Increase by 8.2%**).\n\nMethod 2: Minimal Ratio Weight 2 : 3 (5 sec): Spend Share `WM(4×1) : TV(3×2) = 4 : 6 = 2 : 3`! Weighted `% = (2×76 − 3×37) / 5 = (152 − 111)/5 = 41/5 =` **+8.2%**!",
+      "hi": "विधि 1: 100 व 50 कीमत मानकर गणना: माना $TV = 100, WM = 50$। कुल लागत $= 4(50) + 3(100) = 500$।\nबदलाव $= 200(+76\\%) + 300(-37\\%) = +152 - 111 = +41$।\n$\\frac{+41}{500} \\times 100 = \\mathbf{8.2\\%\\text{ की वृद्धि}}$।\n\nविधि 2: न्यूनतम लागत अनुपात 2 : 3 (5 sec): कुल हिस्सा `WM(4×1) : TV(3×2) = 2 : 3`! औसत बदलाव $= \\frac{2(76) - 3(37)}{5} = \\frac{41}{5} = \\mathbf{+8.2\\%}$!"
     }
   },
   {
@@ -1355,10 +1383,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Profit/Loss Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (540) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (540) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**540**).",
+      "keyConcept": "Weighted Lot % = (2×25 − 1×10) / 3 = 40/3 % ⇒ Match Total Profit ₹360!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Let Total Pens = 3x",
+            "hi": "विधि 1: कुल पेन = 3x मानें"
+          },
+          "timeTag": "16 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Total CP $= 3x \\times 5 = 15x$. Profit on `2x` $= 10x(0.25) = +2.5x$; Loss on `x` $= -0.5x$.\nNet Profit $= 2x = 360 \\implies x = 180 \\implies 3x =$ **540 pens**!",
+            "hi": "माना कुल पेन `3x` (`CP = 15x`)। लाभ $= 2x(5)(0.25) - x(5)(0.10) = 2x = 360 \\implies x = 180 \\implies 3x =$ **540**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Rate 40/3 % = ₹360 (5 sec)",
+            "hi": "विधि 2: भारित दर 40/3% = ₹360 (5 sec)"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net Profit `% = (2×25 − 1×10) / 3 = 40/3 %` (`= 2/15` of Total CP) `= ₹360`.\nTotal CP $= 360 \\times \\frac{15}{2} = 2700 \\implies$ Pens $= 2700 \\div 5 =$ **540**!",
+            "hi": "कुल लाभ% $= (50 − 10)/3 = 40/3\\% = 2/15$ ⇒ कुल CP $= 360 \\times 15/2 = 2700$ ⇒ पेन $= 2700 \\div 5 =$ **540**!"
+          }
+        }
+      ],
+      "en": "Method 1: Let Total Pens = 3x: Total CP $= 3x \\times 5 = 15x$. Profit on `2x` $= 10x(0.25) = +2.5x$; Loss on `x` $= -0.5x$.\nNet Profit $= 2x = 360 \\implies x = 180 \\implies 3x =$ **540 pens**!\n\nMethod 2: Weighted Rate 40/3 % = ₹360 (5 sec): Net Profit `% = (2×25 − 1×10) / 3 = 40/3 %` (`= 2/15` of Total CP) `= ₹360`.\nTotal CP $= 360 \\times \\frac{15}{2} = 2700 \\implies$ Pens $= 2700 \\div 5 =$ **540**!",
+      "hi": "विधि 1: कुल पेन = 3x मानें: माना कुल पेन `3x` (`CP = 15x`)। लाभ $= 2x(5)(0.25) - x(5)(0.10) = 2x = 360 \\implies x = 180 \\implies 3x =$ **540**।\n\nविधि 2: भारित दर 40/3% = ₹360 (5 sec): कुल लाभ% $= (50 − 10)/3 = 40/3\\% = 2/15$ ⇒ कुल CP $= 360 \\times 15/2 = 2700$ ⇒ पेन $= 2700 \\div 5 =$ **540**!"
     }
   },
   {

@@ -877,10 +877,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • 2-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹2,434.80) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹2,434.80) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹2,434.80**).",
+      "keyConcept": "Build 3-Yr Tree Directly Without Principal: a = 750, b = 60, c = 8% of 60 = 4.80!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Golden Tree Year-by-Year (a, b, c)",
+            "hi": "विधि 1: 3-वर्ष गोल्डन ट्री विधि"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "2-Yr SI `1500` ⇒ `a = 750/yr`; Gap `b = 1560 − 1500 = 60`.\nRate $= \\frac{60}{750} = 8\\%$. Year 3 extra on `b`: `c = 8%(60) = 4.80`.\n3-Yr CI $= 1560 + (750 + 2(60) + 4.80) =$ **₹2,434.80**.",
+            "hi": "`a = 750`, `b = 60` ⇒ दर $= 60/750 = 8\\%$, `c = 60 का 8% = 4.80`।\n`3` वर्ष CI $= 3(750) + 3(60) + 4.80 = 2250 + 180 + 4.80 =$ **₹2,434.80**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Notice Unique .80 Last Decimal (4 sec)",
+            "hi": "विधि 2: अंतिम दशमलव .80 लॉक (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "From `a=750, b=60`, `c = 60² / 750 = 3600 / 750 = 4.80`! Only **₹2,434.80** ends in `.80`!",
+            "hi": "सिर्फ इतना देखें: `c = b²/a = 3600/750 = 4.80`! विकल्पों में केवल **₹2,434.80** के अंत में `.80` है!"
+          }
+        }
+      ],
+      "en": "Method 1: Golden Tree Year-by-Year (a, b, c): 2-Yr SI `1500` ⇒ `a = 750/yr`; Gap `b = 1560 − 1500 = 60`.\nRate $= \\frac{60}{750} = 8\\%$. Year 3 extra on `b`: `c = 8%(60) = 4.80`.\n3-Yr CI $= 1560 + (750 + 2(60) + 4.80) =$ **₹2,434.80**.\n\nMethod 2: Notice Unique .80 Last Decimal (4 sec): From `a=750, b=60`, `c = 60² / 750 = 3600 / 750 = 4.80`! Only **₹2,434.80** ends in `.80`!",
+      "hi": "विधि 1: 3-वर्ष गोल्डन ट्री विधि: `a = 750`, `b = 60` ⇒ दर $= 60/750 = 8\\%$, `c = 60 का 8% = 4.80`।\n`3` वर्ष CI $= 3(750) + 3(60) + 4.80 = 2250 + 180 + 4.80 =$ **₹2,434.80**।\n\nविधि 2: अंतिम दशमलव .80 लॉक (4 sec): सिर्फ इतना देखें: `c = b²/a = 3600/750 = 4.80`! विकल्पों में केवल **₹2,434.80** के अंत में `.80` है!"
     }
   },
   {
@@ -1215,10 +1243,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹5,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹5,000) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹5,000**).",
+      "keyConcept": "80% Spend => 20% (1/5) Savings",
+      "optionTrick": {
+        "en": "`20% = 1/5`, so `25,000 ÷ 5` = **₹5,000**!",
+        "hi": "बचत $= 20\\% = \\frac{1}{5}$; $25,000 \\div 5 = \\mathbf{Rs.5,000}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Spend-Subtract Method",
+            "hi": "विधि 1: बेसिक खर्च घटाव विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Savings $= (100\\% - 80\\%)$ of $Rs.25,000 = 20\\% \\times 25,000 = \\mathbf{Rs.5,000}$.",
+            "hi": "बचत $= (100\\% - 80\\%) = 20\\%$ of $Rs.25,000 = \\mathbf{Rs.5,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct 1/5 Fraction (2 sec)",
+            "hi": "विधि 2: सीधा 1/5 भिन्न ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$20\\% = \\frac{1}{5} \\Rightarrow \\frac{25{,}000}{5} = \\mathbf{Rs.5,000}$.",
+            "hi": "$20\\% = \\frac{1}{5} \\Rightarrow \\frac{25{,}000}{5} = \\mathbf{Rs.5,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Spend-Subtract Method: Savings $= (100\\% - 80\\%)$ of $Rs.25,000 = 20\\% \\times 25,000 = \\mathbf{Rs.5,000}$.\n\nMethod 2: Direct 1/5 Fraction (2 sec): $20\\% = \\frac{1}{5} \\Rightarrow \\frac{25{,}000}{5} = \\mathbf{Rs.5,000}$.",
+      "hi": "विधि 1: बेसिक खर्च घटाव विधि: बचत $= (100\\% - 80\\%) = 20\\%$ of $Rs.25,000 = \\mathbf{Rs.5,000}$।\n\nविधि 2: सीधा 1/5 भिन्न ट्रिक: $20\\% = \\frac{1}{5} \\Rightarrow \\frac{25{,}000}{5} = \\mathbf{Rs.5,000}$।"
     }
   },
   {
@@ -1353,10 +1421,56 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (increase by ₹13,161) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹13,161 की वृद्धि होगी) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**increase by ₹13,161**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+38\\%$, while expenditure change on whole income = $-\\frac{83}{100} \\times 20\\%$. That gives direct Net Factor $= 21.4\\%$ of ₹61,500 $= \\mathbf{Rs.13,161}$!",
+        "hi": "आय वृद्धि $= +38\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 83\\% \\times 20\\% = 16.6\\%$ — दोनों का अंतर ही ₹61,500 पर सीधी वृद्धि ($\\mathbf{Rs.13,161}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 17\\%$ of ₹61,500 = **₹10,455**; Old Expenditure $= 83\\%$ of ₹61,500 = **₹51,045**.\n2) New Income ($+38\\%$) = **₹84,870**; New Expenditure ($+20\\%$) = **₹61,254**.\n3) New Savings $= Rs.84,870 - Rs.61,254 = Rs.23,616$.\n4) Change $= Rs.23,616 - Rs.10,455 \\Rightarrow$ **Increase of ₹13,161**.",
+            "hi": "1) पुरानी बचत $= Rs.61,500$ का $17\\% = \\mathbf{Rs.10,455}$ तथा पुराना व्यय $= \\mathbf{Rs.51,045}$।\n2) नई आय ($+38\\%$) $= Rs.84,870$ तथा नया व्यय ($+20\\%$) $= Rs.61,254$।\n3) नई बचत $= Rs.84,870 - Rs.61,254 = Rs.23,616$।\n4) बचत में अंतर $\\Rightarrow$ **₹13,161 की वृद्धि**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +38\\%$ of ₹61,500 = **+₹23,370**.\n2) $E = 83\\% \\times Rs.61,500 = Rs.51,045$, so $\\Delta E = +20\\% \\times Rs.51,045 = +Rs.10,209$.\n3) $\\Delta S = Rs.23,370 - Rs.10,209 = +Rs.13,161 \\Rightarrow$ **Increase by ₹13,161**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.61,500$ का $+38\\% = +Rs.23,370$।\n2) व्यय ₹51,045 का $\\Delta \\text{व्यय} = +20\\% = +Rs.10,209$।\n3) $\\Delta \\text{बचत} = Rs.23,370 - Rs.10,209 = \\mathbf{Rs.13,161}$ की **वृद्धि**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 17\\%$ of ₹61,500 = **₹10,455**; Old Expenditure $= 83\\%$ of ₹61,500 = **₹51,045**.\n2) New Income ($+38\\%$) = **₹84,870**; New Expenditure ($+20\\%$) = **₹61,254**.\n3) New Savings $= Rs.84,870 - Rs.61,254 = Rs.23,616$.\n4) Change $= Rs.23,616 - Rs.10,455 \\Rightarrow$ **Increase of ₹13,161**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +38\\%$ of ₹61,500 = **+₹23,370**.\n2) $E = 83\\% \\times Rs.61,500 = Rs.51,045$, so $\\Delta E = +20\\% \\times Rs.51,045 = +Rs.10,209$.\n3) $\\Delta S = Rs.23,370 - Rs.10,209 = +Rs.13,161 \\Rightarrow$ **Increase by ₹13,161**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.61,500$ का $17\\% = \\mathbf{Rs.10,455}$ तथा पुराना व्यय $= \\mathbf{Rs.51,045}$।\n2) नई आय ($+38\\%$) $= Rs.84,870$ तथा नया व्यय ($+20\\%$) $= Rs.61,254$।\n3) नई बचत $= Rs.84,870 - Rs.61,254 = Rs.23,616$।\n4) बचत में अंतर $\\Rightarrow$ **₹13,161 की वृद्धि**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.61,500$ का $+38\\% = +Rs.23,370$।\n2) व्यय ₹51,045 का $\\Delta \\text{व्यय} = +20\\% = +Rs.10,209$।\n3) $\\Delta \\text{बचत} = Rs.23,370 - Rs.10,209 = \\mathbf{Rs.13,161}$ की **वृद्धि**।"
     }
   },
   {
@@ -1523,10 +1637,38 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Two Items Mixing",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (258 grams) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (258 ग्राम) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**258 grams**).",
+      "keyConcept": "Keep Water Constant (Not Sugar!) OR Apply Alligation (20%, 100% → 50%)",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Constant Water Weight",
+            "hi": "विधि 1: स्थिर पानी मात्रा विधि"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Water $= 80\\%$ of $430 = 344\\text{ g}$.\nAt $50\\%$ sugar, Water is $50\\% = 344\\text{ g} \\implies$ Sugar must also equal $344\\text{ g}$.\nInitial Sugar $= 86\\text{ g} \\implies$ Add $344 - 86 = \\mathbf{258\\text{ g}}$.",
+            "hi": "पानी $= 430$ का $80\\% = 344\\text{ g}$। अंत में 50% शर्करा ⇒ 50% पानी = $344\\text{ g}$ ⇒ शर्करा भी $344\\text{ g}$ चाहिए। पहले $86\\text{ g}$ थी ⇒ मिलाएं $344 - 86 = \\mathbf{258\\text{ ग्राम}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Alligation Cross (4 sec)",
+            "hi": "विधि 2: Alligation क्रॉस (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Old `20%` mixed with Pure Sugar `100%` to form `50%` ⇒ Ratio `50 : 30 = 5 : 3`.\n`5 parts = 430` (`×86`) ⇒ Sugar Added `3 parts = 3 × 86` = **258 grams**!",
+            "hi": "`20%` व शुद्ध शर्करा `100%` को मिलाकर `50%` ⇒ अनुपात `50 : 30 = 5 : 3`। `5 = 430 (×86)` ⇒ मिलाई शर्करा `3 × 86` = **258 ग्राम**!"
+          }
+        }
+      ],
+      "en": "Method 1: Constant Water Weight: Water $= 80\\%$ of $430 = 344\\text{ g}$.\nAt $50\\%$ sugar, Water is $50\\% = 344\\text{ g} \\implies$ Sugar must also equal $344\\text{ g}$.\nInitial Sugar $= 86\\text{ g} \\implies$ Add $344 - 86 = \\mathbf{258\\text{ g}}$.\n\nMethod 2: Alligation Cross (4 sec): Old `20%` mixed with Pure Sugar `100%` to form `50%` ⇒ Ratio `50 : 30 = 5 : 3`.\n`5 parts = 430` (`×86`) ⇒ Sugar Added `3 parts = 3 × 86` = **258 grams**!",
+      "hi": "विधि 1: स्थिर पानी मात्रा विधि: पानी $= 430$ का $80\\% = 344\\text{ g}$। अंत में 50% शर्करा ⇒ 50% पानी = $344\\text{ g}$ ⇒ शर्करा भी $344\\text{ g}$ चाहिए। पहले $86\\text{ g}$ थी ⇒ मिलाएं $344 - 86 = \\mathbf{258\\text{ ग्राम}}$।\n\nविधि 2: Alligation क्रॉस (4 sec): `20%` व शुद्ध शर्करा `100%` को मिलाकर `50%` ⇒ अनुपात `50 : 30 = 5 : 3`। `5 = 430 (×86)` ⇒ मिलाई शर्करा `3 × 86` = **258 ग्राम**!"
     }
   },
   {
@@ -1761,10 +1903,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Percentage Based",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (6,00,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (6,00,000) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option A (6,00,000). Note: Accompanying DI Chart/Table image was truncated in source PDF.",
+      "keyConcept": "Data Interpretation Percentage Comparison Formula",
+      "trapAlert": {
+        "en": "Source Data Notice: The original RRB exam line-graph/table visual for this DI question was not embedded in the extracted PDF text. Official Answer Key is Option A (6,00,000).",
+        "hi": "स्रोत सूचना: इस Data Interpretation प्रश्न से जुड़ा मूल ग्राफ़/सारणी चित्र स्रोत PDF से निष्कर्षित नहीं हो सका। आधिकारिक RRB उत्तर कुंजी के अनुसार सही उत्तर विकल्प A (6,00,000) है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: DI Percentage Formula Framework",
+            "hi": "विधि 1: DI प्रतिशत तुलना सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "DI Rule",
+          "tone": "teal",
+          "formula": "$\\%\\text{ More} = \\frac{B - A}{A} \\times 100$",
+          "steps": {
+            "en": "1) In DI percentage-excess / budget-share problems, always identify the **Base** after \"than / of\" in denominator: $\\frac{\\text{Difference}}{\\text{Reference Base}} \\times 100$.\n2) Official RRB CEN 09/2025 Verified Answer: **Option A (6,00,000)**.",
+            "hi": "1) ग्राफ़ या सारणी आधारित प्रतिशत प्रश्नों में \"से अधिक / तुलना में\" वाली आधार संख्या को हर (denominator) में रखकर $\\frac{\\text{अंतर}}{\\text{आधार}} \\times 100$ लगाते हैं।\n2) आधिकारिक RRB CEN 09/2025 उत्तर कुंजी: **विकल्प A (6,00,000)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Graph Visual Ratio Estimation Trick",
+            "hi": "विधि 2: ग्राफ़ अनुपात त्वरित तुलना"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "For Pie Charts ($100\\% = 360^\\circ$) or Bar/Line comparisons, convert values into simplified ratios before multiplying by 100 or Total Budget. Verified Key: **6,00,000**.",
+            "hi": "पाई चार्ट ($100\\% = 360^\\circ$) या लाइन ग्राफ़ में मानों को पहले सरल अनुपात में बदलें, फिर कुल बजट से गुणा करें। प्रमाणित उत्तर: **6,00,000**।"
+          }
+        }
+      ],
+      "en": "Method 1: DI Percentage Formula Framework: 1) In DI percentage-excess / budget-share problems, always identify the **Base** after \"than / of\" in denominator: $\\frac{\\text{Difference}}{\\text{Reference Base}} \\times 100$.\n2) Official RRB CEN 09/2025 Verified Answer: **Option A (6,00,000)**.\n\nMethod 2: Graph Visual Ratio Estimation Trick: For Pie Charts ($100\\% = 360^\\circ$) or Bar/Line comparisons, convert values into simplified ratios before multiplying by 100 or Total Budget. Verified Key: **6,00,000**.",
+      "hi": "विधि 1: DI प्रतिशत तुलना सूत्र: 1) ग्राफ़ या सारणी आधारित प्रतिशत प्रश्नों में \"से अधिक / तुलना में\" वाली आधार संख्या को हर (denominator) में रखकर $\\frac{\\text{अंतर}}{\\text{आधार}} \\times 100$ लगाते हैं।\n2) आधिकारिक RRB CEN 09/2025 उत्तर कुंजी: **विकल्प A (6,00,000)**।\n\nविधि 2: ग्राफ़ अनुपात त्वरित तुलना: पाई चार्ट ($100\\% = 360^\\circ$) या लाइन ग्राफ़ में मानों को पहले सरल अनुपात में बदलें, फिर कुल बजट से गुणा करें। प्रमाणित उत्तर: **6,00,000**।"
     }
   },
   {

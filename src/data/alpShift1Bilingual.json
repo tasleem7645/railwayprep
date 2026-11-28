@@ -1147,10 +1147,38 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Key Concept: Logical & Analytical Reasoning (General Intelligence & Reasoning)",
-      "en": "Correct Answer: Option C (144). Verified by official Railway Recruitment Board answer key.",
-      "hi": "सही उत्तर: विकल्प C (144)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**144**).",
+      "keyConcept": "Find Valid Votes First (`1500 − 300 = 1200`), Then Multiply |40% − 28%|",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Separate Vote Counts",
+            "hi": "विधि 1: दोनों के अलग मत निकालें"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Valid $= 1500 - 300 = 1200$.\n$X = 40\\%$ of $1200 = 480$; $Y = 28\\%$ of $1200 = 336 \\implies 480 - 336 = \\mathbf{144}$.",
+            "hi": "वैध मत $= 1500 - 300 = 1200$।\n$X = 480$, $Y = 336 \\implies$ अंतर $= 480 - 336 = \\mathbf{144}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Percentage Gap (3 sec)",
+            "hi": "विधि 2: सीधा प्रतिशत अंतर (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Gap $= 40\\% - 28\\% = 12\\%$ of Valid (`1200`). Compute $12 \\times 12 = \\mathbf{144}$!",
+            "hi": "अंतर $= (40\\% - 28\\%) = 12\\%$ of $1200 = 12 \\times 12 = \\mathbf{144}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Separate Vote Counts: Valid $= 1500 - 300 = 1200$.\n$X = 40\\%$ of $1200 = 480$; $Y = 28\\%$ of $1200 = 336 \\implies 480 - 336 = \\mathbf{144}$.\n\nMethod 2: Direct Percentage Gap (3 sec): Gap $= 40\\% - 28\\% = 12\\%$ of Valid (`1200`). Compute $12 \\times 12 = \\mathbf{144}$!",
+      "hi": "विधि 1: दोनों के अलग मत निकालें: वैध मत $= 1500 - 300 = 1200$।\n$X = 480$, $Y = 336 \\implies$ अंतर $= 480 - 336 = \\mathbf{144}$।\n\nविधि 2: सीधा प्रतिशत अंतर (3 sec): अंतर $= (40\\% - 28\\%) = 12\\%$ of $1200 = 12 \\times 12 = \\mathbf{144}$!"
     },
     "correctIndexHi": 2
   },

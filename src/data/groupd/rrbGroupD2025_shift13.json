@@ -1319,10 +1319,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Population Based Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (2.05%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (2.05%) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**2.05%**).",
+      "keyConcept": "Percentage Increase = (Increase / Original Value) × 100",
+      "optionTrick": {
+        "en": "$1435 \\div 700$: check $7 \\times 2 = 14$, remaining $35 \\div 7 = 5 \\Rightarrow \\mathbf{2.05\\%}$ mentally!",
+        "hi": "$1435 \\div 700$: पहले $14 \\div 7 = 2$, फिर $35 \\div 7 = 0.05 \\Rightarrow$ मन में ही **2.05%**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard % Increase",
+            "hi": "विधि 1: मानक प्रतिशत वृद्धि सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Increase $= 71,435 - 70,000 = 1,435$.\n2) $\\%$ Increase $= \\frac{1{,}435}{70{,}000} \\times 100 = \\frac{1{,}435}{700} = \\mathbf{2.05\\%}$.",
+            "hi": "1) वृद्धि $= 71,435 - 70,000 = 1,435$।\n2) प्रतिशत वृद्धि $= \\frac{1{,}435}{70{,}000} \\times 100 = \\frac{1{,}435}{700} = \\mathbf{2.05\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Chunk Division by 700 (5 sec)",
+            "hi": "विधि 2: 700 से टुकड़ों में विभाजन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $1\\%$ of $70,000 = 700$, split increase $1,435 = 1,400 + 35 = 2(700) + 0.05(700) = \\mathbf{2.05\\%}$.",
+            "hi": "चूँकि 70,000 का $1\\% = 700$, अतः $1,435 = 1,400 + 35 = (2 + 0.05) \\times 700 = \\mathbf{2.05\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Standard % Increase: 1) Increase $= 71,435 - 70,000 = 1,435$.\n2) $\\%$ Increase $= \\frac{1{,}435}{70{,}000} \\times 100 = \\frac{1{,}435}{700} = \\mathbf{2.05\\%}$.\n\nMethod 2: Chunk Division by 700 (5 sec): Since $1\\%$ of $70,000 = 700$, split increase $1,435 = 1,400 + 35 = 2(700) + 0.05(700) = \\mathbf{2.05\\%}$.",
+      "hi": "विधि 1: मानक प्रतिशत वृद्धि सूत्र: 1) वृद्धि $= 71,435 - 70,000 = 1,435$।\n2) प्रतिशत वृद्धि $= \\frac{1{,}435}{70{,}000} \\times 100 = \\frac{1{,}435}{700} = \\mathbf{2.05\\%}$।\n\nविधि 2: 700 से टुकड़ों में विभाजन ट्रिक: चूँकि 70,000 का $1\\% = 700$, अतः $1,435 = 1,400 + 35 = (2 + 0.05) \\times 700 = \\mathbf{2.05\\%}$!"
     }
   },
   {

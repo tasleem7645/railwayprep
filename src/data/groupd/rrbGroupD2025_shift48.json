@@ -1251,10 +1251,56 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (2%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (2%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**2%**).",
+      "keyConcept": "Weighted Ratio-Weighted Average: E : S = 2 : 1",
+      "optionTrick": {
+        "en": "Since $E : S = 2 : 1$ ($I = 3$ parts), weighted change $= \\frac{2(-6\\%) + 1(+18\\%)}{3} = \\frac{6}{3}\\% = \\mathbf{2\\%}$!",
+        "hi": "अनुपात $E : S = 2 : 1$ ($I = 3$) लेकर सीधा भारित मान: $\\frac{2(-6) + 1(+18)}{3} = \\mathbf{2\\%}$!"
+      },
+      "trapAlert": {
+        "en": "\"100% more than savings\" means Expenditure = 100 + 100 = 200 (NOT 100!) when Savings = 100.",
+        "hi": "\"बचत से 100% अधिक\" का अर्थ व्यय $= 100 + 100 = 200$ है (न कि 100!) — यह परीक्षा का सबसे बड़ा जाल है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption",
+            "hi": "विधि 1: Base-100 मानकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$E = 100 + k\\%,\\; I = E + S$",
+          "steps": {
+            "en": "1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 100 = 200 \\Rightarrow$ Income $I = 300$.\n2) Change in $E = -6\\%$ of $200 = -12$; Change in $S = +18\\%$ of $100 = +18$.\n3) Net change in Income $= 6$ on $300 \\Rightarrow \\frac{6}{300} \\times 100 = \\mathbf{2\\%}$.",
+            "hi": "1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 200$ तथा आय $I = 300$।\n2) व्यय में परिवर्तन $= -6\\%$ of $200 = -12$; बचत में परिवर्तन $= +18$।\n3) आय में निवल वृद्धि $= 6$ पर कुल $300 \\Rightarrow \\frac{6}{300} \\times 100 = \\mathbf{2\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Average Ratio Trick",
+            "hi": "विधि 2: अनुपात-भारित औसत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta I = \\frac{2(-d) + 1(+g)}{2 + 1}$",
+          "steps": {
+            "en": "Ratio $E : S = 200 : 100 = 2 : 1$ (Total $= 3$ parts).\n$$\\text{Net }\\% = \\frac{2 \\times (-6) + 1 \\times (+18)}{3} = \\frac{-12 + 18}{3} = \\frac{6}{3} = \\mathbf{2\\%}.$$",
+            "hi": "सरल अनुपात $E : S = 2 : 1$ (योग $= 3$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{2(- 6) + 1(+18)}{3} = \\frac{6}{3} = \\mathbf{2\\%}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption: 1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 100 = 200 \\Rightarrow$ Income $I = 300$.\n2) Change in $E = -6\\%$ of $200 = -12$; Change in $S = +18\\%$ of $100 = +18$.\n3) Net change in Income $= 6$ on $300 \\Rightarrow \\frac{6}{300} \\times 100 = \\mathbf{2\\%}$.\n\nMethod 2: Weighted Average Ratio Trick: Ratio $E : S = 200 : 100 = 2 : 1$ (Total $= 3$ parts).\n$$\\text{Net }\\% = \\frac{2 \\times (-6) + 1 \\times (+18)}{3} = \\frac{-12 + 18}{3} = \\frac{6}{3} = \\mathbf{2\\%}.$$",
+      "hi": "विधि 1: Base-100 मानकर हल: 1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 200$ तथा आय $I = 300$।\n2) व्यय में परिवर्तन $= -6\\%$ of $200 = -12$; बचत में परिवर्तन $= +18$।\n3) आय में निवल वृद्धि $= 6$ पर कुल $300 \\Rightarrow \\frac{6}{300} \\times 100 = \\mathbf{2\\%}$।\n\nविधि 2: अनुपात-भारित औसत ट्रिक: सरल अनुपात $E : S = 2 : 1$ (योग $= 3$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{2(- 6) + 1(+18)}{3} = \\frac{6}{3} = \\mathbf{2\\%}.$$"
     }
   },
   {
@@ -1319,10 +1365,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹9,054) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹9,054) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹9,054**).",
+      "keyConcept": "New Value = Original + 20% = Original × 6/5",
+      "optionTrick": {
+        "en": "$10\\% = 754.5 \\Rightarrow 20\\% = 1{,}509$, ending digit $5 + 9 = \\dots 4$ -> only **₹9,054** ends in `4`!",
+        "hi": "$20\\% = 1,509$; अंतिम अंक $5 + 9 \\rightarrow \\dots 4$! विकल्पों में केवल **₹9,054** के अंत में `4` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic +20% Addition",
+            "hi": "विधि 1: बेसिक 20% योग विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Increase $= \\frac{20}{100} \\times 7,545 = Rs.1,509$.\n2) New salary $= 7,545 + 1,509 = \\mathbf{Rs.9,054}$.",
+            "hi": "1) वृद्धि $= \\frac{20}{100} \\times 7,545 = Rs.1,509$।\n2) नई आय $= 7,545 + 1,509 = \\mathbf{Rs.9,054}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiplier 6/5 + Unit Digit (4 sec)",
+            "hi": "विधि 2: 6/5 गुणक व इकाई अंक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$\\frac{6}{5} \\times 7,545 = 6 \\times 1,509 = \\mathbf{Rs.9,054}$ (since $6 \\times 9 = 54$, last 2 digits immediately match `54`!).",
+            "hi": "$7,545 \\times \\frac{6}{5} = 1,509 \\times 6 = \\mathbf{Rs.9,054}$ ($6 \\times 9 = 54$, अंतिम दो अंक तुरंत `54`!)।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic +20% Addition: 1) Increase $= \\frac{20}{100} \\times 7,545 = Rs.1,509$.\n2) New salary $= 7,545 + 1,509 = \\mathbf{Rs.9,054}$.\n\nMethod 2: Multiplier 6/5 + Unit Digit (4 sec): $\\frac{6}{5} \\times 7,545 = 6 \\times 1,509 = \\mathbf{Rs.9,054}$ (since $6 \\times 9 = 54$, last 2 digits immediately match `54`!).",
+      "hi": "विधि 1: बेसिक 20% योग विधि: 1) वृद्धि $= \\frac{20}{100} \\times 7,545 = Rs.1,509$।\n2) नई आय $= 7,545 + 1,509 = \\mathbf{Rs.9,054}$।\n\nविधि 2: 6/5 गुणक व इकाई अंक: $7,545 \\times \\frac{6}{5} = 1,509 \\times 6 = \\mathbf{Rs.9,054}$ ($6 \\times 9 = 54$, अंतिम दो अंक तुरंत `54`!)।"
     }
   },
   {

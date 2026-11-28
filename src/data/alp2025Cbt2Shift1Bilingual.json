@@ -223,10 +223,38 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
-      "en": "Correct Answer: Option C (13.0%). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (13.0%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**13.0%**).",
+      "keyConcept": "Pay CP on ALL 187 pens, earn SP ONLY on (187 − 7) = 180 sellable pens!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Total CP vs Sellable SP",
+            "hi": "विधि 1: कुल CP बनाम विक्रय योग्य SP"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Total CP $= 187 \\times 23 = 4301$. Sellable $= 187 - 7 = 180$ pens.\nTotal SP $= 180 \\times 27 = 4860$. Profit $= 4860 - 4301 = 559$.\n$\\text{Profit}\\% = \\frac{559}{4301} \\times 100 \\approx \\mathbf{13.0\\%}$.",
+            "hi": "कुल CP $= 187 \\times 23 = 4301$। सही पेन $= 180$ ⇒ कुल SP $= 180 \\times 27 = 4860$।\nलाभ $= 559$ ⇒ $\\frac{559}{4301} \\times 100 \\approx \\mathbf{13.0\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Clean Factor Shortcut (43 × 13 = 559) (4 sec)",
+            "hi": "विधि 2: 43 × 13 सन्निकटन ट्रिक (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio SP/CP $= \\frac{180 \\times 27}{187 \\times 23}$. Numerator exceeds by `559`. Since `43 × 13 = 559`, `559 / 4301 ≈ 13 / 100` = **13.0%**!",
+            "hi": "लाभ `559`, लागत `4301`। तुरंत देखें `43 × 13 = 559` बिलकुल पूरा कटता है ⇒ `559/4301` ≈ **13.0%**!"
+          }
+        }
+      ],
+      "en": "Method 1: Total CP vs Sellable SP: Total CP $= 187 \\times 23 = 4301$. Sellable $= 187 - 7 = 180$ pens.\nTotal SP $= 180 \\times 27 = 4860$. Profit $= 4860 - 4301 = 559$.\n$\\text{Profit}\\% = \\frac{559}{4301} \\times 100 \\approx \\mathbf{13.0\\%}$.\n\nMethod 2: Clean Factor Shortcut (43 × 13 = 559) (4 sec): Ratio SP/CP $= \\frac{180 \\times 27}{187 \\times 23}$. Numerator exceeds by `559`. Since `43 × 13 = 559`, `559 / 4301 ≈ 13 / 100` = **13.0%**!",
+      "hi": "विधि 1: कुल CP बनाम विक्रय योग्य SP: कुल CP $= 187 \\times 23 = 4301$। सही पेन $= 180$ ⇒ कुल SP $= 180 \\times 27 = 4860$।\nलाभ $= 559$ ⇒ $\\frac{559}{4301} \\times 100 \\approx \\mathbf{13.0\\%}$।\n\nविधि 2: 43 × 13 सन्निकटन ट्रिक (4 sec): लाभ `559`, लागत `4301`। तुरंत देखें `43 × 13 = 559` बिलकुल पूरा कटता है ⇒ `559/4301` ≈ **13.0%**!"
     },
     "correctIndexHi": 2
   },
@@ -520,10 +548,38 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
-      "en": "Correct Answer: Option C (26.5% loss). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (26.5% हानि)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**26.5% loss**).",
+      "keyConcept": "Multiply Ratios: (7/4) × (7/10) × (3/5) = 147 / 200 ⇒ −53/200 = −26.5%",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base 100 Chain",
+            "hi": "विधि 1: CP = 100 श्रृंखला"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$CP = 100 \\implies MP = 175$.\n$SP = 175 \\times 0.70 \\times 0.60 = 175 \\times 0.42 = 73.5$.\nLoss $= 100 - 73.5 = \\mathbf{26.5\\%\\text{ loss}}$.",
+            "hi": "$CP = 100 \\implies MP = 175$।\n$SP = 175 \\times 0.7 \\times 0.6 = 73.5 \\implies$ हानि $= \\mathbf{26.5\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fraction Chain 7/4 × 7/10 × 3/5 (4 sec)",
+            "hi": "विधि 2: भिन्न चेन 147/200 (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$\\frac{7}{4} \\times \\frac{7}{10} \\times \\frac{3}{5} = \\frac{147}{200} = \\frac{73.5}{100} \\implies$ **26.5% loss**!",
+            "hi": "$\\frac{7}{4} \\times \\frac{7}{10} \\times \\frac{3}{5} = \\frac{147}{200} = 73.5\\% \\implies$ **26.5% हानि**!"
+          }
+        }
+      ],
+      "en": "Method 1: Base 100 Chain: $CP = 100 \\implies MP = 175$.\n$SP = 175 \\times 0.70 \\times 0.60 = 175 \\times 0.42 = 73.5$.\nLoss $= 100 - 73.5 = \\mathbf{26.5\\%\\text{ loss}}$.\n\nMethod 2: Fraction Chain 7/4 × 7/10 × 3/5 (4 sec): $\\frac{7}{4} \\times \\frac{7}{10} \\times \\frac{3}{5} = \\frac{147}{200} = \\frac{73.5}{100} \\implies$ **26.5% loss**!",
+      "hi": "विधि 1: CP = 100 श्रृंखला: $CP = 100 \\implies MP = 175$।\n$SP = 175 \\times 0.7 \\times 0.6 = 73.5 \\implies$ हानि $= \\mathbf{26.5\\%}$।\n\nविधि 2: भिन्न चेन 147/200 (4 sec): $\\frac{7}{4} \\times \\frac{7}{10} \\times \\frac{3}{5} = \\frac{147}{200} = 73.5\\% \\implies$ **26.5% हानि**!"
     },
     "correctIndexHi": 2
   },
@@ -2103,10 +2159,38 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
-      "en": "Correct Answer: Option D (₹1,440). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (₹1,440)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**₹1,440**).",
+      "keyConcept": "Net Profit % = +25 − 10 − (250/100) = +12.5% = 1/8 of CP!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Net Percentage via CP = 100",
+            "hi": "विधि 1: CP = 100 से कुल लाभ %"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$CP = 100 \\implies MP = 125 \\xrightarrow{-10\\%\\,(-12.5)} SP = 112.5$.\nProfit `12.5% = 180` $\\implies 100\\% = 180 \\times 8 =$ **₹1,440**.",
+            "hi": "$CP = 100 \\implies MP = 125 \\xrightarrow{-10\\%} SP = 112.5$। लाभ `12.5%` (`1/8`) `= 180` ⇒ $CP = 180 \\times 8 =$ **₹1,440**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral 1/8 = ₹180 Multiplier (2 sec)",
+            "hi": "विधि 2: सीधा 1/8 = ₹180 गुणन (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Successive `+25%` & `-10%` $= +12.5\\% = \\frac{1}{8}$. Therefore `CP = 8 × Profit = 8 × 180` = **₹1,440**!",
+            "hi": "`+25%` व `-10%` = `+12.5% = 1/8`। अतः `CP = 8 × 180` = **₹1,440**!"
+          }
+        }
+      ],
+      "en": "Method 1: Net Percentage via CP = 100: $CP = 100 \\implies MP = 125 \\xrightarrow{-10\\%\\,(-12.5)} SP = 112.5$.\nProfit `12.5% = 180` $\\implies 100\\% = 180 \\times 8 =$ **₹1,440**.\n\nMethod 2: Oral 1/8 = ₹180 Multiplier (2 sec): Successive `+25%` & `-10%` $= +12.5\\% = \\frac{1}{8}$. Therefore `CP = 8 × Profit = 8 × 180` = **₹1,440**!",
+      "hi": "विधि 1: CP = 100 से कुल लाभ %: $CP = 100 \\implies MP = 125 \\xrightarrow{-10\\%} SP = 112.5$। लाभ `12.5%` (`1/8`) `= 180` ⇒ $CP = 180 \\times 8 =$ **₹1,440**।\n\nविधि 2: सीधा 1/8 = ₹180 गुणन (2 sec): `+25%` व `-10%` = `+12.5% = 1/8`। अतः `CP = 8 × 180` = **₹1,440**!"
     },
     "correctIndexHi": 3
   },
@@ -2829,10 +2913,38 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 1)",
-      "en": "Correct Answer: Option C (₹6,000). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹6,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**₹6,000**).",
+      "keyConcept": "SI % = R × T = 15% × 3 = 45% ⇒ 45% = ₹2,700",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Formula PRT / 100",
+            "hi": "विधि 1: सूत्र PRT / 100 से हल"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$2700 = \\frac{P \\times 15 \\times 3}{100} \\implies P = \\frac{2700 \\times 100}{45} =$ **₹6,000**.",
+            "hi": "$2700 = \\frac{P \\times 15 \\times 3}{100} \\implies P = \\frac{270000}{45} =$ **₹6,000**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral Percentage Scaling 45% = 2,700 (2 sec)",
+            "hi": "विधि 2: प्रतिशत 45% = 2,700 (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`45% = 2,700`. Divide both by `9`: `5% = 300` ⇒ `100% =` **₹6,000** orally!",
+            "hi": "कुल ब्याज `15 × 3 = 45% = ₹2,700`। दोनों ओर `9` से भाग दें: `5% = 300` ⇒ `100% =` **₹6,000**!"
+          }
+        }
+      ],
+      "en": "Method 1: Formula PRT / 100: $2700 = \\frac{P \\times 15 \\times 3}{100} \\implies P = \\frac{2700 \\times 100}{45} =$ **₹6,000**.\n\nMethod 2: Oral Percentage Scaling 45% = 2,700 (2 sec): `45% = 2,700`. Divide both by `9`: `5% = 300` ⇒ `100% =` **₹6,000** orally!",
+      "hi": "विधि 1: सूत्र PRT / 100 से हल: $2700 = \\frac{P \\times 15 \\times 3}{100} \\implies P = \\frac{270000}{45} =$ **₹6,000**।\n\nविधि 2: प्रतिशत 45% = 2,700 (2 sec): कुल ब्याज `15 × 3 = 45% = ₹2,700`। दोनों ओर `9` से भाग दें: `5% = 300` ⇒ `100% =` **₹6,000**!"
     },
     "correctIndexHi": 2
   },

@@ -1216,10 +1216,51 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (04 Nov 2026 Shift 5)",
-      "en": "Correct Answer: Option A (365). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (365)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Mathematical Answer: 340 units (Option B); Official Stored Key marks Option A (365).",
+      "keyConcept": "New Value = Old Value × (1 − Reduction%)",
+      "trapAlert": {
+        "en": "Calculation Discrepancy Notice: 15% of 400 = 60, so remaining consumption = 400 − 60 = **340** units (Option B). Official sheet key stored Option A (365); keep 340 in mind for concept clarity.",
+        "hi": "विसंगति सूचना: गणितीय रूप से 400 का $15\\% = 60 \\Rightarrow 400 - 60 = \\mathbf{340}$ यूनिट (विकल्प B) सही है; आधिकारिक शीट कुंजी में विकल्प A (365) दर्ज है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Reduction Step",
+            "hi": "विधि 1: बेसिक कमी चरणबद्ध हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "formula": "$\\text{New} = 400 - 15\\% \\text{ of } 400$",
+          "steps": {
+            "en": "1) Reduction $= \\frac{15}{100} \\times 400 = 60$ units.\n2) Current consumption $= 400 - 60 = \\mathbf{340}$ units (Option B; stored key records Option A: 365).",
+            "hi": "1) खपत में कमी $= 400$ का $15\\% = 60$ यूनिट।\n2) वर्तमान खपत $= 400 - 60 = \\mathbf{340}$ यूनिट (विकल्प B; संग्रहीत कुंजी 365 दिखाती है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiplier 85% × 400 (4 sec)",
+            "hi": "विधि 2: सीधा 85% गुणक विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$85\\% \\times 400 = 85 \\times 4 = \\mathbf{340}$ units (Option B).",
+            "hi": "सीधे $400 \\times 85\\% = 4 \\times 85 = \\mathbf{340}$ यूनिट (विकल्प B)।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Reduction Step: 1) Reduction $= \\frac{15}{100} \\times 400 = 60$ units.\n2) Current consumption $= 400 - 60 = \\mathbf{340}$ units (Option B; stored key records Option A: 365).\n\nMethod 2: Multiplier 85% × 400 (4 sec): $85\\% \\times 400 = 85 \\times 4 = \\mathbf{340}$ units (Option B).",
+      "hi": "विधि 1: बेसिक कमी चरणबद्ध हल: 1) खपत में कमी $= 400$ का $15\\% = 60$ यूनिट।\n2) वर्तमान खपत $= 400 - 60 = \\mathbf{340}$ यूनिट (विकल्प B; संग्रहीत कुंजी 365 दिखाती है)।\n\nविधि 2: सीधा 85% गुणक विधि: सीधे $400 \\times 85\\% = 4 \\times 85 = \\mathbf{340}$ यूनिट (विकल्प B)।"
     },
     "correctIndexHi": 0
   },

@@ -1251,10 +1251,56 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (decrease by ₹3,545) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹3,545 की कमी) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**decrease by ₹3,545**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+39\\%$, while expenditure change on whole income = $-\\frac{88}{100} \\times 50\\%$. That gives direct Net Factor $= -5\\%$ of ₹70,900 $= \\mathbf{Rs.3,545}$!",
+        "hi": "आय वृद्धि $= +39\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 88\\% \\times 50\\% = 44\\%$ — दोनों का अंतर ही ₹70,900 पर सीधी कमी ($\\mathbf{Rs.3,545}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 12\\%$ of ₹70,900 = **₹8,508**; Old Expenditure $= 88\\%$ of ₹70,900 = **₹62,392**.\n2) New Income ($+39\\%$) = **₹98,551**; New Expenditure ($+50\\%$) = **₹93,588**.\n3) New Savings $= Rs.98,551 - Rs.93,588 = Rs.4,963$.\n4) Change $= Rs.4,963 - Rs.8,508 \\Rightarrow$ **Decrease of ₹3,545**.",
+            "hi": "1) पुरानी बचत $= Rs.70,900$ का $12\\% = \\mathbf{Rs.8,508}$ तथा पुराना व्यय $= \\mathbf{Rs.62,392}$।\n2) नई आय ($+39\\%$) $= Rs.98,551$ तथा नया व्यय ($+50\\%$) $= Rs.93,588$।\n3) नई बचत $= Rs.98,551 - Rs.93,588 = Rs.4,963$।\n4) बचत में अंतर $\\Rightarrow$ **₹3,545 की कमी**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +39\\%$ of ₹70,900 = **+₹27,651**.\n2) $E = 88\\% \\times Rs.70,900 = Rs.62,392$, so $\\Delta E = +50\\% \\times Rs.62,392 = +Rs.31,196$.\n3) $\\Delta S = Rs.27,651 - Rs.31,196 = -Rs.3,545 \\Rightarrow$ **Decrease by ₹3,545**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.70,900$ का $+39\\% = +Rs.27,651$।\n2) व्यय ₹62,392 का $\\Delta \\text{व्यय} = +50\\% = +Rs.31,196$।\n3) $\\Delta \\text{बचत} = Rs.27,651 - Rs.31,196 = \\mathbf{Rs.3,545}$ की **कमी**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 12\\%$ of ₹70,900 = **₹8,508**; Old Expenditure $= 88\\%$ of ₹70,900 = **₹62,392**.\n2) New Income ($+39\\%$) = **₹98,551**; New Expenditure ($+50\\%$) = **₹93,588**.\n3) New Savings $= Rs.98,551 - Rs.93,588 = Rs.4,963$.\n4) Change $= Rs.4,963 - Rs.8,508 \\Rightarrow$ **Decrease of ₹3,545**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +39\\%$ of ₹70,900 = **+₹27,651**.\n2) $E = 88\\% \\times Rs.70,900 = Rs.62,392$, so $\\Delta E = +50\\% \\times Rs.62,392 = +Rs.31,196$.\n3) $\\Delta S = Rs.27,651 - Rs.31,196 = -Rs.3,545 \\Rightarrow$ **Decrease by ₹3,545**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.70,900$ का $12\\% = \\mathbf{Rs.8,508}$ तथा पुराना व्यय $= \\mathbf{Rs.62,392}$।\n2) नई आय ($+39\\%$) $= Rs.98,551$ तथा नया व्यय ($+50\\%$) $= Rs.93,588$।\n3) नई बचत $= Rs.98,551 - Rs.93,588 = Rs.4,963$।\n4) बचत में अंतर $\\Rightarrow$ **₹3,545 की कमी**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.70,900$ का $+39\\% = +Rs.27,651$।\n2) व्यय ₹62,392 का $\\Delta \\text{व्यय} = +50\\% = +Rs.31,196$।\n3) $\\Delta \\text{बचत} = Rs.27,651 - Rs.31,196 = \\mathbf{Rs.3,545}$ की **कमी**।"
     }
   },
   {
@@ -1285,10 +1331,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Population Based Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (31,250) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (31,250) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**31,250**).",
+      "keyConcept": "25% Growth for 3 yrs ⇒ (4 → 5)³ = 64 → 125 Ratio!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compound Multiplication",
+            "hi": "विधि 1: क्रमिक भिन्न गुणा"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$16000 \\times \\frac{5}{4} \\times \\frac{5}{4} \\times \\frac{5}{4} = 250 \\times 125 = \\mathbf{31,250}$.",
+            "hi": "$16000 \\times \\frac{125}{64} = 250 \\times 125 = \\mathbf{31,250}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio Cube 64 → 125 (3 sec)",
+            "hi": "विधि 2: अनुपात घन 64 → 125 (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice `64 = 16,000 ÷ 250`. Multiply `125 × 250 = 125000 / 4` = **31,250**!",
+            "hi": "यहाँ `64 इकाई = 16,000 (×250)` ⇒ `125 × 250` = **31,250**!"
+          }
+        }
+      ],
+      "en": "Method 1: Compound Multiplication: $16000 \\times \\frac{5}{4} \\times \\frac{5}{4} \\times \\frac{5}{4} = 250 \\times 125 = \\mathbf{31,250}$.\n\nMethod 2: Ratio Cube 64 → 125 (3 sec): Notice `64 = 16,000 ÷ 250`. Multiply `125 × 250 = 125000 / 4` = **31,250**!",
+      "hi": "विधि 1: क्रमिक भिन्न गुणा: $16000 \\times \\frac{125}{64} = 250 \\times 125 = \\mathbf{31,250}$।\n\nविधि 2: अनुपात घन 64 → 125 (3 sec): यहाँ `64 इकाई = 16,000 (×250)` ⇒ `125 × 250` = **31,250**!"
     }
   },
   {
@@ -1621,10 +1695,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "15² - 12² + 16 = 225 - 144 + 16 = 81 + 16 = 97. Correct: Option A (97).",
-      "hi": "225 - 144 + 16 = 97। सही उत्तर: विकल्प A (97)।"
+      "approach": "Official Answer: Option A (**97**).",
+      "keyConcept": "Algebraic Difference of Squares: a² − b² = (a − b)(a + b)",
+      "optionTrick": {
+        "en": "Unit digits: $5 - 4 + 6 = 7 \\Rightarrow$ only **97** ends in `7`!",
+        "hi": "इकाई अंक: $5 - 4 + 6 = 7$ — विकल्पों में केवल **97** के अंत में `7` है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Squares & Root",
+            "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.",
+            "hi": "1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Identity a²−b² & Unit Digit",
+            "hi": "विधि 2: सर्वसमिका व इकाई अंक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$a^2 - b^2 = (a - b)(a + b)$",
+          "steps": {
+            "en": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$ (and unit digit $5 - 4 + 6 = 7$).",
+            "hi": "$(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$ (इकाई अंक $= 7$)!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Squares & Root: 1) $15^2 = 225$, $12^2 = 144$, $\\sqrt{256} = 16$.\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$.\n\nMethod 2: Identity a²−b² & Unit Digit: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$ (and unit digit $5 - 4 + 6 = 7$).",
+      "hi": "विधि 1: सीधे वर्ग व वर्गमूल विधि: 1) $15^2 = 225$, $12^2 = 144$ तथा $\\sqrt{256} = 16$।\n2) $225 - 144 + 16 = 81 + 16 = \\mathbf{97}$।\n\nविधि 2: सर्वसमिका व इकाई अंक ट्रिक: $(15 - 12)(15 + 12) + 16 = 3 \\times 27 + 16 = 81 + 16 = \\mathbf{97}$ (इकाई अंक $= 7$)!"
     }
   },
   {

@@ -877,10 +877,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹5,551) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹5,551) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹5,551**).",
+      "keyConcept": "Cube Ratio (5³ : 6³ = 125 : 216) ⇒ CI = 91 Units (`7625 / 125 = 61`)!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 3-Year Cube Ratio Method",
+            "hi": "विधि 1: 3-वर्ष घन अनुपात विधि"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "`20% = 1/5` $\\implies P : A = 5^3 : 6^3 = 125 : 216$.\n`125 units = 7625` (`÷125 = ×61`) ⇒ $\\text{CI} = 91 \\times 61 =$ **₹5,551**.",
+            "hi": "`20% = 1/5` ⇒ $125 : 216 \\implies \\text{CI} = 91$ इकाई। `7625 ÷ 125 = 61` ⇒ `91 × 61 =` **₹5,551**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Divisibility by 7 & 13 (91 = 7 × 13) (3 sec)",
+            "hi": "विधि 2: 91 (7 × 13) की विभाज्यता ट्रिक (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since CI $= 91 \\times 61$, answer MUST be divisible by `7`, `13`, and `61` (and tens digit `91 × 61`: `5551`) ⇒ **₹5,551**!",
+            "hi": "`91 × 61 = 91 × 60 + 91 = 5460 + 91 =` **₹5,551**!"
+          }
+        }
+      ],
+      "en": "Method 1: 3-Year Cube Ratio Method: `20% = 1/5` $\\implies P : A = 5^3 : 6^3 = 125 : 216$.\n`125 units = 7625` (`÷125 = ×61`) ⇒ $\\text{CI} = 91 \\times 61 =$ **₹5,551**.\n\nMethod 2: Divisibility by 7 & 13 (91 = 7 × 13) (3 sec): Since CI $= 91 \\times 61$, answer MUST be divisible by `7`, `13`, and `61` (and tens digit `91 × 61`: `5551`) ⇒ **₹5,551**!",
+      "hi": "विधि 1: 3-वर्ष घन अनुपात विधि: `20% = 1/5` ⇒ $125 : 216 \\implies \\text{CI} = 91$ इकाई। `7625 ÷ 125 = 61` ⇒ `91 × 61 =` **₹5,551**।\n\nविधि 2: 91 (7 × 13) की विभाज्यता ट्रिक (3 sec): `91 × 61 = 91 × 60 + 91 = 5460 + 91 =` **₹5,551**!"
     }
   },
   {
@@ -1423,10 +1451,56 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (increase by ₹609) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹609 की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**increase by ₹609**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+18\\%$, while expenditure change on whole income = $-\\frac{83}{100} \\times 20\\%$. That gives direct Net Factor $= 1.4\\%$ of ₹43,500 $= \\mathbf{Rs.609}$!",
+        "hi": "आय वृद्धि $= +18\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 83\\% \\times 20\\% = 16.6\\%$ — दोनों का अंतर ही ₹43,500 पर सीधी वृद्धि ($\\mathbf{Rs.609}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 17\\%$ of ₹43,500 = **₹7,395**; Old Expenditure $= 83\\%$ of ₹43,500 = **₹36,105**.\n2) New Income ($+18\\%$) = **₹51,330**; New Expenditure ($+20\\%$) = **₹43,326**.\n3) New Savings $= Rs.51,330 - Rs.43,326 = Rs.8,004$.\n4) Change $= Rs.8,004 - Rs.7,395 \\Rightarrow$ **Increase of ₹609**.",
+            "hi": "1) पुरानी बचत $= Rs.43,500$ का $17\\% = \\mathbf{Rs.7,395}$ तथा पुराना व्यय $= \\mathbf{Rs.36,105}$।\n2) नई आय ($+18\\%$) $= Rs.51,330$ तथा नया व्यय ($+20\\%$) $= Rs.43,326$।\n3) नई बचत $= Rs.51,330 - Rs.43,326 = Rs.8,004$।\n4) बचत में अंतर $\\Rightarrow$ **₹609 की वृद्धि**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +18\\%$ of ₹43,500 = **+₹7,830**.\n2) $E = 83\\% \\times Rs.43,500 = Rs.36,105$, so $\\Delta E = +20\\% \\times Rs.36,105 = +Rs.7,221$.\n3) $\\Delta S = Rs.7,830 - Rs.7,221 = +Rs.609 \\Rightarrow$ **Increase by ₹609**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.43,500$ का $+18\\% = +Rs.7,830$।\n2) व्यय ₹36,105 का $\\Delta \\text{व्यय} = +20\\% = +Rs.7,221$।\n3) $\\Delta \\text{बचत} = Rs.7,830 - Rs.7,221 = \\mathbf{Rs.609}$ की **वृद्धि**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 17\\%$ of ₹43,500 = **₹7,395**; Old Expenditure $= 83\\%$ of ₹43,500 = **₹36,105**.\n2) New Income ($+18\\%$) = **₹51,330**; New Expenditure ($+20\\%$) = **₹43,326**.\n3) New Savings $= Rs.51,330 - Rs.43,326 = Rs.8,004$.\n4) Change $= Rs.8,004 - Rs.7,395 \\Rightarrow$ **Increase of ₹609**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +18\\%$ of ₹43,500 = **+₹7,830**.\n2) $E = 83\\% \\times Rs.43,500 = Rs.36,105$, so $\\Delta E = +20\\% \\times Rs.36,105 = +Rs.7,221$.\n3) $\\Delta S = Rs.7,830 - Rs.7,221 = +Rs.609 \\Rightarrow$ **Increase by ₹609**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.43,500$ का $17\\% = \\mathbf{Rs.7,395}$ तथा पुराना व्यय $= \\mathbf{Rs.36,105}$।\n2) नई आय ($+18\\%$) $= Rs.51,330$ तथा नया व्यय ($+20\\%$) $= Rs.43,326$।\n3) नई बचत $= Rs.51,330 - Rs.43,326 = Rs.8,004$।\n4) बचत में अंतर $\\Rightarrow$ **₹609 की वृद्धि**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.43,500$ का $+18\\% = +Rs.7,830$।\n2) व्यय ₹36,105 का $\\Delta \\text{व्यय} = +20\\% = +Rs.7,221$।\n3) $\\Delta \\text{बचत} = Rs.7,830 - Rs.7,221 = \\mathbf{Rs.609}$ की **वृद्धि**।"
     }
   },
   {

@@ -1215,10 +1215,56 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (decrease by ₹1,428) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹1,428 की कमी हो जाएगी) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**decrease by ₹1,428**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+14\\%$, while expenditure change on whole income = $-\\frac{70}{100} \\times 40\\%$. That gives direct Net Factor $= -14\\%$ of ₹10,200 $= \\mathbf{Rs.1,428}$!",
+        "hi": "आय वृद्धि $= +14\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 70\\% \\times 40\\% = 28\\%$ — दोनों का अंतर ही ₹10,200 पर सीधी कमी ($\\mathbf{Rs.1,428}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 30\\%$ of ₹10,200 = **₹3,060**; Old Expenditure $= 70\\%$ of ₹10,200 = **₹7,140**.\n2) New Income ($+14\\%$) = **₹11,628**; New Expenditure ($+40\\%$) = **₹9,996**.\n3) New Savings $= Rs.11,628 - Rs.9,996 = Rs.1,632$.\n4) Change $= Rs.1,632 - Rs.3,060 \\Rightarrow$ **Decrease of ₹1,428**.",
+            "hi": "1) पुरानी बचत $= Rs.10,200$ का $30\\% = \\mathbf{Rs.3,060}$ तथा पुराना व्यय $= \\mathbf{Rs.7,140}$।\n2) नई आय ($+14\\%$) $= Rs.11,628$ तथा नया व्यय ($+40\\%$) $= Rs.9,996$।\n3) नई बचत $= Rs.11,628 - Rs.9,996 = Rs.1,632$।\n4) बचत में अंतर $\\Rightarrow$ **₹1,428 की कमी**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +14\\%$ of ₹10,200 = **+₹1,428**.\n2) $E = 70\\% \\times Rs.10,200 = Rs.7,140$, so $\\Delta E = +40\\% \\times Rs.7,140 = +Rs.2,856$.\n3) $\\Delta S = Rs.1,428 - Rs.2,856 = -Rs.1,428 \\Rightarrow$ **Decrease by ₹1,428**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.10,200$ का $+14\\% = +Rs.1,428$।\n2) व्यय ₹7,140 का $\\Delta \\text{व्यय} = +40\\% = +Rs.2,856$।\n3) $\\Delta \\text{बचत} = Rs.1,428 - Rs.2,856 = \\mathbf{Rs.1,428}$ की **कमी**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 30\\%$ of ₹10,200 = **₹3,060**; Old Expenditure $= 70\\%$ of ₹10,200 = **₹7,140**.\n2) New Income ($+14\\%$) = **₹11,628**; New Expenditure ($+40\\%$) = **₹9,996**.\n3) New Savings $= Rs.11,628 - Rs.9,996 = Rs.1,632$.\n4) Change $= Rs.1,632 - Rs.3,060 \\Rightarrow$ **Decrease of ₹1,428**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +14\\%$ of ₹10,200 = **+₹1,428**.\n2) $E = 70\\% \\times Rs.10,200 = Rs.7,140$, so $\\Delta E = +40\\% \\times Rs.7,140 = +Rs.2,856$.\n3) $\\Delta S = Rs.1,428 - Rs.2,856 = -Rs.1,428 \\Rightarrow$ **Decrease by ₹1,428**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.10,200$ का $30\\% = \\mathbf{Rs.3,060}$ तथा पुराना व्यय $= \\mathbf{Rs.7,140}$।\n2) नई आय ($+14\\%$) $= Rs.11,628$ तथा नया व्यय ($+40\\%$) $= Rs.9,996$।\n3) नई बचत $= Rs.11,628 - Rs.9,996 = Rs.1,632$।\n4) बचत में अंतर $\\Rightarrow$ **₹1,428 की कमी**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.10,200$ का $+14\\% = +Rs.1,428$।\n2) व्यय ₹7,140 का $\\Delta \\text{व्यय} = +40\\% = +Rs.2,856$।\n3) $\\Delta \\text{बचत} = Rs.1,428 - Rs.2,856 = \\mathbf{Rs.1,428}$ की **कमी**।"
     }
   },
   {
@@ -1351,10 +1397,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (10%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (10%) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**10%**).",
+      "keyConcept": "Decrease % = (Drop / Initial) × 100",
+      "optionTrick": {
+        "en": "$50,000 \\to 45,000$ is simply $10 \\to 9$ ($\\frac{1}{10} = \\mathbf{10\\%}$ drop)!",
+        "hi": "अनुपात $50:45 = 10:9$ — सीधे $\\frac{1}{10} = \\mathbf{10\\%}$ की कमी!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Decrease Formula",
+            "hi": "विधि 1: बेसिक कमी प्रतिशत सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Drop $= Rs.50,000 - Rs.45,000 = Rs.5,000$.\n2) $\\%$ Decrease $= \\frac{5{,}000}{50{,}000} \\times 100 = \\mathbf{10\\%}$.",
+            "hi": "1) वेतन में कमी $= Rs.50,000 - Rs.45,000 = Rs.5,000$।\n2) प्रतिशत कमी $= \\frac{5{,}000}{50{,}000} \\times 100 = \\mathbf{10\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ratio 10 : 9 Mental Check (2 sec)",
+            "hi": "विधि 2: अनुपात 10 : 9 मौखिक विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "₹5,000 is exact $10\\%$ (one zero removed) of $Rs.50,000 \\Rightarrow \\mathbf{10\\%}$.",
+            "hi": "₹50,000 का $10\\%$ सीधे ₹5,000 होता है, अतः उत्तर $\\mathbf{10\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Decrease Formula: 1) Drop $= Rs.50,000 - Rs.45,000 = Rs.5,000$.\n2) $\\%$ Decrease $= \\frac{5{,}000}{50{,}000} \\times 100 = \\mathbf{10\\%}$.\n\nMethod 2: Ratio 10 : 9 Mental Check (2 sec): ₹5,000 is exact $10\\%$ (one zero removed) of $Rs.50,000 \\Rightarrow \\mathbf{10\\%}$.",
+      "hi": "विधि 1: बेसिक कमी प्रतिशत सूत्र: 1) वेतन में कमी $= Rs.50,000 - Rs.45,000 = Rs.5,000$।\n2) प्रतिशत कमी $= \\frac{5{,}000}{50{,}000} \\times 100 = \\mathbf{10\\%}$।\n\nविधि 2: अनुपात 10 : 9 मौखिक विधि: ₹50,000 का $10\\%$ सीधे ₹5,000 होता है, अतः उत्तर $\\mathbf{10\\%}$।"
     }
   },
   {

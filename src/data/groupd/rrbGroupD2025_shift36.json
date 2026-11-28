@@ -1149,10 +1149,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹37,576) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹37,576) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹37,576**).",
+      "keyConcept": "Unitary 1% Rule when Remainder = Savings",
+      "optionTrick": {
+        "en": "All options differ in hundreds place (`37,356` vs `37,576`): Savings $= 33\\% = 12,400 \\Rightarrow \\frac{12{,}400 \\times 100}{33} = \\frac{12{,}40{,}000}{33}$: `124 ÷ 33 = 3` (rem 25), `250 ÷ 33 = 7` (rem 19), `190 ÷ 33 = 5` -> `375...` -> **₹37,576**!",
+        "hi": "कुल खर्च $= 67\\%$, तो बचत $33\\% = 12,400$। भाग देने पर `1240000 ÷ 33` के पहले तीन अंक `375...` सीधे **₹37,576** तय कर देते हैं!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Savings Equation",
+            "hi": "विधि 1: बेसिक बचत समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Total spent $= 27\\% + 22\\% + 18\\% = 67\\%$.\n2) Savings $= 100\\% - 67\\% = 33\\%$ of Income $= Rs.12,400$.\n3) Income $= \\frac{12{,}400 \\times 100}{33} = 37,575.75 \\approx \\mathbf{Rs.37,576}$.",
+            "hi": "1) कुल खर्च $= 27 + 22 + 18 = 67\\%$।\n2) बचत $= 100\\% - 67\\% = 33\\% = Rs.12,400$।\n3) मासिक आय $= \\frac{12{,}400 \\times 100}{33} = 37,575.75 \\approx \\mathbf{Rs.37,576}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Prefix Digit Match (10 sec)",
+            "hi": "विधि 2: प्रारंभिक अंक मिलान ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since $33\\% = 12,400$, test $100\\% = 3\\times 12,400 + \\frac{1\\%}{33} = 37,200 + 375.76 = \\mathbf{Rs.37,576}$! (Notice $\\frac{100}{33} = 3 + \\frac{1}{33}$!) ",
+            "hi": "ट्रिक: $\\frac{100}{33} = 3 + \\frac{1}{33}$! अतः $3 \\times 12,400 = 37,200$ और $\\frac{12{,}400}{33} \\approx 375.76 \\Rightarrow \\mathbf{Rs.37,576}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Savings Equation: 1) Total spent $= 27\\% + 22\\% + 18\\% = 67\\%$.\n2) Savings $= 100\\% - 67\\% = 33\\%$ of Income $= Rs.12,400$.\n3) Income $= \\frac{12{,}400 \\times 100}{33} = 37,575.75 \\approx \\mathbf{Rs.37,576}$.\n\nMethod 2: Prefix Digit Match (10 sec): Since $33\\% = 12,400$, test $100\\% = 3\\times 12,400 + \\frac{1\\%}{33} = 37,200 + 375.76 = \\mathbf{Rs.37,576}$! (Notice $\\frac{100}{33} = 3 + \\frac{1}{33}$!) ",
+      "hi": "विधि 1: बेसिक बचत समीकरण: 1) कुल खर्च $= 27 + 22 + 18 = 67\\%$।\n2) बचत $= 100\\% - 67\\% = 33\\% = Rs.12,400$।\n3) मासिक आय $= \\frac{12{,}400 \\times 100}{33} = 37,575.75 \\approx \\mathbf{Rs.37,576}$।\n\nविधि 2: प्रारंभिक अंक मिलान ट्रिक: ट्रिक: $\\frac{100}{33} = 3 + \\frac{1}{33}$! अतः $3 \\times 12,400 = 37,200$ और $\\frac{12{,}400}{33} \\approx 375.76 \\Rightarrow \\mathbf{Rs.37,576}$!"
     }
   },
   {
@@ -1523,10 +1563,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Percentage Based",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (20%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (20%) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option C (20%). Note: Accompanying DI Chart/Table image was truncated in source PDF.",
+      "keyConcept": "Data Interpretation Percentage Comparison Formula",
+      "trapAlert": {
+        "en": "Source Data Notice: The original RRB exam line-graph/table visual for this DI question was not embedded in the extracted PDF text. Official Answer Key is Option C (20%).",
+        "hi": "स्रोत सूचना: इस Data Interpretation प्रश्न से जुड़ा मूल ग्राफ़/सारणी चित्र स्रोत PDF से निष्कर्षित नहीं हो सका। आधिकारिक RRB उत्तर कुंजी के अनुसार सही उत्तर विकल्प C (20%) है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: DI Percentage Formula Framework",
+            "hi": "विधि 1: DI प्रतिशत तुलना सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "DI Rule",
+          "tone": "teal",
+          "formula": "$\\%\\text{ More} = \\frac{B - A}{A} \\times 100$",
+          "steps": {
+            "en": "1) In DI percentage-excess / budget-share problems, always identify the **Base** after \"than / of\" in denominator: $\\frac{\\text{Difference}}{\\text{Reference Base}} \\times 100$.\n2) Official RRB CEN 09/2025 Verified Answer: **Option C (20%)**.",
+            "hi": "1) ग्राफ़ या सारणी आधारित प्रतिशत प्रश्नों में \"से अधिक / तुलना में\" वाली आधार संख्या को हर (denominator) में रखकर $\\frac{\\text{अंतर}}{\\text{आधार}} \\times 100$ लगाते हैं।\n2) आधिकारिक RRB CEN 09/2025 उत्तर कुंजी: **विकल्प C (20%)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Graph Visual Ratio Estimation Trick",
+            "hi": "विधि 2: ग्राफ़ अनुपात त्वरित तुलना"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "For Pie Charts ($100\\% = 360^\\circ$) or Bar/Line comparisons, convert values into simplified ratios before multiplying by 100 or Total Budget. Verified Key: **20%**.",
+            "hi": "पाई चार्ट ($100\\% = 360^\\circ$) या लाइन ग्राफ़ में मानों को पहले सरल अनुपात में बदलें, फिर कुल बजट से गुणा करें। प्रमाणित उत्तर: **20%**।"
+          }
+        }
+      ],
+      "en": "Method 1: DI Percentage Formula Framework: 1) In DI percentage-excess / budget-share problems, always identify the **Base** after \"than / of\" in denominator: $\\frac{\\text{Difference}}{\\text{Reference Base}} \\times 100$.\n2) Official RRB CEN 09/2025 Verified Answer: **Option C (20%)**.\n\nMethod 2: Graph Visual Ratio Estimation Trick: For Pie Charts ($100\\% = 360^\\circ$) or Bar/Line comparisons, convert values into simplified ratios before multiplying by 100 or Total Budget. Verified Key: **20%**.",
+      "hi": "विधि 1: DI प्रतिशत तुलना सूत्र: 1) ग्राफ़ या सारणी आधारित प्रतिशत प्रश्नों में \"से अधिक / तुलना में\" वाली आधार संख्या को हर (denominator) में रखकर $\\frac{\\text{अंतर}}{\\text{आधार}} \\times 100$ लगाते हैं।\n2) आधिकारिक RRB CEN 09/2025 उत्तर कुंजी: **विकल्प C (20%)**।\n\nविधि 2: ग्राफ़ अनुपात त्वरित तुलना: पाई चार्ट ($100\\% = 360^\\circ$) या लाइन ग्राफ़ में मानों को पहले सरल अनुपात में बदलें, फिर कुल बजट से गुणा करें। प्रमाणित उत्तर: **20%**।"
     }
   },
   {

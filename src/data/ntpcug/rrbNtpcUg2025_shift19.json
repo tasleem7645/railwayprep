@@ -1716,10 +1716,38 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Simple & Compound Interest",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (2 years) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (2 वर्ष) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**2 years**).",
+      "keyConcept": "625 = 25² and 841 = 29² (16% = +4/25) ⇒ Exponent = 2!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base Power Comparison",
+            "hi": "विधि 1: आधार घात तुलना"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$\\left(1 + \\frac{16}{100}\\right)^T = \\left(\\frac{29}{25}\\right)^T = \\frac{841}{625} = \\left(\\frac{29}{25}\\right)^2 \\implies T =$ **2 years**.",
+            "hi": "$\\left(\\frac{29}{25}\\right)^T = \\frac{841}{625} = \\left(\\frac{29}{25}\\right)^2 \\implies T =$ **2 वर्ष**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant Square Identification (1 sec)",
+            "hi": "विधि 2: वर्ग पहचान 25² → 29² (1 sec)"
+          },
+          "timeTag": "1 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`625 = 25²`, `841 = 29²` ⇒ Straight power `2` = **2 years**!",
+            "hi": "`625 = 25²` व `841 = 29²` देखते ही समय `=` **2 वर्ष**!"
+          }
+        }
+      ],
+      "en": "Method 1: Base Power Comparison: $\\left(1 + \\frac{16}{100}\\right)^T = \\left(\\frac{29}{25}\\right)^T = \\frac{841}{625} = \\left(\\frac{29}{25}\\right)^2 \\implies T =$ **2 years**.\n\nMethod 2: Instant Square Identification (1 sec): `625 = 25²`, `841 = 29²` ⇒ Straight power `2` = **2 years**!",
+      "hi": "विधि 1: आधार घात तुलना: $\\left(\\frac{29}{25}\\right)^T = \\frac{841}{625} = \\left(\\frac{29}{25}\\right)^2 \\implies T =$ **2 वर्ष**।\n\nविधि 2: वर्ग पहचान 25² → 29² (1 sec): `625 = 25²` व `841 = 29²` देखते ही समय `=` **2 वर्ष**!"
     }
   },
   {
@@ -2244,10 +2272,56 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (20.25) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (20.25) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**20.25**).",
+      "keyConcept": "65% of A − (k/m) × B (Split-Percentage + Fraction Speed)",
+      "optionTrick": {
+        "en": "$65\\%$ of 65 equals 42.25 (ends in `.25`) and $\\frac{2}{5} \\times 55 = 22$ is an exact integer — so the answer MUST preserve that exact decimal ending **.25**!",
+        "hi": "65 का $65\\% = 42.25$ और $\\frac{2}{5} \\times 55 = 22$ एक पूर्णांक है — अतः अंतर के अंत में दशमलव **.25** अवश्य रहेगा!"
+      },
+      "trapAlert": {
+        "en": "Multiply 65 × A cleanly or split 65% = 50% + 10% + 5%; careless carry errors shift the result by 1 or 3.",
+        "hi": "दशमलव घटाने से पहले $65\\% = 50\\% + 10\\% + 5\\%$ तोड़ने से गणना की गलती नहीं होती।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Step-by-Step Formula",
+            "hi": "विधि 1: बेसिक चरणबद्ध सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$\\text{Diff} = \\frac{65}{100} \\times 65 - \\frac{2}{5} \\times 55$",
+          "steps": {
+            "en": "1) $65\\%$ of $65 = \\frac{65 \\times 65}{100} = \\frac{4225}{100} = 42.25$.\n2) $\\frac{2}{5}$ of $55 = 2 \\times 11 = 22$.\n3) Difference $= 42.25 - 22 = \\mathbf{20.25}$.",
+            "hi": "1) 65 का $65\\% = \\frac{65 \\times 65}{100} = 42.25$।\n2) 55 का $\\frac{2}{5} = 2 \\times 11 = 22$।\n3) अभीष्ट अंतर $= 42.25 - 22 = \\mathbf{20.25}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart 50%+10%+5% Mental Split",
+            "hi": "विधि 2: स्मार्ट 50%+10%+5% मानसिक विभाजन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$65\\% = 50\\% + 10\\% + 5\\%$",
+          "steps": {
+            "en": "1) Split $65\\%$ of 65 mentally: $32.5 + 6.5 + 3.25 = 42.25$.\n2) Notice $\\frac{2}{5}$ is $40\\%$, so $\\frac{2}{5} \\times 55 = 22$.\n3) Instant subtraction: $42.25 - 22 = \\mathbf{20.25}$.",
+            "hi": "1) 65 का $65\\%$ मानस में तोड़ें: $50\\% (32.5) + 10\\% (6.5) + 5\\% (3.25) = 42.25$।\n2) $\\frac{2}{5} \\times 55 = 22$ तुरंत घटाएँ।\n3) सीधा उत्तर $= 42.25 - 22 = \\mathbf{20.25}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Step-by-Step Formula: 1) $65\\%$ of $65 = \\frac{65 \\times 65}{100} = \\frac{4225}{100} = 42.25$.\n2) $\\frac{2}{5}$ of $55 = 2 \\times 11 = 22$.\n3) Difference $= 42.25 - 22 = \\mathbf{20.25}$.\n\nMethod 2: Smart 50%+10%+5% Mental Split: 1) Split $65\\%$ of 65 mentally: $32.5 + 6.5 + 3.25 = 42.25$.\n2) Notice $\\frac{2}{5}$ is $40\\%$, so $\\frac{2}{5} \\times 55 = 22$.\n3) Instant subtraction: $42.25 - 22 = \\mathbf{20.25}$.",
+      "hi": "विधि 1: बेसिक चरणबद्ध सूत्र: 1) 65 का $65\\% = \\frac{65 \\times 65}{100} = 42.25$।\n2) 55 का $\\frac{2}{5} = 2 \\times 11 = 22$।\n3) अभीष्ट अंतर $= 42.25 - 22 = \\mathbf{20.25}$।\n\nविधि 2: स्मार्ट 50%+10%+5% मानसिक विभाजन: 1) 65 का $65\\%$ मानस में तोड़ें: $50\\% (32.5) + 10\\% (6.5) + 5\\% (3.25) = 42.25$।\n2) $\\frac{2}{5} \\times 55 = 22$ तुरंत घटाएँ।\n3) सीधा उत्तर $= 42.25 - 22 = \\mathbf{20.25}$।"
     }
   },
   {

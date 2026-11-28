@@ -1317,10 +1317,56 @@
     "correctIndexHi": 3,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Increase by 20%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (20% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**Increase by 20%**).",
+      "keyConcept": "Base-100 Unit Cost × Quantity Weighted Percentage Change",
+      "optionTrick": {
+        "en": "Set TV = `100` -> Machine = `60`. Total Weight $= 420 + 600 = 1020$, Change $= +336 - 132 = +204 \\Rightarrow \\mathbf{20\\%}$ Increase!",
+        "hi": "TV = `100`, मशीन = `60` लेने से कुल प्रारंभिक मूल्य $= 1020$ तथा निवल बदलाव $= +204$ — सीधे **20% वृद्धि** प्राप्त होती है!"
+      },
+      "trapAlert": {
+        "en": "Remember to weight each unit cost by quantity (7 machines & 6 TVs) before computing net % change.",
+        "hi": "केवल 1 इकाई का प्रतिशत नहीं बदलना है — क्रमशः `nW` मशीनों और `nT` टीवी की संख्या से गुणा करके भारित कुल निकालें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Initial vs Net Change",
+            "hi": "विधि 1: Base-100 कुल मूल्य विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$\\%\\Delta = \\frac{n_W \\cdot \\Delta W + n_T \\cdot \\Delta T}{n_W W + n_T T} \\times 100$",
+          "steps": {
+            "en": "1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 40 = 60$.\n2) Old Cost of 7 Machines $+ 6$ TVs $= (7 \\times 60) + (6 \\times 100) = 420 + 600 = 1020$.\n3) Net change $= (+80\\% \\text{ of } 420) - (22\\% \\text{ of } 600) = 336 - 132 = +204$.\n4) Percentage change $= \\frac{204}{1020} \\times 100 = \\mathbf{20\\%\\text{ Increase}}$.",
+            "hi": "1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 40 = 60$।\n2) 7 मशीनों + 6 TV का प्रारंभिक कुल $= 420 + 600 = 1020$।\n3) निवल परिवर्तन $= (420 \\times 80\\%) - (600 \\times 22\\%) = 336 - 132 = +204$।\n4) प्रतिशत परिवर्तन $= \\frac{204}{1020} \\times 100 = \\mathbf{20\\%\\text{ की वृद्धि}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Deviation Shortcut",
+            "hi": "विधि 2: भारित प्रतिशत शॉर्टकट"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta = \\frac{420(+80\\%) + 600(-22\\%)}{1020}$",
+          "steps": {
+            "en": "Directly divide weighted percentage product sum by total base weights:\n$$\\frac{420(+80) - 600(22)}{1020}\\% = \\frac{20400}{1020}\\% = \\mathbf{20\\%\\text{ Increase}}.$$",
+            "hi": "कुल आधार भार 1020 से सीधे भारित योग को भाग दें:\n$$\\frac{420(+80) - 600(22)}{1020}\\% = \\frac{20400}{1020}\\% = \\mathbf{20\\%\\text{ की वृद्धि}}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Initial vs Net Change: 1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 40 = 60$.\n2) Old Cost of 7 Machines $+ 6$ TVs $= (7 \\times 60) + (6 \\times 100) = 420 + 600 = 1020$.\n3) Net change $= (+80\\% \\text{ of } 420) - (22\\% \\text{ of } 600) = 336 - 132 = +204$.\n4) Percentage change $= \\frac{204}{1020} \\times 100 = \\mathbf{20\\%\\text{ Increase}}$.\n\nMethod 2: Weighted Deviation Shortcut: Directly divide weighted percentage product sum by total base weights:\n$$\\frac{420(+80) - 600(22)}{1020}\\% = \\frac{20400}{1020}\\% = \\mathbf{20\\%\\text{ Increase}}.$$",
+      "hi": "विधि 1: Base-100 कुल मूल्य विधि: 1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 40 = 60$।\n2) 7 मशीनों + 6 TV का प्रारंभिक कुल $= 420 + 600 = 1020$।\n3) निवल परिवर्तन $= (420 \\times 80\\%) - (600 \\times 22\\%) = 336 - 132 = +204$।\n4) प्रतिशत परिवर्तन $= \\frac{204}{1020} \\times 100 = \\mathbf{20\\%\\text{ की वृद्धि}}$।\n\nविधि 2: भारित प्रतिशत शॉर्टकट: कुल आधार भार 1020 से सीधे भारित योग को भाग दें:\n$$\\frac{420(+80) - 600(22)}{1020}\\% = \\frac{20400}{1020}\\% = \\mathbf{20\\%\\text{ की वृद्धि}}.$$"
     }
   },
   {

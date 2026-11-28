@@ -945,10 +945,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Equal Installments",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (9%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (9%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**9%**).",
+      "keyConcept": "Total Paid = 40 × 1,625 = ₹65,000 ⇒ Earned SI = ₹15,000 (30%) in 10/3 Years!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Total Paid Minus Principal",
+            "hi": "विधि 1: कुल भुगतान से ब्याज व दर निकालें"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Total paid $= 1625 \\times 40 = 65,000 \\implies$ Total SI $= 15,000$.\n$T = \\frac{40}{12} = \\frac{10}{3}$ yrs. $R = \\frac{15000 \\times 100}{50000 \\times (10/3)} = \\mathbf{9\\%}$.",
+            "hi": "कुल चुकाया `= 1625 × 40 = ₹65,000` ⇒ ब्याज `= ₹15,000` (`40/12 = 10/3` वर्ष)।\nदर $= \\frac{15000 \\times 100}{50000 \\times (10/3)} = \\mathbf{9\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Percentage ÷ Time in Years (4 sec)",
+            "hi": "विधि 2: कुल ब्याज % ÷ वर्ष में समय (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total SI `= 15,000` on `50,000` = `30%` for `40/12 = 10/3` yrs ⇒ Yearly Rate $= 30 \\div \\frac{10}{3} = 3 \\times 3 =$ **9%**!",
+            "hi": "कुल `₹15,000` ब्याज (`30%`), `40/12 = 10/3` वर्ष में ⇒ वार्षिक दर $= 30 × \\frac{3}{10} =$ **9%**!"
+          }
+        }
+      ],
+      "en": "Method 1: Total Paid Minus Principal: Total paid $= 1625 \\times 40 = 65,000 \\implies$ Total SI $= 15,000$.\n$T = \\frac{40}{12} = \\frac{10}{3}$ yrs. $R = \\frac{15000 \\times 100}{50000 \\times (10/3)} = \\mathbf{9\\%}$.\n\nMethod 2: Net Percentage ÷ Time in Years (4 sec): Total SI `= 15,000` on `50,000` = `30%` for `40/12 = 10/3` yrs ⇒ Yearly Rate $= 30 \\div \\frac{10}{3} = 3 \\times 3 =$ **9%**!",
+      "hi": "विधि 1: कुल भुगतान से ब्याज व दर निकालें: कुल चुकाया `= 1625 × 40 = ₹65,000` ⇒ ब्याज `= ₹15,000` (`40/12 = 10/3` वर्ष)।\nदर $= \\frac{15000 \\times 100}{50000 \\times (10/3)} = \\mathbf{9\\%}$।\n\nविधि 2: कुल ब्याज % ÷ वर्ष में समय (4 sec): कुल `₹15,000` ब्याज (`30%`), `40/12 = 10/3` वर्ष में ⇒ वार्षिक दर $= 30 × \\frac{3}{10} =$ **9%**!"
     }
   },
   {
@@ -1353,10 +1381,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹540) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹540) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹540**).",
+      "keyConcept": "Successive Percentage: +20% and −10% => +8%",
+      "optionTrick": {
+        "en": "$20 - 10 - 2 = +8\\%$, and $+8\\%$ of $500 = +40 \\Rightarrow \\mathbf{Rs.540}$!",
+        "hi": "$+20 - 10 - 2 = +8\\%$; 500 में $8\\% = 40$ जोड़ें $\\Rightarrow \\mathbf{Rs.540}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Price Change",
+            "hi": "विधि 1: चरणबद्ध मूल्य परिवर्तन"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) After $+20\\%$: $500 \\times 1.2 = Rs.600$.\n2) After $-10\\%$: $600 - 60 = \\mathbf{Rs.540}$.",
+            "hi": "1) $20\\%$ बढ़ाने पर: $500 + 100 = Rs.600$।\n2) $10\\%$ घटाने पर: $600 - 60 = \\mathbf{Rs.540}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net +8% Mental Formula (4 sec)",
+            "hi": "विधि 2: निवल +8% मानसिक सूत्र"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$+20 - 10 - \\frac{20 \\times 10}{100} = +8\\%$. Add $8\\%$ of 500 ($= 40$) $\\Rightarrow \\mathbf{Rs.540}$.",
+            "hi": "निवल वृद्धि $= +20 - 10 - 2 = +8\\%$। $500 + 40 = \\mathbf{Rs.540}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Price Change: 1) After $+20\\%$: $500 \\times 1.2 = Rs.600$.\n2) After $-10\\%$: $600 - 60 = \\mathbf{Rs.540}$.\n\nMethod 2: Net +8% Mental Formula (4 sec): $+20 - 10 - \\frac{20 \\times 10}{100} = +8\\%$. Add $8\\%$ of 500 ($= 40$) $\\Rightarrow \\mathbf{Rs.540}$.",
+      "hi": "विधि 1: चरणबद्ध मूल्य परिवर्तन: 1) $20\\%$ बढ़ाने पर: $500 + 100 = Rs.600$।\n2) $10\\%$ घटाने पर: $600 - 60 = \\mathbf{Rs.540}$।\n\nविधि 2: निवल +8% मानसिक सूत्र: निवल वृद्धि $= +20 - 10 - 2 = +8\\%$। $500 + 40 = \\mathbf{Rs.540}$।"
     }
   },
   {

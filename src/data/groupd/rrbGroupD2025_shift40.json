@@ -1149,10 +1149,56 @@
     "correctIndexHi": 1,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (4%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (4%) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**4%**).",
+      "keyConcept": "Weighted Ratio-Weighted Average: E : S = 5 : 2",
+      "optionTrick": {
+        "en": "Since $E : S = 5 : 2$ ($I = 7$ parts), weighted change $= \\frac{5(-3\\%) + 2(+21.5\\%)}{7} = \\frac{28}{7}\\% = \\mathbf{4\\%}$!",
+        "hi": "अनुपात $E : S = 5 : 2$ ($I = 7$) लेकर सीधा भारित मान: $\\frac{5(-3) + 2(+21.5)}{7} = \\mathbf{4\\%}$!"
+      },
+      "trapAlert": {
+        "en": "\"150% more than savings\" means Expenditure = 100 + 150 = 250 (NOT 150!) when Savings = 100.",
+        "hi": "\"बचत से 150% अधिक\" का अर्थ व्यय $= 100 + 150 = 250$ है (न कि 150!) — यह परीक्षा का सबसे बड़ा जाल है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption",
+            "hi": "विधि 1: Base-100 मानकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$E = 100 + k\\%,\\; I = E + S$",
+          "steps": {
+            "en": "1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 150 = 250 \\Rightarrow$ Income $I = 350$.\n2) Change in $E = -3\\%$ of $250 = -7.5$; Change in $S = +21.5\\%$ of $100 = +21.5$.\n3) Net change in Income $= 14$ on $350 \\Rightarrow \\frac{14}{350} \\times 100 = \\mathbf{4\\%}$.",
+            "hi": "1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 250$ तथा आय $I = 350$।\n2) व्यय में परिवर्तन $= -3\\%$ of $250 = -7.5$; बचत में परिवर्तन $= +21.5$।\n3) आय में निवल वृद्धि $= 14$ पर कुल $350 \\Rightarrow \\frac{14}{350} \\times 100 = \\mathbf{4\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Average Ratio Trick",
+            "hi": "विधि 2: अनुपात-भारित औसत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta I = \\frac{5(-d) + 2(+g)}{5 + 2}$",
+          "steps": {
+            "en": "Ratio $E : S = 250 : 100 = 5 : 2$ (Total $= 7$ parts).\n$$\\text{Net }\\% = \\frac{5 \\times (-3) + 2 \\times (+21.5)}{7} = \\frac{-15 + 43}{7} = \\frac{28}{7} = \\mathbf{4\\%}.$$",
+            "hi": "सरल अनुपात $E : S = 5 : 2$ (योग $= 7$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{5(- 3) + 2(+21.5)}{7} = \\frac{28}{7} = \\mathbf{4\\%}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption: 1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 150 = 250 \\Rightarrow$ Income $I = 350$.\n2) Change in $E = -3\\%$ of $250 = -7.5$; Change in $S = +21.5\\%$ of $100 = +21.5$.\n3) Net change in Income $= 14$ on $350 \\Rightarrow \\frac{14}{350} \\times 100 = \\mathbf{4\\%}$.\n\nMethod 2: Weighted Average Ratio Trick: Ratio $E : S = 250 : 100 = 5 : 2$ (Total $= 7$ parts).\n$$\\text{Net }\\% = \\frac{5 \\times (-3) + 2 \\times (+21.5)}{7} = \\frac{-15 + 43}{7} = \\frac{28}{7} = \\mathbf{4\\%}.$$",
+      "hi": "विधि 1: Base-100 मानकर हल: 1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 250$ तथा आय $I = 350$।\n2) व्यय में परिवर्तन $= -3\\%$ of $250 = -7.5$; बचत में परिवर्तन $= +21.5$।\n3) आय में निवल वृद्धि $= 14$ पर कुल $350 \\Rightarrow \\frac{14}{350} \\times 100 = \\mathbf{4\\%}$।\n\nविधि 2: अनुपात-भारित औसत ट्रिक: सरल अनुपात $E : S = 5 : 2$ (योग $= 7$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{5(- 3) + 2(+21.5)}{7} = \\frac{28}{7} = \\mathbf{4\\%}.$$"
     }
   },
   {

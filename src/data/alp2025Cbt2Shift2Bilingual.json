@@ -388,10 +388,38 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
-      "en": "Correct Answer: Option D (14,000). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (14,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**14,000**).",
+      "keyConcept": "Constant Annual SI: Difference (₹4,500) divided over 3 yrs = ₹1,500/yr!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Yearly Interest Subtraction",
+            "hi": "विधि 1: 1 वर्ष का SI निकालकर घटाएं"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "3-yr SI $= 26,000 - 21,500 = 4,500 \\implies$ 1-yr SI $= 1,500$.\n5-yr SI $= 7,500 \\implies P = 21,500 - 7,500 = \\mathbf{14,000}$.",
+            "hi": "`3` वर्ष का ब्याज `= 4,500` ⇒ `1` वर्ष `= 1,500` ⇒ `5` वर्ष `= 7,500`।\nमूलधन $= 21,500 - 7,500 =$ **14,000**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral Gap Pullback (3 sec)",
+            "hi": "विधि 2: मौखिक अंतराल घटाव (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`3 yrs = +4,500` (`+1,500/yr`) ⇒ Subtract `5 × 1,500 = 7,500` from `21,500` = **14,000**!",
+            "hi": "`3` साल अंतर `4,500` (`1,500/साल`) ⇒ `21,500 − 7,500 =` **14,000**!"
+          }
+        }
+      ],
+      "en": "Method 1: Yearly Interest Subtraction: 3-yr SI $= 26,000 - 21,500 = 4,500 \\implies$ 1-yr SI $= 1,500$.\n5-yr SI $= 7,500 \\implies P = 21,500 - 7,500 = \\mathbf{14,000}$.\n\nMethod 2: Oral Gap Pullback (3 sec): `3 yrs = +4,500` (`+1,500/yr`) ⇒ Subtract `5 × 1,500 = 7,500` from `21,500` = **14,000**!",
+      "hi": "विधि 1: 1 वर्ष का SI निकालकर घटाएं: `3` वर्ष का ब्याज `= 4,500` ⇒ `1` वर्ष `= 1,500` ⇒ `5` वर्ष `= 7,500`।\nमूलधन $= 21,500 - 7,500 =$ **14,000**।\n\nविधि 2: मौखिक अंतराल घटाव (3 sec): `3` साल अंतर `4,500` (`1,500/साल`) ⇒ `21,500 − 7,500 =` **14,000**!"
     },
     "correctIndexHi": 3
   },
@@ -2038,10 +2066,38 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
-      "en": "Correct Answer: Option D (Buy from the third shopkeeper). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प D (तीसरे दुकानदार से खरीदें)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**Buy from the third shopkeeper**).",
+      "keyConcept": "When (d₁ + d₂) Sums Are Equal (10%), Zero/Smallest (d₁ × d₂) Product Gives MAX Discount!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Net Discount Formula",
+            "hi": "विधि 1: समतुल्य छूट सूत्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1st: $3 + 7 - 0.21 = 9.79\\%$.\n2nd: $2 + 8 - 0.16 = 9.84\\%$.\n3rd: Flat `10.00%` ⇒ Highest savings at **3rd shopkeeper**!",
+            "hi": "पहला: $9.79\\%$; दूसरा: $9.84\\%$; तीसरा: सीधा `10.00%` ⇒ **तीसरे दुकानदार** पर सर्वाधिक छूट!"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero Calculation Product Rule (2 sec)",
+            "hi": "विधि 2: बिना पेन गुणनफल नियम (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "All sums equal `10%` (`3+7`, `2+8`, `0+10`). Since Net $= \\text{Sum} - \\frac{d_1 d_2}{100}$, ZERO subtraction (`10%` flat) ALWAYS wins!",
+            "hi": "तीनों का योग `10%` समान है; अतः घटाई जाने वाली राशि (`d₁d₂/100`) जहाँ शून्य हो यानी सीधी `10%` छूट सदैव अधिकतम होगी!"
+          }
+        }
+      ],
+      "en": "Method 1: Net Discount Formula: 1st: $3 + 7 - 0.21 = 9.79\\%$.\n2nd: $2 + 8 - 0.16 = 9.84\\%$.\n3rd: Flat `10.00%` ⇒ Highest savings at **3rd shopkeeper**!\n\nMethod 2: Zero Calculation Product Rule (2 sec): All sums equal `10%` (`3+7`, `2+8`, `0+10`). Since Net $= \\text{Sum} - \\frac{d_1 d_2}{100}$, ZERO subtraction (`10%` flat) ALWAYS wins!",
+      "hi": "विधि 1: समतुल्य छूट सूत्र: पहला: $9.79\\%$; दूसरा: $9.84\\%$; तीसरा: सीधा `10.00%` ⇒ **तीसरे दुकानदार** पर सर्वाधिक छूट!\n\nविधि 2: बिना पेन गुणनफल नियम (2 sec): तीनों का योग `10%` समान है; अतः घटाई जाने वाली राशि (`d₁d₂/100`) जहाँ शून्य हो यानी सीधी `10%` छूट सदैव अधिकतम होगी!"
     },
     "correctIndexHi": 3
   },
@@ -3028,10 +3084,38 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP CBT-2 Part A Answer Key: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics • CEN 01/2025 CBT-2 Part A (28 Jul 2026 Shift 2)",
-      "en": "Correct Answer: Option A (65%). Verified by Railway Recruitment Board official CBT-2 answer key.",
-      "hi": "सही उत्तर: विकल्प A (65%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**65%**).",
+      "keyConcept": "3-Step Ratio Chain Multiplication",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Apply 2-Step Formula Twice",
+            "hi": "विधि 1: दो बार क्रमिक सूत्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $10 + 20 + 2 = 32\\%$.\n2) $32 + 25 + \\frac{32 \\times 25}{100} = 57 + 8 = \\mathbf{65\\%}$.",
+            "hi": "1) पहले 10% व 20% $= 32\\%$।\n2) अब 32% व 25% $= 32 + 25 + 8 = \\mathbf{65\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fraction Ratio Chain (5 sec)",
+            "hi": "विधि 2: भिन्न अनुपात चेन (5 sec)"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$10\\to11$, $5\\to6$, $4\\to5$. Cancel `5` ⇒ $40 \\to 66 = 20 \\to 33$ ⇒ $\\frac{13}{20} \\times 100 = \\mathbf{65\\%}$!",
+            "hi": "$(10\\to11) \\times (5\\to6) \\times (4\\to5)$ में `5` काटने पर $20 \\to 33$ ⇒ $+13/20 = \\mathbf{65\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Apply 2-Step Formula Twice: 1) $10 + 20 + 2 = 32\\%$.\n2) $32 + 25 + \\frac{32 \\times 25}{100} = 57 + 8 = \\mathbf{65\\%}$.\n\nMethod 2: Fraction Ratio Chain (5 sec): $10\\to11$, $5\\to6$, $4\\to5$. Cancel `5` ⇒ $40 \\to 66 = 20 \\to 33$ ⇒ $\\frac{13}{20} \\times 100 = \\mathbf{65\\%}$!",
+      "hi": "विधि 1: दो बार क्रमिक सूत्र: 1) पहले 10% व 20% $= 32\\%$।\n2) अब 32% व 25% $= 32 + 25 + 8 = \\mathbf{65\\%}$।\n\nविधि 2: भिन्न अनुपात चेन (5 sec): $(10\\to11) \\times (5\\to6) \\times (4\\to5)$ में `5` काटने पर $20 \\to 33$ ⇒ $+13/20 = \\mathbf{65\\%}$!"
     },
     "correctIndexHi": 0
   },

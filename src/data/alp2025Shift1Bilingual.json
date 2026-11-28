@@ -190,10 +190,52 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (13 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (12). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (12)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Mathematical Result: x = 14 (Option C); Official Stored Key marks Option A (12).",
+      "keyConcept": "Direct Percentage Symmetry: a% of b = b% of a",
+      "trapAlert": {
+        "en": "Calculation Alert: 12% of 250 (= 30) + 18% of 300 (= 54) = 84, and 84 ÷ 6 = **14** (Option C). However, the official sheet key stored Option A (12) — marked transparently here for full exam clarity.",
+        "hi": "सावधानी सूचना: सटीक गणितीय गणना से $12\\%$ of $250\\;(30) + 18\\%$ of $300\\;(54) = 84 \\Rightarrow x = 84 \\div 6 = \\mathbf{14}$ (विकल्प C) प्राप्त होता है; यद्यपि आधिकारिक शीट कुंजी में विकल्प A (12) अंकित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Equation Setup",
+            "hi": "विधि 1: बेसिक समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "formula": "$\\frac{x}{100}\\times 600 = \\frac{12}{100}\\times 250 + \\frac{18}{100}\\times 300$",
+          "steps": {
+            "en": "1) $6x = 30 + 54 = 84$.\n2) Dividing by 6: $x = \\frac{84}{6} = \\mathbf{14}$ (Option C by exact arithmetic; stored answer key shows Option A: 12).",
+            "hi": "1) $6x = 30 + 54 = 84$।\n2) $x = \\frac{84}{6} = \\mathbf{14}$ (सटीक गणना से विकल्प C; आधिकारिक उत्तर कुंजी में 12 अंकित है)।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Symmetry & Cancel Zeros (8 sec)",
+            "hi": "विधि 2: शून्य काटना व प्रतिशत समरूपता"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$a\\% \\text{ of } b = b\\% \\text{ of } a$",
+          "steps": {
+            "en": "Cancel `%` / `100` throughout or note $250\\%$ of $12 = 2.5 \\times 12 = 30$ and $3 \\times 18 = 54$; sum $= 84 = 6 \\times 14 \\Rightarrow x = \\mathbf{14}$.",
+            "hi": "तीनों पदों से `%` का `100` हटाने पर: $600x = 3000 + 5400 = 8400 \\Rightarrow x = \\frac{84}{6} = \\mathbf{14}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Equation Setup: 1) $6x = 30 + 54 = 84$.\n2) Dividing by 6: $x = \\frac{84}{6} = \\mathbf{14}$ (Option C by exact arithmetic; stored answer key shows Option A: 12).\n\nMethod 2: Symmetry & Cancel Zeros (8 sec): Cancel `%` / `100` throughout or note $250\\%$ of $12 = 2.5 \\times 12 = 30$ and $3 \\times 18 = 54$; sum $= 84 = 6 \\times 14 \\Rightarrow x = \\mathbf{14}$.",
+      "hi": "विधि 1: बेसिक समीकरण विधि: 1) $6x = 30 + 54 = 84$।\n2) $x = \\frac{84}{6} = \\mathbf{14}$ (सटीक गणना से विकल्प C; आधिकारिक उत्तर कुंजी में 12 अंकित है)।\n\nविधि 2: शून्य काटना व प्रतिशत समरूपता: तीनों पदों से `%` का `100` हटाने पर: $600x = 3000 + 5400 = 8400 \\Rightarrow x = \\frac{84}{6} = \\mathbf{14}$।"
     },
     "correctIndexHi": 0
   },
@@ -454,10 +496,38 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (13 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (125%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (125%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**125%**).",
+      "keyConcept": "Dummy Variable Cancels + Denominator Holds \"of 4%\"",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Let Number = 100",
+            "hi": "विधि 1: संख्या = 100 मानकर हल"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "5% of 100 = 5; 4% of 100 = 4 ⇒ $\\frac{5}{4} \\times 100 = \\mathbf{125\\%}$.",
+            "hi": "100 का 5% = 5; 100 का 4% = 4 ⇒ $\\frac{5}{4} \\times 100 = \\mathbf{125\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Ratio 5/4 (2 sec)",
+            "hi": "विधि 2: सीधा अनुपात 5/4 (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Common number cancels! `5 / 4 = 1.25 =` **125%**! (Trap: 4/5 = 80% is opposite mistake!)",
+            "hi": "समान संख्या कट जाती है! `5 / 4` सदैव 100% से बड़ा होगा ⇒ सीधा **125%**! (सावधान: 80% उल्टी गलती है!)"
+          }
+        }
+      ],
+      "en": "Method 1: Let Number = 100: 5% of 100 = 5; 4% of 100 = 4 ⇒ $\\frac{5}{4} \\times 100 = \\mathbf{125\\%}$.\n\nMethod 2: Direct Ratio 5/4 (2 sec): Common number cancels! `5 / 4 = 1.25 =` **125%**! (Trap: 4/5 = 80% is opposite mistake!)",
+      "hi": "विधि 1: संख्या = 100 मानकर हल: 100 का 5% = 5; 100 का 4% = 4 ⇒ $\\frac{5}{4} \\times 100 = \\mathbf{125\\%}$।\n\nविधि 2: सीधा अनुपात 5/4 (2 sec): समान संख्या कट जाती है! `5 / 4` सदैव 100% से बड़ा होगा ⇒ सीधा **125%**! (सावधान: 80% उल्टी गलती है!)"
     },
     "correctIndexHi": 0
   },
@@ -1509,10 +1579,38 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (13 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option A (15%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (15%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**15%**).",
+      "keyConcept": "MP = 120, SP = 102 ⇒ Discount ALWAYS on MP (120)!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base CP = 100",
+            "hi": "विधि 1: CP = 100 मानकर हल"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Let $CP = 100 \\implies MP = 120, SP = 102$.\n$D\\% = \\frac{120 - 102}{120} \\times 100 = \\frac{18}{120} \\times 100 = \\mathbf{15\\%}$.",
+            "hi": "माना $CP = 100 \\implies MP = 120, SP = 102$।\nछूट\\% $= \\frac{18}{120} \\times 100 = \\mathbf{15\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral 3/20 Recognition (2 sec)",
+            "hi": "विधि 2: भिन्न 3/20 पहचान (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Gap `20 − 2 = 18` over `MP = 120` ⇒ $\\frac{18}{120} = \\frac{3}{20} =$ **15%**!",
+            "hi": "`20 − 2 = 18` की छूट `120` पर ⇒ `18/120 = 3/20` = **15%**!"
+          }
+        }
+      ],
+      "en": "Method 1: Base CP = 100: Let $CP = 100 \\implies MP = 120, SP = 102$.\n$D\\% = \\frac{120 - 102}{120} \\times 100 = \\frac{18}{120} \\times 100 = \\mathbf{15\\%}$.\n\nMethod 2: Oral 3/20 Recognition (2 sec): Gap `20 − 2 = 18` over `MP = 120` ⇒ $\\frac{18}{120} = \\frac{3}{20} =$ **15%**!",
+      "hi": "विधि 1: CP = 100 मानकर हल: माना $CP = 100 \\implies MP = 120, SP = 102$।\nछूट\\% $= \\frac{18}{120} \\times 100 = \\mathbf{15\\%}$।\n\nविधि 2: भिन्न 3/20 पहचान (2 sec): `20 − 2 = 18` की छूट `120` पर ⇒ `18/120 = 3/20` = **15%**!"
     },
     "correctIndexHi": 0
   },

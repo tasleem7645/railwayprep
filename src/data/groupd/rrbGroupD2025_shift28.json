@@ -1287,10 +1287,56 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (Increase by 4.2%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (4.2% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**Increase by 4.2%**).",
+      "keyConcept": "Base-100 Unit Cost × Quantity Weighted Percentage Change",
+      "optionTrick": {
+        "en": "Set TV = `100` -> Machine = `50`. Total Weight $= 200 + 300 = 500$, Change $= +162 - 141 = +21 \\Rightarrow \\mathbf{4.2\\%}$ Increase!",
+        "hi": "TV = `100`, मशीन = `50` लेने से कुल प्रारंभिक मूल्य $= 500$ तथा निवल बदलाव $= +21$ — सीधे **4.2% वृद्धि** प्राप्त होती है!"
+      },
+      "trapAlert": {
+        "en": "Remember to weight each unit cost by quantity (4 machines & 3 TVs) before computing net % change.",
+        "hi": "केवल 1 इकाई का प्रतिशत नहीं बदलना है — क्रमशः `nW` मशीनों और `nT` टीवी की संख्या से गुणा करके भारित कुल निकालें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Initial vs Net Change",
+            "hi": "विधि 1: Base-100 कुल मूल्य विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$\\%\\Delta = \\frac{n_W \\cdot \\Delta W + n_T \\cdot \\Delta T}{n_W W + n_T T} \\times 100$",
+          "steps": {
+            "en": "1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 50 = 50$.\n2) Old Cost of 4 Machines $+ 3$ TVs $= (4 \\times 50) + (3 \\times 100) = 200 + 300 = 500$.\n3) Net change $= (+81\\% \\text{ of } 200) - (47\\% \\text{ of } 300) = 162 - 141 = +21$.\n4) Percentage change $= \\frac{21}{500} \\times 100 = \\mathbf{4.2\\%\\text{ Increase}}$.",
+            "hi": "1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 50 = 50$।\n2) 4 मशीनों + 3 TV का प्रारंभिक कुल $= 200 + 300 = 500$।\n3) निवल परिवर्तन $= (200 \\times 81\\%) - (300 \\times 47\\%) = 162 - 141 = +21$।\n4) प्रतिशत परिवर्तन $= \\frac{21}{500} \\times 100 = \\mathbf{4.2\\%\\text{ की वृद्धि}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Deviation Shortcut",
+            "hi": "विधि 2: भारित प्रतिशत शॉर्टकट"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta = \\frac{200(+81\\%) + 300(-47\\%)}{500}$",
+          "steps": {
+            "en": "Directly divide weighted percentage product sum by total base weights:\n$$\\frac{200(+81) - 300(47)}{500}\\% = \\frac{2100}{500}\\% = \\mathbf{4.2\\%\\text{ Increase}}.$$",
+            "hi": "कुल आधार भार 500 से सीधे भारित योग को भाग दें:\n$$\\frac{200(+81) - 300(47)}{500}\\% = \\frac{2100}{500}\\% = \\mathbf{4.2\\%\\text{ की वृद्धि}}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Initial vs Net Change: 1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 50 = 50$.\n2) Old Cost of 4 Machines $+ 3$ TVs $= (4 \\times 50) + (3 \\times 100) = 200 + 300 = 500$.\n3) Net change $= (+81\\% \\text{ of } 200) - (47\\% \\text{ of } 300) = 162 - 141 = +21$.\n4) Percentage change $= \\frac{21}{500} \\times 100 = \\mathbf{4.2\\%\\text{ Increase}}$.\n\nMethod 2: Weighted Deviation Shortcut: Directly divide weighted percentage product sum by total base weights:\n$$\\frac{200(+81) - 300(47)}{500}\\% = \\frac{2100}{500}\\% = \\mathbf{4.2\\%\\text{ Increase}}.$$",
+      "hi": "विधि 1: Base-100 कुल मूल्य विधि: 1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 50 = 50$।\n2) 4 मशीनों + 3 TV का प्रारंभिक कुल $= 200 + 300 = 500$।\n3) निवल परिवर्तन $= (200 \\times 81\\%) - (300 \\times 47\\%) = 162 - 141 = +21$।\n4) प्रतिशत परिवर्तन $= \\frac{21}{500} \\times 100 = \\mathbf{4.2\\%\\text{ की वृद्धि}}$।\n\nविधि 2: भारित प्रतिशत शॉर्टकट: कुल आधार भार 500 से सीधे भारित योग को भाग दें:\n$$\\frac{200(+81) - 300(47)}{500}\\% = \\frac{2100}{500}\\% = \\mathbf{4.2\\%\\text{ की वृद्धि}}.$$"
     }
   },
   {

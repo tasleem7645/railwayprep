@@ -1217,10 +1217,38 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (2,00,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (2,00,000) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**2,00,000**).",
+      "keyConcept": "\"Of the Remaining\" Chain ⇒ Remaining Product = 55% × 80% = 44%",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Multiplicative Remaining Chain",
+            "hi": "विधि 1: शेष मान गुणन विधि"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$S \\times \\frac{55}{100} \\times \\frac{80}{100} = 88000 \\implies 0.44\\,S = 88000 \\implies S = \\mathbf{Rs.2,00,000}$.",
+            "hi": "$S \\times 0.55 \\times 0.80 = 0.44\\,S = 88000 \\implies S = \\mathbf{Rs.2,00,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Instant 44% = 88,000 (2 sec)",
+            "hi": "विधि 2: तुरंत 44% = 88,000 (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Left after 45% is `55`; 20% of 55 is `11` ⇒ Final saved `44%` = `88,000` (`×2000`) ⇒ `100%` = **2,00,000**!",
+            "hi": "बचा `55 − (55 का 20% = 11) = 44%`। जब `44% = 88,000`, तो `100%` = **2,00,000**!"
+          }
+        }
+      ],
+      "en": "Method 1: Multiplicative Remaining Chain: $S \\times \\frac{55}{100} \\times \\frac{80}{100} = 88000 \\implies 0.44\\,S = 88000 \\implies S = \\mathbf{Rs.2,00,000}$.\n\nMethod 2: Instant 44% = 88,000 (2 sec): Left after 45% is `55`; 20% of 55 is `11` ⇒ Final saved `44%` = `88,000` (`×2000`) ⇒ `100%` = **2,00,000**!",
+      "hi": "विधि 1: शेष मान गुणन विधि: $S \\times 0.55 \\times 0.80 = 0.44\\,S = 88000 \\implies S = \\mathbf{Rs.2,00,000}$।\n\nविधि 2: तुरंत 44% = 88,000 (2 sec): बचा `55 − (55 का 20% = 11) = 44%`। जब `44% = 88,000`, तो `100%` = **2,00,000**!"
     }
   },
   {
@@ -1385,10 +1413,56 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (Increase by 23%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (23% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**Increase by 23%**).",
+      "keyConcept": "Base-100 Unit Cost × Quantity Weighted Percentage Change",
+      "optionTrick": {
+        "en": "Set TV = `100` -> Machine = `77`. Total Weight $= 462 + 300 = 762$, Change $= +337.26 - 162 = +175.26 \\Rightarrow \\mathbf{23\\%}$ Increase!",
+        "hi": "TV = `100`, मशीन = `77` लेने से कुल प्रारंभिक मूल्य $= 762$ तथा निवल बदलाव $= +175.26$ — सीधे **23% वृद्धि** प्राप्त होती है!"
+      },
+      "trapAlert": {
+        "en": "Remember to weight each unit cost by quantity (6 machines & 3 TVs) before computing net % change.",
+        "hi": "केवल 1 इकाई का प्रतिशत नहीं बदलना है — क्रमशः `nW` मशीनों और `nT` टीवी की संख्या से गुणा करके भारित कुल निकालें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Initial vs Net Change",
+            "hi": "विधि 1: Base-100 कुल मूल्य विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$\\%\\Delta = \\frac{n_W \\cdot \\Delta W + n_T \\cdot \\Delta T}{n_W W + n_T T} \\times 100$",
+          "steps": {
+            "en": "1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 23 = 77$.\n2) Old Cost of 6 Machines $+ 3$ TVs $= (6 \\times 77) + (3 \\times 100) = 462 + 300 = 762$.\n3) Net change $= (+73\\% \\text{ of } 462) - (54\\% \\text{ of } 300) = 337.26 - 162 = +175.26$.\n4) Percentage change $= \\frac{175.26}{762} \\times 100 = \\mathbf{23\\%\\text{ Increase}}$.",
+            "hi": "1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 23 = 77$।\n2) 6 मशीनों + 3 TV का प्रारंभिक कुल $= 462 + 300 = 762$।\n3) निवल परिवर्तन $= (462 \\times 73\\%) - (300 \\times 54\\%) = 337.26 - 162 = +175.26$।\n4) प्रतिशत परिवर्तन $= \\frac{175.26}{762} \\times 100 = \\mathbf{23\\%\\text{ की वृद्धि}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Deviation Shortcut",
+            "hi": "विधि 2: भारित प्रतिशत शॉर्टकट"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta = \\frac{462(+73\\%) + 300(-54\\%)}{762}$",
+          "steps": {
+            "en": "Directly divide weighted percentage product sum by total base weights:\n$$\\frac{462(+73) - 300(54)}{762}\\% = \\frac{17526}{762}\\% = \\mathbf{23\\%\\text{ Increase}}.$$",
+            "hi": "कुल आधार भार 762 से सीधे भारित योग को भाग दें:\n$$\\frac{462(+73) - 300(54)}{762}\\% = \\frac{17526}{762}\\% = \\mathbf{23\\%\\text{ की वृद्धि}}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Initial vs Net Change: 1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 23 = 77$.\n2) Old Cost of 6 Machines $+ 3$ TVs $= (6 \\times 77) + (3 \\times 100) = 462 + 300 = 762$.\n3) Net change $= (+73\\% \\text{ of } 462) - (54\\% \\text{ of } 300) = 337.26 - 162 = +175.26$.\n4) Percentage change $= \\frac{175.26}{762} \\times 100 = \\mathbf{23\\%\\text{ Increase}}$.\n\nMethod 2: Weighted Deviation Shortcut: Directly divide weighted percentage product sum by total base weights:\n$$\\frac{462(+73) - 300(54)}{762}\\% = \\frac{17526}{762}\\% = \\mathbf{23\\%\\text{ Increase}}.$$",
+      "hi": "विधि 1: Base-100 कुल मूल्य विधि: 1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 23 = 77$।\n2) 6 मशीनों + 3 TV का प्रारंभिक कुल $= 462 + 300 = 762$।\n3) निवल परिवर्तन $= (462 \\times 73\\%) - (300 \\times 54\\%) = 337.26 - 162 = +175.26$।\n4) प्रतिशत परिवर्तन $= \\frac{175.26}{762} \\times 100 = \\mathbf{23\\%\\text{ की वृद्धि}}$।\n\nविधि 2: भारित प्रतिशत शॉर्टकट: कुल आधार भार 762 से सीधे भारित योग को भाग दें:\n$$\\frac{462(+73) - 300(54)}{762}\\% = \\frac{17526}{762}\\% = \\mathbf{23\\%\\text{ की वृद्धि}}.$$"
     }
   },
   {
@@ -1453,10 +1527,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Quarterly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹1,16,025) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹1,16,025) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹1,16,025**).",
+      "keyConcept": "40% Quarterly = 10% × 4 Cycles = 46.41% ⇒ 4641 × 25 = 464100 ÷ 4!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio Power 10⁴ : 11⁴",
+            "hi": "विधि 1: रेश्यो घात 10⁴ : 11⁴ विधि"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Quarterly `r = 40/4 = 10%`, `n = 4` ⇒ $P : A = 10^4 : 11^4 = 10000 : 14641$.\nCI $= 4641 \\times 25 =$ **₹1,16,025**.",
+            "hi": "तिमाही `r = 10%`, `4` चक्र ⇒ `10,000 : 14,641` (`×25`) ⇒ CI $= 4641 \\times 25 =$ **₹1,16,025**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Unit-5 Multiplication & Last Two Digits (2 sec)",
+            "hi": "विधि 2: अंतिम दो अंक 25 व ÷4 ट्रिक (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Since `4641` is multiplied by `25` (`464100 ÷ 4`), the product MUST end in `25` (`...025`) ⇒ **₹1,16,025**!",
+            "hi": "`464,100 ÷ 4` का अंतिम दो अंक `25` पक्का होगा — विकल्पों में केवल **₹1,16,025** है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio Power 10⁴ : 11⁴: Quarterly `r = 40/4 = 10%`, `n = 4` ⇒ $P : A = 10^4 : 11^4 = 10000 : 14641$.\nCI $= 4641 \\times 25 =$ **₹1,16,025**.\n\nMethod 2: Unit-5 Multiplication & Last Two Digits (2 sec): Since `4641` is multiplied by `25` (`464100 ÷ 4`), the product MUST end in `25` (`...025`) ⇒ **₹1,16,025**!",
+      "hi": "विधि 1: रेश्यो घात 10⁴ : 11⁴ विधि: तिमाही `r = 10%`, `4` चक्र ⇒ `10,000 : 14,641` (`×25`) ⇒ CI $= 4641 \\times 25 =$ **₹1,16,025**।\n\nविधि 2: अंतिम दो अंक 25 व ÷4 ट्रिक (2 sec): `464,100 ÷ 4` का अंतिम दो अंक `25` पक्का होगा — विकल्पों में केवल **₹1,16,025** है!"
     }
   },
   {

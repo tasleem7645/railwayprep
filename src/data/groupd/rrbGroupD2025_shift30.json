@@ -1149,10 +1149,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (30,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (30,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**30,000**).",
+      "keyConcept": "Margin = 53% − 47% = 6% of Valid Votes (= 90% of Total)",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse from Winner Margin",
+            "hi": "विधि 1: जीत अंतर से पीछे की ओर गणना"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Loser $= 100 - 53 = 47\\%$; Margin $= 6\\%$ of Valid $= 1620 \\implies$ Valid $= 27,000$.\nSince Valid $= 90\\%$ of Total $\\implies$ Total $= \\frac{27000}{0.90} = \\mathbf{30,000}$.",
+            "hi": "हारने वाला $= 47\\%$, अंतर $= 6\\%$ of Valid $= 1620 \\implies$ वैध मत $= 27,000$।\n$90\\%$ of Total $= 27000 \\implies$ कुल $= \\mathbf{30,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Single Chain Multiplication (4 sec)",
+            "hi": "विधि 2: एक-पंक्ति क्रमिक चेन (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$T \\times \\frac{9}{10} \\times \\frac{6}{100} = 1620 \\implies 54\\,T = 1620 \\times 1000 \\implies T = 30 \\times 1000 = \\mathbf{30,000}$!",
+            "hi": "$T \\times \\frac{9}{10} \\times \\frac{6}{100} = 1620 \\implies 54\\,T = 1620000 \\implies T = \\mathbf{30,000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse from Winner Margin: Loser $= 100 - 53 = 47\\%$; Margin $= 6\\%$ of Valid $= 1620 \\implies$ Valid $= 27,000$.\nSince Valid $= 90\\%$ of Total $\\implies$ Total $= \\frac{27000}{0.90} = \\mathbf{30,000}$.\n\nMethod 2: Single Chain Multiplication (4 sec): $T \\times \\frac{9}{10} \\times \\frac{6}{100} = 1620 \\implies 54\\,T = 1620 \\times 1000 \\implies T = 30 \\times 1000 = \\mathbf{30,000}$!",
+      "hi": "विधि 1: जीत अंतर से पीछे की ओर गणना: हारने वाला $= 47\\%$, अंतर $= 6\\%$ of Valid $= 1620 \\implies$ वैध मत $= 27,000$।\n$90\\%$ of Total $= 27000 \\implies$ कुल $= \\mathbf{30,000}$।\n\nविधि 2: एक-पंक्ति क्रमिक चेन (4 sec): $T \\times \\frac{9}{10} \\times \\frac{6}{100} = 1620 \\implies 54\\,T = 1620000 \\implies T = \\mathbf{30,000}$!"
     }
   },
   {
@@ -1285,10 +1313,56 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Increase by 28%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (28% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**Increase by 28%**).",
+      "keyConcept": "Base-100 Unit Cost × Quantity Weighted Percentage Change",
+      "optionTrick": {
+        "en": "Set TV = `100` -> Machine = `56`. Total Weight $= 392 + 200 = 592$, Change $= +305.76 - 140 = +165.76 \\Rightarrow \\mathbf{28\\%}$ Increase!",
+        "hi": "TV = `100`, मशीन = `56` लेने से कुल प्रारंभिक मूल्य $= 592$ तथा निवल बदलाव $= +165.76$ — सीधे **28% वृद्धि** प्राप्त होती है!"
+      },
+      "trapAlert": {
+        "en": "Remember to weight each unit cost by quantity (7 machines & 2 TVs) before computing net % change.",
+        "hi": "केवल 1 इकाई का प्रतिशत नहीं बदलना है — क्रमशः `nW` मशीनों और `nT` टीवी की संख्या से गुणा करके भारित कुल निकालें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Initial vs Net Change",
+            "hi": "विधि 1: Base-100 कुल मूल्य विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$\\%\\Delta = \\frac{n_W \\cdot \\Delta W + n_T \\cdot \\Delta T}{n_W W + n_T T} \\times 100$",
+          "steps": {
+            "en": "1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 44 = 56$.\n2) Old Cost of 7 Machines $+ 2$ TVs $= (7 \\times 56) + (2 \\times 100) = 392 + 200 = 592$.\n3) Net change $= (+78\\% \\text{ of } 392) - (70\\% \\text{ of } 200) = 305.76 - 140 = +165.76$.\n4) Percentage change $= \\frac{165.76}{592} \\times 100 = \\mathbf{28\\%\\text{ Increase}}$.",
+            "hi": "1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 44 = 56$।\n2) 7 मशीनों + 2 TV का प्रारंभिक कुल $= 392 + 200 = 592$।\n3) निवल परिवर्तन $= (392 \\times 78\\%) - (200 \\times 70\\%) = 305.76 - 140 = +165.76$।\n4) प्रतिशत परिवर्तन $= \\frac{165.76}{592} \\times 100 = \\mathbf{28\\%\\text{ की वृद्धि}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Deviation Shortcut",
+            "hi": "विधि 2: भारित प्रतिशत शॉर्टकट"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta = \\frac{392(+78\\%) + 200(-70\\%)}{592}$",
+          "steps": {
+            "en": "Directly divide weighted percentage product sum by total base weights:\n$$\\frac{392(+78) - 200(70)}{592}\\% = \\frac{16576}{592}\\% = \\mathbf{28\\%\\text{ Increase}}.$$",
+            "hi": "कुल आधार भार 592 से सीधे भारित योग को भाग दें:\n$$\\frac{392(+78) - 200(70)}{592}\\% = \\frac{16576}{592}\\% = \\mathbf{28\\%\\text{ की वृद्धि}}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Initial vs Net Change: 1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 44 = 56$.\n2) Old Cost of 7 Machines $+ 2$ TVs $= (7 \\times 56) + (2 \\times 100) = 392 + 200 = 592$.\n3) Net change $= (+78\\% \\text{ of } 392) - (70\\% \\text{ of } 200) = 305.76 - 140 = +165.76$.\n4) Percentage change $= \\frac{165.76}{592} \\times 100 = \\mathbf{28\\%\\text{ Increase}}$.\n\nMethod 2: Weighted Deviation Shortcut: Directly divide weighted percentage product sum by total base weights:\n$$\\frac{392(+78) - 200(70)}{592}\\% = \\frac{16576}{592}\\% = \\mathbf{28\\%\\text{ Increase}}.$$",
+      "hi": "विधि 1: Base-100 कुल मूल्य विधि: 1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 44 = 56$।\n2) 7 मशीनों + 2 TV का प्रारंभिक कुल $= 392 + 200 = 592$।\n3) निवल परिवर्तन $= (392 \\times 78\\%) - (200 \\times 70\\%) = 305.76 - 140 = +165.76$।\n4) प्रतिशत परिवर्तन $= \\frac{165.76}{592} \\times 100 = \\mathbf{28\\%\\text{ की वृद्धि}}$।\n\nविधि 2: भारित प्रतिशत शॉर्टकट: कुल आधार भार 592 से सीधे भारित योग को भाग दें:\n$$\\frac{392(+78) - 200(70)}{592}\\% = \\frac{16576}{592}\\% = \\mathbf{28\\%\\text{ की वृद्धि}}.$$"
     }
   },
   {

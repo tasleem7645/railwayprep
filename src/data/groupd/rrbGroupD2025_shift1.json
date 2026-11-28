@@ -911,10 +911,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Basic Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (30%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (30%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**30%**).",
+      "keyConcept": "Saving % = (Income − Expenditure) / Income × 100",
+      "optionTrick": {
+        "en": "Simplify $35:50 = 7:10 \\Rightarrow 70\\%$ spent, so **30%** saved!",
+        "hi": "सरल अनुपात $35:50 = 7:10$ अर्थात् $70\\%$ खर्च, तो सीधे **30%** बचत!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Savings Formula",
+            "hi": "विधि 1: बेसिक बचत सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Monthly savings $= Rs.50,000 - Rs.35,000 = Rs.15,000$.\n2) Saving $\\% = \\frac{15{,}000}{50{,}000} \\times 100 = \\mathbf{30\\%}$.",
+            "hi": "1) मासिक बचत $= Rs.50,000 - Rs.35,000 = Rs.15,000$।\n2) बचत प्रतिशत $= \\frac{15{,}000}{50{,}000} \\times 100 = \\mathbf{30\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Trim Ratio (4 sec)",
+            "hi": "विधि 2: शून्य हटाओ अनुपात विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Drop 3 zeros: $50 - 35 = 15$ out of $50 \\Rightarrow \\times 2 = \\mathbf{30\\%}$ out of 100.",
+            "hi": "अंतिम तीन शून्य हटाएँ: 50 में से बचत $= 15 \\Rightarrow$ दोगुना करने पर 100 में $\\mathbf{30\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Savings Formula: 1) Monthly savings $= Rs.50,000 - Rs.35,000 = Rs.15,000$.\n2) Saving $\\% = \\frac{15{,}000}{50{,}000} \\times 100 = \\mathbf{30\\%}$.\n\nMethod 2: Zero-Trim Ratio (4 sec): Drop 3 zeros: $50 - 35 = 15$ out of $50 \\Rightarrow \\times 2 = \\mathbf{30\\%}$ out of 100.",
+      "hi": "विधि 1: बेसिक बचत सूत्र: 1) मासिक बचत $= Rs.50,000 - Rs.35,000 = Rs.15,000$।\n2) बचत प्रतिशत $= \\frac{15{,}000}{50{,}000} \\times 100 = \\mathbf{30\\%}$।\n\nविधि 2: शून्य हटाओ अनुपात विधि: अंतिम तीन शून्य हटाएँ: 50 में से बचत $= 15 \\Rightarrow$ दोगुना करने पर 100 में $\\mathbf{30\\%}$!"
     }
   },
   {
@@ -1113,10 +1153,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (51 : 50) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (51 : 50) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**51 : 50**).",
+      "keyConcept": "Ignore Principal ₹10,000 Completely — Take Ratio of Effective CI %!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Compare Effective Rates",
+            "hi": "विधि 1: प्रभावी ब्याज दरों का अनुपात"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Half-yearly (`4% + 4%`): $4 + 4 + \\frac{16}{100} = 8.16\\%$ (`₹816`).\nYearly (`8%`): `₹800`. Ratio $= 816 : 800 = \\mathbf{51 : 50}$.",
+            "hi": "छमाही (`4%+4%`): `8.16%` (`₹816`) बनाम वार्षिक (`8%` = `₹800`)। काटने (`÷16`) पर अनुपात = **51 : 50**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-₹ Rate Ratio 8.16 : 8.00 (2 sec)",
+            "hi": "विधि 2: बिना ₹ दर अनुपात 8.16 : 8 (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Divide `8.16 : 8.00` mentally by `0.16`: `51 : 50`!",
+            "hi": "दोनों `8.16` व `8.00` को `0.16` से काटते ही **51 : 50**!"
+          }
+        }
+      ],
+      "en": "Method 1: Compare Effective Rates: Half-yearly (`4% + 4%`): $4 + 4 + \\frac{16}{100} = 8.16\\%$ (`₹816`).\nYearly (`8%`): `₹800`. Ratio $= 816 : 800 = \\mathbf{51 : 50}$.\n\nMethod 2: Zero-₹ Rate Ratio 8.16 : 8.00 (2 sec): Divide `8.16 : 8.00` mentally by `0.16`: `51 : 50`!",
+      "hi": "विधि 1: प्रभावी ब्याज दरों का अनुपात: छमाही (`4%+4%`): `8.16%` (`₹816`) बनाम वार्षिक (`8%` = `₹800`)। काटने (`÷16`) पर अनुपात = **51 : 50**।\n\nविधि 2: बिना ₹ दर अनुपात 8.16 : 8 (2 sec): दोनों `8.16` व `8.00` को `0.16` से काटते ही **51 : 50**!"
     }
   },
   {
@@ -1147,10 +1215,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Half-Yearly Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹4,641) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹4,641) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹4,641**).",
+      "keyConcept": "20% p.a. Half-Yearly for 2 Yrs = 10% for 4 Cycles = +46.41%!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct Formula Multiplier",
+            "hi": "विधि 1: मानक सूत्र गुणन"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "`r = 10%`, `n = 4`. $A = 10000 \\times 1.4641 = 14,641$.\nCI $= 14,641 - 10,000 =$ **₹4,641**.",
+            "hi": "`r = 10%`, `4` चक्र ⇒ $A = 14,641$ ⇒ CI $= 14,641 - 10,000 =$ **₹4,641**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral 46.41% Base 10,000 (1 sec)",
+            "hi": "विधि 2: 1-सेकंड 46.41% ट्रिक (1 sec)"
+          },
+          "timeTag": "1 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Given `1.4641`, pure CI fraction $= 0.4641 \\times 10,000 =$ **₹4,641** instantaneously!",
+            "hi": "दिए गए मान `1.4641` से सीधे ब्याज भाग `0.4641 × 10,000 =` **₹4,641**!"
+          }
+        }
+      ],
+      "en": "Method 1: Direct Formula Multiplier: `r = 10%`, `n = 4`. $A = 10000 \\times 1.4641 = 14,641$.\nCI $= 14,641 - 10,000 =$ **₹4,641**.\n\nMethod 2: Oral 46.41% Base 10,000 (1 sec): Given `1.4641`, pure CI fraction $= 0.4641 \\times 10,000 =$ **₹4,641** instantaneously!",
+      "hi": "विधि 1: मानक सूत्र गुणन: `r = 10%`, `4` चक्र ⇒ $A = 14,641$ ⇒ CI $= 14,641 - 10,000 =$ **₹4,641**।\n\nविधि 2: 1-सेकंड 46.41% ट्रिक (1 sec): दिए गए मान `1.4641` से सीधे ब्याज भाग `0.4641 × 10,000 =` **₹4,641**!"
     }
   },
   {
@@ -1519,10 +1615,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹1,12,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹1,12,000) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹1,12,000**).",
+      "keyConcept": "Successive Change: x + y + xy/100",
+      "optionTrick": {
+        "en": "$1.4 \\times 0.8 = 1.12 \\Rightarrow +12\\%$ directly gives **₹1,12,000**!",
+        "hi": "$+40\\% - 20\\% - \\frac{40 \\times 20}{100}\\% = +12\\%$ सीधे **₹1,12,000** देता है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Quarter-by-Quarter Multiplier",
+            "hi": "विधि 1: क्रमिक गुणक विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) After $+40\\%$: $Rs.1,00,000 \\times 1.4 = Rs.1,40,000$.\n2) After $-20\\%$: $Rs.1,40,000 \\times 0.8 = \\mathbf{Rs.1,12,000}$.",
+            "hi": "1) $+40\\%$ वृद्धि के उपरांत $= Rs.1,00,000 \\times 1.4 = Rs.1,40,000$।\n2) $-20\\%$ कमी के उपरांत $= Rs.1,40,000 \\times 0.8 = \\mathbf{Rs.1,12,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net Successive % Formula (5 sec)",
+            "hi": "विधि 2: नेट क्रमिक % सूत्र"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$\\text{Net }\\% = 40 - 20 - \\frac{40\\times 20}{100} = +12\\%$",
+          "steps": {
+            "en": "Net change $= +40 - 20 - 8 = +12\\%$. Add $12\\%$ of $Rs.1,00,000 = \\mathbf{Rs.1,12,000}$.",
+            "hi": "निवल वृद्धि $= +40 - 20 - 8 = +12\\%$। $Rs.1,00,000 + 12\\% = \\mathbf{Rs.1,12,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Quarter-by-Quarter Multiplier: 1) After $+40\\%$: $Rs.1,00,000 \\times 1.4 = Rs.1,40,000$.\n2) After $-20\\%$: $Rs.1,40,000 \\times 0.8 = \\mathbf{Rs.1,12,000}$.\n\nMethod 2: Net Successive % Formula (5 sec): Net change $= +40 - 20 - 8 = +12\\%$. Add $12\\%$ of $Rs.1,00,000 = \\mathbf{Rs.1,12,000}$.",
+      "hi": "विधि 1: क्रमिक गुणक विधि: 1) $+40\\%$ वृद्धि के उपरांत $= Rs.1,00,000 \\times 1.4 = Rs.1,40,000$।\n2) $-20\\%$ कमी के उपरांत $= Rs.1,40,000 \\times 0.8 = \\mathbf{Rs.1,12,000}$।\n\nविधि 2: नेट क्रमिक % सूत्र: निवल वृद्धि $= +40 - 20 - 8 = +12\\%$। $Rs.1,00,000 + 12\\% = \\mathbf{Rs.1,12,000}$।"
     }
   },
   {

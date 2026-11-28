@@ -1217,10 +1217,56 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (9%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (9%) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**9%**).",
+      "keyConcept": "Weighted Ratio-Weighted Average: E : S = 2 : 1",
+      "optionTrick": {
+        "en": "Since $E : S = 2 : 1$ ($I = 3$ parts), weighted change $= \\frac{2(-4\\%) + 1(+35\\%)}{3} = \\frac{27}{3}\\% = \\mathbf{9\\%}$!",
+        "hi": "अनुपात $E : S = 2 : 1$ ($I = 3$) लेकर सीधा भारित मान: $\\frac{2(-4) + 1(+35)}{3} = \\mathbf{9\\%}$!"
+      },
+      "trapAlert": {
+        "en": "\"100% more than savings\" means Expenditure = 100 + 100 = 200 (NOT 100!) when Savings = 100.",
+        "hi": "\"बचत से 100% अधिक\" का अर्थ व्यय $= 100 + 100 = 200$ है (न कि 100!) — यह परीक्षा का सबसे बड़ा जाल है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption",
+            "hi": "विधि 1: Base-100 मानकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$E = 100 + k\\%,\\; I = E + S$",
+          "steps": {
+            "en": "1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 100 = 200 \\Rightarrow$ Income $I = 300$.\n2) Change in $E = -4\\%$ of $200 = -8$; Change in $S = +35\\%$ of $100 = +35$.\n3) Net change in Income $= 27$ on $300 \\Rightarrow \\frac{27}{300} \\times 100 = \\mathbf{9\\%}$.",
+            "hi": "1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 200$ तथा आय $I = 300$।\n2) व्यय में परिवर्तन $= -4\\%$ of $200 = -8$; बचत में परिवर्तन $= +35$।\n3) आय में निवल वृद्धि $= 27$ पर कुल $300 \\Rightarrow \\frac{27}{300} \\times 100 = \\mathbf{9\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Average Ratio Trick",
+            "hi": "विधि 2: अनुपात-भारित औसत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta I = \\frac{2(-d) + 1(+g)}{2 + 1}$",
+          "steps": {
+            "en": "Ratio $E : S = 200 : 100 = 2 : 1$ (Total $= 3$ parts).\n$$\\text{Net }\\% = \\frac{2 \\times (-4) + 1 \\times (+35)}{3} = \\frac{-8 + 35}{3} = \\frac{27}{3} = \\mathbf{9\\%}.$$",
+            "hi": "सरल अनुपात $E : S = 2 : 1$ (योग $= 3$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{2(- 4) + 1(+35)}{3} = \\frac{27}{3} = \\mathbf{9\\%}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption: 1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 100 = 200 \\Rightarrow$ Income $I = 300$.\n2) Change in $E = -4\\%$ of $200 = -8$; Change in $S = +35\\%$ of $100 = +35$.\n3) Net change in Income $= 27$ on $300 \\Rightarrow \\frac{27}{300} \\times 100 = \\mathbf{9\\%}$.\n\nMethod 2: Weighted Average Ratio Trick: Ratio $E : S = 200 : 100 = 2 : 1$ (Total $= 3$ parts).\n$$\\text{Net }\\% = \\frac{2 \\times (-4) + 1 \\times (+35)}{3} = \\frac{-8 + 35}{3} = \\frac{27}{3} = \\mathbf{9\\%}.$$",
+      "hi": "विधि 1: Base-100 मानकर हल: 1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 200$ तथा आय $I = 300$।\n2) व्यय में परिवर्तन $= -4\\%$ of $200 = -8$; बचत में परिवर्तन $= +35$।\n3) आय में निवल वृद्धि $= 27$ पर कुल $300 \\Rightarrow \\frac{27}{300} \\times 100 = \\mathbf{9\\%}$।\n\nविधि 2: अनुपात-भारित औसत ट्रिक: सरल अनुपात $E : S = 2 : 1$ (योग $= 3$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{2(- 4) + 1(+35)}{3} = \\frac{27}{3} = \\mathbf{9\\%}.$$"
     }
   },
   {
@@ -1251,10 +1297,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Profit/Loss Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (100%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (100%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**100%**).",
+      "keyConcept": "When Profit = SP of `k`, then CP = (n − k), NEVER n!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Assume SP of 1 Item = ₹1",
+            "hi": "विधि 1: 1 वस्तु का SP = ₹1 मानें"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Total SP $= 24$, Gain $= 12 \\implies CP = SP - \\text{Gain} = 24 - 12 = 12$.\n$\\%\\text{Gain} = \\frac{12}{12} \\times 100 = \\mathbf{100\\%}$.",
+            "hi": "कुल SP $= 24$, लाभ $= 12 \\implies CP = 24 - 12 = 12$।\nलाभ\\% $= \\frac{12}{12} \\times 100 = \\mathbf{100\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Formula k / (n − k) (2 sec)",
+            "hi": "विधि 2: सीधा सूत्र k / (n − k) (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Gain $= \\frac{12}{24 - 12} \\times 100 = \\frac{12}{12} \\times 100 =$ **100%** (`50%` is the trap option!).",
+            "hi": "सीधा सूत्र: $\\frac{12}{24 - 12} \\times 100 =$ **100%** (`50%` केवल जाल विकल्प है!)।"
+          }
+        }
+      ],
+      "en": "Method 1: Assume SP of 1 Item = ₹1: Total SP $= 24$, Gain $= 12 \\implies CP = SP - \\text{Gain} = 24 - 12 = 12$.\n$\\%\\text{Gain} = \\frac{12}{12} \\times 100 = \\mathbf{100\\%}$.\n\nMethod 2: Formula k / (n − k) (2 sec): Gain $= \\frac{12}{24 - 12} \\times 100 = \\frac{12}{12} \\times 100 =$ **100%** (`50%` is the trap option!).",
+      "hi": "विधि 1: 1 वस्तु का SP = ₹1 मानें: कुल SP $= 24$, लाभ $= 12 \\implies CP = 24 - 12 = 12$।\nलाभ\\% $= \\frac{12}{12} \\times 100 = \\mathbf{100\\%}$।\n\nविधि 2: सीधा सूत्र k / (n − k) (2 sec): सीधा सूत्र: $\\frac{12}{24 - 12} \\times 100 =$ **100%** (`50%` केवल जाल विकल्प है!)।"
     }
   },
   {
@@ -1387,10 +1461,50 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (Increase of 4%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (4% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**Increase of 4%**).",
+      "keyConcept": "Net % = +a − b − ab/100",
+      "optionTrick": {
+        "en": "$30 - 20 - 6 = +4\\% \\Rightarrow$ **Increase of 4%**!",
+        "hi": "$+30 - 20 - \\frac{30 \\times 20}{100} = +10 - 6 = \\mathbf{4\\%}$ की वृद्धि!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption",
+            "hi": "विधि 1: Base-100 मानकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$100 \\xrightarrow{+30\\%} 130 \\xrightarrow{-20\\%} 130 \\times 0.8 = 104 \\Rightarrow \\mathbf{+4\\%\\text{ increase}}$.",
+            "hi": "$100 \\xrightarrow{+30\\%} 130 \\xrightarrow{-20\\%} 130 \\times 0.8 = 104 \\Rightarrow \\mathbf{4\\%}$ की वृद्धि।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Successive AB Formula (4 sec)",
+            "hi": "विधि 2: AB क्रमिक सूत्र"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$+30 - 20 - \\frac{30 \\times 20}{100} = 10 - 6 = \\mathbf{+4\\%}$ (**Increase of 4%**).",
+            "hi": "$+30 - 20 - \\frac{600}{100} = 10 - 6 = \\mathbf{4\\%}$ की वृद्धि।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption: $100 \\xrightarrow{+30\\%} 130 \\xrightarrow{-20\\%} 130 \\times 0.8 = 104 \\Rightarrow \\mathbf{+4\\%\\text{ increase}}$.\n\nMethod 2: Successive AB Formula (4 sec): $+30 - 20 - \\frac{30 \\times 20}{100} = 10 - 6 = \\mathbf{+4\\%}$ (**Increase of 4%**).",
+      "hi": "विधि 1: Base-100 मानकर हल: $100 \\xrightarrow{+30\\%} 130 \\xrightarrow{-20\\%} 130 \\times 0.8 = 104 \\Rightarrow \\mathbf{4\\%}$ की वृद्धि।\n\nविधि 2: AB क्रमिक सूत्र: $+30 - 20 - \\frac{600}{100} = 10 - 6 = \\mathbf{4\\%}$ की वृद्धि।"
     }
   },
   {
@@ -1455,10 +1569,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Value Decrease Over Time",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹64,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹64,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹64,000**).",
+      "keyConcept": "Backward Depreciation: Invert Ratio 5³ : 4³ = 125 : 64!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse Fraction Cube",
+            "hi": "विधि 1: प्रतिलोम घन अनुपात विधि"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$P_0 \\times \\left(\\frac{4}{5}\\right)^3 = 32768 \\implies P_0 = 32768 \\times \\frac{125}{64} = 512 \\times 125 = \\mathbf{Rs.64,000}$.",
+            "hi": "$P_0 \\times \\frac{64}{125} = 32768 \\implies P_0 = 512 \\times 125 = \\mathbf{Rs.64,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Multiple of 125 Check (2 sec)",
+            "hi": "विधि 2: 125 के गुणज की जाँच (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Initial $= 125 \\times (\\text{even number } 512)$ MUST end in `000`! Only **₹64,000** ends in `000`!",
+            "hi": "प्रारंभिक कीमत $= 5^3(125) \\times 512$ के अंत में निश्चित रूप से `000` आएगा — केवल **₹64,000** में तीन शून्य हैं!"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse Fraction Cube: $P_0 \\times \\left(\\frac{4}{5}\\right)^3 = 32768 \\implies P_0 = 32768 \\times \\frac{125}{64} = 512 \\times 125 = \\mathbf{Rs.64,000}$.\n\nMethod 2: Multiple of 125 Check (2 sec): Initial $= 125 \\times (\\text{even number } 512)$ MUST end in `000`! Only **₹64,000** ends in `000`!",
+      "hi": "विधि 1: प्रतिलोम घन अनुपात विधि: $P_0 \\times \\frac{64}{125} = 32768 \\implies P_0 = 512 \\times 125 = \\mathbf{Rs.64,000}$।\n\nविधि 2: 125 के गुणज की जाँच (2 sec): प्रारंभिक कीमत $= 5^3(125) \\times 512$ के अंत में निश्चित रूप से `000` आएगा — केवल **₹64,000** में तीन शून्य हैं!"
     }
   },
   {

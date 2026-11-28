@@ -1815,10 +1815,38 @@
     "correctIndex": 2,
     "correctIndexHi": 2,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option C is verified.",
-      "keyConcept": "Number System, Algebra & Percentage",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option C (3) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प C (3) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**3**).",
+      "keyConcept": "Doubling SP Rate (`70% → 140%`) Halves Articles per ₹1 (`6 → 3`)!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Unit SP Transformation",
+            "hi": "विधि 1: 1 वस्तु के मूल्य से हल"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Old Rate `70%` = ₹`1/6`. New Rate `140%` $= \\frac{1}{6} \\times \\frac{140}{70} = \\frac{1}{3} \\implies$ Sell **3 articles** per ₹1.",
+            "hi": "पुरानी दर (`70%`) = ₹`1/6`। `140%` हेतु नई दर $= \\frac{1}{6} \\times \\frac{140}{70} = Rs.1/3 \\implies$ **3 वस्तुएँ**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Inverse Rate Ratio (2 sec)",
+            "hi": "विधि 2: व्युत्क्रम अनुपात ट्रिक (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Price ratio `70 : 140 = 1 : 2` ⇒ Articles ratio flips `2 : 1` ⇒ Half of `6` = **3** orally!",
+            "hi": "मूल्य अनुपात `70 : 140 = 1 : 2` ⇒ वस्तुएँ उलटें `2 : 1` ⇒ `6` की आधी **3**!"
+          }
+        }
+      ],
+      "en": "Method 1: Unit SP Transformation: Old Rate `70%` = ₹`1/6`. New Rate `140%` $= \\frac{1}{6} \\times \\frac{140}{70} = \\frac{1}{3} \\implies$ Sell **3 articles** per ₹1.\n\nMethod 2: Inverse Rate Ratio (2 sec): Price ratio `70 : 140 = 1 : 2` ⇒ Articles ratio flips `2 : 1` ⇒ Half of `6` = **3** orally!",
+      "hi": "विधि 1: 1 वस्तु के मूल्य से हल: पुरानी दर (`70%`) = ₹`1/6`। `140%` हेतु नई दर $= \\frac{1}{6} \\times \\frac{140}{70} = Rs.1/3 \\implies$ **3 वस्तुएँ**।\n\nविधि 2: व्युत्क्रम अनुपात ट्रिक (2 sec): मूल्य अनुपात `70 : 140 = 1 : 2` ⇒ वस्तुएँ उलटें `2 : 1` ⇒ `6` की आधी **3**!"
     }
   },
   {

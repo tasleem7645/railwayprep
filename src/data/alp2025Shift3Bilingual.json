@@ -916,10 +916,38 @@
     },
     "correctIndex": 0,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option A is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 2)",
-      "en": "Correct Answer: Option A (8% profit). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प A (8% लाभ)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option A (**8% profit**).",
+      "keyConcept": "Weighted Avg by Quantity Ratio `30 : 20 = 3 : 2` (Ignore ₹10 Price!)",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Total ₹ Profit Calculation",
+            "hi": "विधि 1: कुल ₹ लाभ से गणना"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Total CP $= 500$. Profit on `30` $= +60$; Loss on `20` $= -20$.\nNet Profit $= +40$ on `500` $= \\mathbf{8\\%\\text{ profit}}$.",
+            "hi": "कुल `CP = 500`। `30` पर `+60` लाभ, `20` पर `-20` हानि ⇒ कुल `+₹40 / 500` = **8% लाभ**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-₹ Ratio Weighting (3 sec)",
+            "hi": "विधि 2: बिना ₹ भारित औसत 3:2 (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Qty ratio `30 : 20 = 3 : 2`.\nNet `% = (3×20 − 2×10) ÷ (3 + 2) = 40 ÷ 5 =` **8% profit**!",
+            "hi": "मात्रा अनुपात `3 : 2` ⇒ औसत `% = (3×20 − 2×10) ÷ 5 = 40/5 =` **8% लाभ**!"
+          }
+        }
+      ],
+      "en": "Method 1: Total ₹ Profit Calculation: Total CP $= 500$. Profit on `30` $= +60$; Loss on `20` $= -20$.\nNet Profit $= +40$ on `500` $= \\mathbf{8\\%\\text{ profit}}$.\n\nMethod 2: Zero-₹ Ratio Weighting (3 sec): Qty ratio `30 : 20 = 3 : 2`.\nNet `% = (3×20 − 2×10) ÷ (3 + 2) = 40 ÷ 5 =` **8% profit**!",
+      "hi": "विधि 1: कुल ₹ लाभ से गणना: कुल `CP = 500`। `30` पर `+60` लाभ, `20` पर `-20` हानि ⇒ कुल `+₹40 / 500` = **8% लाभ**।\n\nविधि 2: बिना ₹ भारित औसत 3:2 (3 sec): मात्रा अनुपात `3 : 2` ⇒ औसत `% = (3×20 − 2×10) ÷ 5 = 40/5 =` **8% लाभ**!"
     },
     "correctIndexHi": 0
   },

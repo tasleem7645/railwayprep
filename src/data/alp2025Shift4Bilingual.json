@@ -2197,10 +2197,38 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option D (₹2,650). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (₹2,650)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**₹2,650**).",
+      "keyConcept": "Backward Unwind: Divide 1.15 FIRST, THEN Subtract ₹486 Repair, THEN Divide 0.76!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Step-by-Step Reverse Chain",
+            "hi": "विधि 1: पीछे से उल्टी श्रृंखला हल"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Ravi Total CP $= \\frac{2875}{1.15} = 2500$.\n2) Purchase price Ravi paid Nikhil $= 2500 - 486 = 2014$.\n3) `76% of Nikhil CP = 2014` $\\implies$ **₹2,650**.",
+            "hi": "1) रवि की कुल लागत $= 2875 \\div 1.15 = 2500$।\n2) मरम्मत घटाएं $= 2500 - 486 = 2014$ (`76%`)।\n3) निखिल का CP $= 2014 \\div 0.76 =$ **₹2,650**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Exact Fraction Cut 23/20 & 19/25 (5 sec)",
+            "hi": "विधि 2: भिन्न कट 23/20 व 19/25 (5 sec)"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`2875 ÷ 23 × 20 = 125 × 20 = 2500`. Minus `486 = 2014`.\n`2014 ÷ 19 × 25 = 106 × 25 =` **₹2,650**!",
+            "hi": "`2875 ÷ 23 × 20 = 2500`; `2500 − 486 = 2014`; `2014 ÷ 19 × 25 = 106 × 25` = **₹2,650**!"
+          }
+        }
+      ],
+      "en": "Method 1: Step-by-Step Reverse Chain: 1) Ravi Total CP $= \\frac{2875}{1.15} = 2500$.\n2) Purchase price Ravi paid Nikhil $= 2500 - 486 = 2014$.\n3) `76% of Nikhil CP = 2014` $\\implies$ **₹2,650**.\n\nMethod 2: Exact Fraction Cut 23/20 & 19/25 (5 sec): `2875 ÷ 23 × 20 = 125 × 20 = 2500`. Minus `486 = 2014`.\n`2014 ÷ 19 × 25 = 106 × 25 =` **₹2,650**!",
+      "hi": "विधि 1: पीछे से उल्टी श्रृंखला हल: 1) रवि की कुल लागत $= 2875 \\div 1.15 = 2500$।\n2) मरम्मत घटाएं $= 2500 - 486 = 2014$ (`76%`)।\n3) निखिल का CP $= 2014 \\div 0.76 =$ **₹2,650**।\n\nविधि 2: भिन्न कट 23/20 व 19/25 (5 sec): `2875 ÷ 23 × 20 = 2500`; `2500 − 486 = 2014`; `2014 ÷ 19 × 25 = 106 × 25` = **₹2,650**!"
     },
     "correctIndexHi": 3
   },

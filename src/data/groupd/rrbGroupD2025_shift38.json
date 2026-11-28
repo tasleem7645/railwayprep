@@ -1149,10 +1149,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹40,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹40,000) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹40,000**).",
+      "keyConcept": "Successive Remaining Chain: 40% Remaining × 50% Saved = 20%",
+      "optionTrick": {
+        "en": "`20%` (i.e. `1/5`) saved = ₹8,000 -> Total Income = `8,000 × 5` = **₹40,000**!",
+        "hi": "बचत = शेष ($40\\%$) का $50\\% = 20\\% = \\frac{1}{5}$ भाग; ₹8,000 × 5 = **₹40,000**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Reverse Chain Equation",
+            "hi": "विधि 1: क्रमिक समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) After spending $60\\%$, remaining $= 40\\%$ of Income.\n2) Savings $= 50\\%$ of $40\\% = 20\\%$ of Income $= Rs.8,000$.\n3) Total Income $= Rs.8,000 \\times 5 = \\mathbf{Rs.40,000}$.",
+            "hi": "1) $60\\%$ खर्च के पश्चात् शेष $= 40\\%$।\n2) बचत $= 40\\%$ का $50\\% = 20\\% = Rs.8,000$।\n3) कुल आय $= Rs.8,000 \\times 5 = \\mathbf{Rs.40,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Reverse Multiplier (5 sec)",
+            "hi": "विधि 2: उल्टा गुणक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$I \\times \\frac{2}{5} \\times \\frac{1}{2} = 8{,}000$",
+          "steps": {
+            "en": "$I \\times \\frac{1}{5} = Rs.8,000 \\Rightarrow I = \\mathbf{Rs.40,000}$.",
+            "hi": "$I \\times \\frac{2}{5} \\times \\frac{1}{2} = \\frac{I}{5} = Rs.8,000 \\Rightarrow I = \\mathbf{Rs.40,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Reverse Chain Equation: 1) After spending $60\\%$, remaining $= 40\\%$ of Income.\n2) Savings $= 50\\%$ of $40\\% = 20\\%$ of Income $= Rs.8,000$.\n3) Total Income $= Rs.8,000 \\times 5 = \\mathbf{Rs.40,000}$.\n\nMethod 2: Reverse Multiplier (5 sec): $I \\times \\frac{1}{5} = Rs.8,000 \\Rightarrow I = \\mathbf{Rs.40,000}$.",
+      "hi": "विधि 1: क्रमिक समीकरण विधि: 1) $60\\%$ खर्च के पश्चात् शेष $= 40\\%$।\n2) बचत $= 40\\%$ का $50\\% = 20\\% = Rs.8,000$।\n3) कुल आय $= Rs.8,000 \\times 5 = \\mathbf{Rs.40,000}$।\n\nविधि 2: उल्टा गुणक ट्रिक: $I \\times \\frac{2}{5} \\times \\frac{1}{2} = \\frac{I}{5} = Rs.8,000 \\Rightarrow I = \\mathbf{Rs.40,000}$।"
     }
   },
   {

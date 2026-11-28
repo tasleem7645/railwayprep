@@ -1183,10 +1183,56 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (2%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (2%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**2%**).",
+      "keyConcept": "Weighted Ratio-Weighted Average: E : S = 5 : 2",
+      "optionTrick": {
+        "en": "Since $E : S = 5 : 2$ ($I = 7$ parts), weighted change $= \\frac{5(-12\\%) + 2(+37\\%)}{7} = \\frac{14}{7}\\% = \\mathbf{2\\%}$!",
+        "hi": "अनुपात $E : S = 5 : 2$ ($I = 7$) लेकर सीधा भारित मान: $\\frac{5(-12) + 2(+37)}{7} = \\mathbf{2\\%}$!"
+      },
+      "trapAlert": {
+        "en": "\"150% more than savings\" means Expenditure = 100 + 150 = 250 (NOT 150!) when Savings = 100.",
+        "hi": "\"बचत से 150% अधिक\" का अर्थ व्यय $= 100 + 150 = 250$ है (न कि 150!) — यह परीक्षा का सबसे बड़ा जाल है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption",
+            "hi": "विधि 1: Base-100 मानकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$E = 100 + k\\%,\\; I = E + S$",
+          "steps": {
+            "en": "1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 150 = 250 \\Rightarrow$ Income $I = 350$.\n2) Change in $E = -12\\%$ of $250 = -30$; Change in $S = +37\\%$ of $100 = +37$.\n3) Net change in Income $= 7$ on $350 \\Rightarrow \\frac{7}{350} \\times 100 = \\mathbf{2\\%}$.",
+            "hi": "1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 250$ तथा आय $I = 350$।\n2) व्यय में परिवर्तन $= -12\\%$ of $250 = -30$; बचत में परिवर्तन $= +37$।\n3) आय में निवल वृद्धि $= 7$ पर कुल $350 \\Rightarrow \\frac{7}{350} \\times 100 = \\mathbf{2\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Average Ratio Trick",
+            "hi": "विधि 2: अनुपात-भारित औसत ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta I = \\frac{5(-d) + 2(+g)}{5 + 2}$",
+          "steps": {
+            "en": "Ratio $E : S = 250 : 100 = 5 : 2$ (Total $= 7$ parts).\n$$\\text{Net }\\% = \\frac{5 \\times (-12) + 2 \\times (+37)}{7} = \\frac{-60 + 74}{7} = \\frac{14}{7} = \\mathbf{2\\%}.$$",
+            "hi": "सरल अनुपात $E : S = 5 : 2$ (योग $= 7$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{5(- 12) + 2(+37)}{7} = \\frac{14}{7} = \\mathbf{2\\%}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption: 1) Let Savings $S = 100 \\Rightarrow$ Expenditure $E = 100 + 150 = 250 \\Rightarrow$ Income $I = 350$.\n2) Change in $E = -12\\%$ of $250 = -30$; Change in $S = +37\\%$ of $100 = +37$.\n3) Net change in Income $= 7$ on $350 \\Rightarrow \\frac{7}{350} \\times 100 = \\mathbf{2\\%}$.\n\nMethod 2: Weighted Average Ratio Trick: Ratio $E : S = 250 : 100 = 5 : 2$ (Total $= 7$ parts).\n$$\\text{Net }\\% = \\frac{5 \\times (-12) + 2 \\times (+37)}{7} = \\frac{-60 + 74}{7} = \\frac{14}{7} = \\mathbf{2\\%}.$$",
+      "hi": "विधि 1: Base-100 मानकर हल: 1) मानें बचत $S = 100 \\Rightarrow$ व्यय $E = 250$ तथा आय $I = 350$।\n2) व्यय में परिवर्तन $= -12\\%$ of $250 = -30$; बचत में परिवर्तन $= +37$।\n3) आय में निवल वृद्धि $= 7$ पर कुल $350 \\Rightarrow \\frac{7}{350} \\times 100 = \\mathbf{2\\%}$।\n\nविधि 2: अनुपात-भारित औसत ट्रिक: सरल अनुपात $E : S = 5 : 2$ (योग $= 7$):\n$$\\text{आय }\\%\\text{ वृद्धि} = \\frac{5(- 12) + 2(+37)}{7} = \\frac{14}{7} = \\mathbf{2\\%}.$$"
     }
   },
   {
@@ -1419,10 +1465,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (30.9%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (30.9%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**30.9%**).",
+      "keyConcept": "Successive Increase Formula: a + b + (ab)/100",
+      "optionTrick": {
+        "en": "$19 + 10 = 29$, plus $\\frac{190}{100} = 1.9 \\Rightarrow \\mathbf{30.9\\%}$!",
+        "hi": "$19 + 10 = 29$ में 1.9 जोड़ें $\\Rightarrow \\mathbf{30.9\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption",
+            "hi": "विधि 1: Base-100 मानकर हल"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $100 \\xrightarrow{+19\\%} 119$.\n2) $+10\\%$ of $119 = 11.9 \\Rightarrow 119 + 11.9 = 130.9$.\n3) Total increase $= \\mathbf{30.9\\%}$.",
+            "hi": "1) $100 \\xrightarrow{+19\\%} 119$।\n2) 119 का $+10\\% = 11.9 \\Rightarrow 119 + 11.9 = 130.9$।\n3) कुल प्रतिशत वृद्धि $= \\mathbf{30.9\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Successive AB Formula (4 sec)",
+            "hi": "विधि 2: AB क्रमिक सूत्र"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$19 + 10 + \\frac{19 \\times 10}{100} = 29 + 1.9 = \\mathbf{30.9\\%}$.",
+            "hi": "$19 + 10 + \\frac{190}{100} = 29 + 1.9 = \\mathbf{30.9\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption: 1) $100 \\xrightarrow{+19\\%} 119$.\n2) $+10\\%$ of $119 = 11.9 \\Rightarrow 119 + 11.9 = 130.9$.\n3) Total increase $= \\mathbf{30.9\\%}$.\n\nMethod 2: Successive AB Formula (4 sec): $19 + 10 + \\frac{19 \\times 10}{100} = 29 + 1.9 = \\mathbf{30.9\\%}$.",
+      "hi": "विधि 1: Base-100 मानकर हल: 1) $100 \\xrightarrow{+19\\%} 119$।\n2) 119 का $+10\\% = 11.9 \\Rightarrow 119 + 11.9 = 130.9$।\n3) कुल प्रतिशत वृद्धि $= \\mathbf{30.9\\%}$।\n\nविधि 2: AB क्रमिक सूत्र: $19 + 10 + \\frac{190}{100} = 29 + 1.9 = \\mathbf{30.9\\%}$।"
     }
   },
   {

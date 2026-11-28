@@ -1251,10 +1251,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (20%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (20%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**20%**).",
+      "keyConcept": "Ratio 20,000 : 24,000 = 5 : 6 (+1/5 = +20%)",
+      "optionTrick": {
+        "en": "`20 -> 24` simplifies to `5 -> 6` -> `+1/5` = **20%**!",
+        "hi": "अनुपात `20 : 24 = 5 : 6` ($\\frac{1}{5} = \\mathbf{20\\%}$ वृद्धि)!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic % Formula",
+            "hi": "विधि 1: बेसिक प्रतिशत सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$\\frac{24{,}000 - 20{,}000}{20{,}000} \\times 100 = \\frac{4{,}000}{20{,}000} \\times 100 = \\mathbf{20\\%}$.",
+            "hi": "$\\frac{24{,}000 - 20{,}000}{20{,}000} \\times 100 = \\frac{4}{20} \\times 100 = \\mathbf{20\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Base-100 Double (2 sec)",
+            "hi": "विधि 2: 5:6 अनुपात ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "4 out of $20 = \\frac{1}{5} = \\mathbf{20\\%}$.",
+            "hi": "20 पर 4 की वृद्धि $= \\frac{1}{5} = \\mathbf{20\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic % Formula: $\\frac{24{,}000 - 20{,}000}{20{,}000} \\times 100 = \\frac{4{,}000}{20{,}000} \\times 100 = \\mathbf{20\\%}$.\n\nMethod 2: Base-100 Double (2 sec): 4 out of $20 = \\frac{1}{5} = \\mathbf{20\\%}$.",
+      "hi": "विधि 1: बेसिक प्रतिशत सूत्र: $\\frac{24{,}000 - 20{,}000}{20{,}000} \\times 100 = \\frac{4}{20} \\times 100 = \\mathbf{20\\%}$।\n\nविधि 2: 5:6 अनुपात ट्रिक: 20 पर 4 की वृद्धि $= \\frac{1}{5} = \\mathbf{20\\%}$।"
     }
   },
   {
@@ -1285,10 +1325,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (25%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (25%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**25%**).",
+      "keyConcept": "Ratio 24 : 18 = 4 : 3 (−1/4 = −25%)",
+      "optionTrick": {
+        "en": "Drop `6` on `24` is exact `1/4` = **25%**!",
+        "hi": "`24` पर `6` की कमी ठीक $\\frac{1}{4} = \\mathbf{25\\%}$ है!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Formula",
+            "hi": "विधि 1: बेसिक सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$\\frac{24 - 18}{24} \\times 100 = \\frac{6}{24} \\times 100 = \\frac{1}{4} \\times 100 = \\mathbf{25\\%}$.",
+            "hi": "$\\frac{24 - 18}{24} \\times 100 = \\frac{6}{24} \\times 100 = \\mathbf{25\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Fraction 1/4 Mental Check (2 sec)",
+            "hi": "विधि 2: 1/4 भिन्न ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$24 \\to 18$ reduces in ratio $4 : 3$; loss of 1 part in $4 = \\mathbf{25\\%}$.",
+            "hi": "अनुपात $4 : 3$ में 4 पर 1 की कमी $= \\mathbf{25\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Formula: $\\frac{24 - 18}{24} \\times 100 = \\frac{6}{24} \\times 100 = \\frac{1}{4} \\times 100 = \\mathbf{25\\%}$.\n\nMethod 2: Fraction 1/4 Mental Check (2 sec): $24 \\to 18$ reduces in ratio $4 : 3$; loss of 1 part in $4 = \\mathbf{25\\%}$.",
+      "hi": "विधि 1: बेसिक सूत्र: $\\frac{24 - 18}{24} \\times 100 = \\frac{6}{24} \\times 100 = \\mathbf{25\\%}$।\n\nविधि 2: 1/4 भिन्न ट्रिक: अनुपात $4 : 3$ में 4 पर 1 की कमी $= \\mathbf{25\\%}$।"
     }
   },
   {

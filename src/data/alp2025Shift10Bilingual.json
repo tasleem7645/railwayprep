@@ -787,10 +787,38 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (18 Feb 2026 Shift 3)",
-      "en": "Correct Answer: Option D (12%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (12%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**12%**).",
+      "keyConcept": "28 × CP = 25 × SP ⇒ Invert immediately CP : SP = 25 : 28!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio Swap (m CP = n SP)",
+            "hi": "विधि 1: अनुपात पलटना (CP : SP = n : m)"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$28\\,\\text{CP} = 25\\,\\text{SP} \\implies \\frac{\\text{CP}}{\\text{SP}} = \\frac{25}{28}$.\nGain $= \\frac{28 - 25}{25} \\times 100 = \\frac{3}{25} \\times 100 = \\mathbf{12\\%}$.",
+            "hi": "$28\\,\\text{CP} = 25\\,\\text{SP} \\implies CP : SP = 25 : 28$।\nलाभ\\% $= \\frac{3}{25} \\times 100 = \\mathbf{12\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Save 3 on 25 Orally (2 sec)",
+            "hi": "विधि 2: 25 पर 3 आम की बचत (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Sold only `25` to recover cost of `28` ⇒ `3 mangoes` saved per `25` sold $= \\frac{3}{25} =$ **12%**!",
+            "hi": "`25` आम बेचकर `28` की लागत निकल गई ⇒ `25` पर `3` की बचत $= 3 \\times 4 =$ **12%**!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio Swap (m CP = n SP): $28\\,\\text{CP} = 25\\,\\text{SP} \\implies \\frac{\\text{CP}}{\\text{SP}} = \\frac{25}{28}$.\nGain $= \\frac{28 - 25}{25} \\times 100 = \\frac{3}{25} \\times 100 = \\mathbf{12\\%}$.\n\nMethod 2: Save 3 on 25 Orally (2 sec): Sold only `25` to recover cost of `28` ⇒ `3 mangoes` saved per `25` sold $= \\frac{3}{25} =$ **12%**!",
+      "hi": "विधि 1: अनुपात पलटना (CP : SP = n : m): $28\\,\\text{CP} = 25\\,\\text{SP} \\implies CP : SP = 25 : 28$।\nलाभ\\% $= \\frac{3}{25} \\times 100 = \\mathbf{12\\%}$।\n\nविधि 2: 25 पर 3 आम की बचत (2 sec): `25` आम बेचकर `28` की लागत निकल गई ⇒ `25` पर `3` की बचत $= 3 \\times 4 =$ **12%**!"
     },
     "correctIndexHi": 3
   },

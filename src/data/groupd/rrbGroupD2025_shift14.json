@@ -1251,10 +1251,56 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (increase by ₹1,086) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹1,086 की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**increase by ₹1,086**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+20\\%$, while expenditure change on whole income = $-\\frac{73}{100} \\times 15\\%$. That gives direct Net Factor $= 9.05\\%$ of ₹12,000 $= \\mathbf{Rs.1,086}$!",
+        "hi": "आय वृद्धि $= +20\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 73\\% \\times 15\\% = 10.95\\%$ — दोनों का अंतर ही ₹12,000 पर सीधी वृद्धि ($\\mathbf{Rs.1,086}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 27\\%$ of ₹12,000 = **₹3,240**; Old Expenditure $= 73\\%$ of ₹12,000 = **₹8,760**.\n2) New Income ($+20\\%$) = **₹14,400**; New Expenditure ($+15\\%$) = **₹10,074**.\n3) New Savings $= Rs.14,400 - Rs.10,074 = Rs.4,326$.\n4) Change $= Rs.4,326 - Rs.3,240 \\Rightarrow$ **Increase of ₹1,086**.",
+            "hi": "1) पुरानी बचत $= Rs.12,000$ का $27\\% = \\mathbf{Rs.3,240}$ तथा पुराना व्यय $= \\mathbf{Rs.8,760}$।\n2) नई आय ($+20\\%$) $= Rs.14,400$ तथा नया व्यय ($+15\\%$) $= Rs.10,074$।\n3) नई बचत $= Rs.14,400 - Rs.10,074 = Rs.4,326$।\n4) बचत में अंतर $\\Rightarrow$ **₹1,086 की वृद्धि**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +20\\%$ of ₹12,000 = **+₹2,400**.\n2) $E = 73\\% \\times Rs.12,000 = Rs.8,760$, so $\\Delta E = +15\\% \\times Rs.8,760 = +Rs.1,314$.\n3) $\\Delta S = Rs.2,400 - Rs.1,314 = +Rs.1,086 \\Rightarrow$ **Increase by ₹1,086**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.12,000$ का $+20\\% = +Rs.2,400$।\n2) व्यय ₹8,760 का $\\Delta \\text{व्यय} = +15\\% = +Rs.1,314$।\n3) $\\Delta \\text{बचत} = Rs.2,400 - Rs.1,314 = \\mathbf{Rs.1,086}$ की **वृद्धि**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 27\\%$ of ₹12,000 = **₹3,240**; Old Expenditure $= 73\\%$ of ₹12,000 = **₹8,760**.\n2) New Income ($+20\\%$) = **₹14,400**; New Expenditure ($+15\\%$) = **₹10,074**.\n3) New Savings $= Rs.14,400 - Rs.10,074 = Rs.4,326$.\n4) Change $= Rs.4,326 - Rs.3,240 \\Rightarrow$ **Increase of ₹1,086**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +20\\%$ of ₹12,000 = **+₹2,400**.\n2) $E = 73\\% \\times Rs.12,000 = Rs.8,760$, so $\\Delta E = +15\\% \\times Rs.8,760 = +Rs.1,314$.\n3) $\\Delta S = Rs.2,400 - Rs.1,314 = +Rs.1,086 \\Rightarrow$ **Increase by ₹1,086**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.12,000$ का $27\\% = \\mathbf{Rs.3,240}$ तथा पुराना व्यय $= \\mathbf{Rs.8,760}$।\n2) नई आय ($+20\\%$) $= Rs.14,400$ तथा नया व्यय ($+15\\%$) $= Rs.10,074$।\n3) नई बचत $= Rs.14,400 - Rs.10,074 = Rs.4,326$।\n4) बचत में अंतर $\\Rightarrow$ **₹1,086 की वृद्धि**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.12,000$ का $+20\\% = +Rs.2,400$।\n2) व्यय ₹8,760 का $\\Delta \\text{व्यय} = +15\\% = +Rs.1,314$।\n3) $\\Delta \\text{बचत} = Rs.2,400 - Rs.1,314 = \\mathbf{Rs.1,086}$ की **वृद्धि**।"
     }
   },
   {

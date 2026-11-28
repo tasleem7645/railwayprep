@@ -1541,10 +1541,38 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 7)",
-      "en": "Correct Answer: Option C (₹10,000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹10,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**₹10,000**).",
+      "keyConcept": "Direct Total Spend (No \"remaining\" word!) ⇒ Add All % First",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Add Expenditures Then Subtract",
+            "hi": "विधि 1: कुल खर्च % जोड़ें"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Spent $= 25 + 35 + 20 = 80\\% \\implies \\text{Saved} = 20\\%$ of $50000 = \\mathbf{Rs.10,000}$.",
+            "hi": "कुल व्यय $= 25 + 35 + 20 = 80\\% \\implies$ बचत $= 50,000$ का $20\\% = \\mathbf{Rs.10,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 20% = Divide by 5 (1 sec)",
+            "hi": "विधि 2: 20% = 1/5 (1 sec)"
+          },
+          "timeTag": "1 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Saved $= 20\\% = \\frac{1}{5}$ of `50,000` = **₹10,000** orally!",
+            "hi": "बचत $= 20\\% = \\frac{1}{5} \\times 50,000$ = **₹10,000**!"
+          }
+        }
+      ],
+      "en": "Method 1: Add Expenditures Then Subtract: Spent $= 25 + 35 + 20 = 80\\% \\implies \\text{Saved} = 20\\%$ of $50000 = \\mathbf{Rs.10,000}$.\n\nMethod 2: 20% = Divide by 5 (1 sec): Saved $= 20\\% = \\frac{1}{5}$ of `50,000` = **₹10,000** orally!",
+      "hi": "विधि 1: कुल खर्च % जोड़ें: कुल व्यय $= 25 + 35 + 20 = 80\\% \\implies$ बचत $= 50,000$ का $20\\% = \\mathbf{Rs.10,000}$।\n\nविधि 2: 20% = 1/5 (1 sec): बचत $= 20\\% = \\frac{1}{5} \\times 50,000$ = **₹10,000**!"
     },
     "correctIndexHi": 2
   },
@@ -1871,10 +1899,38 @@
     },
     "correctIndex": 2,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option C is the verified correct answer.",
-      "keyConcept": "Mathematics (05 Nov 2026 Shift 7)",
-      "en": "Correct Answer: Option C (₹4000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प C (₹4000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option C (**₹4000**).",
+      "keyConcept": "2-Yr (CI − SI)% = r² / 100 % = 144 / 100 = 1.44%!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Formula P(r/100)² = 57.60",
+            "hi": "विधि 1: सूत्र P(r/100)² से हल"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$P \\times \\left(\\frac{12}{100}\\right)^2 = 57.60 \\implies P \\times \\frac{144}{10000} = 57.6 \\implies P =$ **₹4000**.",
+            "hi": "$P \\times \\frac{144}{10000} = 57.6 \\implies P = 400 \\times 10 =$ **₹4000**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral 144 × 4 = 576 Match (2 sec)",
+            "hi": "विधि 2: मौखिक 144 × 4 = 576 कट (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`1.44% = 57.60`. Note `144 × 4 = 576` ⇒ `100% =` **₹4000**!",
+            "hi": "`1.44% = 57.60` (`144 × 4 = 576` सीधा कट!) ⇒ `100% =` **₹4000**!"
+          }
+        }
+      ],
+      "en": "Method 1: Formula P(r/100)² = 57.60: $P \\times \\left(\\frac{12}{100}\\right)^2 = 57.60 \\implies P \\times \\frac{144}{10000} = 57.6 \\implies P =$ **₹4000**.\n\nMethod 2: Oral 144 × 4 = 576 Match (2 sec): `1.44% = 57.60`. Note `144 × 4 = 576` ⇒ `100% =` **₹4000**!",
+      "hi": "विधि 1: सूत्र P(r/100)² से हल: $P \\times \\frac{144}{10000} = 57.6 \\implies P = 400 \\times 10 =$ **₹4000**।\n\nविधि 2: मौखिक 144 × 4 = 576 कट (2 sec): `1.44% = 57.60` (`144 × 4 = 576` सीधा कट!) ⇒ `100% =` **₹4000**!"
     },
     "correctIndexHi": 2
   },

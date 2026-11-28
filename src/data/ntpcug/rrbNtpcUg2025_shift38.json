@@ -2077,10 +2077,38 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (500) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (500) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**500**).",
+      "keyConcept": "One-Line Gap Formula: `x(p₁ − p₂) = (1 + p₂)·ΔCP − ΔSP`!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Linear Balance Equation",
+            "hi": "विधि 1: मानक समीकरण विधि"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$1.57x - 18 = 1.475(x + 20) = 1.475x + 29.5$.\n$0.095x = 47.5 \\implies x = \\frac{47.5}{0.095} =$ **500**.",
+            "hi": "$1.57x - 18 = 1.475x + 29.5 \\implies 0.095x = 47.5 \\implies x =$ **500**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Gap Check + Half Recognition (4 sec)",
+            "hi": "विधि 2: 9.5% = 47.5 सीधा कट (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Rate gap `57% − 47.5% = 9.5%`. Value gap `1.475(20) + 18 = 29.5 + 18 = 47.5`.\nNotice `47.5 = 5 × 9.5` ⇒ `100% =` **500**!",
+            "hi": "दर अंतर `57 − 47.5 = 9.5%` = `29.5 + 18 = 47.5` (`9.5 × 5 = 47.5`) ⇒ मूल `CP =` **500**!"
+          }
+        }
+      ],
+      "en": "Method 1: Linear Balance Equation: $1.57x - 18 = 1.475(x + 20) = 1.475x + 29.5$.\n$0.095x = 47.5 \\implies x = \\frac{47.5}{0.095} =$ **500**.\n\nMethod 2: Gap Check + Half Recognition (4 sec): Rate gap `57% − 47.5% = 9.5%`. Value gap `1.475(20) + 18 = 29.5 + 18 = 47.5`.\nNotice `47.5 = 5 × 9.5` ⇒ `100% =` **500**!",
+      "hi": "विधि 1: मानक समीकरण विधि: $1.57x - 18 = 1.475x + 29.5 \\implies 0.095x = 47.5 \\implies x =$ **500**।\n\nविधि 2: 9.5% = 47.5 सीधा कट (4 sec): दर अंतर `57 − 47.5 = 9.5%` = `29.5 + 18 = 47.5` (`9.5 × 5 = 47.5`) ⇒ मूल `CP =` **500**!"
     }
   },
   {

@@ -2112,10 +2112,56 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (9.25) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (9.25) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**9.25**).",
+      "keyConcept": "65% of A − (k/m) × B (Split-Percentage + Fraction Speed)",
+      "optionTrick": {
+        "en": "$65\\%$ of 65 equals 42.25 (ends in `.25`) and $\\frac{3}{5} \\times 55 = 33$ is an exact integer — so the answer MUST preserve that exact decimal ending **.25**!",
+        "hi": "65 का $65\\% = 42.25$ और $\\frac{3}{5} \\times 55 = 33$ एक पूर्णांक है — अतः अंतर के अंत में दशमलव **.25** अवश्य रहेगा!"
+      },
+      "trapAlert": {
+        "en": "Multiply 65 × A cleanly or split 65% = 50% + 10% + 5%; careless carry errors shift the result by 1 or 3.",
+        "hi": "दशमलव घटाने से पहले $65\\% = 50\\% + 10\\% + 5\\%$ तोड़ने से गणना की गलती नहीं होती।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Step-by-Step Formula",
+            "hi": "विधि 1: बेसिक चरणबद्ध सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$\\text{Diff} = \\frac{65}{100} \\times 65 - \\frac{3}{5} \\times 55$",
+          "steps": {
+            "en": "1) $65\\%$ of $65 = \\frac{65 \\times 65}{100} = \\frac{4225}{100} = 42.25$.\n2) $\\frac{3}{5}$ of $55 = 3 \\times 11 = 33$.\n3) Difference $= 42.25 - 33 = \\mathbf{9.25}$.",
+            "hi": "1) 65 का $65\\% = \\frac{65 \\times 65}{100} = 42.25$।\n2) 55 का $\\frac{3}{5} = 3 \\times 11 = 33$।\n3) अभीष्ट अंतर $= 42.25 - 33 = \\mathbf{9.25}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart 50%+10%+5% Mental Split",
+            "hi": "विधि 2: स्मार्ट 50%+10%+5% मानसिक विभाजन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$65\\% = 50\\% + 10\\% + 5\\%$",
+          "steps": {
+            "en": "1) Split $65\\%$ of 65 mentally: $32.5 + 6.5 + 3.25 = 42.25$.\n2) Notice $\\frac{3}{5}$ is $60\\%$, so $\\frac{3}{5} \\times 55 = 33$.\n3) Instant subtraction: $42.25 - 33 = \\mathbf{9.25}$.",
+            "hi": "1) 65 का $65\\%$ मानस में तोड़ें: $50\\% (32.5) + 10\\% (6.5) + 5\\% (3.25) = 42.25$।\n2) $\\frac{3}{5} \\times 55 = 33$ तुरंत घटाएँ।\n3) सीधा उत्तर $= 42.25 - 33 = \\mathbf{9.25}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Step-by-Step Formula: 1) $65\\%$ of $65 = \\frac{65 \\times 65}{100} = \\frac{4225}{100} = 42.25$.\n2) $\\frac{3}{5}$ of $55 = 3 \\times 11 = 33$.\n3) Difference $= 42.25 - 33 = \\mathbf{9.25}$.\n\nMethod 2: Smart 50%+10%+5% Mental Split: 1) Split $65\\%$ of 65 mentally: $32.5 + 6.5 + 3.25 = 42.25$.\n2) Notice $\\frac{3}{5}$ is $60\\%$, so $\\frac{3}{5} \\times 55 = 33$.\n3) Instant subtraction: $42.25 - 33 = \\mathbf{9.25}$.",
+      "hi": "विधि 1: बेसिक चरणबद्ध सूत्र: 1) 65 का $65\\% = \\frac{65 \\times 65}{100} = 42.25$।\n2) 55 का $\\frac{3}{5} = 3 \\times 11 = 33$।\n3) अभीष्ट अंतर $= 42.25 - 33 = \\mathbf{9.25}$।\n\nविधि 2: स्मार्ट 50%+10%+5% मानसिक विभाजन: 1) 65 का $65\\%$ मानस में तोड़ें: $50\\% (32.5) + 10\\% (6.5) + 5\\% (3.25) = 42.25$।\n2) $\\frac{3}{5} \\times 55 = 33$ तुरंत घटाएँ।\n3) सीधा उत्तर $= 42.25 - 33 = \\mathbf{9.25}$।"
     }
   },
   {
@@ -2277,10 +2323,38 @@
     "correctIndex": 1,
     "correctIndexHi": 1,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option B is verified.",
-      "keyConcept": "Profit, Loss & Discount",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option B (30% loss) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प B (30% हानि) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**30% loss**).",
+      "keyConcept": "ALWAYS divide by Sold Quantity (`40`), NEVER by `12` (`40 − 28`)!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: CP : SP Ratio Inversion",
+            "hi": "विधि 1: अनुपात विधि (CP : SP)"
+          },
+          "timeTag": "8 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$40\\,\\text{SP} = 28\\,\\text{CP} \\implies \\frac{\\text{CP}}{\\text{SP}} = \\frac{40}{28}$.\nSince `SP < CP`, Loss $= \\frac{40 - 28}{40} \\times 100 = \\frac{12}{40} \\times 100 = \\mathbf{30\\%\\text{ loss}}$.",
+            "hi": "$40\\,\\text{SP} = 28\\,\\text{CP} \\implies CP : SP = 40 : 28$।\nहानि\\% $= \\frac{12}{40} \\times 100 = \\mathbf{30\\%\\text{ हानि}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral 12 / 40 = 3/10 (2 sec)",
+            "hi": "विधि 2: मौखिक 12/40 = 3/10 (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Gave out `40`, only got back cost of `28` ⇒ Loss of `12` on `40` sold $= \\frac{3}{10} =$ **30% loss**!",
+            "hi": "`40` पुस्तकें देकर केवल `28` के दाम मिले ⇒ `40` पर `12` की हानि $= 3/10 =$ **30% हानि**!"
+          }
+        }
+      ],
+      "en": "Method 1: CP : SP Ratio Inversion: $40\\,\\text{SP} = 28\\,\\text{CP} \\implies \\frac{\\text{CP}}{\\text{SP}} = \\frac{40}{28}$.\nSince `SP < CP`, Loss $= \\frac{40 - 28}{40} \\times 100 = \\frac{12}{40} \\times 100 = \\mathbf{30\\%\\text{ loss}}$.\n\nMethod 2: Oral 12 / 40 = 3/10 (2 sec): Gave out `40`, only got back cost of `28` ⇒ Loss of `12` on `40` sold $= \\frac{3}{10} =$ **30% loss**!",
+      "hi": "विधि 1: अनुपात विधि (CP : SP): $40\\,\\text{SP} = 28\\,\\text{CP} \\implies CP : SP = 40 : 28$।\nहानि\\% $= \\frac{12}{40} \\times 100 = \\mathbf{30\\%\\text{ हानि}}$।\n\nविधि 2: मौखिक 12/40 = 3/10 (2 sec): `40` पुस्तकें देकर केवल `28` के दाम मिले ⇒ `40` पर `12` की हानि $= 3/10 =$ **30% हानि**!"
     }
   },
   {

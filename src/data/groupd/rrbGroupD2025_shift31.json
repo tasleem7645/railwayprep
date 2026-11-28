@@ -1355,10 +1355,56 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (decrease by ₹2,322) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹2,322 की कमी) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**decrease by ₹2,322**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+17\\%$, while expenditure change on whole income = $-\\frac{81.5}{100} \\times 25\\%$. That gives direct Net Factor $= -3.375\\%$ of ₹68,800 $= \\mathbf{Rs.2,322}$!",
+        "hi": "आय वृद्धि $= +17\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 81.5\\% \\times 25\\% = 20.375\\%$ — दोनों का अंतर ही ₹68,800 पर सीधी कमी ($\\mathbf{Rs.2,322}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 18.5\\%$ of ₹68,800 = **₹12,728**; Old Expenditure $= 81.5\\%$ of ₹68,800 = **₹56,072**.\n2) New Income ($+17\\%$) = **₹80,496**; New Expenditure ($+25\\%$) = **₹70,090**.\n3) New Savings $= Rs.80,496 - Rs.70,090 = Rs.10,406$.\n4) Change $= Rs.10,406 - Rs.12,728 \\Rightarrow$ **Decrease of ₹2,322**.",
+            "hi": "1) पुरानी बचत $= Rs.68,800$ का $18.5\\% = \\mathbf{Rs.12,728}$ तथा पुराना व्यय $= \\mathbf{Rs.56,072}$।\n2) नई आय ($+17\\%$) $= Rs.80,496$ तथा नया व्यय ($+25\\%$) $= Rs.70,090$।\n3) नई बचत $= Rs.80,496 - Rs.70,090 = Rs.10,406$।\n4) बचत में अंतर $\\Rightarrow$ **₹2,322 की कमी**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +17\\%$ of ₹68,800 = **+₹11,696**.\n2) $E = 81.5\\% \\times Rs.68,800 = Rs.56,072$, so $\\Delta E = +25\\% \\times Rs.56,072 = +Rs.14,018$.\n3) $\\Delta S = Rs.11,696 - Rs.14,018 = -Rs.2,322 \\Rightarrow$ **Decrease by ₹2,322**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.68,800$ का $+17\\% = +Rs.11,696$।\n2) व्यय ₹56,072 का $\\Delta \\text{व्यय} = +25\\% = +Rs.14,018$।\n3) $\\Delta \\text{बचत} = Rs.11,696 - Rs.14,018 = \\mathbf{Rs.2,322}$ की **कमी**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 18.5\\%$ of ₹68,800 = **₹12,728**; Old Expenditure $= 81.5\\%$ of ₹68,800 = **₹56,072**.\n2) New Income ($+17\\%$) = **₹80,496**; New Expenditure ($+25\\%$) = **₹70,090**.\n3) New Savings $= Rs.80,496 - Rs.70,090 = Rs.10,406$.\n4) Change $= Rs.10,406 - Rs.12,728 \\Rightarrow$ **Decrease of ₹2,322**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +17\\%$ of ₹68,800 = **+₹11,696**.\n2) $E = 81.5\\% \\times Rs.68,800 = Rs.56,072$, so $\\Delta E = +25\\% \\times Rs.56,072 = +Rs.14,018$.\n3) $\\Delta S = Rs.11,696 - Rs.14,018 = -Rs.2,322 \\Rightarrow$ **Decrease by ₹2,322**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.68,800$ का $18.5\\% = \\mathbf{Rs.12,728}$ तथा पुराना व्यय $= \\mathbf{Rs.56,072}$।\n2) नई आय ($+17\\%$) $= Rs.80,496$ तथा नया व्यय ($+25\\%$) $= Rs.70,090$।\n3) नई बचत $= Rs.80,496 - Rs.70,090 = Rs.10,406$।\n4) बचत में अंतर $\\Rightarrow$ **₹2,322 की कमी**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.68,800$ का $+17\\% = +Rs.11,696$।\n2) व्यय ₹56,072 का $\\Delta \\text{व्यय} = +25\\% = +Rs.14,018$।\n3) $\\Delta \\text{बचत} = Rs.11,696 - Rs.14,018 = \\mathbf{Rs.2,322}$ की **कमी**।"
     }
   },
   {
@@ -1525,10 +1571,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Three Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (1,00,320) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (1,00,320) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**1,00,320**).",
+      "keyConcept": "Fraction Multipliers Cancel Zeros Cleanly + Unit/19-Factor Check!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Successive Fractions",
+            "hi": "विधि 1: क्रमिक भिन्न गुणक"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$80000 \\times \\frac{11}{10} \\times \\frac{19}{20} \\times \\frac{6}{5} = 80 \\times 11 \\times 19 \\times 6 = \\mathbf{1,00,320}$.",
+            "hi": "$80000 \\times \\frac{11}{10} \\times \\frac{19}{20} \\times \\frac{6}{5} = 80 \\times 11 \\times 114 = \\mathbf{1,00,320}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Divisible by 11 & 3 Check (3 sec)",
+            "hi": "विधि 2: 11 व 3 की विभाज्यता ट्रिक (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice `+10% = ×11`, `+20% = ×6 (div by 3)`! Sum digits of `1,00,320` = `6` (÷ 3✓); options B, C, D fail 3 (`13, 8, 7`) ⇒ **Option A**!",
+            "hi": "`+10%` से `11` और `+20%` से `3` गुणज आएगा! अंकों का योग केवल **1,00,320** (`6`) का 3 से कटता है ⇒ **3 सेकंड में Option A**!"
+          }
+        }
+      ],
+      "en": "Method 1: Successive Fractions: $80000 \\times \\frac{11}{10} \\times \\frac{19}{20} \\times \\frac{6}{5} = 80 \\times 11 \\times 19 \\times 6 = \\mathbf{1,00,320}$.\n\nMethod 2: Divisible by 11 & 3 Check (3 sec): Notice `+10% = ×11`, `+20% = ×6 (div by 3)`! Sum digits of `1,00,320` = `6` (÷ 3✓); options B, C, D fail 3 (`13, 8, 7`) ⇒ **Option A**!",
+      "hi": "विधि 1: क्रमिक भिन्न गुणक: $80000 \\times \\frac{11}{10} \\times \\frac{19}{20} \\times \\frac{6}{5} = 80 \\times 11 \\times 114 = \\mathbf{1,00,320}$।\n\nविधि 2: 11 व 3 की विभाज्यता ट्रिक (3 sec): `+10%` से `11` और `+20%` से `3` गुणज आएगा! अंकों का योग केवल **1,00,320** (`6`) का 3 से कटता है ⇒ **3 सेकंड में Option A**!"
     }
   },
   {

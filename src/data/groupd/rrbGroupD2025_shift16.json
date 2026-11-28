@@ -877,10 +877,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • 2-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (9) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (9) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**9**).",
+      "keyConcept": "Instant Rate Formula: R = 100 × √(Diff₂ / P)!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Substitute in P(R/100)²",
+            "hi": "विधि 1: मानक सूत्र में मान रखें"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$20000 \\times \\frac{R^2}{10000} = 162 \\implies 2\\,R^2 = 162 \\implies R^2 = 81 \\implies R = \\mathbf{9}$.",
+            "hi": "$2\\,R^2 = 162 \\implies R^2 = 81 \\implies R =$ **9**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral Square Root (162/2 = 81 ⇒ 9) (2 sec)",
+            "hi": "विधि 2: मौखिक वर्गमूल 162/2 = 81 (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`20,000 ÷ 10,000 = 2`. Divide `162 ÷ 2 = 81` ⇒ √81 = **9**!",
+            "hi": "`162 ÷ 2 = 81` का वर्गमूल सीधे **9**!"
+          }
+        }
+      ],
+      "en": "Method 1: Substitute in P(R/100)²: $20000 \\times \\frac{R^2}{10000} = 162 \\implies 2\\,R^2 = 162 \\implies R^2 = 81 \\implies R = \\mathbf{9}$.\n\nMethod 2: Oral Square Root (162/2 = 81 ⇒ 9) (2 sec): `20,000 ÷ 10,000 = 2`. Divide `162 ÷ 2 = 81` ⇒ √81 = **9**!",
+      "hi": "विधि 1: मानक सूत्र में मान रखें: $2\\,R^2 = 162 \\implies R^2 = 81 \\implies R =$ **9**।\n\nविधि 2: मौखिक वर्गमूल 162/2 = 81 (2 sec): `162 ÷ 2 = 81` का वर्गमूल सीधे **9**!"
     }
   },
   {
@@ -1251,10 +1279,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (₹12,407.90) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹12,407.90) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹12,407.90**).",
+      "keyConcept": "New Income = Old × (1 + 27%) = Old + (30% − 3%)",
+      "optionTrick": {
+        "en": "Ends in $770 \\times 27/100 \\Rightarrow 7 \\times 7 = 9 \\Rightarrow$ `.90` decimal AND sum ends in `07.90`! Only `₹12,407.90` & `₹12,207.90` match `.90`; $9,770 + 25\\% (>2442) > 12,212 \\Rightarrow \\mathbf{Rs.12,407.90}$!",
+        "hi": "इकाई दशमलव $7 \\times 7 \\rightarrow .90$ तथा $9,770 + (9,770$ का $27\\% \\approx 2,638) = \\mathbf{Rs.12,407.90}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Direct 127% Multiplication",
+            "hi": "विधि 1: सीधा 127% गुणा"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Increase $= \\frac{27}{100} \\times 9{,}770 = 27 \\times 97.7 = Rs.2,637.90$.\n2) New income $= 9,770 + 2,637.90 = \\mathbf{Rs.12,407.90}$.",
+            "hi": "1) आय वृद्धि $= \\frac{27}{100} \\times 9,770 = Rs.2,637.90$।\n2) नई मासिक आय $= 9,770 + 2,637.90 = \\mathbf{Rs.12,407.90}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart 30% − 3% Split (10 sec)",
+            "hi": "विधि 2: स्मार्ट 30% − 3% विभाजन"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "10 sec",
+          "tone": "emerald",
+          "formula": "$27\\% = 30\\% - 3\\%$",
+          "steps": {
+            "en": "1) $30\\%$ of $9,770 = 3 \\times 977 = 2,931$.\n2) Subtract $3\\% = 293.10 \\Rightarrow$ Net gain $= 2,931 - 293.10 = 2,637.90$.\n3) Total $= 9,770 + 2,637.90 = \\mathbf{Rs.12,407.90}$.",
+            "hi": "1) 9,770 का $30\\% = 2,931$।\n2) $3\\% = 293.10$ घटाएँ $\\Rightarrow$ वृद्धि $= 2,637.90$।\n3) नई आय $= 9,770 + 2,637.90 = \\mathbf{Rs.12,407.90}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Direct 127% Multiplication: 1) Increase $= \\frac{27}{100} \\times 9{,}770 = 27 \\times 97.7 = Rs.2,637.90$.\n2) New income $= 9,770 + 2,637.90 = \\mathbf{Rs.12,407.90}$.\n\nMethod 2: Smart 30% − 3% Split (10 sec): 1) $30\\%$ of $9,770 = 3 \\times 977 = 2,931$.\n2) Subtract $3\\% = 293.10 \\Rightarrow$ Net gain $= 2,931 - 293.10 = 2,637.90$.\n3) Total $= 9,770 + 2,637.90 = \\mathbf{Rs.12,407.90}$.",
+      "hi": "विधि 1: सीधा 127% गुणा: 1) आय वृद्धि $= \\frac{27}{100} \\times 9,770 = Rs.2,637.90$।\n2) नई मासिक आय $= 9,770 + 2,637.90 = \\mathbf{Rs.12,407.90}$।\n\nविधि 2: स्मार्ट 30% − 3% विभाजन: 1) 9,770 का $30\\% = 2,931$।\n2) $3\\% = 293.10$ घटाएँ $\\Rightarrow$ वृद्धि $= 2,637.90$।\n3) नई आय $= 9,770 + 2,637.90 = \\mathbf{Rs.12,407.90}$।"
     }
   },
   {
@@ -1353,10 +1422,38 @@
     "correctIndexHi": 2,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (9% decrease) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (9% की कमी) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**9% decrease**).",
+      "keyConcept": "Symmetric +x% & −x% ALWAYS Yields −x²/100% Loss!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base 100 Step-by-Step",
+            "hi": "विधि 1: 100 आधार विधि"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$100 \\xrightarrow{+30\\%} 130 \\xrightarrow{-30\\% (-39)} 91 \\implies \\mathbf{9\\%\\text{ decrease}}$.",
+            "hi": "$100 \\xrightarrow{+30\\%} 130 \\xrightarrow{-30\\% (-39)} 91 \\implies \\mathbf{9\\%\\text{ की कमी}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: −x²/100 (1 sec)",
+            "hi": "विधि 2: −x²/100 शॉर्टकट (1 sec)"
+          },
+          "timeTag": "1 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$-\\frac{30^2}{100} = -\\frac{900}{100} = \\mathbf{-9\\%}$ (**9% decrease**)!",
+            "hi": "$-\\frac{30^2}{100} = \\mathbf{-9\\%}$ (**9% की कमी**)!"
+          }
+        }
+      ],
+      "en": "Method 1: Base 100 Step-by-Step: $100 \\xrightarrow{+30\\%} 130 \\xrightarrow{-30\\% (-39)} 91 \\implies \\mathbf{9\\%\\text{ decrease}}$.\n\nMethod 2: −x²/100 (1 sec): $-\\frac{30^2}{100} = -\\frac{900}{100} = \\mathbf{-9\\%}$ (**9% decrease**)!",
+      "hi": "विधि 1: 100 आधार विधि: $100 \\xrightarrow{+30\\%} 130 \\xrightarrow{-30\\% (-39)} 91 \\implies \\mathbf{9\\%\\text{ की कमी}}$।\n\nविधि 2: −x²/100 शॉर्टकट (1 sec): $-\\frac{30^2}{100} = \\mathbf{-9\\%}$ (**9% की कमी**)!"
     }
   },
   {

@@ -1287,10 +1287,56 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (Increase by 31.6%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (31.6% की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**Increase by 31.6%**).",
+      "keyConcept": "Base-100 Unit Cost × Quantity Weighted Percentage Change",
+      "optionTrick": {
+        "en": "Set TV = `100` -> Machine = `50`. Total Weight $= 300 + 200 = 500$, Change $= +180 - 22 = +158 \\Rightarrow \\mathbf{31.6\\%}$ Increase!",
+        "hi": "TV = `100`, मशीन = `50` लेने से कुल प्रारंभिक मूल्य $= 500$ तथा निवल बदलाव $= +158$ — सीधे **31.6% वृद्धि** प्राप्त होती है!"
+      },
+      "trapAlert": {
+        "en": "Remember to weight each unit cost by quantity (6 machines & 2 TVs) before computing net % change.",
+        "hi": "केवल 1 इकाई का प्रतिशत नहीं बदलना है — क्रमशः `nW` मशीनों और `nT` टीवी की संख्या से गुणा करके भारित कुल निकालें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Initial vs Net Change",
+            "hi": "विधि 1: Base-100 कुल मूल्य विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "formula": "$\\%\\Delta = \\frac{n_W \\cdot \\Delta W + n_T \\cdot \\Delta T}{n_W W + n_T T} \\times 100$",
+          "steps": {
+            "en": "1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 50 = 50$.\n2) Old Cost of 6 Machines $+ 2$ TVs $= (6 \\times 50) + (2 \\times 100) = 300 + 200 = 500$.\n3) Net change $= (+60\\% \\text{ of } 300) - (11\\% \\text{ of } 200) = 180 - 22 = +158$.\n4) Percentage change $= \\frac{158}{500} \\times 100 = \\mathbf{31.6\\%\\text{ Increase}}$.",
+            "hi": "1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 50 = 50$।\n2) 6 मशीनों + 2 TV का प्रारंभिक कुल $= 300 + 200 = 500$।\n3) निवल परिवर्तन $= (300 \\times 60\\%) - (200 \\times 11\\%) = 180 - 22 = +158$।\n4) प्रतिशत परिवर्तन $= \\frac{158}{500} \\times 100 = \\mathbf{31.6\\%\\text{ की वृद्धि}}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Deviation Shortcut",
+            "hi": "विधि 2: भारित प्रतिशत शॉर्टकट"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\%\\Delta = \\frac{300(+60\\%) + 200(-11\\%)}{500}$",
+          "steps": {
+            "en": "Directly divide weighted percentage product sum by total base weights:\n$$\\frac{300(+60) - 200(11)}{500}\\% = \\frac{15800}{500}\\% = \\mathbf{31.6\\%\\text{ Increase}}.$$",
+            "hi": "कुल आधार भार 500 से सीधे भारित योग को भाग दें:\n$$\\frac{300(+60) - 200(11)}{500}\\% = \\frac{15800}{500}\\% = \\mathbf{31.6\\%\\text{ की वृद्धि}}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Initial vs Net Change: 1) Let TV $= 100 \\Rightarrow$ Machine $= 100 - 50 = 50$.\n2) Old Cost of 6 Machines $+ 2$ TVs $= (6 \\times 50) + (2 \\times 100) = 300 + 200 = 500$.\n3) Net change $= (+60\\% \\text{ of } 300) - (11\\% \\text{ of } 200) = 180 - 22 = +158$.\n4) Percentage change $= \\frac{158}{500} \\times 100 = \\mathbf{31.6\\%\\text{ Increase}}$.\n\nMethod 2: Weighted Deviation Shortcut: Directly divide weighted percentage product sum by total base weights:\n$$\\frac{300(+60) - 200(11)}{500}\\% = \\frac{15800}{500}\\% = \\mathbf{31.6\\%\\text{ Increase}}.$$",
+      "hi": "विधि 1: Base-100 कुल मूल्य विधि: 1) मानें 1 TV = $100 \\Rightarrow$ 1 वॉशिंग मशीन $= 100 - 50 = 50$।\n2) 6 मशीनों + 2 TV का प्रारंभिक कुल $= 300 + 200 = 500$।\n3) निवल परिवर्तन $= (300 \\times 60\\%) - (200 \\times 11\\%) = 180 - 22 = +158$।\n4) प्रतिशत परिवर्तन $= \\frac{158}{500} \\times 100 = \\mathbf{31.6\\%\\text{ की वृद्धि}}$।\n\nविधि 2: भारित प्रतिशत शॉर्टकट: कुल आधार भार 500 से सीधे भारित योग को भाग दें:\n$$\\frac{300(+60) - 200(11)}{500}\\% = \\frac{15800}{500}\\% = \\mathbf{31.6\\%\\text{ की वृद्धि}}.$$"
     }
   },
   {
@@ -1457,10 +1503,38 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Successive Percentage Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (4.3% decrease) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (4.3% की कमी) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**4.3% decrease**).",
+      "keyConcept": "4-Step Fraction Multiplier Chain → Beats Formula Every Time!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Pair +45% & −20%, +10% & −25%",
+            "hi": "विधि 1: दो जोड़ों का क्रमिक सूत्र"
+          },
+          "timeTag": "30 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $45 - 20 - 9 = +16\\%$; $10 - 25 - 2.5 = -17.5\\%$.\n2) $16 - 17.5 - \\frac{16 \\times 17.5}{100} = -1.5 - 2.8 = \\mathbf{-4.3\\%}$.",
+            "hi": "1) $(+45, -20) = +16\\%$; $(+10, -25) = -17.5\\%$।\n2) $16 - 17.5 - 2.8 = -4.3\\% \\implies$ **4.3% की कमी**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Direct Fraction Multiplier (6 sec)",
+            "hi": "विधि 2: प्रत्यक्ष भिन्न गुणक (6 sec)"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$\\frac{29}{20} \\times \\frac{4}{5} \\times \\frac{11}{10} \\times \\frac{3}{4} = \\frac{29 \\times 33}{1000} = \\frac{957}{1000} = -43/1000 = \\mathbf{-4.3\\%}$ (**4.3% decrease**)!",
+            "hi": "$\\frac{29}{20} \\times \\frac{4}{5} \\times \\frac{11}{10} \\times \\frac{3}{4} = \\frac{957}{1000} \\implies \\frac{-43}{1000} = \\mathbf{4.3\\%\\text{ की कमी}}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Pair +45% & −20%, +10% & −25%: 1) $45 - 20 - 9 = +16\\%$; $10 - 25 - 2.5 = -17.5\\%$.\n2) $16 - 17.5 - \\frac{16 \\times 17.5}{100} = -1.5 - 2.8 = \\mathbf{-4.3\\%}$.\n\nMethod 2: Direct Fraction Multiplier (6 sec): $\\frac{29}{20} \\times \\frac{4}{5} \\times \\frac{11}{10} \\times \\frac{3}{4} = \\frac{29 \\times 33}{1000} = \\frac{957}{1000} = -43/1000 = \\mathbf{-4.3\\%}$ (**4.3% decrease**)!",
+      "hi": "विधि 1: दो जोड़ों का क्रमिक सूत्र: 1) $(+45, -20) = +16\\%$; $(+10, -25) = -17.5\\%$।\n2) $16 - 17.5 - 2.8 = -4.3\\% \\implies$ **4.3% की कमी**।\n\nविधि 2: प्रत्यक्ष भिन्न गुणक (6 sec): $\\frac{29}{20} \\times \\frac{4}{5} \\times \\frac{11}{10} \\times \\frac{3}{4} = \\frac{957}{1000} \\implies \\frac{-43}{1000} = \\mathbf{4.3\\%\\text{ की कमी}}$!"
     }
   },
   {

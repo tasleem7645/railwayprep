@@ -945,10 +945,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • CP-SP Relation",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹16,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹16,000) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**₹16,000**).",
+      "keyConcept": "Identical Items = Equal `CP` (`100` each) ⇒ Total SP = 120 + 90 = 210!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Let Each CP = x",
+            "hi": "विधि 1: प्रत्येक CP = x मानकर हल"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$1.20x + 0.90x = 33,600 \\implies 2.1x = 33,600 \\implies x = \\frac{336000}{21} =$ **₹16,000**.",
+            "hi": "$1.2x + 0.9x = 33,600 \\implies 2.1x = 33,600 \\implies x =$ **₹16,000**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Oral Divisibility by 21 (336/21 = 16) (3 sec)",
+            "hi": "विधि 2: मौखिक 336 ÷ 21 = 16 (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Total SP $= 210\\%$ of `1 machine`. Since `336 ÷ 21 = 16`, single CP = **₹16,000** orally!",
+            "hi": "कुल SP $= (120 + 90) = 210\\%$ (1 मशीन का)। चूँकि `336 ÷ 21 = 16`, अतः प्रत्येक `CP` = **₹16,000**!"
+          }
+        }
+      ],
+      "en": "Method 1: Let Each CP = x: $1.20x + 0.90x = 33,600 \\implies 2.1x = 33,600 \\implies x = \\frac{336000}{21} =$ **₹16,000**.\n\nMethod 2: Oral Divisibility by 21 (336/21 = 16) (3 sec): Total SP $= 210\\%$ of `1 machine`. Since `336 ÷ 21 = 16`, single CP = **₹16,000** orally!",
+      "hi": "विधि 1: प्रत्येक CP = x मानकर हल: $1.2x + 0.9x = 33,600 \\implies 2.1x = 33,600 \\implies x =$ **₹16,000**।\n\nविधि 2: मौखिक 336 ÷ 21 = 16 (3 sec): कुल SP $= (120 + 90) = 210\\%$ (1 मशीन का)। चूँकि `336 ÷ 21 = 16`, अतः प्रत्येक `CP` = **₹16,000**!"
     }
   },
   {
@@ -1219,10 +1247,56 @@
     "correctIndexHi": 1,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (increase by ₹830) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹830 की वृद्धि) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**increase by ₹830**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+22\\%$, while expenditure change on whole income = $-\\frac{84}{100} \\times 25\\%$. That gives direct Net Factor $= 1\\%$ of ₹83,000 $= \\mathbf{Rs.830}$!",
+        "hi": "आय वृद्धि $= +22\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 84\\% \\times 25\\% = 21\\%$ — दोनों का अंतर ही ₹83,000 पर सीधी वृद्धि ($\\mathbf{Rs.830}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 16\\%$ of ₹83,000 = **₹13,280**; Old Expenditure $= 84\\%$ of ₹83,000 = **₹69,720**.\n2) New Income ($+22\\%$) = **₹1,01,260**; New Expenditure ($+25\\%$) = **₹87,150**.\n3) New Savings $= Rs.1,01,260 - Rs.87,150 = Rs.14,110$.\n4) Change $= Rs.14,110 - Rs.13,280 \\Rightarrow$ **Increase of ₹830**.",
+            "hi": "1) पुरानी बचत $= Rs.83,000$ का $16\\% = \\mathbf{Rs.13,280}$ तथा पुराना व्यय $= \\mathbf{Rs.69,720}$।\n2) नई आय ($+22\\%$) $= Rs.1,01,260$ तथा नया व्यय ($+25\\%$) $= Rs.87,150$।\n3) नई बचत $= Rs.1,01,260 - Rs.87,150 = Rs.14,110$।\n4) बचत में अंतर $\\Rightarrow$ **₹830 की वृद्धि**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +22\\%$ of ₹83,000 = **+₹18,260**.\n2) $E = 84\\% \\times Rs.83,000 = Rs.69,720$, so $\\Delta E = +25\\% \\times Rs.69,720 = +Rs.17,430$.\n3) $\\Delta S = Rs.18,260 - Rs.17,430 = +Rs.830 \\Rightarrow$ **Increase by ₹830**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.83,000$ का $+22\\% = +Rs.18,260$।\n2) व्यय ₹69,720 का $\\Delta \\text{व्यय} = +25\\% = +Rs.17,430$।\n3) $\\Delta \\text{बचत} = Rs.18,260 - Rs.17,430 = \\mathbf{Rs.830}$ की **वृद्धि**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 16\\%$ of ₹83,000 = **₹13,280**; Old Expenditure $= 84\\%$ of ₹83,000 = **₹69,720**.\n2) New Income ($+22\\%$) = **₹1,01,260**; New Expenditure ($+25\\%$) = **₹87,150**.\n3) New Savings $= Rs.1,01,260 - Rs.87,150 = Rs.14,110$.\n4) Change $= Rs.14,110 - Rs.13,280 \\Rightarrow$ **Increase of ₹830**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +22\\%$ of ₹83,000 = **+₹18,260**.\n2) $E = 84\\% \\times Rs.83,000 = Rs.69,720$, so $\\Delta E = +25\\% \\times Rs.69,720 = +Rs.17,430$.\n3) $\\Delta S = Rs.18,260 - Rs.17,430 = +Rs.830 \\Rightarrow$ **Increase by ₹830**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.83,000$ का $16\\% = \\mathbf{Rs.13,280}$ तथा पुराना व्यय $= \\mathbf{Rs.69,720}$।\n2) नई आय ($+22\\%$) $= Rs.1,01,260$ तथा नया व्यय ($+25\\%$) $= Rs.87,150$।\n3) नई बचत $= Rs.1,01,260 - Rs.87,150 = Rs.14,110$।\n4) बचत में अंतर $\\Rightarrow$ **₹830 की वृद्धि**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.83,000$ का $+22\\% = +Rs.18,260$।\n2) व्यय ₹69,720 का $\\Delta \\text{व्यय} = +25\\% = +Rs.17,430$।\n3) $\\Delta \\text{बचत} = Rs.18,260 - Rs.17,430 = \\mathbf{Rs.830}$ की **वृद्धि**।"
     }
   },
   {
@@ -1661,10 +1735,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Percentage Based",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (₹2,400) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (₹2,400) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option A (₹2,400). Note: Accompanying DI Chart/Table image was truncated in source PDF.",
+      "keyConcept": "Data Interpretation Percentage Comparison Formula",
+      "trapAlert": {
+        "en": "Source Data Notice: The original RRB exam line-graph/table visual for this DI question was not embedded in the extracted PDF text. Official Answer Key is Option A (₹2,400).",
+        "hi": "स्रोत सूचना: इस Data Interpretation प्रश्न से जुड़ा मूल ग्राफ़/सारणी चित्र स्रोत PDF से निष्कर्षित नहीं हो सका। आधिकारिक RRB उत्तर कुंजी के अनुसार सही उत्तर विकल्प A (₹2,400) है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: DI Percentage Formula Framework",
+            "hi": "विधि 1: DI प्रतिशत तुलना सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "DI Rule",
+          "tone": "teal",
+          "formula": "$\\%\\text{ More} = \\frac{B - A}{A} \\times 100$",
+          "steps": {
+            "en": "1) In DI percentage-excess / budget-share problems, always identify the **Base** after \"than / of\" in denominator: $\\frac{\\text{Difference}}{\\text{Reference Base}} \\times 100$.\n2) Official RRB CEN 09/2025 Verified Answer: **Option A (₹2,400)**.",
+            "hi": "1) ग्राफ़ या सारणी आधारित प्रतिशत प्रश्नों में \"से अधिक / तुलना में\" वाली आधार संख्या को हर (denominator) में रखकर $\\frac{\\text{अंतर}}{\\text{आधार}} \\times 100$ लगाते हैं।\n2) आधिकारिक RRB CEN 09/2025 उत्तर कुंजी: **विकल्प A (₹2,400)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Graph Visual Ratio Estimation Trick",
+            "hi": "विधि 2: ग्राफ़ अनुपात त्वरित तुलना"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "For Pie Charts ($100\\% = 360^\\circ$) or Bar/Line comparisons, convert values into simplified ratios before multiplying by 100 or Total Budget. Verified Key: **₹2,400**.",
+            "hi": "पाई चार्ट ($100\\% = 360^\\circ$) या लाइन ग्राफ़ में मानों को पहले सरल अनुपात में बदलें, फिर कुल बजट से गुणा करें। प्रमाणित उत्तर: **₹2,400**।"
+          }
+        }
+      ],
+      "en": "Method 1: DI Percentage Formula Framework: 1) In DI percentage-excess / budget-share problems, always identify the **Base** after \"than / of\" in denominator: $\\frac{\\text{Difference}}{\\text{Reference Base}} \\times 100$.\n2) Official RRB CEN 09/2025 Verified Answer: **Option A (₹2,400)**.\n\nMethod 2: Graph Visual Ratio Estimation Trick: For Pie Charts ($100\\% = 360^\\circ$) or Bar/Line comparisons, convert values into simplified ratios before multiplying by 100 or Total Budget. Verified Key: **₹2,400**.",
+      "hi": "विधि 1: DI प्रतिशत तुलना सूत्र: 1) ग्राफ़ या सारणी आधारित प्रतिशत प्रश्नों में \"से अधिक / तुलना में\" वाली आधार संख्या को हर (denominator) में रखकर $\\frac{\\text{अंतर}}{\\text{आधार}} \\times 100$ लगाते हैं।\n2) आधिकारिक RRB CEN 09/2025 उत्तर कुंजी: **विकल्प A (₹2,400)**।\n\nविधि 2: ग्राफ़ अनुपात त्वरित तुलना: पाई चार्ट ($100\\% = 360^\\circ$) या लाइन ग्राफ़ में मानों को पहले सरल अनुपात में बदलें, फिर कुल बजट से गुणा करें। प्रमाणित उत्तर: **₹2,400**।"
     }
   },
   {

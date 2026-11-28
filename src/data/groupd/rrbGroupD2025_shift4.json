@@ -945,10 +945,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Basic Profit & Loss",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹40 loss) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹40 की हानि) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹40 loss**).",
+      "keyConcept": "Net ₹ = +15%(1200) − 10%(1200) − 100 Cashback!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Find Both SPs Minus ₹100",
+            "hi": "विधि 1: दोनों विक्रय मूल्य घटाएं"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Total CP $= 2400$. First net SP $= 1380 - 100 = 1280$; Second SP $= 1080$.\nTotal Net Inflow $= 2360 \\implies$ **₹40 loss**.",
+            "hi": "कुल CP $= 2400$। पहली से शुद्ध `1380 − 100 = 1280`, दूसरी से `1080` ⇒ कुल `2360` ⇒ **₹40 की हानि**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net % + Direct ₹ Deviation (3 sec)",
+            "hi": "विधि 2: शुद्ध अंतर + कैशबैक (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Net on equal `₹1200` base $= (+15\\% - 10\\%) = +5\\%$ of `1200` $= +60$. Minus ₹100 cashback $= 60 - 100 =$ **₹40 loss**!",
+            "hi": "समान ₹1200 आधार पर शुद्ध अंतर `(+15 − 10)% = +5%` (`+₹60`)। `-₹100` कैशबैक घटाएं ⇒ `60 − 100 =` **₹40 की हानि**!"
+          }
+        }
+      ],
+      "en": "Method 1: Find Both SPs Minus ₹100: Total CP $= 2400$. First net SP $= 1380 - 100 = 1280$; Second SP $= 1080$.\nTotal Net Inflow $= 2360 \\implies$ **₹40 loss**.\n\nMethod 2: Net % + Direct ₹ Deviation (3 sec): Net on equal `₹1200` base $= (+15\\% - 10\\%) = +5\\%$ of `1200` $= +60$. Minus ₹100 cashback $= 60 - 100 =$ **₹40 loss**!",
+      "hi": "विधि 1: दोनों विक्रय मूल्य घटाएं: कुल CP $= 2400$। पहली से शुद्ध `1380 − 100 = 1280`, दूसरी से `1080` ⇒ कुल `2360` ⇒ **₹40 की हानि**।\n\nविधि 2: शुद्ध अंतर + कैशबैक (3 sec): समान ₹1200 आधार पर शुद्ध अंतर `(+15 − 10)% = +5%` (`+₹60`)। `-₹100` कैशबैक घटाएं ⇒ `60 − 100 =` **₹40 की हानि**!"
     }
   },
   {
@@ -1317,10 +1345,51 @@
     "correctIndexHi": 2,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Price and Consumption",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (4.55%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (4.55%) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**4.55%**).",
+      "keyConcept": "Expenditure = Price × Consumption (100 -> 110 price vs 105 target exp)",
+      "optionTrick": {
+        "en": "Cut consumption from `110` down to `105` -> $\\frac{5}{110} = \\frac{1}{22} = 4.\\overline{54}\\% \\approx \\mathbf{4.55\\%}$!",
+        "hi": "कीमत $100 \\to 110$, पर खर्च केवल 105 रखना है $\\Rightarrow$ कमी $= \\frac{5}{110} = \\frac{1}{22} = \\mathbf{4.55\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Price-Consumption Rule",
+            "hi": "विधि 1: Base-100 मूल्य-खपत नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Let old price $= 100$, consumption $= 100 \\Rightarrow$ Expenditure $= 100$.\n2) At $+10\\%$ price (110), target expenditure $= 105$.\n3) Required cut $= \\frac{110 - 105}{110} \\times 100 = \\frac{50}{11}\\% = 4.545\\% \\approx \\mathbf{4.55\\%}$.",
+            "hi": "1) मानें प्रारंभिक खर्च $= 100$। कीमत $+10\\%$ से 110 हुई, किंतु बजट 105 ही रखना है।\n2) खपत में कमी $= \\frac{110 - 105}{110} \\times 100 = \\frac{50}{11}\\% = 4.545\\% \\approx \\mathbf{4.55\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: AB Shortcut (x−y)/(100+x) (6 sec)",
+            "hi": "विधि 2: सीधा (x−y)/(100+x) शॉर्टकट"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "6 sec",
+          "tone": "emerald",
+          "formula": "$\\text{Cut}\\% = \\frac{10 - 5}{100 + 10} \\times 100 = \\frac{1}{22} \\times 100$",
+          "steps": {
+            "en": "$\\frac{10 - 5}{110} \\times 100 = \\frac{1}{22} \\times 100 = 4.\\overline{54}\\% \\approx \\mathbf{4.55\\%}$.",
+            "hi": "याद रखें $\\frac{1}{11} = 9.09\\%$, अतः इसका आधा $\\frac{1}{22} = \\mathbf{4.55\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Price-Consumption Rule: 1) Let old price $= 100$, consumption $= 100 \\Rightarrow$ Expenditure $= 100$.\n2) At $+10\\%$ price (110), target expenditure $= 105$.\n3) Required cut $= \\frac{110 - 105}{110} \\times 100 = \\frac{50}{11}\\% = 4.545\\% \\approx \\mathbf{4.55\\%}$.\n\nMethod 2: AB Shortcut (x−y)/(100+x) (6 sec): $\\frac{10 - 5}{110} \\times 100 = \\frac{1}{22} \\times 100 = 4.\\overline{54}\\% \\approx \\mathbf{4.55\\%}$.",
+      "hi": "विधि 1: Base-100 मूल्य-खपत नियम: 1) मानें प्रारंभिक खर्च $= 100$। कीमत $+10\\%$ से 110 हुई, किंतु बजट 105 ही रखना है।\n2) खपत में कमी $= \\frac{110 - 105}{110} \\times 100 = \\frac{50}{11}\\% = 4.545\\% \\approx \\mathbf{4.55\\%}$।\n\nविधि 2: सीधा (x−y)/(100+x) शॉर्टकट: याद रखें $\\frac{1}{11} = 9.09\\%$, अतः इसका आधा $\\frac{1}{22} = \\mathbf{4.55\\%}$!"
     }
   },
   {
@@ -1487,10 +1556,50 @@
     "correctIndexHi": 2,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹13,200) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹13,200) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹13,200**).",
+      "keyConcept": "Successive +10% and −20% Multiplier (1.1 × 0.8 = 0.88)",
+      "optionTrick": {
+        "en": "Net $= +10 - 20 - 2 = -12\\% \\Rightarrow 15,000 - 1,800 = \\mathbf{Rs.13,200}$!",
+        "hi": "निवल बदलाव $= +10 - 20 - 2 = -12\\%$! ₹15,000 का 12% (₹1,800) घटाएँ $\\Rightarrow \\mathbf{Rs.13,200}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Year-by-Year Salary Step",
+            "hi": "विधि 1: वर्ष-दर-वर्ष गणना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Year 1 ($+10\\%$): $15,000 \\times 1.10 = Rs.16,500$.\n2) Year 2 ($-20\\%$): $16,500 \\times 0.80 = \\mathbf{Rs.13,200}$.",
+            "hi": "1) पहले वर्ष के अंत में ($+10\\%$): $15,000 + 1,500 = Rs.16,500$।\n2) दूसरे वर्ष के अंत में ($-20\\%$): $16,500 - 3,300 = \\mathbf{Rs.13,200}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Net −12% Mental Drop (5 sec)",
+            "hi": "विधि 2: निवल −12% मानसिक ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$10 - 20 - 2 = -12\\%$. Notice $12\\%$ of $15,000 = 150 \\times 12 = 1,800$. So $15,000 - 1,800 = \\mathbf{Rs.13,200}$.",
+            "hi": "सीधे 15,000 में से $12\\%$ (1,800) घटा दें $\\Rightarrow \\mathbf{Rs.13,200}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Year-by-Year Salary Step: 1) Year 1 ($+10\\%$): $15,000 \\times 1.10 = Rs.16,500$.\n2) Year 2 ($-20\\%$): $16,500 \\times 0.80 = \\mathbf{Rs.13,200}$.\n\nMethod 2: Net −12% Mental Drop (5 sec): $10 - 20 - 2 = -12\\%$. Notice $12\\%$ of $15,000 = 150 \\times 12 = 1,800$. So $15,000 - 1,800 = \\mathbf{Rs.13,200}$.",
+      "hi": "विधि 1: वर्ष-दर-वर्ष गणना: 1) पहले वर्ष के अंत में ($+10\\%$): $15,000 + 1,500 = Rs.16,500$।\n2) दूसरे वर्ष के अंत में ($-20\\%$): $16,500 - 3,300 = \\mathbf{Rs.13,200}$।\n\nविधि 2: निवल −12% मानसिक ट्रिक: सीधे 15,000 में से $12\\%$ (1,800) घटा दें $\\Rightarrow \\mathbf{Rs.13,200}$।"
     }
   },
   {

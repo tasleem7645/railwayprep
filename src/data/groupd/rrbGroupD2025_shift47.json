@@ -1183,10 +1183,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (17%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (17%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**17%**).",
+      "keyConcept": "Weighted Mean Balance Property (No Calculation Needed!)",
+      "optionTrick": {
+        "en": "Overall literacy = `17%` AND Male literacy = `17%` -> Female literacy MUST also equal **17%** (Zero Pen)!",
+        "hi": "समग्र साक्षरता = `17%` और पुरुष साक्षरता भी = `17%` है, अतः महिलाओं की साक्षरता निश्चित ही **17%** होगी — बिना पेन!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Headcount Calculation",
+            "hi": "विधि 1: बेसिक जनसंख्या गणना"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "25 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Females $= 3,54,000 - 2,30,000 = 1,24,000$.\n2) Total literate $= 17\\%$ of $3,54,000 = 60,180$; Male literate $= 17\\%$ of $2,30,000 = 39,100$.\n3) Female literate $= 60,180 - 39,100 = 21,080 \\Rightarrow \\frac{21{,}080}{1{,}24{,}000} \\times 100 = \\mathbf{17\\%}$.",
+            "hi": "1) महिलाएँ $= 3,54,000 - 2,30,000 = 1,24,000$।\n2) कुल साक्षर $= 60,180$, पुरुष साक्षर $= 39,100 \\Rightarrow$ महिला साक्षर $= 21,080$।\n3) $\\frac{21{,}080}{1{,}24{,}000} \\times 100 = \\mathbf{17\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Pen Balance Property (2 sec)",
+            "hi": "विधि 2: बिना पेन संतुलन नियम"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "If Total average ($17\\%$) equals one subgroup ($17\\%$), the remaining subgroup MUST ALSO be $\\mathbf{17\\%}$ regardless of headcounts `3,54,000` & `2,30,000`!",
+            "hi": "यदि कुल औसत ($17\\%$) और एक वर्ग ($17\\%$) बराबर हों, तो दूसरा वर्ग (महिलाएँ) भी अवश्य **17%** होगा — `3,54,000` की गणना की कोई आवश्यकता नहीं!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Headcount Calculation: 1) Females $= 3,54,000 - 2,30,000 = 1,24,000$.\n2) Total literate $= 17\\%$ of $3,54,000 = 60,180$; Male literate $= 17\\%$ of $2,30,000 = 39,100$.\n3) Female literate $= 60,180 - 39,100 = 21,080 \\Rightarrow \\frac{21{,}080}{1{,}24{,}000} \\times 100 = \\mathbf{17\\%}$.\n\nMethod 2: Zero-Pen Balance Property (2 sec): If Total average ($17\\%$) equals one subgroup ($17\\%$), the remaining subgroup MUST ALSO be $\\mathbf{17\\%}$ regardless of headcounts `3,54,000` & `2,30,000`!",
+      "hi": "विधि 1: बेसिक जनसंख्या गणना: 1) महिलाएँ $= 3,54,000 - 2,30,000 = 1,24,000$।\n2) कुल साक्षर $= 60,180$, पुरुष साक्षर $= 39,100 \\Rightarrow$ महिला साक्षर $= 21,080$।\n3) $\\frac{21{,}080}{1{,}24{,}000} \\times 100 = \\mathbf{17\\%}$।\n\nविधि 2: बिना पेन संतुलन नियम: यदि कुल औसत ($17\\%$) और एक वर्ग ($17\\%$) बराबर हों, तो दूसरा वर्ग (महिलाएँ) भी अवश्य **17%** होगा — `3,54,000` की गणना की कोई आवश्यकता नहीं!"
     }
   },
   {
@@ -1319,10 +1359,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Population Based Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (2.1%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (2.1%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**2.1%**).",
+      "keyConcept": "1% of 60,000 = 600; check multiple of 600",
+      "optionTrick": {
+        "en": "$1\\% = 600 \\Rightarrow 1{,}260 = 2\\times 600 + 0.1\\times 600 = \\mathbf{2.1\\%}$!",
+        "hi": "60,000 का $1\\% = 600$, तो $1,260 \\div 600 = \\mathbf{2.1\\%}$ सीधे हल!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic % Increase Formula",
+            "hi": "विधि 1: बेसिक प्रतिशत वृद्धि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Increase $= 61,260 - 60,000 = 1,260$.\n2) $\\%$ Increase $= \\frac{1{,}260}{60{,}000} \\times 100 = \\frac{126}{60} = \\mathbf{2.1\\%}$.",
+            "hi": "1) वृद्धि $= 61,260 - 60,000 = 1,260$।\n2) प्रतिशत वृद्धि $= \\frac{1{,}260}{60{,}000} \\times 100 = \\mathbf{2.1\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Divide Increase by 600 (4 sec)",
+            "hi": "विधि 2: 600 से सीधा भाग ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$1,260 \\div 600 = 2.1 \\Rightarrow \\mathbf{2.1\\%}$.",
+            "hi": "$1\\% = 600$ मानकर $1,260 \\div 600 = \\mathbf{2.1\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic % Increase Formula: 1) Increase $= 61,260 - 60,000 = 1,260$.\n2) $\\%$ Increase $= \\frac{1{,}260}{60{,}000} \\times 100 = \\frac{126}{60} = \\mathbf{2.1\\%}$.\n\nMethod 2: Divide Increase by 600 (4 sec): $1,260 \\div 600 = 2.1 \\Rightarrow \\mathbf{2.1\\%}$.",
+      "hi": "विधि 1: बेसिक प्रतिशत वृद्धि: 1) वृद्धि $= 61,260 - 60,000 = 1,260$।\n2) प्रतिशत वृद्धि $= \\frac{1{,}260}{60{,}000} \\times 100 = \\mathbf{2.1\\%}$।\n\nविधि 2: 600 से सीधा भाग ट्रिक: $1\\% = 600$ मानकर $1,260 \\div 600 = \\mathbf{2.1\\%}$।"
     }
   },
   {

@@ -1485,10 +1485,38 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Two Variables (Simultaneous)",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (560, 480) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (560, 480) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**560, 480**).",
+      "keyConcept": "96% of Bigger = 112% of Smaller ⇒ Direct Inverse Ratio B : S = 112 : 96 = 7 : 6",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio from Equality",
+            "hi": "विधि 1: समानता से अनुपात निकालें"
+          },
+          "timeTag": "20 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$96\\% B = 112\\% S \\implies \\frac{B}{S} = \\frac{112}{96} = \\frac{7}{6}$.\n`13` units $= 1040 \\;(\\times 80) \\implies B = \\mathbf{560}, S = \\mathbf{480}$.",
+            "hi": "$96\\% B = 112\\% S \\implies B : S = 112 : 96 = 7 : 6$।\n`13` इकाई $= 1040 \\;(\\times 80) \\implies \\mathbf{560, 480}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Option Multiple Check of 7 : 6 (4 sec)",
+            "hi": "विधि 2: 7 : 6 अनुपात विकल्प जाँच (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Notice $96 = 16 \\times 6$ and $112 = 16 \\times 7 implies B : S = 7 : 6$. Only **(560, 480)** has ratio `7 : 6` & sum 1040!",
+            "hi": "$B : S = 7 : 6$ तुरंत पहचानें। विकल्पों में केवल **(560, 480)** ही `7 : 6` व योग 1040 पर सटीक बैठता है!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio from Equality: $96\\% B = 112\\% S \\implies \\frac{B}{S} = \\frac{112}{96} = \\frac{7}{6}$.\n`13` units $= 1040 \\;(\\times 80) \\implies B = \\mathbf{560}, S = \\mathbf{480}$.\n\nMethod 2: Option Multiple Check of 7 : 6 (4 sec): Notice $96 = 16 \\times 6$ and $112 = 16 \\times 7 implies B : S = 7 : 6$. Only **(560, 480)** has ratio `7 : 6` & sum 1040!",
+      "hi": "विधि 1: समानता से अनुपात निकालें: $96\\% B = 112\\% S \\implies B : S = 112 : 96 = 7 : 6$।\n`13` इकाई $= 1040 \\;(\\times 80) \\implies \\mathbf{560, 480}$।\n\nविधि 2: 7 : 6 अनुपात विकल्प जाँच (4 sec): $B : S = 7 : 6$ तुरंत पहचानें। विकल्पों में केवल **(560, 480)** ही `7 : 6` व योग 1040 पर सटीक बैठता है!"
     }
   },
   {

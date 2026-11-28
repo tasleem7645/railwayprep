@@ -1183,10 +1183,51 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (50) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (50) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**50**).",
+      "keyConcept": "Alligation Method: Income % change is the Weighted Mean of Exp % and Savings %",
+      "optionTrick": {
+        "en": "`30%` Income growth sits EXACTLY midway between `20%` Exp and `40%` Savings -> Ratio `E:S = 1:1` -> **50%**!",
+        "hi": "`30%` आय वृद्धि ठीक `20%` (व्यय) और `40%` (बचत) के मध्य में है $\\Rightarrow E:S = 1:1 \\Rightarrow \\mathbf{50\\%}$!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equation on Base-100",
+            "hi": "विधि 1: Base-100 समीकरण विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Let Income $= 100 \\Rightarrow$ Savings $= y$, Exp $= 100 - y$.\n2) Total $\\Delta I = 30 = 0.20(100 - y) + 0.40y = 20 + 0.20y$.\n3) $0.20y = 10 \\Rightarrow y = \\mathbf{50}$.",
+            "hi": "1) मानें आय $= 100 \\Rightarrow$ बचत $= y$, व्यय $= 100 - y$।\n2) कुल वृद्धि: $30 = (100 - y)\\times 20\\% + y \\times 40\\% = 20 + 0.2y$।\n3) $0.2y = 10 \\Rightarrow y = \\mathbf{50}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Alligation Cross (5 sec)",
+            "hi": "विधि 2: एलीगेशन क्रॉस ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$E : S = (40 - 30) : (30 - 20) = 1 : 1$",
+          "steps": {
+            "en": "Put Exp $+20\\%$ and Sav $+40\\%$ with Mean Income $+30\\%$ in centre:\nRatio $E : S = (40-30) : (30-20) = 10 : 10 = 1 : 1 \\Rightarrow$ Savings share $= \\frac{1}{1+1} \\times 100 = \\mathbf{50\\%}$.",
+            "hi": "व्यय $+20\\%$ और बचत $+40\\%$ का औसत $+30\\%$ बीच में है:\nअतः $E : S = (40-30):(30-20) = 1:1 \\Rightarrow y = \\frac{1}{2}\\times 100 = \\mathbf{50}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Equation on Base-100: 1) Let Income $= 100 \\Rightarrow$ Savings $= y$, Exp $= 100 - y$.\n2) Total $\\Delta I = 30 = 0.20(100 - y) + 0.40y = 20 + 0.20y$.\n3) $0.20y = 10 \\Rightarrow y = \\mathbf{50}$.\n\nMethod 2: Alligation Cross (5 sec): Put Exp $+20\\%$ and Sav $+40\\%$ with Mean Income $+30\\%$ in centre:\nRatio $E : S = (40-30) : (30-20) = 10 : 10 = 1 : 1 \\Rightarrow$ Savings share $= \\frac{1}{1+1} \\times 100 = \\mathbf{50\\%}$.",
+      "hi": "विधि 1: Base-100 समीकरण विधि: 1) मानें आय $= 100 \\Rightarrow$ बचत $= y$, व्यय $= 100 - y$।\n2) कुल वृद्धि: $30 = (100 - y)\\times 20\\% + y \\times 40\\% = 20 + 0.2y$।\n3) $0.2y = 10 \\Rightarrow y = \\mathbf{50}$।\n\nविधि 2: एलीगेशन क्रॉस ट्रिक: व्यय $+20\\%$ और बचत $+40\\%$ का औसत $+30\\%$ बीच में है:\nअतः $E : S = (40-30):(30-20) = 1:1 \\Rightarrow y = \\frac{1}{2}\\times 100 = \\mathbf{50}$।"
     }
   },
   {
@@ -1217,10 +1258,56 @@
     "correctIndexHi": 0,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (100%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (100%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**100%**).",
+      "keyConcept": "Base-100 Deviation (₹50,400 is completely unnecessary for % savings change!)",
+      "optionTrick": {
+        "en": "Ignore ₹50,400! Assume Income = `100` -> Savings = `7.5`, Expenditure = `92.5`. Income increases +26 while Exp increases +18.5 -> extra +7.5 goes directly to Savings `7.5` = `100%`!",
+        "hi": "प्रश्न में प्रतिशत पूछा है, अतः ₹50,400 की आवश्यकता ही नहीं है! `आय = 100` मानकर सीधा अंतर $26 - 18.5 = 7.5$ बचत `7.5` का **100%** है!"
+      },
+      "trapAlert": {
+        "en": "Do NOT multiply out ₹50,400 in % questions — using Base 100 avoids 5-digit decimals completely.",
+        "hi": "प्रतिशत परिवर्तन पूछने पर वास्तविक रुपये (`₹50,400`) से गुणा करना समय की बर्बादी है — Base `100` मानें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Base-100 Assumption (Skip ₹50,400)",
+            "hi": "विधि 1: Base-100 विधि (बिना ₹50,400 के)"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "22 sec",
+          "tone": "teal",
+          "formula": "$\\% \\Delta S = \\frac{\\Delta S}{S_{\\text{old}}} \\times 100$",
+          "steps": {
+            "en": "1) Assume Income $= 100 \\Rightarrow$ Savings $= 7.5$, Expenditure $= 92.5$.\n2) $\\Delta I = +26$, $\\Delta E = 20\\%$ of $92.5 = +18.5$.\n3) $\\Delta S = 26 - 18.5 = 7.5$ on base $7.5 \\Rightarrow \\mathbf{100\\%}$.",
+            "hi": "1) मानें आय $= 100 \\Rightarrow$ बचत $= 7.5$ तथा व्यय $= 92.5$ (₹50,400 आवश्यक नहीं; वास्तविक $\\Delta S = Rs.3,780$ तथा $S = Rs.3,780$)।\n2) $\\Delta \\text{आय} = +26$ तथा $\\Delta \\text{व्यय} = 92.5 \\times 20\\% = +18.5$।\n3) बचत में वृद्धि $= 7.5$ जो 7.5 का **100%** है।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Deviation / Weighted Shift (8 sec)",
+            "hi": "विधि 2: विचलन / एलीगेशन ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "8 sec",
+          "tone": "emerald",
+          "formula": "$x = q\\% + \\frac{(p - q)\\% \\times 100}{s\\%}$",
+          "steps": {
+            "en": "If Savings also grew $+20\\%$, Income would grow $+20\\%$. Actual excess growth $= +6\\%$ on entire $100\\%$ income falls entirely on $s = 7.5\\%$ savings:\n$$\\%\\Delta S = 20\\% + \\frac{6 \\times 100}{7.5}\\% = 20\\% + 80\\% = \\mathbf{100\\%}.$$",
+            "hi": "आय वृद्धि ($+26\\%$), व्यय वृद्धि ($+20\\%$) से $+6\\%$ अधिक है; यह पूरा अतिरिक्त भार $7.5\\%$ बचत उठाती है:\n$$\\%\\Delta S = 20\\% + \\frac{6 \\times 100}{7.5}\\% = \\mathbf{100\\%}.$$"
+          }
+        }
+      ],
+      "en": "Method 1: Base-100 Assumption (Skip ₹50,400): 1) Assume Income $= 100 \\Rightarrow$ Savings $= 7.5$, Expenditure $= 92.5$.\n2) $\\Delta I = +26$, $\\Delta E = 20\\%$ of $92.5 = +18.5$.\n3) $\\Delta S = 26 - 18.5 = 7.5$ on base $7.5 \\Rightarrow \\mathbf{100\\%}$.\n\nMethod 2: Deviation / Weighted Shift (8 sec): If Savings also grew $+20\\%$, Income would grow $+20\\%$. Actual excess growth $= +6\\%$ on entire $100\\%$ income falls entirely on $s = 7.5\\%$ savings:\n$$\\%\\Delta S = 20\\% + \\frac{6 \\times 100}{7.5}\\% = 20\\% + 80\\% = \\mathbf{100\\%}.$$",
+      "hi": "विधि 1: Base-100 विधि (बिना ₹50,400 के): 1) मानें आय $= 100 \\Rightarrow$ बचत $= 7.5$ तथा व्यय $= 92.5$ (₹50,400 आवश्यक नहीं; वास्तविक $\\Delta S = Rs.3,780$ तथा $S = Rs.3,780$)।\n2) $\\Delta \\text{आय} = +26$ तथा $\\Delta \\text{व्यय} = 92.5 \\times 20\\% = +18.5$।\n3) बचत में वृद्धि $= 7.5$ जो 7.5 का **100%** है।\n\nविधि 2: विचलन / एलीगेशन ट्रिक: आय वृद्धि ($+26\\%$), व्यय वृद्धि ($+20\\%$) से $+6\\%$ अधिक है; यह पूरा अतिरिक्त भार $7.5\\%$ बचत उठाती है:\n$$\\%\\Delta S = 20\\% + \\frac{6 \\times 100}{7.5}\\% = \\mathbf{100\\%}.$$"
     }
   },
   {
@@ -1625,10 +1712,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Index Simplification",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (3a²b²) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (3a²b²) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option B (3a²b²). Note: PDF OCR merged DI text with Algebraic Simplification options.",
+      "keyConcept": "Algebraic Term & Exponent Simplification + Official RRB Key",
+      "trapAlert": {
+        "en": "PDF OCR Overlap Notice: The stem text merged part of an adjacent table question with algebraic simplification options (`3a²b²`). Official Answer Key confirms Option B (`3a²b²`).",
+        "hi": "स्रोत OCR सूचना: PDF निष्कर्षण में पास के सारणी प्रश्न का पाठ बीजीय सरलीकरण विकल्पों (`3a²b²`) के साथ मिश्रित हो गया है। आधिकारिक कुंजी में विकल्प B (`3a²b²`) प्रमाणित है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Monomial Multiplication & Powers Law",
+            "hi": "विधि 1: एकपदी घातांक सरलीकरण नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "formula": "$a^m \\cdot a^n = a^{m+n},\\; (a^m \\div a^n) = a^{m-n}$",
+          "steps": {
+            "en": "Combine numerical coefficients separately and add/subtract powers of identical bases (a, b) to reach simplified monomial terms (`3a²b²`, Option B per official RRB answer key).",
+            "hi": "संख्यात्मक गुणांकों को अलग तथा समान आधार (a, b) की घातों को जोड़कर/घटाकर सरल करते हैं। आधिकारिक कुंजी के अनुसार सही उत्तर: **विकल्प B (3a²b²)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Degree-Count Verification Check",
+            "hi": "विधि 2: घात-डिग्री मिलान जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Compare total exponent powers of `a` and `b` directly against options (`a²b`, `a²b²`, `ab`, `ab²`) rather than expanding full expressions. Verified Key: **Option B (3a²b²)**.",
+            "hi": "पूरा व्यंजक फैलाने के स्थान पर विकल्पों में `a` और `b` की कुल घात (degree) मिलान करें। प्रमाणित उत्तर: **3a²b²**।"
+          }
+        }
+      ],
+      "en": "Method 1: Monomial Multiplication & Powers Law: Combine numerical coefficients separately and add/subtract powers of identical bases (a, b) to reach simplified monomial terms (`3a²b²`, Option B per official RRB answer key).\n\nMethod 2: Degree-Count Verification Check: Compare total exponent powers of `a` and `b` directly against options (`a²b`, `a²b²`, `ab`, `ab²`) rather than expanding full expressions. Verified Key: **Option B (3a²b²)**.",
+      "hi": "विधि 1: एकपदी घातांक सरलीकरण नियम: संख्यात्मक गुणांकों को अलग तथा समान आधार (a, b) की घातों को जोड़कर/घटाकर सरल करते हैं। आधिकारिक कुंजी के अनुसार सही उत्तर: **विकल्प B (3a²b²)**।\n\nविधि 2: घात-डिग्री मिलान जाँच: पूरा व्यंजक फैलाने के स्थान पर विकल्पों में `a` और `b` की कुल घात (degree) मिलान करें। प्रमाणित उत्तर: **3a²b²**।"
     }
   },
   {

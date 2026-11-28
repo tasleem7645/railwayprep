@@ -1081,10 +1081,50 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Finding Value from Percentage",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (₹20,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹20,000) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**₹20,000**).",
+      "keyConcept": "70% Spent => 30% Savings = Given Value",
+      "optionTrick": {
+        "en": "`30% = ₹6,000` -> `10% = ₹2,000` -> `100%` = **₹20,000**!",
+        "hi": "`30% = ₹6,000` $\\Rightarrow$ `10% = ₹2,000` $\\Rightarrow$ `100%` = **₹20,000**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Equation",
+            "hi": "विधि 1: बेसिक समीकरण"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Savings $\\% = 100\\% - 70\\% = 30\\%$.\n2) $30\\%$ of Income $= Rs.6,000 \\Rightarrow$ Income $= \\frac{6{,}000 \\times 100}{30} = \\mathbf{Rs.20,000}$.",
+            "hi": "1) बचत प्रतिशत $= 100\\% - 70\\% = 30\\%$।\n2) आय $= \\frac{6{,}000 \\times 100}{30} = \\mathbf{Rs.20,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Divide by 3 Mental Trick (3 sec)",
+            "hi": "विधि 2: 10% आधार मानसिक विधि"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$30\\% = 6,000 \\xrightarrow{\\div 3} 10\\% = 2,000 \\xrightarrow{\\times 10} 100\\% = \\mathbf{Rs.20,000}$.",
+            "hi": "$30\\% = 6,000 \\Rightarrow 10\\% = 2,000 \\Rightarrow 100\\% = \\mathbf{Rs.20,000}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Equation: 1) Savings $\\% = 100\\% - 70\\% = 30\\%$.\n2) $30\\%$ of Income $= Rs.6,000 \\Rightarrow$ Income $= \\frac{6{,}000 \\times 100}{30} = \\mathbf{Rs.20,000}$.\n\nMethod 2: Divide by 3 Mental Trick (3 sec): $30\\% = 6,000 \\xrightarrow{\\div 3} 10\\% = 2,000 \\xrightarrow{\\times 10} 100\\% = \\mathbf{Rs.20,000}$.",
+      "hi": "विधि 1: बेसिक समीकरण: 1) बचत प्रतिशत $= 100\\% - 70\\% = 30\\%$।\n2) आय $= \\frac{6{,}000 \\times 100}{30} = \\mathbf{Rs.20,000}$।\n\nविधि 2: 10% आधार मानसिक विधि: $30\\% = 6,000 \\Rightarrow 10\\% = 2,000 \\Rightarrow 100\\% = \\mathbf{Rs.20,000}$।"
     }
   },
   {

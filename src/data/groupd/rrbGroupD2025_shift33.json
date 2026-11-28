@@ -1285,10 +1285,38 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (6%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (6%) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**6%**).",
+      "keyConcept": "\"100% more than S\" Means Ratio E : S = 2 : 1 (NOT 1 : 1!)",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Ratio 200 : 100 → Total 300",
+            "hi": "विधि 1: 200 : 100 मानकर हल करें"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Let $S=100 \\implies E=200, I=300$.\n$\\Delta E = -4, \\Delta S = +22 \\implies \\Delta I = +18$.\n$%\\Delta I = \\frac{18}{300} \\times 100 = \\mathbf{6\\%}$.",
+            "hi": "माना $S=100 \\implies E=200, I=300$।\n$\\Delta I = -4 + 22 = +18 \\implies \\frac{18}{300} \\times 100 = \\mathbf{6\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Weighted Deviation E:S = 2:1 (3 sec)",
+            "hi": "विधि 2: अनुपात 2 : 1 भारित ट्रिक (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$E : S = 2 : 1 \\implies \\Delta I = \\frac{2(-2\\%) + 1(+22\\%)}{2 + 1} = \\frac{18\\%}{3} = \\mathbf{6\\%}$!",
+            "hi": "$E : S = 2 : 1 \\implies \\Delta I = \\frac{2(-2) + 1(+22)}{3} = \\frac{18}{3} = \\mathbf{6\\%}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Ratio 200 : 100 → Total 300: Let $S=100 \\implies E=200, I=300$.\n$\\Delta E = -4, \\Delta S = +22 \\implies \\Delta I = +18$.\n$%\\Delta I = \\frac{18}{300} \\times 100 = \\mathbf{6\\%}$.\n\nMethod 2: Weighted Deviation E:S = 2:1 (3 sec): $E : S = 2 : 1 \\implies \\Delta I = \\frac{2(-2\\%) + 1(+22\\%)}{2 + 1} = \\frac{18\\%}{3} = \\mathbf{6\\%}$!",
+      "hi": "विधि 1: 200 : 100 मानकर हल करें: माना $S=100 \\implies E=200, I=300$।\n$\\Delta I = -4 + 22 = +18 \\implies \\frac{18}{300} \\times 100 = \\mathbf{6\\%}$।\n\nविधि 2: अनुपात 2 : 1 भारित ट्रिक (3 sec): $E : S = 2 : 1 \\implies \\Delta I = \\frac{2(-2) + 1(+22)}{3} = \\frac{18}{3} = \\mathbf{6\\%}$!"
     }
   },
   {

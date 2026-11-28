@@ -945,10 +945,38 @@
     "correctIndexHi": 0,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Annual Compounding",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (861) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (861) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**861**).",
+      "keyConcept": "Shorter Horizon (Shan 13 yrs vs Piyush 14 yrs) Gets BIGGER Ratio `21 : 20` (`5% = 1/20`)!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Equate A₁₃ and A₁₄",
+            "hi": "विधि 1: 13 व 14 वर्ष का मिश्रधन बराबर करें"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$S(1.05)^{13} = P(1.05)^{14} \\implies \\frac{S}{P} = \\frac{21}{20}$.\nShan $= 1681 \\times \\frac{21}{41} = 41 \\times 21 =$ **861**.",
+            "hi": "$S : P = 21 : 20$ (`41 = 1681 ⇒ 41²`) ⇒ शान $= 41 \\times 21 =$ **861**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: 41² = 1681 Instant Split (3 sec)",
+            "hi": "विधि 2: वर्ग 41² = 1681 पहचान (3 sec)"
+          },
+          "timeTag": "3 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "`5% = 1/20` ⇒ `20 + 21 = 41 units = 1681` (`41²`). Shan has fewer yrs (`13`), gets `21 × 41 =` **861**!",
+            "hi": "`20 + 21 = 41 = 41²`। शान का समय कम (`13`), अतः बड़ा हिस्सा `21 × 41 =` **861**!"
+          }
+        }
+      ],
+      "en": "Method 1: Equate A₁₃ and A₁₄: $S(1.05)^{13} = P(1.05)^{14} \\implies \\frac{S}{P} = \\frac{21}{20}$.\nShan $= 1681 \\times \\frac{21}{41} = 41 \\times 21 =$ **861**.\n\nMethod 2: 41² = 1681 Instant Split (3 sec): `5% = 1/20` ⇒ `20 + 21 = 41 units = 1681` (`41²`). Shan has fewer yrs (`13`), gets `21 × 41 =` **861**!",
+      "hi": "विधि 1: 13 व 14 वर्ष का मिश्रधन बराबर करें: $S : P = 21 : 20$ (`41 = 1681 ⇒ 41²`) ⇒ शान $= 41 \\times 21 =$ **861**।\n\nविधि 2: वर्ग 41² = 1681 पहचान (3 sec): `20 + 21 = 41 = 41²`। शान का समय कम (`13`), अतः बड़ा हिस्सा `21 × 41 =` **861**!"
     }
   },
   {
@@ -1217,10 +1245,50 @@
     "correctIndexHi": 0,
     "officialHiIndex": 0,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option A is verified.",
-      "keyConcept": "Mathematics • Population Based Problems",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option A (10%) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प A (10%) सही उत्तर है।"
+      "approach": "Official Answer: Option A (**10%**).",
+      "keyConcept": "Percentage Decrease = (Drop / Initial) × 100",
+      "optionTrick": {
+        "en": "`8,000` is exact `10%` of `80,000` -> **10%** (Zero Pen)!",
+        "hi": "`8,000` सीधे `80,000` का **10%** है — बिना पेन 2 सेकंड!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Decrease Formula",
+            "hi": "विधि 1: बेसिक कमी प्रतिशत"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) Decrease $= 80,000 - 72,000 = 8,000$.\n2) $\\%$ Decrease $= \\frac{8{,}000}{80{,}000} \\times 100 = \\mathbf{10\\%}$.",
+            "hi": "1) कमी $= 80,000 - 72,000 = 8,000$।\n2) प्रतिशत कमी $= \\frac{8{,}000}{80{,}000} \\times 100 = \\mathbf{10\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Simplified Ratio 10 : 9",
+            "hi": "विधि 2: सरल अनुपात 10 : 9"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$80 : 72 = 10 : 9 \\Rightarrow$ reduction of 1 on $10 = \\mathbf{10\\%}$.",
+            "hi": "$80 : 72 = 10 : 9 \\Rightarrow 10$ पर 1 की कमी $= \\mathbf{10\\%}$।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Decrease Formula: 1) Decrease $= 80,000 - 72,000 = 8,000$.\n2) $\\%$ Decrease $= \\frac{8{,}000}{80{,}000} \\times 100 = \\mathbf{10\\%}$.\n\nMethod 2: Simplified Ratio 10 : 9: $80 : 72 = 10 : 9 \\Rightarrow$ reduction of 1 on $10 = \\mathbf{10\\%}$.",
+      "hi": "विधि 1: बेसिक कमी प्रतिशत: 1) कमी $= 80,000 - 72,000 = 8,000$।\n2) प्रतिशत कमी $= \\frac{8{,}000}{80{,}000} \\times 100 = \\mathbf{10\\%}$।\n\nविधि 2: सरल अनुपात 10 : 9: $80 : 72 = 10 : 9 \\Rightarrow 10$ पर 1 की कमी $= \\mathbf{10\\%}$।"
     }
   },
   {

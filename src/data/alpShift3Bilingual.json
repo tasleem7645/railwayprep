@@ -25,10 +25,42 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (03 Nov 2026 Shift 3)",
-      "en": "Correct Answer: Option B (35%). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (35%)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**35%**).",
+      "keyConcept": "Dummy Lot Count (`57 dozen`) Cancels Completely — Work on Single Item!",
+      "optionTrick": {
+        "en": "Ignore `57`! Single item CP $= 720 \\div 12 = 60$, SP $= 81 \\implies$ Profit $= 21/60 = 7/20 = 35\\%$.",
+        "hi": "`57` का प्रयोग ही न करें! 1 वस्तु की लागत $= 720 \\div 12 = 60$, बिक्री `81` ⇒ लाभ $= 21/60 =$ **35%**!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Per-Article CP & SP",
+            "hi": "विधि 1: प्रति वस्तु क्रय व विक्रय मूल्य"
+          },
+          "timeTag": "10 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "CP of `1` $= 720 / 12 = 60$. SP of `1` $= 81$.\n$\\%P = \\frac{81 - 60}{60} \\times 100 = \\frac{21}{60} \\times 100 = \\mathbf{35\\%}$.",
+            "hi": "1 वस्तु का CP $= 720 \\div 12 = 60$, SP $= 81$।\nलाभ\\% $= \\frac{21}{60} \\times 100 = \\mathbf{35\\%}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Base 20 Conversion (2 sec)",
+            "hi": "विधि 2: अनुपात 20 आधार ट्रिक (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Ratio CP : SP $= 60 : 81$. Divide both by `3` $\\implies 20 : 27 \\implies +7/20 = +35\\%$!",
+            "hi": "CP : SP $= 60 : 81$। 3 से भाग दें ⇒ `20 : 27` (`+7` प्रति `20`) ⇒ `7 × 5` = **35%**!"
+          }
+        }
+      ],
+      "en": "Method 1: Per-Article CP & SP: CP of `1` $= 720 / 12 = 60$. SP of `1` $= 81$.\n$\\%P = \\frac{81 - 60}{60} \\times 100 = \\frac{21}{60} \\times 100 = \\mathbf{35\\%}$.\n\nMethod 2: Base 20 Conversion (2 sec): Ratio CP : SP $= 60 : 81$. Divide both by `3` $\\implies 20 : 27 \\implies +7/20 = +35\\%$!",
+      "hi": "विधि 1: प्रति वस्तु क्रय व विक्रय मूल्य: 1 वस्तु का CP $= 720 \\div 12 = 60$, SP $= 81$।\nलाभ\\% $= \\frac{21}{60} \\times 100 = \\mathbf{35\\%}$।\n\nविधि 2: अनुपात 20 आधार ट्रिक (2 sec): CP : SP $= 60 : 81$। 3 से भाग दें ⇒ `20 : 27` (`+7` प्रति `20`) ⇒ `7 × 5` = **35%**!"
     },
     "correctIndexHi": 1
   },

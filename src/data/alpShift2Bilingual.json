@@ -553,10 +553,52 @@
     },
     "correctIndex": 3,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2026: Option D is the verified correct answer.",
-      "keyConcept": "Mathematics (03 Nov 2026 Shift 2)",
-      "en": "Correct Answer: Option D (7,000). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प D (7,000)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option D (**7,000**).",
+      "keyConcept": "Savings % = 100% − Spend % = 28%",
+      "optionTrick": {
+        "en": "$28\\%$ of $25,000 = 250\\%$ of $28\\times 100 = \\frac{1}{4} \\times 28{,}000 = \\mathbf{7{,}000}$!",
+        "hi": "$25{,}000$ का $28\\% = 28{,}000$ का $25\\% = \\frac{1}{4} \\times 28{,}000 = \\mathbf{7{,}000}$ — बिना गुणा 3 सेकंड में!"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Savings Percentage",
+            "hi": "विधि 1: बेसिक बचत प्रतिशत विधि"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = (100\\% - 72\\%) \\times 25{,}000$",
+          "steps": {
+            "en": "1) Saving percentage $= 100\\% - 72\\% = 28\\%$.\n2) Monthly savings $= \\frac{28}{100} \\times 25{,}000 = 28 \\times 250 = \\mathbf{Rs.7,000}$.",
+            "hi": "1) बचत प्रतिशत $= 100\\% - 72\\% = 28\\%$।\n2) मासिक बचत $= \\frac{28}{100} \\times 25{,}000 = \\mathbf{Rs.7,000}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Swap Trick (28% of 25k = 25% of 28k)",
+            "hi": "विधि 2: प्रतिशत अदला-बदली ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "formula": "$a\\% \\text{ of } b = b\\% \\text{ of } a$",
+          "steps": {
+            "en": "Swap `28%` and `25,000`: $28\\% \\text{ of } 25{,}000 = 25\\% \\text{ of } 28{,}000 = \\frac{1}{4} \\times 28{,}000 = \\mathbf{7{,}000}$!",
+            "hi": "प्रमेय $a\\%\\text{ of }b = b\\%\\text{ of }a$ से: $25{,}000$ का $28\\% = 28{,}000$ का $25\\% = \\frac{28{,}000}{4} = \\mathbf{7{,}000}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Savings Percentage: 1) Saving percentage $= 100\\% - 72\\% = 28\\%$.\n2) Monthly savings $= \\frac{28}{100} \\times 25{,}000 = 28 \\times 250 = \\mathbf{Rs.7,000}$.\n\nMethod 2: Swap Trick (28% of 25k = 25% of 28k): Swap `28%` and `25,000`: $28\\% \\text{ of } 25{,}000 = 25\\% \\text{ of } 28{,}000 = \\frac{1}{4} \\times 28{,}000 = \\mathbf{7{,}000}$!",
+      "hi": "विधि 1: बेसिक बचत प्रतिशत विधि: 1) बचत प्रतिशत $= 100\\% - 72\\% = 28\\%$।\n2) मासिक बचत $= \\frac{28}{100} \\times 25{,}000 = \\mathbf{Rs.7,000}$।\n\nविधि 2: प्रतिशत अदला-बदली ट्रिक: प्रमेय $a\\%\\text{ of }b = b\\%\\text{ of }a$ से: $25{,}000$ का $28\\% = 28{,}000$ का $25\\% = \\frac{28{,}000}{4} = \\mathbf{7{,}000}$!"
     },
     "correctIndexHi": 3
   },

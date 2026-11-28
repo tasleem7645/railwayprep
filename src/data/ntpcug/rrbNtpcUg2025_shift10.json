@@ -1909,10 +1909,38 @@
     "correctIndex": 3,
     "correctIndexHi": 3,
     "solution": {
-      "approach": "RRB Official NTPC UG CEN 06/2024 Answer Key: Option D is verified.",
-      "keyConcept": "Quantitative Aptitude",
-      "en": "Official RRB NTPC UG CEN 06/2024 Answer Key: Option D (33.25) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) NTPC UG CEN 06/2024 आधिकारिक उत्तर कुंजी: विकल्प D (33.25) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**33.25**).",
+      "keyConcept": "Unit-5 Square Shortcut: 65² = (6 × 7) | 25 = 4225",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Multiplication",
+            "hi": "विधि 1: बेसिक गुणा-भाग"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1) $65\\% \\text{ of } 65 = \\frac{65 \\times 65}{100} = 42.25$.\n2) $\\frac{1}{5} \\times 45 = 9 \\implies 42.25 - 9 = \\mathbf{33.25}$.",
+            "hi": "1) $65 \\times 65 \\div 100 = 42.25$।\n2) $45 \\div 5 = 9 \\implies 42.25 - 9 = \\mathbf{33.25}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Ending-5 Square (4 sec)",
+            "hi": "विधि 2: अंत-5 वर्ग ट्रिक (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Instant $65^2 = (6\\times7)|25 = 42.25$; subtract `9` ⇒ **33.25** (note all decimals end in `.25`!).",
+            "hi": "तुरंत $65^2 = 42.25$, इसमें से `9` घटाएं = **33.25**!"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Multiplication: 1) $65\\% \\text{ of } 65 = \\frac{65 \\times 65}{100} = 42.25$.\n2) $\\frac{1}{5} \\times 45 = 9 \\implies 42.25 - 9 = \\mathbf{33.25}$.\n\nMethod 2: Ending-5 Square (4 sec): Instant $65^2 = (6\\times7)|25 = 42.25$; subtract `9` ⇒ **33.25** (note all decimals end in `.25`!).",
+      "hi": "विधि 1: बेसिक गुणा-भाग: 1) $65 \\times 65 \\div 100 = 42.25$।\n2) $45 \\div 5 = 9 \\implies 42.25 - 9 = \\mathbf{33.25}$।\n\nविधि 2: अंत-5 वर्ग ट्रिक (4 sec): तुरंत $65^2 = 42.25$, इसमें से `9` घटाएं = **33.25**!"
     }
   },
   {

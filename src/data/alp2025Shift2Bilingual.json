@@ -1307,10 +1307,38 @@
     },
     "correctIndex": 1,
     "solution": {
-      "approach": "Official RRB ALP Answer Key 2025: Option B is the verified correct answer.",
-      "keyConcept": "Mathematics (16 Feb 2026 Shift 1)",
-      "en": "Correct Answer: Option B (1089). Verified by official RRB ALP answer key.",
-      "hi": "सही उत्तर: विकल्प B (1089)। रेलवे भर्ती बोर्ड (RRB) की आधिकारिक उत्तर कुंजी द्वारा प्रमाणित।"
+      "approach": "Official Answer: Option B (**1089**).",
+      "keyConcept": "Master Shortcut: Principal P = a² / b where a = SI₁ (33), b = CI₂ − SI₂ (1)!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Rate Ratio a → b → P",
+            "hi": "विधि 1: 1-वर्ष ब्याज से दर व मूलधन"
+          },
+          "timeTag": "12 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "1-yr SI `a = 66/2 = 33`; 2nd yr extra `b = 67 − 66 = 1`.\nRate fraction `r = b / a = 1 / 33` ⇒ $P \\times \\frac{1}{33} = 33 \\implies P = 33^2 =$ **1089**.",
+            "hi": "`a = 33`, `b = 1` ⇒ दर भिन्न $= 1/33$ ⇒ $P \\times \\frac{1}{33} = 33 \\implies P = 33^2 =$ **1089**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Zero-Fraction Formula P = a² / b (2 sec)",
+            "hi": "विधि 2: सीधा सूत्र P = a² / b (2 sec)"
+          },
+          "timeTag": "2 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "$P = \\frac{a^2}{b} = \\frac{33^2}{1} =$ **1089** in 2 seconds!",
+            "hi": "गोल्डन सूत्र $P = \\frac{a^2}{b} = \\frac{33^2}{1} =$ **1089**!"
+          }
+        }
+      ],
+      "en": "Method 1: Rate Ratio a → b → P: 1-yr SI `a = 66/2 = 33`; 2nd yr extra `b = 67 − 66 = 1`.\nRate fraction `r = b / a = 1 / 33` ⇒ $P \\times \\frac{1}{33} = 33 \\implies P = 33^2 =$ **1089**.\n\nMethod 2: Zero-Fraction Formula P = a² / b (2 sec): $P = \\frac{a^2}{b} = \\frac{33^2}{1} =$ **1089** in 2 seconds!",
+      "hi": "विधि 1: 1-वर्ष ब्याज से दर व मूलधन: `a = 33`, `b = 1` ⇒ दर भिन्न $= 1/33$ ⇒ $P \\times \\frac{1}{33} = 33 \\implies P = 33^2 =$ **1089**।\n\nविधि 2: सीधा सूत्र P = a² / b (2 sec): गोल्डन सूत्र $P = \\frac{a^2}{b} = \\frac{33^2}{1} =$ **1089**!"
     },
     "correctIndexHi": 1
   },

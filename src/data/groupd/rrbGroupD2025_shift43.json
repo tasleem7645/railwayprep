@@ -1353,10 +1353,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Single Change",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (8,400) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (8,400) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**8,400**).",
+      "keyConcept": "New Savings = Old Savings − Expenditure Increase",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Income − New Expenditure",
+            "hi": "विधि 1: आय − नया व्यय"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Exp $= 75\\%$ of $48000 = 36,000$; Old Sav $= 12,000$.\nNew Exp $= 36000 + 3600 = 39,600 \\implies$ Sav $= 48000 - 39600 = \\mathbf{Rs.8,400}$.",
+            "hi": "व्यय $= 36,000$; पुरानी बचत $= 12,000$।\nव्यय 10% (`+3,600`) बढ़ा ⇒ नई बचत $= 12,000 - 3,600 = \\mathbf{Rs.8,400}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Save Ratio Direct Subtract (4 sec)",
+            "hi": "विधि 2: बचत % सीधे घटाएं (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Exp `+10% of 75% = +7.5%`! So Savings % drops from `25%` to `25 − 7.5 = 17.5%` of 48,000 = `4800 + 3600` = **₹8,400**!",
+            "hi": "व्यय में `+7.5%` वृद्धि ⇒ नई बचत $= 25 - 7.5 = 17.5\\%$ ($= 25\\% - 7.5\\%$) ⇒ **₹8,400**!"
+          }
+        }
+      ],
+      "en": "Method 1: Income − New Expenditure: Exp $= 75\\%$ of $48000 = 36,000$; Old Sav $= 12,000$.\nNew Exp $= 36000 + 3600 = 39,600 \\implies$ Sav $= 48000 - 39600 = \\mathbf{Rs.8,400}$.\n\nMethod 2: Save Ratio Direct Subtract (4 sec): Exp `+10% of 75% = +7.5%`! So Savings % drops from `25%` to `25 − 7.5 = 17.5%` of 48,000 = `4800 + 3600` = **₹8,400**!",
+      "hi": "विधि 1: आय − नया व्यय: व्यय $= 36,000$; पुरानी बचत $= 12,000$।\nव्यय 10% (`+3,600`) बढ़ा ⇒ नई बचत $= 12,000 - 3,600 = \\mathbf{Rs.8,400}$।\n\nविधि 2: बचत % सीधे घटाएं (4 sec): व्यय में `+7.5%` वृद्धि ⇒ नई बचत $= 25 - 7.5 = 17.5\\%$ ($= 25\\% - 7.5\\%$) ⇒ **₹8,400**!"
     }
   },
   {
@@ -1523,10 +1551,51 @@
     "correctIndexHi": 1,
     "officialHiIndex": 3,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Recurring Decimals",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (120) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (120) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option B (120). Note: PDF OCR truncated the specific recurring decimal value.",
+      "keyConcept": "Recurring Decimal to Co-prime p/q Form Rule",
+      "trapAlert": {
+        "en": "Source OCR Notice: The exact recurring decimal number in the prompt was lost when adjacent camp-DI text overlapped during PDF extraction. Official key verifies Option B (`120`).",
+        "hi": "स्रोत OCR सूचना: मूल आवर्ती दशमलव मान PDF निष्कर्षण में पास के DI प्रश्न के पाठ से दब गया है। आधिकारिक कुंजी के अनुसार सही उत्तर विकल्प B (**120**) है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Standard Recurring Decimal p/q Rule",
+            "hi": "विधि 1: आवर्ती दशमलव को p/q भिन्न में बदलने का नियम"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "formula": "$0.a\\overline{b} = \\frac{ab - a}{90}$",
+          "steps": {
+            "en": "1) Write complete digits without bar minus non-repeating digits in numerator; place as many `9`s as repeating digits followed by as many `0`s as non-repeating decimal digits in denominator.\n2) Reduce $\\frac{a}{b}$ by dividing GCD so $\\gcd(a,b)=1$, then evaluate target expression. Verified Official Answer: **120 (Option B)**.",
+            "hi": "1) अंश = दशमलव के बाद पूरी संख्या − बिना बार वाले अंक; हर = जितने बार वाले अंक उतने `9` व बिना बार वाले अंकों जितने `0`।\n2) म.स. से काटकर सह-अभाज्य $\\frac{a}{b}$ बनाएँ। आधिकारिक कुंजी उत्तर: **120 (विकल्प B)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Quick GCD Simplification Check",
+            "hi": "विधि 2: सह-अभाज्य सरलीकरण जाँच"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Always verify $\\gcd(a, b) = 1$ before substituting into $a + b$ or similar linear expression — forgetting to reduce fraction causes direct error. Verified Answer: **120**.",
+            "hi": "मान निकालने से पहले $\\gcd(a, b) = 1$ अवश्य जाँचें। आधिकारिक उत्तर कुंजी: **120**।"
+          }
+        }
+      ],
+      "en": "Method 1: Standard Recurring Decimal p/q Rule: 1) Write complete digits without bar minus non-repeating digits in numerator; place as many `9`s as repeating digits followed by as many `0`s as non-repeating decimal digits in denominator.\n2) Reduce $\\frac{a}{b}$ by dividing GCD so $\\gcd(a,b)=1$, then evaluate target expression. Verified Official Answer: **120 (Option B)**.\n\nMethod 2: Quick GCD Simplification Check: Always verify $\\gcd(a, b) = 1$ before substituting into $a + b$ or similar linear expression — forgetting to reduce fraction causes direct error. Verified Answer: **120**.",
+      "hi": "विधि 1: आवर्ती दशमलव को p/q भिन्न में बदलने का नियम: 1) अंश = दशमलव के बाद पूरी संख्या − बिना बार वाले अंक; हर = जितने बार वाले अंक उतने `9` व बिना बार वाले अंकों जितने `0`।\n2) म.स. से काटकर सह-अभाज्य $\\frac{a}{b}$ बनाएँ। आधिकारिक कुंजी उत्तर: **120 (विकल्प B)**।\n\nविधि 2: सह-अभाज्य सरलीकरण जाँच: मान निकालने से पहले $\\gcd(a, b) = 1$ अवश्य जाँचें। आधिकारिक उत्तर कुंजी: **120**।"
     }
   },
   {

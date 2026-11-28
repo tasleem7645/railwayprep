@@ -877,10 +877,38 @@
     "correctIndexHi": 3,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • 3-Year Difference",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (₹2,50,000) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (₹2,50,000) सही उत्तर है।"
+      "approach": "Official Answer: Option D (**₹2,50,000**).",
+      "keyConcept": "Diff₃ Formula: P × (18/100)² × (318/100) = ₹25,758 ⇒ Use Option Multiples!",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: 3-Year Difference Formula",
+            "hi": "विधि 1: 3-वर्ष (CI−SI) अंतर सूत्र"
+          },
+          "timeTag": "18 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "$P \\times \\frac{324}{10000} \\times \\frac{318}{100} = 25758$.\nNote `324 × 318 = 103,032`, and `25,758 × 4 = 103,032`! Thus $P = \\frac{1000000}{4} =$ **₹2,50,000**.",
+            "hi": "$P \\times \\frac{324 \\times 318}{10^6} = 25758$। देखें `25,758 × 4 = 1,03,032` (`= 324 × 318`), अतः $P = 10^6 ÷ 4 =$ **₹2,50,000**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Approx 10% Diff Estimate + Quarter Check (4 sec)",
+            "hi": "विधि 2: 10.3% सन्निकटन + 4 गुना जांच (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Roughly `3.24% × 3.18 ≈ 10.3%` (`≈ 1/10`). Wait: `25,758 × 10 ≈ 2.5 lakh` ⇒ Exact check **₹2,50,000** (`3.5L` gives `~36k`, `3L` gives `~30.9k`)!",
+            "hi": "लगभग दर अंतर `3.24 × 3.18 ≈ 10.3%`। `25,758 ÷ 0.103 ≈` सीधा **₹2,50,000** (`3L` पर `30.9k+` होगा)!"
+          }
+        }
+      ],
+      "en": "Method 1: 3-Year Difference Formula: $P \\times \\frac{324}{10000} \\times \\frac{318}{100} = 25758$.\nNote `324 × 318 = 103,032`, and `25,758 × 4 = 103,032`! Thus $P = \\frac{1000000}{4} =$ **₹2,50,000**.\n\nMethod 2: Approx 10% Diff Estimate + Quarter Check (4 sec): Roughly `3.24% × 3.18 ≈ 10.3%` (`≈ 1/10`). Wait: `25,758 × 10 ≈ 2.5 lakh` ⇒ Exact check **₹2,50,000** (`3.5L` gives `~36k`, `3L` gives `~30.9k`)!",
+      "hi": "विधि 1: 3-वर्ष (CI−SI) अंतर सूत्र: $P \\times \\frac{324 \\times 318}{10^6} = 25758$। देखें `25,758 × 4 = 1,03,032` (`= 324 × 318`), अतः $P = 10^6 ÷ 4 =$ **₹2,50,000**।\n\nविधि 2: 10.3% सन्निकटन + 4 गुना जांच (4 sec): लगभग दर अंतर `3.24 × 3.18 ≈ 10.3%`। `25,758 ÷ 0.103 ≈` सीधा **₹2,50,000** (`3L` पर `30.9k+` होगा)!"
     }
   },
   {
@@ -1183,10 +1211,56 @@
     "correctIndexHi": 1,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option B is verified.",
-      "keyConcept": "Mathematics • Percentage Increase/Decrease",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option B (increase by ₹1,752) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प B (₹1,752 की वृद्धि होगी) सही उत्तर है।"
+      "approach": "Official Answer: Option B (**increase by ₹1,752**).",
+      "keyConcept": "Direct Change Law: ΔSavings = ΔIncome − ΔExpenditure",
+      "optionTrick": {
+        "en": "Notice net $\\%$ change in income = $+36\\%$, while expenditure change on whole income = $-\\frac{80}{100} \\times 40\\%$. That gives direct Net Factor $= 4\\%$ of ₹43,800 $= \\mathbf{Rs.1,752}$!",
+        "hi": "आय वृद्धि $= +36\\%$ तथा आय के सापेक्ष व्यय वृद्धि $= 80\\% \\times 40\\% = 32\\%$ — दोनों का अंतर ही ₹43,800 पर सीधी वृद्धि ($\\mathbf{Rs.1,752}$) है!"
+      },
+      "trapAlert": {
+        "en": "Never waste 60 seconds calculating New Income and New Expenditure first! Only compute ΔI and ΔE and take ΔS = ΔI − ΔE (positive = increase, negative = decrease).",
+        "hi": "पुरानी-नई आय अलग से निकालकर 60 सेकंड बर्बाद न करें; सीधे $\\Delta\\text{बचत} = \\Delta\\text{आय} - \\Delta\\text{व्यय}$ सूत्र से चिह्न (+ वृद्धि / − कमी) तय करें।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Basic Income-Expenditure Table",
+            "hi": "विधि 1: बेसिक आय-व्यय तालिका"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "40 sec",
+          "tone": "teal",
+          "formula": "$\\text{Savings} = \\text{Income} - \\text{Expenditure}$",
+          "steps": {
+            "en": "1) Old Savings $= 20\\%$ of ₹43,800 = **₹8,760**; Old Expenditure $= 80\\%$ of ₹43,800 = **₹35,040**.\n2) New Income ($+36\\%$) = **₹59,568**; New Expenditure ($+40\\%$) = **₹49,056**.\n3) New Savings $= Rs.59,568 - Rs.49,056 = Rs.10,512$.\n4) Change $= Rs.10,512 - Rs.8,760 \\Rightarrow$ **Increase of ₹1,752**.",
+            "hi": "1) पुरानी बचत $= Rs.43,800$ का $20\\% = \\mathbf{Rs.8,760}$ तथा पुराना व्यय $= \\mathbf{Rs.35,040}$।\n2) नई आय ($+36\\%$) $= Rs.59,568$ तथा नया व्यय ($+40\\%$) $= Rs.49,056$।\n3) नई बचत $= Rs.59,568 - Rs.49,056 = Rs.10,512$।\n4) बचत में अंतर $\\Rightarrow$ **₹1,752 की वृद्धि**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Smart ΔS = ΔI − ΔE (12 sec)",
+            "hi": "विधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "12 sec",
+          "tone": "emerald",
+          "formula": "$\\Delta S = I\\cdot p\\% - E\\cdot q\\%$",
+          "steps": {
+            "en": "1) $\\Delta I = +36\\%$ of ₹43,800 = **+₹15,768**.\n2) $E = 80\\% \\times Rs.43,800 = Rs.35,040$, so $\\Delta E = +40\\% \\times Rs.35,040 = +Rs.14,016$.\n3) $\\Delta S = Rs.15,768 - Rs.14,016 = +Rs.1,752 \\Rightarrow$ **Increase by ₹1,752**.",
+            "hi": "1) सीधे $\\Delta \\text{आय} = Rs.43,800$ का $+36\\% = +Rs.15,768$।\n2) व्यय ₹35,040 का $\\Delta \\text{व्यय} = +40\\% = +Rs.14,016$।\n3) $\\Delta \\text{बचत} = Rs.15,768 - Rs.14,016 = \\mathbf{Rs.1,752}$ की **वृद्धि**।"
+          }
+        }
+      ],
+      "en": "Method 1: Basic Income-Expenditure Table: 1) Old Savings $= 20\\%$ of ₹43,800 = **₹8,760**; Old Expenditure $= 80\\%$ of ₹43,800 = **₹35,040**.\n2) New Income ($+36\\%$) = **₹59,568**; New Expenditure ($+40\\%$) = **₹49,056**.\n3) New Savings $= Rs.59,568 - Rs.49,056 = Rs.10,512$.\n4) Change $= Rs.10,512 - Rs.8,760 \\Rightarrow$ **Increase of ₹1,752**.\n\nMethod 2: Smart ΔS = ΔI − ΔE (12 sec): 1) $\\Delta I = +36\\%$ of ₹43,800 = **+₹15,768**.\n2) $E = 80\\% \\times Rs.43,800 = Rs.35,040$, so $\\Delta E = +40\\% \\times Rs.35,040 = +Rs.14,016$.\n3) $\\Delta S = Rs.15,768 - Rs.14,016 = +Rs.1,752 \\Rightarrow$ **Increase by ₹1,752**.",
+      "hi": "विधि 1: बेसिक आय-व्यय तालिका: 1) पुरानी बचत $= Rs.43,800$ का $20\\% = \\mathbf{Rs.8,760}$ तथा पुराना व्यय $= \\mathbf{Rs.35,040}$।\n2) नई आय ($+36\\%$) $= Rs.59,568$ तथा नया व्यय ($+40\\%$) $= Rs.49,056$।\n3) नई बचत $= Rs.59,568 - Rs.49,056 = Rs.10,512$।\n4) बचत में अंतर $\\Rightarrow$ **₹1,752 की वृद्धि**।\n\nविधि 2: स्मार्ट Δबचत = Δआय − Δव्यय ट्रिक: 1) सीधे $\\Delta \\text{आय} = Rs.43,800$ का $+36\\% = +Rs.15,768$।\n2) व्यय ₹35,040 का $\\Delta \\text{व्यय} = +40\\% = +Rs.14,016$।\n3) $\\Delta \\text{बचत} = Rs.15,768 - Rs.14,016 = \\mathbf{Rs.1,752}$ की **वृद्धि**।"
     }
   },
   {
@@ -1421,10 +1495,38 @@
     "correctIndexHi": 2,
     "officialHiIndex": 2,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option C is verified.",
-      "keyConcept": "Mathematics • Two Successive Changes",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option C (₹45,680) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प C (₹45,680) सही उत्तर है।"
+      "approach": "Official Answer: Option C (**₹45,680**).",
+      "keyConcept": "90% Remaining × 50% Left = 45% (or C9 = 9 Shortcut!)",
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: Remaining Percent = 45%",
+            "hi": "विधि 1: शेष प्रतिशत = 45%"
+          },
+          "timeTag": "15 sec",
+          "tone": "teal",
+          "steps": {
+            "en": "Left $= 0.90 \\times 0.50 = 45\\% = \\frac{9}{20}$.\n$S = 20556 \\times \\frac{20}{9} = 2284 \\times 20 = \\mathbf{Rs.45,680}$.",
+            "hi": "शेष $= 0.90 \\times 0.50 = 45\\% = \\frac{9}{20}$।\n$S = 20556 \\times \\frac{20}{9} = 2284 \\times 20 = \\mathbf{Rs.45,680}$।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Double First + C9 Check (4 sec)",
+            "hi": "विधि 2: पहले दोगुना + 9 से भाग (4 sec)"
+          },
+          "timeTag": "4 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "Before 50% spend he had `2 × 20,556 = 41,112` (`= 90%`). Divide by 9 (`C9(41112) = 9`, wait check exact unit digits: `41112 / 0.9 = 45,680`) ⇒ **₹45,680**!",
+            "hi": "50% से पहले राशि $= 2 \\times 20556 = 41,112$ (`= 90%`)। $41,112 \\div 9 = 4568 \\implies \\mathbf{Rs.45,680}$!"
+          }
+        }
+      ],
+      "en": "Method 1: Remaining Percent = 45%: Left $= 0.90 \\times 0.50 = 45\\% = \\frac{9}{20}$.\n$S = 20556 \\times \\frac{20}{9} = 2284 \\times 20 = \\mathbf{Rs.45,680}$.\n\nMethod 2: Double First + C9 Check (4 sec): Before 50% spend he had `2 × 20,556 = 41,112` (`= 90%`). Divide by 9 (`C9(41112) = 9`, wait check exact unit digits: `41112 / 0.9 = 45,680`) ⇒ **₹45,680**!",
+      "hi": "विधि 1: शेष प्रतिशत = 45%: शेष $= 0.90 \\times 0.50 = 45\\% = \\frac{9}{20}$।\n$S = 20556 \\times \\frac{20}{9} = 2284 \\times 20 = \\mathbf{Rs.45,680}$।\n\nविधि 2: पहले दोगुना + 9 से भाग (4 sec): 50% से पहले राशि $= 2 \\times 20556 = 41,112$ (`= 90%`)। $41,112 \\div 9 = 4568 \\implies \\mathbf{Rs.45,680}$!"
     }
   },
   {
@@ -1591,10 +1693,51 @@
     "correctIndexHi": 3,
     "officialHiIndex": 1,
     "solution": {
-      "approach": "RRB Official Level-1 CEN 09/2025 Answer Key: Option D is verified.",
-      "keyConcept": "Mathematics • Comparative Trend",
-      "en": "Official RRB Group D Level-1 CEN 09/2025 Answer Key: Option D (January) is the verified correct answer.",
-      "hi": "रेलवे भर्ती बोर्ड (RRB) ग्रुप डी Level-1 CEN 09/2025 आधिकारिक उत्तर कुंजी: विकल्प D (जनवरी) सही उत्तर है।"
+      "approach": "Official RRB Answer Key: Option D (January). Note: Accompanying DI Chart/Table image was truncated in source PDF.",
+      "keyConcept": "Data Interpretation Percentage Comparison Formula",
+      "trapAlert": {
+        "en": "Source Data Notice: The original RRB exam line-graph/table visual for this DI question was not embedded in the extracted PDF text. Official Answer Key is Option D (January).",
+        "hi": "स्रोत सूचना: इस Data Interpretation प्रश्न से जुड़ा मूल ग्राफ़/सारणी चित्र स्रोत PDF से निष्कर्षित नहीं हो सका। आधिकारिक RRB उत्तर कुंजी के अनुसार सही उत्तर विकल्प D (जनवरी) है।"
+      },
+      "methods": [
+        {
+          "id": "basic",
+          "title": {
+            "en": "Method 1: DI Percentage Formula Framework",
+            "hi": "विधि 1: DI प्रतिशत तुलना सूत्र"
+          },
+          "audience": {
+            "en": "Foundation",
+            "hi": "बेसिक छात्र"
+          },
+          "timeTag": "DI Rule",
+          "tone": "teal",
+          "formula": "$\\%\\text{ More} = \\frac{B - A}{A} \\times 100$",
+          "steps": {
+            "en": "1) In DI percentage-excess / budget-share problems, always identify the **Base** after \"than / of\" in denominator: $\\frac{\\text{Difference}}{\\text{Reference Base}} \\times 100$.\n2) Official RRB CEN 09/2025 Verified Answer: **Option D (January)**.",
+            "hi": "1) ग्राफ़ या सारणी आधारित प्रतिशत प्रश्नों में \"से अधिक / तुलना में\" वाली आधार संख्या को हर (denominator) में रखकर $\\frac{\\text{अंतर}}{\\text{आधार}} \\times 100$ लगाते हैं।\n2) आधिकारिक RRB CEN 09/2025 उत्तर कुंजी: **विकल्प D (जनवरी)**।"
+          }
+        },
+        {
+          "id": "smart",
+          "title": {
+            "en": "Method 2: Graph Visual Ratio Estimation Trick",
+            "hi": "विधि 2: ग्राफ़ अनुपात त्वरित तुलना"
+          },
+          "audience": {
+            "en": "Topper Speed",
+            "hi": "टॉपर गति"
+          },
+          "timeTag": "5 sec",
+          "tone": "emerald",
+          "steps": {
+            "en": "For Pie Charts ($100\\% = 360^\\circ$) or Bar/Line comparisons, convert values into simplified ratios before multiplying by 100 or Total Budget. Verified Key: **January**.",
+            "hi": "पाई चार्ट ($100\\% = 360^\\circ$) या लाइन ग्राफ़ में मानों को पहले सरल अनुपात में बदलें, फिर कुल बजट से गुणा करें। प्रमाणित उत्तर: **जनवरी**।"
+          }
+        }
+      ],
+      "en": "Method 1: DI Percentage Formula Framework: 1) In DI percentage-excess / budget-share problems, always identify the **Base** after \"than / of\" in denominator: $\\frac{\\text{Difference}}{\\text{Reference Base}} \\times 100$.\n2) Official RRB CEN 09/2025 Verified Answer: **Option D (January)**.\n\nMethod 2: Graph Visual Ratio Estimation Trick: For Pie Charts ($100\\% = 360^\\circ$) or Bar/Line comparisons, convert values into simplified ratios before multiplying by 100 or Total Budget. Verified Key: **January**.",
+      "hi": "विधि 1: DI प्रतिशत तुलना सूत्र: 1) ग्राफ़ या सारणी आधारित प्रतिशत प्रश्नों में \"से अधिक / तुलना में\" वाली आधार संख्या को हर (denominator) में रखकर $\\frac{\\text{अंतर}}{\\text{आधार}} \\times 100$ लगाते हैं।\n2) आधिकारिक RRB CEN 09/2025 उत्तर कुंजी: **विकल्प D (जनवरी)**।\n\nविधि 2: ग्राफ़ अनुपात त्वरित तुलना: पाई चार्ट ($100\\% = 360^\\circ$) या लाइन ग्राफ़ में मानों को पहले सरल अनुपात में बदलें, फिर कुल बजट से गुणा करें। प्रमाणित उत्तर: **जनवरी**।"
     }
   },
   {
